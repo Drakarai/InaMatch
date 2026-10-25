@@ -19,13 +19,14 @@ Otros comandos: `npm test` (tests de las reglas y los datos), `npm run build` (g
 
 ## Menú
 
-Al estilo FIFA: a la izquierda las **temporadas** (IE1, IE2, IE3) hacen de ligas y en el centro salen los escudos de
-sus equipos con su media en estrellas. A la derecha están **Tu equipo** y el **Rival**.
-- Pulsa un equipo para ponerlo en el hueco que pone "◀ eligiendo" (primero el tuyo, luego el rival). Pulsa un hueco para
-  volver a cambiarlo.
-- Se pueden mezclar temporadas (Raimon de IE1 contra Inazuma Japón de IE3, por ejemplo).
-- **Rival aleatorio** elige cualquier equipo de cualquier temporada. La elección se recuerda al volver al menú.
-- La media es la de los atributos de los titulares (tiro, físico, control, defensa, velocidad y agallas).
+Como el "Partido clásico" de FIFA: una columna para tu equipo (**LOCAL**) y otra para la CPU (**VISITANTE**).
+- Arriba, las **temporadas** (IE1, IE2, IE3) hacen de ligas. Abajo sale el logo de la temporada.
+- En la ficha: escudo, estrellas y medias **ATA / MED / DEF** de los titulares (delanteros: tiro, control y velocidad;
+  medios: control, físico, velocidad y tiro; defensas y portero: defensa, físico y agallas).
+- **◀ ▶** (o la rueda del ratón sobre la ficha) cambian de equipo. Con teclado: flechas izquierda/derecha para el equipo,
+  arriba/abajo para la temporada, **Tab** para pasar a la otra columna y **Enter** para seguir.
+- En el centro: **Cambiar lados** y **Rival aleatorio** (de cualquier temporada). Se pueden mezclar temporadas.
+- La elección se recuerda al volver al menú.
 
 ## Controles
 
@@ -94,9 +95,9 @@ docs/              notas de referencia del juego original
 Los equipos se generan con `python3 -I tools/wiki/teams.py` a partir de la
 [wiki inglesa](https://inazuma-eleven.fandom.com/), separados por temporada (cada id empieza por `ie1-`, `ie2-` o `ie3-`):
 - **IE1 (14):** Raimon, Royal Academy, Zeus, Occult, Wild, Brain, Otaku, Shuriken, Farm, Kirkwood, Inazuma Eleven…
-- **IE2 (20):** Raimon II, Jóvenes Inazuma, la Academia Alius (Génesis, Caos, Epsilon, Prominence, Diamond, Tormenta de
+- **IE2 (20):** Raimon II, Jóvenes Inazuma, la Academia Alius (Génesis, Caos, Épsilon, Prominence, Polvo de Diamantes, Tormenta de
   Géminis…), los Emperadores Oscuros, Royal Academy Redux, los institutos del viaje (Alpino, Mar de Árboles, Fauxshore…).
-- **IE3 (21):** las selecciones del Fútbol Frontier Internacional, Neo Japón, Ogro, Team K, el Equipo Garshield, los
+- **IE3 (21):** las selecciones del Fútbol Frontier Internacional, Neo Japón, Ogro, el Equipo D, el Zoolan Team (equipo de Garshield), los
   equipos del cielo y del infierno, y el Mega Inazuma Eleven.
 
 De dónde sale cada cosa:
@@ -106,8 +107,14 @@ De dónde sale cada cosa:
   temporada (si falta, la del juego más cercano; 4 jugadores sin datos llevan atributos estimados por su posición).
 - **Técnicas:** potencia y coste de IE3 de `Module:WazaData` (o de IE2 si no salen en IE3), con el nombre en español del catálogo.
 - **Formaciones:** nombre y distribución (F-D Lion 4-4-2, F-Kingdom 4-3-3…); el juego coloca a los jugadores a partir de la distribución.
-- **Nombre del equipo en español:** el enlace entre wikis, cuando lo hay. Si no, se queda el inglés.
+- **Nombre del equipo en español:** el enlace con la [wiki española](https://inazuma.fandom.com/es/). Los que no lo
+  tienen, o se llaman distinto en los juegos (Polvo de Diamantes, Servicio Secreto, Equipo D, Os Reis…), están en
+  `NAME_ES` dentro del script.
 - **Titulares:** portero y las líneas de la formación por orden de dorsal. Si faltan jugadores de una posición, entra el que mejor encaja por atributos.
+
+**Escudos:** `python3 -I tools/wiki/emblems.py` baja el de cada equipo de la wiki (el de los juegos de DS si lo hay)
+a `src/assets/pack/emblems/`. Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
+uno provisional con las siglas.
 
 Lo que no viene en la wiki se pone a mano en el script: los colores de los equipos más conocidos (el resto lleva colores
 sacados de su nombre) y las siglas.

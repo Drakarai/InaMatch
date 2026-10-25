@@ -1,12 +1,12 @@
 import Phaser from 'phaser';
-import { COLORS, GAME_H, GAME_W, hex } from '../config';
+import { GAME_H, GAME_W, hex } from '../config';
 import { TEAMS } from '../data';
 import { SEASONS, getSeason, seasonOf } from '../data/seasons';
 import type { TeamData } from '../data/types';
 import { defaultLineup } from '../engine/lineup';
-import { ratingStars, teamRating } from '../engine/rating';
+import { lineRatings, ratingStars, teamRating } from '../engine/rating';
 import { texKey } from '../gfx/placeholders';
-import { Button, panelFrame, text } from '../ui/widgets';
+import { Button, text } from '../ui/widgets';
 
 export function drawBackdrop(scene: Phaser.Scene): void {
   const g = scene.add.graphics();
@@ -16,7 +16,7 @@ export function drawBackdrop(scene: Phaser.Scene): void {
 }
 
 /** Estrellas de valoración (con medias estrellas), al estilo FIFA. `bg` es el color de fondo, para tapar la mitad vacía. */
-export function drawStars(g: Phaser.GameObjects.Graphics, x: number, y: number, value: number, size: number, bg: number): void {
+export function drawStars(g: Phaser.GameObjects.Graphics, x: number, y: number, value: number, size: number, bg: number, empty = 0x3a4a5e): void {
   const pts = (cx: number, cy: number, r: number) =>
     Array.from({ length: 10 }, (_, i) => {
       const a = -Math.PI / 2 + (i * Math.PI) / 5;
@@ -26,14 +26,14 @@ export function drawStars(g: Phaser.GameObjects.Graphics, x: number, y: number, 
   for (let i = 0; i < 5; i++) {
     const cx = x + i * size * 1.15 + size / 2;
     const fill = Math.min(1, Math.max(0, value - i));
-    g.fillStyle(0x3a4a5e).fillPoints(pts(cx, y, size / 2), true);
+    g.fillStyle(empty).fillPoints(pts(cx, y, size / 2), true);
     if (fill > 0) {
-      g.fillStyle(0xffd23f).fillPoints(pts(cx, y, size / 2), true);
+      g.fillStyle(0xe8c46a).fillPoints(pts(cx, y, size / 2), true);
       if (fill < 1) {
         // media estrella: se tapa la mitad derecha y se vuelve a pintar vacía
         g.fillStyle(bg).fillRect(cx, y - size / 2 - 1, size / 2 + 1, size + 2);
-        g.fillStyle(0x3a4a5e).fillPoints(pts(cx, y, size / 2), true);
-        g.fillStyle(0xffd23f).fillPoints(
+        g.fillStyle(empty).fillPoints(pts(cx, y, size / 2), true);
+        g.fillStyle(0xe8c46a).fillPoints(
           pts(cx, y, size / 2).map((p) => new Phaser.Geom.Point(Math.min(p.x, cx), p.y)),
           true,
         );
@@ -42,186 +42,325 @@ export function drawStars(g: Phaser.GameObjects.Graphics, x: number, y: number, 
   }
 }
 
-type Slot = 'home' | 'away';
+type Side = 'home' | 'away';
 
 interface Selection {
-  season: string;
   home: string;
   away: string;
-  active: Slot;
+  focus: Side;
 }
 
-const GRID = { x: 248, y: 96, cols: 5, w: 144, h: 104, gap: 8 };
-const CARD_BG = 0x24466f;
+// Pantalla "Partido clásico" de FIFA: una columna por equipo, con las temporadas como ligas.
+const COL = { home: 360, away: 920 } as const;
+const COL_W = 360;
+const CHIPS_Y = 112;
+const CARD = { y: 156, h: 368 };
+const LEAGUE = { y: 536, h: 104 };
+const CARD_BG = 0x161d29;
+const FOCUS = 0x3fd6c6;
+const SIDE_COLOR = { home: 0x2d6fd8, away: 0xd23a4a } as const;
+
+const seasonsWithTeams = () => SEASONS.filter((s) => TEAMS.some((t) => seasonOf(t) === s.id));
+const teamsOf = (season: string) => TEAMS.filter((t) => seasonOf(t) === season);
+const teamById = (id: string) => TEAMS.find((t) => t.id === id)!;
 
 export class MenuScene extends Phaser.Scene {
   private sel!: Selection;
-  private grid!: Phaser.GameObjects.Container;
-  private seasonButtons: { id: string; bg: Phaser.GameObjects.Graphics; draw: (on: boolean) => void }[] = [];
-  private slots!: Record<Slot, Phaser.GameObjects.Container>;
+  private columns!: Record<Side, Phaser.GameObjects.Container>;
 
   constructor() {
     super('menu');
   }
 
   create(): void {
-    drawBackdrop(this);
     const saved = this.registry.get('menuSelection') as Selection | undefined;
     this.sel = saved && TEAMS.some((t) => t.id === saved.home) && TEAMS.some((t) => t.id === saved.away) ? { ...saved } : this.defaults();
 
-    text(this, 28, 22, 'InaMatch', 40, '#ffd23f', { strokeThickness: 8 });
-    text(this, 220, 40, 'Elige temporada y equipos', 18, '#d8e8ff');
-    text(this, GAME_W - 24, 40, 'Proyecto de fans sin ánimo de lucro · Inazuma Eleven es una marca de LEVEL-5', 11, '#9fb8d8').setOrigin(1, 0.5);
-
-    this.buildSeasons();
-    this.grid = this.add.container(0, 0);
-    this.slots = { home: this.add.container(1018, 96), away: this.add.container(1018, 336) };
-    this.renderGrid();
-    this.renderSlots();
-
-    new Button(this, 1138, 600, 'Rival aleatorio', () => this.randomRival(), { w: 220, h: 40, size: 16, color: 0x51647d });
-    new Button(this, 1138, 664, 'Formación  ▶', () => this.next(), { w: 220, h: 56, size: 24, color: 0xe2552c });
+    this.drawStadium();
+    this.drawHeader();
+    this.columns = { home: this.add.container(0, 0), away: this.add.container(0, 0) };
+    this.renderColumn('home');
+    this.renderColumn('away');
+    this.drawCenter();
+    this.bindKeys();
   }
 
   private defaults(): Selection {
     const home = TEAMS.find((t) => t.id === 'ie3-inazuma-japan') ?? TEAMS[0];
     const away = TEAMS.find((t) => t.id === 'ie3-desert-lion') ?? TEAMS.find((t) => t !== home) ?? home;
-    return { season: seasonOf(home), home: home.id, away: away.id, active: 'home' };
+    return { home: home.id, away: away.id, focus: 'home' };
   }
 
-  // ------------------------------------------------------------ temporadas
+  // ----------------------------------------------------------------- fondo
 
-  private buildSeasons(): void {
+  /** Estadio de noche: degradado oscuro, focos, césped en perspectiva y un rayo dorado detrás del visitante. */
+  private drawStadium(): void {
     const g = this.add.graphics();
-    panelFrame(g, 20, 96, 210, 560, COLORS.panelDark);
-    text(this, 36, 108, 'Temporadas', 18, '#ffe28a');
-    const seasons = SEASONS.filter((s) => TEAMS.some((t) => seasonOf(t) === s.id));
+    g.fillGradientStyle(0x0c121c, 0x0c121c, 0x111a22, 0x111a22).fillRect(0, 0, GAME_W, GAME_H);
+    // gradas y focos
+    for (let i = 0; i < 8; i++) g.fillStyle(0x9fd7ff, 0.012).fillEllipse(GAME_W / 2, 150, 500 + i * 110, 90 + i * 22);
+    for (let i = 0; i < 12; i++) {
+      const x = 200 + i * 80;
+      const y = 84 + Math.abs(i - 5.5) * 6;
+      g.fillStyle(0xdfe9ff, 0.08).fillCircle(x, y, 7);
+      g.fillStyle(0xffffff, 0.6).fillCircle(x, y, 2);
+    }
+    // césped en perspectiva con niebla verdosa
+    g.fillGradientStyle(0x0f241d, 0x0f241d, 0x1b3a2c, 0x1b3a2c, 1).fillRect(0, 430, GAME_W, GAME_H - 430);
+    g.lineStyle(1, 0x5f9a7e, 0.12);
+    for (let i = -8; i <= 8; i++) g.lineBetween(GAME_W / 2 + i * 40, 430, GAME_W / 2 + i * 190, GAME_H);
+    for (let y = 450; y < GAME_H; y += (y - 410) * 0.35) g.lineBetween(0, y, GAME_W, y);
+    g.fillStyle(0x58c49a, 0.06).fillEllipse(GAME_W / 2, 470, 1500, 160);
+    // rayo de Inazuma, enorme y casi transparente, a la derecha
+    g.fillStyle(0xd9a93a, 0.1);
+    g.fillPoints(
+      [
+        { x: 1060, y: -20 },
+        { x: 1300, y: -20 },
+        { x: 1170, y: 250 },
+        { x: 1290, y: 250 },
+        { x: 960, y: 760 },
+        { x: 1060, y: 380 },
+        { x: 940, y: 380 },
+      ].map((p) => new Phaser.Geom.Point(p.x, p.y)),
+      true,
+    );
+    // viñeta
+    g.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0.55, 0, 0.55, 0).fillRect(0, 0, 180, GAME_H);
+    g.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0, 0.55, 0, 0.55).fillRect(GAME_W - 180, 0, 180, GAME_H);
+    // LOCAL y VISITANTE en vertical, como HOME / AWAY
+    const side = (x: number, label: string) =>
+      this.add
+        .text(x, GAME_H / 2 + 20, label, { fontFamily: '"Arial Black", Arial, sans-serif', fontSize: '64px', color: '#ffffff' })
+        .setOrigin(0.5)
+        .setAngle(-90)
+        .setAlpha(0.22);
+    side(92, 'LOCAL');
+    side(GAME_W - 92, 'VISITANTE');
+  }
+
+  private drawHeader(): void {
+    text(this, 40, 26, 'InaMatch', 30, '#ffd23f', { strokeThickness: 6 });
+    const g = this.add.graphics();
+    g.lineStyle(1, 0xffffff, 0.35).lineBetween(222, 28, 222, 64);
+    text(this, 240, 32, 'Partido clásico', 22, '#ffffff', { strokeThickness: 0, fontStyle: 'bold' });
+    text(this, 416, 37, 'Elige equipos', 15, '#c9d3e0', { strokeThickness: 0 });
+    text(this, GAME_W - 30, 46, 'Proyecto de fans sin ánimo de lucro · Inazuma Eleven es una marca de LEVEL-5', 11, '#7f8fa6', {
+      strokeThickness: 0,
+    }).setOrigin(1, 0.5);
+  }
+
+  // --------------------------------------------------------------- columnas
+
+  private renderColumn(side: Side, slide = 0): void {
+    const c = this.columns[side];
+    c.removeAll(true);
+    const cx = COL[side];
+    const x0 = cx - COL_W / 2;
+    const team = teamById(this.sel[side]);
+    const season = seasonOf(team);
+    const focused = this.sel.focus === side;
+
+    // temporadas: pestañas con círculo marcado, como Masculino / Femenino
+    const seasons = seasonsWithTeams();
+    const chipW = (COL_W - (seasons.length - 1) * 8) / seasons.length;
     seasons.forEach((s, i) => {
-      const y = 146 + i * 82;
-      const count = TEAMS.filter((t) => seasonOf(t) === s.id).length;
-      const bg = this.add.graphics();
-      const draw = (on: boolean) => {
-        bg.clear();
-        bg.fillStyle(on ? 0xe2552c : 0x2c4f7a).fillRoundedRect(32, y, 186, 70, 10);
-        bg.lineStyle(2, on ? 0xffffff : COLORS.panelLine, on ? 1 : 0.6).strokeRoundedRect(32, y, 186, 70, 10);
-      };
-      text(this, 46, y + 10, s.short, 26, '#ffffff', { strokeThickness: 5 });
-      text(this, 104, y + 14, s.name.replace('Inazuma Eleven', 'Inazuma\nEleven'), 13, '#ffffff', { lineSpacing: 0 });
-      text(this, 46, y + 48, `${count} equipos`, 12, '#d8e8ff');
-      const zone = this.add.zone(32, y, 186, 70).setOrigin(0).setInteractive({ useHandCursor: true });
-      zone.on('pointerdown', () => {
-        this.sel.season = s.id;
-        this.renderGrid();
-      });
-      this.seasonButtons.push({ id: s.id, bg, draw });
-      draw(s.id === this.sel.season);
+      const x = x0 + i * (chipW + 8);
+      const on = s.id === season;
+      const g = this.add.graphics();
+      g.fillStyle(on ? 0x243042 : 0x161d29, 0.92).fillRoundedRect(x, CHIPS_Y - 17, chipW, 34, 8);
+      if (on) g.lineStyle(1, 0x46566c).strokeRoundedRect(x, CHIPS_Y - 17, chipW, 34, 8);
+      g.fillStyle(on ? 0x38c172 : 0x0b0f16).fillCircle(x + 20, CHIPS_Y, 8);
+      g.lineStyle(1, on ? 0x38c172 : 0x6b7a90).strokeCircle(x + 20, CHIPS_Y, 8);
+      if (on) g.lineStyle(2, 0xffffff).lineBetween(x + 16, CHIPS_Y, x + 19, CHIPS_Y + 3).lineBetween(x + 19, CHIPS_Y + 3, x + 24, CHIPS_Y - 3);
+      const label = text(this, x + 36, CHIPS_Y, s.short, 15, on ? '#ffffff' : '#a9b4c4', { strokeThickness: 0, fontStyle: 'bold' }).setOrigin(0, 0.5);
+      const zone = this.add.zone(x, CHIPS_Y - 17, chipW, 34).setOrigin(0).setInteractive({ useHandCursor: true });
+      zone.on('pointerdown', () => this.setSeason(side, s.id));
+      c.add([g, label, zone]);
     });
-  }
 
-  // --------------------------------------------------------------- equipos
-
-  private renderGrid(): void {
-    for (const b of this.seasonButtons) b.draw(b.id === this.sel.season);
-    this.grid.removeAll(true);
+    // ficha del equipo
     const g = this.add.graphics();
-    panelFrame(g, GRID.x - 10, GRID.y - 10, GRID.cols * (GRID.w + GRID.gap) + 12, 572, COLORS.panelDark);
-    this.grid.add(g);
-    const teams = TEAMS.filter((t) => seasonOf(t) === this.sel.season);
-    teams.forEach((team, i) => {
-      const x = GRID.x + (i % GRID.cols) * (GRID.w + GRID.gap);
-      const y = GRID.y + Math.floor(i / GRID.cols) * (GRID.h + GRID.gap);
-      this.grid.add(this.card(team, x, y));
-    });
-    if (teams.length === 0) this.grid.add(text(this, GRID.x + 380, GRID.y + 260, 'Sin equipos', 20).setOrigin(0.5));
-  }
+    g.fillStyle(CARD_BG, 0.96).fillRoundedRect(x0, CARD.y, COL_W, CARD.h, 6);
+    g.lineStyle(focused ? 2 : 1, focused ? FOCUS : 0x2b3646, focused ? 1 : 0.9).strokeRoundedRect(x0, CARD.y, COL_W, CARD.h, 6);
+    g.fillStyle(SIDE_COLOR[side]).fillRoundedRect(x0 + 14, CARD.y + 14, 44, 20, 4);
+    // la ficha entera: pulsar la enfoca, la rueda cambia de equipo (va debajo de las flechas)
+    const hit = this.add.zone(x0, CARD.y, COL_W, CARD.h).setOrigin(0).setInteractive();
+    hit.on('pointerdown', () => this.setFocus(side));
+    hit.on('wheel', (_p: Phaser.Input.Pointer, _dx: number, dy: number) => this.cycle(side, dy > 0 ? 1 : -1));
+    c.add([g, hit]);
+    c.add(text(this, x0 + 36, CARD.y + 24, side === 'home' ? 'TÚ' : 'CPU', 12, '#ffffff', { strokeThickness: 0, fontStyle: 'bold' }).setOrigin(0.5));
+    const list = teamsOf(season);
+    c.add(text(this, x0 + COL_W - 14, CARD.y + 24, `${list.indexOf(team) + 1}/${list.length}`, 12, '#7f8fa6', { strokeThickness: 0 }).setOrigin(1, 0.5));
+    const name = text(this, cx, CARD.y + 56, team.name, 24, '#ffffff', { strokeThickness: 0, fontStyle: 'bold' }).setOrigin(0.5);
+    for (let size = 24; name.width > COL_W - 40 && size > 14; ) name.setFontSize(--size);
+    c.add(name);
 
-  private card(team: TeamData, x: number, y: number): Phaser.GameObjects.Container {
-    const c = this.add.container(x, y);
-    const bg = this.add.graphics();
-    const isHome = this.sel.home === team.id;
-    const isAway = this.sel.away === team.id;
-    const draw = (hover: boolean) => {
-      bg.clear();
-      bg.fillStyle(hover ? 0x2f5a8c : CARD_BG).fillRoundedRect(0, 0, GRID.w, GRID.h, 8);
-      bg.fillStyle(hex(team.colors.accent)).fillRect(0, GRID.h - 5, GRID.w, 5);
-      const border = isHome ? 0x4fa3ff : isAway ? 0xff5a6a : 0x6f9fd6;
-      bg.lineStyle(isHome || isAway ? 3 : 1, border, isHome || isAway ? 1 : 0.5).strokeRoundedRect(0, 0, GRID.w, GRID.h, 8);
-    };
-    draw(false);
-    const emblem = this.add.image(GRID.w / 2, 28, texKey.emblem(team.id)).setDisplaySize(44, 44);
-    const name = text(this, GRID.w / 2, 54, team.name, 12, '#ffffff', { align: 'center', wordWrap: { width: GRID.w - 10 } }).setOrigin(0.5, 0);
-    if (name.height > 20) name.setFontSize(10).setY(51);
+    const ey = CARD.y + 170;
+    const glow = this.add.graphics();
+    glow.fillStyle(hex(team.colors.accent), 0.14).fillCircle(cx, ey, 92);
+    c.add(glow);
+    const emblem = this.add.image(cx, ey, texKey.emblem(team.id)).setDisplaySize(170, 170);
+    c.add(emblem);
+    if (slide) {
+      emblem.setX(cx + slide * 50).setAlpha(0);
+      this.tweens.add({ targets: emblem, x: cx, alpha: 1, duration: 160, ease: 'Cubic.out' });
+    }
+    for (const dir of [-1, 1]) {
+      const arrow = text(this, cx + dir * 140, ey, dir < 0 ? '◀' : '▶', 22, '#ffffff', { strokeThickness: 0 }).setOrigin(0.5);
+      arrow.setPadding(14, 20, 14, 20).setInteractive({ useHandCursor: true }).on('pointerdown', () => this.cycle(side, dir));
+      arrow.on('pointerover', () => arrow.setColor('#3fd6c6')).on('pointerout', () => arrow.setColor('#ffffff'));
+      c.add(arrow);
+    }
+
+    const rating = teamRating(team);
     const stars = this.add.graphics();
-    drawStars(stars, GRID.w / 2 - 38, GRID.h - 14, ratingStars(teamRating(team)), 13, CARD_BG);
-    c.add([bg, emblem, name, stars]);
-    if (isHome || isAway) c.add(text(this, 6, 4, isHome ? 'TÚ' : 'RIVAL', 10, isHome ? '#9fd0ff' : '#ffb0b0'));
-    c.setSize(GRID.w, GRID.h);
-    c.setInteractive(new Phaser.Geom.Rectangle(0, 0, GRID.w, GRID.h), Phaser.Geom.Rectangle.Contains);
-    c.input!.cursor = 'pointer';
-    c.on('pointerover', () => draw(true));
-    c.on('pointerout', () => draw(false));
-    c.on('pointerdown', () => this.choose(team));
-    return c;
+    drawStars(stars, cx - 62, CARD.y + 280, ratingStars(rating), 22, CARD_BG, 0x3c4656);
+    c.add(stars);
+    const lines = lineRatings(team);
+    (['att', 'mid', 'def'] as const).forEach((k, i) => {
+      const lx = cx + (i - 1) * 76;
+      c.add(text(this, lx, CARD.y + 312, { att: 'ATA', mid: 'MED', def: 'DEF' }[k], 13, '#ffffff', { strokeThickness: 0 }).setOrigin(0.5));
+      c.add(text(this, lx, CARD.y + 340, String(lines[k]), 26, '#e6ebf2', { strokeThickness: 0 }).setOrigin(0.5));
+    });
+
+    // "liga": el logo de la temporada
+    const lg = this.add.graphics();
+    lg.fillStyle(0x161d29, 0.85).fillRoundedRect(x0, LEAGUE.y, COL_W, LEAGUE.h, 6);
+    c.add(lg);
+    const info = getSeason(season);
+    c.add(text(this, cx, LEAGUE.y + 18, info.name.toUpperCase(), 12, '#c9d3e0', { strokeThickness: 0 }).setOrigin(0.5));
+    this.seasonLogo(c, cx, LEAGUE.y + 64, info.id);
   }
 
-  private choose(team: TeamData): void {
-    this.sel[this.sel.active] = team.id;
-    // como en FIFA: después de elegir tu equipo se pasa a elegir el rival
-    if (this.sel.active === 'home') this.sel.active = 'away';
-    this.renderGrid();
-    this.renderSlots();
+  /** Logo de la temporada: "INAZUMA ELEVEN" con el número grande y un rayo. */
+  private seasonLogo(c: Phaser.GameObjects.Container, x: number, y: number, season: string): void {
+    const num = ({ ie1: '1', ie2: '2', ie3: '3' } as Record<string, string>)[season] ?? '+';
+    const bolt = this.add.graphics();
+    bolt.fillStyle(0xffd23f).fillPoints(
+      [
+        { x: -8, y: -22 },
+        { x: 10, y: -22 },
+        { x: 2, y: -4 },
+        { x: 12, y: -4 },
+        { x: -10, y: 24 },
+        { x: -3, y: 2 },
+        { x: -13, y: 2 },
+      ].map((p) => new Phaser.Geom.Point(x - 112 + p.x, y + p.y)),
+      true,
+    );
+    c.add(bolt);
+    c.add(
+      this.add
+        .text(x - 92, y - 2, 'INAZUMA\nELEVEN', { fontFamily: '"Arial Black", Arial, sans-serif', fontSize: '20px', color: '#ffffff', lineSpacing: -6 })
+        .setOrigin(0, 0.5),
+    );
+    c.add(text(this, x + 82, y, num, 52, '#ffd23f', { fontFamily: '"Arial Black", Arial, sans-serif', stroke: '#b5521f', strokeThickness: 6 }).setOrigin(0.5));
+  }
+
+  // ----------------------------------------------------------------- centro
+
+  private drawCenter(): void {
+    const cx = GAME_W / 2;
+    const item = (y: number, icon: string, label: string, onClick: () => void) => {
+      const box = this.add.graphics();
+      const draw = (hover: boolean) => {
+        box.clear().fillStyle(hover ? 0x2a3546 : 0x161d29, hover ? 0.95 : 0.7).fillRoundedRect(cx - 80, y - 44, 160, 88, 8);
+      };
+      draw(false);
+      text(this, cx, y - 16, icon, 24, '#ffffff', { strokeThickness: 0 }).setOrigin(0.5);
+      text(this, cx, y + 18, label, 15, '#e6ebf2', { strokeThickness: 0, align: 'center' }).setOrigin(0.5);
+      this.add
+        .zone(cx - 80, y - 44, 160, 88)
+        .setOrigin(0)
+        .setInteractive({ useHandCursor: true })
+        .on('pointerover', () => draw(true))
+        .on('pointerout', () => draw(false))
+        .on('pointerdown', onClick);
+    };
+    item(250, '⇄', 'Cambiar lados', () => this.swap());
+    item(354, '⚄', 'Rival aleatorio', () => this.randomRival());
+
+    text(this, cx, 452, '◀ ▶  cambiar equipo\n▲ ▼  cambiar temporada\nTab  otra columna', 12, '#8a97aa', {
+      strokeThickness: 0,
+      align: 'center',
+      lineSpacing: 4,
+    }).setOrigin(0.5);
+
+    new Button(this, cx, 672, 'Formación  ▶', () => this.next(), { w: 250, h: 52, size: 22, color: 0xe2552c });
+  }
+
+  // --------------------------------------------------------------- acciones
+
+  private bindKeys(): void {
+    const kb = this.input.keyboard;
+    if (!kb) return;
+    kb.on('keydown-LEFT', () => this.cycle(this.sel.focus, -1));
+    kb.on('keydown-RIGHT', () => this.cycle(this.sel.focus, 1));
+    kb.on('keydown-UP', () => this.stepSeason(this.sel.focus, -1));
+    kb.on('keydown-DOWN', () => this.stepSeason(this.sel.focus, 1));
+    kb.on('keydown-TAB', (e: KeyboardEvent) => {
+      e.preventDefault();
+      this.setFocus(this.sel.focus === 'home' ? 'away' : 'home');
+    });
+    kb.on('keydown-ENTER', () => this.next());
+  }
+
+  private setFocus(side: Side): void {
+    if (this.sel.focus === side) return;
+    this.sel.focus = side;
+    this.renderColumn('home');
+    this.renderColumn('away');
+  }
+
+  private cycle(side: Side, dir: number): void {
+    const team = teamById(this.sel[side]);
+    const list = teamsOf(seasonOf(team));
+    const i = list.indexOf(team);
+    this.sel[side] = list[(i + dir + list.length) % list.length].id;
+    this.sel.focus = side;
+    this.renderColumn(side, dir);
+    this.renderColumn(side === 'home' ? 'away' : 'home');
+  }
+
+  private setSeason(side: Side, season: string): void {
+    this.sel.focus = side;
+    if (seasonOf(teamById(this.sel[side])) !== season) {
+      const list = teamsOf(season);
+      // se queda con el equipo del mismo nombre si lo hay, si no el primero
+      const current = teamById(this.sel[side]).name;
+      this.sel[side] = (list.find((t) => t.name === current) ?? list[0]).id;
+    }
+    this.renderColumn('home');
+    this.renderColumn('away');
+  }
+
+  private stepSeason(side: Side, dir: number): void {
+    const seasons = seasonsWithTeams();
+    const i = seasons.findIndex((s) => s.id === seasonOf(teamById(this.sel[side])));
+    this.setSeason(side, seasons[(i + dir + seasons.length) % seasons.length].id);
+  }
+
+  private swap(): void {
+    [this.sel.home, this.sel.away] = [this.sel.away, this.sel.home];
+    this.renderColumn('home');
+    this.renderColumn('away');
   }
 
   private randomRival(): void {
     const pool = TEAMS.filter((t) => t.id !== this.sel.home);
-    const pickTeam = pool[Math.floor(Math.random() * pool.length)];
-    if (!pickTeam) return;
-    this.sel.away = pickTeam.id;
-    this.sel.season = seasonOf(pickTeam);
-    this.renderGrid();
-    this.renderSlots();
-  }
-
-  // ---------------------------------------------------------------- fichas
-
-  private renderSlots(): void {
-    (['home', 'away'] as Slot[]).forEach((slot) => {
-      const c = this.slots[slot];
-      c.removeAll(true);
-      const team = TEAMS.find((t) => t.id === this.sel[slot])!;
-      const active = this.sel.active === slot;
-      const color = slot === 'home' ? 0x2d5fb8 : 0xa8283a;
-      const g = this.add.graphics();
-      panelFrame(g, 0, 0, 240, 226, COLORS.panelDark);
-      g.fillStyle(color).fillRoundedRect(2, 2, 236, 30, { tl: 10, tr: 10, bl: 0, br: 0 });
-      if (active) g.lineStyle(3, 0xffd23f).strokeRoundedRect(0, 0, 240, 226, 10);
-      c.add(g);
-      c.add(text(this, 12, 8, slot === 'home' ? 'Tu equipo' : 'Rival', 16));
-      if (active) c.add(text(this, 228, 9, '◀ eligiendo', 12, '#ffe28a').setOrigin(1, 0));
-      c.add(this.add.image(120, 84, texKey.emblem(team.id)).setDisplaySize(80, 80));
-      c.add(text(this, 120, 130, team.name, 17, '#ffffff', { align: 'center', wordWrap: { width: 220 } }).setOrigin(0.5, 0));
-      const rating = teamRating(team);
-      c.add(text(this, 14, 178, getSeason(seasonOf(team)).name, 12, '#b9d0ee'));
-      c.add(text(this, 14, 198, `Media ${rating}`, 15, '#ffe28a'));
-      const stars = this.add.graphics();
-      drawStars(stars, 120, 207, ratingStars(rating), 16, COLORS.panelDark);
-      c.add(stars);
-      c.setSize(240, 226);
-      c.setInteractive(new Phaser.Geom.Rectangle(0, 0, 240, 226), Phaser.Geom.Rectangle.Contains);
-      c.input!.cursor = 'pointer';
-      c.on('pointerdown', () => {
-        this.sel.active = slot;
-        this.sel.season = seasonOf(team);
-        this.renderGrid();
-        this.renderSlots();
-      });
-    });
+    const pick: TeamData | undefined = pool[Math.floor(Math.random() * pool.length)];
+    if (!pick) return;
+    this.sel.away = pick.id;
+    this.sel.focus = 'away';
+    this.renderColumn('home');
+    this.renderColumn('away', 1);
   }
 
   private next(): void {
     this.registry.set('menuSelection', { ...this.sel });
-    const home = TEAMS.find((t) => t.id === this.sel.home)!;
-    const away = TEAMS.find((t) => t.id === this.sel.away)!;
+    const home = teamById(this.sel.home);
+    const away = teamById(this.sel.away);
     this.scene.start('formation', { home: defaultLineup(home), away: defaultLineup(away) });
   }
 }

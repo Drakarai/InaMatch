@@ -1,7 +1,8 @@
 {
  "id": "ie2-sp-fixers",
  "season": "ie2",
- "name": "SP Fixers",
+ "wiki": "SP Fixers",
+ "name": "Servicio Secreto",
  "short": "SPF",
  "colors": {
   "shirt": "#5a3a8a",

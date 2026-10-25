@@ -91,7 +91,7 @@ Escudo: `emblems/ie1-inazuma-kfc.png`
 | 15 · Mitch Grumble (MF) | `mitch-grumble.png` |
 | 16 · Bart Grantham (DF) | `bart-grantham.png` |
 
-### Kasamino
+### Instituto Umbrella
 
 Escudo: `emblems/ie1-kasamino.png`
 
@@ -399,7 +399,7 @@ Escudo: `emblems/ie2-dark-emperors.png`
 | 11 · Kevin Dragonfly (FW) | `kevin-dragonfly.png` |
 | 12 · Godric Wyles (MF) | `godric-wyles.png` |
 
-### Diamond
+### Polvo de Diamantes
 
 Escudo: `emblems/ie2-diamond-dust.png`
 
@@ -417,7 +417,7 @@ Escudo: `emblems/ie2-diamond-dust.png`
 | 10 · Bryce Whitingale (FW) | `bryce-whitingale.png` |
 | 11 · Denzel Freezer (FW) | `denzel-freezer.png` |
 
-### Epsilon Kai
+### Épsilon Plus
 
 Escudo: `emblems/ie2-epsilon-kai.png`
 
@@ -436,7 +436,7 @@ Escudo: `emblems/ie2-epsilon-kai.png`
 | 11 · Dave Quagmire (FW) | `dave-quagmire.png` |
 | 12 · Dave Quagmire (FW) | `dave-quagmire-desarm-cc.png` |
 
-### Epsilon
+### Épsilon
 
 Escudo: `emblems/ie2-epsilon.png`
 
@@ -531,7 +531,7 @@ Escudo: `emblems/ie2-keibi-machines.png`
 | 10 · Robot F (FW) | `robot-f.png` |
 | 11 · Robot L (FW) | `robot-l.png` |
 
-### Manyuuji
+### Instituto Claustro Sagrado
 
 Escudo: `emblems/ie2-manyuuji.png`
 
@@ -554,7 +554,7 @@ Escudo: `emblems/ie2-manyuuji.png`
 | 15 · Roman Kandel (MF) | `roman-kandel.png` |
 | 16 · Don Ation (FW) | `don-ation.png` |
 
-### Osaka Gals CCC
+### Triple C de Osaka
 
 Escudo: `emblems/ie2-osaka-gals-ccc.png`
 
@@ -665,7 +665,7 @@ Escudo: `emblems/ie2-shin-teikoku-gakuen.png`
 | 15 · Cosimo Beck (MF) | `cosimo-beck.png` |
 | 16 · Maston Color (MF) | `maston-color.png` |
 
-### SP Fixers
+### Servicio Secreto
 
 Escudo: `emblems/ie2-sp-fixers.png`
 
@@ -887,7 +887,7 @@ Escudo: `emblems/ie3-knights-of-queen.png`
 | 15 · Mikey Richards (MF) | `mikey-richards.png` |
 | 16 · Sirius Pounding (MF) | `sirius-pounding.png` |
 
-### Little Gigant
+### Los Pequeños Gigantes
 
 Escudo: `emblems/ie3-little-gigant.png`
 
@@ -1061,7 +1061,7 @@ Escudo: `emblems/ie3-rose-griffon.png`
 | 15 · Claude Moreau (MF) | `claude-moreau.png` |
 | 16 · Michel Morland (FW) | `michel-morland.png` |
 
-### Team Garshield
+### Zoolan Team
 
 Escudo: `emblems/ie3-team-garshield.png`
 
@@ -1084,7 +1084,7 @@ Escudo: `emblems/ie3-team-garshield.png`
 | 15 · Ali Caiman (FW) | `ali-caiman.png` |
 | 16 · Chris Ellis (DF) | `chris-ellis.png` |
 
-### Team K
+### Equipo D
 
 Escudo: `emblems/ie3-team-k.png`
 
@@ -1148,7 +1148,7 @@ Escudo: `emblems/ie3-the-empire.png`
 | 15 · Herman Samuel (MF) | `herman-samuel.png` |
 | 16 · Ricardo Agüero (FW) | `ricardo-ag-ero.png` |
 
-### The Great Horn
+### Caimanes del Cabo
 
 Escudo: `emblems/ie3-the-great-horn.png`
 
@@ -1171,7 +1171,7 @@ Escudo: `emblems/ie3-the-great-horn.png`
 | 15 · Hugh Makebe (GK) | `hugh-makebe.png` |
 | 16 · Themba Sepeng (MF) | `themba-sepeng.png` |
 
-### The Kingdom
+### Os Reis
 
 Escudo: `emblems/ie3-the-kingdom.png`
 

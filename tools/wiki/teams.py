@@ -99,7 +99,24 @@ SURNAME_TEAMS = {
     'Little Gigant', 'Brockenborg', 'Red Matador', 'Rose Griffon', 'The Great Horn', 'Team Garshield',
 }
 # Equipos sin página propia en la wiki (variantes): nombre en español puesto a mano
-NAME_ES = {'Dark Emperors (cloaked)': 'Emperadores Oscuros (con capa)'}
+# Nombre en España de los equipos sin enlace entre wikis, o cuyo nombre en los juegos no es el del
+# título de la página de la wiki española (inazuma.fandom.com/es, campo "Nombre" de cada equipo).
+NAME_ES = {
+    'Dark Emperors (cloaked)': 'Emperadores Oscuros (con capa)',
+    'Diamond Dust': 'Polvo de Diamantes',
+    'Epsilon': 'Épsilon',
+    'Epsilon Kai': 'Épsilon Plus',
+    'Inazuma Eleven': 'Inazuma Eleven',
+    'Kasamino': 'Instituto Umbrella',
+    'Little Gigant': 'Los Pequeños Gigantes',
+    'Manyuuji': 'Instituto Claustro Sagrado',
+    'Osaka Gals CCC': 'Triple C de Osaka',
+    'SP Fixers': 'Servicio Secreto',
+    'Team Garshield': 'Zoolan Team',
+    'Team K': 'Equipo D',
+    'The Great Horn': 'Caimanes del Cabo',
+    'The Kingdom': 'Os Reis',
+}
 MIN_PLAYERS = 11
 
 
@@ -441,6 +458,7 @@ for season, game, order, name, rows, fkey, page in rosters:
     team = {
         'id': f'{season}-{slug(name)}',
         'season': season,
+        'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
         'short': short,
         'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3]},

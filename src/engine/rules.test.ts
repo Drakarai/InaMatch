@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { TEAMS, validateTeams } from '../data';
-import { ratingStars, teamRating } from './rating';
+import { lineRatings, ratingStars, teamRating } from './rating';
 import { SAME_ELEMENT_BONUS, elementMultiplier, hasStab } from '../data/elements';
 import type { MoveData, Stats } from '../data/types';
 import {
@@ -243,5 +243,17 @@ describe('media del equipo', () => {
       expect(r, t.id).toBeGreaterThan(20);
       expect(r, t.id).toBeLessThan(120);
     }
+  });
+
+  it('las medias por líneas salen de los atributos de cada línea', () => {
+    for (const t of TEAMS) {
+      const { att, mid, def } = lineRatings(t);
+      for (const v of [att, mid, def]) expect(v, t.id).toBeGreaterThan(20);
+    }
+    const team = TEAMS[0];
+    const strikers = team.players.slice(0, 11).map((p) =>
+      p.position === 'FW' ? { ...p, stats: { ...p.stats, kick: 99, control: 99, speed: 99 } } : p,
+    );
+    expect(lineRatings(team, strikers).att).toBe(team.players.slice(0, 11).some((p) => p.position === 'FW') ? 99 : lineRatings(team, strikers).att);
   });
 });

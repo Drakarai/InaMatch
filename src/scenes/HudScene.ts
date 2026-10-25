@@ -2,7 +2,15 @@ import Phaser from 'phaser';
 import { COLORS, FIELD_VIEW, FONT, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PANEL, PITCH, hex } from '../config';
 import { ELEMENT_COLOR } from '../data/elements';
 import type { MoveData } from '../data/types';
-import { BASIC_LABEL, BASIC_OPTIONS, SITUATION_MOVE_KIND, type Choice, type Situation } from '../engine/rules';
+import {
+  BASIC_LABEL,
+  BASIC_OPTIONS,
+  FIRED_UP_SECONDS,
+  SHOT_POWER_LEVELS,
+  SITUATION_MOVE_KIND,
+  type Choice,
+  type Situation,
+} from '../engine/rules';
 import { texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
 import { Button, StatBar, panelFrame, text } from '../ui/widgets';
@@ -27,7 +35,14 @@ const PROMPT_TITLE: Record<Situation, string> = {
   defend: '¡Recupera el balón!',
   shoot: '¡Elige el tiro!',
   keep: '¡Para el tiro!',
+  block: '¡Bloquea el tiro!',
 };
+
+/** Datos extra del panel de duelo: "Poder" de cada uno y compañeros que ayudan. */
+export interface DuelInfo {
+  power?: [number, number];
+  support?: [number, number];
+}
 
 const PROMPT_SECONDS = 7;
 
@@ -38,6 +53,8 @@ interface DuelRow {
   fp: StatBar;
   tp: StatBar;
   ball: Phaser.GameObjects.Image;
+  power: Phaser.GameObjects.Text;
+  support: Phaser.GameObjects.Text;
 }
 
 export class HudScene extends Phaser.Scene {
@@ -50,6 +67,9 @@ export class HudScene extends Phaser.Scene {
   private infoTitle!: Phaser.GameObjects.Text;
   private infoMoves!: Phaser.GameObjects.Text;
   private duelPair: [MatchPlayer, MatchPlayer] | null = null;
+  private duelInfo: DuelInfo = {};
+  private tension!: Phaser.GameObjects.Graphics;
+  private firedLabels: Phaser.GameObjects.Text[] = [];
   private radar!: Phaser.GameObjects.Graphics;
   private toastText!: Phaser.GameObjects.Text;
   private shootButton!: Button;
@@ -63,6 +83,8 @@ export class HudScene extends Phaser.Scene {
   init(data: { match: MatchScene }): void {
     this.match = data.match;
     this.duelPair = null;
+    this.duelInfo = {};
+    this.firedLabels = [];
     this.overlay = null;
     this.lastScore = '';
     this.scorers = [];
@@ -114,9 +136,32 @@ export class HudScene extends Phaser.Scene {
     g.fillStyle(0x0b0d12).fillRoundedRect(x + w / 2 + 22, 130, w / 2 - 46, 84, 6);
     this.led = this.add.graphics();
     this.scorers = [
-      text(this, x + 26, 220, '', 11, '#cfe0ff'),
-      text(this, x + w / 2 + 24, 220, '', 11, '#cfe0ff'),
+      text(this, x + 26, 218, '', 11, '#cfe0ff'),
+      text(this, x + w / 2 + 24, 218, '', 11, '#cfe0ff'),
     ];
+    // tensión del equipo (FIRED UP de IE3)
+    this.tension = this.add.graphics();
+    this.firedLabels = [0, 1].map((i) =>
+      text(this, i === 0 ? x + w / 4 + 1 : x + (3 * w) / 4 - 1, 243, 'FIRED UP', 12, '#ffffff').setOrigin(0.5).setVisible(false),
+    );
+  }
+
+  private drawTension(): void {
+    const { x, w } = PANEL;
+    const g = this.tension.clear();
+    for (const side of [0, 1] as const) {
+      const bx = side === 0 ? x + 24 : x + w / 2 + 22;
+      const bw = w / 2 - 46;
+      const fired = this.match.firedLeft(side);
+      g.fillStyle(0x0b0d12).fillRoundedRect(bx, 236, bw, 14, 4);
+      if (fired > 0) {
+        const blink = Math.floor(this.time.now / 150) % 2 === 0;
+        g.fillStyle(blink ? 0xff3b2f : 0xff8a1f).fillRoundedRect(bx + 1, 237, (bw - 2) * (fired / FIRED_UP_SECONDS), 12, 4);
+      } else {
+        g.fillStyle(0xe8892b).fillRoundedRect(bx + 1, 237, (bw - 2) * (this.match.tension[side] / 100), 12, 4);
+      }
+      this.firedLabels[side].setVisible(fired > 0);
+    }
   }
 
   private drawLed(value: number, cx: number, cy: number): void {
@@ -149,19 +194,23 @@ export class HudScene extends Phaser.Scene {
       const fp = new StatBar(this, 84, 36, 'FP', COLORS.fp, 210);
       const tp = new StatBar(this, 84, 58, 'TP', COLORS.tp, 210);
       const ball = this.add.image(w - 52, 36, 'ball').setScale(1.6);
-      c.add([band, portrait, name, fp, tp, ball]);
-      this.rows.push({ container: c, portrait, name, fp, tp, ball });
+      const power = text(this, w - 34, 11, '', 15, '#ffe28a').setOrigin(1, 0.5);
+      const support = text(this, 0, 74, '', 12, '#9fffb0');
+      c.add([band, portrait, name, fp, tp, ball, power, support]);
+      this.rows.push({ container: c, portrait, name, fp, tp, ball, power, support });
     }
     this.infoTitle = text(this, x + 22, 370, '', 13, '#ffe28a');
     this.infoMoves = text(this, x + 22, 390, '', 14, '#ffffff', { lineSpacing: 4 });
   }
 
-  showDuel(a: MatchPlayer, b: MatchPlayer): void {
+  showDuel(a: MatchPlayer, b: MatchPlayer, info: DuelInfo = {}): void {
     this.duelPair = [a, b];
+    this.duelInfo = info;
   }
 
   hideDuel(): void {
     this.duelPair = null;
+    this.duelInfo = {};
   }
 
   private refreshPlayerPanel(): void {
@@ -180,6 +229,10 @@ export class HudScene extends Phaser.Scene {
       row.fp.set(p.fp, p.maxFp);
       row.tp.set(p.tp, p.maxTp);
       row.ball.setVisible(this.match.ballOwner() === p);
+      const power = pair ? this.duelInfo.power?.[i] : undefined;
+      row.power.setText(power !== undefined ? `Poder ${power}` : '');
+      const support = pair ? (this.duelInfo.support?.[i] ?? 0) : 0;
+      row.support.setText(support > 0 ? `¡Apoyo x${support}!` : '');
     });
     const showInfo = !pair && !!focus;
     this.infoTitle.setVisible(showInfo);
@@ -259,65 +312,43 @@ export class HudScene extends Phaser.Scene {
     }
     this.refreshPlayerPanel();
     this.drawRadar();
+    this.drawTension();
     this.shootButton.setVisible(this.match.canShoot());
   }
 
   // ------------------------------------------------------------ comandos
 
-  /** Muestra los botones de comando sobre el campo y espera la elección. */
-  prompt(situation: Situation, player: MatchPlayer): Promise<Choice> {
+  /**
+   * Barra de comandos sobre el campo: título, botones, teclas y cuenta atrás.
+   * `setup` coloca los botones y devuelve qué tecla elige qué opción.
+   */
+  private commandBar<T>(
+    title: string,
+    fallback: T,
+    setup: (c: Phaser.GameObjects.Container, cy: number, finish: (value: T) => void) => Record<string, T>,
+  ): Promise<T> {
     return new Promise((resolve) => {
       const c = this.add.container(0, 0).setDepth(40);
       const cy = FIELD_VIEW.h - 46;
       const g = this.add.graphics();
       g.fillStyle(0x0b1a2e, 0.55).fillRect(0, cy - 44, FIELD_VIEW.w, 100);
       c.add(g);
-      c.add(text(this, FIELD_VIEW.w / 2, cy - 30, PROMPT_TITLE[situation], 20, '#ffffff').setOrigin(0.5));
+      c.add(text(this, FIELD_VIEW.w / 2, cy - 30, title, 20, '#ffffff').setOrigin(0.5));
       const timer = this.add.graphics();
       c.add(timer);
 
       let done = false;
-      const finish = (choice: Choice) => {
+      const finish = (value: T) => {
         if (done) return;
         done = true;
         this.input.keyboard?.off('keydown', onKey);
         tick.remove();
         c.destroy();
-        resolve(choice);
+        resolve(value);
       };
-
-      const [a, b] = BASIC_OPTIONS[situation];
-      // rojo al atacar, azul al defender, como los botones de IE3
-      const defensive = situation === 'defend' || situation === 'keep';
-      const color = defensive ? 0x2f6fc4 : 0xd8344a;
-      c.add(new Button(this, 130, cy + 10, `1 · ${BASIC_LABEL[a]}`, () => finish({ type: 'basic', id: a }), { w: 230, h: 50, color }));
-      c.add(new Button(this, FIELD_VIEW.w - 130, cy + 10, `2 · ${BASIC_LABEL[b]}`, () => finish({ type: 'basic', id: b }), { w: 230, h: 50, color }));
-
-      const kind = SITUATION_MOVE_KIND[situation];
-      const moves = player.moves.filter((m) => m.kind === kind);
-      const moveButtons: { move: MoveData; ok: boolean }[] = moves.map((m) => ({ move: m, ok: m.tp <= player.tp }));
-      moveButtons.forEach(({ move, ok }, i) => {
-        const y = cy + 10 - i * 54;
-        const btn = new Button(this, FIELD_VIEW.w / 2, y, `${i + 3} · ${move.name}`, () => finish({ type: 'move', move }), {
-          w: 270,
-          h: 46,
-          size: 18,
-          color: ELEMENT_COLOR[move.element],
-          sub: `TP ${move.tp}`,
-        });
-        btn.setEnabled(ok);
-        c.add(btn);
-      });
-      if (moves.length === 0) c.add(text(this, FIELD_VIEW.w / 2, cy + 10, 'Sin supertécnicas', 15, '#9fb8d8').setOrigin(0.5));
-
+      const keys = setup(c, cy, finish);
       const onKey = (ev: KeyboardEvent) => {
-        if (ev.key === '1') finish({ type: 'basic', id: a });
-        else if (ev.key === '2') finish({ type: 'basic', id: b });
-        else {
-          const n = Number(ev.key) - 3;
-          const mb = moveButtons[n];
-          if (mb && mb.ok) finish({ type: 'move', move: mb.move });
-        }
+        if (ev.key in keys) finish(keys[ev.key]);
       };
       this.input.keyboard?.on('keydown', onKey);
 
@@ -329,10 +360,80 @@ export class HudScene extends Phaser.Scene {
           const left = 1 - (this.time.now - start) / (PROMPT_SECONDS * 1000);
           timer.clear().fillStyle(0x000000, 0.5).fillRect(FIELD_VIEW.w / 2 - 150, cy - 14, 300, 6);
           timer.fillStyle(left < 0.3 ? 0xff5a4a : 0xffd23f).fillRect(FIELD_VIEW.w / 2 - 150, cy - 14, 300 * Math.max(0, left), 6);
-          if (left <= 0) finish({ type: 'basic', id: a });
+          if (left <= 0) finish(fallback);
         },
       });
     });
+  }
+
+  /** Comandos de un duelo, tiro, bloqueo o parada: dos básicos y las supertécnicas. */
+  prompt(situation: Situation, player: MatchPlayer): Promise<Choice> {
+    const [a, b] = BASIC_OPTIONS[situation];
+    const basicA: Choice = { type: 'basic', id: a };
+    const basicB: Choice = { type: 'basic', id: b };
+    return this.commandBar<Choice>(PROMPT_TITLE[situation], basicA, (c, cy, finish) => {
+      // rojo al atacar, azul al defender, como los botones de IE3
+      const defensive = situation === 'defend' || situation === 'keep' || situation === 'block';
+      const color = defensive ? 0x2f6fc4 : 0xd8344a;
+      c.add(new Button(this, 130, cy + 10, `1 · ${BASIC_LABEL[a]}`, () => finish(basicA), { w: 230, h: 50, color }));
+      c.add(new Button(this, FIELD_VIEW.w - 130, cy + 10, `2 · ${BASIC_LABEL[b]}`, () => finish(basicB), { w: 230, h: 50, color }));
+
+      const keys: Record<string, Choice> = { '1': basicA, '2': basicB };
+      const kind = SITUATION_MOVE_KIND[situation];
+      const moves = player.moves.filter((m) => m.kind === kind);
+      moves.forEach((move, i) => {
+        const ok = move.tp <= player.tp;
+        const choice: Choice = { type: 'move', move };
+        const btn = new Button(this, FIELD_VIEW.w / 2, cy + 10 - i * 54, `${i + 3} · ${move.name}`, () => finish(choice), {
+          w: 270,
+          h: 46,
+          size: 18,
+          color: ELEMENT_COLOR[move.element],
+          sub: `TP ${move.tp}`,
+        });
+        btn.setEnabled(ok);
+        c.add(btn);
+        if (ok) keys[String(i + 3)] = choice;
+      });
+      if (moves.length === 0) c.add(text(this, FIELD_VIEW.w / 2, cy + 10, 'Sin supertécnicas', 15, '#9fb8d8').setOrigin(0.5));
+      return keys;
+    });
+  }
+
+  /** "¡Regula la potencia!" de GO: devuelve el nivel elegido (0 = normal). */
+  promptPower(tpAvailable: number): Promise<number> {
+    return this.commandBar<number>('¡Regula la potencia!', 0, (c, cy, finish) => {
+      const keys: Record<string, number> = {};
+      SHOT_POWER_LEVELS.forEach((level, i) => {
+        const ok = level.tp <= tpAvailable;
+        const btn = new Button(this, FIELD_VIEW.w / 2 + (i - 1) * 260, cy + 10, `${i + 1} · ${level.label}`, () => finish(i), {
+          w: 240,
+          h: 50,
+          color: [0x4f7fb8, 0xe0862c, 0xd8344a][i],
+          sub: level.tp ? `TP ${level.tp}` : undefined,
+        });
+        btn.setEnabled(ok);
+        c.add(btn);
+        if (ok) keys[String(i + 1)] = i;
+      });
+      return keys;
+    });
+  }
+
+  /** Enseña el choque de potencias del duelo ("54 VS 37") sobre el campo. */
+  showClash(left: number, right: number, leftWins: boolean, leftSide: 0 | 1): void {
+    const c = this.add.container(FIELD_VIEW.w / 2, 150).setDepth(45);
+    const colorOf = (side: 0 | 1) => (side === 0 ? '#7fc4ff' : '#ff8a8a');
+    const rightSide: 0 | 1 = leftSide === 0 ? 1 : 0;
+    const g = this.add.graphics();
+    g.fillStyle(0x0b1a2e, 0.7).fillRoundedRect(-190, -34, 380, 68, 14);
+    const l = text(this, -70, 0, String(left), leftWins ? 44 : 32, colorOf(leftSide), { strokeThickness: 7 }).setOrigin(0.5);
+    const vs = text(this, 0, 0, 'VS', 22, '#ffe28a').setOrigin(0.5);
+    const r = text(this, 70, 0, String(right), leftWins ? 32 : 44, colorOf(rightSide), { strokeThickness: 7 }).setOrigin(0.5);
+    c.add([g, l, vs, r]);
+    c.setScale(0.6);
+    this.tweens.add({ targets: c, scale: 1, duration: 180, ease: 'Back.Out' });
+    this.tweens.add({ targets: c, alpha: 0, delay: 1100, duration: 300, onComplete: () => c.destroy() });
   }
 
   // ------------------------------------------------- animación de técnica

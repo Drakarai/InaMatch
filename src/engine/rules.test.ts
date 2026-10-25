@@ -2,7 +2,22 @@ import { describe, expect, it } from 'vitest';
 import { MOVES, TEAMS, validateTeams } from '../data';
 import { elementMultiplier } from '../data/elements';
 import type { Stats } from '../data/types';
-import { cpuChoice, distanceFactor, fpFactor, resolveDuel, resolveShot, usableMoves, type Choice, type Fighter } from './rules';
+import {
+  basePower,
+  cpuChoice,
+  distanceFactor,
+  fpFactor,
+  isFoul,
+  resolveBlock,
+  resolveDuel,
+  resolveKeeper,
+  resolveShot,
+  shotPower,
+  supportMultiplier,
+  usableMoves,
+  type Choice,
+  type Fighter,
+} from './rules';
 
 const stats = (v: number): Stats => ({ kick: v, body: v, control: v, guard: v, speed: v, stamina: v, guts: v });
 const fighter = (v: number, element: Fighter['element'] = 'fire', fp = 100): Fighter => ({ stats: stats(v), element, fp, maxFp: 100 });
@@ -94,5 +109,64 @@ describe('CPU', () => {
   it('sin TP usa un comando básico', () => {
     const c = cpuChoice(moves, 'shoot', 0, fixed(0));
     expect(c.type).toBe('basic');
+  });
+});
+
+describe('apoyo, faltas y potencia', () => {
+  it('cada compañero cerca suma, con un máximo de dos', () => {
+    expect(supportMultiplier(0)).toBe(1);
+    expect(supportMultiplier(1)).toBeCloseTo(1.12);
+    expect(supportMultiplier(5)).toBeCloseTo(supportMultiplier(2));
+  });
+
+  it('el apoyo puede darle la vuelta a un duelo igualado', () => {
+    const solo = resolveDuel(fighter(30), basic('dribble'), fighter(30), basic('tackle'), fixed(0.5));
+    const helped = resolveDuel(fighter(30), basic('dribble'), fighter(30), basic('tackle'), fixed(0.5), { attack: supportMultiplier(2) });
+    expect(helped.attackPower).toBeGreaterThan(solo.attackPower);
+    expect(helped.attackerWins).toBe(true);
+  });
+
+  it('solo la entrada en plancha ganada puede ser falta', () => {
+    expect(isFoul(basic('slide'), true, fixed(0))).toBe(true);
+    expect(isFoul(basic('slide'), false, fixed(0))).toBe(false);
+    expect(isFoul(basic('tackle'), true, fixed(0))).toBe(false);
+    expect(isFoul(basic('slide'), true, fixed(0.99))).toBe(false);
+  });
+
+  it('el poder de base se puede enseñar antes de elegir', () => {
+    expect(basePower(fighter(30), 'attack')).toBeGreaterThan(0);
+    expect(basePower(fighter(30), 'attack', 1.2)).toBeGreaterThan(basePower(fighter(30), 'attack'));
+  });
+});
+
+describe('bloqueos de tiro', () => {
+  it('un tiro flojo lo bloquea un defensa fuerte', () => {
+    const power = shotPower(fighter(20), basic('shot'), 600, fixed(0.5));
+    const r = resolveBlock(power, fighter(20), basic('shot'), fighter(45), basic('shotblock'), fixed(0.5));
+    expect(r.blocked).toBe(true);
+  });
+
+  it('si no lo bloquea, el tiro sigue pero más flojo', () => {
+    const power = shotPower(fighter(45), move('fireball-screw'), 200, fixed(0.5));
+    const r = resolveBlock(power, fighter(45), move('fireball-screw'), fighter(25), basic('shotblock'), fixed(0.5));
+    expect(r.blocked).toBe(false);
+    expect(r.remaining).toBeLessThan(power);
+    expect(r.remaining).toBeGreaterThan(0);
+  });
+
+  it('dejar pasar no toca el tiro', () => {
+    const r = resolveBlock(100, fighter(30), basic('shot'), fighter(50), basic('letpass'), fixed(0.5));
+    expect(r).toEqual({ blocked: false, blockPower: 0, remaining: 100 });
+  });
+
+  it('el portero recibe la fuerza que queda tras el bloqueo', () => {
+    const full = resolveKeeper(120, fighter(40), basic('shot'), fighter(40), basic('catch'), fixed(0.5));
+    const weak = resolveKeeper(40, fighter(40), basic('shot'), fighter(40), basic('catch'), fixed(0.5));
+    expect(full.outcome).toBe('goal');
+    expect(weak.outcome).toBe('caught');
+  });
+
+  it('la CPU nunca deja pasar un tiro', () => {
+    expect(cpuChoice([], 'block', 100, fixed(0.99))).toEqual({ type: 'basic', id: 'shotblock' });
   });
 });

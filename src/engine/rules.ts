@@ -14,7 +14,9 @@ export type BasicId =
   | 'shot' // Tiro
   | 'chip' // Vaselina
   | 'catch' // Atrapar
-  | 'punch'; // Despejar
+  | 'punch' // Despejar
+  | 'shotblock' // Bloquear un tiro
+  | 'letpass'; // Dejar pasar el tiro
 
 export type Choice = { type: 'basic'; id: BasicId } | { type: 'move'; move: MoveData };
 
@@ -27,6 +29,8 @@ export const BASIC_LABEL: Record<BasicId, string> = {
   chip: 'Vaselina',
   catch: 'Atrapar',
   punch: 'Despejar',
+  shotblock: 'Bloquear',
+  letpass: 'Dejar pasar',
 };
 
 /** Las dos opciones básicas de cada situación (como los dos botones de IE3). */
@@ -35,6 +39,7 @@ export const BASIC_OPTIONS = {
   defend: ['tackle', 'slide'],
   shoot: ['shot', 'chip'],
   keep: ['catch', 'punch'],
+  block: ['shotblock', 'letpass'],
 } as const satisfies Record<string, readonly [BasicId, BasicId]>;
 
 export type Situation = keyof typeof BASIC_OPTIONS;
@@ -45,6 +50,7 @@ export const SITUATION_MOVE_KIND: Record<Situation, MoveKind> = {
   defend: 'block',
   shoot: 'shoot',
   keep: 'catch',
+  block: 'block',
 };
 
 export interface Fighter {
@@ -56,6 +62,34 @@ export interface Fighter {
 
 export const DUEL_FP_COST = 4;
 export const SHOT_FP_COST = 6;
+
+/** Cada compañero cerca del duelo suma un 12 % (máximo dos), como el doble aro de GO. */
+export const SUPPORT_BONUS = 0.12;
+export const MAX_SUPPORTERS = 2;
+/** Probabilidad de que una entrada en plancha ganada acabe en falta. */
+export const FOUL_CHANCE = 0.2;
+
+/** FIRED UP (IE3): la tensión del equipo sube con las buenas jugadas y al llenarse da +15 % un rato. */
+export const FIRED_UP_BONUS = 1.15;
+export const FIRED_UP_SECONDS = 25;
+export const TENSION_GAIN = { duelWon: 14, shotBlocked: 18, save: 20, conceded: 25 } as const;
+
+/** Niveles de "¡Regula la potencia!" (GO): más TP, más fuerza. */
+export const SHOT_POWER_LEVELS = [
+  { label: 'Normal', tp: 0, mul: 1 },
+  { label: 'Fuerte', tp: 10, mul: 1.15 },
+  { label: 'Máxima', tp: 20, mul: 1.3 },
+] as const;
+
+export function supportMultiplier(supporters: number): number {
+  return 1 + SUPPORT_BONUS * Math.min(MAX_SUPPORTERS, Math.max(0, supporters));
+}
+
+/** Multiplicadores externos: apoyo de compañeros, FIRED UP, potencia del tiro... */
+export interface Mods {
+  attack?: number;
+  defense?: number;
+}
 
 /** Con la FP vacía un jugador rinde al 55 %. */
 export function fpFactor(fp: number, maxFp: number): number {
@@ -81,6 +115,10 @@ function basicPower(id: BasicId, s: Stats): number {
       return s.guard * 1.5;
     case 'punch':
       return s.guard * 1.3 + s.body * 0.4;
+    case 'shotblock':
+      return s.guard * 0.8 + s.body * 0.8;
+    case 'letpass':
+      return 0;
   }
 }
 
@@ -150,9 +188,10 @@ export function resolveDuel(
   defender: Fighter,
   defChoice: Choice,
   rng: Rng,
+  mods: Mods = {},
 ): DuelResult {
-  let a = choicePower(attacker, attChoice) * jitter(rng);
-  let d = choicePower(defender, defChoice) * jitter(rng);
+  let a = choicePower(attacker, attChoice) * jitter(rng) * (mods.attack ?? 1);
+  let d = choicePower(defender, defChoice) * jitter(rng) * (mods.defense ?? 1);
   // El elemento solo cuenta cuando al menos uno usa supertécnica
   if (attChoice.type === 'move' || defChoice.type === 'move') {
     a *= elementMultiplier(choiceElement(attacker, attChoice), choiceElement(defender, defChoice));
@@ -177,16 +216,51 @@ export interface ShotResult {
   keeperPower: number;
 }
 
-export function resolveShot(
+/** Fuerza con la que sale el tiro (antes de bloqueos y portero). */
+export function shotPower(shooter: Fighter, shotChoice: Choice, distance: number, rng: Rng, mul = 1): number {
+  return choicePower(shooter, shotChoice) * distanceFactor(distance) * jitter(rng) * mul;
+}
+
+export interface BlockResult {
+  blocked: boolean;
+  blockPower: number;
+  /** fuerza con la que sigue el tiro si no se ha bloqueado */
+  remaining: number;
+}
+
+/** Un defensa en la trayectoria intenta bloquear el tiro; si no puede, al menos le resta fuerza. */
+export function resolveBlock(
+  power: number,
   shooter: Fighter,
   shotChoice: Choice,
-  distance: number,
+  blocker: Fighter,
+  blockChoice: Choice,
+  rng: Rng,
+  mul = 1,
+): BlockResult {
+  if (blockChoice.type === 'basic' && blockChoice.id === 'letpass') {
+    return { blocked: false, blockPower: 0, remaining: power };
+  }
+  let b = choicePower(blocker, blockChoice) * jitter(rng) * mul;
+  if (shotChoice.type === 'move' || blockChoice.type === 'move') {
+    b *= elementMultiplier(choiceElement(blocker, blockChoice), choiceElement(shooter, shotChoice));
+  }
+  const blocked = b >= power;
+  return { blocked, blockPower: Math.round(b), remaining: blocked ? 0 : power - b * 0.5 };
+}
+
+/** El portero contra un tiro que llega con fuerza `power`. */
+export function resolveKeeper(
+  power: number,
+  shooter: Fighter,
+  shotChoice: Choice,
   keeper: Fighter,
   keepChoice: Choice,
   rng: Rng,
+  mul = 1,
 ): ShotResult {
-  let s = choicePower(shooter, shotChoice) * distanceFactor(distance) * jitter(rng);
-  const k = choicePower(keeper, keepChoice) * jitter(rng);
+  let s = power;
+  const k = choicePower(keeper, keepChoice) * jitter(rng) * mul;
   if (shotChoice.type === 'move' || keepChoice.type === 'move') {
     s *= elementMultiplier(choiceElement(shooter, shotChoice), choiceElement(keeper, keepChoice));
   }
@@ -198,6 +272,31 @@ export function resolveShot(
   if (s > k) outcome = 'goal';
   else outcome = keepChoice.type === 'basic' && keepChoice.id === 'punch' ? 'punched' : 'caught';
   return { outcome, shotPower: Math.round(s), keeperPower: Math.round(k) };
+}
+
+/** Tiro completo sin bloqueos: fuerza de salida + portero. */
+export function resolveShot(
+  shooter: Fighter,
+  shotChoice: Choice,
+  distance: number,
+  keeper: Fighter,
+  keepChoice: Choice,
+  rng: Rng,
+  mods: Mods = {},
+): ShotResult {
+  const power = shotPower(shooter, shotChoice, distance, rng, mods.attack ?? 1);
+  return resolveKeeper(power, shooter, shotChoice, keeper, keepChoice, rng, mods.defense ?? 1);
+}
+
+/** Una entrada en plancha que gana el balón puede acabar en falta. */
+export function isFoul(defChoice: Choice, defenderWon: boolean, rng: Rng): boolean {
+  return defenderWon && defChoice.type === 'basic' && defChoice.id === 'slide' && rng() < FOUL_CHANCE;
+}
+
+/** "Poder de base" que se enseña antes de elegir: la media de los dos comandos básicos. */
+export function basePower(f: Fighter, situation: Situation, mul = 1): number {
+  const [a, b] = BASIC_OPTIONS[situation];
+  return Math.round(((choicePower(f, { type: 'basic', id: a }) + choicePower(f, { type: 'basic', id: b })) / 2) * mul);
 }
 
 /** Supertécnicas que un jugador puede usar ahora mismo en esta situación. */
@@ -217,6 +316,8 @@ export function cpuChoice(moves: MoveData[], situation: Situation, tp: number, r
     return { type: 'move', move: best };
   }
   const [a, b] = BASIC_OPTIONS[situation];
+  // la CPU nunca deja pasar un tiro a propósito
+  if (situation === 'block') return { type: 'basic', id: a };
   return { type: 'basic', id: rng() < 0.5 ? a : b };
 }
 

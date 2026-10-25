@@ -24,7 +24,7 @@ El ratón hace de lápiz de la DS.
 | Situación | Acción |
 |---|---|
 | Con balón | **Arrastra desde tu jugador** para dibujar el recorrido: lo va siguiendo mientras dibujas |
-| | **Pulsa a un compañero** para pasarle; el bocadillo "¡Pase!" marca al mejor libre |
+| | **Pulsa a un compañero** para pasarle; el bocadillo "¡Aquí!" marca al mejor libre y "¡Tira!" avisa de una buena ocasión |
 | | **Pulsa en un hueco** para un pase al espacio |
 | | **Pulsa la portería**, el botón **Tirar** o la tecla **T** para tirar |
 | Sin balón | **Arrastra a cualquier jugador** para moverlo, o **pulsa en el campo** para mandar al jugador activo (el del aro blanco) |
@@ -34,9 +34,17 @@ El ratón hace de lápiz de la DS.
 
 Comandos básicos:
 - **Atacando**: Regate o Finta.
-- **Defendiendo**: Entrada o Entrada en plancha. La plancha gana al regate, pero la finta la deja en ridículo.
-- **Tirando**: Tiro o Vaselina.
+- **Defendiendo**: Entrada o Entrada en plancha. La plancha gana al regate, pero la finta la deja en ridículo
+  y, si roba el balón, puede ser **falta** (tiro libre para el rival).
+- **Tirando**: Tiro o Vaselina, y después **¡Regula la potencia!** (Normal, Fuerte +10 TP, Máxima +20 TP).
+- **Bloqueando** (un defensa en la línea de tiro): Bloquear o Dejar pasar. Si no lo para, el tiro llega más flojo.
+  La vaselina pasa por encima de los defensas.
 - **Portero**: Atrapar o Despejar.
+
+En cada duelo se ve el **Poder** de los dos jugadores y, al resolverse, el choque de potencias.
+- **Apoyo**: cada compañero cerca del duelo suma un 12 % (máximo dos; sale el doble aro rojo).
+- **FIRED UP**: ganar duelos, bloquear, parar o encajar un gol llena la barra de tensión del equipo.
+  Al llenarse, el equipo juega 25 segundos con un +15 %.
 
 Las supertécnicas gastan TP y suelen ganar a los comandos básicos. Además:
 - **Elementos**: Fuego > Bosque > Aire > Montaña > Fuego (+20 %).

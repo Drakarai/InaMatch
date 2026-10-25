@@ -6,11 +6,20 @@ import type { Formation, TeamData } from '../data/types';
 import { lineupPlayers, type Lineup } from '../engine/lineup';
 import {
   DUEL_FP_COST,
+  FIRED_UP_BONUS,
+  FIRED_UP_SECONDS,
   SHOT_FP_COST,
+  SHOT_POWER_LEVELS,
+  TENSION_GAIN,
+  basePower,
   choiceLabel,
   cpuChoice,
+  isFoul,
+  resolveBlock,
   resolveDuel,
-  resolveShot,
+  resolveKeeper,
+  shotPower,
+  supportMultiplier,
   type Choice,
 } from '../engine/rules';
 import { MatchPlayer, type Side, type Vec } from '../match/MatchPlayer';
@@ -60,6 +69,9 @@ export class MatchScene extends Phaser.Scene {
   goals: GoalEntry[] = [];
   half = 1;
   clock = 0;
+  /** Tensión de cada equipo (0-100); al llenarse se ponen FIRED UP. */
+  tension: [number, number] = [0, 0];
+  private firedUntil: [number, number] = [0, 0];
 
   private lineups!: [Lineup, Lineup];
   private formations!: [Formation, Formation];
@@ -80,6 +92,9 @@ export class MatchScene extends Phaser.Scene {
   private drawing: { player: MatchPlayer; last: Vec; startScreen: Vec; tapCandidate: boolean; started: boolean } | null = null;
   private passHint: MatchPlayer | null = null;
   private passHintText!: Phaser.GameObjects.Text;
+  private shootHint = false;
+  private shootHintText!: Phaser.GameObjects.Text;
+  private shotCone!: Phaser.GameObjects.Graphics;
   private passHintAt = 0;
   private duelRing!: Phaser.GameObjects.Graphics;
 
@@ -100,6 +115,9 @@ export class MatchScene extends Phaser.Scene {
     this.players = [[], []];
     this.drawing = null;
     this.passHint = null;
+    this.shootHint = false;
+    this.tension = [0, 0];
+    this.firedUntil = [0, 0];
   }
 
   create(): void {
@@ -135,11 +153,14 @@ export class MatchScene extends Phaser.Scene {
     this.pathGfx = this.add.graphics().setDepth(9000);
     this.markerGfx = this.add.graphics().setDepth(9500);
     this.duelRing = this.add.graphics().setDepth(9400);
-    this.passHintText = this.add
-      .text(0, 0, '¡Pase!', { fontFamily: 'Arial', fontSize: '13px', color: '#1b2a40', backgroundColor: '#ffffff', padding: { x: 5, y: 2 } })
+    const bubble = { fontFamily: 'Arial', fontSize: '13px', fontStyle: 'bold', color: '#1b2a40', backgroundColor: '#ffffff', padding: { x: 5, y: 2 } };
+    this.passHintText = this.add.text(0, 0, '¡Aquí!', bubble).setOrigin(0.5, 1).setDepth(9600).setVisible(false);
+    this.shootHintText = this.add
+      .text(0, 0, '¡Tira!', { ...bubble, color: '#ffffff', backgroundColor: '#d8344a' })
       .setOrigin(0.5, 1)
       .setDepth(9600)
       .setVisible(false);
+    this.shotCone = this.add.graphics().setDepth(8900);
 
     this.input.on('pointerdown', this.onPointerDown, this);
     this.input.on('pointermove', this.onPointerMove, this);
@@ -417,11 +438,16 @@ export class MatchScene extends Phaser.Scene {
     const g = this.pathGfx.clear();
     for (const p of this.players[0]) if (p.path.length && p.manual) this.drawPath(g, p, p.path);
 
-    // "¡Pase!" sobre el mejor compañero libre
+    // "¡Aquí!" sobre el mejor compañero libre y "¡Tira!" si hay buena ocasión
     if (this.passHint && this.state === 'play') {
       this.passHintText.setVisible(true).setPosition(this.passHint.x, this.passHint.y - 28);
     } else {
       this.passHintText.setVisible(false);
+    }
+    if (this.shootHint && owner && this.state === 'play') {
+      this.shootHintText.setVisible(true).setPosition(owner.x, owner.y - 44);
+    } else {
+      this.shootHintText.setVisible(false);
     }
   }
 
@@ -705,6 +731,7 @@ export class MatchScene extends Phaser.Scene {
     this.passHintAt = this.now + 0.3;
     const owner = this.ball.owner;
     this.passHint = owner && owner.side === 0 ? this.bestPassOption(owner) : null;
+    this.shootHint = this.canShoot() && !!owner && this.dist(owner, this.goalOf(1)) < 430 && Math.abs(owner.x - CX) < 300;
   }
 
   /** Mejor compañero para pasar: libre de marca, por delante y con la línea de pase despejada. */
@@ -755,12 +782,45 @@ export class MatchScene extends Phaser.Scene {
     }
   }
 
+  // ---------------------------------------------------- tensión y apoyos
+
+  /** Segundos de FIRED UP que le quedan a un equipo (0 si no lo está). */
+  firedLeft(side: Side): number {
+    return Math.max(0, this.firedUntil[side] - this.now);
+  }
+
+  private sideMul(side: Side): number {
+    return this.firedLeft(side) > 0 ? FIRED_UP_BONUS : 1;
+  }
+
+  private addTension(side: Side, amount: number): void {
+    if (this.firedLeft(side) > 0) return;
+    this.tension[side] = Math.min(100, this.tension[side] + amount);
+    if (this.tension[side] < 100) return;
+    this.tension[side] = 0;
+    this.firedUntil[side] = this.now + FIRED_UP_SECONDS;
+    void this.hud.banner('FIRED UP!', this.teams[side].name, side === 0 ? '#ffb347' : '#ff6a6a', 1000);
+  }
+
+  /** Compañeros que están lo bastante cerca para echar una mano en un duelo. */
+  private supporters(p: MatchPlayer): MatchPlayer[] {
+    return this.players[p.side].filter((m) => m !== p && !m.isGK && !m.isStunned(this.now) && this.dist(m, p) < 90);
+  }
+
   private async duel(att: MatchPlayer, def: MatchPlayer): Promise<void> {
     this.state = 'event';
     this.passHint = null;
     this.drawing = null;
-    this.hud.showDuel(att, def);
-    this.drawDuelRing(att, def);
+
+    const attHelp = this.supporters(att).length;
+    const defHelp = this.supporters(def).length;
+    const attMul = supportMultiplier(attHelp) * this.sideMul(att.side);
+    const defMul = supportMultiplier(defHelp) * this.sideMul(def.side);
+    this.hud.showDuel(att, def, {
+      power: [basePower(att.fighter(), 'attack', attMul), basePower(def.fighter(), 'defend', defMul)],
+      support: [Math.min(2, attHelp), Math.min(2, defHelp)],
+    });
+    this.drawDuelRing(att, def, attHelp + defHelp > 0);
 
     const human = att.side === 0 ? att : def;
     const cpu = att.side === 0 ? def : att;
@@ -773,32 +833,45 @@ export class MatchScene extends Phaser.Scene {
     this.duelRing.clear();
 
     await this.playMoves([att, attChoice], [def, defChoice]);
-    const result = resolveDuel(att.fighter(), attChoice, def.fighter(), defChoice, rng);
+    const result = resolveDuel(att.fighter(), attChoice, def.fighter(), defChoice, rng, { attack: attMul, defense: defMul });
     att.fp = Math.max(0, att.fp - DUEL_FP_COST);
     def.fp = Math.max(0, def.fp - DUEL_FP_COST);
+    this.hud.showClash(result.attackPower, result.defensePower, result.attackerWins, att.side);
+    const colorOf = (p: MatchPlayer) => (p.side === 0 ? '#9fe2ff' : '#ffb0b0');
 
-    if (result.attackerWins) {
+    if (isFoul(defChoice, !result.attackerWins, rng)) {
+      // la entrada en plancha se lleva el balón... y al jugador: falta
+      att.stunnedUntil = this.now + 0.8;
+      att.path = [];
+      this.floatText(def.x, def.y - 46, '¡Falta!', '#ff6a5a');
+      await this.hud.banner('¡Falta!', `Tiro libre para ${this.teams[att.side].name}`, '#ff5a4a', 1000);
+      this.restartWith(att.side, { x: att.x, y: att.y }, 'Tiro libre', att);
+    } else if (result.attackerWins) {
       def.stunnedUntil = this.now + STUN_BEATEN;
       this.push(def, att, 26);
-      this.floatText(att.x, att.y - 46, `${choiceLabel(attChoice)}: ¡superado!`, att.side === 0 ? '#9fe2ff' : '#ffb0b0');
+      this.floatText(att.x, att.y - 46, `${choiceLabel(attChoice)}: ¡superado!`, colorOf(att));
+      this.addTension(att.side, TENSION_GAIN.duelWon);
     } else {
       att.stunnedUntil = this.now + STUN_ROBBED;
       att.path = [];
       this.push(att, def, 22);
       this.giveBall(def);
       def.path = [];
-      this.floatText(def.x, def.y - 46, `${choiceLabel(defChoice)}: ¡robo!`, def.side === 0 ? '#9fe2ff' : '#ffb0b0');
+      this.floatText(def.x, def.y - 46, `${choiceLabel(defChoice)}: ¡robo!`, colorOf(def));
+      this.addTension(def.side, TENSION_GAIN.duelWon);
     }
     this.duelCooldownUntil = this.now + 0.9;
     this.time.delayedCall(900, () => this.hud.hideDuel());
     this.resumePlay();
   }
 
-  private drawDuelRing(a: MatchPlayer, b: MatchPlayer): void {
+  private drawDuelRing(a: MatchPlayer, b: MatchPlayer, crowded: boolean): void {
     const cx = (a.x + b.x) / 2;
     const cy = (a.y + b.y) / 2 + 14;
     this.duelRing.clear().lineStyle(8, 0xd8344a, 0.85).strokeCircle(cx, cy, 70);
     this.duelRing.lineStyle(3, 0xffffff, 0.6).strokeCircle(cx, cy, 76);
+    // doble aro, como en GO, cuando entran más jugadores en el duelo
+    if (crowded) this.duelRing.lineStyle(6, 0xd8344a, 0.85).strokeCircle(cx, cy, 36);
   }
 
   private push(p: MatchPlayer, from: MatchPlayer, amount: number): void {
@@ -833,55 +906,140 @@ export class MatchScene extends Phaser.Scene {
     shooter.path = [];
     const defSide: Side = shooter.side === 0 ? 1 : 0;
     const keeper = this.players[defSide][0];
-    this.hud.showDuel(shooter, keeper);
-
-    const shotChoice: Choice = shooter.side === 0 ? await this.hud.prompt('shoot', shooter) : cpuChoice(shooter.moves, 'shoot', shooter.tp, rng, 0.75);
-    const keepChoice: Choice = keeper.side === 0 ? await this.hud.prompt('keep', keeper) : cpuChoice(keeper.moves, 'keep', keeper.tp, rng, 0.7);
-
-    await this.playMoves([shooter, shotChoice]);
     const goal = this.goalOf(defSide);
     const distance = this.dist(shooter, goal);
-    const result = resolveShot(shooter.fighter(), shotChoice, distance, keeper.fighter(), keepChoice, rng);
-    shooter.fp = Math.max(0, shooter.fp - SHOT_FP_COST);
-    keeper.fp = Math.max(0, keeper.fp - DUEL_FP_COST);
+    this.hud.showDuel(shooter, keeper);
+    this.drawShotCone(shooter, goal);
 
-    // el balón vuela hacia la portería
+    // 1) tipo de tiro y potencia
+    let shotChoice: Choice;
+    let level = 0;
+    if (shooter.side === 0) {
+      shotChoice = await this.hud.prompt('shoot', shooter);
+      const tpLeft = shooter.tp - (shotChoice.type === 'move' ? shotChoice.move.tp : 0);
+      level = await this.hud.promptPower(tpLeft);
+    } else {
+      shotChoice = cpuChoice(shooter.moves, 'shoot', shooter.tp, rng, 0.75);
+      const tpLeft = shooter.tp - (shotChoice.type === 'move' ? shotChoice.move.tp : 0);
+      level = SHOT_POWER_LEVELS.reduce((best, l, i) => (l.tp <= tpLeft && rng() < 0.5 ? i : best), 0);
+    }
+    this.shotCone.clear();
+    shooter.tp = Math.max(0, shooter.tp - SHOT_POWER_LEVELS[level].tp);
+    await this.playMoves([shooter, shotChoice]);
+    shooter.fp = Math.max(0, shooter.fp - SHOT_FP_COST);
+    let power = shotPower(shooter.fighter(), shotChoice, distance, rng, SHOT_POWER_LEVELS[level].mul * this.sideMul(shooter.side));
+
     const b = this.ball;
     b.owner = null;
     b.pass = null;
     b.speed = 0;
     b.lastTouch = shooter.side;
     const aimX = CX + Phaser.Math.Between(-GOAL_W / 2 + 20, GOAL_W / 2 - 20);
-    const keeperSpot = { x: (keeper.x + aimX) / 2, y: keeper.y + 10 };
     const isChip = shotChoice.type === 'basic' && shotChoice.id === 'chip';
-    await this.tweenBall(keeperSpot, Math.min(700, 220 + distance * 0.5), isChip ? 40 : 6);
+
+    // 2) un defensa en la trayectoria puede bloquear (la vaselina pasa por encima)
+    const blocker = isChip ? null : this.findBlocker(shooter, { x: aimX, y: goal.y });
+    if (blocker) {
+      await this.tweenBall({ x: blocker.x, y: blocker.y + 16 }, Math.min(500, 120 + this.dist(shooter, blocker) * 0.6), 6);
+      this.hud.showDuel(shooter, blocker, { power: [Math.round(power), basePower(blocker.fighter(), 'block', this.sideMul(blocker.side))] });
+      const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, 0.5);
+      await this.playMoves([blocker, blockChoice]);
+      const block = resolveBlock(power, shooter.fighter(), shotChoice, blocker.fighter(), blockChoice, rng, this.sideMul(blocker.side));
+      if (block.blockPower > 0) {
+        blocker.fp = Math.max(0, blocker.fp - DUEL_FP_COST);
+        this.hud.showClash(Math.round(power), block.blockPower, !block.blocked, shooter.side);
+      }
+      if (block.blocked) {
+        this.floatText(blocker.x, blocker.y - 46, '¡Bloqueado!', '#ffffff');
+        this.addTension(blocker.side, TENSION_GAIN.shotBlocked);
+        this.looseBall(blocker, 160);
+        this.endShot();
+        return;
+      }
+      power = block.remaining;
+      if (block.blockPower > 0) this.floatText(blocker.x, blocker.y - 46, 'No basta...', '#ffe28a');
+    }
+
+    // 3) el portero
+    const keeperSpot = { x: (keeper.x + aimX) / 2, y: keeper.y + 10 };
+    await this.tweenBall(keeperSpot, Math.min(700, 220 + this.dist(b, keeperSpot) * 0.5), isChip ? 40 : 6);
+    this.hud.showDuel(shooter, keeper, { power: [Math.round(power), basePower(keeper.fighter(), 'keep', this.sideMul(keeper.side))] });
+    const keepChoice: Choice = keeper.side === 0 ? await this.hud.prompt('keep', keeper) : cpuChoice(keeper.moves, 'keep', keeper.tp, rng, 0.7);
     await this.playMoves([keeper, keepChoice]);
+    const result = resolveKeeper(power, shooter.fighter(), shotChoice, keeper.fighter(), keepChoice, rng, this.sideMul(keeper.side));
+    keeper.fp = Math.max(0, keeper.fp - DUEL_FP_COST);
+    this.hud.showClash(result.shotPower, result.keeperPower, result.outcome === 'goal', shooter.side);
 
     if (result.outcome === 'goal') {
       await this.tweenBall({ x: aimX, y: goal.y + this.attackDir(shooter.side) * 22 }, 180, 4);
-      this.floatText(keeper.x, keeper.y - 46, `${result.shotPower} > ${result.keeperPower}`, '#ffffff');
+      this.addTension(defSide, TENSION_GAIN.conceded);
       await this.onGoal(shooter);
       return;
     }
+    this.addTension(defSide, TENSION_GAIN.save);
     if (result.outcome === 'caught') {
       this.giveBall(keeper);
       this.holdUntil = this.now + (keeper.side === 0 ? 4 : 1.2);
-      this.floatText(keeper.x, keeper.y - 46, `¡Parada! ${result.keeperPower} > ${result.shotPower}`, '#ffffff');
+      this.floatText(keeper.x, keeper.y - 46, '¡Parada!', '#ffffff');
     } else {
-      // despeje: el balón sale rebotado
-      const ang = Phaser.Math.FloatBetween(-0.9, 0.9) + (keeper.side === 0 ? -Math.PI / 2 : Math.PI / 2);
-      b.dirX = Math.cos(ang);
-      b.dirY = Math.sin(ang);
-      b.speed = 380;
-      b.travel = 140;
-      b.kicker = keeper;
-      b.kickedAt = this.now;
-      b.lastTouch = keeper.side;
       this.floatText(keeper.x, keeper.y - 46, '¡Despejada!', '#ffffff');
+      this.looseBall(keeper, 140);
     }
+    this.endShot();
+  }
+
+  private endShot(): void {
+    this.shotCone.clear();
     this.duelCooldownUntil = this.now + 1;
     this.time.delayedCall(800, () => this.hud.hideDuel());
     this.resumePlay();
+  }
+
+  /** El balón sale rebotado desde `from`, alejándose de su portería. */
+  private looseBall(from: MatchPlayer, travel: number): void {
+    const b = this.ball;
+    const ang = Phaser.Math.FloatBetween(-0.9, 0.9) + (from.side === 0 ? -Math.PI / 2 : Math.PI / 2);
+    b.owner = null;
+    b.pass = null;
+    b.dirX = Math.cos(ang);
+    b.dirY = Math.sin(ang);
+    b.speed = 380;
+    b.travel = travel;
+    b.kicker = from;
+    b.kickedAt = this.now;
+    b.lastTouch = from.side;
+  }
+
+  /** Primer defensa (no portero) que está en la línea de tiro. */
+  private findBlocker(shooter: MatchPlayer, target: Vec): MatchPlayer | null {
+    const dx = target.x - shooter.x;
+    const dy = target.y - shooter.y;
+    const len2 = dx * dx + dy * dy || 1;
+    let best: MatchPlayer | null = null;
+    let bestT = Infinity;
+    for (const o of this.opponents(shooter.side)) {
+      if (o.isGK || o.isStunned(this.now)) continue;
+      const t = ((o.x - shooter.x) * dx + (o.y - shooter.y) * dy) / len2;
+      if (t < 0.1 || t > 0.92) continue;
+      const px = shooter.x + dx * t;
+      const py = shooter.y + dy * t;
+      if (Phaser.Math.Distance.Between(px, py, o.x, o.y) < 30 && t < bestT) {
+        bestT = t;
+        best = o;
+      }
+    }
+    return best;
+  }
+
+  /** Cono de tiro hacia la portería, como el de GO. */
+  private drawShotCone(shooter: MatchPlayer, goal: Vec): void {
+    const feet = { x: shooter.x, y: shooter.y + 18 };
+    this.shotCone
+      .clear()
+      .fillStyle(0x3ff0d0, 0.28)
+      .fillTriangle(feet.x, feet.y, CX - GOAL_W / 2, goal.y, CX + GOAL_W / 2, goal.y)
+      .lineStyle(2, 0x3ff0d0, 0.7)
+      .strokeTriangle(feet.x, feet.y, CX - GOAL_W / 2, goal.y, CX + GOAL_W / 2, goal.y);
   }
 
   private tweenBall(to: Vec, duration: number, arc: number): Promise<void> {

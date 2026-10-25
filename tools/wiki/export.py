@@ -21,8 +21,20 @@ def slug(s):
 
 out = []
 for m in moves:
-    cats = {c.replace('Category:', '').replace('_', ' ') for c in raw.get(m['en'], {}).get('categories', [])}
-    element = m['element'] if m['element'] in ELEMENT else next((e for e in ELEMENT if f'{e} hissatsu' in cats), None)
+    cat_list = [c.replace('Category:', '').replace('_', ' ') for c in raw.get(m['en'], {}).get('categories', [])]
+    cats = set(cat_list)
+    # algunas técnicas tienen versiones de distinta afinidad (Mano mágica: Montaña la de Mark, Bosque la de Darren);
+    # la wiki las mete en varias categorías, en el orden de sus versiones
+    cat_elements = [c.removesuffix(' hissatsu') for c in cat_list if c.removesuffix(' hissatsu') in ELEMENT and c.endswith(' hissatsu')]
+    element = m['element'] if m['element'] in ELEMENT else (cat_elements[0] if cat_elements else None)
+    # si la ficha inglesa no da la afinidad (usa una plantilla), manda el orden de versiones de la página:
+    # la descripción las lista como "{{Mountain}} version", "{{Forest}} version"... (las categorías van por orden alfabético)
+    text = raw.get(m['en'], {}).get('wikitext') or ''
+    versions = list(dict.fromkeys(re.findall(r'\{\{(Fire|Wind|Forest|Mountain|Void)\}\} version', text)))
+    if versions:
+        cat_elements = versions + [e for e in cat_elements if e not in versions]
+        if re.search(r'\|\s*element\s*=\s*\{\{', text):
+            element = versions[0]
     kind = m['type'] if m['type'] in KIND else next((v for k, v in CAT_KIND.items() if k in cats), None)
     if not element or not kind:
         continue
@@ -35,6 +47,7 @@ for m in moves:
             'dub': re.sub(r'\s*\(.*?\)', '', dub) or m['en'],
             'kind': KIND[kind],
             'element': ELEMENT[element],
+            'elements': list(dict.fromkeys(ELEMENT[e] for e in [element, *cat_elements])),
             'powerVr': m['power_vr'],
             'costVr': m['cost_vr'],
             'tpIe3': m['tp_ie3'],

@@ -6,6 +6,9 @@
   "dub": "Dust Devil",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -18,6 +21,9 @@
   "dub": "Heel Kick",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 21,
@@ -30,6 +36,10 @@
   "dub": "Acrobatic Keep",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire",
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -42,6 +52,9 @@
   "dub": "Heart Beat",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -54,6 +67,9 @@
   "dub": "Aikido",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 47,
@@ -66,6 +82,9 @@
   "dub": "Sniper Shot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -78,6 +97,9 @@
   "dub": "Ozone Flayer",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -90,6 +112,9 @@
   "dub": "Air Ride",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 57,
@@ -102,6 +127,9 @@
   "dub": "Format Disk",
   "kind": "dribble",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -114,6 +142,9 @@
   "dub": "Angel Ball",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 56,
@@ -126,6 +157,9 @@
   "dub": "Divine Dummy",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -138,6 +172,9 @@
   "dub": "Angydra Combo",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -150,6 +187,9 @@
   "dub": "Solution Boost",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -162,6 +202,9 @@
   "dub": "Spout it Out",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -174,6 +217,9 @@
   "dub": "Typhoon, Tornado, Hurricane!",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -186,6 +232,9 @@
   "dub": "Armadillo Circus",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -198,6 +247,9 @@
   "dub": "Force Shield",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -210,6 +262,9 @@
   "dub": "Look! A Rice Ball",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -222,6 +277,9 @@
   "dub": "Look! UFO",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -234,6 +292,9 @@
   "dub": "Assault Shot",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 44,
@@ -246,6 +307,9 @@
   "dub": "Asterocks",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -258,6 +322,9 @@
   "dub": "Asteroid Belt",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -270,6 +337,10 @@
   "dub": "Astro Break",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood",
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 37,
@@ -282,6 +353,9 @@
   "dub": "Astro Gate",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 49,
@@ -294,6 +368,9 @@
   "dub": "Athenian Assault",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -306,6 +383,9 @@
   "dub": "Wall of Atlantis",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -318,6 +398,9 @@
   "dub": "Atlas Sword",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -330,6 +413,9 @@
   "dub": "Atomic Flare",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 52,
@@ -342,6 +428,9 @@
   "dub": "Aurora Curtain",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 35,
@@ -354,6 +443,9 @@
   "dub": "Aurora Dribble",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 39,
@@ -366,6 +458,9 @@
   "dub": "Phantasm Dribble",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -378,6 +473,9 @@
   "dub": "Back Tornado",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 31,
@@ -390,6 +488,9 @@
   "dub": "Hot Head",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -402,6 +503,9 @@
   "dub": "Bahamut Crash",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -414,6 +518,9 @@
   "dub": "Last Lion of Defence",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -426,6 +533,9 @@
   "dub": "Fireball Screw",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": 52,
@@ -438,6 +548,9 @@
   "dub": "Fireball Storm",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -450,6 +563,9 @@
   "dub": "Blazing Knuckle",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 35,
@@ -462,6 +578,9 @@
   "dub": "Ballista Barrage",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -474,6 +593,9 @@
   "dub": "Banana Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -486,6 +608,9 @@
   "dub": "Barbarian Shield",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 53,
@@ -498,6 +623,9 @@
   "dub": "Ultrasonic",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -510,6 +638,9 @@
   "dub": "Fist Beam",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -522,6 +653,9 @@
   "dub": "Beast Fang",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 52,
@@ -534,6 +668,9 @@
   "dub": "Werewolf Howl",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -546,6 +683,9 @@
   "dub": "Hoopsie-Daisy",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -558,6 +698,9 @@
   "dub": "Begiran Whip",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -570,6 +713,9 @@
   "dub": "Belion Whip",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -582,6 +728,9 @@
   "dub": "Bicycle Blade",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -594,6 +743,9 @@
   "dub": "Big Bang",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 67,
@@ -606,6 +758,10 @@
   "dub": "Big Bang Slash",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood",
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -618,6 +774,9 @@
   "dub": "Card Slap",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 44,
@@ -630,6 +789,9 @@
   "dub": "Venus Balltrap",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -642,6 +804,9 @@
   "dub": "Pincer Pinch",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -654,6 +819,9 @@
   "dub": "Giant Spider",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -666,6 +834,9 @@
   "dub": "Bull Rush",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -678,6 +849,9 @@
   "dub": "Black Ash",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -690,6 +864,9 @@
   "dub": "Black Dawn",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -702,6 +879,9 @@
   "dub": "Shadow Swarm",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -714,6 +894,9 @@
   "dub": "Black Hole",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 35,
@@ -726,6 +909,9 @@
   "dub": "Shadow Shield",
   "kind": "catch",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -738,6 +924,9 @@
   "dub": "Ghoulish Glare",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -750,6 +939,9 @@
   "dub": "Blade Attack",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 24,
@@ -762,6 +954,9 @@
   "dub": "Electric Impedance",
   "kind": "block",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -774,6 +969,9 @@
   "dub": "Circus Block",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -786,6 +984,9 @@
   "dub": "Grand Finale",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -798,6 +999,9 @@
   "dub": "Starstruck",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -810,6 +1014,9 @@
   "dub": "Body Shield",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 57,
@@ -822,6 +1029,9 @@
   "dub": "Boomerang Bluff",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -834,6 +1044,9 @@
   "dub": "Boost Glider",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 57,
@@ -846,6 +1059,9 @@
   "dub": "Behind Bars",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -858,6 +1074,9 @@
   "dub": "Bouncing Bunny",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -870,6 +1089,10 @@
   "dub": "Bouncing Bomb",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -882,6 +1105,9 @@
   "dub": "Twin Spur",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -894,6 +1120,9 @@
   "dub": "Brachias Radiance",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -906,6 +1135,9 @@
   "dub": "Brave Shot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 76,
@@ -918,6 +1150,9 @@
   "dub": "Criss-Cross",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -930,6 +1165,9 @@
   "dub": "Bubble Trouble",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -942,6 +1180,9 @@
   "dub": "Buffalo Crusher",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -954,6 +1195,9 @@
   "dub": "Bungee Ball Burst",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -966,6 +1210,9 @@
   "dub": "Clone Block",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 45,
@@ -978,6 +1225,9 @@
   "dub": "Clone Death Zone",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 58,
@@ -990,6 +1240,10 @@
   "dub": "Clone Defence",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -1002,6 +1256,9 @@
   "dub": "Clone Faker",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 42,
@@ -1014,6 +1271,9 @@
   "dub": "Clone Penguin",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 58,
@@ -1026,6 +1286,9 @@
   "dub": "Clone Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 46,
@@ -1038,6 +1301,9 @@
   "dub": "Capable Hands",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -1050,6 +1316,9 @@
   "dub": "Combustion Catch",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -1062,6 +1331,9 @@
   "dub": "Burning Claws",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1074,6 +1346,9 @@
   "dub": "Flaming Firebird",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -1086,6 +1361,9 @@
   "dub": "Pyrokinetic",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -1098,6 +1376,9 @@
   "dub": "Burnout",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 50,
@@ -1110,6 +1391,9 @@
   "dub": "Bushin Blades",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1122,6 +1406,9 @@
   "dub": "Butterfly Trance",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 49,
@@ -1134,6 +1421,9 @@
   "dub": "Jumping Jack",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -1146,6 +1436,9 @@
   "dub": "Jumping Whack",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1158,6 +1451,9 @@
   "dub": "Capoeira Grab",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 45,
@@ -1170,6 +1466,9 @@
   "dub": "Sweet Deal",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 43,
@@ -1182,6 +1481,9 @@
   "dub": "Card Protector",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -1194,6 +1496,9 @@
   "dub": "Card Shark",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -1206,6 +1511,9 @@
   "dub": "Capoeira Kick",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -1218,6 +1526,9 @@
   "dub": "Cannonball",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -1230,6 +1541,9 @@
   "dub": "Grabber Arm",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -1242,6 +1556,9 @@
   "dub": "Bastion Block",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -1254,6 +1571,9 @@
   "dub": "Table-Turner",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 40,
@@ -1266,6 +1586,9 @@
   "dub": "Chaos Break",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 67,
@@ -1278,6 +1601,10 @@
   "dub": "Chaos Illusion",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wind"
+  ],
   "powerVr": null,
   "costVr": null,
   "tpIe3": null,
@@ -1290,6 +1617,9 @@
   "dub": "Supermassive Shot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -1302,6 +1632,9 @@
   "dub": "Cheat Blaster",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -1314,6 +1647,9 @@
   "dub": "Checkmate",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -1326,6 +1662,9 @@
   "dub": "Blast Mine",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1338,6 +1677,9 @@
   "dub": "Kulupe Claw",
   "kind": "block",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1350,6 +1692,9 @@
   "dub": "Coil Turn",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -1362,6 +1707,9 @@
   "dub": "Tesla Coil",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1374,6 +1722,9 @@
   "dub": "Colosseum Guard",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -1386,6 +1737,9 @@
   "dub": "Condor Dive",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 22,
@@ -1398,6 +1752,9 @@
   "dub": "Baby Dragon",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 25,
@@ -1410,6 +1767,9 @@
   "dub": "Cosmic Blaster",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -1422,6 +1782,9 @@
   "dub": "Counter Drive",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": null,
   "tpIe3": null,
@@ -1434,6 +1797,9 @@
   "dub": "Close Counter",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1446,6 +1812,9 @@
   "dub": "Counter Strike",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 40,
@@ -1458,6 +1827,9 @@
   "dub": "Solar Surprise",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1470,6 +1842,9 @@
   "dub": "Crimson Sphere",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1482,6 +1857,9 @@
   "dub": "Crocodile Crush",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1494,6 +1872,9 @@
   "dub": "Cross Drive",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 28,
@@ -1506,6 +1887,10 @@
   "dub": "Cross Fire",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 67,
@@ -1517,7 +1902,11 @@
   "en": "Crystal Barrier",
   "dub": "Crystal Barrier",
   "kind": "catch",
-  "element": "fire",
+  "element": "wind",
+  "elements": [
+   "wind",
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1530,6 +1919,9 @@
   "dub": "Cyclone",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 38,
@@ -1542,6 +1934,9 @@
   "dub": "Nitro Slap",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -1554,6 +1949,9 @@
   "dub": "Black Briars",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1566,6 +1964,9 @@
   "dub": "Twirling Turtle",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -1578,6 +1979,9 @@
   "dub": "Dandrol Crusher",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1590,6 +1994,9 @@
   "dub": "Dark Matter",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 58,
@@ -1602,6 +2009,9 @@
   "dub": "Dark Mist",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -1614,6 +2024,9 @@
   "dub": "Dark Phoenix",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 61,
@@ -1626,6 +2039,9 @@
   "dub": "Dark Space",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -1638,6 +2054,9 @@
   "dub": "Dark Tornado",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 34,
@@ -1650,6 +2069,9 @@
   "dub": "Dash Accelerator",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -1662,6 +2084,9 @@
   "dub": "Dash Storm",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -1674,6 +2099,9 @@
   "dub": "Runaway Train",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -1686,6 +2114,9 @@
   "dub": "No Future",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -1698,6 +2129,9 @@
   "dub": "Straight Counter",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -1710,6 +2144,9 @@
   "dub": "Doom Break",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 67,
@@ -1722,6 +2159,9 @@
   "dub": "Desecrater",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -1734,6 +2174,9 @@
   "dub": "Beyond the Death Zone",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -1746,6 +2189,9 @@
   "dub": "Doom Dive Drive",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 70,
   "tpIe3": null,
@@ -1758,6 +2204,9 @@
   "dub": "Doom Rain",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 62,
@@ -1770,6 +2219,9 @@
   "dub": "Beyond the Sambadrome",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -1782,6 +2234,9 @@
   "dub": "Low Scythe Slice",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -1794,6 +2249,9 @@
   "dub": "Center Scythe Slice",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -1806,6 +2264,9 @@
   "dub": "Doom Spear",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 46,
@@ -1818,6 +2279,9 @@
   "dub": "Doomsword Slash",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1830,6 +2294,9 @@
   "dub": "Death Zone",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 52,
@@ -1842,6 +2309,9 @@
   "dub": "Death Zone 2",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 61,
@@ -1854,6 +2324,9 @@
   "dub": "Decoy Deploy",
   "kind": "dribble",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -1866,6 +2339,9 @@
   "dub": "Deep Diver",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -1878,6 +2354,9 @@
   "dub": "Jungle Jam",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -1890,6 +2369,9 @@
   "dub": "Mystic Mist",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 70,
   "tpIe3": null,
@@ -1902,6 +2384,9 @@
   "dub": "Defence Equation",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -1914,6 +2399,9 @@
   "dub": "Delpinus Sonar",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1926,6 +2414,9 @@
   "dub": "Diabolical Cut",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 53,
@@ -1938,6 +2429,9 @@
   "dub": "Demon's Bolt",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -1950,6 +2444,9 @@
   "dub": "Katana Kick",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -1962,6 +2459,9 @@
   "dub": "Desert Drift",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -1974,6 +2474,9 @@
   "dub": "Desert Blast",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 36,
@@ -1986,6 +2489,9 @@
   "dub": "Fortress of Despair",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -1998,6 +2504,9 @@
   "dub": "Psychlone",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -2010,6 +2519,9 @@
   "dub": "Devil Ball",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 56,
@@ -2022,6 +2534,9 @@
   "dub": "Supernatural Strike",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2034,6 +2549,9 @@
   "dub": "Diamond Arm",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -2046,6 +2564,9 @@
   "dub": "Diamond Cutter",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -2058,6 +2579,9 @@
   "dub": "Diamond Hand",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -2070,6 +2594,9 @@
   "dub": "Diamond Knuckle",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -2082,6 +2609,9 @@
   "dub": "Diamond Ray",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -2094,6 +2624,9 @@
   "dub": "Diffusal Chord",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -2106,6 +2639,9 @@
   "dub": "Major Miner",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -2118,6 +2654,9 @@
   "dub": "Under Miner",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -2130,6 +2669,9 @@
   "dub": "Spatial Portal",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -2142,6 +2684,9 @@
   "dub": "Dimensional Deluge",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -2154,6 +2699,9 @@
   "dub": "Dinosaur Roar",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2166,6 +2714,9 @@
   "dub": "Disaster Strike",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2178,6 +2729,9 @@
   "dub": "Divine Arrows",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 46,
@@ -2190,6 +2744,9 @@
   "dub": "Dog Run",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 39,
@@ -2202,6 +2759,9 @@
   "dub": "Dohma Driller",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -2214,6 +2774,9 @@
   "dub": "Runaway Bull",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -2226,6 +2789,9 @@
   "dub": "Utter Gutsiness Bat",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 34,
@@ -2238,6 +2804,9 @@
   "dub": "Utter Gutsiness Catch",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 35,
@@ -2250,6 +2819,9 @@
   "dub": "Utter Gutsiness Club",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 55,
@@ -2262,6 +2834,9 @@
   "dub": "Poison Fog",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -2274,6 +2849,9 @@
   "dub": "Dolmega Stomp",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -2286,6 +2864,9 @@
   "dub": "Stomper Stopper",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -2298,6 +2879,9 @@
   "dub": "Doppelganger",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 21,
@@ -2310,6 +2894,9 @@
   "dub": "Doruga Assault",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -2322,6 +2909,9 @@
   "dub": "Double Cyclone",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -2334,6 +2924,9 @@
   "dub": "Double Grenade",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 31,
@@ -2346,6 +2939,9 @@
   "dub": "Double Jaw",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 58,
@@ -2358,6 +2954,9 @@
   "dub": "Double Rocket",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 47,
@@ -2370,6 +2969,9 @@
   "dub": "Fission and Fusion",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -2382,6 +2984,9 @@
   "dub": "Double Tornado",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 55,
@@ -2394,6 +2999,9 @@
   "dub": "Regal Eagle",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -2406,6 +3014,9 @@
   "dub": "Burning Bomb",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -2418,6 +3029,9 @@
   "dub": "Dragnova Strike",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -2430,6 +3044,9 @@
   "dub": "Dragon Driver",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2442,6 +3059,9 @@
   "dub": "Dragon Cannon",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -2454,6 +3074,9 @@
   "dub": "Dragon Crash",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 28,
@@ -2466,6 +3089,9 @@
   "dub": "Land Dragon",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -2478,6 +3104,9 @@
   "dub": "Tale of the Dragon",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2490,6 +3119,9 @@
   "dub": "Dragon Slayer",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 55,
@@ -2502,6 +3134,9 @@
   "dub": "Dragon Storm",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -2514,6 +3149,9 @@
   "dub": "Dragon Tornado",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -2526,6 +3164,9 @@
   "dub": "Drill Smasher",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 50,
@@ -2538,6 +3179,9 @@
   "dub": "Dry Blow",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2550,6 +3194,9 @@
   "dub": "Dual Pass",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 53,
@@ -2562,6 +3209,9 @@
   "dub": "Dual Smash",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -2574,6 +3224,9 @@
   "dub": "Dual Storm",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -2586,6 +3239,9 @@
   "dub": "Dual Strike",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 46,
@@ -2598,6 +3254,9 @@
   "dub": "Sandwinder",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -2610,6 +3269,9 @@
   "dub": "Sun Block",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -2622,6 +3284,9 @@
   "dub": "Dynamite Shot",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 31,
@@ -2634,6 +3299,9 @@
   "dub": "Eagle Buster",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 62,
@@ -2646,6 +3314,9 @@
   "dub": "Earthquake",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 32,
@@ -2658,6 +3329,9 @@
   "dub": "Echo Ball",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 44,
@@ -2670,6 +3344,9 @@
   "dub": "Eiffel Tower",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 43,
@@ -2682,6 +3359,9 @@
   "dub": "Einsatz",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -2694,6 +3374,9 @@
   "dub": "Electrap",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -2706,6 +3389,9 @@
   "dub": "Frost Finesse",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -2718,6 +3404,9 @@
   "dub": "Jumbo Sandwich",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2730,6 +3419,9 @@
   "dub": "Royal Shield",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -2742,6 +3434,9 @@
   "dub": "Shadow Empress",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -2754,6 +3449,9 @@
   "dub": "Endeavor Rush",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -2766,6 +3464,9 @@
   "dub": "Pyroclastic",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -2778,6 +3479,9 @@
   "dub": "Eternal Blizzard",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 37,
@@ -2790,6 +3494,9 @@
   "dub": "Triple Threat",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -2802,6 +3509,9 @@
   "dub": "Excalibur",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 66,
@@ -2814,6 +3524,9 @@
   "dub": "Breath Taker",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -2826,6 +3539,10 @@
   "dub": "Dark Energy Star",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2838,6 +3555,9 @@
   "dub": "Splitting Hares",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2850,6 +3570,9 @@
   "dub": "Fake Ball",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 30,
@@ -2862,6 +3585,9 @@
   "dub": "Fake Bomber",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 29,
@@ -2874,6 +3600,9 @@
   "dub": "Thunderclaw",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -2886,6 +3615,9 @@
   "dub": "Psychic Lift",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -2898,6 +3630,9 @@
   "dub": "Fingers of Gaia",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -2910,6 +3645,10 @@
   "dub": "Fire Blizzard",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 64,
@@ -2922,6 +3661,9 @@
   "dub": "Fire Lemonade",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -2934,6 +3676,9 @@
   "dub": "Fizzy Fire Lemonade",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -2946,6 +3691,9 @@
   "dub": "Fire Tornado",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 25,
@@ -2958,6 +3706,9 @@
   "dub": "Fire Tornado DD",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -2970,6 +3721,9 @@
   "dub": "Fire Tornado TC",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -2982,6 +3736,9 @@
   "dub": "Burning Bulwark",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -2994,6 +3751,9 @@
   "dub": "Flame Dance",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 39,
@@ -3006,6 +3766,9 @@
   "dub": "Flame Veil",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 53,
@@ -3018,6 +3781,9 @@
   "dub": "Flamey Mirage",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3030,6 +3796,9 @@
   "dub": "Fancy Footwork",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -3042,6 +3811,9 @@
   "dub": "Flash Upper",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 45,
@@ -3054,6 +3826,9 @@
   "dub": "Flower Plougher",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -3065,7 +3840,11 @@
   "en": "Flying Fish",
   "dub": "Flying Fish",
   "kind": "shoot",
-  "element": "wind",
+  "element": "wood",
+  "elements": [
+   "wood",
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -3078,6 +3857,9 @@
   "dub": "Flying Marlin",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -3090,6 +3872,9 @@
   "dub": "Fancy-Footwork",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3102,6 +3887,9 @@
   "dub": "Fortissimo Foot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -3114,6 +3902,9 @@
   "dub": "Fox Mirage",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3126,6 +3917,9 @@
   "dub": "Fractal Repeller",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3138,6 +3932,9 @@
   "dub": "Frankenstun",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -3150,6 +3947,9 @@
   "dub": "Freeze Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 25,
@@ -3162,6 +3962,9 @@
   "dub": "Frozen Steal",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 53,
@@ -3174,6 +3977,9 @@
   "dub": "Owl Swipe",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3186,6 +3992,9 @@
   "dub": "Full Power Shield",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 32,
@@ -3198,6 +4007,9 @@
   "dub": "Future Eye",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -3210,6 +4022,9 @@
   "dub": "Wind God's Dance",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 53,
@@ -3222,6 +4037,9 @@
   "dub": "Mega Majin",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -3234,6 +4052,9 @@
   "dub": "Mega Majin Trio",
   "kind": "catch",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -3246,6 +4067,9 @@
   "dub": "Elemental Destroyer",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -3258,6 +4082,9 @@
   "dub": "Bubble Gum",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 25,
@@ -3270,6 +4097,9 @@
   "dub": "Gaia Break",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 61,
@@ -3282,6 +4112,9 @@
   "dub": "Galactic GigaFall",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -3294,6 +4127,9 @@
   "dub": "Galatyn",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 37,
@@ -3306,6 +4142,9 @@
   "dub": "Destrier Charge",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -3318,6 +4157,9 @@
   "dub": "Atomic Spin",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3330,6 +4172,9 @@
   "dub": "Gandoran Crusher",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3342,6 +4187,9 @@
   "dub": "Ganymede Ray",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 40,
@@ -3354,6 +4202,9 @@
   "dub": "Garius Bounce",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3366,6 +4217,9 @@
   "dub": "Gaussian Goal",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3378,6 +4232,9 @@
   "dub": "Accelerator Gears",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -3390,6 +4247,9 @@
   "dub": "Dragon Rage Dunk",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -3402,6 +4262,9 @@
   "dub": "Crescent Kick",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -3414,6 +4277,9 @@
   "dub": "Marshal's Light",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -3426,6 +4292,9 @@
   "dub": "Triple G Strike",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -3438,6 +4307,9 @@
   "dub": "Supreme Spin",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -3450,6 +4322,9 @@
   "dub": "Gigabite Geyser",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3462,6 +4337,9 @@
   "dub": "Giant Beanstalk",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -3474,6 +4352,9 @@
   "dub": "Gigant Wall",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 50,
@@ -3486,6 +4367,9 @@
   "dub": "Giga Knuckle Sandwich",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3498,6 +4382,9 @@
   "dub": "Gigaton Head",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 70,
   "tpIe3": null,
@@ -3510,6 +4397,9 @@
   "dub": "Gigiras Shield",
   "kind": "catch",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3522,6 +4412,9 @@
   "dub": "We Have Liftoff!",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -3534,6 +4427,9 @@
   "dub": "Silver Wolf Strike",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3546,6 +4442,9 @@
   "dub": "Gladius Arch",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 62,
@@ -3558,6 +4457,9 @@
   "dub": "Majestic Radiance",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -3570,6 +4472,9 @@
   "dub": "Heaven's Ascent",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 56,
@@ -3582,6 +4487,9 @@
   "dub": "Hell's Descent",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 56,
@@ -3594,6 +4502,9 @@
   "dub": "Sliding Goal",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 32,
@@ -3606,6 +4517,9 @@
   "dub": "God Break",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 64,
@@ -3618,6 +4532,9 @@
   "dub": "Almighty Cannon",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 55,
@@ -3630,6 +4547,9 @@
   "dub": "God Catch",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 57,
@@ -3642,6 +4562,9 @@
   "dub": "God Catch FT",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -3654,6 +4577,9 @@
   "dub": "Divine Deflectors",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -3666,6 +4592,11 @@
   "dub": "God Hand",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth",
+   "wood",
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 22,
@@ -3678,6 +4609,9 @@
   "dub": "God Hand EV",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -3690,6 +4624,9 @@
   "dub": "Tiger God Hand",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -3702,6 +4639,9 @@
   "dub": "Triple God Hand",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 57,
@@ -3714,6 +4654,9 @@
   "dub": "God Hand V",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -3726,6 +4669,9 @@
   "dub": "Double God Hand",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -3738,6 +4684,9 @@
   "dub": "God Hand X",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 45,
@@ -3750,6 +4699,9 @@
   "dub": "God Knows",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 52,
@@ -3762,6 +4714,9 @@
   "dub": "God Alone Knows",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -3774,6 +4729,9 @@
   "dub": "Holy Roller",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3786,6 +4744,9 @@
   "dub": "Gold Rush",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3798,6 +4759,9 @@
   "dub": "Goliger Assault",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3810,6 +4774,9 @@
   "dub": "Sleeping Dust",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 39,
@@ -3822,6 +4789,9 @@
   "dub": "Gooma Inferno",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3834,6 +4804,9 @@
   "dub": "Bewildered",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 27,
@@ -3846,6 +4819,9 @@
   "dub": "Force Flash",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -3858,6 +4834,9 @@
   "dub": "Gorius Swing",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -3870,6 +4849,9 @@
   "dub": "Grand Fenrir",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 64,
@@ -3882,6 +4864,9 @@
   "dub": "Grand Fire",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 76,
@@ -3894,6 +4879,9 @@
   "dub": "Particle Accelerator",
   "kind": "block",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -3906,6 +4894,9 @@
   "dub": "Gravestone",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 36,
@@ -3918,6 +4909,9 @@
   "dub": "Gravitation",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 38,
@@ -3930,6 +4924,9 @@
   "dub": "Gravity Cage",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3942,6 +4939,9 @@
   "dub": "Gravity Dune",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -3954,6 +4954,10 @@
   "dub": "Gravity Point",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood",
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -3966,6 +4970,9 @@
   "dub": "Barrier Reef",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 37,
@@ -3978,6 +4985,9 @@
   "dub": "Great Blaster",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -3990,6 +5000,9 @@
   "dub": "I Am the Almighty",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -4002,6 +5015,9 @@
   "dub": "Majin the Great",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4014,6 +5030,9 @@
   "dub": "Grenade Shot",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -4026,6 +5045,9 @@
   "dub": "Grimron Shield",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4038,6 +5060,9 @@
   "dub": "Grizzly Smash",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4050,6 +5075,9 @@
   "dub": "Ground Quake",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 56,
@@ -4062,6 +5090,9 @@
   "dub": "Gryphbang Smash",
   "kind": "dribble",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4074,6 +5105,9 @@
   "dub": "Titanic Shield",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4086,6 +5120,10 @@
   "dub": "Gungnir",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind",
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 66,
@@ -4098,6 +5136,9 @@
   "dub": "Bigman's Hammer",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -4110,6 +5151,9 @@
   "dub": "Gun Shot",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 43,
@@ -4122,6 +5166,9 @@
   "dub": "Swirly Shot",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -4134,6 +5181,9 @@
   "dub": "Gusfii Bomb",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4146,6 +5196,9 @@
   "dub": "Gyorom Claw",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4158,6 +5211,9 @@
   "dub": "Gyro-Blocker",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -4170,6 +5226,9 @@
   "dub": "Scattershot",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4182,6 +5241,9 @@
   "dub": "Bald Eagle Glide",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4194,6 +5256,9 @@
   "dub": "Flower Power",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 30,
@@ -4206,6 +5271,9 @@
   "dub": "Atomic Harmonic",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -4218,6 +5286,9 @@
   "dub": "Harvest",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 48,
@@ -4230,6 +5301,9 @@
   "dub": "Hawk Shot",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 34,
@@ -4242,6 +5316,9 @@
   "dub": "Falcon Counter",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -4254,6 +5331,9 @@
   "dub": "Falcon Glide",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4266,6 +5346,9 @@
   "dub": "Headbanger",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -4278,6 +5361,10 @@
   "dub": "Heart's Desire",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind",
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4290,6 +5377,9 @@
   "dub": "Heat Tackle",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 27,
@@ -4302,6 +5392,9 @@
   "dub": "Heavenly Drive",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 69,
@@ -4314,6 +5407,9 @@
   "dub": "Heaven's Time",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 50,
@@ -4326,6 +5422,9 @@
   "dub": "Trident Torpedo",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4338,6 +5437,9 @@
   "dub": "Heavy Mettle",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 42,
@@ -4350,6 +5452,9 @@
   "dub": "Inferno Fist",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4362,6 +5467,9 @@
   "dub": "Hellfire",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 46,
@@ -4374,6 +5482,9 @@
   "dub": "Daruma Boomer",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -4386,6 +5497,9 @@
   "dub": "Savage Beast Fang",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -4398,6 +5512,9 @@
   "dub": "High Voltage",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 60,
@@ -4410,6 +5527,9 @@
   "dub": "Matchlock Bullet",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -4422,6 +5542,9 @@
   "dub": "Ursa Binder",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -4434,6 +5557,9 @@
   "dub": "Ursa Rager",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -4446,6 +5572,9 @@
   "dub": "Superior Crayon Power",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4458,6 +5587,9 @@
   "dub": "Double Touch",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 20,
@@ -4470,6 +5602,9 @@
   "dub": "Unify",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -4482,6 +5617,9 @@
   "dub": "Polar Bear No. 2",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -4494,6 +5632,9 @@
   "dub": "Holograb",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -4506,6 +5647,9 @@
   "dub": "Celestial Zone",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 60,
@@ -4518,6 +5662,9 @@
   "dub": "Fire Rooster",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 62,
@@ -4530,6 +5677,10 @@
   "dub": "Horn Train",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood",
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -4542,6 +5693,9 @@
   "dub": "Horse Sprint",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4554,6 +5708,9 @@
   "dub": "Firebird Flight",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4566,6 +5723,9 @@
   "dub": "Hunter's Net",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -4578,6 +5738,9 @@
   "dub": "Hunter's Spear",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4590,6 +5753,9 @@
   "dub": "Hurricane Arrows",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 57,
@@ -4602,6 +5768,9 @@
   "dub": "Wrath Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 22,
@@ -4614,6 +5783,9 @@
   "dub": "Anchors Aweigh",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -4626,6 +5798,9 @@
   "dub": "Icebreaker",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -4638,6 +5813,9 @@
   "dub": "Icy Grace",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -4650,6 +5828,9 @@
   "dub": "Ice Block",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 50,
@@ -4662,6 +5843,9 @@
   "dub": "Land Of Ice",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 28,
@@ -4674,6 +5858,9 @@
   "dub": "Overnight Fortress",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -4686,6 +5873,9 @@
   "dub": "Icicle Road",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4698,6 +5888,9 @@
   "dub": "Ignite Steal",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 53,
@@ -4710,6 +5903,9 @@
   "dub": "Dimensional Hand",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 52,
@@ -4722,6 +5918,9 @@
   "dub": "Hammer of Fury",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 42,
@@ -4734,6 +5933,9 @@
   "dub": "Illusion Ball",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 28,
@@ -4746,6 +5948,9 @@
   "dub": "Flash Dash",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -4758,6 +5963,9 @@
   "dub": "Inazuma-1",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 40,
@@ -4770,6 +5978,9 @@
   "dub": "Inazuma-1 Drop",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 61,
@@ -4782,6 +5993,9 @@
   "dub": "Inazuma Break",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": 52,
@@ -4794,6 +6008,9 @@
   "dub": "Inazuma Break CG",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -4806,6 +6023,9 @@
   "dub": "Inazuma Drop",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 37,
@@ -4818,6 +6038,9 @@
   "dub": "Overclock Spiral",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -4830,6 +6053,9 @@
   "dub": "Divine Drive",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -4842,6 +6068,9 @@
   "dub": "Iron Wall",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 44,
@@ -4854,6 +6083,9 @@
   "dub": "Tusk Force",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -4866,6 +6098,9 @@
   "dub": "Ixaal Canon",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4878,6 +6113,9 @@
   "dub": "Whipperslapper",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -4890,6 +6128,9 @@
   "dub": "Jet Stream",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 80,
@@ -4902,6 +6143,9 @@
   "dub": "Racing Flame",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 33,
@@ -4914,6 +6158,9 @@
   "dub": "Rolling Hell",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 46,
@@ -4926,6 +6173,9 @@
   "dub": "Temporal Wall",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 60,
@@ -4938,6 +6188,9 @@
   "dub": "Gyrius Bounce",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -4950,6 +6203,9 @@
   "dub": "Brimstone Rain",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -4962,6 +6218,9 @@
   "dub": "Breakthrough",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 25,
@@ -4974,6 +6233,9 @@
   "dub": "Breakthrough 2",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -4986,6 +6248,9 @@
   "dub": "Breakthrough 3",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 48,
@@ -4998,6 +6263,9 @@
   "dub": "Judgement Ray",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -5010,6 +6278,9 @@
   "dub": "Leaping Thunder",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 34,
@@ -5022,6 +6293,9 @@
   "dub": "Pegasus Punch",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5034,6 +6308,9 @@
   "dub": "Kabuki Break",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -5046,6 +6323,9 @@
   "dub": "Flame Breath",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 37,
@@ -5058,6 +6338,9 @@
   "dub": "Shadow Stitch",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 39,
@@ -5070,6 +6353,9 @@
   "dub": "Shadow Catch",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -5082,6 +6368,9 @@
   "dub": "Bamboo Pattern",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 57,
@@ -5094,6 +6383,9 @@
   "dub": "Kraken Seaquake",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -5106,6 +6398,9 @@
   "dub": "Whirlwind Cut",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 36,
@@ -5118,6 +6413,9 @@
   "dub": "Diamond Defence",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -5130,6 +6428,9 @@
   "dub": "Teleport Shot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 21,
@@ -5142,6 +6443,9 @@
   "dub": "Serow Cabriole",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5154,6 +6458,9 @@
   "dub": "Kangaroo Kick",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 31,
@@ -5166,6 +6473,9 @@
   "dub": "Flapjack Defence",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -5178,6 +6488,9 @@
   "dub": "Tornado Tunnel",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -5190,6 +6503,9 @@
   "dub": "Volcanic Rock",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5202,6 +6518,9 @@
   "dub": "Volcanic Lightning",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -5214,6 +6533,9 @@
   "dub": "Chrysanthemum Katana",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5226,6 +6548,9 @@
   "dub": "Bridge to Nowhere",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -5238,6 +6563,9 @@
   "dub": "Killer Blade",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -5250,6 +6578,9 @@
   "dub": "Menace Elbow",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -5262,6 +6593,9 @@
   "dub": "Field of Force",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 57,
@@ -5274,6 +6608,9 @@
   "dub": "Killer Slide",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 12,
@@ -5286,6 +6623,9 @@
   "dub": "Killer Whale",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -5298,6 +6638,9 @@
   "dub": "Crown Fire",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5310,6 +6653,9 @@
   "dub": "Royal Lancer",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -5322,6 +6668,9 @@
   "dub": "Oglitteration",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5334,6 +6683,9 @@
   "dub": "Jurassic Jaws",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5346,6 +6698,9 @@
   "dub": "Pterrordactyl Swoop",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5358,6 +6713,9 @@
   "dub": "Mistral",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 27,
@@ -5370,6 +6728,9 @@
   "dub": "Crescent Cross",
   "kind": "catch",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -5382,6 +6743,9 @@
   "dub": "Verdure Vortex",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -5394,6 +6758,9 @@
   "dub": "Leaf Bowler",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -5406,6 +6773,9 @@
   "dub": "Cold Snap",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -5418,6 +6788,9 @@
   "dub": "Polar Pike",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5430,6 +6803,9 @@
   "dub": "Aurora Arrow",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5442,6 +6818,9 @@
   "dub": "Emperor Penguin No. 1",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 58,
@@ -5454,6 +6833,9 @@
   "dub": "Emperor Penguin No. 2",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 52,
@@ -5466,6 +6848,9 @@
   "dub": "Emperor Penguin No. 2 feat. Shark",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -5478,6 +6863,9 @@
   "dub": "Emperor Penguin No. 3",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 64,
@@ -5490,6 +6878,9 @@
   "dub": "Emperor Penguin 7",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5502,6 +6893,9 @@
   "dub": "Emperor Penguin X",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 58,
@@ -5514,6 +6908,9 @@
   "dub": "Peacock Radiance",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5526,6 +6923,9 @@
   "dub": "Spider Web",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 33,
@@ -5538,6 +6938,9 @@
   "dub": "Kung Fu Fighting",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 37,
@@ -5550,6 +6953,9 @@
   "dub": "Kung Fu Header",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 31,
@@ -5562,6 +6968,9 @@
   "dub": "Black Tide Ride",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5574,6 +6983,9 @@
   "dub": "Gyro Head",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 25,
@@ -5586,6 +6998,9 @@
   "dub": "Driving Header",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -5598,6 +7013,9 @@
   "dub": "La Flamme",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5610,6 +7028,9 @@
   "dub": "Final Death Zone",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -5622,6 +7043,9 @@
   "dub": "Last Resort",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -5634,6 +7058,9 @@
   "dub": "Last Resort Σ",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -5646,6 +7073,9 @@
   "dub": "Last Resort D",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -5658,6 +7088,9 @@
   "dub": "Liar Shot",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": null,
   "tpIe3": 44,
@@ -5670,6 +7103,9 @@
   "dub": "Lightning Sprint",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 47,
@@ -5682,6 +7118,9 @@
   "dub": "Guided Collide",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -5694,6 +7133,9 @@
   "dub": "Lion Assault",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5706,6 +7148,9 @@
   "dub": "Hydro Flow",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 80,
   "tpIe3": null,
@@ -5718,6 +7163,9 @@
   "dub": "Lancelot Lunge",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5730,6 +7178,9 @@
   "dub": "Cupid's Arrow",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -5742,6 +7193,9 @@
   "dub": "Loyal Heart Shot",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -5754,6 +7208,9 @@
   "dub": "Lucky Dice",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5766,6 +7223,9 @@
   "dub": "Luminous Orb",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -5778,6 +7238,9 @@
   "dub": "Deceptor Dribble",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 39,
@@ -5790,6 +7253,9 @@
   "dub": "Will-o'-the-Wisp Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -5802,6 +7268,9 @@
   "dub": "Marinara Barrier",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -5814,6 +7283,9 @@
   "dub": "Mega Marinara Barrier",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -5826,6 +7298,9 @@
   "dub": "Zephyr Shot",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -5838,6 +7313,9 @@
   "dub": "Rat-a-Tat Pass",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -5850,6 +7328,9 @@
   "dub": "Mad Express",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 57,
@@ -5862,6 +7343,9 @@
   "dub": "Grand Slam",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -5874,6 +7358,9 @@
   "dub": "Curving Diamond Ray",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -5886,6 +7373,9 @@
   "dub": "Magic",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 21,
@@ -5898,6 +7388,9 @@
   "dub": "Magic Amp",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -5910,6 +7403,9 @@
   "dub": "Floral Fiesta",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5922,6 +7418,9 @@
   "dub": "Magician's Box",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5934,6 +7433,9 @@
   "dub": "Magmire",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -5946,6 +7448,9 @@
   "dub": "Magnatas Stomp",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -5958,6 +7463,10 @@
   "dub": "Magnetism",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood",
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -5969,7 +7478,11 @@
   "en": "Majin The Hand",
   "dub": "Majin The Hand",
   "kind": "catch",
-  "element": "wood",
+  "element": "earth",
+  "elements": [
+   "earth",
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 32,
@@ -5982,6 +7495,9 @@
   "dub": "Majin the Wave",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -5994,6 +7510,9 @@
   "dub": "Wood Chopper",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 21,
@@ -6006,6 +7525,9 @@
   "dub": "Mammoth Stomp",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6018,6 +7540,9 @@
   "dub": "Full Moon Fever",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6030,6 +7555,9 @@
   "dub": "Executioner's Axe",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6042,6 +7570,9 @@
   "dub": "Fiend Hand",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 60,
@@ -6054,6 +7585,9 @@
   "dub": "Matador Feint",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 47,
@@ -6066,6 +7600,9 @@
   "dub": "Matrix Eye",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -6078,6 +7615,9 @@
   "dub": "Flurry-Go-Round",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -6090,6 +7630,9 @@
   "dub": "Maximum Fire",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 58,
@@ -6102,6 +7645,9 @@
   "dub": "Mega Quake",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 44,
@@ -6114,6 +7660,9 @@
   "dub": "Mega Wall",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 50,
@@ -6126,6 +7675,9 @@
   "dub": "Megalodon",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": 40,
@@ -6138,6 +7690,9 @@
   "dub": "Sacred Embrace",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -6150,6 +7705,9 @@
   "dub": "Spectacle Crash",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 37,
@@ -6162,6 +7720,9 @@
   "dub": "Megaton Head",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 28,
@@ -6174,6 +7735,9 @@
   "dub": "Silent Inkstroke",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -6186,6 +7750,9 @@
   "dub": "Fugue Wave",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -6198,6 +7765,9 @@
   "dub": "Mermaid Smash",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -6210,6 +7780,9 @@
   "dub": "Mermaid's Veil",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -6222,6 +7795,9 @@
   "dub": "Metal Hammer",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -6234,6 +7810,9 @@
   "dub": "Meteoric Fire Tornado",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -6246,6 +7825,9 @@
   "dub": "Meteoric Fire Tornado V",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -6258,6 +7840,9 @@
   "dub": "Meteor Attack",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 22,
@@ -6270,6 +7855,9 @@
   "dub": "Meteor Strike",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -6282,6 +7870,9 @@
   "dub": "Meteor Shower",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 38,
@@ -6294,6 +7885,9 @@
   "dub": "Million Hands",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 55,
@@ -6306,6 +7900,9 @@
   "dub": "Horned Owl Swipe",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6318,6 +7915,9 @@
   "dub": "Mirage Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 43,
@@ -6330,6 +7930,9 @@
   "dub": "Goopy Gloopy Goo",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -6342,6 +7945,9 @@
   "dub": "Mole Fake",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 33,
@@ -6354,6 +7960,9 @@
   "dub": "Mole Shuffle",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -6366,6 +7975,9 @@
   "dub": "Fur Trapper",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -6378,6 +7990,9 @@
   "dub": "Easter Island Header",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -6390,6 +8005,9 @@
   "dub": "Monkey Turn",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -6402,6 +8020,9 @@
   "dub": "Moonsault",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 25,
@@ -6414,6 +8035,9 @@
   "dub": "Somersault Stamp",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -6426,6 +8050,9 @@
   "dub": "Mortal Smash",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6438,6 +8065,9 @@
   "dub": "Mossfii Burst",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6450,6 +8080,10 @@
   "dub": "Acrobotics",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth",
+   "neutral"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -6462,6 +8096,9 @@
   "dub": "In-Line Stampede",
   "kind": "dribble",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -6474,6 +8111,9 @@
   "dub": "Infinite Wall",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 55,
@@ -6486,6 +8126,9 @@
   "dub": "Mugen The Hand",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 50,
@@ -6498,6 +8141,9 @@
   "dub": "Dramatic Swipe",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -6510,6 +8156,9 @@
   "dub": "Fungusmungous",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -6522,6 +8171,9 @@
   "dub": "Sordid Thorns",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6534,6 +8186,9 @@
   "dub": "Log Roll",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -6546,6 +8201,9 @@
   "dub": "Abaddon Drop",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 33,
@@ -6558,6 +8216,9 @@
   "dub": "Needle Hammer",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 45,
@@ -6570,6 +8231,9 @@
   "dub": "Fireball Head",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 30,
@@ -6582,6 +8246,9 @@
   "dub": "Fireball Knuckle",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -6594,6 +8261,9 @@
   "dub": "Neo Galaxy",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 64,
@@ -6606,6 +8276,9 @@
   "dub": "Niagara Falls",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -6618,6 +8291,9 @@
   "dub": "Double Wrath Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 43,
@@ -6630,6 +8306,9 @@
   "dub": "Three-Legged Rush",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 50,
@@ -6642,6 +8321,9 @@
   "dub": "Ninja Toad",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -6654,6 +8336,9 @@
   "dub": "No Escape",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 52,
@@ -6666,6 +8351,9 @@
   "dub": "Rising Dragon",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -6678,6 +8366,9 @@
   "dub": "Black Magic",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -6690,6 +8381,9 @@
   "dub": "Northern Impact",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 52,
@@ -6702,6 +8396,9 @@
   "dub": "Ocean Birth",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": null,
   "tpIe3": null,
@@ -6714,6 +8411,9 @@
   "dub": "Odin Sword",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 55,
@@ -6726,6 +8426,9 @@
   "dub": "Falling Planet",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -6738,6 +8441,9 @@
   "dub": "Gusher Crusher",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -6750,6 +8456,9 @@
   "dub": "Mama's Helping Hand",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -6762,6 +8471,9 @@
   "dub": "Okehazama Ravine",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -6774,6 +8486,9 @@
   "dub": "Athena's Anthem",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -6786,6 +8501,9 @@
   "dub": "Omega Assault",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -6798,6 +8516,9 @@
   "dub": "Omega Hand",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 60,
@@ -6810,6 +8531,9 @@
   "dub": "Ghost Pull",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 22,
@@ -6822,6 +8546,9 @@
   "dub": "Wolf Strike",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6834,6 +8561,9 @@
   "dub": "Big Fan",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 41,
@@ -6846,6 +8576,9 @@
   "dub": "Menacing Glare",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -6858,6 +8591,9 @@
   "dub": "Vigorous Stomp",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -6870,6 +8606,9 @@
   "dub": "Orbital Drive",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -6882,6 +8621,10 @@
   "dub": "Orion's Shade",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood",
+   "neutral"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -6894,6 +8637,9 @@
   "dub": "Sword of the King",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -6906,6 +8652,9 @@
   "dub": "Fangtasmagoria",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -6918,6 +8667,10 @@
   "dub": "Lunar Eclipse",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -6930,6 +8683,9 @@
   "dub": "Cyber Realm",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -6942,6 +8698,9 @@
   "dub": "Brawl of the Wild",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -6954,6 +8713,9 @@
   "dub": "Hyperdrive",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -6966,6 +8728,9 @@
   "dub": "Grand Glow",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -6978,6 +8743,10 @@
   "dub": "Penguin Volley",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire",
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -6990,6 +8759,9 @@
   "dub": "Paladin Strike",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 43,
@@ -7002,6 +8774,9 @@
   "dub": "Pamerio Cabriole",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7014,6 +8789,9 @@
   "dub": "Snowstorm Leopard",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -7026,6 +8804,9 @@
   "dub": "Parkour Power",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -7038,6 +8819,9 @@
   "dub": "Patriot Shot",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 30,
@@ -7050,6 +8834,9 @@
   "dub": "Pegasus Charge",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7062,6 +8849,9 @@
   "dub": "Pegasus Bolt",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7074,6 +8864,9 @@
   "dub": "Crimson Pegasus Charge",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7086,6 +8879,9 @@
   "dub": "Pegasus Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 49,
@@ -7098,6 +8894,9 @@
   "dub": "Pelion Whip",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7110,6 +8909,9 @@
   "dub": "Penguin Reckoning",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -7122,6 +8924,9 @@
   "dub": "Penguin the Hand",
   "kind": "catch",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -7134,6 +8939,9 @@
   "dub": "Royal Penguin Parade",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -7146,6 +8954,9 @@
   "dub": "Optimal Trajectory",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -7158,6 +8969,9 @@
   "dub": "Perfect Penguin",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -7170,6 +8984,9 @@
   "dub": "Perfect Tower",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 57,
@@ -7182,6 +8999,9 @@
   "dub": "Perseus Strike",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -7194,6 +9014,9 @@
   "dub": "Phalanx",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -7206,6 +9029,9 @@
   "dub": "Phantom Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 21,
@@ -7218,6 +9044,9 @@
   "dub": "Phoenichias Radiance",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7230,6 +9059,9 @@
   "dub": "Photon Crash",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 25,
@@ -7242,6 +9074,9 @@
   "dub": "Starstriker",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -7254,6 +9089,9 @@
   "dub": "Planet Shield",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 50,
@@ -7266,6 +9104,9 @@
   "dub": "Plasma Ball",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -7278,6 +9119,9 @@
   "dub": "Power Charge",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 39,
@@ -7290,6 +9134,9 @@
   "dub": "Power Shield",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 25,
@@ -7302,6 +9149,9 @@
   "dub": "Power Spike",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -7314,6 +9164,9 @@
   "dub": "Pressure Punch",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 21,
@@ -7326,6 +9179,9 @@
   "dub": "Hey Presto",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -7338,6 +9194,9 @@
   "dub": "Prima Donna",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 39,
@@ -7350,6 +9209,9 @@
   "dub": "Prime Legend",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 61,
@@ -7362,6 +9224,9 @@
   "dub": "Procyon Net",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 52,
@@ -7374,6 +9239,9 @@
   "dub": "Perimeter Zone",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 42,
@@ -7386,6 +9254,9 @@
   "dub": "Psi Arrow",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -7398,6 +9269,9 @@
   "dub": "Psycho Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -7410,6 +9284,9 @@
   "dub": "Quick Draw",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -7422,6 +9299,9 @@
   "dub": "Roc and Roll",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7434,6 +9314,9 @@
   "dub": "Rainbow Bubble Burst",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -7446,6 +9329,9 @@
   "dub": "Rainbow Arc",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 37,
@@ -7458,6 +9344,9 @@
   "dub": "Rapid Fire",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -7470,6 +9359,9 @@
   "dub": "Whip Crack",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -7482,6 +9374,9 @@
   "dub": "Ratel Claw",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7494,6 +9389,9 @@
   "dub": "Remote Combustion",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 48,
@@ -7506,6 +9404,9 @@
   "dub": "Bounce Handler",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -7518,6 +9419,9 @@
   "dub": "Bullseye Blaze",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -7530,6 +9434,9 @@
   "dub": "Red Hot Shower",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -7542,6 +9449,9 @@
   "dub": "Crimson Prison",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7554,6 +9464,9 @@
   "dub": "Redio Cabriole",
   "kind": "dribble",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7566,6 +9479,9 @@
   "dub": "Reflect Buster",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 40,
@@ -7578,6 +9494,9 @@
   "dub": "Rejection",
   "kind": "catch",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -7590,6 +9509,9 @@
   "dub": "Wall for One",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 120,
   "costVr": 110,
   "tpIe3": null,
@@ -7602,6 +9524,9 @@
   "dub": "Gale Dash",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 42,
@@ -7614,6 +9539,9 @@
   "dub": "Hollow Blare",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -7625,7 +9553,11 @@
   "en": "Reverse World",
   "dub": "Negative Feedback",
   "kind": "catch",
-  "element": "wind",
+  "element": "wood",
+  "elements": [
+   "wood",
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -7638,6 +9570,9 @@
   "dub": "Revolution V",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 49,
@@ -7650,6 +9585,9 @@
   "dub": "Ribbon Shower",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 31,
@@ -7662,6 +9600,9 @@
   "dub": "Claw de Force",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -7674,6 +9615,9 @@
   "dub": "Road Roller",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 50,
@@ -7686,6 +9630,9 @@
   "dub": "Gravel Gavel",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -7698,6 +9645,9 @@
   "dub": "Amp Beat",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -7710,6 +9660,9 @@
   "dub": "Stone Wall",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 53,
@@ -7722,6 +9675,9 @@
   "dub": "Warhead",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -7734,6 +9690,9 @@
   "dub": "Rocket Kobushi",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 25,
@@ -7746,6 +9705,9 @@
   "dub": "War Saw",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -7758,6 +9720,9 @@
   "dub": "Rolling Kick",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -7770,6 +9735,9 @@
   "dub": "Rolling Slide",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -7782,6 +9750,10 @@
   "dub": "Bed Of Roses",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood",
+   "fire"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 31,
@@ -7794,6 +9766,9 @@
   "dub": "Ball Lightning",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -7806,6 +9781,9 @@
   "dub": "Run Ball Run",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 28,
@@ -7818,6 +9796,9 @@
   "dub": "Fantastic Save",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -7830,6 +9811,9 @@
   "dub": "Meteor Blade",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 49,
@@ -7842,6 +9826,9 @@
   "dub": "Divine Stamp",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 43,
@@ -7854,6 +9841,9 @@
   "dub": "Dark Reversal",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -7866,6 +9856,9 @@
   "dub": "Safety First",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 40,
@@ -7878,6 +9871,9 @@
   "dub": "Ultimate Eleven Assault",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -7890,6 +9886,9 @@
   "dub": "Master Stroke",
   "kind": "block",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -7902,6 +9901,9 @@
   "dub": "Rotary Sander",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -7914,6 +9916,9 @@
   "dub": "Sand Blaster",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -7926,6 +9931,9 @@
   "dub": "Saranarja Combo",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7938,6 +9946,9 @@
   "dub": "Whirlpool",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -7950,6 +9961,9 @@
   "dub": "Bewilder Blast",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 39,
@@ -7962,6 +9976,9 @@
   "dub": "Back Slash",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -7974,6 +9991,9 @@
   "dub": "Scream of Eden",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -7986,6 +10006,9 @@
   "dub": "Fire Drill",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -7998,6 +10021,9 @@
   "dub": "Hoopsie-Loop",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -8010,6 +10036,9 @@
   "dub": "Security Shot",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 37,
@@ -8022,6 +10051,9 @@
   "dub": "Fist of Justice",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 37,
@@ -8034,6 +10066,9 @@
   "dub": "Tortoise Shield",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -8046,6 +10081,9 @@
   "dub": "Whirlwind Force",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 44,
@@ -8058,6 +10096,9 @@
   "dub": "Snakebite",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8070,6 +10111,9 @@
   "dub": "Ephemeral Boost",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -8082,6 +10126,9 @@
   "dub": "Shadow Guard",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -8094,6 +10141,9 @@
   "dub": "Shadow Hand",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -8106,6 +10156,9 @@
   "dub": "Shadow Kick",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -8118,6 +10171,10 @@
   "dub": "Shadow Ray",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood",
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 67,
@@ -8130,6 +10187,9 @@
   "dub": "Shadow Sword",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 120,
   "costVr": 80,
   "tpIe3": null,
@@ -8142,6 +10202,9 @@
   "dub": "Shark Shooter",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -8154,6 +10217,10 @@
   "dub": "Shell Burst",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood",
+   "neutral"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -8166,6 +10233,9 @@
   "dub": "Stop it, Poppet",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -8178,6 +10248,9 @@
   "dub": "Sumo Stomp",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -8190,6 +10263,9 @@
   "dub": "Shine Drive",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 34,
@@ -8202,6 +10278,9 @@
   "dub": "Golden Gull",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8214,6 +10293,9 @@
   "dub": "White Hole",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -8226,6 +10308,9 @@
   "dub": "Maw-Ment of Truth",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -8238,6 +10323,9 @@
   "dub": "Vac Attack",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 44,
@@ -8250,6 +10338,9 @@
   "dub": "Shiny Feathers",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -8262,6 +10353,9 @@
   "dub": "Flurry Dash",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 20,
@@ -8274,6 +10368,9 @@
   "dub": "Forked Edge",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -8286,6 +10383,9 @@
   "dub": "Rabbit Run",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8298,6 +10398,9 @@
   "dub": "Shot Stopper",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8310,6 +10413,9 @@
   "dub": "Goal Gobbler",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -8322,6 +10428,9 @@
   "dub": "Shot Pocket",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 30,
@@ -8334,6 +10443,9 @@
   "dub": "Twister Trap",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -8346,6 +10458,9 @@
   "dub": "Shooting Star",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -8358,6 +10473,9 @@
   "dub": "Shot Trap",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 40,
@@ -8370,6 +10488,9 @@
   "dub": "Spring Thunderclap",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -8382,6 +10503,9 @@
   "dub": "Sidewinder",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -8394,6 +10518,9 @@
   "dub": "Sigma Zone",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 57,
@@ -8406,6 +10533,9 @@
   "dub": "Silk Road",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8418,6 +10548,9 @@
   "dub": "Legendary Silver Wolf",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -8430,6 +10563,10 @@
   "dub": "Dance on Air",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth",
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8442,6 +10579,9 @@
   "dub": "High-Rise Hop",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8454,6 +10594,9 @@
   "dub": "Claw Slash",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 32,
@@ -8466,6 +10609,9 @@
   "dub": "Slingshot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 49,
@@ -8478,6 +10624,9 @@
   "dub": "Snake Shot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -8490,6 +10639,9 @@
   "dub": "Am-Bush",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 44,
@@ -8502,6 +10654,9 @@
   "dub": "Snow Angel",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -8514,6 +10669,9 @@
   "dub": "Sonic Shot",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8526,6 +10684,9 @@
   "dub": "Twin Sun Smash",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8538,6 +10699,9 @@
   "dub": "Dark Reaver",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -8550,6 +10714,9 @@
   "dub": "Southern Cross",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 49,
@@ -8562,6 +10729,9 @@
   "dub": "Easy Breezy",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8574,6 +10744,9 @@
   "dub": "Easy Breezy Kid",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8586,6 +10759,9 @@
   "dub": "Space Penguin",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 61,
@@ -8598,6 +10774,9 @@
   "dub": "Plasma Cut",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8610,6 +10789,9 @@
   "dub": "Sparky Spin",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -8622,6 +10804,9 @@
   "dub": "Asteride",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8634,6 +10819,9 @@
   "dub": "Centrifugal Blast",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -8646,6 +10834,9 @@
   "dub": "Spinning Cut",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 32,
@@ -8658,6 +10849,9 @@
   "dub": "Cyclone",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -8670,6 +10864,9 @@
   "dub": "Spinning Shot",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -8682,6 +10879,9 @@
   "dub": "Spin Meister",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -8694,6 +10894,9 @@
   "dub": "Spin Out",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8706,6 +10909,9 @@
   "dub": "Whirly-Whirly",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -8718,6 +10924,9 @@
   "dub": "Spiral Shot",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -8730,6 +10939,9 @@
   "dub": "Double Helix",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8742,6 +10954,9 @@
   "dub": "Warp Step",
   "kind": "dribble",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8753,7 +10968,11 @@
   "en": "Star Reflection",
   "dub": "All-Star",
   "kind": "catch",
-  "element": "wind",
+  "element": "wood",
+  "elements": [
+   "wood",
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -8766,6 +10985,9 @@
   "dub": "Radiation Storm",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -8778,6 +11000,9 @@
   "dub": "Stealth Step",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -8790,6 +11015,9 @@
   "dub": "The Stinger",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 37,
@@ -8802,6 +11030,9 @@
   "dub": "Stone Prison",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -8814,6 +11045,9 @@
   "dub": "Storm Rider",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -8826,6 +11060,9 @@
   "dub": "Eye of the Storm",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -8838,6 +11075,9 @@
   "dub": "Samba Strike",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 55,
@@ -8850,6 +11090,9 @@
   "dub": "Titanic Slam",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -8862,6 +11105,9 @@
   "dub": "Comet Shot",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 25,
@@ -8874,6 +11120,9 @@
   "dub": "Solar Flex",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -8886,6 +11135,9 @@
   "dub": "Dazzling Carnival",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -8898,6 +11150,9 @@
   "dub": "Sunshine Splitter",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -8910,6 +11165,9 @@
   "dub": "Solar Flare",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -8922,6 +11180,9 @@
   "dub": "Solar Nexus",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -8934,6 +11195,9 @@
   "dub": "Super Armadillo",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 24,
@@ -8946,6 +11210,9 @@
   "dub": "Super Elastico",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 56,
@@ -8958,6 +11225,9 @@
   "dub": "Super God Hand",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -8970,6 +11240,9 @@
   "dub": "Super Megaton Head",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -8982,6 +11255,9 @@
   "dub": "Defence Scan",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 28,
@@ -8994,6 +11270,9 @@
   "dub": "Attack Scan",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 25,
@@ -9006,6 +11285,9 @@
   "dub": "Super Sumo Stomp",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 28,
@@ -9018,6 +11300,9 @@
   "dub": "Supernova",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 61,
@@ -9030,6 +11315,9 @@
   "dub": "Swan Dive",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -9042,6 +11330,9 @@
   "dub": "Stillness Drip",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -9054,6 +11345,9 @@
   "dub": "Caliburn",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -9066,6 +11360,9 @@
   "dub": "One for All",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -9078,6 +11375,9 @@
   "dub": "Flamberge",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -9090,6 +11390,9 @@
   "dub": "Song of the Three Kingdoms",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -9102,6 +11405,9 @@
   "dub": "Raiser Blade",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -9114,6 +11420,9 @@
   "dub": "Rodeo Clown",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -9126,6 +11435,9 @@
   "dub": "Soul Hand",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 60,
@@ -9138,6 +11450,9 @@
   "dub": "Tarzan Kick",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -9150,6 +11465,9 @@
   "dub": "Dark Whirlwind",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 35,
@@ -9162,6 +11480,9 @@
   "dub": "Whirlwind Drop",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 49,
@@ -9174,6 +11495,9 @@
   "dub": "Whirlwind Twister",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 20,
@@ -9186,6 +11510,9 @@
   "dub": "The Tempest",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -9198,6 +11525,9 @@
   "dub": "Thundertaker",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -9210,6 +11540,9 @@
   "dub": "Crack Shot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -9222,6 +11555,9 @@
   "dub": "Avenging Eagle",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -9234,6 +11570,9 @@
   "dub": "Feather Duster",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -9246,6 +11585,9 @@
   "dub": "Celestial Saw",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -9258,6 +11600,9 @@
   "dub": "Celestial Smash",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 55,
@@ -9270,6 +11615,9 @@
   "dub": "Heavenly Thunder",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -9282,6 +11630,9 @@
   "dub": "Dragon Drive",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -9294,6 +11645,9 @@
   "dub": "Bindweed",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -9306,6 +11660,9 @@
   "dub": "Majin Merge",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -9318,6 +11675,9 @@
   "dub": "The Dawn",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 58,
@@ -9330,6 +11690,9 @@
   "dub": "Wetsuit",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -9342,6 +11705,9 @@
   "dub": "The Earth",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 64,
@@ -9354,6 +11720,9 @@
   "dub": "The Earth: Infinity",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -9366,6 +11735,9 @@
   "dub": "The End",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 60,
@@ -9378,6 +11750,9 @@
   "dub": "The Detonator",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -9390,6 +11765,9 @@
   "dub": "The Stronghold",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -9402,6 +11780,9 @@
   "dub": "The Galaxy",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": 64,
@@ -9414,6 +11795,9 @@
   "dub": "The Hurricane",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 58,
@@ -9426,6 +11810,9 @@
   "dub": "The Ikaros",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 57,
@@ -9438,6 +11825,9 @@
   "dub": "Short Circuit",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -9450,6 +11840,9 @@
   "dub": "Foil Formula",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 50,
   "tpIe3": null,
@@ -9462,6 +11855,9 @@
   "dub": "Mystifying Mist",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -9473,7 +11869,11 @@
   "en": "The Monsters",
   "dub": "Nocturne",
   "kind": "shoot",
-  "element": "wind",
+  "element": "neutral",
+  "elements": [
+   "neutral",
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -9486,6 +11886,9 @@
   "dub": "The Mountain",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 56,
@@ -9498,6 +11901,9 @@
   "dub": "The Phoenix",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 55,
@@ -9510,6 +11916,9 @@
   "dub": "Formidable Fortress",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -9522,6 +11931,9 @@
   "dub": "Seal Matrix",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -9534,6 +11946,9 @@
   "dub": "The Tower",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -9546,6 +11961,9 @@
   "dub": "The Tube",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -9558,6 +11976,9 @@
   "dub": "The Typhoon",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 46,
@@ -9570,6 +11991,9 @@
   "dub": "The Wall",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 30,
@@ -9582,6 +12006,9 @@
   "dub": "Thief's Eye",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -9594,6 +12021,9 @@
   "dub": "Entropic Arrows",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -9606,6 +12036,9 @@
   "dub": "Thunder Beast",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 49,
@@ -9618,6 +12051,9 @@
   "dub": "Tiger Drive",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 40,
@@ -9630,6 +12066,9 @@
   "dub": "Tiger Storm",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 58,
@@ -9642,6 +12081,9 @@
   "dub": "Time Trance",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -9654,6 +12096,9 @@
   "dub": "Acrobat Bomber",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 34,
@@ -9666,6 +12111,9 @@
   "dub": "Bull Steam Ahead",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -9678,6 +12126,9 @@
   "dub": "Tornado Catch",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 22,
@@ -9690,6 +12141,9 @@
   "dub": "Toughness Block",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 20,
@@ -9702,6 +12156,9 @@
   "dub": "Invisible Fake",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -9714,6 +12171,9 @@
   "dub": "Copy Cut",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -9726,6 +12186,9 @@
   "dub": "Transporter Device",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -9738,6 +12201,9 @@
   "dub": "Tri-Pegasus",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 55,
@@ -9750,6 +12216,9 @@
   "dub": "Triangle Z",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 55,
@@ -9762,6 +12231,9 @@
   "dub": "Triangle {{Hover|Double Z|ZZ}}",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -9774,6 +12246,9 @@
   "dub": "Tricera Stops",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -9786,6 +12261,9 @@
   "dub": "Big Ball Trick",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -9798,6 +12276,9 @@
   "dub": "Triple Blizzard",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 120,
   "tpIe3": null,
@@ -9810,6 +12291,9 @@
   "dub": "Triple Boost",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 66,
@@ -9822,6 +12306,9 @@
   "dub": "Triple Dash",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 57,
@@ -9834,6 +12321,9 @@
   "dub": "Triple Defence",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 47,
@@ -9846,6 +12336,9 @@
   "dub": "Swallow Counter",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -9858,6 +12351,9 @@
   "dub": "Dirt Ball",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 22,
@@ -9870,6 +12366,9 @@
   "dub": "Moon Bear Smash",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -9882,6 +12381,9 @@
   "dub": "Whirlwind",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 32,
@@ -9894,6 +12396,9 @@
   "dub": "Air Cut",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -9906,6 +12411,9 @@
   "dub": "Tsunami Boost",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 40,
@@ -9918,6 +12426,9 @@
   "dub": "Tsunami Wall",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 42,
@@ -9930,6 +12441,9 @@
   "dub": "Pinch and Save",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -9942,6 +12456,9 @@
   "dub": "Steeple Shot",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 37,
@@ -9954,6 +12471,9 @@
   "dub": "Twin Boost",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 37,
@@ -9966,6 +12486,9 @@
   "dub": "Twin Boost F",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 55,
@@ -9978,6 +12501,9 @@
   "dub": "Double-Trouble",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -9990,6 +12516,9 @@
   "dub": "Slice and Dice",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -10002,6 +12531,9 @@
   "dub": "Twist 'n' Clout",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -10014,6 +12546,9 @@
   "dub": "Sub-Terfuge",
   "kind": "dribble",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 47,
@@ -10026,6 +12561,9 @@
   "dub": "Ultra Moon",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 61,
   "costVr": 70,
   "tpIe3": 44,
@@ -10038,6 +12576,9 @@
   "dub": "Pisa the Headshot",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 70,
   "tpIe3": null,
@@ -10050,6 +12591,9 @@
   "dub": "Unicorn Boost",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": 58,
@@ -10062,6 +12606,9 @@
   "dub": "Cosmic Blast",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 52,
@@ -10074,6 +12621,9 @@
   "dub": "Univolt Sprint",
   "kind": "dribble",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -10086,6 +12636,9 @@
   "dub": "About Face",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 16,
@@ -10098,6 +12651,9 @@
   "dub": "Splash Guard",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -10110,6 +12666,9 @@
   "dub": "Vairaas Canon",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -10122,6 +12681,9 @@
   "dub": "Valkyrie's Signal",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -10134,6 +12696,9 @@
   "dub": "Bloodsucker Bite",
   "kind": "shoot",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 100,
   "costVr": 100,
   "tpIe3": null,
@@ -10146,6 +12711,9 @@
   "dub": "Side Swipe",
   "kind": "block",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -10158,6 +12726,9 @@
   "dub": "Flying Colours",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 80,
   "tpIe3": null,
@@ -10170,6 +12741,9 @@
   "dub": "Great Wall",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -10182,6 +12756,9 @@
   "dub": "Volcanic Flight",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -10194,6 +12771,9 @@
   "dub": "Volcano Cut",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 42,
@@ -10206,6 +12786,9 @@
   "dub": "Volcano Head",
   "kind": "catch",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -10218,6 +12801,9 @@
   "dub": "Warp Drive",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 36,
@@ -10230,6 +12816,9 @@
   "dub": "Water Veil",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 53,
@@ -10242,6 +12831,9 @@
   "dub": "Waterwall",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -10254,6 +12846,9 @@
   "dub": "Yo-Yo Ball",
   "kind": "block",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 36,
@@ -10266,6 +12861,9 @@
   "dub": "Whale Guard",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 50,
@@ -10278,6 +12876,9 @@
   "dub": "Frosticle",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -10290,6 +12891,9 @@
   "dub": "White Breath",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,
@@ -10302,6 +12906,9 @@
   "dub": "Cold Front",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -10314,6 +12921,9 @@
   "dub": "White Hurricane",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -10326,6 +12936,9 @@
   "dub": "Wild Claw",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 25,
@@ -10338,6 +12951,9 @@
   "dub": "Blam Dunk",
   "kind": "catch",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -10350,6 +12966,9 @@
   "dub": "Willy-Willy",
   "kind": "block",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": null,
@@ -10362,6 +12981,9 @@
   "dub": "Logicstical Sync",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -10374,6 +12996,9 @@
   "dub": "Legendary Wolf",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 100,
   "costVr": 70,
   "tpIe3": 52,
@@ -10386,6 +13011,9 @@
   "dub": "Hyper-Swiper",
   "kind": "block",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -10398,6 +13026,9 @@
   "dub": "Wormhole",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 40,
@@ -10410,6 +13041,9 @@
   "dub": "Wyvern Blizzard",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 55,
@@ -10422,6 +13056,9 @@
   "dub": "Wyvern Crash",
   "kind": "shoot",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 49,
@@ -10434,6 +13071,9 @@
   "dub": "X-Blast",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": 67,
@@ -10446,6 +13086,9 @@
   "dub": "Dough Ray Me",
   "kind": "shoot",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -10458,6 +13101,9 @@
   "dub": "Peaky Breezy",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": null,
   "costVr": 60,
   "tpIe3": null,
@@ -10470,6 +13116,9 @@
   "dub": "Warp Space",
   "kind": "catch",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 22,
@@ -10482,6 +13131,9 @@
   "dub": "God Hand of Friendship",
   "kind": "catch",
   "element": "earth",
+  "elements": [
+   "earth"
+  ],
   "powerVr": null,
   "costVr": 100,
   "tpIe3": null,
@@ -10494,6 +13146,9 @@
   "dub": "Zed Zag",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -10506,6 +13161,9 @@
   "dub": "Afterimage",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 31,
@@ -10518,6 +13176,9 @@
   "dub": "Zero Magnum",
   "kind": "shoot",
   "element": "neutral",
+  "elements": [
+   "neutral"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -10530,6 +13191,9 @@
   "dub": "Dragster",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": null,
@@ -10542,6 +13206,9 @@
   "dub": "Zigzag Flame",
   "kind": "block",
   "element": "fire",
+  "elements": [
+   "fire"
+  ],
   "powerVr": 60,
   "costVr": 60,
   "tpIe3": 36,
@@ -10554,6 +13221,9 @@
   "dub": "Zigzag Spark",
   "kind": "dribble",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 50,
   "costVr": 50,
   "tpIe3": 27,
@@ -10566,6 +13236,9 @@
   "dub": "Zigzag Zoom",
   "kind": "shoot",
   "element": "wind",
+  "elements": [
+   "wind"
+  ],
   "powerVr": 70,
   "costVr": 70,
   "tpIe3": null,
@@ -10577,7 +13250,11 @@
   "en": "Zone of Pentagram",
   "dub": "Containment Field",
   "kind": "block",
-  "element": "wind",
+  "element": "wood",
+  "elements": [
+   "wood",
+   "wind"
+  ],
   "powerVr": 85,
   "costVr": 80,
   "tpIe3": null,
@@ -10590,6 +13267,9 @@
   "dub": "Zooma Driller",
   "kind": "dribble",
   "element": "wood",
+  "elements": [
+   "wood"
+  ],
   "powerVr": 140,
   "costVr": 100,
   "tpIe3": null,

@@ -104,7 +104,7 @@
       "id": "darren-lachance", "name": "Darren LaChance", "short": "Darren", "number": 12, "position": "GK", "element": "earth",
       "level": 12, "fp": 80, "tp": 80,
       "stats": { "kick": 18, "body": 30, "control": 20, "guard": 36, "speed": 20, "stamina": 30, "guts": 30 },
-      "moves": [],
+      "moves": ["majin-the-hand-forest"],
       "look": { "hair": "#5a3a7a" }
     },
     {

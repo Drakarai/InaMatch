@@ -96,7 +96,9 @@ El resto son estimaciones que hay que ir corrigiendo con los datos de los juegos
 [wiki inglesa](https://inazuma-eleven.fandom.com/) y la [wiki española](https://inazuma.fandom.com/es/) de Inazuma Eleven.
 De cada una guarda:
 - Nombre en español (814 lo tienen), nombre de la wiki inglesa y nombre del doblaje.
-- Tipo y afinidad.
+- Tipo y afinidad. Las técnicas con versiones de distinta afinidad guardan todas en `elements`, con la principal
+  primero. Por ejemplo, Mano mágica es de Montaña en la versión de Mark y de Bosque en la de Darren; en el juego
+  son dos técnicas distintas.
 - Potencia y coste en Victory Road, y TP en IE3.
 
 Las técnicas del juego (`src/data/moves.json`) salen de ahí:

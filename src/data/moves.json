@@ -15,7 +15,8 @@
   {"id": "super-sumo-stomp", "name": "Super pisotón de sumo", "kind": "block", "element": "fire", "power": 45, "tp": 28, "wiki": "Super Shikofumi"},
   {"id": "photon-crash", "name": "Flash de fotones", "kind": "block", "element": "fire", "power": 45, "tp": 25, "wiki": "Photon Flash"},
   {"id": "spinning-cut", "name": "Corte giratorio", "kind": "block", "element": "wind", "power": 38, "tp": 32, "wiki": "Spinning Cut"},
-  {"id": "majin-the-hand", "name": "Mano mágica", "kind": "catch", "element": "wood", "power": 64, "tp": 32, "wiki": "Majin The Hand"},
+  {"id": "majin-the-hand", "name": "Mano mágica", "kind": "catch", "element": "earth", "power": 64, "tp": 32, "wiki": "Majin The Hand"},
+  {"id": "majin-the-hand-forest", "name": "Mano mágica", "kind": "catch", "element": "wood", "power": 64, "tp": 32, "wiki": "Majin The Hand"},
   {"id": "god-hand", "name": "Mano celestial", "kind": "catch", "element": "earth", "power": 45, "tp": 22, "wiki": "God Hand"},
   {"id": "storm-rider", "name": "Simún", "kind": "catch", "element": "wind", "power": 45, "tp": 42, "wiki": "Storm Rider"}
 ]

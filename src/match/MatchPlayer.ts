@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { FONT } from '../config';
+import { FONT, GAME_SPEED } from '../config';
 import { movesOf } from '../data';
 import type { MoveData, PlayerData, TeamData } from '../data/types';
 import type { Fighter } from '../engine/rules';
@@ -81,7 +81,7 @@ export class MatchPlayer {
   speed(withBall: boolean): number {
     const base = 70 + this.data.stats.speed * 2.2;
     const tired = 0.8 + 0.2 * (this.fp / this.maxFp);
-    return base * tired * (withBall ? 0.85 : 1);
+    return base * tired * (withBall ? 0.85 : 1) * GAME_SPEED;
   }
 
   isStunned(now: number): boolean {

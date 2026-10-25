@@ -28,6 +28,7 @@ El ratón hace de lápiz de la DS.
 | | **Pulsa en un hueco** para un pase al espacio |
 | | **Pulsa la portería**, el botón **Tirar** o la tecla **T** para tirar |
 | Sin balón | **Arrastra a cualquier jugador** para moverlo, o **pulsa en el campo** para mandar al jugador activo (el del aro blanco) |
+| Tiro rival en el aire | **Arrastra a un defensa** hasta la línea turquesa para bloquearlo (va a cámara lenta) |
 | Duelos y tiros | Botones en pantalla o teclas **1**/**2** (comandos básicos) y **3**, **4**… (supertécnicas) |
 | | Si no eliges a tiempo se usa el primer comando |
 | En cualquier momento | **Espacio** / **Esc** o el botón **II**: pausa |
@@ -37,8 +38,11 @@ Comandos básicos:
 - **Defendiendo**: Entrada o Entrada en plancha. La plancha gana al regate, pero la finta la deja en ridículo
   y, si roba el balón, puede ser **falta** (tiro libre para el rival).
 - **Tirando**: Tiro o Vaselina, y después **¡Regula la potencia!** (Normal, Fuerte +10 TP, Máxima +20 TP).
-- **Bloqueando** (un defensa en la línea de tiro): Bloquear o Dejar pasar. Si no lo para, el tiro llega más flojo.
-  La vaselina pasa por encima de los defensas.
+- **Bloqueando**: el tiro vuela en tiempo real con su trayectoria marcada.
+  - Cuando tira la CPU, el juego va a **cámara lenta**: arrastra a un defensa hasta la línea para cruzarte.
+  - El defensa que se cruza elige Bloquear o Dejar pasar. Si no lo para, el tiro llega más flojo.
+  - Cuando tiras tú, los defensas rivales corren a cortarte.
+  - Los tiros potentes vuelan más rápido, y la vaselina pasa por encima de todos.
 - **Portero**: Atrapar o Despejar.
 
 En cada duelo se ve el **Poder** de los dos jugadores y, al resolverse, el choque de potencias.
@@ -59,6 +63,8 @@ Las supertécnicas gastan TP y suelen ganar a los comandos básicos. Además, **
 - En el panel de duelo, el punto de color es la afinidad del jugador y la flechita marca quién tiene ventaja.
 - Los porcentajes no son oficiales; están juntos en `src/data/elements.ts` y `src/engine/rules.ts` para ajustarlos.
 - Con poca **FP** el jugador rinde menos.
+
+El ritmo general del partido se ajusta con `GAME_SPEED` en `src/config.ts` (ahora 0,75; 1 = más rápido).
 
 ## Estructura
 

@@ -1,0 +1,123 @@
+{
+  "id": "desert-lions",
+  "name": "Desert Lions",
+  "short": "DSL",
+  "colors": { "shirt": "#8e1f2f", "shorts": "#f2ede4", "gkShirt": "#3b3b48", "accent": "#a8283a" },
+  "formation": "f-desert-lions",
+  "players": [
+    {
+      "id": "nasir-mustafa", "name": "Nasir Mustafa", "short": "Mustafa", "number": 1, "position": "GK", "element": "wind",
+      "level": 15, "fp": 111, "tp": 119,
+      "stats": { "kick": 25, "body": 31, "control": 28, "guard": 41, "speed": 31, "stamina": 33, "guts": 28 },
+      "moves": ["storm-rider"],
+      "description": "Vástago de una tribu poderosa: no puede volver a casa sin anunciar una victoria.",
+      "look": { "hair": "#1d1410", "skin": "#9a6a44" }
+    },
+    {
+      "id": "faraz-farooq", "name": "Faraz Farooq", "short": "Farooq", "number": 2, "position": "DF", "element": "earth",
+      "level": 10, "fp": 114, "tp": 44,
+      "stats": { "kick": 24, "body": 25, "control": 22, "guard": 24, "speed": 25, "stamina": 33, "guts": 29 },
+      "moves": [],
+      "description": "Famoso por preparar unos postres de dátiles deliciosos.",
+      "look": { "hair": "#2a1e18", "skin": "#b5835a" }
+    },
+    {
+      "id": "bilal-kalil", "name": "Bilal Kalil", "short": "Kalil", "number": 3, "position": "DF", "element": "earth",
+      "level": 20, "fp": 99, "tp": 101,
+      "stats": { "kick": 30, "body": 36, "control": 28, "guard": 38, "speed": 30, "stamina": 34, "guts": 30 },
+      "moves": ["sand-storm-guard", "desert-blast"],
+      "look": { "hair": "#2a6a6a", "skin": "#b5835a" }
+    },
+    {
+      "id": "jamila-wali", "name": "Jamila Wali", "short": "Wali", "number": 4, "position": "DF", "element": "wind",
+      "level": 10, "fp": 108, "tp": 43,
+      "stats": { "kick": 21, "body": 24, "control": 28, "guard": 23, "speed": 48, "stamina": 31, "guts": 28 },
+      "moves": [],
+      "description": "Viajero incansable que sueña con un mundo que no dependa de los combustibles fósiles.",
+      "look": { "hair": "#5a3020", "skin": "#c08a5e" }
+    },
+    {
+      "id": "musa-sylla", "name": "Musa Sylla", "short": "Sylla", "number": 5, "position": "DF", "element": "earth",
+      "level": 10, "fp": 108, "tp": 48,
+      "stats": { "kick": 24, "body": 28, "control": 23, "guard": 27, "speed": 38, "stamina": 29, "guts": 25 },
+      "moves": [],
+      "description": "Quiere impulsar y diversificar la industria de Qatar.",
+      "look": { "hair": "#1a1a1a", "skin": "#7a4e30" }
+    },
+    {
+      "id": "mansur-jasim", "name": "Mansur Jasim", "short": "Jasim", "number": 7, "position": "MF", "element": "wind",
+      "level": 10, "fp": 102, "tp": 96,
+      "stats": { "kick": 21, "body": 24, "control": 22, "guard": 25, "speed": 29, "stamina": 34, "guts": 26 },
+      "moves": ["bewilder-blast"],
+      "description": "Experto en encontrar perlas naturales, que hoy en día valen una fortuna.",
+      "look": { "hair": "#2a1e18", "skin": "#b5835a" }
+    },
+    {
+      "id": "yusuf-massoud", "name": "Yusuf Massoud", "short": "Massoud", "number": 6, "position": "MF", "element": "earth",
+      "level": 10, "fp": 103, "tp": 85,
+      "stats": { "kick": 25, "body": 32, "control": 27, "guard": 26, "speed": 38, "stamina": 31, "guts": 25 },
+      "moves": [],
+      "description": "Respeta profundamente las tradiciones de su tribu y no querría vivir lejos de casa.",
+      "look": { "hair": "#e6e0d0", "skin": "#b5835a" }
+    },
+    {
+      "id": "sayid-armand", "name": "Sayid Armand", "short": "Armand", "number": 8, "position": "MF", "element": "wind",
+      "level": 10, "fp": 105, "tp": 88,
+      "stats": { "kick": 28, "body": 28, "control": 32, "guard": 24, "speed": 36, "stamina": 30, "guts": 27 },
+      "moves": ["dash-storm"],
+      "look": { "hair": "#151515", "skin": "#7a4e30" }
+    },
+    {
+      "id": "sulayk-sulaiman", "name": "Sulayk Sulaiman", "short": "Sulaiman", "number": 9, "position": "MF", "element": "fire",
+      "level": 10, "fp": 93, "tp": 48,
+      "stats": { "kick": 27, "body": 25, "control": 30, "guard": 22, "speed": 34, "stamina": 28, "guts": 26 },
+      "moves": ["bewilder-blast"],
+      "look": { "hair": "#e3c344", "skin": "#c08a5e" }
+    },
+    {
+      "id": "majdi-ismail", "name": "Majdi Ismail", "short": "Majdi", "number": 10, "position": "FW", "element": "earth",
+      "level": 12, "fp": 109, "tp": 104,
+      "stats": { "kick": 32, "body": 26, "control": 38, "guard": 26, "speed": 36, "stamina": 36, "guts": 26 },
+      "moves": ["desert-blast"],
+      "description": "Su afición es coleccionar reptiles en el desierto.",
+      "look": { "hair": "#7a2f22", "skin": "#c08a5e" }
+    },
+    {
+      "id": "zack-abdulla", "name": "Zack Abdulla", "short": "Abdulla", "number": 11, "position": "FW", "element": "wind",
+      "level": 14, "fp": 111, "tp": 91,
+      "stats": { "kick": 38, "body": 28, "control": 32, "guard": 22, "speed": 36, "stamina": 30, "guts": 30 },
+      "moves": ["mirage-shot", "desert-blast"],
+      "look": { "hair": "#4a3a7a", "skin": "#b5835a" }
+    },
+    {
+      "id": "hasan-ahmed", "name": "Hasan Ahmed", "short": "Ahmed", "number": 13, "position": "DF", "element": "wind",
+      "level": 10, "fp": 104, "tp": 85,
+      "stats": { "kick": 22, "body": 26, "control": 25, "guard": 27, "speed": 38, "stamina": 32, "guts": 26 },
+      "moves": [],
+      "description": "Le llaman el Águila de Qatar por sus ataques en picado.",
+      "look": { "hair": "#2a1e18", "skin": "#b5835a" }
+    },
+    {
+      "id": "khalfan-jibril", "name": "Khalfan Jibril", "short": "Jibril", "number": 14, "position": "DF", "element": "earth",
+      "level": 10, "fp": 98, "tp": 95,
+      "stats": { "kick": 30, "body": 28, "control": 24, "guard": 28, "speed": 28, "stamina": 30, "guts": 28 },
+      "moves": ["desert-blast"],
+      "look": { "hair": "#8a2a2a", "skin": "#b5835a" }
+    },
+    {
+      "id": "rajab-ismail", "name": "Rajab Ismail", "short": "Rajab", "number": 15, "position": "MF", "element": "wood",
+      "level": 10, "fp": 91, "tp": 85,
+      "stats": { "kick": 27, "body": 26, "control": 27, "guard": 28, "speed": 32, "stamina": 38, "guts": 25 },
+      "moves": [],
+      "description": "Sueña con publicar una novela ambientada en Qatar.",
+      "look": { "hair": "#2a1e18", "skin": "#c08a5e" }
+    },
+    {
+      "id": "hamad", "name": "Hamad", "short": "Hamad", "number": 12, "position": "DF", "element": "earth",
+      "level": 11, "fp": 106, "tp": 70,
+      "stats": { "kick": 24, "body": 34, "control": 22, "guard": 32, "speed": 26, "stamina": 34, "guts": 30 },
+      "moves": [],
+      "look": { "hair": "#3a3a3a", "skin": "#b5835a" }
+    }
+  ]
+}

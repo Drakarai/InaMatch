@@ -76,7 +76,8 @@ export class MatchScene extends Phaser.Scene {
 
   private pathGfx!: Phaser.GameObjects.Graphics;
   private markerGfx!: Phaser.GameObjects.Graphics;
-  private drawing: { player: MatchPlayer; points: Vec[]; startScreen: Vec; tapCandidate: boolean } | null = null;
+  /** Línea que se está dibujando: el jugador la va siguiendo según se traza. */
+  private drawing: { player: MatchPlayer; last: Vec; startScreen: Vec; tapCandidate: boolean; started: boolean } | null = null;
   private passHint: MatchPlayer | null = null;
   private passHintText!: Phaser.GameObjects.Text;
   private passHintAt = 0;
@@ -144,7 +145,6 @@ export class MatchScene extends Phaser.Scene {
     this.input.on('pointermove', this.onPointerMove, this);
     this.input.on('pointerup', this.onPointerUp, this);
     this.input.keyboard?.on('keydown-SPACE', () => this.togglePause());
-    this.input.mouse?.disableContextMenu();
 
     this.scene.launch('hud', { match: this });
     this.hud = this.scene.get('hud') as HudScene;
@@ -415,8 +415,7 @@ export class MatchScene extends Phaser.Scene {
     }
 
     const g = this.pathGfx.clear();
-    for (const p of this.players[0]) if (p.path.length && p.manual && this.drawing?.player !== p) this.drawPath(g, p, p.path);
-    if (this.drawing) this.drawPath(g, this.drawing.player, this.drawing.points);
+    for (const p of this.players[0]) if (p.path.length && p.manual) this.drawPath(g, p, p.path);
 
     // "¡Pase!" sobre el mejor compañero libre
     if (this.passHint && this.state === 'play') {
@@ -494,8 +493,13 @@ export class MatchScene extends Phaser.Scene {
       }
 
       for (const p of team) {
-        // en el suelo, o esperando a que se termine de dibujar su línea
-        if (p.isStunned(this.now) || this.drawing?.player === p) {
+        if (p.isStunned(this.now)) {
+          p.moving = false;
+          continue;
+        }
+        const beingDrawn = this.drawing?.started === true && this.drawing.player === p;
+        // ha alcanzado la punta de la línea que aún se está dibujando: espera ahí
+        if (beingDrawn && !p.path.length) {
           p.moving = false;
           continue;
         }
@@ -504,7 +508,7 @@ export class MatchScene extends Phaser.Scene {
 
         if (p.path.length) {
           if (p.moveTowards(p.path[0], speed, dt)) p.path.shift();
-          if (!p.path.length) p.manual = false;
+          if (!p.path.length && !beingDrawn) p.manual = false;
           this.drainFp(p, dt);
           continue;
         }
@@ -969,19 +973,16 @@ export class MatchScene extends Phaser.Scene {
     const owner = this.ball.owner;
     const humanHasBall = owner?.side === 0;
 
-    // clic derecho con balón: pase al hueco hacia ese punto
-    if (pointer.rightButtonDown()) {
-      if (humanHasBall && owner && !owner.isGK) {
-        const mate = this.closest(this.players[0].filter((p) => p !== owner && !p.isGK), w);
-        this.kick(owner, this.clampToPitch(w), mate);
-      }
-      return;
-    }
-
     const hit = this.humanAt(w);
     if (hit) {
       // tocar a un compañero (con balón propio) = pase; arrastrar = recorrido
-      this.drawing = { player: hit, points: [], startScreen: { x: pointer.x, y: pointer.y }, tapCandidate: humanHasBall && hit !== owner };
+      this.drawing = {
+        player: hit,
+        last: { x: hit.x, y: hit.y },
+        startScreen: { x: pointer.x, y: pointer.y },
+        tapCandidate: humanHasBall && hit !== owner,
+        started: false,
+      };
       return;
     }
     if (humanHasBall && owner) {
@@ -990,9 +991,9 @@ export class MatchScene extends Phaser.Scene {
         return;
       }
       if (owner.isGK) return; // el portero solo pasa a un compañero
-      // un clic en el campo nunca suelta el balón: el que lo lleva corre hacia ahí
-      // (y si se arrastra, se dibuja su recorrido desde ese punto)
-      this.drawing = { player: owner, points: [this.clampToPitch(w, -20)], startScreen: { x: pointer.x, y: pointer.y }, tapCandidate: false };
+      // pase al hueco: el compañero más cercano a ese punto corre a por él
+      const mate = this.closest(this.players[0].filter((p) => p !== owner && !p.isGK), w);
+      this.kick(owner, this.clampToPitch(w), mate);
       return;
     }
     // sin balón: el jugador activo corre al punto
@@ -1002,14 +1003,21 @@ export class MatchScene extends Phaser.Scene {
   }
 
   private onPointerMove(pointer: Phaser.Input.Pointer): void {
-    if (!this.drawing || !pointer.isDown) return;
+    const d = this.drawing;
+    if (!d || !pointer.isDown) return;
+    if (Phaser.Math.Distance.Between(pointer.x, pointer.y, d.startScreen.x, d.startScreen.y) > 10) d.tapCandidate = false;
+    if (d.tapCandidate) return;
     const w = this.worldPoint(pointer);
-    const pts = this.drawing.points;
-    const last = pts[pts.length - 1] ?? { x: this.drawing.player.x, y: this.drawing.player.y };
-    if (Phaser.Math.Distance.Between(last.x, last.y, w.x, w.y) > 12) pts.push(this.clampToPitch(w, -20));
-    if (Phaser.Math.Distance.Between(pointer.x, pointer.y, this.drawing.startScreen.x, this.drawing.startScreen.y) > 10) {
-      this.drawing.tapCandidate = false;
+    if (Phaser.Math.Distance.Between(d.last.x, d.last.y, w.x, w.y) <= 12) return;
+    if (!d.started) {
+      // empieza una línea nueva: sustituye al recorrido anterior
+      d.started = true;
+      d.player.path = [];
+      d.player.manual = true;
     }
+    const point = this.clampToPitch(w, -20);
+    if (d.player.path.length < 80) d.player.path.push(point);
+    d.last = point;
   }
 
   private onPointerUp(): void {
@@ -1021,10 +1029,8 @@ export class MatchScene extends Phaser.Scene {
       this.kick(owner, { x: d.player.x, y: d.player.y }, d.player, owner.isGK ? PASS_SPEED * 1.1 : PASS_SPEED);
       return;
     }
-    if (d.points.length >= 1) {
-      d.player.path = d.points.slice(0, 60);
-      d.player.manual = true;
-    }
+    // la línea ya se ha ido siguiendo mientras se dibujaba; si ya llegó al final, suelta el control
+    if (d.started && !d.player.path.length) d.player.manual = false;
   }
 
   private isOnGoal(w: Vec): boolean {

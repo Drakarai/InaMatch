@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) =>
         build: { outDir: 'dist-single', copyPublicDir: false, chunkSizeWarningLimit: 2000 },
       }
     : {
-        // base relativa para que funcione en GitHub Pages (usuario.github.io/InaMatch/)
+        // base relativa: funciona igual en la raíz de un dominio que en una subcarpeta
         base: './',
         build: { chunkSizeWarningLimit: 2000 },
       },

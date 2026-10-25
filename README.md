@@ -2,7 +2,7 @@
 
 Juego de navegador para PC que recrea los partidos de **Inazuma Eleven 3** (DS): duelos por comandos,
 supertécnicas, FP/TP, elementos y la pantalla de formación. Gratis y sin servidor: es una web estática
-que se puede publicar en GitHub Pages.
+que se puede publicar gratis en Cloudflare Pages (ver abajo).
 
 > Proyecto de fans sin ánimo de lucro. Inazuma Eleven es una marca de LEVEL-5.
 
@@ -23,10 +23,9 @@ El ratón hace de lápiz de la DS.
 
 | Situación | Acción |
 |---|---|
-| Con balón | **Arrastra desde tu jugador** para dibujar el recorrido (regate) |
+| Con balón | **Arrastra desde tu jugador** para dibujar el recorrido: lo va siguiendo mientras dibujas |
 | | **Pulsa a un compañero** para pasarle; el bocadillo "¡Pase!" marca al mejor libre |
-| | **Pulsa en el campo** para que corra hacia ahí (nunca suelta el balón) |
-| | **Clic derecho** en un hueco: pase al espacio |
+| | **Pulsa en un hueco** para un pase al espacio |
 | | **Pulsa la portería**, el botón **Tirar** o la tecla **T** para tirar |
 | Sin balón | **Arrastra a cualquier jugador** para moverlo, o **pulsa en el campo** para mandar al jugador activo (el del aro blanco) |
 | Duelos y tiros | Botones en pantalla o teclas **1**/**2** (comandos básicos) y **3**, **4**… (supertécnicas) |
@@ -74,8 +73,20 @@ El juego funciona con gráficos provisionales dibujados por código. Para usar l
 mete las imágenes en `public/assets/pack/` y añádelas a `manifest.json`
 ([instrucciones](public/assets/pack/README.md)). No hace falta tocar código.
 
-## Publicarlo gratis (GitHub Pages)
+## Publicarlo gratis (Cloudflare Pages, con el repo privado)
 
-1. En GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-2. Cada push a `main` ejecuta `.github/workflows/deploy.yml`: pasa los tests, compila y publica en
-   `https://<usuario>.github.io/<repo>/`.
+Se hace una sola vez desde la web, sin terminal:
+
+1. Crea una cuenta gratuita en [dash.cloudflare.com](https://dash.cloudflare.com).
+2. Ve a **Workers & Pages → Create application → Pages → Import an existing Git repository**
+   (o "Connect to Git").
+3. Conecta tu cuenta de GitHub. Cuando GitHub pregunte a qué repositorios dar acceso, elige
+   **Only select repositories → InaMatch**.
+4. Configuración de compilación:
+   - **Production branch**: `main`
+   - **Framework preset**: `Vite` (o ninguno)
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+5. **Save and Deploy**. En un par de minutos estará en `https://<nombre-del-proyecto>.pages.dev`.
+
+A partir de ahí, cada cambio que llegue a `main` se publica solo. La versión de Node la fija `.node-version`.

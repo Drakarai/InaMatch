@@ -47,6 +47,10 @@ const PICKUP_RADIUS = 16;
 const DUEL_RADIUS = 24;
 const SHOT_RANGE = 720;
 const PASS_SPEED = 560;
+/** Segundos en el suelo tras perder un duelo. */
+const STUN_BEATEN = 2.4; // defensa al que regatean
+const STUN_ROBBED = 2.0; // atacante al que le roban
+const CARRIER_GRAB_RADIUS = 48;
 
 const rng = Math.random;
 
@@ -140,6 +144,7 @@ export class MatchScene extends Phaser.Scene {
     this.input.on('pointermove', this.onPointerMove, this);
     this.input.on('pointerup', this.onPointerUp, this);
     this.input.keyboard?.on('keydown-SPACE', () => this.togglePause());
+    this.input.mouse?.disableContextMenu();
 
     this.scene.launch('hud', { match: this });
     this.hud = this.scene.get('hud') as HudScene;
@@ -410,7 +415,7 @@ export class MatchScene extends Phaser.Scene {
     }
 
     const g = this.pathGfx.clear();
-    for (const p of this.players[0]) if (p.path.length && p.manual) this.drawPath(g, p, p.path);
+    for (const p of this.players[0]) if (p.path.length && p.manual && this.drawing?.player !== p) this.drawPath(g, p, p.path);
     if (this.drawing) this.drawPath(g, this.drawing.player, this.drawing.points);
 
     // "¡Pase!" sobre el mejor compañero libre
@@ -489,7 +494,8 @@ export class MatchScene extends Phaser.Scene {
       }
 
       for (const p of team) {
-        if (p.isStunned(this.now)) {
+        // en el suelo, o esperando a que se termine de dibujar su línea
+        if (p.isStunned(this.now) || this.drawing?.player === p) {
           p.moving = false;
           continue;
         }
@@ -768,11 +774,11 @@ export class MatchScene extends Phaser.Scene {
     def.fp = Math.max(0, def.fp - DUEL_FP_COST);
 
     if (result.attackerWins) {
-      def.stunnedUntil = this.now + 1.1;
+      def.stunnedUntil = this.now + STUN_BEATEN;
       this.push(def, att, 26);
       this.floatText(att.x, att.y - 46, `${choiceLabel(attChoice)}: ¡superado!`, att.side === 0 ? '#9fe2ff' : '#ffb0b0');
     } else {
-      att.stunnedUntil = this.now + 1.0;
+      att.stunnedUntil = this.now + STUN_ROBBED;
       att.path = [];
       this.push(att, def, 22);
       this.giveBall(def);
@@ -941,6 +947,10 @@ export class MatchScene extends Phaser.Scene {
   }
 
   private humanAt(w: Vec): MatchPlayer | null {
+    // el jugador con balón tiene prioridad y se coge con más margen,
+    // para no dar un pase sin querer a un compañero que esté pegado
+    const owner = this.ball.owner;
+    if (owner?.side === 0 && Phaser.Math.Distance.Between(owner.x, owner.y + 6, w.x, w.y) < CARRIER_GRAB_RADIUS) return owner;
     let best: MatchPlayer | null = null;
     let bestD = 30;
     for (const p of this.players[0]) {
@@ -958,8 +968,17 @@ export class MatchScene extends Phaser.Scene {
     const w = this.worldPoint(pointer);
     const owner = this.ball.owner;
     const humanHasBall = owner?.side === 0;
-    const hit = this.humanAt(w);
 
+    // clic derecho con balón: pase al hueco hacia ese punto
+    if (pointer.rightButtonDown()) {
+      if (humanHasBall && owner && !owner.isGK) {
+        const mate = this.closest(this.players[0].filter((p) => p !== owner && !p.isGK), w);
+        this.kick(owner, this.clampToPitch(w), mate);
+      }
+      return;
+    }
+
+    const hit = this.humanAt(w);
     if (hit) {
       // tocar a un compañero (con balón propio) = pase; arrastrar = recorrido
       this.drawing = { player: hit, points: [], startScreen: { x: pointer.x, y: pointer.y }, tapCandidate: humanHasBall && hit !== owner };
@@ -971,9 +990,9 @@ export class MatchScene extends Phaser.Scene {
         return;
       }
       if (owner.isGK) return; // el portero solo pasa a un compañero
-      // pase al hueco: el compañero más cercano a ese punto corre a por él
-      const mate = this.closest(this.players[0].filter((p) => p !== owner && !p.isGK), w);
-      this.kick(owner, this.clampToPitch(w), mate);
+      // un clic en el campo nunca suelta el balón: el que lo lleva corre hacia ahí
+      // (y si se arrastra, se dibuja su recorrido desde ese punto)
+      this.drawing = { player: owner, points: [this.clampToPitch(w, -20)], startScreen: { x: pointer.x, y: pointer.y }, tapCandidate: false };
       return;
     }
     // sin balón: el jugador activo corre al punto

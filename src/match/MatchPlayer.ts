@@ -124,6 +124,14 @@ export class MatchPlayer {
     const bob = this.moving ? Math.abs(Math.sin(now * 14)) * 2 : 0;
     this.sprite.setOrigin(0.5, 0.5 + bob / this.sprite.height);
     this.sprite.setFlipX(this.facing.x < -0.3);
-    this.sprite.setAlpha(this.isStunned(now) ? (Math.floor(now * 12) % 2 ? 0.35 : 0.9) : 1);
+    // derribado: tumbado en el suelo y parpadea justo antes de levantarse
+    const down = this.stunnedUntil - now;
+    if (down > 0) {
+      this.sprite.setAngle(this.facing.x < 0 ? -90 : 90);
+      this.sprite.setAlpha(down < 0.6 && Math.floor(now * 12) % 2 ? 0.4 : 1);
+    } else {
+      this.sprite.setAngle(0);
+      this.sprite.setAlpha(1);
+    }
   }
 }

@@ -443,7 +443,7 @@ export class HudScene extends Phaser.Scene {
         this,
         FIELD_VIEW.w / 2,
         520,
-        'Con balón: arrastra desde tu jugador para regatear,\npulsa a un compañero para pasar y la portería para tirar.\nSin balón: arrastra a cualquier jugador o pulsa en el campo.',
+        'Con balón: arrastra desde tu jugador para regatear, pulsa a un compañero\npara pasar, clic derecho para pase al hueco y la portería (o T) para tirar.\nSin balón: arrastra a cualquier jugador o pulsa en el campo.',
         16,
         '#d8e8ff',
         { align: 'center', lineSpacing: 6 },

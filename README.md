@@ -25,7 +25,8 @@ El ratón hace de lápiz de la DS.
 |---|---|
 | Con balón | **Arrastra desde tu jugador** para dibujar el recorrido (regate) |
 | | **Pulsa a un compañero** para pasarle; el bocadillo "¡Pase!" marca al mejor libre |
-| | **Pulsa en un hueco** para un pase al espacio |
+| | **Pulsa en el campo** para que corra hacia ahí (nunca suelta el balón) |
+| | **Clic derecho** en un hueco: pase al espacio |
 | | **Pulsa la portería**, el botón **Tirar** o la tecla **T** para tirar |
 | Sin balón | **Arrastra a cualquier jugador** para moverlo, o **pulsa en el campo** para mandar al jugador activo (el del aro blanco) |
 | Duelos y tiros | Botones en pantalla o teclas **1**/**2** (comandos básicos) y **3**, **4**… (supertécnicas) |

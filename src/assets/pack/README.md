@@ -45,7 +45,7 @@ Escudo: `emblems/big-waves.png`
 | 15 · Barack Daniels (DF) | `barack-daniels.png` |
 | 16 · Bruce Marlin (FW) | `bruce-marlin.png` |
 
-### Brockenborg
+### Brocken Brigade
 
 Escudo: `emblems/brockenborg.png`
 
@@ -183,7 +183,7 @@ Escudo: `emblems/little-gigant.png`
 | 15 · Li Leung (MF) | `li-leung.png` |
 | 16 · Jazzy Hedgeer (FW) | `jazzy-hedgeer.png` |
 
-### Makai Gundan Z
+### Dark Team
 
 Escudo: `emblems/makai-gundan-z.png`
 
@@ -265,7 +265,7 @@ Escudo: `emblems/orpheus.png`
 | 15 · Giuseppe Cannavaro (DF) | `giuseppe-cannavaro.png` |
 | 16 · Gianluca Zanardi (MF) | `gianluca-zanardi.png` |
 
-### Real Inazuma
+### Mega Inazuma Eleven
 
 Escudo: `emblems/real-inazuma.png`
 
@@ -311,7 +311,7 @@ Escudo: `emblems/red-matador.png`
 | 15 · Carlos Arroyo (MF) | `carlos-arroyo.png` |
 | 16 · Federico Rubiera (FW) | `federico-rubiera.png` |
 
-### Rose Griffon
+### Grifos de la Rosa
 
 Escudo: `emblems/rose-griffon.png`
 
@@ -380,7 +380,7 @@ Escudo: `emblems/team-k.png`
 | 15 · Amaranto Rubino (MF) | `amaranto-rubino.png` |
 | 16 · Avorio Opale (FW) | `avorio-opale.png` |
 
-### Tenkuu no Shito
+### Sky Team
 
 Escudo: `emblems/tenkuu-no-shito.png`
 

@@ -126,7 +126,7 @@ team_names = [g for g in groups if g and g != 'Scouts']
 print('equipos de IE3:', len(team_names), file=sys.stderr)
 
 # ------------------------------------------------------------- equipos
-team_pages = fetch_pages(team_names, {'prop': 'revisions|langlinks', 'lllang': 'es'})
+team_pages = fetch_pages(team_names, {'prop': 'revisions|langlinks', 'lllang': 'es', 'lllimit': 'max'})
 
 
 def member_table(text, game='IE3'):

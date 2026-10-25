@@ -1,0 +1,525 @@
+{
+ "id": "ie2-sp-fixers",
+ "season": "ie2",
+ "name": "SP Fixers",
+ "short": "SPF",
+ "colors": {
+  "shirt": "#5a3a8a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "ken-ironwall",
+   "name": "Ken Ironwall",
+   "short": "Ken",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 206,
+   "tp": 145,
+   "stats": {
+    "kick": 68,
+    "body": 69,
+    "control": 60,
+    "guard": 66,
+    "speed": 52,
+    "stamina": 68,
+    "guts": 56
+   },
+   "moves": [
+    "safety-protect",
+    "toughness-block",
+    "the-wall",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tetsukabe Ken",
+   "description": "This iron man doesn't allow any monkey business while he's around."
+  },
+  {
+   "id": "timothy-western",
+   "name": "Timothy Western",
+   "short": "Timothy",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 144,
+   "stats": {
+    "kick": 57,
+    "body": 60,
+    "control": 74,
+    "guard": 61,
+    "speed": 69,
+    "stamina": 53,
+    "guts": 63
+   },
+   "moves": [
+    "super-scan-df",
+    "super-scan-of",
+    "profile-zone",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Goyou Takeshi",
+   "description": "He carries an old truncheon and never lets wrong-doers get away with it."
+  },
+  {
+   "id": "wallace-hammond",
+   "name": "Wallace Hammond",
+   "short": "Wallace",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 120,
+   "stats": {
+    "kick": 65,
+    "body": 63,
+    "control": 68,
+    "guard": 56,
+    "speed": 68,
+    "stamina": 52,
+    "guts": 59
+   },
+   "moves": [
+    "shippuu-dash",
+    "toumei-feint",
+    "profile-zone",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hayate Hayato",
+   "description": "No one's faster when it comes down to tracking down criminals."
+  },
+  {
+   "id": "shirley-stevens",
+   "name": "Shirley Stevens",
+   "short": "Shirley",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 173,
+   "tp": 176,
+   "stats": {
+    "kick": 64,
+    "body": 60,
+    "control": 59,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 54
+   },
+   "moves": [
+    "profile-zone",
+    "block-circus",
+    "nekketsu-head",
+    "body-shield"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sakura Tamon",
+   "description": "He will undergo any hardship to ensure the safety of his country."
+  },
+  {
+   "id": "ian-smith",
+   "name": "Ian Smith",
+   "short": "Smith",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 157,
+   "stats": {
+    "kick": 71,
+    "body": 67,
+    "control": 64,
+    "guard": 58,
+    "speed": 56,
+    "stamina": 66,
+    "guts": 61
+   },
+   "moves": [
+    "body-shield",
+    "toughness-block",
+    "super-scan-df",
+    "safety-protect"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sumisu Eiji",
+   "description": "There's nowhere to run and nowhere to hide from his hawk-like eye."
+  },
+  {
+   "id": "greene-beray",
+   "name": "Greene Beray",
+   "short": "Greene",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 123,
+   "tp": 133,
+   "stats": {
+    "kick": 63,
+    "body": 60,
+    "control": 73,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 54,
+    "guts": 60
+   },
+   "moves": [
+    "coil-turn",
+    "fake-ball",
+    "gorimuchuu",
+    "profile-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tokube Nariyuki",
+   "description": "A special operative who underwent the most rigorous training."
+  },
+  {
+   "id": "taylor-firepool",
+   "name": "Taylor Firepool",
+   "short": "Taylor",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 169,
+   "tp": 136,
+   "stats": {
+    "kick": 57,
+    "body": 57,
+    "control": 62,
+    "guard": 75,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 61
+   },
+   "moves": [
+    "magic",
+    "patriot-shoot",
+    "aikidou"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gokuhi Tsutomu",
+   "description": "He'll complete impossible missions without even breaking a sweat."
+  },
+  {
+   "id": "marge-fielding",
+   "name": "Marge Fielding",
+   "short": "Marge",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 129,
+   "stats": {
+    "kick": 60,
+    "body": 58,
+    "control": 64,
+    "guard": 53,
+    "speed": 69,
+    "stamina": 58,
+    "guts": 60
+   },
+   "moves": [
+    "aikidou",
+    "super-scan-of",
+    "revolution-v"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tateno Mai",
+   "description": "A master of self-defence who can gracefully sidestep any attack."
+  },
+  {
+   "id": "marshall-firsthand",
+   "name": "Marshall Firsthand",
+   "short": "Marshall",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 169,
+   "tp": 161,
+   "stats": {
+    "kick": 63,
+    "body": 58,
+    "control": 55,
+    "guard": 55,
+    "speed": 68,
+    "stamina": 62,
+    "guts": 62
+   },
+   "moves": [
+    "super-scan-of",
+    "fake-bomber",
+    "profile-zone",
+    "security-shot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakite Masaru",
+   "description": "He can stop crimes before they're committed by second-guessing criminal's moves."
+  },
+  {
+   "id": "holly-mirror",
+   "name": "Holly Mirror",
+   "short": "Holly",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 117,
+   "stats": {
+    "kick": 67,
+    "body": 64,
+    "control": 60,
+    "guard": 71,
+    "speed": 60,
+    "stamina": 68,
+    "guts": 64
+   },
+   "moves": [
+    "security-shot",
+    "spiral-shot",
+    "zigzag-spark",
+    "revolution-v"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kagami Houko",
+   "description": "A criminal profiler who gets into the minds of criminals to solve cases."
+  },
+  {
+   "id": "joe-kenneddy",
+   "name": "Joe Kenneddy",
+   "short": "Joe",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 169,
+   "tp": 129,
+   "stats": {
+    "kick": 60,
+    "body": 68,
+    "control": 65,
+    "guard": 64,
+    "speed": 53,
+    "stamina": 57,
+    "guts": 56
+   },
+   "moves": [
+    "tkachev-bomber",
+    "dynamite-shoot",
+    "fake-bomber",
+    "security-shot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kisoku Jun",
+   "description": "He follows the boss's orders no matter how demanding they are."
+  },
+  {
+   "id": "victoria-vanguard",
+   "name": "Victoria Vanguard",
+   "short": "Victoria",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 176,
+   "stats": {
+    "kick": 70,
+    "body": 69,
+    "control": 78,
+    "guard": 66,
+    "speed": 52,
+    "stamina": 69,
+    "guts": 67
+   },
+   "moves": [
+    "the-tower",
+    "rainbow-loop",
+    "tkachev-bomber",
+    "perfect-tower"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zaizen Touko",
+   "description": "Under her guidance, any problem can be solved in no time at all."
+  },
+  {
+   "id": "ian-sights",
+   "name": "Ian Sights",
+   "short": "Sights",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 171,
+   "tp": 132,
+   "stats": {
+    "kick": 52,
+    "body": 58,
+    "control": 60,
+    "guard": 63,
+    "speed": 69,
+    "stamina": 65,
+    "guts": 62
+   },
+   "moves": [
+    "killer-blade",
+    "rocket-kobushi",
+    "gorimuchuu",
+    "safety-protect"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tamakura Geki",
+   "description": "Among the sharpest shooters on the planet, he never loses his cool."
+  },
+  {
+   "id": "ryan-tappin",
+   "name": "Ryan Tappin",
+   "short": "Ryan",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 160,
+   "tp": 132,
+   "stats": {
+    "kick": 68,
+    "body": 48,
+    "control": 68,
+    "guard": 52,
+    "speed": 54,
+    "stamina": 58,
+    "guts": 59
+   },
+   "moves": [
+    "killer-slide",
+    "doppelganger",
+    "zigzag-spark",
+    "toumei-feint"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Denju Atsumu",
+   "description": "He intercepts criminals' phone calls and emails. He has eyes and ears everywhere."
+  },
+  {
+   "id": "linda-shadey",
+   "name": "Linda Shadey",
+   "short": "Linda",
+   "number": 15,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 112,
+   "stats": {
+    "kick": 69,
+    "body": 67,
+    "control": 70,
+    "guard": 60,
+    "speed": 54,
+    "stamina": 57,
+    "guts": 56
+   },
+   "moves": [
+    "rolling-kick",
+    "tatsumaki-senpuu",
+    "aikidou",
+    "tkachev-bomber"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hikage Linda",
+   "description": "A talented spy capable of stealing opponent intel without leaving any traces."
+  },
+  {
+   "id": "sid-safehouse",
+   "name": "Sid Safehouse",
+   "short": "Sid",
+   "number": 16,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 169,
+   "tp": 117,
+   "stats": {
+    "kick": 59,
+    "body": 67,
+    "control": 59,
+    "guard": 71,
+    "speed": 57,
+    "stamina": 64,
+    "guts": 58
+   },
+   "moves": [
+    "giant-spin",
+    "shikofumi",
+    "toughness-block",
+    "body-shield"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Minobe Tamotsu",
+   "description": "Anyone he is assigned to protect can rest easier in their beds."
+  }
+ ]
+}

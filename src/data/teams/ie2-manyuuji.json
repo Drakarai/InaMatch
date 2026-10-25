@@ -1,0 +1,523 @@
+{
+ "id": "ie2-manyuuji",
+ "season": "ie2",
+ "name": "Manyuuji",
+ "short": "MAN",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-double-dog",
+ "players": [
+  {
+   "id": "crane-kik",
+   "name": "Crane Kik",
+   "short": "Crane",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 200,
+   "tp": 149,
+   "stats": {
+    "kick": 71,
+    "body": 71,
+    "control": 76,
+    "guard": 62,
+    "speed": 58,
+    "stamina": 75,
+    "guts": 69
+   },
+   "moves": [
+    "kaenhousha",
+    "makiwari-chop",
+    "bunshin-block"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kakita Taishou",
+   "description": "His ability and tactical acumen are both in heavy demand."
+  },
+  {
+   "id": "parry-waxon",
+   "name": "Parry Waxon",
+   "short": "Parry",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 129,
+   "stats": {
+    "kick": 64,
+    "body": 64,
+    "control": 68,
+    "guard": 64,
+    "speed": 62,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "kumo-no-ito",
+    "bunshin-defense",
+    "noroi",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Satori Kai",
+   "description": "This player blocks his opponents with direct, decisive moves."
+  },
+  {
+   "id": "bri-spark",
+   "name": "Bri Spark",
+   "short": "Bri",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 187,
+   "tp": 149,
+   "stats": {
+    "kick": 56,
+    "body": 53,
+    "control": 62,
+    "guard": 52,
+    "speed": 57,
+    "stamina": 69,
+    "guts": 64
+   },
+   "moves": [
+    "dokugiri-no-jutsu",
+    "kage-nui",
+    "tatsumaki-dokugiri",
+    "bunshin-feint"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hougyoku Hikaru",
+   "description": "His football improved when he got hold of a mysterious jewel."
+  },
+  {
+   "id": "max-fortune",
+   "name": "Max Fortune",
+   "short": "Max",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 213,
+   "tp": 129,
+   "stats": {
+    "kick": 56,
+    "body": 67,
+    "control": 55,
+    "guard": 59,
+    "speed": 68,
+    "stamina": 71,
+    "guts": 70
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "quick-draw",
+    "kung-fu-attack",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fukumi Miou",
+   "description": "There's a rumour that touching this guy's ear brings good fortune."
+  },
+  {
+   "id": "brendan-water",
+   "name": "Brendan Water",
+   "short": "Brendan",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 144,
+   "stats": {
+    "kick": 53,
+    "body": 58,
+    "control": 67,
+    "guard": 56,
+    "speed": 62,
+    "stamina": 59,
+    "guts": 53
+   },
+   "moves": [
+    "shikofumi",
+    "super-shikofumi",
+    "heat-tackle",
+    "mogura-feint"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Makanai Shou",
+   "description": "This player also doubles as the team's cook."
+  },
+  {
+   "id": "scott-banyan",
+   "name": "Scott Banyan",
+   "short": "Scott",
+   "number": 12,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 198,
+   "tp": 160,
+   "stats": {
+    "kick": 63,
+    "body": 71,
+    "control": 64,
+    "guard": 64,
+    "speed": 65,
+    "stamina": 61,
+    "guts": 70
+   },
+   "moves": [
+    "senpuujin",
+    "tatsumaki-senpuu",
+    "ushiro-no-shoumen",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kogure Yuuya",
+   "description": "A snickering trickster. But does his slight frame conceal unexpected powers?"
+  },
+  {
+   "id": "junior-fardream",
+   "name": "Junior Fardream",
+   "short": "Junior",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 187,
+   "tp": 153,
+   "stats": {
+    "kick": 58,
+    "body": 53,
+    "control": 70,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 66,
+    "guts": 63
+   },
+   "moves": [
+    "hitori-one-two",
+    "tatsumaki-dokugiri",
+    "kage-nui",
+    "bunshin-shoot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Takayume Souichi",
+   "description": "This mysterious boy toots on a flute as he wanders around the country."
+  },
+  {
+   "id": "ian-telektual",
+   "name": "Ian Telektual",
+   "short": "Ian",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 149,
+   "stats": {
+    "kick": 60,
+    "body": 57,
+    "control": 62,
+    "guard": 52,
+    "speed": 61,
+    "stamina": 69,
+    "guts": 56
+   },
+   "moves": [
+    "bunshin-feint",
+    "gorimuchuu",
+    "dokonjou-bat",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Manabiya Ikkin",
+   "description": "This brainbox is already studying at a top university."
+  },
+  {
+   "id": "lee-dinglite",
+   "name": "Lee Dinglite",
+   "short": "Lee",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 184,
+   "tp": 164,
+   "stats": {
+    "kick": 57,
+    "body": 52,
+    "control": 70,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 64
+   },
+   "moves": [
+    "kung-fu-head",
+    "bunshin-shoot",
+    "doppelganger",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ichikawa Taemon",
+   "description": "A famous period actor's son, he even gets the odd bit part himself."
+  },
+  {
+   "id": "marshall-artz",
+   "name": "Marshall Artz",
+   "short": "Marshall",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 215,
+   "tp": 160,
+   "stats": {
+    "kick": 63,
+    "body": 56,
+    "control": 68,
+    "guard": 63,
+    "speed": 68,
+    "stamina": 74,
+    "guts": 73
+   },
+   "moves": [
+    "kung-fu-attack",
+    "tatsumaki-senpuu",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tenjin Atarou",
+   "description": "Cuts through the enemy lines with his brother Dirk."
+  },
+  {
+   "id": "tyke-wando",
+   "name": "Tyke Wando",
+   "short": "Tyke",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 132,
+   "stats": {
+    "kick": 60,
+    "body": 56,
+    "control": 65,
+    "guard": 61,
+    "speed": 70,
+    "stamina": 58,
+    "guts": 55
+   },
+   "moves": [
+    "hitori-one-two",
+    "dragon-crash",
+    "kage-nui",
+    "dragon-cannon"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kageta Meguru"
+  },
+  {
+   "id": "dirk-artz",
+   "name": "Dirk Artz",
+   "short": "Dirk",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 154,
+   "tp": 180,
+   "stats": {
+    "kick": 77,
+    "body": 55,
+    "control": 68,
+    "guard": 57,
+    "speed": 72,
+    "stamina": 52,
+    "guts": 71
+   },
+   "moves": [
+    "dragon-cannon",
+    "reppuu-dash",
+    "eagle-buster"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tenjin Usuke",
+   "description": "He works well with his brother Marshall and rarely misses."
+  },
+  {
+   "id": "earnest-bookworm",
+   "name": "Earnest Bookworm",
+   "short": "Earnest",
+   "number": 13,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 162,
+   "tp": 145,
+   "stats": {
+    "kick": 53,
+    "body": 70,
+    "control": 60,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 70
+   },
+   "moves": [
+    "tornado-catch",
+    "nekketsu-head",
+    "kung-fu-head",
+    "kaenhousha"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Itsushige Manabu",
+   "description": "A diligent student who pores over dusty old tomes long into the night."
+  },
+  {
+   "id": "ollie-gami",
+   "name": "Ollie Gami",
+   "short": "Ollie",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 171,
+   "tp": 133,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 59,
+    "guard": 58,
+    "speed": 57,
+    "stamina": 60,
+    "guts": 58
+   },
+   "moves": [
+    "onryou",
+    "noroi",
+    "kamikakushi",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kamo Yoshiyuki",
+   "description": "He uses arcane paper charms to master mysterious techniques."
+  },
+  {
+   "id": "roman-kandel",
+   "name": "Roman Kandel",
+   "short": "Roman",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 176,
+   "tp": 149,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 54,
+    "guard": 52,
+    "speed": 57,
+    "stamina": 58,
+    "guts": 60
+   },
+   "moves": [
+    "monkey-turn",
+    "heat-tackle",
+    "fire-tornado",
+    "volcano-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gozan Sou",
+   "description": "He's usually quiet and retiring, but he really lets himself go once a year."
+  },
+  {
+   "id": "don-ation",
+   "name": "Don Ation",
+   "short": "Don",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 151,
+   "tp": 165,
+   "stats": {
+    "kick": 69,
+    "body": 60,
+    "control": 54,
+    "guard": 57,
+    "speed": 52,
+    "stamina": 56,
+    "guts": 57
+   },
+   "moves": [
+    "kamikakushi",
+    "kung-fu-head",
+    "tatsumaki-senpuu",
+    "dragon-cannon"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Osamoto Gou",
+   "description": "The scion of a family who have run an extremely famous temple for centuries."
+  }
+ ]
+}

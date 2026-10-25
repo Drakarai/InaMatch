@@ -1,7 +1,7 @@
 # InaMatch
 
 Juego de navegador para PC que recrea los partidos de **Inazuma Eleven 3** (DS): duelos por comandos,
-supertécnicas, FP/TP, elementos y la pantalla de formación. Gratis y sin servidor: es una web estática
+supertécnicas, FP/TP, elementos y la pantalla de formación. Trae **55 equipos** de IE1, IE2 e IE3. Gratis y sin servidor: es una web estática
 que se puede publicar gratis en Cloudflare Pages (ver abajo).
 
 > Proyecto de fans sin ánimo de lucro. Inazuma Eleven es una marca de LEVEL-5.
@@ -16,6 +16,16 @@ npm run dev      # abre http://localhost:5173
 ```
 
 Otros comandos: `npm test` (tests de las reglas y los datos), `npm run build` (genera `dist/`) y `npm run typecheck`.
+
+## Menú
+
+Al estilo FIFA: a la izquierda las **temporadas** (IE1, IE2, IE3) hacen de ligas y en el centro salen los escudos de
+sus equipos con su media en estrellas. A la derecha están **Tu equipo** y el **Rival**.
+- Pulsa un equipo para ponerlo en el hueco que pone "◀ eligiendo" (primero el tuyo, luego el rival). Pulsa un hueco para
+  volver a cambiarlo.
+- Se pueden mezclar temporadas (Raimon de IE1 contra Inazuma Japón de IE3, por ejemplo).
+- **Rival aleatorio** elige cualquier equipo de cualquier temporada. La elección se recuerda al volver al menú.
+- La media es la de los atributos de los titulares (tiro, físico, control, defensa, velocidad y agallas).
 
 ## Controles
 
@@ -81,21 +91,30 @@ docs/              notas de referencia del juego original
 
 ## Equipos
 
-Los **21 equipos de IE3** se generan con `python3 -I tools/wiki/teams.py` a partir de la
-[wiki inglesa](https://inazuma-eleven.fandom.com/):
-- **Equipos:** las selecciones del Fútbol Frontier Internacional, Neo Japón, Ogro, Team K, el Equipo Garshield, los equipos del cielo y del infierno, y el Mega Inazuma Eleven.
-- **Plantilla, dorsales y formación:** la tabla de miembros de IE3 de la página de cada equipo.
-- **Posición, afinidad y técnicas de IE3:** `Module:PlayerData/IE`, `IE2` e `IE3`.
-- **Nombre europeo, atributos de IE3 a nivel 99 y descripción:** la página de cada jugador.
-- **Técnicas:** potencia y coste de IE3 de `Module:WazaData`, con el nombre en español del catálogo.
+Los equipos se generan con `python3 -I tools/wiki/teams.py` a partir de la
+[wiki inglesa](https://inazuma-eleven.fandom.com/), separados por temporada (cada id empieza por `ie1-`, `ie2-` o `ie3-`):
+- **IE1 (14):** Raimon, Royal Academy, Zeus, Occult, Wild, Brain, Otaku, Shuriken, Farm, Kirkwood, Inazuma Eleven…
+- **IE2 (20):** Raimon II, Jóvenes Inazuma, la Academia Alius (Génesis, Caos, Epsilon, Prominence, Diamond, Tormenta de
+  Géminis…), los Emperadores Oscuros, Royal Academy Redux, los institutos del viaje (Alpino, Mar de Árboles, Fauxshore…).
+- **IE3 (21):** las selecciones del Fútbol Frontier Internacional, Neo Japón, Ogro, Team K, el Equipo Garshield, los
+  equipos del cielo y del infierno, y el Mega Inazuma Eleven.
+
+De dónde sale cada cosa:
+- **Plantilla, dorsales y formación:** la tabla de miembros de ese juego en la página de cada equipo.
+- **Posición, afinidad y técnicas:** `Module:PlayerData/IE`, `IE2` e `IE3`, las del juego de cada temporada.
+- **Nombre europeo, atributos a nivel 99 y descripción:** la página de cada jugador, en la pestaña del juego de la
+  temporada (si falta, la del juego más cercano; 4 jugadores sin datos llevan atributos estimados por su posición).
+- **Técnicas:** potencia y coste de IE3 de `Module:WazaData` (o de IE2 si no salen en IE3), con el nombre en español del catálogo.
 - **Formaciones:** nombre y distribución (F-D Lion 4-4-2, F-Kingdom 4-3-3…); el juego coloca a los jugadores a partir de la distribución.
-- **Nombre del equipo en español:** el enlace entre wikis, cuando lo hay.
+- **Nombre del equipo en español:** el enlace entre wikis, cuando lo hay. Si no, se queda el inglés.
 - **Titulares:** portero y las líneas de la formación por orden de dorsal. Si faltan jugadores de una posición, entra el que mejor encaja por atributos.
 
-Lo que no viene en la wiki se pone a mano en el script: los colores de cada equipo y las siglas.
+Lo que no viene en la wiki se pone a mano en el script: los colores de los equipos más conocidos (el resto lleva colores
+sacados de su nombre) y las siglas.
 En el campo se ve el nombre de pila en los equipos japoneses y el apellido en el resto.
 
-Para añadir un equipo a mano, crea un `.json` en `src/data/teams/` copiando uno de los existentes y aparecerá solo en el menú.
+Para añadir un equipo a mano, crea un `.json` en `src/data/teams/` copiando uno de los existentes y aparecerá solo en el menú,
+en la temporada que diga su campo `season` (sin él, en "Otros equipos").
 - Los 11 primeros jugadores son los titulares, en el orden de los huecos de la formación, empezando por el portero.
 - `npm test` avisa de técnicas inexistentes, ids repetidos o plantillas incompletas.
 - Después, `python3 -I tools/pack_readme.py` actualiza la lista de nombres de los sprites.

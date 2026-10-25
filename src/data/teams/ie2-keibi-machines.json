@@ -1,0 +1,322 @@
+{
+ "id": "ie2-keibi-machines",
+ "season": "ie2",
+ "name": "Robots Guardias",
+ "short": "KEI",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "robot-s",
+   "name": "Robot S",
+   "short": "S",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 176,
+   "stats": {
+    "kick": 60,
+    "body": 63,
+    "control": 53,
+    "guard": 70,
+    "speed": 55,
+    "stamina": 78,
+    "guts": 68
+   },
+   "moves": [
+    "rocket-kobushi",
+    "safety-protect"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Robo S"
+  },
+  {
+   "id": "robot-p",
+   "name": "Robot P",
+   "short": "P",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 187,
+   "tp": 173,
+   "stats": {
+    "kick": 56,
+    "body": 52,
+    "control": 52,
+    "guard": 62,
+    "speed": 52,
+    "stamina": 70,
+    "guts": 66
+   },
+   "moves": [
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Robo P"
+  },
+  {
+   "id": "robot-t",
+   "name": "Robot T",
+   "short": "T",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 213,
+   "tp": 168,
+   "stats": {
+    "kick": 62,
+    "body": 52,
+    "control": 59,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 66
+   },
+   "moves": [
+    "profile-zone"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Robo T"
+  },
+  {
+   "id": "robot-v",
+   "name": "Robot V",
+   "short": "V",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 168,
+   "stats": {
+    "kick": 57,
+    "body": 56,
+    "control": 58,
+    "guard": 70,
+    "speed": 60,
+    "stamina": 77,
+    "guts": 60
+   },
+   "moves": [
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Robo V"
+  },
+  {
+   "id": "robot-c",
+   "name": "Robot C",
+   "short": "C",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 217,
+   "tp": 153,
+   "stats": {
+    "kick": 58,
+    "body": 62,
+    "control": 62,
+    "guard": 63,
+    "speed": 57,
+    "stamina": 78,
+    "guts": 61
+   },
+   "moves": [
+    "profile-zone"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Robo C"
+  },
+  {
+   "id": "robot-l",
+   "name": "Robot L",
+   "short": "L",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 198,
+   "tp": 157,
+   "stats": {
+    "kick": 68,
+    "body": 53,
+    "control": 58,
+    "guard": 55,
+    "speed": 52,
+    "stamina": 70,
+    "guts": 68
+   },
+   "moves": [
+    "security-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Robo L"
+  },
+  {
+   "id": "robot-o",
+   "name": "Robot O",
+   "short": "O",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 211,
+   "tp": 157,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 53,
+    "guard": 56,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 64
+   },
+   "moves": [
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Robo O"
+  },
+  {
+   "id": "robot-b",
+   "name": "Robot B",
+   "short": "B",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 215,
+   "tp": 157,
+   "stats": {
+    "kick": 61,
+    "body": 62,
+    "control": 60,
+    "guard": 52,
+    "speed": 57,
+    "stamina": 69,
+    "guts": 61
+   },
+   "moves": [
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Robo B"
+  },
+  {
+   "id": "robot-g",
+   "name": "Robot G",
+   "short": "G",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 200,
+   "tp": 176,
+   "stats": {
+    "kick": 58,
+    "body": 54,
+    "control": 63,
+    "guard": 60,
+    "speed": 54,
+    "stamina": 70,
+    "guts": 65
+   },
+   "moves": [
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Robo G"
+  },
+  {
+   "id": "robot-k",
+   "name": "Robot K",
+   "short": "K",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 187,
+   "tp": 153,
+   "stats": {
+    "kick": 57,
+    "body": 55,
+    "control": 64,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 70,
+    "guts": 71
+   },
+   "moves": [
+    "toumei-feint"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Robo K"
+  },
+  {
+   "id": "robot-f",
+   "name": "Robot F",
+   "short": "F",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 215,
+   "tp": 160,
+   "stats": {
+    "kick": 63,
+    "body": 59,
+    "control": 55,
+    "guard": 58,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 62
+   },
+   "moves": [],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Robo F"
+  }
+ ]
+}

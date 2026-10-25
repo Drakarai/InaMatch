@@ -1,0 +1,518 @@
+{
+ "id": "ie3-unicorn",
+ "season": "ie3",
+ "name": "Unicorn",
+ "short": "UNI",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#1d3b8a",
+  "gkShirt": "#c8202f",
+  "accent": "#1d3b8a"
+ },
+ "formation": "f-unicorn",
+ "players": [
+  {
+   "id": "billy-dash",
+   "name": "Billy Dash",
+   "short": "Dash",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 100,
+   "tp": 129,
+   "stats": {
+    "kick": 72,
+    "body": 40,
+    "control": 44,
+    "guard": 75,
+    "speed": 75,
+    "stamina": 37,
+    "guts": 67
+   },
+   "moves": [
+    "flash-upper",
+    "rocket-kobushi",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Billy Rapid",
+   "description": "He wants to be a cowboy in a western. He's always practising lines in the mirror."
+  },
+  {
+   "id": "ted-bryant",
+   "name": "Ted Bryant",
+   "short": "Bryant",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 121,
+   "tp": 144,
+   "stats": {
+    "kick": 47,
+    "body": 40,
+    "control": 45,
+    "guard": 44,
+    "speed": 68,
+    "stamina": 48,
+    "guts": 62
+   },
+   "moves": [
+    "power-charge",
+    "quick-draw",
+    "moonsault",
+    "flame-dance"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ted Bryan",
+   "description": "He sees Silicon Valley as a goldmine, and he hopes to make his fortune there."
+  },
+  {
+   "id": "tony-strider",
+   "name": "Tony Strider",
+   "short": "Strider",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 140,
+   "tp": 115,
+   "stats": {
+    "kick": 52,
+    "body": 68,
+    "control": 53,
+    "guard": 74,
+    "speed": 52,
+    "stamina": 54,
+    "guts": 49
+   },
+   "moves": [
+    "killer-slide",
+    "power-charge",
+    "patriot-shoot",
+    "horn-train"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tony Stridas",
+   "description": "This guy is obsessed with eating steaks. He can't rest unless he eats one a day."
+  },
+  {
+   "id": "drake-dynamo",
+   "name": "Drake Dynamo",
+   "short": "Dynamo",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 128,
+   "tp": 86,
+   "stats": {
+    "kick": 76,
+    "body": 73,
+    "control": 34,
+    "guard": 80,
+    "speed": 37,
+    "stamina": 32,
+    "guts": 73
+   },
+   "moves": [
+    "power-charge",
+    "flash-upper",
+    "mega-quake",
+    "seigi-no-tekken"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Dyke Dynamo",
+   "description": "They say that he once wrestled a buffalo to the ground. I'm not so sure, though."
+  },
+  {
+   "id": "bobby-shearer",
+   "name": "Bobby Shearer",
+   "short": "Shearer",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 125,
+   "stats": {
+    "kick": 56,
+    "body": 61,
+    "control": 62,
+    "guard": 76,
+    "speed": 60,
+    "stamina": 65,
+    "guts": 61
+   },
+   "moves": [
+    "the-ikaros",
+    "volcano-cut",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Domon Asuka",
+   "description": "He doesn't take himself seriously, but he has a good heart."
+  },
+  {
+   "id": "steve-woodmark",
+   "name": "Steve Woodmark",
+   "short": "Woodmark",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 132,
+   "tp": 107,
+   "stats": {
+    "kick": 52,
+    "body": 68,
+    "control": 52,
+    "guard": 54,
+    "speed": 49,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "killer-slide",
+    "illusion-ball",
+    "twin-boost",
+    "the-ikaros"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Steve Woodmack",
+   "description": "His ambition is to sit in the Oval Office, but no one takes him seriously."
+  },
+  {
+   "id": "erik-eagle",
+   "name": "Erik Eagle",
+   "short": "Eagle",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 130,
+   "tp": 128,
+   "stats": {
+    "kick": 79,
+    "body": 60,
+    "control": 72,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 71
+   },
+   "moves": [
+    "illusion-ball",
+    "flame-dance",
+    "pegasus-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ichinose Kazuya",
+   "description": "This comeback kid is known as the Midfield Magician."
+  },
+  {
+   "id": "shane-pierce",
+   "name": "Shane Pierce",
+   "short": "Pierce",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 135,
+   "stats": {
+    "kick": 69,
+    "body": 61,
+    "control": 72,
+    "guard": 43,
+    "speed": 40,
+    "stamina": 40,
+    "guts": 44
+   },
+   "moves": [
+    "zigzag-spark",
+    "freeze-shot",
+    "pegasus-shot"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sean Pierce",
+   "description": "He's only young, but he has a good grasp of Wall Street's complex financial structures."
+  },
+  {
+   "id": "mark-krueger",
+   "name": "Mark Krueger",
+   "short": "Krueger",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 131,
+   "tp": 130,
+   "stats": {
+    "kick": 68,
+    "body": 88,
+    "control": 64,
+    "guard": 57,
+    "speed": 58,
+    "stamina": 57,
+    "guts": 54
+   },
+   "moves": [
+    "gran-fenrir",
+    "the-ikaros",
+    "tri-pegasus"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mark Krueger",
+   "description": "Along with Erik Eagle, he's the leading light of the American squad."
+  },
+  {
+   "id": "dylan-keats",
+   "name": "Dylan Keats",
+   "short": "Keats",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 110,
+   "stats": {
+    "kick": 95,
+    "body": 52,
+    "control": 60,
+    "guard": 47,
+    "speed": 51,
+    "stamina": 60,
+    "guts": 62
+   },
+   "moves": [
+    "unicorn-boost",
+    "fuusen-gum",
+    "revolution-v"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Dylan Keith",
+   "description": "His exploits in the North American qualifiers earned him the nickname Hat-Trick Kid."
+  },
+  {
+   "id": "gabriel-jax",
+   "name": "Gabriel Jax",
+   "short": "Jax",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 124,
+   "stats": {
+    "kick": 62,
+    "body": 66,
+    "control": 69,
+    "guard": 55,
+    "speed": 50,
+    "stamina": 60,
+    "guts": 53
+   },
+   "moves": [
+    "tri-pegasus",
+    "zigzag-spark",
+    "revolution-v",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Michele Jacks"
+  },
+  {
+   "id": "alex-hawke",
+   "name": "Alex Hawke",
+   "short": "Hawke",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 105,
+   "tp": 114,
+   "stats": {
+    "kick": 92,
+    "body": 76,
+    "control": 39,
+    "guard": 47,
+    "speed": 35,
+    "stamina": 32,
+    "guts": 89
+   },
+   "moves": [
+    "counterstrike",
+    "hawk-shot",
+    "zanzou",
+    "eagle-buster"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Alex Hawk",
+   "description": "He insists that he can read the signs in nature to predict the weather."
+  },
+  {
+   "id": "corey-washington",
+   "name": "Corey Washington",
+   "short": "Washington",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 112,
+   "stats": {
+    "kick": 63,
+    "body": 51,
+    "control": 52,
+    "guard": 50,
+    "speed": 62,
+    "stamina": 56,
+    "guts": 56
+   },
+   "moves": [
+    "tkachev-bomber",
+    "blade-attack",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Rob Parker",
+   "description": "He wants to live the American dream by taking his country all the way to the top."
+  },
+  {
+   "id": "bob-bobbins",
+   "name": "Bob Bobbins",
+   "short": "Bobbins",
+   "number": 14,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 122,
+   "stats": {
+    "kick": 69,
+    "body": 54,
+    "control": 55,
+    "guard": 51,
+    "speed": 52,
+    "stamina": 49,
+    "guts": 54
+   },
+   "moves": [
+    "fuusen-gum",
+    "blade-attack",
+    "mugen-no-kabe"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Bob Bobbins",
+   "description": "He's a real slob. He loves to sprawl on the sofa, swilling cola and chomping chips."
+  },
+  {
+   "id": "petie-pooma",
+   "name": "Petie Pooma",
+   "short": "Pooma",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 98,
+   "stats": {
+    "kick": 32,
+    "body": 37,
+    "control": 36,
+    "guard": 36,
+    "speed": 75,
+    "stamina": 76,
+    "guts": 78
+   },
+   "moves": [
+    "kurukuru-head",
+    "zigzag-spark",
+    "double-cyclone",
+    "tamanori-pierrot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sammy Dempsey",
+   "description": "He's tiny for an American, but within him hides the coiled power of a jungle cat."
+  },
+  {
+   "id": "norbert-poindexter",
+   "name": "Norbert Poindexter",
+   "short": "Poindexter",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 128,
+   "tp": 102,
+   "stats": {
+    "kick": 59,
+    "body": 57,
+    "control": 63,
+    "guard": 56,
+    "speed": 56,
+    "stamina": 58,
+    "guts": 52
+   },
+   "moves": [
+    "spinning-cut",
+    "spinning-shoot",
+    "jigoku-guruma",
+    "shooting-star"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Eddie Howard",
+   "description": "He didn't care much for American football, but he really took to soccer."
+  }
+ ]
+}

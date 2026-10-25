@@ -79,4 +79,4 @@ Partido Raimon contra Superestrellas CI, en español. Cambios respecto a IE3:
 - Alineación rival y menú Jugar/Menú antes del saque.
 - Cambios durante el partido.
 - Animaciones de sprites (correr, chutar) cuando haya sprite sheets en el paquete.
-- Más equipos: los de IE1 e IE2 (Raimon, Royal Academy, Zeus…) y los de GO. Los 21 de IE3 ya están.
+- Más equipos: los de GO. Los de IE1, IE2 e IE3 ya están (55, en el menú por temporadas).

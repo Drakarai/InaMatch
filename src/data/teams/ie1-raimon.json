@@ -1,0 +1,522 @@
+{
+ "id": "ie1-raimon",
+ "season": "ie1",
+ "name": "Instituto Raimon",
+ "short": "RAI",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#2a5fc0",
+  "gkShirt": "#e8892b",
+  "accent": "#d9a400"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "mark-evans",
+   "name": "Mark Evans",
+   "short": "Evans",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 184,
+   "stats": {
+    "kick": 72,
+    "body": 72,
+    "control": 70,
+    "guard": 77,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 79
+   },
+   "moves": [
+    "god-hand",
+    "grenade-shot",
+    "majin-the-hand",
+    "triple-defense"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "No one has more love for football than Raimon's fiery captain!"
+  },
+  {
+   "id": "nathan-swift",
+   "name": "Nathan Swift",
+   "short": "Nathan",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 169,
+   "tp": 156,
+   "stats": {
+    "kick": 64,
+    "body": 58,
+    "control": 68,
+    "guard": 54,
+    "speed": 76,
+    "stamina": 58,
+    "guts": 56
+   },
+   "moves": [
+    "shippuu-dash",
+    "quick-draw",
+    "bunshin-feint",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kazemaru Ichirouta",
+   "description": "A nimble defender. He has been friends with Mark for a long time."
+  },
+  {
+   "id": "jack-wallside",
+   "name": "Jack Wallside",
+   "short": "Jack",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 206,
+   "tp": 165,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 62,
+    "guard": 66,
+    "speed": 49,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "mogura-feint",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kabeyama Heigorou",
+   "description": "This large-bodied defender forms a defensive wall, all by himself."
+  },
+  {
+   "id": "jim-wraith",
+   "name": "Jim Wraith",
+   "short": "Jim",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 140,
+   "stats": {
+    "kick": 58,
+    "body": 53,
+    "control": 75,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 62,
+    "guts": 60
+   },
+   "moves": [
+    "coil-turn",
+    "ushiro-no-shoumen",
+    "zanzou",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kageno Jin",
+   "description": "The colour of his eyes is a mystery thanks to his fringe."
+  },
+  {
+   "id": "tod-ironside",
+   "name": "Tod Ironside",
+   "short": "Tod",
+   "number": 6,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 184,
+   "tp": 161,
+   "stats": {
+    "kick": 54,
+    "body": 55,
+    "control": 53,
+    "guard": 56,
+    "speed": 59,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "suisei-shoot",
+    "monkey-turn",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kurimatsu Teppei",
+   "description": "The team's mood-maker's great courage makes up for his small size."
+  },
+  {
+   "id": "steve-grim",
+   "name": "Steve Grim",
+   "short": "Steve",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 154,
+   "tp": 144,
+   "stats": {
+    "kick": 62,
+    "body": 64,
+    "control": 71,
+    "guard": 64,
+    "speed": 71,
+    "stamina": 71,
+    "guts": 71
+   },
+   "moves": [
+    "rolling-kick",
+    "zigzag-spark",
+    "cyclone",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Handa Shinichi",
+   "description": "He is a jack-of-all trades. In other words, well balanced."
+  },
+  {
+   "id": "tim-saunders",
+   "name": "Tim Saunders",
+   "short": "Tim",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 156,
+   "tp": 149,
+   "stats": {
+    "kick": 63,
+    "body": 76,
+    "control": 61,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 48,
+    "guts": 58
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "kung-fu-head",
+    "bunshin-feint",
+    "bunshin-shoot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shourinji Ayumu",
+   "description": "Although small bodied, he is a master of kung fu footwork."
+  },
+  {
+   "id": "sam-kincaid",
+   "name": "Sam Kincaid",
+   "short": "Sam",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 167,
+   "tp": 136,
+   "stats": {
+    "kick": 71,
+    "body": 57,
+    "control": 56,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 56,
+    "guts": 76
+   },
+   "moves": [
+    "grenade-shot",
+    "gorimuchuu",
+    "fake-ball",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shishido Sakichi",
+   "description": "He is becoming the team's key-man by developing his own pace."
+  },
+  {
+   "id": "jude-sharp",
+   "name": "Jude Sharp",
+   "short": "Jude",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 180,
+   "stats": {
+    "kick": 63,
+    "body": 79,
+    "control": 79,
+    "guard": 79,
+    "speed": 76,
+    "stamina": 76,
+    "guts": 68
+   },
+   "moves": [
+    "spinning-cut",
+    "illusion-ball",
+    "twin-boost",
+    "inazuma-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kidou Yuuto",
+   "description": "A talented playmaker with the finest skill and techniques."
+  },
+  {
+   "id": "maxwell-carson",
+   "name": "Maxwell Carson",
+   "short": "Maxwell",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 156,
+   "tp": 160,
+   "stats": {
+    "kick": 60,
+    "body": 56,
+    "control": 78,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 62
+   },
+   "moves": [
+    "quick-draw",
+    "spiral-shot",
+    "illusion-ball",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Matsuno Kuusuke",
+   "description": "Beneath his cute exterior is a multi-skilled sportsman."
+  },
+  {
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 176,
+   "stats": {
+    "kick": 79,
+    "body": 66,
+    "control": 76,
+    "guard": 64,
+    "speed": 72,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "fire-tornado",
+    "heat-tackle",
+    "quick-draw",
+    "inazuma-otoshi"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gouenji Shuuya",
+   "description": "A cool transfer student renowned as a legendary striker."
+  },
+  {
+   "id": "mark-evans-endou-b",
+   "name": "Mark Evans",
+   "short": "Evans",
+   "number": 2,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 184,
+   "stats": {
+    "kick": 72,
+    "body": 72,
+    "control": 70,
+    "guard": 77,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 79
+   },
+   "moves": [],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "No one has more love for football than Raimon's fiery captain!"
+  },
+  {
+   "id": "kevin-dragonfly",
+   "name": "Kevin Dragonfly",
+   "short": "Kevin",
+   "number": 12,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 145,
+   "stats": {
+    "kick": 71,
+    "body": 60,
+    "control": 59,
+    "guard": 61,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "zigzag-spark",
+    "jigoku-guruma",
+    "dragon-crash",
+    "dragon-tornado"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Someoka Ryuugo",
+   "description": "Raimon's fearsome goal scorer is really all heart."
+  },
+  {
+   "id": "william-glass",
+   "name": "William Glass",
+   "short": "William",
+   "number": 13,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 168,
+   "stats": {
+    "kick": 56,
+    "body": 51,
+    "control": 68,
+    "guard": 57,
+    "speed": 56,
+    "stamina": 53,
+    "guts": 60
+   },
+   "moves": [
+    "super-scan-df",
+    "super-scan-of",
+    "divine-arrow",
+    "tamanori-pierrot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Megane Kakeru",
+   "description": "A highly popular student... or so he says!"
+  },
+  {
+   "id": "bobby-shearer",
+   "name": "Bobby Shearer",
+   "short": "Bobby",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 202,
+   "tp": 176,
+   "stats": {
+    "kick": 76,
+    "body": 61,
+    "control": 72,
+    "guard": 76,
+    "speed": 60,
+    "stamina": 72,
+    "guts": 72
+   },
+   "moves": [
+    "killer-slide",
+    "blade-attack",
+    "back-tornado",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Domon Asuka",
+   "description": "Used to live in the USA. Behaves flippantly, but is deep-hearted."
+  },
+  {
+   "id": "erik-eagle",
+   "name": "Erik Eagle",
+   "short": "Erik",
+   "number": 16,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 197,
+   "stats": {
+    "kick": 79,
+    "body": 60,
+    "control": 76,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 71
+   },
+   "moves": [
+    "spinning-shoot",
+    "spinning-cut",
+    "illusion-ball",
+    "the-phoenix"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ichinose Kazuya",
+   "description": "This comeback kid is known as the midfield magician."
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "id": "ie1-occult",
+ "season": "ie1",
+ "name": "Instituto Occult",
+ "short": "OCC",
+ "colors": {
+  "shirt": "#3a1a4a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#6a8a2a",
+  "accent": "#5a2a6a"
+ },
+ "formation": "f-ghost-dance",
+ "players": [
+  {
+   "id": "nathan-jones",
+   "name": "Nathan Jones",
+   "short": "Nathan",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 156,
+   "stats": {
+    "kick": 58,
+    "body": 56,
+    "control": 70,
+    "guard": 68,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 68
+   },
+   "moves": [
+    "killer-blade",
+    "yugamu-kuukan",
+    "blade-attack",
+    "tsumuji"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nata Juuzou",
+   "description": "He is a bit dangerous with a grass cutter on the pitch."
+  },
+  {
+   "id": "russell-walk",
+   "name": "Russell Walk",
+   "short": "Russell",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 140,
+   "tp": 137,
+   "stats": {
+    "kick": 60,
+    "body": 53,
+    "control": 60,
+    "guard": 52,
+    "speed": 63,
+    "stamina": 65,
+    "guts": 58
+   },
+   "moves": [
+    "onryou",
+    "kamikakushi",
+    "noroi",
+    "phantom-shoot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sanzu Wataru",
+   "description": "After a spooky experience, even he is not sure if he is realy alive!"
+  },
+  {
+   "id": "jason-jones",
+   "name": "Jason Jones",
+   "short": "Jason",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 151,
+   "tp": 152,
+   "stats": {
+    "kick": 52,
+    "body": 54,
+    "control": 57,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 54,
+    "guts": 63
+   },
+   "moves": [
+    "doppelganger",
+    "magic",
+    "onryou",
+    "fake-ball"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yanagida Shigeru",
+   "description": "He believes in ghosts an blames them for everything."
+  },
+  {
+   "id": "ken-furan",
+   "name": "Ken Furan",
+   "short": "Ken",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 151,
+   "tp": 156,
+   "stats": {
+    "kick": 55,
+    "body": 59,
+    "control": 47,
+    "guard": 70,
+    "speed": 52,
+    "stamina": 61,
+    "guts": 48
+   },
+   "moves": [
+    "nekketsu-punch",
+    "rocket-kobushi",
+    "bakuretsu-punch",
+    "counterstrike"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Furan Ken",
+   "description": "Trying to create life, but biology is his worst class."
+  },
+  {
+   "id": "jerry-fulton",
+   "name": "Jerry Fulton",
+   "short": "Jerry",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 151,
+   "tp": 152,
+   "stats": {
+    "kick": 52,
+    "body": 54,
+    "control": 57,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 54,
+    "guts": 63
+   },
+   "moves": [
+    "doppelganger",
+    "phantom-shoot",
+    "noroi",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shikabane Fujimi",
+   "description": "A dangerous player due to believing himself to be invincible."
+  },
+  {
+   "id": "ray-mannings",
+   "name": "Ray Mannings",
+   "short": "Ray",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 145,
+   "tp": 136,
+   "stats": {
+    "kick": 55,
+    "body": 62,
+    "control": 60,
+    "guard": 52,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 62
+   },
+   "moves": [
+    "onryou",
+    "noroi",
+    "magic",
+    "yugamu-kuukan"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Reigen Michihisa",
+   "description": "Although a bit stiff, he disturbs opponents by flying around them."
+  },
+  {
+   "id": "robert-mayer",
+   "name": "Robert Mayer",
+   "short": "Robert",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 187,
+   "tp": 137,
+   "stats": {
+    "kick": 54,
+    "body": 52,
+    "control": 60,
+    "guard": 52,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 61
+   },
+   "moves": [
+    "onryou",
+    "dokugiri-no-jutsu",
+    "kumo-no-ito",
+    "yugamu-kuukan"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kinoi Mami",
+   "description": "As he gets cold easily, he always keeps well wrapped up."
+  },
+  {
+   "id": "alexander-brave",
+   "name": "Alexander Brave",
+   "short": "Alexander",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 180,
+   "tp": 144,
+   "stats": {
+    "kick": 57,
+    "body": 65,
+    "control": 60,
+    "guard": 52,
+    "speed": 71,
+    "stamina": 56,
+    "guts": 55
+   },
+   "moves": [
+    "noroi",
+    "kage-nui",
+    "phantom-shoot",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yatsuhaka Tataru",
+   "description": "People say he knows how to invoke catastrophic curses when angry."
+  },
+  {
+   "id": "troy-moon",
+   "name": "Troy Moon",
+   "short": "Troy",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 211,
+   "tp": 153,
+   "stats": {
+    "kick": 61,
+    "body": 70,
+    "control": 77,
+    "guard": 52,
+    "speed": 79,
+    "stamina": 69,
+    "guts": 67
+   },
+   "moves": [
+    "magic",
+    "phantom-shoot",
+    "moonsault",
+    "wild-claw"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsukimura Kenichi",
+   "description": "Just a glance at a full moon gives \"Wolf Boy\" violent tendencies."
+  },
+  {
+   "id": "burt-wolf",
+   "name": "Burt Wolf",
+   "short": "Burt",
+   "number": 11,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 184,
+   "tp": 152,
+   "stats": {
+    "kick": 68,
+    "body": 52,
+    "control": 52,
+    "guard": 51,
+    "speed": 56,
+    "stamina": 62,
+    "guts": 60
+   },
+   "moves": [
+    "phantom-shoot",
+    "magic",
+    "dokugiri-no-jutsu",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Burado Kiba",
+   "description": "Pale from always doing night shifts. Loves tomato juice."
+  },
+  {
+   "id": "johan-tassman",
+   "name": "Johan Tassman",
+   "short": "Johan",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 171,
+   "tp": 165,
+   "stats": {
+    "kick": 62,
+    "body": 64,
+    "control": 56,
+    "guard": 48,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 63
+   },
+   "moves": [
+    "kamikakushi",
+    "phantom-shoot",
+    "freeze-shot",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yuukoku Hiroyuki",
+   "description": "Uses his power to receive training from the ghosts of famous players."
+  },
+  {
+   "id": "rob-crombie",
+   "name": "Rob Crombie",
+   "short": "Rob",
+   "number": 12,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 200,
+   "tp": 156,
+   "stats": {
+    "kick": 47,
+    "body": 46,
+    "control": 50,
+    "guard": 40,
+    "speed": 51,
+    "stamina": 74,
+    "guts": 56
+   },
+   "moves": [
+    "shikofumi",
+    "doppelganger",
+    "kamikakushi",
+    "horn-train"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fushi Matsuru",
+   "description": "Doesn't feel a thing, no matter how badly injured."
+  },
+  {
+   "id": "chuck-dollman",
+   "name": "Chuck Dollman",
+   "short": "Chuck",
+   "number": 13,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 104,
+   "stats": {
+    "kick": 52,
+    "body": 53,
+    "control": 45,
+    "guard": 48,
+    "speed": 49,
+    "stamina": 53,
+    "guts": 55
+   },
+   "moves": [
+    "phantom-shoot",
+    "noroi",
+    "doppelganger",
+    "rocket-kobushi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hitogata Gen",
+   "description": "Thinks he was made in a workshop and has no memories of the past."
+  },
+  {
+   "id": "uxley-allen",
+   "name": "Uxley Allen",
+   "short": "Uxley",
+   "number": 14,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 112,
+   "stats": {
+    "kick": 48,
+    "body": 51,
+    "control": 51,
+    "guard": 50,
+    "speed": 48,
+    "stamina": 55,
+    "guts": 44
+   },
+   "moves": [
+    "suisei-shoot",
+    "psycho-shot",
+    "kung-fu-head",
+    "onryou"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsuburaya Michi",
+   "description": "He believes in UFOs and watches out for them every night."
+  },
+  {
+   "id": "phil-noir",
+   "name": "Phil Noir",
+   "short": "Phil",
+   "number": 15,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 121,
+   "tp": 120,
+   "stats": {
+    "kick": 52,
+    "body": 45,
+    "control": 48,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 58,
+    "guts": 45
+   },
+   "moves": [
+    "noroi",
+    "psycho-shot",
+    "doppelganger",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kurogami Noroi",
+   "description": "An expert in black magic. He curses the opposition before every match."
+  },
+  {
+   "id": "mick-askley",
+   "name": "Mick Askley",
+   "short": "Mick",
+   "number": 16,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 143,
+   "tp": 100,
+   "stats": {
+    "kick": 55,
+    "body": 50,
+    "control": 54,
+    "guard": 44,
+    "speed": 48,
+    "stamina": 56,
+    "guts": 54
+   },
+   "moves": [
+    "onryou",
+    "jigoku-guruma",
+    "horn-train",
+    "yugamu-kuukan"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Makai Takao",
+   "description": "He believes he is not human and hides behind a mysterious mask."
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "id": "ie1-kasamino",
+ "season": "ie1",
+ "name": "Kasamino",
+ "short": "KAS",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-death-zone",
+ "players": [
+  {
+   "id": "joe-ingram",
+   "name": "Joe Ingram",
+   "short": "Joe",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 113,
+   "stats": {
+    "kick": 44,
+    "body": 71,
+    "control": 52,
+    "guard": 74,
+    "speed": 47,
+    "stamina": 57,
+    "guts": 78
+   },
+   "moves": [
+    "tornado-catch",
+    "spinning-shoot",
+    "tsumuji",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ikegaki Jou",
+   "description": "No matter the situation, he always has a joke to lighten the mood."
+  },
+  {
+   "id": "kendall-sefton",
+   "name": "Kendall Sefton",
+   "short": "Kendall",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 151,
+   "tp": 109,
+   "stats": {
+    "kick": 53,
+    "body": 49,
+    "control": 61,
+    "guard": 54,
+    "speed": 67,
+    "stamina": 54,
+    "guts": 55
+   },
+   "moves": [
+    "spinning-cut",
+    "tatsumaki-senpuu",
+    "kung-fu-head",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Himejima Kiwamu",
+   "description": "He practises tai chi to warm up before matches."
+  },
+  {
+   "id": "jason-strike",
+   "name": "Jason Strike",
+   "short": "Jason",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 132,
+   "tp": 109,
+   "stats": {
+    "kick": 48,
+    "body": 50,
+    "control": 64,
+    "guard": 47,
+    "speed": 56,
+    "stamina": 51,
+    "guts": 53
+   },
+   "moves": [
+    "quick-draw",
+    "rolling-kick",
+    "blade-attack",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kikuchi Yasuchi",
+   "description": "Loves exercise so much, his home is practically a gym."
+  },
+  {
+   "id": "norman-porter",
+   "name": "Norman Porter",
+   "short": "Norman",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 145,
+   "tp": 112,
+   "stats": {
+    "kick": 45,
+    "body": 56,
+    "control": 44,
+    "guard": 60,
+    "speed": 44,
+    "stamina": 52,
+    "guts": 46
+   },
+   "moves": [
+    "killer-slide",
+    "horn-train",
+    "the-wall",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Noma Hakobu",
+   "description": "He's always willing to lend anyone a hand with heavy luggage."
+  },
+  {
+   "id": "maxwell-claus",
+   "name": "Maxwell Claus",
+   "short": "Maxwell",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 136,
+   "tp": 120,
+   "stats": {
+    "kick": 62,
+    "body": 53,
+    "control": 55,
+    "guard": 44,
+    "speed": 53,
+    "stamina": 55,
+    "guts": 49
+   },
+   "moves": [
+    "coil-turn",
+    "blade-attack",
+    "monkey-turn",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mukaiyama Kyougo",
+   "description": "Superstitiously eats pork chops before every match."
+  },
+  {
+   "id": "alan-most",
+   "name": "Alan Most",
+   "short": "Alan",
+   "number": 14,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 165,
+   "stats": {
+    "kick": 65,
+    "body": 60,
+    "control": 60,
+    "guard": 68,
+    "speed": 63,
+    "stamina": 61,
+    "guts": 64
+   },
+   "moves": [
+    "dash-accel",
+    "super-armadillo",
+    "shikofumi",
+    "pressure-punch"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Marude Tameo",
+   "description": "He is unable to succeed at anything without his parents' advice."
+  },
+  {
+   "id": "bruce-chaney",
+   "name": "Bruce Chaney",
+   "short": "Bruce",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 136,
+   "tp": 121,
+   "stats": {
+    "kick": 46,
+    "body": 48,
+    "control": 48,
+    "guard": 45,
+    "speed": 66,
+    "stamina": 48,
+    "guts": 49
+   },
+   "moves": [
+    "grenade-shot",
+    "dynamite-shoot",
+    "dokonjou-bat",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Chaki Shiito",
+   "description": "Practises in car parks at night, using headlights for floodlights."
+  },
+  {
+   "id": "leroy-rhymes",
+   "name": "Leroy Rhymes",
+   "short": "Leroy",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 140,
+   "tp": 140,
+   "stats": {
+    "kick": 47,
+    "body": 48,
+    "control": 52,
+    "guard": 53,
+    "speed": 46,
+    "stamina": 45,
+    "guts": 48
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "tatsumaki-senpuu",
+    "run-ball-run",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kanou Rinsuke",
+   "description": "Trains his balance by practising on a unicycle he got in primary school."
+  },
+  {
+   "id": "mildford-scott",
+   "name": "Mildford Scott",
+   "short": "Mildford",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 109,
+   "stats": {
+    "kick": 44,
+    "body": 52,
+    "control": 47,
+    "guard": 50,
+    "speed": 55,
+    "stamina": 52,
+    "guts": 44
+   },
+   "moves": [
+    "super-scan-df",
+    "magic",
+    "fake-ball",
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tachino Seiichi",
+   "description": "Keeps up-to-date on world football using football sites and magazines."
+  },
+  {
+   "id": "lou-edmonds",
+   "name": "Lou Edmonds",
+   "short": "Lou",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 143,
+   "tp": 124,
+   "stats": {
+    "kick": 60,
+    "body": 68,
+    "control": 45,
+    "guard": 51,
+    "speed": 44,
+    "stamina": 54,
+    "guts": 71
+   },
+   "moves": [
+    "dash-accel",
+    "spinning-shoot",
+    "heat-tackle",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Idemae You",
+   "description": "Always seen running around helping out at his parents' restaurant."
+  },
+  {
+   "id": "greg-bernard",
+   "name": "Greg Bernard",
+   "short": "Greg",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 165,
+   "stats": {
+    "kick": 49,
+    "body": 55,
+    "control": 63,
+    "guard": 51,
+    "speed": 51,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "snake-shot",
+    "super-scan-of",
+    "zigzag-spark",
+    "patriot-shoot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mizuguchi Seiji",
+   "description": "He plays so robotically that he was given the nickname \"Cyborg\"."
+  },
+  {
+   "id": "cameron-morefield",
+   "name": "Cameron Morefield",
+   "short": "Cameron",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 129,
+   "stats": {
+    "kick": 59,
+    "body": 56,
+    "control": 58,
+    "guard": 52,
+    "speed": 48,
+    "stamina": 52,
+    "guts": 72
+   },
+   "moves": [
+    "shippuu-dash",
+    "spinning-shoot",
+    "dynamite-shoot",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yasunaga Hidetsugu",
+   "description": "Turned to football after hurting his wrist playing semi-pro tennis."
+  },
+  {
+   "id": "peter-banker",
+   "name": "Peter Banker",
+   "short": "Peter",
+   "number": 12,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 138,
+   "tp": 122,
+   "stats": {
+    "kick": 50,
+    "body": 45,
+    "control": 51,
+    "guard": 63,
+    "speed": 50,
+    "stamina": 45,
+    "guts": 75
+   },
+   "moves": [
+    "spinning-shoot",
+    "suisei-shoot",
+    "phantom-shoot",
+    "hyakuretsu-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tsutsumi Kouji",
+   "description": "Believes his tactics - once perfected - revolutionise football."
+  },
+  {
+   "id": "saul-tunk",
+   "name": "Saul Tunk",
+   "short": "Saul",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 145,
+   "tp": 109,
+   "stats": {
+    "kick": 55,
+    "body": 53,
+    "control": 44,
+    "guard": 62,
+    "speed": 55,
+    "stamina": 47,
+    "guts": 54
+   },
+   "moves": [
+    "spiral-shot",
+    "noroi",
+    "judge-through",
+    "tarzan-kick"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tomooka Naruto",
+   "description": "Not a team player, but good at smoothing over ruffled feathers."
+  },
+  {
+   "id": "paul-caperock",
+   "name": "Paul Caperock",
+   "short": "Paul",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 140,
+   "tp": 113,
+   "stats": {
+    "kick": 54,
+    "body": 50,
+    "control": 46,
+    "guard": 45,
+    "speed": 58,
+    "stamina": 48,
+    "guts": 53
+   },
+   "moves": [
+    "killer-slide",
+    "toughness-block",
+    "blade-attack",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ishizaki Mitsuru",
+   "description": "A real football maniac. He eats, sleeps and breathes football."
+  },
+  {
+   "id": "julius-molehill",
+   "name": "Julius Molehill",
+   "short": "Julius",
+   "number": 16,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 123,
+   "tp": 113,
+   "stats": {
+    "kick": 53,
+    "body": 48,
+    "control": 68,
+    "guard": 48,
+    "speed": 55,
+    "stamina": 49,
+    "guts": 46
+   },
+   "moves": [
+    "rolling-kick",
+    "shippuu-dash",
+    "zanzou",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kozuka Yuusuke",
+   "description": "Has a complex about being small and compensates with a big personality."
+  }
+ ]
+}

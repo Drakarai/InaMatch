@@ -1,0 +1,379 @@
+{
+ "id": "ie2-epsilon-kai",
+ "season": "ie2",
+ "name": "Epsilon Kai",
+ "short": "EPK",
+ "colors": {
+  "shirt": "#3a2a6a",
+  "shorts": "#1a1a2a",
+  "gkShirt": "#c83a3a",
+  "accent": "#4a3a8a"
+ },
+ "formation": "f-epsilon",
+ "players": [
+  {
+   "id": "zeke-valanche",
+   "name": "Zeke Valanche",
+   "short": "Zeke",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 180,
+   "tp": 72,
+   "stats": {
+    "kick": 69,
+    "body": 64,
+    "control": 52,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "ganymede-proton",
+    "gaia-break",
+    "wormhole"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Segata Ryuuichirou",
+   "description": "Has an unshakeable belief in his own abilities and blames others when things go wrong."
+  },
+  {
+   "id": "craven-kenville",
+   "name": "Craven Kenville",
+   "short": "Craven",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 173,
+   "tp": 69,
+   "stats": {
+    "kick": 59,
+    "body": 53,
+    "control": 64,
+    "guard": 52,
+    "speed": 64,
+    "stamina": 70,
+    "guts": 60
+   },
+   "moves": [
+    "heavy-baby",
+    "warp-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hiruma Kenichi",
+   "description": "He kowtows to strong players, but bullies the weak."
+  },
+  {
+   "id": "anna-mole",
+   "name": "Anna Mole",
+   "short": "Anna",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 76,
+   "stats": {
+    "kick": 71,
+    "body": 59,
+    "control": 73,
+    "guard": 56,
+    "speed": 76,
+    "stamina": 62,
+    "guts": 58
+   },
+   "moves": [
+    "photon-flash",
+    "warp-drive"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Morino Rumi",
+   "description": "She trains by using an oxygen tank to improve the strength of her lungs."
+  },
+  {
+   "id": "kayson-wattever",
+   "name": "Kayson Wattever",
+   "short": "Kayson",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 162,
+   "tp": 84,
+   "stats": {
+    "kick": 67,
+    "body": 65,
+    "control": 68,
+    "guard": 60,
+    "speed": 68,
+    "stamina": 70,
+    "guts": 64
+   },
+   "moves": [
+    "heavy-baby",
+    "asteroid-belt"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Murata Keisuke",
+   "description": "This obtuse character chooses not to believe a word anyone tells him."
+  },
+  {
+   "id": "mike-tytan",
+   "name": "Mike Tytan",
+   "short": "Mike",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 77,
+   "stats": {
+    "kick": 70,
+    "body": 64,
+    "control": 54,
+    "guard": 52,
+    "speed": 60,
+    "stamina": 78,
+    "guts": 74
+   },
+   "moves": [
+    "heavy-baby",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tanba Taiji",
+   "description": "An unstoppable man mountain who crushes anything in his path."
+  },
+  {
+   "id": "dave-quagmire",
+   "name": "Dave Quagmire",
+   "short": "Quagmire",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 195,
+   "tp": 72,
+   "stats": {
+    "kick": 80,
+    "body": 70,
+    "control": 57,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 69,
+    "guts": 54
+   },
+   "moves": [
+    "wormhole",
+    "drill-smasher",
+    "gungnir"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Saginuma Osamu",
+   "description": "He's only happy when everything is going precisely according to plan."
+  },
+  {
+   "id": "mads-hatter",
+   "name": "Mads Hatter",
+   "short": "Mads",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 93,
+   "stats": {
+    "kick": 63,
+    "body": 56,
+    "control": 63,
+    "guard": 52,
+    "speed": 60,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "meteor-shower",
+    "photon-flash"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hatou Torahiko",
+   "description": "A rough lad who's prone to exploding on and off the pitch."
+  },
+  {
+   "id": "karen-ripton",
+   "name": "Karen Ripton",
+   "short": "Karen",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 85,
+   "stats": {
+    "kick": 59,
+    "body": 71,
+    "control": 61,
+    "guard": 56,
+    "speed": 72,
+    "stamina": 53,
+    "guts": 62
+   },
+   "moves": [
+    "meteor-shower",
+    "astro-break"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kuri Fuuko",
+   "description": "She always uses opponents' blind spots to attack without warning."
+  },
+  {
+   "id": "yakker-plantsworm",
+   "name": "Yakker Plantsworm",
+   "short": "Yakker",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 160,
+   "tp": 69,
+   "stats": {
+    "kick": 53,
+    "body": 68,
+    "control": 75,
+    "guard": 63,
+    "speed": 71,
+    "stamina": 61,
+    "guts": 68
+   },
+   "moves": [
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mureta Hachirou",
+   "description": "He likes to speak to plants, but doesn't listen to anything his team says."
+  },
+  {
+   "id": "ronny-metcalf",
+   "name": "Ronny Metcalf",
+   "short": "Ronny",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 72,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 71,
+    "guard": 63,
+    "speed": 67,
+    "stamina": 65,
+    "guts": 64
+   },
+   "moves": [
+    "meteor-shower",
+    "gaia-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mutou Satoshi",
+   "description": "He gets past opponents by hassling them until they make mistakes."
+  },
+  {
+   "id": "carrie-mccuring",
+   "name": "Carrie McCuring",
+   "short": "Carrie",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 76,
+   "stats": {
+    "kick": 70,
+    "body": 58,
+    "control": 61,
+    "guard": 52,
+    "speed": 71,
+    "stamina": 53,
+    "guts": 53
+   },
+   "moves": [
+    "meteor-shower",
+    "gaia-break",
+    "asteroid-belt"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sumeragi Maki",
+   "description": "She looks cute at first glance, but that all changes if she doesn't get her way."
+  },
+  {
+   "id": "dave-quagmire-desarm-cc",
+   "name": "Dave Quagmire",
+   "short": "Quagmire",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 195,
+   "tp": 72,
+   "stats": {
+    "kick": 80,
+    "body": 70,
+    "control": 57,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 69,
+    "guts": 54
+   },
+   "moves": [
+    "ganymede-proton",
+    "gungnir",
+    "illusion-ball",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Saginuma Osamu",
+   "description": "He's only happy when everything is going precisely according to plan."
+  }
+ ]
+}

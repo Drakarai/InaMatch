@@ -1,0 +1,338 @@
+{
+ "id": "ie2-jukai-team",
+ "season": "ie2",
+ "name": "Mar de Árboles",
+ "short": "JUK",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c8202f"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "cam-mando",
+   "name": "Cam Mando",
+   "short": "Cam",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 213,
+   "tp": 197,
+   "stats": {
+    "kick": 76,
+    "body": 74,
+    "control": 72,
+    "guard": 78,
+    "speed": 68,
+    "stamina": 77,
+    "guts": 68
+   },
+   "moves": [
+    "gigant-wall",
+    "wild-claw"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bunkou Susumu",
+   "description": "The Forest Team's formidable commander is well known for his survival tactics."
+  },
+  {
+   "id": "harry-boufante",
+   "name": "Harry Boufante",
+   "short": "Harry",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 193,
+   "stats": {
+    "kick": 79,
+    "body": 79,
+    "control": 72,
+    "guard": 79,
+    "speed": 76,
+    "stamina": 71,
+    "guts": 79
+   },
+   "moves": [
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Toufu Nobiru",
+   "description": "The Forest Team's trend setter is justly proud of his flowing locks."
+  },
+  {
+   "id": "todd-stuhl",
+   "name": "Todd Stuhl",
+   "short": "Todd",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 185,
+   "stats": {
+    "kick": 76,
+    "body": 68,
+    "control": 69,
+    "guard": 77,
+    "speed": 78,
+    "stamina": 73,
+    "guts": 72
+   },
+   "moves": [
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Suta Agaru",
+   "description": "A greedy-guts who can't get enough of those sautéed woodland mushrooms."
+  },
+  {
+   "id": "aspen-blewit",
+   "name": "Aspen Blewit",
+   "short": "Aspen",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 211,
+   "tp": 169,
+   "stats": {
+    "kick": 70,
+    "body": 72,
+    "control": 71,
+    "guard": 79,
+    "speed": 76,
+    "stamina": 75,
+    "guts": 70
+   },
+   "moves": [
+    "cyclone",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shayasu Yoruyuki",
+   "description": "The team brainbox, he was fiercely opposed to the team's expedition from the start."
+  },
+  {
+   "id": "marismus-oregon",
+   "name": "Marismus Oregon",
+   "short": "Marismus",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 184,
+   "stats": {
+    "kick": 73,
+    "body": 68,
+    "control": 68,
+    "guard": 79,
+    "speed": 68,
+    "stamina": 75,
+    "guts": 79
+   },
+   "moves": [
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shimomaru Sun",
+   "description": "A fearsome player, but beneath that tough exterior is a big blubbing softy."
+  },
+  {
+   "id": "scaber-enoki",
+   "name": "Scaber Enoki",
+   "short": "Scaber",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 191,
+   "tp": 197,
+   "stats": {
+    "kick": 79,
+    "body": 76,
+    "control": 69,
+    "guard": 76,
+    "speed": 74,
+    "stamina": 76,
+    "guts": 78
+   },
+   "moves": [
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Manda Sontoku",
+   "description": "The team's motivator went on a faddish mushroom diet and now has no get-up-and-go."
+  },
+  {
+   "id": "garjan-cypress",
+   "name": "Garjan Cypress",
+   "short": "Garjan",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 181,
+   "stats": {
+    "kick": 69,
+    "body": 79,
+    "control": 72,
+    "guard": 78,
+    "speed": 78,
+    "stamina": 78,
+    "guts": 79
+   },
+   "moves": [
+    "tatsumaki-dokugiri"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Furunishi Shigeru",
+   "description": "This lazy, laid-back loafer has a tree growing out of his head."
+  },
+  {
+   "id": "judas-deathcap",
+   "name": "Judas Deathcap",
+   "short": "Judas",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 198,
+   "tp": 169,
+   "stats": {
+    "kick": 70,
+    "body": 79,
+    "control": 70,
+    "guard": 71,
+    "speed": 79,
+    "stamina": 79,
+    "guts": 68
+   },
+   "moves": [
+    "dokugiri-no-jutsu",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Asaino Saiji",
+   "description": "This foolish young chap has a mushroom on his head he likes to call \"Max\"."
+  },
+  {
+   "id": "chase-faithfull",
+   "name": "Chase Faithfull",
+   "short": "Chase",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 189,
+   "tp": 172,
+   "stats": {
+    "kick": 72,
+    "body": 79,
+    "control": 79,
+    "guard": 76,
+    "speed": 79,
+    "stamina": 73,
+    "guts": 70
+   },
+   "moves": [
+    "dragon-ground",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurashibe Reiichi",
+   "description": "The team's deputy faithfully follows his leader."
+  },
+  {
+   "id": "chris-ticker",
+   "name": "Chris Ticker",
+   "short": "Chris",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 180,
+   "stats": {
+    "kick": 72,
+    "body": 77,
+    "control": 79,
+    "guard": 70,
+    "speed": 79,
+    "stamina": 77,
+    "guts": 69
+   },
+   "moves": [
+    "hawk-shot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Biku Suguru",
+   "description": "The team's drill sergeant. Can he really have eyes made from a digital watch?"
+  },
+  {
+   "id": "roy-daring",
+   "name": "Roy Daring",
+   "short": "Roy",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 217,
+   "tp": 197,
+   "stats": {
+    "kick": 79,
+    "body": 68,
+    "control": 79,
+    "guard": 70,
+    "speed": 70,
+    "stamina": 70,
+    "guts": 69
+   },
+   "moves": [
+    "bunshin-shoot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shiki Yuuji",
+   "description": "A good-looking guy, but there's no one to admire him in the deep, dark forest."
+  }
+ ]
+}

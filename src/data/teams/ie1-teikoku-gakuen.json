@@ -1,0 +1,527 @@
+{
+ "id": "ie1-teikoku-gakuen",
+ "season": "ie1",
+ "name": "Royal Academy",
+ "short": "TEI",
+ "colors": {
+  "shirt": "#5a4a8a",
+  "shorts": "#3a3a4a",
+  "gkShirt": "#c8a020",
+  "accent": "#4a3a7a"
+ },
+ "formation": "f-death-zone",
+ "players": [
+  {
+   "id": "joseph-king",
+   "name": "Joseph King",
+   "short": "Joseph",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 153,
+   "stats": {
+    "kick": 72,
+    "body": 75,
+    "control": 69,
+    "guard": 72,
+    "speed": 55,
+    "stamina": 74,
+    "guts": 60
+   },
+   "moves": [
+    "power-shield",
+    "full-power-shield",
+    "hawk-shot",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Genda Koujirou",
+   "description": "The King of Keepers. There is no angle that he can not cover."
+  },
+  {
+   "id": "peter-drent",
+   "name": "Peter Drent",
+   "short": "Peter",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 144,
+   "stats": {
+    "kick": 71,
+    "body": 54,
+    "control": 67,
+    "guard": 64,
+    "speed": 44,
+    "stamina": 59,
+    "guts": 62
+   },
+   "moves": [
+    "illusion-ball",
+    "earthquake",
+    "reflect-buster",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oono Densuke",
+   "description": "This young giant is capable of ground-shaking skills."
+  },
+  {
+   "id": "ben-simmons",
+   "name": "Ben Simmons",
+   "short": "Ben",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 191,
+   "tp": 169,
+   "stats": {
+    "kick": 68,
+    "body": 63,
+    "control": 72,
+    "guard": 60,
+    "speed": 69,
+    "stamina": 70,
+    "guts": 69
+   },
+   "moves": [
+    "judge-through",
+    "cyclone",
+    "illusion-ball",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Banjou Kazumichi",
+   "description": "A mad dog capable of pacifying teams with a range of techniques."
+  },
+  {
+   "id": "gus-martin",
+   "name": "Gus Martin",
+   "short": "Gus",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 189,
+   "tp": 149,
+   "stats": {
+    "kick": 76,
+    "body": 67,
+    "control": 73,
+    "guard": 67,
+    "speed": 63,
+    "stamina": 66,
+    "guts": 63
+   },
+   "moves": [
+    "killer-slide",
+    "bunshin-feint",
+    "super-scan-df",
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gojou Masaru",
+   "description": "His history and motives are unclear to all but himself."
+  },
+  {
+   "id": "bob-carlton",
+   "name": "Bob Carlton",
+   "short": "Bob",
+   "number": 12,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 170,
+   "stats": {
+    "kick": 58,
+    "body": 55,
+    "control": 63,
+    "guard": 54,
+    "speed": 45,
+    "stamina": 62,
+    "guts": 70
+   },
+   "moves": [
+    "earthquake",
+    "dash-accel",
+    "patriot-shoot",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hyoudou Yuuhei",
+   "description": "Physically strong and fast. He can close down attackers in a second."
+  },
+  {
+   "id": "jude-sharp",
+   "name": "Jude Sharp",
+   "short": "Jude",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 180,
+   "stats": {
+    "kick": 63,
+    "body": 79,
+    "control": 79,
+    "guard": 79,
+    "speed": 76,
+    "stamina": 76,
+    "guts": 68
+   },
+   "moves": [
+    "illusion-ball",
+    "spinning-cut",
+    "twin-boost",
+    "inazuma-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kidou Yuuto",
+   "description": "A talented playmaker with the finest skill and techniques."
+  },
+  {
+   "id": "alan-master",
+   "name": "Alan Master",
+   "short": "Alan",
+   "number": 4,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 168,
+   "stats": {
+    "kick": 64,
+    "body": 64,
+    "control": 72,
+    "guard": 69,
+    "speed": 64,
+    "stamina": 62,
+    "guts": 66
+   },
+   "moves": [
+    "killer-slide",
+    "illusion-ball",
+    "dynamite-shoot",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Narukami Kenya",
+   "description": "The rhythm from his headphones is the secret to his strength."
+  },
+  {
+   "id": "herman-waldon",
+   "name": "Herman Waldon",
+   "short": "Herman",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 189,
+   "tp": 188,
+   "stats": {
+    "kick": 76,
+    "body": 64,
+    "control": 72,
+    "guard": 79,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 69
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "death-zone",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Henmi Wataru",
+   "description": "Has great pride in the academy and looks down on all other teams."
+  },
+  {
+   "id": "john-bloom",
+   "name": "John Bloom",
+   "short": "John",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 153,
+   "stats": {
+    "kick": 61,
+    "body": 71,
+    "control": 67,
+    "guard": 70,
+    "speed": 71,
+    "stamina": 54,
+    "guts": 62
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "hyakuretsu-shot",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sakiyama Shuuji",
+   "description": "A naturally rough player. He runs wild on the pitch."
+  },
+  {
+   "id": "daniel-hatch",
+   "name": "Daniel Hatch",
+   "short": "Daniel",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 184,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 69,
+    "control": 68,
+    "guard": 68,
+    "speed": 78,
+    "stamina": 61,
+    "guts": 64
+   },
+   "moves": [
+    "killer-slide",
+    "hyakuretsu-shot",
+    "death-zone",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jimon Daiki",
+   "description": "The Academy's ace striker. His long limbs are loaded weapons."
+  },
+  {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 193,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 78,
+    "guard": 66,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 71
+   },
+   "moves": [
+    "killer-slide",
+    "bunshin-feint",
+    "koutei-penguin-2gou",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Supports the team as a strategist, coordinating the other players."
+  },
+  {
+   "id": "derek-swing",
+   "name": "Derek Swing",
+   "short": "Derek",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 184,
+   "stats": {
+    "kick": 70,
+    "body": 56,
+    "control": 76,
+    "guard": 59,
+    "speed": 69,
+    "stamina": 60,
+    "guts": 61
+   },
+   "moves": [
+    "bunshin-feint",
+    "freeze-shot",
+    "killer-slide",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Doumen Shuuichirou",
+   "description": "Low on power but a quick thinker. Good at outwitting the opposition."
+  },
+  {
+   "id": "cliff-tomlinson",
+   "name": "Cliff Tomlinson",
+   "short": "Cliff",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 157,
+   "stats": {
+    "kick": 53,
+    "body": 60,
+    "control": 52,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 52,
+    "guts": 53
+   },
+   "moves": [
+    "grenade-shot",
+    "killer-slide",
+    "judge-through",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ena Kazuki",
+   "description": "Despite not making the team regularly, his ability is fine."
+  },
+  {
+   "id": "jim-lawrenson",
+   "name": "Jim Lawrenson",
+   "short": "Jim",
+   "number": 14,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 137,
+   "stats": {
+    "kick": 54,
+    "body": 57,
+    "control": 57,
+    "guard": 63,
+    "speed": 53,
+    "stamina": 56,
+    "guts": 55
+   },
+   "moves": [
+    "judge-through",
+    "spiral-shot",
+    "hyakuretsu-shot",
+    "hawk-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mukumoto Kei",
+   "description": "Being small does not affect his ball keeping skills."
+  },
+  {
+   "id": "barry-potts",
+   "name": "Barry Potts",
+   "short": "Barry",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 136,
+   "stats": {
+    "kick": 53,
+    "body": 52,
+    "control": 54,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 60,
+    "guts": 44
+   },
+   "moves": [
+    "killer-slide",
+    "tatsumaki-senpuu",
+    "super-armadillo",
+    "kung-fu-head"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shibuki Shoudai",
+   "description": "Making complicated moves look easy is his forte."
+  },
+  {
+   "id": "steve-ingham",
+   "name": "Steve Ingham",
+   "short": "Steve",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 169,
+   "tp": 133,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 57,
+    "guard": 52,
+    "speed": 47,
+    "stamina": 54,
+    "guts": 46
+   },
+   "moves": [
+    "kamikakushi",
+    "onryou",
+    "hawk-shot",
+    "suisei-shoot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ookusu Seiji",
+   "description": "He fires the team up when the heat is on."
+  }
+ ]
+}

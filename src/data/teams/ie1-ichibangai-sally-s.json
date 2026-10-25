@@ -1,0 +1,526 @@
+{
+ "id": "ie1-ichibangai-sally-s",
+ "season": "ie1",
+ "name": "Sallys",
+ "short": "ISS",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-death-zone",
+ "players": [
+  {
+   "id": "suzanne-yuma",
+   "name": "Suzanne Yuma",
+   "short": "Suzanne",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 80,
+   "stats": {
+    "kick": 44,
+    "body": 44,
+    "control": 43,
+    "guard": 56,
+    "speed": 49,
+    "stamina": 46,
+    "guts": 45
+   },
+   "moves": [
+    "toughness-block",
+    "makiwari-chop",
+    "bakuretsu-punch",
+    "shikofumi"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yaono Sumiko",
+   "description": "A greengrocing gran who's good at keeping vegetables and footballs."
+  },
+  {
+   "id": "t-fielding-media",
+   "name": "T. Fielding ({{Media",
+   "short": "T.",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 121,
+   "tp": 81,
+   "stats": {
+    "kick": 44,
+    "body": 49,
+    "control": 48,
+    "guard": 51,
+    "speed": 48,
+    "stamina": 44,
+    "guts": 40
+   },
+   "moves": [
+    "noroi",
+    "zanzou",
+    "kage-nui",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Fudeyama Tome",
+   "description": "This stationery store lady is sharp as a pencil and hard as nails."
+  },
+  {
+   "id": "a-lovely-media",
+   "name": "A. Lovely ({{Media",
+   "short": "A.",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 138,
+   "tp": 85,
+   "stats": {
+    "kick": 49,
+    "body": 44,
+    "control": 44,
+    "guard": 44,
+    "speed": 44,
+    "stamina": 51,
+    "guts": 44
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "tatsumaki-senpuu",
+    "illusion-ball",
+    "tsuchi-daruma"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ootama Konomi",
+   "description": "She always treats football fans to extra helpings at her restaurant."
+  },
+  {
+   "id": "louis-hillside",
+   "name": "Louis Hillside",
+   "short": "Louis",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 72,
+   "stats": {
+    "kick": 60,
+    "body": 52,
+    "control": 51,
+    "guard": 41,
+    "speed": 41,
+    "stamina": 48,
+    "guts": 49
+   },
+   "moves": [
+    "shikofumi",
+    "horn-train",
+    "earthquake",
+    "mogura-feint"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Honemaru Hitoshi",
+   "description": "Has thumbs like hammers after years as a chiropractor."
+  },
+  {
+   "id": "ness-sheldon",
+   "name": "Ness Sheldon",
+   "short": "Ness",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 127,
+   "tp": 84,
+   "stats": {
+    "kick": 42,
+    "body": 48,
+    "control": 45,
+    "guard": 53,
+    "speed": 42,
+    "stamina": 40,
+    "guts": 43
+   },
+   "moves": [
+    "shikofumi",
+    "killer-blade",
+    "makiwari-chop",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shittou Nao",
+   "description": "An experienced doctor whose only flaw is a lack of self-confidence."
+  },
+  {
+   "id": "ian-stager",
+   "name": "Ian Stager",
+   "short": "Ian",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 81,
+   "stats": {
+    "kick": 40,
+    "body": 49,
+    "control": 44,
+    "guard": 51,
+    "speed": 49,
+    "stamina": 50,
+    "guts": 51
+   },
+   "moves": [
+    "kamikakushi",
+    "fake-ball",
+    "dokonjou-bat",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ebisu Masayoshi",
+   "description": "He loves the theatre so much that he never misses the front row."
+  },
+  {
+   "id": "lizzy-squirrel",
+   "name": "Lizzy Squirrel",
+   "short": "Lizzy",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 137,
+   "stats": {
+    "kick": 43,
+    "body": 44,
+    "control": 50,
+    "guard": 45,
+    "speed": 47,
+    "stamina": 45,
+    "guts": 44
+   },
+   "moves": [
+    "dash-accel",
+    "magic",
+    "killer-slide",
+    "kung-fu-head"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tachimi Ritsuko",
+   "description": "This bookshop clerk hates window shoppers, browsers and ageism."
+  },
+  {
+   "id": "kippy-jones",
+   "name": "Kippy Jones",
+   "short": "Kippy",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 129,
+   "stats": {
+    "kick": 48,
+    "body": 51,
+    "control": 47,
+    "guard": 51,
+    "speed": 43,
+    "stamina": 42,
+    "guts": 51
+   },
+   "moves": [
+    "killer-slide",
+    "shippuu-dash",
+    "fake-ball",
+    "tarzan-kick"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Misemachi Yasunori",
+   "description": "Spends more time playing chess than at the local chamber of commerce."
+  },
+  {
+   "id": "f-riversong-media",
+   "name": "F. Riversong ({{Media",
+   "short": "F.",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 121,
+   "tp": 61,
+   "stats": {
+    "kick": 40,
+    "body": 50,
+    "control": 50,
+    "guard": 48,
+    "speed": 40,
+    "stamina": 42,
+    "guts": 47
+   },
+   "moves": [
+    "grenade-shot",
+    "dash-accel",
+    "dynamite-shoot",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Utagawa Makoto",
+   "description": "A talented busker with a huge following of stray dog \"fans\"."
+  },
+  {
+   "id": "samantha-moonlight",
+   "name": "Samantha Moonlight",
+   "short": "Samantha",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 123,
+   "tp": 68,
+   "stats": {
+    "kick": 52,
+    "body": 43,
+    "control": 42,
+    "guard": 48,
+    "speed": 41,
+    "stamina": 44,
+    "guts": 50
+   },
+   "moves": [
+    "suisei-shoot",
+    "cross-drive",
+    "heat-tackle",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kisaragi Sarina"
+  },
+  {
+   "id": "eddie-prentice",
+   "name": "Eddie Prentice",
+   "short": "Eddie",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 73,
+   "stats": {
+    "kick": 46,
+    "body": 46,
+    "control": 56,
+    "guard": 44,
+    "speed": 42,
+    "stamina": 48,
+    "guts": 49
+   },
+   "moves": [
+    "dynamite-shoot",
+    "heat-tackle",
+    "twin-boost",
+    "quick-draw"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Purogure Iwao",
+   "description": "A CD shop owner who loves to talk about music rather than sell CDs."
+  },
+  {
+   "id": "mitch-sandstone",
+   "name": "Mitch Sandstone",
+   "short": "Mitch",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 61,
+   "stats": {
+    "kick": 54,
+    "body": 58,
+    "control": 41,
+    "guard": 48,
+    "speed": 45,
+    "stamina": 46,
+    "guts": 51
+   },
+   "moves": [
+    "grenade-shot",
+    "dragon-crash",
+    "dokonjou-bat",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mikawaya Saburou",
+   "description": "A pub landlord who has a bit of trouble keeping track of his stock."
+  },
+  {
+   "id": "alf-holmes",
+   "name": "Alf Holmes",
+   "short": "Alf",
+   "number": 12,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 81,
+   "tp": 174,
+   "stats": {
+    "kick": 34,
+    "body": 28,
+    "control": 34,
+    "guard": 64,
+    "speed": 39,
+    "stamina": 31,
+    "guts": 77
+   },
+   "moves": [
+    "grenade-shot",
+    "dash-accel",
+    "freeze-shot",
+    "horn-train"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Iemori Yuuji",
+   "description": "At home, he adores his family, but secretly he prefers football."
+  },
+  {
+   "id": "fred-crumb",
+   "name": "Fred Crumb",
+   "short": "Fred",
+   "number": 14,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 121,
+   "tp": 72,
+   "stats": {
+    "kick": 40,
+    "body": 44,
+    "control": 44,
+    "guard": 43,
+    "speed": 44,
+    "stamina": 48,
+    "guts": 45
+   },
+   "moves": [
+    "quick-draw",
+    "tatsumaki-senpuu",
+    "ushiro-no-shoumen",
+    "tsuchi-daruma"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ikuji Kamao",
+   "description": "His wife got angry when he baked a football-shaped loaf at his bakery."
+  },
+  {
+   "id": "doug-baughan",
+   "name": "Doug Baughan",
+   "short": "Doug",
+   "number": 15,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 68,
+   "stats": {
+    "kick": 45,
+    "body": 41,
+    "control": 46,
+    "guard": 48,
+    "speed": 40,
+    "stamina": 51,
+    "guts": 44
+   },
+   "moves": [
+    "grenade-shot",
+    "kung-fu-head",
+    "patriot-shoot",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Eji Nobuya",
+   "description": "A keen inventor who once made shoes with wings. (They flew off.)"
+  },
+  {
+   "id": "pip-daltry",
+   "name": "Pip Daltry",
+   "short": "Pip",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 114,
+   "tp": 60,
+   "stats": {
+    "kick": 44,
+    "body": 45,
+    "control": 49,
+    "guard": 51,
+    "speed": 49,
+    "stamina": 40,
+    "guts": 43
+   },
+   "moves": [
+    "coil-turn",
+    "tamanori-pierrot",
+    "kogarashi",
+    "fake-ball"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tanabe Sayaka",
+   "description": "Only on the team to make up the numbers. Oblivious to the rules."
+  }
+ ]
+}

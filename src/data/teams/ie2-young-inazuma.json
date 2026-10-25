@@ -1,0 +1,389 @@
+{
+ "id": "ie2-young-inazuma",
+ "season": "ie2",
+ "name": "Jóvenes Inazuma",
+ "short": "YOU",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "seymour-hillman",
+   "name": "Seymour Hillman",
+   "short": "Seymour",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 215,
+   "tp": 185,
+   "stats": {
+    "kick": 70,
+    "body": 68,
+    "control": 64,
+    "guard": 71,
+    "speed": 68,
+    "stamina": 75,
+    "guts": 72
+   },
+   "moves": [
+    "god-hand",
+    "bakuretsu-punch",
+    "god-hand-triple"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hibiki Seigou",
+   "description": "A noodle shop owner and erstwhile leader of the Inazuma Eleven."
+  },
+  {
+   "id": "charles-island",
+   "name": "Charles Island",
+   "short": "Charles",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 215,
+   "tp": 172,
+   "stats": {
+    "kick": 71,
+    "body": 79,
+    "control": 71,
+    "guard": 68,
+    "speed": 69,
+    "stamina": 63,
+    "guts": 64
+   },
+   "moves": [
+    "cyclone",
+    "double-cyclone",
+    "dual-storm"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ukishima Kazuto",
+   "description": "Rumour has it that this mysterious older man is someone rather special."
+  },
+  {
+   "id": "garret-hairtown",
+   "name": "Garret Hairtown",
+   "short": "Garret",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 202,
+   "tp": 173,
+   "stats": {
+    "kick": 70,
+    "body": 65,
+    "control": 65,
+    "guard": 62,
+    "speed": 73,
+    "stamina": 60,
+    "guts": 71
+   },
+   "moves": [
+    "spinning-cut",
+    "honoo-no-kazamidori",
+    "cyclone",
+    "block-circus"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kamimura Kirito",
+   "description": "He believes that short back and sides is the only acceptable footballing haircut."
+  },
+  {
+   "id": "arthur-sweet",
+   "name": "Arthur Sweet",
+   "short": "Arthur",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 156,
+   "stats": {
+    "kick": 74,
+    "body": 75,
+    "control": 66,
+    "guard": 65,
+    "speed": 65,
+    "stamina": 68,
+    "guts": 61
+   },
+   "moves": [
+    "dragon-crash",
+    "the-wall",
+    "wyvern-crash"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aida Chikara",
+   "description": "A deeply dependable man who watches over the whole neighbourhood."
+  },
+  {
+   "id": "tyler-thomas",
+   "name": "Tyler Thomas",
+   "short": "Tyler",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 200,
+   "tp": 197,
+   "stats": {
+    "kick": 73,
+    "body": 72,
+    "control": 76,
+    "guard": 76,
+    "speed": 79,
+    "stamina": 72,
+    "guts": 70
+   },
+   "moves": [
+    "magic",
+    "super-scan-of",
+    "fake-bomber",
+    "tkachev-bomber"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Teira Tamotsu",
+   "description": "A bespoke tailor who believes in the power of fitted suits."
+  },
+  {
+   "id": "ian-suffolk",
+   "name": "Ian Suffolk",
+   "short": "Ian",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 209,
+   "tp": 172,
+   "stats": {
+    "kick": 71,
+    "body": 68,
+    "control": 70,
+    "guard": 69,
+    "speed": 77,
+    "stamina": 68,
+    "guts": 68
+   },
+   "moves": [
+    "honoo-no-kazamidori",
+    "heat-tackle",
+    "dokonjou-bat",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sugata Iwao",
+   "description": "A one-time wayward youth, he now doles out advice as a student guidance counsellor."
+  },
+  {
+   "id": "peter-mildred",
+   "name": "Peter Mildred",
+   "short": "Peter",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 215,
+   "tp": 184,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 69,
+    "guard": 70,
+    "speed": 74,
+    "stamina": 69,
+    "guts": 78
+   },
+   "moves": [
+    "blade-attack",
+    "zanzou",
+    "profile-zone",
+    "dual-storm"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Batora Manabu",
+   "description": "The Raimon family butler, he has looked after Nelly since she was a baby."
+  },
+  {
+   "id": "josh-nathaniel",
+   "name": "Josh Nathaniel",
+   "short": "Josh",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 209,
+   "tp": 172,
+   "stats": {
+    "kick": 64,
+    "body": 73,
+    "control": 73,
+    "guard": 75,
+    "speed": 71,
+    "stamina": 66,
+    "guts": 65
+   },
+   "moves": [
+    "zigzag-spark",
+    "judge-through",
+    "kumo-no-ito",
+    "oouchiwa"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nakama You",
+   "description": "He wants nothing more than a regular life and a regular job with a regular company."
+  },
+  {
+   "id": "edward-gladstone",
+   "name": "Edward Gladstone",
+   "short": "Edward",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 187,
+   "tp": 177,
+   "stats": {
+    "kick": 68,
+    "body": 66,
+    "control": 68,
+    "guard": 60,
+    "speed": 72,
+    "stamina": 63,
+    "guts": 69
+   },
+   "moves": [
+    "dragon-cannon",
+    "hitori-one-two",
+    "fake-bomber",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ikari Gengorou",
+   "description": "He is prone to sudden violent outbursts, so people give him a wide berth."
+  },
+  {
+   "id": "joseph-yosemite",
+   "name": "Joseph Yosemite",
+   "short": "Joseph",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 189,
+   "stats": {
+    "kick": 62,
+    "body": 72,
+    "control": 72,
+    "guard": 76,
+    "speed": 65,
+    "stamina": 62,
+    "guts": 65
+   },
+   "moves": [
+    "inazuma-otoshi",
+    "inazuma-break",
+    "moonsault",
+    "revolution-v"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tamiyama You",
+   "description": "He sings on street corners daily, so he's always a little hoarse."
+  },
+  {
+   "id": "constant-builder",
+   "name": "Constant Builder",
+   "short": "Constant",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 173,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 64,
+    "guard": 60,
+    "speed": 63,
+    "stamina": 77,
+    "guts": 64
+   },
+   "moves": [
+    "inazuma-1gou",
+    "heat-tackle",
+    "dragon-ground"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Biruda Kouichi",
+   "description": "A personal trainer whose body is as spry and limber as a man twenty years his junior."
+  },
+  {
+   "id": "david-evans",
+   "name": "David Evans",
+   "short": "David",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 45,
+    "body": 60,
+    "control": 40,
+    "guard": 80,
+    "speed": 45,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Endou Daisuke"
+  }
+ ]
+}

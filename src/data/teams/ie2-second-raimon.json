@@ -1,0 +1,555 @@
+{
+ "id": "ie2-second-raimon",
+ "season": "ie2",
+ "name": "Raimon II",
+ "short": "RAI",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#2a5fc0",
+  "gkShirt": "#e8892b",
+  "accent": "#d9a400"
+ },
+ "formation": "f-basic",
+ "players": [
+  {
+   "id": "mark-evans",
+   "name": "Mark Evans",
+   "short": "Mark",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 184,
+   "stats": {
+    "kick": 72,
+    "body": 72,
+    "control": 70,
+    "guard": 77,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 79
+   },
+   "moves": [
+    "god-hand",
+    "majin-the-hand",
+    "seigi-no-tekken",
+    "the-earth"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "No one burns with a fiercer passion for football than Raimon's fearless skipper."
+  },
+  {
+   "id": "jack-wallside",
+   "name": "Jack Wallside",
+   "short": "Jack",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 206,
+   "tp": 165,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 62,
+    "guard": 66,
+    "speed": 49,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "mogura-feint",
+    "rock-wall-dam"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kabeyama Heigorou",
+   "description": "This bulky full back forms a one-man defensive wall."
+  },
+  {
+   "id": "hurley-kane",
+   "name": "Hurley Kane",
+   "short": "Hurley",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 145,
+   "stats": {
+    "kick": 72,
+    "body": 70,
+    "control": 71,
+    "guard": 73,
+    "speed": 71,
+    "stamina": 71,
+    "guts": 65
+   },
+   "moves": [
+    "tsunami-boost",
+    "spinning-cut",
+    "whale-guard"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsunami Jousuke"
+  },
+  {
+   "id": "scott-banyan",
+   "name": "Scott Banyan",
+   "short": "Banyan",
+   "number": 6,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 198,
+   "tp": 160,
+   "stats": {
+    "kick": 63,
+    "body": 71,
+    "control": 64,
+    "guard": 64,
+    "speed": 65,
+    "stamina": 61,
+    "guts": 70
+   },
+   "moves": [
+    "senpuujin",
+    "tatsumaki-senpuu",
+    "ushiro-no-shoumen",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kogure Yuuya",
+   "description": "A snickering trickster. But does his slight frame conceal unexpected powers?"
+  },
+  {
+   "id": "scott-banyan-kogure-cc",
+   "name": "Scott Banyan",
+   "short": "Banyan",
+   "number": 6,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 198,
+   "tp": 160,
+   "stats": {
+    "kick": 63,
+    "body": 71,
+    "control": 64,
+    "guard": 64,
+    "speed": 65,
+    "stamina": 61,
+    "guts": 70
+   },
+   "moves": [
+    "kung-fu-head",
+    "reppuu-dash",
+    "dragon-cannon"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kogure Yuuya",
+   "description": "A snickering trickster. But does his slight frame conceal unexpected powers?"
+  },
+  {
+   "id": "victoria-vanguard",
+   "name": "Victoria Vanguard",
+   "short": "Victoria",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 176,
+   "stats": {
+    "kick": 70,
+    "body": 69,
+    "control": 78,
+    "guard": 66,
+    "speed": 52,
+    "stamina": 69,
+    "guts": 67
+   },
+   "moves": [
+    "the-tower",
+    "rainbow-loop",
+    "tkachev-bomber",
+    "perfect-tower"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zaizen Touko",
+   "description": "Under her guidance, any problem can be solved in no time at all."
+  },
+  {
+   "id": "jude-sharp",
+   "name": "Jude Sharp",
+   "short": "Jude",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 180,
+   "stats": {
+    "kick": 63,
+    "body": 79,
+    "control": 79,
+    "guard": 79,
+    "speed": 76,
+    "stamina": 76,
+    "guts": 68
+   },
+   "moves": [
+    "illusion-ball",
+    "twin-boost",
+    "inazuma-break",
+    "death-zone-2"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kidou Yuuto",
+   "description": "A gifted playmaker combining superlative skill and technique."
+  },
+  {
+   "id": "erik-eagle",
+   "name": "Erik Eagle",
+   "short": "Erik",
+   "number": 16,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 197,
+   "stats": {
+    "kick": 79,
+    "body": 60,
+    "control": 76,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 71
+   },
+   "moves": [
+    "spinning-shoot",
+    "illusion-ball",
+    "flame-dance",
+    "the-phoenix"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ichinose Kazuya",
+   "description": "This comeback kid is known as the midfield magician."
+  },
+  {
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 176,
+   "stats": {
+    "kick": 79,
+    "body": 66,
+    "control": 76,
+    "guard": 64,
+    "speed": 72,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "fire-tornado",
+    "heat-tackle",
+    "inazuma-otoshi",
+    "bakunetsu-storm"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gouenji Shuuya",
+   "description": "A cool transfer student renowned as a legendary striker."
+  },
+  {
+   "id": "suzette-hartland",
+   "name": "Suzette Hartland",
+   "short": "Suzette",
+   "number": 7,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 153,
+   "stats": {
+    "kick": 62,
+    "body": 65,
+    "control": 70,
+    "guard": 62,
+    "speed": 68,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "rose-splash",
+    "butterfly-dream",
+    "prima-donna",
+    "tsuutenkaku-shoot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Urabe Rica",
+   "description": "An Osaka girl striker whose ability is second to none."
+  },
+  {
+   "id": "shawn-froste-fubuki-cc",
+   "name": "Shawn Froste",
+   "short": "Froste",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 136,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 68,
+    "guard": 64,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 53
+   },
+   "moves": [
+    "eternal-blizzard",
+    "shippuu-dash",
+    "aurora-dribble",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+  },
+  {
+   "id": "darren-lachance",
+   "name": "Darren LaChance",
+   "short": "Darren",
+   "number": 5,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 217,
+   "tp": 157,
+   "stats": {
+    "kick": 60,
+    "body": 76,
+    "control": 66,
+    "guard": 79,
+    "speed": 56,
+    "stamina": 71,
+    "guts": 64
+   },
+   "moves": [
+    "god-hand-wood",
+    "oouchiwa",
+    "majin-the-hand-wood",
+    "mugen-the-hand"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tachimukai Yuuki",
+   "description": "This keeper has always looked up to Mark as a role model, but he's strong in his own right."
+  },
+  {
+   "id": "shawn-froste",
+   "name": "Shawn Froste",
+   "short": "Froste",
+   "number": 9,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 136,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 68,
+    "guard": 64,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 53
+   },
+   "moves": [
+    "ice-ground",
+    "coil-turn",
+    "cyclone",
+    "double-cyclone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+  },
+  {
+   "id": "shawn-froste-fubuki",
+   "name": "Shawn Froste",
+   "short": "Froste",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 136,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 68,
+    "guard": 64,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 53
+   },
+   "moves": [
+    "eternal-blizzard",
+    "aurora-dribble",
+    "ice-ground",
+    "wolf-legend"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+  },
+  {
+   "id": "william-glass",
+   "name": "William Glass",
+   "short": "William",
+   "number": 12,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 168,
+   "stats": {
+    "kick": 56,
+    "body": 51,
+    "control": 68,
+    "guard": 57,
+    "speed": 56,
+    "stamina": 53,
+    "guts": 60
+   },
+   "moves": [
+    "noroi",
+    "super-scan-of",
+    "god-break"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Megane Kakeru",
+   "description": "This bespectacled student is very popular. ...Or so he claims!"
+  },
+  {
+   "id": "bobby-shearer",
+   "name": "Bobby Shearer",
+   "short": "Bobby",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 202,
+   "tp": 176,
+   "stats": {
+    "kick": 76,
+    "body": 61,
+    "control": 72,
+    "guard": 76,
+    "speed": 60,
+    "stamina": 72,
+    "guts": 72
+   },
+   "moves": [
+    "killer-slide",
+    "volcano-cut",
+    "back-tornado",
+    "triple-boost"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Domon Asuka",
+   "description": "He used to live in the USA. He behaves flippantly, but has a good heart."
+  },
+  {
+   "id": "eugene-conwell",
+   "name": "Eugene Conwell",
+   "short": "Eugene",
+   "number": 76,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 145,
+   "tp": 140,
+   "stats": {
+    "kick": 56,
+    "body": 63,
+    "control": 56,
+    "guard": 53,
+    "speed": 60,
+    "stamina": 48,
+    "guts": 52
+   },
+   "moves": [
+    "abisegeri",
+    "freeze-shot",
+    "toumei-feint",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Nakatani",
+   "description": "He tends to get taken for a ride so he now has trouble trusting people."
+  }
+ ]
+}

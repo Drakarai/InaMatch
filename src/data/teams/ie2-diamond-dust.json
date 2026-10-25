@@ -1,0 +1,364 @@
+{
+ "id": "ie2-diamond-dust",
+ "season": "ie2",
+ "name": "Diamond",
+ "short": "DIA",
+ "colors": {
+  "shirt": "#a8d8f2",
+  "shorts": "#2a4a6a",
+  "gkShirt": "#f2f2f2",
+  "accent": "#4a8ac0"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "ben-north",
+   "name": "Ben North",
+   "short": "Ben",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 85,
+   "stats": {
+    "kick": 70,
+    "body": 68,
+    "control": 53,
+    "guard": 66,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "ice-block",
+    "cyclone",
+    "tornado-catch",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shirai Ikkaku",
+   "description": "A walking contradiction, he's hot-blooded but has an icy stare. His history's a mystery."
+  },
+  {
+   "id": "alan-downhill",
+   "name": "Alan Downhill",
+   "short": "Alan",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 80,
+   "stats": {
+    "kick": 70,
+    "body": 67,
+    "control": 56,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 52,
+    "guts": 69
+   },
+   "moves": [
+    "frozen-steal",
+    "super-scan-df",
+    "ice-block"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Touchi Shuuji",
+   "description": "He starts studying the moment he wakes up. His IQ must be over a thousand by now."
+  },
+  {
+   "id": "claire-lesnow",
+   "name": "Claire Lesnow",
+   "short": "Claire",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 84,
+   "stats": {
+    "kick": 65,
+    "body": 67,
+    "control": 60,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 68
+   },
+   "moves": [
+    "photon-flash",
+    "water-veil",
+    "wormhole",
+    "ice-block"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurakake Clara",
+   "description": "She delivers cutting lines with a smile. Still, she has her admirers..."
+  },
+  {
+   "id": "albert-denver",
+   "name": "Albert Denver",
+   "short": "Albert",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 195,
+   "tp": 96,
+   "stats": {
+    "kick": 69,
+    "body": 70,
+    "control": 52,
+    "guard": 64,
+    "speed": 53,
+    "stamina": 54,
+    "guts": 63
+   },
+   "moves": [
+    "planet-shield",
+    "roadroller-tackle",
+    "shikofumi",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gokukawa Kantarou",
+   "description": "A heinous sumo wrestler who throws players off the pitch for the ball."
+  },
+  {
+   "id": "ving-rice",
+   "name": "Ving Rice",
+   "short": "Ving",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 215,
+   "tp": 79,
+   "stats": {
+    "kick": 63,
+    "body": 71,
+    "control": 61,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "jumping-thunder",
+    "lightning-accel",
+    "spiral-shot",
+    "northern-impact"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurione Yuki",
+   "description": "Don't be fooled by her winning smile - she won't take any nonsense from anyone."
+  },
+  {
+   "id": "denzel-freezer",
+   "name": "Denzel Freezer",
+   "short": "Denzel",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 182,
+   "tp": 81,
+   "stats": {
+    "kick": 60,
+    "body": 64,
+    "control": 62,
+    "guard": 56,
+    "speed": 68,
+    "stamina": 68,
+    "guts": 63
+   },
+   "moves": [
+    "astro-break",
+    "divine-arrow",
+    "water-veil",
+    "supernova"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mikoori Rei",
+   "description": "He gets in trouble with his own team-mates for his cold behaviour."
+  },
+  {
+   "id": "lucy-hailstone",
+   "name": "Lucy Hailstone",
+   "short": "Lucy",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 213,
+   "tp": 93,
+   "stats": {
+    "kick": 58,
+    "body": 68,
+    "control": 63,
+    "guard": 60,
+    "speed": 70,
+    "stamina": 65,
+    "guts": 54
+   },
+   "moves": [
+    "frozen-steal",
+    "aurora-dribble",
+    "northern-impact"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Touchi Ai",
+   "description": "Arkew's sister. On the pitch, she follows her brother's plans to the letter."
+  },
+  {
+   "id": "brad-coldwater",
+   "name": "Brad Coldwater",
+   "short": "Brad",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 211,
+   "tp": 79,
+   "stats": {
+    "kick": 58,
+    "body": 69,
+    "control": 67,
+    "guard": 58,
+    "speed": 64,
+    "stamina": 60,
+    "guts": 62
+   },
+   "moves": [
+    "water-veil",
+    "spinning-cut",
+    "photon-flash",
+    "kung-fu-attack"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Toba Ren",
+   "description": "He has a complex about being so cute and plays wearing a mask."
+  },
+  {
+   "id": "dawson-foxx",
+   "name": "Dawson Foxx",
+   "short": "Dawson",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 198,
+   "tp": 84,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 62,
+    "guard": 59,
+    "speed": 69,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "water-veil",
+    "quick-draw",
+    "shippuu-dash",
+    "universe-blast"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kadomichi Tooru",
+   "description": "His feelings are written all over his face. His solution? To wear a mask at all times."
+  },
+  {
+   "id": "bernie-white",
+   "name": "Bernie White",
+   "short": "Bernie",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 189,
+   "tp": 77,
+   "stats": {
+    "kick": 59,
+    "body": 60,
+    "control": 56,
+    "guard": 55,
+    "speed": 68,
+    "stamina": 65,
+    "guts": 64
+   },
+   "moves": [
+    "astro-break",
+    "water-veil",
+    "coil-turn",
+    "northern-impact"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsumujino Touji",
+   "description": "Hyper-alert, he knows what his opponents are going to do before they do."
+  },
+  {
+   "id": "bryce-whitingale",
+   "name": "Bryce Whitingale",
+   "short": "Bryce",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 189,
+   "tp": 96,
+   "stats": {
+    "kick": 78,
+    "body": 65,
+    "control": 76,
+    "guard": 74,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 68
+   },
+   "moves": [
+    "northern-impact",
+    "water-veil",
+    "fire-blizzard"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Suzuno Fuusuke",
+   "description": "The captain of Diamond Dust. His calm exterior conceals a cold heart."
+  }
+ ]
+}

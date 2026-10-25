@@ -1,0 +1,516 @@
+{
+ "id": "ie3-the-great-horn",
+ "season": "ie3",
+ "name": "The Great Horn",
+ "short": "TGH",
+ "colors": {
+  "shirt": "#2a8a5a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#c87a20",
+  "accent": "#1f6a44"
+ },
+ "formation": "f-bread",
+ "players": [
+  {
+   "id": "zolani-baloi",
+   "name": "Zolani Baloi",
+   "short": "Baloi",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 153,
+   "tp": 108,
+   "stats": {
+    "kick": 71,
+    "body": 64,
+    "control": 52,
+    "guard": 63,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 67
+   },
+   "moves": [
+    "capoeira-snatch",
+    "bakuretsu-punch",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zolani Baloyi",
+   "description": "He thinks his life is so interesting that he'd like to make a documentary about it."
+  },
+  {
+   "id": "dakarai-furman",
+   "name": "Dakarai Furman",
+   "short": "Furman",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 148,
+   "tp": 89,
+   "stats": {
+    "kick": 62,
+    "body": 76,
+    "control": 45,
+    "guard": 54,
+    "speed": 66,
+    "stamina": 62,
+    "guts": 67
+   },
+   "moves": [
+    "rolling-slide",
+    "flame-dance",
+    "liar-shot",
+    "strike-samba"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Dingaa Figlan",
+   "description": "On the pitch, he entrusts his movements to instinct, and the rhythm of nature."
+  },
+  {
+   "id": "jake-fana",
+   "name": "Jake Fana",
+   "short": "Fana",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 154,
+   "tp": 75,
+   "stats": {
+    "kick": 63,
+    "body": 66,
+    "control": 45,
+    "guard": 40,
+    "speed": 58,
+    "stamina": 60,
+    "guts": 75
+   },
+   "moves": [
+    "rolling-slide",
+    "heat-tackle",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jake Fana"
+  },
+  {
+   "id": "masego-molelo",
+   "name": "Masego Molelo",
+   "short": "Molelo",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 153,
+   "tp": 88,
+   "stats": {
+    "kick": 66,
+    "body": 63,
+    "control": 48,
+    "guard": 56,
+    "speed": 75,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "heavy-baby",
+    "reppuu-dash",
+    "liar-shot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mzonge Ledwaba"
+  },
+  {
+   "id": "cassius-tobler",
+   "name": "Cassius Tobler",
+   "short": "Tobler",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 152,
+   "tp": 89,
+   "stats": {
+    "kick": 61,
+    "body": 68,
+    "control": 49,
+    "guard": 49,
+    "speed": 59,
+    "stamina": 71,
+    "guts": 78
+   },
+   "moves": [
+    "kumo-no-ito",
+    "horn-train",
+    "bakunetsu-screw",
+    "beast-fang"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Cassius Thobela",
+   "description": "He wants to find a way to combine both instinct and scientific reasoning."
+  },
+  {
+   "id": "anton-nortje",
+   "name": "Anton Nortje",
+   "short": "Nortje",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 91,
+   "stats": {
+    "kick": 59,
+    "body": 70,
+    "control": 49,
+    "guard": 51,
+    "speed": 57,
+    "stamina": 68,
+    "guts": 79
+   },
+   "moves": [
+    "super-armadillo",
+    "power-charge",
+    "heat-tackle",
+    "mad-express"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Athol Nortje",
+   "description": "His signature move is an all-or-nothing charge that he perfected playing rugby."
+  },
+  {
+   "id": "adam-marunga",
+   "name": "Adam Marunga",
+   "short": "Marunga",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 97,
+   "stats": {
+    "kick": 68,
+    "body": 79,
+    "control": 53,
+    "guard": 58,
+    "speed": 72,
+    "stamina": 50,
+    "guts": 60
+   },
+   "moves": [
+    "liar-shot",
+    "naraku-otoshi",
+    "ultra-moon",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Abari Malinga",
+   "description": "This player hopes that football can become a tool to end racial discrimination."
+  },
+  {
+   "id": "siyabonga-mahlangu",
+   "name": "Siyabonga Mahlangu",
+   "short": "Mahlangu",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 146,
+   "tp": 93,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 54,
+    "guard": 53,
+    "speed": 51,
+    "stamina": 56,
+    "guts": 63
+   },
+   "moves": [
+    "heat-tackle",
+    "tsunami-boost",
+    "rolling-slide",
+    "u-boat"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Thulani Mhlongo"
+  },
+  {
+   "id": "nathan-tswane",
+   "name": "Nathan Tswane",
+   "short": "Tswane",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 144,
+   "tp": 94,
+   "stats": {
+    "kick": 66,
+    "body": 83,
+    "control": 57,
+    "guard": 48,
+    "speed": 65,
+    "stamina": 59,
+    "guts": 65
+   },
+   "moves": [
+    "liar-shot",
+    "lightning-accel",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Natal Tsola",
+   "description": "He lets an ostrich chase him to train his legs and balance."
+  },
+  {
+   "id": "melisizwe-zamani",
+   "name": "Melisizwe Zamani",
+   "short": "Zamani",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 145,
+   "tp": 100,
+   "stats": {
+    "kick": 75,
+    "body": 66,
+    "control": 40,
+    "guard": 40,
+    "speed": 73,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "liar-shot",
+    "heat-tackle",
+    "bakunetsu-screw",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mulamuli Zamani",
+   "description": "He says that mutton is a versatile and delicious meat, and won't hear otherwise."
+  },
+  {
+   "id": "herschel-de-villiers",
+   "name": "Herschel De Villiers",
+   "short": "Villiers",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 94,
+   "stats": {
+    "kick": 81,
+    "body": 74,
+    "control": 40,
+    "guard": 45,
+    "speed": 75,
+    "stamina": 35,
+    "guts": 64
+   },
+   "moves": [
+    "liar-shot",
+    "hellfire",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hezekiél DeVillias",
+   "description": "He has an affinity with wild beasts. They say he once rode on a lion's back."
+  },
+  {
+   "id": "reggie-ines",
+   "name": "Reggie Ines",
+   "short": "Ines",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 139,
+   "tp": 95,
+   "stats": {
+    "kick": 75,
+    "body": 64,
+    "control": 58,
+    "guard": 57,
+    "speed": 66,
+    "stamina": 55,
+    "guts": 65
+   },
+   "moves": [
+    "kangaroo-kick",
+    "maboroshi-dribble",
+    "stone-prison",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Reggie Innes",
+   "description": "He's taking a stand against the illegal hunting of wild pachyderms."
+  },
+  {
+   "id": "kennedy-mccarthy",
+   "name": "Kennedy McCarthy",
+   "short": "McCarthy",
+   "number": 12,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 143,
+   "tp": 82,
+   "stats": {
+    "kick": 63,
+    "body": 60,
+    "control": 51,
+    "guard": 51,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 61
+   },
+   "moves": [
+    "liar-shot",
+    "super-armadillo",
+    "zigzag-flame",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kennede Mulobedzi",
+   "description": "He wants to find a gold mine and get rich quick, but he has no idea where to start."
+  },
+  {
+   "id": "moeneeb-booysen",
+   "name": "Moeneeb Booysen",
+   "short": "Booysen",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 98,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 50,
+    "guard": 55,
+    "speed": 61,
+    "stamina": 64,
+    "guts": 63
+   },
+   "moves": [
+    "sneaking-raid",
+    "rolling-slide",
+    "naraku-otoshi"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mbulelo Tsimba"
+  },
+  {
+   "id": "hugh-makebe",
+   "name": "Hugh Makebe",
+   "short": "Makebe",
+   "number": 15,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 144,
+   "tp": 105,
+   "stats": {
+    "kick": 72,
+    "body": 67,
+    "control": 50,
+    "guard": 58,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 64
+   },
+   "moves": [
+    "wild-claw",
+    "capoeira-snatch",
+    "big-spider",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hugh Makeba",
+   "description": "He has to be supplied with rooibos tea, or he gets anxious."
+  },
+  {
+   "id": "themba-sepeng",
+   "name": "Themba Sepeng",
+   "short": "Sepeng",
+   "number": 16,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 97,
+   "stats": {
+    "kick": 68,
+    "body": 63,
+    "control": 54,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 56,
+    "guts": 68
+   },
+   "moves": [
+    "flame-dance",
+    "liar-shot",
+    "kangaroo-kick",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Themba Sepeng"
+  }
+ ]
+}

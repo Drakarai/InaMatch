@@ -1,0 +1,527 @@
+{
+ "id": "ie1-mikage-sennou",
+ "season": "ie1",
+ "name": "Instituto Brain",
+ "short": "MIK",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-grid442",
+ "players": [
+  {
+   "id": "thomas-feldt",
+   "name": "Thomas Feldt",
+   "short": "Thomas",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 206,
+   "tp": 177,
+   "stats": {
+    "kick": 75,
+    "body": 69,
+    "control": 68,
+    "guard": 76,
+    "speed": 75,
+    "stamina": 78,
+    "guts": 76
+   },
+   "moves": [
+    "shoot-pocket",
+    "rocket-kobushi",
+    "bakuretsu-punch",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sugimori Takeshi",
+   "description": "Follows instruction well, but lost all emotion after brainwashing."
+  },
+  {
+   "id": "harry-leading",
+   "name": "Harry Leading",
+   "short": "Harry",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 140,
+   "tp": 112,
+   "stats": {
+    "kick": 52,
+    "body": 52,
+    "control": 44,
+    "guard": 47,
+    "speed": 50,
+    "stamina": 52,
+    "guts": 48
+   },
+   "moves": [
+    "super-scan-df",
+    "ushiro-no-shoumen",
+    "super-scan-of",
+    "patriot-shoot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hiroyama Yuu",
+   "description": "Took up football to get famous, but forgot it all after 'conditioning'."
+  },
+  {
+   "id": "terry-stronger",
+   "name": "Terry Stronger",
+   "short": "Terry",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 145,
+   "tp": 121,
+   "stats": {
+    "kick": 44,
+    "body": 46,
+    "control": 46,
+    "guard": 52,
+    "speed": 47,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "super-scan-df",
+    "super-scan-of",
+    "psycho-shot",
+    "kung-fu-head"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hanaoka Tsuyoshi",
+   "description": "His augment makes him prone to losing his will."
+  },
+  {
+   "id": "philip-marvel",
+   "name": "Philip Marvel",
+   "short": "Philip",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 108,
+   "stats": {
+    "kick": 44,
+    "body": 53,
+    "control": 52,
+    "guard": 48,
+    "speed": 49,
+    "stamina": 50,
+    "guts": 51
+   },
+   "moves": [
+    "super-scan-df",
+    "dynamite-shoot",
+    "super-scan-of",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Murobushi Kyou",
+   "description": "Brainwashing implanted fear in him. He now overreacts to all surprises."
+  },
+  {
+   "id": "noel-good",
+   "name": "Noel Good",
+   "short": "Noel",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 117,
+   "stats": {
+    "kick": 44,
+    "body": 44,
+    "control": 48,
+    "guard": 55,
+    "speed": 44,
+    "stamina": 48,
+    "guts": 45
+   },
+   "moves": [
+    "super-scan-df",
+    "super-scan-of",
+    "psycho-shot",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Inada Nori",
+   "description": "Flaunts the rules with every move since being brainwashed."
+  },
+  {
+   "id": "tyron-rock",
+   "name": "Tyron Rock",
+   "short": "Tyron",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 112,
+   "stats": {
+    "kick": 51,
+    "body": 46,
+    "control": 46,
+    "guard": 48,
+    "speed": 48,
+    "stamina": 47,
+    "guts": 52
+   },
+   "moves": [
+    "judge-through",
+    "patriot-shoot",
+    "super-scan-df",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Terakawa Iwao",
+   "description": "Doesn't mind playing dangerously since being brainwashed."
+  },
+  {
+   "id": "francis-tell",
+   "name": "Francis Tell",
+   "short": "Francis",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 145,
+   "tp": 109,
+   "stats": {
+    "kick": 44,
+    "body": 53,
+    "control": 48,
+    "guard": 46,
+    "speed": 45,
+    "stamina": 44,
+    "guts": 47
+   },
+   "moves": [
+    "super-scan-of",
+    "psycho-shot",
+    "super-scan-df",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fujimaru Kei",
+   "description": "Follows instructions religiously after getting brainwashed."
+  },
+  {
+   "id": "samuel-buster",
+   "name": "Samuel Buster",
+   "short": "Samuel",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 113,
+   "stats": {
+    "kick": 55,
+    "body": 46,
+    "control": 52,
+    "guard": 49,
+    "speed": 48,
+    "stamina": 50,
+    "guts": 49
+   },
+   "moves": [
+    "super-scan-of",
+    "dynamite-shoot",
+    "super-scan-df",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sangou Baku",
+   "description": "Plays aggressively close to the edge since being brainwashed."
+  },
+  {
+   "id": "victor-kind",
+   "name": "Victor Kind",
+   "short": "Victor",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 109,
+   "stats": {
+    "kick": 49,
+    "body": 53,
+    "control": 48,
+    "guard": 51,
+    "speed": 48,
+    "stamina": 53,
+    "guts": 46
+   },
+   "moves": [
+    "super-scan-df",
+    "psycho-shot",
+    "super-scan-of",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Oobe Shin",
+   "description": "Brainwashed into believing that his team's tactics are the best."
+  },
+  {
+   "id": "jonathan-seller",
+   "name": "Jonathan Seller",
+   "short": "Jonathan",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 132,
+   "tp": 113,
+   "stats": {
+    "kick": 55,
+    "body": 50,
+    "control": 50,
+    "guard": 49,
+    "speed": 55,
+    "stamina": 45,
+    "guts": 46
+   },
+   "moves": [
+    "psycho-shot",
+    "super-scan-of",
+    "super-scan-df",
+    "fire-tornado"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yamagishi Seri",
+   "description": "This solitary player is made to feel like he's under immense pressure to win."
+  },
+  {
+   "id": "neil-turner",
+   "name": "Neil Turner",
+   "short": "Turner",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 121,
+   "tp": 108,
+   "stats": {
+    "kick": 48,
+    "body": 48,
+    "control": 52,
+    "guard": 52,
+    "speed": 44,
+    "stamina": 50,
+    "guts": 45
+   },
+   "moves": [
+    "patriot-shoot",
+    "super-scan-of",
+    "fire-tornado",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shimozuru Arata",
+   "description": "Used to be gentle, but became more aggressive after brainwashing."
+  },
+  {
+   "id": "reg-underwood",
+   "name": "Reg Underwood",
+   "short": "Reg",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 121,
+   "tp": 115,
+   "stats": {
+    "kick": 44,
+    "body": 40,
+    "control": 40,
+    "guard": 69,
+    "speed": 48,
+    "stamina": 42,
+    "guts": 70
+   },
+   "moves": [
+    "super-scan-of",
+    "psycho-shot",
+    "super-scan-df",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mashimo Toboshi",
+   "description": "Accepted brainwashing to become a pro and help his poor family."
+  },
+  {
+   "id": "patrick-stiller",
+   "name": "Patrick Stiller",
+   "short": "Patrick",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 134,
+   "tp": 117,
+   "stats": {
+    "kick": 53,
+    "body": 45,
+    "control": 47,
+    "guard": 52,
+    "speed": 44,
+    "stamina": 46,
+    "guts": 53
+   },
+   "moves": [
+    "super-scan-of",
+    "meteor-attack",
+    "quick-draw",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tsuzuki Shizuka",
+   "description": "Brainwashing allowed him to reveal his true self."
+  },
+  {
+   "id": "charles-oughtry",
+   "name": "Charles Oughtry",
+   "short": "Charles",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 127,
+   "tp": 113,
+   "stats": {
+    "kick": 55,
+    "body": 52,
+    "control": 45,
+    "guard": 45,
+    "speed": 46,
+    "stamina": 44,
+    "guts": 48
+   },
+   "moves": [
+    "psycho-shot",
+    "shippuu-dash",
+    "super-scan-df",
+    "patriot-shoot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hirao Jin",
+   "description": "Undertook brainwashing to cheer up his sick soccer-loving brother."
+  },
+  {
+   "id": "clive-mooney",
+   "name": "Clive Mooney",
+   "short": "Clive",
+   "number": 15,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 101,
+   "stats": {
+    "kick": 53,
+    "body": 49,
+    "control": 54,
+    "guard": 50,
+    "speed": 55,
+    "stamina": 53,
+    "guts": 46
+   },
+   "moves": [
+    "patriot-shoot",
+    "killer-slide",
+    "judge-through",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nagatomo Sou",
+   "description": "Thanks to brainwashing, he never remembers the fouls he commits."
+  },
+  {
+   "id": "neil-waters",
+   "name": "Neil Waters",
+   "short": "Waters",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 101,
+   "stats": {
+    "kick": 52,
+    "body": 48,
+    "control": 51,
+    "guard": 52,
+    "speed": 45,
+    "stamina": 54,
+    "guts": 45
+   },
+   "moves": [
+    "shikofumi",
+    "super-scan-df",
+    "patriot-shoot",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mizubuchi Nashi",
+   "description": "Brainwashing helped him look down on those who used to belittle him."
+  }
+ ]
+}

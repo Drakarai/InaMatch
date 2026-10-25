@@ -1,0 +1,527 @@
+{
+ "id": "ie1-kidokawa-seishuu",
+ "season": "ie1",
+ "name": "Instituto Kirkwood",
+ "short": "KID",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-mukata-march",
+ "players": [
+  {
+   "id": "john-neville",
+   "name": "John Neville",
+   "short": "John",
+   "number": 2,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 140,
+   "stats": {
+    "kick": 78,
+    "body": 62,
+    "control": 54,
+    "guard": 79,
+    "speed": 48,
+    "stamina": 51,
+    "guts": 44
+   },
+   "moves": [
+    "toughness-block",
+    "counterstrike",
+    "the-wall",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nanzan Yowami",
+   "description": "People think he looks like a wimp until they see him with the ball."
+  },
+  {
+   "id": "malcolm-night",
+   "name": "Malcolm Night",
+   "short": "Malcolm",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 209,
+   "tp": 180,
+   "stats": {
+    "kick": 63,
+    "body": 76,
+    "control": 68,
+    "guard": 78,
+    "speed": 67,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "dash-accel",
+    "spinning-cut",
+    "hyakuretsu-shot",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nishigaki Mamoru",
+   "description": "He looks like a famous pro player with his eye-catching hairstyle."
+  },
+  {
+   "id": "alfred-meenan",
+   "name": "Alfred Meenan",
+   "short": "Alfred",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 169,
+   "tp": 149,
+   "stats": {
+    "kick": 61,
+    "body": 55,
+    "control": 55,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "quick-draw",
+    "hurricane-arrow",
+    "moonsault",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Megawa Akihi",
+   "description": "A die-hard fan of expensive brands. Always chasing the latest fashions."
+  },
+  {
+   "id": "dan-mirthful",
+   "name": "Dan Mirthful",
+   "short": "Dan",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 165,
+   "tp": 129,
+   "stats": {
+    "kick": 59,
+    "body": 70,
+    "control": 49,
+    "guard": 65,
+    "speed": 46,
+    "stamina": 51,
+    "guts": 52
+   },
+   "moves": [
+    "spinning-cut",
+    "earthquake",
+    "kung-fu-head",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mitsumune Dan",
+   "description": "Likes nothing better than a good sleep...often during school time."
+  },
+  {
+   "id": "ricky-clover",
+   "name": "Ricky Clover",
+   "short": "Ricky",
+   "number": 6,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 156,
+   "tp": 137,
+   "stats": {
+    "kick": 53,
+    "body": 52,
+    "control": 56,
+    "guard": 52,
+    "speed": 67,
+    "stamina": 45,
+    "guts": 54
+   },
+   "moves": [
+    "coil-turn",
+    "hurricane-arrow",
+    "meteor-attack",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurobe Ritsuki",
+   "description": "Rock solid and stock still, he's often mistaken for a statue."
+  },
+  {
+   "id": "toby-damian",
+   "name": "Toby Damian",
+   "short": "Toby",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 173,
+   "tp": 133,
+   "stats": {
+    "kick": 54,
+    "body": 56,
+    "control": 55,
+    "guard": 56,
+    "speed": 57,
+    "stamina": 56,
+    "guts": 55
+   },
+   "moves": [
+    "moonsault",
+    "back-tornado",
+    "quick-draw",
+    "spinning-shoot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tobiyama Dan",
+   "description": "He may only be small, but he can jump around like a flea."
+  },
+  {
+   "id": "york-nashmith",
+   "name": "York Nashmith",
+   "short": "York",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 132,
+   "stats": {
+    "kick": 52,
+    "body": 62,
+    "control": 57,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 52,
+    "guts": 56
+   },
+   "moves": [
+    "boost-glider",
+    "hawk-shot",
+    "monkey-turn",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yakata Naoto",
+   "description": "Loves nothing more than a kip on the roof - fortunately, he lives in a bungalow."
+  },
+  {
+   "id": "zachary-moore",
+   "name": "Zachary Moore",
+   "short": "Zachary",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 145,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 60,
+    "guard": 52,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 58
+   },
+   "moves": [
+    "hawk-shot",
+    "illusion-ball",
+    "twin-boost",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mogi Sakito",
+   "description": "An average individual player, but adds a lot to team manoeuvres."
+  },
+  {
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 1,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 176,
+   "stats": {
+    "kick": 79,
+    "body": 66,
+    "control": 76,
+    "guard": 64,
+    "speed": 72,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "fire-tornado",
+    "heat-tackle",
+    "quick-draw",
+    "inazuma-otoshi"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gouenji Shuuya",
+   "description": "A cool transfer student renowned as a legendary striker."
+  },
+  {
+   "id": "marvin-murdock",
+   "name": "Marvin Murdock",
+   "short": "Marvin",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 161,
+   "stats": {
+    "kick": 68,
+    "body": 61,
+    "control": 61,
+    "guard": 66,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 61
+   },
+   "moves": [
+    "triangle-z",
+    "illusion-ball",
+    "grenade-shot",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mukata Masaru",
+   "description": "The eldest brother and captain. Wants to win more than anyone else."
+  },
+  {
+   "id": "thomas-murdock",
+   "name": "Thomas Murdock",
+   "short": "Thomas",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 180,
+   "tp": 152,
+   "stats": {
+    "kick": 68,
+    "body": 70,
+    "control": 65,
+    "guard": 60,
+    "speed": 64,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "moonsault",
+    "back-tornado",
+    "killer-slide",
+    "triangle-z"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mukata Tomo",
+   "description": "He may be the middle brother, but he acts as the team's linchpin."
+  },
+  {
+   "id": "tyler-murdock",
+   "name": "Tyler Murdock",
+   "short": "Tyler",
+   "number": 12,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 167,
+   "tp": 157,
+   "stats": {
+    "kick": 79,
+    "body": 64,
+    "control": 68,
+    "guard": 56,
+    "speed": 60,
+    "stamina": 59,
+    "guts": 54
+   },
+   "moves": [
+    "spinning-cut",
+    "back-tornado",
+    "judge-through",
+    "triangle-z"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mukata Tsutomu",
+   "description": "Being the youngest, he trains hard to be just like his brothers."
+  },
+  {
+   "id": "simon-calier",
+   "name": "Simon Calier",
+   "short": "Simon",
+   "number": 13,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 168,
+   "stats": {
+    "kick": 50,
+    "body": 41,
+    "control": 46,
+    "guard": 71,
+    "speed": 45,
+    "stamina": 48,
+    "guts": 47
+   },
+   "moves": [
+    "dash-accel",
+    "blade-attack",
+    "moonsault",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Dandou Masanori",
+   "description": "Runs up and down the stairs to his top-floor flat to train his legs."
+  },
+  {
+   "id": "brody-gloom",
+   "name": "Brody Gloom",
+   "short": "Brody",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 136,
+   "tp": 125,
+   "stats": {
+    "kick": 54,
+    "body": 46,
+    "control": 48,
+    "guard": 53,
+    "speed": 45,
+    "stamina": 52,
+    "guts": 54
+   },
+   "moves": [
+    "dash-accel",
+    "judge-through",
+    "onryou",
+    "yugamu-kuukan"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fukazawa Nenji",
+   "description": "A serious player who still broods over a match he lost 3 years ago."
+  },
+  {
+   "id": "victor-talis",
+   "name": "Victor Talis",
+   "short": "Victor",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 145,
+   "tp": 177,
+   "stats": {
+    "kick": 55,
+    "body": 52,
+    "control": 52,
+    "guard": 46,
+    "speed": 47,
+    "stamina": 45,
+    "guts": 48
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "spinning-cut",
+    "dynamite-shoot",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mamorino Yuuichi",
+   "description": "Was no good at football until he got his grandad's lucky charm."
+  },
+  {
+   "id": "eren-middleton",
+   "name": "Eren Middleton",
+   "short": "Eren",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 140,
+   "tp": 112,
+   "stats": {
+    "kick": 48,
+    "body": 44,
+    "control": 55,
+    "guard": 47,
+    "speed": 55,
+    "stamina": 54,
+    "guts": 52
+   },
+   "moves": [
+    "onryou",
+    "blade-attack",
+    "illusion-ball",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nakai Yousuke",
+   "description": "Drags his feet when asked to help... unless it's a girl that's asking."
+  }
+ ]
+}

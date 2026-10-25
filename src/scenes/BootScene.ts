@@ -3,7 +3,7 @@ import { TEAMS } from '../data';
 import { makeBall, makeEmblem, makePlayerSprite, makePortrait, texKey } from '../gfx/placeholders';
 
 // Paquete de sprites: basta con dejar las imágenes en src/assets/pack/ con el id
-// del jugador o del equipo como nombre (sprites/mark-evans.png, emblems/desert-lions.png...).
+// del jugador o del equipo como nombre (sprites/mark-evans.png, emblems/ie3-desert-lion.png...).
 // Vite las mete en el juego al compilar; lo que falte se dibuja por código.
 const packFiles = import.meta.glob<string>('../assets/pack/{sprites,portraits,emblems}/*.{png,webp,gif,jpg,jpeg}', {
   eager: true,

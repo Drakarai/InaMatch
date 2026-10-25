@@ -1,0 +1,340 @@
+{
+ "id": "ie2-chaos",
+ "season": "ie2",
+ "name": "Caos",
+ "short": "CHA",
+ "colors": {
+  "shirt": "#7a2a5a",
+  "shorts": "#1a1a2a",
+  "gkShirt": "#3a8ac0",
+  "accent": "#8a3a6a"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "grant-cook",
+   "name": "Grant Cook",
+   "short": "Grant",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 182,
+   "tp": 81,
+   "stats": {
+    "kick": 78,
+    "body": 60,
+    "control": 52,
+    "guard": 61,
+    "speed": 52,
+    "stamina": 56,
+    "guts": 60
+   },
+   "moves": [
+    "burnout"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ooiwa Kurando",
+   "description": "He always wears a mask so no one can see his evil expression."
+  },
+  {
+   "id": "bonnie-sparks",
+   "name": "Bonnie Sparks",
+   "short": "Bonnie",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 187,
+   "tp": 93,
+   "stats": {
+    "kick": 65,
+    "body": 64,
+    "control": 62,
+    "guard": 65,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 71
+   },
+   "moves": [
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Barazono Hana",
+   "description": "She loves trinkets and will go to any lengths to get the ones she wants."
+  },
+  {
+   "id": "claire-lesnow",
+   "name": "Claire Lesnow",
+   "short": "Claire",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 84,
+   "stats": {
+    "kick": 65,
+    "body": 67,
+    "control": 60,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 68
+   },
+   "moves": [
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurakake Clara",
+   "description": "She delivers cutting lines with a smile. Still, she has her admirers..."
+  },
+  {
+   "id": "albert-denver",
+   "name": "Albert Denver",
+   "short": "Albert",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 195,
+   "tp": 96,
+   "stats": {
+    "kick": 69,
+    "body": 70,
+    "control": 52,
+    "guard": 64,
+    "speed": 53,
+    "stamina": 54,
+    "guts": 63
+   },
+   "moves": [
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gokukawa Kantarou",
+   "description": "A heinous sumo wrestler who throws players off the pitch for the ball."
+  },
+  {
+   "id": "bryce-whitingale",
+   "name": "Bryce Whitingale",
+   "short": "Bryce",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 189,
+   "tp": 96,
+   "stats": {
+    "kick": 78,
+    "body": 65,
+    "control": 76,
+    "guard": 74,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 68
+   },
+   "moves": [
+    "fire-blizzard",
+    "water-veil"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Suzuno Fuusuke",
+   "description": "The captain of Diamond Dust. His calm exterior conceals a cold heart."
+  },
+  {
+   "id": "ving-rice",
+   "name": "Ving Rice",
+   "short": "Ving",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 215,
+   "tp": 79,
+   "stats": {
+    "kick": 63,
+    "body": 71,
+    "control": 61,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "northern-impact",
+    "water-veil"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurione Yuki",
+   "description": "Don't be fooled by her winning smile - she won't take any nonsense from anyone."
+  },
+  {
+   "id": "ben-blowton",
+   "name": "Ben Blowton",
+   "short": "Ben",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 85,
+   "stats": {
+    "kick": 55,
+    "body": 63,
+    "control": 68,
+    "guard": 62,
+    "speed": 64,
+    "stamina": 70,
+    "guts": 65
+   },
+   "moves": [
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Honba Geki",
+   "description": "A fiery, powerful fighter known for his distinctive headband."
+  },
+  {
+   "id": "ethan-whitering",
+   "name": "Ethan Whitering",
+   "short": "Ethan",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 72,
+   "stats": {
+    "kick": 52,
+    "body": 79,
+    "control": 60,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 71,
+    "guts": 55
+   },
+   "moves": [
+    "gaia-break",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Atsuishi Shigeto",
+   "description": "Torch's childhood friend. He used to be a weakling, but training toughened him up."
+  },
+  {
+   "id": "dawson-foxx",
+   "name": "Dawson Foxx",
+   "short": "Dawson",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 198,
+   "tp": 84,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 62,
+    "guard": 59,
+    "speed": 69,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "water-veil"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kadomichi Tooru",
+   "description": "His feelings are written all over his face. His solution? To wear a mask at all times."
+  },
+  {
+   "id": "claude-beacons",
+   "name": "Claude Beacons",
+   "short": "Claude",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 187,
+   "tp": 96,
+   "stats": {
+    "kick": 69,
+    "body": 71,
+    "control": 64,
+    "guard": 64,
+    "speed": 66,
+    "stamina": 70,
+    "guts": 63
+   },
+   "moves": [
+    "fire-blizzard-fire",
+    "flame-veil"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nagumo Haruya",
+   "description": "The captain of Prominence. He has a fiery, aggressive character."
+  },
+  {
+   "id": "nigel-august",
+   "name": "Nigel August",
+   "short": "Nigel",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 180,
+   "tp": 93,
+   "stats": {
+    "kick": 60,
+    "body": 65,
+    "control": 61,
+    "guard": 63,
+    "speed": 61,
+    "stamina": 67,
+    "guts": 60
+   },
+   "moves": [
+    "atomic-flare",
+    "flame-veil",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Netsuha Natsuhiko",
+   "description": "Nobody knows what this glum-looking boy is really thinking."
+  }
+ ]
+}

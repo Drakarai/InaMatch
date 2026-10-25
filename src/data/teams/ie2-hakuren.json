@@ -1,0 +1,525 @@
+{
+ "id": "ie2-hakuren",
+ "season": "ie2",
+ "name": "Instituto Alpino",
+ "short": "HAK",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "adam-ropes",
+   "name": "Adam Ropes",
+   "short": "Adam",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 195,
+   "tp": 129,
+   "stats": {
+    "kick": 62,
+    "body": 56,
+    "control": 62,
+    "guard": 62,
+    "speed": 77,
+    "stamina": 67,
+    "guts": 66
+   },
+   "moves": [
+    "aurora-curtain",
+    "kogarashi",
+    "ice-ground",
+    "double-cyclone"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hakoda Tetsu",
+   "description": "He might not look the type, but he loves a nice romantic sunset."
+  },
+  {
+   "id": "joaquine-downtown",
+   "name": "Joaquine Downtown",
+   "short": "Joaquine",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 133,
+   "stats": {
+    "kick": 57,
+    "body": 54,
+    "control": 68,
+    "guard": 59,
+    "speed": 58,
+    "stamina": 56,
+    "guts": 60
+   },
+   "moves": [
+    "ice-ground",
+    "good-smell",
+    "rainbow-loop",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Matoro Juka",
+   "description": "Whenever she is beaten down, she jumps right back up with renewed energy."
+  },
+  {
+   "id": "milton-bindings",
+   "name": "Milton Bindings",
+   "short": "Milton",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 169,
+   "tp": 153,
+   "stats": {
+    "kick": 52,
+    "body": 67,
+    "control": 57,
+    "guard": 55,
+    "speed": 54,
+    "stamina": 60,
+    "guts": 62
+   },
+   "moves": [
+    "onryou",
+    "ice-ground",
+    "run-ball-run",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Oshiya Manbe",
+   "description": "He loves shellfish and has an emergency supply to nibble during games."
+  },
+  {
+   "id": "spike-gleeson",
+   "name": "Spike Gleeson",
+   "short": "Spike",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 149,
+   "stats": {
+    "kick": 60,
+    "body": 63,
+    "control": 65,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 60,
+    "guts": 69
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "doppelganger",
+    "kumo-no-ito",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mabuka Souji",
+   "description": "His protective headgear means he can play in even the harshest blizzards."
+  },
+  {
+   "id": "martin-ursus",
+   "name": "Martin Ursus",
+   "short": "Martin",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 189,
+   "tp": 132,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 56,
+    "guard": 68,
+    "speed": 56,
+    "stamina": 58,
+    "guts": 56
+   },
+   "moves": [
+    "killer-slide",
+    "mogura-feint",
+    "ice-ground",
+    "volcano-cut"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shirokuma Hyouji",
+   "description": "Legend has it that this guy fought a polar bear and won."
+  },
+  {
+   "id": "gem-strata",
+   "name": "Gem Strata",
+   "short": "Gem",
+   "number": 15,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 143,
+   "tp": 116,
+   "stats": {
+    "kick": 56,
+    "body": 57,
+    "control": 52,
+    "guard": 53,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 60
+   },
+   "moves": [
+    "horn-train",
+    "super-armadillo",
+    "the-wall",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Goryou Takeaki",
+   "description": "He studied tactics in Europe and plays magnificently."
+  },
+  {
+   "id": "sean-snowfield",
+   "name": "Sean Snowfield",
+   "short": "Sean",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 195,
+   "tp": 169,
+   "stats": {
+    "kick": 59,
+    "body": 65,
+    "control": 60,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 76,
+    "guts": 68
+   },
+   "moves": [
+    "ushiro-no-shoumen",
+    "super-shikofumi",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yukino Seiya",
+   "description": "He studies snowflakes and has filled thirty books with his observations."
+  },
+  {
+   "id": "kerry-bootgaiter",
+   "name": "Kerry Bootgaiter",
+   "short": "Kerry",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 154,
+   "tp": 136,
+   "stats": {
+    "kick": 62,
+    "body": 59,
+    "control": 57,
+    "guard": 60,
+    "speed": 63,
+    "stamina": 64,
+    "guts": 60
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "ushiro-no-shoumen",
+    "maboroshi-dribble",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Araya Konko",
+   "description": "She loves snow and runs around her snowy garden laughing like mad."
+  },
+  {
+   "id": "maddox-rock",
+   "name": "Maddox Rock",
+   "short": "Maddox",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 140,
+   "stats": {
+    "kick": 56,
+    "body": 60,
+    "control": 61,
+    "guard": 54,
+    "speed": 61,
+    "stamina": 53,
+    "guts": 65
+   },
+   "moves": [
+    "maboroshi-dribble",
+    "hitori-one-two",
+    "kurukuru-head",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Iya Mafuru",
+   "description": "He'll ski straight down any slope no matter how steep it is."
+  },
+  {
+   "id": "shawn-froste",
+   "name": "Shawn Froste",
+   "short": "Shawn",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 136,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 68,
+    "guard": 64,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 53
+   },
+   "moves": [
+    "eternal-blizzard",
+    "aurora-dribble",
+    "ice-ground",
+    "wolf-legend"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+  },
+  {
+   "id": "roland-climbstein",
+   "name": "Roland Climbstein",
+   "short": "Roland",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 156,
+   "tp": 129,
+   "stats": {
+    "kick": 65,
+    "body": 62,
+    "control": 52,
+    "guard": 59,
+    "speed": 58,
+    "stamina": 58,
+    "guts": 61
+   },
+   "moves": [
+    "ice-ground",
+    "freeze-shot",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hyoujou Retsuto",
+   "description": "He's such a nimble, graceful mover, he could play soccer on the ice."
+  },
+  {
+   "id": "robert-skipolson",
+   "name": "Robert Skipolson",
+   "short": "Robert",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 137,
+   "stats": {
+    "kick": 56,
+    "body": 52,
+    "control": 62,
+    "guard": 53,
+    "speed": 68,
+    "stamina": 54,
+    "guts": 55
+   },
+   "moves": [
+    "suisei-shoot",
+    "cross-drive",
+    "hawk-shot",
+    "maboroshi-dribble"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sorano Rebun",
+   "description": "This boy came from the far north and loves rollmop herrings."
+  },
+  {
+   "id": "quentin-rackner",
+   "name": "Quentin Rackner",
+   "short": "Quentin",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 145,
+   "tp": 149,
+   "stats": {
+    "kick": 56,
+    "body": 57,
+    "control": 56,
+    "guard": 58,
+    "speed": 64,
+    "stamina": 65,
+    "guts": 64
+   },
+   "moves": [
+    "freeze-shot",
+    "shippuu-dash",
+    "kamaitachi",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kitami Ryuu",
+   "description": "This mysterious wanderer turns up and joins the team every winter."
+  },
+  {
+   "id": "trent-peggs",
+   "name": "Trent Peggs",
+   "short": "Trent",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 144,
+   "stats": {
+    "kick": 60,
+    "body": 60,
+    "control": 59,
+    "guard": 66,
+    "speed": 57,
+    "stamina": 66,
+    "guts": 78
+   },
+   "moves": [
+    "makiwari-chop",
+    "kogarashi",
+    "tsumuji",
+    "aurora-curtain"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sumitani Tatsumaro",
+   "description": "He can cook dinner on a single piece of coal on his stove."
+  },
+  {
+   "id": "pete-bogg",
+   "name": "Pete Bogg",
+   "short": "Pete",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 123,
+   "tp": 109,
+   "stats": {
+    "kick": 60,
+    "body": 54,
+    "control": 69,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 58
+   },
+   "moves": [
+    "hitori-one-two",
+    "meteor-attack",
+    "aurora-dribble",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shitsuhara Zen",
+   "description": "After training in the marshes, his lower body strength is unbeatable."
+  },
+  {
+   "id": "horace-onlign",
+   "name": "Horace Onlign",
+   "short": "Horace",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 113,
+   "stats": {
+    "kick": 55,
+    "body": 63,
+    "control": 52,
+    "guard": 52,
+    "speed": 60,
+    "stamina": 58,
+    "guts": 60
+   },
+   "moves": [
+    "rolling-kick",
+    "shippuu-dash",
+    "run-ball-run",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Chihira Koudai",
+   "description": "He can always see the bigger picture when he's out on the pitch."
+  }
+ ]
+}

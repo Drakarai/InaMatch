@@ -1,0 +1,365 @@
+{
+ "id": "ie2-the-genesis",
+ "season": "ie2",
+ "name": "Génesis",
+ "short": "THE",
+ "colors": {
+  "shirt": "#e8e8e8",
+  "shorts": "#5a3a8a",
+  "gkShirt": "#c8a020",
+  "accent": "#7a5aa8"
+ },
+ "formation": "f-genesis",
+ "players": [
+  {
+   "id": "nelson-rockwell",
+   "name": "Nelson Rockwell",
+   "short": "Nelson",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 169,
+   "tp": 89,
+   "stats": {
+    "kick": 77,
+    "body": 60,
+    "control": 57,
+    "guard": 63,
+    "speed": 78,
+    "stamina": 60,
+    "guts": 70
+   },
+   "moves": [
+    "procyon-net",
+    "jikuu-no-kabe",
+    "photon-flash",
+    "yugamu-kuukan"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nemuro Kimiyuki",
+   "description": "A supremely skilled jumper who leaps at every shot."
+  },
+  {
+   "id": "gail-baker",
+   "name": "Gail Baker",
+   "short": "Gail",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 117,
+   "tp": 118,
+   "stats": {
+    "kick": 57,
+    "body": 53,
+    "control": 60,
+    "guard": 55,
+    "speed": 79,
+    "stamina": 60,
+    "guts": 59
+   },
+   "moves": [
+    "photon-flash",
+    "sigma-zone",
+    "zanzou",
+    "lightning-accel"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kujirai Takanori",
+   "description": "He follows opponents' movements with his piercing gaze."
+  },
+  {
+   "id": "kim-powell",
+   "name": "Kim Powell",
+   "short": "Kim",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 136,
+   "stats": {
+    "kick": 56,
+    "body": 63,
+    "control": 77,
+    "guard": 54,
+    "speed": 62,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "lightning-accel",
+    "gravitation",
+    "black-hole",
+    "procyon-net"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kii Fumiko",
+   "description": "She gets opponents in a twist by moving about like she's dancing."
+  },
+  {
+   "id": "zack-cummings",
+   "name": "Zack Cummings",
+   "short": "Zack",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 156,
+   "tp": 72,
+   "stats": {
+    "kick": 68,
+    "body": 76,
+    "control": 71,
+    "guard": 70,
+    "speed": 77,
+    "stamina": 56,
+    "guts": 56
+   },
+   "moves": [
+    "planet-shield",
+    "super-armadillo",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ishidaira Hanzou",
+   "description": "A martial artist. He defends the goal using his body like a lethal weapon."
+  },
+  {
+   "id": "hunt-mercer",
+   "name": "Hunt Mercer",
+   "short": "Hunt",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 167,
+   "tp": 89,
+   "stats": {
+    "kick": 64,
+    "body": 66,
+    "control": 65,
+    "guard": 66,
+    "speed": 58,
+    "stamina": 68,
+    "guts": 66
+   },
+   "moves": [
+    "heavy-baby",
+    "shikofumi",
+    "super-armadillo",
+    "planet-shield"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hanezaki Gouta",
+   "description": "He uses his body's flexibility to attack from impossible angles."
+  },
+  {
+   "id": "isabelle-trick",
+   "name": "Isabelle Trick",
+   "short": "Isabelle",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 97,
+   "stats": {
+    "kick": 65,
+    "body": 65,
+    "control": 79,
+    "guard": 55,
+    "speed": 78,
+    "stamina": 64,
+    "guts": 68
+   },
+   "moves": [
+    "astro-break",
+    "meteor-shower",
+    "space-penguin",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yagami Reina",
+   "description": "An ice-cold warrior-princess who has never felt anything even approaching an emotion."
+  },
+  {
+   "id": "connor-murray",
+   "name": "Connor Murray",
+   "short": "Connor",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 185,
+   "tp": 100,
+   "stats": {
+    "kick": 60,
+    "body": 64,
+    "control": 78,
+    "guard": 61,
+    "speed": 65,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "lightning-accel",
+    "kamikakushi",
+    "moonsault",
+    "space-penguin"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Komazawa Kyouma",
+   "description": "He lays traps which invite his opponents to make mistakes."
+  },
+  {
+   "id": "katie-brown",
+   "name": "Katie Brown",
+   "short": "Katie",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 81,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 68,
+    "guard": 57,
+    "speed": 69,
+    "stamina": 59,
+    "guts": 61
+   },
+   "moves": [
+    "southern-crosscut",
+    "tamanori-pierrot",
+    "fuusen-gum",
+    "sigma-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kui Lulu",
+   "description": "Looks like a daydreamer, but she has moves that are out of this world."
+  },
+  {
+   "id": "ashton-malone",
+   "name": "Ashton Malone",
+   "short": "Ashton",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 165,
+   "tp": 77,
+   "stats": {
+    "kick": 56,
+    "body": 60,
+    "control": 78,
+    "guard": 69,
+    "speed": 72,
+    "stamina": 62,
+    "guts": 70
+   },
+   "moves": [
+    "lightning-accel",
+    "psycho-shot",
+    "ryuusei-blade",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Akutsu Kiyoshi",
+   "description": "A single glance and he can tell exactly which path the ball is going to follow."
+  },
+  {
+   "id": "wilbur-watkins",
+   "name": "Wilbur Watkins",
+   "short": "Wilbur",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 88,
+   "stats": {
+    "kick": 68,
+    "body": 67,
+    "control": 62,
+    "guard": 63,
+    "speed": 70,
+    "stamina": 68,
+    "guts": 67
+   },
+   "moves": [
+    "astro-break",
+    "ganymede-proton",
+    "supernova"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Izuno Yuu",
+   "description": "He has a real attitude and likes to feign shots before smacking other players with the ball."
+  },
+  {
+   "id": "xavier-foster",
+   "name": "Xavier Foster",
+   "short": "Xavier",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 92,
+   "stats": {
+    "kick": 79,
+    "body": 79,
+    "control": 73,
+    "guard": 63,
+    "speed": 62,
+    "stamina": 68,
+    "guts": 63
+   },
+   "moves": [
+    "ryuusei-blade",
+    "supernova",
+    "photon-flash",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kiyama Hiroto",
+   "description": "Alius's top football warrior, his fiery shots are like comets."
+  }
+ ]
+}

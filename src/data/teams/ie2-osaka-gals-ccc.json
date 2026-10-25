@@ -1,0 +1,519 @@
+{
+ "id": "ie2-osaka-gals-ccc",
+ "season": "ie2",
+ "name": "Osaka Gals CCC",
+ "short": "OGC",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#f2c230"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "daisy-fields",
+   "name": "Daisy Fields",
+   "short": "Daisy",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 182,
+   "tp": 133,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 70,
+    "guard": 67,
+    "speed": 69,
+    "stamina": 52,
+    "guts": 71
+   },
+   "moves": [
+    "hanafubuki",
+    "slash-nail",
+    "giant-spin",
+    "chabudai-gaeshi"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Dosu Koi",
+   "description": "She's the national girl's sumo champ, but is actually a bit of a cry-baby."
+  },
+  {
+   "id": "alexia-sand",
+   "name": "Alexia Sand",
+   "short": "Alexia",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 137,
+   "stats": {
+    "kick": 61,
+    "body": 56,
+    "control": 61,
+    "guard": 65,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "fake-bomber",
+    "gorimuchuu",
+    "block-circus"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Torahama Kouko",
+   "description": "Her family of pro baseball fans are glued to the telly every game."
+  },
+  {
+   "id": "hellen-hearth",
+   "name": "Hellen Hearth",
+   "short": "Hellen",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 144,
+   "stats": {
+    "kick": 63,
+    "body": 52,
+    "control": 56,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 55,
+    "guts": 57
+   },
+   "moves": [
+    "good-smell",
+    "prima-donna",
+    "rose-splash"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hori Michiko",
+   "description": "She's rather laid back and has been known to fall asleep in mid-sentence."
+  },
+  {
+   "id": "rose-pinkpetal",
+   "name": "Rose Pinkpetal",
+   "short": "Rose",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 138,
+   "tp": 133,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 68,
+    "guard": 60,
+    "speed": 66,
+    "stamina": 52,
+    "guts": 57
+   },
+   "moves": [
+    "fake-bomber",
+    "fuusen-gum",
+    "moonsault",
+    "ribbon-shower"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Umeda Harumi",
+   "description": "She believes that Tokyo can't hold a candle to Osaka's fashion sense."
+  },
+  {
+   "id": "esther-greenland",
+   "name": "Esther Greenland",
+   "short": "Esther",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 154,
+   "tp": 132,
+   "stats": {
+    "kick": 62,
+    "body": 67,
+    "control": 60,
+    "guard": 58,
+    "speed": 68,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "good-smell",
+    "blade-attack",
+    "suisei-shoot",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kushida Katsuyo",
+   "description": "A restaurant waitress who won't stand for any lip from rude customers."
+  },
+  {
+   "id": "bela-bluebells",
+   "name": "Bela Bluebells",
+   "short": "Bela",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 116,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 64,
+    "guard": 63,
+    "speed": 61,
+    "stamina": 63,
+    "guts": 59
+   },
+   "moves": [
+    "spinning-shoot",
+    "ushiro-no-shoumen",
+    "monkey-turn",
+    "ribbon-shower"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yorozu Hiromi",
+   "description": "She digs vintage jewellery out of dusty drawers and makes it sparkle again."
+  },
+  {
+   "id": "natalie-sunrise",
+   "name": "Natalie Sunrise",
+   "short": "Natalie",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 160,
+   "tp": 156,
+   "stats": {
+    "kick": 57,
+    "body": 58,
+    "control": 63,
+    "guard": 57,
+    "speed": 67,
+    "stamina": 60,
+    "guts": 58
+   },
+   "moves": [
+    "fuusen-gum",
+    "ushiro-no-shoumen",
+    "fake-bomber",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Takoya Noriko",
+   "description": "This girl munches on toffee apples every day on her way home from school."
+  },
+  {
+   "id": "hillary-bush",
+   "name": "Hillary Bush",
+   "short": "Hillary",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 132,
+   "stats": {
+    "kick": 63,
+    "body": 66,
+    "control": 59,
+    "guard": 71,
+    "speed": 53,
+    "stamina": 60,
+    "guts": 54
+   },
+   "moves": [
+    "ribbon-shower",
+    "spiral-shot",
+    "coil-turn",
+    "rainbow-loop"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Namikawa Hanako",
+   "description": "She has a sharp wit and a sharper tongue. You don't want to be the butt of her jokes."
+  },
+  {
+   "id": "mary-moor",
+   "name": "Mary Moor",
+   "short": "Mary",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 129,
+   "stats": {
+    "kick": 56,
+    "body": 65,
+    "control": 58,
+    "guard": 56,
+    "speed": 66,
+    "stamina": 54,
+    "guts": 69
+   },
+   "moves": [
+    "rolling-kick",
+    "moonsault",
+    "ribbon-shower",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tennouji Mari",
+   "description": "In her free time, she performs elaborate dance routines in the park."
+  },
+  {
+   "id": "lily-willow",
+   "name": "Lily Willow",
+   "short": "Lily",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 132,
+   "stats": {
+    "kick": 67,
+    "body": 64,
+    "control": 62,
+    "guard": 63,
+    "speed": 53,
+    "stamina": 56,
+    "guts": 61
+   },
+   "moves": [
+    "butterfly-dream",
+    "ribbon-shower",
+    "good-smell"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Midou Reika",
+   "description": "Her family run one of Osaka's biggest companies, but she's not at all snooty."
+  },
+  {
+   "id": "gayle-revel",
+   "name": "Gayle Revel",
+   "short": "Gayle",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 109,
+   "stats": {
+    "kick": 71,
+    "body": 64,
+    "control": 60,
+    "guard": 56,
+    "speed": 64,
+    "stamina": 63,
+    "guts": 70
+   },
+   "moves": [
+    "spiral-shot",
+    "moonsault",
+    "dynamite-shoot",
+    "oouchiwa"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kishiwada Matsuri",
+   "description": "She gets very excited by carnivals and runs wild around the floats."
+  },
+  {
+   "id": "dell-closeout",
+   "name": "Dell Closeout",
+   "short": "Dell",
+   "number": 11,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 145,
+   "tp": 133,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 52,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 58,
+    "guts": 52
+   },
+   "moves": [
+    "killer-blade",
+    "hanafubuki",
+    "ushiro-no-shoumen",
+    "slash-nail"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Negiri Tomoe",
+   "description": "A born haggler who can browbeat shop staff into giving her serious discounts."
+  },
+  {
+   "id": "amy-spires",
+   "name": "Amy Spires",
+   "short": "Amy",
+   "number": 12,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 121,
+   "tp": 112,
+   "stats": {
+    "kick": 54,
+    "body": 55,
+    "control": 56,
+    "guard": 55,
+    "speed": 52,
+    "stamina": 60,
+    "guts": 52
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "blade-attack",
+    "kumo-no-ito",
+    "tsuutenkaku-shoot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsuuten Hikari",
+   "description": "She's obsessed with towers and has to climb every one she sees."
+  },
+  {
+   "id": "peony-cash",
+   "name": "Peony Cash",
+   "short": "Peony",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 154,
+   "tp": 124,
+   "stats": {
+    "kick": 52,
+    "body": 58,
+    "control": 60,
+    "guard": 52,
+    "speed": 58,
+    "stamina": 62,
+    "guts": 68
+   },
+   "moves": [
+    "hitori-one-two",
+    "fuusen-gum",
+    "ribbon-shower",
+    "prima-donna"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Senba Ginko",
+   "description": "Her money management skills are tip-top. Leading banks are trying to recruit her."
+  },
+  {
+   "id": "janine-brook",
+   "name": "Janine Brook",
+   "short": "Janine",
+   "number": 15,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 62,
+    "body": 70,
+    "control": 63,
+    "guard": 62,
+    "speed": 61,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "toughness-block",
+    "giant-spin",
+    "dokonjou-bat",
+    "goal-zurashi"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nanba Hanae",
+   "description": "She practices every lunchtime to be the nation's top entertainer."
+  },
+  {
+   "id": "sue-s-mum",
+   "name": "Sue's mum",
+   "short": "Sue's",
+   "number": 16,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 45,
+    "body": 60,
+    "control": 40,
+    "guard": 80,
+    "speed": 45,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Urabe Nami"
+  }
+ ]
+}

@@ -1,0 +1,515 @@
+{
+ "id": "ie3-knights-of-queen",
+ "season": "ie3",
+ "name": "Knights of Queen",
+ "short": "KOQ",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#1d2f6b",
+  "gkShirt": "#c8202f",
+  "accent": "#1d2f6b"
+ },
+ "formation": "f-knights",
+ "players": [
+  {
+   "id": "freddy-mcqueen",
+   "name": "Freddy McQueen",
+   "short": "McQueen",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 140,
+   "stats": {
+    "kick": 50,
+    "body": 67,
+    "control": 48,
+    "guard": 82,
+    "speed": 51,
+    "stamina": 46,
+    "guts": 64
+   },
+   "moves": [
+    "galatyn",
+    "safety-protect",
+    "toumei-feint",
+    "black-hole"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Freddie McQueen"
+  },
+  {
+   "id": "jonny-gascoigne",
+   "name": "Jonny Gascoigne",
+   "short": "Gascoigne",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 128,
+   "tp": 127,
+   "stats": {
+    "kick": 52,
+    "body": 62,
+    "control": 67,
+    "guard": 68,
+    "speed": 62,
+    "stamina": 62,
+    "guts": 54
+   },
+   "moves": [
+    "stone-prison",
+    "no-escape",
+    "heat-tackle",
+    "fake-ball"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Johnny Gascoigne",
+   "description": "He might dress and act like a punk, but deep down he's a real softie."
+  },
+  {
+   "id": "david-buckingham",
+   "name": "David Buckingham",
+   "short": "Buckingham",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 127,
+   "tp": 108,
+   "stats": {
+    "kick": 54,
+    "body": 60,
+    "control": 78,
+    "guard": 66,
+    "speed": 53,
+    "stamina": 55,
+    "guts": 50
+   },
+   "moves": [
+    "stone-prison",
+    "illusion-ball",
+    "judge-through",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "David Buckingham"
+  },
+  {
+   "id": "lance-rawton",
+   "name": "Lance Rawton",
+   "short": "Rawton",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 120,
+   "stats": {
+    "kick": 65,
+    "body": 71,
+    "control": 56,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 54,
+    "guts": 77
+   },
+   "moves": [
+    "stone-prison",
+    "cross-drive",
+    "galatyn",
+    "excalibur"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lance Rotten",
+   "description": "Clinging to the rights and privileges of the aristocracy, he asserts his right to lead."
+  },
+  {
+   "id": "edge-ripper",
+   "name": "Edge Ripper",
+   "short": "Ripper",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 117,
+   "stats": {
+    "kick": 54,
+    "body": 54,
+    "control": 53,
+    "guard": 71,
+    "speed": 69,
+    "stamina": 58,
+    "guts": 62
+   },
+   "moves": [
+    "killer-blade",
+    "stone-prison",
+    "spinning-cut",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Edge Ripper"
+  },
+  {
+   "id": "peter-cole",
+   "name": "Peter Cole",
+   "short": "Cole",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 133,
+   "tp": 103,
+   "stats": {
+    "kick": 51,
+    "body": 66,
+    "control": 60,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 71,
+    "guts": 57
+   },
+   "moves": [
+    "ultra-moon",
+    "super-scan-of",
+    "dynamite-shoot",
+    "echo-ball"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Peter Cole",
+   "description": "A music buff who insists that the British music scene is the best in the world."
+  },
+  {
+   "id": "gary-mane",
+   "name": "Gary Mane",
+   "short": "Mane",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 124,
+   "tp": 116,
+   "stats": {
+    "kick": 54,
+    "body": 84,
+    "control": 72,
+    "guard": 59,
+    "speed": 52,
+    "stamina": 47,
+    "guts": 54
+   },
+   "moves": [
+    "ultra-moon",
+    "coil-turn",
+    "maboroshi-dribble",
+    "stone-prison"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gary Links"
+  },
+  {
+   "id": "paul-appleton",
+   "name": "Paul Appleton",
+   "short": "Appleton",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 125,
+   "tp": 109,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 60,
+    "guard": 54,
+    "speed": 59,
+    "stamina": 60,
+    "guts": 57
+   },
+   "moves": [
+    "ultra-moon",
+    "zigzag-spark",
+    "cyclone",
+    "echo-ball"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Paul Appleton"
+  },
+  {
+   "id": "eric-purpleton",
+   "name": "Eric Purpleton",
+   "short": "Purpleton",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 116,
+   "stats": {
+    "kick": 65,
+    "body": 63,
+    "control": 52,
+    "guard": 55,
+    "speed": 64,
+    "stamina": 51,
+    "guts": 55
+   },
+   "moves": [
+    "paladin-strike",
+    "snake-shot",
+    "reflect-buster",
+    "lightning-accel"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Eric Purpleton"
+  },
+  {
+   "id": "edgar-partinus",
+   "name": "Edgar Partinus",
+   "short": "Partinus",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 119,
+   "stats": {
+    "kick": 96,
+    "body": 71,
+    "control": 58,
+    "guard": 47,
+    "speed": 57,
+    "stamina": 48,
+    "guts": 57
+   },
+   "moves": [
+    "excalibur",
+    "paladin-strike",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Edgar Valtinas",
+   "description": "He's a calm and brave leader. He's popular, and always gives his best."
+  },
+  {
+   "id": "phillip-owen",
+   "name": "Phillip Owen",
+   "short": "Owen",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 121,
+   "stats": {
+    "kick": 90,
+    "body": 44,
+    "control": 52,
+    "guard": 50,
+    "speed": 68,
+    "stamina": 60,
+    "guts": 63
+   },
+   "moves": [
+    "paladin-strike",
+    "illusion-ball",
+    "lightning-accel",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Philip Owen"
+  },
+  {
+   "id": "servilius-jeeves",
+   "name": "Servilius Jeeves",
+   "short": "Jeeves",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 136,
+   "stats": {
+    "kick": 43,
+    "body": 57,
+    "control": 68,
+    "guard": 69,
+    "speed": 62,
+    "stamina": 56,
+    "guts": 48
+   },
+   "moves": [
+    "galatyn",
+    "killer-blade",
+    "drill-smasher",
+    "excalibur"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gareth Barrett"
+  },
+  {
+   "id": "martin-squall",
+   "name": "Martin Squall",
+   "short": "Squall",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 105,
+   "tp": 109,
+   "stats": {
+    "kick": 51,
+    "body": 48,
+    "control": 69,
+    "guard": 56,
+    "speed": 62,
+    "stamina": 34,
+    "guts": 62
+   },
+   "moves": [
+    "dash-accel",
+    "ultra-moon",
+    "fake-bomber",
+    "unicorn-boost"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Martin Squall"
+  },
+  {
+   "id": "nick-woodgate",
+   "name": "Nick Woodgate",
+   "short": "Woodgate",
+   "number": 14,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 114,
+   "stats": {
+    "kick": 67,
+    "body": 59,
+    "control": 51,
+    "guard": 54,
+    "speed": 51,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "lightning-accel",
+    "paladin-strike",
+    "magic",
+    "ganymede-proton"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nick Woodgate",
+   "description": "He's seriously thinking about opening a school for wizards."
+  },
+  {
+   "id": "mikey-richards",
+   "name": "Mikey Richards",
+   "short": "Richards",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 130,
+   "tp": 122,
+   "stats": {
+    "kick": 55,
+    "body": 53,
+    "control": 69,
+    "guard": 51,
+    "speed": 71,
+    "stamina": 60,
+    "guts": 51
+   },
+   "moves": [
+    "ultra-moon",
+    "kage-nui",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mikey Richards"
+  },
+  {
+   "id": "sirius-pounding",
+   "name": "Sirius Pounding",
+   "short": "Pounding",
+   "number": 16,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 137,
+   "tp": 107,
+   "stats": {
+    "kick": 65,
+    "body": 62,
+    "control": 44,
+    "guard": 43,
+    "speed": 56,
+    "stamina": 64,
+    "guts": 66
+   },
+   "moves": [
+    "stone-prison",
+    "toumei-feint",
+    "god-hand",
+    "flash-upper"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Beat Smash",
+   "description": "This player's rugby experience makes him prone to committing handballs."
+  }
+ ]
+}

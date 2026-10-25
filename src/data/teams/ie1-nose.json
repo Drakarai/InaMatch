@@ -1,0 +1,527 @@
+{
+ "id": "ie1-nose",
+ "season": "ie1",
+ "name": "Instituto Wild",
+ "short": "NOS",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-wild-park",
+ "players": [
+  {
+   "id": "charlie-boardfield",
+   "name": "Charlie Boardfield",
+   "short": "Charlie",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 217,
+   "tp": 100,
+   "stats": {
+    "kick": 68,
+    "body": 44,
+    "control": 44,
+    "guard": 69,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 69
+   },
+   "moves": [
+    "wild-claw",
+    "earthquake",
+    "bakuretsu-punch",
+    "super-armadillo"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Inokuchi Hyougo",
+   "description": "He runs at the ball like a boar to truffles."
+  },
+  {
+   "id": "wilson-fishman",
+   "name": "Wilson Fishman",
+   "short": "Wilson",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 113,
+   "stats": {
+    "kick": 52,
+    "body": 64,
+    "control": 51,
+    "guard": 51,
+    "speed": 51,
+    "stamina": 62,
+    "guts": 51
+   },
+   "moves": [
+    "quick-draw",
+    "spinning-cut",
+    "tamanori-pierrot",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Uozumi Takuto",
+   "description": "An expert on marine life, but can't swim. Often skips swimming classes."
+  },
+  {
+   "id": "peter-johnson",
+   "name": "Peter Johnson",
+   "short": "Peter",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 109,
+   "stats": {
+    "kick": 48,
+    "body": 52,
+    "control": 48,
+    "guard": 48,
+    "speed": 54,
+    "stamina": 57,
+    "guts": 50
+   },
+   "moves": [
+    "killer-slide",
+    "dash-accel",
+    "fake-ball",
+    "rolling-kick"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kaeruda Tatsuhito",
+   "description": "Superb at jumping. His room is full of frog-related goods."
+  },
+  {
+   "id": "leonard-o-shea",
+   "name": "Leonard O'Shea",
+   "short": "Leonard",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 195,
+   "tp": 113,
+   "stats": {
+    "kick": 78,
+    "body": 52,
+    "control": 47,
+    "guard": 64,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 68
+   },
+   "moves": [
+    "super-armadillo",
+    "horn-train",
+    "counterstrike",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shishiou Kou",
+   "description": "He doesn't take any backchat and guards his title as Wild's king."
+  },
+  {
+   "id": "hugo-tallgeese",
+   "name": "Hugo Tallgeese",
+   "short": "Hugo",
+   "number": 2,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 189,
+   "tp": 101,
+   "stats": {
+    "kick": 44,
+    "body": 52,
+    "control": 56,
+    "guard": 46,
+    "speed": 64,
+    "stamina": 67,
+    "guts": 54
+   },
+   "moves": [
+    "dash-accel",
+    "hawk-shot",
+    "kamaitachi",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Torii Ryouta",
+   "description": "Charges repeatedly, just like a stubborn rooster pecking around."
+  },
+  {
+   "id": "cham-lion",
+   "name": "Cham Lion",
+   "short": "Cham",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 101,
+   "stats": {
+    "kick": 44,
+    "body": 45,
+    "control": 45,
+    "guard": 55,
+    "speed": 53,
+    "stamina": 60,
+    "guts": 48
+   },
+   "moves": [
+    "quick-draw",
+    "zanzou",
+    "ushiro-no-shoumen",
+    "kamikakushi"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kame Leon",
+   "description": "He is able to steal the ball before opponents know he is even there."
+  },
+  {
+   "id": "steve-eagle",
+   "name": "Steve Eagle",
+   "short": "Steve",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 193,
+   "tp": 148,
+   "stats": {
+    "kick": 61,
+    "body": 68,
+    "control": 62,
+    "guard": 52,
+    "speed": 68,
+    "stamina": 71,
+    "guts": 68
+   },
+   "moves": [
+    "condor-dive",
+    "hawk-shot",
+    "illusion-ball",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Oowashi Seiji",
+   "description": "He catches opponents' movements with his eagle-eyes."
+  },
+  {
+   "id": "bruce-monkey",
+   "name": "Bruce Monkey",
+   "short": "Bruce",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 184,
+   "tp": 100,
+   "stats": {
+    "kick": 54,
+    "body": 64,
+    "control": 51,
+    "guard": 48,
+    "speed": 53,
+    "stamina": 52,
+    "guts": 54
+   },
+   "moves": [
+    "monkey-turn",
+    "tarzan-kick",
+    "coil-turn",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Saruta Noboru",
+   "description": "He may be small, but his acrobatics put his opponents to shame."
+  },
+  {
+   "id": "gary-lancaster",
+   "name": "Gary Lancaster",
+   "short": "Gary",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 66,
+    "control": 49,
+    "guard": 64,
+    "speed": 54,
+    "stamina": 52,
+    "guts": 67
+   },
+   "moves": [
+    "tarzan-kick",
+    "super-armadillo",
+    "gorimuchuu",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gori Shingo",
+   "description": "Beats the ball into the goal with his ape-like size and strength."
+  },
+  {
+   "id": "harry-snake",
+   "name": "Harry Snake",
+   "short": "Harry",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 184,
+   "tp": 112,
+   "stats": {
+    "kick": 55,
+    "body": 63,
+    "control": 62,
+    "guard": 49,
+    "speed": 55,
+    "stamina": 65,
+    "guts": 45
+   },
+   "moves": [
+    "snake-shot",
+    "zigzag-spark",
+    "cross-drive",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hebimaru Shouma",
+   "description": "Once he has the ball wrapped up, he doesn't release it."
+  },
+  {
+   "id": "adrian-speed",
+   "name": "Adrian Speed",
+   "short": "Adrian",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 195,
+   "tp": 133,
+   "stats": {
+    "kick": 63,
+    "body": 47,
+    "control": 69,
+    "guard": 55,
+    "speed": 79,
+    "stamina": 42,
+    "guts": 47
+   },
+   "moves": [
+    "tarzan-kick",
+    "dash-accel",
+    "dynamite-shoot",
+    "bunshin-shoot"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Suizenji Chiita",
+   "description": "Capable of charging down opponents at over 10 m/s."
+  },
+  {
+   "id": "alan-coe",
+   "name": "Alan Coe",
+   "short": "Alan",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 112,
+   "stats": {
+    "kick": 52,
+    "body": 45,
+    "control": 53,
+    "guard": 51,
+    "speed": 48,
+    "stamina": 46,
+    "guts": 49
+   },
+   "moves": [
+    "tarzan-kick",
+    "monkey-turn",
+    "run-ball-run",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Koara Noboru",
+   "description": "He feels more at home in the trees than on the ground."
+  },
+  {
+   "id": "philip-anders",
+   "name": "Philip Anders",
+   "short": "Philip",
+   "number": 13,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 123,
+   "tp": 132,
+   "stats": {
+    "kick": 52,
+    "body": 51,
+    "control": 48,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 46
+   },
+   "moves": [
+    "killer-slide",
+    "tamanori-pierrot",
+    "kung-fu-head",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Pan Takeo",
+   "description": "Appears kind and handsome at first glance, but has a brutal character."
+  },
+  {
+   "id": "rocky-rackham",
+   "name": "Rocky Rackham",
+   "short": "Rocky",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 121,
+   "stats": {
+    "kick": 53,
+    "body": 53,
+    "control": 53,
+    "guard": 44,
+    "speed": 51,
+    "stamina": 44,
+    "guts": 47
+   },
+   "moves": [
+    "super-armadillo",
+    "grenade-shot",
+    "horn-train",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Araigawa Kumami",
+   "description": "Appreciates good food, even if it has come straight out of the bin!"
+  },
+  {
+   "id": "matt-mouseman",
+   "name": "Matt Mouseman",
+   "short": "Matt",
+   "number": 15,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 158,
+   "tp": 112,
+   "stats": {
+    "kick": 42,
+    "body": 50,
+    "control": 52,
+    "guard": 44,
+    "speed": 79,
+    "stamina": 54,
+    "guts": 45
+   },
+   "moves": [
+    "fake-ball",
+    "gorimuchuu",
+    "kamikakushi",
+    "zanzou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Nezu Mitsuo",
+   "description": "Loves cheese. Even eats smelly blue cheeses that others leave behind!"
+  },
+  {
+   "id": "chad-bullford",
+   "name": "Chad Bullford",
+   "short": "Chad",
+   "number": 16,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 171,
+   "tp": 174,
+   "stats": {
+    "kick": 41,
+    "body": 68,
+    "control": 48,
+    "guard": 77,
+    "speed": 31,
+    "stamina": 51,
+    "guts": 64
+   },
+   "moves": [
+    "horn-train",
+    "toughness-block",
+    "wild-claw",
+    "shikofumi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ushio Kuuya",
+   "description": "A complete glutton who goes into a rage if he runs out of food."
+  }
+ ]
+}

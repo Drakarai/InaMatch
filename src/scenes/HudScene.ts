@@ -132,8 +132,8 @@ export class HudScene extends Phaser.Scene {
     this.add.image(x + w - 70, 60, texKey.emblem(away.id)).setDisplaySize(52, 52);
     g.fillStyle(hex(home.colors.accent)).fillRect(x + 14, 96, w / 2 - 22, 26);
     g.fillStyle(hex(away.colors.accent)).fillRect(x + w / 2 + 8, 96, w / 2 - 22, 26);
-    text(this, x + w / 4 + 2, 109, home.name, 15).setOrigin(0.5);
-    text(this, x + (3 * w) / 4 - 2, 109, away.name, 15).setOrigin(0.5);
+    fitWidth(text(this, x + w / 4 + 2, 109, home.name, 15).setOrigin(0.5), w / 2 - 30, 10);
+    fitWidth(text(this, x + (3 * w) / 4 - 2, 109, away.name, 15).setOrigin(0.5), w / 2 - 30, 10);
     // leds
     g.fillStyle(0x0b0d12).fillRoundedRect(x + 24, 130, w / 2 - 46, 84, 6);
     g.fillStyle(0x0b0d12).fillRoundedRect(x + w / 2 + 22, 130, w / 2 - 46, 84, 6);
@@ -578,11 +578,19 @@ export class HudScene extends Phaser.Scene {
     c.add(g);
     c.add(text(this, FIELD_VIEW.w / 2, 200, 'Final del partido', 36, '#ffe28a').setOrigin(0.5));
     c.add(text(this, FIELD_VIEW.w / 2, 300, `${a}  -  ${b}`, 72).setOrigin(0.5));
-    c.add(text(this, FIELD_VIEW.w / 2 - 170, 300, home.name, 20).setOrigin(0.5));
-    c.add(text(this, FIELD_VIEW.w / 2 + 170, 300, away.name, 20).setOrigin(0.5));
+    const wrap = { align: 'center', wordWrap: { width: 150 } };
+    c.add(fitWidth(text(this, FIELD_VIEW.w / 2 - 190, 300, home.name, 20, '#ffffff', wrap).setOrigin(0.5), 150, 14));
+    c.add(fitWidth(text(this, FIELD_VIEW.w / 2 + 190, 300, away.name, 20, '#ffffff', wrap).setOrigin(0.5), 150, 14));
     const verdict = a > b ? '¡Victoria!' : a < b ? 'Derrota...' : 'Empate';
     c.add(text(this, FIELD_VIEW.w / 2, 380, verdict, 30, a > b ? '#7dff9a' : a < b ? '#ff8a8a' : '#ffffff').setOrigin(0.5));
     c.add(new Button(this, FIELD_VIEW.w / 2 - 130, 480, 'Revancha', onRematch, { w: 220, h: 54 }));
     c.add(new Button(this, FIELD_VIEW.w / 2 + 130, 480, 'Menú', onMenu, { w: 220, h: 54, color: 0x51647d }));
   }
+}
+
+/** Reduce el tamaño de letra hasta que el texto quepa en `maxW` (sin bajar de `minSize`). */
+function fitWidth(t: Phaser.GameObjects.Text, maxW: number, minSize: number): Phaser.GameObjects.Text {
+  let size = parseInt(String(t.style.fontSize), 10);
+  while (t.width > maxW && size > minSize) t.setFontSize(--size);
+  return t;
 }

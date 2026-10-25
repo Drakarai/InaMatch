@@ -1,0 +1,527 @@
+{
+ "id": "ie1-senbayama",
+ "season": "ie1",
+ "name": "Instituto Farm",
+ "short": "SNB",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-4-5-1",
+ "players": [
+  {
+   "id": "albert-green",
+   "name": "Albert Green",
+   "short": "Albert",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 169,
+   "tp": 109,
+   "stats": {
+    "kick": 50,
+    "body": 53,
+    "control": 60,
+    "guard": 73,
+    "speed": 53,
+    "stamina": 64,
+    "guts": 77
+   },
+   "moves": [
+    "makiwari-chop",
+    "kogarashi",
+    "mugen-no-kabe",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ayano Yuuichi",
+   "description": "Loves pickles and gets cranky, if he can't eat them at every meal."
+  },
+  {
+   "id": "seward-hayseed",
+   "name": "Seward Hayseed",
+   "short": "Seward",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 128,
+   "stats": {
+    "kick": 42,
+    "body": 56,
+    "control": 52,
+    "guard": 77,
+    "speed": 58,
+    "stamina": 68,
+    "guts": 61
+   },
+   "moves": [
+    "ushiro-no-shoumen",
+    "kung-fu-head",
+    "tatsumaki-senpuu",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sumino Eisuke",
+   "description": "Follows his nan's instructions to bath in front of the fire, even now."
+  },
+  {
+   "id": "kent-work",
+   "name": "Kent Work",
+   "short": "Kent",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 171,
+   "tp": 109,
+   "stats": {
+    "kick": 44,
+    "body": 57,
+    "control": 54,
+    "guard": 70,
+    "speed": 54,
+    "stamina": 65,
+    "guts": 60
+   },
+   "moves": [
+    "ushiro-no-shoumen",
+    "kagome-kagome",
+    "shippuu-dash",
+    "kung-fu-head"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Serizawa Kazunori",
+   "description": "He prefers a toolbox to a regular bag at school, so stands out a lot."
+  },
+  {
+   "id": "mark-hillvalley",
+   "name": "Mark Hillvalley",
+   "short": "Mark",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 187,
+   "tp": 108,
+   "stats": {
+    "kick": 40,
+    "body": 56,
+    "control": 52,
+    "guard": 79,
+    "speed": 63,
+    "stamina": 66,
+    "guts": 53
+   },
+   "moves": [
+    "harvest",
+    "jigoku-guruma",
+    "shikofumi",
+    "mugen-no-kabe"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Makiya Hiroshi",
+   "description": "A true farm-boy, he gets up early feed the cows and chickens."
+  },
+  {
+   "id": "herb-sherman",
+   "name": "Herb Sherman",
+   "short": "Herb",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 176,
+   "tp": 116,
+   "stats": {
+    "kick": 49,
+    "body": 60,
+    "control": 62,
+    "guard": 79,
+    "speed": 52,
+    "stamina": 70,
+    "guts": 56
+   },
+   "moves": [
+    "harvest",
+    "grenade-shot",
+    "ushiro-no-shoumen",
+    "mugen-no-kabe"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shiotani Hiro",
+   "description": "Who needs a mobile? His family just got a fine rotary-dial house phone."
+  },
+  {
+   "id": "joe-small",
+   "name": "Joe Small",
+   "short": "Joe",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 178,
+   "tp": 100,
+   "stats": {
+    "kick": 40,
+    "body": 54,
+    "control": 54,
+    "guard": 68,
+    "speed": 56,
+    "stamina": 63,
+    "guts": 56
+   },
+   "moves": [
+    "kamaitachi",
+    "harvest",
+    "spinning-cut",
+    "killer-blade"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yamane You",
+   "description": "Maintains his healthy lifestyle by drinking fresh goat milk every day."
+  },
+  {
+   "id": "ike-steiner",
+   "name": "Ike Steiner",
+   "short": "Ike",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 180,
+   "tp": 116,
+   "stats": {
+    "kick": 42,
+    "body": 55,
+    "control": 63,
+    "guard": 76,
+    "speed": 53,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "mogura-feint",
+    "shine-drive",
+    "killer-slide",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ikui Shouji",
+   "description": "He looks after his five brothers while his parents work on the farm."
+  },
+  {
+   "id": "orville-newman",
+   "name": "Orville Newman",
+   "short": "Orville",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 169,
+   "tp": 125,
+   "stats": {
+    "kick": 71,
+    "body": 70,
+    "control": 46,
+    "guard": 72,
+    "speed": 62,
+    "stamina": 66,
+    "guts": 71
+   },
+   "moves": [
+    "kung-fu-head",
+    "kamaitachi",
+    "wild-claw",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oogoi Noboru",
+   "description": "Hones his willpower by standing in a waterfall every morning."
+  },
+  {
+   "id": "tom-walters",
+   "name": "Tom Walters",
+   "short": "Tom",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 104,
+   "stats": {
+    "kick": 63,
+    "body": 58,
+    "control": 52,
+    "guard": 73,
+    "speed": 71,
+    "stamina": 61,
+    "guts": 70
+   },
+   "moves": [
+    "run-ball-run",
+    "tatsumaki-senpuu",
+    "mogura-feint",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Harano Tooru",
+   "description": "A wild child who grew up catching and cooking his own roast chicken."
+  },
+  {
+   "id": "daniel-dawson",
+   "name": "Daniel Dawson",
+   "short": "Daniel",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 108,
+   "stats": {
+    "kick": 57,
+    "body": 55,
+    "control": 56,
+    "guard": 75,
+    "speed": 64,
+    "stamina": 66,
+    "guts": 76
+   },
+   "moves": [
+    "mogura-feint",
+    "run-ball-run",
+    "coil-turn",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Negami Daichi",
+   "description": "Loves being close to nature. Often seen running barefoot in summer."
+  },
+  {
+   "id": "stuart-racoonfur",
+   "name": "Stuart Racoonfur",
+   "short": "Stuart",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 165,
+   "tp": 101,
+   "stats": {
+    "kick": 56,
+    "body": 62,
+    "control": 62,
+    "guard": 74,
+    "speed": 66,
+    "stamina": 63,
+    "guts": 72
+   },
+   "moves": [
+    "shine-drive",
+    "kamaitachi",
+    "shippuu-dash",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tanushimaru Shigeki",
+   "description": "Gets to school by trekking across a whole mountain range every day."
+  },
+  {
+   "id": "lorne-mower",
+   "name": "Lorne Mower",
+   "short": "Lorne",
+   "number": 12,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 189,
+   "tp": 164,
+   "stats": {
+    "kick": 46,
+    "body": 56,
+    "control": 41,
+    "guard": 72,
+    "speed": 62,
+    "stamina": 61,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "ushiro-no-shoumen",
+    "super-armadillo",
+    "kung-fu-head"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kusao Hisashi",
+   "description": "An eccentric type that enjoys plucking grass to chew."
+  },
+  {
+   "id": "homer-grower",
+   "name": "Homer Grower",
+   "short": "Homer",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 187,
+   "tp": 113,
+   "stats": {
+    "kick": 53,
+    "body": 53,
+    "control": 44,
+    "guard": 76,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 61
+   },
+   "moves": [
+    "mogura-feint",
+    "spinning-cut",
+    "ushiro-no-shoumen",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yoneyama Uehito",
+   "description": "Only eats farm produce that he and his family grows."
+  },
+  {
+   "id": "rolf-howells",
+   "name": "Rolf Howells",
+   "short": "Rolf",
+   "number": 14,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 117,
+   "stats": {
+    "kick": 48,
+    "body": 62,
+    "control": 54,
+    "guard": 75,
+    "speed": 54,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "quick-draw",
+    "ushiro-no-shoumen",
+    "monkey-turn",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Inukai Shigeki",
+   "description": "Can speak to dogs. Often seen chasing them through the village."
+  },
+  {
+   "id": "luke-lively",
+   "name": "Luke Lively",
+   "short": "Luke",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 182,
+   "tp": 116,
+   "stats": {
+    "kick": 47,
+    "body": 57,
+    "control": 44,
+    "guard": 73,
+    "speed": 56,
+    "stamina": 63,
+    "guts": 54
+   },
+   "moves": [
+    "shikofumi",
+    "horn-train",
+    "dokugiri-no-jutsu",
+    "harvest"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fukui Sakuhei",
+   "description": "His family is in such rude health that even his great-great-grandmother is alive and kicking."
+  },
+  {
+   "id": "ben-nevis",
+   "name": "Ben Nevis",
+   "short": "Ben",
+   "number": 16,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 195,
+   "tp": 120,
+   "stats": {
+    "kick": 52,
+    "body": 56,
+    "control": 51,
+    "guard": 70,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 53
+   },
+   "moves": [
+    "kamikakushi",
+    "super-scan-df",
+    "tarzan-kick",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fuji Chihiro",
+   "description": "Loves studying wildlife so much, he moved to the deep countryside."
+  }
+ ]
+}

@@ -1,0 +1,522 @@
+{
+ "id": "ie2-shin-teikoku-gakuen",
+ "season": "ie2",
+ "name": "Royal Academy Redux",
+ "short": "STG",
+ "colors": {
+  "shirt": "#2a2a4a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#c8a020",
+  "accent": "#3a3a6a"
+ },
+ "formation": "f-death-zone",
+ "players": [
+  {
+   "id": "joseph-king",
+   "name": "Joseph King",
+   "short": "Joseph",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 153,
+   "stats": {
+    "kick": 72,
+    "body": 75,
+    "control": 69,
+    "guard": 72,
+    "speed": 55,
+    "stamina": 74,
+    "guts": 60
+   },
+   "moves": [
+    "beast-fang",
+    "power-shield",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Genda Koujirou",
+   "description": "There's no angle that the King of Keepers hasn't got covered."
+  },
+  {
+   "id": "rowan-beltzer",
+   "name": "Rowan Beltzer",
+   "short": "Rowan",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 136,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 63,
+    "guard": 60,
+    "speed": 64,
+    "stamina": 69,
+    "guts": 58
+   },
+   "moves": [
+    "cyclone",
+    "double-cyclone",
+    "grenade-shot",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Taiya Rekito",
+   "description": "This sure-footed player stands his ground even on muddiest pitch."
+  },
+  {
+   "id": "blade-healen",
+   "name": "Blade Healen",
+   "short": "Blade",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 136,
+   "stats": {
+    "kick": 53,
+    "body": 56,
+    "control": 70,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 63,
+    "guts": 62
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through-2",
+    "ushiro-no-shoumen",
+    "hitori-one-two"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Iyatani Kengo",
+   "description": "He marks his opponents until they howl with frustration."
+  },
+  {
+   "id": "argie-bargie",
+   "name": "Argie Bargie",
+   "short": "Argie",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 200,
+   "tp": 153,
+   "stats": {
+    "kick": 76,
+    "body": 60,
+    "control": 62,
+    "guard": 64,
+    "speed": 64,
+    "stamina": 79,
+    "guts": 60
+   },
+   "moves": [
+    "horn-train",
+    "tarzan-kick",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gouin Takeshi",
+   "description": "This pushy player is determined to win the ball even if he has to barge players aside."
+  },
+  {
+   "id": "lee-bamboo",
+   "name": "Lee Bamboo",
+   "short": "Lee",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 137,
+   "stats": {
+    "kick": 68,
+    "body": 62,
+    "control": 68,
+    "guard": 69,
+    "speed": 62,
+    "stamina": 59,
+    "guts": 62
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "spinning-cut",
+    "judge-through-2"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Jikuwa Ryou",
+   "description": "He has superior sprinting skills and can turn on a sixpence."
+  },
+  {
+   "id": "dawson-little",
+   "name": "Dawson Little",
+   "short": "Dawson",
+   "number": 14,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 169,
+   "tp": 153,
+   "stats": {
+    "kick": 73,
+    "body": 54,
+    "control": 61,
+    "guard": 54,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 53
+   },
+   "moves": [
+    "quick-draw",
+    "super-scan-df",
+    "zigzag-spark",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shouni Akatsuki",
+   "description": "A man of few words, give him a meaningful glance and he'll know what to do."
+  },
+  {
+   "id": "eton-messer",
+   "name": "Eton Messer",
+   "short": "Eton",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 165,
+   "stats": {
+    "kick": 60,
+    "body": 63,
+    "control": 70,
+    "guard": 52,
+    "speed": 68,
+    "stamina": 56,
+    "guts": 67
+   },
+   "moves": [
+    "hyakuretsu-shot",
+    "super-scan-of",
+    "super-scan-df",
+    "toumei-feint"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Meza Aito",
+   "description": "He tracks his opponents' movements with mind-blowing precision."
+  },
+  {
+   "id": "jonah-spark",
+   "name": "Jonah Spark",
+   "short": "Jonah",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 195,
+   "tp": 156,
+   "stats": {
+    "kick": 62,
+    "body": 64,
+    "control": 61,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 63,
+    "guts": 74
+   },
+   "moves": [
+    "onryou",
+    "illusion-ball",
+    "tatsumaki-dokugiri",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hikara Yoshiteru",
+   "description": "Bizarrely, he never needs to drink water, no matter how hard he exercises."
+  },
+  {
+   "id": "sue-sparrow",
+   "name": "Sue Sparrow",
+   "short": "Sue",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 164,
+   "stats": {
+    "kick": 57,
+    "body": 63,
+    "control": 64,
+    "guard": 54,
+    "speed": 62,
+    "stamina": 59,
+    "guts": 60
+   },
+   "moves": [
+    "back-tornado",
+    "cyclone",
+    "dokugiri-no-jutsu",
+    "bunshin-feint"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Takanashi Shinobu",
+   "description": "Royal Academy Redux's genius playmaker is the queen of the midfield."
+  },
+  {
+   "id": "riley-jamm",
+   "name": "Riley Jamm",
+   "short": "Riley",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 129,
+   "stats": {
+    "kick": 70,
+    "body": 55,
+    "control": 64,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "hyakuretsu-shot",
+    "judge-through",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hie Ryousuke",
+   "description": "His slippery movements confound, confuse and confuddle his opponents."
+  },
+  {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 193,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 78,
+    "guard": 66,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 71
+   },
+   "moves": [
+    "koutei-penguin-1gou",
+    "judge-through",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "He supports the team as a strategist, coordinating the other players."
+  },
+  {
+   "id": "caleb-stonewall",
+   "name": "Caleb Stonewall",
+   "short": "Caleb",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 182,
+   "tp": 169,
+   "stats": {
+    "kick": 75,
+    "body": 60,
+    "control": 78,
+    "guard": 60,
+    "speed": 64,
+    "stamina": 66,
+    "guts": 69
+   },
+   "moves": [
+    "triple-boost",
+    "judge-through-2",
+    "killer-slide"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fudou Akio",
+   "description": "His aggressive play can knock the stuffing out of even the fiercest players."
+  },
+  {
+   "id": "jimbo-cellar",
+   "name": "Jimbo Cellar",
+   "short": "Jimbo",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 165,
+   "tp": 149,
+   "stats": {
+    "kick": 52,
+    "body": 76,
+    "control": 56,
+    "guard": 72,
+    "speed": 54,
+    "stamina": 63,
+    "guts": 68
+   },
+   "moves": [
+    "killer-slide",
+    "shoot-pocket",
+    "full-power-shield",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Katakura Jion",
+   "description": "He baffles his opponents by using strange fencing techniques."
+  },
+  {
+   "id": "zenn-wildhorse",
+   "name": "Zenn Wildhorse",
+   "short": "Zenn",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 137,
+   "stats": {
+    "kick": 60,
+    "body": 57,
+    "control": 61,
+    "guard": 61,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 64
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "phantom-shoot",
+    "back-tornado",
+    "armadillo-circus"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Souma Zenki",
+   "description": "A wizard with the ball who unnerves opponents with his gymnastic moves."
+  },
+  {
+   "id": "cosimo-beck",
+   "name": "Cosimo Beck",
+   "short": "Cosimo",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 132,
+   "stats": {
+    "kick": 59,
+    "body": 52,
+    "control": 63,
+    "guard": 60,
+    "speed": 61,
+    "stamina": 52,
+    "guts": 68
+   },
+   "moves": [
+    "dash-accel",
+    "moonsault",
+    "dokonjou-bat",
+    "dokonjou-club"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Bekki Kousuke",
+   "description": "He dabbled in all sorts of sports before finally settling on football."
+  },
+  {
+   "id": "maston-color",
+   "name": "Maston Color",
+   "short": "Maston",
+   "number": 16,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 169,
+   "tp": 156,
+   "stats": {
+    "kick": 68,
+    "body": 53,
+    "control": 59,
+    "guard": 64,
+    "speed": 53,
+    "stamina": 66,
+    "guts": 69
+   },
+   "moves": [
+    "magic",
+    "killer-slide",
+    "super-shikofumi",
+    "mogura-feint"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Isshiki Masashi",
+   "description": "He lacks motivation at first, but once he gets going, he gives it his all."
+  }
+ ]
+}

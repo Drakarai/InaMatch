@@ -1,0 +1,365 @@
+{
+ "id": "ie2-gemini-storm",
+ "season": "ie2",
+ "name": "Tormenta de Géminis",
+ "short": "GEM",
+ "colors": {
+  "shirt": "#4a7a3a",
+  "shorts": "#1a2a1a",
+  "gkShirt": "#c8c020",
+  "accent": "#3a6a2a"
+ },
+ "formation": "f-gemini",
+ "players": [
+  {
+   "id": "gordon-star",
+   "name": "Gordon Star",
+   "short": "Gordon",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 202,
+   "tp": 85,
+   "stats": {
+    "kick": 77,
+    "body": 68,
+    "control": 58,
+    "guard": 67,
+    "speed": 58,
+    "stamina": 76,
+    "guts": 59
+   },
+   "moves": [
+    "black-hole",
+    "earthquake",
+    "drill-smasher"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Goryuu Reo",
+   "description": "This sturdy keeper boasts that he could even stop a meteorite."
+  },
+  {
+   "id": "connor-shuttle",
+   "name": "Connor Shuttle",
+   "short": "Connor",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 73,
+   "stats": {
+    "kick": 53,
+    "body": 57,
+    "control": 76,
+    "guard": 63,
+    "speed": 79,
+    "stamina": 56,
+    "guts": 56
+   },
+   "moves": [
+    "asteroid-belt",
+    "moonsault",
+    "photon-flash",
+    "procyon-net"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sango Yoshirou",
+   "description": "It's impossible to guess what he's thinking or predict his next move."
+  },
+  {
+   "id": "jim-landing",
+   "name": "Jim Landing",
+   "short": "Jim",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 147,
+   "tp": 97,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 69,
+    "guard": 67,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 55
+   },
+   "moves": [
+    "gravitation",
+    "super-shikofumi",
+    "warp-drive"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kikuma Shousuke",
+   "description": "Always angry about something, he uses his pent-up rage to power himself."
+  },
+  {
+   "id": "grant-icewater",
+   "name": "Grant Icewater",
+   "short": "Grant",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 189,
+   "tp": 81,
+   "stats": {
+    "kick": 64,
+    "body": 68,
+    "control": 67,
+    "guard": 58,
+    "speed": 69,
+    "stamina": 68,
+    "guts": 56
+   },
+   "moves": [
+    "gravitation",
+    "psycho-shot",
+    "heavy-baby",
+    "ganymede-proton"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kanime Iderou",
+   "description": "Claims he used to be devastatingly handsome in his youth, but no one believes him."
+  },
+  {
+   "id": "charles-riverboat",
+   "name": "Charles Riverboat",
+   "short": "Charles",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 167,
+   "tp": 88,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 57,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 52,
+    "guts": 70
+   },
+   "moves": [
+    "photon-flash",
+    "cyclone",
+    "astro-break",
+    "asteroid-belt"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Karoku Satori",
+   "description": "His hellish gaze demoralises anyone who makes eye contact."
+  },
+  {
+   "id": "jordan-greenway",
+   "name": "Jordan Greenway",
+   "short": "Jordan",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 173,
+   "tp": 89,
+   "stats": {
+    "kick": 63,
+    "body": 63,
+    "control": 73,
+    "guard": 61,
+    "speed": 68,
+    "stamina": 51,
+    "guts": 71
+   },
+   "moves": [
+    "astro-break",
+    "warp-drive",
+    "universe-blast",
+    "gaia-break"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Midorikawa Ryuuji",
+   "description": "A cold-hearted youth who thinks that those who lose are worthless."
+  },
+  {
+   "id": "pat-box",
+   "name": "Pat Box",
+   "short": "Pat",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 81,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 76,
+    "guard": 54,
+    "speed": 66,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "gravitation",
+    "warp-drive",
+    "wormhole",
+    "jikuu-no-kabe"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kinki Nozomi",
+   "description": "There is a strange rumour that she brings calamity on her opponents."
+  },
+  {
+   "id": "gregory-saturn",
+   "name": "Gregory Saturn",
+   "short": "Gregory",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 176,
+   "tp": 96,
+   "stats": {
+    "kick": 56,
+    "body": 66,
+    "control": 52,
+    "guard": 69,
+    "speed": 57,
+    "stamina": 67,
+    "guts": 65
+   },
+   "moves": [
+    "warp-drive",
+    "magic",
+    "doppelganger",
+    "gungnir"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Omotsuki Sora",
+   "description": "Even his friends are put out by his epic standoffishness."
+  },
+  {
+   "id": "izzy-jupiter",
+   "name": "Izzy Jupiter",
+   "short": "Izzy",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 76,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 66,
+    "guard": 69,
+    "speed": 73,
+    "stamina": 67,
+    "guts": 63
+   },
+   "moves": [
+    "warp-drive",
+    "gravitation",
+    "dynamite-shoot",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Io Shuntarou",
+   "description": "Wild animals? Venomous snakes? No problem. Just get those ladybirds away from him!"
+  },
+  {
+   "id": "rhona-countdown",
+   "name": "Rhona Countdown",
+   "short": "Rhona",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 121,
+   "tp": 72,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 72,
+    "guard": 61,
+    "speed": 68,
+    "stamina": 63,
+    "guts": 57
+   },
+   "moves": [
+    "universe-blast",
+    "phantom-shoot",
+    "warp-drive",
+    "space-penguin"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nanakaze Rimu",
+   "description": "A cruel girl who will attack any weakness she sees in her opponents."
+  },
+  {
+   "id": "dylan-bluemoon",
+   "name": "Dylan Bluemoon",
+   "short": "Dylan",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 97,
+   "stats": {
+    "kick": 79,
+    "body": 69,
+    "control": 68,
+    "guard": 61,
+    "speed": 52,
+    "stamina": 67,
+    "guts": 52
+   },
+   "moves": [
+    "astro-break",
+    "warp-drive",
+    "asteroid-belt",
+    "universe-blast"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Miura Hiromu",
+   "description": "He's hoping to meet an opponent who'll surprise him with their skills."
+  }
+ ]
+}

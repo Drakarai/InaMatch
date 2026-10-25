@@ -1,0 +1,527 @@
+{
+ "id": "ie1-inazuma-eleven",
+ "season": "ie1",
+ "name": "Inazuma Eleven",
+ "short": "INE",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#2a5fc0",
+  "gkShirt": "#e8892b",
+  "accent": "#c89a10"
+ },
+ "formation": "f-death-zone",
+ "players": [
+  {
+   "id": "seymour-hillman",
+   "name": "Seymour Hillman",
+   "short": "Seymour",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 215,
+   "tp": 185,
+   "stats": {
+    "kick": 70,
+    "body": 68,
+    "control": 64,
+    "guard": 71,
+    "speed": 68,
+    "stamina": 75,
+    "guts": 72
+   },
+   "moves": [
+    "god-hand",
+    "bakuretsu-punch",
+    "majin-the-hand",
+    "inazuma-break"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hibiki Seigou",
+   "description": "A restaurant owner and erstwhile leader of the Inazuma Eleven."
+  },
+  {
+   "id": "charles-island",
+   "name": "Charles Island",
+   "short": "Charles",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 215,
+   "tp": 172,
+   "stats": {
+    "kick": 71,
+    "body": 79,
+    "control": 71,
+    "guard": 68,
+    "speed": 69,
+    "stamina": 63,
+    "guts": 64
+   },
+   "moves": [
+    "cyclone",
+    "zigzag-spark",
+    "psycho-shot",
+    "inazuma-otoshi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ukishima Kazuto",
+   "description": "Rumour has it that this mysterious older man is someone special."
+  },
+  {
+   "id": "garret-hairtown",
+   "name": "Garret Hairtown",
+   "short": "Garret",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 202,
+   "tp": 173,
+   "stats": {
+    "kick": 70,
+    "body": 65,
+    "control": 65,
+    "guard": 62,
+    "speed": 73,
+    "stamina": 60,
+    "guts": 71
+   },
+   "moves": [
+    "spinning-cut",
+    "honoo-no-kazamidori",
+    "kung-fu-head",
+    "snake-shot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kamimura Kirito",
+   "description": "A hair salon owner who instinctively gives players a crew-cut."
+  },
+  {
+   "id": "arthur-sweet",
+   "name": "Arthur Sweet",
+   "short": "Arthur",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 156,
+   "stats": {
+    "kick": 74,
+    "body": 75,
+    "control": 66,
+    "guard": 65,
+    "speed": 65,
+    "stamina": 68,
+    "guts": 61
+   },
+   "moves": [
+    "cyclone",
+    "dragon-crash",
+    "dokonjou-bat",
+    "dragon-tornado"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aida Chikara",
+   "description": "A dependable man who looks after his whole neighbourhood."
+  },
+  {
+   "id": "slot-machines",
+   "name": "Slot MacHines",
+   "short": "Slot",
+   "number": 15,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 213,
+   "tp": 173,
+   "stats": {
+    "kick": 68,
+    "body": 68,
+    "control": 75,
+    "guard": 71,
+    "speed": 76,
+    "stamina": 68,
+    "guts": 73
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "ushiro-no-shoumen",
+    "dokugiri-no-jutsu"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kakeyama Ryuu",
+   "description": "A compulsive gambler known to play high-stakes on football matches."
+  },
+  {
+   "id": "bill-steakspear",
+   "name": "Bill Steakspear",
+   "short": "Bill",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 173,
+   "stats": {
+    "kick": 62,
+    "body": 75,
+    "control": 78,
+    "guard": 68,
+    "speed": 68,
+    "stamina": 67,
+    "guts": 68
+   },
+   "moves": [
+    "zigzag-spark",
+    "coil-turn",
+    "horn-train",
+    "killer-blade"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Atsuta Nao",
+   "description": "This steakhouse owner restores his strength with char-grilled meat."
+  },
+  {
+   "id": "peter-mildred",
+   "name": "Peter Mildred",
+   "short": "Peter",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 215,
+   "tp": 184,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 69,
+    "guard": 70,
+    "speed": 74,
+    "stamina": 69,
+    "guts": 78
+   },
+   "moves": [
+    "blade-attack",
+    "super-scan-df",
+    "grenade-shot",
+    "bunshin-feint"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Batora Manabu",
+   "description": "The Raimon family butler has looked after Nelly since she was born."
+  },
+  {
+   "id": "josh-nathaniel",
+   "name": "Josh Nathaniel",
+   "short": "Josh",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 209,
+   "tp": 172,
+   "stats": {
+    "kick": 64,
+    "body": 73,
+    "control": 73,
+    "guard": 75,
+    "speed": 71,
+    "stamina": 66,
+    "guts": 65
+   },
+   "moves": [
+    "zigzag-spark",
+    "dokonjou-bat",
+    "blade-attack",
+    "rocket-kobushi"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nakama You",
+   "description": "Likes a regular life and working for a regular company."
+  },
+  {
+   "id": "edward-gladstone",
+   "name": "Edward Gladstone",
+   "short": "Edward",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 187,
+   "tp": 177,
+   "stats": {
+    "kick": 68,
+    "body": 66,
+    "control": 68,
+    "guard": 60,
+    "speed": 72,
+    "stamina": 63,
+    "guts": 69
+   },
+   "moves": [
+    "cross-drive",
+    "spinning-cut",
+    "twin-boost",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ikari Gengorou",
+   "description": "Always shouting \"How rude!\" at people wherever he goes."
+  },
+  {
+   "id": "joseph-yosemite",
+   "name": "Joseph Yosemite",
+   "short": "Joseph",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 189,
+   "stats": {
+    "kick": 62,
+    "body": 72,
+    "control": 72,
+    "guard": 76,
+    "speed": 65,
+    "stamina": 62,
+    "guts": 65
+   },
+   "moves": [
+    "phantom-shoot",
+    "inazuma-otoshi",
+    "quick-draw",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tamiyama You",
+   "description": "A café owner who dreamt about being a singer when he was younger."
+  },
+  {
+   "id": "constant-builder",
+   "name": "Constant Builder",
+   "short": "Constant",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 173,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 64,
+    "guard": 60,
+    "speed": 63,
+    "stamina": 77,
+    "guts": 64
+   },
+   "moves": [
+    "the-wall",
+    "fire-tornado",
+    "heat-tackle",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Biruda Kouichi",
+   "description": "A personal trainer whose body is 20 years younger than his age."
+  },
+  {
+   "id": "tyler-thomas",
+   "name": "Tyler Thomas",
+   "short": "Tyler",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 200,
+   "tp": 197,
+   "stats": {
+    "kick": 73,
+    "body": 72,
+    "control": 76,
+    "guard": 76,
+    "speed": 79,
+    "stamina": 72,
+    "guts": 70
+   },
+   "moves": [
+    "magic",
+    "cross-drive",
+    "shoot-pocket",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Teira Tamotsu",
+   "description": "A bespoke tailor who believes only in fitted suits."
+  },
+  {
+   "id": "ian-suffolk",
+   "name": "Ian Suffolk",
+   "short": "Ian",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 209,
+   "tp": 172,
+   "stats": {
+    "kick": 71,
+    "body": 68,
+    "control": 70,
+    "guard": 69,
+    "speed": 77,
+    "stamina": 68,
+    "guts": 68
+   },
+   "moves": [
+    "zigzag-spark",
+    "dynamite-shoot",
+    "judge-through",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sugata Iwao",
+   "description": "A student guidance teacher who used to need guidance himself."
+  },
+  {
+   "id": "ted-poe",
+   "name": "Ted Poe",
+   "short": "Ted",
+   "number": 12,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 217,
+   "tp": 173,
+   "stats": {
+    "kick": 64,
+    "body": 68,
+    "control": 79,
+    "guard": 70,
+    "speed": 69,
+    "stamina": 64,
+    "guts": 69
+   },
+   "moves": [
+    "blade-attack",
+    "noroi",
+    "super-scan-of",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kunikida Haito",
+   "description": "A uni prof who uses such difficult words, nobody can understand him."
+  },
+  {
+   "id": "marshall-heart",
+   "name": "Marshall Heart",
+   "short": "Marshall",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 209,
+   "tp": 181,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 66,
+    "guard": 63,
+    "speed": 72,
+    "stamina": 65,
+    "guts": 64
+   },
+   "moves": [
+    "blade-attack",
+    "kung-fu-head",
+    "bunshin-shoot",
+    "makiwari-chop"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Michiba Ryouji",
+   "description": "A martial arts teacher known for breaking down his opponents."
+  },
+  {
+   "id": "dom-foreman",
+   "name": "Dom Foreman",
+   "short": "Dom",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 149,
+   "stats": {
+    "kick": 76,
+    "body": 72,
+    "control": 64,
+    "guard": 64,
+    "speed": 68,
+    "stamina": 72,
+    "guts": 70
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "tsuchi-daruma",
+    "mogura-feint",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tsuchimori Kouji",
+   "description": "A council worker supervisor who trains for matches by working."
+  }
+ ]
+}

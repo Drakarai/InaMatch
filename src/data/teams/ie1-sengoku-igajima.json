@@ -1,0 +1,527 @@
+{
+ "id": "ie1-sengoku-igajima",
+ "season": "ie1",
+ "name": "Instituto Shuriken",
+ "short": "SEN",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-kakuyoku-no-jin",
+ "players": [
+  {
+   "id": "morgan-sanders",
+   "name": "Morgan Sanders",
+   "short": "Morgan",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 164,
+   "stats": {
+    "kick": 53,
+    "body": 59,
+    "control": 44,
+    "guard": 64,
+    "speed": 52,
+    "stamina": 55,
+    "guts": 62
+   },
+   "moves": [
+    "tsumuji",
+    "bunshin-feint",
+    "bunshin-shoot",
+    "yugamu-kuukan"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Momochi Santa",
+   "description": "Reputed as a top keeper, but won't reveal his face even to his team."
+  },
+  {
+   "id": "newton-flust",
+   "name": "Newton Flust",
+   "short": "Newton",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 169,
+   "tp": 129,
+   "stats": {
+    "kick": 62,
+    "body": 61,
+    "control": 56,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 63
+   },
+   "moves": [
+    "kage-nui",
+    "bunshin-feint",
+    "gorimuchuu",
+    "tsuchi-daruma"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fujibayashi Nagato",
+   "description": "A professional marksman who can shoot a flea off a dog at 100m."
+  },
+  {
+   "id": "jim-hillfort",
+   "name": "Jim Hillfort",
+   "short": "Jim",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 141,
+   "stats": {
+    "kick": 55,
+    "body": 62,
+    "control": 60,
+    "guard": 53,
+    "speed": 54,
+    "stamina": 63,
+    "guts": 61
+   },
+   "moves": [
+    "zanzou",
+    "kumo-no-ito",
+    "kage-nui",
+    "bunshin-shoot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kousaka Jin",
+   "description": "Gets sick very easily, so he's never had a chance to shine."
+  },
+  {
+   "id": "galen-thunderbird",
+   "name": "Galen Thunderbird",
+   "short": "Galen",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 145,
+   "tp": 153,
+   "stats": {
+    "kick": 63,
+    "body": 60,
+    "control": 63,
+    "guard": 62,
+    "speed": 54,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "shikofumi",
+    "dokugiri-no-jutsu",
+    "kage-nui",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Jiraiya Gamasuke",
+   "description": "Swears by frog oil for every injury and swabs it on anyone hurt."
+  },
+  {
+   "id": "finn-stoned",
+   "name": "Finn Stoned",
+   "short": "Finn",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 151,
+   "tp": 149,
+   "stats": {
+    "kick": 54,
+    "body": 53,
+    "control": 57,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 58,
+    "guts": 63
+   },
+   "moves": [
+    "shikofumi",
+    "kage-nui",
+    "fake-ball",
+    "mogura-feint"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ishikawa Goeta",
+   "description": "He'll steal anything and only cares about getting rich."
+  },
+  {
+   "id": "phil-wingate",
+   "name": "Phil Wingate",
+   "short": "Phil",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 176,
+   "tp": 152,
+   "stats": {
+    "kick": 60,
+    "body": 56,
+    "control": 60,
+    "guard": 57,
+    "speed": 54,
+    "stamina": 68,
+    "guts": 61
+   },
+   "moves": [
+    "kumo-no-ito",
+    "zanzou",
+    "kamaitachi",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Fuuma Koheita",
+   "description": "Gives orders using code words that only his team understands."
+  },
+  {
+   "id": "jez-shell",
+   "name": "Jez Shell",
+   "short": "Jez",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 156,
+   "tp": 133,
+   "stats": {
+    "kick": 53,
+    "body": 63,
+    "control": 59,
+    "guard": 56,
+    "speed": 47,
+    "stamina": 65,
+    "guts": 60
+   },
+   "moves": [
+    "bunshin-feint",
+    "phantom-shoot",
+    "doppelganger",
+    "bunshin-shoot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kouga Gen",
+   "description": "An able ninja, skilled in using smoke screens to hide his movements."
+  },
+  {
+   "id": "jupiter-jumper",
+   "name": "Jupiter Jumper",
+   "short": "Jupiter",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 140,
+   "stats": {
+    "kick": 56,
+    "body": 61,
+    "control": 53,
+    "guard": 56,
+    "speed": 69,
+    "stamina": 68,
+    "guts": 59
+   },
+   "moves": [
+    "monkey-turn",
+    "tsuchi-daruma",
+    "zanzou",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sarutobi Sanosuke",
+   "description": "Climbs like a cat and always lands on his feet."
+  },
+  {
+   "id": "hank-sullivan",
+   "name": "Hank Sullivan",
+   "short": "Hank",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 140,
+   "tp": 140,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 59,
+    "guard": 44,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "zanzou",
+    "bunshin-shoot",
+    "shippuu-dash",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hatsutori Hanzou",
+   "description": "Prefers coordination to solo runs, hence known as the team's keyman."
+  },
+  {
+   "id": "sam-samurai",
+   "name": "Sam Samurai",
+   "short": "Sam",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 160,
+   "tp": 176,
+   "stats": {
+    "kick": 60,
+    "body": 60,
+    "control": 60,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 53
+   },
+   "moves": [
+    "bunshin-shoot",
+    "quick-draw",
+    "kage-nui",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yagyuu Juurou",
+   "description": "A master swordsman who uses an eye patch to handicap himself."
+  },
+  {
+   "id": "sail-bluesea",
+   "name": "Sail Bluesea",
+   "short": "Sail",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 180,
+   "tp": 180,
+   "stats": {
+    "kick": 52,
+    "body": 61,
+    "control": 61,
+    "guard": 54,
+    "speed": 60,
+    "stamina": 68,
+    "guts": 55
+   },
+   "moves": [
+    "tsuchi-daruma",
+    "dokugiri-no-jutsu",
+    "zanzou",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kirigakure Saiji",
+   "description": "Sometimes forgets football rules in favour of his ninja techniques."
+  },
+  {
+   "id": "john-reynolds",
+   "name": "John Reynolds",
+   "short": "John",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 137,
+   "stats": {
+    "kick": 62,
+    "body": 56,
+    "control": 56,
+    "guard": 53,
+    "speed": 60,
+    "stamina": 54,
+    "guts": 57
+   },
+   "moves": [
+    "dynamite-shoot",
+    "shippuu-dash",
+    "bunshin-shoot",
+    "zanzou"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hachiya Yasaburou",
+   "description": "He used to be a violent ronin, but found calm through football."
+  },
+  {
+   "id": "dan-hopper",
+   "name": "Dan Hopper",
+   "short": "Dan",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 145,
+   "tp": 136,
+   "stats": {
+    "kick": 52,
+    "body": 58,
+    "control": 62,
+    "guard": 62,
+    "speed": 55,
+    "stamina": 61,
+    "guts": 54
+   },
+   "moves": [
+    "shikofumi",
+    "condor-dive",
+    "meteor-attack",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Katou Dan",
+   "description": "A super jumper, but the higher he goes, the more likely he is to miss."
+  },
+  {
+   "id": "cal-trops",
+   "name": "Cal Trops",
+   "short": "Cal",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 145,
+   "tp": 144,
+   "stats": {
+    "kick": 58,
+    "body": 61,
+    "control": 69,
+    "guard": 55,
+    "speed": 59,
+    "stamina": 57,
+    "guts": 54
+   },
+   "moves": [
+    "hawk-shot",
+    "twin-boost",
+    "harvest",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ideura Kiyomori",
+   "description": "He possesses fine ability, but excels at being a team player."
+  },
+  {
+   "id": "winston-falls",
+   "name": "Winston Falls",
+   "short": "Winston",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 132,
+   "stats": {
+    "kick": 56,
+    "body": 56,
+    "control": 52,
+    "guard": 63,
+    "speed": 64,
+    "stamina": 55,
+    "guts": 62
+   },
+   "moves": [
+    "doppelganger",
+    "zanzou",
+    "kumo-no-ito",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Takigawa Kazuma",
+   "description": "Puts his ninja experience to use before every match as a spy."
+  },
+  {
+   "id": "kevin-castle",
+   "name": "Kevin Castle",
+   "short": "Kevin",
+   "number": 16,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 156,
+   "tp": 132,
+   "stats": {
+    "kick": 53,
+    "body": 60,
+    "control": 52,
+    "guard": 68,
+    "speed": 52,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "coil-turn",
+    "onryou",
+    "power-shield",
+    "tsumuji"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kido Yamon",
+   "description": "Skilled at marking opponents and surrounds them until they give up."
+  }
+ ]
+}

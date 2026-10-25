@@ -1,0 +1,519 @@
+{
+ "id": "ie2-oumihara",
+ "season": "ie2",
+ "name": "Instituto Mary Times",
+ "short": "OUM",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-basic",
+ "players": [
+  {
+   "id": "rocky-black",
+   "name": "Rocky Black",
+   "short": "Rocky",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 204,
+   "tp": 104,
+   "stats": {
+    "kick": 76,
+    "body": 72,
+    "control": 52,
+    "guard": 76,
+    "speed": 50,
+    "stamina": 72,
+    "guts": 72
+   },
+   "moves": [
+    "chabudai-gaeshi",
+    "tsunami-wall",
+    "wild-claw"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shuri Iwao"
+  },
+  {
+   "id": "chad-taylor",
+   "name": "Chad Taylor",
+   "short": "Chad",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 140,
+   "stats": {
+    "kick": 61,
+    "body": 55,
+    "control": 60,
+    "guard": 53,
+    "speed": 58,
+    "stamina": 61,
+    "guts": 57
+   },
+   "moves": [
+    "coil-turn",
+    "tatsumaki-senpuu",
+    "moonsault",
+    "fake-bomber"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Taira Moguru",
+   "description": "This master diver can descend to depths of over a hundred metres without an air tank."
+  },
+  {
+   "id": "victor-hills",
+   "name": "Victor Hills",
+   "short": "Victor",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 140,
+   "stats": {
+    "kick": 68,
+    "body": 61,
+    "control": 64,
+    "guard": 71,
+    "speed": 52,
+    "stamina": 60,
+    "guts": 68
+   },
+   "moves": [
+    "no-escape",
+    "toughness-block",
+    "power-shield",
+    "shikofumi"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gibo Kanekatsu",
+   "description": "He cleans up his local beaches every day by picking up rubbish."
+  },
+  {
+   "id": "hurley-kane",
+   "name": "Hurley Kane",
+   "short": "Hurley",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 145,
+   "stats": {
+    "kick": 72,
+    "body": 70,
+    "control": 71,
+    "guard": 73,
+    "speed": 71,
+    "stamina": 71,
+    "guts": 65
+   },
+   "moves": [
+    "tsunami-boost",
+    "spinning-cut",
+    "whale-guard"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsunami Jousuke"
+  },
+  {
+   "id": "hector-redding",
+   "name": "Hector Redding",
+   "short": "Hector",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 145,
+   "tp": 145,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 63,
+    "guard": 54,
+    "speed": 56,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "killer-slide",
+    "heat-tackle",
+    "pressure-punch",
+    "fake-bomber"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Akamine Hiroaki"
+  },
+  {
+   "id": "mackenzie-fordline",
+   "name": "Mackenzie Fordline",
+   "short": "Mackenzie",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 156,
+   "stats": {
+    "kick": 60,
+    "body": 57,
+    "control": 53,
+    "guard": 56,
+    "speed": 61,
+    "stamina": 53,
+    "guts": 60
+   },
+   "moves": [
+    "phantom-shoot",
+    "blade-attack",
+    "judge-through",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Toguchi Masahiro",
+   "description": "He swears by goat milk, though those around him complain of the smell."
+  },
+  {
+   "id": "cadence-soundtown",
+   "name": "Cadence Soundtown",
+   "short": "Cadence",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 173,
+   "tp": 149,
+   "stats": {
+    "kick": 61,
+    "body": 56,
+    "control": 62,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 60
+   },
+   "moves": [
+    "flame-dance",
+    "fuusen-gum",
+    "super-scan-df",
+    "mogura-shuffle"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Otomura Gakuya",
+   "description": "He has an irritating habit of humming the last song he heard all day long."
+  },
+  {
+   "id": "dora-delight",
+   "name": "Dora Delight",
+   "short": "Dora",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 173,
+   "tp": 109,
+   "stats": {
+    "kick": 59,
+    "body": 60,
+    "control": 53,
+    "guard": 55,
+    "speed": 52,
+    "stamina": 59,
+    "guts": 60
+   },
+   "moves": [
+    "fuusen-gum",
+    "flame-dance",
+    "armadillo-circus"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kyan Rinka",
+   "description": "She has an extensive collection of seashells and knows the name of almost all of them."
+  },
+  {
+   "id": "tom-contented",
+   "name": "Tom Contented",
+   "short": "Tom",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 160,
+   "tp": 141,
+   "stats": {
+    "kick": 64,
+    "body": 60,
+    "control": 69,
+    "guard": 52,
+    "speed": 54,
+    "stamina": 59,
+    "guts": 59
+   },
+   "moves": [
+    "eagle-buster",
+    "hawk-shot",
+    "abisegeri",
+    "monkey-turn"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Koja Hidenori",
+   "description": "He likes being fashionably late and is always an hour later than anyone else."
+  },
+  {
+   "id": "joston-easton",
+   "name": "Joston Easton",
+   "short": "Joston",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 164,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 60,
+    "guard": 66,
+    "speed": 68,
+    "stamina": 64,
+    "guts": 55
+   },
+   "moves": [
+    "triple-dash",
+    "tamanori-pierrot",
+    "fuusen-gum",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Agarie Yasuo",
+   "description": "He has an impressive repertoire of chat-up lines the for girls visiting from the mainland."
+  },
+  {
+   "id": "spring-millpond",
+   "name": "Spring Millpond",
+   "short": "Spring",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 209,
+   "tp": 129,
+   "stats": {
+    "kick": 59,
+    "body": 63,
+    "control": 76,
+    "guard": 60,
+    "speed": 77,
+    "stamina": 57,
+    "guts": 55
+   },
+   "moves": [
+    "shine-drive",
+    "zigzag-spark",
+    "cross-drive",
+    "eagle-buster"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ikemiyagi Haru",
+   "description": "Attacks the ball like a shark and won't let go once it's in his grasp."
+  },
+  {
+   "id": "gaston-cooley",
+   "name": "Gaston Cooley",
+   "short": "Gaston",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 173,
+   "tp": 137,
+   "stats": {
+    "kick": 57,
+    "body": 63,
+    "control": 52,
+    "guard": 64,
+    "speed": 59,
+    "stamina": 59,
+    "guts": 66
+   },
+   "moves": [
+    "swan-dive",
+    "tatsumaki-senpuu",
+    "kogarashi",
+    "tsunami-wall"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Amuro Mikio",
+   "description": "He was born in Okinawa but can't stand the heat, so constantly uses air conditioning."
+  },
+  {
+   "id": "bevan-breakfast",
+   "name": "Bevan Breakfast",
+   "short": "Bevan",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 113,
+   "stats": {
+    "kick": 58,
+    "body": 66,
+    "control": 71,
+    "guard": 62,
+    "speed": 61,
+    "stamina": 52,
+    "guts": 70
+   },
+   "moves": [
+    "monkey-turn",
+    "ushiro-no-shoumen",
+    "tsuchi-daruma",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Oyadomari Nagase"
+  },
+  {
+   "id": "jack-griddle",
+   "name": "Jack Griddle",
+   "short": "Jack",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 140,
+   "stats": {
+    "kick": 60,
+    "body": 53,
+    "control": 58,
+    "guard": 56,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "tarzan-kick",
+    "condor-dive",
+    "gorimuchuu",
+    "mogura-shuffle"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zukeran Reito",
+   "description": "He needs to eat meat to be at full power. Any meat will do."
+  },
+  {
+   "id": "stan-andagi",
+   "name": "Stan Andagi",
+   "short": "Stan",
+   "number": 15,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 162,
+   "tp": 120,
+   "stats": {
+    "kick": 65,
+    "body": 52,
+    "control": 58,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 69
+   },
+   "moves": [
+    "shikofumi",
+    "super-armadillo",
+    "earthquake",
+    "volcano-cut"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Chinen Naoki"
+  },
+  {
+   "id": "coral-talent",
+   "name": "Coral Talent",
+   "short": "Coral",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 151,
+   "tp": 157,
+   "stats": {
+    "kick": 63,
+    "body": 52,
+    "control": 57,
+    "guard": 63,
+    "speed": 65,
+    "stamina": 58,
+    "guts": 60
+   },
+   "moves": [
+    "hyakuretsu-shot",
+    "hitori-one-two",
+    "shine-drive",
+    "butterfly-dream"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jahana Sango",
+   "description": "Tourists love the jewellery she makes out of coral."
+  }
+ ]
+}

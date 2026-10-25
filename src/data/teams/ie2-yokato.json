@@ -1,0 +1,556 @@
+{
+ "id": "ie2-yokato",
+ "season": "ie2",
+ "name": "Instituto Fauxshore",
+ "short": "YOK",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-aegis",
+ "players": [
+  {
+   "id": "darren-lachance",
+   "name": "Darren LaChance",
+   "short": "Darren",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 217,
+   "tp": 157,
+   "stats": {
+    "kick": 60,
+    "body": 76,
+    "control": 66,
+    "guard": 79,
+    "speed": 56,
+    "stamina": 71,
+    "guts": 64
+   },
+   "moves": [
+    "god-hand-wood",
+    "oouchiwa",
+    "majin-the-hand-wood",
+    "mugen-the-hand"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tachimukai Yuuki",
+   "description": "This keeper has always looked up to Mark as a role model, but he's strong in his own right."
+  },
+  {
+   "id": "drancis-fake",
+   "name": "Drancis Fake",
+   "short": "Drancis",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 162,
+   "tp": 160,
+   "stats": {
+    "kick": 55,
+    "body": 56,
+    "control": 60,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "block-circus",
+    "coil-turn",
+    "oouchiwa"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Chikushi Kunimitsu",
+   "description": "An international exchange student who knows all about the world."
+  },
+  {
+   "id": "mick-mishap",
+   "name": "Mick Mishap",
+   "short": "Mick",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 160,
+   "tp": 136,
+   "stats": {
+    "kick": 60,
+    "body": 60,
+    "control": 53,
+    "guard": 60,
+    "speed": 59,
+    "stamina": 66,
+    "guts": 60
+   },
+   "moves": [
+    "shooting-star",
+    "horn-train",
+    "shippuu-dash",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oohori Michitoshi",
+   "description": "He likes boating in the park in his free time, but has nobody to row with."
+  },
+  {
+   "id": "louis-leave",
+   "name": "Louis Leave",
+   "short": "Louis",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 191,
+   "tp": 129,
+   "stats": {
+    "kick": 69,
+    "body": 63,
+    "control": 60,
+    "guard": 70,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 52
+   },
+   "moves": [
+    "dokonjou-club",
+    "horn-train",
+    "heat-tackle",
+    "fake-bomber"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Genkai Namito",
+   "description": "This defender's thunderous tackles come thick and fast."
+  },
+  {
+   "id": "maurice-badgame",
+   "name": "Maurice Badgame",
+   "short": "Maurice",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 206,
+   "tp": 133,
+   "stats": {
+    "kick": 73,
+    "body": 66,
+    "control": 52,
+    "guard": 60,
+    "speed": 57,
+    "stamina": 65,
+    "guts": 71
+   },
+   "moves": [
+    "the-wall",
+    "oouchiwa",
+    "makiwari-chop",
+    "chabudai-gaeshi"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ishiyama Morihito",
+   "description": "He aspires to be a world-class defender and create an impregnable defensive wall."
+  },
+  {
+   "id": "dany-destiny",
+   "name": "Dany Destiny",
+   "short": "Dany",
+   "number": 8,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 202,
+   "tp": 149,
+   "stats": {
+    "kick": 54,
+    "body": 61,
+    "control": 62,
+    "guard": 54,
+    "speed": 60,
+    "stamina": 68,
+    "guts": 62
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "ushiro-no-shoumen",
+    "volcano-cut",
+    "oouchiwa"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kasayama Sou",
+   "description": "Wild horses wouldn't keep this lad from joining in the town's summer festival."
+  },
+  {
+   "id": "cannon-random",
+   "name": "Cannon Random",
+   "short": "Cannon",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 169,
+   "tp": 148,
+   "stats": {
+    "kick": 53,
+    "body": 62,
+    "control": 60,
+    "guard": 53,
+    "speed": 68,
+    "stamina": 63,
+    "guts": 55
+   },
+   "moves": [
+    "quick-draw",
+    "armadillo-circus",
+    "nekketsu-head",
+    "kaenhousha"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Shika Kaneaki",
+   "description": "His family's garden is a treasure trove of priceless antique artefacts."
+  },
+  {
+   "id": "ulric-richmen",
+   "name": "Ulric Richmen",
+   "short": "Ulric",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 133,
+   "stats": {
+    "kick": 62,
+    "body": 61,
+    "control": 59,
+    "guard": 55,
+    "speed": 57,
+    "stamina": 61,
+    "guts": 58
+   },
+   "moves": [
+    "snake-shot",
+    "block-circus",
+    "tsuchi-daruma",
+    "tkachev-bomber"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Michihata Utau",
+   "description": "He busks on the street at weekends to cheer up passers-by."
+  },
+  {
+   "id": "spencer-duskplay",
+   "name": "Spencer Duskplay",
+   "short": "Spencer",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 140,
+   "stats": {
+    "kick": 77,
+    "body": 52,
+    "control": 62,
+    "guard": 57,
+    "speed": 52,
+    "stamina": 64,
+    "guts": 63
+   },
+   "moves": [
+    "double-grenade",
+    "magic",
+    "oouchiwa",
+    "dokonjou-club"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kuroda Yarimichi",
+   "description": "He lives a straightforward life and hates things not being in order."
+  },
+  {
+   "id": "dave-fate",
+   "name": "Dave Fate",
+   "short": "Dave",
+   "number": 8,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 136,
+   "stats": {
+    "kick": 54,
+    "body": 64,
+    "control": 54,
+    "guard": 56,
+    "speed": 70,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "shikofumi",
+    "oouchiwa",
+    "super-shikofumi"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Matsurida Wasshoi",
+   "description": "Everyday's a parade for this fun-loving festive fellow."
+  },
+  {
+   "id": "jonathan-luckyman",
+   "name": "Jonathan Luckyman",
+   "short": "Jonathan",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 173,
+   "tp": 149,
+   "stats": {
+    "kick": 65,
+    "body": 62,
+    "control": 62,
+    "guard": 71,
+    "speed": 69,
+    "stamina": 61,
+    "guts": 64
+   },
+   "moves": [
+    "rainbow-loop",
+    "ninin-sankyaku",
+    "dynamite-shoot"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Toda Yuuichirou",
+   "description": "Eats offal hotpot every day, which he claims is ideal football fuel."
+  },
+  {
+   "id": "joe-poker",
+   "name": "Joe Poker",
+   "short": "Joe",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 63,
+    "guard": 55,
+    "speed": 67,
+    "stamina": 55,
+    "guts": 64
+   },
+   "moves": [
+    "dokonjou-bat",
+    "oouchiwa",
+    "meteor-attack",
+    "ninin-sankyaku"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Matsubayashi Yuu",
+   "description": "He's fearless even when up against a stronger or more experienced side."
+  },
+  {
+   "id": "wiley-cracker",
+   "name": "Wiley Cracker",
+   "short": "Wiley",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 140,
+   "stats": {
+    "kick": 52,
+    "body": 64,
+    "control": 56,
+    "guard": 66,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 56
+   },
+   "moves": [
+    "toughness-block",
+    "nekketsu-punch",
+    "dokonjou-catch",
+    "counterstrike"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Niwaka Yoshitomo",
+   "description": "He has a limitless supply of corny jokes that invariably go down like lead balloons."
+  },
+  {
+   "id": "mark-failing",
+   "name": "Mark Failing",
+   "short": "Mark",
+   "number": 13,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 145,
+   "tp": 133,
+   "stats": {
+    "kick": 61,
+    "body": 61,
+    "control": 56,
+    "guard": 57,
+    "speed": 54,
+    "stamina": 54,
+    "guts": 55
+   },
+   "moves": [
+    "fuusen-gum",
+    "grenade-shot",
+    "dynamite-shoot",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Oyatomi Takashi",
+   "description": "He's now mending his ways after his woeful grades reduced his parents to tears."
+  },
+  {
+   "id": "alton-cotts",
+   "name": "Alton Cotts",
+   "short": "Alton",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 171,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 68,
+    "control": 62,
+    "guard": 71,
+    "speed": 54,
+    "stamina": 68,
+    "guts": 71
+   },
+   "moves": [
+    "grenade-shot",
+    "horn-train",
+    "rainbow-loop",
+    "fake-bomber"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nagahama Hosomichi",
+   "description": "This hungry fellow is always first in line for second helpings. And thirds."
+  },
+  {
+   "id": "mike-passing",
+   "name": "Mike Passing",
+   "short": "Mike",
+   "number": 15,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 141,
+   "stats": {
+    "kick": 52,
+    "body": 56,
+    "control": 71,
+    "guard": 57,
+    "speed": 68,
+    "stamina": 57,
+    "guts": 63
+   },
+   "moves": [
+    "spiral-shot",
+    "kurukuru-head",
+    "twin-boost",
+    "ninin-sankyaku"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Dazai Umekichi",
+   "description": "Though he never studies, he always seems to breeze through tests."
+  },
+  {
+   "id": "knowle-bathers",
+   "name": "Knowle Bathers",
+   "short": "Knowle",
+   "number": 16,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 138,
+   "tp": 140,
+   "stats": {
+    "kick": 52,
+    "body": 64,
+    "control": 46,
+    "guard": 66,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 56
+   },
+   "moves": [
+    "power-shield",
+    "nekketsu-head",
+    "spinning-cut",
+    "shooting-star"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Okinoshima Sou",
+   "description": "He goes for a wash before matches by skinny-dipping in the sea."
+  }
+ ]
+}

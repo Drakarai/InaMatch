@@ -1,0 +1,373 @@
+{
+ "id": "ie2-dark-emperors",
+ "season": "ie2",
+ "name": "Emperadores Oscuros",
+ "short": "DAR",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#5a1a1a",
+  "gkShirt": "#8a8a8a",
+  "accent": "#6a1a2a"
+ },
+ "formation": "f-d-emperor",
+ "players": [
+  {
+   "id": "thomas-feldt",
+   "name": "Thomas Feldt",
+   "short": "Thomas",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 206,
+   "tp": 177,
+   "stats": {
+    "kick": 75,
+    "body": 69,
+    "control": 68,
+    "guard": 76,
+    "speed": 75,
+    "stamina": 78,
+    "guts": 76
+   },
+   "moves": [
+    "shoot-pocket",
+    "double-rocket"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sugimori Takeshi",
+   "description": "Brainwashing rendered him of incapable of human emotion, though he can still command loyalty."
+  },
+  {
+   "id": "malcolm-night",
+   "name": "Malcolm Night",
+   "short": "Malcolm",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 209,
+   "tp": 180,
+   "stats": {
+    "kick": 63,
+    "body": 76,
+    "control": 68,
+    "guard": 78,
+    "speed": 67,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "spinning-cut",
+    "triple-boost"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nishigaki Mamoru",
+   "description": "His eye-catching hairstyle makes him look like a famous pro."
+  },
+  {
+   "id": "jim-wraith",
+   "name": "Jim Wraith",
+   "short": "Jim",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 140,
+   "stats": {
+    "kick": 58,
+    "body": 53,
+    "control": 75,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 62,
+    "guts": 60
+   },
+   "moves": [
+    "kage-nui",
+    "kagome-kagome",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kageno Jin",
+   "description": "His ever-present fringe means his eye colour remains a mystery."
+  },
+  {
+   "id": "tod-ironside",
+   "name": "Tod Ironside",
+   "short": "Tod",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 184,
+   "tp": 161,
+   "stats": {
+    "kick": 54,
+    "body": 55,
+    "control": 53,
+    "guard": 56,
+    "speed": 59,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "dokonjou-bat",
+    "monkey-turn"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kurimatsu Teppei",
+   "description": "He may be small, but he's got more spirit than players twice his size."
+  },
+  {
+   "id": "kevin-dragonfly",
+   "name": "Kevin Dragonfly",
+   "short": "Kevin",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 145,
+   "stats": {
+    "kick": 71,
+    "body": 60,
+    "control": 59,
+    "guard": 61,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "dragon-crash",
+    "wyvern-crash"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Someoka Ryuugo",
+   "description": "This goalscoring ace has a commitment as fierce as his facial expression."
+  },
+  {
+   "id": "sam-kincaid",
+   "name": "Sam Kincaid",
+   "short": "Sam",
+   "number": 3,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 167,
+   "tp": 136,
+   "stats": {
+    "kick": 71,
+    "body": 57,
+    "control": 56,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 56,
+    "guts": 76
+   },
+   "moves": [
+    "double-grenade",
+    "judge-through-2"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shishido Sakichi",
+   "description": "His laid-back personality can make him the butt of his team-mates' jokes."
+  },
+  {
+   "id": "steve-grim",
+   "name": "Steve Grim",
+   "short": "Steve",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 154,
+   "tp": 144,
+   "stats": {
+    "kick": 62,
+    "body": 64,
+    "control": 71,
+    "guard": 64,
+    "speed": 71,
+    "stamina": 71,
+    "guts": 71
+   },
+   "moves": [
+    "revolution-v",
+    "mogura-shuffle"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Handa Shinichi",
+   "description": "This jack of all trades may be a master of none, but he's a solid all-rounder."
+  },
+  {
+   "id": "tim-saunders",
+   "name": "Tim Saunders",
+   "short": "Tim",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 156,
+   "tp": 149,
+   "stats": {
+    "kick": 63,
+    "body": 76,
+    "control": 61,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 48,
+    "guts": 58
+   },
+   "moves": [
+    "kung-fu-attack",
+    "shooting-star"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shourinji Ayumu",
+   "description": "Focused kung fu training has given him some very fancy footwork indeed."
+  },
+  {
+   "id": "maxwell-carson",
+   "name": "Maxwell Carson",
+   "short": "Maxwell",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 156,
+   "tp": 160,
+   "stats": {
+    "kick": 60,
+    "body": 56,
+    "control": 78,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 62
+   },
+   "moves": [
+    "revolution-v",
+    "dash-storm"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Matsuno Kuusuke",
+   "description": "Beneath his cute and cuddly exterior lies a multi-talented athlete."
+  },
+  {
+   "id": "shadow-cimmerian",
+   "name": "Shadow Cimmerian",
+   "short": "Shadow",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 176,
+   "stats": {
+    "kick": 60,
+    "body": 74,
+    "control": 68,
+    "guard": 73,
+    "speed": 63,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "dark-tornado",
+    "death-zone",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yamino Kageto",
+   "description": "A soccer soldier born out of darkness, his skills are overwhelming."
+  },
+  {
+   "id": "nathan-swift",
+   "name": "Nathan Swift",
+   "short": "Nathan",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 169,
+   "tp": 156,
+   "stats": {
+    "kick": 64,
+    "body": 58,
+    "control": 68,
+    "guard": 54,
+    "speed": 76,
+    "stamina": 58,
+    "guts": 56
+   },
+   "moves": [
+    "dark-phoenix",
+    "bunshin-feint"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kazemaru Ichirouta",
+   "description": "This fleet-footed defender is a long-standing friend of Mark's."
+  },
+  {
+   "id": "godric-wyles",
+   "name": "Godric Wyles",
+   "short": "Godric",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kenzaki Ryuuichi"
+  }
+ ]
+}

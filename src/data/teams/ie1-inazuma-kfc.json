@@ -1,0 +1,527 @@
+{
+ "id": "ie1-inazuma-kfc",
+ "season": "ie1",
+ "name": "Inazuma Kids FC",
+ "short": "INA",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-death-zone",
+ "players": [
+  {
+   "id": "herman-muller",
+   "name": "Herman Muller",
+   "short": "Herman",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 109,
+   "stats": {
+    "kick": 40,
+    "body": 50,
+    "control": 44,
+    "guard": 47,
+    "speed": 44,
+    "stamina": 46,
+    "guts": 45
+   },
+   "moves": [
+    "pressure-punch",
+    "rocket-kobushi",
+    "fake-ball",
+    "kogarashi"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Munakata Hiroto",
+   "description": "Learnt to play football through playing video games."
+  },
+  {
+   "id": "keth-claus",
+   "name": "Keth Claus",
+   "short": "Keth",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 112,
+   "tp": 84,
+   "stats": {
+    "kick": 41,
+    "body": 41,
+    "control": 48,
+    "guard": 40,
+    "speed": 60,
+    "stamina": 40,
+    "guts": 46
+   },
+   "moves": [
+    "dash-accel",
+    "hyakuretsu-shot",
+    "monkey-turn",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hideyama Kaito",
+   "description": "Used to be a gang leader, but now takes care of his team members."
+  },
+  {
+   "id": "robert-silver",
+   "name": "Robert Silver",
+   "short": "Robert",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 73,
+   "stats": {
+    "kick": 46,
+    "body": 41,
+    "control": 51,
+    "guard": 44,
+    "speed": 41,
+    "stamina": 48,
+    "guts": 44
+   },
+   "moves": [
+    "shippuu-dash",
+    "gorimuchuu",
+    "fake-ball",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kitagaki Ryouta",
+   "description": "He's always dreaming up new pranks, which always gets him into trouble."
+  },
+  {
+   "id": "izzy-island",
+   "name": "Izzy Island",
+   "short": "Izzy",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 136,
+   "tp": 65,
+   "stats": {
+    "kick": 42,
+    "body": 40,
+    "control": 48,
+    "guard": 41,
+    "speed": 41,
+    "stamina": 48,
+    "guts": 44
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "super-scan-of",
+    "super-scan-df",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sejima Itsuki",
+   "description": "Studies football theory. Known for asking adults difficult questions."
+  },
+  {
+   "id": "sothern-newman",
+   "name": "Sothern Newman",
+   "short": "Sothern",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 127,
+   "tp": 60,
+   "stats": {
+    "kick": 45,
+    "body": 44,
+    "control": 48,
+    "guard": 60,
+    "speed": 43,
+    "stamina": 49,
+    "guts": 47
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "pressure-punch",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shintake Souta",
+   "description": "Practises relentlessly, but puts on weight by eating too many snacks."
+  },
+  {
+   "id": "bart-grantham",
+   "name": "Bart Grantham",
+   "short": "Bart",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 101,
+   "tp": 180,
+   "stats": {
+    "kick": 38,
+    "body": 35,
+    "control": 29,
+    "guard": 66,
+    "speed": 28,
+    "stamina": 29,
+    "guts": 64
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "tatsumaki-senpuu",
+    "toughness-block",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ooshima Yuuichi",
+   "description": "Loves aeroplanes and dreams of becoming a pilot one day."
+  },
+  {
+   "id": "irwin-hall",
+   "name": "Irwin Hall",
+   "short": "Irwin",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 69,
+   "stats": {
+    "kick": 40,
+    "body": 48,
+    "control": 51,
+    "guard": 43,
+    "speed": 41,
+    "stamina": 40,
+    "guts": 41
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "gorimuchuu",
+    "shine-drive",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ikejiri Haru",
+   "description": "Worried about his height, he drinks milk daily to make his bones grow."
+  },
+  {
+   "id": "taylor-higgins",
+   "name": "Taylor Higgins",
+   "short": "Taylor",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 134,
+   "tp": 65,
+   "stats": {
+    "kick": 44,
+    "body": 43,
+    "control": 50,
+    "guard": 48,
+    "speed": 40,
+    "stamina": 48,
+    "guts": 40
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "coil-turn",
+    "zigzag-spark",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Terasaka Hibiki",
+   "description": "A mother's boy who always falters if his mum isn't in the crowd."
+  },
+  {
+   "id": "jamie-cool",
+   "name": "Jamie Cool",
+   "short": "Jamie",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 162,
+   "tp": 76,
+   "stats": {
+    "kick": 47,
+    "body": 40,
+    "control": 44,
+    "guard": 48,
+    "speed": 52,
+    "stamina": 52,
+    "guts": 51
+   },
+   "moves": [
+    "hawk-shot",
+    "shippuu-dash",
+    "quick-draw",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kouzu Sora",
+   "description": "Has pride in his speed and often attends athletic meets."
+  },
+  {
+   "id": "hans-randall",
+   "name": "Hans Randall",
+   "short": "Hans",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 169,
+   "tp": 65,
+   "stats": {
+    "kick": 64,
+    "body": 40,
+    "control": 40,
+    "guard": 51,
+    "speed": 48,
+    "stamina": 56,
+    "guts": 44
+   },
+   "moves": [
+    "dash-accel",
+    "suisei-shoot",
+    "zigzag-spark",
+    "dragon-crash"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hazama Ryuusuke",
+   "description": "A rising star who has taken part in the national junior championships."
+  },
+  {
+   "id": "millie-moonlight",
+   "name": "Millie Moonlight",
+   "short": "Millie",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 148,
+   "stats": {
+    "kick": 44,
+    "body": 40,
+    "control": 60,
+    "guard": 42,
+    "speed": 51,
+    "stamina": 40,
+    "guts": 46
+   },
+   "moves": [
+    "suisei-shoot",
+    "tamanori-pierrot",
+    "hawk-shot",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kisaragi Mako",
+   "description": "This team-leading girl is the daughter of a restaurant owner."
+  },
+  {
+   "id": "michael-riverside",
+   "name": "Michael Riverside",
+   "short": "Michael",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 138,
+   "tp": 77,
+   "stats": {
+    "kick": 51,
+    "body": 46,
+    "control": 50,
+    "guard": 49,
+    "speed": 40,
+    "stamina": 43,
+    "guts": 48
+   },
+   "moves": [
+    "dash-accel",
+    "quick-draw",
+    "tarzan-kick",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Morimoto Rikuto",
+   "description": "He became a footballer by copying all of his heroes' moves."
+  },
+  {
+   "id": "karl-blue",
+   "name": "Karl Blue",
+   "short": "Karl",
+   "number": 12,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 114,
+   "tp": 76,
+   "stats": {
+    "kick": 46,
+    "body": 48,
+    "control": 47,
+    "guard": 44,
+    "speed": 51,
+    "stamina": 46,
+    "guts": 48
+   },
+   "moves": [
+    "shippuu-dash",
+    "noroi",
+    "fake-ball",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Aoshima Kaoru",
+   "description": "Likes teasing people, especially if he can knock them down a peg or two."
+  },
+  {
+   "id": "theakston-plank",
+   "name": "Theakston Plank",
+   "short": "Theakston",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 121,
+   "tp": 80,
+   "stats": {
+    "kick": 48,
+    "body": 50,
+    "control": 42,
+    "guard": 45,
+    "speed": 58,
+    "stamina": 41,
+    "guts": 51
+   },
+   "moves": [
+    "suisei-shoot",
+    "tatsumaki-senpuu",
+    "spinning-cut",
+    "kung-fu-head"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Amai Kazuya",
+   "description": "No matter what people say, this kid is two players short of a team."
+  },
+  {
+   "id": "ken-cake",
+   "name": "Ken Cake",
+   "short": "Ken",
+   "number": 14,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 123,
+   "tp": 88,
+   "stats": {
+    "kick": 49,
+    "body": 40,
+    "control": 40,
+    "guard": 40,
+    "speed": 51,
+    "stamina": 49,
+    "guts": 46
+   },
+   "moves": [
+    "spiral-shot",
+    "shikofumi",
+    "horn-train",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hirata Ken",
+   "description": "A cake fiend whose favourite haunt is an all-you-can-eat cake buffet."
+  },
+  {
+   "id": "mitch-grumble",
+   "name": "Mitch Grumble",
+   "short": "Mitch",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 110,
+   "tp": 65,
+   "stats": {
+    "kick": 48,
+    "body": 48,
+    "control": 43,
+    "guard": 48,
+    "speed": 40,
+    "stamina": 46,
+    "guts": 41
+   },
+   "moves": [
+    "illusion-ball",
+    "zigzag-spark",
+    "kamikakushi",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hasebe Seiji",
+   "description": "The runt of a family big enough to make a team of their own."
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { TEAMS, validateTeams } from '../data';
+import { ratingStars, teamRating } from './rating';
 import { SAME_ELEMENT_BONUS, elementMultiplier, hasStab } from '../data/elements';
 import type { MoveData, Stats } from '../data/types';
 import {
@@ -225,5 +226,22 @@ describe('bloqueos de tiro', () => {
 
   it('la CPU nunca deja pasar un tiro', () => {
     expect(cpuChoice([], 'block', 100, fixed(0.99))).toEqual({ type: 'basic', id: 'shotblock' });
+  });
+});
+
+describe('media del equipo', () => {
+  it('las estrellas van de 0,5 a 5 en pasos de media', () => {
+    expect(ratingStars(10)).toBe(0.5);
+    expect(ratingStars(100)).toBe(5);
+    expect(ratingStars(63) * 2).toBe(Math.round(ratingStars(63) * 2));
+    expect(ratingStars(70)).toBeGreaterThan(ratingStars(55));
+  });
+
+  it('todos los equipos tienen una media razonable', () => {
+    for (const t of TEAMS) {
+      const r = teamRating(t);
+      expect(r, t.id).toBeGreaterThan(20);
+      expect(r, t.id).toBeLessThan(120);
+    }
   });
 });

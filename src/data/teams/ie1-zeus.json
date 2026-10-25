@@ -1,0 +1,527 @@
+{
+ "id": "ie1-zeus",
+ "season": "ie1",
+ "name": "Instituto Zeus",
+ "short": "ZEU",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#c8a020",
+  "gkShirt": "#5a8ac8",
+  "accent": "#b89020"
+ },
+ "formation": "f-heaven-s-gate",
+ "players": [
+  {
+   "id": "paul-siddon",
+   "name": "Paul Siddon",
+   "short": "Paul",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 145,
+   "tp": 120,
+   "stats": {
+    "kick": 79,
+    "body": 79,
+    "control": 71,
+    "guard": 79,
+    "speed": 44,
+    "stamina": 74,
+    "guts": 76
+   },
+   "moves": [
+    "tsunami-wall",
+    "gigant-wall",
+    "the-wall",
+    "shikofumi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Posei Donichi",
+   "description": "His fluid, infallible goal-keeping earned him the nickname \"Poseidon\"."
+  },
+  {
+   "id": "apollo-light",
+   "name": "Apollo Light",
+   "short": "Apollo",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 136,
+   "tp": 144,
+   "stats": {
+    "kick": 79,
+    "body": 79,
+    "control": 62,
+    "guard": 73,
+    "speed": 53,
+    "stamina": 48,
+    "guts": 55
+   },
+   "moves": [
+    "sabaki-no-tettsui",
+    "shine-drive",
+    "magic",
+    "dash-storm"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aporo Hikaru",
+   "description": "A bright and friendly student...with a very competitive darker side."
+  },
+  {
+   "id": "jeff-iron",
+   "name": "Jeff Iron",
+   "short": "Jeff",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 171,
+   "tp": 156,
+   "stats": {
+    "kick": 60,
+    "body": 64,
+    "control": 78,
+    "guard": 69,
+    "speed": 70,
+    "stamina": 64,
+    "guts": 62
+   },
+   "moves": [
+    "dash-storm",
+    "psycho-shot",
+    "fire-tornado",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hepai En",
+   "description": "His kicks have the power of an exploding volcano."
+  },
+  {
+   "id": "lane-war",
+   "name": "Lane War",
+   "short": "Lane",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 138,
+   "tp": 153,
+   "stats": {
+    "kick": 71,
+    "body": 79,
+    "control": 70,
+    "guard": 72,
+    "speed": 56,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "sabaki-no-tettsui",
+    "onryou",
+    "judge-through",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Aresu Ran",
+   "description": "He looks shy, but can also charge up the pitch, slaying the opposition."
+  },
+  {
+   "id": "danny-wood",
+   "name": "Danny Wood",
+   "short": "Danny",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 136,
+   "tp": 124,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 66,
+    "guard": 79,
+    "speed": 50,
+    "stamina": 53,
+    "guts": 64
+   },
+   "moves": [
+    "mega-quake",
+    "zigzag-spark",
+    "earthquake",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Deio Geki",
+   "description": "Tends to get totally carried away when he gets excited during a game."
+  },
+  {
+   "id": "artie-mishman",
+   "name": "Artie Mishman",
+   "short": "Artie",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 184,
+   "stats": {
+    "kick": 62,
+    "body": 66,
+    "control": 76,
+    "guard": 67,
+    "speed": 44,
+    "stamina": 45,
+    "guts": 58
+   },
+   "moves": [
+    "heaven-s-time",
+    "divine-arrow",
+    "illusion-ball",
+    "doppelganger"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Arute Saneki",
+   "description": "A midfielder whose shots and passes fly as straight as an arrow."
+  },
+  {
+   "id": "arion-matlock",
+   "name": "Arion Matlock",
+   "short": "Arion",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 69,
+    "control": 69,
+    "guard": 68,
+    "speed": 57,
+    "stamina": 62,
+    "guts": 62
+   },
+   "moves": [
+    "heaven-s-time",
+    "sabaki-no-tettsui",
+    "cyclone",
+    "tsumuji"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Herume Matsuaki",
+   "description": "He analyses every match and never goes in unprepared."
+  },
+  {
+   "id": "wesley-knox",
+   "name": "Wesley Knox",
+   "short": "Wesley",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 187,
+   "tp": 132,
+   "stats": {
+    "kick": 60,
+    "body": 76,
+    "control": 64,
+    "guard": 63,
+    "speed": 71,
+    "stamina": 64,
+    "guts": 77
+   },
+   "moves": [
+    "dash-storm",
+    "reflect-buster",
+    "super-scan-df",
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Atena Tomo",
+   "description": "The brains of Zeus with the experience of winning many matches."
+  },
+  {
+   "id": "byron-love",
+   "name": "Byron Love",
+   "short": "Byron",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 184,
+   "stats": {
+    "kick": 79,
+    "body": 69,
+    "control": 77,
+    "guard": 70,
+    "speed": 72,
+    "stamina": 68,
+    "guts": 67
+   },
+   "moves": [
+    "god-knows",
+    "heaven-s-time",
+    "sabaki-no-tettsui",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Afuro Terumi",
+   "description": "His elegant, artistic style leaves his opponents spellbound."
+  },
+  {
+   "id": "jonas-demetrius",
+   "name": "Jonas Demetrius",
+   "short": "Jonas",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 151,
+   "tp": 149,
+   "stats": {
+    "kick": 77,
+    "body": 64,
+    "control": 79,
+    "guard": 56,
+    "speed": 68,
+    "stamina": 63,
+    "guts": 68
+   },
+   "moves": [
+    "reflect-buster",
+    "dash-storm",
+    "divine-arrow",
+    "horn-train"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Demete Yutaka",
+   "description": "Loves geography. Plays likes he's one with the ground he walks on."
+  },
+  {
+   "id": "gus-heeley",
+   "name": "Gus Heeley",
+   "short": "Gus",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 191,
+   "tp": 165,
+   "stats": {
+    "kick": 78,
+    "body": 69,
+    "control": 61,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 70
+   },
+   "moves": [
+    "noroi",
+    "blade-attack",
+    "sabaki-no-tettsui",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Aki Tamamatsu",
+   "description": "Possesses amazing strength, but succumbs easily to ankle injuries."
+  },
+  {
+   "id": "henry-house",
+   "name": "Henry House",
+   "short": "Henry",
+   "number": 11,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 165,
+   "stats": {
+    "kick": 48,
+    "body": 68,
+    "control": 60,
+    "guard": 67,
+    "speed": 64,
+    "stamina": 70,
+    "guts": 60
+   },
+   "moves": [
+    "divine-arrow",
+    "reflect-buster",
+    "killer-slide",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hera Tadashi",
+   "description": "Prone to envy - hates being caught out by other players or techniques."
+  },
+  {
+   "id": "iggy-russ",
+   "name": "Iggy Russ",
+   "short": "Iggy",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 182,
+   "tp": 149,
+   "stats": {
+    "kick": 71,
+    "body": 67,
+    "control": 66,
+    "guard": 79,
+    "speed": 44,
+    "stamina": 71,
+    "guts": 64
+   },
+   "moves": [
+    "hawk-shot",
+    "tatsumaki-senpuu",
+    "spinning-cut",
+    "heaven-s-time"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ika Michiyuki",
+   "description": "He handles the ball in the air with the grace of a bird in flight."
+  },
+  {
+   "id": "harry-closs",
+   "name": "Harry Closs",
+   "short": "Harry",
+   "number": 14,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 191,
+   "tp": 64,
+   "stats": {
+    "kick": 63,
+    "body": 60,
+    "control": 66,
+    "guard": 79,
+    "speed": 69,
+    "stamina": 71,
+    "guts": 65
+   },
+   "moves": [
+    "shikofumi",
+    "earthquake",
+    "judge-through",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Heraku Resu",
+   "description": "Strong but uncontrollable. Has a soft spot for the ladies."
+  },
+  {
+   "id": "andy-chronic",
+   "name": "Andy Chronic",
+   "short": "Andy",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 48,
+    "body": 66,
+    "control": 62,
+    "guard": 79,
+    "speed": 63,
+    "stamina": 61,
+    "guts": 66
+   },
+   "moves": [
+    "heaven-s-time",
+    "kung-fu-head",
+    "illusion-ball",
+    "dash-accel"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurono Tokio",
+   "description": "Even without a watch, he always knows how much game time remains."
+  },
+  {
+   "id": "ned-yousef",
+   "name": "Ned Yousef",
+   "short": "Ned",
+   "number": 16,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 173,
+   "tp": 152,
+   "stats": {
+    "kick": 69,
+    "body": 78,
+    "control": 79,
+    "guard": 67,
+    "speed": 63,
+    "stamina": 62,
+    "guts": 62
+   },
+   "moves": [
+    "snake-shot",
+    "kumo-no-ito",
+    "jigoku-guruma",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Medo Usa",
+   "description": "His piercing eyes can turn the opposition to stone."
+  }
+ ]
+}

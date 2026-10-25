@@ -35,6 +35,8 @@ export interface PlayerData {
 
 export interface TeamData {
   id: string;
+  /** Temporada (juego) del que sale el equipo: ie1, ie2, ie3... */
+  season?: string;
   name: string;
   short: string;
   colors: {

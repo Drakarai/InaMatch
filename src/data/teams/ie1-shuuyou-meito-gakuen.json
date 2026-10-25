@@ -1,0 +1,526 @@
+{
+ "id": "ie1-shuuyou-meito-gakuen",
+ "season": "ie1",
+ "name": "Instituto Otaku",
+ "short": "SMG",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-super-5",
+ "players": [
+  {
+   "id": "sam-idol",
+   "name": "Sam Idol",
+   "short": "Sam",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 161,
+   "stats": {
+    "kick": 60,
+    "body": 58,
+    "control": 54,
+    "guard": 55,
+    "speed": 58,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "goal-zurashi",
+    "pressure-punch",
+    "toughness-block",
+    "nekketsu-punch"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aidoru Sou",
+   "description": "His hobby is finding the stars of the future before they are famous."
+  },
+  {
+   "id": "marcus-train",
+   "name": "Marcus Train",
+   "short": "Marcus",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 152,
+   "stats": {
+    "kick": 61,
+    "body": 60,
+    "control": 53,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 41,
+    "guts": 54
+   },
+   "moves": [
+    "fake-ball",
+    "psycho-shot",
+    "zigzag-spark",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sujimichi Tetsuo",
+   "description": "Likes model trains and his dream is to have a roomful some day."
+  },
+  {
+   "id": "spencer-gates",
+   "name": "Spencer Gates",
+   "short": "Spencer",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 152,
+   "stats": {
+    "kick": 59,
+    "body": 52,
+    "control": 56,
+    "guard": 58,
+    "speed": 56,
+    "stamina": 40,
+    "guts": 62
+   },
+   "moves": [
+    "dokonjou-bat",
+    "fake-ball",
+    "earthquake",
+    "goal-zurashi"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Karisawa Sou",
+   "description": "Enjoys 'cosplay', but has to make costumes he can't afford to buy."
+  },
+  {
+   "id": "light-nobel",
+   "name": "Light Nobel",
+   "short": "Light",
+   "number": 3,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 164,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 56,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 44,
+    "guts": 61
+   },
+   "moves": [
+    "fake-ball",
+    "dokonjou-bat",
+    "dash-accel",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Noberu Raito",
+   "description": "Enjoys cheesy novels and enters writing competitions every month."
+  },
+  {
+   "id": "walter-valiant",
+   "name": "Walter Valiant",
+   "short": "Walter",
+   "number": 4,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 132,
+   "stats": {
+    "kick": 62,
+    "body": 62,
+    "control": 61,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 50,
+    "guts": 71
+   },
+   "moves": [
+    "fake-ball",
+    "judge-through",
+    "suisei-shoot",
+    "dynamite-shoot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Muteki Hideo"
+  },
+  {
+   "id": "a-woodbridge",
+   "name": "A. Woodbridge",
+   "short": "A.",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 137,
+   "stats": {
+    "kick": 60,
+    "body": 60,
+    "control": 52,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 41,
+    "guts": 66
+   },
+   "moves": [
+    "gorimuchuu",
+    "dokonjou-bat",
+    "coil-turn",
+    "hyakuretsu-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Robo Gouki",
+   "description": "He is passionate about robots. He gets excited when they are on TV."
+  },
+  {
+   "id": "josh-spear",
+   "name": "Josh Spear",
+   "short": "Josh",
+   "number": 6,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 158,
+   "tp": 133,
+   "stats": {
+    "kick": 54,
+    "body": 56,
+    "control": 56,
+    "guard": 62,
+    "speed": 55,
+    "stamina": 44,
+    "guts": 60
+   },
+   "moves": [
+    "gorimuchuu",
+    "onryou",
+    "super-scan-df",
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Onra Itsuki",
+   "description": "Plays online games late at night. He always sleeps in class."
+  },
+  {
+   "id": "gaby-farmer",
+   "name": "Gaby Farmer",
+   "short": "Gaby",
+   "number": 7,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 152,
+   "stats": {
+    "kick": 58,
+    "body": 62,
+    "control": 52,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 47,
+    "guts": 59
+   },
+   "moves": [
+    "judge-through",
+    "gorimuchuu",
+    "cyclone",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Onotomo Haru",
+   "description": "He can make computers all by himself. He has over ten at home."
+  },
+  {
+   "id": "gus-gamer",
+   "name": "Gus Gamer",
+   "short": "Gus",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 173,
+   "tp": 137,
+   "stats": {
+    "kick": 58,
+    "body": 60,
+    "control": 59,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 45,
+    "guts": 69
+   },
+   "moves": [
+    "dokonjou-bat",
+    "gorimuchuu",
+    "fake-ball",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Geimu Konomu",
+   "description": "A total gamer who's always at the front of the queue for any new games."
+  },
+  {
+   "id": "mark-gambling",
+   "name": "Mark Gambling",
+   "short": "Mark",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 149,
+   "stats": {
+    "kick": 52,
+    "body": 56,
+    "control": 58,
+    "guard": 63,
+    "speed": 53,
+    "stamina": 51,
+    "guts": 64
+   },
+   "moves": [
+    "gorimuchuu",
+    "dokonjou-bat",
+    "doppelganger",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Manga Moe",
+   "description": "This year's budding manga artist often gets asked to sign stuff."
+  },
+  {
+   "id": "theodore-master",
+   "name": "Theodore Master",
+   "short": "Theodore",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 152,
+   "stats": {
+    "kick": 57,
+    "body": 57,
+    "control": 55,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 47,
+    "guts": 60
+   },
+   "moves": [
+    "suisei-shoot",
+    "gorimuchuu",
+    "cross-drive",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Akeido Tatsuhito",
+   "description": "Makes a living from winning on arcade machines."
+  },
+  {
+   "id": "ham-signalman",
+   "name": "Ham Signalman",
+   "short": "Ham",
+   "number": 12,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 151,
+   "tp": 137,
+   "stats": {
+    "kick": 54,
+    "body": 56,
+    "control": 55,
+    "guard": 52,
+    "speed": 53,
+    "stamina": 48,
+    "guts": 59
+   },
+   "moves": [
+    "gorimuchuu",
+    "coil-turn",
+    "spinning-cut",
+    "patriot-shoot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kiuchi Tsutomu",
+   "description": "An avid CB radio enthusiast who makes them from spare parts."
+  },
+  {
+   "id": "bill-formby",
+   "name": "Bill Formby",
+   "short": "Bill",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 158,
+   "tp": 137,
+   "stats": {
+    "kick": 54,
+    "body": 58,
+    "control": 61,
+    "guard": 45,
+    "speed": 46,
+    "stamina": 48,
+    "guts": 51
+   },
+   "moves": [
+    "doppelganger",
+    "toughness-block",
+    "kumo-no-ito",
+    "rocket-kobushi"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zoukei Sakuo",
+   "description": "Regarded as better than the pros at model figure making."
+  },
+  {
+   "id": "grant-eldorado",
+   "name": "Grant Eldorado",
+   "short": "Grant",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 144,
+   "stats": {
+    "kick": 49,
+    "body": 63,
+    "control": 61,
+    "guard": 69,
+    "speed": 43,
+    "stamina": 28,
+    "guts": 49
+   },
+   "moves": [
+    "spinning-shoot",
+    "dragon-crash",
+    "horn-train",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Touma Souta",
+   "description": "He always wins fighting games using the least favourite characters."
+  },
+  {
+   "id": "mike-vox",
+   "name": "Mike Vox",
+   "short": "Mike",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 162,
+   "tp": 144,
+   "stats": {
+    "kick": 48,
+    "body": 55,
+    "control": 57,
+    "guard": 51,
+    "speed": 44,
+    "stamina": 50,
+    "guts": 47
+   },
+   "moves": [
+    "fake-ball",
+    "shippuu-dash",
+    "super-scan-df",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Seimo Sakuta",
+   "description": "Loves voice actors and mimics them while listening to their CD's."
+  },
+  {
+   "id": "ollie-webb",
+   "name": "Ollie Webb",
+   "short": "Ollie",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 143,
+   "tp": 141,
+   "stats": {
+    "kick": 44,
+    "body": 62,
+    "control": 54,
+    "guard": 48,
+    "speed": 44,
+    "stamina": 51,
+    "guts": 49
+   },
+   "moves": [
+    "super-scan-df",
+    "noroi",
+    "heat-tackle",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Netto Saguri",
+   "description": "Never learns from getting viruses while browsing the internet."
+  }
+ ]
+}

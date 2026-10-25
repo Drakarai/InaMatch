@@ -1,5 +1,5 @@
 // Gráficos provisionales generados por código. Se usan solo cuando el
-// paquete de sprites (public/assets/pack/) no trae la imagen correspondiente.
+// paquete de sprites (src/assets/pack/) no trae la imagen correspondiente.
 
 import Phaser from 'phaser';
 import { FONT, hex } from '../config';

@@ -52,7 +52,7 @@ src/
   match/           entidad jugador del partido
   scenes/          Boot, Menú, Formación, Partido y HUD (marcador, duelos, radar, animaciones)
   gfx/             gráficos provisionales generados por código
-public/assets/pack carpeta para los sprites originales (ver su README)
+  assets/pack/     sprites originales: se usan con solo ponerles el nombre del jugador
 docs/              notas de referencia del juego original
 ```
 
@@ -70,8 +70,8 @@ El resto son estimaciones que hay que ir corrigiendo con los datos de los juegos
 ## Sprites originales
 
 El juego funciona con gráficos provisionales dibujados por código. Para usar los originales,
-mete las imágenes en `public/assets/pack/` y añádelas a `manifest.json`
-([instrucciones](public/assets/pack/README.md)). No hace falta tocar código.
+mete las imágenes en `src/assets/pack/` con el nombre del jugador (`sprites/axel-blaze.png`…).
+[Instrucciones y lista de nombres](src/assets/pack/README.md). Se incluyen también en `npm run build:single`.
 
 ## Publicarlo gratis (Cloudflare Pages, con el repo privado)
 

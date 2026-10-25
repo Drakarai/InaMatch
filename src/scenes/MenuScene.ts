@@ -101,7 +101,7 @@ export class MenuScene extends Phaser.Scene {
     for (let i = 0; i < 8; i++) g.fillStyle(0x9fd7ff, 0.012).fillEllipse(GAME_W / 2, 150, 500 + i * 110, 90 + i * 22);
     for (let i = 0; i < 12; i++) {
       const x = 200 + i * 80;
-      const y = 84 + Math.abs(i - 5.5) * 6;
+      const y = 74 + Math.abs(i - 5.5) * 3;
       g.fillStyle(0xdfe9ff, 0.08).fillCircle(x, y, 7);
       g.fillStyle(0xffffff, 0.6).fillCircle(x, y, 2);
     }

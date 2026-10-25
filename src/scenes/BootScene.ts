@@ -30,9 +30,10 @@ export class BootScene extends Phaser.Scene {
       const match = path.match(/\/(sprites|portraits|emblems)\/([^/]+)\.\w+$/);
       if (match) this.load.image(KEY_BY_FOLDER[match[1]](match[2].toLowerCase()), url);
     }
-    // pixel art: escalado nítido en vez de borroso
+    // sprites y retratos son pixel art: escalado nítido. Los escudos (los de Victory Road) se suavizan.
     this.load.on(Phaser.Loader.Events.FILE_COMPLETE, (key: string) => {
-      this.textures.get(key).setFilter(Phaser.Textures.FilterMode.NEAREST);
+      const emblem = key.startsWith(texKey.emblem(''));
+      this.textures.get(key).setFilter(emblem ? Phaser.Textures.FilterMode.LINEAR : Phaser.Textures.FilterMode.NEAREST);
     });
   }
 

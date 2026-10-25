@@ -112,8 +112,8 @@ De dónde sale cada cosa:
   `NAME_ES` dentro del script.
 - **Titulares:** portero y las líneas de la formación por orden de dorsal. Si faltan jugadores de una posición, entra el que mejor encaja por atributos.
 
-**Escudos:** `python3 -I tools/wiki/emblems.py` baja el de cada equipo de la wiki (el de los juegos de DS si lo hay)
-a `src/assets/pack/emblems/`. Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
+**Escudos:** `python3 -I tools/wiki/emblems.py` baja el de cada equipo de la wiki (el rehecho para Victory Road si lo hay;
+si no, el de los juegos de DS) a `src/assets/pack/emblems/`. Ya están los 55. Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
 uno provisional con las siglas.
 
 Lo que no viene en la wiki se pone a mano en el script: los colores de los equipos más conocidos (el resto lleva colores

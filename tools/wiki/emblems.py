@@ -1,8 +1,9 @@
 """Descarga el escudo de cada equipo de la wiki inglesa de Inazuma Eleven.
 
-Busca los archivos "<equipo> emblem*.png" y prefiere el de los juegos de DS ("X emblem.png"),
-luego el de Strikers (S), el de las cartas (SD) y el de Victory Road (VR). Los guarda en
-src/assets/pack/emblems/<id del equipo>.png a 160 px, que el juego carga solo.
+Busca los archivos "<equipo> emblem*.png" y prefiere el rehecho para Victory Road ("X emblem (VR).png");
+si no lo hay, el de los juegos de DS ("X emblem.png"), el de Strikers (S) o el de las cartas (SD). Los guarda en
+src/assets/pack/emblems/<id del equipo>.png a 160 px (los de pixel art se amplían sin suavizar),
+que el juego carga solo.
 
 Uso (desde la raíz del repo, después de tools/wiki/teams.py): python3 -I tools/wiki/emblems.py
 """
@@ -36,7 +37,7 @@ ALIAS = {
 ES_API = 'https://inazuma.fandom.com/es/api.php'
 ES_FILES = {'Osaka Gals CCC': 'Escudo - Triple C de Osaka (SD).png'}
 # orden de preferencia de las variantes del archivo
-VARIANTS = ['', ' (S)', ' (SD)', ' (VR)', ' (X)']
+VARIANTS = [' (VR)', '', ' (S)', ' (SD)', ' (X)']
 
 
 def get(params, api=API):
@@ -75,6 +76,10 @@ def download(url):
     bbox = img.getbbox()
     if bbox:
         img = img.crop(bbox)
+    if max(img.size) * 2 <= SIZE:
+        # los de DS son pixel art pequeño: se amplían a un múltiplo entero, sin suavizar
+        k = SIZE // max(img.size)
+        img = img.resize((img.width * k, img.height * k), Image.NEAREST)
     img.thumbnail((SIZE, SIZE), Image.LANCZOS)
     canvas = Image.new('RGBA', (SIZE, SIZE))
     canvas.paste(img, ((SIZE - img.width) // 2, (SIZE - img.height) // 2))

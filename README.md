@@ -90,6 +90,24 @@ Crea un `.json` en `src/data/teams/` copiando uno de los existentes y aparecerá
 Las estadísticas de Inazuma National y Desert Lions salen del vídeo de referencia cuando se ven en pantalla.
 El resto son estimaciones que hay que ir corrigiendo con los datos de los juegos.
 
+## Catálogo de supertécnicas
+
+`data/tecnicas.json` tiene **883 supertécnicas** sacadas de la
+[wiki inglesa](https://inazuma-eleven.fandom.com/) y la [wiki española](https://inazuma.fandom.com/es/) de Inazuma Eleven.
+De cada una guarda:
+- Nombre en español (814 lo tienen), nombre de la wiki inglesa y nombre del doblaje.
+- Tipo y afinidad.
+- Potencia y coste en Victory Road, y TP en IE3.
+
+Las técnicas del juego (`src/data/moves.json`) salen de ahí:
+- Nombre en español.
+- TP de IE3.
+- Potencia = 75 % de la de Victory Road, para que encaje con la escala de atributos del juego.
+
+Para actualizar el catálogo cuando cambien las wikis: `tools/wiki/build.sh` (hace unas 50 peticiones, con pausas).
+
+Los textos y datos de las wikis de Fandom están bajo licencia [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
+
 ## Sprites originales
 
 El juego funciona con gráficos provisionales dibujados por código. Para usar los originales,

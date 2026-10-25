@@ -25,7 +25,7 @@
       "id": "bilal-kalil", "name": "Bilal Kalil", "short": "Kalil", "number": 3, "position": "DF", "element": "earth",
       "level": 20, "fp": 99, "tp": 101,
       "stats": { "kick": 30, "body": 36, "control": 28, "guard": 38, "speed": 30, "stamina": 34, "guts": 30 },
-      "moves": ["sand-storm-guard", "desert-blast"],
+      "moves": ["desert-blast"],
       "look": { "hair": "#2a6a6a", "skin": "#b5835a" }
     },
     {

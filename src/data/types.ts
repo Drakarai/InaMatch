@@ -55,6 +55,8 @@ export interface MoveData {
   element: Element;
   power: number;
   tp: number;
+  /** Título de la técnica en la wiki inglesa, para buscarla en data/tecnicas.json. */
+  wiki?: string;
 }
 
 export interface FormationSlot {

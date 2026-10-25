@@ -1,0 +1,520 @@
+{
+ "id": "big-waves",
+ "name": "Big Waves",
+ "short": "BWA",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#1f5f3a",
+  "gkShirt": "#3a7bd5",
+  "accent": "#2f8a4a"
+ },
+ "formation": "f-big-wave",
+ "players": [
+  {
+   "id": "gene-whalon",
+   "name": "Gene Whalon",
+   "short": "Whalon",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 138,
+   "stats": {
+    "kick": 58,
+    "body": 69,
+    "control": 49,
+    "guard": 76,
+    "speed": 57,
+    "stamina": 48,
+    "guts": 73
+   },
+   "moves": [
+    "great-barrier-reef",
+    "tsunami-wall",
+    "kangaroo-kick"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jean Baker",
+   "description": "Australia's star keeper, who uses the power of water to block the shots that come his way."
+  },
+  {
+   "id": "david-waterman",
+   "name": "David Waterman",
+   "short": "Waterman",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 108,
+   "stats": {
+    "kick": 60,
+    "body": 56,
+    "control": 48,
+    "guard": 60,
+    "speed": 59,
+    "stamina": 50,
+    "guts": 71
+   },
+   "moves": [
+    "gravestone",
+    "ice-ground",
+    "tatsumaki-senpuu",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "David Waterman",
+   "description": "He cut his teeth on Aussie rules football, but joined the  Big Waves  to take on the world."
+  },
+  {
+   "id": "sonny-shore",
+   "name": "Sonny Shore",
+   "short": "Shore",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 115,
+   "stats": {
+    "kick": 53,
+    "body": 68,
+    "control": 57,
+    "guard": 58,
+    "speed": 64,
+    "stamina": 51,
+    "guts": 64
+   },
+   "moves": [
+    "kangaroo-kick",
+    "shine-drive",
+    "spinning-cut",
+    "volcano-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shine Beach",
+   "description": "An eco-warrior who can't bear the sight of a polluted beach."
+  },
+  {
+   "id": "kjell-snapper",
+   "name": "Kjell Snapper",
+   "short": "Snapper",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 107,
+   "stats": {
+    "kick": 69,
+    "body": 52,
+    "control": 52,
+    "guard": 72,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 64
+   },
+   "moves": [
+    "gravestone",
+    "whale-guard",
+    "great-barrier-reef",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Karmei Kohler",
+   "description": "This player applies the wisdom of the ancients to his style of play."
+  },
+  {
+   "id": "ken-crackham",
+   "name": "Ken Crackham",
+   "short": "Crackham",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 119,
+   "tp": 118,
+   "stats": {
+    "kick": 52,
+    "body": 61,
+    "control": 62,
+    "guard": 68,
+    "speed": 52,
+    "stamina": 48,
+    "guts": 62
+   },
+   "moves": [
+    "whale-guard",
+    "kangaroo-kick",
+    "barbarian-no-tate"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Clark Cain",
+   "description": "As well as a footballer, this player is an active conservationist of Australia's rich biodiversity."
+  },
+  {
+   "id": "shawn-princeton",
+   "name": "Shawn Princeton",
+   "short": "Princeton",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 94,
+   "stats": {
+    "kick": 48,
+    "body": 70,
+    "control": 63,
+    "guard": 56,
+    "speed": 67,
+    "stamina": 53,
+    "guts": 62
+   },
+   "moves": [
+    "water-veil",
+    "moonsault",
+    "gravestone",
+    "stone-prison"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sully Princeton",
+   "description": "This player has a prodigious knack for finding rare minerals just by reading the landscape."
+  },
+  {
+   "id": "matt-fischer",
+   "name": "Matt Fischer",
+   "short": "Fischer",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 117,
+   "tp": 105,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 60,
+    "guard": 56,
+    "speed": 61,
+    "stamina": 50,
+    "guts": 68
+   },
+   "moves": [
+    "kangaroo-kick",
+    "kumo-no-ito",
+    "tsunami-boost"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Matt Angle",
+   "description": "Patience strengthened by spiritual discipline is the key to this player's power."
+  },
+  {
+   "id": "hank-tennyson",
+   "name": "Hank Tennyson",
+   "short": "Tennyson",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 123,
+   "tp": 110,
+   "stats": {
+    "kick": 49,
+    "body": 59,
+    "control": 69,
+    "guard": 52,
+    "speed": 71,
+    "stamina": 49,
+    "guts": 59
+   },
+   "moves": [
+    "water-veil",
+    "tsunami-boost",
+    "moonsault",
+    "maboroshi-dribble"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Surf Wyndhas",
+   "description": "This international soul-surfer spends his life in pursuit of the ultimate wave."
+  },
+  {
+   "id": "dolph-hensen",
+   "name": "Dolph Hensen",
+   "short": "Hensen",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 126,
+   "stats": {
+    "kick": 63,
+    "body": 92,
+    "control": 71,
+    "guard": 57,
+    "speed": 57,
+    "stamina": 49,
+    "guts": 67
+   },
+   "moves": [
+    "megalodon",
+    "tsunami-boost",
+    "mirage-shoot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Niese Dolphin",
+   "description": "A noble son of the majestic sea, and the captain of the Australian squad."
+  },
+  {
+   "id": "hamilton-reith",
+   "name": "Hamilton Reith",
+   "short": "Reith",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 127,
+   "tp": 117,
+   "stats": {
+    "kick": 76,
+    "body": 61,
+    "control": 61,
+    "guard": 57,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 63
+   },
+   "moves": [
+    "megalodon",
+    "moonsault",
+    "suisei-shoot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Reef Hamilton",
+   "description": "This player's hobby is skin diving for tropical fish amid the coral reefs."
+  },
+  {
+   "id": "joe-dawes",
+   "name": "Joe Dawes",
+   "short": "Dawes",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 112,
+   "stats": {
+    "kick": 83,
+    "body": 56,
+    "control": 46,
+    "guard": 40,
+    "speed": 42,
+    "stamina": 44,
+    "guts": 70
+   },
+   "moves": [
+    "megalodon",
+    "water-veil",
+    "onryou",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Joe Jones",
+   "description": "A stealthy player who creeps up to rivals slowly, then pounces suddenly."
+  },
+  {
+   "id": "quincy-horace",
+   "name": "Quincy Horace",
+   "short": "Horace",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 121,
+   "tp": 130,
+   "stats": {
+    "kick": 53,
+    "body": 60,
+    "control": 62,
+    "guard": 64,
+    "speed": 69,
+    "stamina": 53,
+    "guts": 43
+   },
+   "moves": [
+    "great-barrier-reef",
+    "ice-block",
+    "freeze-shot",
+    "shoot-pocket"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Quincy Horst",
+   "description": "As a sideline, this player tries to locate new goldmines in the outback."
+  },
+  {
+   "id": "holly-summers",
+   "name": "Holly Summers",
+   "short": "Summers",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 118,
+   "stats": {
+    "kick": 52,
+    "body": 59,
+    "control": 61,
+    "guard": 60,
+    "speed": 70,
+    "stamina": 52,
+    "guts": 67
+   },
+   "moves": [
+    "kangaroo-kick",
+    "reppuu-dash",
+    "suisei-shoot",
+    "flame-dance"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Holly Summers",
+   "description": "He dresses up as Santa every year, but it's pretty sweaty work where he lives."
+  },
+  {
+   "id": "derek-rabson",
+   "name": "Derek Rabson",
+   "short": "Rabson",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 109,
+   "stats": {
+    "kick": 58,
+    "body": 72,
+    "control": 49,
+    "guard": 63,
+    "speed": 42,
+    "stamina": 53,
+    "guts": 62
+   },
+   "moves": [
+    "mogura-feint",
+    "gravestone",
+    "kung-fu-attack",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Clive Scissors",
+   "description": "A very skilful player who can cut deep into his rivals' midfield."
+  },
+  {
+   "id": "barack-daniels",
+   "name": "Barack Daniels",
+   "short": "Daniels",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 109,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 51,
+    "guard": 66,
+    "speed": 55,
+    "stamina": 50,
+    "guts": 55
+   },
+   "moves": [
+    "gravestone",
+    "wild-claw",
+    "mad-express"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Daniel Barrack",
+   "description": "A jackaroo who dreams of producing the world's tastiest beef someday."
+  },
+  {
+   "id": "bruce-marlin",
+   "name": "Bruce Marlin",
+   "short": "Marlin",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 112,
+   "stats": {
+    "kick": 70,
+    "body": 56,
+    "control": 50,
+    "guard": 48,
+    "speed": 62,
+    "stamina": 54,
+    "guts": 59
+   },
+   "moves": [
+    "spinning-cut",
+    "suisei-shoot",
+    "kangaroo-kick",
+    "mirage-shoot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Bruce Marlin",
+   "description": "Rivals had better be careful of this player's kangaroo-style footwork."
+  }
+ ]
+}

@@ -1,0 +1,518 @@
+{
+ "id": "team-k",
+ "name": "Team K",
+ "short": "TMK",
+ "colors": {
+  "shirt": "#3a2a5a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#8a8a8a",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-kage",
+ "players": [
+  {
+   "id": "indigo-lazuli",
+   "name": "Indigo Lazuli",
+   "short": "Indigo",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 114,
+   "tp": 134,
+   "stats": {
+    "kick": 52,
+    "body": 50,
+    "control": 51,
+    "guard": 76,
+    "speed": 36,
+    "stamina": 42,
+    "guts": 68
+   },
+   "moves": [
+    "full-power-shield",
+    "wormhole",
+    "roadroller-tackle",
+    "seigi-no-tekken"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Indigo Lazuli",
+   "description": "He has a strong sense of right and wrong. He only joined Team D to save his own hide."
+  },
+  {
+   "id": "roseo-diamante",
+   "name": "Roseo Diamante",
+   "short": "Roseo",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 115,
+   "tp": 126,
+   "stats": {
+    "kick": 40,
+    "body": 44,
+    "control": 40,
+    "guard": 69,
+    "speed": 52,
+    "stamina": 45,
+    "guts": 70
+   },
+   "moves": [
+    "killer-slide",
+    "harvest",
+    "kage-nui",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Roseo Diamante",
+   "description": "He was born on the wrong side of the tracks, so he's determined to succeed in life."
+  },
+  {
+   "id": "azubel-turchese",
+   "name": "Azubel Turchese",
+   "short": "Azubel",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 113,
+   "tp": 116,
+   "stats": {
+    "kick": 53,
+    "body": 53,
+    "control": 52,
+    "guard": 71,
+    "speed": 44,
+    "stamina": 54,
+    "guts": 65
+   },
+   "moves": [
+    "killer-slide",
+    "gravitation",
+    "goal-zurashi",
+    "planet-shield"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Azubel Turchese"
+  },
+  {
+   "id": "nello-agata",
+   "name": "Nello Agata",
+   "short": "Nello",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 109,
+   "tp": 122,
+   "stats": {
+    "kick": 41,
+    "body": 62,
+    "control": 46,
+    "guard": 54,
+    "speed": 67,
+    "stamina": 33,
+    "guts": 56
+   },
+   "moves": [
+    "killer-slide",
+    "kumo-no-ito",
+    "triple-boost",
+    "big-spider"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nello Agata",
+   "description": "He longed for the life of an urbanite, so he chose football to make a name for himself."
+  },
+  {
+   "id": "azzurro-zaffiro",
+   "name": "Azzurro Zaffiro",
+   "short": "Azzurro",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 128,
+   "stats": {
+    "kick": 44,
+    "body": 64,
+    "control": 64,
+    "guard": 63,
+    "speed": 40,
+    "stamina": 45,
+    "guts": 52
+   },
+   "moves": [
+    "killer-slide",
+    "kamaitachi",
+    "demon-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Azzurro Zaffire"
+  },
+  {
+   "id": "pardo-berillo",
+   "name": "Pardo Berillo",
+   "short": "Pardo",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 120,
+   "stats": {
+    "kick": 40,
+    "body": 64,
+    "control": 50,
+    "guard": 52,
+    "speed": 44,
+    "stamina": 52,
+    "guts": 55
+   },
+   "moves": [
+    "harvest",
+    "naraku-otoshi",
+    "counterstrike"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Pardo Berillo",
+   "description": "Initially he'd hoped to be and opera singer, but his vocal cords gave out."
+  },
+  {
+   "id": "beldio-smeraldo",
+   "name": "Beldio Smeraldo",
+   "short": "Beldio",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 117,
+   "stats": {
+    "kick": 37,
+    "body": 57,
+    "control": 68,
+    "guard": 52,
+    "speed": 51,
+    "stamina": 45,
+    "guts": 73
+   },
+   "moves": [
+    "judge-through",
+    "bunshin-defense",
+    "heavy-baby"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Verdio Smeraldo",
+   "description": "This player is livid about the damage done to Rome's architectural heritage by pollution."
+  },
+  {
+   "id": "rosso-granato",
+   "name": "Rosso Granato",
+   "short": "Rosso",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 108,
+   "tp": 107,
+   "stats": {
+    "kick": 71,
+    "body": 57,
+    "control": 52,
+    "guard": 62,
+    "speed": 53,
+    "stamina": 48,
+    "guts": 46
+   },
+   "moves": [
+    "judge-through-2",
+    "koutei-penguin-2gou",
+    "sabaki-no-tettsui",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Rosso Granato",
+   "description": "He's a born aristocrat, but he's determined to do something worthwhile with his life."
+  },
+  {
+   "id": "giallo-topazio",
+   "name": "Giallo Topazio",
+   "short": "Giallo",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 103,
+   "stats": {
+    "kick": 63,
+    "body": 51,
+    "control": 48,
+    "guard": 50,
+    "speed": 68,
+    "stamina": 41,
+    "guts": 64
+   },
+   "moves": [
+    "judge-through-2",
+    "fire-tornado",
+    "triangle-z",
+    "asteroid-belt"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Giallo Topazio",
+   "description": "He dreams of being a great fashion designer some day, but so far he hasn't has much luck."
+  },
+  {
+   "id": "violetto-ametista",
+   "name": "Violetto Ametista",
+   "short": "Violetto",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 116,
+   "stats": {
+    "kick": 52,
+    "body": 53,
+    "control": 60,
+    "guard": 51,
+    "speed": 57,
+    "stamina": 48,
+    "guts": 52
+   },
+   "moves": [
+    "meteor-shower",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Violette Ametista",
+   "description": "He's arrogant and pushy, so the other players don't like him all that much."
+  },
+  {
+   "id": "bianco-perla",
+   "name": "Bianco Perla",
+   "short": "Bianco",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 109,
+   "tp": 99,
+   "stats": {
+    "kick": 74,
+    "body": 56,
+    "control": 56,
+    "guard": 42,
+    "speed": 47,
+    "stamina": 40,
+    "guts": 59
+   },
+   "moves": [
+    "twin-boost-f",
+    "judge-through",
+    "bunshin-feint",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Bianco Perla",
+   "description": "He's never even seen a bottle of wine, but he still dreams of becoming a sommelier."
+  },
+  {
+   "id": "giulio-acuto",
+   "name": "Giulio Acuto",
+   "short": "Giulio",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 114,
+   "stats": {
+    "kick": 76,
+    "body": 69,
+    "control": 76,
+    "guard": 48,
+    "speed": 72,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "illusion-ball",
+    "koutei-penguin-x",
+    "twin-boost",
+    "inazuma-break"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Demonio Strada",
+   "description": "With the power given to him by Mister D, his speed and skill are unmatched."
+  },
+  {
+   "id": "grigio-quarzo",
+   "name": "Grigio Quarzo",
+   "short": "Grigio",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 114,
+   "tp": 94,
+   "stats": {
+    "kick": 42,
+    "body": 64,
+    "control": 48,
+    "guard": 67,
+    "speed": 32,
+    "stamina": 63,
+    "guts": 38
+   },
+   "moves": [
+    "power-shield",
+    "rainbow-loop",
+    "onryou"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Grigio Gesso",
+   "description": "He'd love to go on a date in Rome, but he keeps getting knocked back."
+  },
+  {
+   "id": "marrone-corniola",
+   "name": "Marrone Corniola",
+   "short": "Marrone",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 117,
+   "stats": {
+    "kick": 56,
+    "body": 59,
+    "control": 52,
+    "guard": 53,
+    "speed": 49,
+    "stamina": 57,
+    "guts": 51
+   },
+   "moves": [
+    "killer-slide",
+    "megaton-head",
+    "zanzou",
+    "profile-zone"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Marrone Titanito",
+   "description": "He likes to make pizzas with wacky toppings, but they are mostly disgusting."
+  },
+  {
+   "id": "amaranto-rubino",
+   "name": "Amaranto Rubino",
+   "short": "Amaranto",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 106,
+   "tp": 120,
+   "stats": {
+    "kick": 58,
+    "body": 63,
+    "control": 40,
+    "guard": 62,
+    "speed": 46,
+    "stamina": 41,
+    "guts": 72
+   },
+   "moves": [
+    "double-grenade",
+    "judge-through-2",
+    "rolling-kick",
+    "twin-boost-f"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Amaranto Rubino",
+   "description": "They laughed when he said he wanted to turn pro, but he's determined to laugh last."
+  },
+  {
+   "id": "avorio-opale",
+   "name": "Avorio Opale",
+   "short": "Avorio",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 110,
+   "tp": 109,
+   "stats": {
+    "kick": 71,
+    "body": 44,
+    "control": 45,
+    "guard": 44,
+    "speed": 74,
+    "stamina": 61,
+    "guts": 41
+   },
+   "moves": [
+    "dash-storm",
+    "twin-boost-f",
+    "ganymede-proton",
+    "demon-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Lattimo Opale",
+   "description": "He hopes to be a model, but as yet he's still unrecognised in the fashion world."
+  }
+ ]
+}

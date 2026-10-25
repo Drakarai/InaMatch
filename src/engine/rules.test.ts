@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { MOVES, TEAMS, validateTeams } from '../data';
+import { TEAMS, validateTeams } from '../data';
 import { SAME_ELEMENT_BONUS, elementMultiplier, hasStab } from '../data/elements';
-import type { Stats } from '../data/types';
+import type { MoveData, Stats } from '../data/types';
 import {
   affinityMultiplier,
   basePower,
@@ -25,12 +25,27 @@ const stats = (v: number): Stats => ({ kick: v, body: v, control: v, guard: v, s
 const fighter = (v: number, element: Fighter['element'] = 'fire', fp = 100): Fighter => ({ stats: stats(v), element, fp, maxFp: 100 });
 const fixed = (value: number) => () => value;
 const basic = (id: Extract<Choice, { type: 'basic' }>['id']): Choice => ({ type: 'basic', id });
+// técnicas de prueba, independientes de lo que tenga cada equipo en src/data
+const MOVES: Record<string, MoveData> = {
+  'fireball-screw': { id: 'fireball-screw', name: 'Torbellino de fuego', kind: 'shoot', element: 'fire', power: 90, tp: 52 },
+  'fire-tornado': { id: 'fire-tornado', name: 'Tornado de fuego', kind: 'shoot', element: 'fire', power: 45, tp: 25 },
+  'illusion-ball': { id: 'illusion-ball', name: 'Espejismo de balón', kind: 'dribble', element: 'wood', power: 45, tp: 28 },
+  'heat-tackle': { id: 'heat-tackle', name: 'Entrada de llamas', kind: 'dribble', element: 'fire', power: 45, tp: 27 },
+  'the-wall': { id: 'the-wall', name: 'El muro', kind: 'block', element: 'earth', power: 45, tp: 30 },
+};
 const move = (id: string): Choice => ({ type: 'move', move: MOVES[id] });
 
 describe('datos', () => {
   it('los equipos son válidos', () => {
     expect(TEAMS.length).toBeGreaterThanOrEqual(2);
     expect(validateTeams()).toEqual([]);
+  });
+
+  it('cada equipo tiene portero titular y técnicas con nombre', () => {
+    for (const t of TEAMS) {
+      expect(t.players[0].position, t.id).toBe('GK');
+      expect(t.players.length, t.id).toBeGreaterThanOrEqual(11);
+    }
   });
 });
 

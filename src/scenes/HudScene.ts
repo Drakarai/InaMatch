@@ -203,8 +203,8 @@ export class HudScene extends Phaser.Scene {
       c.add([band, portrait, name, fp, tp, ball, power, support, elem]);
       this.rows.push({ container: c, portrait, name, fp, tp, ball, power, support, elem });
     }
-    this.infoTitle = text(this, x + 22, 370, '', 13, '#ffe28a');
-    this.infoMoves = text(this, x + 22, 390, '', 14, '#ffffff', { lineSpacing: 4 });
+    this.infoTitle = text(this, x + 22, 364, '', 13, '#ffe28a');
+    this.infoMoves = text(this, x + 22, 382, '', 13, '#ffffff', { lineSpacing: 2 });
   }
 
   showDuel(a: MatchPlayer, b: MatchPlayer, info: DuelInfo = {}): void {

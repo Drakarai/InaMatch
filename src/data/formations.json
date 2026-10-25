@@ -1,0 +1,107 @@
+[
+ {
+  "id": "f-4-2-3",
+  "name": "F-4-2-3",
+  "layout": "4-2-3"
+ },
+ {
+  "id": "f-assassin",
+  "name": "F-Assassin",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-basic",
+  "name": "F-Basic",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-big-wave",
+  "name": "F-Big Wave",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-blitz",
+  "name": "F-Blitz",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-bread",
+  "name": "F-Bread",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-d-lion",
+  "name": "F-D Lion",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-eiffel",
+  "name": "F-Eiffel",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-empire",
+  "name": "F-Empire",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-f-dragon",
+  "name": "F-F Dragon",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-kage",
+  "name": "F-KAGE",
+  "layout": "5-3-2"
+ },
+ {
+  "id": "f-kingdom",
+  "name": "F-Kingdom",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-knights",
+  "name": "F-Knights",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-little-gigant",
+  "name": "F-Little Gigant",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-matador",
+  "name": "F-Matador",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-neo",
+  "name": "F-NEO",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-orpheus",
+  "name": "F-Orpheus",
+  "layout": "5-3-2"
+ },
+ {
+  "id": "f-pandemonium",
+  "name": "F-Pandemonium",
+  "layout": "5-3-2"
+ },
+ {
+  "id": "f-pantheon",
+  "name": "F-Pantheon",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-three-top",
+  "name": "F-Three Top",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-unicorn",
+  "name": "F-Unicorn",
+  "layout": "4-4-2"
+ }
+]

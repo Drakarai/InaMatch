@@ -25,9 +25,10 @@ export class MenuScene extends Phaser.Scene {
     text(this, GAME_W / 2, 90, 'InaMatch', 84, '#ffd23f', { strokeThickness: 12, stroke: '#0b1a2e' }).setOrigin(0.5);
     text(this, GAME_W / 2, 160, 'Partidos al estilo Inazuma Eleven 3', 24, '#d8e8ff').setOrigin(0.5);
 
-    // por defecto, Inazuma National contra el primer rival disponible
-    this.home = Math.max(0, TEAMS.findIndex((t) => t.id === 'inazuma-national'));
-    this.away = TEAMS.length > 1 ? (this.home + 1) % TEAMS.length : 0;
+    // por defecto, Inazuma Japón contra los Leones del Desierto (o el primer rival disponible)
+    this.home = Math.max(0, TEAMS.findIndex((t) => t.id === 'inazuma-japan'));
+    const desert = TEAMS.findIndex((t) => t.id === 'desert-lion');
+    this.away = desert >= 0 && desert !== this.home ? desert : (this.home + 1) % TEAMS.length;
     this.selector(GAME_W / 2 - 260, 360, 'Tu equipo', () => this.home, (v) => (this.home = v));
     text(this, GAME_W / 2, 360, 'VS', 64, '#ffffff', { strokeThickness: 10 }).setOrigin(0.5);
     this.selector(GAME_W / 2 + 260, 360, 'Rival', () => this.away, (v) => (this.away = v));

@@ -1,0 +1,517 @@
+{
+ "id": "little-gigant",
+ "name": "Little Gigant",
+ "short": "LGI",
+ "colors": {
+  "shirt": "#f28a1d",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#2a8a8a",
+  "accent": "#d06a10"
+ },
+ "formation": "f-little-gigant",
+ "players": [
+  {
+   "id": "hector-helio",
+   "name": "Hector Helio",
+   "short": "Helio",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 110,
+   "tp": 132,
+   "stats": {
+    "kick": 58,
+    "body": 50,
+    "control": 57,
+    "guard": 85,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 73
+   },
+   "moves": [
+    "tamashii-the-hand",
+    "x-blast",
+    "god-hand-x",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Rococo Ulpa",
+   "description": "A Victoirean boy from out in the sticks. It's already clear that he has incredible potential."
+  },
+  {
+   "id": "zephyr-vitesse",
+   "name": "Zephyr Vitesse",
+   "short": "Vitesse",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 104,
+   "stats": {
+    "kick": 68,
+    "body": 57,
+    "control": 69,
+    "guard": 60,
+    "speed": 78,
+    "stamina": 50,
+    "guts": 45
+   },
+   "moves": [
+    "bunshin-defense",
+    "bunshin-feint",
+    "air-ride",
+    "the-hurricane"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Windy Fasta",
+   "description": "Hector's old friend. He rushes like a gale-force wind to mark his opponents."
+  },
+  {
+   "id": "walter-mountain",
+   "name": "Walter Mountain",
+   "short": "Mountain",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 120,
+   "stats": {
+    "kick": 63,
+    "body": 65,
+    "control": 60,
+    "guard": 71,
+    "speed": 45,
+    "stamina": 48,
+    "guts": 49
+   },
+   "moves": [
+    "mogura-shuffle",
+    "super-armadillo",
+    "ground-quake",
+    "the-mountain"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Walter Mountain",
+   "description": "Despite providing a solid defence, he's a massive glutton and a bit of scaredy-cat."
+  },
+  {
+   "id": "jimi-gaines",
+   "name": "Jimi Gaines",
+   "short": "Gaines",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 115,
+   "stats": {
+    "kick": 56,
+    "body": 52,
+    "control": 68,
+    "guard": 67,
+    "speed": 52,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "kage-nui",
+    "toumei-feint",
+    "double-cyclone"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Jinny Geino",
+   "description": "He wears sunglasses to try to stand out, but they make him look a bit creepy."
+  },
+  {
+   "id": "ian-ferrum",
+   "name": "Ian Ferrum",
+   "short": "Ferrum",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 124,
+   "tp": 127,
+   "stats": {
+    "kick": 48,
+    "body": 48,
+    "control": 52,
+    "guard": 56,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 66
+   },
+   "moves": [
+    "maboroshi-dribble",
+    "rainbow-loop",
+    "flame-dance"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Marron Ian",
+   "description": "He packs a lot of guts in that small frame! When things hot up he's right there."
+  },
+  {
+   "id": "quint-hampton",
+   "name": "Quint Hampton",
+   "short": "Hampton",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 100,
+   "stats": {
+    "kick": 62,
+    "body": 62,
+    "control": 62,
+    "guard": 62,
+    "speed": 62,
+    "stamina": 65,
+    "guts": 62
+   },
+   "moves": [
+    "lightning-accel",
+    "shooting-star",
+    "dash-storm",
+    "triple-defense"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shinti Hanpa",
+   "description": "He thought he'd try a perm, but he still doesn't make much of an impression."
+  },
+  {
+   "id": "yasir-haddad",
+   "name": "Yasir Haddad",
+   "short": "Haddad",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 128,
+   "tp": 108,
+   "stats": {
+    "kick": 59,
+    "body": 76,
+    "control": 62,
+    "guard": 58,
+    "speed": 48,
+    "stamina": 48,
+    "guts": 61
+   },
+   "moves": [
+    "armadillo-circus",
+    "kurukuru-head",
+    "kung-fu-attack",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yuumu Rinjie",
+   "description": "This player uses karate techniques to snatch away the ball! Hi-YAH!"
+  },
+  {
+   "id": "keith-ryan",
+   "name": "Keith Ryan",
+   "short": "Ryan",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 128,
+   "tp": 114,
+   "stats": {
+    "kick": 64,
+    "body": 60,
+    "control": 61,
+    "guard": 60,
+    "speed": 49,
+    "stamina": 61,
+    "guts": 76
+   },
+   "moves": [
+    "double-grenade",
+    "fake-bomber",
+    "jumping-thunder"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Keat Liando",
+   "description": "He's forever fiddling with his afro, and truth be told, he's a bit of a coward."
+  },
+  {
+   "id": "maximino-cruz",
+   "name": "Maximino Cruz",
+   "short": "Cruz",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 79,
+    "guard": 68,
+    "speed": 56,
+    "stamina": 58,
+    "guts": 62
+   },
+   "moves": [
+    "gaia-break",
+    "air-ride"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Maxi Kuu",
+   "description": "He's rather fickle. His team-mates worry that he'll get tired of football."
+  },
+  {
+   "id": "gareth-flare",
+   "name": "Gareth Flare",
+   "short": "Flare",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 133,
+   "tp": 124,
+   "stats": {
+    "kick": 79,
+    "body": 66,
+    "control": 58,
+    "guard": 62,
+    "speed": 66,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "fire-tornado",
+    "flame-dance",
+    "heat-tackle",
+    "bakunetsu-screw"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ghoshu Flare",
+   "description": "An ace striker from a tiny African country. He's always looking out for his sister."
+  },
+  {
+   "id": "drago-hill",
+   "name": "Drago Hill",
+   "short": "Hill",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 117,
+   "stats": {
+    "kick": 85,
+    "body": 56,
+    "control": 62,
+    "guard": 50,
+    "speed": 30,
+    "stamina": 71,
+    "guts": 67
+   },
+   "moves": [
+    "double-jaw",
+    "air-ride",
+    "dragon-crash"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Drago Hill",
+   "description": "A Victoirean striker. He nurses a rivalry with Gareth Flare."
+  },
+  {
+   "id": "keenan-difortune",
+   "name": "Keenan DiFortune",
+   "short": "DiFortune",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 114,
+   "tp": 130,
+   "stats": {
+    "kick": 55,
+    "body": 52,
+    "control": 55,
+    "guard": 52,
+    "speed": 68,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "majin-the-hand",
+    "god-hand-x",
+    "mugen-the-hand"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kane Saitoh",
+   "description": "He's known Hector for a long time, and he really looks up to him."
+  },
+  {
+   "id": "jarell-mangrove",
+   "name": "Jarell Mangrove",
+   "short": "Mangrove",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 123,
+   "tp": 122,
+   "stats": {
+    "kick": 52,
+    "body": 52,
+    "control": 69,
+    "guard": 55,
+    "speed": 55,
+    "stamina": 56,
+    "guts": 50
+   },
+   "moves": [
+    "senpuujin",
+    "spinning-shoot",
+    "capoeira-snatch"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "McCall Kisarra",
+   "description": "This prankster will snatch away the ball while you're not looking."
+  },
+  {
+   "id": "vic-vitrum",
+   "name": "Vic Vitrum",
+   "short": "Vitrum",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 128,
+   "stats": {
+    "kick": 58,
+    "body": 61,
+    "control": 62,
+    "guard": 60,
+    "speed": 59,
+    "stamina": 62,
+    "guts": 60
+   },
+   "moves": [
+    "fake-ball",
+    "meteor-shower",
+    "god-knows",
+    "megane-crash"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Maygar Nathan",
+   "description": "He has a keen eye for enemy strategies, so his team-mates often consult him on tactics."
+  },
+  {
+   "id": "li-leung",
+   "name": "Li Leung",
+   "short": "Leung",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 136,
+   "tp": 125,
+   "stats": {
+    "kick": 73,
+    "body": 63,
+    "control": 50,
+    "guard": 52,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "eternal-blizzard",
+    "zigzag-spark",
+    "fuujin-no-mai",
+    "whale-guard"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ryuu Scale",
+   "description": "A popular, happy-go-lucky player who is deceptively strong on the pitch."
+  },
+  {
+   "id": "jazzy-hedgeer",
+   "name": "Jazzy Hedgeer",
+   "short": "Hedgeer",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 119,
+   "tp": 132,
+   "stats": {
+    "kick": 43,
+    "body": 70,
+    "control": 57,
+    "guard": 71,
+    "speed": 53,
+    "stamina": 55,
+    "guts": 70
+   },
+   "moves": [
+    "tsunami-boost",
+    "volcano-cut",
+    "water-veil"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Skid Wu",
+   "description": "A southern surf dude with boundless enthusiasm, and a natty sun visor."
+  }
+ ]
+}

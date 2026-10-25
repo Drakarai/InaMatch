@@ -1,0 +1,517 @@
+{
+ "id": "red-matador",
+ "name": "Los Rojos",
+ "short": "RMA",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#1d2f6b",
+  "gkShirt": "#f2c230",
+  "accent": "#a01a26"
+ },
+ "formation": "f-matador",
+ "players": [
+  {
+   "id": "ferm-n-s-nchez",
+   "name": "Fermín Sánchez",
+   "short": "Sánchez",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 134,
+   "stats": {
+    "kick": 45,
+    "body": 45,
+    "control": 47,
+    "guard": 97,
+    "speed": 40,
+    "stamina": 66,
+    "guts": 70
+   },
+   "moves": [
+    "stinger",
+    "nekketsu-head",
+    "drill-smasher"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fermín Sánchez",
+   "description": "Like a bull at a matador, he charges straight through the crowd to grab the ball."
+  },
+  {
+   "id": "jos-costa",
+   "name": "José Costa",
+   "short": "Costa",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 110,
+   "stats": {
+    "kick": 43,
+    "body": 45,
+    "control": 61,
+    "guard": 73,
+    "speed": 52,
+    "stamina": 56,
+    "guts": 55
+   },
+   "moves": [
+    "bunshin-feint",
+    "slingshot",
+    "gravestone",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "José Costa",
+   "description": "He's an experienced and tenacious mountain biker."
+  },
+  {
+   "id": "jos-l-pez",
+   "name": "José López",
+   "short": "López",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 120,
+   "stats": {
+    "kick": 45,
+    "body": 59,
+    "control": 55,
+    "guard": 76,
+    "speed": 48,
+    "stamina": 74,
+    "guts": 62
+   },
+   "moves": [
+    "welcome-back",
+    "flame-dance",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rafael López",
+   "description": "He's a great flamenco dancer. Girls are lining up for a chance to dance with him."
+  },
+  {
+   "id": "antonio-gallego",
+   "name": "Antonio Gallego",
+   "short": "Gallego",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 103,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 48,
+    "guard": 65,
+    "speed": 52,
+    "stamina": 40,
+    "guts": 79
+   },
+   "moves": [
+    "welcome-back",
+    "million-hands",
+    "ushiro-no-shoumen",
+    "barbarian-no-tate"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Antonio Galius"
+  },
+  {
+   "id": "queraldo-naval",
+   "name": "Queraldo Naval",
+   "short": "Naval",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 101,
+   "stats": {
+    "kick": 68,
+    "body": 61,
+    "control": 45,
+    "guard": 63,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 51
+   },
+   "moves": [
+    "welcome-back",
+    "matador-feint",
+    "slingshot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Querardo Naval",
+   "description": "He's trained to be a matador since he was a child, but he hates hurting animals."
+  },
+  {
+   "id": "juan-nadal",
+   "name": "Juan Nadal",
+   "short": "Nadal",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 125,
+   "tp": 121,
+   "stats": {
+    "kick": 40,
+    "body": 75,
+    "control": 70,
+    "guard": 44,
+    "speed": 64,
+    "stamina": 70,
+    "guts": 44
+   },
+   "moves": [
+    "spinning-cut",
+    "volcano-cut",
+    "u-boat",
+    "bunshin-defense"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Joan Nadal",
+   "description": "He eats five meals a day to keep his strength up when he's travelling overseas."
+  },
+  {
+   "id": "igor-ferreira",
+   "name": "Igor Ferreira",
+   "short": "Ferreira",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 119,
+   "stats": {
+    "kick": 52,
+    "body": 68,
+    "control": 78,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 67,
+    "guts": 44
+   },
+   "moves": [
+    "welcome-back",
+    "dual-pass",
+    "fuusen-gum",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Igor Freire",
+   "description": "He's an avid consumer of paella, but he's really fussy about the type of rice."
+  },
+  {
+   "id": "miguel-pereira",
+   "name": "Miguel Pereira",
+   "short": "Pereira",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 114,
+   "stats": {
+    "kick": 68,
+    "body": 57,
+    "control": 73,
+    "guard": 51,
+    "speed": 78,
+    "stamina": 49,
+    "guts": 47
+   },
+   "moves": [
+    "slingshot",
+    "bunshin-feint",
+    "u-boat"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mikel Pereiro",
+   "description": "His hobby is making sailing boats. He's assembling an invincible armada in his bathtub."
+  },
+  {
+   "id": "pedro-moreno",
+   "name": "Pedro Moreno",
+   "short": "Moreno",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 102,
+   "stats": {
+    "kick": 69,
+    "body": 58,
+    "control": 60,
+    "guard": 33,
+    "speed": 76,
+    "stamina": 54,
+    "guts": 49
+   },
+   "moves": [
+    "matador-feint",
+    "slingshot",
+    "sneaking-raid",
+    "liar-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Pedro Moreno",
+   "description": "He's raising a black Iberian pig at home, in the hope of producing tasty ham."
+  },
+  {
+   "id": "samuel-mayo",
+   "name": "Samuel Mayo",
+   "short": "Mayo",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 109,
+   "stats": {
+    "kick": 66,
+    "body": 74,
+    "control": 59,
+    "guard": 43,
+    "speed": 71,
+    "stamina": 44,
+    "guts": 64
+   },
+   "moves": [
+    "slingshot",
+    "matador-feint",
+    "dragon-ground",
+    "odin-sword"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Samuel Mayo",
+   "description": "This plucky Pamplonica dreams of one day showing his mettle at the Running of the Bulls."
+  },
+  {
+   "id": "davi-peroqu",
+   "name": "Davi Peroqué",
+   "short": "Peroqué",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 117,
+   "tp": 103,
+   "stats": {
+    "kick": 70,
+    "body": 66,
+    "control": 55,
+    "guard": 40,
+    "speed": 56,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "slingshot",
+    "matador-feint",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Davi Peroqui",
+   "description": "He's fiercely proud of Spanish football, and doesn't hide his desire to take on the world."
+  },
+  {
+   "id": "juan-espindola",
+   "name": "Juan Espindola",
+   "short": "Espindola",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 133,
+   "tp": 125,
+   "stats": {
+    "kick": 58,
+    "body": 51,
+    "control": 40,
+    "guard": 76,
+    "speed": 67,
+    "stamina": 39,
+    "guts": 52
+   },
+   "moves": [
+    "flash-upper",
+    "matador-feint",
+    "rocket-kobushi",
+    "burnout"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Juan Zubeldia",
+   "description": "Everyone is bewitched by his virtuosic skill at flamenco guitar."
+  },
+  {
+   "id": "isaac-c-sar",
+   "name": "Isaac César",
+   "short": "César",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 114,
+   "stats": {
+    "kick": 67,
+    "body": 76,
+    "control": 56,
+    "guard": 49,
+    "speed": 82,
+    "stamina": 42,
+    "guts": 52
+   },
+   "moves": [
+    "fire-tornado",
+    "slingshot",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Isaac César",
+   "description": "An opportunist on and off the field. If he sees a beautiful girl, he'll try to charm her."
+  },
+  {
+   "id": "laudelino-castor",
+   "name": "Laudelino Castor",
+   "short": "Castor",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 108,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 40,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 54,
+    "guts": 59
+   },
+   "moves": [
+    "volcano-cut",
+    "welcome-back",
+    "big-spider",
+    "dash-accel"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Laudelino Sastre",
+   "description": "Like Don Quixote, he acts rashly without considering consequences."
+  },
+  {
+   "id": "carlos-arroyo",
+   "name": "Carlos Arroyo",
+   "short": "Arroyo",
+   "number": 15,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 128,
+   "tp": 115,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 56,
+    "guard": 56,
+    "speed": 51,
+    "stamina": 79,
+    "guts": 47
+   },
+   "moves": [
+    "profile-zone",
+    "flame-veil",
+    "naraku-otoshi",
+    "iron-wall"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Carlos Arroyo"
+  },
+  {
+   "id": "federico-rubiera",
+   "name": "Federico Rubiera",
+   "short": "Rubiera",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 134,
+   "tp": 100,
+   "stats": {
+    "kick": 47,
+    "body": 81,
+    "control": 68,
+    "guard": 35,
+    "speed": 59,
+    "stamina": 61,
+    "guts": 60
+   },
+   "moves": [
+    "welcome-back",
+    "slingshot",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Federico Rubiera",
+   "description": "He'd like to have a go at synchronised swimming, but he can't find a boys' team."
+  }
+ ]
+}

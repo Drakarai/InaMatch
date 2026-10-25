@@ -1,0 +1,356 @@
+{
+ "id": "ogre",
+ "name": "Equipo Ogro",
+ "short": "OGR",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#8a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#8a1a1a"
+ },
+ "formation": "f-three-top",
+ "players": [
+  {
+   "id": "lars-luceaf-r",
+   "name": "Lars Luceafăr",
+   "short": "Lars",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 160,
+   "tp": 180,
+   "stats": {
+    "kick": 50,
+    "body": 50,
+    "control": 50,
+    "guard": 99,
+    "speed": 58,
+    "stamina": 60,
+    "guts": 63
+   },
+   "moves": [
+    "high-voltage",
+    "needle-hammer",
+    "electrap"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Zagomel Zande",
+   "description": "Ogre's goalkeeper boasts that he can bring down any kind of shot."
+  },
+  {
+   "id": "lump-trungus",
+   "name": "Lump Trungus",
+   "short": "Lump",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 142,
+   "stats": {
+    "kick": 48,
+    "body": 71,
+    "control": 49,
+    "guard": 76,
+    "speed": 62,
+    "stamina": 50,
+    "guts": 60
+   },
+   "moves": [
+    "demon-cut",
+    "mad-express",
+    "volcano-cut"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gevo Trangas",
+   "description": "Lump lump lump...!"
+  },
+  {
+   "id": "bump-trungus",
+   "name": "Bump Trungus",
+   "short": "Bump",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 154,
+   "stats": {
+    "kick": 49,
+    "body": 73,
+    "control": 48,
+    "guard": 81,
+    "speed": 63,
+    "stamina": 49,
+    "guts": 59
+   },
+   "moves": [
+    "ground-quake",
+    "scissors-bomb",
+    "power-charge",
+    "sigma-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Buvo Trangas",
+   "description": "Bump bump bump...!"
+  },
+  {
+   "id": "radd-ischer",
+   "name": "Radd Ischer",
+   "short": "Radd",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 156,
+   "stats": {
+    "kick": 52,
+    "body": 74,
+    "control": 50,
+    "guard": 78,
+    "speed": 55,
+    "stamina": 70,
+    "guts": 57
+   },
+   "moves": [
+    "power-charge",
+    "volcano-cut",
+    "electrap"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Daicko Bouka",
+   "description": "With his rotund body, he flicks away any kind of shot with ease."
+  },
+  {
+   "id": "jynx-jenkins",
+   "name": "Jynx Jenkins",
+   "short": "Jynx",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 131,
+   "tp": 145,
+   "stats": {
+    "kick": 49,
+    "body": 73,
+    "control": 46,
+    "guard": 76,
+    "speed": 54,
+    "stamina": 68,
+    "guts": 64
+   },
+   "moves": [
+    "volcano-cut",
+    "power-charge",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Jinis Jinkins",
+   "description": "He has an ominous aura. Not even his teammates are sure of his past."
+  },
+  {
+   "id": "oni-triumvir",
+   "name": "Oni Triumvir",
+   "short": "Oni",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 149,
+   "stats": {
+    "kick": 50,
+    "body": 80,
+    "control": 71,
+    "guard": 53,
+    "speed": 58,
+    "stamina": 64,
+    "guts": 65
+   },
+   "moves": [
+    "judge-through-3",
+    "gravitation",
+    "death-spear",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sandayuu Mishima",
+   "description": "With his army training, he always keeps a watchful eye on the enemy."
+  },
+  {
+   "id": "drachen-gunther",
+   "name": "Drachen Gunther",
+   "short": "Drachen",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 153,
+   "stats": {
+    "kick": 51,
+    "body": 75,
+    "control": 53,
+    "guard": 50,
+    "speed": 60,
+    "stamina": 68,
+    "guts": 71
+   },
+   "moves": [
+    "sigma-zone",
+    "scissors-bomb",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Drache Gunther",
+   "description": "Anyone he fixes with his fearful gaze becomes paralysed with horror."
+  },
+  {
+   "id": "ichabod-stark",
+   "name": "Ichabod Stark",
+   "short": "Ichabod",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 128,
+   "tp": 140,
+   "stats": {
+    "kick": 51,
+    "body": 72,
+    "control": 74,
+    "guard": 49,
+    "speed": 54,
+    "stamina": 68,
+    "guts": 59
+   },
+   "moves": [
+    "death-rain",
+    "gravitation",
+    "scissors-bomb",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Icka Stacks",
+   "description": "His personality, his playing style, his face... It's all so spiky."
+  },
+  {
+   "id": "escavan-malice",
+   "name": "Escavan Malice",
+   "short": "Escavan",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 126,
+   "tp": 150,
+   "stats": {
+    "kick": 78,
+    "body": 48,
+    "control": 54,
+    "guard": 48,
+    "speed": 72,
+    "stamina": 60,
+    "guts": 63
+   },
+   "moves": [
+    "death-rain",
+    "angel-ball",
+    "scissors-bomb",
+    "death-spear"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Eska Bamel",
+   "description": "He's so hot-blooded, if a chance on goal is stolen from him he flies into a rage."
+  },
+  {
+   "id": "bash-lancer",
+   "name": "Bash Lancer",
+   "short": "Bash",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 127,
+   "tp": 152,
+   "stats": {
+    "kick": 81,
+    "body": 51,
+    "control": 52,
+    "guard": 52,
+    "speed": 72,
+    "stamina": 72,
+    "guts": 65
+   },
+   "moves": [],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Baddap Sleed",
+   "description": "Team Ogre's strongest soldier, he crushes his enemies with a cool smile."
+  },
+  {
+   "id": "mystral-callous",
+   "name": "Mystral Callous",
+   "short": "Mystral",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 158,
+   "stats": {
+    "kick": 73,
+    "body": 53,
+    "control": 51,
+    "guard": 54,
+    "speed": 76,
+    "stamina": 59,
+    "guts": 58
+   },
+   "moves": [
+    "death-spear",
+    "death-rain",
+    "judge-through-2",
+    "devil-ball"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mistrene Callous",
+   "description": "He might look like a girl, but his style of play is surprisingly savage."
+  }
+ ]
+}

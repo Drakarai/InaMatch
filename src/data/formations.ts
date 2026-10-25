@@ -1,6 +1,28 @@
-import type { Formation } from './types';
+import generated from './formations.json';
+import type { Formation, FormationSlot } from './types';
 
-export const FORMATIONS: Formation[] = [
+/** Fila de cada línea (0 = portería rival, 1 = portería propia). */
+const ROW_Y = { DF: 0.78, MF: 0.56, FW: 0.35 } as const;
+
+/**
+ * Formación a partir de su distribución ("4-4-2", "5-3-2"...), como las de la wiki.
+ * Los jugadores de cada línea se reparten a lo ancho y los de las bandas se adelantan un poco.
+ */
+export function formationFromLayout(id: string, name: string, layout: string): Formation {
+  const counts = layout.split('-').map(Number);
+  const slots: FormationSlot[] = [{ pos: 'GK', x: 0.5, y: 0.96 }];
+  (['DF', 'MF', 'FW'] as const).forEach((pos, line) => {
+    const n = counts[line] ?? 0;
+    for (let i = 0; i < n; i++) {
+      const x = n === 1 ? 0.5 : 0.12 + (i * 0.76) / (n - 1);
+      const wing = n > 2 && (i === 0 || i === n - 1) ? -0.04 : 0;
+      slots.push({ pos, x, y: ROW_Y[pos] + wing });
+    }
+  });
+  return { id, name, slots };
+}
+
+const HANDMADE: Formation[] = [
   {
     id: 'f-basic',
     name: 'F-Básica',
@@ -69,6 +91,14 @@ export const FORMATIONS: Formation[] = [
       { pos: 'FW', x: 0.64, y: 0.38 },
     ],
   },
+];
+
+/** Las de la wiki (src/data/formations.json, generadas por tools/wiki/teams.py) y las hechas a mano. */
+export const FORMATIONS: Formation[] = [
+  ...HANDMADE,
+  ...(generated as { id: string; name: string; layout: string }[])
+    .filter((f) => !HANDMADE.some((h) => h.id === f.id))
+    .map((f) => formationFromLayout(f.id, f.name, f.layout)),
 ];
 
 export function getFormation(id: string): Formation {

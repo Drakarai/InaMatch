@@ -1,0 +1,521 @@
+{
+ "id": "the-empire",
+ "name": "Los Emperadores",
+ "short": "EMP",
+ "colors": {
+  "shirt": "#8fc6ea",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#f2c230",
+  "accent": "#4a8fc0"
+ },
+ "formation": "f-empire",
+ "players": [
+  {
+   "id": "jorge-ortega",
+   "name": "Jorge Ortega",
+   "short": "Ortega",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 128,
+   "stats": {
+    "kick": 56,
+    "body": 54,
+    "control": 49,
+    "guard": 80,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 59
+   },
+   "moves": [
+    "million-hands",
+    "dog-run",
+    "storm-rider",
+    "mugen-no-kabe"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Jorge Ortega",
+   "description": "He's known for his aggressive style. His brutal tackles often lead to melees."
+  },
+  {
+   "id": "thiago-torres",
+   "name": "Thiago Torres",
+   "short": "Thiago",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 134,
+   "tp": 129,
+   "stats": {
+    "kick": 52,
+    "body": 62,
+    "control": 60,
+    "guard": 82,
+    "speed": 59,
+    "stamina": 51,
+    "guts": 70
+   },
+   "moves": [
+    "zigzag-flame",
+    "iron-wall",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Teles Torrue",
+   "description": "He boats of his Wall of Steel defence, and marshals his team-mates from the back."
+  },
+  {
+   "id": "julio-acosta",
+   "name": "Julio Acosta",
+   "short": "Acosta",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 48,
+    "guard": 74,
+    "speed": 62,
+    "stamina": 51,
+    "guts": 36
+   },
+   "moves": [
+    "fake-ball",
+    "zigzag-flame",
+    "heat-tackle",
+    "harvest"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Julio Acosta",
+   "description": "He has a fondness for yerba maté tea, and he always packs some when he plays away."
+  },
+  {
+   "id": "grande-d-az",
+   "name": "Grande Díaz",
+   "short": "Díaz",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 102,
+   "stats": {
+    "kick": 49,
+    "body": 58,
+    "control": 60,
+    "guard": 73,
+    "speed": 52,
+    "stamina": 42,
+    "guts": 77
+   },
+   "moves": [
+    "super-armadillo",
+    "zigzag-flame",
+    "jigoku-guruma",
+    "million-hands"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gordo Díaz",
+   "description": "From a family of vineyard owners, he's striving to put Argentinian wine on the map."
+  },
+  {
+   "id": "ram-n-mart-nez",
+   "name": "Ramón Martínez",
+   "short": "Martínez",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 126,
+   "stats": {
+    "kick": 53,
+    "body": 59,
+    "control": 51,
+    "guard": 69,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 78
+   },
+   "moves": [
+    "block-circus",
+    "jumping-thunder",
+    "shooting-star",
+    "tkachev-bomber"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ramón Martínez",
+   "description": "He really appreciates the colonial architecture of Buenos Aires."
+  },
+  {
+   "id": "esteban-carlos",
+   "name": "Esteban Carlos",
+   "short": "Carlos",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 103,
+   "stats": {
+    "kick": 58,
+    "body": 59,
+    "control": 58,
+    "guard": 64,
+    "speed": 59,
+    "stamina": 58,
+    "guts": 69
+   },
+   "moves": [
+    "dog-run",
+    "armadillo-circus",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Esteban Carlos",
+   "description": "He does altitude training in the Andes, so there's no escaping his tenacious plays."
+  },
+  {
+   "id": "sergio-p-rez",
+   "name": "Sergio Pérez",
+   "short": "Pérez",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 105,
+   "stats": {
+    "kick": 47,
+    "body": 60,
+    "control": 52,
+    "guard": 70,
+    "speed": 65,
+    "stamina": 55,
+    "guts": 64
+   },
+   "moves": [
+    "fuusen-gum",
+    "zanzou",
+    "zigzag-spark",
+    "triple-dash"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sergio Pérez",
+   "description": "He has lofty ambitions of reinventing the Argentinian literary scene."
+  },
+  {
+   "id": "roberto-torres",
+   "name": "Roberto Torres",
+   "short": "Roberto",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 122,
+   "tp": 108,
+   "stats": {
+    "kick": 68,
+    "body": 60,
+    "control": 54,
+    "guard": 65,
+    "speed": 79,
+    "stamina": 62,
+    "guts": 58
+   },
+   "moves": [
+    "dog-run",
+    "cyclone",
+    "double-rocket",
+    "iron-wall"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Roberto Torres",
+   "description": "The old legend of El Dorado is an enduring passion for him. He dreams of finding it."
+  },
+  {
+   "id": "pablo-castillo",
+   "name": "Pablo Castillo",
+   "short": "Castillo",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 128,
+   "tp": 99,
+   "stats": {
+    "kick": 68,
+    "body": 71,
+    "control": 48,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 60
+   },
+   "moves": [
+    "hawk-shot",
+    "nekketsu-head",
+    "zigzag-flame",
+    "triangle-z"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Pablo Castillo",
+   "description": "The natural beauty of Argentina inspires his art, and he hopes for recognition."
+  },
+  {
+   "id": "leone-badigo",
+   "name": "Leone Badigo",
+   "short": "Badigo",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 120,
+   "stats": {
+    "kick": 68,
+    "body": 58,
+    "control": 44,
+    "guard": 68,
+    "speed": 76,
+    "stamina": 41,
+    "guts": 52
+   },
+   "moves": [
+    "hellfire",
+    "condor-dive",
+    "eagle-buster"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Leone Batigo",
+   "description": "His swooping, powerful plays have earned him the nickname El Cóndor."
+  },
+  {
+   "id": "diego-oro",
+   "name": "Diego Oro",
+   "short": "Oro",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 117,
+   "stats": {
+    "kick": 61,
+    "body": 59,
+    "control": 66,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 71
+   },
+   "moves": [
+    "hellfire",
+    "oouchiwa",
+    "eagle-buster"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Diego Oro",
+   "description": "This nutty player sets off fireworks in his bathroom at Christmas and new year."
+  },
+  {
+   "id": "lionel-cruz",
+   "name": "Lionel Cruz",
+   "short": "Cruz",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 133,
+   "tp": 128,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 49,
+    "guard": 56,
+    "speed": 57,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "power-shield",
+    "full-power-shield",
+    "zigzag-flame",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Lionel Cruz",
+   "description": "He makes incredible pork sausages. It's like a hobby for him."
+  },
+  {
+   "id": "mario-saviola",
+   "name": "Mario Saviola",
+   "short": "Saviola",
+   "number": 13,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 103,
+   "stats": {
+    "kick": 50,
+    "body": 61,
+    "control": 52,
+    "guard": 57,
+    "speed": 58,
+    "stamina": 50,
+    "guts": 52
+   },
+   "moves": [
+    "magic",
+    "twin-boost",
+    "giant-spin",
+    "dragon-ground"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mario Saviola",
+   "description": "His pushy parents said to him, \"you'd better win, or else!\", which causes him much angst."
+  },
+  {
+   "id": "hern-n-t-vez",
+   "name": "Hernán Tévez",
+   "short": "Tévez",
+   "number": 14,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 128,
+   "tp": 99,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 60,
+    "guard": 75,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 76
+   },
+   "moves": [
+    "illusion-ball",
+    "block-circus",
+    "rocket-kobushi",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hernán Tévez",
+   "description": "Despite his young age, he helps out at the local radio station, covering football matches."
+  },
+  {
+   "id": "herman-samuel",
+   "name": "Herman Samuel",
+   "short": "Samuel",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 115,
+   "stats": {
+    "kick": 53,
+    "body": 77,
+    "control": 40,
+    "guard": 60,
+    "speed": 52,
+    "stamina": 45,
+    "guts": 40
+   },
+   "moves": [
+    "armadillo-circus",
+    "tsuchi-daruma",
+    "reflect-buster",
+    "dog-run"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Germán Samuel",
+   "description": "Serve him a steak, sprinkled with sea salt and grilled over an open fire, and he's in heaven."
+  },
+  {
+   "id": "ricardo-ag-ero",
+   "name": "Ricardo Agüero",
+   "short": "Agüero",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 128,
+   "tp": 106,
+   "stats": {
+    "kick": 43,
+    "body": 40,
+    "control": 40,
+    "guard": 56,
+    "speed": 41,
+    "stamina": 67,
+    "guts": 40
+   },
+   "moves": [
+    "kurukuru-head",
+    "eagle-buster",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ricardo Agüero",
+   "description": "The windy regions of Patagonia have been his training ground, so he's an all-weather player."
+  }
+ ]
+}

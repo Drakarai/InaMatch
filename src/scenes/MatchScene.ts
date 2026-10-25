@@ -619,7 +619,7 @@ export class MatchScene extends Phaser.Scene {
   }
 
   private drainFp(p: MatchPlayer, dt: number): void {
-    p.fp = Math.max(0, p.fp - dt * 0.15 * (30 / Math.max(10, p.data.stats.stamina)));
+    p.fp = Math.max(0, p.fp - dt * 0.15 * (65 / Math.max(20, p.data.stats.stamina)));
   }
 
   private cpuDribble(p: MatchPlayer, speed: number, dt: number): void {

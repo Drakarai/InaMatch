@@ -79,7 +79,8 @@ export class MatchPlayer {
   }
 
   speed(withBall: boolean): number {
-    const base = 70 + this.data.stats.speed * 2.2;
+    // atributos de IE3 a nivel 99 (Rapidez ~45-80)
+    const base = 60 + this.data.stats.speed * 1.25;
     const tired = 0.8 + 0.2 * (this.fp / this.maxFp);
     return base * tired * (withBall ? 0.85 : 1) * GAME_SPEED;
   }

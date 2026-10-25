@@ -1,0 +1,499 @@
+{
+ "id": "neo-japan",
+ "name": "Neo Japón",
+ "short": "NEO",
+ "colors": {
+  "shirt": "#1b1b2f",
+  "shorts": "#e8e8e8",
+  "gkShirt": "#c9a227",
+  "accent": "#3a3a6a"
+ },
+ "formation": "f-neo",
+ "players": [
+  {
+   "id": "joseph-king",
+   "name": "Joseph King",
+   "short": "Joseph",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 129,
+   "stats": {
+    "kick": 55,
+    "body": 53,
+    "control": 69,
+    "guard": 75,
+    "speed": 55,
+    "stamina": 64,
+    "guts": 60
+   },
+   "moves": [
+    "mugen-no-kabe",
+    "drill-smasher"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Genda Koujirou"
+  },
+  {
+   "id": "zack-cummings",
+   "name": "Zack Cummings",
+   "short": "Zack",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 115,
+   "tp": 118,
+   "stats": {
+    "kick": 68,
+    "body": 76,
+    "control": 53,
+    "guard": 70,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 58
+   },
+   "moves": [
+    "harvest",
+    "earthquake",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ishidaira Hanzou"
+  },
+  {
+   "id": "argie-bargie",
+   "name": "Argie Bargie",
+   "short": "Argie",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 150,
+   "tp": 103,
+   "stats": {
+    "kick": 56,
+    "body": 66,
+    "control": 62,
+    "guard": 64,
+    "speed": 64,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "double-cyclone",
+    "mad-express"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gouin Takeshi"
+  },
+  {
+   "id": "mark-hillvalley",
+   "name": "Mark Hillvalley",
+   "short": "Mark",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 108,
+   "stats": {
+    "kick": 40,
+    "body": 56,
+    "control": 52,
+    "guard": 79,
+    "speed": 63,
+    "stamina": 66,
+    "guts": 53
+   },
+   "moves": [
+    "giant-spin",
+    "harvest",
+    "earthquake",
+    "mugen-no-kabe"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Makiya Hiroshi"
+  },
+  {
+   "id": "henry-house",
+   "name": "Henry House",
+   "short": "Henry",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 126,
+   "tp": 128,
+   "stats": {
+    "kick": 48,
+    "body": 68,
+    "control": 60,
+    "guard": 67,
+    "speed": 64,
+    "stamina": 70,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "planet-shield",
+    "divine-arrow",
+    "god-break"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hera Tadashi"
+  },
+  {
+   "id": "alan-master",
+   "name": "Alan Master",
+   "short": "Alan",
+   "number": 2,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 124,
+   "stats": {
+    "kick": 60,
+    "body": 64,
+    "control": 58,
+    "guard": 69,
+    "speed": 59,
+    "stamina": 62,
+    "guts": 66
+   },
+   "moves": [
+    "killer-slide",
+    "illusion-ball",
+    "echo-ball"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Narukami Kenya"
+  },
+  {
+   "id": "dave-quagmire",
+   "name": "Dave Quagmire",
+   "short": "Dave",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 124,
+   "tp": 128,
+   "stats": {
+    "kick": 75,
+    "body": 68,
+    "control": 61,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 57,
+    "guts": 48
+   },
+   "moves": [
+    "illusion-ball",
+    "dash-storm",
+    "god-knows"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Saginuma Osamu",
+   "description": "Raimon first met this Gungnir-toting football fanatic in Kyoto back in his Dvalin days."
+  },
+  {
+   "id": "ethan-whitering",
+   "name": "Ethan Whitering",
+   "short": "Ethan",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 133,
+   "tp": 128,
+   "stats": {
+    "kick": 52,
+    "body": 79,
+    "control": 60,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 71,
+    "guts": 55
+   },
+   "moves": [
+    "meteor-shower",
+    "beast-fang",
+    "twin-boost-f"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Atsuishi Shigeto"
+  },
+  {
+   "id": "daniel-hatch",
+   "name": "Daniel Hatch",
+   "short": "Daniel",
+   "number": 5,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 111,
+   "tp": 121,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 68,
+    "guard": 68,
+    "speed": 52,
+    "stamina": 61,
+    "guts": 64
+   },
+   "moves": [
+    "killer-slide",
+    "double-cyclone"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jimon Daiki",
+   "description": "Royal Academy's ace striker. Those long legs are like loaded weapons."
+  },
+  {
+   "id": "neil-turner",
+   "name": "Neil Turner",
+   "short": "Neil",
+   "number": 6,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 121,
+   "tp": 125,
+   "stats": {
+    "kick": 57,
+    "body": 58,
+    "control": 70,
+    "guard": 52,
+    "speed": 62,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "fire-tornado",
+    "bakunetsu-storm"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shimozuru Arata",
+   "description": "He used to be gentle, but became more aggressive after re-education."
+  },
+  {
+   "id": "sail-bluesea",
+   "name": "Sail Bluesea",
+   "short": "Sail",
+   "number": 7,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 122,
+   "stats": {
+    "kick": 52,
+    "body": 61,
+    "control": 61,
+    "guard": 54,
+    "speed": 60,
+    "stamina": 68,
+    "guts": 55
+   },
+   "moves": [
+    "zanzou",
+    "bunshin-defense",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kirigakure Saiji"
+  },
+  {
+   "id": "johan-tassman",
+   "name": "Johan Tassman",
+   "short": "Johan",
+   "number": 8,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 105,
+   "tp": 135,
+   "stats": {
+    "kick": 62,
+    "body": 64,
+    "control": 56,
+    "guard": 48,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 63
+   },
+   "moves": [
+    "kamikakushi",
+    "phantom-shoot",
+    "astro-break",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yuukoku Hiroyuki"
+  },
+  {
+   "id": "wilbur-watkins",
+   "name": "Wilbur Watkins",
+   "short": "Wilbur",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 117,
+   "tp": 123,
+   "stats": {
+    "kick": 78,
+    "body": 67,
+    "control": 62,
+    "guard": 53,
+    "speed": 48,
+    "stamina": 46,
+    "guts": 67
+   },
+   "moves": [
+    "ganymede-proton",
+    "sabaki-no-tettsui",
+    "supernova"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Izuno Yuu"
+  },
+  {
+   "id": "zeke-valanche",
+   "name": "Zeke Valanche",
+   "short": "Zeke",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 128,
+   "stats": {
+    "kick": 58,
+    "body": 57,
+    "control": 52,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "ganymede-proton",
+    "reflect-buster",
+    "triangle-z",
+    "wormhole"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Segata Ryuuichirou"
+  },
+  {
+   "id": "tyler-murdock",
+   "name": "Tyler Murdock",
+   "short": "Tyler",
+   "number": 14,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 122,
+   "stats": {
+    "kick": 74,
+    "body": 60,
+    "control": 68,
+    "guard": 56,
+    "speed": 60,
+    "stamina": 59,
+    "guts": 54
+   },
+   "moves": [
+    "back-tornado",
+    "spinning-cut",
+    "triangle-z",
+    "triple-boost"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mukata Tsutomu"
+  },
+  {
+   "id": "jonas-demetrius",
+   "name": "Jonas Demetrius",
+   "short": "Jonas",
+   "number": 15,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 128,
+   "tp": 130,
+   "stats": {
+    "kick": 70,
+    "body": 59,
+    "control": 64,
+    "guard": 56,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 62
+   },
+   "moves": [
+    "warp-drive",
+    "reflect-buster",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Demete Yutaka"
+  }
+ ]
+}

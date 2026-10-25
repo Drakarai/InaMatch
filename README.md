@@ -79,16 +79,26 @@ src/
 docs/              notas de referencia del juego original
 ```
 
-## Añadir equipos
+## Equipos
 
-Crea un `.json` en `src/data/teams/` copiando uno de los existentes y aparecerá solo en el menú.
+Los **21 equipos de IE3** se generan con `python3 -I tools/wiki/teams.py` a partir de la
+[wiki inglesa](https://inazuma-eleven.fandom.com/):
+- **Equipos:** las selecciones del Fútbol Frontier Internacional, Neo Japón, Ogro, Team K, el Equipo Garshield, los equipos del cielo y del infierno, y el Mega Inazuma Eleven.
+- **Plantilla, dorsales y formación:** la tabla de miembros de IE3 de la página de cada equipo.
+- **Posición, afinidad y técnicas de IE3:** `Module:PlayerData/IE`, `IE2` e `IE3`.
+- **Nombre europeo, atributos de IE3 a nivel 99 y descripción:** la página de cada jugador.
+- **Técnicas:** potencia y coste de IE3 de `Module:WazaData`, con el nombre en español del catálogo.
+- **Formaciones:** nombre y distribución (F-D Lion 4-4-2, F-Kingdom 4-3-3…); el juego coloca a los jugadores a partir de la distribución.
+- **Nombre del equipo en español:** el enlace entre wikis, cuando lo hay.
+- **Titulares:** portero y las líneas de la formación por orden de dorsal. Si faltan jugadores de una posición, entra el que mejor encaja por atributos.
+
+Lo que no viene en la wiki se pone a mano en el script: los colores de cada equipo y las siglas.
+En el campo se ve el nombre de pila en los equipos japoneses y el apellido en el resto.
+
+Para añadir un equipo a mano, crea un `.json` en `src/data/teams/` copiando uno de los existentes y aparecerá solo en el menú.
 - Los 11 primeros jugadores son los titulares, en el orden de los huecos de la formación, empezando por el portero.
-- El resto va al banquillo.
-- Las supertécnicas se referencian por `id` (`src/data/moves.json`).
 - `npm test` avisa de técnicas inexistentes, ids repetidos o plantillas incompletas.
-
-Las estadísticas de Inazuma National y Desert Lions salen del vídeo de referencia cuando se ven en pantalla.
-El resto son estimaciones que hay que ir corrigiendo con los datos de los juegos.
+- Después, `python3 -I tools/pack_readme.py` actualiza la lista de nombres de los sprites.
 
 ## Catálogo de supertécnicas
 
@@ -101,10 +111,10 @@ De cada una guarda:
   son dos técnicas distintas.
 - Potencia y coste en Victory Road, y TP en IE3.
 
-Las técnicas del juego (`src/data/moves.json`) salen de ahí:
-- Nombre en español.
-- TP de IE3.
-- Potencia = 75 % de la de Victory Road, para que encaje con la escala de atributos del juego.
+Las técnicas del juego (`src/data/moves.json`) las genera `tools/wiki/teams.py`. Cada una lleva:
+- **Nombre:** en español, del catálogo.
+- **Potencia y coste:** los de IE3 (`Module:WazaData`).
+- **Afinidad:** la de cada versión. Por ejemplo, la Mano mágica de Darren es de Bosque.
 
 Para actualizar el catálogo cuando cambien las wikis: `tools/wiki/build.sh` (hace unas 50 peticiones, con pausas).
 

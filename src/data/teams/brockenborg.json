@@ -1,0 +1,518 @@
+{
+ "id": "brockenborg",
+ "name": "Brockenborg",
+ "short": "BRO",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#c8a020",
+  "accent": "#3a3a3a"
+ },
+ "formation": "f-blitz",
+ "players": [
+  {
+   "id": "thorsten-welger",
+   "name": "Thorsten Welger",
+   "short": "Welger",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 132,
+   "stats": {
+    "kick": 64,
+    "body": 63,
+    "control": 62,
+    "guard": 73,
+    "speed": 52,
+    "stamina": 57,
+    "guts": 56
+   },
+   "moves": [
+    "shootrap",
+    "sneaking-raid",
+    "stinger"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Thorsten Berger",
+   "description": "His family are brewers, but he prefers a nice glass of Apfelschorle."
+  },
+  {
+   "id": "alexander-hausen",
+   "name": "Alexander Hausen",
+   "short": "Hausen",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 116,
+   "stats": {
+    "kick": 62,
+    "body": 63,
+    "control": 61,
+    "guard": 65,
+    "speed": 57,
+    "stamina": 59,
+    "guts": 58
+   },
+   "moves": [
+    "sneaking-raid",
+    "stone-prison",
+    "koutei-penguin-x"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Alexander Hausen",
+   "description": "This player always acts logically, no matter what kind of situation he's in."
+  },
+  {
+   "id": "heinrich-farber",
+   "name": "Heinrich Farber",
+   "short": "Farber",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 109,
+   "stats": {
+    "kick": 63,
+    "body": 73,
+    "control": 65,
+    "guard": 64,
+    "speed": 58,
+    "stamina": 56,
+    "guts": 61
+   },
+   "moves": [
+    "blade-attack",
+    "sneaking-raid",
+    "koutei-penguin-2gou",
+    "galatyn"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Heinrich Fritz",
+   "description": "Because of his strange hobby of sharpening knives, he is often mistaken for a baddy."
+  },
+  {
+   "id": "kurt-zawel",
+   "name": "Kurt Zawel",
+   "short": "Zawel",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 104,
+   "stats": {
+    "kick": 57,
+    "body": 73,
+    "control": 62,
+    "guard": 54,
+    "speed": 57,
+    "stamina": 51,
+    "guts": 57
+   },
+   "moves": [
+    "u-boat",
+    "mogura-feint",
+    "the-wall",
+    "the-mountain"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kurt Zabel",
+   "description": "If he doesn't get his daily portion of Kartoffelsalat, he's got no energy."
+  },
+  {
+   "id": "lukas-schmidt",
+   "name": "Lukas Schmidt",
+   "short": "Schmidt",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 120,
+   "stats": {
+    "kick": 64,
+    "body": 80,
+    "control": 65,
+    "guard": 63,
+    "speed": 60,
+    "stamina": 50,
+    "guts": 50
+   },
+   "moves": [
+    "scissors-bomb",
+    "power-charge",
+    "god-knows"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Luka Schmitt",
+   "description": "He loves tanks, so he's taking a tour of all the tank museums in Europe."
+  },
+  {
+   "id": "theodor-ulrich",
+   "name": "Theodor Ulrich",
+   "short": "Ulrich",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 108,
+   "stats": {
+    "kick": 65,
+    "body": 77,
+    "control": 58,
+    "guard": 56,
+    "speed": 68,
+    "stamina": 51,
+    "guts": 44
+   },
+   "moves": [
+    "heat-tackle",
+    "gunshot",
+    "stinger",
+    "iron-wall"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Theodor Ulrich",
+   "description": "With a civilised demeanour and an iron will, he's the model of a German sportsman."
+  },
+  {
+   "id": "jan-oster",
+   "name": "Jan Oster",
+   "short": "Oster",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 117,
+   "stats": {
+    "kick": 56,
+    "body": 64,
+    "control": 66,
+    "guard": 55,
+    "speed": 62,
+    "stamina": 42,
+    "guts": 54
+   },
+   "moves": [
+    "sneaking-raid",
+    "u-boat",
+    "super-scan-df",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Jan Oldeno",
+   "description": "This keen amateur mechanic is lucky enough to hail from the home of precision engineering."
+  },
+  {
+   "id": "niklas-kuster",
+   "name": "Niklas Kuster",
+   "short": "Kuster",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 131,
+   "tp": 112,
+   "stats": {
+    "kick": 68,
+    "body": 71,
+    "control": 58,
+    "guard": 57,
+    "speed": 65,
+    "stamina": 46,
+    "guts": 57
+   },
+   "moves": [
+    "shippuu-dash",
+    "lightning-accel",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Niklas Kuster",
+   "description": "A brutal player, he's able to overwhelm his rivals with constant attacks."
+  },
+  {
+   "id": "jonas-polk",
+   "name": "Jonas Polk",
+   "short": "Polk",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 123,
+   "stats": {
+    "kick": 66,
+    "body": 64,
+    "control": 65,
+    "guard": 56,
+    "speed": 65,
+    "stamina": 64,
+    "guts": 59
+   },
+   "moves": [
+    "gunshot",
+    "gravitation",
+    "rocket-kobushi",
+    "the-galaxy"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Jonas Pollack",
+   "description": "He hopes to fly to Mars in a rocket of his own design one day."
+  },
+  {
+   "id": "maximilian-m-ller",
+   "name": "Maximilian Müller",
+   "short": "Müller",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 117,
+   "tp": 109,
+   "stats": {
+    "kick": 67,
+    "body": 63,
+    "control": 58,
+    "guard": 56,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "u-boat",
+    "dark-tornado",
+    "gladius-arch"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Maximilian Milatz",
+   "description": "A proud Frankfurter who will never reveal his family's secret mix of seven herbs."
+  },
+  {
+   "id": "peter-naumann",
+   "name": "Peter Naumann",
+   "short": "Naumann",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 110,
+   "stats": {
+    "kick": 67,
+    "body": 62,
+    "control": 55,
+    "guard": 55,
+    "speed": 64,
+    "stamina": 47,
+    "guts": 63
+   },
+   "moves": [
+    "u-boat",
+    "divine-arrow",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Peter Nimke",
+   "description": "He's often seen in the park, reading from a volume of Heinrich Heine's poetry."
+  },
+  {
+   "id": "gerhard-enders",
+   "name": "Gerhard Enders",
+   "short": "Enders",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 129,
+   "stats": {
+    "kick": 61,
+    "body": 64,
+    "control": 55,
+    "guard": 79,
+    "speed": 62,
+    "stamina": 58,
+    "guts": 46
+   },
+   "moves": [
+    "shootrap",
+    "power-charge",
+    "chabudai-gaeshi",
+    "galatyn"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gerald Enders",
+   "description": "He can't wait to pass his test and get behind the wheel of a smart German motor."
+  },
+  {
+   "id": "erwin-v-lz",
+   "name": "Erwin Völz",
+   "short": "Völz",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 113,
+   "stats": {
+    "kick": 65,
+    "body": 65,
+    "control": 66,
+    "guard": 55,
+    "speed": 66,
+    "stamina": 46,
+    "guts": 65
+   },
+   "moves": [
+    "gunshot",
+    "aurora-dribble",
+    "jumping-thunder",
+    "koutei-penguin-3gou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Erwin Völz",
+   "description": "He's deeply concerned about environmental issues, and always acts accordingly."
+  },
+  {
+   "id": "jens-hoffman",
+   "name": "Jens Hoffman",
+   "short": "Hoffman",
+   "number": 14,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 127,
+   "tp": 106,
+   "stats": {
+    "kick": 61,
+    "body": 73,
+    "control": 67,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 49
+   },
+   "moves": [
+    "ganymede-proton",
+    "sneaking-raid",
+    "koutei-penguin-1gou"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Jens Hoffmann",
+   "description": "He's studying at music school in the hopes of surpassing Beethoven."
+  },
+  {
+   "id": "ernst-fliedner",
+   "name": "Ernst Fliedner",
+   "short": "Fliedner",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 105,
+   "stats": {
+    "kick": 57,
+    "body": 77,
+    "control": 62,
+    "guard": 58,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 53
+   },
+   "moves": [
+    "sneaking-raid",
+    "jibashiri-kaen",
+    "echo-ball",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ernst Frodeno",
+   "description": "He's from Breman, but is driven to distraction by caterwauling farm animals."
+  },
+  {
+   "id": "emmanuel-ewerz",
+   "name": "Emmanuel Ewerz",
+   "short": "Ewerz",
+   "number": 16,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 118,
+   "stats": {
+    "kick": 69,
+    "body": 73,
+    "control": 61,
+    "guard": 66,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 50
+   },
+   "moves": [
+    "sneaking-raid",
+    "power-charge",
+    "zigzag-flame"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Manuel Ewers",
+   "description": "An accomplished sausage maker who keeps his team well supplied with protein."
+  }
+ ]
+}

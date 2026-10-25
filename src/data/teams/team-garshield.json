@@ -1,0 +1,519 @@
+{
+ "id": "team-garshield",
+ "name": "Team Garshield",
+ "short": "GAR",
+ "colors": {
+  "shirt": "#2e2e2e",
+  "shorts": "#5a5a5a",
+  "gkShirt": "#8a2a2a",
+  "accent": "#4a4a4a"
+ },
+ "formation": "f-assassin",
+ "players": [
+  {
+   "id": "cyril-fox",
+   "name": "Cyril Fox",
+   "short": "Fox",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 127,
+   "tp": 139,
+   "stats": {
+    "kick": 57,
+    "body": 50,
+    "control": 60,
+    "guard": 70,
+    "speed": 65,
+    "stamina": 49,
+    "guts": 52
+   },
+   "moves": [
+    "big-spider",
+    "killer-blade",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fox",
+   "description": "He struggled to read his rivals' intentions, but he's getting there with Zoolan Rice's guidance."
+  },
+  {
+   "id": "jacques-allemand",
+   "name": "Jacques Allemand",
+   "short": "Allemand",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 132,
+   "stats": {
+    "kick": 62,
+    "body": 49,
+    "control": 52,
+    "guard": 68,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 52
+   },
+   "moves": [
+    "judge-through-2",
+    "demon-cut",
+    "naraku-otoshi",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jackal",
+   "description": "Zoolan Rice has been teaching him how to play dirty. It's a contact sport after all."
+  },
+  {
+   "id": "phil-a-minion",
+   "name": "Phil A. Minion",
+   "short": "Minion",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 128,
+   "tp": 135,
+   "stats": {
+    "kick": 52,
+    "body": 68,
+    "control": 77,
+    "guard": 69,
+    "speed": 53,
+    "stamina": 54,
+    "guts": 64
+   },
+   "moves": [
+    "judge-through-3",
+    "demon-cut",
+    "heaven-s-time"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Lubbock Henktacker",
+   "description": "He's a bit podgy, but a sharp guy. Be very wary of his disarming grin."
+  },
+  {
+   "id": "buddy-plains",
+   "name": "Buddy Plains",
+   "short": "Plains",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 114,
+   "tp": 128,
+   "stats": {
+    "kick": 60,
+    "body": 56,
+    "control": 52,
+    "guard": 60,
+    "speed": 53,
+    "stamina": 52,
+    "guts": 58
+   },
+   "moves": [
+    "judge-through-2",
+    "roadroller-tackle",
+    "big-spider"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Buffalo",
+   "description": "He used to back out of challenges for fear of injury, but Zoolan Rice helped him improve."
+  },
+  {
+   "id": "dean-goddard",
+   "name": "Dean Goddard",
+   "short": "Goddard",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 136,
+   "stats": {
+    "kick": 50,
+    "body": 60,
+    "control": 61,
+    "guard": 57,
+    "speed": 61,
+    "stamina": 60,
+    "guts": 52
+   },
+   "moves": [
+    "illusion-ball",
+    "asteroid-belt",
+    "aikidou",
+    "ninin-sankyaku"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Dingo",
+   "description": "He was no good at teamwork, but Zoolan Rice kicked him into touch."
+  },
+  {
+   "id": "cecil-crowley",
+   "name": "Cecil Crowley",
+   "short": "Crowley",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 139,
+   "tp": 127,
+   "stats": {
+    "kick": 54,
+    "body": 59,
+    "control": 54,
+    "guard": 61,
+    "speed": 49,
+    "stamina": 56,
+    "guts": 54
+   },
+   "moves": [
+    "hawk-shot",
+    "judge-through-3",
+    "meteor-shower",
+    "shooting-star"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Owl",
+   "description": "He wasn't able to see very well in the daytime, but Zoolan Rice soon fixed that."
+  },
+  {
+   "id": "seth-hedges",
+   "name": "Seth Hedges",
+   "short": "Hedges",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 133,
+   "tp": 129,
+   "stats": {
+    "kick": 49,
+    "body": 57,
+    "control": 52,
+    "guard": 57,
+    "speed": 58,
+    "stamina": 66,
+    "guts": 60
+   },
+   "moves": [
+    "tatsumaki-dokugiri",
+    "toughness-block",
+    "body-shield",
+    "heavy-baby"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hedgehog",
+   "description": "He was weak against opponents' attacks, but Zoolan Rice helped him overcome that."
+  },
+  {
+   "id": "niccolo-mantegna",
+   "name": "Niccolo Mantegna",
+   "short": "Mantegna",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 130,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 49,
+    "guard": 48,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 57
+   },
+   "moves": [
+    "gravitation",
+    "judge-through-2"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mantis",
+   "description": "His technique was lacking in edge, but Zoolan Rice soon sorted that out."
+  },
+  {
+   "id": "damien-crawford",
+   "name": "Damien Crawford",
+   "short": "Crawford",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 122,
+   "tp": 130,
+   "stats": {
+    "kick": 53,
+    "body": 64,
+    "control": 51,
+    "guard": 53,
+    "speed": 72,
+    "stamina": 48,
+    "guts": 64
+   },
+   "moves": [
+    "demon-cut",
+    "death-zone",
+    "jigoku-guruma",
+    "koutei-penguin-x"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Crow",
+   "description": "Team Zoolan's leader on the pitch. He's also known by the ominous name Grim Reaper."
+  },
+  {
+   "id": "avinash-chowdhury",
+   "name": "Avinash Chowdhury",
+   "short": "Chowdhury",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 129,
+   "stats": {
+    "kick": 59,
+    "body": 56,
+    "control": 51,
+    "guard": 50,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 72
+   },
+   "moves": [
+    "dokugiri-no-jutsu",
+    "dark-tornado",
+    "heavy-baby"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Coyote",
+   "description": "He'd lost confidence, and didn't know how to get it back. Until he met Zoolan Rice, that is..."
+  },
+  {
+   "id": "sedgley-scofield",
+   "name": "Sedgley Scofield",
+   "short": "Scofield",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 137,
+   "stats": {
+    "kick": 69,
+    "body": 79,
+    "control": 51,
+    "guard": 53,
+    "speed": 50,
+    "stamina": 53,
+    "guts": 48
+   },
+   "moves": [
+    "dash-storm",
+    "dark-phoenix",
+    "bunshin-feint",
+    "ganymede-proton"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Scorpio",
+   "description": "His power to make decisive attacks was greatly boosted by Zoolan Rice."
+  },
+  {
+   "id": "grizzler-bruin",
+   "name": "Grizzler Bruin",
+   "short": "Bruin",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 133,
+   "tp": 138,
+   "stats": {
+    "kick": 67,
+    "body": 64,
+    "control": 52,
+    "guard": 59,
+    "speed": 54,
+    "stamina": 49,
+    "guts": 48
+   },
+   "moves": [
+    "killer-slide",
+    "big-spider",
+    "swan-dive",
+    "planet-shield"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Goliath",
+   "description": "He'd lacked precision on the pitch, but thanks to Zoolan Rice, he's like a laser now."
+  },
+  {
+   "id": "ian-c-wincy",
+   "name": "Ian C. Wincy",
+   "short": "Wincy",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 138,
+   "tp": 136,
+   "stats": {
+    "kick": 52,
+    "body": 69,
+    "control": 55,
+    "guard": 73,
+    "speed": 48,
+    "stamina": 68,
+    "guts": 54
+   },
+   "moves": [
+    "onryou",
+    "kumo-no-ito",
+    "big-spider",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Spider",
+   "description": "Physically, he was weak till Zoolan Rice turbocharged him. Now he's built like a tank."
+  },
+  {
+   "id": "bandy-horsman",
+   "name": "Bandy Horsman",
+   "short": "Horsman",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 129,
+   "stats": {
+    "kick": 62,
+    "body": 76,
+    "control": 48,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 70,
+    "guts": 55
+   },
+   "moves": [
+    "doppelganger",
+    "judge-through-3",
+    "kamikakushi",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Giraffe",
+   "description": "His resolve on the pitch was weak, but Zoolan Rice gifted him a steady nerve."
+  },
+  {
+   "id": "ali-caiman",
+   "name": "Ali Caiman",
+   "short": "Caiman",
+   "number": 15,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 137,
+   "tp": 128,
+   "stats": {
+    "kick": 70,
+    "body": 62,
+    "control": 56,
+    "guard": 57,
+    "speed": 56,
+    "stamina": 52,
+    "guts": 56
+   },
+   "moves": [
+    "warp-drive",
+    "dark-tornado",
+    "desert-storm",
+    "judge-through-2"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gavial",
+   "description": "This player's unpolished ball skills were improved by Zoolan Rice."
+  },
+  {
+   "id": "chris-ellis",
+   "name": "Chris Ellis",
+   "short": "Ellis",
+   "number": 16,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 136,
+   "tp": 136,
+   "stats": {
+    "kick": 53,
+    "body": 50,
+    "control": 77,
+    "guard": 51,
+    "speed": 74,
+    "stamina": 52,
+    "guts": 59
+   },
+   "moves": [
+    "demon-cut",
+    "asteroid-belt",
+    "ice-block"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Papillon",
+   "description": "He didn't have much stamina until Zoolan Rice supercharged him."
+  }
+ ]
+}

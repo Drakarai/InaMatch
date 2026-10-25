@@ -1,0 +1,520 @@
+{
+ "id": "desert-lion",
+ "name": "Leones del Desierto",
+ "short": "DLI",
+ "colors": {
+  "shirt": "#8e1f2f",
+  "shorts": "#f2ede4",
+  "gkShirt": "#3b3b48",
+  "accent": "#a8283a"
+ },
+ "formation": "f-d-lion",
+ "players": [
+  {
+   "id": "nasir-mustafa",
+   "name": "Nasir Mustafa",
+   "short": "Mustafa",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 138,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 46,
+    "guard": 72,
+    "speed": 49,
+    "stamina": 76,
+    "guts": 51
+   },
+   "moves": [
+    "storm-rider",
+    "counterstrike"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nasser Mustafa",
+   "description": "A scion of a powerful tribe, he cannot return home unless it is to announce victory."
+  },
+  {
+   "id": "faraz-farooq",
+   "name": "Faraz Farooq",
+   "short": "Farooq",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 144,
+   "tp": 96,
+   "stats": {
+    "kick": 54,
+    "body": 60,
+    "control": 52,
+    "guard": 56,
+    "speed": 48,
+    "stamina": 82,
+    "guts": 62
+   },
+   "moves": [
+    "scissors-bomb",
+    "gorimuchuu",
+    "maboroshi-dribble",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Far Farouk",
+   "description": "This player's famous for making delicious desserts with dates."
+  },
+  {
+   "id": "bilal-kalil",
+   "name": "Bilal Kalil",
+   "short": "Kalil",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 116,
+   "stats": {
+    "kick": 51,
+    "body": 62,
+    "control": 65,
+    "guard": 72,
+    "speed": 58,
+    "stamina": 75,
+    "guts": 61
+   },
+   "moves": [
+    "mirage-shoot",
+    "scissors-bomb",
+    "desert-storm"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bjorn Kyle",
+   "description": "A shadowy man who leads his team with a relentless energy."
+  },
+  {
+   "id": "jamila-wali",
+   "name": "Jamila Wali",
+   "short": "Wali",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 109,
+   "stats": {
+    "kick": 48,
+    "body": 53,
+    "control": 57,
+    "guard": 66,
+    "speed": 78,
+    "stamina": 70,
+    "guts": 57
+   },
+   "moves": [
+    "desert-storm",
+    "double-cyclone",
+    "judge-through",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Djamel Djammadu",
+   "description": "A keen traveller, this player dreams of a world which is not dependent on fossil fuels."
+  },
+  {
+   "id": "musa-sylla",
+   "name": "Musa Sylla",
+   "short": "Sylla",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 138,
+   "tp": 105,
+   "stats": {
+    "kick": 57,
+    "body": 64,
+    "control": 53,
+    "guard": 68,
+    "speed": 49,
+    "stamina": 73,
+    "guts": 55
+   },
+   "moves": [
+    "desert-storm",
+    "the-wall",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Musa Sirer",
+   "description": "This player wants to improve Qatar's manufacturing base and diversify."
+  },
+  {
+   "id": "yusuf-massoud",
+   "name": "Yusuf Massoud",
+   "short": "Massoud",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 131,
+   "tp": 110,
+   "stats": {
+    "kick": 62,
+    "body": 67,
+    "control": 63,
+    "guard": 57,
+    "speed": 48,
+    "stamina": 80,
+    "guts": 60
+   },
+   "moves": [
+    "dash-storm",
+    "magic",
+    "hawk-shot",
+    "lightning-accel"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yusuf M'hadi",
+   "description": "This player deeply respects tribal traditions, and wouldn't like to live away from home."
+  },
+  {
+   "id": "sulayk-sulaiman",
+   "name": "Sulayk Sulaiman",
+   "short": "Sulaiman",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 128,
+   "tp": 114,
+   "stats": {
+    "kick": 58,
+    "body": 52,
+    "control": 53,
+    "guard": 56,
+    "speed": 62,
+    "stamina": 76,
+    "guts": 52
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "fake-ball",
+    "bunshin-feint",
+    "bunshin-defense"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sulai Sulaiman",
+   "description": "This player hopes to help Qatar by finding a way to desalinate seawater."
+  },
+  {
+   "id": "sayid-armand",
+   "name": "Sayid Armand",
+   "short": "Armand",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 133,
+   "tp": 108,
+   "stats": {
+    "kick": 56,
+    "body": 62,
+    "control": 51,
+    "guard": 64,
+    "speed": 51,
+    "stamina": 99,
+    "guts": 48
+   },
+   "moves": [
+    "dash-storm",
+    "scissors-bomb",
+    "power-charge",
+    "judge-through-2"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Seiyd Armand",
+   "description": "This player is concerned that his country's economy is dependant on oil exports."
+  },
+  {
+   "id": "mansur-jasim",
+   "name": "Mansur Jasim",
+   "short": "Jasim",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 112,
+   "stats": {
+    "kick": 57,
+    "body": 54,
+    "control": 58,
+    "guard": 62,
+    "speed": 48,
+    "stamina": 86,
+    "guts": 52
+   },
+   "moves": [
+    "scissors-bomb",
+    "tsuchi-daruma",
+    "judge-through-2",
+    "body-shield"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Messer Jassim",
+   "description": "This player is an expert at finding natural pearls. They're pretty pricey these days."
+  },
+  {
+   "id": "zack-abdulla",
+   "name": "Zack Abdulla",
+   "short": "Abdulla",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 107,
+   "stats": {
+    "kick": 96,
+    "body": 49,
+    "control": 50,
+    "guard": 46,
+    "speed": 61,
+    "stamina": 75,
+    "guts": 52
+   },
+   "moves": [
+    "mirage-shoot",
+    "desert-storm",
+    "dynamite-shoot",
+    "beast-fang"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zack Abdullah",
+   "description": "Camel herding was the traditional occupation of this player's tribe."
+  },
+  {
+   "id": "majdi-ismail",
+   "name": "Majdi Ismail",
+   "short": "Majdi",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 137,
+   "tp": 119,
+   "stats": {
+    "kick": 61,
+    "body": 60,
+    "control": 62,
+    "guard": 54,
+    "speed": 71,
+    "stamina": 80,
+    "guts": 54
+   },
+   "moves": [
+    "mirage-shoot",
+    "wild-claw",
+    "astro-break"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Majidi Ismail",
+   "description": "As a hobby, this player likes to collect reptiles in the desert and frighten little girls with them."
+  },
+  {
+   "id": "talal-hamad",
+   "name": "Talal Hamad",
+   "short": "Hamad",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 140,
+   "tp": 130,
+   "stats": {
+    "kick": 48,
+    "body": 65,
+    "control": 50,
+    "guard": 79,
+    "speed": 55,
+    "stamina": 73,
+    "guts": 64
+   },
+   "moves": [
+    "storm-rider",
+    "tornado-catch",
+    "tsumuji",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Talal Hamad",
+   "description": "The ultimate goal of this player is to be a newsreader on a Middle Eastern TV station."
+  },
+  {
+   "id": "hasan-ahmed",
+   "name": "Hasan Ahmed",
+   "short": "Ahmed",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 139,
+   "tp": 103,
+   "stats": {
+    "kick": 54,
+    "body": 58,
+    "control": 56,
+    "guard": 62,
+    "speed": 53,
+    "stamina": 80,
+    "guts": 51
+   },
+   "moves": [
+    "desert-storm",
+    "doppelganger",
+    "dog-run",
+    "bakunetsu-storm"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hassan Ahmed",
+   "description": "This forward is known as the Eagle of Qatar for his swooping attacks."
+  },
+  {
+   "id": "khalfan-jibril",
+   "name": "Khalfan Jibril",
+   "short": "Jibril",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 128,
+   "tp": 124,
+   "stats": {
+    "kick": 47,
+    "body": 63,
+    "control": 63,
+    "guard": 61,
+    "speed": 49,
+    "stamina": 73,
+    "guts": 69
+   },
+   "moves": [
+    "desert-storm",
+    "double-cyclone",
+    "judge-through",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Khalfan Jibril",
+   "description": "This player is keen on preserving ancient mosques, and the fine arts of the Middle East."
+  },
+  {
+   "id": "rajab-ismail",
+   "name": "Rajab Ismail",
+   "short": "Rajab",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 123,
+   "tp": 115,
+   "stats": {
+    "kick": 50,
+    "body": 56,
+    "control": 54,
+    "guard": 72,
+    "speed": 56,
+    "stamina": 79,
+    "guts": 59
+   },
+   "moves": [
+    "scissors-bomb",
+    "meteor-attack",
+    "patriot-shoot",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rajab Ismail",
+   "description": "With the dream of getting published, this player is working on a novel set in Qatar."
+  },
+  {
+   "id": "adel-siddique",
+   "name": "Adel Siddique",
+   "short": "Siddique",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 107,
+   "stats": {
+    "kick": 55,
+    "body": 59,
+    "control": 55,
+    "guard": 58,
+    "speed": 67,
+    "stamina": 72,
+    "guts": 49
+   },
+   "moves": [
+    "mirage-shoot",
+    "dynamite-shoot",
+    "heavy-baby"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Adel Siddique",
+   "description": "A budding filmmaker, this player hopes that one day he can produce real Qatari cinema."
+  }
+ ]
+}

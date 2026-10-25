@@ -67,6 +67,9 @@ Partido Raimon contra Superestrellas CI, en español. Cambios respecto a IE3:
 - De GO: "Poder" de cada jugador en el duelo y choque de potencias, apoyo de compañeros con doble aro,
   "¡Regula la potencia!", cono de tiro, bloqueos de tiro, faltas y bocadillos "¡Aquí!" y "¡Tira!".
 - De IE3: FIRED UP con barra de tensión en el marcador.
+- Afinidades: Bosque > Aire > Montaña > Fuego > Bosque, más Neutro (morado, sin ventajas ni STAB).
+  La capa de jugadores cuenta siempre y la de técnicas solo si los dos usan una; STAB y "¡Bonus de afinidad!"
+  cuando el compañero que apoya comparte afinidad.
 
 ## Pendiente (siguientes pasos)
 

@@ -1,7 +1,7 @@
 // Reglas de los enfrentamientos (duelos, tiros y paradas).
 // Funciones puras: no dependen de Phaser, así se pueden testear y ajustar.
 
-import { elementMultiplier } from '../data/elements';
+import { SAME_ELEMENT_BONUS, elementMultiplier, hasStab } from '../data/elements';
 import type { Element, MoveData, MoveKind, Stats } from '../data/types';
 
 export type Rng = () => number;
@@ -63,8 +63,10 @@ export interface Fighter {
 export const DUEL_FP_COST = 4;
 export const SHOT_FP_COST = 6;
 
-/** Cada compañero cerca del duelo suma un 12 % (máximo dos), como el doble aro de GO. */
-export const SUPPORT_BONUS = 0.12;
+/** Cada compañero que entra en el duelo suma un 10 % (máximo dos), como el doble aro de GO... */
+export const SUPPORT_BONUS = 0.1;
+/** ...y otro 10 % si es de la misma afinidad que el jugador del duelo ("¡Bonus de afinidad!"). */
+export const AFFINITY_SUPPORT_BONUS = 0.1;
 export const MAX_SUPPORTERS = 2;
 /** Probabilidad de que una entrada en plancha ganada acabe en falta. */
 export const FOUL_CHANCE = 0.2;
@@ -81,8 +83,11 @@ export const SHOT_POWER_LEVELS = [
   { label: 'Máxima', tp: 20, mul: 1.3 },
 ] as const;
 
-export function supportMultiplier(supporters: number): number {
-  return 1 + SUPPORT_BONUS * Math.min(MAX_SUPPORTERS, Math.max(0, supporters));
+/** `sameElement` son cuántos de esos compañeros comparten afinidad con el jugador del duelo. */
+export function supportMultiplier(supporters: number, sameElement = 0): number {
+  const n = Math.min(MAX_SUPPORTERS, Math.max(0, supporters));
+  const same = Math.min(n, Math.max(0, sameElement));
+  return 1 + SUPPORT_BONUS * n + AFFINITY_SUPPORT_BONUS * same;
 }
 
 /** Multiplicadores externos: apoyo de compañeros, FIRED UP, potencia del tiro... */
@@ -142,15 +147,25 @@ export function choicePower(f: Fighter, c: Choice): number {
     raw = basicPower(c.id, f.stats);
   } else {
     raw = c.move.power + moveStat(c.move.kind, f.stats) * 0.8;
-    // Bonus si el elemento de la técnica coincide con el del jugador
-    if (c.move.element === f.element) raw *= 1.1;
+    // STAB: técnica de la misma afinidad que el jugador
+    if (hasStab(f.element, c.move.element)) raw *= SAME_ELEMENT_BONUS;
   }
   return raw * fpFactor(f.fp, f.maxFp);
 }
 
-function choiceElement(f: Fighter, c: Choice): Element {
-  return c.type === 'move' ? c.move.element : f.element;
+/**
+ * Afinidades de un enfrentamiento, en dos capas que se evalúan por separado:
+ * - la de los jugadores, que cuenta siempre;
+ * - la de las técnicas, solo si los dos usan supertécnica.
+ * Así, un jugador de Aire con técnica de Bosque contra uno de Montaña con técnica de Fuego
+ * gana por jugadores pero pierde por técnicas, y las dos ventajas se anulan.
+ */
+export function affinityMultiplier(a: Fighter, aChoice: Choice, b: Fighter, bChoice: Choice): number {
+  let m = elementMultiplier(a.element, b.element);
+  if (aChoice.type === 'move' && bChoice.type === 'move') m *= elementMultiplier(aChoice.move.element, bChoice.move.element);
+  return m;
 }
+
 
 /**
  * Piedra-papel-tijera de los comandos básicos:
@@ -192,10 +207,7 @@ export function resolveDuel(
 ): DuelResult {
   let a = choicePower(attacker, attChoice) * jitter(rng) * (mods.attack ?? 1);
   let d = choicePower(defender, defChoice) * jitter(rng) * (mods.defense ?? 1);
-  // El elemento solo cuenta cuando al menos uno usa supertécnica
-  if (attChoice.type === 'move' || defChoice.type === 'move') {
-    a *= elementMultiplier(choiceElement(attacker, attChoice), choiceElement(defender, defChoice));
-  }
+  a *= affinityMultiplier(attacker, attChoice, defender, defChoice);
   a *= basicMatchup(attChoice, defChoice);
   return { attackerWins: a > d, attackPower: Math.round(a), defensePower: Math.round(d) };
 }
@@ -242,9 +254,7 @@ export function resolveBlock(
     return { blocked: false, blockPower: 0, remaining: power };
   }
   let b = choicePower(blocker, blockChoice) * jitter(rng) * mul;
-  if (shotChoice.type === 'move' || blockChoice.type === 'move') {
-    b *= elementMultiplier(choiceElement(blocker, blockChoice), choiceElement(shooter, shotChoice));
-  }
+  b *= affinityMultiplier(blocker, blockChoice, shooter, shotChoice);
   const blocked = b >= power;
   return { blocked, blockPower: Math.round(b), remaining: blocked ? 0 : power - b * 0.5 };
 }
@@ -261,9 +271,7 @@ export function resolveKeeper(
 ): ShotResult {
   let s = power;
   const k = choicePower(keeper, keepChoice) * jitter(rng) * mul;
-  if (shotChoice.type === 'move' || keepChoice.type === 'move') {
-    s *= elementMultiplier(choiceElement(shooter, shotChoice), choiceElement(keeper, keepChoice));
-  }
+  s *= affinityMultiplier(shooter, shotChoice, keeper, keepChoice);
   // La vaselina castiga al portero que intenta despejar de puños
   if (shotChoice.type === 'basic' && shotChoice.id === 'chip' && keepChoice.type === 'basic' && keepChoice.id === 'punch') {
     s *= 1.2;

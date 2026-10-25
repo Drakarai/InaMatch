@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { COLORS, FIELD_VIEW, FONT, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PANEL, PITCH, hex } from '../config';
-import { ELEMENT_COLOR } from '../data/elements';
+import { ELEMENT_COLOR, elementMultiplier } from '../data/elements';
 import type { MoveData } from '../data/types';
 import {
   BASIC_LABEL,
@@ -42,6 +42,8 @@ const PROMPT_TITLE: Record<Situation, string> = {
 export interface DuelInfo {
   power?: [number, number];
   support?: [number, number];
+  /** compañeros que ayudan y además comparten afinidad ("¡Bonus de afinidad!") */
+  affinity?: [number, number];
 }
 
 const PROMPT_SECONDS = 7;
@@ -55,6 +57,7 @@ interface DuelRow {
   ball: Phaser.GameObjects.Image;
   power: Phaser.GameObjects.Text;
   support: Phaser.GameObjects.Text;
+  elem: Phaser.GameObjects.Graphics;
 }
 
 export class HudScene extends Phaser.Scene {
@@ -196,8 +199,9 @@ export class HudScene extends Phaser.Scene {
       const ball = this.add.image(w - 52, 36, 'ball').setScale(1.6);
       const power = text(this, w - 34, 11, '', 15, '#ffe28a').setOrigin(1, 0.5);
       const support = text(this, 0, 74, '', 12, '#9fffb0');
-      c.add([band, portrait, name, fp, tp, ball, power, support]);
-      this.rows.push({ container: c, portrait, name, fp, tp, ball, power, support });
+      const elem = this.add.graphics();
+      c.add([band, portrait, name, fp, tp, ball, power, support, elem]);
+      this.rows.push({ container: c, portrait, name, fp, tp, ball, power, support, elem });
     }
     this.infoTitle = text(this, x + 22, 370, '', 13, '#ffe28a');
     this.infoMoves = text(this, x + 22, 390, '', 14, '#ffffff', { lineSpacing: 4 });
@@ -231,8 +235,14 @@ export class HudScene extends Phaser.Scene {
       row.ball.setVisible(this.match.ballOwner() === p);
       const power = pair ? this.duelInfo.power?.[i] : undefined;
       row.power.setText(power !== undefined ? `Poder ${power}` : '');
+      // afinidad del jugador en la esquina del retrato; flecha si gana la afinidad al rival
+      const rival = pair ? pair[1 - i] : null;
+      const favoured = rival ? elementMultiplier(p.data.element, rival.data.element) > 1 : false;
+      row.elem.clear().fillStyle(ELEMENT_COLOR[p.data.element]).fillCircle(66, 66, 9).lineStyle(2, 0xffffff).strokeCircle(66, 66, 9);
+      if (favoured) row.elem.fillStyle(0xffe28a).fillTriangle(60, 52, 72, 52, 66, 44);
       const support = pair ? (this.duelInfo.support?.[i] ?? 0) : 0;
-      row.support.setText(support > 0 ? `¡Apoyo x${support}!` : '');
+      const affinity = pair ? (this.duelInfo.affinity?.[i] ?? 0) : 0;
+      row.support.setText(affinity > 0 ? `¡Bonus de afinidad x${affinity}!` : support > 0 ? `¡Apoyo x${support}!` : '');
     });
     const showInfo = !pair && !!focus;
     this.infoTitle.setVisible(showInfo);

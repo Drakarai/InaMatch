@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import { FIELD_VIEW, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { getTeam } from '../data';
+import { elementMultiplier } from '../data/elements';
 import { getFormation } from '../data/formations';
 import type { Formation, TeamData } from '../data/types';
 import { lineupPlayers, type Lineup } from '../engine/lineup';
@@ -802,6 +803,12 @@ export class MatchScene extends Phaser.Scene {
     void this.hud.banner('FIRED UP!', this.teams[side].name, side === 0 ? '#ffb347' : '#ff6a6a', 1000);
   }
 
+  /** Cuántos de los compañeros que ayudan comparten afinidad (el neutro no cuenta). */
+  private sameElement(p: MatchPlayer, helpers: MatchPlayer[]): number {
+    const el = p.data.element;
+    return el === 'neutral' ? 0 : helpers.filter((h) => h.data.element === el).length;
+  }
+
   /** Compañeros que están lo bastante cerca para echar una mano en un duelo. */
   private supporters(p: MatchPlayer): MatchPlayer[] {
     return this.players[p.side].filter((m) => m !== p && !m.isGK && !m.isStunned(this.now) && this.dist(m, p) < 90);
@@ -812,13 +819,20 @@ export class MatchScene extends Phaser.Scene {
     this.passHint = null;
     this.drawing = null;
 
-    const attHelp = this.supporters(att).length;
-    const defHelp = this.supporters(def).length;
-    const attMul = supportMultiplier(attHelp) * this.sideMul(att.side);
-    const defMul = supportMultiplier(defHelp) * this.sideMul(def.side);
+    const attHelpers = this.supporters(att);
+    const defHelpers = this.supporters(def);
+    const attSame = this.sameElement(att, attHelpers);
+    const defSame = this.sameElement(def, defHelpers);
+    const attHelp = attHelpers.length;
+    const defHelp = defHelpers.length;
+    const attMul = supportMultiplier(attHelp, attSame) * this.sideMul(att.side);
+    const defMul = supportMultiplier(defHelp, defSame) * this.sideMul(def.side);
+    // el "Poder" que se enseña ya incluye la afinidad entre los dos jugadores
+    const playerAffinity = elementMultiplier(att.data.element, def.data.element);
     this.hud.showDuel(att, def, {
-      power: [basePower(att.fighter(), 'attack', attMul), basePower(def.fighter(), 'defend', defMul)],
+      power: [basePower(att.fighter(), 'attack', attMul * playerAffinity), basePower(def.fighter(), 'defend', defMul)],
       support: [Math.min(2, attHelp), Math.min(2, defHelp)],
+      affinity: [Math.min(2, attSame), Math.min(2, defSame)],
     });
     this.drawDuelRing(att, def, attHelp + defHelp > 0);
 
@@ -941,7 +955,9 @@ export class MatchScene extends Phaser.Scene {
     const blocker = isChip ? null : this.findBlocker(shooter, { x: aimX, y: goal.y });
     if (blocker) {
       await this.tweenBall({ x: blocker.x, y: blocker.y + 16 }, Math.min(500, 120 + this.dist(shooter, blocker) * 0.6), 6);
-      this.hud.showDuel(shooter, blocker, { power: [Math.round(power), basePower(blocker.fighter(), 'block', this.sideMul(blocker.side))] });
+      this.hud.showDuel(shooter, blocker, {
+        power: [Math.round(power), basePower(blocker.fighter(), 'block', this.sideMul(blocker.side) * elementMultiplier(blocker.data.element, shooter.data.element))],
+      });
       const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, 0.5);
       await this.playMoves([blocker, blockChoice]);
       const block = resolveBlock(power, shooter.fighter(), shotChoice, blocker.fighter(), blockChoice, rng, this.sideMul(blocker.side));
@@ -963,7 +979,9 @@ export class MatchScene extends Phaser.Scene {
     // 3) el portero
     const keeperSpot = { x: (keeper.x + aimX) / 2, y: keeper.y + 10 };
     await this.tweenBall(keeperSpot, Math.min(700, 220 + this.dist(b, keeperSpot) * 0.5), isChip ? 40 : 6);
-    this.hud.showDuel(shooter, keeper, { power: [Math.round(power), basePower(keeper.fighter(), 'keep', this.sideMul(keeper.side))] });
+    this.hud.showDuel(shooter, keeper, {
+      power: [Math.round(power), basePower(keeper.fighter(), 'keep', this.sideMul(keeper.side) * elementMultiplier(keeper.data.element, shooter.data.element))],
+    });
     const keepChoice: Choice = keeper.side === 0 ? await this.hud.prompt('keep', keeper) : cpuChoice(keeper.moves, 'keep', keeper.tp, rng, 0.7);
     await this.playMoves([keeper, keepChoice]);
     const result = resolveKeeper(power, shooter.fighter(), shotChoice, keeper.fighter(), keepChoice, rng, this.sideMul(keeper.side));

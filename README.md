@@ -42,13 +42,22 @@ Comandos básicos:
 - **Portero**: Atrapar o Despejar.
 
 En cada duelo se ve el **Poder** de los dos jugadores y, al resolverse, el choque de potencias.
-- **Apoyo**: cada compañero cerca del duelo suma un 12 % (máximo dos; sale el doble aro rojo).
+- **Apoyo**: cada compañero cerca del duelo suma un 10 % (máximo dos; sale el doble aro rojo). Si además es de la
+  misma afinidad que el jugador del duelo, suma otro 10 % (**¡Bonus de afinidad!**).
 - **FIRED UP**: ganar duelos, bloquear, parar o encajar un gol llena la barra de tensión del equipo.
   Al llenarse, el equipo juega 25 segundos con un +15 %.
 
-Las supertécnicas gastan TP y suelen ganar a los comandos básicos. Además:
-- **Elementos**: Fuego > Bosque > Aire > Montaña > Fuego (+20 %).
-- Si el elemento de la técnica coincide con el del jugador, gana un +10 %.
+Las supertécnicas gastan TP y suelen ganar a los comandos básicos. Además, **afinidades**:
+- Ciclo: **Bosque > Aire > Montaña > Fuego > Bosque** (+20 % al que gana). **Neutro** (morado) va aparte:
+  ni gana ni pierde y no tiene STAB.
+- Se evalúan en **dos capas por separado**:
+  - **Jugadores:** cuenta siempre, aunque nadie use técnica.
+  - **Técnicas:** solo cuando los dos usan supertécnica.
+  - Ejemplo: Aire con técnica de Bosque contra Montaña con técnica de Fuego. El de Aire gana por jugadores y pierde por
+    técnicas, así que las ventajas se anulan.
+- **STAB**: técnica de la misma afinidad que el jugador, +25 %.
+- En el panel de duelo, el punto de color es la afinidad del jugador y la flechita marca quién tiene ventaja.
+- Los porcentajes no son oficiales; están juntos en `src/data/elements.ts` y `src/engine/rules.ts` para ajustarlos.
 - Con poca **FP** el jugador rinde menos.
 
 ## Estructura

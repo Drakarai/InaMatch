@@ -2,7 +2,7 @@
 // (src/data/teams/*.json y src/data/moves.json) para poder añadir
 // contenido sin tocar código.
 
-export type Element = 'fire' | 'wind' | 'wood' | 'earth';
+export type Element = 'fire' | 'wind' | 'wood' | 'earth' | 'neutral';
 export type Position = 'GK' | 'DF' | 'MF' | 'FW';
 export type MoveKind = 'shoot' | 'dribble' | 'block' | 'catch';
 

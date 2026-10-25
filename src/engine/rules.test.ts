@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import { MOVES, TEAMS, validateTeams } from '../data';
-import { elementMultiplier } from '../data/elements';
+import { SAME_ELEMENT_BONUS, elementMultiplier, hasStab } from '../data/elements';
 import type { Stats } from '../data/types';
 import {
+  affinityMultiplier,
   basePower,
+  choicePower,
   cpuChoice,
   distanceFactor,
   fpFactor,
@@ -32,12 +34,46 @@ describe('datos', () => {
   });
 });
 
-describe('elementos', () => {
-  it('cada elemento gana a uno y pierde contra otro', () => {
+describe('afinidades', () => {
+  it('ciclo Bosque > Aire > Montaña > Fuego > Bosque', () => {
+    expect(elementMultiplier('wood', 'wind')).toBeGreaterThan(1);
+    expect(elementMultiplier('wind', 'earth')).toBeGreaterThan(1);
+    expect(elementMultiplier('earth', 'fire')).toBeGreaterThan(1);
     expect(elementMultiplier('fire', 'wood')).toBeGreaterThan(1);
-    expect(elementMultiplier('wood', 'fire')).toBeLessThan(1);
+    expect(elementMultiplier('earth', 'wind')).toBeLessThan(1);
     expect(elementMultiplier('fire', 'fire')).toBe(1);
     expect(elementMultiplier('fire', 'wind')).toBe(1);
+  });
+
+  it('el neutro ni gana ni pierde y no tiene STAB', () => {
+    for (const e of ['fire', 'wind', 'wood', 'earth', 'neutral'] as const) {
+      expect(elementMultiplier('neutral', e)).toBe(1);
+      expect(elementMultiplier(e, 'neutral')).toBe(1);
+    }
+    expect(hasStab('neutral', 'neutral')).toBe(false);
+    expect(hasStab('wind', 'wind')).toBe(true);
+  });
+
+  it('STAB: la técnica de su misma afinidad pega más', () => {
+    const windMove: Choice = { type: 'move', move: { id: 'w', name: 'w', kind: 'shoot', element: 'wind', power: 60, tp: 30 } };
+    const woodMove: Choice = { type: 'move', move: { ...windMove.move, element: 'wood' } };
+    const ratio = choicePower(fighter(30, 'wind'), windMove) / choicePower(fighter(30, 'wind'), woodMove);
+    expect(ratio).toBeCloseTo(SAME_ELEMENT_BONUS);
+  });
+
+  it('la afinidad de los jugadores cuenta siempre, aunque nadie use técnica', () => {
+    expect(affinityMultiplier(fighter(30, 'wind'), basic('dribble'), fighter(30, 'earth'), basic('tackle'))).toBeGreaterThan(1);
+  });
+
+  it('si solo uno usa técnica, solo cuenta la afinidad de los jugadores', () => {
+    const fireMove = move('fireball-screw');
+    expect(affinityMultiplier(fighter(30, 'wind'), basic('dribble'), fighter(30, 'earth'), fireMove)).toBeCloseTo(elementMultiplier('wind', 'earth'));
+  });
+
+  it('Aire con técnica de Bosque contra Montaña con técnica de Fuego: las ventajas se anulan', () => {
+    const woodMove: Choice = { type: 'move', move: { ...MOVES['illusion-ball'], element: 'wood' } };
+    const fireMove: Choice = { type: 'move', move: { ...MOVES['heat-tackle'], element: 'fire' } };
+    expect(affinityMultiplier(fighter(30, 'wind'), woodMove, fighter(30, 'earth'), fireMove)).toBeCloseTo(1);
   });
 });
 
@@ -115,8 +151,14 @@ describe('CPU', () => {
 describe('apoyo, faltas y potencia', () => {
   it('cada compañero cerca suma, con un máximo de dos', () => {
     expect(supportMultiplier(0)).toBe(1);
-    expect(supportMultiplier(1)).toBeCloseTo(1.12);
+    expect(supportMultiplier(1)).toBeCloseTo(1.1);
     expect(supportMultiplier(5)).toBeCloseTo(supportMultiplier(2));
+  });
+
+  it('el compañero de la misma afinidad da además el bonus de afinidad', () => {
+    expect(supportMultiplier(1, 1)).toBeGreaterThan(supportMultiplier(1, 0));
+    expect(supportMultiplier(2, 2)).toBeCloseTo(1.4);
+    expect(supportMultiplier(1, 3)).toBeCloseTo(supportMultiplier(1, 1));
   });
 
   it('el apoyo puede darle la vuelta a un duelo igualado', () => {

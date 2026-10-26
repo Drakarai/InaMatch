@@ -23,6 +23,7 @@ import {
   supportMultiplier,
   type Choice,
 } from '../engine/rules';
+import { texKey } from '../gfx/placeholders';
 import { MatchPlayer, type Side, type Vec } from '../match/MatchPlayer';
 import type { HudScene } from './HudScene';
 
@@ -205,17 +206,33 @@ export class MatchScene extends Phaser.Scene {
 
   private drawPitch(): void {
     const g = this.add.graphics().setDepth(-10);
-    // pista exterior y césped con franjas
-    g.fillStyle(0x9a4a35).fillRect(0, 0, WORLD.w, WORLD.h);
-    g.fillStyle(0x3f9f48).fillRect(PITCH.x - 44, PITCH.y - 44, PITCH.w + 88, PITCH.h + 88);
+    const [home, away] = this.teams;
+    // alrededores de estadio de noche, con vallas en los colores de cada equipo
+    g.fillStyle(0x121a28).fillRect(0, 0, WORLD.w, WORLD.h);
+    g.fillStyle(0x0c121d);
+    for (let y = 0; y < WORLD.h; y += 24) g.fillRect(0, y, WORLD.w, 12);
+    for (const [x, team] of [
+      [PITCH.x - 76, home],
+      [PITCH.x + PITCH.w + 56, away],
+    ] as const) {
+      for (let y = PITCH.y - 40; y < PITCH.y + PITCH.h + 40; y += 120) {
+        g.fillStyle(Phaser.Display.Color.HexStringToColor(team.colors.shirt).color).fillRect(x, y, 20, 110);
+        g.fillStyle(Phaser.Display.Color.HexStringToColor(team.colors.accent).color).fillRect(x, y + 50, 20, 10);
+      }
+    }
+    // césped: franjas anchas y un ajedrezado suave de cortacésped
+    g.fillStyle(0x2f8c3e).fillRect(PITCH.x - 44, PITCH.y - 44, PITCH.w + 88, PITCH.h + 88);
     const stripes = 12;
     for (let i = 0; i < stripes; i++) {
-      g.fillStyle(i % 2 ? 0x48ad50 : 0x41a24a).fillRect(PITCH.x - 44, PITCH.y + (i * PITCH.h) / stripes, PITCH.w + 88, PITCH.h / stripes);
+      g.fillStyle(i % 2 ? 0x3a9d48 : 0x339443).fillRect(PITCH.x - 44, PITCH.y + (i * PITCH.h) / stripes, PITCH.w + 88, PITCH.h / stripes);
     }
-    g.lineStyle(4, 0xffffff, 0.95);
+    g.fillStyle(0xffffff, 0.035);
+    for (let x = PITCH.x - 44; x < PITCH.x + PITCH.w + 44; x += 150) g.fillRect(x, PITCH.y - 44, 75, PITCH.h + 88);
+    g.lineStyle(4, 0xffffff, 0.9);
     g.strokeRect(PITCH.x, PITCH.y, PITCH.w, PITCH.h);
     g.lineBetween(PITCH.x, PITCH.y + PITCH.h / 2, PITCH.x + PITCH.w, PITCH.y + PITCH.h / 2);
     g.strokeCircle(CX, PITCH.y + PITCH.h / 2, 110);
+    this.add.image(CX, PITCH.y + PITCH.h / 2, texKey.emblem(home.id)).setDisplaySize(170, 170).setAlpha(0.18).setDepth(-9);
     g.fillStyle(0xffffff).fillCircle(CX, PITCH.y + PITCH.h / 2, 5);
     for (const top of [true, false]) {
       const line = top ? PITCH.y : PITCH.y + PITCH.h;

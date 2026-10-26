@@ -87,6 +87,7 @@ src/
   engine/          reglas puras (duelos, tiros, IA de comandos) + tests
   match/           entidad jugador del partido
   scenes/          Boot, Menú, Formación, Partido y HUD (marcador, duelos, radar, animaciones)
+  ui/              botones, barras y el tema visual (theme.ts: colores, formas inclinadas, fondos)
   gfx/             gráficos provisionales generados por código
   assets/pack/     sprites originales: se usan con solo ponerles el nombre del jugador
 docs/              notas de referencia del juego original

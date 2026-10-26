@@ -13,22 +13,9 @@ import {
 } from '../engine/rules';
 import { texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
-import { Button, StatBar, panelFrame, text } from '../ui/widgets';
+import { THEME, dim, pt, sectionTitle, slant, themePanel } from '../ui/theme';
+import { Button, StatBar, text } from '../ui/widgets';
 import type { MatchScene } from './MatchScene';
-
-// Dígitos 5x7 del marcador de leds
-const LED_DIGITS: Record<string, string[]> = {
-  '0': ['01110', '10001', '10011', '10101', '11001', '10001', '01110'],
-  '1': ['00100', '01100', '00100', '00100', '00100', '00100', '01110'],
-  '2': ['01110', '10001', '00001', '00010', '00100', '01000', '11111'],
-  '3': ['11111', '00010', '00100', '00010', '00001', '10001', '01110'],
-  '4': ['00010', '00110', '01010', '10010', '11111', '00010', '00010'],
-  '5': ['11111', '10000', '11110', '00001', '00001', '10001', '01110'],
-  '6': ['00110', '01000', '10000', '11110', '10001', '10001', '01110'],
-  '7': ['11111', '00001', '00010', '00100', '01000', '01000', '01000'],
-  '8': ['01110', '10001', '10001', '01110', '10001', '10001', '01110'],
-  '9': ['01110', '10001', '10001', '01111', '00001', '00010', '01100'],
-};
 
 const PROMPT_TITLE: Record<Situation, string> = {
   attack: '¡Supera al rival!',
@@ -64,7 +51,7 @@ export class HudScene extends Phaser.Scene {
   private match!: MatchScene;
   private clockText!: Phaser.GameObjects.Text;
   private halfText!: Phaser.GameObjects.Text;
-  private led!: Phaser.GameObjects.Graphics;
+  private scoreTexts: Phaser.GameObjects.Text[] = [];
   private scorers: Phaser.GameObjects.Text[] = [];
   private rows: DuelRow[] = [];
   private infoTitle!: Phaser.GameObjects.Text;
@@ -91,6 +78,7 @@ export class HudScene extends Phaser.Scene {
     this.overlay = null;
     this.lastScore = '';
     this.scorers = [];
+    this.scoreTexts = [];
     this.rows = [];
   }
 
@@ -98,8 +86,8 @@ export class HudScene extends Phaser.Scene {
     this.buildScoreboard();
     this.buildPlayerPanel();
     this.buildRadar();
-    this.toastText = text(this, FIELD_VIEW.w / 2, 70, '', 26, '#ffffff', { strokeThickness: 6 }).setOrigin(0.5).setDepth(50);
-    new Button(this, FIELD_VIEW.w - 40, 34, 'II', () => this.match.togglePause(), { w: 48, h: 40, size: 18, color: 0x51647d });
+    this.toastText = text(this, FIELD_VIEW.w / 2, 70, '', 26, '#ffffff', { strokeThickness: 6, fontStyle: 'italic bold' }).setOrigin(0.5).setDepth(50);
+    new Button(this, FIELD_VIEW.w - 42, 34, 'II', () => this.match.togglePause(), { w: 54, h: 40, size: 18, color: THEME.panelLight });
     this.input.keyboard?.on('keydown-ESC', () => this.match.togglePause());
     // la portería no siempre se ve: botón (y tecla T) para tirar a distancia
     this.shootButton = new Button(this, FIELD_VIEW.w / 2, FIELD_VIEW.h - 40, 'Tirar  (T)', () => this.match.requestShot(), {
@@ -117,35 +105,44 @@ export class HudScene extends Phaser.Scene {
     const { x, w } = PANEL;
     const [home, away] = this.match.teams;
     const g = this.add.graphics();
-    g.fillStyle(COLORS.panelDark).fillRect(x, 0, w, PANEL.h);
-    panelFrame(g, x + 10, 10, w - 20, 250);
-    // franja central y "VS" de fondo
-    g.fillStyle(0x234a7c).fillRect(x + w / 2 - 18, 14, 36, 242);
-    text(this, x + w / 2, 110, 'VS', 64, '#3a6aa5', { strokeThickness: 0 }).setOrigin(0.5).setAlpha(0.8);
-    // reloj
-    g.fillStyle(0x10151f).fillRoundedRect(x + w / 2 - 80, 16, 160, 56, 10);
-    g.lineStyle(2, 0x8a9bb5).strokeRoundedRect(x + w / 2 - 80, 16, 160, 56, 10);
-    this.halfText = text(this, x + w / 2, 21, '1ª', 13, '#ffcf6a').setOrigin(0.5, 0);
-    this.clockText = text(this, x + w / 2, 50, '00:00', 30, '#ffffff', { strokeThickness: 0 }).setOrigin(0.5);
-    // escudos y nombres
-    this.add.image(x + 70, 60, texKey.emblem(home.id)).setDisplaySize(52, 52);
-    this.add.image(x + w - 70, 60, texKey.emblem(away.id)).setDisplaySize(52, 52);
-    g.fillStyle(hex(home.colors.accent)).fillRect(x + 14, 96, w / 2 - 22, 26);
-    g.fillStyle(hex(away.colors.accent)).fillRect(x + w / 2 + 8, 96, w / 2 - 22, 26);
-    fitWidth(text(this, x + w / 4 + 2, 109, home.name, 15).setOrigin(0.5), w / 2 - 30, 10);
-    fitWidth(text(this, x + (3 * w) / 4 - 2, 109, away.name, 15).setOrigin(0.5), w / 2 - 30, 10);
-    // leds
-    g.fillStyle(0x0b0d12).fillRoundedRect(x + 24, 130, w / 2 - 46, 84, 6);
-    g.fillStyle(0x0b0d12).fillRoundedRect(x + w / 2 + 22, 130, w / 2 - 46, 84, 6);
-    this.led = this.add.graphics();
+    g.fillStyle(THEME.night).fillRect(x, 0, w, PANEL.h);
+    // mitades con el color de cada equipo, partidas por un rayo
+    const split = [pt(x + w * 0.56, 0), pt(x + w * 0.5, 120), pt(x + w * 0.54, 128), pt(x + w * 0.46, 240)];
+    g.fillStyle(dim(home.colors.shirt)).fillPoints([pt(x, 0), ...split, pt(x, 240)], true);
+    g.fillStyle(dim(away.colors.shirt)).fillPoints([pt(x + w, 0), ...split, pt(x + w, 240)], true);
+    g.lineStyle(10, THEME.yellow, 0.25).strokePoints(split, false);
+    g.lineStyle(3, 0xfff6c8).strokePoints(split, false);
+    g.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0, 0, 0.6, 0.6).fillRect(x, 150, w, 90);
+    g.fillStyle(THEME.yellow).fillRect(x, 240, w, 3);
+    // reloj en una placa inclinada
+    g.fillStyle(0x000000, 0.75).fillPoints(slant(x + w / 2 - 78, 10, 156, 48, 12), true);
+    g.lineStyle(2, THEME.yellow).strokePoints(slant(x + w / 2 - 78, 10, 156, 48, 12), true);
+    this.halfText = text(this, x + w / 2, 21, '1ª PARTE', 11, '#ffd23f', { fontStyle: 'bold' }).setOrigin(0.5);
+    this.clockText = text(this, x + w / 2, 41, '00:00', 24, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5);
+    // escudos y goles
+    this.add.image(x + 62, 96, texKey.emblem(home.id)).setDisplaySize(76, 76);
+    this.add.image(x + w - 62, 96, texKey.emblem(away.id)).setDisplaySize(76, 76);
+    this.scoreTexts = [-1, 1].map((d) =>
+      text(this, x + w / 2 + d * 62, 100, '0', 64, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 8 }).setOrigin(0.5),
+    );
+    text(this, x + w / 2, 100, '-', 34, '#ffd23f', { fontStyle: 'bold', strokeThickness: 5 }).setOrigin(0.5);
+    // nombres en bandas blancas inclinadas
+    for (const [i, team] of [home, away].entries()) {
+      const bx = i === 0 ? x + 12 : x + w / 2 + 6;
+      const bw = w / 2 - 18;
+      g.fillStyle(0xffffff).fillPoints(slant(bx, 146, bw, 26, 8), true);
+      g.fillStyle(hex(team.colors.accent)).fillPoints(slant(bx - 1, 170, bw - 6, 4, 1), true);
+      fitWidth(text(this, bx + bw / 2, 159, team.name, 15, THEME.ink, { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5), bw - 26, 10);
+    }
     this.scorers = [
-      text(this, x + 26, 218, '', 11, '#cfe0ff'),
-      text(this, x + w / 2 + 24, 218, '', 11, '#cfe0ff'),
+      text(this, x + 16, 184, '', 11, '#e3e9f2', { fontStyle: 'italic' }),
+      text(this, x + w / 2 + 10, 184, '', 11, '#e3e9f2', { fontStyle: 'italic' }),
     ];
     // tensión del equipo (FIRED UP de IE3)
+    text(this, x + w / 2, 216, 'TENSIÓN', 10, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
     this.tension = this.add.graphics();
     this.firedLabels = [0, 1].map((i) =>
-      text(this, i === 0 ? x + w / 4 + 1 : x + (3 * w) / 4 - 1, 243, 'FIRED UP', 12, '#ffffff').setOrigin(0.5).setVisible(false),
+      text(this, i === 0 ? x + w / 4 : x + (3 * w) / 4, 217, '¡FIRED UP!', 13, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0.5).setVisible(false),
     );
   }
 
@@ -153,33 +150,16 @@ export class HudScene extends Phaser.Scene {
     const { x, w } = PANEL;
     const g = this.tension.clear();
     for (const side of [0, 1] as const) {
-      const bx = side === 0 ? x + 24 : x + w / 2 + 22;
-      const bw = w / 2 - 46;
+      const bw = w / 2 - 54;
+      const bx = side === 0 ? x + 16 : x + w / 2 + 38;
       const fired = this.match.firedLeft(side);
-      g.fillStyle(0x0b0d12).fillRoundedRect(bx, 236, bw, 14, 4);
-      if (fired > 0) {
-        const blink = Math.floor(this.time.now / 150) % 2 === 0;
-        g.fillStyle(blink ? 0xff3b2f : 0xff8a1f).fillRoundedRect(bx + 1, 237, (bw - 2) * (fired / FIRED_UP_SECONDS), 12, 4);
-      } else {
-        g.fillStyle(0xe8892b).fillRoundedRect(bx + 1, 237, (bw - 2) * (this.match.tension[side] / 100), 12, 4);
-      }
+      g.fillStyle(0x000000, 0.6).fillPoints(slant(bx, 210, bw, 14, 5), true);
+      const ratio = fired > 0 ? fired / FIRED_UP_SECONDS : this.match.tension[side] / 100;
+      const blink = Math.floor(this.time.now / 150) % 2 === 0;
+      const color = fired > 0 ? (blink ? 0xff3b2f : THEME.yellow) : 0xff8a1f;
+      if (ratio > 0) g.fillStyle(color).fillPoints(slant(bx + 1, 211, Math.max(8, (bw - 2) * ratio), 12, 4), true);
       this.firedLabels[side].setVisible(fired > 0);
     }
-  }
-
-  private drawLed(value: number, cx: number, cy: number): void {
-    const digits = String(Math.min(99, value));
-    const cell = 7.5;
-    const dw = cell * 5 + 8;
-    const startX = cx - (digits.length * dw - 8) / 2;
-    [...digits].forEach((d, i) => {
-      LED_DIGITS[d].forEach((row, r) => {
-        [...row].forEach((bit, c) => {
-          this.led.fillStyle(bit === '1' ? COLORS.led : COLORS.ledOff);
-          this.led.fillRect(startX + i * dw + c * cell, cy - 26 + r * cell, cell - 1.5, cell - 1.5);
-        });
-      });
-    });
   }
 
   // ------------------------------------------------- ficha / panel de duelo
@@ -187,24 +167,24 @@ export class HudScene extends Phaser.Scene {
   private buildPlayerPanel(): void {
     const { x, w } = PANEL;
     const g = this.add.graphics();
-    panelFrame(g, x + 10, 270, w - 20, 190, 0x2a5d97);
+    themePanel(g, x + 10, 254, w - 20, 206);
     for (let i = 0; i < 2; i++) {
-      const y = 280 + i * 88;
+      const y = 268 + i * 92;
       const c = this.add.container(x + 20, y);
       const band = this.add.graphics();
       const portrait = this.add.image(0, 0, '__WHITE').setOrigin(0).setDisplaySize(72, 72);
-      const name = text(this, 84, 2, '', 16);
+      const name = text(this, 92, 2, '', 16, '#ffffff', { fontStyle: 'italic bold' });
       const fp = new StatBar(this, 84, 36, 'FP', COLORS.fp, 210);
       const tp = new StatBar(this, 84, 58, 'TP', COLORS.tp, 210);
       const ball = this.add.image(w - 52, 36, 'ball').setScale(1.6);
-      const power = text(this, w - 34, 11, '', 15, '#ffe28a').setOrigin(1, 0.5);
-      const support = text(this, 0, 74, '', 12, '#9fffb0');
+      const power = text(this, w - 34, 11, '', 15, '#ffd23f', { fontStyle: 'italic bold' }).setOrigin(1, 0.5);
+      const support = text(this, 0, 76, '', 12, '#9fffb0', { fontStyle: 'italic bold' });
       const elem = this.add.graphics();
       c.add([band, portrait, name, fp, tp, ball, power, support, elem]);
       this.rows.push({ container: c, portrait, name, fp, tp, ball, power, support, elem });
     }
-    this.infoTitle = text(this, x + 22, 364, '', 13, '#ffe28a');
-    this.infoMoves = text(this, x + 22, 382, '', 13, '#ffffff', { lineSpacing: 2 });
+    this.infoTitle = text(this, x + 26, 360, '', 13, '#ffd23f', { fontStyle: 'italic bold' });
+    this.infoMoves = text(this, x + 26, 378, '', 13, '#ffffff', { lineSpacing: 2 });
   }
 
   showDuel(a: MatchPlayer, b: MatchPlayer, info: DuelInfo = {}): void {
@@ -228,7 +208,9 @@ export class HudScene extends Phaser.Scene {
       const key = texKey.portrait(p.data.id);
       if (row.portrait.texture.key !== key) row.portrait.setTexture(key).setDisplaySize(72, 72);
       const band = row.container.list[0] as Phaser.GameObjects.Graphics;
-      band.clear().fillStyle(p.side === 0 ? 0x2d5fb8 : 0xa8283a, 0.9).fillRoundedRect(76, -2, PANEL.w - 104, 26, 6);
+      const sideColor = p.side === 0 ? THEME.home : THEME.away;
+      band.clear().fillStyle(sideColor).fillPoints(slant(-4, -4, 82, 80, 12), true);
+      band.fillStyle(sideColor, 0.85).fillPoints(slant(80, -2, PANEL.w - 112, 26, 8), true);
       row.name.setText(`${p.data.number}  ${p.data.name}`);
       row.fp.set(p.fp, p.maxFp);
       row.tp.set(p.tp, p.maxTp);
@@ -258,23 +240,23 @@ export class HudScene extends Phaser.Scene {
   private buildRadar(): void {
     const { x, w } = PANEL;
     const g = this.add.graphics();
-    panelFrame(g, x + 10, 470, w - 20, 240, COLORS.panelDark);
-    text(this, x + 22, 476, 'Radar', 13, '#b9d0ee');
+    themePanel(g, x + 10, 472, w - 20, 238);
+    sectionTitle(this, x + 24, 490, 'Radar');
     this.radar = this.add.graphics();
   }
 
   private drawRadar(): void {
     const r = this.radar.clear();
     // el campo se dibuja girado: la portería rival queda a la derecha
-    const box = { x: PANEL.x + 40, y: 500, w: PANEL.w - 80, h: 196 };
+    const box = { x: PANEL.x + 40, y: 508, w: PANEL.w - 80, h: 186 };
     const sx = box.w / PITCH.h;
     const sy = box.h / PITCH.w;
     const toRadar = (wx: number, wy: number) => ({
       x: box.x + (PITCH.y + PITCH.h - wy) * sx,
       y: box.y + (wx - PITCH.x) * sy,
     });
-    r.fillStyle(0x3d9b4c).fillRect(box.x, box.y, box.w, box.h);
-    r.lineStyle(1, 0xffffff, 0.7).strokeRect(box.x, box.y, box.w, box.h);
+    for (let i = 0; i < 8; i++) r.fillStyle(i % 2 ? 0x1f6b3a : 0x247a43).fillRect(box.x + (i * box.w) / 8, box.y, box.w / 8, box.h);
+    r.lineStyle(1, 0xffffff, 0.55).strokeRect(box.x, box.y, box.w, box.h);
     r.lineBetween(box.x + box.w / 2, box.y, box.x + box.w / 2, box.y + box.h);
     r.strokeCircle(box.x + box.w / 2, box.y + box.h / 2, 18);
     const goalH = GOAL_W * sy;
@@ -283,10 +265,11 @@ export class HudScene extends Phaser.Scene {
     const view = this.match.cameras.main.worldView;
     const a = toRadar(view.x, view.y + view.height);
     const b = toRadar(view.x + view.width, view.y);
-    r.lineStyle(1, 0xffe28a, 0.8).strokeRect(Math.max(box.x, a.x), Math.max(box.y, a.y), Math.min(box.x + box.w, b.x) - Math.max(box.x, a.x), Math.min(box.y + box.h, b.y) - Math.max(box.y, a.y));
+    r.lineStyle(2, THEME.yellow, 0.9).strokeRect(Math.max(box.x, a.x), Math.max(box.y, a.y), Math.min(box.x + box.w, b.x) - Math.max(box.x, a.x), Math.min(box.y + box.h, b.y) - Math.max(box.y, a.y));
     for (const p of this.match.allPlayers()) {
       const pt = toRadar(p.x, p.y);
-      r.fillStyle(p.side === 0 ? 0x4fa3ff : 0xff5a6a).fillCircle(pt.x, pt.y, p.isGK ? 4 : 3.5);
+      r.fillStyle(p.side === 0 ? THEME.home : THEME.away).fillCircle(pt.x, pt.y, p.isGK ? 4.5 : 4);
+      r.lineStyle(1, 0xffffff, 0.9).strokeCircle(pt.x, pt.y, p.isGK ? 4.5 : 4);
     }
     const ball = this.match.ballPos();
     const bp = toRadar(ball.x, ball.y);
@@ -302,14 +285,12 @@ export class HudScene extends Phaser.Scene {
     const mm = Math.floor(secs / 60);
     const ss = Math.floor(secs % 60);
     this.clockText.setText(`${String(mm).padStart(2, '0')}:${String(ss).padStart(2, '0')}`);
-    this.halfText.setText(half === 1 ? '1ª parte' : '2ª parte');
+    this.halfText.setText(half === 1 ? '1ª PARTE' : '2ª PARTE');
 
     const scoreKey = this.match.score.join('-') + this.match.goals.length;
     if (scoreKey !== this.lastScore) {
       this.lastScore = scoreKey;
-      this.led.clear();
-      this.drawLed(this.match.score[0], PANEL.x + PANEL.w / 4 + 1, 172);
-      this.drawLed(this.match.score[1], PANEL.x + (3 * PANEL.w) / 4 - 1, 172);
+      this.scoreTexts.forEach((t, i) => t.setText(String(this.match.score[i])));
       for (const side of [0, 1] as const) {
         this.scorers[side].setText(
           this.match.goals
@@ -341,9 +322,10 @@ export class HudScene extends Phaser.Scene {
       const c = this.add.container(0, 0).setDepth(40);
       const cy = FIELD_VIEW.h - 46;
       const g = this.add.graphics();
-      g.fillStyle(0x0b1a2e, 0.55).fillRect(0, cy - 44, FIELD_VIEW.w, 100);
+      g.fillGradientStyle(THEME.night, THEME.night, THEME.night, THEME.night, 0, 0, 0.85, 0.85).fillRect(0, cy - 80, FIELD_VIEW.w, 136);
+      g.fillStyle(THEME.yellow).fillPoints(slant(FIELD_VIEW.w / 2 - 150, cy - 46, 300, 30, 10), true);
       c.add(g);
-      c.add(text(this, FIELD_VIEW.w / 2, cy - 30, title, 20, '#ffffff').setOrigin(0.5));
+      c.add(text(this, FIELD_VIEW.w / 2, cy - 31, title, 18, THEME.ink, { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5));
       const timer = this.add.graphics();
       c.add(timer);
 
@@ -368,8 +350,8 @@ export class HudScene extends Phaser.Scene {
         loop: true,
         callback: () => {
           const left = 1 - (this.time.now - start) / (PROMPT_SECONDS * 1000);
-          timer.clear().fillStyle(0x000000, 0.5).fillRect(FIELD_VIEW.w / 2 - 150, cy - 14, 300, 6);
-          timer.fillStyle(left < 0.3 ? 0xff5a4a : 0xffd23f).fillRect(FIELD_VIEW.w / 2 - 150, cy - 14, 300 * Math.max(0, left), 6);
+          timer.clear().fillStyle(0x000000, 0.6).fillRect(FIELD_VIEW.w / 2 - 140, cy - 13, 280, 5);
+          timer.fillStyle(left < 0.3 ? 0xff5a4a : 0xffffff).fillRect(FIELD_VIEW.w / 2 - 140, cy - 13, 280 * Math.max(0, left), 5);
           if (left <= 0) finish(fallback);
         },
       });
@@ -436,10 +418,12 @@ export class HudScene extends Phaser.Scene {
     const colorOf = (side: 0 | 1) => (side === 0 ? '#7fc4ff' : '#ff8a8a');
     const rightSide: 0 | 1 = leftSide === 0 ? 1 : 0;
     const g = this.add.graphics();
-    g.fillStyle(0x0b1a2e, 0.7).fillRoundedRect(-190, -34, 380, 68, 14);
-    const l = text(this, -70, 0, String(left), leftWins ? 44 : 32, colorOf(leftSide), { strokeThickness: 7 }).setOrigin(0.5);
-    const vs = text(this, 0, 0, 'VS', 22, '#ffe28a').setOrigin(0.5);
-    const r = text(this, 70, 0, String(right), leftWins ? 32 : 44, colorOf(rightSide), { strokeThickness: 7 }).setOrigin(0.5);
+    g.fillStyle(0x000000, 0.5).fillPoints(slant(-196, -30, 400, 68, 18), true);
+    g.fillStyle(THEME.night, 0.9).fillPoints(slant(-200, -34, 400, 68, 18), true);
+    g.lineStyle(2, THEME.yellow).strokePoints(slant(-200, -34, 400, 68, 18), true);
+    const l = text(this, -76, 0, String(left), leftWins ? 46 : 32, colorOf(leftSide), { fontStyle: 'italic bold', strokeThickness: 7 }).setOrigin(0.5);
+    const vs = text(this, 0, 0, 'VS', 24, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 5 }).setOrigin(0.5);
+    const r = text(this, 76, 0, String(right), leftWins ? 32 : 46, colorOf(rightSide), { fontStyle: 'italic bold', strokeThickness: 7 }).setOrigin(0.5);
     c.add([g, l, vs, r]);
     c.setScale(0.6);
     this.tweens.add({ targets: c, scale: 1, duration: 180, ease: 'Back.Out' });
@@ -530,10 +514,13 @@ export class HudScene extends Phaser.Scene {
     return new Promise((resolve) => {
       const c = this.add.container(FIELD_VIEW.w / 2, FIELD_VIEW.h / 2).setDepth(70);
       const g = this.add.graphics();
-      g.fillStyle(0x0b1a2e, 0.75).fillRect(-FIELD_VIEW.w / 2, -70, FIELD_VIEW.w, 140);
-      const t = text(this, 0, sub ? -14 : 0, main, 76, color, { strokeThickness: 12, fontStyle: 'bold' }).setOrigin(0.5);
+      const half = FIELD_VIEW.w / 2;
+      g.fillStyle(THEME.night, 0.85).fillPoints([pt(-half, -60), pt(half, -86), pt(half, 60), pt(-half, 86)], true);
+      g.fillStyle(THEME.yellow).fillPoints([pt(-half, -60), pt(half, -86), pt(half, -80), pt(-half, -54)], true);
+      g.fillStyle(THEME.yellow).fillPoints([pt(-half, 80), pt(half, 54), pt(half, 60), pt(-half, 86)], true);
+      const t = text(this, 0, sub ? -14 : 0, main, 76, color, { strokeThickness: 12, fontStyle: 'italic bold' }).setOrigin(0.5).setAngle(-2);
       c.add([g, t]);
-      if (sub) c.add(text(this, 0, 44, sub, 22).setOrigin(0.5));
+      if (sub) c.add(text(this, 0, 44, sub, 22, '#ffffff', { fontStyle: 'italic' }).setOrigin(0.5).setAngle(-2));
       t.setScale(2.2);
       this.tweens.add({ targets: t, scale: 1, duration: 300, ease: 'Back.Out' });
       this.time.delayedCall(ms, () => {
@@ -545,10 +532,10 @@ export class HudScene extends Phaser.Scene {
   showPause(onResume: () => void, onQuit: () => void): void {
     this.hidePause();
     const c = this.add.container(0, 0).setDepth(80);
-    c.add(this.add.rectangle(FIELD_VIEW.w / 2, FIELD_VIEW.h / 2, FIELD_VIEW.w, FIELD_VIEW.h, 0x000000, 0.6).setInteractive());
-    c.add(text(this, FIELD_VIEW.w / 2, 230, 'Pausa', 56).setOrigin(0.5));
-    c.add(new Button(this, FIELD_VIEW.w / 2, 340, 'Reanudar', onResume, { w: 260, h: 54 }));
-    c.add(new Button(this, FIELD_VIEW.w / 2, 410, 'Abandonar partido', onQuit, { w: 260, h: 54, color: COLORS.uiRed }));
+    c.add(this.add.rectangle(FIELD_VIEW.w / 2, FIELD_VIEW.h / 2, FIELD_VIEW.w, FIELD_VIEW.h, THEME.night, 0.8).setInteractive());
+    c.add(text(this, FIELD_VIEW.w / 2, 230, 'PAUSA', 64, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 10 }).setOrigin(0.5));
+    c.add(new Button(this, FIELD_VIEW.w / 2, 340, 'Reanudar', onResume, { w: 280, h: 56, color: THEME.yellow }));
+    c.add(new Button(this, FIELD_VIEW.w / 2, 410, 'Abandonar partido', onQuit, { w: 280, h: 52, color: COLORS.uiRed }));
     c.add(
       text(
         this,
@@ -556,8 +543,8 @@ export class HudScene extends Phaser.Scene {
         520,
         'Con balón: arrastra desde tu jugador para regatear, pulsa a un compañero\npara pasar, pulsa un hueco para pase al espacio y la portería (o T) para tirar.\nSin balón: arrastra a cualquier jugador o pulsa en el campo.',
         16,
-        '#d8e8ff',
-        { align: 'center', lineSpacing: 6 },
+        '#c9d3e0',
+        { align: 'center', lineSpacing: 6, fontStyle: 'italic' },
       ).setOrigin(0.5),
     );
     this.overlay = c;
@@ -571,20 +558,25 @@ export class HudScene extends Phaser.Scene {
   showResult(onRematch: () => void, onMenu: () => void): void {
     const [home, away] = this.match.teams;
     const [a, b] = this.match.score;
+    const W = FIELD_VIEW.w;
     const c = this.add.container(0, 0).setDepth(90);
-    c.add(this.add.rectangle(FIELD_VIEW.w / 2, FIELD_VIEW.h / 2, FIELD_VIEW.w, FIELD_VIEW.h, 0x000000, 0.7).setInteractive());
+    c.add(this.add.rectangle(W / 2, FIELD_VIEW.h / 2, W, FIELD_VIEW.h, THEME.night, 0.85).setInteractive());
     const g = this.add.graphics();
-    panelFrame(g, FIELD_VIEW.w / 2 - 300, 150, 600, 400);
+    g.fillStyle(dim(home.colors.shirt)).fillPoints([pt(0, 170), pt(W / 2 + 30, 150), pt(W / 2 - 30, 470), pt(0, 490)], true);
+    g.fillStyle(dim(away.colors.shirt)).fillPoints([pt(W, 130), pt(W / 2 + 30, 150), pt(W / 2 - 30, 470), pt(W, 450)], true);
+    g.lineStyle(4, THEME.yellow).lineBetween(W / 2 + 30, 150, W / 2 - 30, 470);
     c.add(g);
-    c.add(text(this, FIELD_VIEW.w / 2, 200, 'Final del partido', 36, '#ffe28a').setOrigin(0.5));
-    c.add(text(this, FIELD_VIEW.w / 2, 300, `${a}  -  ${b}`, 72).setOrigin(0.5));
-    const wrap = { align: 'center', wordWrap: { width: 150 } };
-    c.add(fitWidth(text(this, FIELD_VIEW.w / 2 - 190, 300, home.name, 20, '#ffffff', wrap).setOrigin(0.5), 150, 14));
-    c.add(fitWidth(text(this, FIELD_VIEW.w / 2 + 190, 300, away.name, 20, '#ffffff', wrap).setOrigin(0.5), 150, 14));
-    const verdict = a > b ? '¡Victoria!' : a < b ? 'Derrota...' : 'Empate';
-    c.add(text(this, FIELD_VIEW.w / 2, 380, verdict, 30, a > b ? '#7dff9a' : a < b ? '#ff8a8a' : '#ffffff').setOrigin(0.5));
-    c.add(new Button(this, FIELD_VIEW.w / 2 - 130, 480, 'Revancha', onRematch, { w: 220, h: 54 }));
-    c.add(new Button(this, FIELD_VIEW.w / 2 + 130, 480, 'Menú', onMenu, { w: 220, h: 54, color: 0x51647d }));
+    c.add(text(this, W / 2, 110, 'FINAL DEL PARTIDO', 34, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 7 }).setOrigin(0.5));
+    c.add(this.add.image(W / 2 - 220, 260, texKey.emblem(home.id)).setDisplaySize(130, 130));
+    c.add(this.add.image(W / 2 + 220, 260, texKey.emblem(away.id)).setDisplaySize(130, 130));
+    c.add(text(this, W / 2, 270, `${a}  -  ${b}`, 84, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 10 }).setOrigin(0.5));
+    const wrap = { align: 'center', wordWrap: { width: 190 }, fontStyle: 'italic bold' };
+    c.add(fitWidth(text(this, W / 2 - 220, 360, home.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
+    c.add(fitWidth(text(this, W / 2 + 220, 360, away.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
+    const verdict = a > b ? '¡VICTORIA!' : a < b ? 'DERROTA...' : 'EMPATE';
+    c.add(text(this, W / 2, 540, verdict, 44, a > b ? '#7dff9a' : a < b ? '#ff8a8a' : '#ffffff', { fontStyle: 'italic bold', strokeThickness: 8 }).setOrigin(0.5));
+    c.add(new Button(this, W / 2 - 130, 630, 'Revancha', onRematch, { w: 220, h: 56, color: THEME.yellow }));
+    c.add(new Button(this, W / 2 + 130, 630, 'Menú', onMenu, { w: 220, h: 52, color: THEME.panelLight }));
   }
 }
 

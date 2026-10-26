@@ -8,13 +8,6 @@ import { lineRatings, teamRating } from '../engine/rating';
 import { texKey } from '../gfx/placeholders';
 import { text } from '../ui/widgets';
 
-export function drawBackdrop(scene: Phaser.Scene): void {
-  const g = scene.add.graphics();
-  g.fillGradientStyle(0x1d4f8f, 0x1d4f8f, 0x0d2547, 0x0d2547).fillRect(0, 0, GAME_W, GAME_H);
-  g.fillStyle(0xffffff, 0.04);
-  for (let i = -GAME_H; i < GAME_W; i += 80) g.fillTriangle(i, GAME_H, i + 40, GAME_H, i + 40 + GAME_H, 0).fillTriangle(i, GAME_H, i + GAME_H, 0, i + 40 + GAME_H, 0);
-}
-
 type Side = 'home' | 'away';
 
 interface Selection {
@@ -149,7 +142,7 @@ export class MenuScene extends Phaser.Scene {
 
   // ------------------------------------------------------------------ lados
 
-  private renderSide(side: Side, pop = false): void {
+  private renderSide(side: Side): void {
     const c = this.sides[side];
     this.tweens.killTweensOf(c.list);
     c.removeAll(true);
@@ -172,11 +165,6 @@ export class MenuScene extends Phaser.Scene {
 
     const emblem = this.add.image(cx, EMBLEM_Y, texKey.emblem(team.id)).setDisplaySize(170, 170);
     c.add(emblem);
-    if (pop) {
-      const size = emblem.scale;
-      emblem.setScale(size * 0.6);
-      this.tweens.add({ targets: emblem, scale: size, duration: 260, ease: 'Back.out' });
-    }
 
     // etiqueta TÚ / RIVAL, inclinada, encima del escudo
     const tag = this.add.graphics();
@@ -383,10 +371,10 @@ export class MenuScene extends Phaser.Scene {
     kb.on('keydown-ENTER', () => this.next());
   }
 
-  private refresh(changed?: Side): void {
+  private refresh(): void {
     this.drawSplit();
-    this.renderSide('home', changed === 'home');
-    this.renderSide('away', changed === 'away');
+    this.renderSide('home');
+    this.renderSide('away');
     this.renderShelf();
   }
 
@@ -399,7 +387,7 @@ export class MenuScene extends Phaser.Scene {
 
   private choose(team: TeamData): void {
     this.sel[this.sel.focus] = team.id;
-    this.refresh(this.sel.focus);
+    this.refresh();
   }
 
   private cycle(side: Side, dir: number): void {
@@ -408,7 +396,7 @@ export class MenuScene extends Phaser.Scene {
     this.sel[side] = list[(list.indexOf(team) + dir + list.length) % list.length].id;
     this.sel.focus = side;
     this.shelfSeason = seasonOf(team);
-    this.refresh(side);
+    this.refresh();
   }
 
   /** Arriba/abajo: cambia la temporada de la estantería y elige su primer equipo para el lado activo. */
@@ -417,7 +405,7 @@ export class MenuScene extends Phaser.Scene {
     const i = seasons.findIndex((s) => s.id === this.shelfSeason);
     this.shelfSeason = seasons[(i + dir + seasons.length) % seasons.length].id;
     this.sel[this.sel.focus] = teamsOf(this.shelfSeason)[0].id;
-    this.refresh(this.sel.focus);
+    this.refresh();
   }
 
   private swap(): void {
@@ -430,7 +418,7 @@ export class MenuScene extends Phaser.Scene {
     const pick: TeamData | undefined = pool[Math.floor(Math.random() * pool.length)];
     if (!pick) return;
     this.sel.away = pick.id;
-    this.refresh('away');
+    this.refresh();
   }
 
   private next(): void {

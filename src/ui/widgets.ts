@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { COLORS, FONT } from '../config';
+import { THEME, slant, themePanel } from './theme';
 
 export function text(
   scene: Phaser.Scene,
@@ -26,9 +27,10 @@ export interface ButtonOptions {
   color?: number;
   size?: number;
   sub?: string; // texto pequeño a la derecha (p. ej. coste de TP)
+  textColor?: string;
 }
 
-/** Botón con forma de "pestaña" como los de la pantalla táctil de IE3. */
+/** Botón inclinado, como los rótulos del anime. El amarillo (THEME.yellow) lleva el texto oscuro. */
 export class Button extends Phaser.GameObjects.Container {
   private bg: Phaser.GameObjects.Graphics;
   private label: Phaser.GameObjects.Text;
@@ -43,10 +45,14 @@ export class Button extends Phaser.GameObjects.Container {
     this.bh = opts.h ?? 48;
     this.color = opts.color ?? COLORS.ui;
     this.bg = scene.add.graphics();
-    this.label = text(scene, 0, 0, caption, opts.size ?? 20).setOrigin(0.5);
+    const dark = opts.textColor ?? (this.color === THEME.yellow ? THEME.ink : '#ffffff');
+    this.label = text(scene, 0, 0, caption, opts.size ?? 20, dark, {
+      fontStyle: 'italic bold',
+      strokeThickness: dark === '#ffffff' ? Math.max(2, Math.round((opts.size ?? 20) / 7)) : 0,
+    }).setOrigin(0.5);
     this.add([this.bg, this.label]);
     if (opts.sub) {
-      const sub = text(scene, this.bw / 2 - 10, this.bh / 2 - 6, opts.sub, 14, '#ffe28a').setOrigin(1, 1);
+      const sub = text(scene, this.bw / 2 - 16, this.bh / 2 - 5, opts.sub, 13, '#ffe28a', { fontStyle: 'bold' }).setOrigin(1, 1);
       this.add(sub);
     }
     this.draw(false);
@@ -75,11 +81,14 @@ export class Button extends Phaser.GameObjects.Container {
   private draw(hover: boolean): void {
     const w = this.bw;
     const h = this.bh;
+    const skew = Math.min(14, h * 0.3);
     const g = this.bg.clear();
-    g.fillStyle(0x0b1a2e, 0.6).fillRoundedRect(-w / 2 + 3, -h / 2 + 4, w, h, 10);
-    g.fillStyle(hover ? Phaser.Display.Color.ValueToColor(this.color).lighten(15).color : this.color).fillRoundedRect(-w / 2, -h / 2, w, h, 10);
-    g.fillStyle(0xffffff, 0.18).fillRoundedRect(-w / 2 + 3, -h / 2 + 3, w - 6, h / 2 - 3, 8);
-    g.lineStyle(2, 0xffffff, 0.85).strokeRoundedRect(-w / 2, -h / 2, w, h, 10);
+    const fill = hover ? Phaser.Display.Color.ValueToColor(this.color).lighten(14).color : this.color;
+    g.fillStyle(0x000000, 0.5).fillPoints(slant(-w / 2 + 4, -h / 2 + 5, w, h, skew), true);
+    g.fillStyle(fill).fillPoints(slant(-w / 2, -h / 2, w, h, skew), true);
+    g.fillStyle(0xffffff, hover ? 0.3 : 0.2).fillPoints(slant(-w / 2 + skew * 0.5 + 3, -h / 2 + 3, w - skew - 6, h * 0.36, skew * 0.36), true);
+    g.fillStyle(0x000000, 0.18).fillPoints(slant(-w / 2 - 1, h / 2 - 5, w - skew + 2, 5, 1), true);
+    if (hover) g.lineStyle(2, 0xffffff, 0.9).strokePoints(slant(-w / 2, -h / 2, w, h, skew), true);
   }
 }
 
@@ -98,7 +107,7 @@ export class StatBar extends Phaser.GameObjects.Container {
   ) {
     super(scene, x, y);
     this.g = scene.add.graphics();
-    const lbl = text(scene, 0, -1, label, 12, '#ffe9a8').setOrigin(0, 0.5);
+    const lbl = text(scene, 0, -1, label, 12, '#ffe9a8', { fontStyle: 'italic bold' }).setOrigin(0, 0.5);
     this.num = text(scene, barW + 66, -1, '', 14).setOrigin(1, 0.5);
     this.add([this.g, lbl, this.num]);
     scene.add.existing(this);
@@ -107,18 +116,18 @@ export class StatBar extends Phaser.GameObjects.Container {
   set(value: number, max: number): void {
     const ratio = max > 0 ? Phaser.Math.Clamp(value / max, 0, 1) : 0;
     const x0 = 24;
-    this.g.clear();
-    this.g.fillStyle(0x0b1a2e).fillRoundedRect(x0, -6, this.barW, 10, 3);
     const fill = ratio < 0.25 ? 0xe2463b : this.color;
-    this.g.fillStyle(fill).fillRoundedRect(x0 + 1, -5, Math.max(0, (this.barW - 2) * ratio), 8, 3);
+    this.g.clear();
+    this.g.fillStyle(0x000000, 0.55).fillPoints(slant(x0, -6, this.barW, 11, 4), true);
+    if (ratio > 0) this.g.fillStyle(fill).fillPoints(slant(x0 + 1, -5, Math.max(6, (this.barW - 2) * ratio), 9, 3), true);
+    this.g.fillStyle(0xffffff, 0.25).fillRect(x0 + 4, -5, Math.max(0, (this.barW - 8) * ratio), 2);
     this.num.setText(`${Math.round(value)}`);
   }
 }
 
-export function panelFrame(g: Phaser.GameObjects.Graphics, x: number, y: number, w: number, h: number, fill = COLORS.panelBg): void {
-  g.fillStyle(0x0b1a2e, 0.5).fillRoundedRect(x + 3, y + 4, w, h, 10);
-  g.fillStyle(fill).fillRoundedRect(x, y, w, h, 10);
-  g.lineStyle(2, COLORS.panelLine).strokeRoundedRect(x, y, w, h, 10);
+/** Panel del juego. El color de relleno se ignora salvo para teñir el filo: todos van con el estilo oscuro. */
+export function panelFrame(g: Phaser.GameObjects.Graphics, x: number, y: number, w: number, h: number, accent: number = THEME.yellow): void {
+  themePanel(g, x, y, w, h, accent === COLORS.panelBg || accent === COLORS.panelDark ? THEME.yellow : accent);
 }
 
 export function wait(scene: Phaser.Scene, ms: number): Promise<void> {

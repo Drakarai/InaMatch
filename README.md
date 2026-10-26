@@ -169,3 +169,12 @@ Se hace una sola vez desde la web, sin terminal:
 5. **Save and Deploy**. En un par de minutos estará en `https://<nombre-del-proyecto>.pages.dev`.
 
 A partir de ahí, cada cambio que llegue a `main` se publica solo. La versión de Node la fija `.node-version`.
+
+### Probar ramas en GitHub Pages
+
+Las ramas `claude/...` se publican en `https://drakarai.github.io/InaMatch/` con
+`.github/workflows/pages.yml`, sin gastar despliegues de Cloudflare. Hay que activarlo una vez:
+1. **Settings → Pages → Source: GitHub Actions**.
+2. **Settings → Environments → github-pages → Deployment branches and tags**: añade la regla `claude/*`.
+3. En Cloudflare, **Settings → Builds & deployments → Branch control → Preview deployments: None**, para que solo publique `main`.
+

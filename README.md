@@ -19,12 +19,14 @@ Otros comandos: `npm test` (tests de las reglas y los datos), `npm run build` (g
 
 ## Menú
 
-Como el "Partido clásico" de FIFA: una columna para tu equipo (**LOCAL**) y otra para la CPU (**VISITANTE**).
-- Arriba, las **temporadas** (IE1, IE2, IE3) hacen de ligas. Abajo sale el logo de la temporada.
-- En la ficha: escudo, estrellas y medias **ATA / MED / DEF** de los titulares (delanteros: tiro, control y velocidad;
-  medios: control, físico, velocidad y tiro; defensas y portero: defensa, físico y agallas).
-- **◀ ▶** (o la rueda del ratón sobre la ficha) cambian de equipo. Con teclado: flechas izquierda/derecha para el equipo,
-  arriba/abajo para la temporada, **Tab** para pasar a la otra columna y **Enter** para seguir.
+Pantalla de "versus": cada mitad lleva los colores de su equipo (**TÚ** a la izquierda, **RIVAL** a la derecha),
+partidas por un rayo.
+- Cada lado muestra el escudo, la **media** del equipo y barras de **Ataque**, **Medio** y **Defensa** de los titulares
+  (delanteros: tiro, control y velocidad; medios: control, físico, velocidad y tiro; defensas y portero: defensa,
+  físico y agallas).
+- Abajo, la **estantería**: pestañas de temporada (IE1, IE2, IE3) con todos sus escudos. Pulsa una mitad para elegir
+  ese lado y luego un escudo. Las flechas o la rueda del ratón también cambian de equipo dentro de su temporada.
+- Teclado: izquierda/derecha cambian de equipo, arriba/abajo de temporada, **Tab** de lado y **Enter** sigue.
 - En el centro: **Cambiar lados** y **Rival aleatorio** (de cualquier temporada). Se pueden mezclar temporadas.
 - La elección se recuerda al volver al menú.
 

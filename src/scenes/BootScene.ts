@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { TEAMS } from '../data';
+import { makeFxTextures } from '../gfx/fx';
 import { makeBall, makeEmblem, makePlayerSprite, makePortrait, texKey } from '../gfx/placeholders';
 
 // Paquete de sprites: basta con dejar las imágenes en src/assets/pack/ con el id
@@ -46,6 +47,7 @@ export class BootScene extends Phaser.Scene {
       }
     }
     makeBall(this);
+    makeFxTextures(this);
     this.scene.start('menu');
   }
 }

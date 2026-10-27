@@ -1,4 +1,6 @@
 import movesJson from './moves.json';
+import moveFxJson from './movefx.json';
+import type { FxName } from '../gfx/fx';
 import { getFormation } from './formations';
 import type { MoveData, TeamData } from './types';
 
@@ -17,6 +19,11 @@ export function getTeam(id: string): TeamData {
   const t = TEAMS.find((team) => team.id === id);
   if (!t) throw new Error(`Equipo desconocido: ${id}`);
   return t;
+}
+
+/** Efecto especial de cada técnica (src/data/movefx.json, de tools/wiki/vfx.py). */
+export function moveFx(id: string): FxName {
+  return ((moveFxJson as Record<string, string>)[id] ?? 'impact') as FxName;
 }
 
 export function movesOf(ids: string[]): MoveData[] {

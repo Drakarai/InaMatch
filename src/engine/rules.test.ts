@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { TEAMS, validateTeams } from '../data';
+import { MOVES as MOVES_DATA, TEAMS, validateTeams } from '../data';
 import { lineRatings, ratingStars, teamRating } from './rating';
 import { SAME_ELEMENT_BONUS, elementMultiplier, hasStab } from '../data/elements';
 import type { MoveData, Stats } from '../data/types';
@@ -270,5 +270,13 @@ describe('media del equipo', () => {
       p.position === 'FW' ? { ...p, stats: { ...p.stats, kick: 99, control: 99, speed: 99 } } : p,
     );
     expect(lineRatings(team, strikers).att).toBe(team.players.slice(0, 11).some((p) => p.position === 'FW') ? 99 : lineRatings(team, strikers).att);
+  });
+});
+
+describe('efectos de las supertécnicas', () => {
+  it('cada técnica tiene un efecto conocido', async () => {
+    const fx = (await import('../data/movefx.json')).default as Record<string, string>;
+    const known = ['penguin', 'dragon', 'bird', 'beast', 'hand', 'punch', 'wall', 'shield', 'sword', 'meteor', 'tornado', 'ice', 'fire', 'lightning', 'water', 'flower', 'earth', 'dark', 'light', 'clone', 'wind', 'impact'];
+    for (const id of Object.keys(MOVES_DATA)) expect(known, id).toContain(fx[id]);
   });
 });

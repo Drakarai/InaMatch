@@ -11,6 +11,7 @@ import {
   type Choice,
   type Situation,
 } from '../engine/rules';
+import { fxColors, fxParticle, type FxName } from '../gfx/fx';
 import { texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
 import { THEME, dim, pt, sectionTitle, slant, themePanel } from '../ui/theme';
@@ -456,11 +457,12 @@ export class HudScene extends Phaser.Scene {
 
   // ------------------------------------------------- animación de técnica
 
-  cutin(player: MatchPlayer, move: MoveData): Promise<void> {
+  cutin(player: MatchPlayer, move: MoveData, fx: FxName = 'impact'): Promise<void> {
     return new Promise((resolve) => {
       const W = FIELD_VIEW.w;
       const H = FIELD_VIEW.h;
-      const color = ELEMENT_COLOR[move.element];
+      // el color y las partículas son los del efecto de la técnica (llamas, copos, pétalos...)
+      const [color, color2] = fxColors(fx, move.element);
       const c = this.add.container(0, 0).setDepth(60);
       // que la animación no se salga del campo y tape el marcador
       const maskShape = this.make.graphics({}, false).fillStyle(0xffffff).fillRect(0, 0, W, H);
@@ -470,7 +472,7 @@ export class HudScene extends Phaser.Scene {
       for (let i = 0; i < 24; i++) {
         const a0 = (i / 24) * Math.PI * 2;
         const a1 = a0 + Math.PI / 30;
-        burst.fillStyle(i % 2 ? color : 0xffffff, i % 2 ? 0.55 : 0.18);
+        burst.fillStyle(i % 2 ? color : color2, i % 2 ? 0.55 : 0.22);
         burst.fillTriangle(0, 0, Math.cos(a0) * 900, Math.sin(a0) * 900, Math.cos(a1) * 900, Math.sin(a1) * 900);
       }
       burst.setAlpha(0);
@@ -496,7 +498,22 @@ export class HudScene extends Phaser.Scene {
         .setOrigin(0.5)
         .setAngle(-4);
       const who = text(this, W - 30, H / 2 + 104, `${player.data.short} · TP -${move.tp}`, 18, '#ffe28a').setOrigin(1, 0.5).setAngle(-4).setAlpha(0);
-      c.add([shade, burst, band, portrait, name, who]);
+      const part = fxParticle(fx);
+      const shower = this.add.particles(0, 0, part.key, {
+        x: { min: 0, max: W },
+        y: { min: -20, max: H },
+        speedX: { min: -260, max: -120 },
+        speedY: { min: -40, max: 80 },
+        scale: { start: part.key === 'fx-glow' ? 1.6 : part.key === 'fx-penguin' ? 1.6 : 1.4, end: 0.3 },
+        alpha: { start: 0.9, end: 0 },
+        rotate: { min: 0, max: 360 },
+        tint: part.key === 'fx-penguin' ? 0xffffff : [color, color2],
+        lifespan: 1200,
+        frequency: part.key === 'fx-penguin' ? 90 : 20,
+        quantity: 2,
+        blendMode: part.additive ? 'ADD' : 'NORMAL',
+      });
+      c.add([shade, burst, shower, band, portrait, name, who]);
 
       let finished = false;
       const end = () => {

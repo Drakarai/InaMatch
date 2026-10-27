@@ -152,6 +152,30 @@ Para actualizar el catálogo cuando cambien las wikis: `tools/wiki/build.sh` (ha
 
 Los textos y datos de las wikis de Fandom están bajo licencia [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
 
+## Efectos de las supertécnicas
+
+Cada supertécnica tiene un efecto especial que tiene que ver con ella:
+- **Mano gigante:** Mano celestial, Mano mágica…
+- **Muro que sale del suelo:** El muro, Muro de hierro…
+- **Fuego:** pilar de llamas (Tornado de fuego).
+- **Hielo:** cristales y escarcha (Ventisca eterna).
+- **Dragón:** dragón que serpentea (Remate dragón).
+- **Ave:** ave que bate las alas (Fénix, Remate Pegaso, Remate del águila).
+- **Pingüinos:** salen del suelo (Pingüino emperador).
+- **Espada de luz:** espada que corta en arco (Excalibur, Lanza de Odín).
+- **Otros:** tornado, rayos, meteoritos, agujero oscuro, haz de luz, pétalos, terremoto, escudo de panal, puño, zarpazos de bestia, copias del jugador, viento y onda de choque genérica. En total son 22 efectos.
+
+Cómo se ven en el partido:
+- La animación con el retrato toma los colores y las partículas del efecto (llamas, copos, pétalos, plumas, pingüinos…).
+- Después, el efecto aparece sobre el campo.
+- En los tiros, el balón deja una estela del mismo tipo.
+- Si la técnica pierde el duelo, el bloqueo o la parada, salta en pedazos.
+
+Qué efecto lleva cada técnica lo decide `python3 -I tools/wiki/vfx.py` (escribe `src/data/movefx.json`):
+- Busca palabras clave en la descripción de cada técnica en la wiki (las de los juegos y la del anime).
+- Las más conocidas, y las que se revisaron mirando su imagen en la wiki, van puestas a mano en `OVERRIDES`.
+- Los efectos están dibujados por código en `src/gfx/fx.ts`.
+
 ## Sprites originales
 
 El juego funciona con gráficos provisionales dibujados por código. Para usar los originales,

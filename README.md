@@ -169,7 +169,8 @@ Cómo se ven en el partido:
 - La animación con el retrato toma los colores y las partículas del efecto (llamas, copos, pétalos, plumas, pingüinos…).
 - Después, el efecto aparece sobre el campo.
 - En los tiros, el balón deja una estela del mismo tipo.
-- Si la técnica pierde el duelo, el bloqueo o la parada, salta en pedazos.
+- En un duelo de supertécnicas (regate contra defensa, tiro contra bloqueo o contra el portero) solo se ve la
+  animación de la que gana. Si solo uno usa supertécnica, se ve la suya y, si pierde, salta en pedazos.
 
 Qué efecto lleva cada técnica lo decide `python3 -I tools/wiki/vfx.py` (escribe `src/data/movefx.json`):
 - Busca palabras clave en la descripción de cada técnica en la wiki (las de los juegos y la del anime).

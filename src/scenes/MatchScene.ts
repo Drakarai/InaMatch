@@ -944,12 +944,15 @@ export class MatchScene extends Phaser.Scene {
     const defChoice = att.side === 0 ? cpuPick : humanChoice;
     this.duelRing.clear();
 
-    await this.playMoves([att, attChoice, def], [def, defChoice, att]);
+    this.payMoves([att, attChoice], [def, defChoice]);
     const result = resolveDuel(att.fighter(), attChoice, def.fighter(), defChoice, rng, { attack: attMul, defense: defMul });
+    const attEntry: [MatchPlayer, Choice, Vec] = [att, attChoice, def];
+    const defEntry: [MatchPlayer, Choice, Vec] = [def, defChoice, att];
+    const loserShown = await this.techDuel(result.attackerWins ? attEntry : defEntry, result.attackerWins ? defEntry : attEntry);
     att.fp = Math.max(0, att.fp - DUEL_FP_COST);
     def.fp = Math.max(0, def.fp - DUEL_FP_COST);
     this.hud.showClash(result.attackPower, result.defensePower, result.attackerWins, att.side);
-    this.breakMove(result.attackerWins ? def : att, result.attackerWins ? defChoice : attChoice);
+    if (loserShown) this.breakMove(result.attackerWins ? def : att, result.attackerWins ? defChoice : attChoice);
     const colorOf = (p: MatchPlayer) => (p.side === 0 ? '#9fe2ff' : '#ffb0b0');
 
     if (isFoul(defChoice, !result.attackerWins, rng)) {
@@ -996,26 +999,50 @@ export class MatchScene extends Phaser.Scene {
   }
 
   /**
-   * Paga los TP y reproduce cada supertécnica usada: la animación con el retrato y luego su efecto
-   * especial sobre el campo, hacia `toward` (el rival, la portería o el balón que llega).
+   * Paga los TP y reproduce cada supertécnica usada (el tiro al salir): la animación con el retrato y
+   * luego su efecto especial sobre el campo, hacia `toward` (el rival, la portería o el balón que llega).
    */
   private async playMoves(...entries: [MatchPlayer, Choice, Vec][]): Promise<void> {
     for (const [p, c, toward] of entries) {
-      if (c.type !== 'move') continue;
-      p.tp = Math.max(0, p.tp - c.move.tp);
-      const fx = moveFx(c.move.id);
-      await this.hud.cutin(p, c.move, fx);
-      const dx = toward.x - p.x;
-      const dy = toward.y - p.y;
-      const d = Math.hypot(dx, dy) || 1;
-      await playFx(this, fx, p.x, p.y, {
-        element: c.move.element,
-        kind: c.move.kind,
-        dir: { x: dx / d, y: dy / d },
-        texture: p.sprite.texture.key,
-        scale: p.sprite.scaleX,
-      });
+      this.payMoves([p, c]);
+      await this.showMove(p, c, toward);
     }
+  }
+
+  private payMoves(...entries: [MatchPlayer, Choice][]): void {
+    for (const [p, c] of entries) if (c.type === 'move') p.tp = Math.max(0, p.tp - c.move.tp);
+  }
+
+  /**
+   * Duelo ya resuelto entre dos elecciones. Si las dos son supertécnicas solo se ve la que gana;
+   * si solo una lo es, se ve esa. Devuelve si se vio la del que ha perdido (para romperla).
+   */
+  private async techDuel(winner: [MatchPlayer, Choice, Vec], loser: [MatchPlayer, Choice, Vec]): Promise<boolean> {
+    const both = winner[1].type === 'move' && loser[1].type === 'move';
+    if (both) {
+      await this.showMove(...winner);
+      return false;
+    }
+    await this.showMove(...winner);
+    await this.showMove(...loser);
+    return loser[1].type === 'move';
+  }
+
+  /** Animación con el retrato y efecto especial de una supertécnica (sin pagar los TP). */
+  private async showMove(p: MatchPlayer, c: Choice, toward: Vec): Promise<void> {
+    if (c.type !== 'move') return;
+    const fx = moveFx(c.move.id);
+    await this.hud.cutin(p, c.move, fx);
+    const dx = toward.x - p.x;
+    const dy = toward.y - p.y;
+    const d = Math.hypot(dx, dy) || 1;
+    await playFx(this, fx, p.x, p.y, {
+      element: c.move.element,
+      kind: c.move.kind,
+      dir: { x: dx / d, y: dy / d },
+      texture: p.sprite.texture.key,
+      scale: p.sprite.scaleX,
+    });
   }
 
   /** La supertécnica de `p` ha perdido: salta en pedazos. */
@@ -1143,8 +1170,10 @@ export class MatchScene extends Phaser.Scene {
       power: [Math.round(f.power), basePower(blocker.fighter(), 'block', this.sideMul(blocker.side) * elementMultiplier(blocker.data.element, shooter.data.element))],
     });
     const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, 0.5);
-    await this.playMoves([blocker, blockChoice, this.ball]);
+    this.payMoves([blocker, blockChoice]);
     const block = resolveBlock(f.power, shooter.fighter(), shotChoice, blocker.fighter(), blockChoice, rng, this.sideMul(blocker.side));
+    const blockShown = blockChoice.type === 'move' && (block.blocked || shotChoice.type !== 'move');
+    if (blockShown) await this.showMove(blocker, blockChoice, this.ball);
     if (block.blockPower > 0) {
       blocker.fp = Math.max(0, blocker.fp - DUEL_FP_COST);
       this.hud.showClash(Math.round(f.power), block.blockPower, !block.blocked, shooter.side);
@@ -1157,7 +1186,7 @@ export class MatchScene extends Phaser.Scene {
       this.endShot();
       return;
     }
-    this.breakMove(blocker, blockChoice);
+    if (blockShown) this.breakMove(blocker, blockChoice);
     f.power = block.remaining;
     if (block.blockPower > 0) this.floatText(blocker.x, blocker.y - 46, 'No basta...', '#ffe28a');
     this.time.delayedCall(500, () => this.hud.hideDuel());
@@ -1175,13 +1204,15 @@ export class MatchScene extends Phaser.Scene {
       power: [Math.round(f.power), basePower(keeper.fighter(), 'keep', this.sideMul(keeper.side) * elementMultiplier(keeper.data.element, shooter.data.element))],
     });
     const keepChoice: Choice = keeper.side === 0 ? await this.hud.prompt('keep', keeper) : cpuChoice(keeper.moves, 'keep', keeper.tp, rng, 0.7);
-    await this.playMoves([keeper, keepChoice, this.ball]);
+    this.payMoves([keeper, keepChoice]);
     const result = resolveKeeper(f.power, shooter.fighter(), shotChoice, keeper.fighter(), keepChoice, rng, this.sideMul(keeper.side));
+    const keepShown = keepChoice.type === 'move' && (result.outcome !== 'goal' || shotChoice.type !== 'move');
+    if (keepShown) await this.showMove(keeper, keepChoice, this.ball);
     keeper.fp = Math.max(0, keeper.fp - DUEL_FP_COST);
     this.hud.showClash(result.shotPower, result.keeperPower, result.outcome === 'goal', shooter.side);
 
     if (result.outcome === 'goal') {
-      this.breakMove(keeper, keepChoice);
+      if (keepShown) this.breakMove(keeper, keepChoice);
       await this.tweenBall({ x: target.x, y: goal.y + this.attackDir(shooter.side) * 22 }, 220, 4);
       this.addTension(defSide, TENSION_GAIN.conceded);
       f.stopTrail?.();

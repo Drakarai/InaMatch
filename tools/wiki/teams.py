@@ -298,6 +298,8 @@ def move_from_key(key):
         'tp': int(cost),
         'wiki': w['page'],
     }
+    if w.get('chr') == 'L':  # tiro largo: se puede usar desde cualquier distancia
+        moves_used[mid]['long'] = True
     return mid
 
 

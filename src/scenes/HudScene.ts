@@ -304,7 +304,9 @@ export class HudScene extends Phaser.Scene {
     this.refreshPlayerPanel();
     this.drawRadar();
     this.drawTension();
-    this.shootButton.setVisible(this.match.canShoot());
+    const canShoot = this.match.canShoot();
+    this.shootButton.setVisible(canShoot);
+    if (canShoot) this.shootButton.setCaption(this.match.shotIsLong() ? 'Tiro largo  (T)' : 'Tirar  (T)');
   }
 
   // ------------------------------------------------------------ comandos
@@ -392,7 +394,29 @@ export class HudScene extends Phaser.Scene {
     });
   }
 
-  /** "¡Regula la potencia!" de GO: devuelve el nivel elegido (0 = normal). */
+  /** Tiro desde lejos: solo las supertécnicas de tiro largo, o cancelar (null). */
+  promptLongShot(moves: MoveData[]): Promise<Choice | null> {
+    return this.commandBar<Choice | null>('¡Tiro largo!', null, (c, cy, finish) => {
+      c.add(new Button(this, 130, cy + 10, '1 · Cancelar', () => finish(null), { w: 230, h: 50, color: THEME.panelLight }));
+      const keys: Record<string, Choice | null> = { '1': null };
+      moves.forEach((move, i) => {
+        const choice: Choice = { type: 'move', move };
+        c.add(
+          new Button(this, FIELD_VIEW.w / 2 + 60, cy + 10 - i * 54, `${i + 2} · ${move.name}`, () => finish(choice), {
+            w: 290,
+            h: 46,
+            size: 18,
+            color: ELEMENT_COLOR[move.element],
+            sub: `TP ${move.tp}`,
+          }),
+        );
+        keys[String(i + 2)] = choice;
+      });
+      return keys;
+    });
+  }
+
+  /** "¡Regula la potencia!" de GO, solo para tiros normales: devuelve el nivel elegido (0 = normal). */
   promptPower(tpAvailable: number): Promise<number> {
     return this.commandBar<number>('¡Regula la potencia!', 0, (c, cy, finish) => {
       const keys: Record<string, number> = {};

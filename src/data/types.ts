@@ -59,6 +59,8 @@ export interface MoveData {
   tp: number;
   /** Título de la técnica en la wiki inglesa, para buscarla en data/tecnicas.json. */
   wiki?: string;
+  /** Tiro largo: el único tiro que se puede hacer desde lejos de la portería. */
+  long?: boolean;
 }
 
 export interface FormationSlot {

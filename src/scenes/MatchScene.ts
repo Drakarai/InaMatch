@@ -3,7 +3,7 @@ import { FIELD_VIEW, GAME_SPEED, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REA
 import { getTeam } from '../data';
 import { elementMultiplier } from '../data/elements';
 import { getFormation } from '../data/formations';
-import type { Formation, TeamData } from '../data/types';
+import type { Formation, MoveData, TeamData } from '../data/types';
 import { lineupPlayers, type Lineup } from '../engine/lineup';
 import {
   DUEL_FP_COST,
@@ -72,7 +72,14 @@ export interface GoalEntry {
 const CX = PITCH.x + PITCH.w / 2;
 const PICKUP_RADIUS = 16;
 const DUEL_RADIUS = 24;
-const SHOT_RANGE = 720;
+/** Distancia a la portería desde la que se puede tirar. Más lejos, solo con una supertécnica de tiro largo. */
+const SHOT_RANGE = 380;
+/** Al recibir, el jugador espera un momento antes de echar a andar hacia la portería rival. */
+const RECEIVE_PAUSE = 0.6;
+/** Ritmo de ese avance solo (fracción de su velocidad con balón). */
+const AUTO_ADVANCE_SPEED = 0.4;
+/** Hasta dónde avanza solo: se para antes de meterse encima del portero. */
+const AUTO_ADVANCE_STOP = 240;
 const PASS_SPEED = 560 * GAME_SPEED;
 const LOOSE_BALL_SPEED = 380 * GAME_SPEED;
 /** Cámara lenta mientras vuela un tiro de la CPU. */
@@ -107,6 +114,8 @@ export class MatchScene extends Phaser.Scene {
   private holdUntil = 0; // el portero con el balón en las manos
   private cpuThinkAt = 0;
   private cpuPossessionSince = 0;
+  /** Desde cuándo el que lleva el balón no tiene recorrido que seguir. */
+  private carrierIdleSince = 0;
   private hud!: HudScene;
   private flight: ShotFlight | null = null;
 
@@ -410,6 +419,7 @@ export class MatchScene extends Phaser.Scene {
     b.travel = 0;
     b.height = 0;
     if (p.side === 1) this.cpuPossessionSince = this.now;
+    this.carrierIdleSince = this.now;
     // el receptor deja de seguir el destino del pase
     if (!p.manual) p.path = [];
   }
@@ -591,14 +601,15 @@ export class MatchScene extends Phaser.Scene {
         const speed = p.speed(withBall);
 
         if (p.path.length) {
+          if (withBall) this.carrierIdleSince = this.now;
           if (p.moveTowards(p.path[0], speed, dt)) p.path.shift();
           if (!p.path.length && !beingDrawn) p.manual = false;
           this.drainFp(p, dt);
           continue;
         }
         if (withBall) {
-          // el humano conduce con recorridos; la CPU la maneja cpuCarrierLogic
-          if (side === 0) p.moving = false;
+          // el humano conduce con recorridos; sin línea, tras un momento avanza despacio hacia la portería rival
+          if (side === 0) this.autoAdvance(p, speed, dt);
           else this.cpuDribble(p, speed, dt);
           continue;
         }
@@ -633,6 +644,18 @@ export class MatchScene extends Phaser.Scene {
         }
       }
     }
+  }
+
+  private autoAdvance(p: MatchPlayer, speed: number, dt: number): void {
+    const goal = this.goalOf(p.side === 0 ? 1 : 0);
+    if (this.drawing?.player === p || this.now - this.carrierIdleSince < RECEIVE_PAUSE || this.dist(p, goal) < AUTO_ADVANCE_STOP) {
+      p.moving = false;
+      return;
+    }
+    // recto hacia delante, acercándose poco a poco al centro
+    const target = { x: p.x + (CX - p.x) * 0.15, y: p.y + this.attackDir(p.side) * 60 };
+    p.moveTowards(this.clampToPitch(target, -30), speed * AUTO_ADVANCE_SPEED, dt);
+    this.drainFp(p, dt);
   }
 
   private drainFp(p: MatchPlayer, dt: number): void {
@@ -765,9 +788,11 @@ export class MatchScene extends Phaser.Scene {
     const dGoal = this.dist(owner, goal);
     const pressure = Math.min(...this.players[0].map((p) => this.dist(p, owner)));
     if (Math.abs(owner.x - CX) < 300) {
-      // de cerca tira siempre; desde la frontal, a veces (más si tiene supertécnica o le aprietan)
+      // muy cerca tira siempre; en el resto de la zona de tiro, a veces (más si tiene supertécnica o le aprietan).
+      // Desde más lejos solo con un tiro largo, y de vez en cuando.
       const hasShotMove = owner.moves.some((m) => m.kind === 'shoot' && m.tp <= owner.tp);
-      const chance = dGoal < 280 ? 1 : dGoal < 540 ? 0.22 + (hasShotMove ? 0.15 : 0) + (pressure < 70 ? 0.2 : 0) : 0;
+      const chance =
+        dGoal < 280 ? 1 : dGoal <= SHOT_RANGE ? 0.35 + (hasShotMove ? 0.15 : 0) + (pressure < 70 ? 0.2 : 0) : this.longShots(owner).length && dGoal < 900 ? 0.08 : 0;
       if (rng() < chance) {
         void this.shoot(owner);
         return;
@@ -796,7 +821,7 @@ export class MatchScene extends Phaser.Scene {
     this.passHintAt = this.now + 0.3;
     const owner = this.ball.owner;
     this.passHint = owner && owner.side === 0 ? this.bestPassOption(owner) : null;
-    this.shootHint = this.canShoot() && !!owner && this.dist(owner, this.goalOf(1)) < 430 && Math.abs(owner.x - CX) < 300;
+    this.shootHint = this.canShoot() && !!owner && this.dist(owner, this.goalOf(1)) <= SHOT_RANGE && Math.abs(owner.x - CX) < 300;
   }
 
   /** Mejor compañero para pasar: libre de marca, por delante y con la línea de pase despejada. */
@@ -989,17 +1014,28 @@ export class MatchScene extends Phaser.Scene {
     this.hud.showDuel(shooter, keeper);
     this.drawShotCone(shooter, goal);
 
-    // 1) tipo de tiro y potencia
+    // 1) tipo de tiro y, solo en los tiros normales, la potencia (las supertécnicas tiran con la suya)
+    const long = distance > SHOT_RANGE;
     let shotChoice: Choice;
     let level = 0;
     if (shooter.side === 0) {
-      shotChoice = await this.hud.prompt('shoot', shooter);
-      const tpLeft = shooter.tp - (shotChoice.type === 'move' ? shotChoice.move.tp : 0);
-      level = await this.hud.promptPower(tpLeft);
+      if (long) {
+        const picked = await this.hud.promptLongShot(this.longShots(shooter));
+        if (!picked) {
+          this.shotCone.clear();
+          this.hud.hideDuel();
+          this.resumePlay();
+          return;
+        }
+        shotChoice = picked;
+      } else {
+        shotChoice = await this.hud.prompt('shoot', shooter);
+      }
+      if (shotChoice.type === 'basic') level = await this.hud.promptPower(shooter.tp);
     } else {
-      shotChoice = cpuChoice(shooter.moves, 'shoot', shooter.tp, rng, 0.75);
-      const tpLeft = shooter.tp - (shotChoice.type === 'move' ? shotChoice.move.tp : 0);
-      level = SHOT_POWER_LEVELS.reduce((best, l, i) => (l.tp <= tpLeft && rng() < 0.5 ? i : best), 0);
+      const longMoves = this.longShots(shooter);
+      shotChoice = long && longMoves.length ? { type: 'move', move: longMoves[Math.floor(rng() * longMoves.length)] } : cpuChoice(shooter.moves, 'shoot', shooter.tp, rng, 0.75);
+      if (shotChoice.type === 'basic') level = SHOT_POWER_LEVELS.reduce((best, l, i) => (l.tp <= shooter.tp && rng() < 0.5 ? i : best), 0);
     }
     this.shotCone.clear();
     shooter.tp = Math.max(0, shooter.tp - SHOT_POWER_LEVELS[level].tp);
@@ -1030,7 +1066,7 @@ export class MatchScene extends Phaser.Scene {
       tried: new Set(),
       isChip,
       // los tiros potentes vuelan más rápido y cuesta más cruzarse a tiempo
-      speed: Phaser.Math.Clamp(200 + power * 0.45, 220, 400) * GAME_SPEED * (isChip ? 0.8 : 1),
+      speed: Phaser.Math.Clamp(420 + power * 0.8, 450, 760) * GAME_SPEED * (isChip ? 0.75 : 1),
       startDist: Math.max(1, this.dist(b, target)),
       slow: defSide === 0 ? SHOT_SLOWMO : 1,
     };
@@ -1347,7 +1383,19 @@ export class MatchScene extends Phaser.Scene {
 
   canShoot(): boolean {
     const owner = this.ball.owner;
-    return this.state === 'play' && !!owner && owner.side === 0 && !owner.isGK && this.dist(owner, this.goalOf(1)) <= SHOT_RANGE;
+    if (this.state !== 'play' || !owner || owner.side !== 0 || owner.isGK) return false;
+    return this.dist(owner, this.goalOf(1)) <= SHOT_RANGE || this.longShots(owner).length > 0;
+  }
+
+  /** ¿El tiro que haría ahora el jugador sería un tiro largo? */
+  shotIsLong(): boolean {
+    const owner = this.ball.owner;
+    return !!owner && this.dist(owner, this.goalOf(owner.side === 0 ? 1 : 0)) > SHOT_RANGE;
+  }
+
+  /** Supertécnicas de tiro largo que el jugador puede pagar. */
+  private longShots(p: MatchPlayer): MoveData[] {
+    return p.moves.filter((m) => m.kind === 'shoot' && m.long && m.tp <= p.tp);
   }
 
   requestShot(): void {
@@ -1358,8 +1406,8 @@ export class MatchScene extends Phaser.Scene {
 
   private async tryShoot(owner: MatchPlayer): Promise<void> {
     const distance = this.dist(owner, this.goalOf(1));
-    if (distance > SHOT_RANGE) {
-      this.hud.toast('¡Demasiado lejos para tirar!');
+    if (distance > SHOT_RANGE && !this.longShots(owner).length) {
+      this.hud.toast('¡Demasiado lejos! Acércate al área o usa un tiro largo');
       return;
     }
     await this.shoot(owner);

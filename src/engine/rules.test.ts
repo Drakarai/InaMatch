@@ -30,6 +30,7 @@ const basic = (id: Extract<Choice, { type: 'basic' }>['id']): Choice => ({ type:
 const MOVES: Record<string, MoveData> = {
   'fireball-screw': { id: 'fireball-screw', name: 'Torbellino de fuego', kind: 'shoot', element: 'fire', power: 90, tp: 52 },
   'fire-tornado': { id: 'fire-tornado', name: 'Tornado de fuego', kind: 'shoot', element: 'fire', power: 45, tp: 25 },
+  'eagle-buster': { id: 'eagle-buster', name: 'Remate del águila', kind: 'shoot', element: 'wind', power: 86, tp: 50, long: true },
   'illusion-ball': { id: 'illusion-ball', name: 'Espejismo de balón', kind: 'dribble', element: 'wood', power: 45, tp: 28 },
   'heat-tackle': { id: 'heat-tackle', name: 'Entrada de llamas', kind: 'dribble', element: 'fire', power: 45, tp: 27 },
   'the-wall': { id: 'the-wall', name: 'El muro', kind: 'block', element: 'earth', power: 45, tp: 30 },
@@ -210,6 +211,13 @@ describe('bloqueos de tiro', () => {
     expect(r.blocked).toBe(false);
     expect(r.remaining).toBeLessThan(power);
     expect(r.remaining).toBeGreaterThan(0);
+  });
+
+  it('el tiro largo no pierde fuerza con la distancia', () => {
+    const near = shotPower(fighter(45), move('eagle-buster'), 200, fixed(0.5));
+    const far = shotPower(fighter(45), move('eagle-buster'), 1200, fixed(0.5));
+    expect(far).toBeCloseTo(near);
+    expect(shotPower(fighter(45), move('fireball-screw'), 1200, fixed(0.5))).toBeLessThan(shotPower(fighter(45), move('fireball-screw'), 200, fixed(0.5)));
   });
 
   it('dejar pasar no toca el tiro', () => {

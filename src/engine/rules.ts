@@ -230,7 +230,8 @@ export interface ShotResult {
 
 /** Fuerza con la que sale el tiro (antes de bloqueos y portero). */
 export function shotPower(shooter: Fighter, shotChoice: Choice, distance: number, rng: Rng, mul = 1): number {
-  return choicePower(shooter, shotChoice) * distanceFactor(distance) * jitter(rng) * mul;
+  const long = shotChoice.type === 'move' && shotChoice.move.long;
+  return choicePower(shooter, shotChoice) * (long ? 1 : distanceFactor(distance)) * jitter(rng) * mul;
 }
 
 export interface BlockResult {

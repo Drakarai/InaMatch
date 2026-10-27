@@ -36,10 +36,10 @@ El ratón hace de lápiz de la DS.
 
 | Situación | Acción |
 |---|---|
-| Con balón | **Arrastra desde tu jugador** para dibujar el recorrido: lo va siguiendo mientras dibujas |
+| Con balón | **Arrastra desde tu jugador** para dibujar el recorrido: lo va siguiendo mientras dibujas. Sin línea, al recibir espera un momento y luego avanza despacio hacia la portería rival |
 | | **Pulsa a un compañero** para pasarle; el bocadillo "¡Aquí!" marca al mejor libre y "¡Tira!" avisa de una buena ocasión |
 | | **Pulsa en un hueco** para un pase al espacio |
-| | **Pulsa la portería**, el botón **Tirar** o la tecla **T** para tirar |
+| | **Pulsa la portería**, el botón **Tirar** o la tecla **T** para tirar. Solo desde cerca del área; desde más lejos, únicamente con una supertécnica de **tiro largo** (el botón pasa a "Tiro largo") |
 | Sin balón | **Arrastra a cualquier jugador** para moverlo, o **pulsa en el campo** para mandar al jugador activo (el del aro blanco) |
 | Tiro rival en el aire | **Arrastra a un defensa** hasta la línea turquesa para bloquearlo (va a cámara lenta) |
 | Duelos y tiros | Botones en pantalla o teclas **1**/**2** (comandos básicos) y **3**, **4**… (supertécnicas) |
@@ -51,6 +51,8 @@ Comandos básicos:
 - **Defendiendo**: Entrada o Entrada en plancha. La plancha gana al regate, pero la finta la deja en ridículo
   y, si roba el balón, puede ser **falta** (tiro libre para el rival).
 - **Tirando**: Tiro o Vaselina, y después **¡Regula la potencia!** (Normal, Fuerte +10 TP, Máxima +20 TP).
+  Las supertécnicas tiran con su potencia, sin regular. Los **tiros largos** (Remate del águila, Excalibur, Remate tsunami…,
+  marcados en la wiki) son los únicos que se pueden lanzar desde lejos y no pierden fuerza con la distancia.
 - **Bloqueando**: el tiro vuela en tiempo real con su trayectoria marcada.
   - Cuando tira la CPU, el juego va a **cámara lenta**: arrastra a un defensa hasta la línea para cruzarte.
   - El defensa que se cruza elige Bloquear o Dejar pasar. Si no lo para, el tiro llega más flojo.

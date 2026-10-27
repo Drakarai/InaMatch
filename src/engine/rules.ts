@@ -229,6 +229,14 @@ export interface ShotResult {
 }
 
 /** Fuerza con la que sale el tiro (antes de bloqueos y portero). */
+/** Fuerza que pierde un tiro largo por cada segundo en el aire (7 %). */
+export const LONG_SHOT_DECAY = 0.07;
+
+/** Fuerza de un tiro largo tras `seconds` segundos de vuelo. */
+export function longShotDecay(power: number, seconds: number): number {
+  return power * Math.pow(1 - LONG_SHOT_DECAY, seconds);
+}
+
 export function shotPower(shooter: Fighter, shotChoice: Choice, distance: number, rng: Rng, mul = 1): number {
   const long = shotChoice.type === 'move' && shotChoice.move.long;
   return choicePower(shooter, shotChoice) * (long ? 1 : distanceFactor(distance)) * jitter(rng) * mul;

@@ -16,6 +16,7 @@ import {
   choiceLabel,
   cpuChoice,
   isFoul,
+  longShotDecay,
   resolveBlock,
   resolveDuel,
   resolveKeeper,
@@ -787,16 +788,21 @@ export class MatchScene extends Phaser.Scene {
     const goal = this.goalOf(0);
     const dGoal = this.dist(owner, goal);
     const pressure = Math.min(...this.players[0].map((p) => this.dist(p, owner)));
-    if (Math.abs(owner.x - CX) < 300) {
-      // muy cerca tira siempre; en el resto de la zona de tiro, a veces (más si tiene supertécnica o le aprietan).
-      // Desde más lejos solo con un tiro largo, y de vez en cuando.
-      const hasShotMove = owner.moves.some((m) => m.kind === 'shoot' && m.tp <= owner.tp);
-      const chance =
-        dGoal < 280 ? 1 : dGoal <= SHOT_RANGE ? 0.35 + (hasShotMove ? 0.15 : 0) + (pressure < 70 ? 0.2 : 0) : this.longShots(owner).length && dGoal < 900 ? 0.08 : 0;
-      if (rng() < chance) {
-        void this.shoot(owner);
-        return;
-      }
+    // muy cerca tira siempre; en el resto de la zona de tiro, a veces (más si tiene supertécnica o le aprietan).
+    // Fuera de ella, desde cualquier sitio, solo con un tiro largo y de vez en cuando.
+    const hasShotMove = owner.moves.some((m) => m.kind === 'shoot' && m.tp <= owner.tp);
+    const central = Math.abs(owner.x - CX) < 300;
+    const chance =
+      central && dGoal < 280
+        ? 1
+        : central && dGoal <= SHOT_RANGE
+          ? 0.35 + (hasShotMove ? 0.15 : 0) + (pressure < 70 ? 0.2 : 0)
+          : dGoal > SHOT_RANGE && this.longShots(owner).length
+            ? 0.08
+            : 0;
+    if (rng() < chance) {
+      void this.shoot(owner);
+      return;
     }
     const held = this.now - this.cpuPossessionSince;
     if ((pressure < 75 && rng() < 0.45) || (held > 2.5 && rng() < 0.2)) {
@@ -1089,6 +1095,8 @@ export class MatchScene extends Phaser.Scene {
     }
     b.x += ((f.target.x - b.x) / remaining) * step;
     b.y += ((f.target.y - b.y) / remaining) * step;
+    // el tiro largo se va apagando cuanto más tiempo pasa en el aire
+    if (f.shotChoice.type === 'move' && f.shotChoice.move.long) f.power = longShotDecay(f.power, dt);
     const progress = 1 - remaining / f.startDist;
     b.height = f.isChip ? Math.sin(progress * Math.PI) * 46 : 6;
     if (f.isChip) return; // la vaselina pasa por encima de los defensas

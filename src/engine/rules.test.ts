@@ -9,6 +9,7 @@ import {
   choicePower,
   cpuChoice,
   distanceFactor,
+  longShotDecay,
   fpFactor,
   isFoul,
   resolveBlock,
@@ -211,6 +212,12 @@ describe('bloqueos de tiro', () => {
     expect(r.blocked).toBe(false);
     expect(r.remaining).toBeLessThan(power);
     expect(r.remaining).toBeGreaterThan(0);
+  });
+
+  it('el tiro largo se apaga un poco por cada segundo en el aire', () => {
+    expect(longShotDecay(100, 0)).toBe(100);
+    expect(longShotDecay(100, 1)).toBeCloseTo(93);
+    expect(longShotDecay(longShotDecay(100, 0.5), 0.5)).toBeCloseTo(longShotDecay(100, 1));
   });
 
   it('el tiro largo no pierde fuerza con la distancia', () => {

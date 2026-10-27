@@ -52,7 +52,8 @@ Comandos básicos:
   y, si roba el balón, puede ser **falta** (tiro libre para el rival).
 - **Tirando**: Tiro o Vaselina, y después **¡Regula la potencia!** (Normal, Fuerte +10 TP, Máxima +20 TP).
   Las supertécnicas tiran con su potencia, sin regular. Los **tiros largos** (Remate del águila, Excalibur, Remate tsunami…,
-  marcados en la wiki) son los únicos que se pueden lanzar desde lejos y no pierden fuerza con la distancia.
+  marcados en la wiki) se pueden lanzar desde cualquier sitio del campo. Pierden un 7 % de fuerza por cada segundo
+  en el aire (`LONG_SHOT_DECAY` en `src/engine/rules.ts`), así que desde campo propio llegan bastante más flojos.
 - **Bloqueando**: el tiro vuela en tiempo real con su trayectoria marcada.
   - Cuando tira la CPU, el juego va a **cámara lenta**: arrastra a un defensa hasta la línea para cruzarte.
   - El defensa que se cruza elige Bloquear o Dejar pasar. Si no lo para, el tiro llega más flojo.

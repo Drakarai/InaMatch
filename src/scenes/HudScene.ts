@@ -11,7 +11,7 @@ import {
   type Choice,
   type Situation,
 } from '../engine/rules';
-import { fxColors, fxParticle, type FxName } from '../gfx/fx';
+import { fxColors, fxParticle, type FxRecipe } from '../gfx/fx';
 import { texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
 import { THEME, dim, pt, sectionTitle, slant, themePanel } from '../ui/theme';
@@ -457,7 +457,7 @@ export class HudScene extends Phaser.Scene {
 
   // ------------------------------------------------- animación de técnica
 
-  cutin(player: MatchPlayer, move: MoveData, fx: FxName = 'impact'): Promise<void> {
+  cutin(player: MatchPlayer, move: MoveData, fx: FxRecipe = { fx: 'impact' }): Promise<void> {
     return new Promise((resolve) => {
       const W = FIELD_VIEW.w;
       const H = FIELD_VIEW.h;

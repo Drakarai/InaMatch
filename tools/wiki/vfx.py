@@ -5,7 +5,8 @@ en su nombre y sus descripciones (las de los juegos y la del anime) palabras que
 una mano gigante, un muro, un tornado, fuego, hielo, un dragón... Las técnicas más conocidas, y las
 que se revisaron mirando su imagen en la wiki, llevan su efecto puesto a mano en OVERRIDES.
 
-Escribe src/data/movefx.json: { "<id de la técnica>": "<efecto>" }.
+Escribe tools/wiki/movefx_wiki.json: { "<id de la técnica>": "<efecto>" }. Solo se usa para las técnicas que no
+salen en la enciclopedia oficial (las demás tienen receta en tools/zukan/recipes.txt).
 Los efectos se dibujan en src/gfx/fx.ts.
 
 Uso (desde la raíz del repo): python3 -I tools/wiki/vfx.py [--verbose]
@@ -148,7 +149,7 @@ def main():
         if verbose:
             top = ', '.join(f'{k}:{v}' for k, v in scores.most_common(3) if v)
             print(f"{m['kind']:8} {fx:9} {m['name']} ({title})  [{top}]")
-    with open(os.path.join(ROOT, 'src', 'data', 'movefx.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(ROOT, 'tools', 'wiki', 'movefx_wiki.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
         f.write('\n')
     counts = collections.Counter(out.values())

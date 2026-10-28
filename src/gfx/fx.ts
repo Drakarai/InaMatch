@@ -1,11 +1,14 @@
 import Phaser from 'phaser';
 import { ELEMENT_COLOR } from '../data/elements';
 import type { Element, MoveKind } from '../data/types';
+import { DEPTH, GROUND, angleOf, cleanup, flash, lighten, particles, ring, shake, wait } from './fxkit';
+import { SHAPES } from './fxshapes';
 
 /**
  * Efectos especiales de las supertécnicas, dibujados por código sobre el campo.
- * Cada técnica tiene uno (src/data/movefx.json, generado por tools/wiki/vfx.py a partir de su
- * descripción e imagen en la wiki): una mano gigante, un muro que sale del suelo, un dragón...
+ * Cada técnica tiene su receta en src/data/movefx.json (tools/zukan/recipes.py, a partir de los
+ * vídeos de la enciclopedia oficial): una forma con su variante ("dragon:wyvern", "hand:majin"...),
+ * capas que la acompañan y los colores reales del vídeo. Las formas nuevas están en fxshapes.ts.
  */
 export type FxName =
   | 'penguin'
@@ -41,10 +44,6 @@ export interface FxOptions {
   scale?: number;
 }
 
-/** Por encima de los jugadores (su profundidad es su y) y de las marcas del suelo. */
-const DEPTH = 8000;
-const GROUND = -5;
-
 /** Colores propios de los efectos de elemento; el resto toma el de la afinidad de la técnica. */
 const PALETTE: Partial<Record<FxName, [number, number]>> = {
   fire: [0xff5a1a, 0xffd23f],
@@ -60,7 +59,7 @@ const PALETTE: Partial<Record<FxName, [number, number]>> = {
 };
 
 /** Partícula propia de cada efecto (para la estela del balón y la animación de la técnica). */
-const PARTICLE: Partial<Record<FxName, string>> = {
+const PARTICLE: Record<string, string> = {
   fire: 'fx-flame',
   ice: 'fx-flake',
   lightning: 'fx-spark',
@@ -72,20 +71,31 @@ const PARTICLE: Partial<Record<FxName, string>> = {
   penguin: 'fx-penguin',
   earth: 'fx-rock',
   wall: 'fx-rock',
+  rocks: 'fx-rock',
+  stars: 'fx-star',
+  comet: 'fx-star',
+  hearts: 'fx-heart',
+  notes: 'fx-note',
+  confetti: 'fx-petal',
+  fireworks: 'fx-star',
+  wings: 'fx-feather',
+  butterfly: 'fx-petal',
+  bubbles: 'fx-bubble',
 };
 
-export function fxParticle(name: FxName): { key: string; additive: boolean } {
-  const key = PARTICLE[name] ?? 'fx-glow';
+export function fxParticle(recipe: FxRecipe): { key: string; additive: boolean } {
+  const key = PARTICLE[baseOf(recipe.fx)] ?? 'fx-glow';
   return { key, additive: !['fx-penguin', 'fx-rock', 'fx-petal', 'fx-feather'].includes(key) };
 }
 
-export function fxColors(name: FxName, element: Element): [number, number] {
-  return colors(name, element);
+export function fxColors(recipe: FxRecipe, element: Element): [number, number] {
+  const [c1, c2] = fxPalette(recipe, element);
+  return [c1, c2];
 }
 
-function colors(name: FxName, element: Element): [number, number] {
+function colors(name: FxName, element: Element): number[] {
   const own = PALETTE[name];
-  if (own) return own;
+  if (own) return [...own];
   const base = ELEMENT_COLOR[element];
   return [base, Phaser.Display.Color.ValueToColor(base).lighten(35).color];
 }
@@ -146,6 +156,12 @@ export function makeFxTextures(scene: Phaser.Scene): void {
     g.lineStyle(2, 0xffffff, 0.9).strokeCircle(10, 10, 8);
     g.fillStyle(0xffffff, 0.8).fillCircle(7, 7, 2.5);
   });
+  make('fx-heart', 20, 18, (g) => {
+    g.fillStyle(0xffffff).fillCircle(6, 6, 5.5).fillCircle(14, 6, 5.5).fillTriangle(1, 8, 19, 8, 10, 18);
+  });
+  make('fx-note', 16, 22, (g) => {
+    g.fillStyle(0xffffff).fillEllipse(5, 18, 9, 7).fillRect(8, 2, 2.5, 16).fillTriangle(10, 2, 16, 6, 10, 9);
+  });
   make('fx-penguin', 24, 30, (g) => {
     g.fillStyle(0x10141c).fillEllipse(12, 17, 20, 26);
     g.fillStyle(0xffffff).fillEllipse(12, 19, 12, 18);
@@ -156,59 +172,19 @@ export function makeFxTextures(scene: Phaser.Scene): void {
   });
 }
 
-// ------------------------------------------------------------------ ayudas
-
-type Obj = Phaser.GameObjects.GameObject & { destroy: () => void };
-
-/** Borra lo creado al cabo de `ms`. */
-function cleanup(scene: Phaser.Scene, ms: number, ...objs: Obj[]): void {
-  scene.time.delayedCall(ms, () => objs.forEach((o) => o.active && o.destroy()));
-}
-
-function wait(scene: Phaser.Scene, ms: number): Promise<void> {
-  return new Promise((r) => scene.time.delayedCall(ms, r));
-}
-
-function particles(scene: Phaser.Scene, x: number, y: number, key: string, config: Phaser.Types.GameObjects.Particles.ParticleEmitterConfig, depth = DEPTH) {
-  const e = scene.add.particles(x, y, key, { emitting: false, blendMode: 'NORMAL', ...config });
-  e.setDepth(depth);
-  return e;
-}
-
-/** Aro que se expande y se desvanece en el suelo. */
-function ring(scene: Phaser.Scene, x: number, y: number, color: number, radius: number, ms = 500, width = 6, depth = GROUND): void {
-  const g = scene.add.graphics({ x, y }).setDepth(depth);
-  const state = { t: 0 };
-  scene.tweens.add({
-    targets: state,
-    t: 1,
-    duration: ms,
-    ease: 'Cubic.out',
-    onUpdate: () => {
-      g.clear().lineStyle(width * (1 - state.t) + 1, color, 1 - state.t);
-      g.strokeEllipse(0, 0, radius * 2 * state.t, radius * 1.1 * state.t);
-    },
-    onComplete: () => g.destroy(),
-  });
-}
-
-/** Resplandor grande y breve. */
-function flash(scene: Phaser.Scene, x: number, y: number, color: number, size: number, ms = 350): void {
-  const img = scene.add.image(x, y, 'fx-glow').setTint(color).setBlendMode('ADD').setDepth(DEPTH).setScale(size / 32);
-  scene.tweens.add({ targets: img, scale: (size * 1.6) / 32, alpha: 0, duration: ms, onComplete: () => img.destroy() });
-}
-
-function shake(scene: Phaser.Scene, ms = 160, power = 0.006): void {
-  scene.cameras.main.shake(ms, power);
-}
-
-function angleOf(dir: { x: number; y: number }): number {
-  return Math.atan2(dir.y, dir.x);
-}
-
 // ------------------------------------------------------------------ efectos
 
-type FxFn = (scene: Phaser.Scene, x: number, y: number, o: FxOptions, c: [number, number]) => Promise<void>;
+export type FxFn = (scene: Phaser.Scene, x: number, y: number, o: FxOptions, c: number[], variant: string) => Promise<void>;
+
+/** Receta del efecto de una técnica. */
+export interface FxRecipe {
+  /** Forma principal, con variante opcional: "fire", "dragon:wyvern"... */
+  fx: string;
+  /** Efectos que acompañan a la principal, a la vez y algo más pequeños. */
+  layers?: string[];
+  /** Colores sacados del vídeo de la técnica (#rrggbb). */
+  colors?: string[];
+}
 
 const fire: FxFn = async (scene, x, y, _o, [c1, c2]) => {
   ring(scene, x, y + 18, c1, 80, 600, 8);
@@ -863,15 +839,45 @@ const EFFECTS: Record<FxName, FxFn> = {
   impact,
 };
 
+const baseOf = (name: string) => name.split(':')[0];
+
+function lookup(name: string): FxFn {
+  return SHAPES[name] ?? SHAPES[baseOf(name)] ?? EFFECTS[baseOf(name) as FxName] ?? impact;
+}
+
+/** Paleta de una técnica: los colores de su vídeo, completados con los de su forma o su afinidad. */
+/** Elementos con su color natural: aquí el color del vídeo (gradas, cielo...) despista más que ayuda. */
+const NATURAL = new Set(['fire', 'ice', 'water', 'earth', 'lightning']);
+
+export function fxPalette(recipe: FxRecipe, element: Element): number[] {
+  const base = colors(baseOf(recipe.fx) as FxName, element);
+  if (NATURAL.has(baseOf(recipe.fx))) return [...base, lighten(base[base.length - 1], 30)];
+  // del más vivo al más apagado: el primero es el color principal del efecto
+  const vivid = (c: number) => {
+    const { s: sat, v } = Phaser.Display.Color.RGBToHSV((c >> 16) & 255, (c >> 8) & 255, c & 255) as { s: number; v: number };
+    return sat * v;
+  };
+  const own = (recipe.colors ?? []).map((c) => parseInt(c.slice(1), 16)).sort((a, b) => vivid(b) - vivid(a));
+  // los colores muy oscuros no se ven sobre el césped
+  const pal = (own.length ? own : base).map((c) => {
+    const { v } = Phaser.Display.Color.RGBToHSV((c >> 16) & 255, (c >> 8) & 255, c & 255) as { v: number };
+    return v < 0.55 ? lighten(c, 30) : c;
+  });
+  while (pal.length < 3) pal.push(Phaser.Display.Color.ValueToColor(pal[pal.length - 1]).lighten(30).color);
+  return pal;
+}
+
 /** Reproduce el efecto de una supertécnica en (x, y) del mundo. Se resuelve cuando ha terminado lo principal. */
-export function playFx(scene: Phaser.Scene, name: FxName, x: number, y: number, o: FxOptions): Promise<void> {
-  const fn = EFFECTS[name] ?? impact;
-  return fn(scene, x, y, o, colors(name, o.element));
+export async function playFx(scene: Phaser.Scene, recipe: FxRecipe, x: number, y: number, o: FxOptions): Promise<void> {
+  const pal = fxPalette(recipe, o.element);
+  const run = (name: string) => lookup(name)(scene, x, y, o, pal, name.split(':')[1] ?? '');
+  const extras = (recipe.layers ?? []).map((l, i) => new Promise<void>((r) => scene.time.delayedCall(120 + i * 140, () => run(l).then(r))));
+  await Promise.all([run(recipe.fx), ...extras]);
 }
 
 /** La técnica ha perdido: lo que quedaba de ella salta en pedazos. */
-export function fxBreak(scene: Phaser.Scene, name: FxName, x: number, y: number, element: Element): void {
-  const [c1, c2] = colors(name, element);
+export function fxBreak(scene: Phaser.Scene, recipe: FxRecipe, x: number, y: number, element: Element): void {
+  const [c1, c2] = fxPalette(recipe, element);
   const shards = particles(scene, x, y, 'fx-shard', { speed: { min: 120, max: 340 }, scale: { start: 1, end: 0.2 }, alpha: { start: 1, end: 0 }, tint: [c1, c2, 0x9aa4b4], lifespan: 700, rotate: { min: 0, max: 360 }, gravityY: 500, blendMode: 'NORMAL' });
   shards.explode(28);
   const crack = scene.add.graphics({ x, y }).setDepth(DEPTH);
@@ -885,9 +891,9 @@ export function fxBreak(scene: Phaser.Scene, name: FxName, x: number, y: number,
 }
 
 /** Estela que sigue al balón de un tiro con supertécnica. Devuelve cómo pararla. */
-export function fxTrail(scene: Phaser.Scene, name: FxName, target: Phaser.GameObjects.Components.Transform, element: Element): () => void {
-  const [c1, c2] = colors(name, element);
-  const { key: tex, additive } = fxParticle(name);
+export function fxTrail(scene: Phaser.Scene, recipe: FxRecipe, target: Phaser.GameObjects.Components.Transform, element: Element): () => void {
+  const [c1, c2] = fxPalette(recipe, element);
+  const { key: tex, additive } = fxParticle(recipe);
   const normal = !additive;
   const trail = particles(scene, 0, 0, tex, {
     speed: { min: 10, max: 60 },

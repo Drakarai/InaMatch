@@ -1,0 +1,2570 @@
+{
+ "x-blast": {
+  "zukan": "X Blast",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/i/mi90tlx3lzm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/b/dbrhjlpihck.jpg",
+  "desc": "Use crossed feet to cleave through the ball and launch it like a beam of light forged from sheer fighting spirit.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/_/x_4ioq5xgvs.wmv"
+ },
+ "shadow-ray": {
+  "zukan": "Shadow Ray",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/u/fuo89wwp4mu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/n/qn-pzeow8j8.jpg",
+  "desc": "Light born from darkness turns into a destructive ray in this move that unifies light and shadow.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/z/eztqer4vba0.wmv"
+ },
+ "shadow-ray-earth": {
+  "zukan": "Shadow Ray",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/u/fuo89wwp4mu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/n/qn-pzeow8j8.jpg",
+  "desc": "Light born from darkness turns into a destructive ray in this move that unifies light and shadow.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/z/eztqer4vba0.wmv"
+ },
+ "chaos-break": {
+  "zukan": "Chaos Break",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/k/wkzhghdcjke.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/d/zdpsipfjnps.jpg",
+  "desc": "This chaotic strike that combines God Break with Fire Blizzard destroys everything in its path.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/9/n9c3lmzaagk.wmv"
+ },
+ "god-break": {
+  "zukan": "God Break",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/k/kkkbgu6jyj0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/f/d/fdyyi6i2cmc.jpg",
+  "desc": "A divine ultimate technique that uses brilliantly beautiful golden wings that captivate even the gods.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/9/r9hxl1up7fu.wmv"
+ },
+ "brave-shot": {
+  "zukan": "Brave Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/i/nioar47mo5s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/r/or-zlwjzk8e.jpg",
+  "desc": "Leap into an overhead kick and drive the ball with a razor-sharp strike that mesmerizes all who watch.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/v/8vtwizvgt1m.wmv"
+ },
+ "grand-fire": {
+  "zukan": "Grand Fire",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/d/ldvcfhpkl_s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/k/qk5vlpx1p6e.jpg",
+  "desc": "A trio of powerful kicks stokes roaring fire into a mighty ground shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/0/-0qkmahmozm.wmv"
+ },
+ "gran-fenrir": {
+  "zukan": "Grand Fenrir",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/l/wlushsloit8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/s/zs4hv8txmwu.jpg",
+  "desc": "Three players come together to revive the legendary Fenrir, whose bestial roar tears through the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/s/nsreczlurfc.wmv"
+ },
+ "the-earth": {
+  "zukan": "The Earth",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/m/xmuudjh9voc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/-/v/-vcnnn5crt0.jpg",
+  "desc": "A super special move created by David Evans that unites the will of all 11 players.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/q/r/qrrcgcp72k8.wmv"
+ },
+ "koutei-penguin-3gou": {
+  "zukan": "Emperor Penguin No. 3",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/k/2knnyp-g9zm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/d/5dbu8hmf52k.jpg",
+  "desc": "Summon a penguin huddle by whistling, and gather energy as they circle around.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/9/t9ixruqme_s.wmv"
+ },
+ "the-galaxy": {
+  "zukan": "The Galaxy",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/7/t/7t6b_yd52ce.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/0/a/0asyxcbgyhs.jpg",
+  "desc": "Channel the power of God Hand to leap across the cosmos and slam a cosmic shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/k/gk_xctt_vok.wmv"
+ },
+ "fire-blizzard": {
+  "zukan": "Fire Blizzard",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/n/wnjh-ffqr6m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/_/u/_u1swrdvv_k.jpg",
+  "desc": "This double shot pits the opposing powers of ice and fire against each other to form a swirling vortex.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/q/rqm3dkrsi2s.wmv"
+ },
+ "fire-blizzard-fire": {
+  "zukan": "Fire Blizzard",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/n/wnjh-ffqr6m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/_/u/_u1swrdvv_k.jpg",
+  "desc": "This double shot pits the opposing powers of ice and fire against each other to form a swirling vortex.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/q/rqm3dkrsi2s.wmv"
+ },
+ "dark-phoenix": {
+  "zukan": "Dark Phoenix",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/q/i/qiautywiea8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/f/b/fbwnj2odafu.jpg",
+  "desc": "Transform a ball surrounded by dark aura into a phoenix to amplify its original power.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/_/l_fco5ek9wc.wmv"
+ },
+ "space-penguin": {
+  "zukan": "Space Penguin",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/g/ygk9qcxgu8m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/9/p/9pyoeyp5q5k.jpg",
+  "desc": "Launch penguins equipped with spacesuits off into space, who'll reenter the atmosphere and go for the goal!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/x/pxhrz95anws.wmv"
+ },
+ "prime-legend": {
+  "zukan": "Prime Legend",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/a/s/asmfhczxyau.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/l/vlw2vsro2f8.jpg",
+  "desc": "The team's power crystallizes around the ball, and a dazzling twin shot shines forth.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/b/bbjtcjd3rm0.wmv"
+ },
+ "gaia-break": {
+  "zukan": "Gaia Break",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/a/da_2qussabe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/j/sjpfea0tees.jpg",
+  "desc": "Three players' auras smash the ground apart. Ball and boulder explode in a brutal strike.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/3/g36gzpcq5xk.wmv"
+ },
+ "supernova": {
+  "zukan": "Supernova",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/p/sphidbiobc8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/g/dgr7nv6xfzu.jpg",
+  "desc": "The strongest of moves perfected by The Genesis. Its power far exceeds the boundaries of football known to man.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/j/e/jeceggmi4qc.wmv"
+ },
+ "death-zone-2": {
+  "zukan": "Death Zone 2",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/m/fmrmyuifyx0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/f/kf9_8a6g2sc.jpg",
+  "desc": "An ultimate technique, developed as an improvement for Death Zone. When three personalities collide, immense power is unleashed.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/7/e7uarpmzrbu.wmv"
+ },
+ "dark-matter": {
+  "zukan": "Dark Matter",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/_/b/_bljutjhnsk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/w/i/wid6gd7ejpm.jpg",
+  "desc": "Gather dark matter from outer space around the ball and unleash hell on the opposing team's goalkeeper.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/2/k2ofnmnnuge.wmv"
+ },
+ "the-hurricane": {
+  "zukan": "The Hurricane",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/g/dgyt08sxwts.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/p/spog6skoswe.jpg",
+  "desc": "Mix a blizzard and storm together to generate an ultra-destructive hurricane shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/x/gxdfxd831fm.wmv"
+ },
+ "maximum-fire": {
+  "zukan": "Maximum Fire",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/g/ugzdqpwtv_8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/p/hppuehosr6u.jpg",
+  "desc": "Infuse the left foot with a blazing sword that rips through the ground on its way to the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/x/1xclzuev2zc.wmv"
+ },
+ "the-birth": {
+  "zukan": "The Dawn",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/n/mnkhkebdoa0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/u/duc0ewz8kfc.jpg",
+  "desc": "Two extremely heightened powers fuse together to create the DNA of a new move.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/q/xqprp_vftmu.wmv"
+ },
+ "double-jaw": {
+  "zukan": "Double Jaw",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/n/hnl14lou7zc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/e/iedg2lwr_c0.jpg",
+  "desc": "A shot that approaches the goal in a zigzag manner, like fangs rushing to crush their prey.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/6/c6ojbegoyv8.wmv"
+ },
+ "koutei-penguin-x": {
+  "zukan": "Emperor Penguin X",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/p/dpvgtpef9ku.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/g/sg5tdhc65p8.jpg",
+  "desc": "An emperor penguin born from darkness. Its aura of hate devours all.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/4/g4q2wiqdeg0.wmv"
+ },
+ "koutei-penguin-1gou": {
+  "zukan": "Emperor Penguin No. 1",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/f/wfj3fa11ebu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/m/zmfelutkae8.jpg",
+  "desc": "A forbidden ultimate technique that unleashes penguins who peck at feet with savage force.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/y/nymhmhbznx0.wmv"
+ },
+ "heaven-drive": {
+  "zukan": "Heavenly Drive",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/n/tngr9guwcf8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/u/cu2yzo2pgau.jpg",
+  "desc": "The ball rises into the clouds and descends sharply, surrounded by light, as if dealing out divine punishment.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/q/iql9eba2htc.wmv"
+ },
+ "unicorn-boost": {
+  "zukan": "Unicorn Boost",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/e/0e9i7d64ts0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/n/7nr71tihxpc.jpg",
+  "desc": "Two players volley in unison to summon a unicorn that charges straight for the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/z/vz4eyiu-wgu.wmv"
+ },
+ "tiger-storm": {
+  "zukan": "Tiger Storm",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/r/0rk7cwsm41m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/i/7icis40z8wk.jpg",
+  "desc": "Deadly special move that combines the power of Fireball Storm and Tiger Drive.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/c/vcpt_3ckb5s.wmv"
+ },
+ "tenkuu-otoshi": {
+  "zukan": "Celestial Smash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/3/v/3via8ltjra8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/4/c/4c0zyll2vfu.jpg",
+  "desc": "A cosmic shot that crashes with heavenly force as a storm of stars fall from outer space.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/i/sinwfe9pimc.wmv"
+ },
+ "twin-boost-f": {
+  "zukan": "Twin Boost F",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/h/mhtium_ecic.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/o/do7rginhgn0.jpg",
+  "desc": "A combo move that works together with Fire Tornado by boosting its power.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/w/xwo0ntryhe8.wmv"
+ },
+ "odin-sword": {
+  "zukan": "Odin Sword",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/n/nnfzmttslgu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/e/oejacd1thl8.jpg",
+  "desc": "Penetrate the goal using the aura of Odin's sword, summoned via a magic circle on the ground.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/6/86alvmdugs0.wmv"
+ },
+ "excalibur": {
+  "zukan": "Excalibur",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/i/r/irjdonoldp0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/i/hi1umjwazkc.jpg",
+  "desc": "A noble aura engulfs the player's raised right foot, forming a massive blade that cleaves the field.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/c/tcmllsgj-du.wmv"
+ },
+ "the-phoenix": {
+  "zukan": "The Phoenix",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/f/2fdxxiwjaic.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/m/5mlc_mo2en0.jpg",
+  "desc": "A flame-clad ball transforms into a phoenix that dives directly for the goal!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/y/tyynsp4p5u8.wmv"
+ },
+ "strike-samba": {
+  "zukan": "Samba Strike",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/i/p/iprkqfikvsu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/g/tgh5exq1rp8.jpg",
+  "desc": "Add spin to the ball using fancy footwork and shoot to a Samba beat.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/5/4/54ucz-mmmg0.wmv"
+ },
+ "gungnir": {
+  "zukan": "Gungnir",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/l/0lte4esr09k.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/c/7c7t2qkuw4m.jpg",
+  "desc": "Open a portal to outer space on the ground to unleash a shot surrounded by a lance-shaped aura.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/8/v8oibl8xxxe.wmv"
+ },
+ "dragon-slayer": {
+  "zukan": "Dragon Slayer",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/d/fd7axpk2vgk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/k/kktp_hsjrdm.jpg",
+  "desc": "A blue dragon king spreads its wings and roars, unleashing a fierce yet majestic attack.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/0/e0-msikw2ke.wmv"
+ },
+ "triple-boost": {
+  "zukan": "Triple Boost",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/g/hgx1anwyzpu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/p/upngojon3s8.jpg",
+  "desc": "Three players run in a straight line and kick the ball to the one ahead to create a triple-boosted long shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/6/x/6x0jjg4eql0.wmv"
+ },
+ "double-tornado": {
+  "zukan": "Double Tornado",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/4/t/4ts6fb88l30.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/3/k/3kejrvkdhyc.jpg",
+  "desc": "Combine spinning Back and Fire Tornadoes into a strike that swirls onward.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/j/a/jaxs8gs6g7u.wmv"
+ },
+ "tri-pegasus": {
+  "zukan": "Tri-Pegasus",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/m/rmas3rcblru.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/v/evwh5fa-pu8.jpg",
+  "desc": "Three players combine powers to summon a Pegasus that rides to the goal from mid-air in a stormy hurricane.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/r/krfeukshod0.wmv"
+ },
+ "triangle-z": {
+  "zukan": "Triangle Z",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/y/myxxmv-m_bm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/7/p7bco7mz7ek.jpg",
+  "desc": "Three players come together to create a combo shot with a Z-shaped trajectory.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/9/f/9fsnf0qgcxs.wmv"
+ },
+ "wyvern-blizzard": {
+  "zukan": "Wyvern Blizzard",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/p/bpsat6jqgjk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/g/ogezdu7vcmm.jpg",
+  "desc": "A powerful strike combining the Wyvern Crash and Eternal Blizzard.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/a/4/a4xwwbnwlfe.wmv"
+ },
+ "wolf-legend": {
+  "zukan": "Legendary Wolf",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/t/nt4wo_tppo8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/k/okulmrlwttu.jpg",
+  "desc": "The howling of a wolf, illuminated by moonlight, manifested as a pinpoint shot that roars across the pitch.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/a/8a9ale9jkkc.wmv"
+ },
+ "northern-impact": {
+  "zukan": "Northern Impact",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/q/l/qlh0vjpbtpe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/s/lsrhbnx-pss.jpg",
+  "desc": "An ultimate attack that imprisons the keeper in permafrost. The power dormant in the aurora breaks the opposing ranks.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/s/xsci2ohholk.wmv"
+ },
+ "gladius-arch": {
+  "zukan": "Gladius Arch",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/i/hi8gfwyaqak.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/r/irq1realufm.jpg",
+  "desc": "Seven glowing swords rip through the air hurtling toward the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/v/cv5q8r2czme.wmv"
+ },
+ "death-rain": {
+  "zukan": "Doom Rain",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/e/rexkm9vlfz8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/n/knbxctn0b2u.jpg",
+  "desc": "The ball turns into a weapon of destruction that rains down crimson rays of death.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/z/wzsyvc7n8_c.wmv"
+ },
+ "universe-blast": {
+  "zukan": "Cosmic Blast",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/o/soox9rkw3os.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/h/jhykz_spzte.jpg",
+  "desc": "A double kick opens up a dimension to outer space and the energy is harnessed for a shot of cosmic strength.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/3/f/3flbewkqukm.wmv"
+ },
+ "atomic-flare": {
+  "zukan": "Atomic Flare",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/f/jfjby-agiec.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/m/gm1o8qc5mb0.jpg",
+  "desc": "Imbue the ball with explosive solar energy and fire off a shot engulfed in crimson flames.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/y/symnrf0ari8.wmv"
+ },
+ "koutei-penguin-2gou": {
+  "zukan": "Emperor Penguin No. 2",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/t/htsqc3wz3r0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/k/ik6jszomzuc.jpg",
+  "desc": "A move that lessens the burden of Emperor Penguin No. 1. Summon penguins that take to the skies for the empire.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/a/capg_we1udu.wmv"
+ },
+ "honoo-no-kazamidori": {
+  "zukan": "Fire Rooster",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/-/r/-r04jamh8oe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/y/xyiltu-e4ls.jpg",
+  "desc": "Two players kick the ball with full force and make it fly towards the goal as if with fiery wings.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/m/lmxuahinfck.wmv"
+ },
+ "eagle-buster": {
+  "zukan": "Eagle Buster",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/h/fh4q-3-afde.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/o/qouzwzm_bys.jpg",
+  "desc": "Two players soar up like eagles to deliver a powerful twin shot from mid-air.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/w/ew98dwqg8rk.wmv"
+ },
+ "inazuma-break": {
+  "zukan": "Inazuma Break",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/7/k7lgsnldbxs.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/f/y/fydtcj98f0e.jpg",
+  "desc": "Three players charge the ball with thunder and launch it high for a lightning-like shot!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/m/rmo2xslf49m.wmv"
+ },
+ "god-knows": {
+  "zukan": "God Knows",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/-/e-xnwdtpju0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/3/r3b--zlwnrc.jpg",
+  "desc": "Banish even the laws of the universe into oblivion. This overwhelming power is nothing short of a divine act.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/j/fjsbt89vqiu.wmv"
+ },
+ "bakunetsu-screw": {
+  "zukan": "Fireball Screw",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/6/s/6sydvkqns5c.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/1/l/1lkwbkiyo80.jpg",
+  "desc": "Shoot the ball at the goal while surrounded by whirling flames that burn everything up instantly.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/b/hb3v2r-lp18.wmv"
+ },
+ "death-zone": {
+  "zukan": "Death Zone",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/w/dwnoov4crue.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/5/m5b9abg9vrs.jpg",
+  "desc": "Shoot from the Triangle of Death. Synergy between the three players is highly important.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/h/yhiytoweiik.wmv"
+ },
+ "butterfly-dream": {
+  "zukan": "Butterfly Trance",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/j/ujjltiy6yus.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/a/haf4dmaf2re.jpg",
+  "desc": "Like a butterfly's flapping wings, two perfectly in sync players combine their powers and put the opposition in a trance.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/-/1-mdwp28rim.wmv"
+ },
+ "thunder-beast": {
+  "zukan": "Thunder Beast",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/e/uepoplzenv8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/n/bn_9blb7jqu.jpg",
+  "desc": "A jumping side volley that summons a thunder beast. Used to boost a teammate's shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/z/pzsysq3cuzc.wmv"
+ },
+ "ryuusei-blade": {
+  "zukan": "Meteor Blade",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/o/fopzzio00e8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/h/qhzqxmwlwbu.jpg",
+  "desc": "Dominate the pitch with a foreboding threat reminiscent of the galaxy and shoot with a comet-like high kick.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/5/e5kp6dgyxic.wmv"
+ },
+ "astro-gate": {
+  "zukan": "Astro Gate",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/l/2l6uvaouwq0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/s/5ssnb0wrsvc.jpg",
+  "desc": "Summon a massive black hole to crush all in its path, powering up Astro Break to devastating effect.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/s/ts_c27gs1mu.wmv"
+ },
+ "pegasus-shot": {
+  "zukan": "Pegasus Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/s/fsmpw8cc-fc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/l/klaayse96a0.jpg",
+  "desc": "Faith in yourself summons a Pegasus. This is the solo version of Tri-Pegasus.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/b/ebj_1dyedt8.wmv"
+ },
+ "revolution-v": {
+  "zukan": "Revolution V",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/v/dvif376yxc8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/m/sme25vin1hu.jpg",
+  "desc": "The bond of friendship between two players stirs up victorious winds of change.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/y/gyntuauesoc.wmv"
+ },
+ "wyvern-crash": {
+  "zukan": "Wyvern Crash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/u/duvc9jx8dpk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/n/mndvznpdhkm.jpg",
+  "desc": "An improved version of Dragon Crash that combines the Wyvern's speed and power.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/z/yzqkecf6gde.wmv"
+ },
+ "slingshot": {
+  "zukan": "Slingshot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/p/cpfmkxr2xvc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/n/g/ngt_q5zj1q0.jpg",
+  "desc": "Stretch the ball out to its limits, and use the elastic energy to fire a high-speed shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/z/4/z4aah2fwsz8.wmv"
+ },
+ "tatsumaki-otoshi": {
+  "zukan": "Whirlwind Drop",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/s/lsyvi0_-gmu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/l/qlocsanbkj8.jpg",
+  "desc": "New version of Inazuma Drop where two players work together to execute a whirlwind bicycle kick.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/b/-bd5bvr4dq0.wmv"
+ },
+ "dragon-cannon": {
+  "zukan": "Dragon Cannon",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/t/ytg8rjfa7o8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/k/xkqplnh__lu.jpg",
+  "desc": "Channel draconic power into your legs and blast a fiery sidekick at the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/a/dadqioxgycc.wmv"
+ },
+ "dual-strike": {
+  "zukan": "Dual Strike",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/p/f/pf3dg256w9u.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/m/mmhuiyhfs48.jpg",
+  "desc": "The ball is passed between two players at high speed until it seems to split into two.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/y/yyyllxx81x0.wmv"
+ },
+ "dragon-ground": {
+  "zukan": "Land Dragon",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/m/lm_kgmbjsu8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/f/qfp5iizcoru.jpg",
+  "desc": "Tear across the pitch like a dragon devouring the earth on its way to the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/7/-76clhvlpic.wmv"
+ },
+ "divine-arrow": {
+  "zukan": "Divine Arrows",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/y/nycfgms3u7s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/r/cru2uikiq-e.jpg",
+  "desc": "Infused with the wrath of God, the ball pierces through all things like a divine arrow.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/v/wvhtdh8x33m.wmv"
+ },
+ "dokonjou-club": {
+  "zukan": "Utter Gutsiness Club",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/c/hcbj7imhcim.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/l/ilnq1m-4ynk.jpg",
+  "desc": "Swing your teammates like a club for a game-changing, hole-in-one strike.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/1/c1e1ydib_es.wmv"
+ },
+ "the-typhoon": {
+  "zukan": "The Typhoon",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/p/nptk0_n9xd0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/g/cg7x6rvctgc.jpg",
+  "desc": "Rise with a force that could conquer raging seas and fire a storm shot from the eye of the typhoon!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/e/weoyxej70pu.wmv"
+ },
+ "death-spear": {
+  "zukan": "Doom Spear",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/6/x6b1v4mbegm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/z/yzxghw--alk.jpg",
+  "desc": "Add a powerful spin to the ball by pinching it between both feet until it transforms into a spear-shaped shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/n/mnejmzih9ss.wmv"
+ },
+ "hellfire": {
+  "zukan": "Hellfire",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/8/b/8bcfzarh6wc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/i/zik2xuz4-10.jpg",
+  "desc": "A special move that ignites the ball with hellfire through a powerful kick.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/2/n2zt6hfbz88.wmv"
+ },
+ "bunshin-shoot": {
+  "zukan": "Clone Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/v/5/v5rf63jnpek.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/w/gwhs0z7ylbm.jpg",
+  "desc": "A barely legal move that uses ninja clones to kick the ball from three different angles.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/0/o/0oujzwnhsie.wmv"
+ },
+ "bakunetsu-storm": {
+  "zukan": "Fireball Storm",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/l/ul5ymmxtqes.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/c/bcvrcipsube.jpg",
+  "desc": "Passion ignites, exploding into a scorching storm that burns all in its path.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/8/p88ovtfrjim.wmv"
+ },
+ "dragon-tornado": {
+  "zukan": "Dragon Tornado",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/v/w/vwmsdi1tkdc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/f/gfwftmtsgy0.jpg",
+  "desc": "A powerful special move that is a combination of Dragon Crash and Fire Tornado.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/0/h/0hj6-dbvhr8.wmv"
+ },
+ "paladin-strike": {
+  "zukan": "Paladin Strike",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/p/upuu3amn-me.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/g/hg4d50-y6js.jpg",
+  "desc": "All body power flows into a single toe. A dazzling light erupts with the mighty toe kick!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/e/1er4u7ihdqk.wmv"
+ },
+ "gunshot": {
+  "zukan": "Gunshot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/g/ognbkhtvlg0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/p/bpboqplqpdc.jpg",
+  "desc": "Twist the ball between both feet to add a spin that causes it to hurtle down from above like a bullet.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/x/vxinhm9poku.wmv"
+ },
+ "mirage-shoot": {
+  "zukan": "Mirage Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/e/ledi4123bk0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/n/envr2buifpc.jpg",
+  "desc": "A mesmerizing illusion shot where a mirage makes it look like the ball splits into two.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/q/z/qzg0buyxigu.wmv"
+ },
+ "eiffel-drive": {
+  "zukan": "Eiffel Tower",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/z/n/zn0tjonmcm0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/8/u/8uiehgvzyjc.jpg",
+  "desc": "Launch a towering shot that celebrates your triumph in a French twist on the legendary Steeple Shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/q/oqx7qjjk_qu.wmv"
+ },
+ "reflect-buster": {
+  "zukan": "Reflect Buster",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/w/jwzi6nb-1xm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/5/s5p70jdbxsk.jpg",
+  "desc": "An unpredictable shot that bounces off fragments of the ground floating in the air.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/4/h/4hcezg14wbs.wmv"
+ },
+ "megalodon": {
+  "zukan": "Megalodon",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/i/sipyzd0l7ge.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/b/jb_bxts0_ls.jpg",
+  "desc": "A giant shark appears from among raging waves and attacks the opposing team's goalkeeper.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/3/_/3_sk6ianysk.wmv"
+ },
+ "ganymede-proton": {
+  "zukan": "Ganymede Ray",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/m/omq-avtyhoc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/v/bv8no71ndl0.jpg",
+  "desc": "This isn't a handball, it's a kick! After gathering an enormous amount of energy, take aim, and shoot!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/r/vrvoj0d0kc8.wmv"
+ },
+ "tiger-drive": {
+  "zukan": "Tiger Drive",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/5/d/5ds8fyofw8c.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/2/k/2keplcwg050.jpg",
+  "desc": "Crouch down like a predator hunting prey until the illusion of a tiger can be seen behind the player.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/0/i0xqmtgztw8.wmv"
+ },
+ "inazuma-1gou": {
+  "zukan": "Inazuma-1",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/d/mdgcbaosuc0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/u/pu2xpuwtqhc.jpg",
+  "desc": "Two players move in perfect sync, unleashing a powerful combo shot in a show of friendship.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/9/q/9qluihgu3ou.wmv"
+ },
+ "astro-break": {
+  "zukan": "Astro Break",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/m/um-40dooz3u.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/v/hvol6zwxdy8.jpg",
+  "desc": "Infuse the ball with multidimensional energies to travel at high speeds with a destructive rotational force.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/r/1r7ux8gi670.wmv"
+ },
+ "twin-boost": {
+  "zukan": "Twin Boost",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/8/k8nevz6-re0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/1/r1xth3ibvbc.jpg",
+  "desc": "Two players kick the ball to each other at full force to amplify the power of the final shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/_/l/_liim4u4yiu.wmv"
+ },
+ "security-shot": {
+  "zukan": "Security Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/b/jb2pu-e02vu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/i/sigagqclyq8.jpg",
+  "desc": "Flick the ball up and lock it with four keys to secure a straight path to the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/4/2/42z_nfqyvj0.wmv"
+ },
+ "megane-crash": {
+  "zukan": "Spectacle Crash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/9/v/9vcddzzkv70.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/m/ymkwndbbr-c.jpg",
+  "desc": "Who cares if your glasses break? It's worth it if it makes the ball change trajectory!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/y/myzvgs3im3u.wmv"
+ },
+ "tsuutenkaku-shoot": {
+  "zukan": "Steeple Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/n/bn2v42p7aas.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/e/uegm2yxeefe.jpg",
+  "desc": "The ball flies high up into the air and plunges down at high speed while spinning.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/a/6/a6zdbxh9jwm.wmv"
+ },
+ "inazuma-otoshi": {
+  "zukan": "Inazuma Drop",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/t/eter8ep2kke.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/a/lasyyqxjghs.jpg",
+  "desc": "Use a large player's body as a springboard to shoot a high ball down like lightning from the sky.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/k/fkb9flhwhok.wmv"
+ },
+ "kung-fu-attack": {
+  "zukan": "Kung Fu Fighting",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/j/ojdnna7gsxk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/a/bal-puj5osm.jpg",
+  "desc": "Each move is charged with power, then unleashed. A master's skill learned only by kung fu experts.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/-/v-ybehvapbe.wmv"
+ },
+ "eternal-blizzard": {
+  "zukan": "Eternal Blizzard",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/j/lji5hzxxh3e.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/q/qqekvdpodys.jpg",
+  "desc": "Sharpened focus summons freezing snow and conjures up a blizzard at the goal area.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/u/-unvcs5rk7k.wmv"
+ },
+ "dokonjou-bat": {
+  "zukan": "Utter Gutsiness Bat",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/a/xamqlqycsok.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/t/ytwjfeajwtm.jpg",
+  "desc": "Grab a teammate to use as a bat in an ultimate show of mutual trust.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/t/mtjgol2axke.wmv"
+ },
+ "tkachev-bomber": {
+  "zukan": "Acrobat Bomber",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/_/h/_hssk_d8bkm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/w/o/wo6ferfdfhk.jpg",
+  "desc": "One player makes an acrobatic flip with the help of another and uses the momentum to strike the ball with the hip.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/w/kwp6pez6ios.wmv"
+ },
+ "jumping-thunder": {
+  "zukan": "Leaping Thunder",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/_/o/_obftqliq90.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/w/h/whnsjet3u4c.jpg",
+  "desc": "Power up a mighty header and strike the ball with a lightning-fast downward volley.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/5/k5ejollojxu.wmv"
+ },
+ "hawk-shot": {
+  "zukan": "Hawk Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/w/cwni5rxxnxm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/5/t5xr3_poj0k.jpg",
+  "desc": "Have your allies boost you skyward and fire a shot as you dive at blistering speed.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/h/hhi0aw53e9s.wmv"
+ },
+ "tsunami-boost": {
+  "zukan": "Tsunami Boost",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/k/0katfrelfkc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/t/7tmer_cabh0.jpg",
+  "desc": "Ride a massive wave and perform an impressive long shot that rips through the water toward the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/t/vtf78wqj8o8.wmv"
+ },
+ "shine-drive": {
+  "zukan": "Shine Drive",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/8/w/8wzknz0n5ie.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/5/z5lxd3sy9ns.jpg",
+  "desc": "Unleash an impossibly bright drive shot that blinds the goalkeeper.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/h/nh2yu4alaek.wmv"
+ },
+ "dark-tornado": {
+  "zukan": "Dark Tornado",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/c/ncplpqf7cxe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/l/olzwbedeg0s.jpg",
+  "desc": "A dark tornado of forbidden power engulfs the goal with its cursed flames.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/1/81kzslr9h9k.wmv"
+ },
+ "rainbow-loop": {
+  "zukan": "Rainbow Arc",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/a/o/aol1uchh4b0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/h/phzggyf48ec.jpg",
+  "desc": "A restorative long shot that paints a rainbow over the pitch.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/5/b5gjn9pbbxu.wmv"
+ },
+ "kung-fu-head": {
+  "zukan": "Kung Fu Header",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/y/syopxy9eykk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/r/dr-az2l7chm.jpg",
+  "desc": "Utilize kung fu moves to supercharge the strength of a header shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/j/v/jvt_05tc7oe.wmv"
+ },
+ "double-grenade": {
+  "zukan": "Double Grenade",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/o/moarjzpqprk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/h/dhmih3xvtum.jpg",
+  "desc": "Drop kick the ball with both feet for double the power and send it flying like a rapid bullet.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/f/xffhq4hskde.wmv"
+ },
+ "rose-splash": {
+  "zukan": "Bed of Roses",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/q/2qqcwda9x7k.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/j/5j8xyzyc1-m.jpg",
+  "desc": "Every beautiful rose hides its thorns. Graceful moves unleash this bewitching shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/d/tdvu18u7s3e.wmv"
+ },
+ "dynamite-shoot": {
+  "zukan": "Dynamite Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/r/erg-xifdi3m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/y/ry2nzmdimyk.jpg",
+  "desc": "Blast the goal with an explosive overhead kick that shakes the net.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/m/fmlo0prbb7s.wmv"
+ },
+ "back-tornado": {
+  "zukan": "Back Tornado",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/3/t3hwz7n_hbc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/-/i-3d9v_ale0.jpg",
+  "desc": "Rise high up like a bright blue tornado and aim for the goal using a spinning back heel kick.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/2/a/2akmqaj5cx8.wmv"
+ },
+ "megaton-head": {
+  "zukan": "Megaton Head",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/7/i/7ivgrrcz16c.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/0/r/0rdtlfemx_0.jpg",
+  "desc": "Launch a header, hitting the ball with a giant hand raised above the head.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/v/gvq2iky1w28.wmv"
+ },
+ "cross-drive": {
+  "zukan": "Cross Drive",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/t/ktqtimsk6dm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/a/ragegi01-yk.jpg",
+  "desc": "A drive shot carried along by a cross-shaped aura formed through powerful kicks in two intersecting directions.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/_/k/_kv7rtcmzrs.wmv"
+ },
+ "dragon-crash": {
+  "zukan": "Dragon Crash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/y/gyd3sddahie.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/7/j7veczfllns.jpg",
+  "desc": "Harry the opposition with a merciless roar borne from a dragon's might.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/f/dfghx8zccuk.wmv"
+ },
+ "run-ball-run": {
+  "zukan": "Run Ball Run",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/d/gd0e1iluk78.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/u/jui37mtro-u.jpg",
+  "desc": "Dash atop the ball to accelerate it so it blasts for the goal with boosted speed.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/q/dqxswplop3c.wmv"
+ },
+ "kurukuru-head": {
+  "zukan": "Gyro Head",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/9/a/9arwkmpqeim.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/j/yj9dqixvank.jpg",
+  "desc": "Spin with the ball and strike a dizzying header straight at the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/3/m3umhhhwnus.wmv"
+ },
+ "freeze-shot": {
+  "zukan": "Freeze Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/v/7/v7hmlzkwxuk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/a/y/ay3_rdsptrm.jpg",
+  "desc": "Freeze your surroundings with a glacier stare, and unleash a fearsome ice-cold shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/m/omkagsk20ie.wmv"
+ },
+ "patriot-shoot": {
+  "zukan": "Patriot Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/q/7/q7fmmfg_fik.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/y/lyjvoreabnm.jpg",
+  "desc": "The ball is kicked high up and rockets to the goal like a missile.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/m/xmawfko5mee.wmv"
+ },
+ "fire-tornado": {
+  "zukan": "Fire Tornado",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/v/u/vuw_cmce83c.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/a/d/adammie74y0.jpg",
+  "desc": "Unleash a fiery shot from midair. The deadly ball enveloped in flames pierces straight to the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/j/ojtphhycf78.wmv"
+ },
+ "condor-dive": {
+  "zukan": "Condor Dive",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/3/1/31fly3tuniu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/4/8/48twwz1rjn8.jpg",
+  "desc": "Leap up and dive sharply headfirst toward the ball, like a condor aiming for prey.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/c/scaz7wdsee0.wmv"
+ },
+ "meteor-attack": {
+  "zukan": "Meteor Attack",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/y/tywduuxlkck.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/r/irawaap0ohm.jpg",
+  "desc": "Slam the ball to send it crashing like a meteor straight toward the goal!",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/2/v/2vtv3pfnpoe.wmv"
+ },
+ "tsuchi-daruma": {
+  "zukan": "Dirt Ball",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/p/5/p5fzo_abr9s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/a/w/awtqarykv4e.jpg",
+  "desc": "The ball rolls along the ground and builds power, turning into a crushing dirt ball strike.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/o/uoapteudyxm.wmv"
+ },
+ "hyakuretsu-shot": {
+  "zukan": "Wrath Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/1/x1rjs_oo5xc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/8/y8hqirwx900.jpg",
+  "desc": "Deliver a series of frenzied kicks to the ball before unleashing a super shot from mid-air.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/c/mcu1pegua98.wmv"
+ },
+ "kamikakushi": {
+  "zukan": "Teleport Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/8/e8zybrzcp98.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/1/l1lrv_b9l4u.jpg",
+  "desc": "Make the ball vanish and reappear, confounding the keeper at the last second.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/l/fl2o4w3esxc.wmv"
+ },
+ "suisei-shoot": {
+  "zukan": "Comet Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/-/-/--dlevwvxx8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/3/x3v4k7oqtsu.jpg",
+  "desc": "Rain the ball down like a blazing comet, leaving a trail of light in its wake.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/j/ljgdn0et0bc.wmv"
+ },
+ "phantom-shoot": {
+  "zukan": "Phantom Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/y/yy8vjqe4gds.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/9/r/9rqct-ghcye.jpg",
+  "desc": "Manifest eerie ball-shaped will-o'-the-wisps to confuse the goalkeeper.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/v/pv55axw-lrm.wmv"
+ },
+ "abisegeri": {
+  "zukan": "Heel Kick",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/h/sh5kaecicxu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/o/jovxuqedy08.jpg",
+  "desc": "Kick the ball up with your knee and hammer it down with a sharp heel kick.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/3/w/3w8y5lyk_90.wmv"
+ },
+ "grenade-shot": {
+  "zukan": "Grenade Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/3/a/3ayw_i7gmrs.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/4/t/4tklxmjfiue.jpg",
+  "desc": "Twist the body to build power and drive it into the ball all at once for a knockout special move.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/t/st3acdvmvdm.wmv"
+ },
+ "rolling-kick": {
+  "zukan": "Rolling Kick",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/p/w/pwyqpqwv6ku.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/a/f/afkzneoq-h8.jpg",
+  "desc": "Execute artistic mid-air somersaults to build power for an acrobatic shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/h/uh38kl4pzo0.wmv"
+ },
+ "psycho-shot": {
+  "zukan": "Psycho Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/1/u/1uc52u_4iou.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/6/d/6duk4anhml8.jpg",
+  "desc": "Lift and control the ball midair with psychokinetic power, then slam it into the goal.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/j/ujhvvpr-bc0.wmv"
+ },
+ "spiral-shot": {
+  "zukan": "Spiral Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/t/btuhl6gfo7m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/a/ua40fu46s-k.jpg",
+  "desc": "Spin the ball to build energy, and hit the goal with a swirling, piercing shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/a/k/akrrobodl3s.wmv"
+ },
+ "snake-shot": {
+  "zukan": "Snake Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/3/n312hzed_iu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/-/c-jfjdc87n8.jpg",
+  "desc": "Strike with a serpentine drive that twists and coils, leaving the keeper bewildered.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/a/wawgksqfcu0.wmv"
+ },
+ "tarzan-kick": {
+  "zukan": "Tarzan Kick",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/f/cfqreebfmo0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/w/twgiqqz6itc.jpg",
+  "desc": "Swing from vine to vine like Tarzan and use the momentum to unleash a forceful shot.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/o/hovh9lvdvku.wmv"
+ },
+ "spinning-shoot": {
+  "zukan": "Spinning Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/8/f/8fexqmi5sr8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/w/zwskki6gwuu.jpg",
+  "desc": "Rush at the goal like a destructive tornado. The move is difficult to control, but will never miss.",
+  "kind": "Shot",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/o/nobbjtm_xdc.wmv"
+ },
+ "killer-fields": {
+  "zukan": "Field of Force",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/3/k3tvkfpxale.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/f/-/f-7mqxxoeos.jpg",
+  "desc": "Two players kick the ball to add a powerful spin that conjures up a purple vortex and blows opponents away.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/a/raodh-hr5hk.wmv"
+ },
+ "air-ride": {
+  "zukan": "Air Ride",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/u/suochkxqzem.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/d/ddyvvkpvdbk.jpg",
+  "desc": "Transform the ball into a surfboard that can be mounted and used to jump past opponents.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/j/j/jjlkcrfw6ss.wmv"
+ },
+ "boost-glider": {
+  "zukan": "Boost Glider",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/h/0hlrowef1hm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/o/7odya4g6xck.jpg",
+  "desc": "Team up for an explosive speed boost. A flying combination move powered by friendship.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/w/vwo9t3wdwls.wmv"
+ },
+ "triple-dash": {
+  "zukan": "Triple Dash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/o/0o8ypdixee0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/h/7hqrntqoabc.jpg",
+  "desc": "Bolt forward with two allies as an unstoppable trio that barrels through defenders.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/f/vf5okim39su.wmv"
+ },
+ "the-ikaros": {
+  "zukan": "The Ikaros",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/w/ewvttdvwohu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/5/l5dejtnpkc8.jpg",
+  "desc": "Legendary wings sprout against the sun and the bright light that results blinds the opponents, allowing for a breakthrough.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/h/fhq7oi7qtl0.wmv"
+ },
+ "angel-ball": {
+  "zukan": "Angel Ball",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/-/y/-yl-yh8bwtu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/7/x7zn8pk-so8.jpg",
+  "desc": "The ball grows a pair of angelic white wings, making the opponent lose their will to fight.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/f/lfgormsh1h0.wmv"
+ },
+ "devil-ball": {
+  "zukan": "Devil Ball",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/p/a/pauff4a77e8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/a/t/atcsrwce_bu.jpg",
+  "desc": "The ball grows a pair of devilish black wings, mocking and confusing the opponent.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/t/utrj8z09ysc.wmv"
+ },
+ "super-el-stico": {
+  "zukan": "Super Elastico",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/-/m-xeqhyy-hk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/3/p3n3epqn6km.jpg",
+  "desc": "The ball sticks to your feet like magic, dribbling in midair without ever falling.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/9/j/9j0szmc0dte.wmv"
+ },
+ "water-veil": {
+  "zukan": "Water Veil",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/-/d/-dsnvsq190s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/u/xue-b8yk5xe.jpg",
+  "desc": "Keep opponents away by creating a barrier using water that spurts out from the ground.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/q/lqxb2zeze4m.wmv"
+ },
+ "fuujin-no-mai": {
+  "zukan": "Wind God's Dance",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/1/y/1ykma8zsj08.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/6/r/6ry_osrtnxu.jpg",
+  "desc": "A wild dance too fast for the naked eye to perceive! Trap the opposition in a violent vortex.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/v/uvhajddqa4c.wmv"
+ },
+ "flame-veil": {
+  "zukan": "Flame Veil",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/p/1/p1js4tmpqhe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/a/8/a81f2duwucs.jpg",
+  "desc": "Keep opponents away by creating a barrier using fire that gushes forth from the ground.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/c/ucm6bmijzlk.wmv"
+ },
+ "dual-pass": {
+  "zukan": "Dual Pass",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/j/2j7ehaadby0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/a/5at3j0cifdc.jpg",
+  "desc": "Trade lightning-fast passes until the ball looks like it's multiplied mid-dribble.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/-/t--sk70b4uu.wmv"
+ },
+ "southern-crosscut": {
+  "zukan": "Southern Cross",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/t/ct2kownrnsc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/a/tagxm4vujx0.jpg",
+  "desc": "The cosmic energy and the hunger to win combine to form a cross-shaped explosion that blows away the opposition.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/k/hkzyl3jxue8.wmv"
+ },
+ "ninin-sankyaku": {
+  "zukan": "Three-Legged Rush",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/h/yhgjdbtu60u.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/o/xo26t1lr-x8.jpg",
+  "desc": "A challenging dribble move where two players run in sync and carry the ball all the way to the goal.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/w/dwlf-69sz40.wmv"
+ },
+ "heaven-s-time": {
+  "zukan": "Heaven's Time",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/q/uqyncpcayn8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/j/hjo-mhalciu.jpg",
+  "desc": "Pause time and gracefully bypass the defence. A natural aptitude is necessary to learn this move.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/d/1ddbhusc7bc.wmv"
+ },
+ "dash-storm": {
+  "zukan": "Dash Storm",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/_/t/_tkz8troaek.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/w/k/wkcqydjxebm.jpg",
+  "desc": "Charge ahead while generating a whirlwind and blast approaching opponents into the sky.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/a/kappfm_ujse.wmv"
+ },
+ "jigoku-guruma": {
+  "zukan": "Rolling Hell",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/9/j/9j621hvwubc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/q/yqsf7pnpqe0.jpg",
+  "desc": "Two players form a whirling wheel and slam into opponents, sending them flying.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/u/mu_gwa72nn8.wmv"
+ },
+ "aikidou": {
+  "zukan": "Aikido",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/q/xqyh1xtpus0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/-/j/-jks7f1wqxc.jpg",
+  "desc": "Synchronize with a teammate to release a sweeping shockwave that trips the opponent.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/q/d/qd33wqdv3eu.wmv"
+ },
+ "armadillo-circus": {
+  "zukan": "Armadillo Circus",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/v/lvumxhbdgns.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/m/qm4_zpd8cie.jpg",
+  "desc": "Ride a giant ball with the Super Armadillo Rodeo Clown and smash through enemies.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/y/-yra0a1flbm.wmv"
+ },
+ "matador-feint": {
+  "zukan": "Matador Feint",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/r/grsxdah6lbu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/y/jyecn0ffpe8.jpg",
+  "desc": "Whip a red cape to provoke the opponent and easily step away when they charge madly.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/m/dmxng7p8on0.wmv"
+ },
+ "u-boat": {
+  "zukan": "Sub-Terfuge",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/7/n7tdxhix-y8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/y/cyfw_pqo6du.jpg",
+  "desc": "Dive beneath the surface like a submarine, reading the opponent's movements as you break through.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/m/wmwvsamrduc.wmv"
+ },
+ "liar-shot": {
+  "zukan": "Liar Shot",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/8/j8_9m1xq0tk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/1/s1pocbpvwom.jpg",
+  "desc": "Whip up a gust and blow opponents away in a whirlwind of festive fun.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/4/l/4l6rvu5sxhe.wmv"
+ },
+ "echo-ball": {
+  "zukan": "Echo Ball",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/w/xwal94uitsm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/f/yfwwzwm3xxk.jpg",
+  "desc": "Pull opponents into another dimension and shatter their focus with a single, haunting strike.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/h/mhfzez6owes.wmv"
+ },
+ "ultra-moon": {
+  "zukan": "Ultra Moon",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/8/t/8tiiceuttru.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/a/za0rsw2sxu8.jpg",
+  "desc": "Execute a series of backflips with the ball against a moonlit sky, ending with a perfect moonsault.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/k/nkn0__arwn0.wmv"
+ },
+ "oouchiwa": {
+  "zukan": "Big Fan",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/v/a/vaazrw5hln0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/t/gtwqleh4hic.jpg",
+  "desc": "Whip up a sudden gust with a giant fan to blow opponents away in a move full of festive flair.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/0/t/0tfpirxbgru.wmv"
+ },
+ "reppuu-dash": {
+  "zukan": "Gale Dash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/l/slfrswq2dl8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/c/jcjii4ijzou.jpg",
+  "desc": "Unleash a souped-up Flurry Dash and blaze past opponents in a streak of fire.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/3/8/38ahp3-w-hc.wmv"
+ },
+ "toumei-feint": {
+  "zukan": "Invisible Fake",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/j/djuwbp2mw4u.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/q/sq4dphuz098.jpg",
+  "desc": "Bend the foe's vision and vanish like a ghost to then slip past like an invisible gust.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/u/gurmiiykt00.wmv"
+ },
+ "bunshin-feint": {
+  "zukan": "Clone Faker",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/_/c/_c9qb4hcrhc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/w/l/wlrzvwfjvc0.jpg",
+  "desc": "A high level ninja move that confuses the opponent by splitting into three fast-moving ninja clones.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/1/k1484zpail8.wmv"
+ },
+ "mogura-shuffle": {
+  "zukan": "Mole Shuffle",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/a/c/acdayolt5hc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/l/plvzwgts9k0.jpg",
+  "desc": "Use a mole fake that leaves the opponent guessing: will the buried ball strike, or is it just an illusion?",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/1/b1gw7vlvat8.wmv"
+ },
+ "meteor-shower": {
+  "zukan": "Meteor Shower",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/7/t7hffprrgh0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/y/iyr2lhzukkc.jpg",
+  "desc": "An overhead strike sends the ball crashing down, raining to earth like a blazing meteor.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/2/m/2mctmiftdtu.wmv"
+ },
+ "aurora-dribble": {
+  "zukan": "Aurora Dribble",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/p/j/pjrowk1uxh8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/a/mahb-ktrtcu.jpg",
+  "desc": "Manifest aurora lights and breeze past your opponents while they're mesmerized.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/-/y-u-tfbo0lc.wmv"
+ },
+ "dog-run": {
+  "zukan": "Dog Run",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/u/tuw2i89fl4m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/d/idmfsslgp9k.jpg",
+  "desc": "The ball dodges and confuses the opponent as if it has a will of its own.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/2/j/2j1gbdtzo0s.wmv"
+ },
+ "scissors-bomb": {
+  "zukan": "Bewilder Blast",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/f/kf2y-ege7nk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/w/rwgrww4h_im.jpg",
+  "desc": "Trigger an explosion at your feet, masking your advance in a cloud of smoke.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/_/o/_ozod_oyyre.wmv"
+ },
+ "prima-donna": {
+  "zukan": "Prima Donna",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/o/nopq54jvdls.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/h/oh_j3wrqhoe.jpg",
+  "desc": "Execute an elegant dance that tempts the opponent to dance along.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/5/85sgaznpghm.wmv"
+ },
+ "maboroshi-dribble": {
+  "zukan": "Deceptor Dribble",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/9/m/9mnfs0defyk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/f/yfb2cab7bdm.jpg",
+  "desc": "Use tricky movements to create an illusion of the player to deceive the opponent while dribbling.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/7/m7itxvtcmue.wmv"
+ },
+ "tatsumaki-dokugiri": {
+  "zukan": "Dark Whirlwind",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/8/8/88vr7l4z4ys.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/1/z1di1lgm83e.jpg",
+  "desc": "Spin the ball and scatter a cloud of toxic mist, blinding opponents in a whirlwind of chaos.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/l/nlqhyqwfb-m.wmv"
+ },
+ "kamaitachi": {
+  "zukan": "Whirlwind Cut",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/q/rqmnb5ovkr8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/j/ejwupxwqouu.jpg",
+  "desc": "Dash in with slicing speed, wrapped in the fury of a raging whirlwind.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/d/kdjxiygtpnc.wmv"
+ },
+ "warp-drive": {
+  "zukan": "Warp Drive",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/u/nukww0ejvbe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/d/cdydyagcres.jpg",
+  "desc": "Open a tiny black hole and dash through warp space to reappear ahead.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/j/wjhm1vwl2nk.wmv"
+ },
+ "mogura-feint": {
+  "zukan": "Mole Fake",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/a/laz_w0n3tuu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/j/qjpm-avipr8.jpg",
+  "desc": "Apply pressure on the ball to bury it and charge forward underground like an actual mole.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/3/-3cptvjxoy0.wmv"
+ },
+ "zanzou": {
+  "zukan": "Afterimage",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/o/uooedlrnan8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/h/bh-ttlzyeiu.jpg",
+  "desc": "Move so fast the eye can't keep up. Dodge rivals with this ninja technique.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/f/pfti-qfljrc.wmv"
+ },
+ "kangaroo-kick": {
+  "zukan": "Kangaroo Kick",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/7/f/7fc0jgpt34s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/0/w/0wkhhoxsz9e.jpg",
+  "desc": "Kick the ball forward with both feet, in a move inspired by the kangaroo's jump.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/o/goziqbhru0m.wmv"
+ },
+ "ribbon-shower": {
+  "zukan": "Ribbon Shower",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/y/eyx4gpf9iuc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/7/r7nlihhcmr0.jpg",
+  "desc": "Spin your rhythmic ribbons to dazzle opponents and glide past the defence in a flourish.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/f/ff0ulux7ry8.wmv"
+ },
+ "gorimuchuu": {
+  "zukan": "Bewildered",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/v/fv6kjp4_y0k.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/m/kms5thgacxm.jpg",
+  "desc": "Do a bizarre dance with pattering feet to stir up a cloud of dust that blocks visibility.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/y/ey_caiw574e.wmv"
+ },
+ "zigzag-spark": {
+  "zukan": "Zigzag Spark",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/4/h/4h0pptwoknc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/3/o/3oi8n9oxgi0.jpg",
+  "desc": "Electrocute nearby opponents with the spark of passion that occurs from the friction of this zigzag dribble.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/j/w/jwxzkyeuhb8.wmv"
+ },
+ "super-armadillo": {
+  "zukan": "Super Armadillo",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/j/wjvczs5hfh8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/a/za5x98hebku.jpg",
+  "desc": "Curl up like an armadillo and rapidly spin forward, clutching the football while crashing through opponents.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/-/n-quqzxnmtc.wmv"
+ },
+ "super-scan-of": {
+  "zukan": "Attack Scan",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/o/ho9wnwqtdyk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/h/ihrldeysz3m.jpg",
+  "desc": "Take in the opponent's rhythm at a glance and slip past the defence with precision.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/5/c54aurev--e.wmv"
+ },
+ "moonsault": {
+  "zukan": "Moonsault",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/f/of74rs3sttm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/m/bmtlf8vtpok.jpg",
+  "desc": "Twist and flip like a gymnast, vaulting clean over your opponent's head.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/y/vy-uyzzuohs.wmv"
+ },
+ "fuusen-gum": {
+  "zukan": "Bubble Gum",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/m/wmyxuhvvu4e.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/v/zvocap3qq9s.jpg",
+  "desc": "Inflate the ball like a giant bubble and burst it to blast defenders away.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/r/nrdn3mbtn0k.wmv"
+ },
+ "dokugiri-no-jutsu": {
+  "zukan": "Poison Fog",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/m/2mm3gpmpwbm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/v/5vaeuhuw0ek.jpg",
+  "desc": "Unleash a toxic mist to stagger opponents and dash through the opening.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/r/trjhduivtns.wmv"
+ },
+ "magic": {
+  "zukan": "Magic",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/k/mk8k_ll-orm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/t/dtqxxl9bsuk.jpg",
+  "desc": "Slip past in an instant with a vanishing act that defies explanation.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/t/xt5ycql4lns.wmv"
+ },
+ "shippuu-dash": {
+  "zukan": "Flurry Dash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/f/t/ftefilyuens.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/k/qkisglqraie.jpg",
+  "desc": "Buffet the opposition into disarray with speed like the wind! Can only be mastered by lightweight players.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/a/eabjrecs9rm.wmv"
+ },
+ "tamanori-pierrot": {
+  "zukan": "Rodeo Clown",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/j/jjfueswsj-0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/a/gatdkcotn7c.jpg",
+  "desc": "Ride the ball at breakneck speed, dazzling defenders with acrobatic flair.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/-/s-a4nn4uqyu.wmv"
+ },
+ "monkey-turn": {
+  "zukan": "Monkey Turn",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/c/gcxgsgovnyu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/l/vlb1iowqjd8.jpg",
+  "desc": "Jump around the opponent like an agile monkey and slip past their defences.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/7/1/71sqpngpeu0.wmv"
+ },
+ "noroi": {
+  "zukan": "Black Magic",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/h/nhejetfbosu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/o/ooiqqdhksx8.jpg",
+  "desc": "Envelop your foe in a curse to slow them, then dash right past.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/w/8wb19mxdle0.wmv"
+ },
+ "hitori-one-two": {
+  "zukan": "Double Touch",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/h/hhklql8n2rc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/o/iocwklkyyu0.jpg",
+  "desc": "Add a strong backspin to the ball that enables the player to do a solo double touch.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/w/cwpzjeshvn8.wmv"
+ },
+ "dash-accel": {
+  "zukan": "Dash Accelerator",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/m/dmzdm8g4bhs.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/f/sfpwos4hfke.jpg",
+  "desc": "Accelerate to full speed to execute a super dribble move that can't be stopped.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/7/g7cvfdo-4tm.wmv"
+ },
+ "tatsumaki-senpuu": {
+  "zukan": "Whirlwind Twister",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/f/ufv-lauuzue.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/m/hm5nr0mr3rs.jpg",
+  "desc": "Spin the ball to generate a cyclone that kicks up dirt to blind the opponent.",
+  "kind": "Offence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/y/1yqog76oqyk.wmv"
+ },
+ "body-shield": {
+  "zukan": "Body Shield",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/3/j3mxlpkoed8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/-/s-acrhsxagu.jpg",
+  "desc": "Three players line up and support the player in front so that the first player can use their body to put up a strong guard.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/4/a/4ajnguku9pc.wmv"
+ },
+ "hurricane-arrow": {
+  "zukan": "Hurricane Arrows",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/c/jc2itwlqjqs.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/l/glgrj4tvnve.jpg",
+  "desc": "Rush at a cyclone-caught opponent like a piercing arrow while the referee is looking away.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/1/s1z0o3lwacm.wmv"
+ },
+ "perfect-tower": {
+  "zukan": "Perfect Tower",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/8/k8eznl0vwlc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/f/1/f1iqdlsq0g0.jpg",
+  "desc": "Unleash an electrifying double attack on the enemy from the top of a looming tower.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/l/rlbpueattp8.wmv"
+ },
+ "kagome-kagome": {
+  "zukan": "Bamboo Pattern",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/a/k/akjq9tko-f0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/t/vt1zzdsx6ac.jpg",
+  "desc": "Three players form a circle and all slide in at once trapping your rival like a bird in a cage.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/t/btm8emkidju.wmv"
+ },
+ "mad-express": {
+  "zukan": "Mad Express",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/7/b7mnzhnno2e.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/y/uya-9p_yszs.jpg",
+  "desc": "A triple-train-threat that seems silly, until it hits: blasting opponents away with awesome force.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/a/m/amjbqmjhl6k.wmv"
+ },
+ "sigma-zone": {
+  "zukan": "Sigma Zone",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/o/ooi04oqqhdu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/h/bheh2gyvdg8.jpg",
+  "desc": "Once locked on, there's no escape. Three players converge for this coordinated attack!",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/5/v5nibjewkp0.wmv"
+ },
+ "ground-quake": {
+  "zukan": "Ground Quake",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/3/m3jak-_mq38.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/8/j8nwmz5yprc.jpg",
+  "desc": "Unleash a mighty punch that shakes the ground, stopping everything in its path.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/5/p5nhwejappc.wmv"
+ },
+ "the-mountain": {
+  "zukan": "The Mountain",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/2/t2worcewdvc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/9/o94kh7ccej8.jpg",
+  "desc": "A greatly powered-up version of The Wall that summons a towering mountain to block opponents.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/4/i4str8yqex8.wmv"
+ },
+ "no-escape": {
+  "zukan": "No Escape",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/y/dyve2s_grjm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/r/mr5348nfvmk.jpg",
+  "desc": "Raise up stone barriers from the earth, forming a narrow path of no escape before stealing the opponent's ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/v/yvqsvzrmivs.wmv"
+ },
+ "demon-cut": {
+  "zukan": "Diabolical Cut",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/8/p/8pv0fvexql0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/e/5e7ezicltdu.jpg",
+  "desc": "Execute a hair-raising roundhouse kick that sends out a diabolical shockwave.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/z/b/zbrplpyntdu.wmv"
+ },
+ "barbarian-no-tate": {
+  "zukan": "Barbarian Shield",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/g/cgo_5xpudge.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/r/zrgvvwvaagk.jpg",
+  "desc": "Manifest a shield infused with barbarian strength to intimidate and repel any assault.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/5/u/5ukidr1oa-k.wmv"
+ },
+ "rock-wall-dam": {
+  "zukan": "Stone Wall",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/z/h/zh-ffhvp900.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/2/q/2qq1zgp9-su.jpg",
+  "desc": "Combine The Wall with God Hand to block charging enemies like a dam.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/v/wv6clbzv-mu.wmv"
+ },
+ "frozen-steal": {
+  "zukan": "Frozen Steal",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/7/u/7uv4gasvdw0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/0/d/0d5lu0kqztc.jpg",
+  "desc": "Obstruct the opposition's advance by freezing the pitch. Shut them out completely at absolute zero.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/j/gjqud78p-au.wmv"
+ },
+ "harvest": {
+  "zukan": "Harvest",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/o/uocymgjsz6c.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/h/hhkbcortd_0.jpg",
+  "desc": "A double sliding tackle executed at full force that cleanly reaps the opponent's ball away.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/5/15zkvbnq628.wmv"
+ },
+ "roadroller-tackle": {
+  "zukan": "Road Roller",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/_/g_ipd_t7cz0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/0/l0mdvyvvfvu.jpg",
+  "desc": "Barrel through defenders with a crushing tackle to flatten everything in your path.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/x/fxm05fphflu.wmv"
+ },
+ "whale-guard": {
+  "zukan": "Whale Guard",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/7/e7mhe5iukpm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/y/lywskxqrgsk.jpg",
+  "desc": "Sound a conch to summon a giant whale that devours opponents and the ball with its massive jaws.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/m/fmj3nymshls.wmv"
+ },
+ "planet-shield": {
+  "zukan": "Planet Shield",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/6/k/6k3sjlpyg88.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/1/t/1thfhlxnk5u.jpg",
+  "desc": "Summon a colossal planet overhead and crush opponents with a cosmic-scale strike.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/t/hty6qeh0dwc.wmv"
+ },
+ "double-cyclone": {
+  "zukan": "Double Cyclone",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/_/m/_m5vvxmqqw8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/w/v/wvvmb5uvu1u.jpg",
+  "desc": "Two players generate a rampaging cyclone that ruthlessly blasts the opponent away.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/r/kr8d22isj8c.wmv"
+ },
+ "asteroid-belt": {
+  "zukan": "Asteroid Belt",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/3/t3ppqfw24ac.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/w/8/w8hdg4qi7m8.jpg",
+  "desc": "Call upon a meteor shower from outer space to repel the incoming opposition.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/2/5/25l0q_kk748.wmv"
+ },
+ "dual-storm": {
+  "zukan": "Dual Storm",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/t/jtbrkddkiju.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/k/gkxietfbmm8.jpg",
+  "desc": "Harness the fiery power of two, whipping up a scorching wind to snatch the ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/a/saehpizirf0.wmv"
+ },
+ "shooting-star": {
+  "zukan": "Shooting Star",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/z/czkcqr9uvrc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/s/zskog276w38.jpg",
+  "desc": "Jump high up using another player as a stepping stone and dive down swiftly like a shooting star for a sliding tackle.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/5/x/5xgfqxhswp8.wmv"
+ },
+ "block-circus": {
+  "zukan": "Circus Block",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/i/h/ihulmwx1jp0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/o/tocwcepknsc.jpg",
+  "desc": "Jump above the opponent to distract them while another player steals the ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/5/w/5wrzvrfzalu.wmv"
+ },
+ "snow-angel": {
+  "zukan": "Snow Angel",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/5/1/51okodadyq0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/2/8/28-xaty8cvc.jpg",
+  "desc": "Freeze the opponent into a giant ice block using snow crystals born from frigid winds.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/c/ictytiuf7cu.wmv"
+ },
+ "sabaki-no-tettsui": {
+  "zukan": "Divine Stamp",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/h/eh7zrcvhvls.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/m/bmvz97t1stm.jpg",
+  "desc": "Summon a colossal foot from above to crush defenders like a hammer of justice.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/7/j/7j_ur8jdszm.wmv"
+ },
+ "senpuujin": {
+  "zukan": "Whirlwind Force",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/p/h/phs02pb80wc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/m/km8eaoho3w8.jpg",
+  "desc": "Rotate at high frequencies like a prankster's toy top, creating whirlwinds that are difficult to contend with.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/q/j/qjwpmvda3u8.wmv"
+ },
+ "sneaking-raid": {
+  "zukan": "Am-Bush",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/w/tw0jst2pkps.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/5/i5i6i9uwoke.jpg",
+  "desc": "Stay hidden and strike from behind to ambush enemies before they notice what's happening.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/2/h/2hxfpyyvpdm.wmv"
+ },
+ "shinkuuma": {
+  "zukan": "Vac Attack",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/4/k4uy0hvhzps.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/z/pzayygttwpm.jpg",
+  "desc": "Use a kick to create a tear in space that sucks in the ball and reduces its power.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/2/v2qfobj7w3m.wmv"
+ },
+ "mega-quake": {
+  "zukan": "Mega Quake",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/o/roiypwfjlcc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/h/eh0rb4dcpz0.jpg",
+  "desc": "Break the ground apart with a devastating quake that blows everything away.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/5/k5nos3rloq8.wmv"
+ },
+ "iron-wall": {
+  "zukan": "Iron Wall",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/z/f/zfyt7f9vef0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/u/cuc5x477h5u.jpg",
+  "desc": "This looming wall is an ironclad defence that strikes fear into the heart of opponents.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/r/8r2ob_hthnu.wmv"
+ },
+ "volcano-cut": {
+  "zukan": "Volcano Cut",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/2/j2t6su5bufm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/9/m99qaj_pxjs.jpg",
+  "desc": "A sharp spin kick, causing an eruption of flames! The wall of fire will blow away opponents and  stop their breakthrough.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/g/4/g4xnwolnx9s.wmv"
+ },
+ "bunshin-defense": {
+  "zukan": "Clone Defence",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/o/co3qfte9wje.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/n/h/nhhjrdccsms.jpg",
+  "desc": "Split into three and send one person to attack while the other two steal the ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/z/f/zfyg8mq71fk.wmv"
+ },
+ "rolling-slide": {
+  "zukan": "Rolling Slide",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/q/r/qrn_b8okdvs.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/f/y/fybmpsw1zqe.jpg",
+  "desc": "Overtake the opponent using high-speed backflips and steal the ball with a sliding tackle.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/m/lmipidgm-jm.wmv"
+ },
+ "heavy-baby": {
+  "zukan": "Heavy Mettle",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/v/r/vrjcdx4jxi0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/a/qanovw-3yeu.jpg",
+  "desc": "Harness gravity to turn the ball into a weight and swing defenders around like ragdolls.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/f/kfnf5rkfyau.wmv"
+ },
+ "stone-prison": {
+  "zukan": "Stone Prison",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/5/h58esdowwce.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/w/uwqtitwp0zs.jpg",
+  "desc": "Imprison the opponent with stone pillars from the ground and steal the ball from them.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/6/o/6o5ipig2tqk.wmv"
+ },
+ "the-tower": {
+  "zukan": "The Tower",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/4/n/4nt6jdsllqm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/9/s/9sdql6uxm2s.jpg",
+  "desc": "From atop a sky-high tower, call down lightning strikes onto the opposition, leaving them no chance even to cry out.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/p/dppnz9ozmos.wmv"
+ },
+ "profile-zone": {
+  "zukan": "Perimeter Zone",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/w/hwltlwyebf8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/f/ufdef4a7fau.jpg",
+  "desc": "Analyze and profile the opponent's data to find an opening to steal the ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/6/h/6ho7o32c4jc.wmv"
+ },
+ "cyclone": {
+  "zukan": "Cyclone",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/z/v/zvxcvh0zqju.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/8/m/8mnxbpsmum8.jpg",
+  "desc": "Deliver a sharp kick that stirs up a cyclone around the opponent and carries them, ball and all, into the air.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/y/oy0u2ma1zv0.wmv"
+ },
+ "gravitation": {
+  "zukan": "Gravitation",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/q/-/q-u6fo8ww2k.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/1/v16qpp6czqe.jpg",
+  "desc": "An invincible supergravity field emerges, manipulating gravity to render enemies immobile.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/1/w/1wqn_ugqzoe.wmv"
+ },
+ "kage-nui": {
+  "zukan": "Shadow Stitch",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/t/2t_7j1rravu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/5/k/5kpihbjueq8.jpg",
+  "desc": "Create and control a giant hand shadow to catch the opponent's shadow by weaving through the ground.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/a/ta6tqu_t5j0.wmv"
+ },
+ "flame-dance": {
+  "zukan": "Flame Dance",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/w/ywelbtzagqk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/9/5/95iwvdblcvm.jpg",
+  "desc": "Use fiery breakdancing moves to steal the ball from the opponent.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/h/phbz4m3clce.wmv"
+ },
+ "good-smell": {
+  "zukan": "Sleeping Dust",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/5/b5oyyltmulm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/w/ow-rwl1zqgk.jpg",
+  "desc": "Sprinkle a dreamy scent to lull foes into deep sleep and seize the ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/a/o/aoto7qdknps.wmv"
+ },
+ "power-charge": {
+  "zukan": "Power Charge",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/3/d3y3rhpua60.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/-/m-oefpxre_c.jpg",
+  "desc": "Focus all your strength into a shoulder tackle and snatch the ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/a/yadhymhsj2u.wmv"
+ },
+ "gravestone": {
+  "zukan": "Gravestone",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/y/jy7ccacc1ae.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/r/srtxm0ejxfs.jpg",
+  "desc": "Hit the ground with full strength to make stone pillars jut out and send the opponent flying.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/4/v/4v-uh7yawwk.wmv"
+ },
+ "welcome-back": {
+  "zukan": "Yo-Yo Ball",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/-/w-ukshdcopc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/_/3/_345cpf9sk0.jpg",
+  "desc": "Kick to spin the ball and reel it back like a tethered yo-yo.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/j/rjrcxazeld8.wmv"
+ },
+ "desert-storm": {
+  "zukan": "Desert Blast",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/y/cyfobsqtn8e.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/r/trtbpcisj5s.jpg",
+  "desc": "Kick up a cloud of sand, blind the opponent, and snatch the ball while they stagger.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/v/hva-in-vewk.wmv"
+ },
+ "zigzag-flame": {
+  "zukan": "Zigzag Flame",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/7/k7ynwxro6qe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/y/ryku-fzx-vs.jpg",
+  "desc": "Run forward in a zigzag manner to start a fire while charging towards the opponent.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/_/m/_m3xtqfuzck.wmv"
+ },
+ "spinning-cut": {
+  "zukan": "Spinning Cut",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/q/u/qufubfsy27e.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/l/vlxet4qm1dk.jpg",
+  "desc": "A sharp roundhouse creates a crescent of blue energy that blasts opponents aside with great force!",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/g/pgbz7_wk1dk.wmv"
+ },
+ "earthquake": {
+  "zukan": "Earthquake",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/a/tas3gab7ldk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/j/cjeei0zehgm.jpg",
+  "desc": "Shake the ground by stomping down from mid-air and steal the ball from the opponent when they fall.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/3/i3xhl7v9gpe.wmv"
+ },
+ "jibashiri-kaen": {
+  "zukan": "Racing Flame",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/w/swkjvl6myps.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/5/d5cqhlizcse.jpg",
+  "desc": "Steal the ball with a fiery roundhouse kick, Taekwondo-style.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/j/h/jhp1meug7lm.wmv"
+ },
+ "kumo-no-ito": {
+  "zukan": "Spider Web",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/h/chaj44sj9q8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/n/o/nowq2wk25vu.jpg",
+  "desc": "Spread a spider web on the ground that makes movement difficult.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/z/w/zwf1bz8pecc.wmv"
+ },
+ "fake-bomber": {
+  "zukan": "Fake Bomber",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/q/yqtf0howqam.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/j/xjf26pwpufk.jpg",
+  "desc": "Steal the ball and swap it for a fake, tricking opponents with an upgraded version of Fake Ball.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/d/ddwtxagqzws.wmv"
+ },
+ "fake-ball": {
+  "zukan": "Fake Ball",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/f/hfoakk3r3c8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/m/imypqkvuzzu.jpg",
+  "desc": "A dirty move that finds an opening to secretly switch the ball with a fake one.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/y/cylmhrzxuqc.wmv"
+ },
+ "the-wall": {
+  "zukan": "The Wall",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/2/e/2eczdp7s6te.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/v/zvszxo9g5lk.jpg",
+  "desc": "Harness the power of the earth to raise a wall, blocking the way and proving yourself a mighty defender.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/q/tqgunvnu5vk.wmv"
+ },
+ "ushiro-no-shoumen": {
+  "zukan": "About Face",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/a/j/ajwmx0wrtpe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/a/pam__aouxks.jpg",
+  "desc": "Strike from behind with a sneaky knee, then snatch the ball while they stagger.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/-/b-1asv4xwdk.wmv"
+ },
+ "super-scan-df": {
+  "zukan": "Defence Scan",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/6/l/6lafuw_glle.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/1/c/1cwsgen5pgs.jpg",
+  "desc": "Take in the opponent's rhythm at a glance and shut down attacks with precision.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/8/h8fjnrraopk.wmv"
+ },
+ "ice-ground": {
+  "zukan": "Land of Ice",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/z/a/zagxysih76s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/8/j/8jqc8864__e.jpg",
+  "desc": "An ice skating move that derives power from the conflicting nature between its gracefulness and freezing might.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/3/o3dnrzmby2m.wmv"
+ },
+ "super-shikofumi": {
+  "zukan": "Super Sumo Stomp",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/z/dzixkwu-hm8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/g/s/gsmbmxsqeac.jpg",
+  "desc": "A large foot appears in the sky and stomps on the opponent in this enhanced version of Sumo Stomp.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/m/x/mxmswqiceec.wmv"
+ },
+ "blade-attack": {
+  "zukan": "Blade Attack",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/m/gmt5ipjzmv0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/v/vvfksh7miqc.jpg",
+  "desc": "Slam a foot down to generate a strong shockwave that slices through the ground like a sharp blade.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/7/r/7rwvbinffju.wmv"
+ },
+ "killer-slide": {
+  "zukan": "Killer Slide",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/j/gjkkf81tn2m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/a/vay5lstsjzk.jpg",
+  "desc": "Wrest for possession of the ball with an aggressive, high-speed slide tackle that conjures countless afterimages.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/7/-/7-hcmdbru6s.wmv"
+ },
+ "photon-flash": {
+  "zukan": "Photon Crash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/t/wtr999yxewc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/k/zk9oztqoat0.jpg",
+  "desc": "Spinning in a flash of light, the ball is stolen in the blink of an eye, leaving opponents dazzled.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/a/naureccrna8.wmv"
+ },
+ "horn-train": {
+  "zukan": "Horn Train",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/b/kbelnbb9ly0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/p/k/pkqplmhpm-u.jpg",
+  "desc": "Charge like a raging bull and bulldoze all in your way.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/p/vpa4dhdbmgu.wmv"
+ },
+ "onryou": {
+  "zukan": "Ghost Pull",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/j/ljx-dpz8mws.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/q/eqnnnhbdite.jpg",
+  "desc": "Those who are caught by these ghostly hands that appear from the ground can never escape.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/q/u/qu0ogu36fam.wmv"
+ },
+ "giant-spin": {
+  "zukan": "Supreme Spin",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/r/wrpxjqrzjvu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/1/a/1ahbp3xngz0.jpg",
+  "desc": "Spin like a top to whip up a tornado and blast any approaching foes aside.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/f/vflszwnpgt0.wmv"
+ },
+ "doppelganger": {
+  "zukan": "Doppelganger",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/m/rmslqss0t2c.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/f/kfe4e80lxz0.jpg",
+  "desc": "Confound foes with an eerie double that blocks in your place.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/w/7/w7xdzzcyw68.wmv"
+ },
+ "coil-turn": {
+  "zukan": "Coil Turn",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/h/rhvrodtxgfk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/o/eodymtlokam.jpg",
+  "desc": "Coil around the opponent quickly to create a wind spiral that blasts the opponent away.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/w/kwq9li9rdje.wmv"
+ },
+ "shikofumi": {
+  "zukan": "Sumo Stomp",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/f/yfk2t0yi7d0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/m/xmyfdaad_gc.jpg",
+  "desc": "Raise your foot in a mighty sumo stomp to make the ground shake.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/y/dyhgwv2kypu.wmv"
+ },
+ "quick-draw": {
+  "zukan": "Quick Draw",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/i/o/iojwrlnbiwm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/h/th1lll_-m1k.jpg",
+  "desc": "Quickly draw close to the opponent and steal the ball before they know what hit them.",
+  "kind": "Defence",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/5/f/5fmaiejhr8s.wmv"
+ },
+ "the-end": {
+  "zukan": "The End",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/w/bw_kvzka9sk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/d/edrg5-io-ke.jpg",
+  "desc": "Infuse your right hand with a dark aura that causes incoming shots to vanish into thin air.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/y/ky7xv54m-ue.wmv"
+ },
+ "omega-the-hand": {
+  "zukan": "Omega Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/z/3/z3wkmbx-sye.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/8/c8eog83qr-k.jpg",
+  "desc": "The God Hand evolves into its ultimate form to catch and crush any shot with ease.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/8/5/850527tcrgk.wmv"
+ },
+ "maou-the-hand": {
+  "zukan": "Fiend Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/z/yze7lnnr2ju.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/s/dswrnah_1f0.jpg",
+  "desc": "Channel anger into energy to manifest a fearsome fiend.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/9/x/9xamxh7x1b0.wmv"
+ },
+ "tamashii-the-hand": {
+  "zukan": "Soul Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/-/l-cwezpdbzm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/1/o1sao-jxcvs.jpg",
+  "desc": "Overflowing passion manifests a giant right hand. Behold the mighty God Hand!",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/w/uwgt-5t_cls.wmv"
+ },
+ "jikuu-no-kabe": {
+  "zukan": "Temporal Wall",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/3/h/3hem-x1seg8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/q/yqqmswz4dgc.jpg",
+  "desc": "One hand rises, as if freezing time itself, stopping the football's momentum and deflecting it away.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/v/sva7e3pqd-c.wmv"
+ },
+ "high-voltage": {
+  "zukan": "High Voltage",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/j/g/jgdb_unm7p8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/m/r/mrzrtzhy4pc.jpg",
+  "desc": "Teammates on each hand of the goalkeeper generate a high-voltage barrier to protect the goal.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/u/suzcf07w4rc.wmv"
+ },
+ "holy-zone": {
+  "zukan": "Celestial Zone",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/u/xujkaifnh-s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/0/l/0lnosvzzeym.jpg",
+  "desc": "A cleansing light from the sky seals up the ball's momentum.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/g/ugn56odxegm.wmv"
+ },
+ "god-catch": {
+  "zukan": "God Catch",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/i/o/ioze4oxzfss.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/n/f/nfd0up3nc0m.jpg",
+  "desc": "A genuine love for football evolves the Majin into a majestic guardian deity of goals.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/a/ta3dcitlcqm.wmv"
+ },
+ "god-hand-triple": {
+  "zukan": "Triple God Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/u/gugjnblqcjc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/l/llojl8neff8.jpg",
+  "desc": "Combine the strength of three into one colossal God Hand for massive power.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/g/fgk-d7xsfb8.wmv"
+ },
+ "million-hands": {
+  "zukan": "Million Hands",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/e/teu5cyihlos.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/v/ov6tw_otiom.jpg",
+  "desc": "Pantomime at high speed to create multiple hand shapes that form a shield to block incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/q/iqqkm4u7iqm.wmv"
+ },
+ "mugen-no-kabe": {
+  "zukan": "Infinite Wall",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/4/p/4pvn-ze0zx8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/9/e/9ebns-ygwxc.jpg",
+  "desc": "Three players raise an impregnable infinite wall together in front of the goal.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/b/dbrqe5ciwvc.wmv"
+ },
+ "beast-fang": {
+  "zukan": "Beast Fang",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/o/0of1rgfmwwe.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/j/xjxf9hzyvwk.jpg",
+  "desc": "Thrust out both hands like a ferocious beast baring fangs at incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/m/rmbormdwvik.wmv"
+ },
+ "procyon-net": {
+  "zukan": "Procyon Net",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/2/n2pdnyje33e.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/9/i9hph_lk0rk.jpg",
+  "desc": "Like the Winter Triangle in the night sky, a shining barrier of stars protects the goal.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/4/c4te34_i0pk.wmv"
+ },
+ "ijigen-the-hand": {
+  "zukan": "Dimensional Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/r/rrz7ihimsq8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/a/ua3rogkyr2c.jpg",
+  "desc": "A variation of God Hand where a dome-shaped aura bursts out from the hand to turn incoming shots aside.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/f/ofdmyn-aroc.wmv"
+ },
+ "ice-block": {
+  "zukan": "Ice Block",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/p/epdmx3wh61u.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/i/bitm7q215t0.jpg",
+  "desc": "Surround a fist with an icy aura before punching the ball to freeze and stop it in an instant.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/n/hnh7txsd5n0.wmv"
+ },
+ "burnout": {
+  "zukan": "Burnout",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/0/r/0r1icml2anc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/a/xabiubnidb8.jpg",
+  "desc": "Use fiery hands to block incoming shots and reduce the ball to ashes.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/f/rfxv4gxkdf8.wmv"
+ },
+ "drill-smasher": {
+  "zukan": "Drill Smasher",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/_/k_yqijj-_b8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/0/h0c6oupq8nc.jpg",
+  "desc": "Create a giant drill to stop the ball. Leave the opposition feeling empty, as if boring a hole in their spirits.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/x/bx2nypvc85c.wmv"
+ },
+ "mugen-the-hand": {
+  "zukan": "Mugen the Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/7/_/7_ejcogut2c.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/-/0/-0wjupm6uq8.jpg",
+  "desc": "Summon innumerable hands to shield the goal, impeding all possible angles of approach.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/x/exa-4i8suo8.wmv"
+ },
+ "gigant-wall": {
+  "zukan": "Gigant Wall",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/9/w/9wth83kp0om.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/4/7/479lqqmb3os.jpg",
+  "desc": "The goalkeeper grows bigger by sheer willpower and punches the ball into the ground.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/-/y-x8gxwz32s.wmv"
+ },
+ "big-spider": {
+  "zukan": "Giant Spider",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/m/dmixjjzqx6k.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/t/ytm9lu1eyce.jpg",
+  "desc": "Catch and devour incoming shots like a spider catching prey in its web.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/4/o/4omkzpvsyce.wmv"
+ },
+ "triple-defense": {
+  "zukan": "Triple Defence",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/z/wzbpmvam_je.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/s/ts1lgycy8vk.jpg",
+  "desc": "Two players support their goalkeeper from behind to stop incoming shots with the power of friendship.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/z/x/zxfs21ga8xk.wmv"
+ },
+ "double-rocket": {
+  "zukan": "Double Rocket",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/3/x31qlpmzbyu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/8/s8b6noknyu0.jpg",
+  "desc": "The improved version of Rocket Kobushi that creates two fists of aura energy instead of just one.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/5/y5xnxjqpyk0.wmv"
+ },
+ "flash-upper": {
+  "zukan": "Flash Upper",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/h/ohove2c8mxc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/q/tqg_yraopx8.jpg",
+  "desc": "Focus while hopping from side to side to unleash an uppercut that negates incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/v/nvsikwaapj8.wmv"
+ },
+ "god-hand-x": {
+  "zukan": "God Hand X",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/p/bpvv3wzxoc0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/i/eib_bxflrku.jpg",
+  "desc": "Cross both arms to dash and lunge at the ball, catching it in mid-air.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/n/-nrin2fnr6u.wmv"
+ },
+ "needle-hammer": {
+  "zukan": "Needle Hammer",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/b/rbsvmwyoudc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/k/uk8fkx08x78.jpg",
+  "desc": "Gather electricity into a hand and release it all at once to put a quick stop to incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/0/p/0pwyc2uuxl8.wmv"
+ },
+ "capoeira-snatch": {
+  "zukan": "Capoeira Grab",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/u/uulxgp2dvjm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/l/rll9mowjwvs.jpg",
+  "desc": "Use good timing to grab the ball between both feet and redirect its trajectory.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/g/lghkajqhwxs.wmv"
+ },
+ "bunshin-block": {
+  "zukan": "Clone Block",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/h/uhe-3yypft0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/m/rmqub_09g1u.jpg",
+  "desc": "Split into three with ninja precision and slam the ball down from above with triple power.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/j/xjajn4uvgru.wmv"
+ },
+ "colosseo-guard": {
+  "zukan": "Colosseum Guard",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/9/j/9j5cvxe1izu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/4/c/4cx2dwyhh_0.jpg",
+  "desc": "Focus power into both arms to manifest the Colosseum as a stalwart fortress that stops incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/h/yh9bv3cjhh0.wmv"
+ },
+ "tsunami-wall": {
+  "zukan": "Tsunami Wall",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/i/3/i3zjriljjf0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/n/8/n83jhvj3kju.jpg",
+  "desc": "The sea god's roar summons a tall tsunami wave that forms a wall to block off incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/t/5/t5d-ro5fk9u.wmv"
+ },
+ "ikari-no-tettsui": {
+  "zukan": "Hammer of Fury",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/7/g/7g0eri0u7he.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/-/n/-na09vya4hk.jpg",
+  "desc": "Focus power into a fist and swing it down angrily with the Majin's support to put a stop to incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/i/eiwdrooo4zk.wmv"
+ },
+ "dai-bakuhatsu-harite": {
+  "zukan": "Nitro Slap",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/_/x/_xmtua26ydk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/6/c/6cih49wuble.jpg",
+  "desc": "Unleash a ferocious streak of fiery sumo slaps on the ball to cause a large explosion that blows it backwards.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/a/z/aziwu6qgb7e.wmv"
+ },
+ "storm-rider": {
+  "zukan": "Storm Rider",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/4/2/42fwt5kolak.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/9/9/99rabemamme.jpg",
+  "desc": "A swirling sandstorm sucks in the ball and weakens it enough to be caught.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/d/4/d4btxzwym4e.wmv"
+ },
+ "wormhole": {
+  "zukan": "Wormhole",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/z/hzyirgo7ku0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/c/s/cscihhivnyu.jpg",
+  "desc": "Conjure a portal connected to other planes, swallowing up any kind of shot!",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/x/ix2vrmshnsu.wmv"
+ },
+ "chabudai-gaeshi": {
+  "zukan": "Table-Turner",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/c/x/cxm1dvx_dws.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/z/6/z6ifxy3rawm.jpg",
+  "desc": "Grab a round table-shaped earth fragment and flip it up in a display of sheer anger.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/5/_/5_ion1tdaum.wmv"
+ },
+ "shootrap": {
+  "zukan": "Shot Trap",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/b/ob-cg3b4gq8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/k/lkq2qqdsfmc.jpg",
+  "desc": "Cover the goal with an array of infrared sensors to block every incoming shot.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/p/rp6b8xhefsc.wmv"
+ },
+ "safety-protect": {
+  "zukan": "Safety First",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/o/xoftyjyjnlm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/s/f/sfxh0uedods.jpg",
+  "desc": "Countless aura shields block incoming shots, ensuring the safety of the team.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/y/a/yabwipe1ods.wmv"
+ },
+ "counterstrike": {
+  "zukan": "Counter Strike",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/4/r44s12mscke.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/z/uzw4zrggbsk.jpg",
+  "desc": "Smash the ball with a full-power counter punch, aiming for a game-changing rebound.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/0/2/028ppw6ubyk.wmv"
+ },
+ "stinger": {
+  "zukan": "The Stinger",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/-/5/-5iytmgv840.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/y/7ymy_bm7_eu.jpg",
+  "desc": "Focus all force at your fingertips to pierce and stop the ball in a single strike.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/3/b3mvpg8t_au.wmv"
+ },
+ "galatyn": {
+  "zukan": "Galatyn",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/x/nxpy6gliylc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/6/i6hywhj2bt8.jpg",
+  "desc": "A brilliant aura transforms into a towering blade that slices incoming shots into two.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/_/o_lvam5ebz8.wmv"
+ },
+ "great-barrier-reef": {
+  "zukan": "Barrier Reef",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/v/a/valinvgixyc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/q/l/qllilymcyu8.jpg",
+  "desc": "The South Pacific Ocean appears before the goal and its currents weaken the strength of incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/o/kopvd180yk8.wmv"
+ },
+ "kaenhousha": {
+  "zukan": "Flame Breath",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/m/m/mmlquannqnu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/j/t/jtl6c9hzpb0.jpg",
+  "desc": "Take a deep breath and release it along with fiery flames to weaken and catch incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/o/popnu67xpf0.wmv"
+ },
+ "seigi-no-tekken": {
+  "zukan": "Fist of Justice",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/k/g/kgytxpdepwk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/h/n/hn2hdobqqwe.jpg",
+  "desc": "A giant fist of justice protects the goal by punching away incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/i/bicwljb4que.wmv"
+ },
+ "black-hole": {
+  "zukan": "Black Hole",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/w/5/w5nguudi1sk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/1/y/1yjs4zb220e.jpg",
+  "desc": "Manifest a black hole in your palm to attract and catch incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/v/3/v3jbu0be2qe.wmv"
+ },
+ "aurora-curtain": {
+  "zukan": "Aurora Curtain",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/l/h/lhonx5b5xku.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/m/omgn7edtuc0.jpg",
+  "desc": "Summon a shimmering aurora before the goal, dulling every shot with majestic finesse.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/j/ujsqtzhfuc0.wmv"
+ },
+ "bakuretsu-punch": {
+  "zukan": "Blazing Knuckle",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/g/yg0gyhzrg0m.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/r/dras0g1fjss.jpg",
+  "desc": "Pound the ball more than 100 times in a second to repel incoming shots with full force.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/9/u/9uwbinvtjms.wmv"
+ },
+ "dokonjou-catch": {
+  "zukan": "Utter Gutsiness Catch",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/r/o/rozgxn2cehk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/u/j/ujdsdawihhe.jpg",
+  "desc": "Absorb any shot with the softest part of the body and cushion the impact with mastery.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/m/om3blhqgh_e.wmv"
+ },
+ "goal-zurashi": {
+  "zukan": "Sliding Goal",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/v/bvv3g5wgr78.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/k/ek7dqe20odc.jpg",
+  "desc": "Body slam the goalpost to make it slide away for a miraculous save in this barely legal move.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/k/h/khrq8zscodc.wmv"
+ },
+ "full-power-shield": {
+  "zukan": "Full Power Shield",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/v/ev5emyzw5mc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/k/bkxuk_fk6q8.jpg",
+  "desc": "Gather all of your strength to create a shockwave shield capable of blocking powerful shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/7/h/7h9zc4fm608.wmv"
+ },
+ "majin-the-hand": {
+  "zukan": "Majin the Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/y/oyconwigame.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/t/ttschxoszak.jpg",
+  "desc": "Unyielding heart and burning passion call forth the Majin, an Inazuma legend awakened anew.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/w/nwg132u6zek.wmv"
+ },
+ "majin-the-hand-wood": {
+  "zukan": "Majin the Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/y/oyconwigame.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/t/t/ttschxoszak.jpg",
+  "desc": "Unyielding heart and burning passion call forth the Majin, an Inazuma legend awakened anew.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/n/w/nwg132u6zek.wmv"
+ },
+ "tsumuji": {
+  "zukan": "Whirlwind",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/i/nilppmxyoce.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/d/idllfb3mn6k.jpg",
+  "desc": "Release whirlwinds from both hands and combine them into one to absorb and negate incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/o/g/oghstgtknkk.wmv"
+ },
+ "slash-nail": {
+  "zukan": "Claw Slash",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/e/q/eqpbexkbsim.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/b/b/bbhxowipves.jpg",
+  "desc": "Channel your aura into your toes and slash through the ball, slicing it clean with a devastating strike.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/e/hetg-34nvas.wmv"
+ },
+ "nekketsu-head": {
+  "zukan": "Fireball Head",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/b/q/bqfok2nl-vs.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/e/b/ebrcirlf9zm.jpg",
+  "desc": "Headbutt the ball with blazing force and blast back any shot with explosive power.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/-/e/-eb1ewr39tm.wmv"
+ },
+ "shoot-pocket": {
+  "zukan": "Shot Pocket",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/x/x/xxjztol3rp0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/0/c/0cnz_pnjspu.jpg",
+  "desc": "Envelop the ball with a special barrier that greatly reduces its power.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/u/z/uznepixlsru.wmv"
+ },
+ "hanafubuki": {
+  "zukan": "Flower Power",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/n/p/npd-e43khgc.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/i/e/ietuyfxwig8.jpg",
+  "desc": "Use flower petals dancing daintily on the pitch to reduce the power of incoming shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/c/b/cbhjkyryiy8.wmv"
+ },
+ "kogarashi": {
+  "zukan": "Mistral",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/q/g/qgdz2bgjg80.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/v/n/vnzza8mdjau.jpg",
+  "desc": "Summon a swirling leaf tornado to guard the goal and knock away the ball.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/p/i/pizem781jeu.wmv"
+ },
+ "rocket-kobushi": {
+  "zukan": "Rocket Kobushi",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/d/f/dfiqapnqnt8.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/u/yuma2oh-klc.jpg",
+  "desc": "Form a fist of pure aura energy and fire it to crush an oncoming shot.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/4/r/4rm3gj7wkvc.wmv"
+ },
+ "power-shield": {
+  "zukan": "Power Shield",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/i/w/iw_scwjfm5s.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/n/7/n7r4wxlllfm.jpg",
+  "desc": "Generate a shockwave shield in front of the goal to repel even the strongest shots.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/h/-/h-7pm2_jlbm.wmv"
+ },
+ "wild-claw": {
+  "zukan": "Wild Claw",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/t/n/tn-ep4c9d_0.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/o/s/osqujfapezu.jpg",
+  "desc": "Harness untamed speed and leap to seize the ball with raw, primal force.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/i/p/ip6z1yabehu.wmv"
+ },
+ "tornado-catch": {
+  "zukan": "Tornado Catch",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/-/a/-aipag0vqvs.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/7/l/7lmlshybpjm.jpg",
+  "desc": "Spin against the ball's trajectory to sap its power and snatch it from the air.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/b/o/boms6moppxm.wmv"
+ },
+ "yugamu-kuukan": {
+  "zukan": "Warp Space",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/h/a/hao8gndf4ym.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/k/l/klgwmabr7-s.jpg",
+  "desc": "Warp space to create a black hole that attracts all shots towards it.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/e/o/eokhahb57gs.wmv"
+ },
+ "god-hand": {
+  "zukan": "God Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/i/sij8jhyicrk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/d/xdnwlgecfne.jpg",
+  "desc": "Block any and all shots with a giant right hand brimming with passion for football.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/3/g/3gnhzne0fte.wmv"
+ },
+ "god-hand-wood": {
+  "zukan": "God Hand",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/s/i/sij8jhyicrk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/x/d/xdnwlgecfne.jpg",
+  "desc": "Block any and all shots with a giant right hand brimming with passion for football.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/3/g/3gnhzne0fte.wmv"
+ },
+ "pressure-punch": {
+  "zukan": "Pressure Punch",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/g/o/go2q_amuw48.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/d/f/dfyat9kavec.jpg",
+  "desc": "Descend from above to punch the ball down, crushing any shot in your path.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/j/a/jay3f6qovac.wmv"
+ },
+ "makiwari-chop": {
+  "zukan": "Wood Chopper",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/o/4/o4uhvxpcq9k.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/l/z/lz6l5wjwtbe.jpg",
+  "desc": "Chop the ball with the force of an axe swing! Every strike gets slammed to the ground.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/r/2/r2q8v3t-tfe.wmv"
+ },
+ "toughness-block": {
+  "zukan": "Toughness Block",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/u/x/uxpqzjindeu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/r/c/rchafukza40.jpg",
+  "desc": "Muscles as strong as steel can take any shot head-on.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/l/z/lzl3jp-bam0.wmv"
+ },
+ "killer-blade": {
+  "zukan": "Killer Blade",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/6/r/6rw8fu27jnm.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/_/a/_aewpzwvkrs.jpg",
+  "desc": "Slash down with a scythe-like aura, cleaving every shot in two.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/f/f/ff0h_0qhk1s.wmv"
+ },
+ "nekketsu-punch": {
+  "zukan": "Fireball Knuckle",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/y/n/yns3vz1tpiu.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/3/s/3s8dd-z5mu0.jpg",
+  "desc": "Infuse willpower into your right hand to block goal shots by punching them away.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/x/p/xpwqv5prmw0.wmv"
+ },
+ "swan-dive": {
+  "zukan": "Swan Dive",
+  "poster": "https://dxi4wb638ujep.cloudfront.net/1/k/3/y/3yubt3hwirk.jpg",
+  "thumb": "https://dxi4wb638ujep.cloudfront.net/1/k/y/t/ytaxbqncl3e.jpg",
+  "desc": "Dive from above the goal and crush the ball with a body slam to stop the shot.",
+  "kind": "Success",
+  "movie": "https://dxi4wb638ujep.cloudfront.net/1/k/s/w/swqgxx9qlpe.wmv"
+ }
+}

@@ -154,28 +154,36 @@ Los textos y datos de las wikis de Fandom están bajo licencia [CC BY-SA](https:
 
 ## Efectos de las supertécnicas
 
-Cada supertécnica tiene un efecto especial que tiene que ver con ella:
-- **Mano gigante:** Mano celestial, Mano mágica…
-- **Muro que sale del suelo:** El muro, Muro de hierro…
-- **Fuego:** pilar de llamas (Tornado de fuego).
-- **Hielo:** cristales y escarcha (Ventisca eterna).
-- **Dragón:** dragón que serpentea (Remate dragón).
-- **Ave:** ave que bate las alas (Fénix, Remate Pegaso, Remate del águila).
-- **Pingüinos:** salen del suelo (Pingüino emperador).
-- **Espada de luz:** espada que corta en arco (Excalibur, Lanza de Odín).
-- **Otros:** tornado, rayos, meteoritos, agujero oscuro, haz de luz, pétalos, terremoto, escudo de panal, puño, zarpazos de bestia, copias del jugador, viento y onda de choque genérica. En total son 22 efectos.
+Cada supertécnica tiene su propio efecto especial, hecho a partir de su vídeo en la
+[enciclopedia oficial de Victory Road](https://zukan.inazuma.jp/en/skill/). Algunos ejemplos:
+- **Manos:** la Mano celestial es amarilla, con rayos y relámpagos. La Mano mágica sale con el Majin detrás y la
+  Mano diabólica con un demonio morado. El Millón de manos son muchas manos pequeñas.
+- **Criaturas:** pingüinos rojos, morados o con casco espacial; guiverno con alas; rey dragón; fénix, águila,
+  cóndor y pegaso; tigre y lobo; ballena, tiburón, unicornio y serpiente.
+- **Muros:** de roca, de hierro, de piedra, una montaña o pilares.
+- **Fuego:** espiral de llamas (Tornado de fuego), bola de fuego, sol (Llamarada atómica), tormenta, géiseres y
+  explosiones.
+- **Hielo, rayos y oscuridad:** ventisca con un copo gigante (Ventisca eterna), bloque de hielo, rayo enorme del
+  cielo, orbe eléctrico, agujero negro, espiral blanca y negra (Carga negativa) y portales.
+- **Objetos y lugares:** Excalibur, las siete espadas del Círculo de espadas, el Coliseo, la Torre Eiffel, un torii,
+  un reloj, un tren, un misil, llaves, un abanico, una tabla de surf, la telaraña…
 
 Cómo se ven en el partido:
-- La animación con el retrato toma los colores y las partículas del efecto (llamas, copos, pétalos, plumas, pingüinos…).
-- Después, el efecto aparece sobre el campo.
+- La animación con el retrato toma los colores reales del vídeo y las partículas del efecto.
+- Después, el efecto aparece sobre el campo, orientado hacia el rival, la portería o el balón.
 - En los tiros, el balón deja una estela del mismo tipo.
 - En un duelo de supertécnicas (regate contra defensa, tiro contra bloqueo o contra el portero) solo se ve la
   animación de la que gana. Si solo uno usa supertécnica, se ve la suya y, si pierde, salta en pedazos.
 
-Qué efecto lleva cada técnica lo decide `python3 -I tools/wiki/vfx.py` (escribe `src/data/movefx.json`):
-- Busca palabras clave en la descripción de cada técnica en la wiki (las de los juegos y la del anime).
-- Las más conocidas, y las que se revisaron mirando su imagen en la wiki, van puestas a mano en `OVERRIDES`.
-- Los efectos están dibujados por código en `src/gfx/fx.ts`.
+Cómo está hecho:
+- **Receta:** cada técnica tiene una forma con su variante (`dragon:wyvern`, `hand:majin`…), capas que la
+  acompañan y sus colores. Está en `src/data/movefx.json`, que genera `python3 -I tools/zukan/recipes.py` a partir de:
+  - `tools/zukan/recipes.txt`: la forma de cada técnica, anotada viendo su vídeo fotograma a fotograma.
+  - `tools/zukan/palette.json`: los colores de cada vídeo (`tools/zukan/palette.py` los saca de los fotogramas).
+  - Las técnicas que no están en la enciclopedia van a mano en el propio script.
+- **Dibujo:** las formas son unas 130, dibujadas por código (`src/gfx/fxshapes.ts`, con utilidades en
+  `src/gfx/fxkit.ts` y los efectos básicos en `src/gfx/fx.ts`).
+- **Cambiar el efecto de una técnica:** edita su línea en `tools/zukan/recipes.txt` y vuelve a ejecutar el script.
 
 ## Sprites originales
 

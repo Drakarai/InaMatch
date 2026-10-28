@@ -1217,7 +1217,7 @@ export class MatchScene extends Phaser.Scene {
       this.addTension(defSide, TENSION_GAIN.conceded);
       f.stopTrail?.();
       if (shotChoice.type === 'move') {
-        void playFx(this, 'impact', this.ball.x, this.ball.y, { element: shotChoice.move.element, kind: 'shoot', dir: { x: 0, y: this.attackDir(shooter.side) } });
+        void playFx(this, { fx: 'impact:giant', colors: moveFx(shotChoice.move.id).colors }, this.ball.x, this.ball.y, { element: shotChoice.move.element, kind: 'shoot', dir: { x: 0, y: this.attackDir(shooter.side) } });
       }
       this.flight = null;
       await this.onGoal(shooter);

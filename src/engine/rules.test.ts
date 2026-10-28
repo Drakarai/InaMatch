@@ -274,9 +274,18 @@ describe('media del equipo', () => {
 });
 
 describe('efectos de las supertécnicas', () => {
-  it('cada técnica tiene un efecto conocido', async () => {
-    const fx = (await import('../data/movefx.json')).default as Record<string, string>;
-    const known = ['penguin', 'dragon', 'bird', 'beast', 'hand', 'punch', 'wall', 'shield', 'sword', 'meteor', 'tornado', 'ice', 'fire', 'lightning', 'water', 'flower', 'earth', 'dark', 'light', 'clone', 'wind', 'impact'];
-    for (const id of Object.keys(MOVES_DATA)) expect(known, id).toContain(fx[id]);
+  it('cada técnica tiene receta y todas sus formas existen', async () => {
+    const fx = (await import('../data/movefx.json')).default as Record<string, { fx: string; layers?: string[]; colors?: string[] }>;
+    // las formas se leen del código (fx.ts usa Phaser, que no carga en los tests)
+    const shapes = (await import('../gfx/fxshapes.ts?raw')).default as string;
+    const registry = shapes.slice(shapes.indexOf('export const SHAPES'));
+    const known = new Set([...registry.matchAll(/^\s+'?([\w:]+)'?(?::\s*\w+)?,/gm)].map((m) => m[1]));
+    for (const base of ['penguin', 'dragon', 'bird', 'beast', 'hand', 'punch', 'wall', 'shield', 'sword', 'meteor', 'tornado', 'ice', 'fire', 'lightning', 'water', 'flower', 'earth', 'dark', 'light', 'clone', 'wind', 'impact']) known.add(base);
+    for (const id of Object.keys(MOVES_DATA)) {
+      const r = fx[id];
+      expect(r, id).toBeDefined();
+      for (const name of [r.fx, ...(r.layers ?? [])]) expect(known.has(name) || known.has(name.split(':')[0]), `${id}: ${name}`).toBe(true);
+      for (const c of r.colors ?? []) expect(c, id).toMatch(/^#[0-9a-f]{6}$/);
+    }
   });
 });

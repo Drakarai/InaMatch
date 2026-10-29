@@ -134,7 +134,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Cho Myong-ho",
-   "description": "The fierce power of tae kwon do kicks are put to good use on the pitch by this player."
+   "description": "Este futbolista ha sabido darle un buen uso a las clases de taekwondo. ¡Mira como chuta!"
   },
   {
    "id": "songhwan-ko",
@@ -226,7 +226,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Choi Chang-soo",
-   "description": "A consummate tactician who is an arch rival of Jude Sharp."
+   "description": "Un organizador de juego nato que detesta perder contra Jude."
   },
   {
    "id": "eunyeong-kim",
@@ -287,7 +287,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nagumo Haruya",
-   "description": "A blazing talent whose rivals live in fear of his assaults on the pitch."
+   "description": "Un delantero ardiente. Su agresividad hace temblar a sus rivales."
   },
   {
    "id": "bryce-whitingale",
@@ -318,7 +318,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Suzuno Fuusuke",
-   "description": "A simmering ice-man who freezes his opponents with cool tactics."
+   "description": "La habilidad de este jugador deja a sus rivales helados."
   },
   {
    "id": "sung-jin-noh",
@@ -348,7 +348,8 @@
     "hair": "#c0302a",
     "skin": "#9a6a44"
    },
-   "wiki": "Noh Sung-joon"
+   "wiki": "Noh Sung-joon",
+   "description": "Le gustaría que la música pop coreana fuera conocida en todo el mundo."
   },
   {
    "id": "byron-love",
@@ -379,7 +380,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Afuro Terumi",
-   "description": "His elegant, artistic style leaves his opponents spellbound."
+   "description": "Embelesa a rivales con un toque de balón cercano al arte más bello."
   },
   {
    "id": "chi-won-ho",
@@ -409,7 +410,8 @@
     "hair": "#3a2a1a",
     "skin": "#9a6a44"
    },
-   "wiki": "Heo Ji-nan"
+   "wiki": "Heo Ji-nan",
+   "description": "Es del Sur de Korea y no acaba de acostumbrarse al fío invierno del Seúl."
   },
   {
    "id": "dong-hyun-seul",
@@ -440,7 +442,8 @@
     "hair": "#8b5a2b",
     "skin": "#f1c79b"
    },
-   "wiki": "Seol Hyeon-dae"
+   "wiki": "Seol Hyeon-dae",
+   "description": "Este aspirante a director sueña con ganar premios internacionales."
   },
   {
    "id": "jung-hoon-yi",
@@ -471,7 +474,8 @@
     "hair": "#efe6c4",
     "skin": "#9a6a44"
    },
-   "wiki": "Lee Chung-yoon"
+   "wiki": "Lee Chung-yoon",
+   "description": "Es muy educado con los mayores."
   },
   {
    "id": "joon-ho-ja",
@@ -503,7 +507,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Cha Jung-won",
-   "description": "Applying technical ingenuity, this player hopes to open markets for new digital devices."
+   "description": "Le gustaría triunfar vendiendo aparatos electrónicos de última generación."
   }
  ]
 }

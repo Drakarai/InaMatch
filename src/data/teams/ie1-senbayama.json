@@ -42,7 +42,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Ayano Yuuichi",
-   "description": "Loves pickles and gets cranky, if he can't eat them at every meal."
+   "description": "Le chiflan los encurtidos. Si para de comer no hay, pone mala cara."
   },
   {
    "id": "seward-hayseed",
@@ -74,7 +74,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Sumino Eisuke",
-   "description": "Follows his nan's instructions to bath in front of the fire, even now."
+   "description": "﻿Calienta el agua con carbón por consejo expreso de su abuela."
   },
   {
    "id": "kent-work",
@@ -106,7 +106,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Serizawa Kazunori",
-   "description": "He prefers a toolbox to a regular bag at school, so stands out a lot."
+   "description": "Chico raro que utiliza hatillo en vez de mochila para ir al instituto."
   },
   {
    "id": "mark-hillvalley",
@@ -138,7 +138,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Makiya Hiroshi",
-   "description": "A true farm-boy, he gets up early feed the cows and chickens."
+   "description": "﻿Hijo de granjeros que se levanta muy pronto para cuidar el ganado."
   },
   {
    "id": "herb-sherman",
@@ -170,7 +170,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shiotani Hiro",
-   "description": "Who needs a mobile? His family just got a fine rotary-dial house phone."
+   "description": "En su casa no usan teléfono móvil porque nadie parece necesitarlo."
   },
   {
    "id": "joe-small",
@@ -202,7 +202,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Yamane You",
-   "description": "Maintains his healthy lifestyle by drinking fresh goat milk every day."
+   "description": "Está fortachón porque bebe todas las mañanas la leche de su cabra."
   },
   {
    "id": "ike-steiner",
@@ -234,7 +234,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ikui Shouji",
-   "description": "He looks after his five brothers while his parents work on the farm."
+   "description": "Cuida de sus cinco hermanitos en sustitución de sus padres."
   },
   {
    "id": "orville-newman",
@@ -266,7 +266,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Oogoi Noboru",
-   "description": "Hones his willpower by standing in a waterfall every morning."
+   "description": "﻿Cada mañana se planta bajo una cascada para fortalecer la mente."
   },
   {
    "id": "tom-walters",
@@ -298,7 +298,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Harano Tooru",
-   "description": "A wild child who grew up catching and cooking his own roast chicken."
+   "description": "Mozo salvaje que caza pájaros y se los come como si fueran pollo frito."
   },
   {
    "id": "daniel-dawson",
@@ -330,7 +330,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Negami Daichi",
-   "description": "Loves being close to nature. Often seen running barefoot in summer."
+   "description": "Le encanta notar la tierra bajo sus pies, por eso siempre va descalzo."
   },
   {
    "id": "stuart-racoonfur",
@@ -362,7 +362,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Tanushimaru Shigeki",
-   "description": "Gets to school by trekking across a whole mountain range every day."
+   "description": "﻿Va al instituto desde una aldea que está perdida en lo alto del monte."
   },
   {
    "id": "lorne-mower",
@@ -394,7 +394,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kusao Hisashi",
-   "description": "An eccentric type that enjoys plucking grass to chew."
+   "description": "Chaval inocente, algo estrafalario, al que le gusta cortar el césped."
   },
   {
    "id": "homer-grower",
@@ -426,7 +426,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Yoneyama Uehito",
-   "description": "Only eats farm produce that he and his family grows."
+   "description": "Es muy exigente con la calidad del arroz y por eso lo recoge él mismo."
   },
   {
    "id": "rolf-howells",
@@ -458,7 +458,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Inukai Shigeki",
-   "description": "Can speak to dogs. Often seen chasing them through the village."
+   "description": "Asegura que puede hablar con los perros. Se dedica a perseguirlos."
   },
   {
    "id": "luke-lively",
@@ -490,7 +490,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Fukui Sakuhei",
-   "description": "His family is in such rude health that even his great-great-grandmother is alive and kicking."
+   "description": "Su familia es muy longeva: su bisabuela se conserva muy bien."
   },
   {
    "id": "ben-nevis",
@@ -522,7 +522,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fuji Chihiro",
-   "description": "Loves studying wildlife so much, he moved to the deep countryside."
+   "description": "Disfruta observando animales. Se mudó al campo para tenerlos cerca."
   }
  ]
 }

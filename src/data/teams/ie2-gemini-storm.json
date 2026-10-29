@@ -41,7 +41,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Goryuu Reo",
-   "description": "This sturdy keeper boasts that he could even stop a meteorite."
+   "description": "Portero con agallas que afirma poder detener meteoritos."
   },
   {
    "id": "connor-shuttle",
@@ -73,7 +73,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sango Yoshirou",
-   "description": "It's impossible to guess what he's thinking or predict his next move."
+   "description": "Su cara carece de expresión y es imposible predecir sus movimientos."
   },
   {
    "id": "jim-landing",
@@ -104,7 +104,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Kikuma Shousuke",
-   "description": "Always angry about something, he uses his pent-up rage to power himself."
+   "description": "Siempre esta enfadado por algo transforma su ira en energía."
   },
   {
    "id": "grant-icewater",
@@ -136,7 +136,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kanime Iderou",
-   "description": "Claims he used to be devastatingly handsome in his youth, but no one believes him."
+   "description": "Va diciendo que antes era un adonis, pero nadie lo cree."
   },
   {
    "id": "charles-riverboat",
@@ -168,7 +168,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Karoku Satori",
-   "description": "His hellish gaze demoralises anyone who makes eye contact."
+   "description": "Hace que el equipo rival lo pase mal y les quita las ganas de jugar."
   },
   {
    "id": "jordan-greenway",
@@ -200,7 +200,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Midorikawa Ryuuji",
-   "description": "A cold-hearted youth who thinks that those who lose are worthless."
+   "description": "Es tan cruel que cree que los que pierden son despreciables."
   },
   {
    "id": "pat-box",
@@ -232,7 +232,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Kinki Nozomi",
-   "description": "There is a strange rumour that she brings calamity on her opponents."
+   "description": "Dicen que los que se relacionan con ella le ocurren desgracias."
   },
   {
    "id": "gregory-saturn",
@@ -264,7 +264,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Omotsuki Sora",
-   "description": "Even his friends are put out by his epic standoffishness."
+   "description": "Como no abre su corazón a nadie, le odian hasta sus compañeros."
   },
   {
    "id": "izzy-jupiter",
@@ -296,7 +296,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Io Shuntarou",
-   "description": "Wild animals? Venomous snakes? No problem. Just get those ladybirds away from him!"
+   "description": "Le gustan los animales fieros. Pero le dan miedo los tábanos."
   },
   {
    "id": "rhona-countdown",
@@ -328,7 +328,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Nanakaze Rimu",
-   "description": "A cruel girl who will attack any weakness she sees in her opponents."
+   "description": "Es muy bruta y aprovecha cualquier despiste del rival para atacar."
   },
   {
    "id": "dylan-bluemoon",
@@ -360,7 +360,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Miura Hiromu",
-   "description": "He's hoping to meet an opponent who'll surprise him with their skills."
+   "description": "Está buscando un rival que sea tan bueno que lo deje de piedra."
   }
  ]
 }

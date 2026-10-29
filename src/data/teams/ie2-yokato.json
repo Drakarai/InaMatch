@@ -42,7 +42,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tachimukai Yuuki",
-   "description": "This keeper has always looked up to Mark as a role model, but he's strong in his own right."
+   "description": "Su habilidad como portero es casi tan destacable como la de su ídolo Mark."
   },
   {
    "id": "drancis-fake",
@@ -73,7 +73,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Chikushi Kunimitsu",
-   "description": "An international exchange student who knows all about the world."
+   "description": "Habla con estudiantes extranjeros y sabe mucho del mundo."
   },
   {
    "id": "mick-mishap",
@@ -105,7 +105,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Oohori Michitoshi",
-   "description": "He likes boating in the park in his free time, but has nobody to row with."
+   "description": "Le gusta subir a los botes del lago, pero no tiene quién le acompañe."
   },
   {
    "id": "louis-leave",
@@ -137,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Genkai Namito",
-   "description": "This defender's thunderous tackles come thick and fast."
+   "description": "Defiende el área con embestidas tan violentas como un mar bravo."
   },
   {
    "id": "maurice-badgame",
@@ -169,7 +169,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Ishiyama Morihito",
-   "description": "He aspires to be a world-class defender and create an impregnable defensive wall."
+   "description": "Tiene nivel de profesional. Quiere que su defensa sea inquebrantable."
   },
   {
    "id": "dany-destiny",
@@ -201,7 +201,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kasayama Sou",
-   "description": "Wild horses wouldn't keep this lad from joining in the town's summer festival."
+   "description": "Es de Hakata, y aunque vaya la vida en ello, no falta a su festival."
   },
   {
    "id": "cannon-random",
@@ -233,7 +233,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Shika Kaneaki",
-   "description": "His family's garden is a treasure trove of priceless antique artefacts."
+   "description": "De vez en cuando halla antigüedades en el jardín de su casa."
   },
   {
    "id": "ulric-richmen",
@@ -265,7 +265,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Michihata Utau",
-   "description": "He busks on the street at weekends to cheer up passers-by."
+   "description": "Los fines de semana canta en la calle para entretener a la gente."
   },
   {
    "id": "spencer-duskplay",
@@ -297,7 +297,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Kuroda Yarimichi",
-   "description": "He lives a straightforward life and hates things not being in order."
+   "description": "Odia que las cosas se tuerzan y por eso vive con rectitud."
   },
   {
    "id": "dave-fate",
@@ -328,7 +328,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Matsurida Wasshoi",
-   "description": "Everyday's a parade for this fun-loving festive fellow."
+   "description": "Le encantan los festivales. Se pasa el año de fiesta en fiesta."
   },
   {
    "id": "jonathan-luckyman",
@@ -359,7 +359,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Toda Yuuichirou",
-   "description": "Eats offal hotpot every day, which he claims is ideal football fuel."
+   "description": "Los estofados que come cada día son la fuente de su energía."
   },
   {
    "id": "joe-poker",
@@ -391,7 +391,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Matsubayashi Yuu",
-   "description": "He's fearless even when up against a stronger or more experienced side."
+   "description": "Una vez al año se desmadra y baila con quien primero pilla."
   },
   {
    "id": "wiley-cracker",
@@ -423,7 +423,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Niwaka Yoshitomo",
-   "description": "He has a limitless supply of corny jokes that invariably go down like lead balloons."
+   "description": "Siempre hace juegos de palabras más viejos que la ton y sin gracia."
   },
   {
    "id": "mark-failing",
@@ -455,7 +455,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Oyatomi Takashi",
-   "description": "He's now mending his ways after his woeful grades reduced his parents to tears."
+   "description": "Sus padres sufren porque nunca estudia, pero está recapacitando."
   },
   {
    "id": "alton-cotts",
@@ -487,7 +487,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Nagahama Hosomichi",
-   "description": "This hungry fellow is always first in line for second helpings. And thirds."
+   "description": "Siempre come ración extra de sopa de fideos chinos con cerdo."
   },
   {
    "id": "mike-passing",
@@ -519,7 +519,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Dazai Umekichi",
-   "description": "Though he never studies, he always seems to breeze through tests."
+   "description": "Aunque ni siquiera abre los libros, siempre aprueba los exámenes."
   },
   {
    "id": "knowle-bathers",
@@ -551,7 +551,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Okinoshima Sou",
-   "description": "He goes for a wash before matches by skinny-dipping in the sea."
+   "description": "Aunque ni siquiera abre los libros, siempre aprueba los exámenes."
   }
  ]
 }

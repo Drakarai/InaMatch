@@ -42,7 +42,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Ikegaki Jou",
-   "description": "No matter the situation, he always has a joke to lighten the mood."
+   "description": "Chaval gracioso al que le gusta bromear incluso en momentos duros."
   },
   {
    "id": "kendall-sefton",
@@ -74,7 +74,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Himejima Kiwamu",
-   "description": "He practises tai chi to warm up before matches."
+   "description": "Sabe taichi y lo usa para calentar los músculos de un modo genuino."
   },
   {
    "id": "jason-strike",
@@ -106,7 +106,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kikuchi Yasuchi",
-   "description": "Loves exercise so much, his home is practically a gym."
+   "description": "Su afán por el deporte le llevó a convertir su casa en un gimnasio."
   },
   {
    "id": "norman-porter",
@@ -138,7 +138,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Noma Hakobu",
-   "description": "He's always willing to lend anyone a hand with heavy luggage."
+   "description": "Es muy amable. Siempre ayuda si ve a alguien cargando con maletas."
   },
   {
    "id": "maxwell-claus",
@@ -170,7 +170,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Mukaiyama Kyougo",
-   "description": "Superstitiously eats pork chops before every match."
+   "description": "Es supersticioso, y por eso nunca pisa las rayas del campo."
   },
   {
    "id": "alan-most",
@@ -202,7 +202,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Marude Tameo",
-   "description": "He is unable to succeed at anything without his parents' advice."
+   "description": "Le sale mal todo lo que hace, pero mejora con los consejos paternos."
   },
   {
    "id": "bruce-chaney",
@@ -234,7 +234,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Chaki Shiito",
-   "description": "Practises in car parks at night, using headlights for floodlights."
+   "description": "Se entrena de noche en garajes. No le han atropellado aún de milagro."
   },
   {
    "id": "leroy-rhymes",
@@ -266,7 +266,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Kanou Rinsuke",
-   "description": "Trains his balance by practising on a unicycle he got in primary school."
+   "description": "Desde pequeño trabaja su equilibrio con ayuda de un monociclo."
   },
   {
    "id": "mildford-scott",
@@ -298,7 +298,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tachino Seiichi",
-   "description": "Keeps up-to-date on world football using football sites and magazines."
+   "description": "Importa revistas y lee en internet sobre fútbol. No se le escapa nada."
   },
   {
    "id": "lou-edmonds",
@@ -330,7 +330,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Idemae You",
-   "description": "Always seen running around helping out at his parents' restaurant."
+   "description": "Ayuda en el bar de sus padres repartiendo comida a domicilio."
   },
   {
    "id": "greg-bernard",
@@ -362,7 +362,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Mizuguchi Seiji",
-   "description": "He plays so robotically that he was given the nickname \"Cyborg\"."
+   "description": "Le llaman Cyborg por los pases tan milimetrados que da."
   },
   {
    "id": "cameron-morefield",
@@ -394,7 +394,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Yasunaga Hidetsugu",
-   "description": "Turned to football after hurting his wrist playing semi-pro tennis."
+   "description": "Fue un gran tenista, pero se pasó al fútbol por un dolor de muñeca."
   },
   {
    "id": "peter-banker",
@@ -426,7 +426,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Tsutsumi Kouji",
-   "description": "Believes his tactics - once perfected - revolutionise football."
+   "description": "Considera que las tácticas que está investigando son revolucionarias."
   },
   {
    "id": "saul-tunk",
@@ -458,7 +458,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Tomooka Naruto",
-   "description": "Not a team player, but good at smoothing over ruffled feathers."
+   "description": "Le cuesta mucho jugar en equipo, pero sabe poner paz tras una pelea."
   },
   {
    "id": "paul-caperock",
@@ -490,7 +490,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Ishizaki Mitsuru",
-   "description": "A real football maniac. He eats, sleeps and breathes football."
+   "description": "Futbolero de pro que no piensa en nada que no sea el deporte rey."
   },
   {
    "id": "julius-molehill",
@@ -522,7 +522,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kozuka Yuusuke",
-   "description": "Has a complex about being small and compensates with a big personality."
+   "description": "Su tamaño le acompleja, pero le sirve de excusa para esforzarse."
   }
  ]
 }

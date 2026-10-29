@@ -41,7 +41,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Genda Koujirou",
-   "description": "There's no angle that the King of Keepers hasn't got covered."
+   "description": "Le llaman \"el rey de los porteros\". No deja ningún hueco sin cubrir."
   },
   {
    "id": "rowan-beltzer",
@@ -73,7 +73,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Taiya Rekito",
-   "description": "This sure-footed player stands his ground even on muddiest pitch."
+   "description": "Puede correr con total estabilidad hasta en campos embarrados."
   },
   {
    "id": "blade-healen",
@@ -105,7 +105,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Iyatani Kengo",
-   "description": "He marks his opponents until they howl with frustration."
+   "description": "Marca tan bien al rival que este acaba gritando de desesperación."
   },
   {
    "id": "argie-bargie",
@@ -168,7 +168,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Jikuwa Ryou",
-   "description": "He has superior sprinting skills and can turn on a sixpence."
+   "description": "Puede cambiar la dirección en la que corre en un instante."
   },
   {
    "id": "dawson-little",
@@ -200,7 +200,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Shouni Akatsuki",
-   "description": "A man of few words, give him a meaningful glance and he'll know what to do."
+   "description": "Da instrucciones al resto del equipo con la mirada."
   },
   {
    "id": "eton-messer",
@@ -232,7 +232,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Meza Aito",
-   "description": "He tracks his opponents' movements with mind-blowing precision."
+   "description": "Sigue los movimientos del contrario muy de cerca. Sus ojos dan miedo."
   },
   {
    "id": "jonah-spark",
@@ -264,7 +264,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hikara Yoshiteru",
-   "description": "Bizarrely, he never needs to drink water, no matter how hard he exercises."
+   "description": "Es tan duro que por mucho que corra no necesita hidratarse."
   },
   {
    "id": "sue-sparrow",
@@ -296,7 +296,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Takanashi Shinobu",
-   "description": "Royal Academy Redux's genius playmaker is the queen of the midfield."
+   "description": "Centrocampista extraordinaria que juega en la Royal Academy Redux."
   },
   {
    "id": "riley-jamm",
@@ -327,7 +327,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Hie Ryousuke",
-   "description": "His slippery movements confound, confuse and confuddle his opponents."
+   "description": "Sus movimientos engañosos confunden al contrario."
   },
   {
    "id": "david-samford",
@@ -358,7 +358,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sakuma Jirou",
-   "description": "He supports the team as a strategist, coordinating the other players."
+   "description": "Se echa el equipo a sus espaldas. Sus técnicas conjuntas son letales."
   },
   {
    "id": "caleb-stonewall",
@@ -389,7 +389,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Fudou Akio",
-   "description": "His aggressive play can knock the stuffing out of even the fiercest players."
+   "description": "Dicen que ni siquiera un demonio jugaría de una forma tan violenta."
   },
   {
    "id": "jimbo-cellar",
@@ -421,7 +421,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Katakura Jion",
-   "description": "He baffles his opponents by using strange fencing techniques."
+   "description": "Domina la esgrima y se mueve de una forma que confunde al contrario."
   },
   {
    "id": "zenn-wildhorse",
@@ -453,7 +453,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Souma Zenki",
-   "description": "A wizard with the ball who unnerves opponents with his gymnastic moves."
+   "description": "Controla el balón con acrobacias y deja atrás al equipo rival."
   },
   {
    "id": "cosimo-beck",
@@ -485,7 +485,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Bekki Kousuke",
-   "description": "He dabbled in all sorts of sports before finally settling on football."
+   "description": "Aplica su experiencia en otros deportes en los partidos de fútbol."
   },
   {
    "id": "maston-color",
@@ -517,7 +517,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Isshiki Masashi",
-   "description": "He lacks motivation at first, but once he gets going, he gives it his all."
+   "description": "No le pone muchas ganas, pero si se lo toma en serio, arrasa."
   }
  ]
 }

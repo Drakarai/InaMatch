@@ -42,7 +42,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nemuro Kimiyuki",
-   "description": "A supremely skilled jumper who leaps at every shot."
+   "description": "Su potencia de salto es increíble y la aprovecha en sus disparos."
   },
   {
    "id": "gail-baker",
@@ -74,7 +74,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kujirai Takanori",
-   "description": "He follows opponents' movements with his piercing gaze."
+   "description": "Observa los movimientos del rival con su mirada penetrante."
   },
   {
    "id": "kim-powell",
@@ -106,7 +106,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Kii Fumiko",
-   "description": "She gets opponents in a twist by moving about like she's dancing."
+   "description": "Confunde al rival porque cuando se mueve parece que esté bailando."
   },
   {
    "id": "zack-cummings",
@@ -137,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ishidaira Hanzou",
-   "description": "A martial artist. He defends the goal using his body like a lethal weapon."
+   "description": "Domina las artes marciales y corta el paso a cualquiera con su cuerpo."
   },
   {
    "id": "hunt-mercer",
@@ -169,7 +169,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Hanezaki Gouta",
-   "description": "He uses his body's flexibility to attack from impossible angles."
+   "description": "Utiliza su flexibilidad par atacar por donde el rival no se lo espera."
   },
   {
    "id": "isabelle-trick",
@@ -201,7 +201,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Yagami Reina",
-   "description": "An ice-cold warrior-princess who has never felt anything even approaching an emotion."
+   "description": "Una princesa guerrera de sangre fría a la que no afectan los sentimientos."
   },
   {
    "id": "connor-murray",
@@ -233,7 +233,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Komazawa Kyouma",
-   "description": "He lays traps which invite his opponents to make mistakes."
+   "description": "Pone muchas trampas y provoca al enemigo para que caiga en ellas."
   },
   {
    "id": "katie-brown",
@@ -265,7 +265,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kui Lulu",
-   "description": "Looks like a daydreamer, but she has moves that are out of this world."
+   "description": "Parece que esté en la luna, pero sus movimientos son imprevisibles."
   },
   {
    "id": "ashton-malone",
@@ -297,7 +297,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Akutsu Kiyoshi",
-   "description": "A single glance and he can tell exactly which path the ball is going to follow."
+   "description": "Puede intuir qué dirección tomará la pelota en un instante."
   },
   {
    "id": "wilbur-watkins",
@@ -328,7 +328,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Izuno Yuu",
-   "description": "He has a real attitude and likes to feign shots before smacking other players with the ball."
+   "description": "Apunta a rivales con su chut para que salgan por los aires."
   },
   {
    "id": "xavier-foster",
@@ -360,7 +360,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kiyama Hiroto",
-   "description": "Alius's top football warrior, his fiery shots are like comets."
+   "description": "El más fuerte de la Academia Alius, jugaba en el equipo Gaia. Sus disparos son como cometas."
   }
  ]
 }

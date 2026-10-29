@@ -3,83 +3,204 @@
 
 import Phaser from 'phaser';
 import { FONT, hex } from '../config';
+import { lookOf, type Look } from '../data/looks';
 import type { PlayerData, TeamData } from '../data/types';
 
 export const SPRITE_W = 36;
 export const SPRITE_H = 48;
 
 export const texKey = {
-  sprite: (playerId: string) => `sprite:${playerId}`,
-  portrait: (playerId: string) => `portrait:${playerId}`,
+  /** Con equipo: el sprite con su equipación. Sin equipo: el del paquete (src/assets/pack/sprites/<id>). */
+  sprite: (playerId: string, teamId?: string) => (teamId ? `sprite:${teamId}:${playerId}` : `sprite:${playerId}`),
+  /** Con equipo: el retrato de Victory Road de ese equipo (src/assets/pack/portraits/<equipo>/<id>). */
+  portrait: (playerId: string, teamId?: string) => (teamId ? `portrait:${teamId}:${playerId}` : `portrait:${playerId}`),
   emblem: (teamId: string) => `emblem:${teamId}`,
 };
 
-function darken(color: number, f: number): number {
+/** Textura del jugador en el campo: la del paquete si la hay; si no, la dibujada con su equipación. */
+export function spriteKey(scene: Phaser.Scene, p: PlayerData, team: TeamData): string {
+  const pack = texKey.sprite(p.id);
+  if (scene.textures.exists(pack)) return pack;
+  makePlayerSprite(scene, p, team);
+  return texKey.sprite(p.id, team.id);
+}
+
+/** Retrato del jugador: el de Victory Road de su equipo, el genérico del paquete o uno dibujado. */
+export function portraitKey(scene: Phaser.Scene, p: PlayerData, team: TeamData): string {
+  for (const key of [texKey.portrait(p.id, team.id), texKey.portrait(p.id)]) if (scene.textures.exists(key)) return key;
+  makePortrait(scene, p, team);
+  return `portrait-gen:${team.id}:${p.id}`;
+}
+
+export function darken(color: number, f: number): number {
   const c = Phaser.Display.Color.IntegerToColor(color);
   return Phaser.Display.Color.GetColor(c.red * f, c.green * f, c.blue * f);
 }
 
-/** Muñeco chibi de frente, al estilo de los sprites de campo de IE3. */
-function drawChibi(g: Phaser.GameObjects.Graphics, p: PlayerData, team: TeamData, scale = 1): void {
-  const s = scale;
-  const skin = hex(p.look?.skin ?? '#f1c79b');
-  const hair = hex(p.look?.hair ?? '#3a2a1a');
-  const shirt = hex(p.position === 'GK' ? team.colors.gkShirt : team.colors.shirt);
-  const shorts = hex(team.colors.shorts);
-  const outline = 0x1a1a22;
+// ------------------------------------------------------------------ sprite de campo
 
-  // piernas y botas
-  g.fillStyle(skin).fillRect(12 * s, 36 * s, 5 * s, 7 * s).fillRect(19 * s, 36 * s, 5 * s, 7 * s);
-  g.fillStyle(outline).fillRect(11 * s, 43 * s, 7 * s, 4 * s).fillRect(18 * s, 43 * s, 7 * s, 4 * s);
-  // pantalón
-  g.fillStyle(shorts).fillRoundedRect(10 * s, 30 * s, 16 * s, 8 * s, 2 * s);
-  // brazos
-  g.fillStyle(skin).fillRoundedRect(5 * s, 22 * s, 5 * s, 10 * s, 2 * s).fillRoundedRect(26 * s, 22 * s, 5 * s, 10 * s, 2 * s);
-  // camiseta
-  g.fillStyle(shirt).fillRoundedRect(8 * s, 20 * s, 20 * s, 13 * s, 4 * s);
-  g.fillStyle(darken(shirt, 0.75)).fillRect(8 * s, 30 * s, 20 * s, 2 * s);
-  // cabeza (grande, estilo chibi)
-  g.fillStyle(hair).fillCircle(18 * s, 12 * s, 12 * s);
-  g.fillStyle(skin).fillEllipse(18 * s, 15 * s, 18 * s, 15 * s);
-  g.fillStyle(hair).fillEllipse(18 * s, 7 * s, 22 * s, 9 * s);
-  // ojos
-  g.fillStyle(outline).fillRect(13 * s, 14 * s, 3 * s, 4 * s).fillRect(20 * s, 14 * s, 3 * s, 4 * s);
-  g.fillStyle(0xffffff).fillRect(13 * s, 14 * s, 1 * s, 1 * s).fillRect(20 * s, 14 * s, 1 * s, 1 * s);
+/** Cabeza genérica (22x20) para quien no tiene retrato: pelo corto y cara. */
+const DEFAULT_HEAD = [
+  '......................',
+  '.......########.......',
+  '.....############.....',
+  '....##############....',
+  '...################...',
+  '...################...',
+  '...################...',
+  '..##################..',
+  '..###ssss####ssss###..',
+  '..##ssssssssssssss##..',
+  '..#ssssssssssssssss#..',
+  '..#ssssssssssssssss#..',
+  '..sssseessssssseesss..',
+  '..sssseessssssseesss..',
+  '...ssssssssssssssss...',
+  '...ssssssssssssssss...',
+  '....ssssssssssssss....',
+  '.....ssssssssssss.....',
+  '.......ssssssss.......',
+  '.........ssss.........',
+];
+
+/** Cuerpo de frente, piernas abiertas como en los partidos de IE3 (26 de ancho). */
+const BODY = [
+  '..........CccC............',
+  '......ssssCSSCssss........',
+  '.....ssssssSSssssss.......',
+  '....tssssssssssssssst.....',
+  '....ttssssssssssssstt.....',
+  '....kkssssssssssssskk.....',
+  '....kk.ppppppppppp.kk.....',
+  '.......pppppppppppp.......',
+  '......ppppp..ppppppp......',
+  '.....kkkk......kkkk.......',
+  '.....kkk........kkk.......',
+  '....ccc.........ccc.......',
+  '....ccc..........ccc......',
+  '...bbbb..........bbbb.....',
+  '...bbbb..........bbbb.....',
+];
+
+export const SPRITE_PX = { w: 26, h: 33 };
+
+type RGB = [number, number, number];
+const rgb = (c: number): RGB => [(c >> 16) & 255, (c >> 8) & 255, c & 255];
+const shadeRgb = (c: RGB, f: number): RGB => [Math.min(255, c[0] * f), Math.min(255, c[1] * f), Math.min(255, c[2] * f)];
+
+function genericLook(p: PlayerData): Look {
+  return { hair: p.look?.hair ?? '#3a2a1a', skin: p.look?.skin ?? '#f1c79b', eyes: '#2a1a14', head: DEFAULT_HEAD };
+}
+
+/**
+ * Muñeco en pixel art parecido al jugador: la cabeza sale de su retrato de Victory Road (silueta del pelo,
+ * piel, ojos y accesorio, en src/data/looks.json) y el cuerpo lleva la equipación de su equipo.
+ */
+function drawPixelSprite(p: PlayerData, team: TeamData): ImageData {
+  const look = lookOf(team.id, p.id) ?? genericLook(p);
+  const { w: W, h: H } = SPRITE_PX;
+  const img = new ImageData(W, H);
+  const put = (x: number, y: number, c: RGB) => {
+    if (x < 0 || y < 0 || x >= W || y >= H) return;
+    const i = (y * W + x) * 4;
+    img.data[i] = c[0];
+    img.data[i + 1] = c[1];
+    img.data[i + 2] = c[2];
+    img.data[i + 3] = 255;
+  };
+  const skin = rgb(hex(look.skin));
+  const hair = rgb(hex(look.hair));
+  const eyes = rgb(hex(look.eyes));
+  const acc = look.accessory ? rgb(hex(look.accessory)) : hair;
+  const shirt = rgb(hex(p.position === 'GK' ? team.colors.gkShirt : team.colors.shirt));
+  const shorts = rgb(hex(team.colors.shorts));
+  const trim = rgb(hex(team.colors.accent));
+  const socks = p.position === 'GK' ? shirt : shorts;
+  // cuerpo
+  const bodyY = 18;
+  const bodyPal: Record<string, RGB> = { s: shirt, S: trim, C: trim, c: socks, t: shadeRgb(shirt, 0.78), k: skin, p: shorts, b: [36, 36, 44] };
+  BODY.forEach((row, y) => [...row].forEach((ch, x) => ch in bodyPal && put(x, bodyY + y, ch === 'C' && y === 0 ? trim : ch === 'c' && y < 3 ? trim : bodyPal[ch])));
+  // cabeza
+  const head = look.head.length ? look.head : DEFAULT_HEAD;
+  const hasEyes = head.some((r) => r.includes('e'));
+  const at = (x: number, y: number) => head[y]?.[x] ?? '.';
+  head.forEach((row, y) =>
+    [...row].forEach((ch, x) => {
+      const px = x + 2;
+      if (ch === '#') {
+        // brillo arriba, sombra abajo
+        const up = at(x, y - 1) === '.';
+        const down = at(x, y + 1) === 's' || at(x, y + 1) === 'e';
+        put(px, y, up ? shadeRgb(hair, 1.25) : down ? shadeRgb(hair, 0.72) : hair);
+      } else if (ch === 'a') put(px, y, at(x, y - 1) === 'a' ? acc : shadeRgb(acc, 1.2));
+      else if (ch === 's') put(px, y, at(x, y - 1) === '#' || at(x, y - 1) === 'a' ? shadeRgb(skin, 0.86) : skin);
+      else if (ch === 'e') put(px, y, at(x, y - 1) === 'e' ? eyes : [250, 250, 250]);
+    }),
+  );
+  if (!hasEyes) {
+    // ojos por defecto: en la fila de cara más ancha por encima del centro
+    let best = 12;
+    let bestW = 0;
+    for (let y = 9; y < 15; y++) {
+      const w = [...(head[y] ?? '')].filter((c) => c === 's').length;
+      if (w > bestW) [best, bestW] = [y, w];
+    }
+    const row = head[best] ?? '';
+    const xs = [...row].map((c, i) => (c === 's' ? i : -1)).filter((i) => i >= 0);
+    if (xs.length > 6) {
+      const mid = Math.round((xs[0] + xs[xs.length - 1]) / 2);
+      for (const ex of [mid - 4, mid + 3]) {
+        put(ex + 2, best, eyes);
+        put(ex + 3, best, eyes);
+        put(ex + 2, best + 1, eyes);
+        put(ex + 3, best + 1, [250, 250, 250]);
+      }
+    }
+  }
+  // contorno oscuro alrededor de todo
+  const filled = (x: number, y: number) => x >= 0 && y >= 0 && x < W && y < H && img.data[(y * W + x) * 4 + 3] === 255;
+  const edge: [number, number][] = [];
+  for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) if (!filled(x, y) && (filled(x - 1, y) || filled(x + 1, y) || filled(x, y - 1) || filled(x, y + 1))) edge.push([x, y]);
+  for (const [x, y] of edge) put(x, y, [28, 20, 22]);
+  return img;
 }
 
 export function makePlayerSprite(scene: Phaser.Scene, p: PlayerData, team: TeamData): void {
-  const key = texKey.sprite(p.id);
+  const key = texKey.sprite(p.id, team.id);
   if (scene.textures.exists(key)) return;
-  const g = scene.make.graphics({}, false);
-  drawChibi(g, p, team);
-  g.generateTexture(key, SPRITE_W, SPRITE_H);
-  g.destroy();
+  const tex = scene.textures.createCanvas(key, SPRITE_PX.w, SPRITE_PX.h);
+  if (!tex) return;
+  tex.getContext().putImageData(drawPixelSprite(p, team), 0, 0);
+  tex.refresh();
+  tex.setFilter(Phaser.Textures.FilterMode.NEAREST);
 }
 
+/** Retrato de reserva para quien no tiene el de Victory Road: la cabeza del sprite en grande. */
 export function makePortrait(scene: Phaser.Scene, p: PlayerData, team: TeamData): void {
-  const key = texKey.portrait(p.id);
+  const key = `portrait-gen:${team.id}:${p.id}`;
   if (scene.textures.exists(key)) return;
   const size = 96;
-  const g = scene.make.graphics({}, false);
-  const accent = hex(team.colors.accent);
-  g.fillStyle(darken(accent, 0.55)).fillRoundedRect(0, 0, size, size, 10);
-  g.fillStyle(accent).fillRoundedRect(4, 4, size - 8, size - 8, 8);
-  g.fillStyle(0xffffff, 0.12).fillRect(4, 4, size - 8, 30);
-  // busto: la cabeza del chibi a escala
-  const bust = scene.make.graphics({}, false);
-  drawChibi(bust, p, team, 2.6);
-  const rt = scene.make.renderTexture({ width: size, height: size }, false);
-  rt.draw(g, 0, 0);
-  rt.draw(bust, size / 2 - 18 * 2.6, 8);
-  const label = scene.make.text(
-    { text: String(p.number), style: { fontFamily: FONT, fontSize: '18px', color: '#ffffff', stroke: '#000000', strokeThickness: 4 } },
-    false,
-  );
-  rt.draw(label, 8, size - 28);
-  rt.saveTexture(key);
-  g.destroy();
-  bust.destroy();
-  label.destroy();
+  const tex = scene.textures.createCanvas(key, size, size);
+  if (!tex) return;
+  const ctx = tex.getContext();
+  const accent = Phaser.Display.Color.IntegerToColor(hex(team.colors.accent));
+  ctx.fillStyle = accent.rgba;
+  ctx.fillRect(0, 0, size, size);
+  const sprite = document.createElement('canvas');
+  sprite.width = SPRITE_PX.w;
+  sprite.height = SPRITE_PX.h;
+  sprite.getContext('2d')!.putImageData(drawPixelSprite(p, team), 0, 0);
+  ctx.imageSmoothingEnabled = false;
+  // la cabeza (22x20) ocupa el retrato
+  ctx.drawImage(sprite, 1, 0, 24, 24, 0, 0, size, size);
+  ctx.fillStyle = '#ffffff';
+  ctx.font = `bold 18px ${FONT}`;
+  ctx.strokeStyle = '#000000';
+  ctx.lineWidth = 4;
+  ctx.strokeText(String(p.number), 8, size - 10);
+  ctx.fillText(String(p.number), 8, size - 10);
+  tex.refresh();
+  tex.setFilter(Phaser.Textures.FilterMode.NEAREST);
 }
 
 export function makeEmblem(scene: Phaser.Scene, team: TeamData): void {

@@ -22,17 +22,21 @@ de los dibujos provisionales. No hay que tocar código ni ningún archivo de con
 ```
 src/assets/pack/
   sprites/     muñeco en el campo        → sprites/mark-evans.png
-  portraits/   retrato (ficha y duelos)  → portraits/mark-evans.png
-  emblems/     escudo del equipo         → emblems/inazuma-japan.png
+  portraits/   retrato (ficha y duelos)  → portraits/mark-evans.png (todos sus equipos)
+                                           portraits/ie3-inazuma-japan/mark-evans.webp (solo ese equipo)
+  emblems/     escudo del equipo         → emblems/ie3-inazuma-japan.png
 ```
 
 - Formatos: `.png` (recomendado), `.webp`, `.gif` o `.jpg`.
 - **Sprite de campo**: un solo fotograma del jugador de frente, parado, con fondo transparente.
   Se escala a 46 px de alto con escalado nítido, así que vale el tamaño original de la DS.
-- **Retrato**: cuadrado, con o sin fondo.
+- **Retrato**: cuadrado, con o sin fondo. Los de Victory Road de cada equipo ya están (los baja
+  `tools/wiki/sprites.py`); uno puesto directamente en `portraits/` vale para todos los equipos del jugador
+  que no tengan el suyo.
 - **Escudo**: cuadrado con fondo transparente.
-- Lo que no pongas se sigue dibujando con el gráfico provisional; puedes ir poco a poco.
-- Un jugador que está en varios equipos usa el mismo archivo en todos.
+- Lo que no pongas se sigue dibujando por código (el muñeco en pixel art parecido a cada jugador);
+  puedes ir poco a poco.
+- Un sprite de campo puesto aquí se usa en todos los equipos del jugador, con la ropa que traiga dibujada.
 
 Esta lista se regenera con `python3 -I tools/pack_readme.py`.
 

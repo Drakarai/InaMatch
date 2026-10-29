@@ -42,7 +42,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nata Juuzou",
-   "description": "He is a bit dangerous with a grass cutter on the pitch."
+   "description": "Peligroso personaje que corta el césped del campo con una guadaña."
   },
   {
    "id": "russell-walk",
@@ -74,7 +74,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sanzu Wataru",
-   "description": "After a spooky experience, even he is not sure if he is realy alive!"
+   "description": "Desde que hizo espiritismo, no sabe si su cuerpo le pertenece."
   },
   {
    "id": "jason-jones",
@@ -106,7 +106,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Yanagida Shigeru",
-   "description": "He believes in ghosts an blames them for everything."
+   "description": "Estudioso de seres fantásticos a los que echa la culpa de todo."
   },
   {
    "id": "ken-furan",
@@ -138,7 +138,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Furan Ken",
-   "description": "Trying to create life, but biology is his worst class."
+   "description": "Hace experimentos para crear vida, pero no les encuentra el pulso."
   },
   {
    "id": "jerry-fulton",
@@ -170,7 +170,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Shikabane Fujimi",
-   "description": "A dangerous player due to believing himself to be invincible."
+   "description": "Como cree que es inmortal, se pone en peligro a propósito."
   },
   {
    "id": "ray-mannings",
@@ -202,7 +202,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Reigen Michihisa",
-   "description": "Although a bit stiff, he disturbs opponents by flying around them."
+   "description": "Su cuerpo es tan rígido que al correr parece que vaya rebotando."
   },
   {
    "id": "robert-mayer",
@@ -234,7 +234,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Kinoi Mami",
-   "description": "As he gets cold easily, he always keeps well wrapped up."
+   "description": "Su piel se seca con suma facilidad y por eso se la cubre de vendajes."
   },
   {
    "id": "alexander-brave",
@@ -266,7 +266,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Yatsuhaka Tataru",
-   "description": "People say he knows how to invoke catastrophic curses when angry."
+   "description": "Experto en maleficios y brujerías. Enojarle es buscarse la ruina."
   },
   {
    "id": "troy-moon",
@@ -298,7 +298,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tsukimura Kenichi",
-   "description": "Just a glance at a full moon gives \"Wolf Boy\" violent tendencies."
+   "description": "Le llaman \"el licántropo\" porque al mirar la luna pierde el juicio."
   },
   {
    "id": "burt-wolf",
@@ -330,7 +330,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Burado Kiba",
-   "description": "Pale from always doing night shifts. Loves tomato juice."
+   "description": "Al caer la noche juega como nadie. Bebe mucho zumo de tomate."
   },
   {
    "id": "johan-tassman",
@@ -362,7 +362,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Yuukoku Hiroyuki",
-   "description": "Uses his power to receive training from the ghosts of famous players."
+   "description": "Su \"don\" le permite contactar con espíritus de futbolistas."
   },
   {
    "id": "rob-crombie",
@@ -394,7 +394,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fushi Matsuru",
-   "description": "Doesn't feel a thing, no matter how badly injured."
+   "description": "Por muchas patadas que le den es incapaz de sentir dolor."
   },
   {
    "id": "chuck-dollman",
@@ -426,7 +426,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Hitogata Gen",
-   "description": "Thinks he was made in a workshop and has no memories of the past."
+   "description": "No recuerda nada de su pasado, cree que es un androide."
   },
   {
    "id": "uxley-allen",
@@ -458,7 +458,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tsuburaya Michi",
-   "description": "He believes in UFOs and watches out for them every night."
+   "description": "Cree en los ovnis y por eso, cada noche, observa las estrellas."
   },
   {
    "id": "phil-noir",
@@ -490,7 +490,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Kurogami Noroi",
-   "description": "An expert in black magic. He curses the opposition before every match."
+   "description": "Sabe lo suyo de magia negra, y la emplea para maldecir a los rivales."
   },
   {
    "id": "mick-askley",
@@ -522,7 +522,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Makai Takao",
-   "description": "He believes he is not human and hides behind a mysterious mask."
+   "description": "Cree que no es humano y por eso lleva siempre el rostro cubierto."
   }
  ]
 }

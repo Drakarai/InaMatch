@@ -185,10 +185,24 @@ Cómo está hecho:
   `src/gfx/fxkit.ts` y los efectos básicos en `src/gfx/fx.ts`).
 - **Cambiar el efecto de una técnica:** edita su línea en `tools/zukan/recipes.txt` y vuelve a ejecutar el script.
 
-## Sprites originales
+## Jugadores: sprites, retratos y descripciones
 
-El juego funciona con gráficos provisionales dibujados por código. Para usar los originales,
-mete las imágenes en `src/assets/pack/` con el nombre del jugador (`sprites/axel-blaze.png`…).
+- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (732 de 810). Sale en la ficha
+  de la formación, en el panel del partido y en la animación de las supertécnicas. Los baja
+  `python3 -I tools/wiki/sprites.py` de la wiki inglesa a `src/assets/pack/portraits/<equipo>/<jugador>.webp`, y se
+  cargan al elegir equipos.
+- **Sprite del campo:** un muñeco en pixel art, al estilo de los partidos de IE3, parecido a cada jugador:
+  - El mismo script saca de su retrato el color del pelo, de la piel y de los ojos, la silueta del peinado y algún
+    accesorio, como la cinta de Mark (`src/data/looks.json`).
+  - El juego lo dibuja con la equipación de su equipo, y en otro color si es portero.
+  - Quien no tiene retrato lleva una cabeza genérica.
+- **Descripción:** la oficial de los juegos en español, de la [wiki española](https://inazuma.fandom.com/es/), la de la
+  temporada de su equipo (la saca `tools/wiki/teams.py`). Unas 70 no tienen versión española y van en inglés.
+
+### Sprites originales
+
+Si tienes los sprites de verdad, mételos en `src/assets/pack/sprites/` con el nombre del jugador
+(`sprites/axel-blaze.png`…) y sustituyen al muñeco dibujado.
 [Instrucciones y lista de nombres](src/assets/pack/README.md). Se incluyen también en `npm run build:single`.
 
 ## Publicarlo gratis (Cloudflare Pages, con el repo privado)

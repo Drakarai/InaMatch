@@ -42,7 +42,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nanzan Yowami",
-   "description": "People think he looks like a wimp until they see him with the ball."
+   "description": "Parece pusilánime, pero al mirar el balón le cambia el semblante."
   },
   {
    "id": "malcolm-night",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Nishigaki Mamoru",
-   "description": "He looks like a famous pro player with his eye-catching hairstyle."
+   "description": "Como todos los grandes jugadores, lleva un peinado que da el cante."
   },
   {
    "id": "alfred-meenan",
@@ -106,7 +106,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Megawa Akihi",
-   "description": "A die-hard fan of expensive brands. Always chasing the latest fashions."
+   "description": "Siempre trata de ir al último grito en moda, y para ello viste de marca."
   },
   {
    "id": "dan-mirthful",
@@ -138,7 +138,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Mitsumune Dan",
-   "description": "Likes nothing better than a good sleep...often during school time."
+   "description": "Dormir le hace tan feliz que siempre llega tarde a todas partes."
   },
   {
    "id": "ricky-clover",
@@ -170,7 +170,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kurobe Ritsuki",
-   "description": "Rock solid and stock still, he's often mistaken for a statue."
+   "description": "Suele estar quieto como una estatua y todos lo toman por una."
   },
   {
    "id": "toby-damian",
@@ -202,7 +202,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tobiyama Dan",
-   "description": "He may only be small, but he can jump around like a flea."
+   "description": "Es pequeñajo, pero su capacidad de salto deja atónito a cualquiera."
   },
   {
    "id": "york-nashmith",
@@ -234,7 +234,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Yakata Naoto",
-   "description": "Loves nothing more than a kip on the roof - fortunately, he lives in a bungalow."
+   "description": "Le gusta sestear en el tejado, pero a veces da vueltas y se cae de él."
   },
   {
    "id": "zachary-moore",
@@ -266,7 +266,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Mogi Sakito",
-   "description": "An average individual player, but adds a lot to team manoeuvres."
+   "description": "No es demasiado bueno, pero cuando da asistencias es otro cantar."
   },
   {
    "id": "axel-blaze",
@@ -298,7 +298,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Gouenji Shuuya",
-   "description": "A cool transfer student renowned as a legendary striker."
+   "description": "Tras su aspecto frío se esconde una pasión sin límites por el fútbol."
   },
   {
    "id": "marvin-murdock",
@@ -330,7 +330,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Mukata Masaru",
-   "description": "The eldest brother and captain. Wants to win more than anyone else."
+   "description": "Hermano mayor de los trillizos y capitán. Ansía ganarlo todo."
   },
   {
    "id": "thomas-murdock",
@@ -362,7 +362,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Mukata Tomo",
-   "description": "He may be the middle brother, but he acts as the team's linchpin."
+   "description": "Hermano mediano de los trillizos. Es cordial y el equipo confía en él."
   },
   {
    "id": "tyler-murdock",
@@ -394,7 +394,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Mukata Tsutomu",
-   "description": "Being the youngest, he trains hard to be just like his brothers."
+   "description": "Admira a sus dos hermanos mayores y se entrena para ser como ellos."
   },
   {
    "id": "simon-calier",
@@ -426,7 +426,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Dandou Masanori",
-   "description": "Runs up and down the stairs to his top-floor flat to train his legs."
+   "description": "Para fortalecer sus piernas, sube y baja las escaleras de su edificio."
   },
   {
    "id": "brody-gloom",
@@ -458,7 +458,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fukazawa Nenji",
-   "description": "A serious player who still broods over a match he lost 3 years ago."
+   "description": "Joven íntegro que aún medita sobre derrotas sufridas hace 3 años."
   },
   {
    "id": "victor-talis",
@@ -490,7 +490,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Mamorino Yuuichi",
-   "description": "Was no good at football until he got his grandad's lucky charm."
+   "description": "Era un paquete, pero su abuelo le entrenó y ha mejorado un montón."
   },
   {
    "id": "eren-middleton",
@@ -522,7 +522,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Nakai Yousuke",
-   "description": "Drags his feet when asked to help... unless it's a girl that's asking."
+   "description": "Es un poco torpe, pero si una chica se lo pide, se pone las pilas."
   }
  ]
 }

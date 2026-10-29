@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Munakata Hiroto",
-   "description": "Learnt to play football through playing video games."
+   "description": "Se aprendió el reglamento jugando a videojuegos de fútbol."
   },
   {
    "id": "keth-claus",
@@ -74,7 +74,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Hideyama Kaito",
-   "description": "Used to be a gang leader, but now takes care of his team members."
+   "description": "Era el granuja del barrio. El fútbol le enseñó a respetar a los demás."
   },
   {
    "id": "robert-silver",
@@ -106,7 +106,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Kitagaki Ryouta",
-   "description": "He's always dreaming up new pranks, which always gets him into trouble."
+   "description": "Cada día idea una nueva travesura que hace enfadar a alguien."
   },
   {
    "id": "izzy-island",
@@ -138,7 +138,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sejima Itsuki",
-   "description": "Studies football theory. Known for asking adults difficult questions."
+   "description": "Un teórico del fútbol que lanza preguntas aguadas a los adultos."
   },
   {
    "id": "sothern-newman",
@@ -170,7 +170,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shintake Souta",
-   "description": "Practises relentlessly, but puts on weight by eating too many snacks."
+   "description": "Se entrena muy duro, pero tiende a engordar porque pica entre horas."
   },
   {
    "id": "bart-grantham",
@@ -202,7 +202,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Ooshima Yuuichi",
-   "description": "Loves aeroplanes and dreams of becoming a pilot one day."
+   "description": "Le encantan los aviones y sueña con convertirse en piloto."
   },
   {
    "id": "irwin-hall",
@@ -234,7 +234,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ikejiri Haru",
-   "description": "Worried about his height, he drinks milk daily to make his bones grow."
+   "description": "Se esfuerza en beber mucha leche porque le preocupa no crecer más."
   },
   {
    "id": "taylor-higgins",
@@ -266,7 +266,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Terasaka Hibiki",
-   "description": "A mother's boy who always falters if his mum isn't in the crowd."
+   "description": "Niño mimado incapaz de jugar bien si su madre no acude a animarlo."
   },
   {
    "id": "jamie-cool",
@@ -298,7 +298,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kouzu Sora",
-   "description": "Has pride in his speed and often attends athletic meets."
+   "description": "Confía mucho en su velocidad. Está impaciente por correr un maratón."
   },
   {
    "id": "hans-randall",
@@ -330,7 +330,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hazama Ryuusuke",
-   "description": "A rising star who has taken part in the national junior championships."
+   "description": "Hábil jugador que llegó a debutar en el campeonato de cadetes."
   },
   {
    "id": "millie-moonlight",
@@ -362,7 +362,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kisaragi Mako",
-   "description": "This team-leading girl is the daughter of a restaurant owner."
+   "description": "Es la líder de la panda del barrio. Su madre regenta una taberna."
   },
   {
    "id": "michael-riverside",
@@ -394,7 +394,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Morimoto Rikuto",
-   "description": "He became a footballer by copying all of his heroes' moves."
+   "description": "Imitando a jugadores de fútbol, él mismo acabó convirtiéndose en uno."
   },
   {
    "id": "karl-blue",
@@ -426,7 +426,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Aoshima Kaoru",
-   "description": "Likes teasing people, especially if he can knock them down a peg or two."
+   "description": "Le gusta amedrentar a la gente, en especial a los que van de chulos."
   },
   {
    "id": "theakston-plank",
@@ -458,7 +458,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Amai Kazuya",
-   "description": "No matter what people say, this kid is two players short of a team."
+   "description": "Está siempre en la parra. Cuesta hacerle seguir una conversación."
   },
   {
    "id": "ken-cake",
@@ -490,7 +490,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Hirata Ken",
-   "description": "A cake fiend whose favourite haunt is an all-you-can-eat cake buffet."
+   "description": "Los pasteles son su perdición. A pesar de su edad, los come a kilos."
   },
   {
    "id": "mitch-grumble",
@@ -522,7 +522,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Hasebe Seiji",
-   "description": "The runt of a family big enough to make a team of their own."
+   "description": "Benjamín de una familia tan grande que da para formar un equipo."
   }
  ]
 }

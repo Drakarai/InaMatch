@@ -40,7 +40,8 @@
     "hair": "#4c8a3c",
     "skin": "#f1c79b"
    },
-   "wiki": "Shuri Iwao"
+   "wiki": "Shuri Iwao",
+   "description": "Es como un perro guardián que ahuyenta a los balones."
   },
   {
    "id": "chad-taylor",
@@ -72,7 +73,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Taira Moguru",
-   "description": "This master diver can descend to depths of over a hundred metres without an air tank."
+   "description": "Submarinista excepcional que puede descender unos 100 m a pulmón."
   },
   {
    "id": "victor-hills",
@@ -104,7 +105,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Gibo Kanekatsu",
-   "description": "He cleans up his local beaches every day by picking up rubbish."
+   "description": "Cada día recoge basura y limpia las playas de la isla de Okinawa."
   },
   {
    "id": "hurley-kane",
@@ -134,7 +135,8 @@
     "hair": "#3a2a1a",
     "skin": "#f1c79b"
    },
-   "wiki": "Tsunami Jousuke"
+   "wiki": "Tsunami Jousuke",
+   "description": "Surfista del campo. La gente le adora por su carácter entusiasta."
   },
   {
    "id": "hector-redding",
@@ -165,7 +167,8 @@
     "hair": "#4c8a3c",
     "skin": "#f1c79b"
    },
-   "wiki": "Akamine Hiroaki"
+   "wiki": "Akamine Hiroaki",
+   "description": "Cuando está de buen humor, baila mientras toca la guitarra."
   },
   {
    "id": "mackenzie-fordline",
@@ -197,7 +200,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Toguchi Masahiro",
-   "description": "He swears by goat milk, though those around him complain of the smell."
+   "description": "Le encanta el cabrito. Aunque huele muy fuerte, está enganchado."
   },
   {
    "id": "cadence-soundtown",
@@ -229,7 +232,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Otomura Gakuya",
-   "description": "He has an irritating habit of humming the last song he heard all day long."
+   "description": "Se pasa el día escuchando música, ¿Qué canciones le gustarán?"
   },
   {
    "id": "dora-delight",
@@ -260,7 +263,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kyan Rinka",
-   "description": "She has an extensive collection of seashells and knows the name of almost all of them."
+   "description": "Colecciona conchas. Se sabe el nombre de casi todos los moluscos."
   },
   {
    "id": "tom-contented",
@@ -292,7 +295,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Koja Hidenori",
-   "description": "He likes being fashionably late and is always an hour later than anyone else."
+   "description": "Para él llegar una hora tarde no es retrasarse."
   },
   {
    "id": "joston-easton",
@@ -324,7 +327,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Agarie Yasuo",
-   "description": "He has an impressive repertoire of chat-up lines the for girls visiting from the mainland."
+   "description": "Se le da bien hablar con chicas en la playa."
   },
   {
    "id": "spring-millpond",
@@ -356,7 +359,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ikemiyagi Haru",
-   "description": "Attacks the ball like a shark and won't let go once it's in his grasp."
+   "description": "Es como un tiburón. Una vez que agarra la pelota, no lo suelta."
   },
   {
    "id": "gaston-cooley",
@@ -388,7 +391,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Amuro Mikio",
-   "description": "He was born in Okinawa but can't stand the heat, so constantly uses air conditioning."
+   "description": "Aunque nació en una isla tropical, no aguanta bien el calor."
   },
   {
    "id": "bevan-breakfast",
@@ -419,7 +422,8 @@
     "hair": "#3a2a1a",
     "skin": "#9a6a44"
    },
-   "wiki": "Oyadomari Nagase"
+   "wiki": "Oyadomari Nagase",
+   "description": "La pensión de su familia es muy acogedora y los clientes vuelven."
   },
   {
    "id": "jack-griddle",
@@ -451,7 +455,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Zukeran Reito",
-   "description": "He needs to eat meat to be at full power. Any meat will do."
+   "description": "Si no come carne de cerdo o de ternera, no tiene fuerzas."
   },
   {
    "id": "stan-andagi",
@@ -482,7 +486,8 @@
     "hair": "#efe6c4",
     "skin": "#f1c79b"
    },
-   "wiki": "Chinen Naoki"
+   "wiki": "Chinen Naoki",
+   "description": "Hace una rosquillas para chuparse los dedos, pero no da a nadie."
   },
   {
    "id": "coral-talent",
@@ -514,7 +519,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Jahana Sango",
-   "description": "Tourists love the jewellery she makes out of coral."
+   "description": "Fabrica accesorios con coral que entusiasman a los turistas."
   }
  ]
 }

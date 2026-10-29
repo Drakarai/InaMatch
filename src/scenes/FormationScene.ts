@@ -4,7 +4,8 @@ import { getTeam, movesOf } from '../data';
 import { ELEMENT_COLOR, ELEMENT_LABEL } from '../data/elements';
 import { FORMATIONS, getFormation } from '../data/formations';
 import type { PlayerData, Stats } from '../data/types';
-import { texKey } from '../gfx/placeholders';
+import { portraitPack } from '../gfx/pack';
+import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
 import { lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
 import { POS_COLOR, THEME, pt, sectionTitle, slant, teamBackdrop, themePanel } from '../ui/theme';
 import { Button, StatBar, text } from '../ui/widgets';
@@ -47,6 +48,14 @@ export class FormationScene extends Phaser.Scene {
     this.home = data.home;
     this.away = data.away;
     this.selected = null;
+  }
+
+  /** Retratos de Victory Road de los dos equipos (se cargan aquí, no al arrancar el juego). */
+  preload(): void {
+    for (const { key, url } of portraitPack([this.home.teamId, this.away.teamId])) {
+      if (!this.textures.exists(key)) this.load.image(key, url);
+    }
+    this.load.on(Phaser.Loader.Events.FILE_COMPLETE, (key: string) => this.textures.get(key).setFilter(Phaser.Textures.FilterMode.LINEAR));
   }
 
   create(): void {
@@ -145,7 +154,7 @@ export class FormationScene extends Phaser.Scene {
     const g = this.add.graphics();
     g.fillStyle(0x000000, 0.35).fillEllipse(0, 20, 40, 12);
     if (selected) g.fillStyle(THEME.yellow, 0.35).fillCircle(0, 0, 28).lineStyle(3, THEME.yellow).strokeCircle(0, 0, 28);
-    const sprite = this.add.image(0, -2, texKey.sprite(p.id));
+    const sprite = this.add.image(0, -2, spriteKey(this, p, getTeam(this.home.teamId)));
     sprite.setScale(44 / sprite.height);
     const nameBand = this.add.graphics();
     const label = text(this, 0, 32, p.short, 12, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 3 }).setOrigin(0.5);
@@ -196,7 +205,7 @@ export class FormationScene extends Phaser.Scene {
     // retrato en un marco inclinado
     g.fillStyle(accent).fillPoints(slant(14, 16, 132, 132, 18), true);
     g.fillStyle(0x000000, 0.35).fillPoints(slant(20, 22, 120, 120, 16), true);
-    const portrait = this.add.image(80, 82, texKey.portrait(p.id)).setDisplaySize(112, 112);
+    const portrait = this.add.image(80, 82, portraitKey(this, p, team)).setDisplaySize(112, 112);
     // nombre y etiquetas
     const name = text(this, 166, 20, p.name, 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 4 });
     for (let size = 26; name.width > 360 && size > 15; ) name.setFontSize(--size);

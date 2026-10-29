@@ -41,7 +41,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Zolani Baloyi",
-   "description": "He thinks his life is so interesting that he'd like to make a documentary about it."
+   "description": "Piensa que su vida es tan interesante que debería hacer un documental sobre ella."
   },
   {
    "id": "dakarai-furman",
@@ -73,7 +73,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Dingaa Figlan",
-   "description": "On the pitch, he entrusts his movements to instinct, and the rhythm of nature."
+   "description": "En el campo, deja que la naturaleza y su propio instinto guíen sus movimientos."
   },
   {
    "id": "jake-fana",
@@ -103,7 +103,8 @@
     "hair": "#8b5a2b",
     "skin": "#f1c79b"
    },
-   "wiki": "Jake Fana"
+   "wiki": "Jake Fana",
+   "description": "Piensa que la producción de diamantes sintéticos es un negocio con futuro."
   },
   {
    "id": "masego-molelo",
@@ -133,7 +134,8 @@
     "hair": "#8b5a2b",
     "skin": "#f1c79b"
    },
-   "wiki": "Mzonge Ledwaba"
+   "wiki": "Mzonge Ledwaba",
+   "description": "Le interesa el mercado de valores y se informa sobre el tema para estar al día."
   },
   {
    "id": "cassius-tobler",
@@ -165,7 +167,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Cassius Thobela",
-   "description": "He wants to find a way to combine both instinct and scientific reasoning."
+   "description": "Quiere encontrar una manera de combinar instinto natural y razonamiento científico."
   },
   {
    "id": "anton-nortje",
@@ -197,7 +199,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Athol Nortje",
-   "description": "His signature move is an all-or-nothing charge that he perfected playing rugby."
+   "description": "Su técnica personal es realizar una carga salvaje que perfeccionó jugando al rugby."
   },
   {
    "id": "adam-marunga",
@@ -229,7 +231,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Abari Malinga",
-   "description": "This player hopes that football can become a tool to end racial discrimination."
+   "description": "Este jugador piensa que el fútbol puede ser un medio para acabar con el racismo."
   },
   {
    "id": "siyabonga-mahlangu",
@@ -260,7 +262,8 @@
     "hair": "#6b3e1f",
     "skin": "#e8b888"
    },
-   "wiki": "Thulani Mhlongo"
+   "wiki": "Thulani Mhlongo",
+   "description": "Sueña con dar la vuelta al mundo en un velero de manufactura propia."
   },
   {
    "id": "nathan-tswane",
@@ -291,7 +294,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Natal Tsola",
-   "description": "He lets an ostrich chase him to train his legs and balance."
+   "description": "Deja que le persiga un avestruz para reforzar sus piernas y ganar velocidad."
   },
   {
    "id": "melisizwe-zamani",
@@ -323,7 +326,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Mulamuli Zamani",
-   "description": "He says that mutton is a versatile and delicious meat, and won't hear otherwise."
+   "description": "Afirma que la carne de carnero es versátil y deliciosa y no piensa dar su brazo a torcer."
   },
   {
    "id": "herschel-de-villiers",
@@ -354,7 +357,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hezekiél DeVillias",
-   "description": "He has an affinity with wild beasts. They say he once rode on a lion's back."
+   "description": "Se le dan bien los animales salvajes. Dicen que una vez cabalgó a lomos de un león."
   },
   {
    "id": "reggie-ines",
@@ -386,7 +389,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Reggie Innes",
-   "description": "He's taking a stand against the illegal hunting of wild pachyderms."
+   "description": "Está completamente en contra de la caza indiscriminada de paquidermos salvajes."
   },
   {
    "id": "kennedy-mccarthy",
@@ -418,7 +421,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kennede Mulobedzi",
-   "description": "He wants to find a gold mine and get rich quick, but he has no idea where to start."
+   "description": "Quiere hallar una mina de oro para hacerse rico, pero no sabe por dónde empezar."
   },
   {
    "id": "moeneeb-booysen",
@@ -448,7 +451,8 @@
     "hair": "#4c8a3c",
     "skin": "#f1c79b"
    },
-   "wiki": "Mbulelo Tsimba"
+   "wiki": "Mbulelo Tsimba",
+   "description": "Planta árboles para aportar un granito de arena contra el calentamiento global."
   },
   {
    "id": "hugh-makebe",
@@ -480,7 +484,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Hugh Makeba",
-   "description": "He has to be supplied with rooibos tea, or he gets anxious."
+   "description": "Si no se toma una tila al día, se pone muy nervioso."
   },
   {
    "id": "themba-sepeng",

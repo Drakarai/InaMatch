@@ -42,7 +42,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tetsukabe Ken",
-   "description": "This iron man doesn't allow any monkey business while he's around."
+   "description": "Es imposible que se cometa un delito si él está presente."
   },
   {
    "id": "timothy-western",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Goyou Takeshi",
-   "description": "He carries an old truncheon and never lets wrong-doers get away with it."
+   "description": "Siempre lleva una porra y si coge a un criminal, no lo suelta."
   },
   {
    "id": "wallace-hammond",
@@ -106,7 +106,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hayate Hayato",
-   "description": "No one's faster when it comes down to tracking down criminals."
+   "description": "Cuando se trata de perseguir a un criminal, nadie corre más que él."
   },
   {
    "id": "shirley-stevens",
@@ -138,7 +138,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Sakura Tamon",
-   "description": "He will undergo any hardship to ensure the safety of his country."
+   "description": "Haría cualquier cosa con tal de proteger la paz de su país."
   },
   {
    "id": "ian-smith",
@@ -170,7 +170,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Sumisu Eiji",
-   "description": "There's nowhere to run and nowhere to hide from his hawk-like eye."
+   "description": "Cuando marca a un jugador, lo persigue hasta el fin del mundo."
   },
   {
    "id": "greene-beray",
@@ -202,7 +202,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tokube Nariyuki",
-   "description": "A special operative who underwent the most rigorous training."
+   "description": "Espía que ha entrenado en varias misiones especiales muy duras."
   },
   {
    "id": "taylor-firepool",
@@ -233,7 +233,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Gokuhi Tsutomu",
-   "description": "He'll complete impossible missions without even breaking a sweat."
+   "description": "Cumple en un santiamén cualquier misión imposible que le propongan."
   },
   {
    "id": "marge-fielding",
@@ -264,7 +264,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tateno Mai",
-   "description": "A master of self-defence who can gracefully sidestep any attack."
+   "description": "Domina las técnicas defensivas. Puede parar cualquier ataque."
   },
   {
    "id": "marshall-firsthand",
@@ -296,7 +296,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sakite Masaru",
-   "description": "He can stop crimes before they're committed by second-guessing criminal's moves."
+   "description": "Prevé lo que piensan los criminales y evita que ocurran desgracias."
   },
   {
    "id": "holly-mirror",
@@ -328,7 +328,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kagami Houko",
-   "description": "A criminal profiler who gets into the minds of criminals to solve cases."
+   "description": "Prevé lo que piensan los criminales y evita que ocurran desgracias."
   },
   {
    "id": "joe-kenneddy",
@@ -360,7 +360,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kisoku Jun",
-   "description": "He follows the boss's orders no matter how demanding they are."
+   "description": "Obedece las órdenes de sus jefes por muy difíciles que sean."
   },
   {
    "id": "victoria-vanguard",
@@ -424,7 +424,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tamakura Geki",
-   "description": "Among the sharpest shooters on the planet, he never loses his cool."
+   "description": "Francotirador excelente que podría representar a su país en torneos."
   },
   {
    "id": "ryan-tappin",
@@ -456,7 +456,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Denju Atsumu",
-   "description": "He intercepts criminals' phone calls and emails. He has eyes and ears everywhere."
+   "description": "Líder de un grupo que intercepta mensajes y llamadas criminales."
   },
   {
    "id": "linda-shadey",
@@ -488,7 +488,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Hikage Linda",
-   "description": "A talented spy capable of stealing opponent intel without leaving any traces."
+   "description": "Espía que obtiene información sobre los enemigos furtivamente."
   },
   {
    "id": "sid-safehouse",
@@ -520,7 +520,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Minobe Tamotsu",
-   "description": "Anyone he is assigned to protect can rest easier in their beds."
+   "description": "Si protege a alguien, su seguridad está totalmente garantizada."
   }
  ]
 }

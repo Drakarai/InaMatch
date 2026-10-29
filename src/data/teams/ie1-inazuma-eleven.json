@@ -42,7 +42,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Hibiki Seigou",
-   "description": "A restaurant owner and erstwhile leader of the Inazuma Eleven."
+   "description": "Tiene un bar de fideos, pero su antaño fue la piedra angular del Inazuma."
   },
   {
    "id": "charles-island",
@@ -74,7 +74,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Ukishima Kazuto",
-   "description": "Rumour has it that this mysterious older man is someone special."
+   "description": "Extraño personaje que vive a orillas del río. Se dice que fue importante."
   },
   {
    "id": "garret-hairtown",
@@ -106,7 +106,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Kamimura Kirito",
-   "description": "A hair salon owner who instinctively gives players a crew-cut."
+   "description": "Peluquero que si ve a un futbolista siente la tentación de raparlo."
   },
   {
    "id": "arthur-sweet",
@@ -138,7 +138,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Aida Chikara",
-   "description": "A dependable man who looks after his whole neighbourhood."
+   "description": "Hombre simpático y atento a quien toda la barriada profesa cariño."
   },
   {
    "id": "slot-machines",
@@ -170,7 +170,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kakeyama Ryuu",
-   "description": "A compulsive gambler known to play high-stakes on football matches."
+   "description": "Tahúr errante. En los partidos se juega también el todo por el todo."
   },
   {
    "id": "bill-steakspear",
@@ -202,7 +202,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Atsuta Nao",
-   "description": "This steakhouse owner restores his strength with char-grilled meat."
+   "description": "Dueño de un asadero. ¡Sus filetes dan energía para todo el día!"
   },
   {
    "id": "peter-mildred",
@@ -234,7 +234,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Batora Manabu",
-   "description": "The Raimon family butler has looked after Nelly since she was born."
+   "description": "Mayordomo de la casa Raimon. Ha cuidado a Nelly desde que nació."
   },
   {
    "id": "josh-nathaniel",
@@ -266,7 +266,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Nakama You",
-   "description": "Likes a regular life and working for a regular company."
+   "description": "Oficinista de una empresa normal. \"En lo normal está lo bueno\" dice."
   },
   {
    "id": "edward-gladstone",
@@ -298,7 +298,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Ikari Gengorou",
-   "description": "Always shouting \"How rude!\" at people wherever he goes."
+   "description": "A la mínima está diciendo: \"¡Habráse visto!\" La gente le evita."
   },
   {
    "id": "joseph-yosemite",
@@ -330,7 +330,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Tamiyama You",
-   "description": "A café owner who dreamt about being a singer when he was younger."
+   "description": "﻿Está al mando de un bar musical. Se dice que iba para cantante."
   },
   {
    "id": "constant-builder",
@@ -362,7 +362,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Biruda Kouichi",
-   "description": "A personal trainer whose body is 20 years younger than his age."
+   "description": "Entrenador de gimnasio. Su cuerpo podría ser el de un veinteañero."
   },
   {
    "id": "tyler-thomas",
@@ -394,7 +394,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Teira Tamotsu",
-   "description": "A bespoke tailor who believes only in fitted suits."
+   "description": "﻿Tiene una tienda de ropa. Su lema es: \"Los trajes, a medida o nada\"."
   },
   {
    "id": "ian-suffolk",
@@ -426,7 +426,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Sugata Iwao",
-   "description": "A student guidance teacher who used to need guidance himself."
+   "description": "﻿Dicen por ahí que, antes que tutor, fue un pandillero de mucho cuidado."
   },
   {
    "id": "ted-poe",
@@ -458,7 +458,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Kunikida Haito",
-   "description": "A uni prof who uses such difficult words, nobody can understand him."
+   "description": "Profesor de universidad. Habla raro y no hay quien le entienda."
   },
   {
    "id": "marshall-heart",
@@ -490,7 +490,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Michiba Ryouji",
-   "description": "A martial arts teacher known for breaking down his opponents."
+   "description": "\"Sensei\" de artes marciales. Con su flexibilidad esquiva todo ataque."
   },
   {
    "id": "dom-foreman",
@@ -522,7 +522,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tsuchimori Kouji",
-   "description": "A council worker supervisor who trains for matches by working."
+   "description": "Patrón de obras públicas. El curro de la obra le mantiene en forma."
   }
  ]
 }

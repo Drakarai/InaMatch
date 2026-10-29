@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Enolel",
-   "description": "He seems to be able to harness supernatural powers using mushrooms."
+   "description": "Aprovecha la energía de los bosques para conseguir poderes sobrenaturales."
   },
   {
    "id": "nenel",
@@ -73,7 +73,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Nenel",
-   "description": "This heavenly player need only to close his eyes to see the truth."
+   "description": "Este jugador celestial puede ver la verdad con solo cerrar los ojos."
   },
   {
    "id": "genel",
@@ -105,7 +105,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Genel",
-   "description": "He is gifted with a supernatural bulk, with which he blasts away his foes."
+   "description": "Le ha sido concedido un gran tamaño y lo utiliza para machacar a sus enemigos."
   },
   {
    "id": "ekadel",
@@ -137,7 +137,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ekadel",
-   "description": "Sanctus's cool lieutenant has magical gifts of his own, so watch out."
+   "description": "Es el genial lugarteniente de Sael. Tiene sus propios poderes mágicos, ¡cuidado con él!"
   },
   {
    "id": "lephiel",
@@ -169,7 +169,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Elfel",
-   "description": "This odd, slippery character has obtained the power of the heavens."
+   "description": "Un jugador extraño y escurridizo que ha obtenido poderes celestiales."
   },
   {
    "id": "sachinel",
@@ -200,7 +200,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sachinel",
-   "description": "He has magical power, but at heart he's a joker who loves to entertain."
+   "description": "Tiene poderes mágicos, pero no es más que un bromista y le gusta entretener a la gente."
   },
   {
    "id": "wenel",
@@ -232,7 +232,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Uinel",
-   "description": "A player with the power of the heavens. A cool lone wolf."
+   "description": "Un jugador con poderes celestiales. Es todo un lobo solitario."
   },
   {
    "id": "nuel",
@@ -264,7 +264,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Enuel",
-   "description": "This chap's magical powers come in useful on the pitch, and all the girls love him."
+   "description": "Sus poderes mágicos resultan muy útiles en el campo. Causa furor entre las chicas."
   },
   {
    "id": "ientel",
@@ -296,7 +296,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Aiel",
-   "description": "She's got supernatural powers, but she'll win anyone over with her bright personality."
+   "description": "No le hace falta usar sus poderes, su actitud alegre le basta para ganarse a cualquiera."
   },
   {
    "id": "gaiel",
@@ -328,7 +328,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Gyuel",
-   "description": "This kind, angelic player turns frightening when she gets angry."
+   "description": "Es una jugadora amable y angelical, pero da miedo cuando se enfada."
   },
   {
    "id": "sanctus",
@@ -360,7 +360,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sein",
-   "description": "The proud leader of Apostles from the Sky. He rules with a cool head."
+   "description": "El orgulloso líder del Sky Team. Dirige al equipo con la cabeza serena."
   }
  ]
 }

@@ -42,7 +42,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Hakoda Tetsu",
-   "description": "He might not look the type, but he loves a nice romantic sunset."
+   "description": "No le pega, pero es un romántico enamorado de las vistas nocturnas."
   },
   {
    "id": "joaquine-downtown",
@@ -74,7 +74,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Matoro Juka",
-   "description": "Whenever she is beaten down, she jumps right back up with renewed energy."
+   "description": "Aunque la tumben, se levanta de nuevo llena de energía."
   },
   {
    "id": "milton-bindings",
@@ -106,7 +106,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Oshiya Manbe",
-   "description": "He loves shellfish and has an emergency supply to nibble during games."
+   "description": "Le gustan tanto las vieiras que las come incluso durante los partidos."
   },
   {
    "id": "spike-gleeson",
@@ -138,7 +138,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Mabuka Souji",
-   "description": "His protective headgear means he can play in even the harshest blizzards."
+   "description": "Puede jugar incluso cuando hay ventisca gracias a su gorro."
   },
   {
    "id": "martin-ursus",
@@ -170,7 +170,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Shirokuma Hyouji",
-   "description": "Legend has it that this guy fought a polar bear and won."
+   "description": "Según una leyenda urbana, se peleó con un oso polar y le ganó."
   },
   {
    "id": "gem-strata",
@@ -202,7 +202,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Goryou Takeaki",
-   "description": "He studied tactics in Europe and plays magnificently."
+   "description": "Gracias a las técnicas que aprendió en Europa, su juego es excepcional."
   },
   {
    "id": "sean-snowfield",
@@ -233,7 +233,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Yukino Seiya",
-   "description": "He studies snowflakes and has filled thirty books with his observations."
+   "description": "Estudia los cristales de nieve y los dibujado en más de 30 libretas."
   },
   {
    "id": "kerry-bootgaiter",
@@ -265,7 +265,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Araya Konko",
-   "description": "She loves snow and runs around her snowy garden laughing like mad."
+   "description": "Cuando la nieve cuaja está tan alegre que sale a jugar al jardín."
   },
   {
    "id": "maddox-rock",
@@ -297,7 +297,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Iya Mafuru",
-   "description": "He'll ski straight down any slope no matter how steep it is."
+   "description": "Esquía en todas las pistas por muy peligrosas que sean."
   },
   {
    "id": "shawn-froste",
@@ -329,7 +329,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fubuki Shirou",
-   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+   "description": "El Delantero estrella de las tierras del norte. Suele ser muy tranquilo."
   },
   {
    "id": "roland-climbstein",
@@ -360,7 +360,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hyoujou Retsuto",
-   "description": "He's such a nimble, graceful mover, he could play soccer on the ice."
+   "description": "Controla tan bien su cuerpo que podría jugar al fútbol sobre hielo."
   },
   {
    "id": "robert-skipolson",
@@ -392,7 +392,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sorano Rebun",
-   "description": "This boy came from the far north and loves rollmop herrings."
+   "description": "Procede del extremo norte del país. Le encanta el arenque."
   },
   {
    "id": "quentin-rackner",
@@ -424,7 +424,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kitami Ryuu",
-   "description": "This mysterious wanderer turns up and joins the team every winter."
+   "description": "Jugador misterioso que aparece de improvisto en el equipo en invierno."
   },
   {
    "id": "trent-peggs",
@@ -456,7 +456,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Sumitani Tatsumaro",
-   "description": "He can cook dinner on a single piece of coal on his stove."
+   "description": "Puede cocinar cualquier plato con solo un pedazo de carbón."
   },
   {
    "id": "pete-bogg",
@@ -488,7 +488,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shitsuhara Zen",
-   "description": "After training in the marshes, his lower body strength is unbeatable."
+   "description": "Fortaleció sus piernas y caderas entrenando en pantanos."
   },
   {
    "id": "horace-onlign",
@@ -520,7 +520,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Chihira Koudai",
-   "description": "He can always see the bigger picture when he's out on the pitch."
+   "description": "Observa continuamente lo que pasa en todos los rincones del campo."
   }
  ]
 }

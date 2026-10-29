@@ -41,7 +41,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ladji Paara",
-   "description": "This player from Montmartre is always creating football-themed paintings."
+   "description": "Viene del barrio parisino de Montmarte. Pinta cuadros cuyo tema principal es el fútbol."
   },
   {
    "id": "pierre-godin",
@@ -73,7 +73,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Pierre Godin",
-   "description": "His motto is to always play with style and grace, whoever you're up against."
+   "description": "Su lema es: juega siempre con estilo y elegancia, sin importar quién sea tu rival."
   },
   {
    "id": "micha-l-aron",
@@ -105,7 +105,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Miguel Arron",
-   "description": "Despite his appearance, he's a master of subtle French cuisine."
+   "description": "A pesar de su aspecto, este chico tiene un don para la cocina francesa."
   },
   {
    "id": "francis-poujol",
@@ -137,7 +137,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Franz Poujol",
-   "description": "He dreams of building an iconic structure one day, like the Eiffel Tower or Arc de Triomphe."
+   "description": "Le gustaría erigir un monumento simbólico como la torre Eiffel o el Arco del Triunfo."
   },
   {
    "id": "kevin-pinot",
@@ -168,7 +168,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kévin Pinot",
-   "description": "He's currently trying to adapt Napoleonic tactics for the football pitch."
+   "description": "Quiere aplicar las estrategias de batalla napoleónicas en el campo de juego."
   },
   {
    "id": "roland-p-rec",
@@ -200,7 +200,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Laurent Pérec",
-   "description": "He spends his free time watching the world go by in Parisian-style café society."
+   "description": "Su pasatiempo favorito es sentarse en una cafetería y ver pasar a la gente por la calle."
   },
   {
    "id": "romuald-huysmans",
@@ -231,7 +231,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ronny Weiss",
-   "description": "France's number one model in his age group. He's in demand for photos and shows."
+   "description": "Trabaja como modelo y es muy popular. Es portada de muchas revistas de moda."
   },
   {
    "id": "st-phane-hinault",
@@ -263,7 +263,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Stéphane Henno",
-   "description": "This young mang is already a hitmaker in the world of French music."
+   "description": "Las canciones que compone este jugador son todo un éxito en las listas francesas."
   },
   {
    "id": "julien-rousseau",
@@ -294,7 +294,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Julien Rousseau",
-   "description": "He likes to play with a rose clamped between his teeth. Very pretentious."
+   "description": "Siempre lleva una rosa en la boca cuando salta al césped. ¡Está hecho un teatrero!"
   },
   {
    "id": "j-r-me-hervaud",
@@ -357,7 +357,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Alain Failliot",
-   "description": "The son of a bicycle repairman. He'd like to help out at the Tour de France one day."
+   "description": "Su padre repara bicicletas y a él de mayor le gustaría trabajar en el Tour de Francia."
   },
   {
    "id": "mile-lazare",
@@ -389,7 +389,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Émile Razzano",
-   "description": "He's a connoisseur of French cinema, with a huge DVD collection."
+   "description": "Se considera un devoto del cine francés y tiene una gran colección de películas en DVD."
   },
   {
    "id": "andr-pinson",
@@ -421,7 +421,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "André Panzo",
-   "description": "He's well read in continental philosophy, but his friends rarely know what he's on about."
+   "description": "Le gusta la filosofía del siglo XIX, pero sus amigos no le entienden cuando se la explica."
   },
   {
    "id": "jean-gutain",
@@ -452,7 +452,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Jean Gutain",
-   "description": "A self-styled fashion prodigy. However, he hasn't really proved himself yet."
+   "description": "Aunque aún no haya dado el salto a la fama, este chico es un prodigio de la moda."
   },
   {
    "id": "claude-moreau",
@@ -515,7 +515,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Michel Morin",
-   "description": "When it comes to tending vineyards, he's got green fingers for sure."
+   "description": "Tiene un don para la jardinería, especialmente si se trata de cultivar la vida."
   }
  ]
 }

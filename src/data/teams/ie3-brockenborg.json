@@ -41,7 +41,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Thorsten Berger",
-   "description": "His family are brewers, but he prefers a nice glass of Apfelschorle."
+   "description": "Su familia elabora cerveza artesanal, pero él prefiere un buen vaso de zumo de manzana."
   },
   {
    "id": "alexander-hausen",
@@ -104,7 +104,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Heinrich Fritz",
-   "description": "Because of his strange hobby of sharpening knives, he is often mistaken for a baddy."
+   "description": "Muchos lo toman por un delincuente porque se pasa el día afilando navajas."
   },
   {
    "id": "kurt-zawel",
@@ -136,7 +136,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Kurt Zabel",
-   "description": "If he doesn't get his daily portion of Kartoffelsalat, he's got no energy."
+   "description": "Si no consigue su ración diaria de chucrut, se queda sin energía."
   },
   {
    "id": "lukas-schmidt",
@@ -168,7 +168,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Luka Schmitt",
-   "description": "He loves tanks, so he's taking a tour of all the tank museums in Europe."
+   "description": "Quiere visitar todos los museos militares de Europa porque le encantan los tanques."
   },
   {
    "id": "theodor-ulrich",
@@ -232,7 +232,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Jan Oldeno",
-   "description": "This keen amateur mechanic is lucky enough to hail from the home of precision engineering."
+   "description": "Este mecánico amateur tiene la suerte de vivir en el país de la ingeniería de precisión."
   },
   {
    "id": "niklas-kuster",
@@ -295,7 +295,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Jonas Pollack",
-   "description": "He hopes to fly to Mars in a rocket of his own design one day."
+   "description": "Le gustaría diseñar un cohete que pueda viajar hasta Marte."
   },
   {
    "id": "maximilian-m-ller",
@@ -326,7 +326,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Maximilian Milatz",
-   "description": "A proud Frankfurter who will never reveal his family's secret mix of seven herbs."
+   "description": "Este francofortés jamás revelará la receta de las salchichas que hace su familia."
   },
   {
    "id": "peter-naumann",
@@ -357,7 +357,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Peter Nimke",
-   "description": "He's often seen in the park, reading from a volume of Heinrich Heine's poetry."
+   "description": "Le gusta sentarse en el parque a leer poesías de Heinrich Heine, su autor favorito."
   },
   {
    "id": "gerhard-enders",
@@ -389,7 +389,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Gerald Enders",
-   "description": "He can't wait to pass his test and get behind the wheel of a smart German motor."
+   "description": "Quiere sacarse el carnet de conducir para poder comprarse un elegante coche alemán."
   },
   {
    "id": "erwin-v-lz",
@@ -421,7 +421,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Erwin Völz",
-   "description": "He's deeply concerned about environmental issues, and always acts accordingly."
+   "description": "Le preocupa mucho el cuidado del medio ambiente y siempre actúa en consecuencia."
   },
   {
    "id": "jens-hoffman",
@@ -452,7 +452,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Jens Hoffmann",
-   "description": "He's studying at music school in the hopes of surpassing Beethoven."
+   "description": "Está estudiando en un conservatorio y espera sobrepasar a Beethoven uno de estos días."
   },
   {
    "id": "ernst-fliedner",
@@ -484,7 +484,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Ernst Frodeno",
-   "description": "He's from Breman, but is driven to distraction by caterwauling farm animals."
+   "description": "Es de Bremen y siempre se distrae cuando ve a un grupo de músicos."
   },
   {
    "id": "emmanuel-ewerz",
@@ -515,7 +515,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Manuel Ewers",
-   "description": "An accomplished sausage maker who keeps his team well supplied with protein."
+   "description": "Este fabricante de salchichas provee a su equipo de proteínas de alta calidad."
   }
  ]
 }

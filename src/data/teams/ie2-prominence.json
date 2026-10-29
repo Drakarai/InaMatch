@@ -42,7 +42,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ooiwa Kurando",
-   "description": "He always wears a mask so no one can see his evil expression."
+   "description": "Lleva máscara para que nadie le vea en la cara que tiene ideas malvadas."
   },
   {
    "id": "bonnie-sparks",
@@ -74,7 +74,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Barazono Hana",
-   "description": "She loves trinkets and will go to any lengths to get the ones she wants."
+   "description": "Cuando quiere algo, hace cualquier cosa con tal de conseguirlo."
   },
   {
    "id": "val-flamewood",
@@ -106,7 +106,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hagakure Koutarou",
-   "description": "He looks cheerful, but is he really smiling behind the sunglasses?"
+   "description": "Parece muy alegre, pero las gafas de sol esconden unos ojos tristes."
   },
   {
    "id": "sean-ashford",
@@ -137,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Satou Kazuo",
-   "description": "He worries so much about the future that he makes himself ill."
+   "description": "Es muy planificador, pero si piensa demasiado, le duele el estomago."
   },
   {
    "id": "nigel-august",
@@ -169,7 +169,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Netsuha Natsuhiko",
-   "description": "Nobody knows what this glum-looking boy is really thinking."
+   "description": "Joven de ojos oscuros. Nadie sabe lo que esconde en su corazón."
   },
   {
    "id": "sam-bournes",
@@ -201,7 +201,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Nitou Honoka",
-   "description": "Don't get taken in by her looks - she's absolutely ruthless."
+   "description": "Los chicos se quedan embobados con su físico y padecen por su amor."
   },
   {
    "id": "ben-blowton",
@@ -233,7 +233,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Honba Geki",
-   "description": "A fiery, powerful fighter known for his distinctive headband."
+   "description": "Saca su potencia de las llamas. Le interesan las cintas de pelo."
   },
   {
    "id": "ethan-whitering",
@@ -264,7 +264,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Atsuishi Shigeto",
-   "description": "Torch's childhood friend. He used to be a weakling, but training toughened him up."
+   "description": "Amigo de la infancia de Torch. Se entrenó para ser mas fuerte."
   },
   {
    "id": "brenda-firequest",
@@ -296,7 +296,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hasuike An",
-   "description": "She wants to be the best in the universe and won't let anyone beat her."
+   "description": "Odia que otros la superen. Quiere ser la mejor del mundo."
   },
   {
    "id": "jim-flareson",
@@ -327,7 +327,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Saiden Jou",
-   "description": "He weight trains every day and fazes opponents with his steely gaze."
+   "description": "Su mirada penetrante asusta a los rivales. Entrena cada día sin falta."
   },
   {
    "id": "claude-beacons",
@@ -358,7 +358,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nagumo Haruya",
-   "description": "The captain of Prominence. He has a fiery, aggressive character."
+   "description": "Capitán de Prominence. Es muy presuntuoso y siempre va al ataque."
   }
  ]
 }

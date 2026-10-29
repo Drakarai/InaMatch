@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Roseo Diamante",
-   "description": "He was born on the wrong side of the tracks, so he's determined to succeed in life."
+   "description": "Nació en un barrio humilde, así que quiere jugar al fútbol para triunfar en la vida."
   },
   {
    "id": "azubel-turchese",
@@ -105,7 +105,8 @@
     "hair": "#3a6fb5",
     "skin": "#c08a5e"
    },
-   "wiki": "Azubel Turchese"
+   "wiki": "Azubel Turchese",
+   "description": "Quiere solucionar el problema de recogida de basura en Nápoles de una vez por todas."
   },
   {
    "id": "nello-agata",
@@ -167,7 +168,8 @@
     "hair": "#8b5a2b",
     "skin": "#f1c79b"
    },
-   "wiki": "Azzurro Zaffire"
+   "wiki": "Azzurro Zaffire",
+   "description": "Pertenece a una organización que busca forma de evitar que Venecia se hunda."
   },
   {
    "id": "pardo-berillo",
@@ -230,7 +232,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Verdio Smeraldo",
-   "description": "This player is livid about the damage done to Rome's architectural heritage by pollution."
+   "description": "Le preocupa que la contaminación de Roma estropee los monumentos de la ciudad."
   },
   {
    "id": "rosso-granato",
@@ -262,7 +264,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Rosso Granato",
-   "description": "He's a born aristocrat, but he's determined to do something worthwhile with his life."
+   "description": "Es aristócrata y tiene la vida resuelta, pero prefiere no quedarse de brazos cruzados."
   },
   {
    "id": "giallo-topazio",
@@ -324,7 +326,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Violette Ametista",
-   "description": "He's arrogant and pushy, so the other players don't like him all that much."
+   "description": "Es arrogante y un poco agresivo. No es muy popular entre los jugadores."
   },
   {
    "id": "bianco-perla",
@@ -356,7 +358,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Bianco Perla",
-   "description": "He's never even seen a bottle of wine, but he still dreams of becoming a sommelier."
+   "description": "Quiere ser sumiller aunque no ha probado ni un solo licor en su vida..."
   },
   {
    "id": "giulio-acuto",
@@ -388,7 +390,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Demonio Strada",
-   "description": "With the power given to him by Mister D, his speed and skill are unmatched."
+   "description": "Con la ayuda de Mr. D, sus poderes han superado a los del \"original\"."
   },
   {
    "id": "grigio-quarzo",
@@ -420,7 +422,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Grigio Gesso",
-   "description": "He'd love to go on a date in Rome, but he keeps getting knocked back."
+   "description": "Le encantaría pasar una velada romántica en Roma, pero siempre le dan calabazas."
   },
   {
    "id": "marrone-corniola",
@@ -452,7 +454,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Marrone Titanito",
-   "description": "He likes to make pizzas with wacky toppings, but they are mostly disgusting."
+   "description": "¿Pizza de anchoa, melocotón y mayonesa?... Pues al él le encanta."
   },
   {
    "id": "amaranto-rubino",
@@ -484,7 +486,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Amaranto Rubino",
-   "description": "They laughed when he said he wanted to turn pro, but he's determined to laugh last."
+   "description": "Se burlaban de él cuando decía que quería ser futbolista. ¡Ja! ¡A ver quién ser ríe ahora!"
   },
   {
    "id": "avorio-opale",
@@ -516,7 +518,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Lattimo Opale",
-   "description": "He hopes to be a model, but as yet he's still unrecognised in the fashion world."
+   "description": "Quiere ser un icono de la moda, pero todavía no ha conseguido destacar en ese mundillo."
   }
  ]
 }

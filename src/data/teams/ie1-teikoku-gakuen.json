@@ -42,7 +42,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Genda Koujirou",
-   "description": "The King of Keepers. There is no angle that he can not cover."
+   "description": "Le llaman \"el rey de los porteros\". No deja ningún hueco sin cubrir."
   },
   {
    "id": "peter-drent",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Oono Densuke",
-   "description": "This young giant is capable of ground-shaking skills."
+   "description": "Granuja de cuerpo gigantesco cuyo peso hace temblar el suelo."
   },
   {
    "id": "ben-simmons",
@@ -106,7 +106,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Banjou Kazumichi",
-   "description": "A mad dog capable of pacifying teams with a range of techniques."
+   "description": "Perro de presa que usará cualquier medio para robar el balón al rival."
   },
   {
    "id": "gus-martin",
@@ -138,7 +138,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Gojou Masaru",
-   "description": "His history and motives are unclear to all but himself."
+   "description": "Nadie sabe de dónde ha salido. Ni Jude tiene idea de qué pretende."
   },
   {
    "id": "bob-carlton",
@@ -170,7 +170,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Hyoudou Yuuhei",
-   "description": "Physically strong and fast. He can close down attackers in a second."
+   "description": "Es corpulento, aunque rapidísimo. Deja atrás al rival en un pispás."
   },
   {
    "id": "jude-sharp",
@@ -202,7 +202,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kidou Yuuto",
-   "description": "A talented playmaker with the finest skill and techniques."
+   "description": "De sus botas sale fútbol de muchos quilates. El mejor en su posición."
   },
   {
    "id": "alan-master",
@@ -234,7 +234,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Narukami Kenya",
-   "description": "The rhythm from his headphones is the secret to his strength."
+   "description": "Los cascos le dan poder. Marea a los rivales al ritmo de la música."
   },
   {
    "id": "herman-waldon",
@@ -266,7 +266,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Henmi Wataru",
-   "description": "Has great pride in the academy and looks down on all other teams."
+   "description": "Tiene a su equipo en alta estima y desprecia a todos los demás."
   },
   {
    "id": "john-bloom",
@@ -298,7 +298,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sakiyama Shuuji",
-   "description": "A naturally rough player. He runs wild on the pitch."
+   "description": "El juego duro es lo suyo. Corre que se las pela por todo el campo."
   },
   {
    "id": "daniel-hatch",
@@ -330,7 +330,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Jimon Daiki",
-   "description": "The Academy's ace striker. His long limbs are loaded weapons."
+   "description": "Delantero estrella de la Royal. Sus largas piernas son su mejor arma"
   },
   {
    "id": "david-samford",
@@ -362,7 +362,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sakuma Jirou",
-   "description": "Supports the team as a strategist, coordinating the other players."
+   "description": "Se echa el equipo a sus espaldas. Sus técnicas conjuntas son letales."
   },
   {
    "id": "derek-swing",
@@ -394,7 +394,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Doumen Shuuichirou",
-   "description": "Low on power but a quick thinker. Good at outwitting the opposition."
+   "description": "Tiene poca garra, pero es más listo que el hambre."
   },
   {
    "id": "cliff-tomlinson",
@@ -426,7 +426,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Ena Kazuki",
-   "description": "Despite not making the team regularly, his ability is fine."
+   "description": "No es titular porque las lesiones no le respetan, pero tiene madera."
   },
   {
    "id": "jim-lawrenson",
@@ -458,7 +458,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Mukumoto Kei",
-   "description": "Being small does not affect his ball keeping skills."
+   "description": "Su pequeño tamaño no le impide tener un imán en sus pies."
   },
   {
    "id": "barry-potts",
@@ -490,7 +490,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shibuki Shoudai",
-   "description": "Making complicated moves look easy is his forte."
+   "description": "A pesar de su aspecto, se le da muy bien hilvanar pases con precisión."
   },
   {
    "id": "steve-ingham",
@@ -522,7 +522,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ookusu Seiji",
-   "description": "He fires the team up when the heat is on."
+   "description": "Es el revulsivo ideal cuando el equipo está en apuros."
   }
  ]
 }

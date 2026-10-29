@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sugimori Takeshi",
-   "description": "Follows instruction well, but lost all emotion after brainwashing."
+   "description": "Líder del Brain que se deshizo de sus dudas con un lavado de cerebro."
   },
   {
    "id": "harry-leading",
@@ -74,7 +74,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Hiroyama Yuu",
-   "description": "Took up football to get famous, but forgot it all after 'conditioning'."
+   "description": "Empezó a jugar al fútbol para ser famoso, y se dejó lavar el cerebro."
   },
   {
    "id": "terry-stronger",
@@ -106,7 +106,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hanaoka Tsuyoshi",
-   "description": "His augment makes him prone to losing his will."
+   "description": "Ha sacrificado hasta su propia consciencia para tener más fuerza."
   },
   {
    "id": "philip-marvel",
@@ -138,7 +138,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Murobushi Kyou",
-   "description": "Brainwashing implanted fear in him. He now overreacts to all surprises."
+   "description": "Extrae fuerzas del pánico que le causó el lavado de cerebro."
   },
   {
    "id": "noel-good",
@@ -170,7 +170,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Inada Nori",
-   "description": "Flaunts the rules with every move since being brainwashed."
+   "description": "El lavado de cerebro consiguió que hiciera tareas de manera ordenada."
   },
   {
    "id": "tyron-rock",
@@ -202,7 +202,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Terakawa Iwao",
-   "description": "Doesn't mind playing dangerously since being brainwashed."
+   "description": "Ha perdido sus sentimientos y hace entradas peligrosas como si nada."
   },
   {
    "id": "francis-tell",
@@ -234,7 +234,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Fujimaru Kei",
-   "description": "Follows instructions religiously after getting brainwashed."
+   "description": "Dice haber visto apariciones. Cree a pies juntillas lo que le digan."
   },
   {
    "id": "samuel-buster",
@@ -266,7 +266,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sangou Baku",
-   "description": "Plays aggressively close to the edge since being brainwashed."
+   "description": "﻿Se ha vuelto un bruto cuyo juego está al limite de la legalidad."
   },
   {
    "id": "victor-kind",
@@ -298,7 +298,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Oobe Shin",
-   "description": "Brainwashed into believing that his team's tactics are the best."
+   "description": "Le han hecho creer que el juego de su equipo no tiene rival."
   },
   {
    "id": "jonathan-seller",
@@ -330,7 +330,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Yamagishi Seri",
-   "description": "This solitary player is made to feel like he's under immense pressure to win."
+   "description": "Solitario muchacho que padece la necesidad de ganar a toda costa."
   },
   {
    "id": "neil-turner",
@@ -394,7 +394,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Mashimo Toboshi",
-   "description": "Accepted brainwashing to become a pro and help his poor family."
+   "description": "Se sometió al experimento para sacar a su familia de la miseria."
   },
   {
    "id": "patrick-stiller",
@@ -426,7 +426,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tsuzuki Shizuka",
-   "description": "Brainwashing allowed him to reveal his true self."
+   "description": "Gracias al lavado de cerebro muestra su verdadera personalidad."
   },
   {
    "id": "charles-oughtry",
@@ -458,7 +458,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Hirao Jin",
-   "description": "Undertook brainwashing to cheer up his sick soccer-loving brother."
+   "description": "Se dejó lavar el cerebro por su hermanito enfermo, muy futbolero."
   },
   {
    "id": "clive-mooney",
@@ -490,7 +490,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Nagatomo Sou",
-   "description": "Thanks to brainwashing, he never remembers the fouls he commits."
+   "description": "Después de un partido se olvida de las infracciones que ha cometido."
   },
   {
    "id": "neil-waters",
@@ -522,7 +522,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Mizubuchi Nashi",
-   "description": "Brainwashing helped him look down on those who used to belittle him."
+   "description": "Ha pasado de sufrir el desprecio de los demás a sentir desdén por todo."
   }
  ]
 }

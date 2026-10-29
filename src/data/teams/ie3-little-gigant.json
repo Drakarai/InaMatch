@@ -42,7 +42,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Rococo Ulpa",
-   "description": "A Victoirean boy from out in the sticks. It's already clear that he has incredible potential."
+   "description": "Procede de una remota región llamada Costail y tiene un potencial enorme."
   },
   {
    "id": "zephyr-vitesse",
@@ -74,7 +74,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Windy Fasta",
-   "description": "Hector's old friend. He rushes like a gale-force wind to mark his opponents."
+   "description": "Es un viejo amigo de Hector. Es rápido como el viento a la hora de marcar al adversario."
   },
   {
    "id": "walter-mountain",
@@ -137,7 +137,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Jinny Geino",
-   "description": "He wears sunglasses to try to stand out, but they make him look a bit creepy."
+   "description": "Lleva gafas de sol para pasar desapercibido. Sin embargo, le dan un aspecto siniestro..."
   },
   {
    "id": "ian-ferrum",
@@ -168,7 +168,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Marron Ian",
-   "description": "He packs a lot of guts in that small frame! When things hot up he's right there."
+   "description": "¡Es pequeñito pero matón! Cuando la cosa se pone difícil, se puede confiar en él."
   },
   {
    "id": "quint-hampton",
@@ -200,7 +200,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shinti Hanpa",
-   "description": "He thought he'd try a perm, but he still doesn't make much of an impression."
+   "description": "Pensó en hacerse la permanente, pero vio que no causaría mucha impresión."
   },
   {
    "id": "yasir-haddad",
@@ -232,7 +232,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Yuumu Rinjie",
-   "description": "This player uses karate techniques to snatch away the ball! Hi-YAH!"
+   "description": "Es un gran karateka y utiliza las técnicas de ese arte marcial para robar el balón."
   },
   {
    "id": "keith-ryan",
@@ -263,7 +263,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Keat Liando",
-   "description": "He's forever fiddling with his afro, and truth be told, he's a bit of a coward."
+   "description": "Presume de pelo afro. Es un poco cobardica."
   },
   {
    "id": "maximino-cruz",
@@ -293,7 +293,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Maxi Kuu",
-   "description": "He's rather fickle. His team-mates worry that he'll get tired of football."
+   "description": "Es un veleta. A sus compañeros de equipo les preocupa que un día se canse del fútbol."
   },
   {
    "id": "gareth-flare",
@@ -325,7 +325,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ghoshu Flare",
-   "description": "An ace striker from a tiny African country. He's always looking out for his sister."
+   "description": "Delantero estrella del equipo Costail. Siempre está pendiente de su hermana."
   },
   {
    "id": "drago-hill",
@@ -356,7 +356,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Drago Hill",
-   "description": "A Victoirean striker. He nurses a rivalry with Gareth Flare."
+   "description": "Delantero de Costail. Mantiene una tensa rivalidad con Gareth Flare."
   },
   {
    "id": "keenan-difortune",
@@ -387,7 +387,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Kane Saitoh",
-   "description": "He's known Hector for a long time, and he really looks up to him."
+   "description": "Conoce a Hector desde hace tiempo y siente una gran admiración por él."
   },
   {
    "id": "jarell-mangrove",
@@ -418,7 +418,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "McCall Kisarra",
-   "description": "This prankster will snatch away the ball while you're not looking."
+   "description": "No te descuides o este bromista te robará el balón sin que te des cuenta."
   },
   {
    "id": "vic-vitrum",
@@ -450,7 +450,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Maygar Nathan",
-   "description": "He has a keen eye for enemy strategies, so his team-mates often consult him on tactics."
+   "description": "Sus compañeros le consultan acerca de los rivales porque siempre está enterado de todo."
   },
   {
    "id": "li-leung",
@@ -482,7 +482,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Ryuu Scale",
-   "description": "A popular, happy-go-lucky player who is deceptively strong on the pitch."
+   "description": "Este futbolista tan despreocupado es muy popular. Además es muy bueno en el campo."
   },
   {
    "id": "jazzy-hedgeer",
@@ -513,7 +513,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Skid Wu",
-   "description": "A southern surf dude with boundless enthusiasm, and a natty sun visor."
+   "description": "A este coleguita del sur le chifla surfear. Lleva una visera muy molona."
   }
  ]
 }

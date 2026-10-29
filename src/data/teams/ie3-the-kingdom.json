@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Falcão da Silva",
-   "description": "He trained his reflexes in the depths of the Amazon, and puts them to work on the pitch."
+   "description": "Desarrolló sus reflejos en el corazón de la selva amazónica."
   },
   {
    "id": "carlos-lagarto",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Lagarto Carlos",
-   "description": "He seems to move to a samba rhythm when he makes a challenge on the pitch."
+   "description": "Hace unas entradas perfectas a ritmo de la samba."
   },
   {
    "id": "antonio-bagre",
@@ -104,7 +104,8 @@
     "hair": "#5a3a7a",
     "skin": "#b5835a"
    },
-   "wiki": "Bagre Antonio"
+   "wiki": "Bagre Antonio",
+   "description": "Es miembro de una asociación que lucha contra la explotación maderera de Brasil."
   },
   {
    "id": "monstro-ximenes",
@@ -136,7 +137,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Monstro",
-   "description": "When he drinks coffee, he surges with power. Doesn't do his health much good, though."
+   "description": "Bebe mucho café porque le aporta energía, aunque no sea bueno para su salud."
   },
   {
    "id": "formiga-clemens",
@@ -199,7 +200,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Presa",
-   "description": "He's really interested in developing engine fuel derived from sugar cane."
+   "description": "Está muy interesado en la obtención de un biocombustible a partir de caña de azucar."
   },
   {
    "id": "borboleta-barboza",
@@ -294,7 +295,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Mack Ronijo",
-   "description": "Strength, talent, determination-this guy's got the lot. He's the perfect player."
+   "description": "Dicen que es el jugador perfecto por su dinamismo y determinación."
   },
   {
    "id": "gato-carvalho",
@@ -326,7 +327,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Gato",
-   "description": "At the carnival, listen out for the distinctive timbre of his home-made tambourine."
+   "description": "En carnaval sale a la calle a tocar una pandereta que ha hecho él mismo."
   },
   {
    "id": "grillo-santos",
@@ -358,7 +359,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Grilo Santos",
-   "description": "His family run a traditional Brazilian eaterie, so he's always cooking for his team-mates."
+   "description": "Su familia dirige un restaurante brasileño y por eso siempre cocina para sus compañeros."
   },
   {
    "id": "leonardo-almeida",
@@ -421,7 +422,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Javali Ribeiro",
-   "description": "He's always thinking up spectacular outfits to wear to the carnival."
+   "description": "Siempre se le ocurren atuendos espectaculares para ponerse en carnaval."
   },
   {
    "id": "ulisses-nogueira",
@@ -453,7 +454,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Urso Nogueira",
-   "description": "His cool and calculated style doesn't always mesh with passionate Latin football."
+   "description": "Su estilo frío y calculador no encaja con su ardiente pasión por el fútbol."
   },
   {
    "id": "gervasio-oliveira",
@@ -485,7 +486,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Cavalo Oliviera",
-   "description": "His big plan is to start an international biofuel business in Brazil."
+   "description": "Su meta es fundar una empresa internacional de biocombustibles en Brasil."
   },
   {
    "id": "tigre-mendes",
@@ -516,7 +517,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Tigre Mendes",
-   "description": "He gets more and more pumped as the crowd cheer louder and louder!"
+   "description": "¡Cuanto más alto grita la afición, más se anima!"
   }
  ]
 }

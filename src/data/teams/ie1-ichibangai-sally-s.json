@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Yaono Sumiko",
-   "description": "A greengrocing gran who's good at keeping vegetables and footballs."
+   "description": "Verdulera que vigila el género con el mismo celo que la línea de meta."
   },
   {
    "id": "t-fielding-media",
@@ -106,7 +106,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ootama Konomi",
-   "description": "She always treats football fans to extra helpings at her restaurant."
+   "description": "Trabaja en una pizzería. Hace descuento a los futboleros."
   },
   {
    "id": "louis-hillside",
@@ -138,7 +138,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Honemaru Hitoshi",
-   "description": "Has thumbs like hammers after years as a chiropractor."
+   "description": "Osteópata cuyos despiadados masajes son temidos por todos."
   },
   {
    "id": "ness-sheldon",
@@ -170,7 +170,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Shittou Nao",
-   "description": "An experienced doctor whose only flaw is a lack of self-confidence."
+   "description": "Cirujano que por algún extraño motivo parece falto de confianza."
   },
   {
    "id": "ian-stager",
@@ -202,7 +202,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ebisu Masayoshi",
-   "description": "He loves the theatre so much that he never misses the front row."
+   "description": "Le va la comedia. Cuando va a ver a un cómico, se sienta en primera fila."
   },
   {
    "id": "lizzy-squirrel",
@@ -234,7 +234,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Tachimi Ritsuko",
-   "description": "This bookshop clerk hates window shoppers, browsers and ageism."
+   "description": "Libera a la que la edad ha tratado mal. Si te pilla leyendo de gorra..."
   },
   {
    "id": "kippy-jones",
@@ -266,7 +266,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Misemachi Yasunori",
-   "description": "Spends more time playing chess than at the local chamber of commerce."
+   "description": "Presidente de la asociación de comerciantes. No da palo al agua."
   },
   {
    "id": "f-riversong-media",
@@ -329,7 +329,8 @@
     "hair": "#4c8a3c",
     "skin": "#9a6a44"
    },
-   "wiki": "Kisaragi Sarina"
+   "wiki": "Kisaragi Sarina",
+   "description": "Dueña de la taberna. Se dice que su hija juega al fútbol."
   },
   {
    "id": "eddie-prentice",
@@ -361,7 +362,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Purogure Iwao",
-   "description": "A CD shop owner who loves to talk about music rather than sell CDs."
+   "description": "Vendedor de la tienda de CD. Los clientes huyen si se pone a hablar."
   },
   {
    "id": "mitch-sandstone",
@@ -393,7 +394,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Mikawaya Saburou",
-   "description": "A pub landlord who has a bit of trouble keeping track of his stock."
+   "description": "Camarero de la taberna. En vez de poner cañas, se las bebe."
   },
   {
    "id": "alf-holmes",
@@ -425,7 +426,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Iemori Yuuji",
-   "description": "At home, he adores his family, but secretly he prefers football."
+   "description": "Parece el padre modelo, pero si hay partido no hace ni caso a la familia."
   },
   {
    "id": "fred-crumb",
@@ -457,7 +458,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ikuji Kamao",
-   "description": "His wife got angry when he baked a football-shaped loaf at his bakery."
+   "description": "Panadero a quien su mujer abroncó por hacer un pan con forma de balón."
   },
   {
    "id": "doug-baughan",
@@ -521,7 +522,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tanabe Sayaka",
-   "description": "Only on the team to make up the numbers. Oblivious to the rules."
+   "description": "Entró en el equipo porque faltaba gente. Apenas sabe de fútbol."
   }
  ]
 }

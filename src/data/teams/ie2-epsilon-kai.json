@@ -41,7 +41,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Segata Ryuuichirou",
-   "description": "Has an unshakeable belief in his own abilities and blames others when things go wrong."
+   "description": "Confía plenamente en su destreza y culpa a los demás si algo sale mal."
   },
   {
    "id": "craven-kenville",
@@ -71,7 +71,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hiruma Kenichi",
-   "description": "He kowtows to strong players, but bullies the weak."
+   "description": "Él juega con ganas cuando tiene delante a un jugador mediocre."
   },
   {
    "id": "anna-mole",
@@ -101,7 +101,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Morino Rumi",
-   "description": "She trains by using an oxygen tank to improve the strength of her lungs."
+   "description": "Mejora el rendimiento de sus pulmones con bombonas de oxígeno."
   },
   {
    "id": "kayson-wattever",
@@ -131,7 +131,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Murata Keisuke",
-   "description": "This obtuse character chooses not to believe a word anyone tells him."
+   "description": "Es tan escéptico que no se fía ni de su propia sombra."
   },
   {
    "id": "mike-tytan",
@@ -192,7 +192,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Saginuma Osamu",
-   "description": "He's only happy when everything is going precisely according to plan."
+   "description": "Odia que las cosas no salgan tal y como las había planeado."
   },
   {
    "id": "mads-hatter",
@@ -222,7 +222,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Hatou Torahiko",
-   "description": "A rough lad who's prone to exploding on and off the pitch."
+   "description": "Le gustan todos los deportes en los que se pueda volver violento."
   },
   {
    "id": "karen-ripton",
@@ -252,7 +252,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kuri Fuuko",
-   "description": "She always uses opponents' blind spots to attack without warning."
+   "description": "Busca el punto débil del rival y ataca por donde no se la espera."
   },
   {
    "id": "yakker-plantsworm",
@@ -281,7 +281,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Mureta Hachirou",
-   "description": "He likes to speak to plants, but doesn't listen to anything his team says."
+   "description": "Puede comunicarse con las plantas, pero nunca escucha a los del equipo."
   },
   {
    "id": "ronny-metcalf",
@@ -311,7 +311,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Mutou Satoshi",
-   "description": "He gets past opponents by hassling them until they make mistakes."
+   "description": "Provoca al rival a propósito para que caiga de cabeza en su trampa."
   },
   {
    "id": "carrie-mccuring",
@@ -342,7 +342,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sumeragi Maki",
-   "description": "She looks cute at first glance, but that all changes if she doesn't get her way."
+   "description": "Es muy dulce, pero se enfada de golpe si no consigue lo que quiere."
   },
   {
    "id": "dave-quagmire-desarm-cc",
@@ -374,7 +374,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Saginuma Osamu",
-   "description": "He's only happy when everything is going precisely according to plan."
+   "description": "Odia que las cosas no salgan tal y como las había planeado."
   }
  ]
 }

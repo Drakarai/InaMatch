@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Aidoru Sou",
-   "description": "His hobby is finding the stars of the future before they are famous."
+   "description": "Cazatalentos que busca con fervor las estrellas del mañana."
   },
   {
    "id": "marcus-train",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sujimichi Tetsuo",
-   "description": "Likes model trains and his dream is to have a roomful some day."
+   "description": "Le pirran las maquetas de trenes y sueña con llenar su cuarto con ellas."
   },
   {
    "id": "spencer-gates",
@@ -106,7 +106,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Karisawa Sou",
-   "description": "Enjoys 'cosplay', but has to make costumes he can't afford to buy."
+   "description": "Él mismo se hace disfraces de personajes de dibujos animados."
   },
   {
    "id": "light-nobel",
@@ -138,7 +138,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Noberu Raito",
-   "description": "Enjoys cheesy novels and enters writing competitions every month."
+   "description": "Devora novelas cortas y cada mes participa en concursos literarios."
   },
   {
    "id": "walter-valiant",
@@ -169,7 +169,8 @@
     "hair": "#4c8a3c",
     "skin": "#c08a5e"
    },
-   "wiki": "Muteki Hideo"
+   "wiki": "Muteki Hideo",
+   "description": "Sueña con ser un superhéroe. Se las da de justiciero con los vecinos."
   },
   {
    "id": "a-woodbridge",
@@ -201,7 +202,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Robo Gouki",
-   "description": "He is passionate about robots. He gets excited when they are on TV."
+   "description": "Su vida son las series de robots. Alucina con sus transformaciones."
   },
   {
    "id": "josh-spear",
@@ -233,7 +234,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Onra Itsuki",
-   "description": "Plays online games late at night. He always sleeps in class."
+   "description": "Se pasa las noches jugando en red y las mañanas durmiendo en clase."
   },
   {
    "id": "gaby-farmer",
@@ -265,7 +266,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Onotomo Haru",
-   "description": "He can make computers all by himself. He has over ten at home."
+   "description": "Él mismo se monta sus ordenadores. Tiene más de diez en casa."
   },
   {
    "id": "gus-gamer",
@@ -297,7 +298,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Geimu Konomu",
-   "description": "A total gamer who's always at the front of the queue for any new games."
+   "description": "Maníaco de los videojuegos. Se los compra todos el día del lanzamiento."
   },
   {
    "id": "mark-gambling",
@@ -329,7 +330,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Manga Moe",
-   "description": "This year's budding manga artist often gets asked to sign stuff."
+   "description": "Dibujante en boga cuyos cómics crean adeptos. Su firma se cotiza."
   },
   {
    "id": "theodore-master",
@@ -361,7 +362,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Akeido Tatsuhito",
-   "description": "Makes a living from winning on arcade machines."
+   "description": "Genio de los juegos de azar que gana muchos premios con ellos."
   },
   {
    "id": "ham-signalman",
@@ -393,7 +394,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Kiuchi Tsutomu",
-   "description": "An avid CB radio enthusiast who makes them from spare parts."
+   "description": "As de la electrónica. Él mismo se monta sus radios y transmisores."
   },
   {
    "id": "bill-formby",
@@ -425,7 +426,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Zoukei Sakuo",
-   "description": "Regarded as better than the pros at model figure making."
+   "description": "Sus figuras parecen profesionales, y encima vienen con regalo."
   },
   {
    "id": "grant-eldorado",
@@ -457,7 +458,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Touma Souta",
-   "description": "He always wins fighting games using the least favourite characters."
+   "description": "Ama los juegos de lucha. Juega con personajes que nadie elige."
   },
   {
    "id": "mike-vox",
@@ -489,7 +490,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Seimo Sakuta",
-   "description": "Loves voice actors and mimics them while listening to their CD's."
+   "description": "Le encantan los doblajes y hace imitaciones de voces de películas."
   },
   {
    "id": "ollie-webb",
@@ -521,7 +522,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Netto Saguri",
-   "description": "Never learns from getting viruses while browsing the internet."
+   "description": "Siempre pilla virus en páginas web extrañas, pero sigue visitándolas."
   }
  ]
 }

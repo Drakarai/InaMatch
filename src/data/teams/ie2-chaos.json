@@ -39,7 +39,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ooiwa Kurando",
-   "description": "He always wears a mask so no one can see his evil expression."
+   "description": "Lleva máscara para que nadie le vea en la cara que tiene ideas malvadas."
   },
   {
    "id": "bonnie-sparks",
@@ -68,7 +68,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Barazono Hana",
-   "description": "She loves trinkets and will go to any lengths to get the ones she wants."
+   "description": "Cuando quiere algo, hace cualquier cosa con tal de conseguirlo."
   },
   {
    "id": "claire-lesnow",
@@ -97,7 +97,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kurakake Clara",
-   "description": "She delivers cutting lines with a smile. Still, she has her admirers..."
+   "description": "Habla con frialdad mientras sonríe. A muchos les gusta que lo haga."
   },
   {
    "id": "albert-denver",
@@ -126,7 +126,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Gokukawa Kantarou",
-   "description": "A heinous sumo wrestler who throws players off the pitch for the ball."
+   "description": "Jugador de sumo despiadado que empuja el rival para robar el balón."
   },
   {
    "id": "bryce-whitingale",
@@ -156,7 +156,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Suzuno Fuusuke",
-   "description": "The captain of Diamond Dust. His calm exterior conceals a cold heart."
+   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple."
   },
   {
    "id": "ving-rice",
@@ -186,7 +186,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kurione Yuki",
-   "description": "Don't be fooled by her winning smile - she won't take any nonsense from anyone."
+   "description": "No soporta que nadie la moleste, pero cuando sonríe esta muy guapa."
   },
   {
    "id": "ben-blowton",
@@ -215,7 +215,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Honba Geki",
-   "description": "A fiery, powerful fighter known for his distinctive headband."
+   "description": "Saca su potencia de las llamas. Le interesan las cintas de pelo."
   },
   {
    "id": "ethan-whitering",
@@ -245,7 +245,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Atsuishi Shigeto",
-   "description": "Torch's childhood friend. He used to be a weakling, but training toughened him up."
+   "description": "Amigo de la infancia de Torch. Se entrenó para ser mas fuerte."
   },
   {
    "id": "dawson-foxx",
@@ -274,7 +274,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kadomichi Tooru",
-   "description": "His feelings are written all over his face. His solution? To wear a mask at all times."
+   "description": "Lleva máscara porque enseguida se le ve en la cara lo que piensa."
   },
   {
    "id": "claude-beacons",
@@ -304,7 +304,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nagumo Haruya",
-   "description": "The captain of Prominence. He has a fiery, aggressive character."
+   "description": "Capitán de Prominence. Es muy presuntuoso y siempre va al ataque."
   },
   {
    "id": "nigel-august",
@@ -335,7 +335,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Netsuha Natsuhiko",
-   "description": "Nobody knows what this glum-looking boy is really thinking."
+   "description": "Joven de ojos oscuros. Nadie sabe lo que esconde en su corazón."
   }
  ]
 }

@@ -41,7 +41,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Hibiki Seigou",
-   "description": "A noodle shop owner and erstwhile leader of the Inazuma Eleven."
+   "description": "Tiene un bar de fideos, pero su antaño fue la piedra angular del Inazuma."
   },
   {
    "id": "charles-island",
@@ -72,7 +72,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Ukishima Kazuto",
-   "description": "Rumour has it that this mysterious older man is someone rather special."
+   "description": "Extraño personaje que vive a orillas del río. Se dice que fue importante."
   },
   {
    "id": "garret-hairtown",
@@ -104,7 +104,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Kamimura Kirito",
-   "description": "He believes that short back and sides is the only acceptable footballing haircut."
+   "description": "Peluquero que si ve a un futbolista siente la tentación de raparlo."
   },
   {
    "id": "arthur-sweet",
@@ -135,7 +135,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Aida Chikara",
-   "description": "A deeply dependable man who watches over the whole neighbourhood."
+   "description": "Hombre simpático y atento a quien toda la barriada profesa cariño."
   },
   {
    "id": "tyler-thomas",
@@ -167,7 +167,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Teira Tamotsu",
-   "description": "A bespoke tailor who believes in the power of fitted suits."
+   "description": "﻿Tiene una tienda de ropa. Su lema es: \"Los trajes, a medida o nada\"."
   },
   {
    "id": "ian-suffolk",
@@ -199,7 +199,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Sugata Iwao",
-   "description": "A one-time wayward youth, he now doles out advice as a student guidance counsellor."
+   "description": "﻿Dicen por ahí que, antes que tutor, fue un pandillero de mucho cuidado."
   },
   {
    "id": "peter-mildred",
@@ -231,7 +231,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Batora Manabu",
-   "description": "The Raimon family butler, he has looked after Nelly since she was a baby."
+   "description": "Mayordomo de la casa Raimon. Ha cuidado a Nelly desde que nació."
   },
   {
    "id": "josh-nathaniel",
@@ -263,7 +263,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Nakama You",
-   "description": "He wants nothing more than a regular life and a regular job with a regular company."
+   "description": "Oficinista de una empresa normal. \"En lo normal está lo bueno\" dice."
   },
   {
    "id": "edward-gladstone",
@@ -295,7 +295,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Ikari Gengorou",
-   "description": "He is prone to sudden violent outbursts, so people give him a wide berth."
+   "description": "A la mínima está diciendo: \"¡Habráse visto!\" La gente le evita."
   },
   {
    "id": "joseph-yosemite",
@@ -327,7 +327,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Tamiyama You",
-   "description": "He sings on street corners daily, so he's always a little hoarse."
+   "description": "﻿Está al mando de un bar musical. Se dice que iba para cantante."
   },
   {
    "id": "constant-builder",
@@ -358,7 +358,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Biruda Kouichi",
-   "description": "A personal trainer whose body is as spry and limber as a man twenty years his junior."
+   "description": "Entrenador de gimnasio. Su cuerpo podría ser el de un veinteañero."
   },
   {
    "id": "david-evans",

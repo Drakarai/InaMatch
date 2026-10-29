@@ -41,7 +41,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Astaroth",
-   "description": "A player from the underworld. Some say his eyes can see the future."
+   "description": "Un jugador del inframundo. Dicen que es capaz de ver el futuro."
   },
   {
    "id": "bael",
@@ -72,7 +72,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Beelzebu",
-   "description": "Wielding dark powers, this player has a conceited and malevolent demeanour."
+   "description": "Un jugador del inframundo. Muy orgulloso y retorcido."
   },
   {
    "id": "abigor",
@@ -103,7 +103,8 @@
     "hair": "#4c8a3c",
     "skin": "#c08a5e"
    },
-   "wiki": "Abigorl"
+   "wiki": "Abigorl",
+   "description": "Un jugador del inframundo que predice la trayectoria del balón gracias a sus poderes."
   },
   {
    "id": "behemoth",
@@ -135,7 +136,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hebeemoth",
-   "description": "A player from the underworld. The size of his body matches his greed."
+   "description": "Un jugador del inframundo. Es tan grande como avaricioso."
   },
   {
    "id": "belial",
@@ -166,7 +167,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Belial",
-   "description": "He uses his magic powers to clearly perceive the dark underbelly of the world."
+   "description": "Jugador del inframundo que usa sus poderes para percibir el lado oscuro de las cosas."
   },
   {
    "id": "jezebeth",
@@ -196,7 +197,8 @@
     "hair": "#4c8a3c",
     "skin": "#9a6a44"
    },
-   "wiki": "Barbatos"
+   "wiki": "Barbatos",
+   "description": "Jugadora del inframundo que usa sus poderes para comunicarse con los animales."
   },
   {
    "id": "malphas",
@@ -227,7 +229,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Mephisto",
-   "description": "This devilish player enjoys deceiving his enemies with cruel lies."
+   "description": "Este jugador demoniaco disfruta engañando al rival con crueles mentiras."
   },
   {
    "id": "glasya",
@@ -291,7 +293,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Arachnes",
-   "description": "Using dark powers on the pitch, she inspires fear with her spider-like movements."
+   "description": "Jugadora del inframundo que usa sus técnicas arácnidas par aterrar a sus rivales."
   },
   {
    "id": "thanatos",
@@ -323,7 +325,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Satanatos",
-   "description": "A player from the underworld. The proud owner of an astronomical ego."
+   "description": "Un jugador del inframundo con un ego enorme. ¡Y a mucha honra!"
   },
   {
    "id": "destra",
@@ -355,7 +357,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Desuta",
-   "description": "The cruel leader of Devil Army Z. Favourite dish: revenge, served cold."
+   "description": "El cruel líder del Dark Team. Su plato favorito: la venganza. Bien fría."
   }
  ]
 }

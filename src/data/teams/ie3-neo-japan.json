@@ -40,7 +40,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Genda Koujirou",
-   "description": "There's no angle that the King of Keepers hasn't got covered."
+   "description": "Le llaman \"el rey de los porteros\". No deja ningún hueco sin cubrir."
   },
   {
    "id": "zack-cummings",
@@ -71,7 +71,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ishidaira Hanzou",
-   "description": "A martial artist. He defends the goal using his body like a lethal weapon."
+   "description": "Domina las artes marciales y corta el paso a cualquiera con su cuerpo."
   },
   {
    "id": "argie-bargie",
@@ -134,7 +134,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Makiya Hiroshi",
-   "description": "A true farm boy, he gets up at the crack of dawn to feed his cows and chickens."
+   "description": "﻿Hijo de granjeros que se levanta muy pronto para cuidar el ganado."
   },
   {
    "id": "henry-house",
@@ -166,7 +166,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Hera Tadashi",
-   "description": "He's prone to bouts of envy, and hates being caught out by others' fancy footwork."
+   "description": "No le reconoce el mérito a otros jugadores mejores que él."
   },
   {
    "id": "alan-master",
@@ -197,7 +197,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Narukami Kenya",
-   "description": "The pumping rhythm from his headphones fires him up on the pitch."
+   "description": "Los cascos le dan poder. Marea a los rivales al ritmo de la música."
   },
   {
    "id": "dave-quagmire",
@@ -229,7 +229,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Saginuma Osamu",
-   "description": "Raimon first met this Gungnir-toting football fanatic in Kyoto back in his Dvalin days."
+   "description": "Futbolista que presume de su técnica Lanza de Odín. Antes se hacía llamar Dvalin."
   },
   {
    "id": "ethan-whitering",
@@ -260,7 +260,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Atsuishi Shigeto",
-   "description": "Torch's childhood friend. He used to be a weakling, but training toughened him up."
+   "description": "Amigo de la infancia de Torch. Se entrenó para ser mas fuerte."
   },
   {
    "id": "daniel-hatch",
@@ -290,7 +290,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Jimon Daiki",
-   "description": "Royal Academy's ace striker. Those long legs are like loaded weapons."
+   "description": "Delantero estrella de la Royal. Sus largas piernas son su mejor arma"
   },
   {
    "id": "neil-turner",
@@ -352,7 +352,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kirigakure Saiji",
-   "description": "He occasionally eschews the rules of football in favour of using his ninja skills."
+   "description": "Magnífico ninja. A veces se olvida del reglamento y usa las manos."
   },
   {
    "id": "johan-tassman",
@@ -384,7 +384,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Yuukoku Hiroyuki",
-   "description": "He uses his psychic powers to get coached by famous players from beyond the grave."
+   "description": "Su \"don\" le permite contactar con espíritus de futbolistas."
   },
   {
    "id": "wilbur-watkins",
@@ -415,7 +415,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Izuno Yuu",
-   "description": "He has a real attitude and likes to feign shots before smacking other players with the ball."
+   "description": "Apunta a rivales con su chut para que salgan por los aires."
   },
   {
    "id": "zeke-valanche",
@@ -447,7 +447,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Segata Ryuuichirou",
-   "description": "Has an unshakeable belief in his own abilities and blames others when things go wrong."
+   "description": "Confía plenamente en su destreza y culpa a los demás si algo sale mal."
   },
   {
    "id": "tyler-murdock",
@@ -479,7 +479,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Mukata Tsutomu",
-   "description": "The youngest of three brothers, he trains hard to match his older siblings."
+   "description": "Admira a sus dos hermanos mayores y se entrena para ser como ellos."
   },
   {
    "id": "jonas-demetrius",
@@ -510,7 +510,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Demete Yutaka",
-   "description": "He always knows the lie of the land, and keeps both feet on the ground."
+   "description": "Capta las irregularidades del campo y las utiliza en beneficio propio."
   }
  ]
 }

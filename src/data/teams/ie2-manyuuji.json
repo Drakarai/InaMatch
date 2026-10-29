@@ -41,7 +41,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kakita Taishou",
-   "description": "His ability and tactical acumen are both in heavy demand."
+   "description": "No solo tiene calidad como jugador, también enseña muy bien."
   },
   {
    "id": "parry-waxon",
@@ -73,7 +73,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Satori Kai",
-   "description": "This player blocks his opponents with direct, decisive moves."
+   "description": "No duda en ningún momento. Bloquea al contrario con su juego directo."
   },
   {
    "id": "bri-spark",
@@ -105,7 +105,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hougyoku Hikaru",
-   "description": "His football improved when he got hold of a mysterious jewel."
+   "description": "Juega mejor al fútbol desde que consiguió una joya con poderes."
   },
   {
    "id": "max-fortune",
@@ -137,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Fukumi Miou",
-   "description": "There's a rumour that touching this guy's ear brings good fortune."
+   "description": "Dicen que si le tocas las orejas,te pasan cosas buenas."
   },
   {
    "id": "brendan-water",
@@ -169,7 +169,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Makanai Shou",
-   "description": "This player also doubles as the team's cook."
+   "description": "Aunque no es cocinero, prepara la comida a los de su equipo cada día."
   },
   {
    "id": "scott-banyan",
@@ -201,7 +201,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kogure Yuuya",
-   "description": "A snickering trickster. But does his slight frame conceal unexpected powers?"
+   "description": "Normal  Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante. ----  Personalidad falsa  Es muy travieso. Su pequeño cuerpo esconde una fuerza impresionante."
   },
   {
    "id": "junior-fardream",
@@ -233,7 +233,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Takayume Souichi",
-   "description": "This mysterious boy toots on a flute as he wanders around the country."
+   "description": "Chico misterioso que toca la flauta mientras viaja."
   },
   {
    "id": "ian-telektual",
@@ -265,7 +265,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Manabiya Ikkin",
-   "description": "This brainbox is already studying at a top university."
+   "description": "Se dice que este genio ha estudiado en las facultades más prestigiosas."
   },
   {
    "id": "lee-dinglite",
@@ -297,7 +297,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ichikawa Taemon",
-   "description": "A famous period actor's son, he even gets the odd bit part himself."
+   "description": "Hijo de un actor famoso. Él también actúa de vez en cuando."
   },
   {
    "id": "marshall-artz",
@@ -328,7 +328,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tenjin Atarou",
-   "description": "Cuts through the enemy lines with his brother Dirk."
+   "description": "Cuando se junta con Dirk, cruzan la línea del enemigo a su antojo."
   },
   {
    "id": "tyke-wando",
@@ -359,7 +359,8 @@
     "hair": "#5a3a7a",
     "skin": "#f1c79b"
    },
-   "wiki": "Kageta Meguru"
+   "wiki": "Kageta Meguru",
+   "description": "Sucesor de un comando secreto que protege Kioto con artes marciales."
   },
   {
    "id": "dirk-artz",
@@ -390,7 +391,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Tenjin Usuke",
-   "description": "He works well with his brother Marshall and rarely misses."
+   "description": "Juega muy bien junto a Marshall. Sus disparos suelen entrar a puerta."
   },
   {
    "id": "earnest-bookworm",
@@ -422,7 +423,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Itsushige Manabu",
-   "description": "A diligent student who pores over dusty old tomes long into the night."
+   "description": "Estudia concienzudamente legajos antiguos."
   },
   {
    "id": "ollie-gami",
@@ -454,7 +455,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kamo Yoshiyuki",
-   "description": "He uses arcane paper charms to master mysterious techniques."
+   "description": "Hace amuletos de papel y los usa para realizar técnicas extrañas."
   },
   {
    "id": "roman-kandel",
@@ -486,7 +487,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Gozan Sou",
-   "description": "He's usually quiet and retiring, but he really lets himself go once a year."
+   "description": "Normalmente es muy tranquilo, pero una vez al año arde como el fuego."
   },
   {
    "id": "don-ation",
@@ -518,7 +519,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Osamoto Gou",
-   "description": "The scion of a family who have run an extremely famous temple for centuries."
+   "description": "Hijo del monje que lleva un templo budista muy famoso y visitado."
   }
  ]
 }

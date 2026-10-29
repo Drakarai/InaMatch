@@ -41,7 +41,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Jean Baker",
-   "description": "Australia's star keeper, who uses the power of water to block the shots that come his way."
+   "description": "Portero estrella de Australia. Utiliza la fuerza del Pacífico para detener cualquier tiro."
   },
   {
    "id": "david-waterman",
@@ -105,7 +105,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Shine Beach",
-   "description": "An eco-warrior who can't bear the sight of a polluted beach."
+   "description": "A este ecologista le gusta que las playas estén impolutas ¡La basura, al contenedor!"
   },
   {
    "id": "kjell-snapper",
@@ -137,7 +137,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Karmei Kohler",
-   "description": "This player applies the wisdom of the ancients to his style of play."
+   "description": "El estilo de juego de este futbolista encierra la sabiduría de sus antepasados."
   },
   {
    "id": "ken-crackham",
@@ -168,7 +168,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Clark Cain",
-   "description": "As well as a footballer, this player is an active conservationist of Australia's rich biodiversity."
+   "description": "Este jugador lucha por preservar la flora y la fauna de Australia."
   },
   {
    "id": "shawn-princeton",
@@ -200,7 +200,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sully Princeton",
-   "description": "This player has a prodigious knack for finding rare minerals just by reading the landscape."
+   "description": "Tiene un sexto sentido para encontrar rocas extrañas analizando el terreno de un vistazo."
   },
   {
    "id": "matt-fischer",
@@ -231,7 +231,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Matt Angle",
-   "description": "Patience strengthened by spiritual discipline is the key to this player's power."
+   "description": "Su punto fuerte es la paciencia. Dicen que la ha adquirido con ejercicios de meditación."
   },
   {
    "id": "hank-tennyson",
@@ -263,7 +263,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Surf Wyndhas",
-   "description": "This international soul-surfer spends his life in pursuit of the ultimate wave."
+   "description": "Surfista internacional con un único sueño: conquistar la ola perfecta."
   },
   {
    "id": "dolph-hensen",
@@ -294,7 +294,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Niese Dolphin",
-   "description": "A noble son of the majestic sea, and the captain of the Australian squad."
+   "description": "Este joven de la costa es la punta de lanza y capitán del equipo australiano."
   },
   {
    "id": "hamilton-reith",
@@ -325,7 +325,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Reef Hamilton",
-   "description": "This player's hobby is skin diving for tropical fish amid the coral reefs."
+   "description": "Le pirran los peces tropicales de los arrecifes de coral. Tubo, gafas, aletas... ¡y al agua patos!."
   },
   {
    "id": "joe-dawes",
@@ -357,7 +357,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Joe Jones",
-   "description": "A stealthy player who creeps up to rivals slowly, then pounces suddenly."
+   "description": "Tan sigiloso como un felino, siempre está al acecho. Ataca cuando menos te lo esperas."
   },
   {
    "id": "quincy-horace",
@@ -389,7 +389,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Quincy Horst",
-   "description": "As a sideline, this player tries to locate new goldmines in the outback."
+   "description": "Jugador de banda al que le gustaría encontrar nuevas minas de oro australianas."
   },
   {
    "id": "holly-summers",
@@ -453,7 +453,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Clive Scissors",
-   "description": "A very skilful player who can cut deep into his rivals' midfield."
+   "description": "Jugador de mucho talento que sabe cómo abrirse paso a través de la defensa enemiga."
   },
   {
    "id": "barack-daniels",
@@ -485,7 +485,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Daniel Barrack",
-   "description": "A jackaroo who dreams of producing the world's tastiest beef someday."
+   "description": "Aprendiz de ganadero. Sueña con producir la carne Hay un error ortográfico en su descripción en la que en vez de \"carne\" pone \"carde\". de ternera más sabrosa del mundo."
   },
   {
    "id": "bruce-marlin",
@@ -517,7 +517,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Bruce Marlin",
-   "description": "Rivals had better be careful of this player's kangaroo-style footwork."
+   "description": "¡Cuidado con este chico! Su juego de pies es digno de un marsupial."
   }
  ]
 }

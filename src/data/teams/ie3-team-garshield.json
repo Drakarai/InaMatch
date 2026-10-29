@@ -41,7 +41,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Fox",
-   "description": "He struggled to read his rivals' intentions, but he's getting there with Zoolan Rice's guidance."
+   "description": "Gracias a los consejos de Zoolan, este chico puede prever los movimientos de sus rivales."
   },
   {
    "id": "jacques-allemand",
@@ -73,7 +73,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Jackal",
-   "description": "Zoolan Rice has been teaching him how to play dirty. It's a contact sport after all."
+   "description": "Zoolan le ha enseñado a jugar sucio. A fin de cuentas, el fútbol es un deporte de contacto..."
   },
   {
    "id": "phil-a-minion",
@@ -104,7 +104,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Lubbock Henktacker",
-   "description": "He's a bit podgy, but a sharp guy. Be very wary of his disarming grin."
+   "description": "Este jugador orondo y astuto siempre lleva una sonrisa audaz en la cara."
   },
   {
    "id": "buddy-plains",
@@ -135,7 +135,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Buffalo",
-   "description": "He used to back out of challenges for fear of injury, but Zoolan Rice helped him improve."
+   "description": "No quería jugar al fútbol por temor a lesionarse, pero Zoolan le ayudó a superarlo."
   },
   {
    "id": "dean-goddard",
@@ -167,7 +167,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Dingo",
-   "description": "He was no good at teamwork, but Zoolan Rice kicked him into touch."
+   "description": "A este chico se le daba bien el trabajo en equipo y Zoolan le apretó la tuercas."
   },
   {
    "id": "cecil-crowley",
@@ -199,7 +199,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Owl",
-   "description": "He wasn't able to see very well in the daytime, but Zoolan Rice soon fixed that."
+   "description": "Zoolan lo ayudó a mejorar su visión. ¡Ya puede ver perfectamente al adversario!"
   },
   {
    "id": "seth-hedges",
@@ -231,7 +231,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Hedgehog",
-   "description": "He was weak against opponents' attacks, but Zoolan Rice helped him overcome that."
+   "description": "Gracias a Zoolan, este jugador aprendió a ser fuerte ante los ataques del rival."
   },
   {
    "id": "niccolo-mantegna",
@@ -294,7 +294,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Crow",
-   "description": "Team Zoolan's leader on the pitch. He's also known by the ominous name Grim Reaper."
+   "description": "Es el líder del Zoolan Team, Se le conoce como el Exterminador."
   },
   {
    "id": "avinash-chowdhury",
@@ -325,7 +325,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Coyote",
-   "description": "He'd lost confidence, and didn't know how to get it back. Until he met Zoolan Rice, that is..."
+   "description": "Hace tiempo perdió la confianza en sí mismo, pero Zoolan se la devolvió..."
   },
   {
    "id": "sedgley-scofield",
@@ -357,7 +357,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Scorpio",
-   "description": "His power to make decisive attacks was greatly boosted by Zoolan Rice."
+   "description": "Zoolan le dio poder para que pudiera ejecutar fieros ataques."
   },
   {
    "id": "grizzler-bruin",
@@ -389,7 +389,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Goliath",
-   "description": "He'd lacked precision on the pitch, but thanks to Zoolan Rice, he's like a laser now."
+   "description": "Su juego carecía de precisión, pero eso es agua pasada gracias a Zoolan."
   },
   {
    "id": "ian-c-wincy",
@@ -421,7 +421,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Spider",
-   "description": "Physically, he was weak till Zoolan Rice turbocharged him. Now he's built like a tank."
+   "description": "El físico de este jugador no era gran cosa. Sin embargo, Zoolan supo ponerle remedio."
   },
   {
    "id": "bandy-horsman",
@@ -453,7 +453,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Giraffe",
-   "description": "His resolve on the pitch was weak, but Zoolan Rice gifted him a steady nerve."
+   "description": "Zoolan le enseñó a tener la determinación que le hacía falta en el campo."
   },
   {
    "id": "ali-caiman",
@@ -485,7 +485,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Gavial",
-   "description": "This player's unpolished ball skills were improved by Zoolan Rice."
+   "description": "Con la ayuda de Zoolan, este jugador perfeccionó sus habilidades."
   },
   {
    "id": "chris-ellis",
@@ -517,7 +517,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Papillon",
-   "description": "He didn't have much stamina until Zoolan Rice supercharged him."
+   "description": "Gracias a Zoolan, este jugador ha sabido aumentar su resistencia."
   }
  ]
 }

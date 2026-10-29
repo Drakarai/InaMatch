@@ -41,7 +41,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Nasser Mustafa",
-   "description": "A scion of a powerful tribe, he cannot return home unless it is to announce victory."
+   "description": "Descendiente de una familia importante. Solo volverá a casa para anunciar su victoria."
   },
   {
    "id": "faraz-farooq",
@@ -73,7 +73,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Far Farouk",
-   "description": "This player's famous for making delicious desserts with dates."
+   "description": "Este jugador es famoso por elaborar deliciosos postres con dátiles."
   },
   {
    "id": "bilal-kalil",
@@ -104,7 +104,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Bjorn Kyle",
-   "description": "A shadowy man who leads his team with a relentless energy."
+   "description": "Un jugador que deja huella. Es incansable y tira del resto del equipo como capitán."
   },
   {
    "id": "jamila-wali",
@@ -136,7 +136,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Djamel Djammadu",
-   "description": "A keen traveller, this player dreams of a world which is not dependent on fossil fuels."
+   "description": "Le encanta viajar y sueña con el día en el que el mundo no dependa del petróleo."
   },
   {
    "id": "musa-sylla",
@@ -168,7 +168,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Musa Sirer",
-   "description": "This player wants to improve Qatar's manufacturing base and diversify."
+   "description": "Quiere mejorar la producción industrial de Catar y dedicarse a su exportación."
   },
   {
    "id": "yusuf-massoud",
@@ -200,7 +200,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Yusuf M'hadi",
-   "description": "This player deeply respects tribal traditions, and wouldn't like to live away from home."
+   "description": "Respeta profundamente las tradiciones de su país y no le gustaría vivir muy lejos de casa."
   },
   {
    "id": "sulayk-sulaiman",
@@ -232,7 +232,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sulai Sulaiman",
-   "description": "This player hopes to help Qatar by finding a way to desalinate seawater."
+   "description": "Desea encontrar la manera de desalinear el agua del mar para así ayudar a su país."
   },
   {
    "id": "sayid-armand",
@@ -264,7 +264,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Seiyd Armand",
-   "description": "This player is concerned that his country's economy is dependant on oil exports."
+   "description": "Le preocupa que su país dependa demasiado de la exportación de petróleo."
   },
   {
    "id": "mansur-jasim",
@@ -296,7 +296,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Messer Jassim",
-   "description": "This player is an expert at finding natural pearls. They're pretty pricey these days."
+   "description": "Tiene un talento natural para encontrar perlas. ¡Su precio está por las nubes!"
   },
   {
    "id": "zack-abdulla",
@@ -328,7 +328,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Zack Abdullah",
-   "description": "Camel herding was the traditional occupation of this player's tribe."
+   "description": "Viene de un pueblo cuya tradición es criar camellos."
   },
   {
    "id": "majdi-ismail",
@@ -359,7 +359,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Majidi Ismail",
-   "description": "As a hobby, this player likes to collect reptiles in the desert and frighten little girls with them."
+   "description": "Le encanta atrapar reptiles en el desierto y luego asustar a las niñas con ellos."
   },
   {
    "id": "talal-hamad",
@@ -391,7 +391,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Talal Hamad",
-   "description": "The ultimate goal of this player is to be a newsreader on a Middle Eastern TV station."
+   "description": "Sueña con ser presentador de telediario en alguna cadena de Oriente Medio."
   },
   {
    "id": "hasan-ahmed",
@@ -423,7 +423,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Hassan Ahmed",
-   "description": "This forward is known as the Eagle of Qatar for his swooping attacks."
+   "description": "Le apodan el Halcón Catarí porque se tira en picado a por el balón."
   },
   {
    "id": "khalfan-jibril",
@@ -487,7 +487,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Rajab Ismail",
-   "description": "With the dream of getting published, this player is working on a novel set in Qatar."
+   "description": "Está escribiendo una novela que se desarrolla en Catar. ¡Sueña con que se la publiquen!"
   },
   {
    "id": "adel-siddique",

@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Endou Mamoru",
-   "description": "Raimon's hot-blooded captain. Famous for his never-say-die spirit!"
+   "description": "El enérgico capitán del Raimon. ¡Es famoso por no rendirse jamás!"
   },
   {
    "id": "nathan-swift",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kazemaru Ichirouta",
-   "description": "He races past at gale-force speed! A good friend of Mark's."
+   "description": "¡Este chico corre como el viento! Uno de los mejores amigos de Mark."
   },
   {
    "id": "jack-wallside",
@@ -106,7 +106,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kabeyama Heigorou",
-   "description": "The one-man defensive wall! He's a huge guy, but he's a bit of a wimp."
+   "description": "¡Este defensa es grande como una muralla! Aunque un poco miedica."
   },
   {
    "id": "hurley-kane",
@@ -136,7 +136,8 @@
     "hair": "#3a2a1a",
     "skin": "#f1c79b"
    },
-   "wiki": "Tsunami Jousuke"
+   "wiki": "Tsunami Jousuke",
+   "description": "¡No existe ola que este tío enrollado no pueda surfear! Le encanta el mar."
   },
   {
    "id": "scott-banyan",
@@ -168,7 +169,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kogure Yuuya",
-   "description": "A snickering trickster. But does his slight frame conceal unexpected powers?"
+   "description": "Normal  Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante. ----  Personalidad falsa  Es muy travieso. Su pequeño cuerpo esconde una fuerza impresionante."
   },
   {
    "id": "caleb-stonewall",
@@ -200,7 +201,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Fudou Akio",
-   "description": "This aloof and rebellious player likes to use his skills to toy with rivals on the pitch."
+   "description": "Un chico rebelde al que le gusta alardear ante sus oponentes."
   },
   {
    "id": "thor-stoutberg",
@@ -230,7 +231,8 @@
     "hair": "#4c8a3c",
     "skin": "#f1c79b"
    },
-   "wiki": "Hijikata Raiden"
+   "wiki": "Hijikata Raiden",
+   "description": "Tiene un buen corazón y siempre cuida de sus amigos."
   },
   {
    "id": "jude-sharp",
@@ -262,7 +264,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kidou Yuuto",
-   "description": "The genius playmaker. Drives the team forward as a leader."
+   "description": "Un genio organizando el juego. El equipo lo sigue como a un líder."
   },
   {
    "id": "xavier-foster",
@@ -294,7 +296,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kiyama Hiroto",
-   "description": "An old rival who became a staunch ally. His shots are like blazing comets."
+   "description": "Antiguo rival del Raimon y ahora aliado. Sus tiros perecen cometas."
   },
   {
    "id": "shawn-froste",
@@ -326,7 +328,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fubuki Shirou",
-   "description": "A superlative striker from the snowy north. He may seem quiet, but don't let that fool you."
+   "description": "La estrella del Instituto Alpino. Como defensa es invencible."
   },
   {
    "id": "axel-blaze",
@@ -358,7 +360,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Gouenji Shuuya",
-   "description": "A genius striker with colossal firepower. Hides burning passion behind a cool façade."
+   "description": "Es un jugador de sangre fría, pero su pasión por el fútbol es ardiente."
   },
   {
    "id": "archer-hawkins",
@@ -389,7 +391,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Tobitaka Seiya",
-   "description": "Rumours are rife about this shady character. They call him Kid Kickalot."
+   "description": "Un chico con un pasado misterioso. Lo llaman Archie el Coces."
   },
   {
    "id": "austin-hobbes",
@@ -421,7 +423,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Utsunomiya Toramaru",
-   "description": "He idolises Axel Blaze, yet he has some incredible latent abilities of his own..."
+   "description": "Un joven delantero que idolatra a Axel. Tiene un talento increíble."
   },
   {
    "id": "david-samford",
@@ -452,7 +454,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sakuma Jirou",
-   "description": "A striker with a powerful shot. He's been known to help Jude out on the pitch."
+   "description": "Delantero con un tiro imparable. Suele ser la mano derecha de Jude."
   },
   {
    "id": "kevin-dragonfly",
@@ -484,7 +486,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Someoka Ryuugo",
-   "description": "The effort this big-hearted striker puts in is as scary as his face."
+   "description": "Su afán de superación impresiona, pero su cara... ¡todavía más!"
   },
   {
    "id": "darren-lachance",
@@ -516,7 +518,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tachimukai Yuuki",
-   "description": "This keeper has always looked up to Mark as a role model, but he's strong in his own right."
+   "description": "Su habilidad como portero es casi tan destacable como la de su ídolo Mark."
   }
  ]
 }

@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Endou Mamoru",
-   "description": "No one burns with a fiercer passion for football than Raimon's fearless skipper."
+   "description": "El enérgico capitán del Raimon. ¡Es famoso por no rendirse jamás!"
   },
   {
    "id": "jack-wallside",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kabeyama Heigorou",
-   "description": "This bulky full back forms a one-man defensive wall."
+   "description": "﻿Su gran cuerpo es como una pared que utiliza para que nadie pase."
   },
   {
    "id": "hurley-kane",
@@ -104,7 +104,8 @@
     "hair": "#3a2a1a",
     "skin": "#f1c79b"
    },
-   "wiki": "Tsunami Jousuke"
+   "wiki": "Tsunami Jousuke",
+   "description": "Surfista del campo. La gente le adora por su carácter entusiasta."
   },
   {
    "id": "scott-banyan",
@@ -136,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kogure Yuuya",
-   "description": "A snickering trickster. But does his slight frame conceal unexpected powers?"
+   "description": "Normal  Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante. ----  Personalidad falsa  Es muy travieso. Su pequeño cuerpo esconde una fuerza impresionante."
   },
   {
    "id": "scott-banyan-kogure-cc",
@@ -167,7 +168,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kogure Yuuya",
-   "description": "A snickering trickster. But does his slight frame conceal unexpected powers?"
+   "description": "Normal  Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante. ----  Personalidad falsa  Es muy travieso. Su pequeño cuerpo esconde una fuerza impresionante."
   },
   {
    "id": "victoria-vanguard",
@@ -231,7 +232,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kidou Yuuto",
-   "description": "A gifted playmaker combining superlative skill and technique."
+   "description": "De sus botas sale fútbol de muchos quilates. El mejor en su posición."
   },
   {
    "id": "erik-eagle",
@@ -263,7 +264,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ichinose Kazuya",
-   "description": "This comeback kid is known as the midfield magician."
+   "description": "Centrocampista excepcional. Le llaman \"El mago del campo\"."
   },
   {
    "id": "axel-blaze",
@@ -295,7 +296,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Gouenji Shuuya",
-   "description": "A cool transfer student renowned as a legendary striker."
+   "description": "Tras su aspecto frío se esconde una pasión sin límites por el fútbol."
   },
   {
    "id": "suzette-hartland",
@@ -327,7 +328,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Urabe Rica",
-   "description": "An Osaka girl striker whose ability is second to none."
+   "description": "Una delantera de Osaka que avasalla a cualquiera."
   },
   {
    "id": "shawn-froste-fubuki-cc",
@@ -359,7 +360,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fubuki Shirou",
-   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+   "description": "El Delantero estrella de las tierras del norte. Suele ser muy tranquilo."
   },
   {
    "id": "darren-lachance",
@@ -391,7 +392,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tachimukai Yuuki",
-   "description": "This keeper has always looked up to Mark as a role model, but he's strong in his own right."
+   "description": "Su habilidad como portero es casi tan destacable como la de su ídolo Mark."
   },
   {
    "id": "shawn-froste",
@@ -423,7 +424,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fubuki Shirou",
-   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+   "description": "El Delantero estrella de las tierras del norte. Suele ser muy tranquilo."
   },
   {
    "id": "shawn-froste-fubuki",
@@ -455,7 +456,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Fubuki Shirou",
-   "description": "The north's best striker is usually cool and calm until he's on the pitch..."
+   "description": "El Delantero estrella de las tierras del norte. Suele ser muy tranquilo."
   },
   {
    "id": "william-glass",
@@ -486,7 +487,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Megane Kakeru",
-   "description": "This bespectacled student is very popular. ...Or so he claims!"
+   "description": "﻿Un triunfador al que le quedan bien las gafas. O eso dice él..."
   },
   {
    "id": "bobby-shearer",
@@ -518,7 +519,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Domon Asuka",
-   "description": "He used to live in the USA. He behaves flippantly, but has a good heart."
+   "description": "Es despreocupado, pero pasional. Vivió un tiempo en Estados Unidos."
   },
   {
    "id": "eugene-conwell",

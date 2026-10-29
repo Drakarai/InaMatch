@@ -120,9 +120,12 @@ NAME_ES = {
 MIN_PLAYERS = 11
 
 
-def api(params):
+ES_API = 'https://inazuma.fandom.com/es/api.php'
+
+
+def api(params, url=API):
     params = {**params, 'format': 'json', 'formatversion': '2'}
-    req = urllib.request.Request(API + '?' + urllib.parse.urlencode(params), headers={'User-Agent': UA})
+    req = urllib.request.Request(url + '?' + urllib.parse.urlencode(params), headers={'User-Agent': UA})
     for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=90) as r:
@@ -134,12 +137,12 @@ def api(params):
             time.sleep(2 ** (attempt + 1))
 
 
-def fetch_pages(titles, extra=None):
+def fetch_pages(titles, extra=None, url=API):
     """Wikitexto (y lo que pida `extra`) de una lista de páginas, en lotes de 50."""
     out = {}
     for i in range(0, len(titles), 50):
         chunk = titles[i : i + 50]
-        data = api({'action': 'query', 'titles': '|'.join(chunk), 'prop': 'revisions', 'rvprop': 'content', 'rvslots': 'main', 'redirects': '1', **(extra or {})})
+        data = api({'action': 'query', 'titles': '|'.join(chunk), 'prop': 'revisions', 'rvprop': 'content', 'rvslots': 'main', 'redirects': '1', **(extra or {})}, url)
         q = data['query']
         alias = {r['from']: r['to'] for r in q.get('normalized', []) + q.get('redirects', [])}
         by_title = {p['title']: p for p in q['pages']}
@@ -232,7 +235,7 @@ for season, game, _tab, order in SEASONS:
 
 player_pages = sorted({PLAYERS[r[0]]['page'] for t in rosters for r in t[4] if PLAYERS[r[0]].get('page')})
 print('jugadores distintos:', len(player_pages), file=sys.stderr)
-char_pages = fetch_pages(player_pages)
+char_pages = fetch_pages(player_pages, {'prop': 'revisions|langlinks', 'lllang': 'es', 'lllimit': 'max'})
 
 STAT_KEYS = {'GP': 'fp', 'TP': 'tp', 'Kick': 'kick', 'Body': 'body', 'Control': 'control', 'Guard': 'guard', 'Speed': 'speed', 'Stamina': 'stamina', 'Guts': 'guts'}
 
@@ -260,6 +263,42 @@ def dub_name(text):
         return None
     name = re.sub(r"\{\{.*?\}\}|'''?|\[\[|\]\]|<[^>]+>", '', m.group(1)).lstrip('*').strip()
     return re.sub(r'\s*\(.*?\)', '', name) or None
+
+
+# las páginas de la wiki española tienen las descripciones oficiales de los juegos en español
+es_titles = {p: page['langlinks'][0]['title'] for p, page in char_pages.items() if page.get('langlinks')}
+# muchas páginas no tienen el enlace, pero en la wiki española se llaman como en el doblaje europeo
+for p, page in char_pages.items():
+    if p not in es_titles and (dub := dub_name(content(page))):
+        es_titles[p] = dub
+es_pages = fetch_pages(sorted(set(es_titles.values())), url=ES_API)
+print('jugadores con página en la wiki española:', sum(1 for t in es_titles.values() if content(es_pages.get(t, {}))), file=sys.stderr)
+
+
+ES_DESC = {'IE': ('IE', 'Descripción IE'), 'IE2': ('IE 2', 'Descripción IE2'), 'IE3': ('IE 3', 'Descripción IE3')}
+
+
+def clean_wiki(t):
+    t = re.sub(r'<nowiki>\s*</nowiki>|<[^>]+>', ' ', t)
+    t = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]', r'\1', t)
+    t = re.sub(r'\{\{[^{}]*\}\}', '', t)
+    return re.sub(r"'''?|\s+", ' ', t).strip()
+
+
+def description_es(text, game):
+    """Descripción oficial en español del juego: el parámetro "Descripción IE3 = ..." (o IE2, o IE) de las
+    plantillas de descripción, sea {{Descripción/IE 3 | ...}} o {{Descripción | ...}}.
+    Si trae varias (antes/después, DF/FW...), la primera."""
+    tpl, param = ES_DESC[game]
+    m = re.search(r'\|\s*%s\s*=(.*?)(?=\n\s*\||\}\})' % re.escape(param), text, re.S)
+    if game == 'IE' and not m:
+        m = re.search(r'\{\{Descripci[oó]n/IE\s*\|(?:[^{}]|\{\{[^{}]*\}\})*?\|\s*Descripci[oó]n\s*=(.*?)(?=\n\s*\||\}\})', text, re.S)
+    if not m or 'Aviso' in m.group(1):
+        return None
+    body = m.group(1)
+    bullets = re.findall(r'\*\s*(?:\'\'\'[^\']*\'\'\'\s*:\s*)?([^\n*]+)', body)
+    out = clean_wiki(bullets[0] if bullets else body)
+    return out or None
 
 
 def description(text, game):
@@ -351,7 +390,9 @@ def build_player(key, number, team_name, season, order, used_ids):
         'look': {'hair': pick(name, HAIR), 'skin': pick(name[::-1], SKIN)},
         'wiki': d.get('page') or key,
     }
-    desc = next((x for g in order if (x := description(text, g))), None)
+    es_text = content(es_pages.get(es_titles.get(d.get('page', '')), {})) if es_titles.get(d.get('page', '')) else ''
+    desc = next((x for g in order if (x := description_es(es_text, g))), None)
+    desc = desc or next((x for g in order if (x := description(text, g))), None)
     if desc:
         player['description'] = desc
     return player

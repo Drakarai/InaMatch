@@ -40,7 +40,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Bunkou Susumu",
-   "description": "The Forest Team's formidable commander is well known for his survival tactics."
+   "description": "El capitán del equipo. Es un maestro de las técnicas de supervivencia."
   },
   {
    "id": "harry-boufante",
@@ -69,7 +69,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Toufu Nobiru",
-   "description": "The Forest Team's trend setter is justly proud of his flowing locks."
+   "description": "El presumido lider del equipo. Está orgulloso de su larga melena."
   },
   {
    "id": "todd-stuhl",
@@ -98,7 +98,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Suta Agaru",
-   "description": "A greedy-guts who can't get enough of those sautéed woodland mushrooms."
+   "description": "El glotón del equipo. Le encantan las setas salteadas."
   },
   {
    "id": "aspen-blewit",
@@ -128,7 +128,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Shayasu Yoruyuki",
-   "description": "The team brainbox, he was fiercely opposed to the team's expedition from the start."
+   "description": "El intelectual del equipo. Siempre ha sido contrario a la expedición."
   },
   {
    "id": "marismus-oregon",
@@ -157,7 +157,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Shimomaru Sun",
-   "description": "A fearsome player, but beneath that tough exterior is a big blubbing softy."
+   "description": "Su cara da miedo, pero es el romántico del equipo."
   },
   {
    "id": "scaber-enoki",
@@ -186,7 +186,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Manda Sontoku",
-   "description": "The team's motivator went on a faddish mushroom diet and now has no get-up-and-go."
+   "description": "El más fuerte del equipo. Ahora come muchas setas y no tienen fuerzas."
   },
   {
    "id": "garjan-cypress",
@@ -215,7 +215,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Furunishi Shigeru",
-   "description": "This lazy, laid-back loafer has a tree growing out of his head."
+   "description": "Es el más holgazán del equipo. Se ve que le creció un árbol en la cabeza."
   },
   {
    "id": "judas-deathcap",
@@ -245,7 +245,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Asaino Saiji",
-   "description": "This foolish young chap has a mushroom on his head he likes to call \"Max\"."
+   "description": "El pardillo del equipo. La seta de su cabeza se llama Pinon."
   },
   {
    "id": "chase-faithfull",
@@ -275,7 +275,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kurashibe Reiichi",
-   "description": "The team's deputy faithfully follows his leader."
+   "description": "El teniente del equipo. Admira profundamente al capitán."
   },
   {
    "id": "chris-ticker",
@@ -304,7 +304,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Biku Suguru",
-   "description": "The team's drill sergeant. Can he really have eyes made from a digital watch?"
+   "description": "El que pasa lista del equipo. Lleva un reloj digital en los ojos."
   },
   {
    "id": "roy-daring",
@@ -333,7 +333,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shiki Yuuji",
-   "description": "A good-looking guy, but there's no one to admire him in the deep, dark forest."
+   "description": "El guapo del equipo. Aunque donde vive eso no tiene importancia."
   }
  ]
 }

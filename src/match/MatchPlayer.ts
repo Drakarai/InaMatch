@@ -3,7 +3,7 @@ import { FONT, GAME_SPEED } from '../config';
 import { movesOf } from '../data';
 import type { MoveData, PlayerData, TeamData } from '../data/types';
 import type { Fighter } from '../engine/rules';
-import { texKey } from '../gfx/placeholders';
+import { spriteKey } from '../gfx/placeholders';
 
 export type Side = 0 | 1; // 0 = jugador humano (ataca hacia arriba), 1 = CPU (ataca hacia abajo)
 
@@ -48,7 +48,7 @@ export class MatchPlayer {
     this.shadow = scene.add.ellipse(0, 0, 26, 9, 0x000000, 0.28);
     const ringColor = side === 0 ? 0x4fa3ff : 0xff5a6a;
     this.ring = scene.add.ellipse(0, 0, 30, 11).setStrokeStyle(2, ringColor, 0.9);
-    this.sprite = scene.add.image(0, 0, texKey.sprite(data.id));
+    this.sprite = scene.add.image(0, 0, spriteKey(scene, data, team));
     this.sprite.setScale(SPRITE_HEIGHT / this.sprite.height);
     this.tag = scene.add
       .text(0, 0, data.short, {

@@ -41,7 +41,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Billy Rapid",
-   "description": "He wants to be a cowboy in a western. He's always practising lines in the mirror."
+   "description": "Le gustan tanto las películas del Oeste que recita guiones de memoria delante del espejo."
   },
   {
    "id": "ted-bryant",
@@ -73,7 +73,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ted Bryan",
-   "description": "He sees Silicon Valley as a goldmine, and he hopes to make his fortune there."
+   "description": "Quiere hacerse de oro invirtiendo en nuevas tecnologías."
   },
   {
    "id": "tony-strider",
@@ -105,7 +105,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tony Stridas",
-   "description": "This guy is obsessed with eating steaks. He can't rest unless he eats one a day."
+   "description": "Los filetes de ternera son su gran obsesión. No duerme tranquilo si no come uno al día."
   },
   {
    "id": "drake-dynamo",
@@ -137,7 +137,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Dyke Dynamo",
-   "description": "They say that he once wrestled a buffalo to the ground. I'm not so sure, though."
+   "description": "Dicen por ahí que una vez tumbó a un búfalo él solo... ¿Será verdad?"
   },
   {
    "id": "bobby-shearer",
@@ -168,7 +168,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Domon Asuka",
-   "description": "He doesn't take himself seriously, but he has a good heart."
+   "description": "No se toma las cosas en serio, pero tiene buen corazón."
   },
   {
    "id": "steve-woodmark",
@@ -200,7 +200,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Steve Woodmack",
-   "description": "His ambition is to sit in the Oval Office, but no one takes him seriously."
+   "description": "Dice que quiere ser presidente de Estados Unidos, pero nadie se lo toma en serio..."
   },
   {
    "id": "erik-eagle",
@@ -231,7 +231,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ichinose Kazuya",
-   "description": "This comeback kid is known as the Midfield Magician."
+   "description": "Centrocampista excepcional. Le llaman \"El mago del campo\"."
   },
   {
    "id": "shane-pierce",
@@ -262,7 +262,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sean Pierce",
-   "description": "He's only young, but he has a good grasp of Wall Street's complex financial structures."
+   "description": "Aunque sea muy joven, se le da muy bien las finanzas y podría trabajar en Wall Street."
   },
   {
    "id": "mark-krueger",
@@ -293,7 +293,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Mark Krueger",
-   "description": "Along with Erik Eagle, he's the leading light of the American squad."
+   "description": "Esta estrella estadounidense forma un gran dúo centrocampista con Erik."
   },
   {
    "id": "dylan-keats",
@@ -324,7 +324,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Dylan Keith",
-   "description": "His exploits in the North American qualifiers earned him the nickname Hat-Trick Kid."
+   "description": "El máximo goleador de las eliminatorias. Lo llaman Sr. Gol."
   },
   {
    "id": "gabriel-jax",
@@ -355,7 +355,8 @@
     "hair": "#efe6c4",
     "skin": "#b5835a"
    },
-   "wiki": "Michele Jacks"
+   "wiki": "Michele Jacks",
+   "description": "Sus padres son estrellas de Hollywood, y desea tener tanta fama como ellos."
   },
   {
    "id": "alex-hawke",
@@ -387,7 +388,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Alex Hawk",
-   "description": "He insists that he can read the signs in nature to predict the weather."
+   "description": "Puede pronosticar el tiempo a través de las señales de la naturaleza."
   },
   {
    "id": "corey-washington",
@@ -418,7 +419,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Rob Parker",
-   "description": "He wants to live the American dream by taking his country all the way to the top."
+   "description": "Quiere ver a su equipo ganar un mundial y cumplir así su mayor sueño."
   },
   {
    "id": "bob-bobbins",
@@ -449,7 +450,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Bob Bobbins",
-   "description": "He's a real slob. He loves to sprawl on the sofa, swilling cola and chomping chips."
+   "description": "Se pasa el día en el sofá, bebiendo refrescos y comiendo porquerías... ¡Que gandul!"
   },
   {
    "id": "petie-pooma",
@@ -481,7 +482,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sammy Dempsey",
-   "description": "He's tiny for an American, but within him hides the coiled power of a jungle cat."
+   "description": "Aunque es un chico un poco bajito, posee la fuerza de un puma."
   },
   {
    "id": "norbert-poindexter",
@@ -513,7 +514,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Eddie Howard",
-   "description": "He didn't care much for American football, but he really took to soccer."
+   "description": "Después de probar varios deportes, ha acabado aficionándose al fútbol."
   }
  ]
 }

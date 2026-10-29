@@ -39,7 +39,8 @@
     "hair": "#efe6c4",
     "skin": "#b5835a"
    },
-   "wiki": "Robo S"
+   "wiki": "Robo S",
+   "description": "Robot guardia 1 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-p",
@@ -67,7 +68,8 @@
     "hair": "#e98aa8",
     "skin": "#c08a5e"
    },
-   "wiki": "Robo P"
+   "wiki": "Robo P",
+   "description": "Robot guardia 2 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-t",
@@ -95,7 +97,8 @@
     "hair": "#1d1410",
     "skin": "#b5835a"
    },
-   "wiki": "Robo T"
+   "wiki": "Robo T",
+   "description": "Robot guardia 3 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-v",
@@ -123,7 +126,8 @@
     "hair": "#d9822b",
     "skin": "#f1c79b"
    },
-   "wiki": "Robo V"
+   "wiki": "Robo V",
+   "description": "Robot guardia 4 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-c",
@@ -151,7 +155,8 @@
     "hair": "#efe6c4",
     "skin": "#f1c79b"
    },
-   "wiki": "Robo C"
+   "wiki": "Robo C",
+   "description": "Robot guardia 5 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-l",
@@ -179,7 +184,8 @@
     "hair": "#4c8a3c",
     "skin": "#f1c79b"
    },
-   "wiki": "Robo L"
+   "wiki": "Robo L",
+   "description": "Robot guardia 11 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-o",
@@ -207,7 +213,8 @@
     "hair": "#4c8a3c",
     "skin": "#e8b888"
    },
-   "wiki": "Robo O"
+   "wiki": "Robo O",
+   "description": "Robot guardia 6 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-b",
@@ -235,7 +242,8 @@
     "hair": "#efe6c4",
     "skin": "#f1c79b"
    },
-   "wiki": "Robo B"
+   "wiki": "Robo B",
+   "description": "Robot guardia 7 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-g",
@@ -263,7 +271,8 @@
     "hair": "#3a2a1a",
     "skin": "#f1c79b"
    },
-   "wiki": "Robo G"
+   "wiki": "Robo G",
+   "description": "Robot guardia 8 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-k",
@@ -291,7 +300,8 @@
     "hair": "#6b3e1f",
     "skin": "#b5835a"
    },
-   "wiki": "Robo K"
+   "wiki": "Robo K",
+   "description": "Robot guardia 9 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-f",
@@ -317,7 +327,8 @@
     "hair": "#e98aa8",
     "skin": "#b5835a"
    },
-   "wiki": "Robo F"
+   "wiki": "Robo F",
+   "description": "Robot guardia 10 del laboratorio de los Mensajeros de las Estrellas."
   }
  ]
 }

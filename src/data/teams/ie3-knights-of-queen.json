@@ -41,7 +41,8 @@
     "hair": "#3a2a1a",
     "skin": "#c08a5e"
    },
-   "wiki": "Freddie McQueen"
+   "wiki": "Freddie McQueen",
+   "description": "Su mayor ilusión es ser espía para su país y llevar una vida llena de aventuras."
   },
   {
    "id": "jonny-gascoigne",
@@ -73,7 +74,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Johnny Gascoigne",
-   "description": "He might dress and act like a punk, but deep down he's a real softie."
+   "description": "Aunque vista y se comporte como un gamberro, en el fondo es un blandengue."
   },
   {
    "id": "david-buckingham",
@@ -136,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Lance Rotten",
-   "description": "Clinging to the rights and privileges of the aristocracy, he asserts his right to lead."
+   "description": "Como proviene de una familia de aristócratas, se cree con derecho a mandar."
   },
   {
    "id": "edge-ripper",
@@ -167,7 +168,8 @@
     "hair": "#e98aa8",
     "skin": "#9a6a44"
    },
-   "wiki": "Edge Ripper"
+   "wiki": "Edge Ripper",
+   "description": "Tiene un gran éxito en el extranjero como cantante de heavy metal."
   },
   {
    "id": "peter-cole",
@@ -199,7 +201,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Peter Cole",
-   "description": "A music buff who insists that the British music scene is the best in the world."
+   "description": "Vive convencido de que la música británica es la mejor del mundo."
   },
   {
    "id": "gary-mane",
@@ -230,7 +232,8 @@
     "hair": "#3a6fb5",
     "skin": "#b5835a"
    },
-   "wiki": "Gary Links"
+   "wiki": "Gary Links",
+   "description": "Hornea unas deliciosas pastitas. ¡Las sirven en cualquier merienda de postín!"
   },
   {
    "id": "paul-appleton",
@@ -323,7 +326,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Edgar Valtinas",
-   "description": "He's a calm and brave leader. He's popular, and always gives his best."
+   "description": "Un líder callado, pero fuerte. Es tan hábil como popular."
   },
   {
    "id": "phillip-owen",
@@ -354,7 +357,8 @@
     "hair": "#3a2a1a",
     "skin": "#b5835a"
    },
-   "wiki": "Philip Owen"
+   "wiki": "Philip Owen",
+   "description": "Su especialidad es el rosbif y no tolera que alguien menosprecie dicha exquisitez."
   },
   {
    "id": "servilius-jeeves",
@@ -385,7 +389,8 @@
     "hair": "#3a2a1a",
     "skin": "#c08a5e"
    },
-   "wiki": "Gareth Barrett"
+   "wiki": "Gareth Barrett",
+   "description": "Viene de una familia de mayordomos y sabe cómo atender a los demás con elegancia."
   },
   {
    "id": "martin-squall",
@@ -510,7 +515,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Beat Smash",
-   "description": "This player's rugby experience makes him prone to committing handballs."
+   "description": "Jugaba al rugby y se ha acostumbrado a recibir el balón con las manos. Cuidado..."
   }
  ]
 }

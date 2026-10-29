@@ -12,7 +12,7 @@ import {
   type Situation,
 } from '../engine/rules';
 import { fxColors, fxParticle, type FxRecipe } from '../gfx/fx';
-import { texKey } from '../gfx/placeholders';
+import { portraitKey, texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
 import { THEME, dim, pt, sectionTitle, slant, themePanel } from '../ui/theme';
 import { Button, StatBar, text } from '../ui/widgets';
@@ -206,7 +206,7 @@ export class HudScene extends Phaser.Scene {
       const row = this.rows[i];
       row.container.setVisible(!!p);
       if (!p) return;
-      const key = texKey.portrait(p.data.id);
+      const key = portraitKey(this, p.data, p.team);
       if (row.portrait.texture.key !== key) row.portrait.setTexture(key).setDisplaySize(72, 72);
       const band = row.container.list[0] as Phaser.GameObjects.Graphics;
       const sideColor = p.side === 0 ? THEME.home : THEME.away;
@@ -485,7 +485,7 @@ export class HudScene extends Phaser.Scene {
       ]);
       band.lineStyle(4, color).lineBetween(0, H / 2 + 40, W, H / 2 - 30).lineBetween(0, H / 2 + 140, W, H / 2 + 70);
       band.setAlpha(0);
-      const portrait = this.add.image(-200, H / 2 - 70, texKey.portrait(player.data.id)).setDisplaySize(230, 230);
+      const portrait = this.add.image(-200, H / 2 - 70, portraitKey(this, player.data, player.team)).setDisplaySize(230, 230);
       const name = this.add
         .text(W + 400, H / 2 + 62, move.name, {
           fontFamily: FONT,

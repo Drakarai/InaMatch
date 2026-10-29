@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shirai Ikkaku",
-   "description": "A walking contradiction, he's hot-blooded but has an icy stare. His history's a mystery."
+   "description": "Parece una persona fría, pero tiene muy buen corazón."
   },
   {
    "id": "alan-downhill",
@@ -73,7 +73,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Touchi Shuuji",
-   "description": "He starts studying the moment he wakes up. His IQ must be over a thousand by now."
+   "description": "Solo estudia, estudia y estudia. Su CI acabará pasando de 1000."
   },
   {
    "id": "claire-lesnow",
@@ -105,7 +105,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kurakake Clara",
-   "description": "She delivers cutting lines with a smile. Still, she has her admirers..."
+   "description": "Habla con frialdad mientras sonríe. A muchos les gusta que lo haga."
   },
   {
    "id": "albert-denver",
@@ -137,7 +137,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Gokukawa Kantarou",
-   "description": "A heinous sumo wrestler who throws players off the pitch for the ball."
+   "description": "Jugador de sumo despiadado que empuja el rival para robar el balón."
   },
   {
    "id": "ving-rice",
@@ -169,7 +169,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kurione Yuki",
-   "description": "Don't be fooled by her winning smile - she won't take any nonsense from anyone."
+   "description": "No soporta que nadie la moleste, pero cuando sonríe esta muy guapa."
   },
   {
    "id": "denzel-freezer",
@@ -201,7 +201,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Mikoori Rei",
-   "description": "He gets in trouble with his own team-mates for his cold behaviour."
+   "description": "Tiene el corazón de hielo y hasta sus compañeros le temen."
   },
   {
    "id": "lucy-hailstone",
@@ -232,7 +232,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Touchi Ai",
-   "description": "Arkew's sister. On the pitch, she follows her brother's plans to the letter."
+   "description": "Hermana de Arkew. Juega tal y como su hermano le dice que lo haga."
   },
   {
    "id": "brad-coldwater",
@@ -264,7 +264,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Toba Ren",
-   "description": "He has a complex about being so cute and plays wearing a mask."
+   "description": "Tiene complejo de cara aniñada y se maquilla para dar miedo."
   },
   {
    "id": "dawson-foxx",
@@ -296,7 +296,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kadomichi Tooru",
-   "description": "His feelings are written all over his face. His solution? To wear a mask at all times."
+   "description": "Lleva máscara porque enseguida se le ve en la cara lo que piensa."
   },
   {
    "id": "bernie-white",
@@ -328,7 +328,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tsumujino Touji",
-   "description": "Hyper-alert, he knows what his opponents are going to do before they do."
+   "description": "Es capaz de prever los movimientos del rival y nunca baja la guardia."
   },
   {
    "id": "bryce-whitingale",
@@ -359,7 +359,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Suzuno Fuusuke",
-   "description": "The captain of Diamond Dust. His calm exterior conceals a cold heart."
+   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple."
   }
  ]
 }

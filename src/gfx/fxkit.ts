@@ -65,11 +65,14 @@ export function flash(scene: Phaser.Scene, x: number, y: number, color: number, 
 
 /** Fogonazo que tiñe toda la pantalla. */
 export function screenFlash(scene: Phaser.Scene, color = 0xffffff, ms = 160): void {
-  // mezclado con blanco y a media opacidad, para no tapar el campo con un color plano
-  const c = Phaser.Display.Color.ValueToColor(lighten(color, 45));
+  // capa casi blanca, apenas teñida, que se apaga sola: ilumina sin tapar el campo con un color plano
   const cam = scene.cameras.main;
-  cam.flashEffect.alpha = 0.5;
-  cam.flash(ms, c.red, c.green, c.blue, true);
+  const r = scene.add
+    .rectangle(0, 0, cam.width, cam.height, lighten(color, 80), 0.22)
+    .setOrigin(0)
+    .setScrollFactor(0)
+    .setDepth(DEPTH + 500);
+  scene.tweens.add({ targets: r, alpha: 0, duration: ms * 1.5, ease: 'Quad.out', onComplete: () => r.destroy() });
 }
 
 export function shake(scene: Phaser.Scene, ms = 160, power = 0.006): void {

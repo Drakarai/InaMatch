@@ -780,7 +780,7 @@ const handV = fx(async (k) => {
     const parts = majinParts(body, hair);
     if (k.v === 'deity') parts.unshift(['p', 0xff4040, -170, -220, 170, -220, 210, -20, -210, -20]);
     if (k.v === 'demon') parts.push(['p', 0x401060, -40, -280, -70, -340, -20, -270], ['p', 0x401060, 40, -280, 70, -340, 20, -270]);
-    behind.push(summon(k.scene, k.x - k.o.dir.x * 50, k.y + 30, parts, k.c, { scale: 1.15, enter: 'rise', exit: 'fade', hold: 650, depth: DEPTH - 2 }));
+    behind.push(summon(k.scene, k.x - k.o.dir.x * 50, k.y + 30, parts, k.c, { scale: 0.85, enter: 'rise', exit: 'fade', hold: 650, depth: DEPTH - 2 }));
   }
   if (k.v === 'god' || k.v === 'omega') rays(k.scene, at.x, at.y - 60, [k.c[0], k.c[1] ?? 0xffffff], 16, 200, 900, DEPTH - 1);
   if (k.v === 'god') for (let i = 0; i < 3; i++) k.scene.time.delayedCall(150 + i * 140, () => bolt(k.scene, at.x + Phaser.Math.Between(-60, 60), at.y - 40, 0xffe040, 240, 10));
@@ -2187,15 +2187,30 @@ const slide = fx(async (k) => {
 
 /** Ola gigante que rompe hacia delante (Remate tsunami, Muralla tsunami). */
 function waveCrash(k: Ctx, scale = 1): Promise<void> {
-  const g = k.scene.add.graphics({ x: k.x, y: k.y }).setDepth(DEPTH - 1).setRotation(angleOf(k.o.dir) + Math.PI / 2);
+  // ola que crece, se riza en la cresta y rompe hacia delante, con espuma
+  const g = k.scene.add.graphics({ x: k.x, y: k.y + 10 }).setDepth(DEPTH - 1);
+  const side = perp(k.o.dir);
+  const foam = particles(k.scene, k.x, k.y, 'fx-glow', { speed: { min: 40, max: 160 }, scale: { start: 1, end: 0.2 }, alpha: { start: 0.9, end: 0 }, tint: [0xffffff, 0xbfe9ff], lifespan: 500, frequency: 25, quantity: 3, emitting: true });
   return animate(k.scene, 900, (t) => {
     g.clear();
-    const h = 200 * scale * Math.sin(Math.min(1, t * 1.4) * Math.PI * 0.5);
-    const fwd = -t * 120 * scale;
-    g.fillStyle(0x2f8fff, 0.75).fillPoints([pt(-150 * scale, 30), pt(-150 * scale, -h * 0.6 + fwd), pt(-40 * scale, -h + fwd), pt(80 * scale, -h * 0.8 + fwd), pt(150 * scale, -h * 0.4 + fwd), pt(150 * scale, 30)], true);
-    g.fillStyle(0xbfe9ff, 0.9).fillPoints([pt(-40 * scale, -h + fwd), pt(80 * scale, -h * 0.8 + fwd), pt(60 * scale, -h * 0.7 + fwd), pt(-30 * scale, -h * 0.85 + fwd)], true);
-    g.setAlpha(t > 0.8 ? (1 - t) / 0.2 : 1);
-    if (t >= 1) g.destroy();
+    const rise = Math.sin(Math.min(1, t * 1.3) * Math.PI * 0.5);
+    const fwd = t * 140 * scale;
+    const fade = t > 0.8 ? (1 - t) / 0.2 : 1;
+    for (let i = -5; i <= 5; i++) {
+      const w = 1 - Math.abs(i) / 6;
+      const bx = side.x * i * 22 * scale + k.o.dir.x * fwd;
+      const by = side.y * i * 22 * scale + k.o.dir.y * fwd;
+      const h = 150 * scale * rise * w;
+      g.fillStyle(0x1f78e0, 0.75 * fade).fillEllipse(bx, by - h / 2, 30 * scale, h + 10);
+      g.fillStyle(0x6fc0ff, 0.85 * fade).fillEllipse(bx + k.o.dir.x * 6, by - h + 6, 26 * scale, 22 * scale);
+      g.fillStyle(0xffffff, 0.9 * fade).fillCircle(bx + k.o.dir.x * 12, by - h + 2, 7 * scale * w + 2);
+    }
+    foam.setPosition(k.x + k.o.dir.x * fwd, k.y + k.o.dir.y * fwd - 120 * scale * rise);
+    if (t >= 1) {
+      g.destroy();
+      foam.stop();
+      cleanup(k.scene, 600, foam);
+    }
   });
 }
 

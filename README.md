@@ -83,8 +83,9 @@ Las supertécnicas gastan TP y suelen ganar a los comandos básicos. Además, **
 - **Técnica (TP, verde):** solo la gastan las supertécnicas.
 - **Descanso:** todos recuperan un 33 % de cada barra. Se abre la formación para hacer cambios (cada jugador
   conserva su estamina) o cambiar de formación antes de la 2ª parte.
-- En un **duelo** con supertécnica, las dos elecciones aparecen frente a frente, chocan y queda la ganadora, que
-  hace su efecto. En tiros, bloqueos y paradas se ve la técnica como antes.
+- En un **duelo** con supertécnica, la pantalla se parte en diagonal con el color de cada técnica. Los dos jugadores
+  lanzan su energía, los rayos chocan y forcejean en el centro, y la ganadora empuja, barre la pantalla y hace
+  su efecto. La perdedora se rompe. En tiros, bloqueos y paradas se ve la técnica como antes.
 
 El ritmo general del partido se ajusta con `GAME_SPEED` en `src/config.ts` (ahora 0,75; 1 = más rápido).
 

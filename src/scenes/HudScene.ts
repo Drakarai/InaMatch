@@ -467,98 +467,245 @@ export class HudScene extends Phaser.Scene {
   // ------------------------------------------------- animación de técnica
 
   /**
-   * Duelo con supertécnica: las dos elecciones entran cada una por su lado, chocan en el centro y la que
-   * pierde se rompe. Queda la ganadora, que luego hace su efecto sobre el campo.
+   * Duelo con supertécnica, como los choques del anime: la pantalla se parte en diagonal con el color de
+   * cada técnica, los dos jugadores entran en grande, sus rayos de energía chocan en el centro y forcejean,
+   * y al final la ganadora empuja, barre la pantalla con su color y la perdedora se rompe.
    */
   clashCutin(winner: ClashSide, loser: ClashSide): Promise<void> {
     return new Promise((resolve) => {
       const W = FIELD_VIEW.w;
       const H = FIELD_VIEW.h;
+      const CX = W / 2;
+      const CY = H / 2 - 20;
       const c = this.add.container(0, 0).setDepth(60);
       const maskShape = this.make.graphics({}, false).fillStyle(0xffffff).fillRect(0, 0, W, H);
       c.setMask(maskShape.createGeometryMask());
       const shade = this.add.rectangle(W / 2, H / 2, W, H, 0x000000, 0).setInteractive();
       c.add(shade);
+
       // el jugador humano siempre a la izquierda
       const left = winner.player.side === 0 ? winner : loser;
       const right = left === winner ? loser : winner;
-      const colorOf = (s: ClashSide) =>
-        s.choice.type === 'move' ? fxColors(s.fx ?? { fx: 'impact' }, s.choice.move.element) : ([0x6f7f99, 0xc9d3e0] as [number, number]);
-      const panel = (s: ClashSide, dir: -1 | 1) => {
-        const [col, col2] = colorOf(s);
-        const p = this.add.container(dir < 0 ? -420 : W + 420, H / 2);
-        const g = this.add.graphics();
-        const w = 380;
-        const x0 = dir < 0 ? -w : 0;
-        g.fillStyle(0x000000, 0.5).fillPoints(slant(x0 + 6, -82, w, 170, 30), true);
-        g.fillStyle(dim(col, 0.35)).fillPoints(slant(x0, -88, w, 170, 30), true);
-        g.fillStyle(col).fillPoints(slant(x0, 40, w, 42, 12), true);
-        g.lineStyle(3, col2).strokePoints(slant(x0, -88, w, 170, 30), true);
-        const px = dir < 0 ? -w + 90 : w - 90;
-        const portrait = this.add.image(px, -20, portraitKey(this, s.player.data, s.player.team)).setDisplaySize(120, 120);
-        const name = text(this, dir < 0 ? -20 : 20, -66, s.player.data.short, 16, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(dir < 0 ? 1 : 0, 0.5);
-        const label = choiceLabel(s.choice);
-        const tech = text(this, dir < 0 ? -20 : 20, 61, label, 22, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 5 }).setOrigin(dir < 0 ? 1 : 0, 0.5);
-        for (let size = 22; tech.width > w - 60 && size > 13; ) tech.setFontSize(--size);
-        const kind = text(this, dir < 0 ? -20 : 20, 22, s.choice.type === 'move' ? `Supertécnica · TP ${s.choice.move.tp}` : 'Comando', 12, '#e3e9f2', { fontStyle: 'italic' }).setOrigin(dir < 0 ? 1 : 0, 0.5);
-        p.add([g, portrait, name, kind, tech]);
-        c.add(p);
-        return p;
+      const winIsLeft = left === winner;
+      const colorsOf = (s: ClashSide): [number, number] =>
+        s.choice.type === 'move' ? fxColors(s.fx ?? { fx: 'impact' }, s.choice.move.element) : [0x8a97aa, 0xdfe6f0];
+      const [lc, lc2] = colorsOf(left);
+      const [rc, rc2] = colorsOf(right);
+
+      // fondo: dos mitades con la costura en diagonal y líneas de velocidad hacia el centro
+      const bg = this.add.graphics();
+      const lines = this.add.graphics();
+      c.add([bg, lines]);
+      const state = { split: 0, appear: 0, shake: 0, sweep: 0 };
+      const seam = (t: number) => {
+        // costura quebrada como un rayo, que se mueve con el forcejeo
+        const pts: Phaser.Geom.Point[] = [];
+        for (let i = 0; i <= 10; i++) {
+          const y = (i / 10) * H;
+          const jag = (i % 2 ? 1 : -1) * 18 + Math.sin(t * 40 + i) * 6 * state.shake;
+          pts.push(pt(CX + state.split + (y - H / 2) * -0.28 + jag, y));
+        }
+        return pts;
       };
-      const lp = panel(left, -1);
-      const rp = panel(right, 1);
-      const vs = text(this, W / 2, H / 2, 'VS', 70, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 10 }).setOrigin(0.5).setScale(0);
-      c.add(vs);
+      const drawBg = (t: number) => {
+        const s = seam(t);
+        bg.clear();
+        bg.fillStyle(dim(lc, 0.45), state.appear).fillPoints([pt(0, 0), ...s, pt(0, H)], true);
+        bg.fillStyle(dim(rc, 0.45), state.appear).fillPoints([pt(W, 0), ...s, pt(W, H)], true);
+        // brillo de la costura
+        bg.lineStyle(14, 0xffffff, 0.25 * state.appear).strokePoints(s);
+        bg.lineStyle(4, 0xffffff, 0.95 * state.appear).strokePoints(s);
+        // líneas de velocidad de cada lado
+        lines.clear();
+        for (let i = 0; i < 26; i++) {
+          const a = (i / 26) * Math.PI * 2 + t * 0.6;
+          const r0 = 120 + ((i * 37 + t * 900) % 260);
+          const x0 = CX + Math.cos(a) * r0;
+          const y0 = CY + Math.sin(a) * r0 * 0.75;
+          const col = x0 < CX + state.split ? lc2 : rc2;
+          lines.lineStyle(3, col, 0.35 * state.appear).lineBetween(x0, y0, CX + Math.cos(a) * (r0 + 160), CY + Math.sin(a) * (r0 + 160) * 0.75);
+        }
+      };
+
+      // jugadores: retrato grande con aura, nombre y técnica
+      const fighter = (s: ClashSide, dir: -1 | 1, col: number, col2: number) => {
+        const k = this.add.container(dir < 0 ? -300 : W + 300, CY + dir * 70);
+        const aura = this.add.graphics();
+        for (let i = 0; i < 14; i++) {
+          const a = (i / 14) * Math.PI * 2;
+          aura.fillStyle(i % 2 ? col : col2, 0.45).fillTriangle(0, 0, Math.cos(a - 0.14) * 170, Math.sin(a - 0.14) * 170, Math.cos(a + 0.14) * 170, Math.sin(a + 0.14) * 170);
+        }
+        aura.fillStyle(col, 0.5).fillCircle(0, 0, 118).fillStyle(0x000000, 0.35).fillCircle(0, 0, 106);
+        aura.lineStyle(5, col2).strokeCircle(0, 0, 108);
+        const portrait = this.add.image(0, 0, portraitKey(this, s.player.data, s.player.team)).setDisplaySize(200, 200);
+        if (dir > 0) portrait.setFlipX(true);
+        // rótulo inclinado con el nombre de la técnica
+        const label = choiceLabel(s.choice);
+        const plate = this.add.graphics();
+        const pw = 270;
+        const px = -pw / 2;
+        plate.fillStyle(0x000000, 0.55).fillPoints(slant(px + 6, 118, pw, 56, 16), true);
+        plate.fillStyle(col).fillPoints(slant(px, 112, pw, 56, 16), true);
+        plate.fillStyle(0xffffff, 0.25).fillPoints(slant(px + 8, 115, pw - 16, 14, 6), true);
+        const tech = text(this, px + pw / 2, 140, label, 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 6 }).setOrigin(0.5);
+        for (let size = 26; tech.width > pw - 40 && size > 14; ) tech.setFontSize(--size);
+        const who = text(this, px + 20, 100, s.player.data.name, 15, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 4 }).setOrigin(0, 1);
+        const kind =
+          s.choice.type === 'move'
+            ? text(this, px + pw - 20, 100, `TP ${s.choice.move.tp}`, 13, '#7dff9a', { fontStyle: 'bold', strokeThickness: 4 }).setOrigin(1, 1)
+            : text(this, px + pw - 20, 100, 'Comando', 13, '#c9d3e0', { fontStyle: 'bold', strokeThickness: 4 }).setOrigin(1, 1);
+        aura.setScale(0.2);
+        k.add([aura, portrait, plate, tech, who, kind]);
+        c.add(k);
+        return { k, aura, portrait };
+      };
+      const L = fighter(left, -1, lc, lc2);
+      const R = fighter(right, 1, rc, rc2);
+
+      // rayos de energía que salen de cada uno y chocan en el centro
+      const beams = this.add.graphics();
+      c.add(beams);
+      // detrás de los jugadores: el rayo sale de cada uno
+      c.moveTo(beams, c.getIndex(L.k));
+      const spark = this.add.particles(CX, CY, 'fx-spark', {
+        speed: { min: 200, max: 520 },
+        scale: { start: 1.2, end: 0 },
+        tint: [0xffffff, lc2, rc2],
+        lifespan: 360,
+        frequency: 18,
+        quantity: 3,
+        rotate: { onEmit: () => Phaser.Math.Between(0, 360) },
+        emitting: false,
+      });
+      const core = this.add.image(CX, CY, 'fx-glow').setScale(0).setBlendMode('ADD');
+      c.add([spark, core]);
+      const clash = { x: CX, power: 0 };
+      const drawBeams = (t: number) => {
+        beams.clear();
+        if (clash.power <= 0) return;
+        // del centro de cada uno al punto de choque, siguiendo la diagonal entre los dos
+        const ax = L.k.x;
+        const ay = L.k.y;
+        const bx = R.k.x;
+        const by = R.k.y;
+        const f = Phaser.Math.Clamp((clash.x - ax) / Math.max(1, bx - ax), 0, 1);
+        const px = ax + (bx - ax) * f;
+        const py = ay + (by - ay) * f + Math.sin(t * 50) * 4;
+        const beam = (x0: number, y0: number, col: number, col2: number) => {
+          const dx = px - x0;
+          const dy = py - y0;
+          const d = Math.hypot(dx, dy) || 1;
+          const nx = -dy / d;
+          const ny = dx / d;
+          const layer = (w0: number, w1: number, color: number, alpha: number) =>
+            beams.fillStyle(color, alpha).fillPoints([pt(x0 + nx * w0, y0 + ny * w0), pt(px + nx * w1, py + ny * w1), pt(px - nx * w1, py - ny * w1), pt(x0 - nx * w0, y0 - ny * w0)], true);
+          const w = 52 * clash.power;
+          layer(w, w * 0.7, col, 0.45);
+          layer(w * 0.55, w * 0.4, col2, 0.9);
+          layer(w * 0.18, w * 0.14, 0xffffff, 0.95);
+        };
+        beam(ax, ay, lc, lc2);
+        beam(bx, by, rc, rc2);
+        core.setPosition(px, py).setScale((4 + Math.sin(t * 30)) * clash.power);
+        spark.setPosition(px, py);
+      };
+
+      const flashRect = this.add.rectangle(W / 2, H / 2, W, H, 0xffffff, 0);
+      c.add(flashRect);
+      const softFlash = (alpha: number) => {
+        flashRect.setFillStyle(0xffffff, alpha);
+        this.tweens.add({ targets: flashRect, fillAlpha: 0, duration: 260, ease: 'Quad.Out' });
+      };
 
       let finished = false;
+      const ticker = { t: 0 };
+      const tick = this.tweens.add({
+        targets: ticker,
+        t: 10,
+        duration: 10000,
+        onUpdate: () => {
+          drawBg(ticker.t);
+          drawBeams(ticker.t);
+        },
+      });
       const end = () => {
         if (finished) return;
         finished = true;
-        this.tweens.add({ targets: c, alpha: 0, duration: 180, onComplete: () => (c.destroy(), maskShape.destroy(), resolve()) });
+        this.tweens.add({
+          targets: c,
+          alpha: 0,
+          duration: 200,
+          onComplete: () => {
+            tick.remove();
+            c.destroy();
+            maskShape.destroy();
+            resolve();
+          },
+        });
       };
       shade.on('pointerdown', end);
 
-      this.tweens.add({ targets: shade, fillAlpha: 0.65, duration: 150 });
-      this.tweens.add({ targets: lp, x: W / 2 - 30, duration: 320, ease: 'Back.Out' });
-      this.tweens.add({ targets: rp, x: W / 2 + 30, duration: 320, ease: 'Back.Out' });
-      this.tweens.add({ targets: vs, scale: 1, duration: 220, delay: 260, ease: 'Back.Out' });
-      // empujan una contra otra...
-      this.time.delayedCall(700, () => {
+      // 1) entra todo
+      this.tweens.add({ targets: shade, fillAlpha: 0.55, duration: 160 });
+      this.tweens.add({ targets: state, appear: 1, duration: 220 });
+      this.tweens.add({ targets: L.k, x: 160, duration: 340, ease: 'Back.Out' });
+      this.tweens.add({ targets: R.k, x: W - 160, duration: 340, ease: 'Back.Out' });
+      this.tweens.add({ targets: [L.aura, R.aura], scale: 1, duration: 420, ease: 'Back.Out' });
+      this.tweens.add({ targets: [L.aura, R.aura], angle: 360, duration: 6000 });
+      // 2) disparan y forcejean
+      this.time.delayedCall(420, () => {
         if (finished) return;
-        this.tweens.add({ targets: lp, x: W / 2 + 10, duration: 140, yoyo: true, ease: 'Quad.In' });
-        this.tweens.add({ targets: rp, x: W / 2 - 10, duration: 140, yoyo: true, ease: 'Quad.In' });
-        this.tweens.add({ targets: vs, alpha: 0, scale: 1.8, duration: 200 });
-        this.cameras.main.flash(120, 255, 255, 255);
-        this.cameras.main.shake(180, 0.008);
+        state.shake = 1;
+        this.tweens.add({ targets: clash, power: 1, duration: 200 });
+        spark.start();
+        softFlash(0.35);
+        // tira y afloja: el punto de choque va y viene
+        this.tweens.add({ targets: clash, x: { from: CX - 40, to: CX + 40 }, duration: 160, yoyo: true, repeat: 2, ease: 'Sine.InOut' });
+        this.tweens.add({ targets: state, split: { from: -30, to: 30 }, duration: 160, yoyo: true, repeat: 2, ease: 'Sine.InOut' });
+        this.cameras.main.shake(700, 0.004);
       });
-      // ...y la que pierde salta en pedazos
-      this.time.delayedCall(1050, () => {
+      // 3) la ganadora empuja y barre la pantalla
+      this.time.delayedCall(1420, () => {
         if (finished) return;
-        const lose = left === loser ? lp : rp;
-        const win = lose === lp ? rp : lp;
-        const fall = lose === lp ? -1 : 1;
-        this.tweens.add({ targets: lose, x: lose.x + fall * 260, y: lose.y + 120, angle: fall * 25, alpha: 0, duration: 380, ease: 'Quad.In' });
-        const [wc] = colorOf(winner);
-        const sparks = this.add.particles(W / 2, H / 2, 'fx-shard', {
-          speed: { min: 160, max: 420 },
-          scale: { start: 1.2, end: 0.2 },
-          alpha: { start: 1, end: 0 },
-          tint: [0xffffff, 0x9aa4b4],
-          lifespan: 600,
-          rotate: { min: 0, max: 360 },
-          gravityY: 500,
-          emitting: false,
+        const toward = winIsLeft ? 1 : -1;
+        const loserK = winIsLeft ? R : L;
+        const winnerK = winIsLeft ? L : R;
+        this.tweens.add({ targets: clash, x: loserK.k.x, duration: 260, ease: 'Quad.In' });
+        this.tweens.add({ targets: state, split: toward * (W / 2 + 160), duration: 380, ease: 'Quad.In' });
+        this.time.delayedCall(260, () => {
+          spark.stop();
+          clash.power = 0;
+          core.setScale(0);
+          softFlash(0.5);
+          this.cameras.main.shake(260, 0.012);
+          // la perdedora: se apaga, se agrieta y sale despedida
+          loserK.portrait.setTint(0x666666);
+          const shards = this.add.particles(loserK.k.x, loserK.k.y, 'fx-shard', {
+            speed: { min: 200, max: 480 },
+            scale: { start: 1.6, end: 0.3 },
+            alpha: { start: 1, end: 0 },
+            tint: winIsLeft ? [rc, rc2, 0xffffff] : [lc, lc2, 0xffffff],
+            lifespan: 700,
+            rotate: { min: 0, max: 360 },
+            gravityY: 600,
+            emitting: false,
+          });
+          shards.explode(50);
+          c.add(shards);
+          this.tweens.add({ targets: loserK.k, x: loserK.k.x + toward * 300, y: loserK.k.y + 140, angle: toward * 30, alpha: 0, duration: 420, ease: 'Quad.In' });
+          // la ganadora al centro, en grande
+          this.tweens.add({ targets: winnerK.k, x: CX, y: CY, scale: 1.18, duration: 340, ease: 'Back.Out' });
+          const [wc] = winIsLeft ? [lc] : [rc];
+          const wins = text(this, CX, 96, '¡GANA!', 56, '#ffffff', { fontStyle: 'italic bold', stroke: Phaser.Display.Color.IntegerToColor(dim(wc, 0.2)).rgba, strokeThickness: 10 })
+            .setOrigin(0.5)
+            .setAngle(-4)
+            .setScale(2.4)
+            .setAlpha(0);
+          c.add(wins);
+          this.tweens.add({ targets: wins, scale: 1, alpha: 1, duration: 260, ease: 'Back.Out' });
         });
-        sparks.explode(30);
-        c.add(sparks);
-        this.tweens.add({ targets: win, x: W / 2 + (win === lp ? 190 : -190), scale: 1.12, duration: 300, ease: 'Back.Out' });
-        const wins = text(this, W / 2, H / 2 - 140, '¡GANA!', 40, Phaser.Display.Color.IntegerToColor(wc).rgba, { fontStyle: 'italic bold', strokeThickness: 8 })
-          .setOrigin(0.5)
-          .setScale(0);
-        c.add(wins);
-        this.tweens.add({ targets: wins, scale: 1, duration: 240, ease: 'Back.Out' });
       });
-      this.time.delayedCall(1900, end);
+      this.time.delayedCall(2500, end);
     });
   }
 

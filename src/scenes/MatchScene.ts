@@ -6,9 +6,10 @@ import { getFormation } from '../data/formations';
 import type { Formation, MoveData, TeamData } from '../data/types';
 import { lineupPlayers, type Lineup } from '../engine/lineup';
 import {
-  DUEL_FP_COST,
   FIRED_UP_BONUS,
   FIRED_UP_SECONDS,
+  HALFTIME_RECOVERY,
+  SAVE_FP_COST,
   SHOT_FP_COST,
   SHOT_POWER_LEVELS,
   TENSION_GAIN,
@@ -108,6 +109,8 @@ export class MatchScene extends Phaser.Scene {
   private firedUntil: [number, number] = [0, 0];
 
   private lineups!: [Lineup, Lineup];
+  /** Estamina y técnica de los que ya han jugado y se han quedado en el banquillo ("lado:id"). */
+  private stamina = new Map<string, { fp: number; tp: number }>();
   private formations!: [Formation, Formation];
   private players: [MatchPlayer[], MatchPlayer[]] = [[], []];
   private ball!: Ball;
@@ -156,6 +159,7 @@ export class MatchScene extends Phaser.Scene {
     this.tension = [0, 0];
     this.firedUntil = [0, 0];
     this.flight = null;
+    this.stamina = new Map();
   }
 
   create(): void {
@@ -312,10 +316,11 @@ export class MatchScene extends Phaser.Scene {
     this.stateBeforePause = this.state;
     this.state = 'paused';
     this.tweens.pauseAll();
-    this.hud.showPause(
-      () => this.togglePause(),
-      () => this.scene.start('menu'),
-    );
+    this.hud.showPause({
+      onResume: () => this.togglePause(),
+      onRestart: () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
+      onQuit: () => this.scene.start('menu'),
+    });
   }
 
   // -------------------------------------------------------- utilidades
@@ -948,11 +953,8 @@ export class MatchScene extends Phaser.Scene {
     const result = resolveDuel(att.fighter(), attChoice, def.fighter(), defChoice, rng, { attack: attMul, defense: defMul });
     const attEntry: [MatchPlayer, Choice, Vec] = [att, attChoice, def];
     const defEntry: [MatchPlayer, Choice, Vec] = [def, defChoice, att];
-    const loserShown = await this.techDuel(result.attackerWins ? attEntry : defEntry, result.attackerWins ? defEntry : attEntry);
-    att.fp = Math.max(0, att.fp - DUEL_FP_COST);
-    def.fp = Math.max(0, def.fp - DUEL_FP_COST);
+    await this.techDuel(result.attackerWins ? attEntry : defEntry, result.attackerWins ? defEntry : attEntry);
     this.hud.showClash(result.attackPower, result.defensePower, result.attackerWins, att.side);
-    if (loserShown) this.breakMove(result.attackerWins ? def : att, result.attackerWins ? defChoice : attChoice);
     const colorOf = (p: MatchPlayer) => (p.side === 0 ? '#9fe2ff' : '#ffb0b0');
 
     if (isFoul(defChoice, !result.attackerWins, rng)) {
@@ -1017,22 +1019,22 @@ export class MatchScene extends Phaser.Scene {
    * Duelo ya resuelto entre dos elecciones. Si las dos son supertécnicas solo se ve la que gana;
    * si solo una lo es, se ve esa. Devuelve si se vio la del que ha perdido (para romperla).
    */
-  private async techDuel(winner: [MatchPlayer, Choice, Vec], loser: [MatchPlayer, Choice, Vec]): Promise<boolean> {
-    const both = winner[1].type === 'move' && loser[1].type === 'move';
-    if (both) {
-      await this.showMove(...winner);
-      return false;
-    }
-    await this.showMove(...winner);
-    await this.showMove(...loser);
-    return loser[1].type === 'move';
+  private async techDuel(winner: [MatchPlayer, Choice, Vec], loser: [MatchPlayer, Choice, Vec]): Promise<void> {
+    if (winner[1].type !== 'move' && loser[1].type !== 'move') return;
+    // las dos elecciones, frente a frente: chocan y al final queda la ganadora
+    await this.hud.clashCutin(
+      { player: winner[0], choice: winner[1], fx: winner[1].type === 'move' ? moveFx(winner[1].move.id) : undefined },
+      { player: loser[0], choice: loser[1], fx: loser[1].type === 'move' ? moveFx(loser[1].move.id) : undefined },
+    );
+    if (winner[1].type === 'move') await this.showMove(...winner, false);
+    else this.breakMove(loser[0], loser[1]);
   }
 
   /** Animación con el retrato y efecto especial de una supertécnica (sin pagar los TP). */
-  private async showMove(p: MatchPlayer, c: Choice, toward: Vec): Promise<void> {
+  private async showMove(p: MatchPlayer, c: Choice, toward: Vec, withCutin = true): Promise<void> {
     if (c.type !== 'move') return;
     const fx = moveFx(c.move.id);
-    await this.hud.cutin(p, c.move, fx);
+    if (withCutin) await this.hud.cutin(p, c.move, fx);
     const dx = toward.x - p.x;
     const dy = toward.y - p.y;
     const d = Math.hypot(dx, dy) || 1;
@@ -1087,17 +1089,18 @@ export class MatchScene extends Phaser.Scene {
       } else {
         shotChoice = await this.hud.prompt('shoot', shooter);
       }
-      if (shotChoice.type === 'basic') level = await this.hud.promptPower(shooter.tp);
+      if (shotChoice.type === 'basic') level = await this.hud.promptPower(shooter.fp - SHOT_FP_COST);
     } else {
       const longMoves = this.longShots(shooter);
       shotChoice = long && longMoves.length ? { type: 'move', move: longMoves[Math.floor(rng() * longMoves.length)] } : cpuChoice(shooter.moves, 'shoot', shooter.tp, rng, 0.75);
-      if (shotChoice.type === 'basic') level = SHOT_POWER_LEVELS.reduce((best, l, i) => (l.tp <= shooter.tp && rng() < 0.5 ? i : best), 0);
+      if (shotChoice.type === 'basic') level = SHOT_POWER_LEVELS.reduce((best, l, i) => (l.fp <= shooter.fp - SHOT_FP_COST && rng() < 0.5 ? i : best), 0);
     }
     this.shotCone.clear();
-    shooter.tp = Math.max(0, shooter.tp - SHOT_POWER_LEVELS[level].tp);
     await this.playMoves([shooter, shotChoice, goal]);
-    shooter.fp = Math.max(0, shooter.fp - SHOT_FP_COST);
+    // la potencia se calcula con la estamina de antes del tiro; luego se paga
+    const shotFp = SHOT_FP_COST + SHOT_POWER_LEVELS[level].fp;
     const power = shotPower(shooter.fighter(), shotChoice, distance, rng, SHOT_POWER_LEVELS[level].mul * this.sideMul(shooter.side));
+    shooter.fp = Math.max(0, shooter.fp - shotFp);
 
     // 2) el balón sale volando en tiempo real: los defensas pueden cruzarse en su camino
     const b = this.ball;
@@ -1175,7 +1178,6 @@ export class MatchScene extends Phaser.Scene {
     const blockShown = blockChoice.type === 'move' && (block.blocked || shotChoice.type !== 'move');
     if (blockShown) await this.showMove(blocker, blockChoice, this.ball);
     if (block.blockPower > 0) {
-      blocker.fp = Math.max(0, blocker.fp - DUEL_FP_COST);
       this.hud.showClash(Math.round(f.power), block.blockPower, !block.blocked, shooter.side);
     }
     if (block.blocked) {
@@ -1208,7 +1210,7 @@ export class MatchScene extends Phaser.Scene {
     const result = resolveKeeper(f.power, shooter.fighter(), shotChoice, keeper.fighter(), keepChoice, rng, this.sideMul(keeper.side));
     const keepShown = keepChoice.type === 'move' && (result.outcome !== 'goal' || shotChoice.type !== 'move');
     if (keepShown) await this.showMove(keeper, keepChoice, this.ball);
-    keeper.fp = Math.max(0, keeper.fp - DUEL_FP_COST);
+    keeper.fp = Math.max(0, keeper.fp - SAVE_FP_COST);
     this.hud.showClash(result.shotPower, result.keeperPower, result.outcome === 'goal', shooter.side);
 
     if (result.outcome === 'goal') {
@@ -1334,13 +1336,34 @@ export class MatchScene extends Phaser.Scene {
     this.drawing = null;
     if (this.half === 1) {
       await this.hud.banner('Descanso', `${this.score[0]} - ${this.score[1]}`, '#ffffff', 1800);
+      // en el descanso todos recuperan un tercio de cada barra
       for (const p of this.allPlayers()) {
-        p.fp = Math.min(p.maxFp, p.fp + p.maxFp * 0.3);
-        p.tp = Math.min(p.maxTp, p.tp + p.maxTp * 0.3);
+        p.fp = Math.min(p.maxFp, p.fp + p.maxFp * HALFTIME_RECOVERY);
+        p.tp = Math.min(p.maxTp, p.tp + p.maxTp * HALFTIME_RECOVERY);
+        this.stamina.set(`${p.side}:${p.data.id}`, { fp: p.fp, tp: p.tp });
       }
       this.half = 2;
       this.clock = 0;
-      this.kickoff(1, true);
+      // pantalla de formación del descanso: cambios y otra formación para la 2ª parte
+      const bars = new Map<string, { fp: number; tp: number }>();
+      for (const [key, v] of this.stamina) if (key.startsWith('0:')) bars.set(key.slice(2), v);
+      this.hud.hideDuel();
+      this.scene.sleep('hud');
+      this.scene.sleep();
+      this.scene.launch('formation', {
+        home: this.lineups[0],
+        away: this.lineups[1],
+        halftime: {
+          bars,
+          score: [...this.score] as [number, number],
+          onDone: (lineup: Lineup) => {
+            this.scene.wake('hud');
+            this.scene.wake();
+            this.applyLineup(0, lineup);
+            this.kickoff(1, true);
+          },
+        },
+      });
       return;
     }
     this.state = 'over';
@@ -1349,6 +1372,26 @@ export class MatchScene extends Phaser.Scene {
       () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
       () => this.scene.start('menu'),
     );
+  }
+
+  /** Cambia los once y la formación de un equipo; cada uno conserva la estamina y técnica que tenía. */
+  private applyLineup(side: Side, lineup: Lineup): void {
+    for (const p of this.players[side]) this.stamina.set(`${side}:${p.data.id}`, { fp: p.fp, tp: p.tp });
+    this.lineups[side] = lineup;
+    this.formations[side] = getFormation(lineup.formationId);
+    const team = this.teams[side];
+    this.players[side].forEach((p) => p.destroy());
+    this.players[side] = lineupPlayers(team, lineup)
+      .slice(0, 11)
+      .map((d, slot) => {
+        const mp = new MatchPlayer(this, d, team, side, slot);
+        const saved = this.stamina.get(`${side}:${d.id}`);
+        if (saved) {
+          mp.fp = saved.fp;
+          mp.tp = saved.tp;
+        }
+        return mp;
+      });
   }
 
   private floatText(x: number, y: number, msg: string, color: string): void {

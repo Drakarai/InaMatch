@@ -30,7 +30,7 @@ export const COLORS = {
   led: 0xffc93c,
   ledOff: 0x3a2c10,
   green: 0x3ec46d,
-  fp: 0xf2c94c,
+  fp: 0xff9a2a,
   tp: 0x5ed37a,
   white: 0xffffff,
   ui: 0x2f6fc4,

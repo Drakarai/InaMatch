@@ -26,6 +26,13 @@ const PITCH_BOX = { x: 44, y: 112, w: 452, h: 552 };
 const CARD = { x: 536, y: 104, w: 704, h: 330 };
 const BENCH = { x: 536, y: 450, w: 704, h: 150 };
 
+/** Formación en el descanso de un partido: estamina y técnica de cada jugador y vuelta al partido. */
+export interface Halftime {
+  bars: Map<string, { fp: number; tp: number }>;
+  score: [number, number];
+  onDone: (lineup: Lineup) => void;
+}
+
 interface Token {
   index: number; // posición en lineup.order
   container: Phaser.GameObjects.Container;
@@ -35,6 +42,7 @@ export class FormationScene extends Phaser.Scene {
   private home!: Lineup;
   private away!: Lineup;
   private selected: number | null = null;
+  private halftime: Halftime | null = null;
   private tokens: Token[] = [];
   private info!: Phaser.GameObjects.Container;
   private formationLabel!: Phaser.GameObjects.Text;
@@ -44,10 +52,16 @@ export class FormationScene extends Phaser.Scene {
     super('formation');
   }
 
-  init(data: { home: Lineup; away: Lineup }): void {
+  init(data: { home: Lineup; away: Lineup; halftime?: Halftime }): void {
     this.home = data.home;
     this.away = data.away;
+    this.halftime = data.halftime ?? null;
     this.selected = null;
+  }
+
+  /** Estamina y técnica actuales del jugador (en el descanso); fuera del partido, llenas. */
+  private bars(p: PlayerData): { fp: number; tp: number } {
+    return this.halftime?.bars.get(p.id) ?? { fp: p.fp, tp: p.tp };
   }
 
   /** Retratos de Victory Road de los dos equipos (se cargan aquí, no al arrancar el juego). */
@@ -65,7 +79,11 @@ export class FormationScene extends Phaser.Scene {
 
     // cabecera: escudo, título y el rival
     this.add.image(60, 44, texKey.emblem(team.id)).setDisplaySize(58, 58);
-    text(this, 100, 14, 'Formación', 30, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 6 });
+    text(this, 100, 14, this.halftime ? 'Descanso' : 'Formación', 30, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 6 });
+    if (this.halftime) {
+      const [a, b] = this.halftime.score;
+      text(this, 640, 40, `${team.short}  ${a} - ${b}  ${rival.short}`, 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 6 }).setOrigin(0.5);
+    }
     text(this, 102, 52, team.name, 16, '#ffffff', { fontStyle: 'italic' });
     const rx = 1240;
     this.add.image(rx - 26, 50, texKey.emblem(rival.id)).setDisplaySize(48, 48);
@@ -89,8 +107,8 @@ export class FormationScene extends Phaser.Scene {
     new Button(this, 892, 651, '▶', () => this.cycleFormation(1), { w: 50, h: 42, color: THEME.panelLight });
     text(this, 736, 636, 'FORMACIÓN', 11, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
     this.formationLabel = text(this, 736, 660, '', 20, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0.5);
-    new Button(this, 1016, 651, 'Menú', () => this.scene.start('menu'), { w: 120, h: 46, size: 17, color: THEME.panelLight });
-    new Button(this, 1160, 651, '¡A jugar!', () => this.play(), { w: 160, h: 58, size: 24, color: THEME.yellow });
+    if (!this.halftime) new Button(this, 1016, 651, 'Menú', () => this.scene.start('menu'), { w: 120, h: 46, size: 17, color: THEME.panelLight });
+    new Button(this, 1160, 651, this.halftime ? '¡2ª parte!' : '¡A jugar!', () => this.play(), { w: 160, h: 58, size: 24, color: THEME.yellow });
 
     this.layoutTokens();
     this.showInfo(lineupPlayers(team, this.home)[0]);
@@ -166,6 +184,15 @@ export class FormationScene extends Phaser.Scene {
     const pos = text(this, 25, -25, p.position, 10, '#ffffff', { fontStyle: 'bold', strokeThickness: 2 }).setOrigin(0.5);
     const elem = this.add.graphics().fillStyle(ELEMENT_COLOR[p.element]).fillCircle(-20, -24, 6).lineStyle(1.5, 0xffffff).strokeCircle(-20, -24, 6);
     c.add([g, sprite, nameBand, label, chip, pos, elem]);
+    if (this.halftime) {
+      // en el descanso, la estamina de cada uno debajo del nombre, para decidir los cambios
+      const { fp } = this.bars(p);
+      const ratio = Phaser.Math.Clamp(fp / p.fp, 0, 1);
+      const bar = this.add.graphics();
+      bar.fillStyle(0x000000, 0.7).fillRect(-22, 42, 44, 5);
+      bar.fillStyle(ratio < 0.01 ? 0xe2463b : COLORS.fp).fillRect(-21, 43, 42 * ratio, 3);
+      c.add(bar);
+    }
     c.setSize(60, 76);
     c.setInteractive({ useHandCursor: true })
       .on('pointerover', () => this.showInfo(p))
@@ -217,9 +244,9 @@ export class FormationScene extends Phaser.Scene {
     const elT = text(this, 276, 69, ELEMENT_LABEL[p.element], 13, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5);
     const lvT = text(this, 366, 69, `Nv. ${p.level}`, 13, '#ffd23f', { fontStyle: 'bold' }).setOrigin(0.5);
     const fp = new StatBar(this, 166, 102, 'FP', COLORS.fp, 150);
-    fp.set(p.fp, p.fp);
+    fp.set(this.bars(p).fp, p.fp);
     const tp = new StatBar(this, 166, 126, 'TP', COLORS.tp, 150);
-    tp.set(p.tp, p.tp);
+    tp.set(this.bars(p).tp, p.tp);
     this.info.add([g, number, portrait, name, tags, posT, elT, lvT, fp, tp]);
 
     // atributos en barras
@@ -265,6 +292,12 @@ export class FormationScene extends Phaser.Scene {
   }
 
   private play(): void {
+    if (this.halftime) {
+      const done = this.halftime.onDone;
+      this.scene.stop();
+      done(this.home);
+      return;
+    }
     this.scene.start('match', { home: this.home, away: this.away });
   }
 }

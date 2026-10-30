@@ -8,6 +8,8 @@ import {
   FIRED_UP_SECONDS,
   SHOT_POWER_LEVELS,
   SITUATION_MOVE_KIND,
+  choiceLabel,
+  isExhausted,
   type Choice,
   type Situation,
 } from '../engine/rules';
@@ -35,6 +37,13 @@ export interface DuelInfo {
 }
 
 const PROMPT_SECONDS = 7;
+
+/** Un lado del enfrentamiento de técnicas de un duelo. */
+export interface ClashSide {
+  player: MatchPlayer;
+  choice: Choice;
+  fx?: FxRecipe;
+}
 
 interface DuelRow {
   container: Phaser.GameObjects.Container;
@@ -417,17 +426,17 @@ export class HudScene extends Phaser.Scene {
     });
   }
 
-  /** "¡Regula la potencia!" de GO, solo para tiros normales: devuelve el nivel elegido (0 = normal). */
-  promptPower(tpAvailable: number): Promise<number> {
+  /** "¡Regula la potencia!" de GO, solo para tiros normales: devuelve el nivel elegido (0 = normal). Cuesta estamina (FP). */
+  promptPower(fpAvailable: number): Promise<number> {
     return this.commandBar<number>('¡Regula la potencia!', 0, (c, cy, finish) => {
       const keys: Record<string, number> = {};
       SHOT_POWER_LEVELS.forEach((level, i) => {
-        const ok = level.tp <= tpAvailable;
+        const ok = i === 0 || level.fp <= fpAvailable;
         const btn = new Button(this, FIELD_VIEW.w / 2 + (i - 1) * 260, cy + 10, `${i + 1} · ${level.label}`, () => finish(i), {
           w: 240,
           h: 50,
           color: [0x4f7fb8, 0xe0862c, 0xd8344a][i],
-          sub: level.tp ? `TP ${level.tp}` : undefined,
+          sub: level.fp ? `FP +${level.fp}` : undefined,
         });
         btn.setEnabled(ok);
         c.add(btn);
@@ -456,6 +465,102 @@ export class HudScene extends Phaser.Scene {
   }
 
   // ------------------------------------------------- animación de técnica
+
+  /**
+   * Duelo con supertécnica: las dos elecciones entran cada una por su lado, chocan en el centro y la que
+   * pierde se rompe. Queda la ganadora, que luego hace su efecto sobre el campo.
+   */
+  clashCutin(winner: ClashSide, loser: ClashSide): Promise<void> {
+    return new Promise((resolve) => {
+      const W = FIELD_VIEW.w;
+      const H = FIELD_VIEW.h;
+      const c = this.add.container(0, 0).setDepth(60);
+      const maskShape = this.make.graphics({}, false).fillStyle(0xffffff).fillRect(0, 0, W, H);
+      c.setMask(maskShape.createGeometryMask());
+      const shade = this.add.rectangle(W / 2, H / 2, W, H, 0x000000, 0).setInteractive();
+      c.add(shade);
+      // el jugador humano siempre a la izquierda
+      const left = winner.player.side === 0 ? winner : loser;
+      const right = left === winner ? loser : winner;
+      const colorOf = (s: ClashSide) =>
+        s.choice.type === 'move' ? fxColors(s.fx ?? { fx: 'impact' }, s.choice.move.element) : ([0x6f7f99, 0xc9d3e0] as [number, number]);
+      const panel = (s: ClashSide, dir: -1 | 1) => {
+        const [col, col2] = colorOf(s);
+        const p = this.add.container(dir < 0 ? -420 : W + 420, H / 2);
+        const g = this.add.graphics();
+        const w = 380;
+        const x0 = dir < 0 ? -w : 0;
+        g.fillStyle(0x000000, 0.5).fillPoints(slant(x0 + 6, -82, w, 170, 30), true);
+        g.fillStyle(dim(col, 0.35)).fillPoints(slant(x0, -88, w, 170, 30), true);
+        g.fillStyle(col).fillPoints(slant(x0, 40, w, 42, 12), true);
+        g.lineStyle(3, col2).strokePoints(slant(x0, -88, w, 170, 30), true);
+        const px = dir < 0 ? -w + 90 : w - 90;
+        const portrait = this.add.image(px, -20, portraitKey(this, s.player.data, s.player.team)).setDisplaySize(120, 120);
+        const name = text(this, dir < 0 ? -20 : 20, -66, s.player.data.short, 16, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(dir < 0 ? 1 : 0, 0.5);
+        const label = choiceLabel(s.choice);
+        const tech = text(this, dir < 0 ? -20 : 20, 61, label, 22, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 5 }).setOrigin(dir < 0 ? 1 : 0, 0.5);
+        for (let size = 22; tech.width > w - 60 && size > 13; ) tech.setFontSize(--size);
+        const kind = text(this, dir < 0 ? -20 : 20, 22, s.choice.type === 'move' ? `Supertécnica · TP ${s.choice.move.tp}` : 'Comando', 12, '#e3e9f2', { fontStyle: 'italic' }).setOrigin(dir < 0 ? 1 : 0, 0.5);
+        p.add([g, portrait, name, kind, tech]);
+        c.add(p);
+        return p;
+      };
+      const lp = panel(left, -1);
+      const rp = panel(right, 1);
+      const vs = text(this, W / 2, H / 2, 'VS', 70, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 10 }).setOrigin(0.5).setScale(0);
+      c.add(vs);
+
+      let finished = false;
+      const end = () => {
+        if (finished) return;
+        finished = true;
+        this.tweens.add({ targets: c, alpha: 0, duration: 180, onComplete: () => (c.destroy(), maskShape.destroy(), resolve()) });
+      };
+      shade.on('pointerdown', end);
+
+      this.tweens.add({ targets: shade, fillAlpha: 0.65, duration: 150 });
+      this.tweens.add({ targets: lp, x: W / 2 - 30, duration: 320, ease: 'Back.Out' });
+      this.tweens.add({ targets: rp, x: W / 2 + 30, duration: 320, ease: 'Back.Out' });
+      this.tweens.add({ targets: vs, scale: 1, duration: 220, delay: 260, ease: 'Back.Out' });
+      // empujan una contra otra...
+      this.time.delayedCall(700, () => {
+        if (finished) return;
+        this.tweens.add({ targets: lp, x: W / 2 + 10, duration: 140, yoyo: true, ease: 'Quad.In' });
+        this.tweens.add({ targets: rp, x: W / 2 - 10, duration: 140, yoyo: true, ease: 'Quad.In' });
+        this.tweens.add({ targets: vs, alpha: 0, scale: 1.8, duration: 200 });
+        this.cameras.main.flash(120, 255, 255, 255);
+        this.cameras.main.shake(180, 0.008);
+      });
+      // ...y la que pierde salta en pedazos
+      this.time.delayedCall(1050, () => {
+        if (finished) return;
+        const lose = left === loser ? lp : rp;
+        const win = lose === lp ? rp : lp;
+        const fall = lose === lp ? -1 : 1;
+        this.tweens.add({ targets: lose, x: lose.x + fall * 260, y: lose.y + 120, angle: fall * 25, alpha: 0, duration: 380, ease: 'Quad.In' });
+        const [wc] = colorOf(winner);
+        const sparks = this.add.particles(W / 2, H / 2, 'fx-shard', {
+          speed: { min: 160, max: 420 },
+          scale: { start: 1.2, end: 0.2 },
+          alpha: { start: 1, end: 0 },
+          tint: [0xffffff, 0x9aa4b4],
+          lifespan: 600,
+          rotate: { min: 0, max: 360 },
+          gravityY: 500,
+          emitting: false,
+        });
+        sparks.explode(30);
+        c.add(sparks);
+        this.tweens.add({ targets: win, x: W / 2 + (win === lp ? 190 : -190), scale: 1.12, duration: 300, ease: 'Back.Out' });
+        const wins = text(this, W / 2, H / 2 - 140, '¡GANA!', 40, Phaser.Display.Color.IntegerToColor(wc).rgba, { fontStyle: 'italic bold', strokeThickness: 8 })
+          .setOrigin(0.5)
+          .setScale(0);
+        c.add(wins);
+        this.tweens.add({ targets: wins, scale: 1, duration: 240, ease: 'Back.Out' });
+      });
+      this.time.delayedCall(1900, end);
+    });
+  }
 
   cutin(player: MatchPlayer, move: MoveData, fx: FxRecipe = { fx: 'impact' }): Promise<void> {
     return new Promise((resolve) => {
@@ -570,25 +675,85 @@ export class HudScene extends Phaser.Scene {
     });
   }
 
-  showPause(onResume: () => void, onQuit: () => void): void {
+  /** Menú de pausa: reanudar, controles, reiniciar o abandonar, y cómo va de estamina y técnica tu equipo. */
+  showPause(o: { onResume: () => void; onRestart: () => void; onQuit: () => void }): void {
     this.hidePause();
+    const W = FIELD_VIEW.w;
+    const H = FIELD_VIEW.h;
     const c = this.add.container(0, 0).setDepth(80);
-    c.add(this.add.rectangle(FIELD_VIEW.w / 2, FIELD_VIEW.h / 2, FIELD_VIEW.w, FIELD_VIEW.h, THEME.night, 0.8).setInteractive());
-    c.add(text(this, FIELD_VIEW.w / 2, 230, 'PAUSA', 64, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 10 }).setOrigin(0.5));
-    c.add(new Button(this, FIELD_VIEW.w / 2, 340, 'Reanudar', onResume, { w: 280, h: 56, color: THEME.yellow }));
-    c.add(new Button(this, FIELD_VIEW.w / 2, 410, 'Abandonar partido', onQuit, { w: 280, h: 52, color: COLORS.uiRed }));
+    this.overlay = c;
+    c.add(this.add.rectangle(W / 2, H / 2, W, H, THEME.night, 0.86).setInteractive());
+    const [home, away] = this.match.teams;
+    c.add(text(this, 40, 40, 'PAUSA', 52, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 9 }));
     c.add(
+      text(this, 44, 112, `${home.short}  ${this.match.score[0]} - ${this.match.score[1]}  ${away.short}   ·   ${this.clockText.text}  ${this.halfText.text}`, 18, '#ffffff', {
+        fontStyle: 'italic bold',
+      }),
+    );
+
+    // columna de botones
+    const bx = 170;
+    const confirmQuit = { armed: false };
+    c.add(new Button(this, bx, 200, 'Reanudar', o.onResume, { w: 260, h: 54, color: THEME.yellow }));
+    const controls = new Button(this, bx, 268, 'Controles', () => help.setVisible(!help.visible), { w: 260, h: 48, color: THEME.panelLight });
+    c.add(controls);
+    c.add(new Button(this, bx, 330, 'Reiniciar partido', o.onRestart, { w: 260, h: 48, color: THEME.panelLight }));
+    const quit = new Button(this, bx, 392, 'Abandonar partido', () => {
+      if (confirmQuit.armed) return o.onQuit();
+      confirmQuit.armed = true;
+      quit.setCaption('¿Seguro? Pulsa otra vez');
+      this.time.delayedCall(2500, () => {
+        confirmQuit.armed = false;
+        if (quit.active) quit.setCaption('Abandonar partido');
+      });
+    }, { w: 260, h: 48, color: COLORS.uiRed });
+    c.add(quit);
+    c.add(text(this, bx, 440, 'Espacio / Esc: reanudar', 12, THEME.muted, { strokeThickness: 0 }).setOrigin(0.5, 0));
+
+    // estado del equipo: estamina (naranja) y técnica (verde) de los once
+    const px = 330;
+    const g = this.add.graphics();
+    themePanel(g, px, 160, W - px - 24, 520);
+    c.add(g);
+    c.add(sectionTitle(this, px + 16, 182, 'Tu equipo'));
+    c.add(text(this, px + 160, 182, 'FP  estamina', 12, '#ffb15a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    c.add(text(this, px + 310, 182, 'TP  técnica', 12, '#7dff9a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    const players = this.match.allPlayers().filter((p) => p.side === 0);
+    players.forEach((p, i) => {
+      const y = 214 + i * 41;
+      c.add(this.add.image(px + 30, y + 6, portraitKey(this, p.data, p.team)).setDisplaySize(32, 32));
+      c.add(text(this, px + 52, y - 2, `${p.data.number} ${p.data.short}`, 14, '#ffffff', { fontStyle: 'italic bold' }));
+      c.add(text(this, px + 52, y + 15, p.data.position, 10, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }));
+      const bars = this.add.graphics();
+      const bar = (x: number, v: number, max: number, color: number) => {
+        const r = Phaser.Math.Clamp(v / max, 0, 1);
+        bars.fillStyle(0x000000, 0.6).fillPoints(slant(x, y + 1, 100, 10, 3), true);
+        if (r > 0) bars.fillStyle(color).fillPoints(slant(x + 1, y + 2, Math.max(6, 98 * r), 8, 3), true);
+        c.add(text(this, x + 106, y + 6, String(Math.round(v)), 12, '#ffffff', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+      };
+      bar(px + 160, p.fp, p.maxFp, COLORS.fp);
+      bar(px + 310, p.tp, p.maxTp, COLORS.tp);
+      c.add(bars);
+      if (isExhausted(p.fp)) c.add(text(this, px + 80, y + 15, 'AGOTADO', 10, '#ff6a5a', { fontStyle: 'bold' }));
+    });
+
+    // controles (se muestran con el botón)
+    const help = this.add.container(0, 0).setVisible(false);
+    const hg = this.add.graphics();
+    themePanel(hg, 24, 470, 290, 210);
+    help.add(hg);
+    help.add(
       text(
         this,
-        FIELD_VIEW.w / 2,
-        520,
-        'Con balón: arrastra desde tu jugador para regatear, pulsa a un compañero\npara pasar, pulsa un hueco para pase al espacio y la portería (o T) para tirar.\nSin balón: arrastra a cualquier jugador o pulsa en el campo.',
-        16,
-        '#c9d3e0',
-        { align: 'center', lineSpacing: 6, fontStyle: 'italic' },
-      ).setOrigin(0.5),
+        38,
+        486,
+        'Con balón:\n· Arrastra desde tu jugador: regate\n· Pulsa a un compañero: pase\n· Pulsa un hueco: pase al espacio\n· Portería o T: tirar\n\nSin balón:\n· Arrastra a cualquier jugador\n· Pulsa en el campo',
+        13,
+        '#e3e9f2',
+        { lineSpacing: 3, wordWrap: { width: 260 } },
+      ),
     );
-    this.overlay = c;
+    c.add(help);
   }
 
   hidePause(): void {

@@ -44,13 +44,13 @@ El ratón hace de lápiz de la DS.
 | Tiro rival en el aire | **Arrastra a un defensa** hasta la línea turquesa para bloquearlo (va a cámara lenta) |
 | Duelos y tiros | Botones en pantalla o teclas **1**/**2** (comandos básicos) y **3**, **4**… (supertécnicas) |
 | | Si no eliges a tiempo se usa el primer comando |
-| En cualquier momento | **Espacio** / **Esc** o el botón **II**: pausa |
+| En cualquier momento | **Espacio** / **Esc** o el botón **II**: pausa (reanudar, controles, reiniciar, abandonar y la estamina y técnica de tu equipo) |
 
 Comandos básicos:
 - **Atacando**: Regate o Finta.
 - **Defendiendo**: Entrada o Entrada en plancha. La plancha gana al regate, pero la finta la deja en ridículo
   y, si roba el balón, puede ser **falta** (tiro libre para el rival).
-- **Tirando**: Tiro o Vaselina, y después **¡Regula la potencia!** (Normal, Fuerte +10 TP, Máxima +20 TP).
+- **Tirando**: Tiro o Vaselina, y después **¡Regula la potencia!** (Normal, Fuerte +10 FP, Máxima +20 FP).
   Las supertécnicas tiran con su potencia, sin regular. Los **tiros largos** (Remate del águila, Excalibur, Remate tsunami…,
   marcados en la wiki) se pueden lanzar desde cualquier sitio del campo. Pierden un 7 % de fuerza por cada segundo
   en el aire (`LONG_SHOT_DECAY` en `src/engine/rules.ts`), así que desde campo propio llegan bastante más flojos.
@@ -78,7 +78,13 @@ Las supertécnicas gastan TP y suelen ganar a los comandos básicos. Además, **
 - **STAB**: técnica de la misma afinidad que el jugador, +25 %.
 - En el panel de duelo, el punto de color es la afinidad del jugador y la flechita marca quién tiene ventaja.
 - Los porcentajes no son oficiales; están juntos en `src/data/elements.ts` y `src/engine/rules.ts` para ajustarlos.
-- Con poca **FP** el jugador rinde menos.
+- **Estamina (FP, naranja):** se gasta al moverse, al tirar (más cuanto más fuerte) y al parar. Con la estamina
+  agotada, el jugador corre más despacio y rinde algo menos en duelos, tiros y paradas.
+- **Técnica (TP, verde):** solo la gastan las supertécnicas.
+- **Descanso:** todos recuperan un 33 % de cada barra. Se abre la formación para hacer cambios (cada jugador
+  conserva su estamina) o cambiar de formación antes de la 2ª parte.
+- En un **duelo** con supertécnica, las dos elecciones aparecen frente a frente, chocan y queda la ganadora, que
+  hace su efecto. En tiros, bloqueos y paradas se ve la técnica como antes.
 
 El ritmo general del partido se ajusta con `GAME_SPEED` en `src/config.ts` (ahora 0,75; 1 = más rápido).
 

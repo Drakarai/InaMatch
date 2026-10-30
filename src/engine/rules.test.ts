@@ -10,6 +10,7 @@ import {
   cpuChoice,
   distanceFactor,
   longShotDecay,
+  EXHAUSTED_POWER,
   fpFactor,
   isFoul,
   resolveBlock,
@@ -96,9 +97,11 @@ describe('afinidades', () => {
 });
 
 describe('cansancio y distancia', () => {
-  it('la FP vacía reduce el rendimiento', () => {
+  it('solo con la estamina agotada se rinde menos', () => {
     expect(fpFactor(100, 100)).toBe(1);
-    expect(fpFactor(0, 100)).toBeCloseTo(0.55);
+    expect(fpFactor(5, 100)).toBe(1);
+    expect(fpFactor(0, 100)).toBe(EXHAUSTED_POWER);
+    expect(EXHAUSTED_POWER).toBeLessThan(1);
   });
 
   it('los tiros lejanos pierden fuerza', () => {

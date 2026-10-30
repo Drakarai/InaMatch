@@ -2,7 +2,7 @@ import Phaser from 'phaser';
 import { FONT, GAME_SPEED } from '../config';
 import { movesOf } from '../data';
 import type { MoveData, PlayerData, TeamData } from '../data/types';
-import type { Fighter } from '../engine/rules';
+import { EXHAUSTED_SPEED, isExhausted, type Fighter } from '../engine/rules';
 import { spriteKey } from '../gfx/placeholders';
 
 export type Side = 0 | 1; // 0 = jugador humano (ataca hacia arriba), 1 = CPU (ataca hacia abajo)
@@ -81,8 +81,15 @@ export class MatchPlayer {
   speed(withBall: boolean): number {
     // atributos de IE3 a nivel 99 (Rapidez ~45-80)
     const base = 60 + this.data.stats.speed * 1.25;
-    const tired = 0.8 + 0.2 * (this.fp / this.maxFp);
+    const tired = isExhausted(this.fp) ? EXHAUSTED_SPEED : 1;
     return base * tired * (withBall ? 0.85 : 1) * GAME_SPEED;
+  }
+
+  destroy(): void {
+    this.sprite.destroy();
+    this.shadow.destroy();
+    this.ring.destroy();
+    this.tag.destroy();
   }
 
   isStunned(now: number): boolean {

@@ -60,8 +60,17 @@ export interface Fighter {
   maxFp: number;
 }
 
-export const DUEL_FP_COST = 4;
+/**
+ * Estamina (FP, naranja): se gasta al moverse, al tirar (más cuanto más fuerte) y al parar.
+ * Técnica (TP, verde): solo la gastan las supertécnicas.
+ */
 export const SHOT_FP_COST = 6;
+export const SAVE_FP_COST = 6;
+/** Lo que se recupera de cada barra en el descanso. */
+export const HALFTIME_RECOVERY = 0.33;
+/** Con la estamina agotada: corre menos y rinde algo menos en duelos, tiros y paradas. */
+export const EXHAUSTED_SPEED = 0.7;
+export const EXHAUSTED_POWER = 0.85;
 
 /** Cada compañero que entra en el duelo suma un 10 % (máximo dos), como el doble aro de GO... */
 export const SUPPORT_BONUS = 0.1;
@@ -77,10 +86,11 @@ export const FIRED_UP_SECONDS = 25;
 export const TENSION_GAIN = { duelWon: 14, shotBlocked: 18, save: 20, conceded: 25 } as const;
 
 /** Niveles de "¡Regula la potencia!" (GO): más TP, más fuerza. */
+/** "¡Regula la potencia!": cuanto más fuerte, más estamina (FP) extra cuesta el tiro. */
 export const SHOT_POWER_LEVELS = [
-  { label: 'Normal', tp: 0, mul: 1 },
-  { label: 'Fuerte', tp: 10, mul: 1.15 },
-  { label: 'Máxima', tp: 20, mul: 1.3 },
+  { label: 'Normal', fp: 0, mul: 1 },
+  { label: 'Fuerte', fp: 10, mul: 1.15 },
+  { label: 'Máxima', fp: 20, mul: 1.3 },
 ] as const;
 
 /** `sameElement` son cuántos de esos compañeros comparten afinidad con el jugador del duelo. */
@@ -96,10 +106,13 @@ export interface Mods {
   defense?: number;
 }
 
-/** Con la FP vacía un jugador rinde al 55 %. */
-export function fpFactor(fp: number, maxFp: number): number {
-  const ratio = maxFp > 0 ? Math.max(0, Math.min(1, fp / maxFp)) : 0;
-  return 0.55 + 0.45 * ratio;
+/** Un jugador rinde al 100 % mientras le quede estamina; agotado (FP a 0), algo menos. */
+export function fpFactor(fp: number, _maxFp?: number): number {
+  return isExhausted(fp) ? EXHAUSTED_POWER : 1;
+}
+
+export function isExhausted(fp: number): boolean {
+  return fp < 1;
 }
 
 function basicPower(id: BasicId, s: Stats): number {

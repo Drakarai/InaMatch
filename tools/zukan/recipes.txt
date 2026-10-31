@@ -321,3 +321,8 @@ prime-legend: aura:crystal +light:beam
 death-rain: rays:red
 death-spear: spear:red +dark
 tenkuu-otoshi: meteor:big +stars
+# técnicas de los equipos extra (sin vídeo en la enciclopedia: por su descripción en la wiki)
+neo-galaxy: planet:earth +light:rays +hand
+card-buster: impact:kick +clone:balls
+corodra-shoot: dragon:wyvern +wind
+mega-wall: wall:cliff +earth

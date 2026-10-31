@@ -1,0 +1,363 @@
+{
+ "id": "ie2-super-shuuyou-meito",
+ "season": "ie2",
+ "wiki": "Super Shuuyou Meito",
+ "name": "Súper Otaku",
+ "short": "SSM",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-super-5",
+ "players": [
+  {
+   "id": "sam-idol",
+   "name": "Sam Idol",
+   "short": "Sam",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 161,
+   "stats": {
+    "kick": 60,
+    "body": 58,
+    "control": 54,
+    "guard": 55,
+    "speed": 58,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "goal-zurashi",
+    "giant-spin",
+    "dokonjou-catch"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aidoru Sou",
+   "description": "Cazatalentos que busca con fervor las estrellas del mañana."
+  },
+  {
+   "id": "marcus-train",
+   "name": "Marcus Train",
+   "short": "Marcus",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 152,
+   "stats": {
+    "kick": 61,
+    "body": 60,
+    "control": 53,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 41,
+    "guts": 54
+   },
+   "moves": [
+    "fake-ball",
+    "psycho-shot",
+    "zigzag-spark",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sujimichi Tetsuo",
+   "description": "Le pirran las maquetas de trenes y sueña con llenar su cuarto con ellas."
+  },
+  {
+   "id": "spencer-gates",
+   "name": "Spencer Gates",
+   "short": "Spencer",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 152,
+   "stats": {
+    "kick": 59,
+    "body": 52,
+    "control": 56,
+    "guard": 58,
+    "speed": 56,
+    "stamina": 40,
+    "guts": 62
+   },
+   "moves": [
+    "dokonjou-bat",
+    "fake-ball",
+    "earthquake",
+    "goal-zurashi"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Karisawa Sou",
+   "description": "Él mismo se hace disfraces de personajes de dibujos animados."
+  },
+  {
+   "id": "light-nobel",
+   "name": "Light Nobel",
+   "short": "Light",
+   "number": 3,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 164,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 56,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 44,
+    "guts": 61
+   },
+   "moves": [
+    "dokonjou-bat",
+    "fake-ball",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Noberu Raito",
+   "description": "Devora novelas cortas y cada mes participa en concursos literarios."
+  },
+  {
+   "id": "walter-valiant",
+   "name": "Walter Valiant",
+   "short": "Walter",
+   "number": 4,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 132,
+   "stats": {
+    "kick": 62,
+    "body": 62,
+    "control": 61,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 50,
+    "guts": 71
+   },
+   "moves": [
+    "fake-ball",
+    "suisei-shoot",
+    "dynamite-shoot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Muteki Hideo",
+   "description": "Sueña con ser un superhéroe. Se las da de justiciero con los vecinos."
+  },
+  {
+   "id": "a-woodbridge",
+   "name": "A. Woodbridge",
+   "short": "A.",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 137,
+   "stats": {
+    "kick": 60,
+    "body": 60,
+    "control": 52,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 41,
+    "guts": 66
+   },
+   "moves": [
+    "gorimuchuu",
+    "dokonjou-bat",
+    "coil-turn",
+    "hyakuretsu-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Robo Gouki",
+   "description": "Su vida son las series de robots. Alucina con sus transformaciones."
+  },
+  {
+   "id": "josh-spear",
+   "name": "Josh Spear",
+   "short": "Josh",
+   "number": 6,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 158,
+   "tp": 133,
+   "stats": {
+    "kick": 54,
+    "body": 56,
+    "control": 56,
+    "guard": 62,
+    "speed": 55,
+    "stamina": 44,
+    "guts": 60
+   },
+   "moves": [
+    "gorimuchuu",
+    "onryou",
+    "super-scan-df",
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Onra Itsuki",
+   "description": "Se pasa las noches jugando en red y las mañanas durmiendo en clase."
+  },
+  {
+   "id": "gaby-farmer",
+   "name": "Gaby Farmer",
+   "short": "Gaby",
+   "number": 7,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 152,
+   "stats": {
+    "kick": 58,
+    "body": 62,
+    "control": 52,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 47,
+    "guts": 59
+   },
+   "moves": [
+    "gorimuchuu",
+    "inazuma-otoshi"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Onotomo Haru",
+   "description": "Él mismo se monta sus ordenadores. Tiene más de diez en casa."
+  },
+  {
+   "id": "gus-gamer",
+   "name": "Gus Gamer",
+   "short": "Gus",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 173,
+   "tp": 137,
+   "stats": {
+    "kick": 58,
+    "body": 60,
+    "control": 59,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 45,
+    "guts": 69
+   },
+   "moves": [
+    "dokonjou-bat",
+    "gorimuchuu",
+    "fake-ball",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Geimu Konomu",
+   "description": "Maníaco de los videojuegos. Se los compra todos el día del lanzamiento."
+  },
+  {
+   "id": "mark-gambling",
+   "name": "Mark Gambling",
+   "short": "Mark",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 149,
+   "stats": {
+    "kick": 52,
+    "body": 56,
+    "control": 58,
+    "guard": 63,
+    "speed": 53,
+    "stamina": 51,
+    "guts": 64
+   },
+   "moves": [
+    "gorimuchuu",
+    "dokonjou-bat",
+    "doppelganger",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Manga Moe",
+   "description": "Dibujante en boga cuyos cómics crean adeptos. Su firma se cotiza."
+  },
+  {
+   "id": "theodore-master",
+   "name": "Theodore Master",
+   "short": "Theodore",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 152,
+   "stats": {
+    "kick": 57,
+    "body": 57,
+    "control": 55,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 47,
+    "guts": 60
+   },
+   "moves": [
+    "suisei-shoot",
+    "gorimuchuu",
+    "cross-drive",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Akeido Tatsuhito",
+   "description": "Genio de los juegos de azar que gana muchos premios con ellos."
+  }
+ ]
+}

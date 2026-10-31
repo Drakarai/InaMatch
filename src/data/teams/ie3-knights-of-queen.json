@@ -105,7 +105,8 @@
     "hair": "#6b3e1f",
     "skin": "#9a6a44"
    },
-   "wiki": "David Buckingham"
+   "wiki": "David Buckingham",
+   "description": "Es un derrochador. No puede resistirse a ningún producto que lleve el sello real."
   },
   {
    "id": "lance-rawton",
@@ -264,7 +265,8 @@
     "hair": "#efe6c4",
     "skin": "#c08a5e"
    },
-   "wiki": "Paul Appleton"
+   "wiki": "Paul Appleton",
+   "description": "Quiere dar un concierto de despedida con su grupo, pero los demás no están por la labor."
   },
   {
    "id": "eric-purpleton",
@@ -295,7 +297,8 @@
     "hair": "#e98aa8",
     "skin": "#e8b888"
    },
-   "wiki": "Eric Purpleton"
+   "wiki": "Eric Purpleton",
+   "description": "Estuvo a punto de jugar en Wimbledon, pero se rompió el brazo y se pasó al fútbol."
   },
   {
    "id": "edgar-partinus",
@@ -421,7 +424,8 @@
     "hair": "#5a3a7a",
     "skin": "#c08a5e"
    },
-   "wiki": "Martin Squall"
+   "wiki": "Martin Squall",
+   "description": "Se le da muy bien montar a caballo. Entrena junto a los mejores jinetes del país."
   },
   {
    "id": "nick-woodgate",
@@ -453,7 +457,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Nick Woodgate",
-   "description": "He's seriously thinking about opening a school for wizards."
+   "description": "No bromea cuando dice que quiere abrir una escuela para magos."
   },
   {
    "id": "mikey-richards",
@@ -483,7 +487,8 @@
     "hair": "#6b3e1f",
     "skin": "#9a6a44"
    },
-   "wiki": "Mikey Richards"
+   "wiki": "Mikey Richards",
+   "description": "¡Nadie puede hacer sombra a este sastre! Confecciona trajes muy molones."
   },
   {
    "id": "sirius-pounding",

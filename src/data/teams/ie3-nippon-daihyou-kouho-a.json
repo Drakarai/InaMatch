@@ -1,0 +1,394 @@
+{
+ "id": "ie3-nippon-daihyou-kouho-a",
+ "season": "ie3",
+ "wiki": "Nippon Daihyou Kouho A",
+ "name": "Pruebas de Selección - Equipo A",
+ "short": "NDK",
+ "colors": {
+  "shirt": "#2a6fd6",
+  "shorts": "#f4f4f4",
+  "gkShirt": "#e8892b",
+  "accent": "#2d5fb8"
+ },
+ "formation": "f-three-top",
+ "players": [
+  {
+   "id": "mark-evans",
+   "name": "Mark Evans",
+   "short": "Mark",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 135,
+   "stats": {
+    "kick": 53,
+    "body": 53,
+    "control": 49,
+    "guard": 80,
+    "speed": 52,
+    "stamina": 69,
+    "guts": 79
+   },
+   "moves": [
+    "seigi-no-tekken",
+    "ikari-no-tettsui",
+    "ijigen-the-hand",
+    "god-catch"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "El enérgico capitán del Raimon. ¡Es famoso por no rendirse jamás!"
+  },
+  {
+   "id": "jack-wallside",
+   "name": "Jack Wallside",
+   "short": "Jack",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 113,
+   "tp": 116,
+   "stats": {
+    "kick": 40,
+    "body": 53,
+    "control": 62,
+    "guard": 66,
+    "speed": 49,
+    "stamina": 65,
+    "guts": 54
+   },
+   "moves": [
+    "the-wall",
+    "mogura-feint",
+    "rock-wall-dam",
+    "the-mountain"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kabeyama Heigorou",
+   "description": "¡Este defensa es grande como una muralla! Aunque un poco miedica."
+  },
+  {
+   "id": "hurley-kane",
+   "name": "Hurley Kane",
+   "short": "Hurley",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 132,
+   "tp": 117,
+   "stats": {
+    "kick": 75,
+    "body": 70,
+    "control": 51,
+    "guard": 61,
+    "speed": 51,
+    "stamina": 71,
+    "guts": 65
+   },
+   "moves": [
+    "tsunami-boost",
+    "whale-guard",
+    "the-typhoon"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsunami Jousuke",
+   "description": "¡No existe ola que este tío enrollado no pueda surfear! Le encanta el mar."
+  },
+  {
+   "id": "archer-hawkins",
+   "name": "Archer Hawkins",
+   "short": "Archer",
+   "number": 7,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 124,
+   "stats": {
+    "kick": 78,
+    "body": 54,
+    "control": 52,
+    "guard": 58,
+    "speed": 52,
+    "stamina": 48,
+    "guts": 74
+   },
+   "moves": [
+    "judge-through",
+    "hawk-shot",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tobitaka Seiya",
+   "description": "Un chico con un pasado misterioso. Lo llaman Archie el Coces."
+  },
+  {
+   "id": "paul-peabody",
+   "name": "Paul Peabody",
+   "short": "Paul",
+   "number": 8,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 130,
+   "stats": {
+    "kick": 45,
+    "body": 52,
+    "control": 62,
+    "guard": 70,
+    "speed": 64,
+    "stamina": 73,
+    "guts": 74
+   },
+   "moves": [
+    "gorimuchuu",
+    "god-hand",
+    "majin-the-hand",
+    "tamashii-the-hand"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tamano Gorou",
+   "description": "La mascota del Raimon es pequeña, pero tiene un poder especial."
+  },
+  {
+   "id": "thor-stoutberg",
+   "name": "Thor Stoutberg",
+   "short": "Thor",
+   "number": 12,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 137,
+   "stats": {
+    "kick": 56,
+    "body": 80,
+    "control": 53,
+    "guard": 62,
+    "speed": 50,
+    "stamina": 71,
+    "guts": 68
+   },
+   "moves": [
+    "super-shikofumi",
+    "rock-wall-dam",
+    "thunder-beast"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hijikata Raiden",
+   "description": "Tiene un buen corazón y siempre cuida de sus amigos."
+  },
+  {
+   "id": "xavier-foster",
+   "name": "Xavier Foster",
+   "short": "Xavier",
+   "number": 18,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 111,
+   "tp": 129,
+   "stats": {
+    "kick": 71,
+    "body": 63,
+    "control": 67,
+    "guard": 58,
+    "speed": 69,
+    "stamina": 51,
+    "guts": 60
+   },
+   "moves": [
+    "ryuusei-blade",
+    "photon-flash",
+    "the-birth",
+    "tenkuu-otoshi"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kiyama Hiroto",
+   "description": "Antiguo rival del Raimon y ahora aliado. Sus tiros parecen cometas."
+  },
+  {
+   "id": "maxwell-carson",
+   "name": "Maxwell Carson",
+   "short": "Maxwell",
+   "number": 22,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 127,
+   "stats": {
+    "kick": 51,
+    "body": 56,
+    "control": 72,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 57
+   },
+   "moves": [
+    "quick-draw",
+    "illusion-ball",
+    "dash-storm"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Matsuno Kuusuke",
+   "description": "¡Todo un atleta polivalente! Muy habilidoso, pero se aburre fácilmente."
+  },
+  {
+   "id": "shawn-froste",
+   "name": "Shawn Froste",
+   "short": "Shawn",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 61,
+    "body": 59,
+    "control": 72,
+    "guard": 59,
+    "speed": 77,
+    "stamina": 62,
+    "guts": 57
+   },
+   "moves": [
+    "eternal-blizzard",
+    "aurora-dribble",
+    "wolf-legend",
+    "snow-angel"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "La estrella del Instituto Alpino. Como defensa es invencible."
+  },
+  {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 126,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 61,
+    "guard": 53,
+    "speed": 58,
+    "stamina": 70,
+    "guts": 67
+   },
+   "moves": [
+    "reppuu-dash",
+    "koutei-penguin-2gou",
+    "space-penguin"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Delantero con un tiro imparable. Suele ser la mano derecha de Jude."
+  },
+  {
+   "id": "kevin-dragonfly",
+   "name": "Kevin Dragonfly",
+   "short": "Kevin",
+   "number": 17,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 124,
+   "stats": {
+    "kick": 79,
+    "body": 60,
+    "control": 49,
+    "guard": 53,
+    "speed": 51,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "dragon-crash",
+    "wyvern-crash",
+    "wyvern-blizzard",
+    "dragon-slayer"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Someoka Ryuugo",
+   "description": "Su afán de superación impresiona, pero su cara... ¡todavía más!"
+  },
+  {
+   "id": "marvin-murdock",
+   "name": "Marvin Murdock",
+   "short": "Marvin",
+   "number": 19,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 106,
+   "tp": 138,
+   "stats": {
+    "kick": 57,
+    "body": 61,
+    "control": 61,
+    "guard": 52,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 69
+   },
+   "moves": [
+    "triangle-z",
+    "grenade-shot",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mukata Masaru",
+   "description": "Hermano mayor de los trillizos y capitán. Ansía ganarlo todo."
+  }
+ ]
+}

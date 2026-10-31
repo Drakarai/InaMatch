@@ -21,6 +21,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 
@@ -116,8 +117,59 @@ NAME_ES = {
     'Team K': 'Equipo D',
     'The Great Horn': 'Caimanes del Cabo',
     'The Kingdom': 'Os Reis',
+    'Asia Daihyou': 'Ases Asiáticos',
+    'Ura Raimon': 'Ultra Raimon',
+    'NEW Genesis': 'Génesis NEW',
+    'NEW Zeus': 'Zeus NEW',
+    'NEW Teikoku Gakuen': 'Royal Academy NEW',
 }
+# Equipos extra que visten como otro (versiones del mismo equipo) o con colores puestos aquí
+STYLE_OF = {
+    'Ura Zeus': 'Zeus', 'Neo Teikoku': 'Teikoku Gakuen', 'Kageyama All Star': 'Shin Teikoku Gakuen',
+    'Aliea A': 'The Genesis', 'Aliea B': 'Chaos', 'Super Shuuyou Meito': 'Shuuyou Meito Gakuen',
+    'Super Oosaka CCC': 'Osaka Gals CCC', 'Inazuma KFC Kai': 'Inazuma KFC', 'NEW Genesis': 'The Genesis',
+    'NEW Zeus': 'Zeus', 'NEW Teikoku Gakuen': 'Teikoku Gakuen', 'First Raimon': 'Raimon', 'Neo Raimon': 'Raimon',
+    'Ura Raimon': 'Raimon', 'Neo Japan Kai': 'Neo Japan', 'Another Chaos': 'Chaos', 'Real Aliea': 'The Genesis',
+    'Inazuma Legend': 'Inazuma Eleven', 'Nippon Daihyou Kouho A': 'Inazuma Japan',
+}
+STYLE.update({
+    'Kami to Uchuu': ('#f2f2f2', '#5a3a8a', '#c8a020', '#7a5aa8'),
+    'Zenkoku Team Senbatsu A': ('#2a5fc0', '#f2f2f2', '#e8892b', '#1d4596'),
+    'Zenkoku Team Senbatsu B': ('#c8202f', '#f2f2f2', '#2a8a3a', '#a01a26'),
+    'Nippon Daihyou Kouho B': ('#f2f2f2', '#2a6fd6', '#e8892b', '#2d5fb8'),
+    'Dark Angel': ('#1a1a1a', '#3a1a4a', '#8a1a2a', '#5a2a6a'),
+    'Chaos Angels': ('#7a2a5a', '#f2f2f2', '#3a8ac0', '#8a3a6a'),
+    'God Angel': ('#f2f2f2', '#c8a020', '#7ab8e8', '#b89020'),
+    'Sekai Daihyou': ('#1d2f6b', '#f2f2f2', '#c8a020', '#c8a020'),
+    'Asia Daihyou': ('#c8202f', '#f2f2f2', '#2a5fc0', '#a01a26'),
+    'Europe Daihyou': ('#2457b8', '#f2f2f2', '#c8a020', '#1d4596'),
+    'Africa Daihyou': ('#2a8a5a', '#f2c230', '#c8202f', '#1f6a44'),
+    'Nanbei Daihyou': ('#f2d230', '#2a8a3a', '#2a5fc0', '#2a8a3a'),
+    'Joshi Senbatsu Team': ('#e98aa8', '#f2f2f2', '#5a3a8a', '#c86a8a'),
+})
+
 MIN_PLAYERS = 11
+
+# Equipos que no son grupos del módulo de jugadores: se montan con la tabla de miembros de su página.
+EXTRA = {
+    'ie1': ['Ura Zeus'],
+    'ie2': [
+        'Kami to Uchuu', 'Neo Teikoku', 'Kageyama All Star', 'Aliea A', 'Aliea B', 'Super Shuuyou Meito',
+        'Super Oosaka CCC', 'Inazuma KFC Kai', 'Zenkoku Team Senbatsu A', 'Zenkoku Team Senbatsu B',
+        'NEW Genesis', 'NEW Zeus', 'NEW Teikoku Gakuen',
+    ],
+    'ie3': [
+        'First Raimon', 'Neo Raimon', 'Ura Raimon', 'Nippon Daihyou Kouho A', 'Nippon Daihyou Kouho B',
+        'Neo Japan Kai', 'Dark Angel', 'Chaos Angels', 'God Angel', 'Inazuma Legend', 'Sekai Daihyou',
+        'Asia Daihyou', 'Europe Daihyou', 'Africa Daihyou', 'Nanbei Daihyou', 'Joshi Senbatsu Team',
+        'Real Aliea', 'Another Chaos',
+    ],
+}
+
+# Descripciones en español puestas a mano (por página del jugador en la wiki inglesa) para los que no
+# tienen la oficial en la wiki española: traducidas de la inglesa o escritas a partir de su historia.
+# También nombres que la wiki no trae bien.
+OVERRIDES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'overrides.json'), encoding='utf-8'))
 
 
 ES_API = 'https://inazuma.fandom.com/es/api.php'
@@ -232,6 +284,13 @@ for season, game, _tab, order in SEASONS:
         rows = [r for r in rows if r[0] in PLAYERS]
         rosters.append((season, game, order, name, rows, formation_of(text, game), page))
     print(f'{season}: {len(names)} grupos', file=sys.stderr)
+    # equipos extra (versiones mejoradas, selecciones, equipos secretos): solo con la tabla de su página
+    extra = fetch_pages(EXTRA.get(season, []), {'prop': 'revisions|langlinks', 'lllang': 'es', 'lllimit': 'max'})
+    for name in EXTRA.get(season, []):
+        page = extra.get(name)
+        text = content(page) if page else ''
+        rows = [r for r in member_table(text, game) if r[0] in PLAYERS]
+        rosters.append((season, game, order, name, rows, formation_of(text, game), page))
 
 player_pages = sorted({PLAYERS[r[0]]['page'] for t in rosters for r in t[4] if PLAYERS[r[0]].get('page')})
 print('jugadores distintos:', len(player_pages), file=sys.stderr)
@@ -257,22 +316,81 @@ def params_for(text, game):
     return out if len(out) == len(STAT_KEYS) else None
 
 
-def dub_name(text):
+def dub_name(text, title=''):
     m = re.search(r'\|name_dub=\s*([^\n|]+)', text)
     if not m:
         return None
-    name = re.sub(r"\{\{.*?\}\}|'''?|\[\[|\]\]|<[^>]+>", '', m.group(1)).lstrip('*').strip()
-    return re.sub(r'\s*\(.*?\)', '', name) or None
+    name = m.group(1).replace('{{PAGENAME}}', title)
+    name = re.sub(r"\{\{.*?\}\}|'''?|\[\[|\]\]|<[^>]+>", '', name).lstrip('*').strip()
+    # lo que va entre paréntesis son aclaraciones ("(IE NL)"); a veces la plantilla corta el cierre
+    name = re.sub(r'\s*\(.*$', '', name).strip()
+    return name or None
 
 
 # las páginas de la wiki española tienen las descripciones oficiales de los juegos en español
 es_titles = {p: page['langlinks'][0]['title'] for p, page in char_pages.items() if page.get('langlinks')}
 # muchas páginas no tienen el enlace, pero en la wiki española se llaman como en el doblaje europeo
 for p, page in char_pages.items():
-    if p not in es_titles and (dub := dub_name(content(page))):
+    if p not in es_titles and (dub := dub_name(content(page), p)):
         es_titles[p] = dub
 es_pages = fetch_pages(sorted(set(es_titles.values())), url=ES_API)
 print('jugadores con página en la wiki española:', sum(1 for t in es_titles.values() if content(es_pages.get(t, {}))), file=sys.stderr)
+
+# Los que siguen sin página: en el juego español algunos se llaman distinto (Umi Hwang es Umi Wang; los de
+# Los Rojos tienen nombres españoles). Se buscan en la tabla de miembros de su equipo en la wiki española:
+# por una parte del nombre en común o, si no, por dorsal y posición.
+ES_POS = {'GK': 'PR', 'DF': 'DF', 'MF': 'MD', 'FW': 'DL'}
+
+
+def norm(s):
+    s = unicodedata.normalize('NFKD', s.lower())
+    return re.sub(r'[^a-z0-9 ]', ' ', ''.join(c for c in s if not unicodedata.combining(c)))
+
+
+def es_members(text):
+    """[(dorsal, página, posición, dorsal dudoso)] de las tablas de miembros de un equipo en la wiki española."""
+    out = []
+    for body in re.findall(r'\{\{Tabla \(Miembros\)\s*\n(.*?)\n\}\}', text, re.S):
+        dor = re.search(r'\|\s*Dor\s*=\s*([^\n]*)', body)
+        nom = re.search(r'\|\s*Nom\s*=\s*\[\[([^\]|]+)', body)
+        pos = re.search(r'\{\{M\|P\|(\w+)', body)
+        n = re.match(r'\s*(\d+)', dor.group(1)) if dor else None
+        if n and nom:
+            out.append((int(n.group(1)), nom.group(1).strip(), pos.group(1) if pos else '', '/' in dor.group(1)))
+    return out
+
+
+team_es = {}
+for _s, _g, _o, name, _rows, _f, page in rosters:
+    ll = (page or {}).get('langlinks', [])
+    team_es[name] = ll[0]['title'] if ll else NAME_ES.get(name)
+es_team_pages = fetch_pages(sorted({t for t in team_es.values() if t}), url=ES_API)
+es_by_player = {}  # (equipo, clave del jugador) -> página en la wiki española
+for _s, _g, order, name, rows, _f, _p in rosters:
+    members = es_members(content(es_team_pages.get(team_es.get(name) or '', {})))
+    for i, (key, no, _c) in enumerate(rows):
+        pg = PLAYERS[key].get('page', '')
+        if content(es_pages.get(es_titles.get(pg, ''), {})):
+            continue
+        no = no or i + 1  # el mismo dorsal que se le pone en build_player
+        en_names = [pg, dub_name(content(char_pages.get(pg, {})), pg) or '']
+        tokens = {w for n in en_names for w in norm(n).split() if len(w) >= 3}
+        by_name = {m[1] for m in members if tokens & set(norm(m[1]).split())}
+        pos = ES_POS.get(per_game(PLAYERS[key].get('position'), order))
+        same_no = [m for m in members if m[0] == no]
+        by_no = {m[1] for m in same_no if m[2] == pos and not m[3]} if len(same_no) == 1 else set()
+        # si el nombre y el dorsal no coinciden, manda el dorsal (un apellido en común puede ser casualidad)
+        match = by_name if len(by_name) == 1 and (not by_no or by_no == by_name) else by_no
+        if len(match) == 1:
+            es_by_player[(name, key)] = match.pop()
+# el mismo jugador en otro equipo (selecciones, versiones mejoradas) usa la página encontrada
+by_key = {key: title for (_n, key), title in es_by_player.items()}
+for _s, _g, _o, name, rows, _f, _p in rosters:
+    for key, _no, _c in rows:
+        if (name, key) not in es_by_player and key in by_key:
+            es_by_player[(name, key)] = by_key[key]
+es_pages.update(fetch_pages(sorted(set(es_by_player.values()) - set(es_pages)), url=ES_API))
+print('encontrados en las tablas de equipo de la wiki española:', len(es_by_player), file=sys.stderr)
 
 
 ES_DESC = {'IE': ('IE', 'Descripción IE'), 'IE2': ('IE 2', 'Descripción IE2'), 'IE3': ('IE 3', 'Descripción IE3')}
@@ -285,20 +403,43 @@ def clean_wiki(t):
     return re.sub(r"'''?|\s+", ' ', t).strip()
 
 
+GAME_NO = {'IE': 1, 'IE2': 2, 'IE3': 3}
+END = r'(?=\n\s*\||\}\}\s*(?:\n|$))'  # fin de un parámetro: el siguiente o el cierre de la plantilla
+
+
+def es_text_of(body):
+    """Texto de una descripción. Si trae la traducción literal del japonés y la del juego español
+    (líneas *{{JP}}: ... y *{{ES}}: ...), la española; si trae varias (antes/después...), la primera."""
+    bullets = re.findall(r"\*\s*(?:'''([^']*)'''\s*:\s*)?([^\n*]+)", body)
+    if bullets:
+        es = [b for label, b in bullets if '{{ES}}' in (label or '')]
+        jp = [b for label, b in bullets if '{{JP}}' in (label or '')]
+        body = es[0] if es else None if jp else bullets[0][1]
+    elif body and '----' in body:  # variantes sin viñetas ('''Normal''': ... ---- '''Otra''': ...)
+        body = re.sub(r"^\s*'''[^']*'''\s*:?", '', body.split('----')[0].strip())
+    return clean_wiki(body) if body else None
+
+
 def description_es(text, game):
-    """Descripción oficial en español del juego: el parámetro "Descripción IE3 = ..." (o IE2, o IE) de las
-    plantillas de descripción, sea {{Descripción/IE 3 | ...}} o {{Descripción | ...}}.
-    Si trae varias (antes/después, DF/FW...), la primera."""
-    tpl, param = ES_DESC[game]
-    m = re.search(r'\|\s*%s\s*=(.*?)(?=\n\s*\||\}\})' % re.escape(param), text, re.S)
-    if game == 'IE' and not m:
-        m = re.search(r'\{\{Descripci[oó]n/IE\s*\|(?:[^{}]|\{\{[^{}]*\}\})*?\|\s*Descripci[oó]n\s*=(.*?)(?=\n\s*\||\}\})', text, re.S)
-    if not m or 'Aviso' in m.group(1):
-        return None
-    body = m.group(1)
-    bullets = re.findall(r'\*\s*(?:\'\'\'[^\']*\'\'\'\s*:\s*)?([^\n*]+)', body)
-    out = clean_wiki(bullets[0] if bullets else body)
-    return out or None
+    """Descripción oficial en español del juego, de las plantillas de la sección de descripción:
+    - el parámetro "Descripción IE3 = ..." (o IE2, o IE) de {{Descripción/IE 3 | ...}} o {{Descripción | ...}};
+    - {{Descripción/IE | Descripción = ...}} (IE1);
+    - {{Descripción/Varios | IE = {{IE|J|IE 2-3}} | Descripción = ...}}, la misma para varios juegos."""
+    _tpl, param = ES_DESC[game]
+    bodies = [m.group(1) for m in re.finditer(r'\|\s*%s\s*=(.*?)%s' % (re.escape(param), END), text, re.S)]
+    if game == 'IE':
+        bodies += re.findall(r'\{\{Descripci[oó]n/IE\s*\|(?:[^{}]|\{\{[^{}]*\}\})*?\|\s*Descripci[oó]n\s*=(.*?)%s' % END, text, re.S)
+    for m in re.finditer(r'\{\{Descripci[oó]n/Varios\s*\|\s*IE\s*=\s*\{\{IE\|[^|}]*\|([^}]*)\}\}\s*\|\s*Descripci[oó]n\s*=(.*?)%s' % END, text, re.S):
+        r = re.search(r'IE (\d)(?:-(\d))?$', m.group(1).strip())
+        games = range(int(r.group(1)), int(r.group(2) or r.group(1)) + 1) if r else range(1, 4) if 'Mark' in m.group(1) else ()
+        if GAME_NO[game] in games:
+            bodies.append(m.group(2))
+    for body in bodies:
+        if 'Aviso' in body:
+            continue
+        if out := es_text_of(body):
+            return out
+    return None
 
 
 def description(text, game):
@@ -346,13 +487,15 @@ HAIR = ['#3a2a1a', '#6b3e1f', '#8b5a2b', '#c0302a', '#efe6c4', '#4c8a3c', '#3a6f
 SKIN = ['#f1c79b', '#f1c79b', '#e8b888', '#c08a5e', '#b5835a', '#9a6a44']
 SHIRTS = ['#c8202f', '#2a5fc0', '#2a8a3a', '#f2c230', '#5a3a8a', '#e86a1a', '#1a1a1a', '#f2f2f2', '#3a8ac0', '#8a1a3a', '#4a6a2a', '#c87aa8']
 missing_stats = []
+es_matches = []  # jugadores emparejados por la tabla de su equipo (para revisarlos)
+no_spanish = []  # jugadores sin descripción en español: hay que añadirla a overrides.json
 
 
 def build_player(key, number, team_name, season, order, used_ids):
     d = PLAYERS[key]
     page = char_pages.get(d.get('page', ''))
     text = content(page) if page else ''
-    name = dub_name(text) or d.get('page') or key
+    name = OVERRIDES['names'].get(d.get('page', '')) or dub_name(text, d.get('page', '')) or d.get('page') or key
     pid = slug(name)
     if pid in used_ids:  # mismo jugador en otra forma dentro del equipo
         pid = slug(f'{name} {key}')
@@ -390,10 +533,21 @@ def build_player(key, number, team_name, season, order, used_ids):
         'look': {'hair': pick(name, HAIR), 'skin': pick(name[::-1], SKIN)},
         'wiki': d.get('page') or key,
     }
-    es_text = content(es_pages.get(es_titles.get(d.get('page', '')), {})) if es_titles.get(d.get('page', '')) else ''
-    desc = next((x for g in order if (x := description_es(es_text, g))), None)
-    desc = desc or next((x for g in order if (x := description(text, g))), None)
+    es_text = content(es_pages.get(es_titles.get(d.get('page', ''), ''), {}))
+    if not es_text and (team_name, key) in es_by_player:
+        es_text = content(es_pages.get(es_by_player[(team_name, key)], {}))
+        es_matches.append(f"{team_name} | {name} -> {es_by_player[(team_name, key)]} | {next((x for g in order if (x := description_es(es_text, g))), '')} | {next((x for g in order if (x := description(text, g))), '')}")
+    desc = OVERRIDES['descriptions'].get(d.get('page', ''))
+    desc = desc or next((x for g in order if (x := description_es(es_text, g))), None)
+    if not desc:
+        english = next((x for g in order if (x := description(text, g))), None)
+        no_spanish.append(f"{d.get('page') or key} | {name} | {team_name} | {english or ''}")
     if desc:
+        desc = desc.replace('\ufeff', '').strip()
+        for wrong, right in OVERRIDES['fixes']:
+            desc = desc.replace(wrong, right)
+        if desc[-1].isalnum():
+            desc += '.'
         player['description'] = desc
     return player
 
@@ -490,11 +644,12 @@ for season, game, order, name, rows, fkey, page in rosters:
     players = pick_starters(players, counts)
     unique_shorts(players)
     es = (page or {}).get('langlinks', [])
-    style = STYLE.get(name) or (
-        pick(name, SHIRTS),
-        pick(name + 's', ['#f2f2f2', '#1a1a1a', '#2a3a5a']),
-        pick(name + 'g', ['#e8892b', '#3a8a3a', '#5a5a5a']),
-        pick(name, SHIRTS),
+    look_as = STYLE_OF.get(name, name)
+    style = STYLE.get(look_as) or (
+        pick(look_as, SHIRTS),
+        pick(look_as + 's', ['#f2f2f2', '#1a1a1a', '#2a3a5a']),
+        pick(look_as + 'g', ['#e8892b', '#3a8a3a', '#5a5a5a']),
+        pick(look_as, SHIRTS),
     )
     short = team_short(name, shorts[season])
     shorts[season].add(short)
@@ -529,3 +684,10 @@ print('formaciones:', len(formations))
 print('jugadores sin atributos en la wiki (estimados por posición):', len(missing_stats))
 for m in missing_stats[:30]:
     print('  ', m)
+no_spanish = sorted(set(no_spanish))
+print('jugadores sin descripción en español (añádela en tools/wiki/overrides.json):', len(no_spanish))
+os.makedirs(os.path.join(ROOT, 'tools', 'wiki', '.cache'), exist_ok=True)
+with open(os.path.join(ROOT, 'tools', 'wiki', '.cache', 'sin_descripcion.txt'), 'w', encoding='utf-8') as f:
+    f.write('\n'.join(no_spanish) + '\n')
+with open(os.path.join(ROOT, 'tools', 'wiki', '.cache', 'emparejados_es.txt'), 'w', encoding='utf-8') as f:
+    f.write('\n'.join(sorted(set(es_matches))) + '\n')

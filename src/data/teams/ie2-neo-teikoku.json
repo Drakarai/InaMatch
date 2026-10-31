@@ -1,0 +1,361 @@
+{
+ "id": "ie2-neo-teikoku",
+ "season": "ie2",
+ "wiki": "Neo Teikoku",
+ "name": "Neo Royal Academy",
+ "short": "NEO",
+ "colors": {
+  "shirt": "#5a4a8a",
+  "shorts": "#3a3a4a",
+  "gkShirt": "#c8a020",
+  "accent": "#4a3a7a"
+ },
+ "formation": "f-death-zone",
+ "players": [
+  {
+   "id": "joseph-king",
+   "name": "Joseph King",
+   "short": "Joseph",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 200,
+   "tp": 153,
+   "stats": {
+    "kick": 72,
+    "body": 75,
+    "control": 69,
+    "guard": 72,
+    "speed": 55,
+    "stamina": 74,
+    "guts": 60
+   },
+   "moves": [
+    "beast-fang",
+    "power-shield",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Genda Koujirou",
+   "description": "Le llaman \"el rey de los porteros\". No deja ningún hueco sin cubrir."
+  },
+  {
+   "id": "peter-drent",
+   "name": "Peter Drent",
+   "short": "Peter",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 144,
+   "stats": {
+    "kick": 71,
+    "body": 54,
+    "control": 67,
+    "guard": 64,
+    "speed": 44,
+    "stamina": 59,
+    "guts": 62
+   },
+   "moves": [
+    "giant-spin",
+    "earthquake",
+    "reflect-buster",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oono Densuke",
+   "description": "Granuja de cuerpo gigantesco cuyo peso hace temblar el suelo."
+  },
+  {
+   "id": "argie-bargie",
+   "name": "Argie Bargie",
+   "short": "Argie",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 200,
+   "tp": 153,
+   "stats": {
+    "kick": 76,
+    "body": 60,
+    "control": 62,
+    "guard": 64,
+    "speed": 64,
+    "stamina": 79,
+    "guts": 60
+   },
+   "moves": [
+    "horn-train",
+    "tarzan-kick",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gouin Takeshi",
+   "description": "Avasallador y tozudo: se hará con el balón aunque tenga que apartar a los rivales a empujones."
+  },
+  {
+   "id": "blade-healen",
+   "name": "Blade Healen",
+   "short": "Blade",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 136,
+   "stats": {
+    "kick": 53,
+    "body": 56,
+    "control": 70,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 63,
+    "guts": 62
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through-2",
+    "ushiro-no-shoumen",
+    "hitori-one-two"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Iyatani Kengo",
+   "description": "Marca tan bien al rival que este acaba gritando de desesperación."
+  },
+  {
+   "id": "rowan-beltzer",
+   "name": "Rowan Beltzer",
+   "short": "Rowan",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 136,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 63,
+    "guard": 60,
+    "speed": 64,
+    "stamina": 69,
+    "guts": 58
+   },
+   "moves": [
+    "cyclone",
+    "double-cyclone",
+    "grenade-shot",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Taiya Rekito",
+   "description": "Puede correr con total estabilidad hasta en campos embarrados."
+  },
+  {
+   "id": "jude-sharp",
+   "name": "Jude Sharp",
+   "short": "Jude",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 180,
+   "stats": {
+    "kick": 63,
+    "body": 79,
+    "control": 79,
+    "guard": 79,
+    "speed": 76,
+    "stamina": 76,
+    "guts": 68
+   },
+   "moves": [
+    "illusion-ball",
+    "spinning-cut",
+    "twin-boost",
+    "triple-boost"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kidou Yuuto",
+   "description": "De sus botas sale fútbol de muchos quilates. El mejor en su posición."
+  },
+  {
+   "id": "caleb-stonewall",
+   "name": "Caleb Stonewall",
+   "short": "Caleb",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 182,
+   "tp": 169,
+   "stats": {
+    "kick": 75,
+    "body": 60,
+    "control": 78,
+    "guard": 60,
+    "speed": 64,
+    "stamina": 66,
+    "guts": 69
+   },
+   "moves": [
+    "triple-boost",
+    "judge-through-2",
+    "killer-slide"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fudou Akio",
+   "description": "Dicen que ni siquiera un demonio jugaría de una forma tan violenta."
+  },
+  {
+   "id": "herman-waldon",
+   "name": "Herman Waldon",
+   "short": "Herman",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 189,
+   "tp": 188,
+   "stats": {
+    "kick": 76,
+    "body": 64,
+    "control": 72,
+    "guard": 79,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 69
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "freeze-shot",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Henmi Wataru",
+   "description": "Tiene a su equipo en alta estima y desprecia a todos los demás."
+  },
+  {
+   "id": "derek-swing",
+   "name": "Derek Swing",
+   "short": "Derek",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 184,
+   "stats": {
+    "kick": 70,
+    "body": 56,
+    "control": 76,
+    "guard": 59,
+    "speed": 69,
+    "stamina": 60,
+    "guts": 61
+   },
+   "moves": [
+    "killer-slide",
+    "bunshin-feint",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Doumen Shuuichirou",
+   "description": "Tiene poca garra, pero es más listo que el hambre."
+  },
+  {
+   "id": "daniel-hatch",
+   "name": "Daniel Hatch",
+   "short": "Daniel",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 184,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 69,
+    "control": 68,
+    "guard": 68,
+    "speed": 78,
+    "stamina": 61,
+    "guts": 64
+   },
+   "moves": [
+    "hyakuretsu-shot",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jimon Daiki",
+   "description": "Delantero estrella de la Royal. Sus largas piernas son su mejor arma."
+  },
+  {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 193,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 78,
+    "guard": 66,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 71
+   },
+   "moves": [
+    "koutei-penguin-1gou",
+    "judge-through",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Se echa el equipo a sus espaldas. Sus técnicas conjuntas son letales."
+  }
+ ]
+}

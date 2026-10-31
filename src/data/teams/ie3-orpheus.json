@@ -104,7 +104,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ottorino Nobili",
-   "description": "Es de Pisa y quiere que sus ciudad esté orgullosa de sus logros."
+   "description": "Es de Pisa y quiere que su ciudad esté orgullosa de sus logros."
   },
   {
    "id": "anton-graziuso",
@@ -199,7 +199,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Giuseppe Cannavaro",
-   "description": "Fascinated by the ruins of Pompeii, he spends his Saturdays helping out on digs."
+   "description": "Le fascinan las ruinas de Pompeya. Todos los sábados echa un cable en alguna excavación."
   },
   {
    "id": "angelo-gabrini",
@@ -231,7 +231,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Angelo Gabrini",
-   "description": "He's already won many awards for artisanship, as a crafter of cameo brooches."
+   "description": "Este chaval es un maestro artesano de los camafeos. ¡Ha ganado incluso premios!"
   },
   {
    "id": "hidetoshi-nakata",
@@ -294,7 +294,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Giorgio Giannini",
-   "description": "He's from a well-established family, but he's not one to rest on his laurels."
+   "description": "Viene de una familia de buena posición, pero no es de los que se duermen en los laureles."
   },
   {
    "id": "paolo-bianchi",
@@ -357,7 +357,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Raffaele Generani",
-   "description": "Even though he's still in junior high, he's getting a nice income from modelling."
+   "description": "Aunque todavía es muy joven, es modelo y ¡cobra un pastizal!"
   },
   {
    "id": "dante-diavolo",
@@ -421,12 +421,12 @@
     "skin": "#b5835a"
    },
    "wiki": "Daniele Sanctis",
-   "description": "Everyone loves this chilled-out guy from down south for his laid-back charm."
+   "description": "Su flema sureña lo hace encantador. ¡Todo el mundo adora a este chaval!"
   },
   {
-   "id": "o",
-   "name": "o",
-   "short": "o",
+   "id": "enrico-oliviero",
+   "name": "Enrico Oliviero",
+   "short": "Oliviero",
    "number": 13,
    "position": "MF",
    "element": "earth",
@@ -449,11 +449,11 @@
     "triple-boost"
    ],
    "look": {
-    "hair": "#efe6c4",
-    "skin": "#b5835a"
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
    },
    "wiki": "Enrico Olivier",
-   "description": "His passion is fashion design. He's already worked up a stylish take on his team's kit."
+   "description": "Le chifla el mundo de la moda. ¡Hasta ha diseñado el uniforme de su equipo!"
   },
   {
    "id": "alessandro-rossa",
@@ -484,7 +484,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Alessandro Rossa",
-   "description": "You can see your face in the fine Italian leather of this lad's shoes."
+   "description": "Calza zapatos italianos de cuero tan relucientes que podrás verte en ellos."
   },
   {
    "id": "gianluca-zanardi",
@@ -516,7 +516,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Gianluca Zanardi",
-   "description": "He works as a gondolier in Venice to improve his strength and balance."
+   "description": "Trabajó como gondolero en Venecia para mejorar su equilibrio y hacerse más fuerte."
   }
  ]
 }

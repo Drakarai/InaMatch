@@ -40,7 +40,8 @@
     "hair": "#1d1410",
     "skin": "#c08a5e"
    },
-   "wiki": "Jo Jung-soo"
+   "wiki": "Jo Jung-soo",
+   "description": "Es un jugador ambicioso. Quiere ver a los futbolistas coreanos en el plano internacional."
   },
   {
    "id": "umi-hwang",
@@ -71,7 +72,8 @@
     "hair": "#6b3e1f",
     "skin": "#f1c79b"
    },
-   "wiki": "Hwang Woo-myang"
+   "wiki": "Hwang Woo-myang",
+   "description": "Este jugador es el rico heredero de un imperio industrial. Estudia en una escuela de élite."
   },
   {
    "id": "dooyoon-hong",
@@ -102,7 +104,8 @@
     "hair": "#efe6c4",
     "skin": "#9a6a44"
    },
-   "wiki": "Hong Doo-yoon"
+   "wiki": "Hong Doo-yoon",
+   "description": "¡No le gusta la comida picante! Se queja de que en Corea a casi todo le echan guindilla."
   },
   {
    "id": "minho-cho",
@@ -134,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Cho Myong-ho",
-   "description": "Este futbolista ha sabido darle un buen uso a las clases de taekwondo. ¡Mira como chuta!"
+   "description": "Este futbolista ha sabido darle un buen uso a las clases de taekwondo. ¡Mira cómo chuta!"
   },
   {
    "id": "songhwan-ko",
@@ -165,7 +168,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ko Sung-hwan",
-   "description": "Highly skilled in baseball and football, this player cannot decide which to go pro in."
+   "description": "¡Está muy confundido! Juega muy bien tanto al fútbol como al béisbol. No sabe cuál elegir."
   },
   {
    "id": "paekyeong-park",
@@ -195,7 +198,8 @@
     "hair": "#6b3e1f",
     "skin": "#c08a5e"
    },
-   "wiki": "Park Baek-young"
+   "wiki": "Park Baek-young",
+   "description": "Los estudios no son su fuerte, así que optó por convertirse en un futbolista profesional."
   },
   {
    "id": "changsu-choi",
@@ -256,7 +260,8 @@
     "hair": "#c9ccd6",
     "skin": "#9a6a44"
    },
-   "wiki": "Kim Eun-young"
+   "wiki": "Kim Eun-young",
+   "description": "Es un friki de los videojuegos. ¡Ha ganado en varios torneos y no es más que un chiquillo!"
   },
   {
    "id": "claude-beacons",
@@ -411,7 +416,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Heo Ji-nan",
-   "description": "Es del Sur de Korea y no acaba de acostumbrarse al fío invierno del Seúl."
+   "description": "Es del sur de Corea y no acaba de acostumbrarse al frío invierno de Seúl."
   },
   {
    "id": "dong-hyun-seul",

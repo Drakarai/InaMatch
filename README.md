@@ -109,11 +109,20 @@ docs/              notas de referencia del juego original
 
 Los equipos se generan con `python3 -I tools/wiki/teams.py` a partir de la
 [wiki inglesa](https://inazuma-eleven.fandom.com/), separados por temporada (cada id empieza por `ie1-`, `ie2-` o `ie3-`):
-- **IE1 (14):** Raimon, Royal Academy, Zeus, Occult, Wild, Brain, Otaku, Shuriken, Farm, Kirkwood, Inazuma Eleven…
-- **IE2 (20):** Raimon II, Jóvenes Inazuma, la Academia Alius (Génesis, Caos, Épsilon, Prominence, Polvo de Diamantes, Tormenta de
+- **IE1 (15):** Raimon, Royal Academy, Zeus, Occult, Wild, Brain, Otaku, Shuriken, Farm, Kirkwood, Inazuma Eleven…
+  y el Ultra Zeus.
+- **IE2 (33):** Raimon II, Jóvenes Inazuma, la Academia Alius (Génesis, Caos, Épsilon, Prominence, Polvo de Diamantes, Tormenta de
   Géminis…), los Emperadores Oscuros, Royal Academy Redux, los institutos del viaje (Alpino, Mar de Árboles, Fauxshore…).
-- **IE3 (21):** las selecciones del Fútbol Frontier Internacional, Neo Japón, Ogro, el Equipo D, el Zoolan Team (equipo de Garshield), los
-  equipos del cielo y del infierno, y el Mega Inazuma Eleven.
+  Extras: Divinidades y Alienígenas, Neo Royal Academy, Ray Dark All Stars, Alius A y B, Súper Otaku, Súper Triple C,
+  Inazuma Kids FC Plus, las Selecciones Nacionales A y B, y las versiones NEW de Génesis, Zeus y Royal Academy.
+- **IE3 (39):** las selecciones del Fútbol Frontier Internacional, Neo Japón, Ogro, el Equipo D, el Zoolan Team (equipo de Garshield), los
+  equipos del cielo y del infierno, y el Mega Inazuma Eleven. Extras: Raimon I, Neo Raimon, Ultra Raimon, las Pruebas de
+  Selección A y B, Neo Japón Plus, Ángel Oscuro, Ángeles del Caos, Equipo Celestial, Leyendas de Antaño, Ases
+  Internacionales, los Ases de Asia, Europa, África y Sudamérica, Estrellas Femeninas, Atlético Alius y Nuevo Caos.
+
+Los extras (versiones mejoradas, selecciones y equipos secretos) no son grupos del módulo de jugadores: están en la lista
+`EXTRA` del script, que monta cada uno con la tabla de miembros de su página. Para añadir otro, pon el título de su página
+de la wiki inglesa en la temporada que toque.
 
 De dónde sale cada cosa:
 - **Plantilla, dorsales y formación:** la tabla de miembros de ese juego en la página de cada equipo.
@@ -128,7 +137,7 @@ De dónde sale cada cosa:
 - **Titulares:** portero y las líneas de la formación por orden de dorsal. Si faltan jugadores de una posición, entra el que mejor encaja por atributos.
 
 **Escudos:** `python3 -I tools/wiki/emblems.py` baja el de cada equipo de la wiki (el rehecho para Victory Road si lo hay;
-si no, el de los juegos de DS) a `src/assets/pack/emblems/`. Ya están los 55. Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
+si no, el de los juegos de DS) a `src/assets/pack/emblems/`. Ya están los 87 (las versiones NEW llevan el del equipo original). Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
 uno provisional con las siglas.
 
 Lo que no viene en la wiki se pone a mano en el script: los colores de los equipos más conocidos (el resto lleva colores
@@ -216,7 +225,7 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
 
 ## Jugadores: sprites, retratos y descripciones
 
-- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (732 de 810). Sale en la ficha
+- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (1097 de 1240). Sale en la ficha
   de la formación, en el panel del partido y en la animación de las supertécnicas. Los baja
   `python3 -I tools/wiki/sprites.py` de la wiki inglesa a `src/assets/pack/portraits/<equipo>/<jugador>.webp`, y se
   cargan al elegir equipos.
@@ -226,7 +235,13 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
   - El juego lo dibuja con la equipación de su equipo, y en otro color si es portero.
   - Quien no tiene retrato lleva una cabeza genérica.
 - **Descripción:** la oficial de los juegos en español, de la [wiki española](https://inazuma.fandom.com/es/), la de la
-  temporada de su equipo (la saca `tools/wiki/teams.py`). Unas 70 no tienen versión española y van en inglés.
+  temporada de su equipo (la saca `tools/wiki/teams.py`).
+  - Si en la wiki española la página del jugador tiene otro nombre (en el juego español algunos se llaman distinto:
+    Umi Wang, los de Los Rojos…), se encuentra por la tabla de miembros de su equipo.
+  - Cuando la página trae la traducción literal del japonés y el texto del juego español, se usa el del juego.
+  - `tools/wiki/overrides.json`: descripciones escritas a mano para los pocos que no tienen versión española o la
+    tienen mal copiada, nombres que la wiki no trae bien y erratas de las descripciones oficiales.
+  - El script deja en `tools/wiki/.cache/sin_descripcion.txt` los que se quedan sin descripción en español.
 
 ### Sprites originales
 

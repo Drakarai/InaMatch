@@ -1,0 +1,366 @@
+{
+ "id": "ie2-super-oosaka-ccc",
+ "season": "ie2",
+ "wiki": "Super Oosaka CCC",
+ "name": "Súper Triple C",
+ "short": "SOC",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#f2c230"
+ },
+ "formation": "f-basic-2",
+ "players": [
+  {
+   "id": "daisy-fields",
+   "name": "Daisy Fields",
+   "short": "Daisy",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 182,
+   "tp": 133,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 70,
+    "guard": 67,
+    "speed": 69,
+    "stamina": 52,
+    "guts": 71
+   },
+   "moves": [
+    "hanafubuki",
+    "slash-nail",
+    "giant-spin",
+    "chabudai-gaeshi"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Dosu Koi",
+   "description": "Es la campeona nacional de sumo. Es un poco llorona."
+  },
+  {
+   "id": "alexia-sand",
+   "name": "Alexia Sand",
+   "short": "Alexia",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 137,
+   "stats": {
+    "kick": 61,
+    "body": 56,
+    "control": 61,
+    "guard": 65,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "fake-bomber",
+    "gorimuchuu",
+    "block-circus"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Torahama Kouko",
+   "description": "Pertenece a la tercera generación de aficionados acérrimos al béisbol."
+  },
+  {
+   "id": "hellen-hearth",
+   "name": "Hellen Hearth",
+   "short": "Hellen",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 144,
+   "stats": {
+    "kick": 63,
+    "body": 52,
+    "control": 56,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 55,
+    "guts": 57
+   },
+   "moves": [
+    "good-smell",
+    "prima-donna",
+    "rose-splash"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hori Michiko",
+   "description": "Su calma y flema al hablar hacen que su interlocutor se duerma."
+  },
+  {
+   "id": "rose-pinkpetal",
+   "name": "Rose Pinkpetal",
+   "short": "Rose",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 138,
+   "tp": 133,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 68,
+    "guard": 60,
+    "speed": 66,
+    "stamina": 52,
+    "guts": 57
+   },
+   "moves": [
+    "fake-bomber",
+    "fuusen-gum",
+    "moonsault",
+    "ribbon-shower"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Umeda Harumi",
+   "description": "Quiere demostrar que los de Osaka también saben vestir bien."
+  },
+  {
+   "id": "esther-greenland",
+   "name": "Esther Greenland",
+   "short": "Esther",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 154,
+   "tp": 132,
+   "stats": {
+    "kick": 62,
+    "body": 67,
+    "control": 60,
+    "guard": 58,
+    "speed": 68,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "good-smell",
+    "blade-attack",
+    "suisei-shoot",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kushida Katsuyo",
+   "description": "Es la camarera más solicitada de un restaurante de brochetas."
+  },
+  {
+   "id": "mary-moor",
+   "name": "Mary Moor",
+   "short": "Mary",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 129,
+   "stats": {
+    "kick": 56,
+    "body": 65,
+    "control": 58,
+    "guard": 56,
+    "speed": 66,
+    "stamina": 54,
+    "guts": 69
+   },
+   "moves": [
+    "rolling-kick",
+    "moonsault",
+    "ribbon-shower",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tennouji Mari",
+   "description": "Los días de fiesta actúa en la calle."
+  },
+  {
+   "id": "bela-bluebells",
+   "name": "Bela Bluebells",
+   "short": "Bela",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 116,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 64,
+    "guard": 63,
+    "speed": 61,
+    "stamina": 63,
+    "guts": 59
+   },
+   "moves": [
+    "spinning-shoot",
+    "ushiro-no-shoumen",
+    "monkey-turn",
+    "ribbon-shower"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yorozu Hiromi",
+   "description": "Experta en encontrar accesorios. Siempre va vestida a la última."
+  },
+  {
+   "id": "natalie-sunrise",
+   "name": "Natalie Sunrise",
+   "short": "Natalie",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 160,
+   "tp": 156,
+   "stats": {
+    "kick": 57,
+    "body": 58,
+    "control": 63,
+    "guard": 57,
+    "speed": 67,
+    "stamina": 60,
+    "guts": 58
+   },
+   "moves": [
+    "fuusen-gum",
+    "ushiro-no-shoumen",
+    "fake-bomber",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Takoya Noriko",
+   "description": "Le gustan tanto las bolitas de pulpo que las come cada día."
+  },
+  {
+   "id": "hillary-bush",
+   "name": "Hillary Bush",
+   "short": "Hillary",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 132,
+   "stats": {
+    "kick": 63,
+    "body": 66,
+    "control": 59,
+    "guard": 71,
+    "speed": 53,
+    "stamina": 60,
+    "guts": 54
+   },
+   "moves": [
+    "ribbon-shower",
+    "spiral-shot",
+    "coil-turn",
+    "rainbow-loop"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Namikawa Hanako",
+   "description": "Es la típica bromista. Si no le ríes las gracias, se enfada."
+  },
+  {
+   "id": "suzette-hartland",
+   "name": "Suzette Hartland",
+   "short": "Suzette",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 153,
+   "stats": {
+    "kick": 62,
+    "body": 65,
+    "control": 70,
+    "guard": 62,
+    "speed": 68,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "rose-splash",
+    "butterfly-dream",
+    "prima-donna",
+    "tsuutenkaku-shoot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Urabe Rica",
+   "description": "Una delantera de Osaka que avasalla a cualquiera."
+  },
+  {
+   "id": "lily-willow",
+   "name": "Lily Willow",
+   "short": "Lily",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 151,
+   "tp": 132,
+   "stats": {
+    "kick": 67,
+    "body": 64,
+    "control": 62,
+    "guard": 63,
+    "speed": 53,
+    "stamina": 56,
+    "guts": 61
+   },
+   "moves": [
+    "butterfly-dream",
+    "ribbon-shower",
+    "good-smell"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Midou Reika",
+   "description": "Hija de un empresario importante de Osaka. Es muy sociable."
+  }
+ ]
+}

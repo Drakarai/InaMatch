@@ -1,0 +1,520 @@
+{
+ "id": "ie3-africa-daihyou",
+ "season": "ie3",
+ "wiki": "Africa Daihyou",
+ "name": "Ases Africanos",
+ "short": "AFR",
+ "colors": {
+  "shirt": "#2a8a5a",
+  "shorts": "#f2c230",
+  "gkShirt": "#c8202f",
+  "accent": "#1f6a44"
+ },
+ "formation": "f-little-gigant",
+ "players": [
+  {
+   "id": "zolani-baloi",
+   "name": "Zolani Baloi",
+   "short": "Zolani",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 153,
+   "tp": 108,
+   "stats": {
+    "kick": 71,
+    "body": 64,
+    "control": 52,
+    "guard": 63,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 67
+   },
+   "moves": [
+    "capoeira-snatch",
+    "bakuretsu-punch",
+    "power-charge"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zolani Baloyi",
+   "description": "Piensa que su vida es tan interesante que debería hacer un documental sobre ella."
+  },
+  {
+   "id": "zephyr-vitesse",
+   "name": "Zephyr Vitesse",
+   "short": "Zephyr",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 104,
+   "stats": {
+    "kick": 68,
+    "body": 57,
+    "control": 69,
+    "guard": 60,
+    "speed": 78,
+    "stamina": 50,
+    "guts": 45
+   },
+   "moves": [
+    "bunshin-defense",
+    "bunshin-feint",
+    "air-ride",
+    "the-hurricane"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Windy Fasta",
+   "description": "Es un viejo amigo de Hector. Es rápido como el viento a la hora de marcar al adversario."
+  },
+  {
+   "id": "jimi-gaines",
+   "name": "Jimi Gaines",
+   "short": "Jimi",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 115,
+   "stats": {
+    "kick": 56,
+    "body": 52,
+    "control": 68,
+    "guard": 67,
+    "speed": 52,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "kage-nui",
+    "toumei-feint",
+    "double-cyclone"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Jinny Geino",
+   "description": "Lleva gafas de sol para pasar desapercibido. Sin embargo, le dan un aspecto siniestro..."
+  },
+  {
+   "id": "masego-molelo",
+   "name": "Masego Molelo",
+   "short": "Masego",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 153,
+   "tp": 88,
+   "stats": {
+    "kick": 66,
+    "body": 63,
+    "control": 48,
+    "guard": 56,
+    "speed": 75,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "heavy-baby",
+    "reppuu-dash",
+    "liar-shot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mzonge Ledwaba",
+   "description": "Le interesa el mercado de valores y se informa sobre el tema para estar al día."
+  },
+  {
+   "id": "cassius-tobler",
+   "name": "Cassius Tobler",
+   "short": "Cassius",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 152,
+   "tp": 89,
+   "stats": {
+    "kick": 61,
+    "body": 68,
+    "control": 49,
+    "guard": 49,
+    "speed": 59,
+    "stamina": 71,
+    "guts": 78
+   },
+   "moves": [
+    "kumo-no-ito",
+    "horn-train",
+    "bakunetsu-screw",
+    "beast-fang"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Cassius Thobela",
+   "description": "Quiere encontrar una manera de combinar instinto natural y razonamiento científico."
+  },
+  {
+   "id": "quint-hampton",
+   "name": "Quint Hampton",
+   "short": "Quint",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 100,
+   "stats": {
+    "kick": 62,
+    "body": 62,
+    "control": 62,
+    "guard": 62,
+    "speed": 62,
+    "stamina": 65,
+    "guts": 62
+   },
+   "moves": [
+    "lightning-accel",
+    "shooting-star",
+    "dash-storm",
+    "triple-defense"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shinti Hanpa",
+   "description": "Pensó en hacerse la permanente, pero vio que no causaría mucha impresión."
+  },
+  {
+   "id": "maximino-cruz",
+   "name": "Maximino Cruz",
+   "short": "Maximino",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 79,
+    "guard": 68,
+    "speed": 56,
+    "stamina": 58,
+    "guts": 62
+   },
+   "moves": [
+    "gaia-break",
+    "air-ride"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Maxi Kuu",
+   "description": "Es un veleta. A sus compañeros de equipo les preocupa que un día se canse del fútbol."
+  },
+  {
+   "id": "adam-marunga",
+   "name": "Adam Marunga",
+   "short": "Adam",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 97,
+   "stats": {
+    "kick": 68,
+    "body": 79,
+    "control": 53,
+    "guard": 58,
+    "speed": 72,
+    "stamina": 50,
+    "guts": 60
+   },
+   "moves": [
+    "liar-shot",
+    "naraku-otoshi",
+    "ultra-moon",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Abari Malinga",
+   "description": "Este jugador piensa que el fútbol puede ser un medio para acabar con el racismo."
+  },
+  {
+   "id": "anton-nortje",
+   "name": "Anton Nortje",
+   "short": "Anton",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 91,
+   "stats": {
+    "kick": 59,
+    "body": 70,
+    "control": 49,
+    "guard": 51,
+    "speed": 57,
+    "stamina": 68,
+    "guts": 79
+   },
+   "moves": [
+    "super-armadillo",
+    "power-charge",
+    "heat-tackle",
+    "mad-express"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Athol Nortje",
+   "description": "Su técnica personal es realizar una carga salvaje que perfeccionó jugando al rugby."
+  },
+  {
+   "id": "drago-hill",
+   "name": "Drago Hill",
+   "short": "Drago",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 117,
+   "stats": {
+    "kick": 85,
+    "body": 56,
+    "control": 62,
+    "guard": 50,
+    "speed": 30,
+    "stamina": 71,
+    "guts": 67
+   },
+   "moves": [
+    "double-jaw",
+    "air-ride",
+    "dragon-crash"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Drago Hill",
+   "description": "Delantero de Costail. Mantiene una tensa rivalidad con Gareth Flare."
+  },
+  {
+   "id": "melisizwe-zamani",
+   "name": "Melisizwe Zamani",
+   "short": "Melisizwe",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 145,
+   "tp": 100,
+   "stats": {
+    "kick": 75,
+    "body": 66,
+    "control": 40,
+    "guard": 40,
+    "speed": 73,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "liar-shot",
+    "heat-tackle",
+    "bakunetsu-screw",
+    "judge-through"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mulamuli Zamani",
+   "description": "Afirma que la carne de carnero es versátil y deliciosa y no piensa dar su brazo a torcer."
+  },
+  {
+   "id": "herschel-de-villiers",
+   "name": "Herschel De Villiers",
+   "short": "Herschel",
+   "number": 12,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 94,
+   "stats": {
+    "kick": 81,
+    "body": 74,
+    "control": 40,
+    "guard": 45,
+    "speed": 75,
+    "stamina": 35,
+    "guts": 64
+   },
+   "moves": [
+    "liar-shot",
+    "hellfire",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hezekiél DeVillias",
+   "description": "Se le dan bien los animales salvajes. Dicen que una vez cabalgó a lomos de un león."
+  },
+  {
+   "id": "hector-helio",
+   "name": "Hector Helio",
+   "short": "Hector",
+   "number": 13,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 110,
+   "tp": 132,
+   "stats": {
+    "kick": 58,
+    "body": 50,
+    "control": 57,
+    "guard": 85,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 73
+   },
+   "moves": [
+    "tamashii-the-hand",
+    "x-blast",
+    "god-hand-x",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Rococo Ulpa",
+   "description": "Procede de una remota región llamada Costail y tiene un potencial enorme."
+  },
+  {
+   "id": "ian-ferrum",
+   "name": "Ian Ferrum",
+   "short": "Ian",
+   "number": 14,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 124,
+   "tp": 127,
+   "stats": {
+    "kick": 48,
+    "body": 48,
+    "control": 52,
+    "guard": 56,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 66
+   },
+   "moves": [
+    "maboroshi-dribble",
+    "rainbow-loop",
+    "flame-dance"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Marron Ian",
+   "description": "¡Es pequeñito pero matón! Cuando la cosa se pone difícil, se puede confiar en él."
+  },
+  {
+   "id": "yasir-haddad",
+   "name": "Yasir Haddad",
+   "short": "Yasir",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 128,
+   "tp": 108,
+   "stats": {
+    "kick": 59,
+    "body": 76,
+    "control": 62,
+    "guard": 58,
+    "speed": 48,
+    "stamina": 48,
+    "guts": 61
+   },
+   "moves": [
+    "armadillo-circus",
+    "kurukuru-head",
+    "kung-fu-attack",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yuumu Rinjie",
+   "description": "Es un gran karateka y utiliza las técnicas de ese arte marcial para robar el balón."
+  },
+  {
+   "id": "reggie-ines",
+   "name": "Reggie Ines",
+   "short": "Reggie",
+   "number": 16,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 139,
+   "tp": 95,
+   "stats": {
+    "kick": 75,
+    "body": 64,
+    "control": 58,
+    "guard": 57,
+    "speed": 66,
+    "stamina": 55,
+    "guts": 65
+   },
+   "moves": [
+    "kangaroo-kick",
+    "maboroshi-dribble",
+    "stone-prison",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Reggie Innes",
+   "description": "Está completamente en contra de la caza indiscriminada de paquidermos salvajes."
+  }
+ ]
+}

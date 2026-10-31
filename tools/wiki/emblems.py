@@ -32,6 +32,10 @@ ALIAS = {
     "Ichibangai Sally's": ['Sallys', "Sally's"],
     'Inazuma KFC': ['Inazuma Kids FC', 'Inazuma KFC'],
     'Real Inazuma': ['Real Inazuma', 'Inazuma Japan'],
+    # las versiones NEW de IE2 llevan el escudo del equipo original
+    'NEW Genesis': ['The Genesis'],
+    'NEW Zeus': ['Zeus'],
+    'NEW Teikoku Gakuen': ['Teikoku Gakuen'],
 }
 # escudos que solo están en la wiki española
 ES_API = 'https://inazuma.fandom.com/es/api.php'

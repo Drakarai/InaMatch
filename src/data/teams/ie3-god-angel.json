@@ -1,0 +1,523 @@
+{
+ "id": "ie3-god-angel",
+ "season": "ie3",
+ "wiki": "God Angel",
+ "name": "Equipo Celestial",
+ "short": "GOD",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#c8a020",
+  "gkShirt": "#7ab8e8",
+  "accent": "#b89020"
+ },
+ "formation": "f-wild-park",
+ "players": [
+  {
+   "id": "paul-siddon",
+   "name": "Paul Siddon",
+   "short": "Paul",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 140,
+   "stats": {
+    "kick": 60,
+    "body": 59,
+    "control": 50,
+    "guard": 81,
+    "speed": 44,
+    "stamina": 56,
+    "guts": 70
+   },
+   "moves": [
+    "tsunami-wall",
+    "gigant-wall",
+    "stone-prison"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Posei Donichi",
+   "description": "Le llaman Poseidón porque nadie consigue mover las redes en su mar."
+  },
+  {
+   "id": "nenel",
+   "name": "Nenel",
+   "short": "Nenel",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 124,
+   "stats": {
+    "kick": 64,
+    "body": 58,
+    "control": 64,
+    "guard": 80,
+    "speed": 67,
+    "stamina": 52,
+    "guts": 56
+   },
+   "moves": [
+    "go-to-heaven",
+    "angel-ball",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nenel",
+   "description": "Este jugador celestial puede ver la verdad con solo cerrar los ojos."
+  },
+  {
+   "id": "apollo-light",
+   "name": "Apollo Light",
+   "short": "Apollo",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 108,
+   "tp": 128,
+   "stats": {
+    "kick": 69,
+    "body": 70,
+    "control": 62,
+    "guard": 73,
+    "speed": 53,
+    "stamina": 48,
+    "guts": 55
+   },
+   "moves": [
+    "sabaki-no-tettsui",
+    "shine-drive",
+    "dual-storm",
+    "dash-storm"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aporo Hikaru",
+   "description": "Por lo general es alegre, pero hace entradas de carnicero en la cancha."
+  },
+  {
+   "id": "lephiel",
+   "name": "Lephiel",
+   "short": "Lephiel",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 127,
+   "stats": {
+    "kick": 58,
+    "body": 67,
+    "control": 62,
+    "guard": 65,
+    "speed": 80,
+    "stamina": 48,
+    "guts": 59
+   },
+   "moves": [
+    "go-to-heaven",
+    "gladius-arch",
+    "echo-ball",
+    "holy-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Elfel",
+   "description": "Un jugador extraño y escurridizo que ha obtenido poderes celestiales."
+  },
+  {
+   "id": "artie-mishman",
+   "name": "Artie Mishman",
+   "short": "Artie",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 102,
+   "tp": 122,
+   "stats": {
+    "kick": 62,
+    "body": 56,
+    "control": 76,
+    "guard": 60,
+    "speed": 44,
+    "stamina": 45,
+    "guts": 58
+   },
+   "moves": [
+    "heaven-s-time",
+    "photon-flash",
+    "illusion-ball",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Arute Saneki",
+   "description": "Líbero cuyos pases y tiros son precisos como un reloj."
+  },
+  {
+   "id": "ientel",
+   "name": "Ientel",
+   "short": "Ientel",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 136,
+   "stats": {
+    "kick": 61,
+    "body": 63,
+    "control": 74,
+    "guard": 69,
+    "speed": 67,
+    "stamina": 49,
+    "guts": 60
+   },
+   "moves": [
+    "go-to-heaven",
+    "angel-ball",
+    "odin-sword",
+    "good-smell"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aiel",
+   "description": "No le hace falta usar sus poderes, su actitud alegre le basta para ganarse a cualquiera."
+  },
+  {
+   "id": "nuel",
+   "name": "Nuel",
+   "short": "Nuel",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 115,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 68,
+    "guard": 61,
+    "speed": 69,
+    "stamina": 51,
+    "guts": 58
+   },
+   "moves": [
+    "angel-ball",
+    "jibashiri-kaen",
+    "double-jaw",
+    "echo-ball"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Enuel",
+   "description": "Sus poderes mágicos resultan muy útiles en el campo. Causa furor entre las chicas."
+  },
+  {
+   "id": "byron-love",
+   "name": "Byron Love",
+   "short": "Byron",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 130,
+   "tp": 130,
+   "stats": {
+    "kick": 63,
+    "body": 60,
+    "control": 77,
+    "guard": 59,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 58
+   },
+   "moves": [
+    "god-knows",
+    "god-break",
+    "the-ikaros"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Afuro Terumi",
+   "description": "Embelesa a rivales con un toque de balón cercano al arte más bello."
+  },
+  {
+   "id": "jonas-demetrius",
+   "name": "Jonas Demetrius",
+   "short": "Jonas",
+   "number": 7,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 128,
+   "tp": 130,
+   "stats": {
+    "kick": 70,
+    "body": 59,
+    "control": 64,
+    "guard": 56,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 62
+   },
+   "moves": [
+    "warp-drive",
+    "reflect-buster",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Demete Yutaka",
+   "description": "Capta las irregularidades del campo y las utiliza en beneficio propio."
+  },
+  {
+   "id": "gaiel",
+   "name": "Gaiel",
+   "short": "Gaiel",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 109,
+   "tp": 139,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 62,
+    "guard": 64,
+    "speed": 88,
+    "stamina": 50,
+    "guts": 59
+   },
+   "moves": [
+    "heaven-drive",
+    "the-ikaros",
+    "prima-donna",
+    "gungnir"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gyuel",
+   "description": "Es una jugadora amable y angelical, pero da miedo cuando se enfada."
+  },
+  {
+   "id": "sanctus",
+   "name": "Sanctus",
+   "short": "Sanctus",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 125,
+   "tp": 114,
+   "stats": {
+    "kick": 71,
+    "body": 64,
+    "control": 76,
+    "guard": 62,
+    "speed": 69,
+    "stamina": 51,
+    "guts": 60
+   },
+   "moves": [
+    "heaven-drive",
+    "ultra-moon",
+    "shadow-ray",
+    "excalibur"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sein",
+   "description": "El orgulloso líder del Sky Team. Dirige al equipo con la cabeza serena."
+  },
+  {
+   "id": "anorel",
+   "name": "Anorel",
+   "short": "Anorel",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 146,
+   "stats": {
+    "kick": 58,
+    "body": 53,
+    "control": 60,
+    "guard": 73,
+    "speed": 67,
+    "stamina": 51,
+    "guts": 56
+   },
+   "moves": [
+    "holy-zone",
+    "heaven-s-time",
+    "ice-ground",
+    "god-catch"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Enolel",
+   "description": "Aprovecha la energía de los bosques para conseguir poderes sobrenaturales."
+  },
+  {
+   "id": "wenel",
+   "name": "Wenel",
+   "short": "Wenel",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 113,
+   "tp": 121,
+   "stats": {
+    "kick": 64,
+    "body": 72,
+    "control": 67,
+    "guard": 61,
+    "speed": 71,
+    "stamina": 52,
+    "guts": 60
+   },
+   "moves": [
+    "angel-ball",
+    "snow-angel",
+    "the-ikaros",
+    "heaven-s-time"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Uinel",
+   "description": "Un jugador con poderes celestiales. Es todo un lobo solitario."
+  },
+  {
+   "id": "henry-house",
+   "name": "Henry House",
+   "short": "Henry",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 126,
+   "tp": 128,
+   "stats": {
+    "kick": 48,
+    "body": 68,
+    "control": 60,
+    "guard": 67,
+    "speed": 64,
+    "stamina": 70,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "planet-shield",
+    "divine-arrow",
+    "god-break"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hera Tadashi",
+   "description": "No le reconoce el mérito a otros jugadores mejores que él."
+  },
+  {
+   "id": "genel",
+   "name": "Genel",
+   "short": "Genel",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 124,
+   "tp": 118,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 69,
+    "guard": 75,
+    "speed": 72,
+    "stamina": 53,
+    "guts": 60
+   },
+   "moves": [
+    "go-to-heaven",
+    "toumei-feint",
+    "heaven-s-time",
+    "jibashiri-kaen"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Genel",
+   "description": "Le ha sido concedido un gran tamaño y lo utiliza para machacar a sus enemigos."
+  },
+  {
+   "id": "danny-wood",
+   "name": "Danny Wood",
+   "short": "Danny",
+   "number": 16,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 126,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 60,
+    "guard": 67,
+    "speed": 50,
+    "stamina": 53,
+    "guts": 64
+   },
+   "moves": [
+    "mega-quake",
+    "mega-wall",
+    "gravestone"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Deio Geki",
+   "description": "Cuando se pone tenso, se emborracha de balón."
+  }
+ ]
+}

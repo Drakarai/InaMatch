@@ -41,7 +41,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ladji Paara",
-   "description": "Viene del barrio parisino de Montmarte. Pinta cuadros cuyo tema principal es el fútbol."
+   "description": "Viene del barrio parisino de Montmartre. Pinta cuadros cuyo tema principal es el fútbol."
   },
   {
    "id": "pierre-godin",
@@ -325,7 +325,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Jérôme Éloi",
-   "description": "With his subtle sense of smell, he's able to blend the ideal perfume for any given person."
+   "description": "Su sentido del olfato es extraordinario. Es capaz de crear perfumes personalizados."
   },
   {
    "id": "alain-favreau",
@@ -483,7 +483,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Claude Moreau",
-   "description": "People come from all over France to try his delicious baguettes."
+   "description": "Sus baguettes son conocidas en toda Francia. Mmm... ¡Están deliciosas!"
   },
   {
    "id": "michel-morland",
@@ -515,7 +515,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Michel Morin",
-   "description": "Tiene un don para la jardinería, especialmente si se trata de cultivar la vida."
+   "description": "Tiene un don para la jardinería, especialmente si se trata de cultivar la vid."
   }
  ]
 }

@@ -312,7 +312,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Yamino Kageto",
-   "description": "A soccer soldier born out of darkness, his skills are overwhelming."
+   "description": "Guerrero que nació de la oscuridad. Su fuerza es portentosa."
   },
   {
    "id": "nathan-swift",
@@ -368,7 +368,8 @@
     "hair": "#efe6c4",
     "skin": "#9a6a44"
    },
-   "wiki": "Kenzaki Ryuuichi"
+   "wiki": "Kenzaki Ryuuichi",
+   "description": "Mano derecha de Ray Dark. Usó la piedra Alius para crear a los Emperadores Oscuros."
   }
  ]
 }

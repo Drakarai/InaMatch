@@ -335,24 +335,33 @@ export class MenuScene extends Phaser.Scene {
     c.add(text(this, GAME_W - 24, SHELF_Y + 54, 'pulsa una mitad para cambiar', 11, '#8a97aa', { strokeThickness: 0 }).setOrigin(1, 0));
 
     // escudos de la temporada
+    // con muchos equipos van en dos filas, un poco más pequeños
     const teams = teamsOf(this.shelfSeason);
-    const step = Math.min(58, (GAME_W - 60) / teams.length);
-    const x0 = GAME_W / 2 - ((teams.length - 1) * step) / 2;
-    const y = SHELF_Y + 112;
-    const tip = text(this, 0, y - 46, '', 13, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0.5).setVisible(false);
+    const rows = teams.length > 21 ? 2 : 1;
+    const perRow = Math.ceil(teams.length / rows);
+    const size = rows === 1 ? 46 : 42;
+    const step = Math.min(rows === 1 ? 58 : 56, (GAME_W - 60) / perRow);
+    const rowY = rows === 1 ? [SHELF_Y + 112] : [SHELF_Y + 90, SHELF_Y + 144];
+    const tip = text(this, 0, 0, '', 13, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 5 }).setOrigin(0.5).setVisible(false);
     teams.forEach((team, i) => {
-      const x = x0 + i * step;
+      const row = Math.floor(i / perRow);
+      const inRow = row === rows - 1 ? teams.length - perRow * row : perRow;
+      const x = GAME_W / 2 - ((inRow - 1) * step) / 2 + (i - perRow * row) * step;
+      const y = rowY[row];
       const ring = this.add.graphics();
       const mark = team.id === this.sel.home ? SIDE.home.color : team.id === this.sel.away ? SIDE.away.color : null;
-      if (mark !== null) ring.fillStyle(mark, 0.35).fillCircle(x, y, 27).lineStyle(3, mark).strokeCircle(x, y, 27);
-      const img = this.add.image(x, y, texKey.emblem(team.id)).setDisplaySize(46, 46);
+      const r = size / 2 + 4;
+      if (mark !== null) ring.fillStyle(mark, 0.35).fillCircle(x, y, r).lineStyle(3, mark).strokeCircle(x, y, r);
+      const img = this.add.image(x, y, texKey.emblem(team.id)).setDisplaySize(size, size);
       img.setInteractive({ useHandCursor: true });
       img.on('pointerover', () => {
-        this.tweens.add({ targets: img, displayWidth: 58, displayHeight: 58, duration: 100 });
-        tip.setText(team.name).setPosition(Phaser.Math.Clamp(x, 120, GAME_W - 120), y - 46).setVisible(true);
+        c.bringToTop(img);
+        this.tweens.add({ targets: img, displayWidth: size + 12, displayHeight: size + 12, duration: 100 });
+        tip.setText(team.name).setPosition(Phaser.Math.Clamp(x, 120, GAME_W - 120), y - size / 2 - 18).setVisible(true);
+        c.bringToTop(tip);
       });
       img.on('pointerout', () => {
-        this.tweens.add({ targets: img, displayWidth: 46, displayHeight: 46, duration: 100 });
+        this.tweens.add({ targets: img, displayWidth: size, displayHeight: size, duration: 100 });
         tip.setVisible(false);
       });
       img.on('pointerdown', () => this.choose(team));

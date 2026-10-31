@@ -1,0 +1,523 @@
+{
+ "id": "ie3-nanbei-daihyou",
+ "season": "ie3",
+ "wiki": "Nanbei Daihyou",
+ "name": "Ases Sudamericanos",
+ "short": "NAN",
+ "colors": {
+  "shirt": "#f2d230",
+  "shorts": "#2a8a3a",
+  "gkShirt": "#2a5fc0",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-death-zone-2",
+ "players": [
+  {
+   "id": "jorge-ortega",
+   "name": "Jorge Ortega",
+   "short": "Jorge",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 128,
+   "stats": {
+    "kick": 56,
+    "body": 54,
+    "control": 49,
+    "guard": 80,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 59
+   },
+   "moves": [
+    "million-hands",
+    "dog-run",
+    "storm-rider",
+    "mugen-no-kabe"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Jorge Ortega",
+   "description": "Es famoso por practicar un juego agresivo. ¡Siempre se lía cuando salta al césped!"
+  },
+  {
+   "id": "julio-acosta",
+   "name": "Julio Acosta",
+   "short": "Julio",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 48,
+    "guard": 74,
+    "speed": 62,
+    "stamina": 51,
+    "guts": 36
+   },
+   "moves": [
+    "fake-ball",
+    "zigzag-flame",
+    "heat-tackle",
+    "harvest"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Julio Acosta",
+   "description": "El mate le vuelve loco. Siempre lleva un poco en su maleta cuando juega fuera."
+  },
+  {
+   "id": "ram-n-mart-nez",
+   "name": "Ramón Martínez",
+   "short": "Ramón",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 126,
+   "stats": {
+    "kick": 53,
+    "body": 59,
+    "control": 51,
+    "guard": 69,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 78
+   },
+   "moves": [
+    "block-circus",
+    "jumping-thunder",
+    "shooting-star",
+    "tkachev-bomber"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ramón Martínez",
+   "description": "Le encanta la arquitectura colonial propia de Buenos Aires."
+  },
+  {
+   "id": "thiago-torres",
+   "name": "Thiago Torres",
+   "short": "Thiago",
+   "number": 6,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 134,
+   "tp": 129,
+   "stats": {
+    "kick": 52,
+    "body": 62,
+    "control": 60,
+    "guard": 82,
+    "speed": 59,
+    "stamina": 51,
+    "guts": 70
+   },
+   "moves": [
+    "zigzag-flame",
+    "iron-wall",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Teles Torrue",
+   "description": "Orgulloso de su impenetrable defensa, dirige al equipo desde detrás. Es uno de los mejores defensas."
+  },
+  {
+   "id": "formiga-clemens",
+   "name": "Formiga Clemens",
+   "short": "Formiga",
+   "number": 14,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 123,
+   "tp": 121,
+   "stats": {
+    "kick": 51,
+    "body": 56,
+    "control": 62,
+    "guard": 70,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 57
+   },
+   "moves": [
+    "ninin-sankyaku",
+    "volcano-cut",
+    "back-tornado",
+    "kaenhousha"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Formiga Clemens",
+   "description": "Quiere descubrir nuevas formas de agricultura que no perjudiquen la selva tropical."
+  },
+  {
+   "id": "carlos-lagarto",
+   "name": "Carlos Lagarto",
+   "short": "Carlos",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 117,
+   "stats": {
+    "kick": 50,
+    "body": 51,
+    "control": 50,
+    "guard": 68,
+    "speed": 69,
+    "stamina": 64,
+    "guts": 68
+   },
+   "moves": [
+    "rolling-slide",
+    "moonsault",
+    "flame-dance",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lagarto Carlos",
+   "description": "Hace unas entradas perfectas a ritmo de la samba."
+  },
+  {
+   "id": "pablo-castillo",
+   "name": "Pablo Castillo",
+   "short": "Pablo",
+   "number": 4,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 128,
+   "tp": 99,
+   "stats": {
+    "kick": 68,
+    "body": 71,
+    "control": 48,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 60
+   },
+   "moves": [
+    "hawk-shot",
+    "nekketsu-head",
+    "zigzag-flame",
+    "triangle-z"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Pablo Castillo",
+   "description": "Se inspira en la belleza de la flora argentina para crear obras de arte que le den fama."
+  },
+  {
+   "id": "roberto-torres",
+   "name": "Roberto Torres",
+   "short": "Roberto",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 122,
+   "tp": 108,
+   "stats": {
+    "kick": 68,
+    "body": 60,
+    "control": 54,
+    "guard": 65,
+    "speed": 79,
+    "stamina": 62,
+    "guts": 58
+   },
+   "moves": [
+    "dog-run",
+    "cyclone",
+    "double-rocket",
+    "iron-wall"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Roberto Torres",
+   "description": "Para él, El Dorado es más que una leyenda. No descansará hasta encontrarlo."
+  },
+  {
+   "id": "sergio-p-rez",
+   "name": "Sergio Pérez",
+   "short": "Sergio",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 105,
+   "stats": {
+    "kick": 47,
+    "body": 60,
+    "control": 52,
+    "guard": 70,
+    "speed": 65,
+    "stamina": 55,
+    "guts": 64
+   },
+   "moves": [
+    "fuusen-gum",
+    "zanzou",
+    "zigzag-spark",
+    "triple-dash"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sergio Pérez",
+   "description": "Tiene una gran ambición: dar un nuevo impulso a la literatura argentina."
+  },
+  {
+   "id": "leone-badigo",
+   "name": "Leone Badigo",
+   "short": "Leone",
+   "number": 7,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 120,
+   "stats": {
+    "kick": 68,
+    "body": 58,
+    "control": 44,
+    "guard": 68,
+    "speed": 76,
+    "stamina": 41,
+    "guts": 52
+   },
+   "moves": [
+    "hellfire",
+    "condor-dive",
+    "eagle-buster"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Leone Batigo",
+   "description": "Lo llaman el Cóndor porque sus ataques son tan efectivos como los de esta ave rapaz."
+  },
+  {
+   "id": "mac-robingo",
+   "name": "Mac Robingo",
+   "short": "Mac",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 114,
+   "stats": {
+    "kick": 85,
+    "body": 60,
+    "control": 70,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 54
+   },
+   "moves": [
+    "strike-samba",
+    "super-el-stico",
+    "spinning-shoot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mack Ronijo",
+   "description": "Dicen que es el jugador perfecto por su dinamismo y determinación."
+  },
+  {
+   "id": "coruja-cerezo",
+   "name": "Coruja Cerezo",
+   "short": "Coruja",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 127,
+   "tp": 122,
+   "stats": {
+    "kick": 52,
+    "body": 64,
+    "control": 55,
+    "guard": 75,
+    "speed": 70,
+    "stamina": 69,
+    "guts": 64
+   },
+   "moves": [
+    "shine-drive",
+    "super-el-stico",
+    "dash-accel",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Coruja Cerezo",
+   "description": "Tiene un gran físico porque se entrena recogiendo montones de caña de azúcar."
+  },
+  {
+   "id": "gato-carvalho",
+   "name": "Gato Carvalho",
+   "short": "Gato",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 121,
+   "stats": {
+    "kick": 76,
+    "body": 68,
+    "control": 57,
+    "guard": 68,
+    "speed": 63,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "shine-drive",
+    "nekketsu-head",
+    "kamaitachi",
+    "strike-samba"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gato",
+   "description": "En carnaval sale a la calle a tocar una pandereta que ha hecho él mismo."
+  },
+  {
+   "id": "leonardo-almeida",
+   "name": "Leonardo Almeida",
+   "short": "Leonardo",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 130,
+   "tp": 125,
+   "stats": {
+    "kick": 68,
+    "body": 100,
+    "control": 51,
+    "guard": 68,
+    "speed": 45,
+    "stamina": 39,
+    "guts": 60
+   },
+   "moves": [
+    "double-tornado",
+    "super-el-stico",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Leonardo Almeida",
+   "description": "Lleva el fútbol en la sangre: su bisabuelo también representó al país."
+  },
+  {
+   "id": "presa-passos",
+   "name": "Presa Passos",
+   "short": "Presa",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 129,
+   "stats": {
+    "kick": 52,
+    "body": 58,
+    "control": 74,
+    "guard": 48,
+    "speed": 75,
+    "stamina": 50,
+    "guts": 77
+   },
+   "moves": [
+    "rolling-slide",
+    "zigzag-spark",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Presa",
+   "description": "Está muy interesado en la obtención de un biocombustible a partir de caña de azúcar."
+  },
+  {
+   "id": "falc-o-da-silva",
+   "name": "Falcão Da Silva",
+   "short": "Falcão",
+   "number": 16,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 136,
+   "stats": {
+    "kick": 49,
+    "body": 61,
+    "control": 52,
+    "guard": 72,
+    "speed": 59,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "capoeira-snatch",
+    "wild-claw",
+    "tarzan-kick",
+    "mogura-shuffle"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Falcão da Silva",
+   "description": "Desarrolló sus reflejos en el corazón de la selva amazónica."
+  }
+ ]
+}

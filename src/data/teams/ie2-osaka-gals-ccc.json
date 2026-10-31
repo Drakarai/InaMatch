@@ -491,9 +491,9 @@
    "description": "Quiere ser la actriz más famosa del país y se pasa los días ensayando."
   },
   {
-   "id": "sue-s-mum",
-   "name": "Sue's mum",
-   "short": "Sue's",
+   "id": "se-ora-hartland",
+   "name": "Señora Hartland",
+   "short": "Señora",
    "number": 16,
    "position": "GK",
    "element": "earth",
@@ -511,10 +511,11 @@
    },
    "moves": [],
    "look": {
-    "hair": "#8b5a2b",
+    "hair": "#efe6c4",
     "skin": "#c08a5e"
    },
-   "wiki": "Urabe Nami"
+   "wiki": "Urabe Nami",
+   "description": "La madre de Sue. Tiene tanto carácter como su hija y no se pierde ni un partido."
   }
  ]
 }

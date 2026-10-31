@@ -42,7 +42,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Endou Mamoru",
-   "description": "El enérgico capitán del Raimon. ¡Es famoso por no rendirse jamás!"
+   "description": "Enérgico capitán del Raimon. Nadie vive el fútbol como él."
   },
   {
    "id": "jack-wallside",
@@ -74,7 +74,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kabeyama Heigorou",
-   "description": "﻿Su gran cuerpo es como una pared que utiliza para que nadie pase."
+   "description": "Su gran cuerpo es como una pared que utiliza para que nadie pase."
   },
   {
    "id": "hurley-kane",
@@ -137,7 +137,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kogure Yuuya",
-   "description": "Normal  Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante. ----  Personalidad falsa  Es muy travieso. Su pequeño cuerpo esconde una fuerza impresionante."
+   "description": "Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante."
   },
   {
    "id": "scott-banyan-kogure-cc",
@@ -168,7 +168,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kogure Yuuya",
-   "description": "Normal  Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante. ----  Personalidad falsa  Es muy travieso. Su pequeño cuerpo esconde una fuerza impresionante."
+   "description": "Es un rebelde. Su pequeño cuerpo esconde una fuerza impresionante."
   },
   {
    "id": "victoria-vanguard",
@@ -200,7 +200,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Zaizen Touko",
-   "description": "Under her guidance, any problem can be solved in no time at all."
+   "description": "Con sus indicaciones, los casos se resuelven tres veces más rápido."
   },
   {
    "id": "jude-sharp",
@@ -487,7 +487,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Megane Kakeru",
-   "description": "﻿Un triunfador al que le quedan bien las gafas. O eso dice él..."
+   "description": "Un triunfador al que le quedan bien las gafas. O eso dice él..."
   },
   {
    "id": "bobby-shearer",
@@ -551,7 +551,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Nakatani",
-   "description": "He tends to get taken for a ride so he now has trouble trusting people."
+   "description": "Es muy inocente, y le engañan tanto que tiende a desconfiar de todos."
   }
  ]
 }

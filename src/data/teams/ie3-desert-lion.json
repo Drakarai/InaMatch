@@ -232,7 +232,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sulai Sulaiman",
-   "description": "Desea encontrar la manera de desalinear el agua del mar para así ayudar a su país."
+   "description": "Desea encontrar la manera de desalinizar el agua del mar para así ayudar a su país."
   },
   {
    "id": "sayid-armand",
@@ -455,7 +455,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Khalfan Jibril",
-   "description": "This player is keen on preserving ancient mosques, and the fine arts of the Middle East."
+   "description": "Lucha por la conservación de las mezquitas y otras obras de arte de Oriente Medio."
   },
   {
    "id": "rajab-ismail",
@@ -518,7 +518,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Adel Siddique",
-   "description": "A budding filmmaker, this player hopes that one day he can produce real Qatari cinema."
+   "description": "Es un director en ciernes. Le gustaría convertirse en el precursor del cine catarí."
   }
  ]
 }

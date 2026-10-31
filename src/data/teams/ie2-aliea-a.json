@@ -1,0 +1,366 @@
+{
+ "id": "ie2-aliea-a",
+ "season": "ie2",
+ "wiki": "Aliea A",
+ "name": "Alius A",
+ "short": "ALI",
+ "colors": {
+  "shirt": "#e8e8e8",
+  "shorts": "#5a3a8a",
+  "gkShirt": "#c8a020",
+  "accent": "#7a5aa8"
+ },
+ "formation": "f-genesis",
+ "players": [
+  {
+   "id": "gordon-star",
+   "name": "Gordon Star",
+   "short": "Gordon",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 202,
+   "tp": 85,
+   "stats": {
+    "kick": 77,
+    "body": 68,
+    "control": 58,
+    "guard": 67,
+    "speed": 58,
+    "stamina": 76,
+    "guts": 59
+   },
+   "moves": [
+    "black-hole",
+    "earthquake",
+    "drill-smasher"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Goryuu Reo",
+   "description": "Portero con agallas que afirma poder detener meteoritos."
+  },
+  {
+   "id": "craven-kenville",
+   "name": "Craven Kenville",
+   "short": "Craven",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 173,
+   "tp": 69,
+   "stats": {
+    "kick": 59,
+    "body": 53,
+    "control": 64,
+    "guard": 52,
+    "speed": 64,
+    "stamina": 70,
+    "guts": 60
+   },
+   "moves": [
+    "warp-drive",
+    "heavy-baby",
+    "kamaitachi",
+    "asteroid-belt"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hiruma Kenichi",
+   "description": "Él juega con ganas cuando tiene delante a un jugador mediocre."
+  },
+  {
+   "id": "grant-icewater",
+   "name": "Grant Icewater",
+   "short": "Grant",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 189,
+   "tp": 81,
+   "stats": {
+    "kick": 64,
+    "body": 68,
+    "control": 67,
+    "guard": 58,
+    "speed": 69,
+    "stamina": 68,
+    "guts": 56
+   },
+   "moves": [
+    "gravitation",
+    "psycho-shot",
+    "heavy-baby",
+    "ganymede-proton"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kanime Iderou",
+   "description": "Va diciendo que antes era un adonis, pero nadie lo cree."
+  },
+  {
+   "id": "kim-powell",
+   "name": "Kim Powell",
+   "short": "Kim",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 136,
+   "stats": {
+    "kick": 56,
+    "body": 63,
+    "control": 77,
+    "guard": 54,
+    "speed": 62,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "lightning-accel",
+    "gravitation",
+    "black-hole",
+    "procyon-net"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kii Fumiko",
+   "description": "Confunde al rival porque cuando se mueve parece que esté bailando."
+  },
+  {
+   "id": "isabelle-trick",
+   "name": "Isabelle Trick",
+   "short": "Isabelle",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 97,
+   "stats": {
+    "kick": 65,
+    "body": 65,
+    "control": 79,
+    "guard": 55,
+    "speed": 78,
+    "stamina": 64,
+    "guts": 68
+   },
+   "moves": [
+    "astro-break",
+    "meteor-shower",
+    "space-penguin",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yagami Reina",
+   "description": "Una princesa guerrera de sangre fría a la que no afectan los sentimientos."
+  },
+  {
+   "id": "katie-brown",
+   "name": "Katie Brown",
+   "short": "Katie",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 154,
+   "tp": 81,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 68,
+    "guard": 57,
+    "speed": 69,
+    "stamina": 59,
+    "guts": 61
+   },
+   "moves": [
+    "southern-crosscut",
+    "tamanori-pierrot",
+    "fuusen-gum",
+    "sigma-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kui Lulu",
+   "description": "Parece que esté en la luna, pero sus movimientos son imprevisibles."
+  },
+  {
+   "id": "pat-box",
+   "name": "Pat Box",
+   "short": "Pat",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 81,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 76,
+    "guard": 54,
+    "speed": 66,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "gravitation",
+    "warp-drive",
+    "wormhole",
+    "jikuu-no-kabe"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kinki Nozomi",
+   "description": "Dicen que a quienes se relacionan con ella les ocurren desgracias."
+  },
+  {
+   "id": "mads-hatter",
+   "name": "Mads Hatter",
+   "short": "Mads",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 93,
+   "stats": {
+    "kick": 63,
+    "body": 56,
+    "control": 63,
+    "guard": 52,
+    "speed": 60,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "meteor-shower",
+    "photon-flash",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hatou Torahiko",
+   "description": "Le gustan todos los deportes en los que se pueda volver violento."
+  },
+  {
+   "id": "connor-murray",
+   "name": "Connor Murray",
+   "short": "Connor",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 185,
+   "tp": 100,
+   "stats": {
+    "kick": 60,
+    "body": 64,
+    "control": 78,
+    "guard": 61,
+    "speed": 65,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "lightning-accel",
+    "kamikakushi",
+    "moonsault",
+    "space-penguin"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Komazawa Kyouma",
+   "description": "Pone muchas trampas y provoca al enemigo para que caiga en ellas."
+  },
+  {
+   "id": "rhona-countdown",
+   "name": "Rhona Countdown",
+   "short": "Rhona",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 121,
+   "tp": 72,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 72,
+    "guard": 61,
+    "speed": 68,
+    "stamina": 63,
+    "guts": 57
+   },
+   "moves": [
+    "universe-blast",
+    "phantom-shoot",
+    "warp-drive",
+    "space-penguin"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nanakaze Rimu",
+   "description": "Es muy bruta y aprovecha cualquier despiste del rival para atacar."
+  },
+  {
+   "id": "zeke-valanche",
+   "name": "Zeke Valanche",
+   "short": "Zeke",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 180,
+   "tp": 72,
+   "stats": {
+    "kick": 69,
+    "body": 64,
+    "control": 52,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "ganymede-proton",
+    "gaia-break",
+    "wormhole",
+    "jikuu-no-kabe"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Segata Ryuuichirou",
+   "description": "Confía plenamente en su destreza y culpa a los demás si algo sale mal."
+  }
+ ]
+}

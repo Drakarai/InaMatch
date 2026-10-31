@@ -45,8 +45,8 @@
    "description": "Verdulera que vigila el género con el mismo celo que la línea de meta."
   },
   {
-   "id": "t-fielding-media",
-   "name": "T. Fielding ({{Media",
+   "id": "t-fielding",
+   "name": "T. Fielding",
    "short": "T.",
    "number": 2,
    "position": "DF",
@@ -70,15 +70,15 @@
     "kagome-kagome"
    ],
    "look": {
-    "hair": "#8b5a2b",
-    "skin": "#e8b888"
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
    },
    "wiki": "Fudeyama Tome",
-   "description": "This stationery store lady is sharp as a pencil and hard as nails."
+   "description": "Quiosquera con ojos en la nuca. No se le escapa ningún mangui."
   },
   {
-   "id": "a-lovely-media",
-   "name": "A. Lovely ({{Media",
+   "id": "a-lovely",
+   "name": "A. Lovely",
    "short": "A.",
    "number": 3,
    "position": "DF",
@@ -102,7 +102,7 @@
     "tsuchi-daruma"
    ],
    "look": {
-    "hair": "#5a3a7a",
+    "hair": "#d9822b",
     "skin": "#f1c79b"
    },
    "wiki": "Ootama Konomi",
@@ -234,7 +234,7 @@
     "skin": "#e8b888"
    },
    "wiki": "Tachimi Ritsuko",
-   "description": "Libera a la que la edad ha tratado mal. Si te pilla leyendo de gorra..."
+   "description": "Librera a la que la edad ha tratado mal. Si te pilla leyendo de gorra..."
   },
   {
    "id": "kippy-jones",
@@ -269,8 +269,8 @@
    "description": "Presidente de la asociación de comerciantes. No da palo al agua."
   },
   {
-   "id": "f-riversong-media",
-   "name": "F. Riversong ({{Media",
+   "id": "f-riversong",
+   "name": "F. Riversong",
    "short": "F.",
    "number": 8,
    "position": "MF",
@@ -294,11 +294,11 @@
     "twin-boost"
    ],
    "look": {
-    "hair": "#e98aa8",
-    "skin": "#f1c79b"
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
    },
    "wiki": "Utagawa Makoto",
-   "description": "A talented busker with a huge following of stray dog \"fans\"."
+   "description": "Músico callejero. Su público lo constituyen niños y perros."
   },
   {
    "id": "samantha-moonlight",
@@ -490,7 +490,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Eji Nobuya",
-   "description": "A keen inventor who once made shoes with wings. (They flew off.)"
+   "description": "Ingeniero que trata de fabricar ingenios como botas con muelles."
   },
   {
    "id": "pip-daltry",

@@ -42,7 +42,7 @@
     "skin": "#c08a5e"
    },
    "wiki": "Fermín Sánchez",
-   "description": "Like a bull at a matador, he charges straight through the crowd to grab the ball."
+   "description": "¡Ten cuidado! Este jugador embiste como un toro para detener el esférico."
   },
   {
    "id": "jos-costa",
@@ -136,7 +136,8 @@
     "hair": "#5a3a7a",
     "skin": "#f1c79b"
    },
-   "wiki": "Antonio Galius"
+   "wiki": "Antonio Galius",
+   "description": "Le apasiona la pintura abstracta y sueña con ser el próximo Picasso."
   },
   {
    "id": "queraldo-naval",
@@ -167,7 +168,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Querardo Naval",
-   "description": "He's trained to be a matador since he was a child, but he hates hurting animals."
+   "description": "Se crió en una finca con toros y sabe torear, pero no le gusta herir a los animales."
   },
   {
    "id": "juan-nadal",
@@ -199,7 +200,7 @@
     "skin": "#9a6a44"
    },
    "wiki": "Joan Nadal",
-   "description": "He eats five meals a day to keep his strength up when he's travelling overseas."
+   "description": "Cuando viaja al extranjero, hace cinco comidas al día para no perder fuerzas."
   },
   {
    "id": "igor-ferreira",
@@ -357,7 +358,7 @@
     "skin": "#f1c79b"
    },
    "wiki": "Davi Peroqui",
-   "description": "He's fiercely proud of Spanish football, and doesn't hide his desire to take on the world."
+   "description": "Está orgulloso del fútbol español y promulga a los cuatro vientos que ganarán el mundial."
   },
   {
    "id": "juan-espindola",
@@ -483,7 +484,8 @@
     "hair": "#8b5a2b",
     "skin": "#f1c79b"
    },
-   "wiki": "Carlos Arroyo"
+   "wiki": "Carlos Arroyo",
+   "description": "Desea ser diseñador de obras de arte arquitectónicas como la Sagrada Familia."
   },
   {
    "id": "federico-rubiera",
@@ -514,7 +516,7 @@
     "skin": "#b5835a"
    },
    "wiki": "Federico Rubiera",
-   "description": "He'd like to have a go at synchronised swimming, but he can't find a boys' team."
+   "description": "Le gustaría triunfar en natación sincronizada, pero no encuentra ningún equipo masculino."
   }
  ]
 }

@@ -16,7 +16,7 @@ import {
 import { fxColors, fxParticle, type FxRecipe } from '../gfx/fx';
 import { portraitKey, texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
-import { THEME, dim, pt, sectionTitle, slant, themePanel } from '../ui/theme';
+import { dim, fitCamera, pt, sectionTitle, slant, THEME, themePanel } from '../ui/theme';
 import { Button, StatBar, text } from '../ui/widgets';
 import type { MatchScene } from './MatchScene';
 
@@ -93,6 +93,7 @@ export class HudScene extends Phaser.Scene {
   }
 
   create(): void {
+    fitCamera(this);
     this.buildScoreboard();
     this.buildPlayerPanel();
     this.buildRadar();

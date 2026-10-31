@@ -7,7 +7,7 @@ import type { PlayerData, Stats } from '../data/types';
 import { portraitPack } from '../gfx/pack';
 import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
 import { lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
-import { POS_COLOR, THEME, pt, sectionTitle, slant, teamBackdrop, themePanel } from '../ui/theme';
+import { fitCamera, POS_COLOR, pt, sectionTitle, slant, teamBackdrop, THEME, themePanel } from '../ui/theme';
 import { Button, StatBar, text } from '../ui/widgets';
 
 export const STAT_LABELS: [keyof Stats, string][] = [
@@ -46,6 +46,8 @@ export class FormationScene extends Phaser.Scene {
   private tokens: Token[] = [];
   private info!: Phaser.GameObjects.Container;
   private formationLabel!: Phaser.GameObjects.Text;
+  private previewId: string | null = null;
+  private formationList: Phaser.GameObjects.Container | null = null;
   private hint!: Phaser.GameObjects.Text;
 
   constructor() {
@@ -73,6 +75,7 @@ export class FormationScene extends Phaser.Scene {
   }
 
   create(): void {
+    fitCamera(this);
     const team = getTeam(this.home.teamId);
     const rival = getTeam(this.away.teamId);
     teamBackdrop(this, team, undefined, { x: 270, y: 380 });
@@ -105,8 +108,14 @@ export class FormationScene extends Phaser.Scene {
     bar.lineStyle(2, THEME.yellow, 0.8).strokePoints(slant(536, 622, 400, 58, 16), true);
     new Button(this, 578, 651, '◀', () => this.cycleFormation(-1), { w: 50, h: 42, color: THEME.panelLight });
     new Button(this, 892, 651, '▶', () => this.cycleFormation(1), { w: 50, h: 42, color: THEME.panelLight });
-    text(this, 736, 636, 'FORMACIÓN', 11, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
+    text(this, 736, 636, 'FORMACIÓN  ▾ pulsa para ver todas', 11, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
     this.formationLabel = text(this, 736, 660, '', 20, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0.5);
+    // pulsar el nombre abre la lista de todas las formaciones
+    const labelHit = this.add.zone(612, 626, 248, 52).setOrigin(0).setInteractive({ useHandCursor: true });
+    labelHit.on('pointerdown', () => this.toggleFormationList());
+    labelHit.on('pointerover', () => this.formationLabel.setColor('#ffd23f'));
+    labelHit.on('pointerout', () => this.formationLabel.setColor('#ffffff'));
+    this.input.keyboard?.on('keydown-ESC', () => this.closeFormationList());
     if (!this.halftime) new Button(this, 1016, 651, 'Menú', () => this.scene.start('menu'), { w: 120, h: 46, size: 17, color: THEME.panelLight });
     new Button(this, 1160, 651, this.halftime ? '¡2ª parte!' : '¡A jugar!', () => this.play(), { w: 160, h: 58, size: 24, color: THEME.yellow });
 
@@ -138,11 +147,17 @@ export class FormationScene extends Phaser.Scene {
     return PITCH_BOX.y + 30 + ((sy - 0.3) / 0.68) * (PITCH_BOX.h - 80);
   }
 
-  private layoutTokens(): void {
+  /**
+   * Coloca las chapas. Con `previewId` las pone como quedarían en esa formación (vista previa de la lista),
+   * sin cambiarla; las chapas se deslizan desde donde estaban.
+   */
+  private layoutTokens(previewId?: string): void {
+    const before = new Map(this.tokens.map((t) => [t.index, { x: t.container.x, y: t.container.y }]));
     for (const t of this.tokens) t.container.destroy();
     this.tokens = [];
     const team = getTeam(this.home.teamId);
-    const formation = getFormation(this.home.formationId);
+    const formation = getFormation(previewId ?? this.home.formationId);
+    this.previewId = previewId ?? null;
     this.formationLabel.setText(formation.name);
     const players = lineupPlayers(team, this.home);
 
@@ -158,7 +173,13 @@ export class FormationScene extends Phaser.Scene {
         x = BENCH.x + 60 + (b % 9) * 74;
         y = BENCH.y + 78 + Math.floor(b / 9) * 64;
       }
-      this.tokens.push({ index, container: this.makeToken(p, index, x, y) });
+      const token = this.makeToken(p, index, x, y);
+      const from = before.get(index);
+      if (from && (from.x !== x || from.y !== y)) {
+        token.setPosition(from.x, from.y);
+        this.tweens.add({ targets: token, x, y, duration: 180, ease: 'Cubic.Out' });
+      }
+      this.tokens.push({ index, container: token });
     });
     this.hint.setText(this.selected === null ? 'Pulsa dos jugadores para cambiarlos' : 'Ahora pulsa con quién cambiarlo');
   }
@@ -167,7 +188,7 @@ export class FormationScene extends Phaser.Scene {
   private makeToken(p: PlayerData, index: number, x: number, y: number): Phaser.GameObjects.Container {
     const c = this.add.container(x, y);
     const selected = this.selected === index;
-    const slotPos = index < 11 ? getFormation(this.home.formationId).slots[index].pos : p.position;
+    const slotPos = index < 11 ? getFormation(this.previewId ?? this.home.formationId).slots[index].pos : p.position;
     const outOfPosition = index < 11 && slotPos !== p.position;
     const g = this.add.graphics();
     g.fillStyle(0x000000, 0.35).fillEllipse(0, 20, 40, 12);
@@ -210,6 +231,71 @@ export class FormationScene extends Phaser.Scene {
       this.selected = null;
     }
     this.layoutTokens();
+  }
+
+  private setFormation(id: string): void {
+    this.home = { ...this.home, formationId: id };
+    this.layoutTokens();
+  }
+
+  /** Lista de formaciones sobre la ficha: al pasar el ratón se ve en el campo, al pulsar se elige. */
+  private toggleFormationList(): void {
+    if (this.formationList) return this.closeFormationList();
+    const X = CARD.x;
+    const Y = CARD.y;
+    const Wd = CARD.w;
+    const Hd = BENCH.y + BENCH.h - CARD.y;
+    const c = this.add.container(0, 0).setDepth(50);
+    this.formationList = c;
+    // fondo que cierra la lista al pulsar fuera
+    const back = this.add.rectangle(640, 360, 1280, 720, 0x000000, 0.12).setInteractive();
+    back.on('pointerdown', () => this.closeFormationList());
+    const g = this.add.graphics();
+    themePanel(g, X, Y, Wd, Hd, THEME.yellow, 1);
+    const panelHit = this.add.zone(X, Y, Wd, Hd).setOrigin(0).setInteractive();
+    c.add([back, g, panelHit]);
+    c.add(sectionTitle(this, X + 18, Y + 22, 'Formaciones'));
+    c.add(text(this, X + Wd - 18, Y + 22, 'Pasa el ratón para verla en el campo · pulsa para elegirla', 12, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 }).setOrigin(1, 0.5));
+    const cols = 3;
+    const rows = Math.ceil(FORMATIONS.length / cols);
+    const cw = (Wd - 36 - (cols - 1) * 8) / cols;
+    const rh = Math.min(34, (Hd - 56) / rows);
+    FORMATIONS.forEach((f, i) => {
+      const cx = X + 18 + Math.floor(i / rows) * (cw + 8);
+      const cy = Y + 44 + (i % rows) * rh;
+      const current = f.id === this.home.formationId;
+      const lines = ['DF', 'MF', 'FW'].map((pos) => f.slots.filter((s) => s.pos === pos).length).join('-');
+      const bg = this.add.graphics();
+      const draw = (hover: boolean) => {
+        bg.clear();
+        if (current || hover) bg.fillStyle(current ? THEME.yellow : THEME.panelLight, current ? 0.9 : 1).fillPoints(slant(cx, cy + 2, cw, rh - 4, 6), true);
+      };
+      draw(false);
+      const name = text(this, cx + 14, cy + rh / 2, f.name, 14, current ? THEME.ink : '#ffffff', { fontStyle: 'italic bold', strokeThickness: current ? 0 : 3 }).setOrigin(0, 0.5);
+      for (let size = 14; name.width > cw - 70 && size > 10; ) name.setFontSize(--size);
+      const lay = text(this, cx + cw - 12, cy + rh / 2, lines, 12, current ? THEME.ink : '#9fb8d8', { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(1, 0.5);
+      const hit = this.add.zone(cx, cy, cw, rh).setOrigin(0).setInteractive({ useHandCursor: true });
+      hit.on('pointerover', () => {
+        draw(true);
+        this.layoutTokens(f.id);
+      });
+      hit.on('pointerout', () => {
+        draw(false);
+        if (this.previewId === f.id) this.layoutTokens();
+      });
+      hit.on('pointerdown', () => {
+        this.closeFormationList();
+        this.setFormation(f.id);
+      });
+      c.add([bg, name, lay, hit]);
+    });
+  }
+
+  private closeFormationList(): void {
+    if (!this.formationList) return;
+    this.formationList.destroy();
+    this.formationList = null;
+    if (this.previewId) this.layoutTokens();
   }
 
   private cycleFormation(d: number): void {

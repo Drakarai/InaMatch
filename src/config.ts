@@ -3,6 +3,18 @@
 export const GAME_W = 1280;
 export const GAME_H = 720;
 
+/**
+ * Resolución de dibujado: el lienzo se crea al tamaño real con el que se va a ver (pantalla y densidad de
+ * píxeles) para que todo salga nítido. El juego sigue pensado en 1280x720: cada escena amplía su cámara
+ * por este factor (ver fitCamera) y los textos se rasterizan a esta resolución.
+ */
+export const RES = (() => {
+  if (typeof window === 'undefined') return 1;
+  const fit = Math.min(window.innerWidth / GAME_W, window.innerHeight / GAME_H);
+  const r = Math.ceil(fit * (window.devicePixelRatio || 1) * 4) / 4;
+  return Math.min(3, Math.max(1, r));
+})();
+
 /** Zona de la izquierda: el campo (la "pantalla táctil" de la DS). */
 export const FIELD_VIEW = { x: 0, y: 0, w: 820, h: 720 };
 /** Zona de la derecha: marcador y duelos (la "pantalla superior"). */

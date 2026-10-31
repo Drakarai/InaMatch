@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { fitCamera } from '../ui/theme';
 import { FONT, GAME_H, GAME_W, hex } from '../config';
 import { TEAMS } from '../data';
 import { SEASONS, getSeason, seasonOf } from '../data/seasons';
@@ -59,6 +60,7 @@ export class MenuScene extends Phaser.Scene {
   }
 
   create(): void {
+    fitCamera(this);
     const saved = this.registry.get('menuSelection') as Selection | undefined;
     this.sel = saved && TEAMS.some((t) => t.id === saved.home) && TEAMS.some((t) => t.id === saved.away) ? { ...saved } : this.defaults();
     this.shelfSeason = seasonOf(teamById(this.sel[this.sel.focus]));

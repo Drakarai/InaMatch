@@ -192,6 +192,12 @@ Cómo está hecho:
   `src/gfx/fxkit.ts` y los efectos básicos en `src/gfx/fx.ts`).
 - **Cambiar el efecto de una técnica:** edita su línea en `tools/zukan/recipes.txt` y vuelve a ejecutar el script.
 
+## Formación
+
+- Pulsa dos jugadores para cambiarlos (titular por suplente o de sitio).
+- Pulsa el nombre de la formación para ver la lista de todas. Al pasar el ratón por una, se ve cómo quedaría tu
+  equipo en el campo; solo se elige si la pulsas. Las flechas ◀ ▶ pasan de una en una.
+
 ## Jugadores: sprites, retratos y descripciones
 
 - **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (732 de 810). Sale en la ficha

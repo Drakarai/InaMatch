@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { hex } from '../config';
+import { GAME_H, GAME_W, RES, hex } from '../config';
 import type { Position, TeamData } from '../data/types';
 
 /**
@@ -74,7 +74,7 @@ export function sectionTitle(scene: Phaser.Scene, x: number, y: number, label: s
 export function teamBackdrop(
   scene: Phaser.Scene,
   team: TeamData,
-  area = { x: 0, y: 0, w: scene.scale.width, h: scene.scale.height },
+  area = { x: 0, y: 0, w: GAME_W, h: GAME_H },
   focus = { x: area.x + area.w * 0.25, y: area.y + area.h * 0.35 },
 ): Phaser.GameObjects.Graphics {
   const { x, y, w, h } = area;
@@ -94,4 +94,9 @@ export function teamBackdrop(
     for (let xx = x + (Math.round(yy / 14) % 2 ? 7 : 0); xx < x + w; xx += 14) g.fillCircle(xx, yy, r);
   }
   return g;
+}
+
+/** Amplía la cámara principal de la escena para que el juego (1280x720) llene el lienzo a resolución real. */
+export function fitCamera(scene: Phaser.Scene): void {
+  scene.cameras.main.setZoom(RES).centerOn(GAME_W / 2, GAME_H / 2);
 }

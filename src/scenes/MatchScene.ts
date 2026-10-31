@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { FIELD_VIEW, GAME_SPEED, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
+import { FIELD_VIEW, GAME_SPEED, RES, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { getTeam, moveFx } from '../data';
 import { elementMultiplier } from '../data/elements';
 import { getFormation } from '../data/formations';
@@ -163,7 +163,8 @@ export class MatchScene extends Phaser.Scene {
   }
 
   create(): void {
-    this.cameras.main.setViewport(FIELD_VIEW.x, FIELD_VIEW.y, FIELD_VIEW.w, FIELD_VIEW.h);
+    // el campo ocupa la parte izquierda del lienzo, ampliado a la resolución real (RES)
+    this.cameras.main.setViewport(FIELD_VIEW.x * RES, FIELD_VIEW.y * RES, FIELD_VIEW.w * RES, FIELD_VIEW.h * RES).setZoom(RES);
     this.cameras.main.setBounds(0, 0, WORLD.w, WORLD.h);
     this.drawPitch();
 
@@ -1427,7 +1428,7 @@ export class MatchScene extends Phaser.Scene {
   }
 
   private onPointerDown(pointer: Phaser.Input.Pointer): void {
-    if (!this.canSteer() || pointer.x > FIELD_VIEW.w) return;
+    if (!this.canSteer() || pointer.x > FIELD_VIEW.w * RES) return;
     const w = this.worldPoint(pointer);
     const owner = this.ball.owner;
     const humanHasBall = owner?.side === 0;
@@ -1464,7 +1465,7 @@ export class MatchScene extends Phaser.Scene {
   private onPointerMove(pointer: Phaser.Input.Pointer): void {
     const d = this.drawing;
     if (!d || !pointer.isDown) return;
-    if (Phaser.Math.Distance.Between(pointer.x, pointer.y, d.startScreen.x, d.startScreen.y) > 10) d.tapCandidate = false;
+    if (Phaser.Math.Distance.Between(pointer.x, pointer.y, d.startScreen.x, d.startScreen.y) > 10 * RES) d.tapCandidate = false;
     if (d.tapCandidate) return;
     const w = this.worldPoint(pointer);
     if (Phaser.Math.Distance.Between(d.last.x, d.last.y, w.x, w.y) <= 12) return;

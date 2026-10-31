@@ -13,6 +13,8 @@ import {
   type Choice,
   type Situation,
 } from '../engine/rules';
+import { sfx } from '../audio/sfx';
+import { soundPanel } from '../ui/soundPanel';
 import { fxColors, fxParticle, type FxRecipe } from '../gfx/fx';
 import { portraitKey, texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
@@ -75,6 +77,7 @@ export class HudScene extends Phaser.Scene {
   private shootButton!: Button;
   private lastScore = '';
   private overlay: Phaser.GameObjects.Container | null = null;
+  private soundBox: Phaser.GameObjects.Container | null = null;
 
   constructor() {
     super('hud');
@@ -657,6 +660,7 @@ export class HudScene extends Phaser.Scene {
       this.time.delayedCall(420, () => {
         if (finished) return;
         state.shake = 1;
+        sfx.clash();
         this.tweens.add({ targets: clash, power: 1, duration: 200 });
         spark.start();
         softFlash(0.35);
@@ -675,6 +679,8 @@ export class HudScene extends Phaser.Scene {
         this.tweens.add({ targets: state, split: toward * (W / 2 + 160), duration: 380, ease: 'Quad.In' });
         this.time.delayedCall(260, () => {
           spark.stop();
+          sfx.win();
+          sfx.shatter();
           clash.power = 0;
           core.setScale(0);
           softFlash(0.5);
@@ -712,6 +718,7 @@ export class HudScene extends Phaser.Scene {
 
   cutin(player: MatchPlayer, move: MoveData, fx: FxRecipe = { fx: 'impact' }): Promise<void> {
     return new Promise((resolve) => {
+      sfx.cutin();
       const W = FIELD_VIEW.w;
       const H = FIELD_VIEW.h;
       // el color y las partículas son los del efecto de la técnica (llamas, copos, pétalos...)
@@ -846,7 +853,11 @@ export class HudScene extends Phaser.Scene {
     const controls = new Button(this, bx, 268, 'Controles', () => help.setVisible(!help.visible), { w: 260, h: 48, color: THEME.panelLight });
     c.add(controls);
     c.add(new Button(this, bx, 330, 'Reiniciar partido', o.onRestart, { w: 260, h: 48, color: THEME.panelLight }));
-    const quit = new Button(this, bx, 392, 'Abandonar partido', () => {
+    c.add(new Button(this, bx, 392, 'Sonido', () => {
+      if (this.soundBox?.active) this.soundBox.destroy();
+      else c.add((this.soundBox = soundPanel(this, 330, 330)));
+    }, { w: 260, h: 48, color: THEME.panelLight }));
+    const quit = new Button(this, bx, 454, 'Abandonar partido', () => {
       if (confirmQuit.armed) return o.onQuit();
       confirmQuit.armed = true;
       quit.setCaption('¿Seguro? Pulsa otra vez');
@@ -856,7 +867,7 @@ export class HudScene extends Phaser.Scene {
       });
     }, { w: 260, h: 48, color: COLORS.uiRed });
     c.add(quit);
-    c.add(text(this, bx, 440, 'Espacio / Esc: reanudar', 12, THEME.muted, { strokeThickness: 0 }).setOrigin(0.5, 0));
+    c.add(text(this, bx, 502, 'Espacio / Esc: reanudar', 12, THEME.muted, { strokeThickness: 0 }).setOrigin(0.5, 0));
 
     // estado del equipo: estamina (naranja) y técnica (verde) de los once
     const px = 330;
@@ -888,13 +899,13 @@ export class HudScene extends Phaser.Scene {
     // controles (se muestran con el botón)
     const help = this.add.container(0, 0).setVisible(false);
     const hg = this.add.graphics();
-    themePanel(hg, 24, 470, 290, 210);
+    themePanel(hg, 24, 524, 290, 186);
     help.add(hg);
     help.add(
       text(
         this,
         38,
-        486,
+        536,
         'Con balón:\n· Arrastra desde tu jugador: regate\n· Pulsa a un compañero: pase\n· Pulsa un hueco: pase al espacio\n· Portería o T: tirar\n\nSin balón:\n· Arrastra a cualquier jugador\n· Pulsa en el campo',
         13,
         '#e3e9f2',

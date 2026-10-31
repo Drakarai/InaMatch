@@ -1,5 +1,7 @@
 import Phaser from 'phaser';
+import { music } from '../audio/music';
 import { fitCamera } from '../ui/theme';
+import { soundButton } from '../ui/soundPanel';
 import { FONT, GAME_H, GAME_W, hex } from '../config';
 import { TEAMS } from '../data';
 import { SEASONS, getSeason, seasonOf } from '../data/seasons';
@@ -61,6 +63,7 @@ export class MenuScene extends Phaser.Scene {
 
   create(): void {
     fitCamera(this);
+    music.play('menu');
     const saved = this.registry.get('menuSelection') as Selection | undefined;
     this.sel = saved && TEAMS.some((t) => t.id === saved.home) && TEAMS.some((t) => t.id === saved.away) ? { ...saved } : this.defaults();
     this.shelfSeason = seasonOf(teamById(this.sel[this.sel.focus]));
@@ -76,6 +79,7 @@ export class MenuScene extends Phaser.Scene {
     this.renderSide('away');
     this.renderShelf();
     this.bindKeys();
+    soundButton(this, GAME_W - 34, 96, GAME_W - 350, 120);
   }
 
   private defaults(): Selection {

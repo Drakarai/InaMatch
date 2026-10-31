@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import { ELEMENT_COLOR } from '../data/elements';
 import type { Element, MoveKind } from '../data/types';
+import { sfx, techSfx } from '../audio/sfx';
 import { DEPTH, GROUND, angleOf, cleanup, flash, lighten, particles, ring, shake, wait } from './fxkit';
 import { SHAPES } from './fxshapes';
 
@@ -871,6 +872,8 @@ export function fxPalette(recipe: FxRecipe, element: Element): number[] {
 export async function playFx(scene: Phaser.Scene, recipe: FxRecipe, x: number, y: number, o: FxOptions): Promise<void> {
   const pal = fxPalette(recipe, o.element);
   const run = (name: string) => lookup(name)(scene, x, y, o, pal, name.split(':')[1] ?? '');
+  techSfx(recipe.fx);
+  (recipe.layers ?? []).forEach((l, i) => techSfx(l, 0.12 + i * 0.14));
   const extras = (recipe.layers ?? []).map((l, i) => new Promise<void>((r) => scene.time.delayedCall(120 + i * 140, () => run(l).then(r))));
   await Promise.all([run(recipe.fx), ...extras]);
 }
@@ -878,6 +881,7 @@ export async function playFx(scene: Phaser.Scene, recipe: FxRecipe, x: number, y
 /** La técnica ha perdido: lo que quedaba de ella salta en pedazos. */
 export function fxBreak(scene: Phaser.Scene, recipe: FxRecipe, x: number, y: number, element: Element): void {
   const [c1, c2] = fxPalette(recipe, element);
+  sfx.shatter();
   const shards = particles(scene, x, y, 'fx-shard', { speed: { min: 120, max: 340 }, scale: { start: 1, end: 0.2 }, alpha: { start: 1, end: 0 }, tint: [c1, c2, 0x9aa4b4], lifespan: 700, rotate: { min: 0, max: 360 }, gravityY: 500, blendMode: 'NORMAL' });
   shards.explode(28);
   const crack = scene.add.graphics({ x, y }).setDepth(DEPTH);

@@ -29,6 +29,7 @@ partidas por un rayo.
 - Teclado: izquierda/derecha cambian de equipo, arriba/abajo de temporada, **Tab** de lado y **Enter** sigue.
 - En el centro: **Cambiar lados** y **Rival aleatorio** (de cualquier temporada). Se pueden mezclar temporadas.
 - La elección se recuerda al volver al menú.
+- Arriba a la derecha, el botón **♪** abre el panel de sonido.
 
 ## Controles
 
@@ -44,7 +45,7 @@ El ratón hace de lápiz de la DS.
 | Tiro rival en el aire | **Arrastra a un defensa** hasta la línea turquesa para bloquearlo (va a cámara lenta) |
 | Duelos y tiros | Botones en pantalla o teclas **1**/**2** (comandos básicos) y **3**, **4**… (supertécnicas) |
 | | Si no eliges a tiempo se usa el primer comando |
-| En cualquier momento | **Espacio** / **Esc** o el botón **II**: pausa (reanudar, controles, reiniciar, abandonar y la estamina y técnica de tu equipo) |
+| En cualquier momento | **Espacio** / **Esc** o el botón **II**: pausa (reanudar, controles, reiniciar, sonido, abandonar y la estamina y técnica de tu equipo) |
 
 Comandos básicos:
 - **Atacando**: Regate o Finta.
@@ -99,6 +100,7 @@ src/
   scenes/          Boot, Menú, Formación, Partido y HUD (marcador, duelos, radar, animaciones)
   ui/              botones, barras y el tema visual (theme.ts: colores, formas inclinadas, fondos)
   gfx/             gráficos provisionales generados por código
+  audio/           música y efectos de sonido, generados con Web Audio (sin archivos)
   assets/pack/     sprites originales: se usan con solo ponerles el nombre del jugador
 docs/              notas de referencia del juego original
 ```
@@ -191,6 +193,20 @@ Cómo está hecho:
 - **Dibujo:** las formas son unas 130, dibujadas por código (`src/gfx/fxshapes.ts`, con utilidades en
   `src/gfx/fxkit.ts` y los efectos básicos en `src/gfx/fx.ts`).
 - **Cambiar el efecto de una técnica:** edita su línea en `tools/zukan/recipes.txt` y vuelve a ejecutar el script.
+
+## Sonido
+
+Toda la música y los efectos se generan en el navegador con Web Audio. No hay archivos de audio.
+- **Música:** composiciones originales para InaMatch, inspiradas en el estilo de la saga (metales, guitarra
+  eléctrica y batería rápida, en tono heroico). No copian melodías de la banda sonora oficial. Hay un tema
+  para el menú y la formación, otro para los partidos y una fanfarria para los goles.
+- **Efectos:** cada tipo de supertécnica tiene su sonido (fuego, hielo, viento, rayo, tierra, sombras, luz,
+  espíritus guardianes, muros, manos gigantes...). También suenan el silbato, los chutes, el gol, el choque de
+  técnicas en los duelos y los botones. Mientras suena una técnica, la música baja un momento.
+- **Quitarlo:** el botón **♪** del menú o **Sonido** en la pausa. La música y los efectos se activan por
+  separado y cada uno tiene su volumen. La elección se guarda en el navegador.
+- **Cambiar sonidos:** `src/audio/sfx.ts` (tabla `TECH`, una receta por tipo de efecto) y
+  `src/audio/music.ts` (las canciones son listas de acordes y notas por compás).
 
 ## Formación
 

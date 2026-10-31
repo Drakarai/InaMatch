@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { sfx } from '../audio/sfx';
 import { COLORS, FONT } from '../config';
 import { THEME, slant, themePanel } from './theme';
 
@@ -62,7 +63,9 @@ export class Button extends Phaser.GameObjects.Container {
       .on('pointerout', () => this.draw(false))
       .on('pointerdown', (_p: Phaser.Input.Pointer, _x: number, _y: number, ev: Phaser.Types.Input.EventData) => {
         ev.stopPropagation();
-        if (this.enabled) onClick();
+        if (!this.enabled) return;
+        sfx.click();
+        onClick();
       });
     scene.add.existing(this);
   }

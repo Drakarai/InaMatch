@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { music } from '../audio/music';
 import { COLORS, hex } from '../config';
 import { getTeam, movesOf } from '../data';
 import { ELEMENT_COLOR, ELEMENT_LABEL } from '../data/elements';
@@ -76,6 +77,7 @@ export class FormationScene extends Phaser.Scene {
 
   create(): void {
     fitCamera(this);
+    if (!this.halftime) music.play('menu');
     const team = getTeam(this.home.teamId);
     const rival = getTeam(this.away.teamId);
     teamBackdrop(this, team, undefined, { x: 270, y: 380 });

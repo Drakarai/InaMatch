@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { audio } from '../audio/engine';
 import { TEAMS } from '../data';
 import { makeFxTextures } from '../gfx/fx';
 import { bootPack } from '../gfx/pack';
@@ -30,6 +31,7 @@ export class BootScene extends Phaser.Scene {
     }
     makeBall(this);
     makeFxTextures(this);
+    audio.init(this.game);
     this.scene.start('menu');
   }
 }

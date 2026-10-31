@@ -1,5 +1,7 @@
 import Phaser from 'phaser';
 import { FIELD_VIEW, GAME_SPEED, RES, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
+import { music, playFanfare } from '../audio/music';
+import { sfx } from '../audio/sfx';
 import { getTeam, moveFx } from '../data';
 import { elementMultiplier } from '../data/elements';
 import { getFormation } from '../data/formations';
@@ -163,6 +165,7 @@ export class MatchScene extends Phaser.Scene {
   }
 
   create(): void {
+    music.play('match');
     // el campo ocupa la parte izquierda del lienzo, ampliado a la resolución real (RES)
     this.cameras.main.setViewport(FIELD_VIEW.x * RES, FIELD_VIEW.y * RES, FIELD_VIEW.w * RES, FIELD_VIEW.h * RES).setZoom(RES);
     this.cameras.main.setBounds(0, 0, WORLD.w, WORLD.h);
@@ -415,6 +418,7 @@ export class MatchScene extends Phaser.Scene {
     this.duelCooldownUntil = this.now + 1.5;
     this.cameras.main.centerOn(CX, PITCH.y + PITCH.h / 2);
     this.syncAll();
+    sfx.whistle();
     void this.hud
       .banner(first ? (this.half === 1 ? '¡A jugar!' : '2ª parte') : '¡Saque!', first ? `${this.teams[0].name} vs ${this.teams[1].name}` : '', '#ffffff', 1100)
       .then(() => this.resumePlay());
@@ -687,6 +691,7 @@ export class MatchScene extends Phaser.Scene {
   // ---------------------------------------------------------------- balón
 
   private kick(from: MatchPlayer, to: Vec, receiver: MatchPlayer | null, speed = PASS_SPEED): void {
+    sfx.kick();
     const b = this.ball;
     const d = this.dist(b, to) || 1;
     b.owner = null;
@@ -933,6 +938,7 @@ export class MatchScene extends Phaser.Scene {
     const defMul = supportMultiplier(defHelp, defSame) * this.sideMul(def.side);
     // el "Poder" que se enseña ya incluye la afinidad entre los dos jugadores
     const playerAffinity = elementMultiplier(att.data.element, def.data.element);
+    sfx.duelStart();
     this.hud.showDuel(att, def, {
       power: [basePower(att.fighter(), 'attack', attMul * playerAffinity), basePower(def.fighter(), 'defend', defMul)],
       support: [Math.min(2, attHelp), Math.min(2, defHelp)],
@@ -1110,6 +1116,7 @@ export class MatchScene extends Phaser.Scene {
     b.speed = 0;
     b.lastTouch = shooter.side;
     b.kicker = shooter;
+    sfx.kick(true);
     b.kickedAt = this.now;
     // el tiro sale de los pies del que tira
     b.x = shooter.x;
@@ -1327,6 +1334,8 @@ export class MatchScene extends Phaser.Scene {
     this.goals.push({ side: scorer.side, name: scorer.data.short, minute: this.gameMinute() });
     this.hud.hideDuel();
     this.cameras.main.shake(250, 0.006);
+    sfx.goal();
+    playFanfare();
     await this.hud.banner('¡GOL!', `${scorer.data.name} · ${this.teams[scorer.side].name}`, '#ffd23f', 2000);
     if (this.state === 'over') return;
     this.kickoff(scorer.side === 0 ? 1 : 0);
@@ -1336,6 +1345,7 @@ export class MatchScene extends Phaser.Scene {
     this.state = 'event';
     this.drawing = null;
     if (this.half === 1) {
+      sfx.whistle(true);
       await this.hud.banner('Descanso', `${this.score[0]} - ${this.score[1]}`, '#ffffff', 1800);
       // en el descanso todos recuperan un tercio de cada barra
       for (const p of this.allPlayers()) {
@@ -1368,6 +1378,7 @@ export class MatchScene extends Phaser.Scene {
       return;
     }
     this.state = 'over';
+    sfx.whistle(true);
     await this.hud.banner('¡Final!', '', '#ffffff', 1400);
     this.hud.showResult(
       () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),

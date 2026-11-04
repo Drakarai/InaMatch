@@ -162,7 +162,12 @@ De cada una guarda:
 - Potencia y coste en Victory Road, y TP en IE3.
 
 Las técnicas del juego (`src/data/moves.json`) las genera `tools/wiki/teams.py`. Cada una lleva:
-- **Nombre:** en español, del catálogo.
+- **Nombre:** el de los juegos de DS en España. Sale del catálogo (el título de su página en la wiki española), salvo
+  las que están en `moves` de `tools/wiki/overrides.json` (26):
+  - La wiki española titula muchas con el nombre del anime y pone aparte el de los juegos ("también conocida como
+    … en los videojuegos"): Carrera relámpago es Acelerrelámpago, Trama trama es Trama, Terremoto es Sismo…
+  - Las que no tenían nombre en español o lo tenían mal: Vuelo de Ícaro, Regate aurora, Inmersión, Coz 2 y 3,
+    Escáner ataque y Escáner defensa.
 - **Potencia y coste:** los de IE3 (`Module:WazaData`).
 - **Afinidad:** la de cada versión. Por ejemplo, la Mano mágica de Darren es de Bosque.
 

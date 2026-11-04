@@ -15,57 +15,242 @@
   "Okinoshima Sou": "Antes de cada partido se da un chapuzón en el mar... ¡sin bañador!"
  },
  "fixes": [
-  ["Libera a la que la edad", "Librera a la que la edad"],
-  ["preguntas aguadas", "preguntas agudas"],
-  ["pero su antaño fue", "pero antaño fue"],
-  ["al limite", "al límite"],
-  ["Si para de comer no hay", "Si a la hora de comer no hay"],
-  ["lo suyo; Si salta", "lo suyo: si salta"],
-  ["Dicen que los que se relacionan con ella le ocurren", "Dicen que a quienes se relacionan con ella les ocurren"],
-  ["Siempre esta enfadado por algo transforma", "Siempre está enfadado por algo, pero transforma"],
-  ["empuja el rival", "empuja al rival"],
-  ["esta muy guapa", "está muy guapa"],
-  ["ser mas fuerte", "ser más fuerte"],
-  ["y los dibujado", "y los ha dibujado"],
-  ["de improvisto", "de improviso"],
-  ["presumido lider", "presumido líder"],
-  ["y no tienen fuerzas", "y no tiene fuerzas"],
-  ["par atacar", "para atacar"],
-  ["par aterrar", "para aterrar"],
-  ["orejas,te", "orejas, te"],
-  ["el estomago", "el estómago"],
-  ["¿Qué canciones", "¿qué canciones"],
-  ["Hace una rosquillas", "Hace unas rosquillas"],
-  ["la carne Hay un error ortográfico en su descripción en la que en vez de \"carne\" pone \"carde\". de ternera", "la carne de ternera"],
-  ["más viejos que la ton", "más viejos que la tos"],
-  ["no tiene quién le acompañe", "no tiene quien le acompañe"],
-  ["desalinear el agua", "desalinizar el agua"],
-  ["¡y al agua patos!.", "¡y al agua, patos!"],
-  ["impolutas ¡La basura", "impolutas. ¡La basura"],
-  ["Es del Sur de Korea y no acaba de acostumbrarse al fío invierno del Seúl.", "Es del sur de Corea y no acaba de acostumbrarse al frío invierno de Seúl."],
-  ["¡Mira como chuta!", "¡Mira cómo chuta!"],
-  ["Sus tiros perecen cometas", "Sus tiros parecen cometas"],
-  ["una mascara de hierro", "una máscara de hierro"],
-  ["Wimbledon; pero, se rompió el brazo, se pasó al fútbol", "Wimbledon, pero se rompió el brazo y se pasó al fútbol"],
-  ["los mejores equitadores", "los mejores jinetes"],
-  ["caña de azucar", "caña de azúcar"],
-  ["la flora Argentina", "la flora argentina"],
-  ["que sus ciudad", "que su ciudad"],
-  ["premios!.", "premios!"],
-  ["los cuatros vientos", "los cuatro vientos"],
-  ["Montmarte", "Montmartre"],
-  ["de cultivar la vida", "de cultivar la vid"],
-  ["le apretó la tuercas", "le apretó las tuercas"],
-  ["Zoolan Team, Se le conoce", "Zoolan Team. Se le conoce"],
-  ["busca forma de evitar", "busca formas de evitar"],
-  ["Pues al él", "Pues a él"],
-  ["quién ser ríe", "quién se ríe"],
-  ["salchicas", "salchichas"],
-  ["en case le presionan", "en casa le presionan"],
-  ["Suele entrar en la fría Patagonia", "Suele entrenar en la fría Patagonia"],
-  ["se le da muy bien las finanzas", "se le dan muy bien las finanzas"],
-  ["¡Que gandul!", "¡Qué gandul!"],
-  ["sentido del olfalto", "sentido del olfato"],
-  ["pero Zoolan, se hizo cargo", "pero Zoolan se hizo cargo"]
- ]
+  [
+   "Libera a la que la edad",
+   "Librera a la que la edad"
+  ],
+  [
+   "preguntas aguadas",
+   "preguntas agudas"
+  ],
+  [
+   "pero su antaño fue",
+   "pero antaño fue"
+  ],
+  [
+   "al limite",
+   "al límite"
+  ],
+  [
+   "Si para de comer no hay",
+   "Si a la hora de comer no hay"
+  ],
+  [
+   "lo suyo; Si salta",
+   "lo suyo: si salta"
+  ],
+  [
+   "Dicen que los que se relacionan con ella le ocurren",
+   "Dicen que a quienes se relacionan con ella les ocurren"
+  ],
+  [
+   "Siempre esta enfadado por algo transforma",
+   "Siempre está enfadado por algo, pero transforma"
+  ],
+  [
+   "empuja el rival",
+   "empuja al rival"
+  ],
+  [
+   "esta muy guapa",
+   "está muy guapa"
+  ],
+  [
+   "ser mas fuerte",
+   "ser más fuerte"
+  ],
+  [
+   "y los dibujado",
+   "y los ha dibujado"
+  ],
+  [
+   "de improvisto",
+   "de improviso"
+  ],
+  [
+   "presumido lider",
+   "presumido líder"
+  ],
+  [
+   "y no tienen fuerzas",
+   "y no tiene fuerzas"
+  ],
+  [
+   "par atacar",
+   "para atacar"
+  ],
+  [
+   "par aterrar",
+   "para aterrar"
+  ],
+  [
+   "orejas,te",
+   "orejas, te"
+  ],
+  [
+   "el estomago",
+   "el estómago"
+  ],
+  [
+   "¿Qué canciones",
+   "¿qué canciones"
+  ],
+  [
+   "Hace una rosquillas",
+   "Hace unas rosquillas"
+  ],
+  [
+   "la carne Hay un error ortográfico en su descripción en la que en vez de \"carne\" pone \"carde\". de ternera",
+   "la carne de ternera"
+  ],
+  [
+   "más viejos que la ton",
+   "más viejos que la tos"
+  ],
+  [
+   "no tiene quién le acompañe",
+   "no tiene quien le acompañe"
+  ],
+  [
+   "desalinear el agua",
+   "desalinizar el agua"
+  ],
+  [
+   "¡y al agua patos!.",
+   "¡y al agua, patos!"
+  ],
+  [
+   "impolutas ¡La basura",
+   "impolutas. ¡La basura"
+  ],
+  [
+   "Es del Sur de Korea y no acaba de acostumbrarse al fío invierno del Seúl.",
+   "Es del sur de Corea y no acaba de acostumbrarse al frío invierno de Seúl."
+  ],
+  [
+   "¡Mira como chuta!",
+   "¡Mira cómo chuta!"
+  ],
+  [
+   "Sus tiros perecen cometas",
+   "Sus tiros parecen cometas"
+  ],
+  [
+   "una mascara de hierro",
+   "una máscara de hierro"
+  ],
+  [
+   "Wimbledon; pero, se rompió el brazo, se pasó al fútbol",
+   "Wimbledon, pero se rompió el brazo y se pasó al fútbol"
+  ],
+  [
+   "los mejores equitadores",
+   "los mejores jinetes"
+  ],
+  [
+   "caña de azucar",
+   "caña de azúcar"
+  ],
+  [
+   "la flora Argentina",
+   "la flora argentina"
+  ],
+  [
+   "que sus ciudad",
+   "que su ciudad"
+  ],
+  [
+   "premios!.",
+   "premios!"
+  ],
+  [
+   "los cuatros vientos",
+   "los cuatro vientos"
+  ],
+  [
+   "Montmarte",
+   "Montmartre"
+  ],
+  [
+   "de cultivar la vida",
+   "de cultivar la vid"
+  ],
+  [
+   "le apretó la tuercas",
+   "le apretó las tuercas"
+  ],
+  [
+   "Zoolan Team, Se le conoce",
+   "Zoolan Team. Se le conoce"
+  ],
+  [
+   "busca forma de evitar",
+   "busca formas de evitar"
+  ],
+  [
+   "Pues al él",
+   "Pues a él"
+  ],
+  [
+   "quién ser ríe",
+   "quién se ríe"
+  ],
+  [
+   "salchicas",
+   "salchichas"
+  ],
+  [
+   "en case le presionan",
+   "en casa le presionan"
+  ],
+  [
+   "Suele entrar en la fría Patagonia",
+   "Suele entrenar en la fría Patagonia"
+  ],
+  [
+   "se le da muy bien las finanzas",
+   "se le dan muy bien las finanzas"
+  ],
+  [
+   "¡Que gandul!",
+   "¡Qué gandul!"
+  ],
+  [
+   "sentido del olfalto",
+   "sentido del olfato"
+  ],
+  [
+   "pero Zoolan, se hizo cargo",
+   "pero Zoolan se hizo cargo"
+  ]
+ ],
+ "_comentario_moves": "moves: nombre de la supertécnica en los juegos de DS en España, por su página en la wiki inglesa. La wiki española titula muchas con el nombre del anime y da el de los juegos aparte (\"también conocida como X en los videojuegos\"); otras no tienen página con su nombre o la emparejaba mal.",
+ "moves": {
+  "Blade Attack": "Ataque afilado",
+  "Condor Dive": "Ataque cóndor",
+  "Kage Nui": "Ataque sombrío",
+  "Fake Bomber": "Bombazo",
+  "Lightning Accel": "Acelerrelámpago",
+  "Goal Zurashi": "Deslizamiento",
+  "Heat Tackle": "Corte flamígero",
+  "Prime Legend": "Cometa legendario",
+  "Freeze Shot": "Chut congelante",
+  "Spiral Shot": "Remate espiral",
+  "Triple Boost": "Empuje trillizo",
+  "Quick Draw": "Robo rápido",
+  "Harvest": "Vendimia",
+  "Dash Accel": "Acelerón",
+  "Run Ball Run": "Balón rodante",
+  "Earthquake": "Sismo",
+  "Kagome Kagome": "Trama",
+  "Zigzag Spark": "Zigzag chispeante",
+  "The Ikaros": "Vuelo de Ícaro",
+  "Aurora Dribble": "Regate aurora",
+  "U-Boat": "Inmersión",
+  "Ninin Sankyaku": "Carrera a tres piernas",
+  "Judge Through 2": "Coz 2",
+  "Judge Through 3": "Coz 3",
+  "Super Scan (OF)": "Escáner ataque",
+  "Super Scan (DF)": "Escáner defensa"
+ }
 }

@@ -471,7 +471,7 @@ def move_from_key(key):
         mid = f'{mid}-{ELEMENT[element]}'
     moves_used[mid] = {
         'id': mid,
-        'name': cat.get('es') or cat.get('dub') or w['page'],
+        'name': OVERRIDES['moves'].get(w['page']) or cat.get('es') or cat.get('dub') or w['page'],
         'kind': KIND[w['wType']],
         'element': ELEMENT[element],
         'power': int(power),
@@ -679,7 +679,7 @@ with open(os.path.join(ROOT, 'src', 'data', 'formations.json'), 'w', encoding='u
 for s, names in written.items():
     print(f'{s}: {len(names)} equipos -> {", ".join(names)}')
 print('omitidos:', skipped)
-print('técnicas:', len(moves_used), '| sin nombre en español:', sum(1 for m in moves_used.values() if not CATALOG.get(m['wiki'], {}).get('es')))
+print('técnicas:', len(moves_used), '| sin nombre en español:', sum(1 for m in moves_used.values() if not CATALOG.get(m['wiki'], {}).get('es') and m['wiki'] not in OVERRIDES['moves']))
 print('formaciones:', len(formations))
 print('jugadores sin atributos en la wiki (estimados por posición):', len(missing_stats))
 for m in missing_stats[:30]:

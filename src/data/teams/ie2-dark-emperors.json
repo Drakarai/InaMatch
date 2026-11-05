@@ -352,16 +352,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 93,
+   "tp": 161,
    "stats": {
-    "kick": 60,
-    "body": 55,
-    "control": 65,
-    "guard": 50,
-    "speed": 65,
-    "stamina": 60,
-    "guts": 60
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
    },
    "moves": [],
    "look": {

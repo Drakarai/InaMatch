@@ -1,0 +1,527 @@
+{
+ "id": "gx-earth-eleven",
+ "season": "gx",
+ "wiki": "Earth Eleven",
+ "name": "Earth Eleven",
+ "short": "EAR",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-lightning",
+ "players": [
+  {
+   "id": "terry-archibald",
+   "name": "Terry Archibald",
+   "short": "Terry",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 148,
+   "stats": {
+    "kick": 45,
+    "body": 86,
+    "control": 45,
+    "guard": 78,
+    "speed": 61,
+    "stamina": 78,
+    "guts": 61
+   },
+   "moves": [
+    "gekirin-dunk",
+    "wild-dunk",
+    "rising-slash"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ibuki Munemasa",
+   "description": "Un Solitario jugador de baloncesto que odia recibir órdenes."
+  },
+  {
+   "id": "trina-verdure",
+   "name": "Trina Verdure",
+   "short": "Trina",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 79,
+   "tp": 224,
+   "stats": {
+    "kick": 34,
+    "body": 63,
+    "control": 56,
+    "guard": 88,
+    "speed": 72,
+    "stamina": 50,
+    "guts": 44
+   },
+   "moves": [
+    "hitori-one-two",
+    "kumo-no-ito",
+    "konoha-rendezvous",
+    "konoha-roll"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Morimura Konoha",
+   "description": "Una chica tímida sin experiencia deportiva que pasa la mayor parte del tiempo en el zoo, rodeada de los animales que adora."
+  },
+  {
+   "id": "keenan-sharpe",
+   "name": "Keenan Sharpe",
+   "short": "Keenan",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 203,
+   "tp": 136,
+   "stats": {
+    "kick": 36,
+    "body": 86,
+    "control": 50,
+    "guard": 75,
+    "speed": 46,
+    "stamina": 63,
+    "guts": 47
+   },
+   "moves": [
+    "boomerang-feint",
+    "winning-logic",
+    "trace-press"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Minaho Kazuto",
+   "description": "Muy observador y bueno para razonar. Su sueño es convertirse en detective."
+  },
+  {
+   "id": "zippy-lerner",
+   "name": "Zippy Lerner",
+   "short": "Zippy",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 110,
+   "tp": 156,
+   "stats": {
+    "kick": 36,
+    "body": 82,
+    "control": 59,
+    "guard": 70,
+    "speed": 63,
+    "stamina": 50,
+    "guts": 66
+   },
+   "moves": [
+    "thief-eye",
+    "future-eye",
+    "winning-logic",
+    "defense-houteishiki"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Manabe Jinichirou",
+   "description": ": Bueno con las matemáticas y la física. Ganó un concurso muy importante."
+  },
+  {
+   "id": "frank-foreman",
+   "name": "Frank Foreman",
+   "short": "Frank",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 84,
+   "stats": {
+    "kick": 46,
+    "body": 45,
+    "control": 50,
+    "guard": 79,
+    "speed": 67,
+    "stamina": 76,
+    "guts": 45
+   },
+   "moves": [
+    "footwork-draw",
+    "dead-straight"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tetsukado Shin",
+   "description": "¡Boxeador y marinero! Este chico tiene una gran fuerza en sus piernas."
+  },
+  {
+   "id": "buddy-fury",
+   "name": "Buddy Fury",
+   "short": "Fury",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "oraora-menchi",
+    "iron-wall",
+    "kyoubou-head"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kusaka Ryuuji",
+   "description": "Un pandillero de agradable sonrisa, no lo hagas enfadar..."
+  },
+  {
+   "id": "cerise-blossom",
+   "name": "Cerise Blossom",
+   "short": "Cerise",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "beautiful-hoop",
+    "mermaid-smash",
+    "ribbon-shower",
+    "butterfly-dream"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nozaki Sakura",
+   "description": "Conocida gimnasta. Siempre quiere ser la primera en todo."
+  },
+  {
+   "id": "arion-sherwind",
+   "name": "Arion Sherwind",
+   "short": "Arion",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 146,
+   "stats": {
+    "kick": 69,
+    "body": 57,
+    "control": 79,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 67,
+    "guts": 64
+   },
+   "moves": [
+    "mach-wind",
+    "kazaana-drive",
+    "z-slash",
+    "arashi-tatsumaki-hurricane",
+    "soyokaze-step",
+    "wonder-trap"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Matsukaze Tenma",
+   "description": "Un chico sencillo y puro como la brisa. Nunca se rinde ante los problemas."
+  },
+  {
+   "id": "riccardo-di-rigo",
+   "name": "Riccardo Di Rigo",
+   "short": "Riccardo",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 189,
+   "tp": 149,
+   "stats": {
+    "kick": 68,
+    "body": 84,
+    "control": 66,
+    "guard": 66,
+    "speed": 59,
+    "stamina": 65,
+    "guts": 56
+   },
+   "moves": [
+    "olympus-harmony",
+    "einsatz",
+    "diffuse-chord",
+    "fortissimo",
+    "presto-turn"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shindou Takuto",
+   "description": "Apasionado de la música y el fútbol. Es apodado el virtuoso del campo."
+  },
+  {
+   "id": "victor-blade",
+   "name": "Victor Blade",
+   "short": "Victor",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 180,
+   "tp": 134,
+   "stats": {
+    "kick": 83,
+    "body": 72,
+    "control": 64,
+    "guard": 61,
+    "speed": 63,
+    "stamina": 62,
+    "guts": 59
+   },
+   "moves": [
+    "bicycle-sword",
+    "devil-burst",
+    "fire-tornado-dd",
+    "the-earth",
+    "death-sword",
+    "death-drop"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tsurugi Kyousuke",
+   "description": "La habilidad del delantero estrella del Raimon no tiene parangón."
+  },
+  {
+   "id": "falco-flashman",
+   "name": "Falco Flashman",
+   "short": "Flashman",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 157,
+   "tp": 124,
+   "stats": {
+    "kick": 71,
+    "body": 57,
+    "control": 54,
+    "guard": 54,
+    "speed": 77,
+    "stamina": 63,
+    "guts": 55
+   },
+   "moves": [
+    "dark-tornado",
+    "parkour-attack",
+    "black-dawn"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Matatagi Hayato",
+   "description": "Posee una velocidad tan rápida como la de una ráfaga de viento."
+  },
+  {
+   "id": "buddy-fury-gx-kusaka-b",
+   "name": "Buddy Fury",
+   "short": "Fury",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "oraora-menchi",
+    "kyoubou-head",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kusaka Ryuuji",
+   "description": "Un pandillero de agradable sonrisa, no lo hagas enfadar..."
+  },
+  {
+   "id": "maneuver-gibbs",
+   "name": "Maneuver Gibbs",
+   "short": "Maneuver",
+   "number": 15,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 96,
+   "tp": 135,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 65,
+    "guard": 67,
+    "speed": 67,
+    "stamina": 58,
+    "guts": 62
+   },
+   "moves": [
+    "bicycle-sword",
+    "devil-burst",
+    "fire-tornado-dd",
+    "great-blaster",
+    "death-sword",
+    "death-drop"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Maneuver Gibutsu",
+   "description": "Un impostor que se hacía pasar por Victor, enviado por Ozrock."
+  },
+  {
+   "id": "falco-flashman-gx-matatagi-p",
+   "name": "Falco Flashman",
+   "short": "Flashman",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 157,
+   "tp": 124,
+   "stats": {
+    "kick": 71,
+    "body": 57,
+    "control": 54,
+    "guard": 54,
+    "speed": 77,
+    "stamina": 63,
+    "guts": 55
+   },
+   "moves": [
+    "parkour-attack",
+    "air-ride",
+    "heaven-drive"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Matatagi Hayato",
+   "description": "Posee una velocidad tan rápida como la de una ráfaga de viento."
+  },
+  {
+   "id": "zack-avalon",
+   "name": "Zack Avalon",
+   "short": "Zack",
+   "number": 18,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 134,
+   "stats": {
+    "kick": 79,
+    "body": 72,
+    "control": 54,
+    "guard": 65,
+    "speed": 52,
+    "stamina": 79,
+    "guts": 60
+   },
+   "moves": [
+    "kabuki-break",
+    "storm-zone",
+    "great-max-na-ore"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ichikawa Zanakurou",
+   "description": "Maestro en el teatro kabuki. Mark le convenció de unirse al equipo."
+  },
+  {
+   "id": "jean-pierre-lapin",
+   "name": "Jean-Pierre Lapin",
+   "short": "Jean-Pierre",
+   "number": 20,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 117,
+   "tp": 140,
+   "stats": {
+    "kick": 47,
+    "body": 60,
+    "control": 56,
+    "guard": 67,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 51
+   },
+   "moves": [
+    "burning-catch",
+    "buttobi-punch",
+    "mugen-the-hand",
+    "ginga-rocket",
+    "kattobi-defense"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nishizono Shinsuke",
+   "description": "Un chico lleno de energía que ahora defiende la portería del Raimon."
+  }
+ ]
+}

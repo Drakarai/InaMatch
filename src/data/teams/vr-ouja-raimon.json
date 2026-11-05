@@ -1,0 +1,528 @@
+{
+ "id": "vr-ouja-raimon",
+ "season": "vr",
+ "wiki": "Ouja Raimon",
+ "name": "Ouja Raimon",
+ "short": "OUJ",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "zander-warmington",
+   "name": "Zander Warmington",
+   "short": "Zander",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "god-hand-tiger",
+    "nekketsu-punch",
+    "bakuretsu-punch",
+    "million-hands"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Dantouya Kanata",
+   "description": "Joven fogoso que siempre grita \"¡No lo intentes, hazlo!\" a sus compañeros."
+  },
+  {
+   "id": "viorain-maleby",
+   "name": "Viorain Maleby",
+   "short": "Viorain",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "coil-upper",
+    "kage-nui",
+    "demon-cut",
+    "maboroshi-dribble"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shigure Yuusuke",
+   "description": "Joven sumido en un pozo de negatividad. A veces suele brindar buenas ideas."
+  },
+  {
+   "id": "clement-mariner",
+   "name": "Clement Mariner",
+   "short": "Clement",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "naminori-pierrot",
+    "air-bullet",
+    "go-to-heaven",
+    "air-ride"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tenguuji Rei",
+   "description": "Experto nadador de gran corazón. Siempre aprovecha para descamisarse."
+  },
+  {
+   "id": "boone-wretman",
+   "name": "Boone Wretman",
+   "short": "Boone",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "the-tower",
+    "senpuujin",
+    "go-to-heaven",
+    "soyokaze-step"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Toono Zenya",
+   "description": "Joven calculador al que no se le da demasiado bien la improvisación."
+  },
+  {
+   "id": "jazmine-carmine",
+   "name": "Jazmine Carmine",
+   "short": "Jazmine",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "soyokaze-step",
+    "round-spark",
+    "the-ikaros",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Akasode Matsuri",
+   "description": "Chica que, contrariamente a su nombre, tiene una actitud bastante sombría. Extrañamente, siempre se le ve en todas las fiestas."
+  },
+  {
+   "id": "colton-sharps",
+   "name": "Colton Sharps",
+   "short": "Colton",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "koutei-penguin-2gou",
+    "trick-ball",
+    "olympus-harmony",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kido Satoru",
+   "description": "Joven que siente un gran respeto por , cuyo apellido es parecido. ."
+  },
+  {
+   "id": "maddock-jackson",
+   "name": "Maddock Jackson",
+   "short": "Maddock",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "bahamut-crash",
+    "heat-tackle",
+    "the-ikaros",
+    "lightning-accel"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Arashi Daisuke",
+   "description": "Joven de fuerte temperamento, pero en el fondo tiene buen corazón."
+  },
+  {
+   "id": "eleanor-estrella",
+   "name": "Eleanor Estrella",
+   "short": "Eleanor",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "sky-walk",
+    "bunshin-feint",
+    "killer-fields",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hoshimura Nao",
+   "description": "Friki del fútbol y una fan incondicional de su compañero ."
+  },
+  {
+   "id": "darian-moonward",
+   "name": "Darian Moonward",
+   "short": "Darian",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "presto-turn",
+    "heaven-s-time",
+    "kazaana-drive",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsukikage Ren",
+   "description": "El carismático capitán del club de fútbol Raimon. Tiene grandes dotes de liderazgo."
+  },
+  {
+   "id": "harper-evans",
+   "name": "Harper Evans",
+   "short": "Harper",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "meteodd-fire-tornado",
+    "inazuma-break",
+    "flame-dance",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Endou Haru",
+   "description": "Hijo del legendario futbolista . Sus habilidades impresionan."
+  },
+  {
+   "id": "talon-lewis",
+   "name": "Talon Lewis",
+   "short": "Talon",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "honoo-no-kazamidori",
+    "tsuutenkaku-shoot",
+    "hinawa-bullet",
+    "hitori-one-two"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Nogami Yuu",
+   "description": "Joven algo frío y antipático, pero que en realidad valora la camaradería."
+  },
+  {
+   "id": "nino-gamberini",
+   "name": "Nino Gamberini",
+   "short": "Nino",
+   "number": 12,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "flame-dance",
+    "rc-shoot",
+    "triangle-zz",
+    "hitori-one-two"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ebihara Natsuki",
+   "description": "Joven al que le encanta ver y jugar al fútbol, aunque sea de suplente."
+  },
+  {
+   "id": "hortensia-raintree",
+   "name": "Hortensia Raintree",
+   "short": "Hortensia",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "butterfly-dream",
+    "double-cyclone",
+    "perfect-tower",
+    "water-veil"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsuyusaki Tae",
+   "description": "Tiene tan mala suerte que parece estar embrujada, pero siempre se mantiene positiva y alegre."
+  },
+  {
+   "id": "milan-mcgrath",
+   "name": "Milan McGrath",
+   "short": "Milan",
+   "number": 14,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "bahamut-crash",
+    "profile-zone",
+    "perfect-tower",
+    "coil-turn"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Abuku Michiya",
+   "description": "Joven propenso a lesionarse que siempre anima al equipo con su actitud positiva."
+  },
+  {
+   "id": "kaeo-springfield",
+   "name": "Kaeo Springfield",
+   "short": "Kaeo",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "aurora-dribble",
+    "trick-ball",
+    "killer-fields",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kasuga Reo",
+   "description": "Joven que desprende un aire de debilidad que le hace parecer enfermo."
+  },
+  {
+   "id": "matilda-shadebough",
+   "name": "Matilda Shadebough",
+   "short": "Matilda",
+   "number": 20,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 45,
+    "body": 60,
+    "control": 40,
+    "guard": 80,
+    "speed": 45,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "megami-tairiku",
+    "fence-of-gaia",
+    "god-hand",
+    "god-catch"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sigdo Mama",
+   "description": "Chica que adora La epopeya de Sigdale. Lo considera su libro de referencia."
+  }
+ ]
+}

@@ -1,0 +1,510 @@
+{
+ "id": "go-henkaku-no-teikoku",
+ "season": "go",
+ "wiki": "Henkaku no Teikoku",
+ "name": "Royal Academy (GO)",
+ "short": "HEN",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-neo-death-zone",
+ "players": [
+  {
+   "id": "preston-princeton",
+   "name": "Preston Princeton",
+   "short": "Preston",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 117,
+   "tp": 174,
+   "stats": {
+    "kick": 55,
+    "body": 53,
+    "control": 55,
+    "guard": 69,
+    "speed": 53,
+    "stamina": 47,
+    "guts": 52
+   },
+   "moves": [
+    "power-spike",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Miyabino Reiichi",
+   "description": "Sus paradas son tan espectaculares como seguras. Encaja pocos goles."
+  },
+  {
+   "id": "dracon-yale",
+   "name": "Dracon Yale",
+   "short": "Dracon",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 123,
+   "tp": 113,
+   "stats": {
+    "kick": 45,
+    "body": 70,
+    "control": 45,
+    "guard": 63,
+    "speed": 53,
+    "stamina": 57,
+    "guts": 69
+   },
+   "moves": [
+    "sargasso",
+    "britannia-cross",
+    "koutei-penguin-7",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ryuuzaki Ouji",
+   "description": "Un defensa muy completo: fuerte, rápido e incluso con buena técnica."
+  },
+  {
+   "id": "duke-dartmouth",
+   "name": "Duke Dartmouth",
+   "short": "Duke",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 184,
+   "tp": 121,
+   "stats": {
+    "kick": 63,
+    "body": 34,
+    "control": 59,
+    "guard": 60,
+    "speed": 53,
+    "stamina": 76,
+    "guts": 53
+   },
+   "moves": [
+    "sargasso",
+    "twin-mixer",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ootaki Tonoo",
+   "description": "Los rivales lo pasan mal cuando intentan superar su férrea defensa."
+  },
+  {
+   "id": "cameron-cambridge",
+   "name": "Cameron Cambridge",
+   "short": "Cameron",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 104,
+   "tp": 157,
+   "stats": {
+    "kick": 55,
+    "body": 65,
+    "control": 65,
+    "guard": 47,
+    "speed": 74,
+    "stamina": 54,
+    "guts": 59
+   },
+   "moves": [
+    "sargasso",
+    "koutei-penguin-7",
+    "presto-turn"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Narita Kenya",
+   "description": "Este versátil jugador sabe adaptar su juego a las exigencias de la situación."
+  },
+  {
+   "id": "baron-oxford",
+   "name": "Baron Oxford",
+   "short": "Baron",
+   "number": 8,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 155,
+   "stats": {
+    "kick": 83,
+    "body": 50,
+    "control": 56,
+    "guard": 36,
+    "speed": 51,
+    "stamina": 55,
+    "guts": 58
+   },
+   "moves": [
+    "britannia-cross",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kabata Taruhiko",
+   "description": "Muestra una convicción casi fanática en la superioridad de su equipo."
+  },
+  {
+   "id": "earl-eton",
+   "name": "Earl Eton",
+   "short": "Earl",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 110,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 65,
+    "control": 50,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 53,
+    "guts": 61
+   },
+   "moves": [
+    "dash-train",
+    "sargasso",
+    "britannia-cross",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Itsuki Katsumasa",
+   "description": "Entra sobre los rivales como un tren de mercancías."
+  },
+  {
+   "id": "caesar-cornell",
+   "name": "Caesar Cornell",
+   "short": "Caesar",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 112,
+   "tp": 154,
+   "stats": {
+    "kick": 53,
+    "body": 90,
+    "control": 43,
+    "guard": 62,
+    "speed": 49,
+    "stamina": 51,
+    "guts": 55
+   },
+   "moves": [
+    "britannia-cross",
+    "sargasso",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Asukaji Sakuya",
+   "description": "Nunca baja de revoluciones, tampoco frente a rivales débiles o lesionados."
+  },
+  {
+   "id": "hampton-harvard",
+   "name": "Hampton Harvard",
+   "short": "Hampton",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 151,
+   "tp": 146,
+   "stats": {
+    "kick": 50,
+    "body": 50,
+    "control": 45,
+    "guard": 44,
+    "speed": 76,
+    "stamina": 58,
+    "guts": 57
+   },
+   "moves": [
+    "britannia-cross",
+    "kattobi-defense",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Horasawa Shuuji",
+   "description": "Un chico listo que con su carácter tranquilo sabe aliviar tensiones."
+  },
+  {
+   "id": "colby-columbia",
+   "name": "Colby Columbia",
+   "short": "Colby",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 109,
+   "tp": 144,
+   "stats": {
+    "kick": 67,
+    "body": 64,
+    "control": 47,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 59
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "thief-eye",
+    "burning-summer",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Itsumi Kunihiko",
+   "description": "No se le escapa ningún defecto o desliz del rival."
+  },
+  {
+   "id": "rex-remington",
+   "name": "Rex Remington",
+   "short": "Rex",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 104,
+   "tp": 144,
+   "stats": {
+    "kick": 60,
+    "body": 75,
+    "control": 64,
+    "guard": 63,
+    "speed": 49,
+    "stamina": 50,
+    "guts": 56
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mikado Haruma",
+   "description": "No necesita gritos ni fuerza para intimidar. Con la mirada le basta."
+  },
+  {
+   "id": "wenceslas-wales",
+   "name": "Wenceslas Wales",
+   "short": "Wenceslas",
+   "number": 15,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 170,
+   "tp": 142,
+   "stats": {
+    "kick": 45,
+    "body": 64,
+    "control": 58,
+    "guard": 47,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "death-sword",
+    "bound-flame",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hanamura Kaoru",
+   "description": "Practica un fútbol sólido y fiable, con buenos fundamentos teóricos."
+  },
+  {
+   "id": "sterling-stanford",
+   "name": "Sterling Stanford",
+   "short": "Sterling",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 163,
+   "stats": {
+    "kick": 50,
+    "body": 66,
+    "control": 65,
+    "guard": 59,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 61
+   },
+   "moves": [
+    "britannia-cross",
+    "perfect-course",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sasaki Iwao",
+   "description": "Es tan estricto con las reglas que lo llaman \"el sargento de la vara\"."
+  },
+  {
+   "id": "fred-featherstonhaugh",
+   "name": "Fred Featherstonhaugh",
+   "short": "Fred",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 158,
+   "tp": 159,
+   "stats": {
+    "kick": 57,
+    "body": 51,
+    "control": 53,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 60,
+    "guts": 57
+   },
+   "moves": [
+    "rapid-whip",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mashira Kadoteru",
+   "description": "Pese a su gran tamaño es muy ágil, aunque bastante descuidado."
+  },
+  {
+   "id": "arthur-ascot",
+   "name": "Arthur Ascot",
+   "short": "Arthur",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 182,
+   "tp": 157,
+   "stats": {
+    "kick": 46,
+    "body": 66,
+    "control": 70,
+    "guard": 46,
+    "speed": 67,
+    "stamina": 53,
+    "guts": 53
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "britannia-cross",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Nakamura Michiru",
+   "description": "Un diamante en bruto, pero su mala actitud no le permite mejorar."
+  },
+  {
+   "id": "stuart-st-john",
+   "name": "Stuart St John",
+   "short": "Stuart",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 143,
+   "tp": 209,
+   "stats": {
+    "kick": 42,
+    "body": 48,
+    "control": 59,
+    "guard": 33,
+    "speed": 89,
+    "stamina": 53,
+    "guts": 53
+   },
+   "moves": [
+    "the-mist",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kasumino Jinta",
+   "description": "Sus tiros con efecto sorprenden al rival, pero su juego es algo irregular."
+  },
+  {
+   "id": "yorick-york",
+   "name": "Yorick York",
+   "short": "Yorick",
+   "number": 16,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 117,
+   "stats": {
+    "kick": 45,
+    "body": 48,
+    "control": 48,
+    "guard": 58,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "britannia-cross",
+    "zeroyon",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Oosugi Futoshi",
+   "description": "Impulsivo y temerario, sorprende incluso a sus compañeros de equipo."
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "id": "vr-hokuyou-gakuen",
+ "season": "vr",
+ "wiki": "Hokuyou Gakuen",
+ "name": "Secundaria Northbright",
+ "short": "HOK",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "milo-rankin",
+   "name": "Milo Rankin",
+   "short": "Milo",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 162,
+   "tp": 158,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 67,
+    "guard": 75,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 69
+   },
+   "moves": [
+    "gravity-desert",
+    "shoot-pocket",
+    "rocket-kobushi",
+    "gravity-point"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jinnai Gohei",
+   "description": "Joven macarra, muy bruto en las formas, pero con un fuerte sentido de rectitud."
+  },
+  {
+   "id": "peake-fletcher",
+   "name": "Peake Fletcher",
+   "short": "Peake",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "the-matrix",
+    "jibashiri-kaen",
+    "naraku-otoshi",
+    "condor-dive"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yagura Takajin",
+   "description": "Jugador equilibrado que, gracias a su altura, destaca por sus remates de cabeza."
+  },
+  {
+   "id": "sentry-scarborough",
+   "name": "Sentry Scarborough",
+   "short": "Sentry",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "mega-quake",
+    "overglow",
+    "atlantis-wall",
+    "iron-wall"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jouhekidou Sanpei",
+   "description": "Joven que en el campo de juego es conocido como el \"Genio Amurallado\"."
+  },
+  {
+   "id": "autry-rogers",
+   "name": "Autry Rogers",
+   "short": "Autry",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "overglow",
+    "dash-accel",
+    "zigzag-flame",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yarisaki Yuuji",
+   "description": "Joven que en el campo de juego es conocido como el \"Genio Amurallado\"."
+  },
+  {
+   "id": "bodhi-field",
+   "name": "Bodhi Field",
+   "short": "Bodhi",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "the-matrix",
+    "kung-fu-head",
+    "hitori-one-two",
+    "monkey-turn"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tonda Mannen",
+   "description": "Joven monje que ha incorporado artes marciales a sus técnicas futbolísticas."
+  },
+  {
+   "id": "chase-winthrop",
+   "name": "Chase Winthrop",
+   "short": "Chase",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "spinning-cut",
+    "overglow",
+    "blade-attack",
+    "patriot-shoot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hohira Ayumu",
+   "description": "Chico al que no se le dan bien los deportes, pero sí el trabajo duro."
+  },
+  {
+   "id": "hawky-savard",
+   "name": "Hawky Savard",
+   "short": "Hawky",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "overglow",
+    "the-matrix",
+    "freeze-shot",
+    "spark-edge-dribble"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kishibe Towa",
+   "description": "Chica de corte tradicional. Su elegancia y su dinamismo forman parte de su encanto."
+  },
+  {
+   "id": "taliesin-greenhunt",
+   "name": "Taliesin Greenhunt",
+   "short": "Taliesin",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "overglow",
+    "the-matrix",
+    "fake-ball",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shinkari Eito",
+   "description": "Joven cuyo rasgos afilados y mirada penetrante engatusan a sus rivales."
+  },
+  {
+   "id": "ivan-mercer",
+   "name": "Ivan Mercer",
+   "short": "Ivan",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "overglow",
+    "patriot-shoot",
+    "the-matrix",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shinano Masashi",
+   "description": "Estratega con una amplia gama de enfoques y un poder de persuasión inusual."
+  },
+  {
+   "id": "erdem-barath",
+   "name": "Erdem Barath",
+   "short": "Erdem",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "shine-drive",
+    "overglow",
+    "the-matrix",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tomobe Jin",
+   "description": "Joven apuesto y maduro, muy popular entre las chicas. Sabe mantener la compostura."
+  },
+  {
+   "id": "nikas-himmelstein",
+   "name": "Nikas Himmelstein",
+   "short": "Nikas",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "sunshine-blade",
+    "overglow",
+    "the-matrix",
+    "fire-tornado"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Soramiya Sei",
+   "description": "Un delantero que destaca por sus habilidades. Se emociona con facilidad."
+  },
+  {
+   "id": "hugh-pronghorn",
+   "name": "Hugh Pronghorn",
+   "short": "Hugh",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "cross-drive",
+    "the-matrix",
+    "ballista-shot",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yasha Mitsutoshi",
+   "description": "Suplente con un excelente ojo táctico capaz de predecir toda clase de jugadas."
+  },
+  {
+   "id": "everett-shipman",
+   "name": "Everett Shipman",
+   "short": "Everett",
+   "number": 13,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "overglow",
+    "zigzag-spark",
+    "harvest",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sensha Susumu",
+   "description": "Joven que suple su lentitud a base de fuerza bruta. No le tiene miedo a nada."
+  },
+  {
+   "id": "armin-marshall",
+   "name": "Armin Marshall",
+   "short": "Armin",
+   "number": 14,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 162,
+   "tp": 158,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 67,
+    "guard": 75,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 69
+   },
+   "moves": [
+    "rocket-kobushi",
+    "bakuretsu-punch",
+    "burnout",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mutou Gunpei",
+   "description": "Buen saltador, con una gran confianza en el juego aéreo y en sus enormes brazos."
+  },
+  {
+   "id": "conley-quiver",
+   "name": "Conley Quiver",
+   "short": "Conley",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "the-matrix",
+    "hurricane-arrow",
+    "quick-draw",
+    "future-eye"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sanbonya Motonari",
+   "description": "Joven con una capacidad inusual para maximizar el potencial de sus compañeros."
+  },
+  {
+   "id": "denzel-harvest",
+   "name": "Denzel Harvest",
+   "short": "Denzel",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "phantom-shoot",
+    "the-matrix",
+    "reflect-buster",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Taihou Ryuusuke",
+   "description": "Joven cuyos contundentes chutes a puerta son como los disparos de un cañón."
+  }
+ ]
+}

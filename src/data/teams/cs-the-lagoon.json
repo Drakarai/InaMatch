@@ -1,0 +1,525 @@
+{
+ "id": "cs-the-lagoon",
+ "season": "cs",
+ "wiki": "The Lagoon",
+ "name": "The Lagoon",
+ "short": "THE",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-lagoon",
+ "players": [
+  {
+   "id": "hippos-kohlt",
+   "name": "Hippos Kohlt",
+   "short": "Hippos",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 147,
+   "tp": 123,
+   "stats": {
+    "kick": 71,
+    "body": 75,
+    "control": 61,
+    "guard": 81,
+    "speed": 46,
+    "stamina": 54,
+    "guts": 57
+   },
+   "moves": [
+    "reverse-world",
+    "twin-mixer",
+    "burai-hand"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hos",
+   "description": "Cuando se pone ante la portería, es como un caballo desbocado."
+  },
+  {
+   "id": "anas-eidah",
+   "name": "Anas Eidah",
+   "short": "Anas",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 112,
+   "stats": {
+    "kick": 54,
+    "body": 64,
+    "control": 49,
+    "guard": 72,
+    "speed": 53,
+    "stamina": 66,
+    "guts": 67
+   },
+   "moves": [
+    "grand-sweeper",
+    "spring-arrow",
+    "the-wall",
+    "atlantis-wall"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Dak",
+   "description": "Aquel que se enfrente a este robusto defensa tendrá que pagar el pato."
+  },
+  {
+   "id": "djung-hamstah",
+   "name": "Djung Hamstah",
+   "short": "Djung",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 135,
+   "tp": 119,
+   "stats": {
+    "kick": 52,
+    "body": 67,
+    "control": 56,
+    "guard": 70,
+    "speed": 67,
+    "stamina": 58,
+    "guts": 64
+   },
+   "moves": [
+    "grand-sweeper",
+    "coil-upper",
+    "linear-drive",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hams",
+   "description": "Un defensa veloz como un hámster que hace inexpugnable su portería."
+  },
+  {
+   "id": "ewa-mouton",
+   "name": "Ewa Mouton",
+   "short": "Ewa",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 101,
+   "tp": 125,
+   "stats": {
+    "kick": 52,
+    "body": 62,
+    "control": 54,
+    "guard": 67,
+    "speed": 78,
+    "stamina": 56,
+    "guts": 63
+   },
+   "moves": [
+    "grand-sweeper",
+    "senpuujin",
+    "zeroyon"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sheep",
+   "description": "Aunque su defensa es impecable es mansa como un corderillo."
+  },
+  {
+   "id": "katya-felis",
+   "name": "Katya Felis",
+   "short": "Katya",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 143,
+   "stats": {
+    "kick": 67,
+    "body": 67,
+    "control": 79,
+    "guard": 66,
+    "speed": 64,
+    "stamina": 59,
+    "guts": 63
+   },
+   "moves": [
+    "storm-zone",
+    "screwdriver",
+    "love-arrow",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Nike",
+   "description": "Le encanta jugar al gato y al ratón con sus contrincantes."
+  },
+  {
+   "id": "macah-psitta",
+   "name": "Macah Psitta",
+   "short": "Macah",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 170,
+   "tp": 99,
+   "stats": {
+    "kick": 63,
+    "body": 71,
+    "control": 67,
+    "guard": 69,
+    "speed": 59,
+    "stamina": 73,
+    "guts": 53
+   },
+   "moves": [
+    "storm-zone",
+    "fire-tornado",
+    "bakunetsu-screw",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Omu",
+   "description": "Repite todo lo que le dicen como un loro y adora las galletas."
+  },
+  {
+   "id": "mehr",
+   "name": "Mehr",
+   "short": "Mehr",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 143,
+   "stats": {
+    "kick": 68,
+    "body": 63,
+    "control": 81,
+    "guard": 61,
+    "speed": 69,
+    "stamina": 59,
+    "guts": 70
+   },
+   "moves": [
+    "dead-future",
+    "fuujin-no-mai",
+    "the-tower",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Meia",
+   "description": "Todos los integrantes de Nu-Gen conocen a la capitana del Gir."
+  },
+  {
+   "id": "ghiris",
+   "name": "Ghiris",
+   "short": "Ghiris",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 106,
+   "stats": {
+    "kick": 70,
+    "body": 57,
+    "control": 70,
+    "guard": 66,
+    "speed": 51,
+    "stamina": 64,
+    "guts": 55
+   },
+   "moves": [
+    "dead-future",
+    "dimension-cut",
+    "britannia-cross",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Giris",
+   "description": "El novio de Mehr solo tiene ojos para ella."
+  },
+  {
+   "id": "folie-vora",
+   "name": "Folie Vora",
+   "short": "Folie",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 119,
+   "tp": 124,
+   "stats": {
+    "kick": 61,
+    "body": 65,
+    "control": 61,
+    "guard": 59,
+    "speed": 57,
+    "stamina": 58,
+    "guts": 64
+   },
+   "moves": [
+    "storm-zone",
+    "burning-summer",
+    "love-arrow",
+    "bungee-thrust"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fetta",
+   "description": "Cumple con la ley del mínimo esfuerzo y se echa siestas de varias horas."
+  },
+  {
+   "id": "simeon-ayp",
+   "name": "Simeon Ayp",
+   "short": "Simeon",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 134,
+   "stats": {
+    "kick": 77,
+    "body": 69,
+    "control": 71,
+    "guard": 65,
+    "speed": 59,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "shellbit-burst",
+    "decoy-release",
+    "dragon-blaster",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Saryuu Evan",
+   "description": "El líder de Nu-Gen. Su objetivo es dominar el mundo entero."
+  },
+  {
+   "id": "kyon-canis",
+   "name": "Kyon Canis",
+   "short": "Kyon",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 127,
+   "stats": {
+    "kick": 71,
+    "body": 62,
+    "control": 65,
+    "guard": 55,
+    "speed": 65,
+    "stamina": 55,
+    "guts": 64
+   },
+   "moves": [
+    "death-spear",
+    "spinning-upper",
+    "panther-blizzard",
+    "northern-impact"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Imus",
+   "description": "Este delantero se mueve como una fiera para sorprender a sus rivales."
+  },
+  {
+   "id": "sus-swihn",
+   "name": "Sus Swihn",
+   "short": "Sus",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 125,
+   "tp": 101,
+   "stats": {
+    "kick": 50,
+    "body": 67,
+    "control": 86,
+    "guard": 48,
+    "speed": 61,
+    "stamina": 45,
+    "guts": 46
+   },
+   "moves": [
+    "storm-zone",
+    "transmove",
+    "spring-arrow"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Pig",
+   "description": "Cuando se lanza a la carga, es como un jabalí en estampida."
+  },
+  {
+   "id": "siid-sinapis",
+   "name": "Siid Sinapis",
+   "short": "Siid",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 114,
+   "stats": {
+    "kick": 58,
+    "body": 52,
+    "control": 60,
+    "guard": 75,
+    "speed": 54,
+    "stamina": 65,
+    "guts": 54
+   },
+   "moves": [
+    "reverse-world",
+    "rapid-whip",
+    "hydro-anchor",
+    "fence-of-gaia"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Woods",
+   "description": "De pequeño era diminuto, pero ha pegado un estirón de espanto."
+  },
+  {
+   "id": "pelta-chincha",
+   "name": "Pelta Chincha",
+   "short": "Pelta",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 109,
+   "tp": 132,
+   "stats": {
+    "kick": 56,
+    "body": 60,
+    "control": 60,
+    "guard": 59,
+    "speed": 62,
+    "stamina": 58,
+    "guts": 66
+   },
+   "moves": [
+    "grand-sweeper",
+    "naminori-pierrot",
+    "spiral-draw",
+    "sargasso"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Peco",
+   "description": "Le encanta escribir cartas, pero no las manda nunca por vergüenza."
+  },
+  {
+   "id": "lieva-snoshu",
+   "name": "Lieva Snoshu",
+   "short": "Lieva",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 105,
+   "tp": 116,
+   "stats": {
+    "kick": 57,
+    "body": 61,
+    "control": 59,
+    "guard": 59,
+    "speed": 62,
+    "stamina": 52,
+    "guts": 60
+   },
+   "moves": [
+    "storm-zone",
+    "spinning-transam",
+    "ice-ground",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Alica",
+   "description": "Tiene el pelo muy bonito, pero si le da un arrebato no duda en cortárselo."
+  },
+  {
+   "id": "russo-rosmarus",
+   "name": "Russo Rosmarus",
+   "short": "Russo",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 114,
+   "stats": {
+    "kick": 67,
+    "body": 60,
+    "control": 64,
+    "guard": 46,
+    "speed": 47,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "gigaton-head",
+    "sidewinder",
+    "viva-banri-no-choujou",
+    "serpent-fang"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Demeg",
+   "description": "Es capaz de robarles el balón a sus oponentes sin que se den cuenta."
+  }
+ ]
+}

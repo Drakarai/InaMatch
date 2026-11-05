@@ -1,0 +1,389 @@
+{
+ "id": "gx-big-waves-go",
+ "season": "gx",
+ "wiki": "Big Waves (GO)",
+ "name": "Big Waves (GO)",
+ "short": "BWG",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-ocean-dive",
+ "players": [
+  {
+   "id": "jude-gordon",
+   "name": "Jude Gordon",
+   "short": "Jude",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 123,
+   "tp": 99,
+   "stats": {
+    "kick": 50,
+    "body": 66,
+    "control": 51,
+    "guard": 64,
+    "speed": 55,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "crocodile-fang",
+    "shoot-pocket",
+    "hydro-anchor"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Jude Gordon",
+   "description": "Hay un mito que dice que nadó de lado a lado un arrecife de coral."
+  },
+  {
+   "id": "owe-noyster",
+   "name": "Owe Noyster",
+   "short": "Owe",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 91,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 55,
+    "guard": 59,
+    "speed": 45,
+    "stamina": 57,
+    "guts": 66
+   },
+   "moves": [
+    "willy-willy",
+    "the-mist",
+    "kage-tsukami"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Owen Easter",
+   "description": "Se alimenta con pan y un poco de la comida de sus compañeros."
+  },
+  {
+   "id": "whaly-walker",
+   "name": "Whaly Walker",
+   "short": "Whaly",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 135,
+   "tp": 95,
+   "stats": {
+    "kick": 60,
+    "body": 47,
+    "control": 56,
+    "guard": 62,
+    "speed": 47,
+    "stamina": 69,
+    "guts": 56
+   },
+   "moves": [
+    "willy-willy",
+    "rapid-whip",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hall Ales",
+   "description": "Se dedica a peinarse durante los partidos, ya que le incomoda su pelo."
+  },
+  {
+   "id": "sunny-fishton",
+   "name": "Sunny Fishton",
+   "short": "Sunny",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 105,
+   "stats": {
+    "kick": 58,
+    "body": 59,
+    "control": 59,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 44,
+    "guts": 50
+   },
+   "moves": [
+    "willy-willy",
+    "shippuu-dash",
+    "air-ride"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Herman Beaumont",
+   "description": "Come 2 kg de filete todos los días. En el descanso come pasteles de carne."
+  },
+  {
+   "id": "clem-chowdry",
+   "name": "Clem Chowdry",
+   "short": "Clem",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 115,
+   "tp": 101,
+   "stats": {
+    "kick": 46,
+    "body": 58,
+    "control": 48,
+    "guard": 63,
+    "speed": 70,
+    "stamina": 48,
+    "guts": 60
+   },
+   "moves": [
+    "willy-willy",
+    "presto-turn",
+    "strike-samba"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Clam Childs",
+   "description": "Es muy fan de una serie de animación australiana llamada \"Koala Diverman\"."
+  },
+  {
+   "id": "oscar-squidows",
+   "name": "Oscar Squidows",
+   "short": "Oscar",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 150,
+   "tp": 95,
+   "stats": {
+    "kick": 63,
+    "body": 57,
+    "control": 63,
+    "guard": 52,
+    "speed": 56,
+    "stamina": 53,
+    "guts": 64
+   },
+   "moves": [
+    "kangaroo-kick",
+    "megalodon",
+    "willy-willy"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Skwid White",
+   "description": "Mediocentro de moda del Big Waves. Se cree que es el novio de Marsha."
+  },
+  {
+   "id": "marsha-ark",
+   "name": "Marsha Ark",
+   "short": "Marsha",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "kangaroo-kick",
+    "kumo-no-ito",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Marsha Ark",
+   "description": "Estudia biología y tiene bastante influencia en el equipo."
+  },
+  {
+   "id": "cole",
+   "name": "Cole",
+   "short": "Cole",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 160,
+   "tp": 106,
+   "stats": {
+    "kick": 67,
+    "body": 69,
+    "control": 66,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 58,
+    "guts": 58
+   },
+   "moves": [
+    "kangaroo-kick",
+    "megalodon",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Cole LaRuze",
+   "description": "Capitán del Big Waves y reconocido surfista profesional."
+  },
+  {
+   "id": "amanda-ray",
+   "name": "Amanda Ray",
+   "short": "Amanda",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 105,
+   "tp": 147,
+   "stats": {
+    "kick": 65,
+    "body": 54,
+    "control": 61,
+    "guard": 62,
+    "speed": 64,
+    "stamina": 44,
+    "guts": 68
+   },
+   "moves": [
+    "kangaroo-kick",
+    "good-smell",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Amanda Turner",
+   "description": "Es la más madura del equipo y regaña a sus compañeros más traviesos."
+  },
+  {
+   "id": "lob-stark",
+   "name": "Lob Stark",
+   "short": "Lob",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 122,
+   "stats": {
+    "kick": 63,
+    "body": 49,
+    "control": 58,
+    "guard": 44,
+    "speed": 51,
+    "stamina": 66,
+    "guts": 63
+   },
+   "moves": [
+    "megalodon",
+    "abisegeri",
+    "death-drop"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rob Stark",
+   "description": "Es alérgicos a los crustáceos, así que nunca ha probado una langosta."
+  },
+  {
+   "id": "octa",
+   "name": "Octa",
+   "short": "Octa",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 120,
+   "stats": {
+    "kick": 61,
+    "body": 56,
+    "control": 57,
+    "guard": 63,
+    "speed": 64,
+    "stamina": 59,
+    "guts": 65
+   },
+   "moves": [
+    "megalodon",
+    "flying-fish",
+    "the-typhoon"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Octa Persun",
+   "description": "Su hobby es jugar con un boomerang. Todos sus ancestros son australianos."
+  },
+  {
+   "id": "orlando-sherman",
+   "name": "Orlando Sherman",
+   "short": "Orlando",
+   "number": 12,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "megalodon",
+    "big-scissors",
+    "water-veil",
+    "sargasso"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Orlando Sherman",
+   "description": "Entrenador de los Big Waves- ¿Qué tipo de estrategias lanzará con su equipo?."
+  }
+ ]
+}

@@ -1,0 +1,496 @@
+{
+ "id": "orion-eternal-dancers",
+ "season": "orion",
+ "wiki": "Eternal Dancers",
+ "name": "Eternal Dancers",
+ "short": "ETE",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-4-5-1",
+ "players": [
+  {
+   "id": "bolero-salimov",
+   "name": "Bolero Salimov",
+   "short": "Bolero",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "boukyaku-no-sonata",
+    "aurora-curtain",
+    "moonsault-stamp",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Alek Akbar",
+   "description": "Le quita la fuerza a los tiros con melodías preciosas y lo compara todo con la música."
+  },
+  {
+   "id": "kizomba-zakharov",
+   "name": "Kizomba Zakharov",
+   "short": "Kizomba",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "horn-train",
+    "elephant-press",
+    "blade-attack",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ibrohim Abi",
+   "description": "El orgullo y el desprecio alimentan cada entrada feroz con la que barre a los rivales."
+  },
+  {
+   "id": "rumba-mansurov",
+   "name": "Rumba Mansurov",
+   "short": "Rumba",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "horn-train",
+    "elephant-press",
+    "hurricane-arrow",
+    "heat-tackle"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Muhammad Hawk",
+   "description": "Implacable y estoico hasta el extremo, sostiene la defensa como un muro indestructible."
+  },
+  {
+   "id": "merengue-muratov",
+   "name": "Merengue Muratov",
+   "short": "Merengue",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "elephant-press",
+    "vanishing-cut",
+    "scissors-bomb",
+    "horn-train"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Majid Azer",
+   "description": "Enmascarado e intimidante, inspira confianza por su lealtad feroz al equipo."
+  },
+  {
+   "id": "chacha-goncharov",
+   "name": "Chacha Goncharov",
+   "short": "Chacha",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "vanishing-cut",
+    "fuujin-no-mai",
+    "spinning-cut",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zafar Gin",
+   "description": "Enseña unos dientes de sierra y se cuela entre los defensas con una velocidad asombrosa."
+  },
+  {
+   "id": "hulan-nazarova",
+   "name": "Hulan Nazarova",
+   "short": "Hulan",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "scissors-bomb",
+    "liar-shot",
+    "naminori-pierrot",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kumush Ize",
+   "description": "Tiene la lengua afilada con sus amigos y de inofensivo no tiene nada, por mucho que ponga cara de inocente."
+  },
+  {
+   "id": "polkan-ismailov",
+   "name": "Polkan Ismailov",
+   "short": "Polkan",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "the-stamp",
+    "horn-train",
+    "elephant-press",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sarybek Nahar",
+   "description": "Una auténtica dinamo de energía pura que impulsa al trío llameante con esprints imparables."
+  },
+  {
+   "id": "jazzar-belikov",
+   "name": "Jazzar Belikov",
+   "short": "Jazzar",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "the-stamp",
+    "horn-train",
+    "elephant-press",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Farhad Gilik",
+   "description": "Admira a Polkan como a un hermano; actúa por instinto y se mueve antes de pensar."
+  },
+  {
+   "id": "limbo-zakharov",
+   "name": "Limbo Zakharov",
+   "short": "Limbo",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "the-stamp",
+    "elephant-press",
+    "horn-train",
+    "dual-pass"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mo'habbot Zark",
+   "description": "Avanza sin frenos y rompe las líneas rivales junto a Polkan y Jazzar."
+  },
+  {
+   "id": "samba-sokolov",
+   "name": "Samba Sokolov",
+   "short": "Samba",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "requiem-dust",
+    "sprint-warp",
+    "diffuse-chord",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Onaxon Ims",
+   "description": "Un organizador de juego que lee el campo como un libro abierto y golpea con una precisión incansable y despiadada."
+  },
+  {
+   "id": "tango",
+   "name": "Tango",
+   "short": "Tango",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 250,
+   "tp": 216,
+   "stats": {
+    "kick": 15,
+    "body": 99,
+    "control": 15,
+    "guard": 99,
+    "speed": 99,
+    "stamina": 99,
+    "guts": 28
+   },
+   "moves": [
+    "requiem-dust",
+    "sprint-warp",
+    "diffuse-chord",
+    "gungnir"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Dost Gales",
+   "description": "Sus jugadas se desarrollan como una gran ópera, llenas de estilo, mientras se burla del portero rival."
+  },
+  {
+   "id": "cancan-popov",
+   "name": "Cancan Popov",
+   "short": "Cancan",
+   "number": 14,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "requiem-dust",
+    "air-ride",
+    "fuusen-gum",
+    "parkour-attack"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Norkul Bugen",
+   "description": "Con reflejos felinos, capta cada cambio en el juego de sus compañeros."
+  },
+  {
+   "id": "ballet-burkhanov",
+   "name": "Ballet Burkhanov",
+   "short": "Ballet",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "requiem-dust",
+    "sprint-warp",
+    "diffuse-chord",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Adam Sanchi",
+   "description": "La mánager de los Eternal Dancers domina cada partido con un aguante infinito y un control milimétrico."
+  },
+  {
+   "id": "carrie-ogrova",
+   "name": "Carrie Ogrova",
+   "short": "Carrie",
+   "number": 15,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "boukyaku-no-sonata",
+    "strike-samba",
+    "moonsault-stamp",
+    "bat-attack"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sabine Nojima",
+   "description": "Tranquilo y calculador, el entrenador de los Eternal Dancers observa el partido y da a Ballet instrucciones precisas."
+  },
+  {
+   "id": "bhangra-makarov",
+   "name": "Bhangra Makarov",
+   "short": "Bhangra",
+   "number": 16,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "horn-train",
+    "fuusen-gum",
+    "air-ride",
+    "the-stamp"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Keldi Rozel",
+   "description": "Bailarín y rapero de corazón, a veces se mueve al ritmo incluso en mitad de un partido."
+  }
+ ]
+}

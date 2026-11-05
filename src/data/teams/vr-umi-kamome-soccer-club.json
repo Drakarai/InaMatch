@@ -1,0 +1,528 @@
+{
+ "id": "vr-umi-kamome-soccer-club",
+ "season": "vr",
+ "wiki": "Umi Kamome Soccer Club",
+ "name": "Umi Kamome Soccer Club",
+ "short": "UKS",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-3-6-1",
+ "players": [
+  {
+   "id": "garrison-hayfield",
+   "name": "Garrison Hayfield",
+   "short": "Garrison",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "burning-catch",
+    "makiwari-chop",
+    "kattobi-defense",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tanomura Shousei",
+   "description": "Nunca se le ve con manga larga ni en invierno; tira adelante con fuerza bruta y empuje sin fin."
+  },
+  {
+   "id": "swae-talltree",
+   "name": "Swae Talltree",
+   "short": "Swae",
+   "number": 9,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "coil-turn",
+    "sargasso",
+    "spiral-draw",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tayutai Yurano",
+   "description": "Altísima y siempre balanceándose, se mueve como si estuviera en otro mundo, pero aun así se hace notar."
+  },
+  {
+   "id": "chilton-churner",
+   "name": "Chilton Churner",
+   "short": "Chilton",
+   "number": 10,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "shikofumi",
+    "frozen-steal",
+    "super-shikofumi",
+    "body-shield"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Himitani Aizou",
+   "description": "Un adicto al helado de máquina que ha ganado peso, pero de alguna forma está más fino en los partidos."
+  },
+  {
+   "id": "seon-gulliver",
+   "name": "Seon Gulliver",
+   "short": "Seon",
+   "number": 11,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "the-mist",
+    "aurora-dribble",
+    "freeze-shot",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Totogawa Theo",
+   "description": "Callado e indescifrable, pasa la mayor parte del día intentando hablar con las gaviotas con la mente."
+  },
+  {
+   "id": "plume-hathaway",
+   "name": "Plume Hathaway",
+   "short": "Plume",
+   "number": 3,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "shippuu-dash",
+    "sargasso",
+    "flying-fish",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Shishiba Yuuri",
+   "description": "Tiene un talento ridículo para todos los deportes, pero en secreto abraza peluches cuando nadie le ve."
+  },
+  {
+   "id": "carlton-lawstrom",
+   "name": "Carlton Lawstrom",
+   "short": "Carlton",
+   "number": 4,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "sonic-shot",
+    "spinning-shoot",
+    "water-veil",
+    "revolution-v"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mase Rihito",
+   "description": "El primero de su clase y muy fino en el campo, mira por encima del hombro en silencio a quien no le sigue el ritmo."
+  },
+  {
+   "id": "imogen-greenbourne",
+   "name": "Imogen Greenbourne",
+   "short": "Imogen",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "the-mist",
+    "maboroshi-dribble",
+    "thief-eye",
+    "sigma-zone"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nonomori Ema",
+   "description": "Le encanta leer y su imaginación se desboca en cuanto una idea para una historia despierta su curiosidad."
+  },
+  {
+   "id": "jewel-tremaine",
+   "name": "Jewel Tremaine",
+   "short": "Jewel",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "prima-donna",
+    "butterfly-dream",
+    "maboroshi-dribble",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kanameno Juria",
+   "description": "Con unos padres influencers y buen gusto para la moda, siempre va tras la próxima gran tendencia."
+  },
+  {
+   "id": "peridot-runehart",
+   "name": "Peridot Runehart",
+   "short": "Peridot",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "zanzou",
+    "presto-turn",
+    "future-eye",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hinaishi Noeru",
+   "description": "Obsesionada con la adivinación y los amuletos, jura por sus rituales con objetos antes de cada partido."
+  },
+  {
+   "id": "summers-laughlin",
+   "name": "Summers Laughlin",
+   "short": "Summers",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "heat-tackle",
+    "crazy-sunlight",
+    "run-ball-run",
+    "volcano-cut"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shounomiya Manatsu",
+   "description": "Vive para hacer reír y mantener la energía alta, aunque ningún chiste le salga bien."
+  },
+  {
+   "id": "kean-aimes",
+   "name": "Kean Aimes",
+   "short": "Kean",
+   "number": 2,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "grenade-shot",
+    "rocket-head",
+    "hitori-one-two",
+    "aim-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kudaira Eimu",
+   "description": "Un delantero con reflejos de jugón que se mide de tú a tú con adultos en cualquier juego de disparos."
+  },
+  {
+   "id": "reamond-lockhard",
+   "name": "Reamond Lockhard",
+   "short": "Reamond",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "back-tornado",
+    "naminori-pierrot",
+    "run-ball-run",
+    "flying-fish"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mikuraba Real",
+   "description": "Un fanático de las cartas que persigue las raras con los ojos brillantes y los bolsillos sin fondo."
+  },
+  {
+   "id": "beryl-granger",
+   "name": "Beryl Granger",
+   "short": "Beryl",
+   "number": 13,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "perfect-course",
+    "future-eye",
+    "spinning-shoot",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Saegusa Reira",
+   "description": "Seria y con sentido de la justicia, estudia cada jugada desde el banquillo como si estuviera instruyendo un caso."
+  },
+  {
+   "id": "quip-netley",
+   "name": "Quip Netley",
+   "short": "Quip",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "dash-accel",
+    "bunshin-defense",
+    "boomerang-feint",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Rokuroda Jousei",
+   "description": "Totalmente obsesionado con el fútbol, siempre está hablando de táctica aunque saque de quicio a su equipo."
+  },
+  {
+   "id": "kata-caballo",
+   "name": "Kata Caballo",
+   "short": "Kata",
+   "number": 15,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "bakuretsu-punch",
+    "flash-upper",
+    "capoeira-snatch",
+    "moonsault-stamp"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Asuma Kazusa",
+   "description": "Un karateka disciplinado que para los tiros con un instinto afilado y unos puños de hierro."
+  },
+  {
+   "id": "asuna-sugami",
+   "name": "Asuna Sugami",
+   "short": "Asuna",
+   "number": 20,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "naminori-pierrot",
+    "run-ball-run",
+    "angel-ball",
+    "god-knows"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sugami Asuna",
+   "description": "Con cara de ángel y un talento descomunal, fue la primera del equipo en desbloquear una técnica especial."
+  }
+ ]
+}

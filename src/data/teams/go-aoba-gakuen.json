@@ -1,0 +1,510 @@
+{
+ "id": "go-aoba-gakuen",
+ "season": "go",
+ "wiki": "Aoba Gakuen",
+ "name": "Ultramegahiedra",
+ "short": "AOB",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-blue-leaf",
+ "players": [
+  {
+   "id": "clem-attish",
+   "name": "Clem Attish",
+   "short": "Clem",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 158,
+   "stats": {
+    "kick": 56,
+    "body": 64,
+    "control": 66,
+    "guard": 29,
+    "speed": 59,
+    "stamina": 61,
+    "guts": 57
+   },
+   "moves": [
+    "rapid-whip",
+    "crystal-barrier",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shiyou Hanasaku",
+   "description": "Un defensa muy tozudo al que le gustan los días de lluvia."
+  },
+  {
+   "id": "pike-pollack",
+   "name": "Pike Pollack",
+   "short": "Pike",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 164,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 62,
+    "control": 57,
+    "guard": 56,
+    "speed": 58,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "spiral-draw",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Oomi Kunihiro",
+   "description": "Hijo de un experimentado pescador, da mucha caña en el campo de fútbol."
+  },
+  {
+   "id": "martin-blando",
+   "name": "Martin Blando",
+   "short": "Martin",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 117,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 55,
+    "guard": 51,
+    "speed": 57,
+    "stamina": 62,
+    "guts": 60
+   },
+   "moves": [
+    "zeroyon",
+    "spiral-draw",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Murasaki Yoshihiko",
+   "description": "Engaña al más pintado con su dominio de las expresiones faciales."
+  },
+  {
+   "id": "keane-gardner",
+   "name": "Keane Gardner",
+   "short": "Keane",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 117,
+   "tp": 156,
+   "stats": {
+    "kick": 56,
+    "body": 59,
+    "control": 55,
+    "guard": 51,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 59
+   },
+   "moves": [
+    "white-blade",
+    "ice-ground",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Koba Toshinori",
+   "description": "Es muy amable y le chifla la jardinería, en especial las flores silvestres."
+  },
+  {
+   "id": "tyrian-purpel",
+   "name": "Tyrian Purpel",
+   "short": "Tyrian",
+   "number": 2,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 156,
+   "stats": {
+    "kick": 55,
+    "body": 62,
+    "control": 51,
+    "guard": 61,
+    "speed": 52,
+    "stamina": 60,
+    "guts": 63
+   },
+   "moves": [
+    "sargasso",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sometani Tsutaru",
+   "description": "Su familia lleva una tienda de kimonos. Ha teñido los uniformes de su equipo."
+  },
+  {
+   "id": "shaun-bonce",
+   "name": "Shaun Bonce",
+   "short": "Shaun",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 163,
+   "stats": {
+    "kick": 50,
+    "body": 69,
+    "control": 51,
+    "guard": 49,
+    "speed": 74,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "naminori-pierrot",
+    "zeroyon",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Koiura Hajime",
+   "description": "Se hace trasquilones cada vez que le dan calabazas. Y así tiene la cabeza..."
+  },
+  {
+   "id": "penn-minim",
+   "name": "Penn Minim",
+   "short": "Penn",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 160,
+   "stats": {
+    "kick": 55,
+    "body": 79,
+    "control": 47,
+    "guard": 58,
+    "speed": 65,
+    "stamina": 58,
+    "guts": 62
+   },
+   "moves": [
+    "naminori-pierrot",
+    "koutei-penguin-7",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sumii Rei",
+   "description": "Experto estudiante de caligrafía, su concentración es imperturbable."
+  },
+  {
+   "id": "joshua-bleak",
+   "name": "Joshua Bleak",
+   "short": "Joshua",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 141,
+   "stats": {
+    "kick": 60,
+    "body": 59,
+    "control": 61,
+    "guard": 53,
+    "speed": 58,
+    "stamina": 58,
+    "guts": 58
+   },
+   "moves": [
+    "sonic-shot",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shian Haseru",
+   "description": "Un poeta muy romántico que, sin embargo, se transforma cuando juega."
+  },
+  {
+   "id": "hayden-whyrl",
+   "name": "Hayden Whyrl",
+   "short": "Hayden",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 168,
+   "tp": 143,
+   "stats": {
+    "kick": 57,
+    "body": 61,
+    "control": 63,
+    "guard": 53,
+    "speed": 57,
+    "stamina": 58,
+    "guts": 60
+   },
+   "moves": [
+    "flying-fish",
+    "eternal-blizzard",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Azu Ryuuichi",
+   "description": "Irascible ariete del Colegio Colegio Ultramegahiedra. Siempre está a punto de estallar."
+  },
+  {
+   "id": "tarquin-orchards",
+   "name": "Tarquin Orchards",
+   "short": "Tarquin",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 125,
+   "stats": {
+    "kick": 54,
+    "body": 70,
+    "control": 66,
+    "guard": 48,
+    "speed": 56,
+    "stamina": 57,
+    "guts": 57
+   },
+   "moves": [
+    "sonic-shot",
+    "flying-fish",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oume Kenichirou",
+   "description": "Juicioso ariete del Colegio Ultramegahiedra. Forma un dúo estupendo con Hayden."
+  },
+  {
+   "id": "skylar-lepton",
+   "name": "Skylar Lepton",
+   "short": "Skylar",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 157,
+   "stats": {
+    "kick": 56,
+    "body": 58,
+    "control": 56,
+    "guard": 54,
+    "speed": 59,
+    "stamina": 60,
+    "guts": 59
+   },
+   "moves": [
+    "buttobi-jump",
+    "sargasso",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hizu Takatoshi",
+   "description": "Sus saltos y remates de cabeza son una amenaza para cualquier portero."
+  },
+  {
+   "id": "brook-bold",
+   "name": "Brook Bold",
+   "short": "Brook",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 152,
+   "stats": {
+    "kick": 53,
+    "body": 65,
+    "control": 50,
+    "guard": 63,
+    "speed": 66,
+    "stamina": 60,
+    "guts": 58
+   },
+   "moves": [
+    "flying-fish",
+    "white-blade",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Aino Isami",
+   "description": "Se ha llevado muchos chascos por su carácter enamoradizo."
+  },
+  {
+   "id": "francis-tuffnot",
+   "name": "Francis Tuffnot",
+   "short": "Francis",
+   "number": 9,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 104,
+   "tp": 165,
+   "stats": {
+    "kick": 52,
+    "body": 80,
+    "control": 67,
+    "guard": 49,
+    "speed": 60,
+    "stamina": 61,
+    "guts": 59
+   },
+   "moves": [
+    "soyokaze-step",
+    "mach-wind",
+    "senpuujin",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sougetsu Nozomi",
+   "description": "Tiene la resistencia y la fragilidad de una chica, ¡pero es muy masculino!"
+  },
+  {
+   "id": "matt-durer",
+   "name": "Matt Durer",
+   "short": "Matt",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 174,
+   "stats": {
+    "kick": 48,
+    "body": 60,
+    "control": 60,
+    "guard": 58,
+    "speed": 58,
+    "stamina": 48,
+    "guts": 61
+   },
+   "moves": [
+    "moonsault-stamp",
+    "sargasso",
+    "hydro-anchor"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Umeo Suzuto",
+   "description": "Admirado portero del Colegio Ultramegahiedra. Lo suelen confundir con el entrenador."
+  },
+  {
+   "id": "nixon-earlnight",
+   "name": "Nixon Earlnight",
+   "short": "Nixon",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 152,
+   "stats": {
+    "kick": 54,
+    "body": 59,
+    "control": 51,
+    "guard": 56,
+    "speed": 57,
+    "stamina": 65,
+    "guts": 60
+   },
+   "moves": [
+    "spiral-draw",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Asaga Nobuhiko",
+   "description": "El cerebro del Colegio Ultramegahiedra. Eso sí, hasta mediodía no se despierta."
+  },
+  {
+   "id": "jack-balance",
+   "name": "Jack Balance",
+   "short": "Jack",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 159,
+   "stats": {
+    "kick": 57,
+    "body": 60,
+    "control": 34,
+    "guard": 55,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 85
+   },
+   "moves": [
+    "naminori-pierrot",
+    "koutei-penguin-7",
+    "zeroyon"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Wakeru Kagehiro",
+   "description": "Suele confiar en sus corazonadas... ¡y acierta a menudo!"
+  }
+ ]
+}

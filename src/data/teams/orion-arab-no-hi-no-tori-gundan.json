@@ -1,0 +1,496 @@
+{
+ "id": "orion-arab-no-hi-no-tori-gundan",
+ "season": "orion",
+ "wiki": "Arab no Hi no Tori Gundan",
+ "name": "Arab no Hi no Tori Gundan",
+ "short": "AHT",
+ "colors": {
+  "shirt": "#5a3a8a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "falcon",
+   "name": "Falcon",
+   "short": "Falcon",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 45,
+    "body": 60,
+    "control": 40,
+    "guard": 80,
+    "speed": 45,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "dynamic-corona",
+    "double-rocket",
+    "power-spike",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Falcon Ali",
+   "description": "Un portero potentísimo cuyos rugidos encienden al equipo desde atrás."
+  },
+  {
+   "id": "osprey-al-bahar",
+   "name": "Osprey Al-Bahar",
+   "short": "Osprey",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "atlantis-wall",
+    "red-hot-chili-meteor",
+    "horn-train",
+    "the-stamp"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gala Magos",
+   "description": "Con unos ojos grandes y encantadores, su enorme corpachón presiona sin descanso a los rivales."
+  },
+  {
+   "id": "merlin-al-yaman",
+   "name": "Merlin Al-Yaman",
+   "short": "Merlin",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "red-hot-chili-meteor",
+    "atlantis-wall",
+    "zigzag-flame",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Pecka Rheam",
+   "description": "Supera en altura a sus rivales y los aplasta con técnicas especiales imparables."
+  },
+  {
+   "id": "kestrel-al-sahir",
+   "name": "Kestrel Al-Sahir",
+   "short": "Kestrel",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "kattobi-defense",
+    "wonder-trap",
+    "kangaroo-kick",
+    "tamanori-pierrot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sami Luis",
+   "description": "Saltarín y ligero de pies, nunca flaquea, ni siquiera contra rivales más grandes."
+  },
+  {
+   "id": "buzzard-al-sahma",
+   "name": "Buzzard Al-Sahma",
+   "short": "Buzzard",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "round-spark",
+    "red-hot-chili-meteor",
+    "warp-drive",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Dorgan Butler",
+   "description": "Un delantero calculador que persigue el balón sin descanso, aunque una buena provocación puede desarmarlo."
+  },
+  {
+   "id": "griffon-al-qahir",
+   "name": "Griffon Al-Qahir",
+   "short": "Griffon",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "liar-shot",
+    "crazy-sunlight",
+    "boomerang-feint",
+    "flame-dance"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ghaddar Ghana",
+   "description": "Vuela por los aires con sus potentes piernas y se burla de los rivales bailando como un pájaro."
+  },
+  {
+   "id": "shrike-al-jazzar",
+   "name": "Shrike Al-Jazzar",
+   "short": "Shrike",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "flame-veil",
+    "heavy-baby",
+    "reppuu-dash",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hisoka Masoka",
+   "description": "A veces contundente y frío, busca cada hueco y lleva a los rivales al límite."
+  },
+  {
+   "id": "hawke-al-bazzar",
+   "name": "Hawke Al-Bazzar",
+   "short": "Hawke",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "red-hot-chili-meteor",
+    "warp-drive",
+    "round-spark",
+    "heavy-baby"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hulk Laios",
+   "description": "Un jugador enorme que embiste con una fuerza imparable, pero flaquea cuando le pillan desprevenido."
+  },
+  {
+   "id": "robin-al-ahmar",
+   "name": "Robin Al-Ahmar",
+   "short": "Robin",
+   "number": 11,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "red-hot-chili-meteor",
+    "round-spark",
+    "boomerang-feint",
+    "flame-veil"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Silva Leol",
+   "description": "Un protector del balón muy fiable que persigue la victoria sin descanso y no le hace ascos al juego sucio."
+  },
+  {
+   "id": "condor",
+   "name": "Condor",
+   "short": "Condor",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "red-hot-chili-meteor",
+    "burning-hi-no-tori",
+    "condor-dive",
+    "eagle-buster"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Condor Willy",
+   "description": "Un delantero rapidísimo y rebosante de fuerza bruta. Sufre cuando el juego exige delicadeza."
+  },
+  {
+   "id": "perry-al-surah",
+   "name": "Perry Al-Surah",
+   "short": "Perry",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "burning-summer",
+    "burning-hi-no-tori",
+    "bound-flame",
+    "atomic-flare"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Andreas Bebo",
+   "description": "El as saudí es extremadamente físico y posee un disparo fulgurante y potente. Demuestra una enorme velocidad cuando el equipo trabaja en conjunto."
+  },
+  {
+   "id": "harris-al-suhra",
+   "name": "Harris Al-Suhra",
+   "short": "Harris",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "red-hot-chili-meteor",
+    "round-spark",
+    "zanzou",
+    "burning-hi-no-tori"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Pedro Amida",
+   "description": "Brilla junto a su gemelo, Eagle, y confía en muy pocos más en el campo."
+  },
+  {
+   "id": "anqa-qushchi",
+   "name": "Anqa Qushchi",
+   "short": "Anqa",
+   "number": 14,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "dynamic-corona",
+    "double-rocket",
+    "shoot-pocket",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Eva Gordon",
+   "description": "Siempre ardiendo de pasión, el mánager de los Arabian Firebirds enciende el espíritu del equipo en cada momento."
+  },
+  {
+   "id": "roc-nasr",
+   "name": "Roc Nasr",
+   "short": "Roc",
+   "number": 15,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "dynamic-corona",
+    "double-rocket",
+    "sand-knock",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Flash Haniwa",
+   "description": "El entrenador de los Arabian Firebirds compensa el carácter ardiente de Anqa y mantiene al equipo estable en los ataques más intensos."
+  },
+  {
+   "id": "eagle-al-suhra",
+   "name": "Eagle Al-Suhra",
+   "short": "Eagle",
+   "number": 16,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "red-hot-chili-meteor",
+    "warp-drive",
+    "zanzou",
+    "burning-hi-no-tori"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Samir Amida",
+   "description": "Sostiene el centro del campo en un dúo de hermanos y tiene bien atadas las embestidas temerarias de Harris."
+  }
+ ]
+}

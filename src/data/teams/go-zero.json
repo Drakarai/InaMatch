@@ -1,0 +1,516 @@
+{
+ "id": "go-zero",
+ "season": "go",
+ "wiki": "Zero",
+ "name": "Equipo Zero",
+ "short": "ZER",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-zero",
+ "players": [
+  {
+   "id": "albion-lumina",
+   "name": "Albion Lumina",
+   "short": "Albion",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 84,
+   "tp": 181,
+   "stats": {
+    "kick": 57,
+    "body": 48,
+    "control": 52,
+    "guard": 60,
+    "speed": 46,
+    "stamina": 50,
+    "guts": 53
+   },
+   "moves": [
+    "serpent-fang",
+    "hunter-s-net",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hebino Makito",
+   "description": "Mantiene una cara de póquer inescrutable para todo el mundo."
+  },
+  {
+   "id": "dwight-whittaker",
+   "name": "Dwight Whittaker",
+   "short": "Dwight",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 165,
+   "stats": {
+    "kick": 51,
+    "body": 48,
+    "control": 45,
+    "guard": 59,
+    "speed": 49,
+    "stamina": 67,
+    "guts": 53
+   },
+   "moves": [
+    "claymore",
+    "atlantis-wall",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ejima Kazuya",
+   "description": "De fuerza descomunal, puede levantar hasta una pesa de doscientos kilos."
+  },
+  {
+   "id": "candido-glow",
+   "name": "Candido Glow",
+   "short": "Candido",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 169,
+   "stats": {
+    "kick": 53,
+    "body": 48,
+    "control": 53,
+    "guard": 56,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "presto-turn",
+    "crazy-sunlight",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Saki Yukio",
+   "description": "Tan desconfiado que no habla con franqueza ni con sus compañeros."
+  },
+  {
+   "id": "beamer-daye",
+   "name": "Beamer Daye",
+   "short": "Beamer",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 147,
+   "stats": {
+    "kick": 66,
+    "body": 51,
+    "control": 64,
+    "guard": 44,
+    "speed": 88,
+    "stamina": 56,
+    "guts": 50
+   },
+   "moves": [
+    "zeroyon",
+    "crazy-sunlight",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Onizuka Heita",
+   "description": "Tenaz defensa que no ceja en su tarea, incluso cuando lo han rebasado."
+  },
+  {
+   "id": "blake-obscura",
+   "name": "Blake Obscura",
+   "short": "Blake",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 60,
+   "tp": 184,
+   "stats": {
+    "kick": 64,
+    "body": 63,
+    "control": 64,
+    "guard": 44,
+    "speed": 53,
+    "stamina": 54,
+    "guts": 55
+   },
+   "moves": [
+    "dimension-cut",
+    "claymore",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kiya Kouji",
+   "description": "Esculpe obras de arte con carbón, así que no le importará que se lo regales."
+  },
+  {
+   "id": "tynan-crowe",
+   "name": "Tynan Crowe",
+   "short": "Tynan",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 165,
+   "stats": {
+    "kick": 65,
+    "body": 49,
+    "control": 46,
+    "guard": 50,
+    "speed": 62,
+    "stamina": 62,
+    "guts": 53
+   },
+   "moves": [
+    "maboroshi-shot",
+    "claymore",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yuuki Jou",
+   "description": "Su sueño es escalar las montañas más altas de Japón."
+  },
+  {
+   "id": "shady-shwartz",
+   "name": "Shady Shwartz",
+   "short": "Shady",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 194,
+   "tp": 152,
+   "stats": {
+    "kick": 64,
+    "body": 47,
+    "control": 45,
+    "guard": 46,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 51
+   },
+   "moves": [
+    "maboroshi-shot",
+    "melody-wave",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rinne Makoto",
+   "description": "Es un experto tallando instrumentos musicales de madera."
+  },
+  {
+   "id": "yang",
+   "name": "Yang",
+   "short": "Yang",
+   "number": 6,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 60,
+   "tp": 148,
+   "stats": {
+    "kick": 50,
+    "body": 75,
+    "control": 48,
+    "guard": 65,
+    "speed": 53,
+    "stamina": 50,
+    "guts": 56
+   },
+   "moves": [
+    "death-drop",
+    "britannia-cross",
+    "eternal-blizzard",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kai",
+   "description": "Parece despreocupado, pero en realidad es un estratega nato."
+  },
+  {
+   "id": "bailong",
+   "name": "Bailong",
+   "short": "Bailong",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 139,
+   "stats": {
+    "kick": 81,
+    "body": 81,
+    "control": 68,
+    "guard": 52,
+    "speed": 49,
+    "stamina": 52,
+    "guts": 57
+   },
+   "moves": [
+    "white-hurricane",
+    "sprint-warp",
+    "air-bullet",
+    "zero-magnum"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hakuryuu",
+   "description": "Confía mucho en su talento, por eso destaca incluso entre los imperiales."
+  },
+  {
+   "id": "tezcat",
+   "name": "Tezcat",
+   "short": "Tezcat",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 140,
+   "stats": {
+    "kick": 80,
+    "body": 70,
+    "control": 74,
+    "guard": 68,
+    "speed": 42,
+    "stamina": 59,
+    "guts": 57
+   },
+   "moves": [
+    "black-ash",
+    "sprint-warp",
+    "vanishing-cut",
+    "zero-magnum"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shuu",
+   "description": "Un chico que vive en la isla del Santuario. Tiene un pasado misterioso."
+  },
+  {
+   "id": "glaucous-gull",
+   "name": "Glaucous Gull",
+   "short": "Glaucous",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 145,
+   "tp": 148,
+   "stats": {
+    "kick": 40,
+    "body": 57,
+    "control": 49,
+    "guard": 49,
+    "speed": 80,
+    "stamina": 54,
+    "guts": 58
+   },
+   "moves": [
+    "fuurinkazan-destroyer",
+    "fuujin-no-mai",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ookazeya Giichi",
+   "description": "Entrenador de la Isla Santuario. A pesar de su físico posee una gran velocidad y agilidad."
+  },
+  {
+   "id": "dawntavius-spectrum",
+   "name": "Dawntavius Spectrum",
+   "short": "Dawntavius",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 152,
+   "stats": {
+    "kick": 73,
+    "body": 50,
+    "control": 44,
+    "guard": 56,
+    "speed": 63,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "bound-flame",
+    "fire-tornado",
+    "melody-wave",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seidou Dan",
+   "description": "Aunque no lo aparenta, es capaz de chutar con una fuerza increíble."
+  },
+  {
+   "id": "ashley-silverwood",
+   "name": "Ashley Silverwood",
+   "short": "Ashley",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 163,
+   "stats": {
+    "kick": 54,
+    "body": 52,
+    "control": 46,
+    "guard": 53,
+    "speed": 47,
+    "stamina": 58,
+    "guts": 59
+   },
+   "moves": [
+    "hunter-s-net",
+    "deep-mist",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Rinno Fujiko",
+   "description": "Una entrenadora de la Isla Santuario. Su ingenio le da una defensa perfecta."
+  },
+  {
+   "id": "pinkus-mountbatten",
+   "name": "Pinkus Mountbatten",
+   "short": "Pinkus",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 174,
+   "tp": 153,
+   "stats": {
+    "kick": 66,
+    "body": 53,
+    "control": 43,
+    "guard": 46,
+    "speed": 60,
+    "stamina": 58,
+    "guts": 56
+   },
+   "moves": [
+    "fuurinkazan-destroyer",
+    "nobori-ryuu",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kibayama Douzan",
+   "description": "Director del Santuario. Sigue siendo un fenómeno a pesar de su edad."
+  },
+  {
+   "id": "flint-charcoal",
+   "name": "Flint Charcoal",
+   "short": "Flint",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 157,
+   "stats": {
+    "kick": 55,
+    "body": 56,
+    "control": 49,
+    "guard": 59,
+    "speed": 63,
+    "stamina": 55,
+    "guts": 56
+   },
+   "moves": [
+    "death-drop",
+    "acrobat-keep",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hikita Koushirou",
+   "description": "Entrenador del Santuario. Dicen que da unos pases milimétricos."
+  },
+  {
+   "id": "gus-martin",
+   "name": "Gus Martin",
+   "short": "Gus",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 109,
+   "tp": 160,
+   "stats": {
+    "kick": 51,
+    "body": 80,
+    "control": 59,
+    "guard": 51,
+    "speed": 64,
+    "stamina": 65,
+    "guts": 68
+   },
+   "moves": [
+    "dimension-cut",
+    "future-eye",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gojou Masaru",
+   "description": "Misterioso personaje del que ni siquiera Jude Sharp sabe qué piensa."
+  }
+ ]
+}

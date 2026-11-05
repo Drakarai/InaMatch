@@ -1,0 +1,361 @@
+{
+ "id": "gx-inside-silver",
+ "season": "gx",
+ "wiki": "Inside Silver",
+ "name": "Inside Silver",
+ "short": "INS",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c8202f"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "ezra-gin",
+   "name": "Ezra Gin",
+   "short": "Ezra",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 128,
+   "tp": 114,
+   "stats": {
+    "kick": 74,
+    "body": 57,
+    "control": 67,
+    "guard": 66,
+    "speed": 58,
+    "stamina": 63,
+    "guts": 59
+   },
+   "moves": [
+    "shoot-pocket",
+    "wormhole",
+    "reverse-world",
+    "gravity-point"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gin Ag",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Aleksei Karimov."
+  },
+  {
+   "id": "silva-gin",
+   "name": "Silva Gin",
+   "short": "Silva",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 108,
+   "stats": {
+    "kick": 67,
+    "body": 59,
+    "control": 62,
+    "guard": 64,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 51
+   },
+   "moves": [
+    "thief-eye",
+    "asterisk-rock",
+    "skytree-fall"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gin Silva",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Sergei Chernov."
+  },
+  {
+   "id": "argus-gin",
+   "name": "Argus Gin",
+   "short": "Argus",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 129,
+   "stats": {
+    "kick": 61,
+    "body": 73,
+    "control": 65,
+    "guard": 62,
+    "speed": 53,
+    "stamina": 51,
+    "guts": 57
+   },
+   "moves": [
+    "fractal-house",
+    "screwdriver",
+    "grand-sweeper"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gin Argyros",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Mitya Eremin."
+  },
+  {
+   "id": "micah-gin",
+   "name": "Micah Gin",
+   "short": "Micah",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 148,
+   "tp": 101,
+   "stats": {
+    "kick": 79,
+    "body": 55,
+    "control": 53,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "coil-upper",
+    "spinning-cut",
+    "winning-logic"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gin Mecky",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Yuri Avelin."
+  },
+  {
+   "id": "maxter-gin",
+   "name": "Maxter Gin",
+   "short": "Maxter",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 130,
+   "tp": 115,
+   "stats": {
+    "kick": 58,
+    "body": 61,
+    "control": 54,
+    "guard": 63,
+    "speed": 63,
+    "stamina": 58,
+    "guts": 52
+   },
+   "moves": [
+    "wonder-trap",
+    "magnet-draw",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gin McStar",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Kenja Jo'rayev."
+  },
+  {
+   "id": "casey-gin",
+   "name": "Casey Gin",
+   "short": "Casey",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 160,
+   "tp": 95,
+   "stats": {
+    "kick": 63,
+    "body": 62,
+    "control": 63,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 44
+   },
+   "moves": [
+    "transmove",
+    "spinning-upper",
+    "hologram-lock"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gin Kakkuji",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Leonid Mirzayev."
+  },
+  {
+   "id": "consy-gin",
+   "name": "Consy Gin",
+   "short": "Consy",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 126,
+   "tp": 120,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 65,
+    "guard": 56,
+    "speed": 59,
+    "stamina": 55,
+    "guts": 55
+   },
+   "moves": [
+    "future-eye",
+    "asoko-ni-ufo",
+    "decoy-release"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gin Konshiky",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Ruslan Kashimov."
+  },
+  {
+   "id": "shari-gin",
+   "name": "Shari Gin",
+   "short": "Shari",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 92,
+   "stats": {
+    "kick": 54,
+    "body": 57,
+    "control": 66,
+    "guard": 59,
+    "speed": 66,
+    "stamina": 53,
+    "guts": 51
+   },
+   "moves": [
+    "linear-drive",
+    "muei-souha",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gin Sharie",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Aaron Gachinsky."
+  },
+  {
+   "id": "colin-gin",
+   "name": "Colin Gin",
+   "short": "Colin",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 124,
+   "tp": 127,
+   "stats": {
+    "kick": 66,
+    "body": 68,
+    "control": 41,
+    "guard": 71,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 54
+   },
+   "moves": [
+    "bouncer-rabbit",
+    "plasma-ball",
+    "spring-arrow",
+    "black-dawn"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gin Khoin",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Maxim Adrov."
+  },
+  {
+   "id": "nathas-gin",
+   "name": "Nathas Gin",
+   "short": "Nathas",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 114,
+   "tp": 130,
+   "stats": {
+    "kick": 64,
+    "body": 66,
+    "control": 50,
+    "guard": 69,
+    "speed": 55,
+    "stamina": 66,
+    "guts": 44
+   },
+   "moves": [
+    "spinning-transam",
+    "astro-break",
+    "death-drop",
+    "ganymede-proton"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gin Narn",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Domitri Sobirov."
+  },
+  {
+   "id": "zane-gin",
+   "name": "Zane Gin",
+   "short": "Zane",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 142,
+   "tp": 122,
+   "stats": {
+    "kick": 63,
+    "body": 62,
+    "control": 58,
+    "guard": 54,
+    "speed": 63,
+    "stamina": 64,
+    "guts": 54
+   },
+   "moves": [
+    "perfect-course",
+    "gungnir",
+    "gauss-shot",
+    "double-shot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gin Zaick",
+   "description": "Alien que participaba en el FFI V2. Sustituía a Zafar Malayev."
+  }
+ ]
+}

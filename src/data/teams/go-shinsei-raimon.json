@@ -1,0 +1,519 @@
+{
+ "id": "go-shinsei-raimon",
+ "season": "go",
+ "wiki": "Shinsei Raimon",
+ "name": "Instituto Raimon (GO)",
+ "short": "SHI",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-raimon",
+ "players": [
+  {
+   "id": "samguk-han",
+   "name": "Samguk Han",
+   "short": "Samguk",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 137,
+   "tp": 175,
+   "stats": {
+    "kick": 44,
+    "body": 47,
+    "control": 47,
+    "guard": 64,
+    "speed": 54,
+    "stamina": 42,
+    "guts": 51
+   },
+   "moves": [
+    "burning-catch",
+    "fence-of-gaia",
+    "burai-hand"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sangoku Taichi",
+   "description": "Por su lealtad sin límites, algunos lo consideran el alma del Raimon."
+  },
+  {
+   "id": "subaru-honda",
+   "name": "Subaru Honda",
+   "short": "Subaru",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 150,
+   "tp": 176,
+   "stats": {
+    "kick": 55,
+    "body": 71,
+    "control": 53,
+    "guard": 41,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 69
+   },
+   "moves": [
+    "dash-train",
+    "head-bazooka",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurumada Gouichi",
+   "description": "Un cordial hombre de acción. Avanza con el balón como una locomotora."
+  },
+  {
+   "id": "gabriel-garcia",
+   "name": "Gabriel Garcia",
+   "short": "Gabriel",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 212,
+   "stats": {
+    "kick": 46,
+    "body": 66,
+    "control": 57,
+    "guard": 50,
+    "speed": 51,
+    "stamina": 51,
+    "guts": 54
+   },
+   "moves": [
+    "the-mist",
+    "deep-mist",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kirino Ranmaru",
+   "description": "El elegante defensa del Raimon. Conoce a Riccardo mejor que nadie."
+  },
+  {
+   "id": "wanli-changcheng",
+   "name": "Wanli Changcheng",
+   "short": "Wanli",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 148,
+   "tp": 120,
+   "stats": {
+    "kick": 57,
+    "body": 64,
+    "control": 54,
+    "guard": 57,
+    "speed": 50,
+    "stamina": 64,
+    "guts": 60
+   },
+   "moves": [
+    "viva-banri-no-choujou",
+    "elephant-press",
+    "atlantis-wall"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Amagi Daichi",
+   "description": "El jugador más corpulento y duro del equipo. No tolera el juego sucio."
+  },
+  {
+   "id": "jean-pierre-lapin",
+   "name": "Jean-Pierre Lapin",
+   "short": "Jean-Pierre",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 213,
+   "tp": 157,
+   "stats": {
+    "kick": 43,
+    "body": 62,
+    "control": 50,
+    "guard": 58,
+    "speed": 46,
+    "stamina": 72,
+    "guts": 66
+   },
+   "moves": [
+    "kattobi-defense",
+    "sky-walk",
+    "god-hand",
+    "buttobi-jump"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nishizono Shinsuke",
+   "description": "Jugador pequeño de cuerpo, ¡pero desbordante de energía y entusiasmo!"
+  },
+  {
+   "id": "ad-k-b",
+   "name": "Adé Kébé",
+   "short": "Adé",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 179,
+   "stats": {
+    "kick": 53,
+    "body": 72,
+    "control": 51,
+    "guard": 57,
+    "speed": 59,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "naminori-pierrot",
+    "flying-fish",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hamano Kaiji",
+   "description": "Un chico listo y de contagioso buen humor. Además, le gusta pescar."
+  },
+  {
+   "id": "eugene-peabody",
+   "name": "Eugene Peabody",
+   "short": "Eugene",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 131,
+   "stats": {
+    "kick": 45,
+    "body": 50,
+    "control": 47,
+    "guard": 45,
+    "speed": 81,
+    "stamina": 52,
+    "guts": 53
+   },
+   "moves": [
+    "zeroyon",
+    "fuujin-no-mai",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hayami Tsurumasa",
+   "description": "Es un centrocampista ágil, pero con tendencia al pesimismo."
+  },
+  {
+   "id": "arion-sherwind",
+   "name": "Arion Sherwind",
+   "short": "Arion",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 208,
+   "tp": 154,
+   "stats": {
+    "kick": 54,
+    "body": 55,
+    "control": 77,
+    "guard": 66,
+    "speed": 57,
+    "stamina": 54,
+    "guts": 64
+   },
+   "moves": [
+    "evolution",
+    "soyokaze-step",
+    "mach-wind",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Matsukaze Tenma",
+   "description": "Un chico sencillo y puro como la brisa. Apasionado por el fútbol como pocos."
+  },
+  {
+   "id": "victor-blade",
+   "name": "Victor Blade",
+   "short": "Victor",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 166,
+   "tp": 164,
+   "stats": {
+    "kick": 58,
+    "body": 51,
+    "control": 50,
+    "guard": 63,
+    "speed": 52,
+    "stamina": 65,
+    "guts": 63
+   },
+   "moves": [
+    "death-sword",
+    "death-drop",
+    "devil-burst",
+    "fire-tornado-dd"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tsurugi Kyousuke",
+   "description": "Un siniestro delantero capaz de derrotar él solo a un equipo entero."
+  },
+  {
+   "id": "michael-ballzack",
+   "name": "Michael Ballzack",
+   "short": "Michael",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 170,
+   "tp": 141,
+   "stats": {
+    "kick": 71,
+    "body": 60,
+    "control": 50,
+    "guard": 49,
+    "speed": 49,
+    "stamina": 57,
+    "guts": 66
+   },
+   "moves": [
+    "sidewinder",
+    "boomerang-feint",
+    "acrobat-keep",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurama Norihito",
+   "description": "Su aparente frialdad oculta una enorme pasión por el fútbol."
+  },
+  {
+   "id": "lucian-dark",
+   "name": "Lucian Dark",
+   "short": "Lucian",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 143,
+   "tp": 149,
+   "stats": {
+    "kick": 34,
+    "body": 51,
+    "control": 61,
+    "guard": 49,
+    "speed": 86,
+    "stamina": 54,
+    "guts": 64
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "sprint-warp",
+    "koutei-penguin-2gou",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kageyama Hikaru",
+   "description": "Un chico serio y optimista, con mucha intuición pese a ser un novato."
+  },
+  {
+   "id": "riccardo-di-rigo",
+   "name": "Riccardo Di Rigo",
+   "short": "Riccardo",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 172,
+   "stats": {
+    "kick": 66,
+    "body": 80,
+    "control": 44,
+    "guard": 74,
+    "speed": 61,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "fortissimo",
+    "presto-turn",
+    "joker-rains",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shindou Takuto",
+   "description": "Es el capitán del equipo del Raimon, apodado el Virtuoso por su genialidad."
+  },
+  {
+   "id": "shunsuke-aoyama",
+   "name": "Shunsuke Aoyama",
+   "short": "Shunsuke",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 172,
+   "tp": 157,
+   "stats": {
+    "kick": 53,
+    "body": 51,
+    "control": 53,
+    "guard": 72,
+    "speed": 60,
+    "stamina": 50,
+    "guts": 58
+   },
+   "moves": [
+    "thief-eye",
+    "presto-turn",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Aoyama Shunsuke",
+   "description": "Le fascina la teoría y analiza su propia actuación después de cada partido."
+  },
+  {
+   "id": "hugues-baudet",
+   "name": "Hugues Baudet",
+   "short": "Hugues",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 174,
+   "stats": {
+    "kick": 57,
+    "body": 67,
+    "control": 46,
+    "guard": 61,
+    "speed": 58,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "white-blade",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ichino Nanasuke",
+   "description": "Este chico tranquilo y responsable aporta sobre todo una visión estratégica."
+  },
+  {
+   "id": "ryoma-nishiki",
+   "name": "Ryoma Nishiki",
+   "short": "Ryoma",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 170,
+   "tp": 154,
+   "stats": {
+    "kick": 62,
+    "body": 63,
+    "control": 62,
+    "guard": 62,
+    "speed": 56,
+    "stamina": 78,
+    "guts": 62
+   },
+   "moves": [
+    "acrobat-keep",
+    "denrai-houtou",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nishiki Ryouma",
+   "description": "Caballeroso y con un gran sentido de la justicia. Vivió un tiempo en Italia."
+  },
+  {
+   "id": "aitor-cazador",
+   "name": "Aitor Cazador",
+   "short": "Aitor",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 101,
+   "tp": 187,
+   "stats": {
+    "kick": 50,
+    "body": 62,
+    "control": 65,
+    "guard": 51,
+    "speed": 55,
+    "stamina": 58,
+    "guts": 58
+   },
+   "moves": [
+    "hunter-s-net",
+    "claymore",
+    "illusion-ball",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kariya Masaki",
+   "description": "Recién llegado al club. Tiene una cara amable, pero también un lado oscuro."
+  }
+ ]
+}

@@ -1,0 +1,526 @@
+{
+ "id": "orion-perfect-spark",
+ "season": "orion",
+ "wiki": "Perfect Spark",
+ "name": "Perfect Spark",
+ "short": "PER",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "gregory-fortin",
+   "name": "Gregory Fortin",
+   "short": "Gregory",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "tsuumande-goran",
+    "dual-smash",
+    "ice-block",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Goran Vecilia",
+   "description": "Nunca juega sin su cinta en la cabeza, que según dicen canaliza su desbordante espíritu de lucha."
+  },
+  {
+   "id": "leonid-largov",
+   "name": "Leonid Largov",
+   "short": "Leonid",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "bunshin-defense",
+    "aurora-dribble",
+    "no-escape",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Alexei Trepov",
+   "description": "Propone tácticas tan atrevidas que sus compañeros suelen decir que son \"demasiado sucias\"."
+  },
+  {
+   "id": "boris-kaprichyov",
+   "name": "Boris Kaprichyov",
+   "short": "Boris",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "aurora-dribble",
+    "atlantis-wall",
+    "super-armadillo",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Rabi Eremenko",
+   "description": "Dicen que quienes miran sus grandes ojos de cervatillo se calman al instante."
+  },
+  {
+   "id": "nikolai-glisanderov",
+   "name": "Nikolai Glisanderov",
+   "short": "Nikolai",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "triple-dash",
+    "aurora-dribble",
+    "no-escape",
+    "grand-sweeper"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gwennady Zakharov",
+   "description": "Famoso por su mirada gélida, no le interesa nada que no sea el fútbol."
+  },
+  {
+   "id": "igor-pitsikatov",
+   "name": "Igor Pitsikatov",
+   "short": "Igor",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "boost-glider",
+    "aurora-dribble",
+    "u-boat",
+    "future-eye"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Simon Zhitova",
+   "description": "Su sarcasmo esconde un corazón sincero, pero sigue las normas para no meterse en líos."
+  },
+  {
+   "id": "michael-vivacer",
+   "name": "Michael Vivacer",
+   "short": "Michael",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "boost-glider",
+    "aurora-dribble",
+    "u-boat",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Karl Senirov",
+   "description": "Un jugador del Perfect Spark entrenado por la Fundación Orión para ejecutar cada orden sin un fallo."
+  },
+  {
+   "id": "konstantin-furyozov",
+   "name": "Konstantin Furyozov",
+   "short": "Konstantin",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "mega-quake",
+    "no-escape",
+    "u-boat",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shamil Trubetskoy",
+   "description": "Testarudo cuando toma una decisión, aun así escucha los consejos de los compañeros en quienes confía."
+  },
+  {
+   "id": "dmitri",
+   "name": "Dmitri",
+   "short": "Dmitri",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "aurora-dribble",
+    "kamaitachi",
+    "hurricane-arrow",
+    "sonic-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Viktor Sedova",
+   "description": "Un jugador del Perfect Spark que se mueve como una pieza más de la máquina perfecta de la Fundación Orión."
+  },
+  {
+   "id": "alexander-allegrov",
+   "name": "Alexander Allegrov",
+   "short": "Alexander",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 195,
+   "stats": {
+    "kick": 61,
+    "body": 58,
+    "control": 86,
+    "guard": 66,
+    "speed": 98,
+    "stamina": 77,
+    "guts": 74
+   },
+   "moves": [
+    "innocent-drive",
+    "doublehead-eagle"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Froy Girikanan",
+   "description": "El capitán del equipo de Rusia, que puede ajustarse libremente a jugar en cualquier posición, así como el hijo del presidente de la Fundación Orión. Cuando Ichihoshi vivía en Rusia, eran mejores amigos en el mismo equipo."
+  },
+  {
+   "id": "anton-kolosalyov",
+   "name": "Anton Kolosalyov",
+   "short": "Anton",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "dragon-ground",
+    "brave-shot",
+    "u-boat",
+    "double-jaw"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zaur Salenko",
+   "description": "Adora a su oso mascota; la cicatriz de su frente es la marca de sus juegos."
+  },
+  {
+   "id": "yuri",
+   "name": "Yuri",
+   "short": "Yuri",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "panther-blizzard",
+    "aurora-dribble",
+    "angel-ball",
+    "heaven-drive"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yuri Rodina",
+   "description": "Un jugador del Perfect Spark entrenado sin descanso por la Fundación Orión para no fallar nunca."
+  },
+  {
+   "id": "molev-misterioski",
+   "name": "Molev Misterioski",
+   "short": "Molev",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "sparkle-wave",
+    "aurora-dribble",
+    "kazangan",
+    "hellfire"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Lasker Vagner",
+   "description": "Es muy friolero: solo se aparta el flequillo cuando hay calefacción."
+  },
+  {
+   "id": "marat-stakatov",
+   "name": "Marat Stakatov",
+   "short": "Marat",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "sparkle-wave",
+    "aurora-dribble",
+    "ultra-moon",
+    "perfect-course"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Marl Marat",
+   "description": "Su encanto pícaro hace imposible odiarle, y le han puesto el cariñoso apodo de \"Bellota\"."
+  },
+  {
+   "id": "martemeli-prestov",
+   "name": "Martemeli Prestov",
+   "short": "Prestov",
+   "number": 16,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "inabikari-dash",
+    "shining-bird",
+    "shine-drive",
+    "lightning-accel"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Lus Kasim",
+   "description": "Un auténtico revolucionario del fútbol que dio un paso al frente para derribar a Orión cuando más importaba."
+  },
+  {
+   "id": "martemeli-prestov-ok-lus",
+   "name": "Martemeli Prestov",
+   "short": "Prestov",
+   "number": 16,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "innocent-drive",
+    "sword-of-d-artagnan",
+    "white-blade",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Lus Kasim",
+   "description": "Un auténtico revolucionario del fútbol que dio un paso al frente para derribar a Orión cuando más importaba."
+  },
+  {
+   "id": "oleg-animatov",
+   "name": "Oleg Animatov",
+   "short": "Oleg",
+   "number": 17,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "doublehead-eagle",
+    "sword-of-d-artagnan",
+    "white-blade",
+    "snow-angel"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Malik Kuabel",
+   "description": "Las burlas le resbalan: tiene una confianza inquebrantable en su control del balón."
+  }
+ ]
+}

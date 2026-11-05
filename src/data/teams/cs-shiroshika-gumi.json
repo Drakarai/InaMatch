@@ -1,0 +1,516 @@
+{
+ "id": "cs-shiroshika-gumi",
+ "season": "cs",
+ "wiki": "Shiroshika Gumi",
+ "name": "Shiroshika Gumi",
+ "short": "SHI",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-shika-no-tsuno",
+ "players": [
+  {
+   "id": "norimaru-gazen",
+   "name": "Norimaru Gazen",
+   "short": "Norimaru",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 112,
+   "tp": 107,
+   "stats": {
+    "kick": 52,
+    "body": 54,
+    "control": 54,
+    "guard": 66,
+    "speed": 42,
+    "stamina": 72,
+    "guts": 65
+   },
+   "moves": [
+    "abare-guruma",
+    "buttobi-punch",
+    "kage-tsukami"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gazen Norimaru",
+   "description": "Normalmente es frio y vengativo, pero se deja bailar el agua."
+  },
+  {
+   "id": "sokichi-kitagami",
+   "name": "Sokichi Kitagami",
+   "short": "Sokichi",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 88,
+   "stats": {
+    "kick": 54,
+    "body": 65,
+    "control": 50,
+    "guard": 56,
+    "speed": 57,
+    "stamina": 38,
+    "guts": 66
+   },
+   "moves": [
+    "okehazama-wall",
+    "senpuujin",
+    "tsubame-gaeshi",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kitagami Soukichi",
+   "description": "Por la máscara que lleva, está claro que se le dan bien las manualidades."
+  },
+  {
+   "id": "hoichiro-ashiguro",
+   "name": "Hoichiro Ashiguro",
+   "short": "Hoichiro",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 73,
+   "stats": {
+    "kick": 63,
+    "body": 54,
+    "control": 58,
+    "guard": 60,
+    "speed": 50,
+    "stamina": 63,
+    "guts": 54
+   },
+   "moves": [
+    "okehazama-wall",
+    "mogura-feint",
+    "gear-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ashiguro Houichirou",
+   "description": "Siempre deja la casa llena de barro cuando vuelve del entrenamiento."
+  },
+  {
+   "id": "hanbee-yabe",
+   "name": "Hanbee Yabe",
+   "short": "Hanbee",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 60,
+   "stats": {
+    "kick": 55,
+    "body": 76,
+    "control": 55,
+    "guard": 48,
+    "speed": 56,
+    "stamina": 39,
+    "guts": 62
+   },
+   "moves": [
+    "okehazama-wall",
+    "dokonjou-bat",
+    "abare-guruma",
+    "hinawa-bullet"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yabe Hanbee",
+   "description": "Un joven pendenciero que se sigue portando como un matón de colegio."
+  },
+  {
+   "id": "ikkatsu-kano",
+   "name": "Ikkatsu Kano",
+   "short": "Ikkatsu",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 74,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 56,
+    "guard": 58,
+    "speed": 55,
+    "stamina": 65,
+    "guts": 55
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "the-mist",
+    "ichiyajou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kanou Ikkatsu",
+   "description": "Este chico se pasa el día frustrado porque nunca pilla los chistes."
+  },
+  {
+   "id": "denbee-asama",
+   "name": "Denbee Asama",
+   "short": "Denbee",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 86,
+   "tp": 103,
+   "stats": {
+    "kick": 54,
+    "body": 68,
+    "control": 55,
+    "guard": 59,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 53
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "senpuujin",
+    "shippuu-dash",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Asama Denbei",
+   "description": "Dicen que un zorro lo mordió de pequeño y por eso es tan taimado."
+  },
+  {
+   "id": "ginji-santetsu",
+   "name": "Ginji Santetsu",
+   "short": "Ginji",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 88,
+   "stats": {
+    "kick": 53,
+    "body": 54,
+    "control": 57,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 63
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "setsuna-boost"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Santetsu Ginji",
+   "description": "Antes trabajaba en una forja, pero lo dejó y se metió a criminal."
+  },
+  {
+   "id": "denrai-ochimura",
+   "name": "Denrai Ochimura",
+   "short": "Denrai",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 131,
+   "tp": 99,
+   "stats": {
+    "kick": 59,
+    "body": 57,
+    "control": 60,
+    "guard": 60,
+    "speed": 31,
+    "stamina": 59,
+    "guts": 65
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "dash-train",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ochimura Denrai",
+   "description": "Su nombre causa tal pavor que hasta los bebés lloran cuando lo oyen."
+  },
+  {
+   "id": "senji-kudo",
+   "name": "Senji Kudo",
+   "short": "Senji",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 83,
+   "tp": 81,
+   "stats": {
+    "kick": 56,
+    "body": 56,
+    "control": 56,
+    "guard": 52,
+    "speed": 64,
+    "stamina": 50,
+    "guts": 59
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "hinawa-bullet",
+    "burning-summer",
+    "gorimuchuu"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kutou Senji",
+   "description": "Si no le queda el pelo completamente simétrico, refunfuña todo el día."
+  },
+  {
+   "id": "taian-inaba",
+   "name": "Taian Inaba",
+   "short": "Taian",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 118,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 62,
+    "guard": 65,
+    "speed": 58,
+    "stamina": 50,
+    "guts": 40
+   },
+   "moves": [
+    "hinawa-bullet",
+    "tsubame-gaeshi",
+    "senpuujin",
+    "fuurinkazan-destroyer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Inaba Taian",
+   "description": "El líder del Ciervo Blanco es un tipo cruel, capaz de robarle a un niño."
+  },
+  {
+   "id": "korin-maebayashi",
+   "name": "Korin Maebayashi",
+   "short": "Korin",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 119,
+   "tp": 123,
+   "stats": {
+    "kick": 59,
+    "body": 61,
+    "control": 60,
+    "guard": 55,
+    "speed": 64,
+    "stamina": 55,
+    "guts": 64
+   },
+   "moves": [
+    "hinawa-bullet",
+    "denrai-houtou",
+    "kiku-ichimonji"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Maebayashi Kourin",
+   "description": "Como es tan guapo, lleva un parche en el ojo para que lo tomen en serio."
+  },
+  {
+   "id": "mikimaru-ujiki",
+   "name": "Mikimaru Ujiki",
+   "short": "Mikimaru",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 92,
+   "stats": {
+    "kick": 45,
+    "body": 57,
+    "control": 50,
+    "guard": 56,
+    "speed": 48,
+    "stamina": 49,
+    "guts": 58
+   },
+   "moves": [
+    "abare-guruma",
+    "gorimuchuu",
+    "white-hurricane"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ujiki Mikimaru",
+   "description": "Es hijo de un respetable mercader, pero se mete en líos en clase."
+  },
+  {
+   "id": "doshin-yomoyama",
+   "name": "Doshin Yomoyama",
+   "short": "Doshin",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 60,
+   "stats": {
+    "kick": 50,
+    "body": 52,
+    "control": 48,
+    "guard": 55,
+    "speed": 49,
+    "stamina": 66,
+    "guts": 60
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "ichiyajou",
+    "okehazama-wall"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yomoyama Doushin",
+   "description": "Siempre tiene que opinar acerca de todo a gritos y de malas maneras."
+  },
+  {
+   "id": "tenkei-yazu",
+   "name": "Tenkei Yazu",
+   "short": "Tenkei",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 78,
+   "tp": 81,
+   "stats": {
+    "kick": 53,
+    "body": 57,
+    "control": 55,
+    "guard": 53,
+    "speed": 60,
+    "stamina": 50,
+    "guts": 69
+   },
+   "moves": [
+    "shippuu-dash",
+    "senpuujin",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yazu Tenkei",
+   "description": "Como no pega ojo por las noches, no hay quien lo despierte por la mañana."
+  },
+  {
+   "id": "hokuro-ayabe",
+   "name": "Hokuro Ayabe",
+   "short": "Hokuro",
+   "number": 15,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 101,
+   "tp": 111,
+   "stats": {
+    "kick": 57,
+    "body": 48,
+    "control": 54,
+    "guard": 61,
+    "speed": 57,
+    "stamina": 47,
+    "guts": 61
+   },
+   "moves": [
+    "hinawa-bullet",
+    "gorimuchuu",
+    "tsubame-gaeshi"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ayabe Houkurou",
+   "description": "Un desastre. No hay manera de que un trabajo le dure dos semanas."
+  },
+  {
+   "id": "kaburo-hayama",
+   "name": "Kaburo Hayama",
+   "short": "Kaburo",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 109,
+   "tp": 114,
+   "stats": {
+    "kick": 57,
+    "body": 46,
+    "control": 55,
+    "guard": 39,
+    "speed": 59,
+    "stamina": 63,
+    "guts": 55
+   },
+   "moves": [
+    "hinawa-bullet",
+    "shippuu-dash",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hayama Kaburou",
+   "description": "Domesticó a su propio caballo y ahora siembra el pánico a sus lomos."
+  }
+ ]
+}

@@ -1,8 +1,38 @@
 [
  {
+  "id": "delta",
+  "name": "Delta",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-2-3-5",
+  "name": "F-2-3-5",
+  "layout": "2-3-5"
+ },
+ {
   "id": "f-2-5-3",
   "name": "F-2-5-3",
   "layout": "2-5-3"
+ },
+ {
+  "id": "f-3-4-3",
+  "name": "F-3-4-3",
+  "layout": "3-4-3"
+ },
+ {
+  "id": "f-3-5-2",
+  "name": "F-3-5-2",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "f-3-6-1",
+  "name": "F-3-6-1",
+  "layout": "3-6-1"
+ },
+ {
+  "id": "f-4-3-3",
+  "name": "F-4-3-3",
+  "layout": "4-3-3"
  },
  {
   "id": "f-4-4-2",
@@ -15,9 +45,39 @@
   "layout": "4-5-1"
  },
  {
+  "id": "f-5-3-2",
+  "name": "F-5-3-2",
+  "layout": "5-3-2"
+ },
+ {
+  "id": "f-5-4-1",
+  "name": "F-5-4-1",
+  "layout": "5-4-1"
+ },
+ {
+  "id": "f-6-2-2",
+  "name": "F-6-2-2",
+  "layout": "6-2-2"
+ },
+ {
+  "id": "f-6-3-1",
+  "name": "F-6-3-1",
+  "layout": "6-3-1"
+ },
+ {
   "id": "f-aegis",
   "name": "F-Aegis",
   "layout": "5-3-2"
+ },
+ {
+  "id": "f-alpha",
+  "name": "F-Alpha",
+  "layout": "3-4-3"
+ },
+ {
+  "id": "f-ancient",
+  "name": "F-Ancient",
+  "layout": "4-4-2"
  },
  {
   "id": "f-assassin",
@@ -35,9 +95,19 @@
   "layout": "5-3-2"
  },
  {
+  "id": "f-beta",
+  "name": "F-Beta",
+  "layout": "3-4-3"
+ },
+ {
   "id": "f-big-wave",
   "name": "F-Big Wave",
   "layout": "4-4-2"
+ },
+ {
+  "id": "f-black-hole",
+  "name": "F-Black Hole",
+  "layout": "5-2-3"
  },
  {
   "id": "f-blangel",
@@ -50,14 +120,29 @@
   "layout": "4-4-2"
  },
  {
+  "id": "f-blue-leaf",
+  "name": "F-Blue Leaf",
+  "layout": "3-3-4"
+ },
+ {
   "id": "f-bread",
   "name": "F-Bread",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-burning-soul",
+  "name": "F-Burning Soul",
   "layout": "4-3-3"
  },
  {
   "id": "f-butterfly",
   "name": "F-Butterfly",
   "layout": "4-3-3"
+ },
+ {
+  "id": "f-chaos-flower",
+  "name": "F-Chaos Flower",
+  "layout": "3-5-2"
  },
  {
   "id": "f-d-emperor",
@@ -70,6 +155,11 @@
   "layout": "4-4-2"
  },
  {
+  "id": "f-dark-knights",
+  "name": "F-Dark Knights",
+  "layout": "4-3-3"
+ },
+ {
   "id": "f-death-zone",
   "name": "F-Death Zone",
   "layout": "5-3-2"
@@ -78,6 +168,11 @@
   "id": "f-death-zone-2",
   "name": "F-Death Zone 2",
   "layout": "5-3-2"
+ },
+ {
+  "id": "f-domain",
+  "name": "F-Domain",
+  "layout": "3-4-3"
  },
  {
   "id": "f-double-dog",
@@ -110,6 +205,16 @@
   "layout": "4-4-2"
  },
  {
+  "id": "f-gamma",
+  "name": "F-Gamma",
+  "layout": "3-4-3"
+ },
+ {
+  "id": "f-garu",
+  "name": "F-Garu",
+  "layout": "3-5-2"
+ },
+ {
   "id": "f-gemini",
   "name": "F-Gemini",
   "layout": "5-3-2"
@@ -125,9 +230,24 @@
   "layout": "4-5-1"
  },
  {
+  "id": "f-giru",
+  "name": "F-Giru",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "f-grace-fin",
+  "name": "F-Grace Fin",
+  "layout": "2-5-3"
+ },
+ {
   "id": "f-heaven-s-gate",
   "name": "F-Heaven's Gate",
   "layout": "4-4-2"
+ },
+ {
+  "id": "f-iron-shell",
+  "name": "F-Iron Shell",
+  "layout": "5-1-4"
  },
  {
   "id": "f-kage",
@@ -137,6 +257,11 @@
  {
   "id": "f-kakuyoku-no-jin",
   "name": "F-Kakuyoku no Jin",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-kid-s-heart",
+  "name": "F-Kid's Heart",
   "layout": "4-4-2"
  },
  {
@@ -150,14 +275,49 @@
   "layout": "4-4-2"
  },
  {
+  "id": "f-lagoon",
+  "name": "F-Lagoon",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "f-lightning",
+  "name": "F-Lightning",
+  "layout": "4-4-2"
+ },
+ {
   "id": "f-little-gigant",
   "name": "F-Little Gigant",
   "layout": "4-4-2"
  },
  {
+  "id": "f-lost-wing",
+  "name": "F-Lost Wing",
+  "layout": "2-4-4"
+ },
+ {
+  "id": "f-mangetsu",
+  "name": "F-Mangetsu",
+  "layout": "2-5-3"
+ },
+ {
+  "id": "f-marine-snow",
+  "name": "F-Marine Snow",
+  "layout": "3-5-2"
+ },
+ {
   "id": "f-matador",
   "name": "F-Matador",
   "layout": "4-4-2"
+ },
+ {
+  "id": "f-mikazuki",
+  "name": "F-Mikazuki",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "f-milky-way",
+  "name": "F-Milky Way",
+  "layout": "3-4-3"
  },
  {
   "id": "f-mukata-march",
@@ -168,6 +328,36 @@
   "id": "f-neo",
   "name": "F-NEO",
   "layout": "4-3-3"
+ },
+ {
+  "id": "f-neo-cloud",
+  "name": "F-Neo Cloud",
+  "layout": "3-4-3"
+ },
+ {
+  "id": "f-neo-death-zone",
+  "name": "F-Neo Death Zone",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-oasis-route",
+  "name": "F-Oasis Route",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-ocean-dive",
+  "name": "F-Ocean Dive",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-omni",
+  "name": "F-Omni",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-orbius",
+  "name": "F-Orbius",
+  "layout": "3-3-4"
  },
  {
   "id": "f-orpheus",
@@ -185,9 +375,74 @@
   "layout": "4-4-2"
  },
  {
+  "id": "f-perfect",
+  "name": "F-Perfect",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "f-phakchi-smell",
+  "name": "F-Phakchi Smell",
+  "layout": "3-6-1"
+ },
+ {
+  "id": "f-phantom",
+  "name": "F-Phantom",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-predator",
+  "name": "F-Predator",
+  "layout": "2-6-2"
+ },
+ {
+  "id": "f-raimon",
+  "name": "F-Raimon",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-sacred",
+  "name": "F-Sacred",
+  "layout": "2-3-5"
+ },
+ {
+  "id": "f-sandstorm",
+  "name": "F-Sandstorm",
+  "layout": "4-4-2"
+ },
+ {
+  "id": "f-shika-no-tsuno",
+  "name": "F-Shika no Tsuno",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "f-shining",
+  "name": "F-Shining",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "f-soft-rime",
+  "name": "F-Soft Rime",
+  "layout": "4-5-1"
+ },
+ {
   "id": "f-super-5",
   "name": "F-Super☆5",
   "layout": "2-3-5"
+ },
+ {
+  "id": "f-taiga-strike",
+  "name": "F-Taiga Strike",
+  "layout": "4-3-3"
+ },
+ {
+  "id": "f-terracotta",
+  "name": "F-Terracotta",
+  "layout": "3-6-1"
+ },
+ {
+  "id": "f-thousand",
+  "name": "F-Thousand",
+  "layout": "2-4-4"
  },
  {
   "id": "f-three-top",
@@ -203,5 +458,25 @@
   "id": "f-wild-park",
   "name": "F-Wild Park",
   "layout": "3-4-3"
+ },
+ {
+  "id": "f-zan",
+  "name": "F-Zan",
+  "layout": "3-6-1"
+ },
+ {
+  "id": "f-zero",
+  "name": "F-Zero",
+  "layout": "4-2-4"
+ },
+ {
+  "id": "freedom",
+  "name": "Freedom",
+  "layout": "3-5-2"
+ },
+ {
+  "id": "triangle",
+  "name": "Triangle",
+  "layout": "4-3-3"
  }
 ]

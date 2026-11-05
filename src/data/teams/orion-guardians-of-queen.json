@@ -1,0 +1,527 @@
+{
+ "id": "orion-guardians-of-queen",
+ "season": "orion",
+ "wiki": "Guardians of Queen",
+ "name": "Guardians of Queen",
+ "short": "GUA",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-3-4-3",
+ "players": [
+  {
+   "id": "clorinda-luzzago",
+   "name": "Clorinda Luzzago",
+   "short": "Clorinda",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "shinjitsu-no-ooguchi",
+    "tsumuji",
+    "storm-rider",
+    "colosseo-guard"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gabriella Amati",
+   "description": "Orgullosa de su pueblo y gran conocedora de su historia, hace de guía turística voluntaria."
+  },
+  {
+   "id": "camilla-gonzaga",
+   "name": "Camilla Gonzaga",
+   "short": "Camilla",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "unbalance-pisa",
+    "rolling-slide",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Elma Chiti",
+   "description": "Fiable y muy solicitada por sus compañeras; dice que es un fastidio, pero en secreto le encanta."
+  },
+  {
+   "id": "bellamante-medici",
+   "name": "Bellamante Medici",
+   "short": "Bellamante",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "unbalance-pisa",
+    "rolling-slide",
+    "good-smell",
+    "echo-ball"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Alice Berardi",
+   "description": "Habla sin pensar, y en pocos minutos puede cambiar de opinión por completo."
+  },
+  {
+   "id": "bellona-orsini",
+   "name": "Bellona Orsini",
+   "short": "Bellona",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "unbalance-pisa",
+    "rolling-slide",
+    "presto-turn",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Diana Scola",
+   "description": "Es de un pueblo costero muy soleado y dice que su piel perfecta se debe a tres tomates al día."
+  },
+  {
+   "id": "zerbino-savelli",
+   "name": "Zerbino Savelli",
+   "short": "Zerbino",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "unbalance-pisa",
+    "kamaitachi",
+    "presto-turn",
+    "sigma-zone"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nestore Gatto",
+   "description": "Un cocinero perfeccionista cuya pasta siempre está perfectamente al dente."
+  },
+  {
+   "id": "dardinello-foscari",
+   "name": "Dardinello Foscari",
+   "short": "Dardinello",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "unbalance-pisa",
+    "kamaitachi",
+    "phalanx",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nicolò Fino",
+   "description": "Siempre pone al equipo por delante, y su pura determinación le hace superar los entrenamientos más duros."
+  },
+  {
+   "id": "medoro-gritti",
+   "name": "Medoro Gritti",
+   "short": "Medoro",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "unbalance-pisa",
+    "hitori-one-two",
+    "dash-storm",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Pietro Moresco",
+   "description": "Con vista aguda y muy escandaloso, encuentra cada punto débil del rival a pesar de su baja estatura."
+  },
+  {
+   "id": "grandazzo",
+   "name": "Grandazzo",
+   "short": "Grandazzo",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "unbalance-pisa",
+    "ignite-steal",
+    "phalanx",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Carlos Gallo",
+   "description": "Letal por alto y alto como una torre, apoya a Orlando con la mente aguda de un estratega."
+  },
+  {
+   "id": "brandimarte-ruffo",
+   "name": "Brandimarte Ruffo",
+   "short": "Brandimarte",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "unbalance-pisa",
+    "olympus-harmony",
+    "phalanx",
+    "odin-sword"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Luca Russo",
+   "description": "Un compañero solidario que fortalece piernas y torso escalando los Alpes los fines de semana."
+  },
+  {
+   "id": "dodone-barberini",
+   "name": "Dodone Barberini",
+   "short": "Dodone",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "unbalance-pisa",
+    "bousou-chariot",
+    "moonsault",
+    "brave-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Matteo Domenico",
+   "description": "Siempre dispuesto a pelearse y a desmadrarse, pero en el campo se convierte en un goleador de fiar."
+  },
+  {
+   "id": "orlando",
+   "name": "Orlando",
+   "short": "Orlando",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "unbalance-pisa",
+    "last-resort-d",
+    "moonsault",
+    "toumei-feint"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Petronio Patti",
+   "description": "Un defensa del Guardians of Queen que cubre la banda con la disciplina de un caballero."
+  },
+  {
+   "id": "oliviero-albizzi",
+   "name": "Oliviero Albizzi",
+   "short": "Oliviero",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "tricera-shield",
+    "gekirin-dunk",
+    "dragon-ground",
+    "volcano-head"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Racerit Spto",
+   "description": "Con un aspecto de triceratops, es alegre, apasionado y le encanta divertirse por encima de todo."
+  },
+  {
+   "id": "fantaghir-petrucci",
+   "name": "Fantaghirò Petrucci",
+   "short": "Fantaghirò",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "rainbow-loop",
+    "unbalance-pisa",
+    "air-bullet",
+    "dual-pass"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kakehashi Tsugu",
+   "description": "Reparte el balón por el campo con una visión amplia mientras su cinta del pelo se curva como un puente."
+  },
+  {
+   "id": "rinaldo-torelli",
+   "name": "Rinaldo Torelli",
+   "short": "Rinaldo",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "dual-storm",
+    "unbalance-pisa",
+    "welcome-back",
+    "dual-pass"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tonio Chiara",
+   "description": "El espresso le da energía por las mañanas, aunque si se pasa le suelta la tripa y llega a todo con prisas."
+  },
+  {
+   "id": "marfisa-corsi",
+   "name": "Marfisa Corsi",
+   "short": "Marfisa",
+   "number": 15,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "dual-storm",
+    "unbalance-pisa",
+    "shooting-star",
+    "echo-ball"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Monica Sala",
+   "description": "Le encantan la música y el baile, y a la mínima se arranca con danzas populares animadas como el saltarello."
+  },
+  {
+   "id": "ruggiero-spinola",
+   "name": "Ruggiero Spinola",
+   "short": "Ruggiero",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "dual-storm",
+    "unbalance-pisa",
+    "shooting-star",
+    "dual-pass"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Giustino Giovanni",
+   "description": "Suelen tomarlo por un ligón, pero su sinceridad sorprende a sus fans y se los gana a montones."
+  }
+ ]
+}

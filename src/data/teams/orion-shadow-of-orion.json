@@ -1,0 +1,462 @@
+{
+ "id": "orion-shadow-of-orion",
+ "season": "orion",
+ "wiki": "Shadow of Orion",
+ "name": "La Sombra de Orión",
+ "short": "SHA",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "procyon",
+   "name": "Procyon",
+   "short": "Procyon",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "black-shield",
+    "destiny-cloud",
+    "gyro-saving",
+    "reverse-world"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Procyon",
+   "description": "Con un tren inferior perfeccionado al máximo, bloquea los tiros solo con la fuerza de sus piernas."
+  },
+  {
+   "id": "tabit",
+   "name": "Tabit",
+   "short": "Tabit",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "waterfall",
+    "britannia-cross",
+    "fractal-house",
+    "suisei-shoot"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tabit",
+   "description": "Siempre calculando la siguiente jugada, sirve a Orión con una lealtad inquebrantable."
+  },
+  {
+   "id": "meissa",
+   "name": "Meissa",
+   "short": "Meissa",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "waterfall",
+    "britannia-cross",
+    "fractal-house",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Meissa",
+   "description": "Tan metida en el entrenamiento de Orión que hace años que no pisa una peluquería."
+  },
+  {
+   "id": "saiph",
+   "name": "Saiph",
+   "short": "Saiph",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "waterfall",
+    "britannia-cross",
+    "fractal-house",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Saiph",
+   "description": "Un maestro de todas las artes marciales que se planta como un muro con su defensa de peso pesado."
+  },
+  {
+   "id": "alnitak",
+   "name": "Alnitak",
+   "short": "Alnitak",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "waterfall",
+    "britannia-cross",
+    "panther-blizzard",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Alnitak",
+   "description": "Su eterna cara de póquer oculta lo que piensa incluso a sus compañeros."
+  },
+  {
+   "id": "alnilam",
+   "name": "Alnilam",
+   "short": "Alnilam",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "waterfall",
+    "britannia-cross",
+    "panther-blizzard",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Alnilam",
+   "description": "Antes era el bromista del grupo, pero el duro entrenamiento de Orión lo volvió frío como el hielo."
+  },
+  {
+   "id": "mintaka",
+   "name": "Mintaka",
+   "short": "Mintaka",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "stone-prison",
+    "shooting-star",
+    "suisei-shoot",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mintaka",
+   "description": "Orgulloso y seguro de sí mismo, su chulería está respaldada por un esfuerzo diario incansable."
+  },
+  {
+   "id": "bellatrix",
+   "name": "Bellatrix",
+   "short": "Bellatrix",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "dig-through",
+    "britannia-cross",
+    "fractal-house",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bellatrix",
+   "description": "Una guerrera capaz de tomar decisiones tranquilas y calculadas en cualquier momento. Sus acciones nunca se ven influidas por sus emociones."
+  },
+  {
+   "id": "rigel",
+   "name": "Rigel",
+   "short": "Rigel",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "meteor-attack",
+    "britannia-cross",
+    "prime-legend",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Rigel",
+   "description": "Un estratega de gran aguante que persigue a los rivales en silencio con una precisión implacable."
+  },
+  {
+   "id": "jade-beor",
+   "name": "Jade Beor",
+   "short": "Jade",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 173,
+   "stats": {
+    "kick": 84,
+    "body": 62,
+    "control": 77,
+    "guard": 63,
+    "speed": 84,
+    "stamina": 56,
+    "guts": 77
+   },
+   "moves": [
+    "orion-crossviper",
+    "black-field"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yurika Beor",
+   "description": "El arma definitiva de Orión, sin rival ni en inteligencia ni en técnica."
+  },
+  {
+   "id": "betelgeuse",
+   "name": "Betelgeuse",
+   "short": "Betelgeuse",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "meteor-attack",
+    "britannia-cross",
+    "shooting-star",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Betelgeuse",
+   "description": "Un delantero de Orión, solo por detrás de Jade, cuya mirada penetrante pone nerviosos a los rivales."
+  },
+  {
+   "id": "sirius",
+   "name": "Sirius",
+   "short": "Sirius",
+   "number": 14,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "planet-shield",
+    "britannia-cross",
+    "fractal-house",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sirius",
+   "description": "El duro entrenamiento de Orión volvió completamente blanco su pelo, antes negro."
+  },
+  {
+   "id": "kappa",
+   "name": "Kappa",
+   "short": "Kappa",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "planet-shield",
+    "asteroid-belt",
+    "fractal-house",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kappa",
+   "description": "Le encanta el agua y juega al fútbol chapoteando. ¡Blub, blub!"
+  },
+  {
+   "id": "hatysa",
+   "name": "Hatysa",
+   "short": "Hatysa",
+   "number": 17,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "planet-shield",
+    "britannia-cross",
+    "fractal-house",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hatysa",
+   "description": "Adivina cada movimiento del rival por su respiración, gracias a un oído excepcional."
+  }
+ ]
+}

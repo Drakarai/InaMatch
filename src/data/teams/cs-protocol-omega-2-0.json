@@ -1,0 +1,515 @@
+{
+ "id": "cs-protocol-omega-2-0",
+ "season": "cs",
+ "wiki": "Protocol Omega 2.0",
+ "name": "Protocolo Omega 2.0",
+ "short": "PO2",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-beta",
+ "players": [
+  {
+   "id": "hotel",
+   "name": "Hotel",
+   "short": "Hotel",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 123,
+   "tp": 114,
+   "stats": {
+    "kick": 74,
+    "body": 63,
+    "control": 68,
+    "guard": 63,
+    "speed": 42,
+    "stamina": 68,
+    "guts": 42
+   },
+   "moves": [
+    "doon-shout",
+    "gyro-saving",
+    "power-shield"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanou",
+   "description": "Este portero es una pieza clave del equipo por su astucia y tenacidad."
+  },
+  {
+   "id": "oscar",
+   "name": "Oscar",
+   "short": "Oscar",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 115,
+   "stats": {
+    "kick": 67,
+    "body": 74,
+    "control": 60,
+    "guard": 81,
+    "speed": 57,
+    "stamina": 73,
+    "guts": 48
+   },
+   "moves": [
+    "coil-upper",
+    "excellent-breast",
+    "sidewinder",
+    "magnet-draw"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Medam",
+   "description": "Este defensa alto y silencioso nunca pierde de vista la pelota."
+  },
+  {
+   "id": "kilo",
+   "name": "Kilo",
+   "short": "Kilo",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 125,
+   "tp": 91,
+   "stats": {
+    "kick": 63,
+    "body": 53,
+    "control": 58,
+    "guard": 63,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 37
+   },
+   "moves": [
+    "coil-upper",
+    "burning-summer",
+    "magnet-draw"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ward",
+   "description": "Es tan robusto que muchos de sus rivales no resisten colisiones con él."
+  },
+  {
+   "id": "golf",
+   "name": "Golf",
+   "short": "Golf",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 148,
+   "tp": 84,
+   "stats": {
+    "kick": 67,
+    "body": 46,
+    "control": 45,
+    "guard": 66,
+    "speed": 35,
+    "stamina": 53,
+    "guts": 50
+   },
+   "moves": [
+    "coil-upper",
+    "spinning-upper",
+    "doon-shout",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gaura",
+   "description": "Lo más impresionante de su masa corporal es que es puro músculo."
+  },
+  {
+   "id": "foxtrot",
+   "name": "Foxtrot",
+   "short": "Foxtrot",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 95,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 61,
+    "guard": 57,
+    "speed": 62,
+    "stamina": 59,
+    "guts": 45
+   },
+   "moves": [
+    "spinning-upper",
+    "burning-summer",
+    "the-typhoon",
+    "sargasso"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Drim",
+   "description": "Este centrocampista lleva gafas de sol para ocultar sus emociones."
+  },
+  {
+   "id": "lima",
+   "name": "Lima",
+   "short": "Lima",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 148,
+   "tp": 99,
+   "stats": {
+    "kick": 57,
+    "body": 64,
+    "control": 60,
+    "guard": 58,
+    "speed": 59,
+    "stamina": 59,
+    "guts": 60
+   },
+   "moves": [
+    "spinning-upper",
+    "linear-drive",
+    "sidewinder"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Quorth",
+   "description": "A pesar de su aspecto pensativo, es un jugador centrado y muy hábil."
+  },
+  {
+   "id": "november",
+   "name": "November",
+   "short": "November",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 128,
+   "stats": {
+    "kick": 66,
+    "body": 65,
+    "control": 67,
+    "guard": 67,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 58
+   },
+   "moves": [
+    "spinning-upper",
+    "twin-mixer",
+    "love-arrow"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Orca",
+   "description": "Esta centrocampista es puro nervio. Se lleva muy bien con Beta."
+  },
+  {
+   "id": "india",
+   "name": "India",
+   "short": "India",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 66,
+   "tp": 104,
+   "stats": {
+    "kick": 50,
+    "body": 57,
+    "control": 55,
+    "guard": 58,
+    "speed": 73,
+    "stamina": 56,
+    "guts": 45
+   },
+   "moves": [
+    "spinning-upper",
+    "coil-upper",
+    "love-arrow"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Neira",
+   "description": "Como es pequeñita, siempre se cuela hasta la portería para marcar goles."
+  },
+  {
+   "id": "juliet",
+   "name": "Juliet",
+   "short": "Juliet",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 139,
+   "stats": {
+    "kick": 66,
+    "body": 56,
+    "control": 55,
+    "guard": 43,
+    "speed": 69,
+    "stamina": 56,
+    "guts": 69
+   },
+   "moves": [
+    "gauss-shot",
+    "plasma-ball",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Leiser",
+   "description": "Los potentes disparos de esta delantera no dejan títere con cabeza."
+  },
+  {
+   "id": "beta",
+   "name": "Beta",
+   "short": "Beta",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 94,
+   "tp": 139,
+   "stats": {
+    "kick": 70,
+    "body": 68,
+    "control": 72,
+    "guard": 64,
+    "speed": 71,
+    "stamina": 59,
+    "guts": 60
+   },
+   "moves": [
+    "double-shot",
+    "spinning-upper",
+    "omega-attack"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Beta",
+   "description": "La capitana del Protocolo Omega 2.0 es risueña pero tiene un lado oscuro."
+  },
+  {
+   "id": "mike",
+   "name": "Mike",
+   "short": "Mike",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 142,
+   "tp": 132,
+   "stats": {
+    "kick": 54,
+    "body": 54,
+    "control": 41,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "gauss-shot",
+    "plasma-ball",
+    "spring-arrow"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Einam",
+   "description": "Este leal delantero de rostro juvenil es la mano derecha de Alfa."
+  },
+  {
+   "id": "uniform",
+   "name": "Uniform",
+   "short": "Uniform",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 107,
+   "stats": {
+    "kick": 78,
+    "body": 66,
+    "control": 55,
+    "guard": 60,
+    "speed": 40,
+    "stamina": 60,
+    "guts": 38
+   },
+   "moves": [
+    "doon-shout",
+    "shoot-pocket",
+    "wormhole",
+    "sand-cutter"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Laszlo",
+   "description": "A su vista de águila no se le escapa nada, y la pelota, mucho menos."
+  },
+  {
+   "id": "tango",
+   "name": "Tango",
+   "short": "Tango",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 83,
+   "tp": 84,
+   "stats": {
+    "kick": 46,
+    "body": 50,
+    "control": 44,
+    "guard": 56,
+    "speed": 43,
+    "stamina": 51,
+    "guts": 73
+   },
+   "moves": [
+    "coil-upper",
+    "spinning-upper"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Cople",
+   "description": "Por su baja estatura y movilidad, aparece de la nada para bloquear."
+  },
+  {
+   "id": "zulu",
+   "name": "Zulu",
+   "short": "Zulu",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 112,
+   "tp": 70,
+   "stats": {
+    "kick": 61,
+    "body": 52,
+    "control": 56,
+    "guard": 52,
+    "speed": 49,
+    "stamina": 64,
+    "guts": 54
+   },
+   "moves": [
+    "spinning-upper",
+    "coil-upper",
+    "double-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Finik",
+   "description": "Tiene un juego de pies tan pulido que parece que lleva la pelota pegada."
+  },
+  {
+   "id": "x-ray",
+   "name": "X-Ray",
+   "short": "X-Ray",
+   "number": 15,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 111,
+   "stats": {
+    "kick": 59,
+    "body": 57,
+    "control": 57,
+    "guard": 55,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 52
+   },
+   "moves": [
+    "spinning-transam",
+    "coil-upper",
+    "spinning-upper",
+    "astro-break"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mechius",
+   "description": "Sus tiros precisos y visión de juego hacen de él un delantero modelo."
+  },
+  {
+   "id": "delta",
+   "name": "Delta",
+   "short": "Delta",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 61,
+   "tp": 123,
+   "stats": {
+    "kick": 57,
+    "body": 48,
+    "control": 50,
+    "guard": 59,
+    "speed": 57,
+    "stamina": 47,
+    "guts": 53
+   },
+   "moves": [
+    "spinning-transam",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Minenne",
+   "description": "Es capaz de abrirse camino hasta la portería rival sin despeinarse un pelo."
+  }
+ ]
+}

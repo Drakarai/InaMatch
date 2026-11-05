@@ -1,0 +1,432 @@
+{
+ "id": "ares-zeus-ares",
+ "season": "ares",
+ "wiki": "Zeus (Ares)",
+ "name": "Instituto Zeus (Ares)",
+ "short": "ZEU",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "ross-siddon",
+   "name": "Ross Siddon",
+   "short": "Ross",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "tsunami-wall",
+    "gigant-wall",
+    "holy-zone",
+    "shining-hole"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Posei Donji",
+   "description": "El hermano pequeño del temible Poseidón; su fuerza y su potencial rivalizan con los de su hermano."
+  },
+  {
+   "id": "apollo-light",
+   "name": "Apollo Light",
+   "short": "Apollo",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 148,
+   "tp": 121,
+   "stats": {
+    "kick": 52,
+    "body": 52,
+    "control": 61,
+    "guard": 67,
+    "speed": 67,
+    "stamina": 53,
+    "guts": 63
+   },
+   "moves": [
+    "sabaki-no-tettsui",
+    "shine-drive",
+    "magic",
+    "dash-storm"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aporo Hikaru",
+   "description": "Es un solete que saca a relucir su vena competitiva jugando al fútbol."
+  },
+  {
+   "id": "hadrian-diesel",
+   "name": "Hadrian Diesel",
+   "short": "Hadrian",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "sabaki-no-tettsui",
+    "dash-storm",
+    "go-to-heaven",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hadeno Tetsu",
+   "description": "Sus ojos fríos y brillantes ocultan una ambición ardiente que le hace ir a tope incluso cuando va ganando."
+  },
+  {
+   "id": "lane-war",
+   "name": "Lane War",
+   "short": "Lane",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 112,
+   "stats": {
+    "kick": 69,
+    "body": 61,
+    "control": 60,
+    "guard": 66,
+    "speed": 39,
+    "stamina": 68,
+    "guts": 50
+   },
+   "moves": [
+    "sabaki-no-tettsui",
+    "onryou",
+    "judge-through",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Aresu Ran",
+   "description": "Parece tímido, pero da mucha guerra a sus rivales en el campo."
+  },
+  {
+   "id": "danny-wood",
+   "name": "Danny Wood",
+   "short": "Danny",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 97,
+   "stats": {
+    "kick": 46,
+    "body": 47,
+    "control": 42,
+    "guard": 67,
+    "speed": 45,
+    "stamina": 62,
+    "guts": 63
+   },
+   "moves": [
+    "mega-quake",
+    "zigzag-spark",
+    "earthquake",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Deio Geki",
+   "description": "Se emborracha de balón durante los partidos. No sabe contenerse."
+  },
+  {
+   "id": "artie-mishman",
+   "name": "Artie Mishman",
+   "short": "Artie",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 120,
+   "stats": {
+    "kick": 51,
+    "body": 49,
+    "control": 60,
+    "guard": 52,
+    "speed": 67,
+    "stamina": 47,
+    "guts": 55
+   },
+   "moves": [
+    "heaven-s-time",
+    "divine-arrow",
+    "illusion-ball",
+    "doppelganger"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Arute Saneki",
+   "description": "Un medio cuyos pases y regates son tan rápidos como unas flechas."
+  },
+  {
+   "id": "arion-matlock",
+   "name": "Arion Matlock",
+   "short": "Arion",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 131,
+   "tp": 85,
+   "stats": {
+    "kick": 56,
+    "body": 53,
+    "control": 59,
+    "guard": 58,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 53
+   },
+   "moves": [
+    "heaven-s-time",
+    "sabaki-no-tettsui",
+    "cyclone",
+    "tsumuji"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Herume Matsuaki",
+   "description": "Se prepara a fondo para cada partido. Jamás infravalora a un rival."
+  },
+  {
+   "id": "wesley-knox",
+   "name": "Wesley Knox",
+   "short": "Wesley",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 150,
+   "tp": 113,
+   "stats": {
+    "kick": 60,
+    "body": 57,
+    "control": 65,
+    "guard": 54,
+    "speed": 56,
+    "stamina": 55,
+    "guts": 74
+   },
+   "moves": [
+    "dash-storm",
+    "reflect-buster",
+    "super-scan-of",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Atena Tomo",
+   "description": "El cerebro del Zeus. Diseña jugadas reservadas a mentes divinas."
+  },
+  {
+   "id": "byron-love",
+   "name": "Byron Love",
+   "short": "Byron",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 142,
+   "stats": {
+    "kick": 80,
+    "body": 72,
+    "control": 73,
+    "guard": 65,
+    "speed": 63,
+    "stamina": 52,
+    "guts": 64
+   },
+   "moves": [
+    "god-knows-impact",
+    "heaven-s-time",
+    "god-knows",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Afuro Terumi",
+   "description": "Cautiva a sus rivales con su gracia artística y juega con el aura de un ser divino."
+  },
+  {
+   "id": "jonas-demetrius",
+   "name": "Jonas Demetrius",
+   "short": "Jonas",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 124,
+   "tp": 122,
+   "stats": {
+    "kick": 66,
+    "body": 60,
+    "control": 58,
+    "guard": 48,
+    "speed": 49,
+    "stamina": 48,
+    "guts": 54
+   },
+   "moves": [
+    "reflect-buster",
+    "dash-storm",
+    "divine-arrow",
+    "horn-train"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Demete Yutaka",
+   "description": "Estudia las características del terreno para adaptarse a cada situación."
+  },
+  {
+   "id": "percy-hurst",
+   "name": "Percy Hurst",
+   "short": "Percy",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "tenkuu-no-yaiba",
+    "heaven-s-time",
+    "go-to-heaven",
+    "god-knows"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Heruse Arisu",
+   "description": "Un novato indomable y apasionado que corre como si tuviera alas en el campo."
+  },
+  {
+   "id": "deirdre-staples",
+   "name": "Deirdre Staples",
+   "short": "Deirdre",
+   "number": 12,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "maboroshi-dribble",
+    "dark-tornado",
+    "freeze-shot",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Matsuzaka Kiyo",
+   "description": "Guía al equipo con una bondad serena y una presencia tan tranquilizadora como la de una deidad."
+  },
+  {
+   "id": "alexander-scrivener",
+   "name": "Alexander Scrivener",
+   "short": "Alexander",
+   "number": 13,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "dash-accel",
+    "buttobi-punch",
+    "makiwari-chop",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ushijima Ikurou",
+   "description": "Un entrenador discreto del Zeus que guía en silencio a sus jugadores desde la sombra."
+  }
+ ]
+}

@@ -29,6 +29,11 @@ export interface PlayerData {
   stats: Stats;
   moves: string[]; // ids de moves.json
   description?: string;
+  /** Equipo y id de donde sale el jugador (los de "Mi club"): su retrato y sus rasgos son los de allí. */
+  origin?: string;
+  originId?: string;
+  /** Página del jugador en la wiki inglesa: identifica al personaje entre equipos. */
+  wiki?: string;
   /** Colores del sprite provisional (se ignoran si hay sprite en el pack). */
   look?: { hair?: string; skin?: string };
 }

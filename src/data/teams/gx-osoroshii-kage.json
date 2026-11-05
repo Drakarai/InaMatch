@@ -1,0 +1,346 @@
+{
+ "id": "gx-osoroshii-kage",
+ "season": "gx",
+ "wiki": "Osoroshii Kage",
+ "name": "Sombras Terribles",
+ "short": "OSO",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-lightning",
+ "players": [
+  {
+   "id": "osoroshii-kage-1",
+   "name": "Osoroshii Kage 1",
+   "short": "1",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 117,
+   "tp": 131,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 72,
+    "guard": 63,
+    "speed": 62,
+    "stamina": 47,
+    "guts": 64
+   },
+   "moves": [
+    "wormhole",
+    "gyro-saving"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Osoroshii Kage 1",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-2",
+   "name": "Osoroshii Kage 2",
+   "short": "2",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 115,
+   "stats": {
+    "kick": 77,
+    "body": 47,
+    "control": 45,
+    "guard": 63,
+    "speed": 61,
+    "stamina": 51,
+    "guts": 69
+   },
+   "moves": [
+    "death-scythe-middle",
+    "rolling-cutter"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Osoroshii Kage 2",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-3",
+   "name": "Osoroshii Kage 3",
+   "short": "3",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 119,
+   "stats": {
+    "kick": 72,
+    "body": 51,
+    "control": 50,
+    "guard": 62,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 71
+   },
+   "moves": [
+    "blitz-bridge",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Osoroshii Kage 3",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-4",
+   "name": "Osoroshii Kage 4",
+   "short": "4",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 110,
+   "tp": 121,
+   "stats": {
+    "kick": 69,
+    "body": 52,
+    "control": 54,
+    "guard": 66,
+    "speed": 55,
+    "stamina": 64,
+    "guts": 62
+   },
+   "moves": [
+    "willy-willy",
+    "dig-up"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Osoroshii Kage 4",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-5",
+   "name": "Osoroshii Kage 5",
+   "short": "5",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 125,
+   "stats": {
+    "kick": 61,
+    "body": 56,
+    "control": 56,
+    "guard": 64,
+    "speed": 65,
+    "stamina": 50,
+    "guts": 69
+   },
+   "moves": [
+    "spinning-cut",
+    "winning-logic"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Osoroshii Kage 5",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-6",
+   "name": "Osoroshii Kage 6",
+   "short": "6",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 136,
+   "tp": 106,
+   "stats": {
+    "kick": 60,
+    "body": 57,
+    "control": 63,
+    "guard": 57,
+    "speed": 53,
+    "stamina": 73,
+    "guts": 63
+   },
+   "moves": [
+    "desert-drift",
+    "magma-carpet"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Osoroshii Kage 6",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-7",
+   "name": "Osoroshii Kage 7",
+   "short": "7",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 141,
+   "tp": 103,
+   "stats": {
+    "kick": 68,
+    "body": 53,
+    "control": 65,
+    "guard": 44,
+    "speed": 59,
+    "stamina": 70,
+    "guts": 51
+   },
+   "moves": [
+    "bungee-thrust",
+    "dig-through"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Osoroshii Kage 7",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-8",
+   "name": "Osoroshii Kage 8",
+   "short": "8",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 144,
+   "tp": 99,
+   "stats": {
+    "kick": 67,
+    "body": 50,
+    "control": 62,
+    "guard": 62,
+    "speed": 62,
+    "stamina": 46,
+    "guts": 70
+   },
+   "moves": [
+    "air-ride",
+    "asoko-ni-ufo"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Osoroshii Kage 8",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-9",
+   "name": "Osoroshii Kage 9",
+   "short": "9",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 150,
+   "tp": 95,
+   "stats": {
+    "kick": 56,
+    "body": 60,
+    "control": 66,
+    "guard": 56,
+    "speed": 61,
+    "stamina": 55,
+    "guts": 70
+   },
+   "moves": [
+    "trick-ball",
+    "liquid-flow"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Osoroshii Kage 9",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-10",
+   "name": "Osoroshii Kage 10",
+   "short": "10",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 117,
+   "stats": {
+    "kick": 63,
+    "body": 48,
+    "control": 61,
+    "guard": 56,
+    "speed": 57,
+    "stamina": 69,
+    "guts": 50
+   },
+   "moves": [
+    "bicycle-sword",
+    "souhi-yuuseidan"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Osoroshii Kage 10",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  },
+  {
+   "id": "osoroshii-kage-11",
+   "name": "Osoroshii Kage 11",
+   "short": "11",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 152,
+   "tp": 116,
+   "stats": {
+    "kick": 65,
+    "body": 66,
+    "control": 58,
+    "guard": 68,
+    "speed": 42,
+    "stamina": 53,
+    "guts": 67
+   },
+   "moves": [
+    "spring-arrow",
+    "double-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Osoroshii Kage 11",
+   "description": "Una de las Sombras Terribles, siluetas oscuras sin rostro que juegan en total silencio y asustan a cualquier rival."
+  }
+ ]
+}

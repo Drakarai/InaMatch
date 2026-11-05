@@ -1,0 +1,511 @@
+{
+ "id": "go-kuro-no-kishidan",
+ "season": "go",
+ "wiki": "Kuro no Kishidan",
+ "name": "Kuro no Kishidan",
+ "short": "KUR",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#f2c230"
+ },
+ "formation": "f-dark-knights",
+ "players": [
+  {
+   "id": "lance-speares",
+   "name": "Lance Speares",
+   "short": "Lance",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 86,
+   "tp": 174,
+   "stats": {
+    "kick": 56,
+    "body": 57,
+    "control": 52,
+    "guard": 56,
+    "speed": 45,
+    "stamina": 40,
+    "guts": 59
+   },
+   "moves": [
+    "rapid-whip",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tetsuoda Masashi",
+   "description": "Este portero impasible puede anticipar al instante la trayectoria del balón."
+  },
+  {
+   "id": "clay-moor",
+   "name": "Clay Moor",
+   "short": "Clay",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 121,
+   "stats": {
+    "kick": 64,
+    "body": 38,
+    "control": 64,
+    "guard": 48,
+    "speed": 55,
+    "stamina": 76,
+    "guts": 53
+   },
+   "moves": [
+    "head-bazooka",
+    "dash-train",
+    "kattobi-defense"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ushijima Seiji",
+   "description": "Un jugador recio, capaz de desviar con facilidad los disparos más fuertes."
+  },
+  {
+   "id": "nun-chuck",
+   "name": "Nun Chuck",
+   "short": "Nun",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 119,
+   "tp": 157,
+   "stats": {
+    "kick": 52,
+    "body": 52,
+    "control": 45,
+    "guard": 58,
+    "speed": 48,
+    "stamina": 65,
+    "guts": 59
+   },
+   "moves": [
+    "burning-summer",
+    "elephant-press",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Daimon Mitsuru",
+   "description": "Un jugador sin dobleces, contundente y un tanto cruel con sus rivales."
+  },
+  {
+   "id": "dirk-anlace",
+   "name": "Dirk Anlace",
+   "short": "Dirk",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 117,
+   "tp": 153,
+   "stats": {
+    "kick": 54,
+    "body": 55,
+    "control": 52,
+    "guard": 53,
+    "speed": 55,
+    "stamina": 61,
+    "guts": 60
+   },
+   "moves": [
+    "thief-eye",
+    "killer-whale",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Morikawa Genta",
+   "description": "Marca tenazmente a los jugadores rivales hasta anular sus ataques."
+  },
+  {
+   "id": "spike-stiletto",
+   "name": "Spike Stiletto",
+   "short": "Spike",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 159,
+   "stats": {
+    "kick": 56,
+    "body": 49,
+    "control": 70,
+    "guard": 53,
+    "speed": 61,
+    "stamina": 55,
+    "guts": 55
+   },
+   "moves": [
+    "burning-summer",
+    "hunter-s-net",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yanagi Mitsuo",
+   "description": "Este defensa marrullero no duda en recurrir al juego sucio."
+  },
+  {
+   "id": "jack-knife",
+   "name": "Jack Knife",
+   "short": "Jack",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 110,
+   "tp": 183,
+   "stats": {
+    "kick": 48,
+    "body": 74,
+    "control": 57,
+    "guard": 58,
+    "speed": 51,
+    "stamina": 65,
+    "guts": 60
+   },
+   "moves": [
+    "burning-summer",
+    "presto-turn",
+    "sidewinder"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Iseya Minoru",
+   "description": "Su estrategia fundamental es buscar los puntos débiles de los adversarios."
+  },
+  {
+   "id": "bilbo-baton",
+   "name": "Bilbo Baton",
+   "short": "Bilbo",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 175,
+   "stats": {
+    "kick": 50,
+    "body": 57,
+    "control": 57,
+    "guard": 48,
+    "speed": 64,
+    "stamina": 53,
+    "guts": 55
+   },
+   "moves": [
+    "perfect-course",
+    "future-eye",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sanjou Dai",
+   "description": "Pone la eficiencia por encima de todo y la busca en cada aspecto del juego."
+  },
+  {
+   "id": "bayonet-gunne",
+   "name": "Bayonet Gunne",
+   "short": "Bayonet",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 152,
+   "stats": {
+    "kick": 60,
+    "body": 52,
+    "control": 48,
+    "guard": 61,
+    "speed": 62,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "sonic-shot",
+    "burning-summer",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Amano Kaiji",
+   "description": "Aunque pasa físicamente inadvertido, sus disparos con casi destructivos."
+  },
+  {
+   "id": "howie-itzer",
+   "name": "Howie Itzer",
+   "short": "Howie",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 143,
+   "stats": {
+    "kick": 56,
+    "body": 56,
+    "control": 61,
+    "guard": 49,
+    "speed": 54,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "presto-turn",
+    "claymore",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Inaba Natsuki",
+   "description": "Tiene los ojos de distinto color y una excesiva confianza en sí mismo."
+  },
+  {
+   "id": "victor-blade",
+   "name": "Victor Blade",
+   "short": "Victor",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 166,
+   "tp": 164,
+   "stats": {
+    "kick": 58,
+    "body": 51,
+    "control": 50,
+    "guard": 63,
+    "speed": 52,
+    "stamina": 65,
+    "guts": 63
+   },
+   "moves": [
+    "death-sword",
+    "death-drop",
+    "devil-burst",
+    "fire-tornado-dd"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tsurugi Kyousuke",
+   "description": "Un siniestro delantero capaz de derrotar él solo a un equipo entero."
+  },
+  {
+   "id": "flam-berger",
+   "name": "Flam Berger",
+   "short": "Flam",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 109,
+   "tp": 145,
+   "stats": {
+    "kick": 73,
+    "body": 56,
+    "control": 50,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 55,
+    "guts": 57
+   },
+   "moves": [
+    "death-sword",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kizaki Yuuji",
+   "description": "Un goleador sobrio y tranquilo. Su único interés es marcar goles."
+  },
+  {
+   "id": "matt-chetty",
+   "name": "Matt Chetty",
+   "short": "Matt",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 109,
+   "tp": 157,
+   "stats": {
+    "kick": 56,
+    "body": 50,
+    "control": 56,
+    "guard": 31,
+    "speed": 54,
+    "stamina": 58,
+    "guts": 54
+   },
+   "moves": [
+    "burning-catch",
+    "rapid-whip",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kusakabe Saisuke",
+   "description": "Su personalidad es un tanto cerrada, pero su técnica habla por si misma."
+  },
+  {
+   "id": "harold-shields",
+   "name": "Harold Shields",
+   "short": "Harold",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 117,
+   "tp": 144,
+   "stats": {
+    "kick": 43,
+    "body": 52,
+    "control": 57,
+    "guard": 66,
+    "speed": 61,
+    "stamina": 57,
+    "guts": 55
+   },
+   "moves": [
+    "bound-flame",
+    "burning-summer",
+    "buttobi-jump",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Okusano Maiya",
+   "description": "Puede parecer menudo y frágil, pero su juego es salvaje y peligroso."
+  },
+  {
+   "id": "hal-byrd",
+   "name": "Hal Byrd",
+   "short": "Hal",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 153,
+   "stats": {
+    "kick": 69,
+    "body": 58,
+    "control": 59,
+    "guard": 46,
+    "speed": 56,
+    "stamina": 59,
+    "guts": 58
+   },
+   "moves": [
+    "burning-summer",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Taketomi Kiyoo",
+   "description": "Lo único que le importa es cumplir los encargos del Sector Quinto."
+  },
+  {
+   "id": "morgan-stern",
+   "name": "Morgan Stern",
+   "short": "Morgan",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 117,
+   "tp": 157,
+   "stats": {
+    "kick": 55,
+    "body": 54,
+    "control": 50,
+    "guard": 57,
+    "speed": 49,
+    "stamina": 62,
+    "guts": 59
+   },
+   "moves": [
+    "mad-juggler",
+    "viva-banri-no-choujou",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shibaki Gekito",
+   "description": "Piensa que vencer sin destrozar al rival es dejar el trabajo a medias."
+  },
+  {
+   "id": "roman-ballista",
+   "name": "Roman Ballista",
+   "short": "Roman",
+   "number": 16,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 95,
+   "tp": 163,
+   "stats": {
+    "kick": 55,
+    "body": 74,
+    "control": 52,
+    "guard": 59,
+    "speed": 48,
+    "stamina": 52,
+    "guts": 62
+   },
+   "moves": [
+    "mad-juggler",
+    "zeroyon",
+    "fire-tornado"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Maniwa Kento",
+   "description": "Con su rapidez y agilidad, parece estar en todos los sitios a la vez."
+  }
+ ]
+}

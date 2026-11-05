@@ -1,0 +1,360 @@
+{
+ "id": "go-southern-claw",
+ "season": "go",
+ "wiki": "Southern Claw",
+ "name": "Garras del Sur",
+ "short": "SOU",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-basic",
+ "players": [
+  {
+   "id": "xavier-shotwell",
+   "name": "Xavier Shotwell",
+   "short": "Xavier",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 165,
+   "tp": 161,
+   "stats": {
+    "kick": 62,
+    "body": 62,
+    "control": 70,
+    "guard": 68,
+    "speed": 49,
+    "stamina": 58,
+    "guts": 67
+   },
+   "moves": [
+    "fence-of-gaia",
+    "ballista-shot",
+    "serpent-fang"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seirou Kazuma",
+   "description": "Apodado \"Arenas movedizas\", sus guantes engullen cualquier disparo."
+  },
+  {
+   "id": "crimson-wiseman",
+   "name": "Crimson Wiseman",
+   "short": "Crimson",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 62,
+    "control": 63,
+    "guard": 51,
+    "speed": 77,
+    "stamina": 44,
+    "guts": 54
+   },
+   "moves": [
+    "zeroyon",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nachi Gai",
+   "description": "Apodado \"Espejismo\". Se mueve con sigilo para robarle el balón al rival."
+  },
+  {
+   "id": "linden-haregrove",
+   "name": "Linden Haregrove",
+   "short": "Linden",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 155,
+   "stats": {
+    "kick": 51,
+    "body": 50,
+    "control": 70,
+    "guard": 52,
+    "speed": 76,
+    "stamina": 53,
+    "guts": 60
+   },
+   "moves": [
+    "presto-turn",
+    "the-mist",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ruzaki Yasuki",
+   "description": "La mano derecha de Cirrus, el capitán. Lo llaman \"El rostro de la verdad\"."
+  },
+  {
+   "id": "jared-dapplegrey",
+   "name": "Jared Dapplegrey",
+   "short": "Jared",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 166,
+   "tp": 113,
+   "stats": {
+    "kick": 57,
+    "body": 68,
+    "control": 49,
+    "guard": 47,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 53
+   },
+   "moves": [
+    "power-spike",
+    "kattobi-defense",
+    "twin-mixer",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hida Keita",
+   "description": "Apacible, pero monta en cólera en un pispás. De ahí el mote: \"Estampida\"."
+  },
+  {
+   "id": "keith-wellington",
+   "name": "Keith Wellington",
+   "short": "Keith",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 164,
+   "tp": 159,
+   "stats": {
+    "kick": 61,
+    "body": 62,
+    "control": 61,
+    "guard": 56,
+    "speed": 53,
+    "stamina": 74,
+    "guts": 57
+   },
+   "moves": [
+    "dash-train",
+    "rocket-head",
+    "twin-mixer",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kagawa Ruriwo",
+   "description": "Lo llaman \"Búfalo\". No se sabe si se peina así aposta."
+  },
+  {
+   "id": "cirrus-whisp",
+   "name": "Cirrus Whisp",
+   "short": "Cirrus",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 153,
+   "tp": 163,
+   "stats": {
+    "kick": 54,
+    "body": 49,
+    "control": 64,
+    "guard": 44,
+    "speed": 68,
+    "stamina": 50,
+    "guts": 52
+   },
+   "moves": [
+    "claymore",
+    "melody-wave",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rinno Tenki",
+   "description": "Todo el mundo respeta al \"Faraón\", aunque nadie sabe de dónde viene."
+  },
+  {
+   "id": "gamal-everlast",
+   "name": "Gamal Everlast",
+   "short": "Gamal",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 151,
+   "tp": 153,
+   "stats": {
+    "kick": 57,
+    "body": 50,
+    "control": 58,
+    "guard": 44,
+    "speed": 68,
+    "stamina": 51,
+    "guts": 57
+   },
+   "moves": [
+    "claymore",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Noga Shiroh",
+   "description": "Juega de maravilla haga el calor que haga. Lo llaman \"El rey del desierto\"."
+  },
+  {
+   "id": "sandy-dryhill",
+   "name": "Sandy Dryhill",
+   "short": "Sandy",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 174,
+   "tp": 159,
+   "stats": {
+    "kick": 49,
+    "body": 51,
+    "control": 66,
+    "guard": 52,
+    "speed": 53,
+    "stamina": 49,
+    "guts": 61
+   },
+   "moves": [
+    "twin-mixer",
+    "trick-ball",
+    "melody-wave",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Senda Nobuo",
+   "description": "Se adapta a cualquier coyuntura, como la arena del desierto. Un todoterreno."
+  },
+  {
+   "id": "dryden-zephyr",
+   "name": "Dryden Zephyr",
+   "short": "Dryden",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 156,
+   "tp": 168,
+   "stats": {
+    "kick": 57,
+    "body": 62,
+    "control": 50,
+    "guard": 44,
+    "speed": 68,
+    "stamina": 76,
+    "guts": 56
+   },
+   "moves": [
+    "britannia-cross",
+    "maboroshi-shot",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shida Tsugumu",
+   "description": "\"El áspid\" es un futbolista que aúna técnica depurada y juego duro."
+  },
+  {
+   "id": "solomon-roundhay",
+   "name": "Solomon Roundhay",
+   "short": "Solomon",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 142,
+   "stats": {
+    "kick": 67,
+    "body": 60,
+    "control": 49,
+    "guard": 57,
+    "speed": 71,
+    "stamina": 54,
+    "guts": 50
+   },
+   "moves": [
+    "presto-turn",
+    "acrobat-keep",
+    "illusion-ball",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tamura Baku",
+   "description": "Lo apodan \"Calima\" y sus trallazos ponen los pelos de punta."
+  },
+  {
+   "id": "harry-dwind",
+   "name": "Harry Dwind",
+   "short": "Harry",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 166,
+   "tp": 143,
+   "stats": {
+    "kick": 54,
+    "body": 59,
+    "control": 52,
+    "guard": 63,
+    "speed": 45,
+    "stamina": 56,
+    "guts": 70
+   },
+   "moves": [
+    "britannia-cross",
+    "sidewinder",
+    "claymore",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Chihara Sakiya",
+   "description": "Nunca te fíes de \"La tormenta\": es implacable y no le caes bien."
+  }
+ ]
+}

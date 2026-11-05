@@ -1,0 +1,524 @@
+{
+ "id": "ares-seishou-gakuen",
+ "season": "ares",
+ "wiki": "Seishou Gakuen",
+ "name": "Seishou Gakuen",
+ "short": "SEI",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-4-5-1",
+ "players": [
+  {
+   "id": "mickey-way",
+   "name": "Mickey Way",
+   "short": "Mickey",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 158,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 67,
+    "guard": 75,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 69
+   },
+   "moves": [
+    "moja-catch",
+    "death-crater",
+    "toughness-block",
+    "black-hole"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Amano Masamichi",
+   "description": "Un portero de pelo indomable. Detiene cada tiro con una exquisita precisión."
+  },
+  {
+   "id": "kotono-tomio",
+   "name": "Kotono Tomio",
+   "short": "Kotono",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 50,
+    "body": 70,
+    "control": 50,
+    "guard": 70,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "spinning-cut",
+    "flame-dance",
+    "ignite-steal",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kotono Tomio",
+   "description": "Tiene un sexto sentido que le permite anticiparse a los movimientos de sus rivales durante los partidos."
+  },
+  {
+   "id": "cygnus-starkey",
+   "name": "Cygnus Starkey",
+   "short": "Cygnus",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "angel-ray",
+    "flame-dance",
+    "illusion-ball",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shiratori Tsumuki",
+   "description": "Aprecia la armonía y disciplina en su equipo. Es implacable con los que se escaquean al entrenar."
+  },
+  {
+   "id": "ari-zimmerman",
+   "name": "Ari Zimmerman",
+   "short": "Ari",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "killer-slide",
+    "zone-of-pentagram",
+    "super-scan-of",
+    "spark-wind"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yagihara Katsumi",
+   "description": "Es tan perfeccionista y meticuloso como un artesano. Deja que sus implacables jugadas hablen por él."
+  },
+  {
+   "id": "acker-reese",
+   "name": "Acker Reese",
+   "short": "Acker",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "zone-of-pentagram",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mizukamiya Seiryuu",
+   "description": "Todo un estratega que siempre mantiene la calma. Es el pegamento que mantiene unido al equipo."
+  },
+  {
+   "id": "jimmy-nigh",
+   "name": "Jimmy Nigh",
+   "short": "Jimmy",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "judge-through",
+    "zone-of-pentagram",
+    "spinning-shoot",
+    "shooting-star"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Futagotamagawa Tetsuya",
+   "description": "Diligente y rápido como el rayo. Es irónico al hablar, pero sabe cómo guiar al equipo."
+  },
+  {
+   "id": "caesar-pike",
+   "name": "Caesar Pike",
+   "short": "Caesar",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "zone-of-pentagram",
+    "megalodon",
+    "tsuchi-daruma",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Uoshima Sameharu",
+   "description": "De complexión robusta pero disciplinado. Su fuerza es el resultado de una dieta a base de marisco."
+  },
+  {
+   "id": "oliver-golightly",
+   "name": "Oliver Golightly",
+   "short": "Oliver",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "angel-ray",
+    "spectre-magna",
+    "olympus-harmony",
+    "spiral-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Saotome Seiya",
+   "description": "Sabe mantener la calma en los momentos más tensos. Su gran talento contrasta con su adorable aspecto."
+  },
+  {
+   "id": "oscar-pio",
+   "name": "Oscar Pio",
+   "short": "Oscar",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "death-zone",
+    "spectre-magna",
+    "super-scan-of",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sasotsuka Eiji",
+   "description": "Tranquilo y popular. Ayuda a sus compañeros con sus dotes de trabajo en equipo."
+  },
+  {
+   "id": "eddy-o-ryan",
+   "name": "Eddy O'Ryan",
+   "short": "Eddy",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "death-zone",
+    "spectre-magna",
+    "judge-through",
+    "killer-slide"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Orio Fuyuki",
+   "description": "Su esfuerzo y sudor le han permitido a este perspicaz jugador correr como el viento y superar a casi cualquiera."
+  },
+  {
+   "id": "elliot-ember",
+   "name": "Elliot Ember",
+   "short": "Elliot",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "overhead-penguin",
+    "perfect-penguin"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Haizaki Ryouhei",
+   "description": "La sonrisa demente de este jugador pone los vellos de punta. Agobia al rival con un estilo de juego hiperagresivo."
+  },
+  {
+   "id": "holt-northam",
+   "name": "Holt Northam",
+   "short": "Holt",
+   "number": 12,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "zone-of-pentagram",
+    "killer-slide",
+    "super-scan-df",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Okuma Hokuto",
+   "description": "Tranquilo fuera del campo, pero durante los partidos protege la portería de goles rivales bajo su atenta mirada."
+  },
+  {
+   "id": "braveon-halvors",
+   "name": "Braveon Halvors",
+   "short": "Braveon",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "reflect-buster",
+    "kung-fu-attack",
+    "eagle-buster",
+    "ninin-sankyaku"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shishitani Yuusuke",
+   "description": "Su espíritu competitivo le motiva a seguir adelante. Arrasa con la defensa enemiga con una fuerza imparable."
+  },
+  {
+   "id": "konrad-hardin",
+   "name": "Konrad Hardin",
+   "short": "Konrad",
+   "number": 14,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "volcano-cut",
+    "big-scissors",
+    "dash-train",
+    "shikofumi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kani Kenzou",
+   "description": "Su presencia en el campo es feroz e imponente. Su estilo de juego agresivo mantiene a los rivales a la raya."
+  },
+  {
+   "id": "aren-yarrow",
+   "name": "Aren Yarrow",
+   "short": "Aren",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "quick-draw",
+    "dash-accel",
+    "ushiro-no-shoumen",
+    "tatsumaki-senpuu"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yazu Meita",
+   "description": "Es calmado y resolutivo. Chutará con precisión si se le plantea la ocasión."
+  },
+  {
+   "id": "jude-sharp",
+   "name": "Jude Sharp",
+   "short": "Jude",
+   "number": 16,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 184,
+   "tp": 142,
+   "stats": {
+    "kick": 73,
+    "body": 74,
+    "control": 76,
+    "guard": 63,
+    "speed": 56,
+    "stamina": 64,
+    "guts": 64
+   },
+   "moves": [
+    "illusion-ball",
+    "twin-boost",
+    "spinning-cut",
+    "inazuma-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kidou Yuuto",
+   "description": "Un capitán que guía hacia la victoria a su equipo. Tiene un amplio arsenal de tácticas y técnicas."
+  }
+ ]
+}

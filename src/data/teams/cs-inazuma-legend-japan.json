@@ -1,0 +1,363 @@
+{
+ "id": "cs-inazuma-legend-japan",
+ "season": "cs",
+ "wiki": "Inazuma Legend Japan",
+ "name": "Inazuma Japón Legendario",
+ "short": "ILJ",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-raimon",
+ "players": [
+  {
+   "id": "mark-evans",
+   "name": "Mark Evans",
+   "short": "Mark",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 123,
+   "tp": 148,
+   "stats": {
+    "kick": 78,
+    "body": 74,
+    "control": 50,
+    "guard": 85,
+    "speed": 52,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "god-hand",
+    "gigaton-head",
+    "god-hand-v"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "El enérgico capitán del Raimon, famoso por no rendirse jamás."
+  },
+  {
+   "id": "nathan-swift",
+   "name": "Nathan Swift",
+   "short": "Nathan",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 112,
+   "stats": {
+    "kick": 54,
+    "body": 52,
+    "control": 61,
+    "guard": 67,
+    "speed": 89,
+    "stamina": 59,
+    "guts": 63
+   },
+   "moves": [
+    "shippuu-dash",
+    "air-bullet",
+    "kazaana-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kazemaru Ichirouta",
+   "description": "Un vendaval incontenible en ataque. Y buen amigo de Mark, además."
+  },
+  {
+   "id": "jack-wallside",
+   "name": "Jack Wallside",
+   "short": "Jack",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 171,
+   "tp": 115,
+   "stats": {
+    "kick": 47,
+    "body": 52,
+    "control": 44,
+    "guard": 77,
+    "speed": 34,
+    "stamina": 56,
+    "guts": 67
+   },
+   "moves": [
+    "the-wall",
+    "mogura-feint",
+    "elephant-press",
+    "deep-jungle"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kabeyama Heigorou",
+   "description": "Proverbial muro defensivo. Alto como una torre, pero un poquito miedica."
+  },
+  {
+   "id": "hurley-kane",
+   "name": "Hurley Kane",
+   "short": "Hurley",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 119,
+   "stats": {
+    "kick": 89,
+    "body": 49,
+    "control": 62,
+    "guard": 66,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 45
+   },
+   "moves": [
+    "the-typhoon",
+    "sargasso",
+    "sparkle-wave",
+    "kuroshio-ride"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsunami Jousuke",
+   "description": "No hay ola que se resista a este chaval tan enrollado."
+  },
+  {
+   "id": "xavier-foster",
+   "name": "Xavier Foster",
+   "short": "Xavier",
+   "number": 18,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 147,
+   "tp": 125,
+   "stats": {
+    "kick": 69,
+    "body": 75,
+    "control": 58,
+    "guard": 67,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 56
+   },
+   "moves": [
+    "ryuusei-blade",
+    "extend-zone",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kiyama Hiroto",
+   "description": "Antiguo rival del Raimon. Dispara con la potencia de un cometa."
+  },
+  {
+   "id": "caleb-stonewall",
+   "name": "Caleb Stonewall",
+   "short": "Caleb",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 124,
+   "stats": {
+    "kick": 70,
+    "body": 67,
+    "control": 70,
+    "guard": 63,
+    "speed": 57,
+    "stamina": 62,
+    "guts": 50
+   },
+   "moves": [
+    "killer-slide",
+    "death-spear",
+    "endless-summer",
+    "koutei-penguin-3gou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fudou Akio",
+   "description": "Distante y poco de fiar. Le gusta alardear de su habilidad ante el rival."
+  },
+  {
+   "id": "jude-sharp",
+   "name": "Jude Sharp",
+   "short": "Jude",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 155,
+   "tp": 124,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 67,
+    "guard": 63,
+    "speed": 56,
+    "stamina": 58,
+    "guts": 61
+   },
+   "moves": [
+    "illusion-ball",
+    "inazuma-break",
+    "koutei-penguin-3gou",
+    "last-death-zone"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kidou Yuuto",
+   "description": "Un estratega de tomo y lomo. De sus botas sale fútbol de muchos quilates."
+  },
+  {
+   "id": "kevin-dragonfly",
+   "name": "Kevin Dragonfly",
+   "short": "Kevin",
+   "number": 17,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 122,
+   "stats": {
+    "kick": 68,
+    "body": 58,
+    "control": 43,
+    "guard": 45,
+    "speed": 49,
+    "stamina": 73,
+    "guts": 52
+   },
+   "moves": [
+    "denrai-houtou",
+    "nobori-ryuu",
+    "dragon-blaster"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Someoka Ryuugo",
+   "description": "Su afán de superación asusta, y su cara mucho más. Buen compañero."
+  },
+  {
+   "id": "shawn-froste",
+   "name": "Shawn Froste",
+   "short": "Shawn",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 63,
+    "control": 68,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "eternal-blizzard",
+    "ice-ground",
+    "wolf-legend",
+    "northern-impact"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "Un portento llegado de las nieves del norte. Apacible, pero ojito con él."
+  },
+  {
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 157,
+   "tp": 132,
+   "stats": {
+    "kick": 77,
+    "body": 64,
+    "control": 66,
+    "guard": 58,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 56
+   },
+   "moves": [
+    "bakunetsu-screw",
+    "screwdriver",
+    "spark-edge-dribble",
+    "fire-tornado-dd"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gouenji Shuuya",
+   "description": "Un delantero genial que oculta su genio bajo una máscara de frialdad."
+  },
+  {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 132,
+   "stats": {
+    "kick": 68,
+    "body": 61,
+    "control": 62,
+    "guard": 61,
+    "speed": 61,
+    "stamina": 42,
+    "guts": 56
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "deep-jungle",
+    "koutei-penguin-3gou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Brazo derecho de Jude en el campo. Conocido por su potente disparo."
+  }
+ ]
+}

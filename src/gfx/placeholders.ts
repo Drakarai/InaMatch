@@ -27,9 +27,9 @@ export function spriteKey(scene: Phaser.Scene, p: PlayerData, team: TeamData): s
 
 /** Retrato del jugador: el de Victory Road de su equipo, el genérico del paquete o uno dibujado. */
 export function portraitKey(scene: Phaser.Scene, p: PlayerData, team: TeamData): string {
-  for (const key of [texKey.portrait(p.id, team.id), texKey.portrait(p.id)]) if (scene.textures.exists(key)) return key;
+  for (const key of [texKey.portrait(p.originId ?? p.id, p.origin ?? team.id), texKey.portrait(p.id)]) if (scene.textures.exists(key)) return key;
   makePortrait(scene, p, team);
-  return `portrait-gen:${team.id}:${p.id}`;
+  return `portrait-gen:${team.id}:${p.id}:${p.number}`;
 }
 
 export function darken(color: number, f: number): number {
@@ -97,7 +97,7 @@ function genericLook(p: PlayerData): Look {
  * piel, ojos y accesorio, en src/data/looks.json) y el cuerpo lleva la equipación de su equipo.
  */
 function drawPixelSprite(p: PlayerData, team: TeamData): ImageData {
-  const look = lookOf(team.id, p.id) ?? genericLook(p);
+  const look = lookOf(p.origin ?? team.id, p.originId ?? p.id) ?? genericLook(p);
   const { w: W, h: H } = SPRITE_PX;
   const img = new ImageData(W, H);
   const put = (x: number, y: number, c: RGB) => {
@@ -177,7 +177,7 @@ export function makePlayerSprite(scene: Phaser.Scene, p: PlayerData, team: TeamD
 
 /** Retrato de reserva para quien no tiene el de Victory Road: la cabeza del sprite en grande. */
 export function makePortrait(scene: Phaser.Scene, p: PlayerData, team: TeamData): void {
-  const key = `portrait-gen:${team.id}:${p.id}`;
+  const key = `portrait-gen:${team.id}:${p.id}:${p.number}`;
   if (scene.textures.exists(key)) return;
   const size = 96;
   const tex = scene.textures.createCanvas(key, size, size);
@@ -197,8 +197,10 @@ export function makePortrait(scene: Phaser.Scene, p: PlayerData, team: TeamData)
   ctx.font = `bold 18px ${FONT}`;
   ctx.strokeStyle = '#000000';
   ctx.lineWidth = 4;
-  ctx.strokeText(String(p.number), 8, size - 10);
-  ctx.fillText(String(p.number), 8, size - 10);
+  if (p.number) {
+    ctx.strokeText(String(p.number), 8, size - 10);
+    ctx.fillText(String(p.number), 8, size - 10);
+  }
   tex.refresh();
   tex.setFilter(Phaser.Textures.FilterMode.NEAREST);
 }

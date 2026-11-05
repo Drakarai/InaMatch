@@ -1,0 +1,526 @@
+{
+ "id": "vr-keizen-arashiyama",
+ "season": "vr",
+ "wiki": "Keizen Arashiyama",
+ "name": "Keizen Arashiyama",
+ "short": "KEI",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-3-4-3",
+ "players": [
+  {
+   "id": "kiona-blackwell",
+   "name": "Kiona Blackwell",
+   "short": "Kiona",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "meikyou-shisui",
+    "kage-tsukami",
+    "moonsault-stamp",
+    "big-spider"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Niikuro Konami",
+   "description": "Es una portera que deja que los dados decidan su humor. Nadie puede predecir lo que hará."
+  },
+  {
+   "id": "lennox-portsman",
+   "name": "Lennox Portsman",
+   "short": "Lennox",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "dash-train",
+    "no-escape",
+    "elephant-press",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Suzumori Saiya",
+   "description": "Popular y bueno en todos los deportes, su integridad y devoción a su novia de siempre son de admirar."
+  },
+  {
+   "id": "kaz-bloomfield",
+   "name": "Kaz Bloomfield",
+   "short": "Kaz",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "blackmail",
+    "bunshin-defense",
+    "onryou",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hanamaruya Kazu",
+   "description": "Es un artista de ukiyo-e. Con su aguda capacidad de observación, puede detectar instantáneamente las debilidades del oponente."
+  },
+  {
+   "id": "govin-castlehoven",
+   "name": "Govin Castlehoven",
+   "short": "Govin",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "blackmail",
+    "vanishing-cut",
+    "harvest"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yashiro Suberu",
+   "description": "Melancólico pero valiente, persigue a los rivales y se regocija al asustarlos con su keshin."
+  },
+  {
+   "id": "floramira-pagotta",
+   "name": "Floramira Pagotta",
+   "short": "Floramira",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "blackmail",
+    "onryou",
+    "dimension-cut",
+    "phantom-shoot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gojuudera Manaka",
+   "description": "Actúa con confianza y es popular. Llama la atención de todos con su belleza de actriz de teatro."
+  },
+  {
+   "id": "alistar-montero",
+   "name": "Alistar Montero",
+   "short": "Alistar",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "presto-turn",
+    "acrobat-keep",
+    "block-circus",
+    "magnet-draw"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Renzan Hamato",
+   "description": "Para hacerse viral, siempre hace movimientos vistosos y colaboraciones durante los partidos."
+  },
+  {
+   "id": "elijah-singleton",
+   "name": "Elijah Singleton",
+   "short": "Elijah",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "quick-draw",
+    "run-ball-run",
+    "trick-ball",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ikue Magoichi",
+   "description": "Viene de una familia de cuentacuentos. Une al equipo con su encanto y agudeza mental."
+  },
+  {
+   "id": "rohan-snatchett",
+   "name": "Rohan Snatchett",
+   "short": "Rohan",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "bungee-thrust",
+    "meteor-shower",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ujiie Touichi",
+   "description": "Sus habilidades para interceptar el balón abruman a los defensas. A menudo los nervios pueden con él."
+  },
+  {
+   "id": "umbren-lightwood",
+   "name": "Umbren Lightwood",
+   "short": "Umbren",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "spinning-transam",
+    "presto-turn",
+    "vanishing-cut",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurashiki Akari",
+   "description": "Desde que se lesionó, esquiva las entradas con una impecable gestión del tiempo, en lugar de la fuerza bruta."
+  },
+  {
+   "id": "blaine-westbrook",
+   "name": "Blaine Westbrook",
+   "short": "Blaine",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "blackmail",
+    "maboroshi-shot",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Saijou Lill",
+   "description": "Con una lengua mordaz y una concentración brutal, su técnica de pies corta las defensas como si fuera un bisturí."
+  },
+  {
+   "id": "marinus-courier",
+   "name": "Marinus Courier",
+   "short": "Marinus",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "hitori-one-two",
+    "rocket-head",
+    "lightning-accel",
+    "double-grenade"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Uchinari Kaiji",
+   "description": "Proviene de una familia de mensajeros. Como solo practica el regate, es muy rápido."
+  },
+  {
+   "id": "drexel-kixley",
+   "name": "Drexel Kixley",
+   "short": "Drexel",
+   "number": 12,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "elephant-press",
+    "stone-prison",
+    "naraku-otoshi",
+    "go-to-hell"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Masakari Kitaru",
+   "description": "Un valiente defensa con un potente chut, conocido por sus movimientos de talón y por enfrentarse a jabalíes después del entrenamiento."
+  },
+  {
+   "id": "volk-lorius",
+   "name": "Volk Lorius",
+   "short": "Volk",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "blackmail",
+    "illusion-ball",
+    "bunshin-defense",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Dentouda Tokinosuke",
+   "description": "Silencioso y misterioso, lleva una máscara de zorro y se mueve sin que se le vea. Roba el balón antes de que nadie se de cuenta."
+  },
+  {
+   "id": "dawsey-geistfeld",
+   "name": "Dawsey Geistfeld",
+   "short": "Dawsey",
+   "number": 14,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "blackmail",
+    "dimension-cut",
+    "dark-tornado",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kamata Mudou",
+   "description": "Se mueve como un pro... cuando echa la siesta. Dicen que lo poseyó el fantasma de una leyenda de fútbol."
+  },
+  {
+   "id": "rael-abbeybogy",
+   "name": "Rael Abbeybogy",
+   "short": "Rael",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "onryou",
+    "super-armadillo",
+    "gravitation",
+    "fractal-house"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Teramae Reiru",
+   "description": "Creció en una casa encantada. Está acostumbrado a los fantasmas, así que no pierde la calma bajo la presión más intensa."
+  },
+  {
+   "id": "zelane-whitlow",
+   "name": "Zelane Whitlow",
+   "short": "Zelane",
+   "number": 16,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "rocket-kobushi",
+    "serpent-fang",
+    "photon-flash",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nanakaidou Haku",
+   "description": "Leal hasta la médula y canturrea el himno de la escuela en cada partido, sin importar sin gana o pierde."
+  }
+ ]
+}

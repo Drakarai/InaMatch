@@ -1,0 +1,520 @@
+{
+ "id": "cs-zan",
+ "season": "cs",
+ "wiki": "Zan",
+ "name": "Zan",
+ "short": "ZA10",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-zan",
+ "players": [
+  {
+   "id": "feduhm",
+   "name": "Feduhm",
+   "short": "Feduhm",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 188,
+   "tp": 114,
+   "stats": {
+    "kick": 87,
+    "body": 50,
+    "control": 61,
+    "guard": 85,
+    "speed": 45,
+    "stamina": 90,
+    "guts": 68
+   },
+   "moves": [
+    "rejection",
+    "power-spike",
+    "power-shield",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fadam",
+   "description": "El diabólico ángel guardián del Zan defiende la portería a toda costa."
+  },
+  {
+   "id": "tsync",
+   "name": "Tsync",
+   "short": "Tsync",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 115,
+   "tp": 121,
+   "stats": {
+    "kick": 46,
+    "body": 64,
+    "control": 62,
+    "guard": 68,
+    "speed": 78,
+    "stamina": 52,
+    "guts": 66
+   },
+   "moves": [
+    "twin-mixer",
+    "burning-summer",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sync",
+   "description": "Aunque parezca pequeño, en su interior alberga gran malicia."
+  },
+  {
+   "id": "driss",
+   "name": "Driss",
+   "short": "Driss",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 97,
+   "stats": {
+    "kick": 56,
+    "body": 62,
+    "control": 64,
+    "guard": 67,
+    "speed": 66,
+    "stamina": 57,
+    "guts": 69
+   },
+   "moves": [
+    "killer-slide",
+    "mad-juggler",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Doris",
+   "description": "El cerebro del equipo es famoso por sus tácticas brutales, pero efectivas."
+  },
+  {
+   "id": "ludeau",
+   "name": "Ludeau",
+   "short": "Ludeau",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 138,
+   "tp": 91,
+   "stats": {
+    "kick": 60,
+    "body": 54,
+    "control": 60,
+    "guard": 72,
+    "speed": 57,
+    "stamina": 74,
+    "guts": 64
+   },
+   "moves": [
+    "elephant-press",
+    "big-scissors",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Rude",
+   "description": "Su afición por pavonearse delante de todo el mundo lo hace imparable."
+  },
+  {
+   "id": "dios",
+   "name": "Dios",
+   "short": "Dios",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 131,
+   "tp": 99,
+   "stats": {
+    "kick": 46,
+    "body": 65,
+    "control": 65,
+    "guard": 60,
+    "speed": 57,
+    "stamina": 65,
+    "guts": 56
+   },
+   "moves": [
+    "decoy-release",
+    "claymore",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Deos",
+   "description": "Arrolla todo lo que interpone en su camino... incluso a sus compañeros."
+  },
+  {
+   "id": "grigham",
+   "name": "Grigham",
+   "short": "Grigham",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 95,
+   "stats": {
+    "kick": 52,
+    "body": 56,
+    "control": 67,
+    "guard": 59,
+    "speed": 54,
+    "stamina": 65,
+    "guts": 56
+   },
+   "moves": [
+    "decoy-release",
+    "shippuu-dash",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gigam",
+   "description": "No le importa en absoluto cometer faltas si así logra su objetivo."
+  },
+  {
+   "id": "zatang",
+   "name": "Zatang",
+   "short": "Zatang",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 141,
+   "tp": 92,
+   "stats": {
+    "kick": 54,
+    "body": 63,
+    "control": 69,
+    "guard": 57,
+    "speed": 51,
+    "stamina": 71,
+    "guts": 55
+   },
+   "moves": [
+    "decoy-release",
+    "mad-juggler",
+    "burning-summer",
+    "spark-edge-dribble"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zatan",
+   "description": "Le encanta luchar. Se toma el terreno de juego como un campo de batalla."
+  },
+  {
+   "id": "rodh",
+   "name": "Rodh",
+   "short": "Rodh",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 112,
+   "tp": 106,
+   "stats": {
+    "kick": 48,
+    "body": 60,
+    "control": 66,
+    "guard": 55,
+    "speed": 66,
+    "stamina": 64,
+    "guts": 68
+   },
+   "moves": [
+    "decoy-release",
+    "spring-arrow",
+    "zigzag-spark",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Rodeo",
+   "description": "Es un genial centrocampista de gran maldad apodado \"Demoledor\"."
+  },
+  {
+   "id": "djibz",
+   "name": "Djibz",
+   "short": "Djibz",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 131,
+   "tp": 99,
+   "stats": {
+    "kick": 63,
+    "body": 65,
+    "control": 65,
+    "guard": 56,
+    "speed": 56,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "spring-arrow",
+    "decoy-release",
+    "burning-summer",
+    "bakunetsu-screw"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Jips",
+   "description": "Usar su temible poder para el fútbol le ha dado por fin la paz que buscaba."
+  },
+  {
+   "id": "garreau",
+   "name": "Garreau",
+   "short": "Garreau",
+   "number": 11,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 160,
+   "tp": 85,
+   "stats": {
+    "kick": 69,
+    "body": 71,
+    "control": 71,
+    "guard": 56,
+    "speed": 53,
+    "stamina": 65,
+    "guts": 56
+   },
+   "moves": [
+    "gungnir",
+    "twin-mixer",
+    "claymore",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Garo",
+   "description": "No le interesan las cosas que no se adaptan a su punto de vista."
+  },
+  {
+   "id": "zanark-avalonic",
+   "name": "Zanark Avalonic",
+   "short": "Zanark",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 128,
+   "stats": {
+    "kick": 78,
+    "body": 69,
+    "control": 66,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 79,
+    "guts": 61
+   },
+   "moves": [
+    "disaster-break",
+    "bungee-thrust",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanark Avalonic",
+   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
+  },
+  {
+   "id": "steiyah",
+   "name": "Steiyah",
+   "short": "Steiyah",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 86,
+   "tp": 119,
+   "stats": {
+    "kick": 45,
+    "body": 60,
+    "control": 42,
+    "guard": 67,
+    "speed": 66,
+    "stamina": 31,
+    "guts": 66
+   },
+   "moves": [
+    "rejection",
+    "god-hand",
+    "fence-of-gaia",
+    "serpent-fang"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Stia",
+   "description": "Un buen día, esta chica sintió un oscuro poder despertar en su interior."
+  },
+  {
+   "id": "mhadoor",
+   "name": "Mhadoor",
+   "short": "Mhadoor",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 88,
+   "stats": {
+    "kick": 64,
+    "body": 68,
+    "control": 48,
+    "guard": 66,
+    "speed": 62,
+    "stamina": 51,
+    "guts": 46
+   },
+   "moves": [
+    "the-wall",
+    "killer-slide",
+    "twin-mixer",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Muddle",
+   "description": "Un chico brutal. Si no llevara gafas de sol, se podría ver malicia en los ojos."
+  },
+  {
+   "id": "heyze",
+   "name": "Heyze",
+   "short": "Heyze",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 96,
+   "tp": 120,
+   "stats": {
+    "kick": 54,
+    "body": 60,
+    "control": 63,
+    "guard": 66,
+    "speed": 62,
+    "stamina": 50,
+    "guts": 48
+   },
+   "moves": [
+    "shippuu-dash",
+    "decoy-release",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Haze",
+   "description": "Esta hábil guerrera se frustra si no puede dar rienda suelta a su poder."
+  },
+  {
+   "id": "kuhrach",
+   "name": "Kuhrach",
+   "short": "Kuhrach",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 81,
+   "stats": {
+    "kick": 60,
+    "body": 53,
+    "control": 63,
+    "guard": 52,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 70
+   },
+   "moves": [
+    "fire-tornado",
+    "bakunetsu-screw",
+    "fire-tornado-dd"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Clutch",
+   "description": "Una muchacha salvaje que se enfada si le dicen que aprenda modales."
+  },
+  {
+   "id": "torhm",
+   "name": "Torhm",
+   "short": "Torhm",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 114,
+   "tp": 113,
+   "stats": {
+    "kick": 66,
+    "body": 61,
+    "control": 60,
+    "guard": 59,
+    "speed": 54,
+    "stamina": 58,
+    "guts": 60
+   },
+   "moves": [
+    "spring-arrow",
+    "gungnir",
+    "burning-summer",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Torm",
+   "description": "De pequeño no tenía amigos, así que ahora le cuesta confiar en otros."
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "id": "vr-nagumohara-shopkeepers",
+ "season": "vr",
+ "wiki": "Nagumohara Shopkeepers",
+ "name": "Nagumohara Shopkeepers",
+ "short": "NAS",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "terra-hillcroft",
+   "name": "Terra Hillcroft",
+   "short": "Terra",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "hanafubuki",
+    "moonsault-stamp",
+    "galatyn"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Miyazono Masako",
+   "description": "Una heredera de alta cuna que ganó aguante persiguiendo por hectáreas de terreno a un gato malcriado."
+  },
+  {
+   "id": "marlin-sharkey",
+   "name": "Marlin Sharkey",
+   "short": "Marlin",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "cyclone",
+    "sargasso",
+    "spinning-cut",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Samekawa Hayate",
+   "description": "Una pescadera de vista aguda, con reflejos de subasta y una rivalidad latente con el carnicero del barrio."
+  },
+  {
+   "id": "mirina-mackrell",
+   "name": "Mirina Mackrell",
+   "short": "Mirina",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "fake-ball",
+    "the-wall",
+    "elephant-press",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Saba Mirin",
+   "description": "Amiga de la infancia de Yelena y dueña de un restaurante que lleva sola, con un aguante inquebrantable y buen ojo para el juego."
+  },
+  {
+   "id": "alvaro-ventura",
+   "name": "Alvaro Ventura",
+   "short": "Alvaro",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "dash-accel",
+    "block-circus",
+    "sargasso",
+    "wonder-trap"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hayakaze Toshinobu",
+   "description": "Corredor habitual y dueño de \"Kool Kit\", con unos reflejos rapidísimos que dejan a los rivales sin saber qué hará."
+  },
+  {
+   "id": "yelena-poplawska",
+   "name": "Yelena Poplawska",
+   "short": "Yelena",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "the-tower",
+    "ultra-moon",
+    "elephant-press",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yumoto Tsukimi",
+   "description": "Dueño de un restaurante de fideos y capitán del equipo que afinó su dura defensa haciendo señas a los clientes."
+  },
+  {
+   "id": "lorcan-oxfield",
+   "name": "Lorcan Oxfield",
+   "short": "Lorcan",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "dash-train",
+    "super-armadillo",
+    "elephant-press",
+    "tarzan-kick"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ushida Takeomi",
+   "description": "No te dejes engañar por su sonrisa amable de carnicero: embiste como un toro desbocado."
+  },
+  {
+   "id": "cinnamon-dougherty",
+   "name": "Cinnamon Dougherty",
+   "short": "Cinnamon",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "future-eye",
+    "thief-eye",
+    "dog-run",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kitano Kaori",
+   "description": "Encargado de G-Mart que experimenta sin miedo y lleva ideas frescas directamente al campo."
+  },
+  {
+   "id": "primavera-bluefield",
+   "name": "Primavera Bluefield",
+   "short": "Primavera",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "fake-ball",
+    "gorimuchuu",
+    "rainbow-loop",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Aota Harumi",
+   "description": "Dueño de un restaurante de fideos champon que mejora cada plato con buen ojo y manos expertas."
+  },
+  {
+   "id": "gibson-forte",
+   "name": "Gibson Forte",
+   "short": "Gibson",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "hyakuretsu-shot",
+    "zigzag-spark",
+    "cross-drive",
+    "revolution-v"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Otode Takehito",
+   "description": "Un exguitarrista convertido en tendero cuyos tiros retumbantes golpean como el momento cumbre de un concierto de rock."
+  },
+  {
+   "id": "love-stirling",
+   "name": "Love Stirling",
+   "short": "Love",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "rolling-kick",
+    "prima-donna",
+    "rose-splash",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ai Tsumugu",
+   "description": "Una anfitriona lista que juega con la mente del rival y regatea con un descaro sin miedo."
+  },
+  {
+   "id": "sheila-threadwell",
+   "name": "Sheila Threadwell",
+   "short": "Sheila",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "phantom-shoot",
+    "maboroshi-dribble",
+    "illusion-ball",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ishiuri Kiri",
+   "description": "Este llamativo dueño de Magic Moves habla a lo grande y dirige al equipo como una auténtica diva."
+  },
+  {
+   "id": "he-liu",
+   "name": "He Liu",
+   "short": "He",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "burning-catch",
+    "dai-bakuhatsu-harite",
+    "kaenhousha",
+    "burnout"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ryuu Kaku",
+   "description": "Un herbolario del taichi cuya práctica diaria da a su juego una fuerza tranquila y una fluidez elegante."
+  },
+  {
+   "id": "brandy-ryehart",
+   "name": "Brandy Ryehart",
+   "short": "Brandy",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "tsuchi-daruma",
+    "rainbow-loop",
+    "dokonjou-bat",
+    "mogura-feint"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Matsutake Umeyo",
+   "description": "La dura dueña de una licorería, con fuerza para levantar barriles y nervios de acero."
+  },
+  {
+   "id": "newman-wiford",
+   "name": "Newman Wiford",
+   "short": "Newman",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "bunshin-defense",
+    "thief-eye",
+    "zigzag-spark",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sarai Shinta",
+   "description": "El astuto dueño de una tienda de móviles que tiene registrados en su mente cada movimiento de los rivales."
+  },
+  {
+   "id": "vera-presswell",
+   "name": "Vera Presswell",
+   "short": "Vera",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "zigzag-spark",
+    "spiral-draw",
+    "double-cyclone",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Aramine Kiyoko",
+   "description": "Dueño de una tintorería con ojo de lince: descubre el origen de cualquier mancha al instante."
+  },
+  {
+   "id": "pattie-whitfield",
+   "name": "Pattie Whitfield",
+   "short": "Pattie",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "viva-banri-no-choujou",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Shirota Manbee",
+   "description": "El jefe de la hamburguesería de South Cirrus, que usa su corpulencia para robar el balón y cortar jugadas."
+  }
+ ]
+}

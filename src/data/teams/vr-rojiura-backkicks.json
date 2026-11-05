@@ -1,0 +1,528 @@
+{
+ "id": "vr-rojiura-backkicks",
+ "season": "vr",
+ "wiki": "Rojiura Backkicks",
+ "name": "Rojiura Backkicks",
+ "short": "ROJ",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-3-4-3",
+ "players": [
+  {
+   "id": "cobb-hightail",
+   "name": "Cobb Hightail",
+   "short": "Cobb",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "toughness-block",
+    "rocket-kobushi",
+    "dai-bakuhatsu-harite",
+    "fence-of-gaia"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shiwasu Naota",
+   "description": "The Second le rescató en mitad de una pelea callejera, y ahora lo da todo en cada partido."
+  },
+  {
+   "id": "june-davidson",
+   "name": "June Davidson",
+   "short": "June",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "blade-attack",
+    "dash-train",
+    "elephant-press",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "June Davidson",
+   "description": "Un exportero de discoteca altísimo con un amor secreto por las bromas, cuya cara de póquer va armada con una mirada letal."
+  },
+  {
+   "id": "moray-delmar",
+   "name": "Moray Delmar",
+   "short": "Moray",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "spinning-cut",
+    "sargasso",
+    "water-veil",
+    "flying-fish"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Umino Choujuurou",
+   "description": "Un recién llegado alto y callado que se funde con el fondo y habla como una brisa pasajera."
+  },
+  {
+   "id": "jazzmine-skylark",
+   "name": "Jazzmine Skylark",
+   "short": "Jazzmine",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "flame-dance",
+    "cyclone",
+    "naminori-pierrot",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Amakura Maasa",
+   "description": "Siempre medio dormida de tanta fiesta, persigue un sueño de bailarina en el que sus padres no creen."
+  },
+  {
+   "id": "caius-rushford",
+   "name": "Caius Rushford",
+   "short": "Caius",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "dash-train",
+    "elephant-press",
+    "twin-mixer",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hinode Rikiya",
+   "description": "Un bruto que actúa antes de pensar y supera cada duelo durísimo a base de agallas."
+  },
+  {
+   "id": "noctis-dunn",
+   "name": "Noctis Dunn",
+   "short": "Noctis",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "astro-break",
+    "kage-nui",
+    "dash-storm",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Meidou Kazuomi",
+   "description": "Callado y preciso, sigue a Holden como una sombra leal y nunca busca protagonismo."
+  },
+  {
+   "id": "veril-golding",
+   "name": "Veril Golding",
+   "short": "Veril",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "naraku-otoshi",
+    "hurricane-arrow",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kanabuchi Makoto",
+   "description": "Una antigua promesa del béisbol convertida en rebelde feroz que juega con una fuerza demoledora y una rabia contenida."
+  },
+  {
+   "id": "holden-monday",
+   "name": "Holden Monday",
+   "short": "Holden",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "killer-slide",
+    "twin-mixer",
+    "claymore",
+    "paladin-strike"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsukigawara Gensaku",
+   "description": "Solo está en el campo para honrar a su difunto mentor, pero juega como si el fuego nunca se hubiera apagado."
+  },
+  {
+   "id": "frederick-brandt",
+   "name": "Frederick Brandt",
+   "short": "Frederick",
+   "number": 8,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "back-tornado",
+    "gunshot",
+    "zigzag-spark",
+    "sonic-shot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kajiwara Heiji",
+   "description": "Un demonio de la velocidad pegado al suelo, con reflejos de motorista y olfato para los balones sueltos."
+  },
+  {
+   "id": "bogdan-berglund",
+   "name": "Bogdan Berglund",
+   "short": "Bogdan",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "patriot-shoot",
+    "naraku-otoshi",
+    "dokonjou-bat",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kiyama Yoichi",
+   "description": "Siempre animado pese a estar el último en la jerarquía, mantiene al equipo sonriendo cuando más falta hace."
+  },
+  {
+   "id": "saburo-mizuki",
+   "name": "Saburo Mizuki",
+   "short": "Saburo",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "gunshot",
+    "claymore",
+    "reflect-buster",
+    "gou-no-issen"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mizuki Saburou",
+   "description": "Le falta técnica, pero tiene un magnetismo raro: atrae a compañeros y balones sueltos sin proponérselo."
+  },
+  {
+   "id": "jaxon-taggart",
+   "name": "Jaxon Taggart",
+   "short": "Jaxon",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "power-shield",
+    "rocket-kobushi",
+    "power-spike",
+    "kage-tsukami"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kunieda Daiju",
+   "description": "Un grafitero novato que pinta muros de naves y sueña con llenar la ciudad de color."
+  },
+  {
+   "id": "anson-barker",
+   "name": "Anson Barker",
+   "short": "Anson",
+   "number": 13,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "killer-slide",
+    "naraku-otoshi",
+    "no-escape",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsuchigami Isamu",
+   "description": "No le teme a los jugadores mayores, pero se dobla como un papel cuando aparece su madre."
+  },
+  {
+   "id": "deor-rummond",
+   "name": "Deor Rummond",
+   "short": "Deor",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "hellfire",
+    "shikofumi",
+    "heat-tackle",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nagamine Kingo",
+   "description": "Despedido por beber y repudiado por su familia, juega cargando con un pasado temerario."
+  },
+  {
+   "id": "drako-bonner",
+   "name": "Drako Bonner",
+   "short": "Drako",
+   "number": 15,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 60,
+   "tp": 250,
+   "stats": {
+    "kick": 99,
+    "body": 15,
+    "control": 99,
+    "guard": 15,
+    "speed": 15,
+    "stamina": 15,
+    "guts": 99
+   },
+   "moves": [
+    "jibashiri-kaen",
+    "screwdriver",
+    "ultra-moon",
+    "spiral-shot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mutsui Tatsunosuke",
+   "description": "Padre primerizo que quiere dar ejemplo y juega limpio por el niño que le mira desde la banda."
+  },
+  {
+   "id": "chancer-cosgrave",
+   "name": "Chancer Cosgrave",
+   "short": "Chancer",
+   "number": 16,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "dash-train",
+    "super-shikofumi",
+    "twin-mixer",
+    "elephant-press"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Inseki Gouhei",
+   "description": "Un jugador atrevido que apuesta fuerte cuando la suerte le acompaña y suplica sin vergüenza cuando no."
+  }
+ ]
+}

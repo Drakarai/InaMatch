@@ -1,0 +1,363 @@
+{
+ "id": "gx-supernova",
+ "season": "gx",
+ "wiki": "Supernova",
+ "name": "Supernova",
+ "short": "SUP",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-5-4-1",
+ "players": [
+  {
+   "id": "ashvina-bharani",
+   "name": "Ashvina Bharani",
+   "short": "Ashvina",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 137,
+   "tp": 181,
+   "stats": {
+    "kick": 68,
+    "body": 74,
+    "control": 60,
+    "guard": 85,
+    "speed": 79,
+    "stamina": 58,
+    "guts": 75
+   },
+   "moves": [
+    "sacrifice",
+    "star-reflection",
+    "aqua-breath"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ashvina Bharani",
+   "description": "Se dice que ella sola es capaz de cazar monstruos de 15 metros."
+  },
+  {
+   "id": "hastar-savitar",
+   "name": "Hastar Savitar",
+   "short": "Hastar",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 136,
+   "stats": {
+    "kick": 60,
+    "body": 73,
+    "control": 55,
+    "guard": 68,
+    "speed": 72,
+    "stamina": 63,
+    "guts": 66
+   },
+   "moves": [
+    "fatal-lift",
+    "zeroyon",
+    "desert-storm"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hastah Savitar",
+   "description": "Está genéticamente modificado por una explosión de gas espacial."
+  },
+  {
+   "id": "apas-mulan",
+   "name": "Apas Mulan",
+   "short": "Apas",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 129,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 62,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 63
+   },
+   "moves": [
+    "fatal-lift",
+    "big-scissors",
+    "nobori-ryuu",
+    "la-flamme"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Apas Muulan",
+   "description": "Puede extender su vello corporal a su antojo. Lo hace para divertirse."
+  },
+  {
+   "id": "soma-lobi",
+   "name": "Soma Lobi",
+   "short": "Soma",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 171,
+   "tp": 153,
+   "stats": {
+    "kick": 74,
+    "body": 62,
+    "control": 67,
+    "guard": 72,
+    "speed": 66,
+    "stamina": 52,
+    "guts": 71
+   },
+   "moves": [
+    "fatal-lift",
+    "einsatz",
+    "zigzag-spark",
+    "waterfall"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Soma Rohby",
+   "description": "Puede ver el pasado de otras personas mirándolas a los ojos."
+  },
+  {
+   "id": "rudra-ardo",
+   "name": "Rudra Ardo",
+   "short": "Rudra",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 185,
+   "tp": 149,
+   "stats": {
+    "kick": 77,
+    "body": 70,
+    "control": 65,
+    "guard": 80,
+    "speed": 67,
+    "stamina": 52,
+    "guts": 68
+   },
+   "moves": [
+    "fatal-lift",
+    "kumo-no-ito",
+    "muei-souha",
+    "tentacle-hold"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rudra Ard",
+   "description": "Era un famoso erudito que fue a la guerra y fue derrotado."
+  },
+  {
+   "id": "bhaga-guni",
+   "name": "Bhaga Guni",
+   "short": "Bhaga",
+   "number": 6,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 125,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 64,
+    "guard": 71,
+    "speed": 55,
+    "stamina": 71,
+    "guts": 51
+   },
+   "moves": [
+    "fatal-lift",
+    "rocket-head",
+    "endless-summer",
+    "volcanic-fly"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bhaga Gouny",
+   "description": "Entrenó en un planeta cuya gravedad es 80 veces mayor que en la tierra."
+  },
+  {
+   "id": "mitra-jeshu",
+   "name": "Mitra Jeshu",
+   "short": "Mitra",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 144,
+   "tp": 138,
+   "stats": {
+    "kick": 65,
+    "body": 69,
+    "control": 65,
+    "guard": 62,
+    "speed": 50,
+    "stamina": 61,
+    "guts": 77
+   },
+   "moves": [
+    "psychic-bow",
+    "ganymede-proton",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mitra Jeshuu",
+   "description": "Posee habilidades físicas mayores que la de los habitantes de Fertilia."
+  },
+  {
+   "id": "indra-vayu",
+   "name": "Indra Vayu",
+   "short": "Indra",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 184,
+   "tp": 160,
+   "stats": {
+    "kick": 72,
+    "body": 68,
+    "control": 75,
+    "guard": 62,
+    "speed": 55,
+    "stamina": 75,
+    "guts": 58
+   },
+   "moves": [
+    "psychic-bow",
+    "presto-turn",
+    "asterisk-rock",
+    "disaster-break"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Indra Vayu",
+   "description": "Gran portento físico que fue criado en los climas más extremos del universo."
+  },
+  {
+   "id": "bass-danish",
+   "name": "Bass Danish",
+   "short": "Bass",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 150,
+   "tp": 131,
+   "stats": {
+    "kick": 68,
+    "body": 65,
+    "control": 67,
+    "guard": 59,
+    "speed": 60,
+    "stamina": 65,
+    "guts": 68
+   },
+   "moves": [
+    "psychic-bow",
+    "shinkuuma",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Vassu Dhanissh",
+   "description": "Vivía en un pantano en el que el 98% de la vegetación era venenosa."
+  },
+  {
+   "id": "ashley-sarpala",
+   "name": "Ashley Sarpala",
+   "short": "Ashley",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 127,
+   "tp": 175,
+   "stats": {
+    "kick": 69,
+    "body": 71,
+    "control": 69,
+    "guard": 51,
+    "speed": 64,
+    "stamina": 58,
+    "guts": 68
+   },
+   "moves": [
+    "psychic-bow",
+    "konoha-roll",
+    "jackknife"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ashley Sarpara",
+   "description": "Sus 8 ojos la permiten tener una buena visión de juego."
+  },
+  {
+   "id": "arculus-orbes",
+   "name": "Arculus Orbes",
+   "short": "Arculus",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 196,
+   "tp": 139,
+   "stats": {
+    "kick": 86,
+    "body": 73,
+    "control": 68,
+    "guard": 71,
+    "speed": 69,
+    "stamina": 50,
+    "guts": 57
+   },
+   "moves": [
+    "orbital-drive",
+    "psychic-bow",
+    "supernova",
+    "galactica-fall"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Acrous Obies",
+   "description": "La apariencia del rey de Falam Orbius. También era el Picksie que guio a Victor."
+  }
+ ]
+}

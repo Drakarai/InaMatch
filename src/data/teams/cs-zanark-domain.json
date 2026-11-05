@@ -1,0 +1,514 @@
+{
+ "id": "cs-zanark-domain",
+ "season": "cs",
+ "wiki": "Zanark Domain",
+ "name": "Zanark Domain",
+ "short": "ZAN",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-domain",
+ "players": [
+  {
+   "id": "eka",
+   "name": "Eka",
+   "short": "Eka",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 128,
+   "tp": 110,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 50,
+    "guard": 72,
+    "speed": 54,
+    "stamina": 67,
+    "guts": 69
+   },
+   "moves": [
+    "sand-cutter",
+    "wormhole",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Shuten",
+   "description": "Un portero muy imponente que no teme ningún trallazo."
+  },
+  {
+   "id": "dva",
+   "name": "Dva",
+   "short": "Dva",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 88,
+   "stats": {
+    "kick": 54,
+    "body": 71,
+    "control": 48,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 51,
+    "guts": 46
+   },
+   "moves": [
+    "screwdriver",
+    "tiger-drive",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gouzu",
+   "description": "Aunque lleve esos pelos, no le gusta que lo comparen con una escoba."
+  },
+  {
+   "id": "tyrah",
+   "name": "Tyrah",
+   "short": "Tyrah",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 113,
+   "stats": {
+    "kick": 52,
+    "body": 58,
+    "control": 60,
+    "guard": 66,
+    "speed": 65,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "screwdriver",
+    "atomic-flare",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yaksha",
+   "description": "Una defensa implacable cuya risa estridente provoca pesadillas."
+  },
+  {
+   "id": "catvari",
+   "name": "Catvari",
+   "short": "Catvari",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 84,
+   "stats": {
+    "kick": 61,
+    "body": 49,
+    "control": 42,
+    "guard": 62,
+    "speed": 40,
+    "stamina": 53,
+    "guts": 57
+   },
+   "moves": [
+    "screwdriver",
+    "the-wall",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Org",
+   "description": "Este chico es un poco tragaldabas a veces sueña con platos exquisitos."
+  },
+  {
+   "id": "panca",
+   "name": "Panca",
+   "short": "Panca",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 92,
+   "stats": {
+    "kick": 47,
+    "body": 61,
+    "control": 53,
+    "guard": 56,
+    "speed": 61,
+    "stamina": 49,
+    "guts": 60
+   },
+   "moves": [
+    "bungee-thrust",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Engil",
+   "description": "Como es vergonzoso, lleva máscara, así que todo el mundo le tiene miedo."
+  },
+  {
+   "id": "sas",
+   "name": "Sas",
+   "short": "Sas",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 70,
+   "stats": {
+    "kick": 48,
+    "body": 60,
+    "control": 56,
+    "guard": 52,
+    "speed": 59,
+    "stamina": 61,
+    "guts": 61
+   },
+   "moves": [
+    "bungee-thrust",
+    "magnet-draw"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Meizu",
+   "description": "Dicen que nadie le ha mirado a los ojos y ha vivido para contarlo..."
+  },
+  {
+   "id": "sapta",
+   "name": "Sapta",
+   "short": "Sapta",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 105,
+   "tp": 104,
+   "stats": {
+    "kick": 60,
+    "body": 63,
+    "control": 63,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 50
+   },
+   "moves": [
+    "bungee-thrust",
+    "kodai-no-kiba",
+    "senpuujin",
+    "triangle-zz"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shinjami",
+   "description": "Una tenaz centrocampista que se peina para parecerse a Medusa."
+  },
+  {
+   "id": "asta",
+   "name": "Asta",
+   "short": "Asta",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 112,
+   "tp": 99,
+   "stats": {
+    "kick": 55,
+    "body": 60,
+    "control": 55,
+    "guard": 57,
+    "speed": 75,
+    "stamina": 55,
+    "guts": 48
+   },
+   "moves": [
+    "bungee-thrust",
+    "magnet-draw",
+    "tiger-drive",
+    "britannia-cross"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Goblis",
+   "description": "Este centrocampista siempre cuenta chistes, pero es serio en el campo."
+  },
+  {
+   "id": "navan",
+   "name": "Navan",
+   "short": "Navan",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 124,
+   "tp": 117,
+   "stats": {
+    "kick": 64,
+    "body": 66,
+    "control": 61,
+    "guard": 52,
+    "speed": 63,
+    "stamina": 60,
+    "guts": 54
+   },
+   "moves": [
+    "ogre-blade",
+    "shinkuuma",
+    "white-hurricane"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sura",
+   "description": "Un delantero de gran talento que sale al campo con la furia de un guerrero."
+  },
+  {
+   "id": "zanark-avalonic",
+   "name": "Zanark Avalonic",
+   "short": "Zanark",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 128,
+   "stats": {
+    "kick": 78,
+    "body": 69,
+    "control": 66,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 79,
+    "guts": 61
+   },
+   "moves": [
+    "disaster-break",
+    "bungee-thrust",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanark Avalonic",
+   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
+  },
+  {
+   "id": "dasan",
+   "name": "Dasan",
+   "short": "Dasan",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 119,
+   "tp": 114,
+   "stats": {
+    "kick": 66,
+    "body": 57,
+    "control": 54,
+    "guard": 54,
+    "speed": 59,
+    "stamina": 60,
+    "guts": 62
+   },
+   "moves": [
+    "ogre-blade",
+    "extend-zone",
+    "mad-juggler",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rasetsu",
+   "description": "La velocidad de este delantero es temida entre sus rivales."
+  },
+  {
+   "id": "sata",
+   "name": "Sata",
+   "short": "Sata",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 116,
+   "stats": {
+    "kick": 54,
+    "body": 58,
+    "control": 55,
+    "guard": 68,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 65
+   },
+   "moves": [
+    "sand-cutter",
+    "bat-attack",
+    "kage-tsukami"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Vanna",
+   "description": "Dicen que es capaz de hipnotizar a cualquiera con sus ojos rojos."
+  },
+  {
+   "id": "sahasra",
+   "name": "Sahasra",
+   "short": "Sahasra",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 88,
+   "stats": {
+    "kick": 66,
+    "body": 56,
+    "control": 49,
+    "guard": 55,
+    "speed": 59,
+    "stamina": 51,
+    "guts": 63
+   },
+   "moves": [
+    "screwdriver",
+    "bungee-thrust",
+    "sand-cutter",
+    "ogre-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hannys",
+   "description": "Hace como que se lleva bien con todos, pero solo quiere ser capitán."
+  },
+  {
+   "id": "ayuta",
+   "name": "Ayuta",
+   "short": "Ayuta",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 72,
+   "tp": 106,
+   "stats": {
+    "kick": 41,
+    "body": 53,
+    "control": 38,
+    "guard": 58,
+    "speed": 76,
+    "stamina": 31,
+    "guts": 45
+   },
+   "moves": [
+    "bungee-thrust",
+    "senpuujin",
+    "plasma-ball"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zenki",
+   "description": "Un centrocampista enigmático que siempre anda gastando bromas."
+  },
+  {
+   "id": "laksha",
+   "name": "Laksha",
+   "short": "Laksha",
+   "number": 15,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 105,
+   "tp": 113,
+   "stats": {
+    "kick": 60,
+    "body": 61,
+    "control": 51,
+    "guard": 63,
+    "speed": 47,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "ogre-blade",
+    "bound-flame",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Trall",
+   "description": "Cuando este delantero se hace con el balón, arrolla a sus contrincantes."
+  },
+  {
+   "id": "niyuta",
+   "name": "Niyuta",
+   "short": "Niyuta",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 77,
+   "tp": 123,
+   "stats": {
+    "kick": 57,
+    "body": 43,
+    "control": 53,
+    "guard": 51,
+    "speed": 58,
+    "stamina": 42,
+    "guts": 53
+   },
+   "moves": [
+    "ogre-blade",
+    "bungee-thrust",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kyuu",
+   "description": "Dicen que la gente se vuelve loca al mirarlo a los ojos."
+  }
+ ]
+}

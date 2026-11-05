@@ -1,0 +1,393 @@
+{
+ "id": "cs-vamptym",
+ "season": "cs",
+ "wiki": "Vamptym",
+ "name": "Nosfanáticos",
+ "short": "VAM",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-mikazuki",
+ "players": [
+  {
+   "id": "vince-sizor",
+   "name": "Vince Sizor",
+   "short": "Vince",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 142,
+   "tp": 131,
+   "stats": {
+    "kick": 50,
+    "body": 71,
+    "control": 77,
+    "guard": 95,
+    "speed": 48,
+    "stamina": 44,
+    "guts": 61
+   },
+   "moves": [
+    "gravity-point",
+    "coil-upper",
+    "god-hand-w"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Frango",
+   "description": "Se dice que este portero oculta bajo la máscara unos colmillos gigantes."
+  },
+  {
+   "id": "ron-innwater",
+   "name": "Ron Innwater",
+   "short": "Ron",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 158,
+   "tp": 121,
+   "stats": {
+    "kick": 61,
+    "body": 71,
+    "control": 53,
+    "guard": 77,
+    "speed": 66,
+    "stamina": 59,
+    "guts": 52
+   },
+   "moves": [
+    "atlantis-wall",
+    "transmove",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zinc",
+   "description": "Este defensa se desliza por el campo como un alma en pena."
+  },
+  {
+   "id": "holly-waters",
+   "name": "Holly Waters",
+   "short": "Holly",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 117,
+   "tp": 136,
+   "stats": {
+    "kick": 52,
+    "body": 63,
+    "control": 47,
+    "guard": 81,
+    "speed": 52,
+    "stamina": 56,
+    "guts": 62
+   },
+   "moves": [
+    "crazy-sunlight",
+    "bungee-thrust",
+    "atlantis-wall"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Masques",
+   "description": "Una jugadora extraordinaria cuyo punto flaco es la falta de modestia."
+  },
+  {
+   "id": "turner-fogg",
+   "name": "Turner Fogg",
+   "short": "Turner",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 153,
+   "tp": 115,
+   "stats": {
+    "kick": 47,
+    "body": 67,
+    "control": 54,
+    "guard": 79,
+    "speed": 65,
+    "stamina": 52,
+    "guts": 43
+   },
+   "moves": [
+    "atlantis-wall",
+    "claymore",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Porto",
+   "description": "Revolotea por el campo con frenesí en busca del balón."
+  },
+  {
+   "id": "sid-viper",
+   "name": "Sid Viper",
+   "short": "Sid",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 113,
+   "stats": {
+    "kick": 56,
+    "body": 65,
+    "control": 73,
+    "guard": 71,
+    "speed": 63,
+    "stamina": 50,
+    "guts": 35
+   },
+   "moves": [
+    "olympus-harmony",
+    "dimension-cut",
+    "bouncer-rabbit"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Snaker",
+   "description": "Se cree que es un vampiro y todos los días se bebe un zumo de tomate."
+  },
+  {
+   "id": "dave-walker",
+   "name": "Dave Walker",
+   "short": "Dave",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 128,
+   "stats": {
+    "kick": 55,
+    "body": 63,
+    "control": 73,
+    "guard": 68,
+    "speed": 67,
+    "stamina": 55,
+    "guts": 59
+   },
+   "moves": [
+    "white-blade",
+    "shinkuuma",
+    "kuroshio-ride"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Chroma",
+   "description": "Como se empeña en dormir en un ataúd tiene problemas de espalda."
+  },
+  {
+   "id": "porphyria-filia",
+   "name": "Porphyria Filia",
+   "short": "Porphyria",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 96,
+   "tp": 128,
+   "stats": {
+    "kick": 46,
+    "body": 65,
+    "control": 71,
+    "guard": 67,
+    "speed": 69,
+    "stamina": 52,
+    "guts": 51
+   },
+   "moves": [
+    "white-blade",
+    "magical-flower",
+    "floral-despair",
+    "decoy-release"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Belia",
+   "description": "Le cuesta tanto despertarse por las mañanas que podría ser un vampiro."
+  },
+  {
+   "id": "hugh-mumford",
+   "name": "Hugh Mumford",
+   "short": "Hugh",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 115,
+   "tp": 131,
+   "stats": {
+    "kick": 59,
+    "body": 60,
+    "control": 73,
+    "guard": 64,
+    "speed": 75,
+    "stamina": 37,
+    "guts": 45
+   },
+   "moves": [
+    "sky-walk",
+    "deep-mist",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Miira",
+   "description": "En cuanto le da un poco el sol, se quema. ¿Será acaso un vampiro?"
+  },
+  {
+   "id": "desmodus-drakul",
+   "name": "Desmodus Drakul",
+   "short": "Drakul",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 138,
+   "stats": {
+    "kick": 88,
+    "body": 69,
+    "control": 91,
+    "guard": 65,
+    "speed": 67,
+    "stamina": 49,
+    "guts": 45
+   },
+   "moves": [
+    "vampire-lord",
+    "heaven-s-time",
+    "god-wind",
+    "the-monsters"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Vampheny Vamp",
+   "description": "Descendiente de un noble clan. Su aspecto flemático oculta un gran ego."
+  },
+  {
+   "id": "woodrow-stake",
+   "name": "Woodrow Stake",
+   "short": "Woodrow",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 128,
+   "stats": {
+    "kick": 81,
+    "body": 66,
+    "control": 75,
+    "guard": 64,
+    "speed": 65,
+    "stamina": 58,
+    "guts": 46
+   },
+   "moves": [
+    "northern-impact",
+    "melody-wave",
+    "joker-rains",
+    "vampire-lord"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Vlad",
+   "description": "Un delantero de pericia sobrehumana que hipnotiza a todos con su juego."
+  },
+  {
+   "id": "nora-flexion",
+   "name": "Nora Flexion",
+   "short": "Nora",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 82,
+   "tp": 138,
+   "stats": {
+    "kick": 74,
+    "body": 60,
+    "control": 69,
+    "guard": 58,
+    "speed": 74,
+    "stamina": 50,
+    "guts": 53
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "muei-souha",
+    "gamma-strike",
+    "disaster-break"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Melfe",
+   "description": "Una delantera que a veces parece volverse invisible para los rivales."
+  },
+  {
+   "id": "desmodus-drakul-cs-vamp-mm",
+   "name": "Desmodus Drakul",
+   "short": "Drakul",
+   "number": 12,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 138,
+   "stats": {
+    "kick": 88,
+    "body": 69,
+    "control": 91,
+    "guard": 65,
+    "speed": 67,
+    "stamina": 49,
+    "guts": 45
+   },
+   "moves": [
+    "vampire-lord",
+    "liquid-flow",
+    "black-dawn",
+    "great-blaster"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Vampheny Vamp",
+   "description": "Descendiente de un noble clan. Su aspecto flemático oculta un gran ego."
+  }
+ ]
+}

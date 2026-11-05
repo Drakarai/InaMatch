@@ -211,6 +211,11 @@ def main():
     for path in sorted(glob.glob(os.path.join(ROOT, 'src', 'data', 'teams', '*.json'))):
         t = json.load(open(path, encoding='utf-8'))
         teams[t['id']] = [(p['id'], p['wiki']) for p in t['players'] if p.get('wiki')]
+    # los ojeadores van como un equipo por temporada (scouts-ie1...)
+    scouts_path = os.path.join(ROOT, 'src', 'data', 'scouts.json')
+    if os.path.exists(scouts_path):
+        for season, players in json.load(open(scouts_path, encoding='utf-8')).items():
+            teams[f'scouts-{season}'] = [(p['id'], p['wiki']) for p in players if p.get('wiki')]
     # archivos de cada personaje, por prefijo de equipo ('' = sin prefijo)
     by_name = {}
     for fn in vr_files():

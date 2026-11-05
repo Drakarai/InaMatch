@@ -15,6 +15,13 @@ export const TEAMS: TeamData[] = Object.values(teamModules)
   .map((m) => m.default)
   .sort((a, b) => a.name.localeCompare(b.name));
 
+/** Pone (o cambia) un equipo que se monta al jugar, como "Mi club". */
+export function upsertTeam(team: TeamData): void {
+  const i = TEAMS.findIndex((t) => t.id === team.id);
+  if (i >= 0) TEAMS[i] = team;
+  else TEAMS.unshift(team);
+}
+
 export function getTeam(id: string): TeamData {
   const t = TEAMS.find((team) => team.id === id);
   if (!t) throw new Error(`Equipo desconocido: ${id}`);

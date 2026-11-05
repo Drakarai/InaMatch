@@ -5,7 +5,8 @@ import { getTeam, movesOf } from '../data';
 import { ELEMENT_COLOR, ELEMENT_LABEL } from '../data/elements';
 import { FORMATIONS, getFormation } from '../data/formations';
 import type { PlayerData, Stats } from '../data/types';
-import { portraitPack } from '../gfx/pack';
+import { portraitPack, portraitsOf } from '../gfx/pack';
+import { loadClub, setSquad } from '../club/club';
 import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
 import { lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
 import { fitCamera, POS_COLOR, pt, sectionTitle, slant, teamBackdrop, THEME, themePanel } from '../ui/theme';
@@ -69,7 +70,9 @@ export class FormationScene extends Phaser.Scene {
 
   /** Retratos de Victory Road de los dos equipos (se cargan aquí, no al arrancar el juego). */
   preload(): void {
-    for (const { key, url } of portraitPack([this.home.teamId, this.away.teamId])) {
+    // los de "Mi club" vienen de muchos equipos: sus retratos, uno a uno
+    const club = [this.home, this.away].flatMap((l) => getTeam(l.teamId).players.filter((p) => p.origin).map((p) => ({ team: p.origin!, id: p.originId ?? p.id })));
+    for (const { key, url } of [...portraitPack([this.home.teamId, this.away.teamId]), ...portraitsOf(club)]) {
       if (!this.textures.exists(key)) this.load.image(key, url);
     }
     this.load.on(Phaser.Loader.Events.FILE_COMPLETE, (key: string) => this.textures.get(key).setFilter(Phaser.Textures.FilterMode.LINEAR));
@@ -385,6 +388,13 @@ export class FormationScene extends Phaser.Scene {
       this.scene.stop();
       done(this.home);
       return;
+    }
+    // "Mi club" recuerda la alineación y la formación
+    const save = this.home.teamId === 'club' ? loadClub() : null;
+    if (save) {
+      const byId = new Map(getTeam('club').players.map((p) => [p.id, `${p.origin}:${p.originId}`]));
+      setSquad(save, this.home.order.map((id) => byId.get(id)!).filter(Boolean), this.home.formationId);
+      this.home = { ...this.home, order: getTeam('club').players.map((p) => p.id) };
     }
     this.scene.start('match', { home: this.home, away: this.away });
   }

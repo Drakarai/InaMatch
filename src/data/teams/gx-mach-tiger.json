@@ -1,0 +1,395 @@
+{
+ "id": "gx-mach-tiger",
+ "season": "gx",
+ "wiki": "Mach Tiger",
+ "name": "Mach Tiger",
+ "short": "MAC",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-phakchi-smell",
+ "players": [
+  {
+   "id": "udom",
+   "name": "Udom",
+   "short": "Udom",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 142,
+   "tp": 110,
+   "stats": {
+    "kick": 73,
+    "body": 53,
+    "control": 50,
+    "guard": 66,
+    "speed": 62,
+    "stamina": 60,
+    "guts": 59
+   },
+   "moves": [
+    "killer-elbow",
+    "rapid-whip",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Udom Keawchay",
+   "description": "Tiene fuerza en sus brazos y da golpes muy potentes con los codos."
+  },
+  {
+   "id": "yuth-poonlarp",
+   "name": "Yuth Poonlarp",
+   "short": "Yuth",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 125,
+   "tp": 101,
+   "stats": {
+    "kick": 71,
+    "body": 63,
+    "control": 60,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 45,
+    "guts": 69
+   },
+   "moves": [
+    "death-scythe-middle",
+    "killer-elbow",
+    "burning-summer",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yam Poapan",
+   "description": "Luchador de muay thai que tiene una actitud muy militar para jugar al fútbol."
+  },
+  {
+   "id": "napa",
+   "name": "Napa",
+   "short": "Napa",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 135,
+   "tp": 112,
+   "stats": {
+    "kick": 63,
+    "body": 59,
+    "control": 61,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 50,
+    "guts": 71
+   },
+   "moves": [
+    "death-scythe-middle",
+    "trick-ball",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Napa Radam",
+   "description": "Capitán del Muay Tigers. Antes de los partidos hace un grito alto y enérgico."
+  },
+  {
+   "id": "naid-sirisukha",
+   "name": "Naid Sirisukha",
+   "short": "Naid",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 130,
+   "tp": 95,
+   "stats": {
+    "kick": 69,
+    "body": 43,
+    "control": 56,
+    "guard": 62,
+    "speed": 55,
+    "stamina": 63,
+    "guts": 51
+   },
+   "moves": [
+    "death-scythe-middle",
+    "death-scythe-low",
+    "elephant-press",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nadech Sirilak",
+   "description": "Manipula libremente a los elefantes. Monta en ellos con sus compañeros."
+  },
+  {
+   "id": "sulada",
+   "name": "Sulada",
+   "short": "Sulada",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 96,
+   "tp": 135,
+   "stats": {
+    "kick": 45,
+    "body": 57,
+    "control": 62,
+    "guard": 46,
+    "speed": 69,
+    "stamina": 71,
+    "guts": 63
+   },
+   "moves": [
+    "death-scythe-low",
+    "fuusen-gum",
+    "buttobi-jump"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sarana Kukri",
+   "description": "Siente una pasión considerable por el tom yum, una sopa tailandesa."
+  },
+  {
+   "id": "suchart",
+   "name": "Suchart",
+   "short": "Suchart",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 131,
+   "tp": 120,
+   "stats": {
+    "kick": 65,
+    "body": 67,
+    "control": 62,
+    "guard": 57,
+    "speed": 59,
+    "stamina": 61,
+    "guts": 65
+   },
+   "moves": [
+    "death-scythe-low",
+    "death-scythe-middle",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sarit Charat",
+   "description": "Tiene muy mal despertar y no le gusta entrenar con sus compañeros."
+  },
+  {
+   "id": "nawarat",
+   "name": "Nawarat",
+   "short": "Nawarat",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 131,
+   "tp": 113,
+   "stats": {
+    "kick": 66,
+    "body": 39,
+    "control": 61,
+    "guard": 61,
+    "speed": 43,
+    "stamina": 61,
+    "guts": 44
+   },
+   "moves": [
+    "death-scythe-low",
+    "death-scythe-middle",
+    "ivory-crash"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nawat Lam",
+   "description": "Amigo de la infancia y rival de Charat. Aportan mucha energía al grupo."
+  },
+  {
+   "id": "mei",
+   "name": "Mei",
+   "short": "Mei",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 105,
+   "tp": 143,
+   "stats": {
+    "kick": 56,
+    "body": 65,
+    "control": 65,
+    "guard": 58,
+    "speed": 62,
+    "stamina": 43,
+    "guts": 65
+   },
+   "moves": [
+    "death-scythe-low",
+    "presto-turn",
+    "good-smell",
+    "dark-tornado"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mei Chapati",
+   "description": "Sus padres abrieron un mercado en Kioto y ella les proporciona su ayuda."
+  },
+  {
+   "id": "bak",
+   "name": "Bak",
+   "short": "Bak",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 150,
+   "tp": 95,
+   "stats": {
+    "kick": 68,
+    "body": 60,
+    "control": 62,
+    "guard": 55,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 51
+   },
+   "moves": [
+    "death-scythe-low",
+    "ivory-crash",
+    "abisegeri",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bark Sepakraw",
+   "description": "Usa un estilo de juego muy atractivo para los grandes equipos del mundo."
+  },
+  {
+   "id": "kaolan",
+   "name": "Kaolan",
+   "short": "Kaolan",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 103,
+   "stats": {
+    "kick": 70,
+    "body": 50,
+    "control": 67,
+    "guard": 46,
+    "speed": 46,
+    "stamina": 85,
+    "guts": 54
+   },
+   "moves": [
+    "death-scythe-low",
+    "ivory-crash",
+    "oraora-menchi",
+    "kyoubou-head"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kaolan Sagot",
+   "description": "Fiel al estilo de tirar y empujar en cada duelo al que se enfrenta."
+  },
+  {
+   "id": "thanakorn-jaa",
+   "name": "Thanakorn Jaa",
+   "short": "Thanakorn",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 120,
+   "stats": {
+    "kick": 66,
+    "body": 64,
+    "control": 58,
+    "guard": 49,
+    "speed": 58,
+    "stamina": 56,
+    "guts": 52
+   },
+   "moves": [
+    "ivory-crash",
+    "death-scythe-low",
+    "maboroshi-shot",
+    "tiger-drive"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Thamgan Jaa",
+   "description": "Fue convocado por el capitán del equipo por su gran potencial."
+  },
+  {
+   "id": "rashiri-saran",
+   "name": "Rashiri Saran",
+   "short": "Rashiri",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "kaenhousha",
+    "rapid-whip",
+    "bat-attack",
+    "floral-despair"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Rasiree Saranyu",
+   "description": "Entrenadora de los Muay Tigers. Es impaciente y decide muy rápido."
+  }
+ ]
+}

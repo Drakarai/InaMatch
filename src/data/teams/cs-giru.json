@@ -1,0 +1,520 @@
+{
+ "id": "cs-giru",
+ "season": "cs",
+ "wiki": "Giru",
+ "name": "Giru",
+ "short": "GIR",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#f2c230"
+ },
+ "formation": "f-giru",
+ "players": [
+  {
+   "id": "bhufa",
+   "name": "Bhufa",
+   "short": "Bhufa",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 131,
+   "tp": 114,
+   "stats": {
+    "kick": 71,
+    "body": 52,
+    "control": 56,
+    "guard": 75,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 68
+   },
+   "moves": [
+    "rejection",
+    "shoot-pocket",
+    "wormhole",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Boofuu",
+   "description": "Gracias al implante que tiene en el ojo es un guardameta de cuidado."
+  },
+  {
+   "id": "zohtan",
+   "name": "Zohtan",
+   "short": "Zohtan",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 115,
+   "tp": 105,
+   "stats": {
+    "kick": 52,
+    "body": 71,
+    "control": 54,
+    "guard": 67,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 58
+   },
+   "moves": [
+    "senpuujin",
+    "the-mist",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zotan",
+   "description": "Las gafas de sol que lleva lo ayudan a predecir los movimientos del rival."
+  },
+  {
+   "id": "mustah",
+   "name": "Mustah",
+   "short": "Mustah",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 101,
+   "stats": {
+    "kick": 48,
+    "body": 62,
+    "control": 60,
+    "guard": 66,
+    "speed": 62,
+    "stamina": 54,
+    "guts": 63
+   },
+   "moves": [
+    "big-scissors",
+    "dash-train",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mista",
+   "description": "Le encanta inventar cacharros, así que se pasa el día diseñando."
+  },
+  {
+   "id": "mohrir",
+   "name": "Mohrir",
+   "short": "Mohrir",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 106,
+   "tp": 129,
+   "stats": {
+    "kick": 42,
+    "body": 67,
+    "control": 62,
+    "guard": 71,
+    "speed": 67,
+    "stamina": 53,
+    "guts": 68
+   },
+   "moves": [
+    "magical-flower",
+    "deep-mist",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Molly",
+   "description": "Tiene un atractivo especial que deja embelesados a sus oponentes."
+  },
+  {
+   "id": "ghimus",
+   "name": "Ghimus",
+   "short": "Ghimus",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 144,
+   "tp": 88,
+   "stats": {
+    "kick": 55,
+    "body": 71,
+    "control": 70,
+    "guard": 65,
+    "speed": 50,
+    "stamina": 71,
+    "guts": 61
+   },
+   "moves": [
+    "decoy-release",
+    "elephant-press",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gims",
+   "description": "Es tan inteligente como apuesto. ¡Todas las chicas se lo rifan!"
+  },
+  {
+   "id": "tzeikh",
+   "name": "Tzeikh",
+   "short": "Tzeikh",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 112,
+   "tp": 103,
+   "stats": {
+    "kick": 50,
+    "body": 63,
+    "control": 69,
+    "guard": 59,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 74
+   },
+   "moves": [
+    "decoy-release",
+    "fractal-house",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zake",
+   "description": "Un narcisista nato que no deja de jactarse de su gran habilidad."
+  },
+  {
+   "id": "miehd",
+   "name": "Miehd",
+   "short": "Miehd",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 69,
+   "tp": 96,
+   "stats": {
+    "kick": 42,
+    "body": 57,
+    "control": 56,
+    "guard": 56,
+    "speed": 72,
+    "stamina": 37,
+    "guts": 52
+   },
+   "moves": [
+    "decoy-release",
+    "wonder-trap",
+    "zeroyon",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mido",
+   "description": "Esta moza parece poquita cosa, pero no conviene subestimarla..."
+  },
+  {
+   "id": "mehr",
+   "name": "Mehr",
+   "short": "Mehr",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 143,
+   "stats": {
+    "kick": 68,
+    "body": 63,
+    "control": 81,
+    "guard": 61,
+    "speed": 69,
+    "stamina": 59,
+    "guts": 70
+   },
+   "moves": [
+    "dead-future",
+    "fuujin-no-mai",
+    "the-tower",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Meia",
+   "description": "Todos los integrantes de Nu-Gen conocen a la capitana del Gir."
+  },
+  {
+   "id": "ghiris",
+   "name": "Ghiris",
+   "short": "Ghiris",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 106,
+   "stats": {
+    "kick": 70,
+    "body": 57,
+    "control": 70,
+    "guard": 66,
+    "speed": 51,
+    "stamina": 64,
+    "guts": 55
+   },
+   "moves": [
+    "dead-future",
+    "dimension-cut",
+    "britannia-cross",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Giris",
+   "description": "El novio de Mehr solo tiene ojos para ella."
+  },
+  {
+   "id": "chell",
+   "name": "Chell",
+   "short": "Chell",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 120,
+   "stats": {
+    "kick": 70,
+    "body": 61,
+    "control": 57,
+    "guard": 54,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 67
+   },
+   "moves": [
+    "spring-arrow",
+    "northern-impact",
+    "shippuu-dash",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Chel",
+   "description": "Tiene una belleza tan delicada que a veces lo confunden con una chica."
+  },
+  {
+   "id": "zetoh",
+   "name": "Zetoh",
+   "short": "Zetoh",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 118,
+   "stats": {
+    "kick": 72,
+    "body": 63,
+    "control": 60,
+    "guard": 51,
+    "speed": 55,
+    "stamina": 63,
+    "guts": 61
+   },
+   "moves": [
+    "spring-arrow",
+    "atomic-flare",
+    "aggressive-beat",
+    "britannia-cross"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zat",
+   "description": "Es un chico orgulloso, pero con su talento, está más que justificado."
+  },
+  {
+   "id": "enimaux",
+   "name": "Enimaux",
+   "short": "Enimaux",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 68,
+   "tp": 123,
+   "stats": {
+    "kick": 45,
+    "body": 56,
+    "control": 54,
+    "guard": 67,
+    "speed": 66,
+    "stamina": 50,
+    "guts": 67
+   },
+   "moves": [
+    "rejection",
+    "hanafubuki",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Enimo",
+   "description": "Casi podría ser la mascota del equipo. Parece simple, pero es muy lista."
+  },
+  {
+   "id": "darehn",
+   "name": "Darehn",
+   "short": "Darehn",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 88,
+   "tp": 109,
+   "stats": {
+    "kick": 50,
+    "body": 62,
+    "control": 60,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 63
+   },
+   "moves": [
+    "magical-flower",
+    "the-tower",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Deleine",
+   "description": "Una chica sofisticada que odia perder y que se considera rival de Mehr."
+  },
+  {
+   "id": "mabhi",
+   "name": "Mabhi",
+   "short": "Mabhi",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 81,
+   "stats": {
+    "kick": 61,
+    "body": 57,
+    "control": 57,
+    "guard": 56,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 61
+   },
+   "moves": [
+    "decoy-release",
+    "dash-train",
+    "fire-tornado",
+    "heaven-s-time"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mabi",
+   "description": "A este chico tan serio y metódico le gusta elaborar planes complicados."
+  },
+  {
+   "id": "nahrje",
+   "name": "Nahrje",
+   "short": "Nahrje",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 83,
+   "tp": 96,
+   "stats": {
+    "kick": 53,
+    "body": 53,
+    "control": 56,
+    "guard": 59,
+    "speed": 57,
+    "stamina": 59,
+    "guts": 63
+   },
+   "moves": [
+    "decoy-release",
+    "mach-wind",
+    "twin-mixer",
+    "bungee-thrust"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Narje",
+   "description": "Esta chica alegre y enérgica no para de meterse en líos por su curiosidad."
+  },
+  {
+   "id": "veneth",
+   "name": "Veneth",
+   "short": "Veneth",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 109,
+   "tp": 108,
+   "stats": {
+    "kick": 61,
+    "body": 62,
+    "control": 60,
+    "guard": 55,
+    "speed": 51,
+    "stamina": 58,
+    "guts": 53
+   },
+   "moves": [
+    "spring-arrow",
+    "sidewinder",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Veneto",
+   "description": "Aunque parece un chico tranquilo y amable, tiene un lado oscuro."
+  }
+ ]
+}

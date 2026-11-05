@@ -1,0 +1,582 @@
+{
+ "id": "orion-inazuma-japan-orion",
+ "season": "orion",
+ "wiki": "Inazuma Japan (Orion)",
+ "name": "Inazuma Japan (Orion)",
+ "short": "IJO",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-2-3-5",
+ "players": [
+  {
+   "id": "mark-evans",
+   "name": "Mark Evans",
+   "short": "Mark",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 148,
+   "stats": {
+    "kick": 76,
+    "body": 74,
+    "control": 50,
+    "guard": 85,
+    "speed": 54,
+    "stamina": 76,
+    "guts": 73
+   },
+   "moves": [
+    "majin-the-hand",
+    "fuujin-raijin",
+    "god-hand-wood",
+    "nekketsu-punch"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "Su pasión por el fútbol es insuperable. Pase lo que pase, su valiente corazón nunca se rendirá."
+  },
+  {
+   "id": "billy-miller",
+   "name": "Billy Miller",
+   "short": "Billy",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "volcano-cut",
+    "hurricane-arrow",
+    "god-hand-wood",
+    "gladius-arch"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sakanoue Noboru",
+   "description": "Levantó de la nada el club de fútbol del instituto a fuerza de tesón, sin perder nunca la alegría del juego."
+  },
+  {
+   "id": "nathan-swift",
+   "name": "Nathan Swift",
+   "short": "Nathan",
+   "number": 6,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 130,
+   "tp": 121,
+   "stats": {
+    "kick": 54,
+    "body": 47,
+    "control": 69,
+    "guard": 67,
+    "speed": 89,
+    "stamina": 59,
+    "guts": 67
+   },
+   "moves": [
+    "shippuu-dash",
+    "bunshin-defense",
+    "bunshin-feint",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kazemaru Ichirouta",
+   "description": "Su elegante juego de pies pone a los rivales en su lugar. Es como un viento huracanado que barre el campo."
+  },
+  {
+   "id": "caleb-stonewall",
+   "name": "Caleb Stonewall",
+   "short": "Caleb",
+   "number": 3,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 135,
+   "stats": {
+    "kick": 73,
+    "body": 72,
+    "control": 73,
+    "guard": 63,
+    "speed": 60,
+    "stamina": 65,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "triple-boost",
+    "judge-through",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fudou Akio",
+   "description": "Destaca por su fanfarronería, pero tiene la habilidad para respaldarla. Convierte a los demás en sus marionetas con sus trucos."
+  },
+  {
+   "id": "jude-sharp",
+   "name": "Jude Sharp",
+   "short": "Jude",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 184,
+   "tp": 142,
+   "stats": {
+    "kick": 73,
+    "body": 74,
+    "control": 76,
+    "guard": 63,
+    "speed": 56,
+    "stamina": 64,
+    "guts": 64
+   },
+   "moves": [
+    "illusion-ball",
+    "twin-boost",
+    "spinning-cut",
+    "inazuma-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kidou Yuuto",
+   "description": "Un capitán que guía hacia la victoria a su equipo. Tiene un amplio arsenal de tácticas y técnicas."
+  },
+  {
+   "id": "valentin-eisner",
+   "name": "Valentin Eisner",
+   "short": "Valentin",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "koori-no-ya",
+    "meteor-drop",
+    "cyclone",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hiura Kirina",
+   "description": "Aunque parece indiferente, es muy observador y atento. Apoya a su equipo a ambos lados del campo."
+  },
+  {
+   "id": "shawn-froste",
+   "name": "Shawn Froste",
+   "short": "Shawn",
+   "number": 4,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 63,
+    "control": 68,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "white-double-impact",
+    "ice-ground",
+    "aurora-dribble",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "Anteriormente conocido como el \"Cazador de Osos\". Su temperamento tranquilo oculta un estilo de juego poderoso."
+  },
+  {
+   "id": "sonny-wright",
+   "name": "Sonny Wright",
+   "short": "Sonny",
+   "number": 8,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "inabikari-dash",
+    "shining-bird"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Inamori Asuto",
+   "description": "Un fanático del fútbol, tan brillante y enérgico como el propio sol, que siempre hace que el ambiente se caldee."
+  },
+  {
+   "id": "xavier-schiller",
+   "name": "Xavier Schiller",
+   "short": "Schiller",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 173,
+   "stats": {
+    "kick": 84,
+    "body": 62,
+    "control": 77,
+    "guard": 63,
+    "speed": 84,
+    "stamina": 56,
+    "guts": 77
+   },
+   "moves": [
+    "the-explosion",
+    "zigzag-strike"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kira Hiroto",
+   "description": "El heredero de Grupo Kira, que patrocina a la Academia Eisei. Juega sin tener en cuenta a sus compañeros, pero sus habilidades individuales son de primer nivel y fue el máximo goleador del torneo preliminar."
+  },
+  {
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 180,
+   "tp": 135,
+   "stats": {
+    "kick": 77,
+    "body": 64,
+    "control": 68,
+    "guard": 58,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 56
+   },
+   "moves": [
+    "fire-tornado",
+    "heat-tackle",
+    "inazuma-otoshi",
+    "inazuma-1gou"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gouenji Shuuya",
+   "description": "Bajo su fría apariencia, en el interior de este chico arde una intensa pasión por el fútbol."
+  },
+  {
+   "id": "elliot-ember",
+   "name": "Elliot Ember",
+   "short": "Elliot",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "overhead-penguin",
+    "perfect-penguin"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Haizaki Ryouhei",
+   "description": "La sonrisa demente de este jugador pone los vellos de punta. Agobia al rival con un estilo de juego hiperagresivo."
+  },
+  {
+   "id": "adriano-donati",
+   "name": "Adriano Donati",
+   "short": "Adriano",
+   "number": 12,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "fire-lemonade",
+    "grenade-shot",
+    "dokonjou-bat",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Goujin Tetsunosuke",
+   "description": "Lidera la delantera con valor. Osado al jugar, pero nunca defrauda en los momentos difíciles."
+  },
+  {
+   "id": "lucas-star",
+   "name": "Lucas Star",
+   "short": "Star",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 195,
+   "stats": {
+    "kick": 61,
+    "body": 58,
+    "control": 86,
+    "guard": 66,
+    "speed": 98,
+    "stamina": 77,
+    "guts": 74
+   },
+   "moves": [
+    "southern-crosscut",
+    "spiral-draw",
+    "zigzag-spark",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ichihoshi Hikaru",
+   "description": "Lucas : Tras unificar sus personalidades, ha logrado combinar la fuerza de su hermano con una aguda capacidad analítica."
+  },
+  {
+   "id": "lucas-star-ok-hikaru",
+   "name": "Lucas Star",
+   "short": "Star",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 195,
+   "stats": {
+    "kick": 61,
+    "body": 58,
+    "control": 86,
+    "guard": 66,
+    "speed": 98,
+    "stamina": 77,
+    "guts": 74
+   },
+   "moves": [
+    "blue-stardust",
+    "planet-break"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ichihoshi Hikaru",
+   "description": "Lucas : Tras unificar sus personalidades, ha logrado combinar la fuerza de su hermano con una aguda capacidad analítica."
+  },
+  {
+   "id": "heath-moore",
+   "name": "Heath Moore",
+   "short": "Heath",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "king-s-lance",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nosaka Yuuma",
+   "description": ": Jugador polifacético con un liderazgo excepcional. Posee una gran destreza y tácticas muy ingeniosas."
+  },
+  {
+   "id": "xavier-foster",
+   "name": "Xavier Foster",
+   "short": "Foster",
+   "number": 15,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 157,
+   "tp": 128,
+   "stats": {
+    "kick": 69,
+    "body": 75,
+    "control": 61,
+    "guard": 67,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 68
+   },
+   "moves": [
+    "ryuusei-blade",
+    "photon-flash",
+    "supernova",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kiyama Hiroto",
+   "description": "Hubo un tiempo en el que fue conocido como \"Xene\" y lideró el equipo de la Academia Alius. Sus tiros atraviesan el aire como cometas."
+  },
+  {
+   "id": "byron-love",
+   "name": "Byron Love",
+   "short": "Byron",
+   "number": 16,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 142,
+   "stats": {
+    "kick": 80,
+    "body": 72,
+    "control": 73,
+    "guard": 65,
+    "speed": 63,
+    "stamina": 52,
+    "guts": 64
+   },
+   "moves": [
+    "god-knows-impact",
+    "heaven-s-time",
+    "god-knows",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Afuro Terumi",
+   "description": "Cautiva a sus rivales con su gracia artística y juega con el aura de un ser divino."
+  },
+  {
+   "id": "cliff-parker",
+   "name": "Cliff Parker",
+   "short": "Cliff",
+   "number": 17,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "shikofumi",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Iwato Takashi",
+   "description": "Un defensa famoso por su gran estatura. Sus compañeros lo conocen como \"Gólem\"."
+  }
+ ]
+}

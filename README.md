@@ -108,7 +108,8 @@ docs/              notas de referencia del juego original
 ## Equipos
 
 Los equipos se generan con `python3 -I tools/wiki/teams.py` a partir de la
-[wiki inglesa](https://inazuma-eleven.fandom.com/), separados por temporada (cada id empieza por `ie1-`, `ie2-` o `ie3-`):
+[wiki inglesa](https://inazuma-eleven.fandom.com/), separados por temporada (cada id empieza por `ie1-`, `ie2-`, `ie3-`, `go-`,
+`cs-`, `gx-`, `ares-`, `orion-` o `vr-`). Son 198:
 - **IE1 (15):** Raimon, Royal Academy, Zeus, Occult, Wild, Brain, Otaku, Shuriken, Farm, Kirkwood, Inazuma Eleven…
   y el Ultra Zeus.
 - **IE2 (33):** Raimon II, Jóvenes Inazuma, la Academia Alius (Génesis, Caos, Épsilon, Prominence, Polvo de Diamantes, Tormenta de
@@ -120,9 +121,27 @@ Los equipos se generan con `python3 -I tools/wiki/teams.py` a partir de la
   Selección A y B, Neo Japón Plus, Ángel Oscuro, Ángeles del Caos, Equipo Celestial, Leyendas de Antaño, Ases
   Internacionales, los Ases de Asia, Europa, África y Sudamérica, Estrellas Femeninas, Atlético Alius y Nuevo Caos.
 
+- **GO (24), Chrono Stone (21) y Galaxy (17):** los grupos de `Module:PlayerData/GO`, `CS` y `GX`: Raimon, Sector Quinto,
+  Protocolo Omega, Chrono Storm, Earth Eleven, los equipos de Galaxy…
+- **Ares (14) y Orión (13):** los de `Module:PlayerData/AT` y `OK` (Inakuni Raimon, Seishou, la Inazuma Japón de Orión,
+  Unicorn Estelar, la Sombra de Orión…). No tienen juego propio: sus técnicas son las de Victory Road.
+- **Victory Road (22):** los de `Module:PlayerData/VR`.
+
 Los extras (versiones mejoradas, selecciones y equipos secretos) no son grupos del módulo de jugadores: están en la lista
 `EXTRA` del script, que monta cada uno con la tabla de miembros de su página. Para añadir otro, pon el título de su página
 de la wiki inglesa en la temporada que toque.
+
+**Ojeadores:** los jugadores que se fichan en los juegos y no son de ningún equipo (el grupo "Scouts" de cada módulo, unos
+3000). Van en `src/data/scouts.json`, que solo se carga para Mi club.
+
+**Atributos de la era GO y de Victory Road:** los juegos GO tienen otros atributos (Regate, Técnica, Bloqueo, Parada,
+Suerte…) y los de Victory Road y Ares/Orión no salen en la wiki: se toman de la enciclopedia oficial
+[Inazugle](https://zukan.inazuma.jp/en/chara_param/) (`tools/zukan/charas.py` guarda sus 5459 fichas en
+`tools/zukan/charas.json`). El script los pasa a la escala de IE3 (cada valor a la misma distancia de la media, por
+posición, que entre los jugadores de IE), y la potencia y el coste de las técnicas nuevas igual, por percentiles. Así
+todas las temporadas quedan con medias parecidas.
+
+Las respuestas de la wiki se guardan en `tools/wiki/.cache/api` (bórrala para bajarlo todo de nuevo).
 
 De dónde sale cada cosa:
 - **Plantilla, dorsales y formación:** la tabla de miembros de ese juego en la página de cada equipo.
@@ -137,7 +156,7 @@ De dónde sale cada cosa:
 - **Titulares:** portero y las líneas de la formación por orden de dorsal. Si faltan jugadores de una posición, entra el que mejor encaja por atributos.
 
 **Escudos:** `python3 -I tools/wiki/emblems.py` baja el de cada equipo de la wiki (el rehecho para Victory Road si lo hay;
-si no, el de los juegos de DS) a `src/assets/pack/emblems/`. Ya están los 87 (las versiones NEW llevan el del equipo original). Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
+si no, el de los juegos de DS) a `src/assets/pack/emblems/`. Ya están 193 de 198 (las versiones NEW llevan el del equipo original). Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
 uno provisional con las siglas.
 
 Lo que no viene en la wiki se pone a mano en el script: los colores de los equipos más conocidos (el resto lleva colores
@@ -161,7 +180,8 @@ De cada una guarda:
   son dos técnicas distintas.
 - Potencia y coste en Victory Road, y TP en IE3.
 
-Las técnicas del juego (`src/data/moves.json`) las genera `tools/wiki/teams.py`. Cada una lleva:
+Las técnicas del juego (`src/data/moves.json`, 721: todas las que usa algún jugador o ojeador) las genera `tools/wiki/teams.py`.
+Las de la era GO, Victory Road y Ares/Orión que no tienen datos de IE3 se pasan a su escala por percentiles. Cada una lleva:
 - **Nombre:** el de los juegos de DS en España. Sale del catálogo (el título de su página en la wiki española), salvo
   las que están en `moves` de `tools/wiki/overrides.json` (26):
   - La wiki española titula muchas con el nombre del anime y pone aparte el de los juegos ("también conocida como
@@ -222,6 +242,22 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
 - **Cambiar sonidos:** `src/audio/sfx.ts` (tabla `TECH`, una receta por tipo de efecto) y
   `src/audio/music.ts` (las canciones son listas de acordes y notas por compás).
 
+## Mi club y fichajes
+
+- **Mi club:** tu equipo propio. La primera vez que abres el juego se reparte una plantilla de 16 al azar, distinta para cada
+  uno: casi todo ojeadores y jugadores poco conocidos, y uno o dos conocidos. Sale como un equipo más en el menú (pestaña
+  "Mi club") y se juega igual que los demás; la formación y la alineación que elijas se guardan.
+- **Pantalla del club** (botón **⚡ Mi club** del menú): la plantilla y la colección de jugadores conseguidos. Pulsa un
+  hueco de la plantilla y luego un jugador para ponerlo; dos huecos, para cambiarlos.
+- **Fichajes** (gacha): tirada a 100 monedas o diez a 900, que traen al menos un ★★★. Probabilidades: ★★★★ Estrella 2 %,
+  ★★★ Conocido 10 %, ★★ Poco conocido 28 %, ★ Ojeador 60 %. Los repetidos devuelven monedas.
+- **Rareza:** según lo conocido que es cada personaje: en cuántos equipos sale (ojeadores, uno, dos o tres, cuatro o más,
+  como Mark o Axel). De cada personaje se puede conseguir su mejor versión, con sus técnicas de la wiki.
+- **Monedas:** se empieza con 500. Cada partido con Mi club da 150 ganando, 80 empatando y 50 perdiendo; con otros equipos,
+  de 20 a 40.
+- La partida se guarda en el navegador (`localStorage`); si se borran los datos del sitio, se empieza de cero.
+- Código: `src/club/` (plantilla, gacha y guardado) y las escenas `ClubScene` y `GachaScene`.
+
 ## Formación
 
 - Pulsa dos jugadores para cambiarlos (titular por suplente o de sitio).
@@ -230,7 +266,7 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
 
 ## Jugadores: sprites, retratos y descripciones
 
-- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (1097 de 1240). Sale en la ficha
+- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (1970 de 5908, ojeadores incluidos). Sale en la ficha
   de la formación, en el panel del partido y en la animación de las supertécnicas. Los baja
   `python3 -I tools/wiki/sprites.py` de la wiki inglesa a `src/assets/pack/portraits/<equipo>/<jugador>.webp`, y se
   cargan al elegir equipos.
@@ -246,6 +282,10 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
   - Cuando la página trae la traducción literal del japonés y el texto del juego español, se usa el del juego.
   - `tools/wiki/overrides.json`: descripciones escritas a mano para los pocos que no tienen versión española o la
     tienen mal copiada, nombres que la wiki no trae bien y erratas de las descripciones oficiales.
+  - Muchas fichas de la wiki española no tienen enlace desde la inglesa ni se llaman como en el doblaje inglés: se
+    emparejan por su enlace a la wiki inglesa y por el nombre japonés de la ficha.
+  - Los que no tienen descripción oficial en español en ninguna parte (casi todos ojeadores de la era GO y de Victory
+    Road) llevan la inglesa traducida: `tools/wiki/descripciones_traducidas.json`.
   - El script deja en `tools/wiki/.cache/sin_descripcion.txt` los que se quedan sin descripción en español.
 
 ### Sprites originales

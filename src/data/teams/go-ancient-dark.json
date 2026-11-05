@@ -1,0 +1,360 @@
+{
+ "id": "go-ancient-dark",
+ "season": "go",
+ "wiki": "Ancient Dark",
+ "name": "Ancient Dark",
+ "short": "ANC",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-ancient",
+ "players": [
+  {
+   "id": "nero-night",
+   "name": "Nero Night",
+   "short": "Nero",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 84,
+   "tp": 205,
+   "stats": {
+    "kick": 66,
+    "body": 49,
+    "control": 63,
+    "guard": 54,
+    "speed": 46,
+    "stamina": 48,
+    "guts": 51
+   },
+   "moves": [
+    "kill-bridge",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ashiya Noboru",
+   "description": "Sabe mucho sobre plantas silvestres y le gusta salir a recolectarlas."
+  },
+  {
+   "id": "morris-moore",
+   "name": "Morris Moore",
+   "short": "Morris",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 165,
+   "stats": {
+    "kick": 52,
+    "body": 49,
+    "control": 48,
+    "guard": 57,
+    "speed": 50,
+    "stamina": 64,
+    "guts": 53
+   },
+   "moves": [
+    "vanishing-cut",
+    "elephant-press",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Motono Tsuyoshi",
+   "description": "Impone bastante, pero es muy dócil. Eso sí, procura que no se enfade..."
+  },
+  {
+   "id": "jet-onyx",
+   "name": "Jet Onyx",
+   "short": "Jet",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 161,
+   "tp": 160,
+   "stats": {
+    "kick": 60,
+    "body": 37,
+    "control": 63,
+    "guard": 46,
+    "speed": 54,
+    "stamina": 76,
+    "guts": 50
+   },
+   "moves": [
+    "vanishing-cut",
+    "mad-juggler",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Michino Susumu",
+   "description": "Con su fuerza de voluntad, es capaz de hacer que las plantas crezcan."
+  },
+  {
+   "id": "cole-ebony",
+   "name": "Cole Ebony",
+   "short": "Cole",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 172,
+   "stats": {
+    "kick": 56,
+    "body": 52,
+    "control": 66,
+    "guard": 49,
+    "speed": 62,
+    "stamina": 55,
+    "guts": 49
+   },
+   "moves": [
+    "vanishing-cut",
+    "death-drop",
+    "dimension-cut",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Edaki Saki",
+   "description": "Se dedica a podar con regularidad los árboles de un bosque cercano."
+  },
+  {
+   "id": "blake-obscura",
+   "name": "Blake Obscura",
+   "short": "Blake",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 60,
+   "tp": 184,
+   "stats": {
+    "kick": 64,
+    "body": 63,
+    "control": 64,
+    "guard": 44,
+    "speed": 53,
+    "stamina": 54,
+    "guts": 55
+   },
+   "moves": [
+    "dimension-cut",
+    "claymore",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kiya Kouji",
+   "description": "Esculpe obras de arte con carbón, así que no le importará que se lo regales."
+  },
+  {
+   "id": "shady-shwartz",
+   "name": "Shady Shwartz",
+   "short": "Shady",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 194,
+   "tp": 152,
+   "stats": {
+    "kick": 64,
+    "body": 47,
+    "control": 45,
+    "guard": 46,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 51
+   },
+   "moves": [
+    "maboroshi-shot",
+    "melody-wave",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rinne Makoto",
+   "description": "Es un experto tallando instrumentos musicales de madera."
+  },
+  {
+   "id": "goth-grimshaw",
+   "name": "Goth Grimshaw",
+   "short": "Goth",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 175,
+   "tp": 152,
+   "stats": {
+    "kick": 66,
+    "body": 55,
+    "control": 51,
+    "guard": 46,
+    "speed": 57,
+    "stamina": 60,
+    "guts": 53
+   },
+   "moves": [
+    "sprint-warp",
+    "viva-banri-no-choujou",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hisakumo Jinta",
+   "description": "Adora las novelas históricas e idolatra a los grandes próceres del pasado."
+  },
+  {
+   "id": "duff-dooley",
+   "name": "Duff Dooley",
+   "short": "Duff",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 126,
+   "tp": 171,
+   "stats": {
+    "kick": 49,
+    "body": 52,
+    "control": 56,
+    "guard": 62,
+    "speed": 54,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "thousand-arrow",
+    "round-spark",
+    "dimension-cut",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Noya Keiichirou",
+   "description": "Le encantan los rábanos, en especial cocidos, y los come diariamente."
+  },
+  {
+   "id": "tynan-crowe",
+   "name": "Tynan Crowe",
+   "short": "Tynan",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 165,
+   "stats": {
+    "kick": 65,
+    "body": 49,
+    "control": 46,
+    "guard": 50,
+    "speed": 62,
+    "stamina": 62,
+    "guts": 53
+   },
+   "moves": [
+    "maboroshi-shot",
+    "claymore",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yuuki Jou",
+   "description": "Su sueño es escalar las montañas más altas de Japón."
+  },
+  {
+   "id": "tezcat",
+   "name": "Tezcat",
+   "short": "Tezcat",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 140,
+   "stats": {
+    "kick": 80,
+    "body": 70,
+    "control": 74,
+    "guard": 68,
+    "speed": 42,
+    "stamina": 59,
+    "guts": 57
+   },
+   "moves": [
+    "black-ash",
+    "sprint-warp",
+    "vanishing-cut",
+    "zero-magnum"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shuu",
+   "description": "Un chico que vive en la isla del Santuario. Tiene un pasado misterioso."
+  },
+  {
+   "id": "yang",
+   "name": "Yang",
+   "short": "Yang",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 60,
+   "tp": 148,
+   "stats": {
+    "kick": 50,
+    "body": 75,
+    "control": 48,
+    "guard": 65,
+    "speed": 53,
+    "stamina": 50,
+    "guts": 56
+   },
+   "moves": [
+    "death-drop",
+    "britannia-cross",
+    "eternal-blizzard",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kai",
+   "description": "Parece despreocupado, pero en realidad es un estratega nato."
+  }
+ ]
+}

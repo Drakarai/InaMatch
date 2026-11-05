@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { rewardMatch } from '../club/club';
 import { FIELD_VIEW, GAME_SPEED, RES, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { music, playFanfare } from '../audio/music';
 import { sfx } from '../audio/sfx';
@@ -1380,9 +1381,12 @@ export class MatchScene extends Phaser.Scene {
     this.state = 'over';
     sfx.whistle(true);
     await this.hud.banner('¡Final!', '', '#ffffff', 1400);
+    const [a, b] = this.score;
+    const coins = rewardMatch(a > b ? 'win' : a < b ? 'loss' : 'draw', this.teams[0].id === 'club');
     this.hud.showResult(
       () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
       () => this.scene.start('menu'),
+      coins,
     );
   }
 

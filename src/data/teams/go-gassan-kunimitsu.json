@@ -1,0 +1,512 @@
+{
+ "id": "go-gassan-kunimitsu",
+ "season": "go",
+ "wiki": "Gassan Kunimitsu",
+ "name": "Academia Militar Mar de Luna",
+ "short": "GAS",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "alessandro-il-grande",
+   "name": "Alessandro il Grande",
+   "short": "Alessandro",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 145,
+   "tp": 150,
+   "stats": {
+    "kick": 48,
+    "body": 60,
+    "control": 52,
+    "guard": 65,
+    "speed": 46,
+    "stamina": 44,
+    "guts": 52
+   },
+   "moves": [
+    "fence-of-gaia",
+    "power-spike",
+    "burai-hand"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hyoudou Tsukasa",
+   "description": "El estratega de la Mar de Luna, capaz de idear un plan para cada situación."
+  },
+  {
+   "id": "gene-ghiskhan",
+   "name": "Gene Ghiskhan",
+   "short": "Gene",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 171,
+   "tp": 152,
+   "stats": {
+    "kick": 52,
+    "body": 49,
+    "control": 47,
+    "guard": 74,
+    "speed": 50,
+    "stamina": 67,
+    "guts": 58
+   },
+   "moves": [
+    "twin-mixer",
+    "elephant-press",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kanehira Tessai",
+   "description": "Empleando su fuerza física se abre camino entre las filas del equipo rival."
+  },
+  {
+   "id": "attila-hun",
+   "name": "Attila Hun",
+   "short": "Attila",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 119,
+   "stats": {
+    "kick": 52,
+    "body": 48,
+    "control": 47,
+    "guard": 70,
+    "speed": 50,
+    "stamina": 63,
+    "guts": 59
+   },
+   "moves": [
+    "twin-mixer",
+    "head-bazooka",
+    "britannia-cross",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Osafune Tenzen",
+   "description": "Es un tanque sobre el campo, efectivo en defensa y aplastante en el regate."
+  },
+  {
+   "id": "sun-tzu",
+   "name": "Sun Tzu",
+   "short": "Sun",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 171,
+   "stats": {
+    "kick": 60,
+    "body": 71,
+    "control": 62,
+    "guard": 45,
+    "speed": 53,
+    "stamina": 70,
+    "guts": 58
+   },
+   "moves": [
+    "twin-mixer",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hachisuka Tadatora",
+   "description": "Dirige la defensa como un general y sabe achicar espacios."
+  },
+  {
+   "id": "arty-xerxes",
+   "name": "Arty Xerxes",
+   "short": "Arty",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 102,
+   "tp": 135,
+   "stats": {
+    "kick": 49,
+    "body": 52,
+    "control": 66,
+    "guard": 46,
+    "speed": 77,
+    "stamina": 64,
+    "guts": 54
+   },
+   "moves": [
+    "twin-mixer",
+    "illusion-ball",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kobayakawa Soukichi",
+   "description": "Resulta difícil anticiparse a él, ya que piensa más rápido que los demás."
+  },
+  {
+   "id": "darius-cyrus",
+   "name": "Darius Cyrus",
+   "short": "Darius",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 112,
+   "tp": 172,
+   "stats": {
+    "kick": 54,
+    "body": 71,
+    "control": 44,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 50,
+    "guts": 60
+   },
+   "moves": [
+    "claymore",
+    "sargasso",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsukishima Kagehide",
+   "description": "Espartano y severo con los demás y consigo mismo, es el guía del equipo."
+  },
+  {
+   "id": "jerry-onimo",
+   "name": "Jerry Onimo",
+   "short": "Jerry",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 175,
+   "tp": 154,
+   "stats": {
+    "kick": 54,
+    "body": 54,
+    "control": 48,
+    "guard": 72,
+    "speed": 61,
+    "stamina": 50,
+    "guts": 56
+   },
+   "moves": [
+    "claymore",
+    "rocket-head",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Masamune Gorou",
+   "description": "De mayor quiere ser policía. Estudia mucho y busca siempre la justicia."
+  },
+  {
+   "id": "leon-ohnepart",
+   "name": "Leon Ohnepart",
+   "short": "Leon",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 170,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 61,
+    "control": 53,
+    "guard": 67,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 51
+   },
+   "moves": [
+    "claymore",
+    "rocket-head",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kai Nobutake",
+   "description": "Cierra huecos a los rivales con movimientos rápidos y precisos."
+  },
+  {
+   "id": "robert-lee",
+   "name": "Robert Lee",
+   "short": "Robert",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 145,
+   "tp": 144,
+   "stats": {
+    "kick": 58,
+    "body": 55,
+    "control": 53,
+    "guard": 46,
+    "speed": 73,
+    "stamina": 52,
+    "guts": 51
+   },
+   "moves": [
+    "rocket-head",
+    "sidewinder",
+    "claymore",
+    "denrai-houtou"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shibata Kachidoki",
+   "description": "Domina la lucha con dos espadas y su instinto está siempre alerta."
+  },
+  {
+   "id": "doug-mcarthur",
+   "name": "Doug McArthur",
+   "short": "Doug",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 150,
+   "tp": 139,
+   "stats": {
+    "kick": 51,
+    "body": 63,
+    "control": 56,
+    "guard": 65,
+    "speed": 50,
+    "stamina": 47,
+    "guts": 58
+   },
+   "moves": [
+    "sonic-shot",
+    "claymore",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Minamisawa Atsushi",
+   "description": "Un delantero con mucha técnica, aunque a veces es un poco apático."
+  },
+  {
+   "id": "nobby-naga",
+   "name": "Nobby Naga",
+   "short": "Nobby",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 148,
+   "stats": {
+    "kick": 50,
+    "body": 52,
+    "control": 70,
+    "guard": 47,
+    "speed": 82,
+    "stamina": 58,
+    "guts": 54
+   },
+   "moves": [
+    "rocket-head",
+    "mach-wind",
+    "claymore",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ichimonji Kirito",
+   "description": "Se ganó la titularidad con varios goles tras entrar como sustituto."
+  },
+  {
+   "id": "salvador-addin",
+   "name": "Salvador Addin",
+   "short": "Salvador",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 98,
+   "tp": 171,
+   "stats": {
+    "kick": 62,
+    "body": 74,
+    "control": 69,
+    "guard": 39,
+    "speed": 57,
+    "stamina": 52,
+    "guts": 57
+   },
+   "moves": [
+    "power-spike",
+    "killer-whale",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yamamoto Kanta",
+   "description": "Tiene talento, pero es es testarudo y no se coordina bien con los demás."
+  },
+  {
+   "id": "otto-bismark",
+   "name": "Otto Bismark",
+   "short": "Otto",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 216,
+   "stats": {
+    "kick": 58,
+    "body": 60,
+    "control": 59,
+    "guard": 61,
+    "speed": 55,
+    "stamina": 59,
+    "guts": 61
+   },
+   "moves": [
+    "fortissimo",
+    "presto-turn"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Takenaka Hanzou",
+   "description": "Su abuelo era alemán. Es disciplinado pero un poco cuadriculado."
+  },
+  {
+   "id": "jean-darc",
+   "name": "Jean Darc",
+   "short": "Jean",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 193,
+   "stats": {
+    "kick": 60,
+    "body": 52,
+    "control": 51,
+    "guard": 73,
+    "speed": 56,
+    "stamina": 50,
+    "guts": 60
+   },
+   "moves": [
+    "kattobi-defense",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sanada Rokurou",
+   "description": "No destaca en acciones individuales, pero aporta mucho al equipo."
+  },
+  {
+   "id": "bobby-bruce",
+   "name": "Bobby Bruce",
+   "short": "Bobby",
+   "number": 15,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 188,
+   "tp": 128,
+   "stats": {
+    "kick": 63,
+    "body": 40,
+    "control": 54,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 72,
+    "guts": 55
+   },
+   "moves": [
+    "head-bazooka",
+    "dash-train",
+    "fire-tornado"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shima Samonji",
+   "description": "Dice que vive para sus músculos y dedica mucho tiempo a hacer pesas."
+  },
+  {
+   "id": "hanny-bawl",
+   "name": "Hanny Bawl",
+   "short": "Hanny",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 181,
+   "tp": 130,
+   "stats": {
+    "kick": 54,
+    "body": 65,
+    "control": 41,
+    "guard": 53,
+    "speed": 51,
+    "stamina": 57,
+    "guts": 62
+   },
+   "moves": [
+    "sonic-shot",
+    "thief-eye",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Karasuma Takechiyo",
+   "description": "Colecciona raciones de alimento de ejércitos de todo el mundo."
+  }
+ ]
+}

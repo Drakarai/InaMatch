@@ -1,0 +1,510 @@
+{
+ "id": "go-mannouzaka",
+ "season": "go",
+ "wiki": "Mannouzaka",
+ "name": "Mannouzaka",
+ "short": "MAN",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-omni",
+ "players": [
+  {
+   "id": "aum-nirvana",
+   "name": "Aum Nirvana",
+   "short": "Aum",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 117,
+   "tp": 174,
+   "stats": {
+    "kick": 47,
+    "body": 61,
+    "control": 55,
+    "guard": 59,
+    "speed": 56,
+    "stamina": 46,
+    "guts": 54
+   },
+   "moves": [
+    "bat-attack",
+    "crystal-barrier",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shinoyama Mitsuru",
+   "description": "Gracias a sus reflejos puede controlar cualquier balón, por rápido que vaya."
+  },
+  {
+   "id": "adamant-walhalla",
+   "name": "Adamant Walhalla",
+   "short": "Adamant",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 120,
+   "stats": {
+    "kick": 62,
+    "body": 42,
+    "control": 62,
+    "guard": 59,
+    "speed": 57,
+    "stamina": 74,
+    "guts": 62
+   },
+   "moves": [
+    "elephant-press",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gamaishi Tsuneoki",
+   "description": "Con su imponente figura intimida a los rivales hasta robarles el balón."
+  },
+  {
+   "id": "omega-elysium",
+   "name": "Omega Elysium",
+   "short": "Omega",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 187,
+   "tp": 121,
+   "stats": {
+    "kick": 60,
+    "body": 35,
+    "control": 57,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 76,
+    "guts": 64
+   },
+   "moves": [
+    "elephant-press",
+    "dash-train",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Oosawada Kotetsu",
+   "description": "Su mayor virtud es su férreo cuerpo, capaz de desviar cualquier disparo."
+  },
+  {
+   "id": "f-rimmer-jung",
+   "name": "Fürimmer Jung",
+   "short": "Fürimmer",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 189,
+   "tp": 107,
+   "stats": {
+    "kick": 55,
+    "body": 56,
+    "control": 70,
+    "guard": 54,
+    "speed": 57,
+    "stamina": 63,
+    "guts": 55
+   },
+   "moves": [
+    "elephant-press",
+    "hunter-s-net",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nagahisa Douji",
+   "description": "Es una defensa pequeño, pero con una gran resistencia física."
+  },
+  {
+   "id": "zenith-shangrila",
+   "name": "Zenith Shangrila",
+   "short": "Zenith",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 164,
+   "tp": 152,
+   "stats": {
+    "kick": 56,
+    "body": 60,
+    "control": 70,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 51,
+    "guts": 53
+   },
+   "moves": [
+    "thief-eye",
+    "boomerang-feint",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kuranoin Sanosuke",
+   "description": "Va y viene sin dejarse notar para robar el balón cuando el rival se distrae."
+  },
+  {
+   "id": "optimum-limbo",
+   "name": "Optimum Limbo",
+   "short": "Optimum",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 124,
+   "tp": 116,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 50,
+    "guard": 72,
+    "speed": 59,
+    "stamina": 48,
+    "guts": 53
+   },
+   "moves": [
+    "boomerang-feint",
+    "head-bazooka",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ushio Kenjirou",
+   "description": "Sabe guardar la compostura incluso mientras defiende ataques peligrosos."
+  },
+  {
+   "id": "panacea-utopia",
+   "name": "Panacea Utopia",
+   "short": "Panacea",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 177,
+   "tp": 159,
+   "stats": {
+    "kick": 48,
+    "body": 74,
+    "control": 62,
+    "guard": 63,
+    "speed": 57,
+    "stamina": 53,
+    "guts": 58
+   },
+   "moves": [
+    "boomerang-feint",
+    "the-mist",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Busujima Kanezane",
+   "description": "Con sus fintas logra confundir al rival y que pierda su posición en el campo."
+  },
+  {
+   "id": "acme-rapture",
+   "name": "Acme Rapture",
+   "short": "Acme",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 113,
+   "stats": {
+    "kick": 53,
+    "body": 52,
+    "control": 78,
+    "guard": 60,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 64
+   },
+   "moves": [
+    "boomerang-feint",
+    "bound-flame",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sakazaki Mugen",
+   "description": "Un genio de las artes marciales, que con 10 años ya era entrenador."
+  },
+  {
+   "id": "ultima-nextworld",
+   "name": "Ultima Nextworld",
+   "short": "Ultima",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 125,
+   "stats": {
+    "kick": 48,
+    "body": 62,
+    "control": 70,
+    "guard": 64,
+    "speed": 54,
+    "stamina": 52,
+    "guts": 55
+   },
+   "moves": [
+    "bound-flame",
+    "boomerang-feint",
+    "mach-wind",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shirato Kiyoshirou",
+   "description": "Una mente fría y analítica, también toca los teclados en una banda."
+  },
+  {
+   "id": "maxim-millennium",
+   "name": "Maxim Millennium",
+   "short": "Maxim",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 142,
+   "stats": {
+    "kick": 52,
+    "body": 67,
+    "control": 79,
+    "guard": 48,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 62
+   },
+   "moves": [
+    "bound-flame",
+    "boomerang-feint",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mitsuyoshi Yozakura",
+   "description": "Un manipulador nato, capaz de influir en el rival con palabras y acciones."
+  },
+  {
+   "id": "infinity-beyond",
+   "name": "Infinity Beyond",
+   "short": "Infinity",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 147,
+   "stats": {
+    "kick": 73,
+    "body": 63,
+    "control": 58,
+    "guard": 49,
+    "speed": 50,
+    "stamina": 50,
+    "guts": 66
+   },
+   "moves": [
+    "bound-flame",
+    "boomerang-feint",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Isozaki Kenma",
+   "description": "Los disparos de este poderoso delantero son como hojas afiladas."
+  },
+  {
+   "id": "apex-paradiso",
+   "name": "Apex Paradiso",
+   "short": "Apex",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 118,
+   "stats": {
+    "kick": 59,
+    "body": 56,
+    "control": 54,
+    "guard": 48,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 58
+   },
+   "moves": [
+    "burning-catch",
+    "burning-summer",
+    "fence-of-gaia"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Chita Tsuyoshi",
+   "description": "Ni los estiramientos le ayudan a mejorar su escasa elasticidad."
+  },
+  {
+   "id": "pearl-gates",
+   "name": "Pearl Gates",
+   "short": "Pearl",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 186,
+   "tp": 144,
+   "stats": {
+    "kick": 45,
+    "body": 53,
+    "control": 61,
+    "guard": 67,
+    "speed": 65,
+    "stamina": 56,
+    "guts": 56
+   },
+   "moves": [
+    "bound-flame",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Basato Toushi",
+   "description": "Su familia practica artes marciales. A veces lucha con su padre."
+  },
+  {
+   "id": "perpetuo-xanadu",
+   "name": "Perpetuo Xanadu",
+   "short": "Perpetuo",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 177,
+   "tp": 159,
+   "stats": {
+    "kick": 53,
+    "body": 54,
+    "control": 54,
+    "guard": 64,
+    "speed": 50,
+    "stamina": 53,
+    "guts": 55
+   },
+   "moves": [
+    "boomerang-feint",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kiwami Seishin",
+   "description": "Su concentración es increíble, pero solo en momentos críticos."
+  },
+  {
+   "id": "sempiterno-bliss",
+   "name": "Sempiterno Bliss",
+   "short": "Sempiterno",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 172,
+   "tp": 159,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 56,
+    "guard": 62,
+    "speed": 72,
+    "stamina": 62,
+    "guts": 53
+   },
+   "moves": [
+    "boomerang-feint",
+    "spiral-draw",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Okano Shunpei",
+   "description": "Gran velocista del club de atletismo, juega al fútbol por pasar el rato."
+  },
+  {
+   "id": "myriad-arcadia",
+   "name": "Myriad Arcadia",
+   "short": "Myriad",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 117,
+   "stats": {
+    "kick": 52,
+    "body": 61,
+    "control": 70,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 58,
+    "guts": 50
+   },
+   "moves": [
+    "thief-eye",
+    "boomerang-feint",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kamihira Gizou",
+   "description": "Junta billetes de juguete porque dice que así se siente como un millonario."
+  }
+ ]
+}

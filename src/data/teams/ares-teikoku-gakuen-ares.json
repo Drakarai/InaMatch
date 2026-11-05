@@ -1,0 +1,496 @@
+{
+ "id": "ares-teikoku-gakuen-ares",
+ "season": "ares",
+ "wiki": "Teikoku Gakuen (Ares)",
+ "name": "Royal Academy (Ares)",
+ "short": "TGA",
+ "colors": {
+  "shirt": "#f2c230",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#f2c230"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "joseph-king",
+   "name": "Joseph King",
+   "short": "Joseph",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 153,
+   "tp": 138,
+   "stats": {
+    "kick": 49,
+    "body": 53,
+    "control": 51,
+    "guard": 70,
+    "speed": 51,
+    "stamina": 65,
+    "guts": 55
+   },
+   "moves": [
+    "full-power-shield",
+    "high-beast-fang",
+    "power-shield",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Genda Koujirou",
+   "description": "Le llaman \"el rey de los porteros\". No deja ningún hueco sin cubrir."
+  },
+  {
+   "id": "peter-drent",
+   "name": "Peter Drent",
+   "short": "Peter",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "earthquake",
+    "illusion-ball",
+    "reflect-buster",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oono Densuke",
+   "description": "Granuja de cuerpo gigantesco cuyo peso hace temblar el suelo."
+  },
+  {
+   "id": "ben-simmons",
+   "name": "Ben Simmons",
+   "short": "Ben",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "cyclone",
+    "killer-slide",
+    "illusion-ball",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Banjou Kazumichi",
+   "description": "Se lanza a por el balón como un perro rabioso. Cuando lo ha conseguido, no lo suelta."
+  },
+  {
+   "id": "gus-martin",
+   "name": "Gus Martin",
+   "short": "Gus",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 102,
+   "tp": 119,
+   "stats": {
+    "kick": 50,
+    "body": 86,
+    "control": 59,
+    "guard": 67,
+    "speed": 62,
+    "stamina": 64,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "bunshin-feint",
+    "super-scan-of",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gojou Masaru",
+   "description": "Nadie sabe de dónde ha salido. Ni Jude tiene idea de qué pretende."
+  },
+  {
+   "id": "nathan-swift",
+   "name": "Nathan Swift",
+   "short": "Nathan",
+   "number": 12,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 130,
+   "tp": 121,
+   "stats": {
+    "kick": 54,
+    "body": 47,
+    "control": 69,
+    "guard": 67,
+    "speed": 89,
+    "stamina": 59,
+    "guts": 67
+   },
+   "moves": [
+    "shippuu-dash",
+    "bunshin-defense",
+    "bunshin-feint",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kazemaru Ichirouta",
+   "description": "Su elegante juego de pies pone a los rivales en su lugar. Es como un viento huracanado que barre el campo."
+  },
+  {
+   "id": "alan-master",
+   "name": "Alan Master",
+   "short": "Alan",
+   "number": 4,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "killer-slide",
+    "illusion-ball",
+    "dynamite-shoot",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Narukami Kenya",
+   "description": "Los cascos le dan poder. Marea a los rivales al ritmo de la música."
+  },
+  {
+   "id": "herman-waldon",
+   "name": "Herman Waldon",
+   "short": "Herman",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "death-zone",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Henmi Wataru",
+   "description": "Tiene a su equipo en alta estima y desprecia a todos los demás."
+  },
+  {
+   "id": "john-bloom",
+   "name": "John Bloom",
+   "short": "John",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "hyakuretsu-shot",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sakiyama Shuuji",
+   "description": "El juego duro es lo suyo. Corre que se las pela por todo el campo."
+  },
+  {
+   "id": "derek-swing",
+   "name": "Derek Swing",
+   "short": "Derek",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "bunshin-feint",
+    "killer-slide",
+    "freeze-shot",
+    "death-zone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Doumen Shuuichirou",
+   "description": "De mente ágil, destaca por sus movimientos impredecibles. Se escabulle con amagos y estilo."
+  },
+  {
+   "id": "daniel-hatch",
+   "name": "Daniel Hatch",
+   "short": "Daniel",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "hyakuretsu-shot",
+    "judge-through",
+    "death-zone",
+    "kamaitachi"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jimon Daiki",
+   "description": "Avanza sin miedo, se prepara a mitad de campo y dispara tiros explosivos con sus largas piernas."
+  },
+  {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 132,
+   "stats": {
+    "kick": 68,
+    "body": 61,
+    "control": 62,
+    "guard": 61,
+    "speed": 61,
+    "stamina": 42,
+    "guts": 56
+   },
+   "moves": [
+    "koutei-penguin-2gou",
+    "bunshin-feint",
+    "killer-slide",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Un delantero con un arsenal de disparos letales. La siempre fiable mano derecha de Jude."
+  },
+  {
+   "id": "grotley-bogwash",
+   "name": "Grotley Bogwash",
+   "short": "Grotley",
+   "number": 13,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "kogarashi",
+    "dokonjou-catch",
+    "toughness-block",
+    "power-shield"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Shimerigawa Kageru",
+   "description": "Hijo de un poderoso directivo patrocinador, con un talento sin igual para ganarse enemigos allá donde va."
+  },
+  {
+   "id": "ray-dark",
+   "name": "Ray Dark",
+   "short": "Ray",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 160,
+   "tp": 146,
+   "stats": {
+    "kick": 87,
+    "body": 82,
+    "control": 58,
+    "guard": 68,
+    "speed": 53,
+    "stamina": 43,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "illusion-ball",
+    "death-zone",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kageyama Reiji",
+   "description": "Un hombre misterioso al que le llaman \"Abuelo\". Se desconoce su objetivo."
+  },
+  {
+   "id": "emperio-n-guinn",
+   "name": "Emperio N. Guinn",
+   "short": "Emperio",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "cyclone",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Koudera Ginpei",
+   "description": "Incansable y fiable, este coordinador jefe lleva un abrigo heredado de su hermano mayor."
+  },
+  {
+   "id": "caleb-stonewall",
+   "name": "Caleb Stonewall",
+   "short": "Caleb",
+   "number": 19,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 135,
+   "stats": {
+    "kick": 73,
+    "body": 72,
+    "control": 73,
+    "guard": 63,
+    "speed": 60,
+    "stamina": 65,
+    "guts": 60
+   },
+   "moves": [
+    "killer-slide",
+    "triple-boost",
+    "judge-through",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fudou Akio",
+   "description": "Destaca por su fanfarronería, pero tiene la habilidad para respaldarla. Convierte a los demás en sus marionetas con sus trucos."
+  }
+ ]
+}

@@ -1,0 +1,391 @@
+{
+ "id": "gx-shamshir",
+ "season": "gx",
+ "wiki": "Shamshir",
+ "name": "Shamshir",
+ "short": "SHA",
+ "colors": {
+  "shirt": "#5a3a8a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-sandstorm",
+ "players": [
+  {
+   "id": "sultan",
+   "name": "Sultan",
+   "short": "Sultan",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 137,
+   "tp": 107,
+   "stats": {
+    "kick": 49,
+    "body": 69,
+    "control": 42,
+    "guard": 63,
+    "speed": 46,
+    "stamina": 58,
+    "guts": 58
+   },
+   "moves": [
+    "dry-blow",
+    "doon-shout",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sultan Karam",
+   "description": "Ayuda a sus padres a cosechar frutos de palmeras datileras que cultivan."
+  },
+  {
+   "id": "shakir-zahir",
+   "name": "Shakir Zahir",
+   "short": "Shakir",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 112,
+   "stats": {
+    "kick": 56,
+    "body": 59,
+    "control": 51,
+    "guard": 63,
+    "speed": 61,
+    "stamina": 53,
+    "guts": 68
+   },
+   "moves": [
+    "desert-storm",
+    "killer-slide",
+    "the-mist",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Shakir Zahar",
+   "description": "La gente confunde el pañuelo que lleva en la cabeza con un vendaje."
+  },
+  {
+   "id": "asad-gheisari",
+   "name": "Asad Gheisari",
+   "short": "Asad",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 153,
+   "tp": 101,
+   "stats": {
+    "kick": 72,
+    "body": 50,
+    "control": 49,
+    "guard": 67,
+    "speed": 52,
+    "stamina": 68,
+    "guts": 55
+   },
+   "moves": [
+    "desert-storm",
+    "dry-blow",
+    "footwork-draw"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Assad Gais",
+   "description": "Juega al fútbol y es cocinero. Su especialidad es la pasta."
+  },
+  {
+   "id": "batal",
+   "name": "Batal",
+   "short": "Batal",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 108,
+   "stats": {
+    "kick": 56,
+    "body": 67,
+    "control": 55,
+    "guard": 64,
+    "speed": 56,
+    "stamina": 64,
+    "guts": 58
+   },
+   "moves": [
+    "desert-storm",
+    "desert-drift",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Batal Majid",
+   "description": "Conoce a un gran peluquero japonés el cual le ha estado tratando el pelo."
+  },
+  {
+   "id": "qamar-sadir",
+   "name": "Qamar Sadir",
+   "short": "Qamar",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 105,
+   "stats": {
+    "kick": 42,
+    "body": 40,
+    "control": 60,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 59,
+    "guts": 60
+   },
+   "moves": [
+    "desert-storm",
+    "senpuujin",
+    "presto-turn"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kamil Sadid",
+   "description": "Fanático de los deportes del motor. Suele ir a Baréin para ver carreras."
+  },
+  {
+   "id": "khalil-haddaoui",
+   "name": "Khalil Haddaoui",
+   "short": "Khalil",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 115,
+   "tp": 95,
+   "stats": {
+    "kick": 54,
+    "body": 63,
+    "control": 59,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 46,
+    "guts": 48
+   },
+   "moves": [
+    "desert-drift",
+    "oil-rush",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Khalil Utbah",
+   "description": "El calor extremo en verano y el frío polar en invierno lo han hecho fuerte."
+  },
+  {
+   "id": "nazim",
+   "name": "Nazim",
+   "short": "Nazim",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 106,
+   "stats": {
+    "kick": 45,
+    "body": 33,
+    "control": 57,
+    "guard": 57,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 45
+   },
+   "moves": [
+    "desert-drift",
+    "desert-storm",
+    "oil-rush"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nazim Nizar",
+   "description": "Quiere ser tan fuerte como Assad, pero no lo consigue."
+  },
+  {
+   "id": "tamir",
+   "name": "Tamir",
+   "short": "Tamir",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 144,
+   "tp": 85,
+   "stats": {
+    "kick": 62,
+    "body": 65,
+    "control": 62,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 67,
+    "guts": 59
+   },
+   "moves": [
+    "desert-drift",
+    "dragon-s-tail",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tamir Nasr",
+   "description": "Siempre toma café de Arabia después de comer."
+  },
+  {
+   "id": "rashid",
+   "name": "Rashid",
+   "short": "Rashid",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 141,
+   "tp": 92,
+   "stats": {
+    "kick": 59,
+    "body": 68,
+    "control": 66,
+    "guard": 42,
+    "speed": 54,
+    "stamina": 69,
+    "guts": 59
+   },
+   "moves": [
+    "desert-drift",
+    "oil-rush",
+    "elephant-press",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rashid Hakim",
+   "description": "Para desconectar le gusta montar a camello por el desierto."
+  },
+  {
+   "id": "said",
+   "name": "Said",
+   "short": "Said",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 152,
+   "tp": 124,
+   "stats": {
+    "kick": 67,
+    "body": 69,
+    "control": 60,
+    "guard": 63,
+    "speed": 53,
+    "stamina": 68,
+    "guts": 51
+   },
+   "moves": [
+    "oil-rush",
+    "bungee-thrust",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Said Ashraf",
+   "description": "Capitán de Los Cimitarras. Tiene un estilo agresivo como el de un león."
+  },
+  {
+   "id": "qasim-batal",
+   "name": "Qasim Batal",
+   "short": "Qasim",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 137,
+   "tp": 128,
+   "stats": {
+    "kick": 63,
+    "body": 68,
+    "control": 54,
+    "guard": 61,
+    "speed": 67,
+    "stamina": 55,
+    "guts": 50
+   },
+   "moves": [
+    "oil-rush",
+    "zeroyon",
+    "parkour-attack"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Qasim Badr",
+   "description": "Le gusta quedar con sus compañeros después de cada entrenamiento."
+  },
+  {
+   "id": "marshi-amir",
+   "name": "Marshi Amir",
+   "short": "Marshi",
+   "number": 12,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 50,
+    "body": 70,
+    "control": 50,
+    "guard": 70,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "twin-mixer",
+    "desert-storm",
+    "volcano-cut",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Murshid Amir",
+   "description": "Entrenador de Los Cimitarras. Siempre lanza su ataque desde la calma."
+  }
+ ]
+}

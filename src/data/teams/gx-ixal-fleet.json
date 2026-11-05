@@ -1,0 +1,360 @@
+{
+ "id": "gx-ixal-fleet",
+ "season": "gx",
+ "wiki": "Ixal Fleet",
+ "name": "Ixal Fleet",
+ "short": "IXA",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-black-hole",
+ "players": [
+  {
+   "id": "phobos",
+   "name": "Phobos",
+   "short": "Phobos",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 167,
+   "tp": 148,
+   "stats": {
+    "kick": 65,
+    "body": 85,
+    "control": 54,
+    "guard": 97,
+    "speed": 51,
+    "stamina": 81,
+    "guts": 55
+   },
+   "moves": [
+    "shoot-eater",
+    "judgment-ray",
+    "gravity-point"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Phobos Quasar",
+   "description": "Portero de la Flota Ixar. Es apodado como \"Dios de la destrucción\"."
+  },
+  {
+   "id": "aegir-cepheid",
+   "name": "Aegir Cepheid",
+   "short": "Aegir",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 125,
+   "stats": {
+    "kick": 71,
+    "body": 63,
+    "control": 60,
+    "guard": 67,
+    "speed": 69,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "judgment-ray",
+    "einsatz",
+    "winning-logic",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Aegir Cepheid",
+   "description": "Está completamente involucrado en el malvado plan de Ozrock."
+  },
+  {
+   "id": "meteo-garnet",
+   "name": "Meteo Garnet",
+   "short": "Meteo",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 180,
+   "tp": 147,
+   "stats": {
+    "kick": 67,
+    "body": 74,
+    "control": 67,
+    "guard": 80,
+    "speed": 56,
+    "stamina": 53,
+    "guts": 71
+   },
+   "moves": [
+    "judgment-ray",
+    "melody-wave",
+    "grand-sweeper"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ishigashi Gorham",
+   "description": "Hombre fiel a Ozrock. Usó su puesto de guía para realizar un plan."
+  },
+  {
+   "id": "deimos-lepton",
+   "name": "Deimos Lepton",
+   "short": "Deimos",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 180,
+   "tp": 121,
+   "stats": {
+    "kick": 74,
+    "body": 71,
+    "control": 62,
+    "guard": 68,
+    "speed": 50,
+    "stamina": 68,
+    "guts": 57
+   },
+   "moves": [
+    "judgment-ray",
+    "footwork-draw",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Deimos Lepton",
+   "description": "Perdió amigos en la batalla por Falam Orbius. Está muy enfadado por ello."
+  },
+  {
+   "id": "ymir-catena",
+   "name": "Ymir Catena",
+   "short": "Ymir",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 125,
+   "tp": 129,
+   "stats": {
+    "kick": 63,
+    "body": 60,
+    "control": 59,
+    "guard": 64,
+    "speed": 74,
+    "stamina": 52,
+    "guts": 60
+   },
+   "moves": [
+    "judgment-ray",
+    "spinning-upper",
+    "kodai-no-tsubasa"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ymir Catena",
+   "description": "Debido a la conmoción de la guerra ha perdido gran parte de su memoria."
+  },
+  {
+   "id": "sinope-linea",
+   "name": "Sinope Linea",
+   "short": "Sinope",
+   "number": 6,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 121,
+   "stats": {
+    "kick": 72,
+    "body": 62,
+    "control": 51,
+    "guard": 63,
+    "speed": 65,
+    "stamina": 51,
+    "guts": 54
+   },
+   "moves": [
+    "judgment-ray",
+    "ice-ground",
+    "asoko-ni-ufo",
+    "muei-ranbu"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sinope Rinoa",
+   "description": "Gerente y jugadora de la Flota Ixar que solo piensa en el futuro."
+  },
+  {
+   "id": "tarvos-boson",
+   "name": "Tarvos Boson",
+   "short": "Tarvos",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 170,
+   "tp": 117,
+   "stats": {
+    "kick": 68,
+    "body": 60,
+    "control": 69,
+    "guard": 61,
+    "speed": 51,
+    "stamina": 72,
+    "guts": 70
+   },
+   "moves": [
+    "shiny-feather",
+    "footwork-draw",
+    "britannia-cross"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tarvos Boson",
+   "description": "El fuerte sentimiento de la venganza que tiene le provoca una gran sonrisa."
+  },
+  {
+   "id": "dione",
+   "name": "Dione",
+   "short": "Dione",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 155,
+   "tp": 110,
+   "stats": {
+    "kick": 69,
+    "body": 63,
+    "control": 66,
+    "guard": 58,
+    "speed": 47,
+    "stamina": 73,
+    "guts": 63
+   },
+   "moves": [
+    "shiny-feather",
+    "zeroyon",
+    "muei-souha",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Dione Bulge",
+   "description": "Tiene un sexto sentido con el que puede saber el movimiento del rival."
+  },
+  {
+   "id": "despina",
+   "name": "Despina",
+   "short": "Despina",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 115,
+   "tp": 144,
+   "stats": {
+    "kick": 68,
+    "body": 64,
+    "control": 65,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "magic-amp",
+    "fuujin-no-mai",
+    "heaven-drive"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Despina Lax",
+   "description": "De pequeña era muy buena pero su pasado la ha cambiado."
+  },
+  {
+   "id": "ozrock-boldar",
+   "name": "Ozrock Boldar",
+   "short": "Ozrock",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 157,
+   "tp": 144,
+   "stats": {
+    "kick": 77,
+    "body": 89,
+    "control": 53,
+    "guard": 51,
+    "speed": 57,
+    "stamina": 75,
+    "guts": 53
+   },
+   "moves": [
+    "stargazer",
+    "shiny-feather",
+    "judgment-ray"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bitway Ozrock",
+   "description": "Organizó el Gran Celesta Galaxy con el fin de dominar toda la galaxia."
+  },
+  {
+   "id": "loge-colles",
+   "name": "Loge Colles",
+   "short": "Loge",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 142,
+   "tp": 123,
+   "stats": {
+    "kick": 64,
+    "body": 58,
+    "control": 54,
+    "guard": 69,
+    "speed": 59,
+    "stamina": 58,
+    "guts": 71
+   },
+   "moves": [
+    "magic-amp",
+    "bungee-thrust",
+    "dark-matter"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Loge Kolith",
+   "description": "Odia las cicatrices de guerra que tiene por todo su cuerpo."
+  }
+ ]
+}

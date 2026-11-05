@@ -1,0 +1,517 @@
+{
+ "id": "vr-platos",
+ "season": "vr",
+ "wiki": "Platos",
+ "name": "Platos",
+ "short": "PLA",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "ash-barnes",
+   "name": "Ash Barnes",
+   "short": "Ash",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "reverse-world",
+    "excellent-breast",
+    "rebound-layer"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ash Barnes",
+   "description": "Es de lo más directo, y como pica en todos los anzuelos, le da a Fei muchos quebraderos de cabeza."
+  },
+  {
+   "id": "miles-euclid",
+   "name": "Miles Euclid",
+   "short": "Miles",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "deep-jungle",
+    "sky-walk",
+    "rainbow-bubble-shot",
+    "fractal-house"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Miles Euclid",
+   "description": "Un maestro del engaño que mantiene a los rivales en vilo con movimientos ligeros e imprevisibles."
+  },
+  {
+   "id": "hector-thareos",
+   "name": "Hector Thareos",
+   "short": "Hector",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "fractal-house",
+    "dual-storm",
+    "deep-jungle"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hicks Fraile",
+   "description": "Firme como una roca cuando hace falta, su juego relajado esconde dotes defensivas forjadas cuidando de sus hermanos pequeños."
+  },
+  {
+   "id": "rhea-loriandrin",
+   "name": "Rhea Loriandrin",
+   "short": "Rhea",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "magical-flower",
+    "dual-storm",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Romi Rhomin",
+   "description": "Una auténtica apasionada de los datos de jugadores que estudia registros antiguos para defender a sus deportistas favoritos."
+  },
+  {
+   "id": "saros-algebra",
+   "name": "Saros Algebra",
+   "short": "Saros",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "wonder-trap",
+    "grand-sweeper",
+    "deep-jungle",
+    "kazaana-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Serpo Alegre",
+   "description": "Un comilón voraz que persigue la gloria de Orfeo y sueña en secreto con jugar de delantero."
+  },
+  {
+   "id": "eosram-reeves",
+   "name": "Eosram Reeves",
+   "short": "Eosram",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "storm-zone",
+    "extreme-rabbit",
+    "shellbit-burst"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Eosin Reese",
+   "description": "Un poco soñador y algo despistado, es hijo de un futbolista profesional y bastante rico."
+  },
+  {
+   "id": "eon-mckeane",
+   "name": "Eon McKeane",
+   "short": "Eon",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "storm-zone",
+    "plasma-ball",
+    "shellbit-burst",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Aeon McKean",
+   "description": "Tiene un sentido del fútbol de genio; su sonrisa fresca esconde una lengua sorprendentemente afilada."
+  },
+  {
+   "id": "dariusius-henletos",
+   "name": "Dariusius Henletos",
+   "short": "Dariusius",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "fractal-house",
+    "sky-walk",
+    "blitz-bridge",
+    "shellbit-burst"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Derios Henletti",
+   "description": "Movido por la pasión, avanza gritando su lema: \"¡Si ganas, no puedes perder!\"."
+  },
+  {
+   "id": "torin-sandels",
+   "name": "Torin Sandels",
+   "short": "Torin",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "dinosaur-break",
+    "grand-sweeper",
+    "scissors-bomb"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Torin Sanders",
+   "description": "Juguetón pero observador, es el vicecapitán y apoya al equipo con una visión amplia del campo."
+  },
+  {
+   "id": "orpheus-clayridge",
+   "name": "Orpheus Clayridge",
+   "short": "Orpheus",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "great-blaster",
+    "panther-blizzard",
+    "kazaana-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ortopi Clade",
+   "description": "Aunque vive entregado por completo al fútbol, su actitud fría y estoica atrae a las fans a montones."
+  },
+  {
+   "id": "victorio-cryptix",
+   "name": "Victorio Cryptix",
+   "short": "Victorio",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 132,
+   "tp": 173,
+   "stats": {
+    "kick": 84,
+    "body": 62,
+    "control": 77,
+    "guard": 63,
+    "speed": 84,
+    "stamina": 56,
+    "guts": 77
+   },
+   "moves": [
+    "extreme-rabbit",
+    "kazaana-drive",
+    "shellbit-burst"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Victorio Arno",
+   "description": "El valiente nieto del profesor Cryptix, con un gran sentido de justicia. Parte en un viaje con Wonderbot para encontrar al mejor equipo."
+  },
+  {
+   "id": "niana-cooke",
+   "name": "Niana Cooke",
+   "short": "Niana",
+   "number": 12,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "sky-walk",
+    "fractal-house",
+    "magical-flower"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Niana Cook",
+   "description": "Pequeña pero imparable, se enfrenta a cada rival de frente con una determinación sin miedo y una energía sin límites."
+  },
+  {
+   "id": "gilia-dandrel",
+   "name": "Gilia Dandrel",
+   "short": "Gilia",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "asterisk-rock",
+    "air-bullet",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gilia Dandelio",
+   "description": "Frío y lógico, choca sin parar con Dariusius, que prefiere gritar a razonar."
+  },
+  {
+   "id": "nikolaos-menandros",
+   "name": "Nikolaos Menandros",
+   "short": "Nikolaos",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "deep-mist",
+    "sky-walk",
+    "extreme-rabbit"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Nicole Menon",
+   "description": "Su sonrisa amable tranquiliza a todos, y sus bebidas energéticas caseras animan aún más al equipo."
+  },
+  {
+   "id": "hugo-severian",
+   "name": "Hugo Severian",
+   "short": "Hugo",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "great-blaster",
+    "air-bullet",
+    "plasma-ball"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hugo Svate",
+   "description": "Lo recuerda todo a la perfección, así que se rumorea que podría ser un androide."
+  },
+  {
+   "id": "pharos-radris",
+   "name": "Pharos Radris",
+   "short": "Pharos",
+   "number": 20,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "reverse-world",
+    "sand-cutter",
+    "excellent-breast"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fado Lado",
+   "description": "Apasionado del fútbol y curioso sin límites, es tan tímido que se calla las preguntas aunque le bullan en la cabeza."
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "id": "orion-shining-satans",
+ "season": "orion",
+ "wiki": "Shining Satans",
+ "name": "Shining Satans",
+ "short": "SHI",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "pazuza-ross",
+   "name": "Pazuza Ross",
+   "short": "Pazuza",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 162,
+   "tp": 158,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 67,
+    "guard": 75,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 69
+   },
+   "moves": [
+    "taiyou-no-guillotine",
+    "castle-gate",
+    "shining-hole",
+    "storm-rider"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Pazuzu Zaham",
+   "description": "Criado en una familia que adora al sol, canaliza su fe en defender la portería."
+  },
+  {
+   "id": "carlam-buer",
+   "name": "Carlam Buer",
+   "short": "Carlam",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "gravitation",
+    "demon-cut",
+    "hurricane-arrow",
+    "horn-train"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Agalia Rept",
+   "description": "Con su mirada diabólica aterroriza a los rivales y disfruta de su miedo."
+  },
+  {
+   "id": "damon-gorgon",
+   "name": "Damon Gorgon",
+   "short": "Damon",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "demon-cut",
+    "hurricane-arrow",
+    "welcome-back",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Demogorgon Anno",
+   "description": "Defiende la zaga con mucha solidez, aunque de vez en cuando se le escapa un despiste."
+  },
+  {
+   "id": "mortam-malius",
+   "name": "Mortam Malius",
+   "short": "Mortam",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "screwdriver",
+    "burning-summer",
+    "volcano-cut",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Belphegor Inos",
+   "description": "Los perros salvajes le enseñaron a fiarse de su instinto, y ataca con una habilidad indómita y una precisión hipnótica."
+  },
+  {
+   "id": "dante-dusias",
+   "name": "Dante Dusias",
+   "short": "Dante",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "welcome-back",
+    "demon-cut",
+    "gold-fever",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Amdu Scias",
+   "description": "Observa el campo con calma y sonríe con picardía cada vez que ve que un buen plan toma forma."
+  },
+  {
+   "id": "beel-zebub",
+   "name": "Beel Zebub",
+   "short": "Beel",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "burning-summer",
+    "demon-cut",
+    "twin-mixer",
+    "mad-juggler"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Beelze Bub",
+   "description": "El inframundo lo llama, y su habilidad individual está a la altura del mismísimo Seth."
+  },
+  {
+   "id": "malik-sinn",
+   "name": "Malik Sinn",
+   "short": "Malik",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "burning-summer",
+    "twin-mixer",
+    "claymore",
+    "tatsumaki-dokugiri"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Belial Noze",
+   "description": "Parece pequeño, casi un niño, pero hipnotiza a los rivales despistados y les roba la libertad."
+  },
+  {
+   "id": "ian-qubus",
+   "name": "Ian Qubus",
+   "short": "Ian",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "dog-run",
+    "demon-cut",
+    "devil-ball",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Asmo Deus",
+   "description": "Los rivales se estremecen con su risa siniestra, y se rumorea que hace rituales secretos para ser más fuerte."
+  },
+  {
+   "id": "beryl",
+   "name": "Beryl",
+   "short": "Beryl",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "time-trance",
+    "round-spark",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Satan Gaul",
+   "description": "Una jugadora de los Shining Satans que intimida a los rivales con una sonrisa de lo más inquietante."
+  },
+  {
+   "id": "serge",
+   "name": "Serge",
+   "short": "Serge",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 60,
+    "guard": 40,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "dinosaur-break",
+    "naraku-otoshi",
+    "devil-ball",
+    "bison-horn"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sar Gatanas",
+   "description": "Usa la hipnosis para confundir a sus enemigos, y su tercer ojo parece albergar un poder dormido."
+  },
+  {
+   "id": "aster-roth",
+   "name": "Aster Roth",
+   "short": "Aster",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "dinosaur-break",
+    "dog-run",
+    "claymore",
+    "dimension-storm"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "As Taroth",
+   "description": "Sirve a Seth con lealtad y castiga a quien se atreva a faltarle al respeto a su señor."
+  },
+  {
+   "id": "lu-jiver",
+   "name": "Lu Jiver",
+   "short": "Lu",
+   "number": 13,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "killer-slide",
+    "endless-summer",
+    "liar-shot",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Luci Fanos",
+   "description": "Su voz mecánica esconde una mente que detecta cada fallo y lo aprovecha con precisión."
+  },
+  {
+   "id": "zagan-barbatos",
+   "name": "Zagan Barbatos",
+   "short": "Zagan",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "demon-cut",
+    "round-spark",
+    "hurricane-arrow",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gaap Redel",
+   "description": "Con su máscara siniestra, se rumorea que habla con los muertos, e inquieta a todos los que le rodean."
+  },
+  {
+   "id": "beryl-ok-satan-mc",
+   "name": "Beryl",
+   "short": "Beryl",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "go-to-hell",
+    "devil-ball",
+    "dimension-storm",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Satan Gaul",
+   "description": "Una jugadora de los Shining Satans que intimida a los rivales con una sonrisa de lo más inquietante."
+  },
+  {
+   "id": "grant-grimoire",
+   "name": "Grant Grimoire",
+   "short": "Grant",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "welcome-back",
+    "demon-cut",
+    "twin-mixer",
+    "mad-juggler"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Diabo Los",
+   "description": "Astuto como un zorro, el mánager de los Fallen Angels hace caer a los rivales en trampas con jugadas ingeniosas."
+  },
+  {
+   "id": "baz-azel",
+   "name": "Baz Azel",
+   "short": "Baz",
+   "number": 16,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "taiyou-no-guillotine",
+    "castle-gate",
+    "shining-hole",
+    "storm-rider"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Simon Azazel",
+   "description": "El entrenador de los Fallen Angels luce una sonrisa diabólica que inquieta a los rivales y da energía a su equipo."
+  }
+ ]
+}

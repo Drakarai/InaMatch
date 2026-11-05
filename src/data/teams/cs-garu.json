@@ -1,0 +1,520 @@
+{
+ "id": "cs-garu",
+ "season": "cs",
+ "wiki": "Garu",
+ "name": "Garu",
+ "short": "GAR",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-garu",
+ "players": [
+  {
+   "id": "chitoh",
+   "name": "Chitoh",
+   "short": "Chitoh",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 117,
+   "tp": 116,
+   "stats": {
+    "kick": 50,
+    "body": 72,
+    "control": 60,
+    "guard": 76,
+    "speed": 58,
+    "stamina": 57,
+    "guts": 54
+   },
+   "moves": [
+    "rejection",
+    "buttobi-punch",
+    "kage-tsukami",
+    "gravity-point"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Chet",
+   "description": "Este portero parece inofensivo, pero en realidad es un enemigo temible."
+  },
+  {
+   "id": "kazach",
+   "name": "Kazach",
+   "short": "Kazach",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 135,
+   "tp": 105,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 56,
+    "guard": 66,
+    "speed": 61,
+    "stamina": 66,
+    "guts": 52
+   },
+   "moves": [
+    "shinkuuma",
+    "boomerang-feint",
+    "okehazama-wall"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kazuchi",
+   "description": "El cerebro del equipo. Tiene que dar su aprobación a todas las estrategias."
+  },
+  {
+   "id": "fumh",
+   "name": "Fumh",
+   "short": "Fumh",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 148,
+   "tp": 101,
+   "stats": {
+    "kick": 58,
+    "body": 53,
+    "control": 60,
+    "guard": 68,
+    "speed": 60,
+    "stamina": 67,
+    "guts": 58
+   },
+   "moves": [
+    "sargasso",
+    "senpuujin",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fumiita",
+   "description": "Este defensa detiene cualquier pase. Es uno de los pilares del equipo."
+  },
+  {
+   "id": "gumille",
+   "name": "Gumille",
+   "short": "Gumille",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 101,
+   "tp": 117,
+   "stats": {
+    "kick": 56,
+    "body": 58,
+    "control": 61,
+    "guard": 67,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 68
+   },
+   "moves": [
+    "magical-flower",
+    "the-stamp",
+    "mochimochi-kinako-mochi"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Guumi",
+   "description": "Su mirada inocente oculta la ferocidad animal que bulle en su interior."
+  },
+  {
+   "id": "yurkeh",
+   "name": "Yurkeh",
+   "short": "Yurkeh",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 136,
+   "tp": 103,
+   "stats": {
+    "kick": 60,
+    "body": 67,
+    "control": 71,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 61,
+    "guts": 58
+   },
+   "moves": [
+    "soyokaze-step",
+    "odin-sword",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yokka",
+   "description": "Este centrocampista es conocido en Nu-Gen como \"El meteoro azul\"."
+  },
+  {
+   "id": "rokah",
+   "name": "Rokah",
+   "short": "Rokah",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 111,
+   "stats": {
+    "kick": 51,
+    "body": 61,
+    "control": 60,
+    "guard": 59,
+    "speed": 59,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "decoy-release",
+    "the-mist",
+    "linear-drive",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rhoko",
+   "description": "Su optimismo inocente alegra a todos sin importar lo triste que estén."
+  },
+  {
+   "id": "pinoh",
+   "name": "Pinoh",
+   "short": "Pinoh",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 78,
+   "tp": 74,
+   "stats": {
+    "kick": 50,
+    "body": 54,
+    "control": 66,
+    "guard": 60,
+    "speed": 79,
+    "stamina": 56,
+    "guts": 61
+   },
+   "moves": [
+    "decoy-release",
+    "rocket-head",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Pino",
+   "description": "Pequeño, pero fuerte como un mulo. Lo malo es que se cansa enseguida."
+  },
+  {
+   "id": "tahk",
+   "name": "Tahk",
+   "short": "Tahk",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 144,
+   "tp": 88,
+   "stats": {
+    "kick": 66,
+    "body": 66,
+    "control": 67,
+    "guard": 66,
+    "speed": 55,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "decoy-release",
+    "fractal-house",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Takuji",
+   "description": "El juego de este medio es elegante como un cuadro impresionista."
+  },
+  {
+   "id": "tessell",
+   "name": "Tessell",
+   "short": "Tessell",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 110,
+   "tp": 111,
+   "stats": {
+    "kick": 56,
+    "body": 64,
+    "control": 59,
+    "guard": 60,
+    "speed": 59,
+    "stamina": 58,
+    "guts": 64
+   },
+   "moves": [
+    "decoy-release",
+    "boomerang-feint",
+    "elephant-press",
+    "kodai-no-kiba"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Terau",
+   "description": "Una centrocampista de gran talento a la que le pirra estudiar supertécnicas."
+  },
+  {
+   "id": "fei-rune",
+   "name": "Fei Rune",
+   "short": "Fei",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 180,
+   "tp": 127,
+   "stats": {
+    "kick": 66,
+    "body": 57,
+    "control": 57,
+    "guard": 48,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 64
+   },
+   "moves": [
+    "bouncer-rabbit",
+    "sky-walk",
+    "air-bullet",
+    "extreme-rabbit"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fei Rune",
+   "description": "Viajó 200 años desde el futuro para ayudar a Arion a proteger el fútbol."
+  },
+  {
+   "id": "dekih",
+   "name": "Dekih",
+   "short": "Dekih",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 114,
+   "tp": 125,
+   "stats": {
+    "kick": 68,
+    "body": 62,
+    "control": 62,
+    "guard": 61,
+    "speed": 65,
+    "stamina": 52,
+    "guts": 61
+   },
+   "moves": [
+    "spring-arrow",
+    "linear-drive",
+    "joker-rains"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Deck",
+   "description": "Delantero excepcional que se irrita si no es el centro de atención."
+  },
+  {
+   "id": "yuh",
+   "name": "Yuh",
+   "short": "Yuh",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 132,
+   "stats": {
+    "kick": 79,
+    "body": 64,
+    "control": 66,
+    "guard": 63,
+    "speed": 70,
+    "stamina": 58,
+    "guts": 70
+   },
+   "moves": [
+    "wolf-legend",
+    "decoy-release",
+    "ice-ground",
+    "white-hurricane"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yuuchi",
+   "description": "Las armas de este delantero son su impasibilidad y su enigmática sonrisa."
+  },
+  {
+   "id": "bhabass",
+   "name": "Bhabass",
+   "short": "Bhabass",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 112,
+   "tp": 110,
+   "stats": {
+    "kick": 56,
+    "body": 69,
+    "control": 56,
+    "guard": 67,
+    "speed": 56,
+    "stamina": 62,
+    "guts": 52
+   },
+   "moves": [
+    "rejection",
+    "beam-kobushi",
+    "fence-of-gaia"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Babahs",
+   "description": "Un estratega natural que se aprende los detalles de todos los campos."
+  },
+  {
+   "id": "sheenai",
+   "name": "Sheenai",
+   "short": "Sheenai",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 79,
+   "tp": 95,
+   "stats": {
+    "kick": 54,
+    "body": 67,
+    "control": 56,
+    "guard": 59,
+    "speed": 56,
+    "stamina": 47,
+    "guts": 64
+   },
+   "moves": [
+    "magical-flower",
+    "hanafubuki",
+    "the-stamp",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shiegetz",
+   "description": "Todos los cumpleaños pide una moto voladora que viaje en el tiempo."
+  },
+  {
+   "id": "chikka",
+   "name": "Chikka",
+   "short": "Chikka",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 66,
+   "tp": 104,
+   "stats": {
+    "kick": 54,
+    "body": 60,
+    "control": 57,
+    "guard": 59,
+    "speed": 67,
+    "stamina": 53,
+    "guts": 51
+   },
+   "moves": [
+    "decoy-release",
+    "mogura-feint",
+    "linear-drive",
+    "presto-turn"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Chikka",
+   "description": "Cuando las cosas van bien, baila, pero cuando no, se echa a llorar."
+  },
+  {
+   "id": "mahrsa",
+   "name": "Mahrsa",
+   "short": "Mahrsa",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 69,
+   "tp": 123,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 57,
+    "guard": 54,
+    "speed": 60,
+    "stamina": 50,
+    "guts": 57
+   },
+   "moves": [
+    "spring-arrow",
+    "naminori-pierrot",
+    "spiral-draw",
+    "wolf-legend"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Masura",
+   "description": "Le gusta hacer retratos, pero sus compañeros no se dejan dibujar."
+  }
+ ]
+}

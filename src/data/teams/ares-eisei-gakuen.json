@@ -1,0 +1,494 @@
+{
+ "id": "ares-eisei-gakuen",
+ "season": "ares",
+ "wiki": "Eisei Gakuen",
+ "name": "Eisei Gakuen",
+ "short": "EIS",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-2-3-5",
+ "players": [
+  {
+   "id": "dave-quagmire",
+   "name": "Dave Quagmire",
+   "short": "Dave",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 123,
+   "stats": {
+    "kick": 99,
+    "body": 60,
+    "control": 75,
+    "guard": 57,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 30
+   },
+   "moves": [
+    "wormhole",
+    "drill-smasher",
+    "shoot-break",
+    "gravity-point"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Saginuma Osamu",
+   "description": "Se disgusta cuando las cosas no salen como las había planeado."
+  },
+  {
+   "id": "grant-icewater",
+   "name": "Grant Icewater",
+   "short": "Grant",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "gravitation",
+    "ganymede-proton",
+    "double-grenade",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kanime Iderou",
+   "description": "Asegura que de joven era guapísimo, pero nadie se lo cree."
+  },
+  {
+   "id": "claire-lesnow",
+   "name": "Claire Lesnow",
+   "short": "Claire",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 101,
+   "tp": 144,
+   "stats": {
+    "kick": 33,
+    "body": 46,
+    "control": 49,
+    "guard": 60,
+    "speed": 61,
+    "stamina": 51,
+    "guts": 67
+   },
+   "moves": [
+    "water-veil",
+    "wormhole",
+    "photon-flash",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurakake Clara",
+   "description": "Esboza una leve sonrisa mientras critica duramente. Aunque a muchos les gusta eso de ella."
+  },
+  {
+   "id": "jordan-greenway",
+   "name": "Jordan Greenway",
+   "short": "Jordan",
+   "number": 4,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 155,
+   "tp": 113,
+   "stats": {
+    "kick": 73,
+    "body": 67,
+    "control": 66,
+    "guard": 60,
+    "speed": 57,
+    "stamina": 62,
+    "guts": 70
+   },
+   "moves": [
+    "astro-break",
+    "warp-drive",
+    "universe-blast",
+    "lightning-accel"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Midorikawa Ryuuji",
+   "description": "Conocido por su naturaleza fría entre sus compañeros de la Academia Alius, bajo dicha fachada yace una personalidad afectuosa."
+  },
+  {
+   "id": "ben-blowton",
+   "name": "Ben Blowton",
+   "short": "Ben",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 141,
+   "tp": 120,
+   "stats": {
+    "kick": 54,
+    "body": 63,
+    "control": 65,
+    "guard": 57,
+    "speed": 51,
+    "stamina": 53,
+    "guts": 57
+   },
+   "moves": [
+    "ignite-steal",
+    "fake-bomber",
+    "super-armadillo",
+    "jibashiri-kaen"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Honba Geki",
+   "description": "Un jugador que irradia un entusiasmo ardiente. Es excepcionalmente minucioso con su cinta para la cabeza."
+  },
+  {
+   "id": "isabelle-trick",
+   "name": "Isabelle Trick",
+   "short": "Isabelle",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 156,
+   "stats": {
+    "kick": 69,
+    "body": 53,
+    "control": 65,
+    "guard": 60,
+    "speed": 67,
+    "stamina": 46,
+    "guts": 63
+   },
+   "moves": [
+    "astro-break",
+    "meteor-shower",
+    "space-penguin",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yagami Reina",
+   "description": "Una guerrera capaz de tomar decisiones tranquilas y calculadas en cualquier momento. Sus acciones nunca se ven influidas por sus emociones."
+  },
+  {
+   "id": "nigel-august",
+   "name": "Nigel August",
+   "short": "Nigel",
+   "number": 7,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 130,
+   "stats": {
+    "kick": 69,
+    "body": 57,
+    "control": 60,
+    "guard": 46,
+    "speed": 64,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "ganymede-proton",
+    "ignite-steal",
+    "meteor-shower",
+    "atomic-flare"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Netsuha Natsuhiko",
+   "description": "Un joven de ojos oscuros. Las profundidades de su corazón son un misterio para todos."
+  },
+  {
+   "id": "claude-beacons",
+   "name": "Claude Beacons",
+   "short": "Claude",
+   "number": 8,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 162,
+   "tp": 133,
+   "stats": {
+    "kick": 76,
+    "body": 66,
+    "control": 72,
+    "guard": 45,
+    "speed": 64,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "atomic-flare",
+    "flame-veil",
+    "fire-blizzard-fire",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nagumo Haruya",
+   "description": "Un delantero de sangre caliente y agresivo. Sus tiros abrasadores dejan un rastro de ceniza a su paso."
+  },
+  {
+   "id": "bryce-whitingale",
+   "name": "Bryce Whitingale",
+   "short": "Bryce",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 152,
+   "tp": 134,
+   "stats": {
+    "kick": 74,
+    "body": 62,
+    "control": 66,
+    "guard": 67,
+    "speed": 70,
+    "stamina": 48,
+    "guts": 55
+   },
+   "moves": [
+    "northern-impact",
+    "water-veil",
+    "fire-blizzard",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Suzuno Fuusuke",
+   "description": "Un jugador tranquilo y con la cabeza fría. Sus jugadas dejan helados a los rivales."
+  },
+  {
+   "id": "xavier-foster",
+   "name": "Xavier Foster",
+   "short": "Foster",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 157,
+   "tp": 128,
+   "stats": {
+    "kick": 69,
+    "body": 75,
+    "control": 61,
+    "guard": 67,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 68
+   },
+   "moves": [
+    "ryuusei-blade",
+    "photon-flash",
+    "supernova",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kiyama Hiroto",
+   "description": "Hubo un tiempo en el que fue conocido como \"Xene\" y lideró el equipo de la Academia Alius. Sus tiros atraviesan el aire como cometas."
+  },
+  {
+   "id": "xavier-schiller",
+   "name": "Xavier Schiller",
+   "short": "Schiller",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 173,
+   "stats": {
+    "kick": 84,
+    "body": 62,
+    "control": 77,
+    "guard": 63,
+    "speed": 84,
+    "stamina": 56,
+    "guts": 77
+   },
+   "moves": [
+    "the-explosion",
+    "zigzag-strike"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kira Hiroto",
+   "description": "El heredero de Grupo Kira, que patrocina a la Academia Eisei. Juega sin tener en cuenta a sus compañeros, pero sus habilidades individuales son de primer nivel y fue el máximo goleador del torneo preliminar."
+  },
+  {
+   "id": "ronny-metcalf",
+   "name": "Ronny Metcalf",
+   "short": "Ronny",
+   "number": 12,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "gaia-break",
+    "warp-drive",
+    "cross-drive",
+    "astro-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mutou Satoshi",
+   "description": "Supera a los rivales agobiándolos hasta que cometen un error."
+  },
+  {
+   "id": "zeke-valanche",
+   "name": "Zeke Valanche",
+   "short": "Zeke",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 128,
+   "stats": {
+    "kick": 66,
+    "body": 62,
+    "control": 64,
+    "guard": 56,
+    "speed": 64,
+    "stamina": 60,
+    "guts": 53
+   },
+   "moves": [
+    "ganymede-proton",
+    "wormhole",
+    "gaia-break",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Segata Ryuuichirou",
+   "description": "Confía plenamente un su propia habilidad y culpa a los que le rodean cuandolas cosas van mal."
+  },
+  {
+   "id": "bonnie-sparks",
+   "name": "Bonnie Sparks",
+   "short": "Bonnie",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 106,
+   "tp": 136,
+   "stats": {
+    "kick": 50,
+    "body": 50,
+    "control": 58,
+    "guard": 68,
+    "speed": 66,
+    "stamina": 58,
+    "guts": 67
+   },
+   "moves": [
+    "ignite-steal",
+    "super-scan-df",
+    "super-scan-of",
+    "zigzag-flame"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Barazono Hana",
+   "description": "Cuando se le mete algo entre ceja y ceja, no para hasta conseguirlo."
+  },
+  {
+   "id": "aquilina-schiller",
+   "name": "Aquilina Schiller",
+   "short": "Aquilina",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 175,
+   "stats": {
+    "kick": 82,
+    "body": 65,
+    "control": 55,
+    "guard": 68,
+    "speed": 54,
+    "stamina": 44,
+    "guts": 53
+   },
+   "moves": [
+    "astro-break",
+    "space-penguin",
+    "asteroid-belt",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kira Hitomiko",
+   "description": "Sucesora de Hillman. Es la entrenadora jefe del equipo del Instituto Raimon. Guía al equipo hacia la victoria con una toma de decisiones precisa, aunque estricta."
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "id": "ares-minodouzan",
+ "season": "ares",
+ "wiki": "Minodouzan",
+ "name": "Minodouzan",
+ "short": "MIN",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "knox-loxley",
+   "name": "Knox Loxley",
+   "short": "Knox",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "toughness-block",
+    "burnout",
+    "power-shield",
+    "burning-catch"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jousai Kento",
+   "description": "Aunque el rival logre atravesar la línea defensiva, él estará ahí como un muro para parar el balón."
+  },
+  {
+   "id": "bj-rn-brocken",
+   "name": "Björn Brocken",
+   "short": "Björn",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "the-wall",
+    "rock-wall-dam",
+    "elephant-press",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Maeno Taihou",
+   "description": "Su imponente complexión física disuade cualquier ataque. Es difícil ignorar sus órdenes atronadoras."
+  },
+  {
+   "id": "lunk-ironbrow",
+   "name": "Lunk Ironbrow",
+   "short": "Lunk",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "franken-shu-tein",
+    "the-wall",
+    "block-circus",
+    "gravestone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hirata Taizou",
+   "description": "Su imponente físico y su mirada mantienen a todos a raya. Sin embargo, también lo aíslan de los demás en su día a día."
+  },
+  {
+   "id": "hefton-bulk",
+   "name": "Hefton Bulk",
+   "short": "Hefton",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "mokkori-oka-no-moai",
+    "the-wall",
+    "mogura-feint",
+    "super-armadillo"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Moriagari Moko",
+   "description": "Siempre alegre fuera del campo, pero ponerse delante de él es como enfrentarse a un monumento de piedra."
+  },
+  {
+   "id": "barry-cade",
+   "name": "Barry Cade",
+   "short": "Barry",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "the-wall",
+    "rock-wall-dam",
+    "mega-quake",
+    "super-armadillo"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Banri Nagamine",
+   "description": "Uno de los más grandes del equipo, con una presencia que aprieta como un muro macizo."
+  },
+  {
+   "id": "rick-wall",
+   "name": "Rick Wall",
+   "short": "Rick",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "the-wall",
+    "block-circus",
+    "desert-storm",
+    "shikofumi"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Buroku Tsumio",
+   "description": "Fuerte como una fortaleza de cuerpo y mente, con una fiabilidad que nunca falla."
+  },
+  {
+   "id": "ivor-shield",
+   "name": "Ivor Shield",
+   "short": "Ivor",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "the-wall",
+    "desert-storm",
+    "block-circus",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tateno Tatsuo",
+   "description": "El pilar silencioso del equipo: su buen juicio y su control limpio hacen que el equipo avance."
+  },
+  {
+   "id": "rocky-hardcastle",
+   "name": "Rocky Hardcastle",
+   "short": "Rocky",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "super-scan-df",
+    "aikidou",
+    "fuujin-no-mai",
+    "cross-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tetsugoushi Kogorou",
+   "description": "Uno de los pilares del equipo, arrolla a los rivales con su puro dominio físico."
+  },
+  {
+   "id": "sebastian-fortwright",
+   "name": "Sebastian Fortwright",
+   "short": "Sebastian",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "mogura-feint",
+    "sidewinder"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Iwagaki Noborou",
+   "description": "Imperturbable y tranquilizador, juega con una precisión delicada pese a su físico imponente."
+  },
+  {
+   "id": "waldo-gibbons",
+   "name": "Waldo Gibbons",
+   "short": "Waldo",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "reflect-buster",
+    "hellfire",
+    "the-wall",
+    "dokonjou-club"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ugou Sarukichi",
+   "description": "Armado con instinto animal y un control hábil, destaca rompiendo defensas cerradas."
+  },
+  {
+   "id": "iggy-motte",
+   "name": "Iggy Motte",
+   "short": "Iggy",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "dragon-crash",
+    "condor-dive",
+    "mogura-feint",
+    "sidewinder"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ishikabe Yamori",
+   "description": "Un torbellino de movimientos imprevisibles que desarma a los rivales y saca la lengua cuando se concentra."
+  },
+  {
+   "id": "corbin-brickham",
+   "name": "Corbin Brickham",
+   "short": "Corbin",
+   "number": 12,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "the-wall",
+    "desert-storm",
+    "elephant-press",
+    "flame-dance"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kakoi Kouken",
+   "description": "Es tan duro consigo mismo que empieza a analizar sus errores en cuanto termina el partido."
+  },
+  {
+   "id": "helena-harwood",
+   "name": "Helena Harwood",
+   "short": "Helena",
+   "number": 13,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "hanafubuki",
+    "fence-of-gaia",
+    "mugen-no-kabe",
+    "holy-zone"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kofun Miko",
+   "description": "Una presencia misteriosa cuyos movimientos limpios y eficientes mantienen a raya el cansancio."
+  },
+  {
+   "id": "dane-upchurch",
+   "name": "Dane Upchurch",
+   "short": "Dane",
+   "number": 14,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "dokonjou-club",
+    "block-circus",
+    "dinosaur-break",
+    "gravestone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tsukauchi Ryuuki",
+   "description": "La máscara de hueso es solo una réplica para asustar a los rivales, y funciona demasiado bien."
+  },
+  {
+   "id": "warden-watchford",
+   "name": "Warden Watchford",
+   "short": "Warden",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "the-wall",
+    "harvest",
+    "fake-bomber",
+    "mogura-feint"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kadotsu Keiei",
+   "description": "Siempre está pendiente de sus compañeros y nunca pierde la ocasión de levantarles el ánimo."
+  },
+  {
+   "id": "jack-wallside",
+   "name": "Jack Wallside",
+   "short": "Jack",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 171,
+   "tp": 115,
+   "stats": {
+    "kick": 47,
+    "body": 63,
+    "control": 44,
+    "guard": 77,
+    "speed": 34,
+    "stamina": 56,
+    "guts": 85
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "mogura-feint",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kabeyama Heigorou",
+   "description": "Con su corpulencia, este joven otorga una defensa al equipo tan sólida como un muro infranqueable."
+  }
+ ]
+}

@@ -920,7 +920,7 @@ export class HudScene extends Phaser.Scene {
     this.overlay = null;
   }
 
-  showResult(onRematch: () => void, onMenu: () => void): void {
+  showResult(onRematch: () => void, onMenu: () => void, coins = 0): void {
     const [home, away] = this.match.teams;
     const [a, b] = this.match.score;
     const W = FIELD_VIEW.w;
@@ -939,6 +939,7 @@ export class HudScene extends Phaser.Scene {
     c.add(fitWidth(text(this, W / 2 - 220, 360, home.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
     c.add(fitWidth(text(this, W / 2 + 220, 360, away.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
     const verdict = a > b ? '¡VICTORIA!' : a < b ? 'DERROTA...' : 'EMPATE';
+    if (coins) c.add(text(this, W / 2, 586, `+${coins} monedas para Mi club`, 16, '#ffd23f', { fontStyle: 'bold' }).setOrigin(0.5));
     c.add(text(this, W / 2, 540, verdict, 44, a > b ? '#7dff9a' : a < b ? '#ff8a8a' : '#ffffff', { fontStyle: 'italic bold', strokeThickness: 8 }).setOrigin(0.5));
     c.add(new Button(this, W / 2 - 130, 630, 'Revancha', onRematch, { w: 220, h: 56, color: THEME.yellow }));
     c.add(new Button(this, W / 2 + 130, 630, 'Menú', onMenu, { w: 220, h: 52, color: THEME.panelLight }));

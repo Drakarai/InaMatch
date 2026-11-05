@@ -1,0 +1,496 @@
+{
+ "id": "cs-auras",
+ "season": "cs",
+ "wiki": "Auras",
+ "name": "Auras",
+ "short": "AUR",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "liu-bei",
+   "name": "Liu Bei",
+   "short": "Liu",
+   "number": 9,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 142,
+   "tp": 138,
+   "stats": {
+    "kick": 76,
+    "body": 80,
+    "control": 63,
+    "guard": 72,
+    "speed": 40,
+    "stamina": 60,
+    "guts": 65
+   },
+   "moves": [
+    "taikoku-ouka",
+    "serpent-fang",
+    "burai-hand"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Liu Xuande",
+   "description": "Este héroe chino dirige con fuerte convicción y apenas vacila."
+  },
+  {
+   "id": "cao-cao",
+   "name": "Cao Cao",
+   "short": "Cao",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 158,
+   "tp": 125,
+   "stats": {
+    "kick": 75,
+    "body": 76,
+    "control": 65,
+    "guard": 81,
+    "speed": 47,
+    "stamina": 74,
+    "guts": 49
+   },
+   "moves": [
+    "dimension-cut",
+    "dinosaur-break",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Cao Cao",
+   "description": "Rival de Liu Bei que llego a gobernar Wei, uno de los Tres Reinos."
+  },
+  {
+   "id": "joan-of-arc",
+   "name": "Joan of Arc",
+   "short": "Joan",
+   "number": 6,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 96,
+   "tp": 159,
+   "stats": {
+    "kick": 60,
+    "body": 63,
+    "control": 61,
+    "guard": 67,
+    "speed": 69,
+    "stamina": 54,
+    "guts": 72
+   },
+   "moves": [
+    "la-flamme",
+    "trick-ball",
+    "magical-flower"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jeanne d'Arc",
+   "description": "Una chica tímida y discreta que se convertirá en la salvadora de Francia."
+  },
+  {
+   "id": "queen-of-dragons",
+   "name": "Queen of Dragons",
+   "short": "Queen",
+   "number": 10,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 143,
+   "tp": 204,
+   "stats": {
+    "kick": 48,
+    "body": 74,
+    "control": 68,
+    "guard": 85,
+    "speed": 66,
+    "stamina": 46,
+    "guts": 71
+   },
+   "moves": [
+    "kirakira-illusion"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Master Dragon",
+   "description": "Dragona que intentó derrotar a Arturo en el mundo de fantasía de Camelot."
+  },
+  {
+   "id": "quetzalcoatlus",
+   "name": "Quetzalcoatlus",
+   "short": "Quetzalcoatlus",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 171,
+   "tp": 163,
+   "stats": {
+    "kick": 69,
+    "body": 76,
+    "control": 60,
+    "guard": 81,
+    "speed": 75,
+    "stamina": 59,
+    "guts": 43
+   },
+   "moves": [
+    "kodai-no-tsubasa"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Toh-chan",
+   "description": "Este dinosaurio volador puede dar miedo, pero es un buen padre para Sor."
+  },
+  {
+   "id": "w-gene",
+   "name": "W gene",
+   "short": "W",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "atomic-flare"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "G Idenshi",
+   "description": "Un ser creado en un laboratorio con genes modificados. Su fuerza física supera la de cualquier humano."
+  },
+  {
+   "id": "zhuge-liang",
+   "name": "Zhuge Liang",
+   "short": "Zhuge",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 96,
+   "tp": 182,
+   "stats": {
+    "kick": 52,
+    "body": 81,
+    "control": 59,
+    "guard": 60,
+    "speed": 66,
+    "stamina": 59,
+    "guts": 73
+   },
+   "moves": [
+    "tenchi-raimei",
+    "nobori-ryuu",
+    "heaven-s-time"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zhuge Kongming",
+   "description": "La estratega mas brillante de Liu Bei, Tan bella como retraída y esquiva."
+  },
+  {
+   "id": "black-rose",
+   "name": "Black rose",
+   "short": "Black",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "chaos-meteor"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kuroi Bara",
+   "description": "Una figura enigmática de las Auras, envuelta en pétalos negros, que ataca sin dejar ver sus intenciones."
+  },
+  {
+   "id": "ryoma-sakamoto",
+   "name": "Ryoma Sakamoto",
+   "short": "Ryoma",
+   "number": 13,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 150,
+   "tp": 95,
+   "stats": {
+    "kick": 63,
+    "body": 63,
+    "control": 73,
+    "guard": 62,
+    "speed": 40,
+    "stamina": 77,
+    "guts": 80
+   },
+   "moves": [
+    "kuroshio-ride",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sakamoto Ryouma",
+   "description": "Un gran hombre en varios sentidos. Tiene una visión de un nuevo Japón."
+  },
+  {
+   "id": "king-arthur",
+   "name": "King Arthur",
+   "short": "King",
+   "number": 1,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 128,
+   "stats": {
+    "kick": 76,
+    "body": 75,
+    "control": 65,
+    "guard": 73,
+    "speed": 44,
+    "stamina": 66,
+    "guts": 64
+   },
+   "moves": [
+    "ou-no-tsurugi",
+    "saikyou-eleven-hadou",
+    "odin-sword",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "King Arthur",
+   "description": "El legendario rey de Bretaña y lider de los caballeros de la mesa redonda."
+  },
+  {
+   "id": "big",
+   "name": "Big",
+   "short": "Big",
+   "number": 2,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 218,
+   "tp": 133,
+   "stats": {
+    "kick": 83,
+    "body": 51,
+    "control": 66,
+    "guard": 67,
+    "speed": 49,
+    "stamina": 68,
+    "guts": 61
+   },
+   "moves": [
+    "ouja-no-kiba"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Big",
+   "description": "El gran jefe del Valle de las Bestias. Ha crecido muy parecido a su madre Boss."
+  },
+  {
+   "id": "hurricane-zeta",
+   "name": "Hurricane Zeta",
+   "short": "Hurricane",
+   "number": 4,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 193,
+   "tp": 149,
+   "stats": {
+    "kick": 81,
+    "body": 43,
+    "control": 61,
+    "guard": 77,
+    "speed": 77,
+    "stamina": 75,
+    "guts": 49
+   },
+   "moves": [
+    "great-max-na-ore"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Clara Jane",
+   "description": "El huracán más grande jamás visto. Sus furiosos vientos aplastan todo a su paso."
+  },
+  {
+   "id": "nobunaga-oda",
+   "name": "Nobunaga Oda",
+   "short": "Nobunaga",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 132,
+   "stats": {
+    "kick": 76,
+    "body": 72,
+    "control": 83,
+    "guard": 62,
+    "speed": 57,
+    "stamina": 52,
+    "guts": 64
+   },
+   "moves": [
+    "setsuna-boost",
+    "nobori-ryuu",
+    "fuurinkazan-destroyer"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oda Nobunaga",
+   "description": "Un poderoso señor feudal de la era Sengoku que quiere gobernar Japón."
+  },
+  {
+   "id": "soji-okita",
+   "name": "Soji Okita",
+   "short": "Soji",
+   "number": 12,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 101,
+   "tp": 140,
+   "stats": {
+    "kick": 72,
+    "body": 81,
+    "control": 68,
+    "guard": 45,
+    "speed": 67,
+    "stamina": 46,
+    "guts": 46
+   },
+   "moves": [
+    "kiku-ichimonji",
+    "tsubame-gaeshi",
+    "evolution"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Okita Souji",
+   "description": "Espadachín legendario del Shinsengumi. Arde de pasión a pesar de su enfermedad."
+  },
+  {
+   "id": "s-gene",
+   "name": "S gene",
+   "short": "S",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "evolution"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "S Idenshi",
+   "description": "Un ser creado en un laboratorio con genes modificados. Su velocidad deja atrás a cualquier humano."
+  },
+  {
+   "id": "tyrannosaurus-rex",
+   "name": "Tyrannosaurus Rex",
+   "short": "Tyrannosaurus",
+   "number": 16,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 45,
+    "body": 60,
+    "control": 40,
+    "guard": 80,
+    "speed": 45,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "kodai-no-kiba"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tyranno",
+   "description": "Un tiranosaurio de verdad convertido en jugador. Su rugido hace temblar a toda la defensa rival."
+  }
+ ]
+}

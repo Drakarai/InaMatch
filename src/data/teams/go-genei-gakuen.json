@@ -1,0 +1,514 @@
+{
+ "id": "go-genei-gakuen",
+ "season": "go",
+ "wiki": "Genei Gakuen",
+ "name": "Genei Gakuen",
+ "short": "GEN",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-phantom",
+ "players": [
+  {
+   "id": "abram-cadabra",
+   "name": "Abram Cadabra",
+   "short": "Abram",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 154,
+   "stats": {
+    "kick": 62,
+    "body": 53,
+    "control": 54,
+    "guard": 49,
+    "speed": 49,
+    "stamina": 73,
+    "guts": 52
+   },
+   "moves": [
+    "kage-tsukami",
+    "serpent-fang"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hakono Zuiichi",
+   "description": "Tiene buenos reflejos para su tamaño y es especialista en parar penaltis."
+  },
+  {
+   "id": "jaymes-randie",
+   "name": "Jaymes Randie",
+   "short": "Jaymes",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 176,
+   "stats": {
+    "kick": 51,
+    "body": 74,
+    "control": 63,
+    "guard": 62,
+    "speed": 54,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "dimension-cut",
+    "deep-mist",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kurenai Ouma",
+   "description": "Su familia posee tierras con aguas termales, muy apreciadas en la zona."
+  },
+  {
+   "id": "daffyd-blayne",
+   "name": "Daffyd Blayne",
+   "short": "Daffyd",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 106,
+   "tp": 176,
+   "stats": {
+    "kick": 53,
+    "body": 79,
+    "control": 59,
+    "guard": 57,
+    "speed": 55,
+    "stamina": 57,
+    "guts": 54
+   },
+   "moves": [
+    "dimension-cut",
+    "boomerang-feint",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ozuno Yaku",
+   "description": "Pasó un año solo en las montañas perfeccionando sus técnicas."
+  },
+  {
+   "id": "al-kazam",
+   "name": "Al Kazam",
+   "short": "Al",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 208,
+   "tp": 123,
+   "stats": {
+    "kick": 67,
+    "body": 40,
+    "control": 65,
+    "guard": 48,
+    "speed": 52,
+    "stamina": 73,
+    "guts": 55
+   },
+   "moves": [
+    "dimension-cut",
+    "fuujin-no-mai",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Michiie Kanjuurou",
+   "description": "Recibió una educación estricta en una familia de bailarines tradicionales."
+  },
+  {
+   "id": "sigfryd-roi",
+   "name": "Sigfryd Roi",
+   "short": "Sigfryd",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 116,
+   "stats": {
+    "kick": 56,
+    "body": 71,
+    "control": 65,
+    "guard": 49,
+    "speed": 50,
+    "stamina": 57,
+    "guts": 59
+   },
+   "moves": [
+    "dimension-cut",
+    "sidewinder",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Araki Akira",
+   "description": "Usa ilusiones ópticas para eludir la vigilancia del equipo rival."
+  },
+  {
+   "id": "dave-coppfielder",
+   "name": "Dave Coppfielder",
+   "short": "Dave",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 108,
+   "tp": 156,
+   "stats": {
+    "kick": 61,
+    "body": 78,
+    "control": 62,
+    "guard": 68,
+    "speed": 57,
+    "stamina": 50,
+    "guts": 61
+   },
+   "moves": [
+    "trick-ball",
+    "the-mist",
+    "white-blade",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Douhara Teito",
+   "description": "Confía en la astrología, pero no sabe tomar decisiones rápidas."
+  },
+  {
+   "id": "launce-berton",
+   "name": "Launce Berton",
+   "short": "Launce",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 108,
+   "tp": 197,
+   "stats": {
+    "kick": 48,
+    "body": 84,
+    "control": 48,
+    "guard": 54,
+    "speed": 53,
+    "stamina": 50,
+    "guts": 58
+   },
+   "moves": [
+    "trick-ball",
+    "dimension-cut",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fudano Kirimasa",
+   "description": "Su juego no es muy ofensivo, aunque posee un potente disparo."
+  },
+  {
+   "id": "ledger-demain",
+   "name": "Ledger Demain",
+   "short": "Ledger",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 168,
+   "stats": {
+    "kick": 50,
+    "body": 77,
+    "control": 45,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 56,
+    "guts": 56
+   },
+   "moves": [
+    "trick-ball",
+    "the-mist",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kobato Hiroo",
+   "description": "Dice poder ver cosas que otros no perciben, pero no puede probarlo."
+  },
+  {
+   "id": "hocus-sesame",
+   "name": "Hocus Sesame",
+   "short": "Hocus",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 134,
+   "stats": {
+    "kick": 36,
+    "body": 52,
+    "control": 55,
+    "guard": 47,
+    "speed": 70,
+    "stamina": 58,
+    "guts": 50
+   },
+   "moves": [
+    "trick-ball",
+    "rocket-head",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shiranui Genichi",
+   "description": "El mayor de los hermanos Sesame. Con Pocus forma una pareja mortal."
+  },
+  {
+   "id": "pocus-sesame",
+   "name": "Pocus Sesame",
+   "short": "Pocus",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 132,
+   "stats": {
+    "kick": 33,
+    "body": 52,
+    "control": 57,
+    "guard": 49,
+    "speed": 67,
+    "stamina": 58,
+    "guts": 63
+   },
+   "moves": [
+    "trick-ball",
+    "fortissimo",
+    "deep-mist",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shiranui Eiji",
+   "description": "El menor de los hermanos Sesame. Se coordina con Hocus a la perfección."
+  },
+  {
+   "id": "daren-blakh",
+   "name": "Daren Blakh",
+   "short": "Daren",
+   "number": 15,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 145,
+   "stats": {
+    "kick": 36,
+    "body": 52,
+    "control": 54,
+    "guard": 51,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 55
+   },
+   "moves": [
+    "illusion-ball",
+    "eternal-blizzard",
+    "white-blade",
+    "panther-blizzard"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Toriyuki Asaya",
+   "description": "Es pequeño, pero fuerte y resistente. Aguanta muy bien la presión."
+  },
+  {
+   "id": "harrold-houdini",
+   "name": "Harrold Houdini",
+   "short": "Harrold",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 185,
+   "stats": {
+    "kick": 62,
+    "body": 76,
+    "control": 41,
+    "guard": 58,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 57
+   },
+   "moves": [
+    "maboroshi-shot",
+    "illusion-ball",
+    "dimension-cut",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mahoro Tadashi",
+   "description": "Un delantero impasible, que disfruta sorprendiendo a los rivales."
+  },
+  {
+   "id": "pen-teller",
+   "name": "Pen Teller",
+   "short": "Pen",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 117,
+   "tp": 150,
+   "stats": {
+    "kick": 50,
+    "body": 48,
+    "control": 55,
+    "guard": 64,
+    "speed": 52,
+    "stamina": 42,
+    "guts": 51
+   },
+   "moves": [
+    "bat-attack",
+    "kage-tsukami"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Utsurogi Sanemi",
+   "description": "Embaucador nato que deja ver solo lo justo de sus verdaderas intenciones."
+  },
+  {
+   "id": "petey-sorcar",
+   "name": "Petey Sorcar",
+   "short": "Petey",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 116,
+   "stats": {
+    "kick": 52,
+    "body": 48,
+    "control": 47,
+    "guard": 59,
+    "speed": 51,
+    "stamina": 66,
+    "guts": 53
+   },
+   "moves": [
+    "boomerang-feint",
+    "the-mist",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Iryuu Jouji",
+   "description": "Le gusta sorprender a los demás con trucos que siempre está inventando."
+  },
+  {
+   "id": "trump-loyal",
+   "name": "Trump Loyal",
+   "short": "Trump",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 170,
+   "tp": 157,
+   "stats": {
+    "kick": 53,
+    "body": 51,
+    "control": 52,
+    "guard": 65,
+    "speed": 56,
+    "stamina": 57,
+    "guts": 59
+   },
+   "moves": [
+    "perfect-course",
+    "presto-turn",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Machi Shiiya",
+   "description": "Su mirada le hace parecer malévolo, pero en realidad es amable y sincero."
+  },
+  {
+   "id": "billy-lingsoo",
+   "name": "Billy Lingsoo",
+   "short": "Billy",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 181,
+   "tp": 128,
+   "stats": {
+    "kick": 51,
+    "body": 39,
+    "control": 51,
+    "guard": 60,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 53
+   },
+   "moves": [
+    "rocket-head",
+    "naminori-pierrot",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ooki Tamanori",
+   "description": "Tiene un especial talento para hacer acrobacias subido a una pelota."
+  }
+ ]
+}

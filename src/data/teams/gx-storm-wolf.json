@@ -1,0 +1,393 @@
+{
+ "id": "gx-storm-wolf",
+ "season": "gx",
+ "wiki": "Storm Wolf",
+ "name": "Storm Wolf",
+ "short": "STO",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-oasis-route",
+ "players": [
+  {
+   "id": "aleksei-karimov",
+   "name": "Aleksei Karimov",
+   "short": "Aleksei",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 142,
+   "tp": 114,
+   "stats": {
+    "kick": 73,
+    "body": 75,
+    "control": 58,
+    "guard": 66,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 62
+   },
+   "moves": [
+    "twist-reach",
+    "star-reflection",
+    "capoeira-snatch"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Alexei Karnov",
+   "description": "Mantiene siempre los ojos cerrados y se guía por el viento y el sonido."
+  },
+  {
+   "id": "server",
+   "name": "Server",
+   "short": "Server",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 153,
+   "tp": 105,
+   "stats": {
+    "kick": 67,
+    "body": 71,
+    "control": 60,
+    "guard": 64,
+    "speed": 69,
+    "stamina": 44,
+    "guts": 57
+   },
+   "moves": [
+    "rolling-cutter",
+    "twist-reach",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sergei Chernov",
+   "description": "El pan es su alimento básico. Incluso en viajes largos lo lleva en la maleta."
+  },
+  {
+   "id": "mirjalor-afonin",
+   "name": "Mirjalor Afonin",
+   "short": "Mirjalor",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 119,
+   "stats": {
+    "kick": 71,
+    "body": 68,
+    "control": 64,
+    "guard": 66,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 64
+   },
+   "moves": [
+    "rolling-cutter",
+    "abisegeri",
+    "gungnir"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mitya Eremin",
+   "description": "Mano derecha de Dmitri Sobirov que analiza cada situación que se da en el campo."
+  },
+  {
+   "id": "yuri",
+   "name": "Yuri",
+   "short": "Yuri",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 125,
+   "stats": {
+    "kick": 58,
+    "body": 58,
+    "control": 56,
+    "guard": 68,
+    "speed": 66,
+    "stamina": 48,
+    "guts": 66
+   },
+   "moves": [
+    "rolling-cutter",
+    "silk-road",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yuri Averin",
+   "description": "Fue seleccionado para jugar con el equipo nacional porque es un genio."
+  },
+  {
+   "id": "kenja-jo-rayev",
+   "name": "Kenja Jo'rayev",
+   "short": "Kenja",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 97,
+   "stats": {
+    "kick": 74,
+    "body": 51,
+    "control": 66,
+    "guard": 63,
+    "speed": 44,
+    "stamina": 67,
+    "guts": 53
+   },
+   "moves": [
+    "rolling-cutter",
+    "elephant-press",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gennady Golibav",
+   "description": "Está tratando de adelgazar porque no puede ponerse su kimono favorito."
+  },
+  {
+   "id": "leonid-mirzayev",
+   "name": "Leonid Mirzayev",
+   "short": "Leonid",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 128,
+   "stats": {
+    "kick": 60,
+    "body": 67,
+    "control": 63,
+    "guard": 59,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 58
+   },
+   "moves": [
+    "silk-road",
+    "twin-mixer",
+    "melody-wave",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Rolan Lazarev",
+   "description": "Formaba una banda de música junto a Melekh, Averin y 3 personas más."
+  },
+  {
+   "id": "rustan",
+   "name": "Rustan",
+   "short": "Rustan",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 136,
+   "tp": 99,
+   "stats": {
+    "kick": 67,
+    "body": 63,
+    "control": 62,
+    "guard": 55,
+    "speed": 49,
+    "stamina": 73,
+    "guts": 65
+   },
+   "moves": [
+    "silk-road",
+    "rolling-cutter",
+    "gold-fever"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ruslan Kasimov",
+   "description": "Colabora bastante en las tareas defensivas y da bastantes órdenes."
+  },
+  {
+   "id": "aaron",
+   "name": "Aaron",
+   "short": "Aaron",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 131,
+   "tp": 106,
+   "stats": {
+    "kick": 69,
+    "body": 71,
+    "control": 65,
+    "guard": 56,
+    "speed": 50,
+    "stamina": 65,
+    "guts": 59
+   },
+   "moves": [
+    "silk-road",
+    "gold-fever",
+    "burning-summer",
+    "dokonjou-bat"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Aaron Gachinski",
+   "description": "En sus ratos libres le gusta hacer escalada en grandes montañas."
+  },
+  {
+   "id": "maksim-alimatov",
+   "name": "Maksim Alimatov",
+   "short": "Maksim",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 122,
+   "stats": {
+    "kick": 63,
+    "body": 62,
+    "control": 61,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "gold-fever",
+    "kyoubou-head",
+    "bound-flame",
+    "joker-rains"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Maksim Adrov",
+   "description": "Es rival de Dilshod en secreto. Delantero estrella del equipo."
+  },
+  {
+   "id": "dilshod",
+   "name": "Dilshod",
+   "short": "Dilshod",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 127,
+   "stats": {
+    "kick": 69,
+    "body": 75,
+    "control": 64,
+    "guard": 62,
+    "speed": 58,
+    "stamina": 69,
+    "guts": 52
+   },
+   "moves": [
+    "gold-fever",
+    "silk-road",
+    "disaster-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Dmitri Sobirov",
+   "description": "Capitán del Storm Wolves. Es más de hechos que palabras."
+  },
+  {
+   "id": "zafar",
+   "name": "Zafar",
+   "short": "Zafar",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 137,
+   "tp": 130,
+   "stats": {
+    "kick": 66,
+    "body": 69,
+    "control": 53,
+    "guard": 68,
+    "speed": 68,
+    "stamina": 52,
+    "guts": 51
+   },
+   "moves": [
+    "gold-fever",
+    "sonic-shot",
+    "parkour-attack",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zaur Melev",
+   "description": "Cree en las cartas del tarot a pesar de que solo le han dado mala suerte."
+  },
+  {
+   "id": "nikolai-gagarin",
+   "name": "Nikolai Gagarin",
+   "short": "Nikolai",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "spinning-shoot",
+    "white-blade",
+    "eternal-blizzard",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Nikolai Gagarin",
+   "description": "Entrenador de los Storm Wolves. Sus estrategias y cálculos son precisos."
+  }
+ ]
+}

@@ -1,0 +1,517 @@
+{
+ "id": "go-kaiou-gakuen",
+ "season": "go",
+ "wiki": "Kaiou Gakuen",
+ "name": "Academia Cala Pirata",
+ "short": "KAI",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-marine-snow",
+ "players": [
+  {
+   "id": "ishmael-ahab",
+   "name": "Ishmael Ahab",
+   "short": "Ishmael",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 84,
+   "tp": 174,
+   "stats": {
+    "kick": 50,
+    "body": 61,
+    "control": 55,
+    "guard": 68,
+    "speed": 51,
+    "stamina": 43,
+    "guts": 60
+   },
+   "moves": [
+    "hydro-anchor",
+    "rapid-whip",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fukami Dandou",
+   "description": "Es un experto buceador, de poderosos músculos y pulmones."
+  },
+  {
+   "id": "octavus-kraken",
+   "name": "Octavus Kraken",
+   "short": "Octavus",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 155,
+   "stats": {
+    "kick": 76,
+    "body": 54,
+    "control": 67,
+    "guard": 36,
+    "speed": 60,
+    "stamina": 63,
+    "guts": 49
+   },
+   "moves": [
+    "killer-whale",
+    "sargasso",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ide Norikazu",
+   "description": "Conocido por un extraño disparo en el que extiende su pierna como un látigo."
+  },
+  {
+   "id": "roger-jolly",
+   "name": "Roger Jolly",
+   "short": "Roger",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 169,
+   "tp": 153,
+   "stats": {
+    "kick": 75,
+    "body": 48,
+    "control": 62,
+    "guard": 33,
+    "speed": 55,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "killer-whale",
+    "naminori-pierrot",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Saruga Souma",
+   "description": "Recuerda a un perro que persigue a su presa. Su marcaje es implacable."
+  },
+  {
+   "id": "sinbad-saylor",
+   "name": "Sinbad Saylor",
+   "short": "Sinbad",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 106,
+   "tp": 147,
+   "stats": {
+    "kick": 58,
+    "body": 71,
+    "control": 65,
+    "guard": 49,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 58
+   },
+   "moves": [
+    "killer-whale",
+    "fuujin-no-mai",
+    "head-bazooka"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Funaki Yuuto",
+   "description": "Sabe alternar funciones ofensivas y defensivas, según lo exija el partido."
+  },
+  {
+   "id": "cheung-po",
+   "name": "Cheung Po",
+   "short": "Cheung",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 174,
+   "tp": 159,
+   "stats": {
+    "kick": 50,
+    "body": 53,
+    "control": 54,
+    "guard": 66,
+    "speed": 61,
+    "stamina": 51,
+    "guts": 52
+   },
+   "moves": [
+    "naminori-pierrot",
+    "sargasso",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Touga Tooru",
+   "description": "Un jugador fuerte, que no rehúye el contacto. Y también sabe cocinar."
+  },
+  {
+   "id": "william-kidd",
+   "name": "William Kidd",
+   "short": "William",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 110,
+   "tp": 178,
+   "stats": {
+    "kick": 48,
+    "body": 66,
+    "control": 47,
+    "guard": 55,
+    "speed": 74,
+    "stamina": 57,
+    "guts": 62
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "flying-fish",
+    "naminori-pierrot"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kaizu Kouichirou",
+   "description": "Un chico de espíritu aventurero, que cruzó solo y sin ayuda el Pacífico."
+  },
+  {
+   "id": "santelmo-phyre",
+   "name": "Santelmo Phyre",
+   "short": "Santelmo",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 118,
+   "stats": {
+    "kick": 55,
+    "body": 56,
+    "control": 55,
+    "guard": 66,
+    "speed": 72,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "killer-whale",
+    "bound-flame",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Murakami Gunki",
+   "description": "Es muy competitivo y juega mejor cuando se ve rodeado por los rivales."
+  },
+  {
+   "id": "dakkar-nemo",
+   "name": "Dakkar Nemo",
+   "short": "Dakkar",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 108,
+   "tp": 171,
+   "stats": {
+    "kick": 55,
+    "body": 63,
+    "control": 57,
+    "guard": 57,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 62
+   },
+   "moves": [
+    "sonic-shot",
+    "killer-whale",
+    "britannia-cross",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Wanda Naoto",
+   "description": "La vida cotidiana le aburre y le interesa más el mundo sobrenatural."
+  },
+  {
+   "id": "marley-hookson",
+   "name": "Marley Hookson",
+   "short": "Marley",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 155,
+   "tp": 138,
+   "stats": {
+    "kick": 49,
+    "body": 55,
+    "control": 48,
+    "guard": 52,
+    "speed": 78,
+    "stamina": 55,
+    "guts": 57
+   },
+   "moves": [
+    "flying-fish",
+    "head-bazooka",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Isaribi Tairamaru",
+   "description": "Tiene una extraña afición por nadar de noche en el mar."
+  },
+  {
+   "id": "davy-jones",
+   "name": "Davy Jones",
+   "short": "Davy",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 143,
+   "stats": {
+    "kick": 65,
+    "body": 62,
+    "control": 52,
+    "guard": 47,
+    "speed": 57,
+    "stamina": 58,
+    "guts": 53
+   },
+   "moves": [
+    "flying-fish",
+    "fuujin-no-mai",
+    "air-bullet",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Namikawa Rensuke",
+   "description": "Un jugador clave en la Cala Pirata, fuerte, técnico y con entusiasmo."
+  },
+  {
+   "id": "calico-corsair",
+   "name": "Calico Corsair",
+   "short": "Calico",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 104,
+   "tp": 145,
+   "stats": {
+    "kick": 38,
+    "body": 62,
+    "control": 61,
+    "guard": 56,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 60
+   },
+   "moves": [
+    "flying-fish",
+    "fuujin-no-mai",
+    "sidewinder",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yoshimine Misaki",
+   "description": "Sabe abrirse camino en cualquier defensa y crear ocasiones de gol."
+  },
+  {
+   "id": "rob-crusoe",
+   "name": "Rob Crusoe",
+   "short": "Rob",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 146,
+   "tp": 133,
+   "stats": {
+    "kick": 54,
+    "body": 58,
+    "control": 61,
+    "guard": 40,
+    "speed": 85,
+    "stamina": 47,
+    "guts": 55
+   },
+   "moves": [
+    "killer-whale",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nagisawa Nagisa",
+   "description": "Un jugador tranquilo, que no pierde los nervios en ninguna situación."
+  },
+  {
+   "id": "nick-tofobia",
+   "name": "Nick Tofobia",
+   "short": "Nick",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 86,
+   "tp": 159,
+   "stats": {
+    "kick": 50,
+    "body": 55,
+    "control": 53,
+    "guard": 53,
+    "speed": 54,
+    "stamina": 46,
+    "guts": 59
+   },
+   "moves": [
+    "bat-attack",
+    "hydro-anchor",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Houki Ryuuhei",
+   "description": "De noche solo puede dormir si se cubre hasta la cabeza con la manta."
+  },
+  {
+   "id": "bart-black",
+   "name": "Bart Black",
+   "short": "Bart",
+   "number": 14,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 159,
+   "stats": {
+    "kick": 48,
+    "body": 49,
+    "control": 61,
+    "guard": 59,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 54
+   },
+   "moves": [
+    "sargasso",
+    "mad-juggler",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Fujita Sumitomo",
+   "description": "Es muy habilidoso, pero su actitud rebelde suele generar problemas."
+  },
+  {
+   "id": "frank-drake",
+   "name": "Frank Drake",
+   "short": "Frank",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 164,
+   "tp": 157,
+   "stats": {
+    "kick": 54,
+    "body": 50,
+    "control": 50,
+    "guard": 55,
+    "speed": 46,
+    "stamina": 63,
+    "guts": 59
+   },
+   "moves": [
+    "sargasso",
+    "viva-banri-no-choujou",
+    "killer-whale",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kurofune Izou",
+   "description": "Solo de verlo en el campo, los rivales comienzan a ponerse nerviosos."
+  },
+  {
+   "id": "barnabas-rossa",
+   "name": "Barnabas Rossa",
+   "short": "Barnabas",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 181,
+   "tp": 128,
+   "stats": {
+    "kick": 64,
+    "body": 48,
+    "control": 61,
+    "guard": 63,
+    "speed": 50,
+    "stamina": 79,
+    "guts": 66
+   },
+   "moves": [
+    "flying-fish",
+    "boomerang-feint",
+    "koutei-penguin-2gou",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Umigishi Entarou",
+   "description": "Especialista en balones aéreos, es una buena baza ante la portería."
+  }
+ ]
+}

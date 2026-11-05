@@ -3,7 +3,9 @@ import { audio } from '../audio/engine';
 import { TEAMS } from '../data';
 import { makeFxTextures } from '../gfx/fx';
 import { bootPack } from '../gfx/pack';
-import { makeBall, makeEmblem, makePlayerSprite } from '../gfx/placeholders';
+import { makeBall, makeEmblem } from '../gfx/placeholders';
+import { ensureClub } from '../club/club';
+import { fitCamera } from '../ui/theme';
 
 export class BootScene extends Phaser.Scene {
   constructor() {
@@ -23,15 +25,18 @@ export class BootScene extends Phaser.Scene {
   }
 
   create(): void {
-    for (const team of TEAMS) {
-      makeEmblem(this, team);
-      for (const p of team.players) {
-        makePlayerSprite(this, p, team);
-      }
-    }
+    fitCamera(this);
+    for (const team of TEAMS) makeEmblem(this, team);
     makeBall(this);
     makeFxTextures(this);
     audio.init(this.game);
-    this.scene.start('menu');
+    // "Mi club": la primera vez se reparte la plantilla inicial (hace falta la lista de ojeadores)
+    const loading = this.add.text(640, 360, 'Cargando jugadores...', { fontFamily: 'Arial', fontSize: '22px', color: '#ffd23f' }).setOrigin(0.5);
+    ensureClub()
+      .catch((err) => console.warn('[club] no se pudo preparar el club', err))
+      .then(() => {
+        loading.destroy();
+        this.scene.start('menu');
+      });
   }
 }

@@ -1,0 +1,511 @@
+{
+ "id": "go-tengawara",
+ "season": "go",
+ "wiki": "Tengawara",
+ "name": "Colegio Vía Láctea",
+ "short": "TEN",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-milky-way",
+ "players": [
+  {
+   "id": "starbuck-rogers",
+   "name": "Starbuck Rogers",
+   "short": "Starbuck",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 103,
+   "tp": 178,
+   "stats": {
+    "kick": 49,
+    "body": 46,
+    "control": 51,
+    "guard": 78,
+    "speed": 49,
+    "stamina": 43,
+    "guts": 55
+   },
+   "moves": [
+    "rapid-whip",
+    "counterdrive-gk",
+    "shoot-break"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Minami Juuji",
+   "description": "Un portero correoso. No le hace ascos al juego duro y es muy impulsivo."
+  },
+  {
+   "id": "worff-chewback",
+   "name": "Worff Chewback",
+   "short": "Worff",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 159,
+   "stats": {
+    "kick": 51,
+    "body": 52,
+    "control": 65,
+    "guard": 65,
+    "speed": 58,
+    "stamina": 55,
+    "guts": 54
+   },
+   "moves": [
+    "elephant-press",
+    "dash-train",
+    "viva-banri-no-choujou"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kawasaki Ginta",
+   "description": "Ha creado un menú propio para el bar de su familia, pero sin mucho éxito."
+  },
+  {
+   "id": "dart-h-cylon",
+   "name": "Dart H. Cylon",
+   "short": "Dart",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 104,
+   "tp": 177,
+   "stats": {
+    "kick": 54,
+    "body": 76,
+    "control": 64,
+    "guard": 50,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 59
+   },
+   "moves": [
+    "sargasso",
+    "presto-turn",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Itokawa Yoshinobu",
+   "description": "En el campo juega limpio, pero fuera de él su ética deja que desear."
+  },
+  {
+   "id": "scotty-o-brien",
+   "name": "Scotty O'Brien",
+   "short": "Scotty",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 171,
+   "tp": 153,
+   "stats": {
+    "kick": 56,
+    "body": 52,
+    "control": 50,
+    "guard": 69,
+    "speed": 51,
+    "stamina": 61,
+    "guts": 64
+   },
+   "moves": [
+    "mad-juggler",
+    "killer-whale",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kashio Seigo",
+   "description": "En el campo juega limpio, pero fuera de él su ética deja que desear."
+  },
+  {
+   "id": "billy-lee-adarma",
+   "name": "Billy-Lee Adarma",
+   "short": "Billy-Lee",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 153,
+   "tp": 177,
+   "stats": {
+    "kick": 52,
+    "body": 57,
+    "control": 47,
+    "guard": 43,
+    "speed": 74,
+    "stamina": 58,
+    "guts": 58
+   },
+   "moves": [
+    "mad-juggler",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Higashi Kinya",
+   "description": "Juega a la lotería todas las semanas, y todas las semanas le toca."
+  },
+  {
+   "id": "zaphod-riker",
+   "name": "Zaphod Riker",
+   "short": "Zaphod",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 126,
+   "tp": 152,
+   "stats": {
+    "kick": 67,
+    "body": 51,
+    "control": 47,
+    "guard": 51,
+    "speed": 72,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "mad-juggler",
+    "burning-summer",
+    "white-blade",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hayabusa Hideki",
+   "description": "Por su aire soberbio, los demás alumnos lo llaman \"su alteza\"."
+  },
+  {
+   "id": "cyber-dalekman",
+   "name": "Cyber Dalekman",
+   "short": "Cyber",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 108,
+   "tp": 178,
+   "stats": {
+    "kick": 53,
+    "body": 71,
+    "control": 56,
+    "guard": 58,
+    "speed": 53,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "mad-juggler",
+    "kattobi-defense",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Harei Mizunari",
+   "description": "Jugador \"fantasma\" que solo aparece para jugar, pero nunca para entrenar."
+  },
+  {
+   "id": "lucas-skywalk",
+   "name": "Lucas Skywalk",
+   "short": "Lucas",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 175,
+   "tp": 118,
+   "stats": {
+    "kick": 53,
+    "body": 66,
+    "control": 68,
+    "guard": 62,
+    "speed": 58,
+    "stamina": 55,
+    "guts": 58
+   },
+   "moves": [
+    "head-bazooka",
+    "mad-juggler",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nishinosora Yoichi",
+   "description": "Solía jugar al fútbol con deportividad, pero el juego sucio lo sedujo."
+  },
+  {
+   "id": "jimmy-kyrk",
+   "name": "Jimmy Kyrk",
+   "short": "Jimmy",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 105,
+   "tp": 150,
+   "stats": {
+    "kick": 63,
+    "body": 61,
+    "control": 63,
+    "guard": 70,
+    "speed": 47,
+    "stamina": 46,
+    "guts": 64
+   },
+   "moves": [
+    "head-bazooka",
+    "mad-juggler",
+    "triangle-zz"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kita Ichiban",
+   "description": "Destaca por su educación y su saber estar, pero no soporta los abusos."
+  },
+  {
+   "id": "harkness-torchwood",
+   "name": "Harkness Torchwood",
+   "short": "Harkness",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 114,
+   "tp": 127,
+   "stats": {
+    "kick": 63,
+    "body": 55,
+    "control": 61,
+    "guard": 47,
+    "speed": 58,
+    "stamina": 65,
+    "guts": 54
+   },
+   "moves": [
+    "head-bazooka",
+    "mad-juggler",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Andou Tsuneyuki",
+   "description": "Su mirada penetrante puede ver incluso en la más profunda oscuridad."
+  },
+  {
+   "id": "jean-luc-janeway",
+   "name": "Jean-Luc Janeway",
+   "short": "Jean-Luc",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 101,
+   "tp": 133,
+   "stats": {
+    "kick": 35,
+    "body": 52,
+    "control": 65,
+    "guard": 47,
+    "speed": 72,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "head-bazooka",
+    "burning-summer",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hoshifuru Kaguya",
+   "description": "Su sueño es viajar a la Luna y se toma el fútbol como un adiestramiento."
+  },
+  {
+   "id": "wesley-sheridan",
+   "name": "Wesley Sheridan",
+   "short": "Wesley",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 161,
+   "tp": 154,
+   "stats": {
+    "kick": 57,
+    "body": 55,
+    "control": 56,
+    "guard": 38,
+    "speed": 53,
+    "stamina": 58,
+    "guts": 59
+   },
+   "moves": [
+    "rapid-whip",
+    "burning-catch",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Orio Mihoshi",
+   "description": "Adora las cosas que son tres, sean mosqueteros, tenores o cerditos."
+  },
+  {
+   "id": "sithri-peon",
+   "name": "Sithri Peon",
+   "short": "Sithri",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 187,
+   "tp": 121,
+   "stats": {
+    "kick": 64,
+    "body": 40,
+    "control": 60,
+    "guard": 57,
+    "speed": 54,
+    "stamina": 70,
+    "guts": 53
+   },
+   "moves": [
+    "thief-eye",
+    "elephant-press"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oushida Kazuhiro",
+   "description": "Es un holgazán, pero cuando quiere puede robar el balón en un instante."
+  },
+  {
+   "id": "isaac-binks",
+   "name": "Isaac Binks",
+   "short": "Isaac",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 169,
+   "tp": 152,
+   "stats": {
+    "kick": 54,
+    "body": 58,
+    "control": 52,
+    "guard": 53,
+    "speed": 53,
+    "stamina": 54,
+    "guts": 59
+   },
+   "moves": [
+    "thief-eye",
+    "spiral-draw",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yuge Noboru",
+   "description": "Su sueño es ser un experto constructor de arcos y flechas."
+  },
+  {
+   "id": "carl-rissian",
+   "name": "Carl Rissian",
+   "short": "Carl",
+   "number": 15,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 151,
+   "tp": 159,
+   "stats": {
+    "kick": 49,
+    "body": 59,
+    "control": 52,
+    "guard": 47,
+    "speed": 66,
+    "stamina": 49,
+    "guts": 56
+   },
+   "moves": [
+    "mad-juggler",
+    "viva-banri-no-choujou",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ankoku Masayuki",
+   "description": "Las luces brillantes lo deslumbran, por lo que prefiere las sombras."
+  },
+  {
+   "id": "robert-affett",
+   "name": "Robert Affett",
+   "short": "Robert",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 170,
+   "tp": 141,
+   "stats": {
+    "kick": 55,
+    "body": 57,
+    "control": 54,
+    "guard": 50,
+    "speed": 58,
+    "stamina": 53,
+    "guts": 54
+   },
+   "moves": [
+    "head-bazooka",
+    "mad-juggler",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Harusawa Hikaru",
+   "description": "Muy orgulloso de sus blanquísimos dientes, sonríe siempre que puede."
+  }
+ ]
+}

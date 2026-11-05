@@ -1,0 +1,519 @@
+{
+ "id": "vr-nagumohara",
+ "season": "vr",
+ "wiki": "Nagumohara",
+ "name": "Secundaria South Cirrus",
+ "short": "NAG",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "delta",
+ "players": [
+  {
+   "id": "alix-la-fontaine",
+   "name": "Alix La Fontaine",
+   "short": "Alix",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "hyouketsu-no-mai",
+    "god-fingers",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shisendou Garyuu",
+   "description": "Tiene un estricto sentido del deber. ¿Sus reflejos? Agudos hasta rayar la perfección gracias a sus despiadadas batallas de cartas."
+  },
+  {
+   "id": "cade-shelby",
+   "name": "Cade Shelby",
+   "short": "Cade",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "dancing-turtle",
+    "kaijin-the-quake",
+    "dash-storm"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kodoukai Kameo",
+   "description": "De naturaleza tranquila y rápido con los pies. Cuando siente presión se mete debajo del caparazón."
+  },
+  {
+   "id": "winsor-compete",
+   "name": "Winsor Compete",
+   "short": "Winsor",
+   "number": 8,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "oraora-shikofumi",
+    "the-wall",
+    "shikofumi",
+    "super-armadillo"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Makushita Teru",
+   "description": "Vive para competir contra todo el mundo y en cualquier lugar, excepto contra los fantasmas, que le dan miedo."
+  },
+  {
+   "id": "charis-benzaie",
+   "name": "Charis Benzaie",
+   "short": "Charis",
+   "number": 9,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "murakumo-trap",
+    "the-mist",
+    "kage-nui",
+    "bunshin-feint"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Benten Kuroumaru",
+   "description": "Nacido y criado entre artistas de kabuki y el drama, se adapta a cada partido como si tuviera un papel."
+  },
+  {
+   "id": "amelia-rainwalker",
+   "name": "Amelia Rainwalker",
+   "short": "Amelia",
+   "number": 12,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "second-life-hoop",
+    "gravitation",
+    "the-tower",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Udou Mirika",
+   "description": "Aunque sea la primera vez que se enfrente a algo, lo resuelve con total calma y facilidad. La llaman \"Amelia de la segunda partida\"."
+  },
+  {
+   "id": "cedric-freud",
+   "name": "Cedric Freud",
+   "short": "Cedric",
+   "number": 3,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "bunshin-feint",
+    "block-circus",
+    "mogura-feint"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kisoji Heita",
+   "description": "Un chico que anima el ambiente con mucha facilidad. Su persistencia puede hacerlo parecer un acosador."
+  },
+  {
+   "id": "destin-billows",
+   "name": "Destin Billows",
+   "short": "Destin",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 246,
+   "tp": 142,
+   "stats": {
+    "kick": 83,
+    "body": 78,
+    "control": 69,
+    "guard": 79,
+    "speed": 98,
+    "stamina": 90,
+    "guts": 60
+   },
+   "moves": [],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sasanami Unmei",
+   "description": "Principio del Episodio 1 : Se inscribió en la Secundaria South Cirrus por la ausencia de fútbol, un deporte que parece detestar intensamente."
+  },
+  {
+   "id": "thierry-reyes",
+   "name": "Thierry Reyes",
+   "short": "Thierry",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "tenkuu-thunder",
+    "super-el-stico",
+    "round-spark",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yagyuu Suruga",
+   "description": "De un imponente metro noventa, su presencia domina el campo. Nació para dar órdenes y nunca pasa desapercibido."
+  },
+  {
+   "id": "raika-shinohara",
+   "name": "Raika Shinohara",
+   "short": "Raika",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "guruguru-shoot",
+    "rolling-slide",
+    "zanzou",
+    "rolling-kick"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shinohara Raika",
+   "description": "Alegre y encantadora, es la favorita de todos. Siempre busca nuevas emociones. Le gusta más el proceso que el resultado."
+  },
+  {
+   "id": "briar-bloomhurst",
+   "name": "Briar Bloomhurst",
+   "short": "Briar",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 132,
+   "tp": 173,
+   "stats": {
+    "kick": 84,
+    "body": 62,
+    "control": 77,
+    "guard": 63,
+    "speed": 84,
+    "stamina": 56,
+    "guts": 77
+   },
+   "moves": [
+    "gou-no-issen",
+    "shunrai",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sakurazaki Jouji",
+   "description": "Aunque es un delincuente y problemático en el instituto, tiene unas piernas poderosas y da unas patadas tremendas."
+  },
+  {
+   "id": "marisol-cavallo",
+   "name": "Marisol Cavallo",
+   "short": "Marisol",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "elegant-blade",
+    "ice-ground",
+    "aurora-dribble",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Imasato Himana",
+   "description": "De cara a la galería, es de movimientos llenos de gracia, pero, por dentro, hay esfuerzo y dedicación. Busca la belleza en todo."
+  },
+  {
+   "id": "maine-alsop",
+   "name": "Maine Alsop",
+   "short": "Maine",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "answer-boost",
+    "presto-turn",
+    "thief-eye",
+    "dog-run"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Iseya Kaname",
+   "description": "Un mentalista que lee las emociones y las intenciones a la primera. Sube la moral de todo el equipo."
+  },
+  {
+   "id": "dario-highton",
+   "name": "Dario Highton",
+   "short": "Dario",
+   "number": 11,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "yamabiko-step",
+    "sky-walk",
+    "the-mountain",
+    "sigma-zone"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Itadaki Idomu",
+   "description": "Nunca tiene prisa, nunca está estresado. Mejora sin prisa, pero sin pausa."
+  },
+  {
+   "id": "meridia-althoff",
+   "name": "Meridia Althoff",
+   "short": "Meridia",
+   "number": 14,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "hayabusa-gaeshi",
+    "tatsumaki-senpuu",
+    "kiku-ichimonji",
+    "quick-draw"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Koteuchi Nanami",
+   "description": "Acepta las faltas con honestidad y nunca pierde la compostura. Tiene una sólida base de fans debido a su forma de ser tan educada."
+  },
+  {
+   "id": "tai-richter",
+   "name": "Tai Richter",
+   "short": "Tai",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "matrix-eye",
+    "perfect-course",
+    "gravitation",
+    "bunshin-defense"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Banme Saito",
+   "description": "Es pequeño, rápido y algo nervioso. Su buena visión espacial lo convierte en un pro en el campo."
+  },
+  {
+   "id": "davin-bullock",
+   "name": "Davin Bullock",
+   "short": "Davin",
+   "number": 16,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "dokkan-train",
+    "super-armadillo",
+    "zigzag-flame",
+    "matador-feint"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ushijima Totsugorou",
+   "description": "Una mole forjada en el rugby, que, una vez en marcha, atraviesa el campo como un tren de mercancías."
+  }
+ ]
+}

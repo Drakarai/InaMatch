@@ -1,0 +1,388 @@
+{
+ "id": "gx-galaxy-eleven",
+ "season": "gx",
+ "wiki": "Galaxy Eleven",
+ "name": "Galaxy Eleven",
+ "short": "GAL",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-marine-snow",
+ "players": [
+  {
+   "id": "aoba-gyr",
+   "name": "Aoba Gyr",
+   "short": "Aoba",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 142,
+   "tp": 140,
+   "stats": {
+    "kick": 71,
+    "body": 78,
+    "control": 56,
+    "guard": 68,
+    "speed": 67,
+    "stamina": 54,
+    "guts": 65
+   },
+   "moves": [
+    "volcano-head",
+    "volcanic-fly",
+    "beam-kobushi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Alvega Gordon",
+   "description": "Capitán de Los Magmavís. Cambió sus alas por unos poderosos brazos."
+  },
+  {
+   "id": "ogar-circes",
+   "name": "Ogar Circes",
+   "short": "Ogar",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 213,
+   "tp": 121,
+   "stats": {
+    "kick": 63,
+    "body": 63,
+    "control": 61,
+    "guard": 85,
+    "speed": 52,
+    "stamina": 89,
+    "guts": 60
+   },
+   "moves": [
+    "rock-hammer",
+    "desert-drift"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Varga Sachs",
+   "description": "Jugador del Falam Medius. Le gusta resolver las jugadas usando su fuerza."
+  },
+  {
+   "id": "ruger-baran",
+   "name": "Ruger Baran",
+   "short": "Ruger",
+   "number": 23,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 135,
+   "stats": {
+    "kick": 75,
+    "body": 66,
+    "control": 69,
+    "guard": 73,
+    "speed": 60,
+    "stamina": 55,
+    "guts": 69
+   },
+   "moves": [
+    "scream-of-eden",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ryugel Baran",
+   "description": "Jugador del Falam Medius. Hace una dupla letal con Gandares."
+  },
+  {
+   "id": "gandares-baran",
+   "name": "Gandares Baran",
+   "short": "Gandares",
+   "number": 22,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 175,
+   "tp": 130,
+   "stats": {
+    "kick": 74,
+    "body": 63,
+    "control": 68,
+    "guard": 61,
+    "speed": 58,
+    "stamina": 67,
+    "guts": 68
+   },
+   "moves": [
+    "scream-of-eden",
+    "death-scythe-low"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gandares Baran",
+   "description": "Jugador del Falam Medius. Piensa que su hermano Ruger es un genio."
+  },
+  {
+   "id": "k-aran-uogu",
+   "name": "K'aran Uogu",
+   "short": "K'aran",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 150,
+   "tp": 110,
+   "stats": {
+    "kick": 65,
+    "body": 64,
+    "control": 65,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 77,
+    "guts": 56
+   },
+   "moves": [
+    "dig-through",
+    "dust-javelin",
+    "dig-up",
+    "ogre-blade"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kazerma Worg",
+   "description": "Capitán de Los Sílice. Cree que se debería jugar limpio siempre."
+  },
+  {
+   "id": "plink-powai",
+   "name": "Plink Powai",
+   "short": "Plink",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 122,
+   "tp": 159,
+   "stats": {
+    "kick": 50,
+    "body": 56,
+    "control": 69,
+    "guard": 62,
+    "speed": 66,
+    "stamina": 59,
+    "guts": 69
+   },
+   "moves": [
+    "liquid-flow",
+    "waterfall",
+    "jackknife"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Powai Pichori",
+   "description": "Capitana de Los Naiadi. Decide su jugada viendo el pensamiento del rival."
+  },
+  {
+   "id": "rondula-flehl",
+   "name": "Rondula Flehl",
+   "short": "Rondula",
+   "number": 16,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "jackknife",
+    "god-wind"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hilary Flail",
+   "description": "Jugadora del Falam Medius. Puede manipular el agua libremente."
+  },
+  {
+   "id": "lucan",
+   "name": "Lucan",
+   "short": "Lucan",
+   "number": 17,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 117,
+   "stats": {
+    "kick": 67,
+    "body": 69,
+    "control": 66,
+    "guard": 58,
+    "speed": 53,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "gigant-vine",
+    "mushroom-hop",
+    "tentacle-hold",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Stag Kuwatta",
+   "description": "Capitán de Los Fertilia. Es el más longevo del equipo."
+  },
+  {
+   "id": "banda-crix-junior",
+   "name": "Banda Crix Junior",
+   "short": "Banda",
+   "number": 21,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 144,
+   "tp": 99,
+   "stats": {
+    "kick": 57,
+    "body": 63,
+    "control": 57,
+    "guard": 54,
+    "speed": 61,
+    "stamina": 49,
+    "guts": 96
+   },
+   "moves": [
+    "the-mist",
+    "melody-wave",
+    "mushroom-hop",
+    "gigant-vine"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Banda Koroegyu Jr.",
+   "description": "Hijo de Banda, el jugador del Fertilia Eleven que perdió la vida en el partido contra el Earth Eleven."
+  },
+  {
+   "id": "zack-avalon",
+   "name": "Zack Avalon",
+   "short": "Zack",
+   "number": 18,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 134,
+   "stats": {
+    "kick": 79,
+    "body": 72,
+    "control": 54,
+    "guard": 65,
+    "speed": 52,
+    "stamina": 79,
+    "guts": 60
+   },
+   "moves": [
+    "kabuki-break",
+    "storm-zone",
+    "great-max-na-ore"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ichikawa Zanakurou",
+   "description": "Maestro en el teatro kabuki. Mark le convenció de unirse al equipo."
+  },
+  {
+   "id": "bala-gasgula",
+   "name": "Bala Gasgula",
+   "short": "Bala",
+   "number": 19,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 147,
+   "tp": 138,
+   "stats": {
+    "kick": 72,
+    "body": 72,
+    "control": 60,
+    "guard": 69,
+    "speed": 69,
+    "stamina": 47,
+    "guts": 58
+   },
+   "moves": [
+    "kazanrai",
+    "jibashiri-kaen"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rodan Gasgus",
+   "description": "Jugador del Falam Medius. Hace uso de juego sucio para ganar."
+  },
+  {
+   "id": "jean-pierre-lapin",
+   "name": "Jean-Pierre Lapin",
+   "short": "Jean-Pierre",
+   "number": 20,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 117,
+   "tp": 140,
+   "stats": {
+    "kick": 47,
+    "body": 60,
+    "control": 56,
+    "guard": 67,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 51
+   },
+   "moves": [
+    "burning-catch",
+    "buttobi-punch",
+    "mugen-the-hand",
+    "ginga-rocket",
+    "kattobi-defense"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nishizono Shinsuke",
+   "description": "Un chico lleno de energía que ahora defiende la portería del Raimon."
+  }
+ ]
+}

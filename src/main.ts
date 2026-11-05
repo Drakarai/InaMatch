@@ -4,6 +4,8 @@ import { BootScene } from './scenes/BootScene';
 import { FormationScene } from './scenes/FormationScene';
 import { HudScene } from './scenes/HudScene';
 import { MatchScene } from './scenes/MatchScene';
+import { ClubScene } from './scenes/ClubScene';
+import { GachaScene } from './scenes/GachaScene';
 import { MenuScene } from './scenes/MenuScene';
 
 // los textos se rasterizan a la misma resolución que el lienzo (si no, se verían borrosos al ampliar)
@@ -24,7 +26,7 @@ const game = new Phaser.Game({
   backgroundColor: '#0d2547',
   scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
   // el HUD va después del partido para dibujarse encima
-  scene: [BootScene, MenuScene, FormationScene, MatchScene, HudScene],
+  scene: [BootScene, MenuScene, ClubScene, GachaScene, FormationScene, MatchScene, HudScene],
 });
 
 // útil para depurar desde la consola del navegador

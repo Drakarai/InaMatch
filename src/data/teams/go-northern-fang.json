@@ -1,0 +1,361 @@
+{
+ "id": "go-northern-fang",
+ "season": "go",
+ "wiki": "Northern Fang",
+ "name": "Colmillos del Norte",
+ "short": "NOR",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-basic",
+ "players": [
+  {
+   "id": "brutus-nastion",
+   "name": "Brutus Nastion",
+   "short": "Brutus",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 155,
+   "stats": {
+    "kick": 62,
+    "body": 58,
+    "control": 64,
+    "guard": 53,
+    "speed": 63,
+    "stamina": 70,
+    "guts": 66
+   },
+   "moves": [
+    "twin-mixer",
+    "crystal-barrier",
+    "star-reflection",
+    "shoot-break"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zanma Shido",
+   "description": "Talentoso pero muy bruto. Lo obligan a jugar de portero para evitar lesiones."
+  },
+  {
+   "id": "linder-loper",
+   "name": "Linder Loper",
+   "short": "Linder",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 169,
+   "tp": 152,
+   "stats": {
+    "kick": 58,
+    "body": 51,
+    "control": 84,
+    "guard": 66,
+    "speed": 78,
+    "stamina": 44,
+    "guts": 62
+   },
+   "moves": [
+    "the-mist",
+    "claymore",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ninba Tsukio",
+   "description": "Experto en camuflaje. Cuando no te lo esperas hace zas y aparece a tu lado."
+  },
+  {
+   "id": "jude-osbourne",
+   "name": "Jude Osbourne",
+   "short": "Jude",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 166,
+   "tp": 156,
+   "stats": {
+    "kick": 52,
+    "body": 74,
+    "control": 70,
+    "guard": 52,
+    "speed": 70,
+    "stamina": 48,
+    "guts": 59
+   },
+   "moves": [
+    "the-mist",
+    "kattobi-defense",
+    "claymore",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Naraku Kouzou",
+   "description": "Nadie le dice nada porque nunca hace caso. Habla solo y masculla a menudo."
+  },
+  {
+   "id": "locke-saflowe",
+   "name": "Locke Saflowe",
+   "short": "Locke",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 164,
+   "tp": 153,
+   "stats": {
+    "kick": 51,
+    "body": 50,
+    "control": 49,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 50,
+    "guts": 52
+   },
+   "moves": [
+    "britannia-cross",
+    "claymore",
+    "twin-mixer",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ruri Kushina",
+   "description": "Le gusta que le digan lo sedosa que es su melena. Se lo tiene muy creído."
+  },
+  {
+   "id": "nate-gobby",
+   "name": "Nate Gobby",
+   "short": "Nate",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 166,
+   "tp": 159,
+   "stats": {
+    "kick": 65,
+    "body": 56,
+    "control": 76,
+    "guard": 51,
+    "speed": 62,
+    "stamina": 51,
+    "guts": 49
+   },
+   "moves": [
+    "viva-banri-no-choujou",
+    "rocket-head",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurata Nobuki",
+   "description": "Su cara de pocos amigos achanta a más de uno. En realidad es un guasón."
+  },
+  {
+   "id": "reggie-alldark",
+   "name": "Reggie Alldark",
+   "short": "Reggie",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 105,
+   "tp": 167,
+   "stats": {
+    "kick": 53,
+    "body": 49,
+    "control": 50,
+    "guard": 43,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "the-mist",
+    "fuujin-no-mai",
+    "claymore",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yamiyo Yamaki",
+   "description": "Surge por sorpresa de las sombras y lanza impetuosos y brutales ataques."
+  },
+  {
+   "id": "bill-froger",
+   "name": "Bill Froger",
+   "short": "Bill",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 174,
+   "tp": 114,
+   "stats": {
+    "kick": 59,
+    "body": 53,
+    "control": 76,
+    "guard": 51,
+    "speed": 63,
+    "stamina": 65,
+    "guts": 56
+   },
+   "moves": [
+    "presto-turn",
+    "kattobi-defense",
+    "illusion-ball",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kaku Mizuchi",
+   "description": "Un talento nato. Suele viajar al Polo Sur para nadar con los pingüinos."
+  },
+  {
+   "id": "romeo-fitzroy",
+   "name": "Romeo Fitzroy",
+   "short": "Romeo",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 56,
+    "control": 66,
+    "guard": 46,
+    "speed": 54,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "melody-wave",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rashou Nozomu",
+   "description": "Jugador versátil de los que atacan y defienden. Bastante ligón, además."
+  },
+  {
+   "id": "caesar-lionheart",
+   "name": "Caesar Lionheart",
+   "short": "Caesar",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 157,
+   "stats": {
+    "kick": 48,
+    "body": 66,
+    "control": 65,
+    "guard": 47,
+    "speed": 49,
+    "stamina": 54,
+    "guts": 61
+   },
+   "moves": [
+    "killer-whale",
+    "claymore",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Noma Tsuyuki",
+   "description": "Muy tranquilo, pero cuando juega al fútbol se transforma en una fiera."
+  },
+  {
+   "id": "stan-roller",
+   "name": "Stan Roller",
+   "short": "Stan",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 166,
+   "tp": 143,
+   "stats": {
+    "kick": 54,
+    "body": 50,
+    "control": 57,
+    "guard": 51,
+    "speed": 79,
+    "stamina": 65,
+    "guts": 61
+   },
+   "moves": [
+    "panther-blizzard",
+    "ryuusei-blade",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shie Bandou",
+   "description": "Un coloso. Ojito con ponerte en medio cuando tira, porque arrasa con todo."
+  },
+  {
+   "id": "bracknell-forge",
+   "name": "Bracknell Forge",
+   "short": "Bracknell",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 170,
+   "tp": 144,
+   "stats": {
+    "kick": 57,
+    "body": 51,
+    "control": 51,
+    "guard": 52,
+    "speed": 49,
+    "stamina": 71,
+    "guts": 56
+   },
+   "moves": [
+    "panther-blizzard",
+    "endless-summer",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shaza Sabaki",
+   "description": "Da miedo verlo correr. Sus rivales se apartan para que no los arrolle."
+  }
+ ]
+}

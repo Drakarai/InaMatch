@@ -1,0 +1,528 @@
+{
+ "id": "vr-meiran-gakuin",
+ "season": "vr",
+ "wiki": "Meiran Gakuin",
+ "name": "Meiran Gakuin",
+ "short": "MEI",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "lilia-charmont",
+   "name": "Lilia Charmont",
+   "short": "Lilia",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "hanafubuki",
+    "shoot-pocket",
+    "power-spike",
+    "serpent-fang"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mikagami Seren",
+   "description": "Una chica rica obsesionada con los jugadores ídolo que nunca pierde la sonrisa, aunque vaya con la reserva."
+  },
+  {
+   "id": "evelyn-hale",
+   "name": "Evelyn Hale",
+   "short": "Evelyn",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "spinning-cut",
+    "sargasso",
+    "double-cyclone",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Anegasaki Seiko",
+   "description": "Una hermana mayor cariñosa de familia de médicos: cura los golpes con dulzura, pero regaña como un sargento."
+  },
+  {
+   "id": "margie-frostveil",
+   "name": "Margie Frostveil",
+   "short": "Margie",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "quick-draw",
+    "photon-flash",
+    "angel-ball",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hinagiku Himari",
+   "description": "Dulce y pegajosa con sus favoritos, pero fría como el hielo con todos los demás."
+  },
+  {
+   "id": "elara-silvane",
+   "name": "Elara Silvane",
+   "short": "Elara",
+   "number": 12,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "kage-nui",
+    "the-mist",
+    "maboroshi-dribble",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ginshou Kirei",
+   "description": "Un lobo solitario de instinto afilado que esquiva los ataques antes de que lleguen."
+  },
+  {
+   "id": "amara-winslow",
+   "name": "Amara Winslow",
+   "short": "Amara",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "coil-turn",
+    "bunshin-feint",
+    "kage-nui",
+    "future-eye"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shinomiya Kasane",
+   "description": "Una chica sociable que sabe leer el ambiente y mantiene la paz apoyando siempre a la mayoría."
+  },
+  {
+   "id": "selene-trance",
+   "name": "Selene Trance",
+   "short": "Selene",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "prima-donna",
+    "sargasso",
+    "fuujin-no-mai",
+    "the-typhoon"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kisui Miyona",
+   "description": "Tímida fuera del campo, usa la autohipnosis para cambiar el chip y jugar con una personalidad más atrevida."
+  },
+  {
+   "id": "galia-flair",
+   "name": "Galia Flair",
+   "short": "Galia",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "britannia-cross",
+    "twin-mixer",
+    "hinawa-bullet"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tenjou Amami",
+   "description": "Una fashionista alegre y llena de energía cuyas acrobacias llamativas hacen que el público pida más a gritos."
+  },
+  {
+   "id": "eliza-florence",
+   "name": "Eliza Florence",
+   "short": "Eliza",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "presto-turn",
+    "rolling-slide",
+    "acrobat-keep",
+    "britannia-cross"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kamurigi Eliza",
+   "description": "Con un físico de profesional, arrasa en el campo con fuerza bruta y jugadas a base de músculo."
+  },
+  {
+   "id": "elyse-reign",
+   "name": "Elyse Reign",
+   "short": "Elyse",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "butterfly-dream",
+    "matador-feint",
+    "rose-splash",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Housen Ranka",
+   "description": "La llaman la Reina Despiadada: juega con una habilidad elegante y una precisión implacable que destroza sueños."
+  },
+  {
+   "id": "adelina-gearhart",
+   "name": "Adelina Gearhart",
+   "short": "Adelina",
+   "number": 8,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "future-eye",
+    "thief-eye",
+    "rolling-kick",
+    "maboroshi-dribble"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ayanokouji Misao",
+   "description": "Hija de un inventor y campeona de robótica que entrena con robots que ha construido ella misma."
+  },
+  {
+   "id": "clarisse-luxe",
+   "name": "Clarisse Luxe",
+   "short": "Clarisse",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "rose-splash",
+    "honoo-no-kazamidori",
+    "prima-donna",
+    "hellfire"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kiyomizu Chizuru",
+   "description": "Enseguida quiere lo que tienen los demás, pero pierde el interés en cuanto es suyo."
+  },
+  {
+   "id": "talia-jester",
+   "name": "Talia Jester",
+   "short": "Talia",
+   "number": 2,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "kaenhousha",
+    "dai-bakuhatsu-harite",
+    "burning-catch",
+    "double-rocket"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kazakari Emiri",
+   "description": "Un animador hablador que suelta chistes, tengan gracia o no."
+  },
+  {
+   "id": "celina-lavelle",
+   "name": "Celina Lavelle",
+   "short": "Celina",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "rainbow-loop",
+    "prima-donna",
+    "butterfly-dream",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Miyabina Reika",
+   "description": "Una modelo nacida para la fama que exige perfección a su grupo y el doble a sí misma."
+  },
+  {
+   "id": "kiyora-asakiri",
+   "name": "Kiyora Asakiri",
+   "short": "Kiyora",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "shippuu-dash",
+    "zanzou",
+    "bunshin-feint",
+    "bunshin-defense"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Asagiri Kiyora",
+   "description": "Criada por samuráis, juega con respeto y obedece las órdenes como si fuera lo más natural."
+  },
+  {
+   "id": "lenora-graves",
+   "name": "Lenora Graves",
+   "short": "Lenora",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "phantom-shoot",
+    "zanzou",
+    "onryou",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Misono Rena",
+   "description": "Vive en una mansión encantada y recita conjuros siniestros en mitad del partido como si fuera lo más normal."
+  },
+  {
+   "id": "liliane-alban",
+   "name": "Liliane Alban",
+   "short": "Liliane",
+   "number": 15,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "rose-splash",
+    "prima-donna",
+    "butterfly-dream",
+    "matador-feint"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shirayuri Sakiha",
+   "description": "Se derrite con los momentos monos entre chicas y convierte cada chispa de romance en material para su manga."
+  }
+ ]
+}

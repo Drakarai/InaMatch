@@ -1,0 +1,527 @@
+{
+ "id": "vr-tenshou-zeus",
+ "season": "vr",
+ "wiki": "Tenshou-Zeus",
+ "name": "Tenshou-Zeus",
+ "short": "TEN",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "garci-stormdale",
+   "name": "Garci Stormdale",
+   "short": "Garci",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "god-hand",
+    "gigant-wall",
+    "god-catch",
+    "makiwari-chop"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Susano Ouji",
+   "description": "Nunca está agitado o siente presión. Es tan imperturbable, que hasta los pájaros lo usan de poste."
+  },
+  {
+   "id": "patrie-ambrosia",
+   "name": "Patrie Ambrosia",
+   "short": "Patrie",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "the-tower",
+    "photon-flash",
+    "go-to-heaven",
+    "soyoyagi-step"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Patry Ambrosia",
+   "description": "Mantiene las distancias y se muestra indiferente, pero tras bambalinas, es la que más se esfuerza."
+  },
+  {
+   "id": "garrick-loventhal",
+   "name": "Garrick Loventhal",
+   "short": "Garrick",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "go-to-heaven",
+    "deep-mist",
+    "love-arrow",
+    "heaven-s-time"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Enoguchi Aijirou",
+   "description": "Un sólido defensa con mucho tirón, que marca a su rival sin dejarle escapar."
+  },
+  {
+   "id": "sampa-eonius",
+   "name": "Sampa Eonius",
+   "short": "Sampa",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "dash-storm",
+    "grand-sweeper",
+    "divine-arrow",
+    "kattobi-defense"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Haie Kuon",
+   "description": "Obsesionado con las reglas y la precisión. Le enorgullece que le llamen \"profesor\"."
+  },
+  {
+   "id": "kenard-montemar",
+   "name": "Kenard Montemar",
+   "short": "Kenard",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "the-mountain",
+    "harvest",
+    "atlantis-wall",
+    "gravestone"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yamatsumi Kenou",
+   "description": "Defiende con movimientos específicos, mínimos y exactos. Para a todo que se le cruce por delante."
+  },
+  {
+   "id": "atol-lasalle",
+   "name": "Atol Lasalle",
+   "short": "Atol",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "britannia-cross",
+    "angel-ball",
+    "god-wind",
+    "soyoyagi-step"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Atora Suuri",
+   "description": "Siempre es el primero en irse de clase. Dentro del campo, juega con unas reglas que solo él conoce."
+  },
+  {
+   "id": "revea-ristair",
+   "name": "Revea Ristair",
+   "short": "Revea",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "senpuujin",
+    "prima-donna",
+    "the-ikaros",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Uzukami Uzume",
+   "description": "Es la pasión del equipo que hace cobrar vida a cada jugada, incluso cuando las rarezas del equipo la dejan en un apuro."
+  },
+  {
+   "id": "harald-monet",
+   "name": "Harald Monet",
+   "short": "Harald",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "olympus-harmony",
+    "aurora-dribble",
+    "fortissimo",
+    "prime-legend"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Harutani Moa",
+   "description": "Se le da bien leer el ambiente. Lanza pases milimétricos por la espalda como si tuviera ojos en la nuca."
+  },
+  {
+   "id": "ciro-zealon",
+   "name": "Ciro Zealon",
+   "short": "Ciro",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "heaven-drive",
+    "fuujin-no-mai",
+    "twin-mixer",
+    "heat-tackle"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Zerosu Retsushi",
+   "description": "Vive por el caos y se sumerge en la acción, especialmente cuando el capitán lo deja salir al campo."
+  },
+  {
+   "id": "thaddeus-bellefax",
+   "name": "Thaddeus Bellefax",
+   "short": "Thaddeus",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "heaven-s-time",
+    "god-knows",
+    "god-break"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Teita Tanji",
+   "description": "Cree fervientemente en la divinidad de Aphrody. Se transforma en un jugador diferente al comenzar el partido."
+  },
+  {
+   "id": "riza-nagivar",
+   "name": "Riza Nagivar",
+   "short": "Riza",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "tenchi-raimei",
+    "ogre-blade",
+    "heaven-s-time",
+    "flying-fish"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Izana Giyuu",
+   "description": "Resuelve sus problemas con las botas y no para coronarse como el delantero número uno del equipo."
+  },
+  {
+   "id": "cate-heckel",
+   "name": "Cate Heckel",
+   "short": "Cate",
+   "number": 12,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "divine-arrow",
+    "meteor-shower",
+    "britannia-cross",
+    "fractal-house"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hekate Meika",
+   "description": "Esta chica, que antes era tímida, es tranquila fuera del campo, pero feroz durante los partidos. Verás lo que es bueno si la haces enfadar."
+  },
+  {
+   "id": "iskandar-tarusian",
+   "name": "Iskandar Tarusian",
+   "short": "Iskandar",
+   "number": 13,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "gigant-wall",
+    "tsunami-wall",
+    "hydro-anchor",
+    "makiwari-chop"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Otaruda Rousuke",
+   "description": "Calmado e inalterable en el momento de marcar. Atrapa cada gol como si tuviese dos agujeros negros por las manos."
+  },
+  {
+   "id": "orisa-namir",
+   "name": "Orisa Namir",
+   "short": "Orisa",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "heat-tackle",
+    "dash-storm",
+    "heaven-drive",
+    "naraku-otoshi"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Izana Mitsuji",
+   "description": "Siempre aparece en el momento más oportuno. Es un hábito que adquirió al tener que cubrir siempre las espaldas a su hermano."
+  },
+  {
+   "id": "burke-forzane",
+   "name": "Burke Forzane",
+   "short": "Burke",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "mega-quake",
+    "stone-prison",
+    "perfect-tower",
+    "block-circus"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tajikarao Iwafumi",
+   "description": "Fuerte como un buey, pero nunca se altera. Prefiere ir a su ritmo que seguir a otros jugadores."
+  },
+  {
+   "id": "kazimir-stormblade",
+   "name": "Kazimir Stormblade",
+   "short": "Kazimir",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "shinkuuma",
+    "odin-sword",
+    "round-spark",
+    "gladius-arch"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mikazuchi Jinya",
+   "description": "Rápido como un relámpago y astuto como pocos. Se desliza usando huecos libres y marca sin previo aviso."
+  }
+ ]
+}

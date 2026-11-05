@@ -1,0 +1,526 @@
+{
+ "id": "ares-hakuren-ares",
+ "season": "ares",
+ "wiki": "Hakuren (Ares)",
+ "name": "Hakuren (Ares)",
+ "short": "HAK",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-3-4-3",
+ "players": [
+  {
+   "id": "adam-ropes",
+   "name": "Adam Ropes",
+   "short": "Adam",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "aurora-curtain",
+    "kogarashi",
+    "ice-ground",
+    "double-cyclone"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hakoda Tetsu",
+   "description": "Puede que no lo parezca, pero le encantan las puestas de sol románticas."
+  },
+  {
+   "id": "joaquine-downtown",
+   "name": "Joaquine Downtown",
+   "short": "Joaquine",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 101,
+   "tp": 159,
+   "stats": {
+    "kick": 58,
+    "body": 63,
+    "control": 60,
+    "guard": 68,
+    "speed": 57,
+    "stamina": 51,
+    "guts": 72
+   },
+   "moves": [
+    "ice-ground",
+    "good-smell",
+    "rainbow-loop",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Matoro Juka",
+   "description": "Aunque la tumben, se levanta de nuevo llena de energía."
+  },
+  {
+   "id": "milton-bindings",
+   "name": "Milton Bindings",
+   "short": "Milton",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "onryou",
+    "ice-ground",
+    "run-ball-run",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Oshiya Manbe",
+   "description": "Le encanta el marisco y lleva una reserva de emergencia para picar en los partidos."
+  },
+  {
+   "id": "spike-gleeson",
+   "name": "Spike Gleeson",
+   "short": "Spike",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "tamanori-pierrot",
+    "doppelganger",
+    "kumo-no-ito",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mabuka Souji",
+   "description": "Se toma muy en serio sus gafas de sol y cambia de diseño en los partidos importantes. Por desgracia, nadie se da cuenta."
+  },
+  {
+   "id": "sean-snowfield",
+   "name": "Sean Snowfield",
+   "short": "Sean",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "ushiro-no-shoumen",
+    "super-shikofumi",
+    "mega-quake",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yukino Seiya",
+   "description": "Estudia los copos de nieve y ha llenado treinta libretas con sus observaciones."
+  },
+  {
+   "id": "kerry-bootgaiter",
+   "name": "Kerry Bootgaiter",
+   "short": "Kerry",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 143,
+   "stats": {
+    "kick": 62,
+    "body": 58,
+    "control": 62,
+    "guard": 59,
+    "speed": 68,
+    "stamina": 42,
+    "guts": 64
+   },
+   "moves": [
+    "tatsumaki-senpuu",
+    "ushiro-no-shoumen",
+    "maboroshi-dribble",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Araya Konko",
+   "description": "Cuando la nieve cuaja está tan alegre que sale a jugar al jardín."
+  },
+  {
+   "id": "maddox-rock",
+   "name": "Maddox Rock",
+   "short": "Maddox",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "maboroshi-dribble",
+    "hitori-one-two",
+    "kurukuru-head",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Iya Mafuru",
+   "description": "Baja esquiando en línea recta por cualquier pendiente, por empinada que sea."
+  },
+  {
+   "id": "robert-skipolson",
+   "name": "Robert Skipolson",
+   "short": "Skipolson",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "suisei-shoot",
+    "cross-drive",
+    "hawk-shot",
+    "maboroshi-dribble"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sorano Rebun",
+   "description": "Este chico vino del lejano norte y le encantan los arenques en vinagre."
+  },
+  {
+   "id": "shawn-froste",
+   "name": "Shawn Froste",
+   "short": "Shawn",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 63,
+    "control": 68,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "white-double-impact",
+    "ice-ground",
+    "aurora-dribble",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "Anteriormente conocido como el \"Cazador de Osos\". Su temperamento tranquilo oculta un estilo de juego poderoso."
+  },
+  {
+   "id": "aiden-froste",
+   "name": "Aiden Froste",
+   "short": "Aiden",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 132,
+   "tp": 173,
+   "stats": {
+    "kick": 84,
+    "body": 62,
+    "control": 77,
+    "guard": 63,
+    "speed": 84,
+    "stamina": 56,
+    "guts": 77
+   },
+   "moves": [
+    "hissatsu-kumagoroshi-baku",
+    "hissatsu-kumagoroshi-zan"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fubuki Atsuya",
+   "description": "El hermano menor de Shiro Fubuki y delantero estrella del Hakuren. El estilo de juego provocativo y aparentemente imprudente es una estrategia que puede inquietar al enemigo e interrumpir el trabajo en equipo."
+  },
+  {
+   "id": "quentin-rackner",
+   "name": "Quentin Rackner",
+   "short": "Quentin",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "freeze-shot",
+    "shippuu-dash",
+    "kamaitachi",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kitami Ryuu",
+   "description": "Este misterioso vagabundo aparece y se une al equipo cada invierno."
+  },
+  {
+   "id": "roland-climbstein",
+   "name": "Roland Climbstein",
+   "short": "Roland",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "freeze-shot",
+    "ice-ground",
+    "eternal-blizzard",
+    "northern-impact"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hyoujou Retsuto",
+   "description": "La fuerza de su torso, ganada con el snowboard, es su arma. Experto en todos los deportes de invierno."
+  },
+  {
+   "id": "robert-cottontail",
+   "name": "Robert Cottontail",
+   "short": "Cottontail",
+   "number": 15,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "chabudai-gaeshi",
+    "toughness-block",
+    "gyro-saving",
+    "ijigen-the-hand"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shiratoya Kanbee",
+   "description": "Director general de Rabbit Food y mánager del Alpino, y además un padre entregado a su hija, Bunny."
+  },
+  {
+   "id": "mila-simmering",
+   "name": "Mila Simmering",
+   "short": "Mila",
+   "number": 16,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "ice-ground",
+    "aurora-dribble",
+    "freeze-shot",
+    "moonsault"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Okamine Kanna",
+   "description": "Mantiene al equipo calentito con comidas contundentes, sobre todo con jengibre para combatir el frío."
+  },
+  {
+   "id": "bunny-cottontail",
+   "name": "Bunny Cottontail",
+   "short": "Bunny",
+   "number": 17,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "shirousagi-dashoot",
+    "aurora-dribble",
+    "bouncer-rabbit",
+    "magical-flower"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shiratoya Nae",
+   "description": "La animada heredera de Rabbit Food es nueva en el fútbol, pero tiene unas dotes atléticas extraordinarias."
+  },
+  {
+   "id": "kevin-dragonfly",
+   "name": "Kevin Dragonfly",
+   "short": "Kevin",
+   "number": 19,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 122,
+   "stats": {
+    "kick": 68,
+    "body": 58,
+    "control": 43,
+    "guard": 45,
+    "speed": 49,
+    "stamina": 73,
+    "guts": 52
+   },
+   "moves": [
+    "dragon-crash",
+    "dragon-tornado",
+    "wyvern-crash",
+    "wyvern-blizzard"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Someoka Ryuugo",
+   "description": "Chico impulsivo que se preocupa mucho por sus compañeros. Se esfuerza por mejorar."
+  }
+ ]
+}

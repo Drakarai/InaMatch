@@ -14,6 +14,7 @@ Por cada temporada (juego):
 Uso (desde la raíz del repo): python3 -I tools/wiki/teams.py
 Escribe src/data/teams/*.json, src/data/moves.json y src/data/formations.json.
 """
+import bisect
 import glob
 import hashlib
 import json
@@ -37,8 +38,21 @@ SEASONS = [
     ('ie1', 'IE', 'Inazuma Eleven', ['IE', 'IE2', 'IE3']),
     ('ie2', 'IE2', 'Inazuma Eleven 2', ['IE2', 'IE', 'IE3']),
     ('ie3', 'IE3', 'Inazuma Eleven 3', ['IE3', 'IE2', 'IE']),
+    ('go', 'GO', 'Inazuma Eleven GO', ['GO', 'CS', 'GX', 'VR']),
+    ('cs', 'CS', 'Inazuma Eleven GO 2: Chrono Stone', ['CS', 'GO', 'GX', 'VR']),
+    ('gx', 'GX', 'Inazuma Eleven GO Galaxy', ['GX', 'CS', 'GO', 'VR']),
+    # Ares y Orión no tienen juego: sus equipos son los de sus módulos (AT y OK) y las técnicas, las de Victory Road
+    ('ares', 'AT', None, ['VR', 'AT', 'OK', 'GX', 'CS', 'GO']),
+    ('orion', 'OK', None, ['VR', 'OK', 'AT', 'GX', 'CS', 'GO']),
+    ('vr', 'VR', None, ['VR', 'GX', 'CS', 'GO', 'IE3', 'IE2', 'IE']),
 ]
-GAME_TAB = {g: tab for _, g, tab, _ in SEASONS}
+GAME_TAB = {g: tab for _, g, tab, _ in SEASONS if tab}
+GO_GAMES = ('GO', 'CS', 'GX', 'VR', 'AT', 'OK')
+# Juego de cada ficha de Inazugle (zukan.inazuma.jp), para los atributos de Victory Road
+ZUKAN_GAME = {
+    'IE': 'Inazuma Eleven', 'IE2': 'Inazuma Eleven 2', 'IE3': 'Inazuma Eleven 3', 'GO': 'Inazuma Eleven GO:',
+    'CS': 'Chrono Stones', 'GX': 'Galaxy', 'ares': 'Ares', 'orion': 'Orion', 'VR': 'Victory Road',
+}
 
 ELEMENT = {'Fire': 'fire', 'Wind': 'wind', 'Forest': 'wood', 'Mountain': 'earth', 'Void': 'neutral'}
 KIND = {'SH': 'shoot', 'OF': 'dribble', 'DF': 'block', 'GK': 'catch'}
@@ -169,14 +183,33 @@ EXTRA = {
 # Descripciones en español puestas a mano (por página del jugador en la wiki inglesa) para los que no
 # tienen la oficial en la wiki española: traducidas de la inglesa o escritas a partir de su historia.
 # También nombres que la wiki no trae bien.
+# Descripciones traducidas del inglés (de la wiki inglesa o de Inazugle) para los jugadores que no tienen la
+# oficial en español en la wiki española, por la página del jugador en la wiki inglesa.
+TRANSLATED = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'descripciones_traducidas.json'), encoding='utf-8'))
 OVERRIDES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'overrides.json'), encoding='utf-8'))
 
 
 ES_API = 'https://inazuma.fandom.com/es/api.php'
 
 
+CACHE_DIR = os.path.join(ROOT, 'tools', 'wiki', '.cache', 'api')
+
+
 def api(params, url=API):
+    """Petición a la wiki. Las respuestas se guardan en tools/wiki/.cache/api: bórrala para bajarlo todo de nuevo."""
     params = {**params, 'format': 'json', 'formatversion': '2'}
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    cached = os.path.join(CACHE_DIR, hashlib.md5((url + json.dumps(params, sort_keys=True)).encode()).hexdigest() + '.json')
+    if os.path.exists(cached):
+        with open(cached, encoding='utf-8') as f:
+            return json.load(f)
+    data = _api(params, url)
+    with open(cached, 'w', encoding='utf-8') as f:
+        json.dump(data, f)
+    return data
+
+
+def _api(params, url):
     req = urllib.request.Request(url + '?' + urllib.parse.urlencode(params), headers={'User-Agent': UA})
     for attempt in range(4):
         try:
@@ -232,19 +265,42 @@ def per_game(v, order):
 
 # ------------------------------------------------------------------ módulos
 print('descargando módulos...', file=sys.stderr)
-mods = fetch_pages(['Module:PlayerData/IE', 'Module:PlayerData/IE2', 'Module:PlayerData/IE3', 'Module:WazaData', 'Module:FormationData'])
-BY_GAME = {g: parse_module(content(mods[f'Module:PlayerData/{g}']), 'PLAYERS') for g in ('IE', 'IE2', 'IE3')}
+ALL_GAMES = ('IE', 'IE2', 'IE3') + GO_GAMES
+mods = fetch_pages([f'Module:PlayerData/{g}' for g in ALL_GAMES] + ['Module:WazaData', 'Module:FormationData'])
+BY_GAME = {g: parse_module(content(mods[f'Module:PlayerData/{g}']), 'PLAYERS') for g in ALL_GAMES}
 PLAYERS = {}
 for g in ('IE', 'IE2', 'IE3'):
     PLAYERS.update(BY_GAME[g])
+# los módulos de la era GO repiten claves (cada juego tiene su ficha del personaje): van con prefijo
+for g in GO_GAMES:
+    for k, v in BY_GAME[g].items():
+        PLAYERS[f'{g}:{k}'] = v
+
+
+def rkey(k, game):
+    """Clave en PLAYERS de un jugador de la tabla de miembros (o del grupo) de un juego."""
+    if game in GO_GAMES:
+        for g in (game,) + GO_GAMES:
+            if f'{g}:{k}' in PLAYERS:
+                return f'{g}:{k}'
+    if k in PLAYERS:
+        return k
+    return next((f'{g}:{k}' for g in GO_GAMES if f'{g}:{k}' in PLAYERS), None)
+
+
+ZUKAN = {}
+ZUKAN_ALL = {}
+for c in json.load(open(os.path.join(ROOT, 'tools', 'zukan', 'charas.json'), encoding='utf-8')):
+    if len(c['stats']) == 7:
+        ZUKAN.setdefault(c['name'].lower(), []).append(c)
 WAZA = parse_module(content(mods['Module:WazaData']), 'WAZAS')
 FORMATION = parse_module(content(mods['Module:FormationData']), 'FORMATION')
 
 
 def member_table(text, game):
     """Primera tabla de miembros del juego: [(clave, dorsal, capitán)]."""
-    for body in re.findall(r'\{\{#invoke:MemberTable\|main\s*\n(.*?)\}\}\s*(?:\n|$)', text, re.S):
-        if not re.search(r'\|game=%s\s*(?:\n|\|)' % game, body):
+    for head, body in re.findall(r'\{\{#invoke:MemberTable\|main([^\n]*)\n(.*?)\}\}\s*(?:\n|$)', text, re.S):
+        if not re.search(r'\|game=%s\s*(?:\n|\||$)' % game, head + '\n' + body):
             continue
         fields = dict(re.findall(r'\|(\w+)=([^|\n]*)', body))
         rows = []
@@ -269,19 +325,21 @@ for season, game, _tab, order in SEASONS:
     for k, v in BY_GAME[game].items():
         groups.setdefault(v.get('__group__'), []).append(k)
     names = [g for g in groups if g and g != 'Scouts']
-    pages = fetch_pages(names, {'prop': 'revisions|langlinks', 'lllang': 'es', 'lllimit': 'max'})
-    for name in names:
+    pages = fetch_pages([re.sub(r'\s*\(WIP[^)]*\)', '', n).split('/')[-1] for n in names], {'prop': 'revisions|langlinks', 'lllang': 'es', 'lllimit': 'max'})
+    for gname in names:
+        name = re.sub(r'\s*\(WIP[^)]*\)', '', gname).split('/')[-1]
         page = pages.get(name)
         text = content(page) if page else ''
-        rows = member_table(text, game)
+        rows = member_table(text, 'VR' if game in ('AT', 'OK') else game)
         keys = [r[0] for r in rows]
-        for k in groups[name]:  # si la tabla está incompleta, se completa con el grupo del módulo
+        for k in groups[gname]:  # si la tabla está incompleta, se completa con el grupo del módulo
             if len(rows) >= 16:
                 break
             if k not in keys:
                 rows.append((k, None, False))
                 keys.append(k)
-        rows = [r for r in rows if r[0] in PLAYERS]
+        rows = [(rkey(k, game), no, c) for k, no, c in rows]
+        rows = [r for r in rows if r[0]]
         rosters.append((season, game, order, name, rows, formation_of(text, game), page))
     print(f'{season}: {len(names)} grupos', file=sys.stderr)
     # equipos extra (versiones mejoradas, selecciones, equipos secretos): solo con la tabla de su página
@@ -289,21 +347,38 @@ for season, game, _tab, order in SEASONS:
     for name in EXTRA.get(season, []):
         page = extra.get(name)
         text = content(page) if page else ''
-        rows = [r for r in member_table(text, game) if r[0] in PLAYERS]
+        rows = [(rkey(k, game), no, c) for k, no, c in member_table(text, game)]
+        rows = [r for r in rows if r[0]]
         rosters.append((season, game, order, name, rows, formation_of(text, game), page))
 
-player_pages = sorted({PLAYERS[r[0]]['page'] for t in rosters for r in t[4] if PLAYERS[r[0]].get('page')})
+# Ojeadores (los jugadores que se fichan en los juegos y no son de ningún equipo): el grupo "Scouts" de cada
+# módulo. Si uno sale en varios juegos, se queda la ficha del más reciente.
+SCOUT_SEASON = {'IE': 'ie1', 'IE2': 'ie2', 'IE3': 'ie3', 'GO': 'go', 'CS': 'cs', 'GX': 'gx', 'VR': 'vr', 'AT': 'ares', 'OK': 'orion'}
+in_teams = {PLAYERS[r[0]].get('page') for t in rosters for r in t[4]}
+scout_rows = {}
+for g in ALL_GAMES:
+    for k, v in BY_GAME[g].items():
+        if v.get('__group__') == 'Scouts' and v.get('page') and v['page'] not in in_teams:
+            key = rkey(k, g)
+            season = SCOUT_SEASON[g]
+            scout_rows[v['page']] = (season, g, next(x[3] for x in SEASONS if x[0] == season), key)
+print('ojeadores:', len(scout_rows), file=sys.stderr)
+
+player_pages = sorted({PLAYERS[r[0]]['page'] for t in rosters for r in t[4] if PLAYERS[r[0]].get('page')} | set(scout_rows))
 print('jugadores distintos:', len(player_pages), file=sys.stderr)
 char_pages = fetch_pages(player_pages, {'prop': 'revisions|langlinks', 'lllang': 'es', 'lllimit': 'max'})
 
 STAT_KEYS = {'GP': 'fp', 'TP': 'tp', 'Kick': 'kick', 'Body': 'body', 'Control': 'control', 'Guard': 'guard', 'Speed': 'speed', 'Stamina': 'stamina', 'Guts': 'guts'}
+# los juegos GO tienen otros atributos: se pasan a la escala de IE3 al final (normalize_stats)
+STAT_KEYS_GO = {'GP': 'fp', 'TP': 'tp', 'Kick': 'kick', 'Dribbling': 'dribbling', 'Technique': 'technique', 'Block': 'block',
+                'Speed': 'speed', 'Stamina': 'stamina', 'Catch': 'catch', 'Lucky': 'lucky'}
 
 
 def params_for(text, game):
     """Atributos (nivel 99) de la pestaña de ese juego en la sección ==Parameters==.
     En IE1 hay versión japonesa y europea: se usa la europea, que es la que se jugó aquí."""
     sec = re.search(r'==\s*Parameters\s*==(.*?)(?:\n==[^=]|$)', text, re.S)
-    if not sec:
+    if not sec or game not in GAME_TAB:
         return None
     m = re.search(r'\|\s*%s\s*\|(.*?)(?:\n\|[^|\n]+\||\n\}\})' % re.escape(GAME_TAB[game]), sec.group(1), re.S)
     if not m:
@@ -312,8 +387,24 @@ def params_for(text, game):
     eu = re.search(r';\s*European version(.*?)(?:\n;|$)', block, re.S)
     block = (eu.group(1) if eu else block).split('----')[0]
     vals = dict(re.findall(r"\*'''(\w+)''':\s*(\d+)", block))
-    out = {STAT_KEYS[k]: int(v) for k, v in vals.items() if k in STAT_KEYS}
-    return out if len(out) == len(STAT_KEYS) else None
+    keys = STAT_KEYS_GO if game in GO_GAMES else STAT_KEYS
+    out = {keys[k]: int(v) for k, v in vals.items() if k in keys}
+    if len(out) != len(keys):
+        return None
+    out['_src'] = 'go' if game in GO_GAMES else 'ie'
+    return out
+
+
+def zukan_for(name, games):
+    """Parámetros de Victory Road de Inazugle (por el nombre del doblaje), de la ficha del juego más parecido."""
+    cands = ZUKAN.get((name or '').lower())
+    if not cands:
+        return None
+    for g in games:
+        for c in cands:
+            if ZUKAN_GAME.get(g, '~') in c['game']:
+                return {**c['stats'], '_src': 'vr'}
+    return {**cands[0]['stats'], '_src': 'vr'}
 
 
 def dub_name(text, title=''):
@@ -333,7 +424,57 @@ es_titles = {p: page['langlinks'][0]['title'] for p, page in char_pages.items() 
 for p, page in char_pages.items():
     if p not in es_titles and (dub := dub_name(content(page), p)):
         es_titles[p] = dub
+
+
+def es_category(title, seen=None):
+    """Páginas de una categoría de la wiki española y de sus subcategorías."""
+    seen = seen if seen is not None else set()
+    out, cont = [], {}
+    while True:
+        q = api({'action': 'query', 'list': 'categorymembers', 'cmtitle': title, 'cmlimit': 'max', **cont}, ES_API)
+        for m in q['query']['categorymembers']:
+            if m['ns'] == 14 and m['title'] not in seen:
+                seen.add(m['title'])
+                out += es_category(m['title'], seen)
+            elif m['ns'] == 0:
+                out.append(m['title'])
+        if 'continue' not in q:
+            return out
+        cont = q['continue']
+
+
+def romaji(s):
+    """Nombre japonés comparable entre wikis: sin macrones ni vocales dobles, sin orden de nombre y apellido."""
+    s = unicodedata.normalize('NFKD', s.lower())
+    s = ''.join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r'[^a-z ]', ' ', s).replace('ou', 'o').replace('uu', 'u').replace('oo', 'o').replace('ei', 'e')
+    return ' '.join(sorted(s.split()))
+
+
+# Fichas de personajes de la wiki española: muchas no tienen enlace desde la inglesa ni se llaman como en el
+# doblaje inglés. Se emparejan por su enlace a la wiki inglesa y por el nombre japonés de la ficha.
+es_char_titles = sorted(set(es_category('Categoría:Personajes')))
+es_char_pages = fetch_pages(es_char_titles, {'prop': 'revisions|langlinks', 'lllang': 'en', 'lllimit': 'max'}, url=ES_API)
+by_en_link, by_romaji = {}, {}
+for t, pg in es_char_pages.items():
+    for ll in pg.get('langlinks', []):
+        by_en_link.setdefault(ll['title'], pg['title'])
+    jp = re.search(r'\|\s*Nombre JP\s*=([^\n]*)', content(pg))
+    if jp:
+        for r in re.findall(r'R\s*=\s*([^|}]+)', jp.group(1)) + re.split(r'<br\s*/?>', re.sub(r'\{\{.*?\}\}', '', jp.group(1))):
+            if r.strip():
+                by_romaji.setdefault(romaji(r), pg['title'])
 es_pages = fetch_pages(sorted(set(es_titles.values())), url=ES_API)
+es_pages.update({pg['title']: pg for pg in es_char_pages.values()})
+found = 0
+for p in char_pages:
+    if content(es_pages.get(es_titles.get(p, ''), {})):
+        continue
+    t = by_en_link.get(p) or by_romaji.get(romaji(p))
+    if t and t in es_pages:
+        es_titles[p] = t
+        found += 1
+print('fichas de la wiki española:', len(es_char_pages), '| emparejadas por enlace o nombre japonés:', found, file=sys.stderr)
 print('jugadores con página en la wiki española:', sum(1 for t in es_titles.values() if content(es_pages.get(t, {}))), file=sys.stderr)
 
 # Los que siguen sin página: en el juego español algunos se llaman distinto (Umi Hwang es Umi Wang; los de
@@ -393,7 +534,9 @@ es_pages.update(fetch_pages(sorted(set(es_by_player.values()) - set(es_pages)), 
 print('encontrados en las tablas de equipo de la wiki española:', len(es_by_player), file=sys.stderr)
 
 
-ES_DESC = {'IE': ('IE', 'Descripción IE'), 'IE2': ('IE 2', 'Descripción IE2'), 'IE3': ('IE 3', 'Descripción IE3')}
+ES_DESC = {'IE': ('IE', 'Descripción IE'), 'IE2': ('IE 2', 'Descripción IE2'), 'IE3': ('IE 3', 'Descripción IE3'),
+           'GO': ('IE GO', 'Descripción IEGO'), 'CS': ('IE GO 2', 'Descripción IEGO2'), 'GX': ('IE GO 3', 'Descripción IEGO3'),
+           'VR': ('IE HVR', 'Descripción IEHVR'), 'AT': ('IE HVR', 'Descripción IEHVR'), 'OK': ('IE HVR', 'Descripción IEHVR')}
 
 
 def clean_wiki(t):
@@ -403,7 +546,7 @@ def clean_wiki(t):
     return re.sub(r"'''?|\s+", ' ', t).strip()
 
 
-GAME_NO = {'IE': 1, 'IE2': 2, 'IE3': 3}
+GAME_NO = {'IE': ('IE', 1), 'IE2': ('IE', 2), 'IE3': ('IE', 3), 'GO': ('GO', 1), 'CS': ('GO', 2), 'GX': ('GO', 3), 'VR': ('HVR', 1), 'AT': ('HVR', 1), 'OK': ('HVR', 1)}
 END = r'(?=\n\s*\||\}\}\s*(?:\n|$))'  # fin de un parámetro: el siguiente o el cierre de la plantilla
 
 
@@ -420,24 +563,61 @@ def es_text_of(body):
     return clean_wiki(body) if body else None
 
 
+def param_values(text, param):
+    """Valores de "|<param> = ..." en las plantillas, contando llaves: el valor acaba en el siguiente parámetro
+    de la misma plantilla o en su cierre, aunque dentro haya otras plantillas ({{Aviso...}}, {{ES}}...)."""
+    out = []
+    for m in re.finditer(r'\|\s*%s\s*=' % re.escape(param), text):
+        i, depth = m.end(), 0
+        while i < len(text):
+            if text.startswith('{{', i):
+                depth += 1
+                i += 2
+                continue
+            if text.startswith('}}', i):
+                if depth == 0:
+                    break
+                depth -= 1
+                i += 2
+                continue
+            if depth == 0 and text[i] == '\n' and re.match(r'\n\s*\|', text[i:]):
+                break
+            i += 1
+        out.append(text[m.end():i])
+    return out
+
+
 def description_es(text, game):
     """Descripción oficial en español del juego, de las plantillas de la sección de descripción:
     - el parámetro "Descripción IE3 = ..." (o IE2, o IE) de {{Descripción/IE 3 | ...}} o {{Descripción | ...}};
     - {{Descripción/IE | Descripción = ...}} (IE1);
     - {{Descripción/Varios | IE = {{IE|J|IE 2-3}} | Descripción = ...}}, la misma para varios juegos."""
     _tpl, param = ES_DESC[game]
-    bodies = [m.group(1) for m in re.finditer(r'\|\s*%s\s*=(.*?)%s' % (re.escape(param), END), text, re.S)]
+    bodies = param_values(text, param)
     if game == 'IE':
         bodies += re.findall(r'\{\{Descripci[oó]n/IE\s*\|(?:[^{}]|\{\{[^{}]*\}\})*?\|\s*Descripci[oó]n\s*=(.*?)%s' % END, text, re.S)
     for m in re.finditer(r'\{\{Descripci[oó]n/Varios\s*\|\s*IE\s*=\s*\{\{IE\|[^|}]*\|([^}]*)\}\}\s*\|\s*Descripci[oó]n\s*=(.*?)%s' % END, text, re.S):
-        r = re.search(r'IE (\d)(?:-(\d))?$', m.group(1).strip())
-        games = range(int(r.group(1)), int(r.group(2) or r.group(1)) + 1) if r else range(1, 4) if 'Mark' in m.group(1) else ()
-        if GAME_NO[game] in games:
+        label = m.group(1).strip()
+        series = 'GO' if ' GO' in label else 'HVR' if 'HVR' in label else 'IE'
+        r = re.search(r'(\d)(?:-(\d))?$', label)
+        games = range(int(r.group(1)), int(r.group(2) or r.group(1)) + 1) if r else range(1, 4) if 'Mark' in label or series == 'HVR' else ()
+        if GAME_NO[game][0] == series and GAME_NO[game][1] in games:
             bodies.append(m.group(2))
     for body in bodies:
         if 'Aviso' in body:
-            continue
+            # Galaxy no salió en España: la wiki pone su propia traducción, después del aviso
+            if game != 'GX' or '----' not in body:
+                continue
+            body = body.split('----', 1)[1]
         if out := es_text_of(body):
+            return out
+    return None
+
+
+def description_es_any(text):
+    """Último recurso: cualquier descripción oficial en español de la ficha ({{Descripción | Descripción = ...}})."""
+    for body in param_values(text, 'Descripción'):
+        if 'Aviso' not in body and (out := es_text_of(body)):
             return out
     return None
 
@@ -451,17 +631,50 @@ CATALOG = {m['en']: m for m in json.load(open(os.path.join(ROOT, 'data', 'tecnic
 moves_used = {}
 
 
+def gv(field, game):
+    """Valor numérico de un dato de WazaData en un juego (los de solo Victory Road vienen sin juego)."""
+    v = field.get(game) if isinstance(field, dict) else field if game == 'VR' else None
+    return v if isinstance(v, (int, float)) and not isinstance(v, bool) else None
+
+
+QMAP = {}
+
+
+def to_ie_scale(field, w):
+    """Potencia o coste en la escala de IE3. Las técnicas de la era GO no tienen dato de IE3: se pasa su valor
+    del juego más cercano por percentiles (la misma posición entre las técnicas de su tipo en ese juego que
+    entre las de IE3)."""
+    ie_games = ('IE3', 'IE2') if field == 'power' else ('IE3', 'IE2', 'IEEU', 'IE')
+    v = next((x for g in ie_games if (x := gv(w.get(field), g)) is not None), None)
+    if v is not None:
+        return v
+    for g in ('GX', 'CS', 'GO', 'VR'):
+        v = gv(w.get(field), g)
+        if v is None:
+            continue
+        key = (field, g, w['wType'])
+        if key not in QMAP:
+            same = [x for x in WAZA.values() if x.get('wType') == w['wType']]
+            src = sorted(x for o in same if (x := gv(o.get(field), g)) is not None)
+            dst = sorted(x for o in same if (x := next((y for gg in ie_games if (y := gv(o.get(field), gg)) is not None), None)) is not None)
+            QMAP[key] = (src, dst)
+        src, dst = QMAP[key]
+        if not src or not dst:
+            return None
+        frac = (bisect.bisect_left(src, v) + bisect.bisect_right(src, v)) / 2 / len(src)
+        return dst[min(len(dst) - 1, int(frac * len(dst)))]
+    return None
+
+
 def move_from_key(key):
-    """Técnica de WazaData. Potencia y coste de IE3 (o de IE2): los de IE1 van en otra escala."""
+    """Técnica de WazaData. Potencia y coste de IE3 (o de IE2): los de IE1 van en otra escala.
+    Las de la era GO y Victory Road, pasadas a la escala de IE3 (to_ie_scale)."""
     w = WAZA.get(key)
-    if not w or w.get('wType') not in KIND:
+    if not w or w.get('wType') not in KIND or w.get('__group__') == 'Real Skills':
         return None
-    raw_power = w.get('power', {})
-    if isinstance(raw_power, dict) and not any(raw_power.get(g) is not None for g in ('IE3', 'IE2')):
-        return None
-    power = per_game(raw_power, ['IE3', 'IE2'])
-    cost = per_game(w.get('cost', {}), ['IE3', 'IE2', 'IEEU', 'IE'])
-    element = per_game(w.get('element'), ['IE3', 'IE2', 'IE'])
+    power = to_ie_scale('power', w)
+    cost = to_ie_scale('cost', w)
+    element = per_game(w.get('element'), ['IE3', 'IE2', 'IE', 'GO', 'CS', 'GX', 'VR'])
     if power is None or cost is None or element not in ELEMENT:
         return None
     cat = CATALOG.get(w['page'], {})
@@ -505,18 +718,32 @@ def build_player(key, number, team_name, season, order, used_ids):
     if position not in ('GK', 'DF', 'MF', 'FW'):
         position = 'MF'
     stats = next((s for g in order if (s := params_for(text, g))), None)
-    if not stats:
+    if not stats or stats['_src'] != 'ie':
+        # era GO: los atributos de su juego o, si no, los de Victory Road de Inazugle; se pasan a la escala de
+        # IE3 cuando están todos los jugadores (normalize_stats)
+        raw = stats or zukan_for(name, [season] + order)
+        stats = None
+    else:
+        raw = None
+    if not stats and not raw:
         missing_stats.append(f'{season} {team_name}: {name}')
         base = {'GK': (45, 60, 40, 80, 45), 'DF': (50, 70, 50, 70, 55), 'MF': (60, 55, 65, 50, 65), 'FW': (75, 55, 60, 40, 65)}[position]
         stats = {'fp': 120, 'tp': 120, 'kick': base[0], 'body': base[1], 'control': base[2], 'guard': base[3], 'speed': base[4], 'stamina': 60, 'guts': 60}
     movesets = d.get('moveset', {})
-    moveset = next((movesets[g] for g in order if movesets.get(g)), [])
+    mgame = next((g for g in order if movesets.get(g)), None)
+    moveset = movesets.get(mgame, []) if mgame else []
     moves = []
     for entry in moveset:
+        if isinstance(entry, dict):  # {"X", 30, a=true}: las alternativas (a) no son las suyas
+            if entry.get('a'):
+                continue
+            entry = entry.get('__list__', [])
         mk = entry[0] if isinstance(entry, list) and entry else None
         mid = move_from_key(mk) if isinstance(mk, str) else None
         if mid and mid not in moves:
             moves.append(mid)
+    if mgame == 'VR' and len(moves) > 4:  # en Victory Road aprenden seis: las cuatro últimas son las suyas
+        moves = moves[-4:]
     parts = name.split()
     player = {
         'id': pid,
@@ -526,21 +753,27 @@ def build_player(key, number, team_name, season, order, used_ids):
         'position': position,
         'element': ELEMENT.get(element, 'neutral'),
         'level': 99,
-        'fp': stats['fp'],
-        'tp': stats['tp'],
-        'stats': {k: stats[k] for k in ['kick', 'body', 'control', 'guard', 'speed', 'stamina', 'guts']},
+        'fp': stats['fp'] if stats else 0,
+        'tp': stats['tp'] if stats else 0,
+        'stats': {k: stats[k] for k in ['kick', 'body', 'control', 'guard', 'speed', 'stamina', 'guts']} if stats else {},
         'moves': moves,
         'look': {'hair': pick(name, HAIR), 'skin': pick(name[::-1], SKIN)},
         'wiki': d.get('page') or key,
     }
+    if raw:
+        player['_raw'] = raw
     es_text = content(es_pages.get(es_titles.get(d.get('page', ''), ''), {}))
     if not es_text and (team_name, key) in es_by_player:
         es_text = content(es_pages.get(es_by_player[(team_name, key)], {}))
         es_matches.append(f"{team_name} | {name} -> {es_by_player[(team_name, key)]} | {next((x for g in order if (x := description_es(es_text, g))), '')} | {next((x for g in order if (x := description(text, g))), '')}")
     desc = OVERRIDES['descriptions'].get(d.get('page', ''))
-    desc = desc or next((x for g in order if (x := description_es(es_text, g))), None)
+    desc = desc or next((x for g in order if (x := description_es(es_text, g))), None) or description_es_any(es_text)
+    # sin versión oficial en español: la traducción de la inglesa (tools/wiki/descripciones_traducidas.json)
+    desc = desc or TRANSLATED.get(d.get('page', ''))
     if not desc:
         english = next((x for g in order if (x := description(text, g))), None)
+        if not english and (z := ZUKAN.get(name.lower())):
+            english = z[0]['desc']
         no_spanish.append(f"{d.get('page') or key} | {name} | {team_name} | {english or ''}")
     if desc:
         desc = desc.replace('\ufeff', '').strip()
@@ -626,6 +859,53 @@ def team_short(name, taken):
     return name[:2].upper() + str(len(taken))
 
 
+# ------------------------------------------------------------- atributos
+STAT_NAMES = ['kick', 'body', 'control', 'guard', 'speed', 'stamina', 'guts']
+MAP_RAW = {
+    # era GO: Tiro, Regate, Técnica, Bloqueo, Velocidad, Aguante, Parada y Suerte
+    'go': lambda r, pos: {'kick': r['kick'], 'control': r['dribbling'], 'guard': r['catch'] if pos == 'GK' else r['block'],
+                          'body': r['technique'], 'speed': r['speed'], 'stamina': r['stamina'], 'guts': r['lucky'],
+                          'fp': r['fp'], 'tp': r['tp']},
+    # Victory Road (Inazugle): Tiro, Control, Técnica, Presión, Físico, Agilidad, Inteligencia
+    'vr': lambda r, pos: {'kick': r['kick'], 'control': r['control'], 'guard': r['pressure'], 'body': r['physical'],
+                          'speed': r['agility'], 'stamina': (r['physical'] + r['intelligence']) / 2, 'guts': r['technique'],
+                          'fp': r['physical'] + r['intelligence'], 'tp': r['technique'] + r['intelligence']},
+}
+
+
+def normalize_stats(players):
+    """Pasa los atributos de la era GO y de Victory Road a la escala de IE3: cada valor queda a la misma
+    distancia de la media (en desviaciones) entre los de su juego y su posición que entre los jugadores de IE."""
+    def spread(vals):
+        m = sum(vals) / len(vals)
+        sd = (sum((v - m) ** 2 for v in vals) / len(vals)) ** 0.5 or 1
+        return m, sd
+    target = {}
+    for pos in ('GK', 'DF', 'MF', 'FW'):
+        ie = [p for p in players if '_raw' not in p and p['position'] == pos and p['stats']]
+        for k in STAT_NAMES:
+            target[(pos, k)] = spread([p['stats'][k] for p in ie])
+        for k in ('fp', 'tp'):
+            target[(pos, k)] = spread([p[k] for p in ie])
+    for src, fn in MAP_RAW.items():
+        for pos in ('GK', 'DF', 'MF', 'FW'):
+            group = [p for p in players if p.get('_raw', {}).get('_src') == src and p['position'] == pos]
+            if not group:
+                continue
+            mapped = [fn(p['_raw'], pos) for p in group]
+            for k in STAT_NAMES + ['fp', 'tp']:
+                m, sd = spread([x[k] for x in mapped])
+                tm, tsd = target[(pos, k)]
+                for p, x in zip(group, mapped):
+                    v = round(tm + (x[k] - m) / sd * tsd)
+                    if k in ('fp', 'tp'):
+                        p[k] = max(60, min(250, v))
+                    else:
+                        p['stats'][k] = max(15, min(99, v))
+    for p in players:
+        p.pop('_raw', None)
+
+
 # ------------------------------------------------------------------ salida
 teams_dir = os.path.join(ROOT, 'src', 'data', 'teams')
 for f in glob.glob(os.path.join(teams_dir, '*.json')):
@@ -633,12 +913,33 @@ for f in glob.glob(os.path.join(teams_dir, '*.json')):
 written = {s[0]: [] for s in SEASONS}
 shorts = {s[0]: set() for s in SEASONS}
 skipped = []
+built = []
+raw_teams = []
 for season, game, order, name, rows, fkey, page in rosters:
     used = set()
+    rows = rows[:18]
     players = [build_player(key, no or i + 1, name, season, order, used) for i, (key, no, _c) in enumerate(rows)]
     if len(players) < MIN_PLAYERS or not any(p['position'] == 'GK' for p in players):
         skipped.append(f'{season} {name} ({len(players)} jugadores)')
         continue
+    raw_teams.append((season, game, name, fkey, page, players))
+
+# ojeadores: un "equipo" por temporada (scouts-ie1...), sin formación
+scouts = {}
+for page_title, (season, game, order, key) in sorted(scout_rows.items()):
+    p = build_player(key, 0, 'Scouts', season, order, set())
+    if p['position'] and (p['stats'] or p.get('_raw')):
+        scouts.setdefault(season, []).append(p)
+for season, ps in scouts.items():
+    seen = set()
+    for p in ps:  # ids únicos dentro de cada temporada
+        while p['id'] in seen:
+            p['id'] += '-b'
+        seen.add(p['id'])
+
+normalize_stats([p for t in raw_teams for p in t[5]] + [p for ps in scouts.values() for p in ps])
+
+for season, game, name, fkey, page, players in raw_teams:
     players.sort(key=lambda p: p['number'])
     fid, counts = formation_id(fkey, game, players)
     players = pick_starters(players, counts)
@@ -653,8 +954,11 @@ for season, game, order, name, rows, fkey, page in rosters:
     )
     short = team_short(name, shorts[season])
     shorts[season].add(short)
-    team = {
-        'id': f'{season}-{slug(name)}',
+    tid = f'{season}-{slug(name)}'
+    if any(t['id'] == tid for t in built):
+        continue
+    built.append({
+        'id': tid,
         'season': season,
         'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
@@ -662,11 +966,16 @@ for season, game, order, name, rows, fkey, page in rosters:
         'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3]},
         'formation': fid,
         'players': players,
-    }
+    })
+
+for team in built:
     with open(os.path.join(teams_dir, team['id'] + '.json'), 'w', encoding='utf-8') as f:
         json.dump(team, f, ensure_ascii=False, indent=1)
         f.write('\n')
-    written[season].append(team['name'])
+    written[team['season']].append(team['name'])
+with open(os.path.join(ROOT, 'src', 'data', 'scouts.json'), 'w', encoding='utf-8') as f:
+    f.write('{\n' + ',\n'.join(f' {json.dumps(k)}: {json.dumps(v, ensure_ascii=False, separators=(",", ":"))}' for k, v in scouts.items()) + '\n}\n')
+print('ojeadores por temporada:', {k: len(v) for k, v in scouts.items()})
 
 with open(os.path.join(ROOT, 'src', 'data', 'moves.json'), 'w', encoding='utf-8') as f:
     kinds = ['shoot', 'dribble', 'block', 'catch']

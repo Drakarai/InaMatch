@@ -1,0 +1,514 @@
+{
+ "id": "go-kidokawa-seishuu-go",
+ "season": "go",
+ "wiki": "Kidokawa Seishuu (GO)",
+ "name": "Instituto Kirkwood (GO)",
+ "short": "KSG",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-taiga-strike",
+ "players": [
+  {
+   "id": "strom-boojum",
+   "name": "Strom Boojum",
+   "short": "Strom",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 172,
+   "tp": 178,
+   "stats": {
+    "kick": 54,
+    "body": 46,
+    "control": 51,
+    "guard": 72,
+    "speed": 43,
+    "stamina": 60,
+    "guts": 54
+   },
+   "moves": [
+    "counterdrive-gk",
+    "fence-of-gaia"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Katayama Tsuyoshi",
+   "description": "Parece duro y obstinado, pero en realidad es pura amabilidad."
+  },
+  {
+   "id": "dock-hickory",
+   "name": "Dock Hickory",
+   "short": "Dock",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 62,
+   "tp": 171,
+   "stats": {
+    "kick": 52,
+    "body": 67,
+    "control": 70,
+    "guard": 49,
+    "speed": 63,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "big-scissors",
+    "naminori-pierrot",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ooisokawa Tarou",
+   "description": "Practica remo en el río. Tiene cuerpo de machote de cintura para arriba."
+  },
+  {
+   "id": "bourne-birch",
+   "name": "Bourne Birch",
+   "short": "Bourne",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 182,
+   "tp": 120,
+   "stats": {
+    "kick": 64,
+    "body": 39,
+    "control": 67,
+    "guard": 47,
+    "speed": 62,
+    "stamina": 73,
+    "guts": 55
+   },
+   "moves": [
+    "big-scissors",
+    "illusion-ball",
+    "counterdrive-gk",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ishikawa Kanpei",
+   "description": "El nunca lo menciona, pero sus antepasados eran gente importante."
+  },
+  {
+   "id": "flynt-pine",
+   "name": "Flynt Pine",
+   "short": "Flynt",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 164,
+   "tp": 152,
+   "stats": {
+    "kick": 58,
+    "body": 55,
+    "control": 69,
+    "guard": 62,
+    "speed": 58,
+    "stamina": 55,
+    "guts": 55
+   },
+   "moves": [
+    "big-scissors",
+    "death-drop",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yamazaki Kotarou",
+   "description": "Cambia de posición muy rápidamente, descolocando así a los rivales."
+  },
+  {
+   "id": "trent-poplar",
+   "name": "Trent Poplar",
+   "short": "Trent",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 138,
+   "tp": 120,
+   "stats": {
+    "kick": 54,
+    "body": 61,
+    "control": 53,
+    "guard": 61,
+    "speed": 48,
+    "stamina": 59,
+    "guts": 59
+   },
+   "moves": [
+    "big-scissors",
+    "naminori-pierrot",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Konuma Waku",
+   "description": "Le gusta ir a correr por los lagos y los ríos de la región."
+  },
+  {
+   "id": "river-willows",
+   "name": "River Willows",
+   "short": "River",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 170,
+   "tp": 157,
+   "stats": {
+    "kick": 53,
+    "body": 66,
+    "control": 33,
+    "guard": 76,
+    "speed": 51,
+    "stamina": 57,
+    "guts": 62
+   },
+   "moves": [
+    "illusion-ball",
+    "fortissimo",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shimizu Ryuuto",
+   "description": "Por las noches sale a cantar y toca la guitarra como músico callejero."
+  },
+  {
+   "id": "beck-heath",
+   "name": "Beck Heath",
+   "short": "Beck",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 172,
+   "stats": {
+    "kick": 53,
+    "body": 82,
+    "control": 48,
+    "guard": 58,
+    "speed": 60,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "illusion-ball",
+    "soyokaze-step",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Izumi Kanaaki",
+   "description": "Su familia es de una institución en el teatro tradicional de la región."
+  },
+  {
+   "id": "brook-linden",
+   "name": "Brook Linden",
+   "short": "Brook",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 108,
+   "tp": 161,
+   "stats": {
+    "kick": 56,
+    "body": 85,
+    "control": 50,
+    "guard": 57,
+    "speed": 59,
+    "stamina": 57,
+    "guts": 61
+   },
+   "moves": [
+    "illusion-ball",
+    "bound-flame",
+    "dash-train"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tobisawa Mana",
+   "description": "Tiene muy malas pulgas y cualquier cosilla lo puede hacer enfadar."
+  },
+  {
+   "id": "langford-ash",
+   "name": "Langford Ash",
+   "short": "Langford",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 168,
+   "tp": 127,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 56,
+    "guard": 47,
+    "speed": 55,
+    "stamina": 64,
+    "guts": 52
+   },
+   "moves": [
+    "sidewinder",
+    "claymore",
+    "denrai-houtou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Taki Sousuke",
+   "description": "Es el hermano mayor de Bradford. Seguro de si mismo y algo arrogante."
+  },
+  {
+   "id": "escott-aspen",
+   "name": "Escott Aspen",
+   "short": "Escott",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 104,
+   "tp": 151,
+   "stats": {
+    "kick": 47,
+    "body": 72,
+    "control": 53,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 58
+   },
+   "moves": [
+    "triangle-zz",
+    "rocket-head",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kamiya Kouta",
+   "description": "Le fascina la mitología japonesa y le gusta visitar templos y santuarios."
+  },
+  {
+   "id": "bradford-ash",
+   "name": "Bradford Ash",
+   "short": "Bradford",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 152,
+   "tp": 150,
+   "stats": {
+    "kick": 53,
+    "body": 75,
+    "control": 51,
+    "guard": 64,
+    "speed": 65,
+    "stamina": 57,
+    "guts": 62
+   },
+   "moves": [
+    "triangle-zz",
+    "buttobi-jump",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Taki Yoshihiko",
+   "description": "Hermano menor de Langford, al que admira con un complejo de inferioridad."
+  },
+  {
+   "id": "bay-laurel",
+   "name": "Bay Laurel",
+   "short": "Bay",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 124,
+   "tp": 157,
+   "stats": {
+    "kick": 52,
+    "body": 49,
+    "control": 44,
+    "guard": 64,
+    "speed": 70,
+    "stamina": 61,
+    "guts": 58
+   },
+   "moves": [
+    "triangle-zz",
+    "britannia-cross",
+    "acrobat-keep",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kishibe Taiga",
+   "description": "Un gran jugador, que se entrena mucho y puede llegar a ser profesional."
+  },
+  {
+   "id": "maxwell-mahogany",
+   "name": "Maxwell Mahogany",
+   "short": "Maxwell",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 160,
+   "tp": 154,
+   "stats": {
+    "kick": 59,
+    "body": 53,
+    "control": 54,
+    "guard": 49,
+    "speed": 56,
+    "stamina": 70,
+    "guts": 56
+   },
+   "moves": [
+    "burning-catch",
+    "twin-mixer",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kinugawa Waganuki",
+   "description": "Cree que bañarse en aguas termales es la cura para todo."
+  },
+  {
+   "id": "calder-elm",
+   "name": "Calder Elm",
+   "short": "Calder",
+   "number": 14,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 143,
+   "stats": {
+    "kick": 37,
+    "body": 53,
+    "control": 56,
+    "guard": 46,
+    "speed": 72,
+    "stamina": 57,
+    "guts": 56
+   },
+   "moves": [
+    "sonic-shot",
+    "zeroyon",
+    "flying-fish"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yukai Mizuho",
+   "description": "Quiere ser jugador profesional para ganar dinero y ayudar a su familia."
+  },
+  {
+   "id": "laike-alder",
+   "name": "Laike Alder",
+   "short": "Laike",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 167,
+   "tp": 120,
+   "stats": {
+    "kick": 50,
+    "body": 50,
+    "control": 43,
+    "guard": 74,
+    "speed": 48,
+    "stamina": 65,
+    "guts": 58
+   },
+   "moves": [
+    "kattobi-defense",
+    "boomerang-feint",
+    "sargasso",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Goshiki Jun",
+   "description": "Investiga cómo limpiar los lagos y pantanos contaminados."
+  },
+  {
+   "id": "tahoma-sequoia",
+   "name": "Tahoma Sequoia",
+   "short": "Tahoma",
+   "number": 16,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 117,
+   "stats": {
+    "kick": 53,
+    "body": 51,
+    "control": 56,
+    "guard": 64,
+    "speed": 52,
+    "stamina": 49,
+    "guts": 56
+   },
+   "moves": [
+    "illusion-ball",
+    "flying-fish",
+    "hydro-anchor"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sendai Hiroaki",
+   "description": "Investiga cómo limpiar los lagos y pantanos contaminados."
+  }
+ ]
+}

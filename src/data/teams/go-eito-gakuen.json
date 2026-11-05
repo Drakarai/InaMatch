@@ -1,0 +1,500 @@
+{
+ "id": "go-eito-gakuen",
+ "season": "go",
+ "wiki": "Eito Gakuen",
+ "name": "Colegio de Empollones",
+ "short": "EIT",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-basic",
+ "players": [
+  {
+   "id": "par-scal",
+   "name": "Par Scal",
+   "short": "Par",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 173,
+   "stats": {
+    "kick": 65,
+    "body": 48,
+    "control": 50,
+    "guard": 26,
+    "speed": 48,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "moonsault-stamp",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kageura Touji",
+   "description": "Aunque corrigió su miopía con laser, lleva gafas por cuestiones de estilo."
+  },
+  {
+   "id": "tez-la",
+   "name": "Tez La",
+   "short": "Tez",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 166,
+   "tp": 171,
+   "stats": {
+    "kick": 52,
+    "body": 54,
+    "control": 49,
+    "guard": 66,
+    "speed": 51,
+    "stamina": 61,
+    "guts": 58
+   },
+   "moves": [
+    "thief-eye",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mienai Kouta",
+   "description": "Intuye a los rivales en el campo sin verlos. Su hobby es la táctica militar."
+  },
+  {
+   "id": "aris-tottle",
+   "name": "Aris Tottle",
+   "short": "Aris",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 104,
+   "tp": 155,
+   "stats": {
+    "kick": 52,
+    "body": 67,
+    "control": 60,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 61,
+    "guts": 58
+   },
+   "moves": [
+    "thief-eye",
+    "boomerang-feint"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Honda Taizou",
+   "description": "Es bibliotecario en el instituto y sabe siempre dónde está cada libro."
+  },
+  {
+   "id": "archie-medes",
+   "name": "Archie Medes",
+   "short": "Archie",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 109,
+   "tp": 155,
+   "stats": {
+    "kick": 53,
+    "body": 68,
+    "control": 65,
+    "guard": 45,
+    "speed": 59,
+    "stamina": 55,
+    "guts": 59
+   },
+   "moves": [
+    "thief-eye",
+    "future-eye"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Akutagawa Fusanosuke",
+   "description": "Un gran novelista en ciernes, ya está escribiendo la que será su gran obra."
+  },
+  {
+   "id": "socrat-eiss",
+   "name": "Socrat Eiss",
+   "short": "Socrat",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 143,
+   "stats": {
+    "kick": 55,
+    "body": 52,
+    "control": 71,
+    "guard": 54,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 53
+   },
+   "moves": [
+    "thief-eye",
+    "perfect-course"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kakizaki Hagumi",
+   "description": "Su padre es dueño de una cadena de librerías y su casa está llena de libros."
+  },
+  {
+   "id": "ian-stein",
+   "name": "Ian Stein",
+   "short": "Ian",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 172,
+   "tp": 143,
+   "stats": {
+    "kick": 53,
+    "body": 55,
+    "control": 62,
+    "guard": 54,
+    "speed": 48,
+    "stamina": 52,
+    "guts": 58
+   },
+   "moves": [
+    "future-eye",
+    "thief-eye"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Hitofude Hayato",
+   "description": "Estudia taquigrafía, pero hablar no se le da tan bien debido a su timidez."
+  },
+  {
+   "id": "ed-ison",
+   "name": "Ed Ison",
+   "short": "Ed",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 182,
+   "tp": 175,
+   "stats": {
+    "kick": 58,
+    "body": 40,
+    "control": 53,
+    "guard": 57,
+    "speed": 56,
+    "stamina": 80,
+    "guts": 55
+   },
+   "moves": [
+    "future-eye",
+    "perfect-course"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fukuro Tetsuya",
+   "description": "Después del instituto va a clases de pintura, donde comienza a destacar."
+  },
+  {
+   "id": "mitchell-angelio",
+   "name": "Mitchell Angelio",
+   "short": "Mitchell",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 108,
+   "tp": 181,
+   "stats": {
+    "kick": 48,
+    "body": 67,
+    "control": 54,
+    "guard": 57,
+    "speed": 58,
+    "stamina": 60,
+    "guts": 61
+   },
+   "moves": [
+    "future-eye",
+    "perfect-course",
+    "britannia-cross"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yomiya Satoshi",
+   "description": "Puede leer 10 000 palabras por minuto y resumírtelas al acabar..."
+  },
+  {
+   "id": "dave-inchy",
+   "name": "Dave Inchy",
+   "short": "Dave",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 108,
+   "tp": 190,
+   "stats": {
+    "kick": 55,
+    "body": 74,
+    "control": 43,
+    "guard": 63,
+    "speed": 58,
+    "stamina": 57,
+    "guts": 55
+   },
+   "moves": [
+    "future-eye",
+    "perfect-course",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Saewatari Yuuichirou",
+   "description": "De un solo vistazo percibe la posición de todos los jugadores en el campo."
+  },
+  {
+   "id": "moe-sart",
+   "name": "Moe Sart",
+   "short": "Moe",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 119,
+   "tp": 160,
+   "stats": {
+    "kick": 60,
+    "body": 54,
+    "control": 46,
+    "guard": 59,
+    "speed": 41,
+    "stamina": 50,
+    "guts": 62
+   },
+   "moves": [
+    "perfect-course",
+    "thief-eye"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yukiji Keiichi",
+   "description": "De familia humilde, alcanzó prestigio académico por méritos propios."
+  },
+  {
+   "id": "frank-lyn",
+   "name": "Frank Lyn",
+   "short": "Frank",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 102,
+   "tp": 156,
+   "stats": {
+    "kick": 47,
+    "body": 61,
+    "control": 50,
+    "guard": 65,
+    "speed": 51,
+    "stamina": 52,
+    "guts": 61
+   },
+   "moves": [
+    "perfect-course",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kindaichi Gaku",
+   "description": "Estudia para ser como su padre y su abuelo, eminentes académicos."
+  },
+  {
+   "id": "cooper-nikos",
+   "name": "Cooper Nikos",
+   "short": "Cooper",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 174,
+   "stats": {
+    "kick": 56,
+    "body": 53,
+    "control": 54,
+    "guard": 35,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 59
+   },
+   "moves": [
+    "moonsault-stamp",
+    "denrai-houtou"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kaoka Utanori",
+   "description": "Le apasiona la música tradicional japonesa y no soporta otros géneros."
+  },
+  {
+   "id": "leo-gally",
+   "name": "Leo Gally",
+   "short": "Leo",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 106,
+   "tp": 203,
+   "stats": {
+    "kick": 58,
+    "body": 59,
+    "control": 58,
+    "guard": 52,
+    "speed": 57,
+    "stamina": 58,
+    "guts": 60
+   },
+   "moves": [
+    "thief-eye",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kouyou Hifumi",
+   "description": "Este niño narcisista sueña con que su cara aparezca en un billete."
+  },
+  {
+   "id": "desmond-cartes",
+   "name": "Desmond Cartes",
+   "short": "Desmond",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 170,
+   "tp": 165,
+   "stats": {
+    "kick": 69,
+    "body": 56,
+    "control": 57,
+    "guard": 48,
+    "speed": 50,
+    "stamina": 62,
+    "guts": 58
+   },
+   "moves": [
+    "future-eye",
+    "thief-eye",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Natsume Kinsuke",
+   "description": "Su familia tiene dinero, pero no quiere que por eso le den un trato especial."
+  },
+  {
+   "id": "connor-fuschius",
+   "name": "Connor Fuschius",
+   "short": "Connor",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 170,
+   "tp": 170,
+   "stats": {
+    "kick": 54,
+    "body": 54,
+    "control": 62,
+    "guard": 52,
+    "speed": 48,
+    "stamina": 53,
+    "guts": 62
+   },
+   "moves": [
+    "future-eye",
+    "buttobi-jump"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kuniki Tetsuo",
+   "description": "Escribe artículos bajo el seudónimo en una revista literaria."
+  },
+  {
+   "id": "dar-wynne",
+   "name": "Dar Wynne",
+   "short": "Dar",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 168,
+   "tp": 146,
+   "stats": {
+    "kick": 37,
+    "body": 54,
+    "control": 64,
+    "guard": 64,
+    "speed": 58,
+    "stamina": 59,
+    "guts": 56
+   },
+   "moves": [
+    "perfect-course",
+    "head-bazooka",
+    "sargasso"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tanizaki Junji",
+   "description": "Las chicas monas son su debilidad y no sabría decirle que no a ninguna."
+  }
+ ]
+}

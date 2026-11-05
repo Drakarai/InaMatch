@@ -368,16 +368,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 116,
+   "tp": 124,
    "stats": {
-    "kick": 45,
-    "body": 60,
-    "control": 40,
-    "guard": 80,
-    "speed": 45,
-    "stamina": 60,
-    "guts": 60
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
    },
    "moves": [],
    "look": {

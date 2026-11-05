@@ -1,0 +1,378 @@
+{
+ "id": "cs-chrono-storm",
+ "season": "cs",
+ "wiki": "Chrono Storm",
+ "name": "Chrono Storm",
+ "short": "CHR",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-shining",
+ "players": [
+  {
+   "id": "jean-pierre-lapin",
+   "name": "Jean-Pierre Lapin",
+   "short": "Jean-Pierre",
+   "number": 5,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 117,
+   "tp": 140,
+   "stats": {
+    "kick": 47,
+    "body": 60,
+    "control": 56,
+    "guard": 63,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 51
+   },
+   "moves": [
+    "buttobi-punch",
+    "taikoku-ouka"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nishizono Shinsuke",
+   "description": "Un chico lleno de energía que ahora defiende la portería del Raimon."
+  },
+  {
+   "id": "gabriel-garcia",
+   "name": "Gabriel Garcia",
+   "short": "Gabriel",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 129,
+   "stats": {
+    "kick": 44,
+    "body": 64,
+    "control": 55,
+    "guard": 64,
+    "speed": 65,
+    "stamina": 50,
+    "guts": 62
+   },
+   "moves": [
+    "the-mist",
+    "la-flamme"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kirino Ranmaru",
+   "description": "El elegante defensa del Raimon. Conoce a Riccardo mejor que nadie."
+  },
+  {
+   "id": "sor",
+   "name": "Sor",
+   "short": "Sor",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 105,
+   "stats": {
+    "kick": 66,
+    "body": 56,
+    "control": 61,
+    "guard": 68,
+    "speed": 67,
+    "stamina": 63,
+    "guts": 27
+   },
+   "moves": [
+    "deep-jungle",
+    "kodai-no-tsubasa"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Torb",
+   "description": "Un chico robusto y entusiasta que creció entre dinosaurios."
+  },
+  {
+   "id": "goldie-lemmon",
+   "name": "Goldie Lemmon",
+   "short": "Goldie",
+   "number": 78,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 159,
+   "stats": {
+    "kick": 83,
+    "body": 63,
+    "control": 64,
+    "guard": 80,
+    "speed": 60,
+    "stamina": 54,
+    "guts": 63
+   },
+   "moves": [
+    "kirakira-illusion",
+    "mochimochi-kinako-mochi",
+    "fire-tornado-tc"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nanobana Kinako",
+   "description": "Es famosa por su actitud risueña y su habilidad con el balón en general."
+  },
+  {
+   "id": "arion-sherwind",
+   "name": "Arion Sherwind",
+   "short": "Arion",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 160,
+   "tp": 131,
+   "stats": {
+    "kick": 69,
+    "body": 57,
+    "control": 71,
+    "guard": 64,
+    "speed": 57,
+    "stamina": 65,
+    "guts": 71
+   },
+   "moves": [
+    "mach-wind",
+    "ou-no-tsurugi",
+    "saikyou-eleven-hadou"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Matsukaze Tenma",
+   "description": "El capitán del Raimon es un chico sencillo y puro como la brisa."
+  },
+  {
+   "id": "riccardo-di-rigo",
+   "name": "Riccardo Di Rigo",
+   "short": "Riccardo",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 141,
+   "tp": 124,
+   "stats": {
+    "kick": 70,
+    "body": 75,
+    "control": 66,
+    "guard": 66,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 55
+   },
+   "moves": [
+    "fortissimo",
+    "setsuna-boost"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shindou Takuto",
+   "description": "Por su genialidad y su impecable estrategia, es apodado el Virtuoso."
+  },
+  {
+   "id": "ryoma-nishiki",
+   "name": "Ryoma Nishiki",
+   "short": "Ryoma",
+   "number": 16,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 124,
+   "stats": {
+    "kick": 70,
+    "body": 68,
+    "control": 65,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 55
+   },
+   "moves": [
+    "acrobat-keep",
+    "kuroshio-ride"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nishiki Ryouma",
+   "description": "Era delantero, pero volvió de Italia convertido en centrocampista."
+  },
+  {
+   "id": "bailong",
+   "name": "Bailong",
+   "short": "Bailong",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 157,
+   "tp": 137,
+   "stats": {
+    "kick": 83,
+    "body": 79,
+    "control": 68,
+    "guard": 46,
+    "speed": 64,
+    "stamina": 56,
+    "guts": 64
+   },
+   "moves": [
+    "white-hurricane",
+    "tenchi-raimei"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hakuryuu",
+   "description": "Rival de Victor, intentó convertirse en el jugador definitivo en el pasado."
+  },
+  {
+   "id": "zanark-avalonic",
+   "name": "Zanark Avalonic",
+   "short": "Zanark",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 128,
+   "stats": {
+    "kick": 78,
+    "body": 69,
+    "control": 66,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 79,
+    "guts": 61
+   },
+   "moves": [
+    "disaster-break",
+    "great-max-na-ore"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanark Avalonic",
+   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
+  },
+  {
+   "id": "sol-daystar",
+   "name": "Sol Daystar",
+   "short": "Sol",
+   "number": 6,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 157,
+   "tp": 134,
+   "stats": {
+    "kick": 72,
+    "body": 67,
+    "control": 77,
+    "guard": 73,
+    "speed": 63,
+    "stamina": 51,
+    "guts": 69
+   },
+   "moves": [
+    "atomic-flare",
+    "tenchi-raimei"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Amemiya Taiyou",
+   "description": "Un genio en el campo, de los que solo aparece uno cada década."
+  },
+  {
+   "id": "fei-rune",
+   "name": "Fei Rune",
+   "short": "Fei",
+   "number": 7,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 180,
+   "tp": 127,
+   "stats": {
+    "kick": 66,
+    "body": 57,
+    "control": 57,
+    "guard": 48,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 64
+   },
+   "moves": [
+    "bouncer-rabbit",
+    "ouja-no-kiba"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fei Rune",
+   "description": "Viajó 200 años desde el futuro para ayudar a Arion a proteger el fútbol."
+  },
+  {
+   "id": "victor-blade",
+   "name": "Victor Blade",
+   "short": "Victor",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 152,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 69,
+    "control": 64,
+    "guard": 62,
+    "speed": 57,
+    "stamina": 64,
+    "guts": 65
+   },
+   "moves": [
+    "death-sword",
+    "kiku-ichimonji"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tsurugi Kyousuke",
+   "description": "La habilidad del delantero estrella del Raimon no tiene parangón."
+  }
+ ]
+}

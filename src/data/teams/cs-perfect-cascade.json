@@ -1,0 +1,525 @@
+{
+ "id": "cs-perfect-cascade",
+ "season": "cs",
+ "wiki": "Perfect Cascade",
+ "name": "Perfect Cascade",
+ "short": "PER",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-perfect",
+ "players": [
+  {
+   "id": "vee-wai",
+   "name": "Vee Wai",
+   "short": "Vee",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 102,
+   "tp": 110,
+   "stats": {
+    "kick": 50,
+    "body": 65,
+    "control": 54,
+    "guard": 67,
+    "speed": 49,
+    "stamina": 46,
+    "guts": 65
+   },
+   "moves": [
+    "kogetsu-juujishou",
+    "wormhole",
+    "god-hand",
+    "shoot-pocket"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lau Sem",
+   "description": "Este portero de ojos rojos obedece todas las órdenes de Schemer Guile."
+  },
+  {
+   "id": "dee-vee",
+   "name": "Dee Vee",
+   "short": "Dee",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 105,
+   "stats": {
+    "kick": 55,
+    "body": 60,
+    "control": 55,
+    "guard": 67,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 54
+   },
+   "moves": [
+    "muei-ranbu",
+    "muei-souha",
+    "twin-mixer",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bado Addo",
+   "description": "Este defensa nunca muestra dolor y siempre obedece a Schemer Guile."
+  },
+  {
+   "id": "ayt-bee",
+   "name": "Ayt Bee",
+   "short": "Ayt",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 83,
+   "tp": 88,
+   "stats": {
+    "kick": 50,
+    "body": 54,
+    "control": 44,
+    "guard": 55,
+    "speed": 57,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "muei-ranbu",
+    "twin-mixer",
+    "naminori-pierrot",
+    "wonder-trap"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lin Cool",
+   "description": "Este defensa de mirada inquietante es plenamente fiel a Schemer Guile."
+  },
+  {
+   "id": "en-sicks",
+   "name": "En Sicks",
+   "short": "En",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 95,
+   "stats": {
+    "kick": 52,
+    "body": 52,
+    "control": 47,
+    "guard": 59,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "muei-ranbu",
+    "muei-souha",
+    "the-mist",
+    "naminori-pierrot"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ma Donel",
+   "description": "Cuando Schemer Guile da una orden, este defensa se lanza a cumplirla."
+  },
+  {
+   "id": "wun-ell",
+   "name": "Wun Ell",
+   "short": "Wun",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 81,
+   "stats": {
+    "kick": 42,
+    "body": 49,
+    "control": 55,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 50,
+    "guts": 59
+   },
+   "moves": [
+    "muei-souha",
+    "souhi-yuuseidan",
+    "muei-ranbu"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Emi Ul",
+   "description": "Este incansable centrocampista se da en cuerpo y alma a Schemer Guile."
+  },
+  {
+   "id": "zed-kyu",
+   "name": "Zed Kyu",
+   "short": "Zed",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 95,
+   "stats": {
+    "kick": 52,
+    "body": 57,
+    "control": 65,
+    "guard": 58,
+    "speed": 62,
+    "stamina": 61,
+    "guts": 59
+   },
+   "moves": [
+    "muei-souha",
+    "hunter-s-net",
+    "wonder-trap",
+    "mad-juggler"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fa Neil",
+   "description": "Un medio que ejecuta las órdenes de Schemer Guile sin compasión."
+  },
+  {
+   "id": "kay-zirro",
+   "name": "Kay Zirro",
+   "short": "Kay",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 96,
+   "tp": 85,
+   "stats": {
+    "kick": 50,
+    "body": 58,
+    "control": 57,
+    "guard": 54,
+    "speed": 57,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "muei-souha",
+    "twin-mixer",
+    "bound-flame",
+    "mad-juggler"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kay Rowe",
+   "description": "Este medio de sonrisa inquietante haría lo que fuera por Schemer Guile."
+  },
+  {
+   "id": "cee-eff",
+   "name": "Cee Eff",
+   "short": "Cee",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 126,
+   "tp": 81,
+   "stats": {
+    "kick": 51,
+    "body": 63,
+    "control": 60,
+    "guard": 56,
+    "speed": 57,
+    "stamina": 62,
+    "guts": 65
+   },
+   "moves": [
+    "muei-souha",
+    "the-mist",
+    "sonic-shot",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Dai Load",
+   "description": "Un centrocampista de rostro inescrutable fiel a Schemer Guile."
+  },
+  {
+   "id": "ar-ecks",
+   "name": "Ar Ecks",
+   "short": "Ar",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 92,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 62,
+    "guard": 58,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 36
+   },
+   "moves": [
+    "muei-souha",
+    "souhi-yuuseidan",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rei Rukh",
+   "description": "El capitán del Cascada Perfecta no cuestiona órdenes de Schemer Guile."
+  },
+  {
+   "id": "em-tee",
+   "name": "Em Tee",
+   "short": "Em",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 109,
+   "tp": 118,
+   "stats": {
+    "kick": 61,
+    "body": 63,
+    "control": 58,
+    "guard": 54,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 56
+   },
+   "moves": [
+    "souhi-yuuseidan",
+    "eternal-blizzard",
+    "sonic-shot",
+    "buttobi-jump"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bull Rex",
+   "description": "Un delantero que juega sin emoción y siempre hace caso a Schemer Guile."
+  },
+  {
+   "id": "ough-cee",
+   "name": "Ough Cee",
+   "short": "Ough",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 117,
+   "stats": {
+    "kick": 69,
+    "body": 68,
+    "control": 55,
+    "guard": 51,
+    "speed": 60,
+    "stamina": 59,
+    "guts": 71
+   },
+   "moves": [
+    "souhi-yuuseidan",
+    "death-sword",
+    "bound-flame",
+    "bakunetsu-screw"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gra Fom",
+   "description": "Un delantero calculador que dedica su vida a obedecer a Schemer Guile."
+  },
+  {
+   "id": "jay-yuu",
+   "name": "Jay Yuu",
+   "short": "Jay",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 88,
+   "tp": 103,
+   "stats": {
+    "kick": 43,
+    "body": 61,
+    "control": 47,
+    "guard": 61,
+    "speed": 46,
+    "stamina": 46,
+    "guts": 62
+   },
+   "moves": [
+    "wormhole",
+    "beam-kobushi",
+    "burning-catch",
+    "kogetsu-juujishou"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nie Bell",
+   "description": "Este impasible portero obedece las órdenes de Schemer Guile sin chistar."
+  },
+  {
+   "id": "faiv-ess",
+   "name": "Faiv Ess",
+   "short": "Faiv",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 88,
+   "stats": {
+    "kick": 52,
+    "body": 56,
+    "control": 50,
+    "guard": 54,
+    "speed": 55,
+    "stamina": 46,
+    "guts": 51
+   },
+   "moves": [
+    "twin-mixer",
+    "dokonjou-bat",
+    "mad-juggler"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zara Kusu",
+   "description": "Un defensa despiadado que tiene una fe ciega en Schemer Guile."
+  },
+  {
+   "id": "tu-eigh",
+   "name": "Tu Eigh",
+   "short": "Tu",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 102,
+   "tp": 77,
+   "stats": {
+    "kick": 61,
+    "body": 63,
+    "control": 55,
+    "guard": 57,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 60
+   },
+   "moves": [
+    "muei-souha",
+    "hunter-s-net",
+    "the-mist",
+    "buttobi-jump"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sei Servo",
+   "description": "Este medio a veces es algo parado, pero siempre es leal a Schemer Guile."
+  },
+  {
+   "id": "aye-nort",
+   "name": "Aye Nort",
+   "short": "Aye",
+   "number": 15,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 73,
+   "tp": 114,
+   "stats": {
+    "kick": 57,
+    "body": 55,
+    "control": 55,
+    "guard": 54,
+    "speed": 55,
+    "stamina": 48,
+    "guts": 65
+   },
+   "moves": [
+    "astro-break",
+    "sonic-shot",
+    "souhi-yuuseidan",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "A Simov",
+   "description": "Un delantero que no muestra emoción al cumplir órdenes de Schemer Guile."
+  },
+  {
+   "id": "ji-tenn",
+   "name": "Ji Tenn",
+   "short": "Ji",
+   "number": 16,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 109,
+   "tp": 113,
+   "stats": {
+    "kick": 59,
+    "body": 56,
+    "control": 57,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 55,
+    "guts": 47
+   },
+   "moves": [
+    "eternal-blizzard",
+    "sonic-shot",
+    "wonder-trap",
+    "souhi-yuuseidan"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Il Mel",
+   "description": "Delantero que nunca se lesiona y es leal a Schemer Guile hasta la médula."
+  }
+ ]
+}

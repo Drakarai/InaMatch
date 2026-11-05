@@ -1,0 +1,517 @@
+{
+ "id": "go-seidouzan",
+ "season": "go",
+ "wiki": "Seidouzan",
+ "name": "Seidouzan",
+ "short": "SEI",
+ "colors": {
+  "shirt": "#5a3a8a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-sacred",
+ "players": [
+  {
+   "id": "theo-divine",
+   "name": "Theo Divine",
+   "short": "Theo",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 100,
+   "tp": 155,
+   "stats": {
+    "kick": 37,
+    "body": 47,
+    "control": 52,
+    "guard": 67,
+    "speed": 46,
+    "stamina": 70,
+    "guts": 65
+   },
+   "moves": [
+    "shoot-break",
+    "fence-of-gaia",
+    "god-hand-v"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Masaki Teiya",
+   "description": "Su portería es un lugar sagrado que a nadie permite profanar."
+  },
+  {
+   "id": "mnemo-pool",
+   "name": "Mnemo Pool",
+   "short": "Mnemo",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 167,
+   "tp": 152,
+   "stats": {
+    "kick": 44,
+    "body": 70,
+    "control": 47,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 59,
+    "guts": 67
+   },
+   "moves": [
+    "air-bullet",
+    "britannia-cross",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Munemori Hidetoshi",
+   "description": "Es un fiel creyente en del dios del fútbol y apoya a su equipo hasta el final."
+  },
+  {
+   "id": "perses-destroyer",
+   "name": "Perses Destroyer",
+   "short": "Perses",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 164,
+   "tp": 157,
+   "stats": {
+    "kick": 69,
+    "body": 63,
+    "control": 44,
+    "guard": 75,
+    "speed": 48,
+    "stamina": 64,
+    "guts": 69
+   },
+   "moves": [
+    "air-bullet",
+    "claymore",
+    "twin-mixer",
+    "denrai-houtou"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurei Yuudai",
+   "description": "Su especialidad son los tiros fuertes, precisos y mortales como una espada."
+  },
+  {
+   "id": "rae-godmother",
+   "name": "Rae Godmother",
+   "short": "Rae",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 151,
+   "tp": 136,
+   "stats": {
+    "kick": 46,
+    "body": 52,
+    "control": 55,
+    "guard": 55,
+    "speed": 88,
+    "stamina": 52,
+    "guts": 55
+   },
+   "moves": [
+    "round-spark",
+    "fortissimo",
+    "melody-wave",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Amase Reia",
+   "description": "Tiene un intelecto privilegiado para su edad, y nada parece perturbarlo."
+  },
+  {
+   "id": "hyperion-wise",
+   "name": "Hyperion Wise",
+   "short": "Hyperion",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 105,
+   "tp": 131,
+   "stats": {
+    "kick": 45,
+    "body": 49,
+    "control": 58,
+    "guard": 47,
+    "speed": 89,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "round-spark",
+    "ryuusei-blade",
+    "ballista-shot",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hyuuga Rion",
+   "description": "Cuando está al máximo, su juego es tan brillante como un día de verano."
+  },
+  {
+   "id": "cronus-fourseasons",
+   "name": "Cronus Fourseasons",
+   "short": "Cronus",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 175,
+   "tp": 153,
+   "stats": {
+    "kick": 72,
+    "body": 72,
+    "control": 50,
+    "guard": 51,
+    "speed": 64,
+    "stamina": 52,
+    "guts": 69
+   },
+   "moves": [
+    "ballista-shot",
+    "round-spark",
+    "air-bullet",
+    "fire-tornado-dd"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kurosaki Makoto",
+   "description": "Jugador perfecto en cuerpo y mente, bendecido por el dios del fútbol."
+  },
+  {
+   "id": "coeus-heavens",
+   "name": "Coeus Heavens",
+   "short": "Coeus",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 127,
+   "stats": {
+    "kick": 57,
+    "body": 50,
+    "control": 49,
+    "guard": 47,
+    "speed": 50,
+    "stamina": 58,
+    "guts": 68
+   },
+   "moves": [
+    "ballista-shot",
+    "acrobat-keep",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Koizaki Io",
+   "description": "Un jugador estrella entrenado desde pequeño para ser el mejor."
+  },
+  {
+   "id": "tet-aqua",
+   "name": "Tet Aqua",
+   "short": "Tet",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 141,
+   "stats": {
+    "kick": 59,
+    "body": 53,
+    "control": 51,
+    "guard": 48,
+    "speed": 49,
+    "stamina": 56,
+    "guts": 68
+   },
+   "moves": [
+    "fire-tornado",
+    "melody-wave",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tsutsumi Tomo",
+   "description": "Es muy popular entre las fans por su físico y su juego perfectos."
+  },
+  {
+   "id": "atlas-carrier",
+   "name": "Atlas Carrier",
+   "short": "Atlas",
+   "number": 15,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 114,
+   "tp": 142,
+   "stats": {
+    "kick": 54,
+    "body": 54,
+    "control": 58,
+    "guard": 48,
+    "speed": 58,
+    "stamina": 63,
+    "guts": 53
+   },
+   "moves": [
+    "mad-juggler",
+    "senpuujin",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Atou Ran",
+   "description": "Antes hacía kickboxing, experiencia que aprovecha ahora en el campo."
+  },
+  {
+   "id": "phoebus-moonlight",
+   "name": "Phoebus Moonlight",
+   "short": "Phoebus",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 157,
+   "stats": {
+    "kick": 72,
+    "body": 50,
+    "control": 62,
+    "guard": 43,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 55
+   },
+   "moves": [
+    "air-bullet",
+    "acrobat-keep",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hozumi Shinpei",
+   "description": "Un duro jugador que cubre todo el campo sin dar tregua al contario."
+  },
+  {
+   "id": "pallas-brandish",
+   "name": "Pallas Brandish",
+   "short": "Pallas",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 169,
+   "tp": 119,
+   "stats": {
+    "kick": 69,
+    "body": 48,
+    "control": 59,
+    "guard": 43,
+    "speed": 59,
+    "stamina": 59,
+    "guts": 54
+   },
+   "moves": [
+    "crazy-sunlight",
+    "nobori-ryuu",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Furou Akisada",
+   "description": "No ha crecido desde hace años y parece más joven de lo que es."
+  },
+  {
+   "id": "iapetus-pierce",
+   "name": "Iapetus Pierce",
+   "short": "Iapetus",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 117,
+   "tp": 157,
+   "stats": {
+    "kick": 48,
+    "body": 50,
+    "control": 70,
+    "guard": 71,
+    "speed": 55,
+    "stamina": 63,
+    "guts": 53
+   },
+   "moves": [
+    "air-bullet",
+    "white-blade",
+    "atlantis-wall"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Iyabe Satoshi",
+   "description": "Nunca pierde de vista el balón y defiende de forma implacable."
+  },
+  {
+   "id": "oceanus-worldstream",
+   "name": "Oceanus Worldstream",
+   "short": "Oceanus",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 155,
+   "tp": 128,
+   "stats": {
+    "kick": 47,
+    "body": 52,
+    "control": 46,
+    "guard": 46,
+    "speed": 72,
+    "stamina": 62,
+    "guts": 56
+   },
+   "moves": [
+    "fire-tornado",
+    "round-spark",
+    "air-bullet",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Okegawa Yukimori",
+   "description": "Su pequeño físico esconde una fuerza inusitada."
+  },
+  {
+   "id": "eos-dawn",
+   "name": "Eos Dawn",
+   "short": "Eos",
+   "number": 12,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 68,
+   "tp": 148,
+   "stats": {
+    "kick": 44,
+    "body": 56,
+    "control": 56,
+    "guard": 68,
+    "speed": 54,
+    "stamina": 60,
+    "guts": 71
+   },
+   "moves": [
+    "god-hand",
+    "ballista-shot",
+    "shoot-break"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Temizu Kenji",
+   "description": "Tiene la costumbre de lavarse las manos y pies para purificarse antes de jugar."
+  },
+  {
+   "id": "themis-law",
+   "name": "Themis Law",
+   "short": "Themis",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 170,
+   "tp": 116,
+   "stats": {
+    "kick": 63,
+    "body": 51,
+    "control": 54,
+    "guard": 46,
+    "speed": 57,
+    "stamina": 59,
+    "guts": 58
+   },
+   "moves": [
+    "perfect-course",
+    "hunter-s-net",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Arino Omi",
+   "description": "Quiere tirar faltas con una trayectoria perfecta. Le da igual si entran o no."
+  },
+  {
+   "id": "orion-hunter",
+   "name": "Orion Hunter",
+   "short": "Orion",
+   "number": 16,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 157,
+   "stats": {
+    "kick": 66,
+    "body": 51,
+    "control": 44,
+    "guard": 46,
+    "speed": 64,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "spiral-draw",
+    "round-spark",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Asou Kurehito",
+   "description": "Se toma el entrenamiento muy en serio y le dedica interminables horas."
+  }
+ ]
+}

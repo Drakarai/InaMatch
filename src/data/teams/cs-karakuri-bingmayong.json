@@ -1,0 +1,419 @@
+{
+ "id": "cs-karakuri-bingmayong",
+ "season": "cs",
+ "wiki": "Karakuri Bingmayong",
+ "name": "Ejército de Terracotta",
+ "short": "KAR",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-terracotta",
+ "players": [
+  {
+   "id": "terracotta-warrior-1",
+   "name": "Terracotta Warrior 1",
+   "short": "1",
+   "number": 3,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 88,
+   "tp": 96,
+   "stats": {
+    "kick": 34,
+    "body": 68,
+    "control": 50,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 47
+   },
+   "moves": [
+    "beam-kobushi",
+    "blitz-bridge",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Bingmayong no Ichi",
+   "description": "Pertenece al Ejercito de Terracota. Le preocupa su excesiva fragilidad."
+  },
+  {
+   "id": "guan-yu",
+   "name": "Guan Yu",
+   "short": "Guan",
+   "number": 1,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 158,
+   "tp": 119,
+   "stats": {
+    "kick": 66,
+    "body": 69,
+    "control": 64,
+    "guard": 75,
+    "speed": 65,
+    "stamina": 64,
+    "guts": 50
+   },
+   "moves": [
+    "viva-banri-no-choujou",
+    "dimension-cut",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Guanyu",
+   "description": "Aliado de Liu Bei, que lo considera un hermano. Su fuerza es legendaria."
+  },
+  {
+   "id": "terracotta-warrior-2",
+   "name": "Terracotta Warrior 2",
+   "short": "2",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 83,
+   "tp": 77,
+   "stats": {
+    "kick": 42,
+    "body": 64,
+    "control": 49,
+    "guard": 55,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 44
+   },
+   "moves": [
+    "blitz-bridge",
+    "beam-kobushi",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Bingmayong no Ni",
+   "description": "Pertenece al Ejercito de Terracota. Le gustaría cambiar de peinado."
+  },
+  {
+   "id": "terracotta-warrior-3",
+   "name": "Terracotta Warrior 3",
+   "short": "3",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 84,
+   "stats": {
+    "kick": 44,
+    "body": 67,
+    "control": 50,
+    "guard": 59,
+    "speed": 57,
+    "stamina": 62,
+    "guts": 45
+   },
+   "moves": [
+    "blitz-bridge",
+    "transmove",
+    "beam-kobushi",
+    "gear-drive"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Bingmayong no San",
+   "description": "Pertenece al Ejercito de Terracota. No soporta el polvo."
+  },
+  {
+   "id": "terracotta-warrior-5",
+   "name": "Terracotta Warrior 5",
+   "short": "5",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 70,
+   "stats": {
+    "kick": 47,
+    "body": 54,
+    "control": 55,
+    "guard": 59,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 44
+   },
+   "moves": [
+    "transmove",
+    "kattobi-defense"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bingmayong no Go",
+   "description": "Pertenece al Ejercito de Terracota. Es el más disciplinado de todos."
+  },
+  {
+   "id": "terracotta-warrior-6",
+   "name": "Terracotta Warrior 6",
+   "short": "6",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 102,
+   "tp": 74,
+   "stats": {
+    "kick": 46,
+    "body": 61,
+    "control": 53,
+    "guard": 57,
+    "speed": 47,
+    "stamina": 65,
+    "guts": 45
+   },
+   "moves": [
+    "transmove",
+    "blitz-bridge",
+    "kattobi-defense"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Bingmayong no Roku",
+   "description": "Pertenece al Ejercito de Terracota. Le encanta asustar a la gente."
+  },
+  {
+   "id": "terracotta-warrior-7",
+   "name": "Terracotta Warrior 7",
+   "short": "7",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 86,
+   "tp": 74,
+   "stats": {
+    "kick": 51,
+    "body": 62,
+    "control": 52,
+    "guard": 56,
+    "speed": 60,
+    "stamina": 67,
+    "guts": 47
+   },
+   "moves": [
+    "transmove",
+    "spiral-draw",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Bingmayong no Shichi",
+   "description": "Pertenece al Ejercito de Terracota. No lo parece, pero es muy sigiloso."
+  },
+  {
+   "id": "terracotta-warrior-8",
+   "name": "Terracotta Warrior 8",
+   "short": "8",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 81,
+   "stats": {
+    "kick": 50,
+    "body": 69,
+    "control": 67,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 69,
+    "guts": 53
+   },
+   "moves": [
+    "transmove",
+    "zigzag-spark"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bingmayong no Hachi",
+   "description": "Pertenece al Ejercito de Terracota. Es un gran admirador de Zhuge."
+  },
+  {
+   "id": "terracotta-warrior-9",
+   "name": "Terracotta Warrior 9",
+   "short": "9",
+   "number": 11,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 91,
+   "tp": 77,
+   "stats": {
+    "kick": 60,
+    "body": 57,
+    "control": 60,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 58,
+    "guts": 45
+   },
+   "moves": [
+    "transmove",
+    "blitz-bridge",
+    "gear-drive"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bingmayong no Kyuu",
+   "description": "Pertenece al Ejercito de Terracota. Está muy orgulloso de sus hermanos."
+  },
+  {
+   "id": "terracotta-warrior-10",
+   "name": "Terracotta Warrior 10",
+   "short": "10",
+   "number": 12,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 91,
+   "tp": 77,
+   "stats": {
+    "kick": 64,
+    "body": 63,
+    "control": 59,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 46
+   },
+   "moves": [
+    "transmove",
+    "twin-mixer",
+    "spark-edge-dribble"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Bingmayong no Juu",
+   "description": "Pertenece al Ejercito de Terracota. Cuando se rasca, se deja surcos."
+  },
+  {
+   "id": "zhang-fei",
+   "name": "Zhang Fei",
+   "short": "Zhang",
+   "number": 2,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 208,
+   "tp": 118,
+   "stats": {
+    "kick": 84,
+    "body": 61,
+    "control": 61,
+    "guard": 59,
+    "speed": 48,
+    "stamina": 63,
+    "guts": 52
+   },
+   "moves": [
+    "atomic-flare",
+    "tiger-drive",
+    "spark-edge-dribble",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zhangfei",
+   "description": "Un valiente general que tiene un gran respeto por su líder, Liu Bei."
+  },
+  {
+   "id": "terracotta-warrior-4",
+   "name": "Terracotta Warrior 4",
+   "short": "4",
+   "number": 6,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 88,
+   "tp": 91,
+   "stats": {
+    "kick": 46,
+    "body": 59,
+    "control": 48,
+    "guard": 56,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 52
+   },
+   "moves": [
+    "blitz-bridge",
+    "burning-summer",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Bingmayong no Yon",
+   "description": "Pertenece al Ejercito de Terracota. Por algún motivo, le da asco mojarse."
+  },
+  {
+   "id": "terracotta-warrior-11",
+   "name": "Terracotta Warrior 11",
+   "short": "11",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 96,
+   "tp": 114,
+   "stats": {
+    "kick": 61,
+    "body": 66,
+    "control": 53,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 63,
+    "guts": 44
+   },
+   "moves": [
+    "gear-drive",
+    "transmove",
+    "kiku-ichimonji"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bingmayong no Juuichi",
+   "description": "Pertenece al Ejercito de Terracota. Se cree que es un genial estratega."
+  }
+ ]
+}

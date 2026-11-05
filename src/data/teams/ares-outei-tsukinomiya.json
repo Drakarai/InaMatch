@@ -1,0 +1,556 @@
+{
+ "id": "ares-outei-tsukinomiya",
+ "season": "ares",
+ "wiki": "Outei Tsukinomiya",
+ "name": "Outei Tsukinomiya",
+ "short": "OUT",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-5-3-2",
+ "players": [
+  {
+   "id": "duske-grayling",
+   "name": "Duske Grayling",
+   "short": "Duske",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 250,
+   "tp": 237,
+   "stats": {
+    "kick": 99,
+    "body": 84,
+    "control": 90,
+    "guard": 75,
+    "speed": 89,
+    "stamina": 96,
+    "guts": 91
+   },
+   "moves": [
+    "ouke-no-tate",
+    "casting-arm",
+    "shoot-pocket",
+    "kage-tsukami"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nishikage Seiya",
+   "description": "Confía ciegamente en . Lo acompaña a todas partes como un guardián silencioso."
+  },
+  {
+   "id": "solomon-owle",
+   "name": "Solomon Owle",
+   "short": "Solomon",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "spinning-cut",
+    "moonsault",
+    "super-scan-of",
+    "quick-draw"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Michiba Atsunori",
+   "description": "Es como un libro de jugadas sobre el fútbol. Memoriza todas las jugadas rivales para anticiparse a ellas."
+  },
+  {
+   "id": "oleander-meadows",
+   "name": "Oleander Meadows",
+   "short": "Oleander",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "shooting-cut",
+    "shippuu-dash",
+    "sky-walk",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kousaka Ranto",
+   "description": "Extremadamente atlético y milimétrico en sus pases Sus jugadas son ocasión de gol y su energía es contagiosa."
+  },
+  {
+   "id": "piers-thornton",
+   "name": "Piers Thornton",
+   "short": "Piers",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "spinning-cut",
+    "blade-attack",
+    "shooting-star",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sakuraba Haruki",
+   "description": "Lidera la defensa con eficiencia y nervios de acero. Imperdurable incluso cuando las cosas se ponen feas."
+  },
+  {
+   "id": "bud-bloome",
+   "name": "Bud Bloome",
+   "short": "Bud",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "spinning-cut",
+    "sky-walk",
+    "harvest",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hanasaki Taizen",
+   "description": "Construye ataques desde la retaguardia y, a diferencia de otros, respeta la habilidad de a pesar de su edad."
+  },
+  {
+   "id": "reid-rivers",
+   "name": "Reid Rivers",
+   "short": "Reid",
+   "number": 6,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "super-scan-df",
+    "shooting-cut",
+    "dash-accel",
+    "tsubame-gaeshi"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Okuno Hosomichi",
+   "description": "Un jugador de aspecto delicado y algo chapado a la antigua. Mantiene la defensa unida con su determinación."
+  },
+  {
+   "id": "willow-proude",
+   "name": "Willow Proude",
+   "short": "Willow",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "tenkuu-no-yaiba",
+    "angel-ray",
+    "illusion-ball",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tanizaki Yoshiya",
+   "description": "Puede leer la mente a sus rivales. Es rápido y muy elegante al robarles el balón."
+  },
+  {
+   "id": "wolfe-redwood",
+   "name": "Wolfe Redwood",
+   "short": "Wolfe",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "sky-walk",
+    "dash-accel",
+    "block-circus",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Okano Kousuke",
+   "description": "Los rivales sienten la presión en cuanto cruzan su mirada, mucho antes de que su fuerza y elegancia hagan el resto."
+  },
+  {
+   "id": "raven-vale",
+   "name": "Raven Vale",
+   "short": "Raven",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "tenkuu-no-yaiba",
+    "angel-ray",
+    "presto-turn",
+    "dash-accel"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kusaka Gen",
+   "description": "Mantiene la calma incluso en los momentos más tensos. Sorprende a sus rivales con su increíble control sobre el balón."
+  },
+  {
+   "id": "heath-moore",
+   "name": "Heath Moore",
+   "short": "Heath",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "king-s-lance",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nosaka Yuuma",
+   "description": ": Jugador polifacético con un liderazgo excepcional. Posee una gran destreza y tácticas muy ingeniosas."
+  },
+  {
+   "id": "leif-bolt",
+   "name": "Leif Bolt",
+   "short": "Leif",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "fire-tornado",
+    "heat-tackle",
+    "cross-drive",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Haoto Ichiya",
+   "description": "Tiene un fuerte sentido de justicia. Este jugador pule su habilidades partido tras partido."
+  },
+  {
+   "id": "lucas-star",
+   "name": "Lucas Star",
+   "short": "Lucas",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 195,
+   "stats": {
+    "kick": 61,
+    "body": 58,
+    "control": 86,
+    "guard": 66,
+    "speed": 98,
+    "stamina": 77,
+    "guts": 74
+   },
+   "moves": [
+    "blue-stardust",
+    "planet-break"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ichihoshi Hikaru",
+   "description": "Lucas : Tras unificar sus personalidades, ha logrado combinar la fuerza de su hermano con una aguda capacidad analítica."
+  },
+  {
+   "id": "lucian-skye",
+   "name": "Lucian Skye",
+   "short": "Lucian",
+   "number": 21,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "southern-crosscut",
+    "shooting-cut",
+    "illusion-ball",
+    "presto-turn"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Takemi Kousuke",
+   "description": "Su tiempo en Ares le ayudó a perfeccionar sus habilidades, pero detestó lo estricto que era el entrenamiento."
+  },
+  {
+   "id": "solren-dawnwright",
+   "name": "Solren Dawnwright",
+   "short": "Solren",
+   "number": 22,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "shoot-pocket",
+    "kage-tsukami",
+    "rocket-kobushi",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yudou Asahi",
+   "description": "De espíritu relajado por naturaleza, pero en el campo juega sin contenerse lo más mínimo."
+  },
+  {
+   "id": "elior-march",
+   "name": "Elior March",
+   "short": "Elior",
+   "number": 23,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "angel-ray",
+    "coil-turn",
+    "the-mist",
+    "quick-draw"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shiina Issei",
+   "description": "Todo un valiente que atraviesa el campo a toda velocidad. Posee una determinación inquebrantable."
+  },
+  {
+   "id": "raylon-highmoor",
+   "name": "Raylon Highmoor",
+   "short": "Raylon",
+   "number": 24,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "sky-walk",
+    "zanzou",
+    "quick-draw",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yamashiro Reihou",
+   "description": "Se somete ante aquellos a los que considera superiores y cumple sus órdenes a rajatabla."
+  },
+  {
+   "id": "fedrin-fennley",
+   "name": "Fedrin Fennley",
+   "short": "Fedrin",
+   "number": 25,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "maboroshi-dribble",
+    "onryou",
+    "dimension-cut",
+    "sigma-zone"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fujiyabu Shigesato",
+   "description": "Difícil de descifrar y más aún de intimidar. Ayuda al equipo con sus útiles consejos."
+  }
+ ]
+}

@@ -1,0 +1,509 @@
+{
+ "id": "go-arakumo-gakuen",
+ "season": "go",
+ "wiki": "Arakumo Gakuen",
+ "name": "Arakumo Gakuen",
+ "short": "ARA",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-neo-cloud",
+ "players": [
+  {
+   "id": "ringo-saturn",
+   "name": "Ringo Saturn",
+   "short": "Ringo",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 67,
+   "tp": 165,
+   "stats": {
+    "kick": 49,
+    "body": 46,
+    "control": 52,
+    "guard": 61,
+    "speed": 46,
+    "stamina": 51,
+    "guts": 63
+   },
+   "moves": [
+    "star-reflection",
+    "god-hand-v"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sata Tosamaru",
+   "description": "Su habilidad en la portería y su voz potente dan gran seguridad al equipo."
+  },
+  {
+   "id": "terran-gaea",
+   "name": "Terran Gaea",
+   "short": "Terran",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 104,
+   "tp": 169,
+   "stats": {
+    "kick": 55,
+    "body": 64,
+    "control": 62,
+    "guard": 45,
+    "speed": 54,
+    "stamina": 58,
+    "guts": 67
+   },
+   "moves": [
+    "crazy-sunlight",
+    "fuujin-no-mai",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yasumori Chiharu",
+   "description": "Le gustan las películas de gánsteres, pero juega limpio al fútbol."
+  },
+  {
+   "id": "auberon-ouranos",
+   "name": "Auberon Ouranos",
+   "short": "Auberon",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 171,
+   "tp": 157,
+   "stats": {
+    "kick": 52,
+    "body": 49,
+    "control": 49,
+    "guard": 66,
+    "speed": 51,
+    "stamina": 63,
+    "guts": 64
+   },
+   "moves": [
+    "crazy-sunlight",
+    "thief-eye"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Urano Tenshou",
+   "description": "Tiene una vista de lince que hace que no se le escape una."
+  },
+  {
+   "id": "manning-moon",
+   "name": "Manning Moon",
+   "short": "Manning",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 171,
+   "tp": 119,
+   "stats": {
+    "kick": 53,
+    "body": 47,
+    "control": 52,
+    "guard": 55,
+    "speed": 55,
+    "stamina": 61,
+    "guts": 66
+   },
+   "moves": [
+    "crazy-sunlight",
+    "ice-ground",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mukumo Tsukiya",
+   "description": "Con solo mirar al cielo puede predecir el tiempo que hará por la noche."
+  },
+  {
+   "id": "nix-pluto",
+   "name": "Nix Pluto",
+   "short": "Nix",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 102,
+   "tp": 168,
+   "stats": {
+    "kick": 52,
+    "body": 52,
+    "control": 45,
+    "guard": 54,
+    "speed": 71,
+    "stamina": 48,
+    "guts": 64
+   },
+   "moves": [
+    "melody-wave",
+    "zeroyon",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Furuto Meiji",
+   "description": "Aunque solo construye aparatos para sí mismo, se considera un inventor."
+  },
+  {
+   "id": "deimos-mars",
+   "name": "Deimos Mars",
+   "short": "Deimos",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 191,
+   "tp": 114,
+   "stats": {
+    "kick": 73,
+    "body": 49,
+    "control": 43,
+    "guard": 50,
+    "speed": 64,
+    "stamina": 60,
+    "guts": 63
+   },
+   "moves": [
+    "ryuusei-blade",
+    "endless-summer",
+    "fire-tornado"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mazumi Hiroshi",
+   "description": "Es demasiado brusco en el trato, pero muy leal y responsable."
+  },
+  {
+   "id": "neith-venus",
+   "name": "Neith Venus",
+   "short": "Neith",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 112,
+   "tp": 159,
+   "stats": {
+    "kick": 53,
+    "body": 66,
+    "control": 46,
+    "guard": 59,
+    "speed": 60,
+    "stamina": 57,
+    "guts": 68
+   },
+   "moves": [
+    "melody-wave",
+    "fortissimo",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hinano Kinsuke",
+   "description": "Su depurada técnica encandila a los que la ven, incluso a veces a él mismo."
+  },
+  {
+   "id": "callis-jove",
+   "name": "Callis Jove",
+   "short": "Callis",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 177,
+   "tp": 168,
+   "stats": {
+    "kick": 68,
+    "body": 48,
+    "control": 47,
+    "guard": 47,
+    "speed": 62,
+    "stamina": 64,
+    "guts": 63
+   },
+   "moves": [
+    "melody-wave",
+    "presto-turn",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kida Mokuren",
+   "description": "Le encanta la aromaterapia. Conoce todos los olores y sus propiedades."
+  },
+  {
+   "id": "triton-nettuno",
+   "name": "Triton Nettuno",
+   "short": "Triton",
+   "number": 8,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 128,
+   "stats": {
+    "kick": 54,
+    "body": 51,
+    "control": 55,
+    "guard": 50,
+    "speed": 64,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "ryuusei-blade",
+    "presto-turn",
+    "panther-blizzard"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nebuchi Umitomo",
+   "description": "Realiza poderosos tiros usando todo el cuerpo como si fuese un látigo."
+  },
+  {
+   "id": "sol-daystar",
+   "name": "Sol Daystar",
+   "short": "Sol",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 157,
+   "tp": 152,
+   "stats": {
+    "kick": 63,
+    "body": 64,
+    "control": 50,
+    "guard": 61,
+    "speed": 48,
+    "stamina": 61,
+    "guts": 71
+   },
+   "moves": [
+    "ryuusei-blade",
+    "presto-turn",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Amemiya Taiyou",
+   "description": "Un genio en el campo, de los que solo aparece uno cada década."
+  },
+  {
+   "id": "chiron-vestal",
+   "name": "Chiron Vestal",
+   "short": "Chiron",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 102,
+   "tp": 149,
+   "stats": {
+    "kick": 46,
+    "body": 62,
+    "control": 54,
+    "guard": 65,
+    "speed": 57,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "sidewinder",
+    "boomerang-feint",
+    "denrai-houtou"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Chihara Eichi",
+   "description": "Experto en curiosidades absurdas que no sirven para nada."
+  },
+  {
+   "id": "crateris-mercury",
+   "name": "Crateris Mercury",
+   "short": "Crateris",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 136,
+   "stats": {
+    "kick": 52,
+    "body": 52,
+    "control": 67,
+    "guard": 34,
+    "speed": 74,
+    "stamina": 47,
+    "guts": 61
+   },
+   "moves": [
+    "crazy-sunlight",
+    "soyokaze-step",
+    "sargasso",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Makisato Mizuki",
+   "description": "Sus movimientos con el balón son limpios y fluidos como el agua."
+  },
+  {
+   "id": "astro-ceres",
+   "name": "Astro Ceres",
+   "short": "Astro",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 86,
+   "tp": 171,
+   "stats": {
+    "kick": 49,
+    "body": 49,
+    "control": 54,
+    "guard": 59,
+    "speed": 52,
+    "stamina": 47,
+    "guts": 67
+   },
+   "moves": [
+    "god-hand",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Serei Kazutoyo",
+   "description": "Le gusta hacer dibujos zigzagueantes en sus cuadernos de notas."
+  },
+  {
+   "id": "xeno-eris",
+   "name": "Xeno Eris",
+   "short": "Xeno",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 155,
+   "tp": 159,
+   "stats": {
+    "kick": 48,
+    "body": 53,
+    "control": 52,
+    "guard": 50,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 63
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "zeroyon",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Iri Koushichirou",
+   "description": "Le gusta pulverizar agua en los días soleados para ver el arcoíris."
+  },
+  {
+   "id": "namak-haumea",
+   "name": "Namak Haumea",
+   "short": "Namak",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 174,
+   "tp": 121,
+   "stats": {
+    "kick": 65,
+    "body": 35,
+    "control": 66,
+    "guard": 39,
+    "speed": 60,
+    "stamina": 72,
+    "guts": 60
+   },
+   "moves": [
+    "sargasso",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Higa Takeyasu",
+   "description": "Presume no coger nunca catarros y curarse rápido de las lesiones."
+  },
+  {
+   "id": "mac-emake",
+   "name": "Mac Emake",
+   "short": "Mac",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 159,
+   "stats": {
+    "kick": 50,
+    "body": 48,
+    "control": 46,
+    "guard": 56,
+    "speed": 49,
+    "stamina": 66,
+    "guts": 66
+   },
+   "moves": [
+    "bound-flame",
+    "burning-summer",
+    "dash-train"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Uesuda Shirou",
+   "description": "Su especialidad es cocinar estofados a la temperatura perfecta."
+  }
+ ]
+}

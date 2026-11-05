@@ -1,0 +1,528 @@
+{
+ "id": "vr-toufuu-ikokukan",
+ "season": "vr",
+ "wiki": "Toufuu Ikokukan",
+ "name": "Toufuu Ikokukan",
+ "short": "TOU",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-3-4-3",
+ "players": [
+  {
+   "id": "martino-leone",
+   "name": "Martino Leone",
+   "short": "Martino",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "outer-world",
+    "galatyn",
+    "wormhole",
+    "reverse-world"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Martino Leone",
+   "description": "Hijo de jugadores rivales de . Fue enviado a Japón para vencer al hijo de su adversario, ."
+  },
+  {
+   "id": "jenny-okutba",
+   "name": "Jenny Okutba",
+   "short": "Jenny",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "deep-diver",
+    "sargasso",
+    "aurora-dribble",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jenny October",
+   "description": "Creció al lado del mar y sabe bucear. Persigue a los rivales con una determinación incansable."
+  },
+  {
+   "id": "gigy-maharaja",
+   "name": "Gigy Maharaja",
+   "short": "Gigy",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "niagara-falls",
+    "elephant-press",
+    "zigzag-flame",
+    "gravitation"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kiki Maharaja",
+   "description": "De una tribu que lucha contra bestias salvajes, ve a los oponentes más grandes como gatitos."
+  },
+  {
+   "id": "judie-cassios",
+   "name": "Judie Cassios",
+   "short": "Judie",
+   "number": 8,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "fake-ball",
+    "gorimuchuu",
+    "sky-walk",
+    "block-circus"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Judie Cassios",
+   "description": "Con una vista de águila, lee el partido como si estuviera viendo el futuro."
+  },
+  {
+   "id": "robart-anderson",
+   "name": "Robart Anderson",
+   "short": "Robart",
+   "number": 4,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "niagara-falls",
+    "rolling-slide",
+    "ultra-moon",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Roberto Anderson",
+   "description": "Un as de los malabares al que parece que la pelota se la haya pegado a los pies."
+  },
+  {
+   "id": "maribelle-flanmir",
+   "name": "Maribelle Flanmir",
+   "short": "Maribelle",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "spinning-shoot",
+    "sky-walk",
+    "go-to-heaven",
+    "the-ikaros"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Maribel Franmil",
+   "description": "Esquiva a sus rivales como si tuviera alas. Todo el mundo la llama \"el ángel del cielo nocturno\"."
+  },
+  {
+   "id": "toyo-yamanouchi",
+   "name": "Toyo Yamanouchi",
+   "short": "Toyo",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "niagara-falls",
+    "deep-diver",
+    "zigzag-spark",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yamanouchi Touyou",
+   "description": "Tiene una habilidad innata para para liderar. Mantiene a raya a los estudiantes de intercambio más rebeldes."
+  },
+  {
+   "id": "ming-chow",
+   "name": "Ming Chow",
+   "short": "Ming",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "grenade-shot",
+    "kangaroo-kick",
+    "naraku-otoshi",
+    "jibashiri-kaen"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zhou Mei",
+   "description": "Comienza el día meditando debajo de una cascada, pero después se leva como perro y gato con ."
+  },
+  {
+   "id": "joey-beat",
+   "name": "Joey Beat",
+   "short": "Joey",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "bound-flame",
+    "cheat-blaster",
+    "naraku-otoshi",
+    "flame-dance"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "John Beat",
+   "description": "El jazz fluye por sus venas. Mientras dribla sigue el tempo que tiene en la cabeza."
+  },
+  {
+   "id": "kai-yoshizaki",
+   "name": "Kai Yoshizaki",
+   "short": "Kai",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "cheat-blaster",
+    "zigzag-flame",
+    "niagara-falls",
+    "hellfire"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kai Yoshizaki",
+   "description": "Dispara tiros como balas de cañón que machacan a los defensas y hacen temblar la red."
+  },
+  {
+   "id": "sikuvot-shivan",
+   "name": "Sikuvot Shivan",
+   "short": "Sikuvot",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "niagara-falls",
+    "deep-diver",
+    "ultra-moon",
+    "flying-fish"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Squat Swan",
+   "description": "Una estrella del parkour que se desliza por el campo como una hoja empujada por el viento. Esquiva a sus enemigos con una gracia innata."
+  },
+  {
+   "id": "olson-carchis",
+   "name": "Olson Carchis",
+   "short": "Olson",
+   "number": 12,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "presto-turn",
+    "perfect-course",
+    "angel-ball",
+    "paladin-strike"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Olson Curtis",
+   "description": "Un francotirador letal con una precisión quirúrgica."
+  },
+  {
+   "id": "mengmeng-wang",
+   "name": "Mengmeng Wang",
+   "short": "Mengmeng",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "dog-run",
+    "dash-storm",
+    "zigzag-flame",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Wang Mongmong",
+   "description": "Salir a correr con su perro le hizo ganar velocidad en el campo. Jura que su perrito es la clave de sus habilidades."
+  },
+  {
+   "id": "kain-vijet",
+   "name": "Kain Vijet",
+   "short": "Kain",
+   "number": 14,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "quick-draw",
+    "fake-ball",
+    "stone-prison",
+    "kangaroo-kick"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Cain Widget",
+   "description": "Se salta la primera parte con la excusa de que los héroes siempre llegan tarde. Trae de cabeza al entrenador."
+  },
+  {
+   "id": "kaos-dao",
+   "name": "Kaos Dao",
+   "short": "Kaos",
+   "number": 15,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 162,
+   "tp": 158,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 67,
+    "guard": 75,
+    "speed": 56,
+    "stamina": 68,
+    "guts": 69
+   },
+   "moves": [
+    "sand-cutter",
+    "rocket-kobushi",
+    "shikofumi",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kaios Dao",
+   "description": "Sus puñetazos de Muay Thai son tan potentes que a veces rompe el balón al hacer paradas."
+  },
+  {
+   "id": "edmond-pias",
+   "name": "Edmond Pias",
+   "short": "Edmond",
+   "number": 16,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "quick-draw",
+    "tsubame-gaeshi",
+    "ichiyajou",
+    "okehazama-wall"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Edmond Pierce",
+   "description": "Está obsesionado con los samuráis y el club de kendo. Golpea el balón como si blandiera una espada."
+  }
+ ]
+}

@@ -1,0 +1,496 @@
+{
+ "id": "orion-navy-invader",
+ "season": "orion",
+ "wiki": "Navy Invader",
+ "name": "Navy Invader",
+ "short": "NAV",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-6-2-2",
+ "players": [
+  {
+   "id": "bigman",
+   "name": "Bigman",
+   "short": "Bigman",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "gunji-eisei-phobos",
+    "stinger",
+    "killer-blade",
+    "procyon-net"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bigman",
+   "description": "Pequeño de estatura pero de gran corazón, sueña con ser el más rico del mundo."
+  },
+  {
+   "id": "charmer",
+   "name": "Charmer",
+   "short": "Charmer",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "blade-attack",
+    "iron-wall",
+    "photon-flash",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gentleman",
+   "description": "Su sonrisa fresca nunca flaquea y le mantiene sereno en cualquier situación."
+  },
+  {
+   "id": "scuba",
+   "name": "Scuba",
+   "short": "Scuba",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "sargasso",
+    "water-veil",
+    "whale-guard",
+    "flying-fish"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Diver",
+   "description": "Un maestro del entrenamiento bajo el agua: bucea más hondo y más tiempo que nadie."
+  },
+  {
+   "id": "smokestack",
+   "name": "Smokestack",
+   "short": "Smokestack",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "blade-attack",
+    "rolling-slide",
+    "fake-bomber",
+    "doukasen"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Smokey",
+   "description": "Siempre con un chicle a punto, se pavonea por el campo convencido de que es el más guay."
+  },
+  {
+   "id": "judge",
+   "name": "Judge",
+   "short": "Judge",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "rolling-slide",
+    "harvest",
+    "judge-through",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Judge",
+   "description": "Con un ojo oculto bajo el flequillo, parece ver lo que otros no ven."
+  },
+  {
+   "id": "hunter",
+   "name": "Hunter",
+   "short": "Hunter",
+   "number": 6,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "hunter-s-net",
+    "mogura-shuffle",
+    "blitz-bridge",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hunter",
+   "description": "Aunque le manden dar cien vueltas, su aguante le permite hacerlas sin esfuerzo."
+  },
+  {
+   "id": "cobra",
+   "name": "Cobra",
+   "short": "Cobra",
+   "number": 8,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "carronade-hou",
+    "elephant-press",
+    "mogura-shuffle",
+    "kumo-no-ito"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Cobra",
+   "description": "Con la mirada curtida por un entrenamiento durísimo, guía a sus compañeros con instinto de capitán nato."
+  },
+  {
+   "id": "yoga",
+   "name": "Yoga",
+   "short": "Yoga",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "kamaitachi",
+    "magic",
+    "gunshot",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yoga",
+   "description": "Tiene una vena rebelde, a diferencia de los demás soldados obedientes, aunque nunca desafía al mánager."
+  },
+  {
+   "id": "mop",
+   "name": "Mop",
+   "short": "Mop",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "carronade-hou",
+    "magic",
+    "air-ride",
+    "deep-jungle"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shakey",
+   "description": "Cada mañana suena la trompeta y todos se levantan a la señal bajo su atenta dirección."
+  },
+  {
+   "id": "moai",
+   "name": "Moai",
+   "short": "Moai",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "eagle-buster",
+    "carronade-hou",
+    "tarzan-kick",
+    "blitz-bridge"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Convoy",
+   "description": "Ingenioso y rápido, inventa nuevas señales de mano para guiar al equipo con precisión."
+  },
+  {
+   "id": "hellion",
+   "name": "Hellion",
+   "short": "Hellion",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "tarzan-kick",
+    "eagle-buster",
+    "carronade-hou",
+    "abisegeri"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Lion",
+   "description": "Callado por naturaleza, aun así lanza ánimos tan fuertes que se oyen en todo el campo."
+  },
+  {
+   "id": "howler",
+   "name": "Howler",
+   "short": "Howler",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "big-spider",
+    "slash-nail",
+    "gigant-wall",
+    "destiny-cloud"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Horn",
+   "description": "Devora la comida con la boca abierta de par en par y le roba bocados a cualquiera que tenga cerca."
+  },
+  {
+   "id": "wizard",
+   "name": "Wizard",
+   "short": "Wizard",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "carronade-hou",
+    "magic",
+    "bound-flame",
+    "rolling-slide"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Magician",
+   "description": "Desconfiado con los demás, se dedica sin descanso a pulir sus propias habilidades."
+  },
+  {
+   "id": "ren-gad",
+   "name": "René Gadé",
+   "short": "René",
+   "number": 15,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "carronade-hou",
+    "u-boat",
+    "abisegeri",
+    "death-rain"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Bahart Descom",
+   "description": "Con una precisión militar, el mánager de los Ace Invaders dirige al equipo solo con señales de mano."
+  },
+  {
+   "id": "switch",
+   "name": "Switch",
+   "short": "Switch",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "carronade-hou",
+    "dinosaur-break",
+    "fake-ball",
+    "doukasen"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Jack",
+   "description": "Un experto en supervivencia cuyos conocimientos obsesivos impresionan hasta a sus superiores."
+  }
+ ]
+}

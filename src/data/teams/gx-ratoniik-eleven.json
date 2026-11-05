@@ -1,0 +1,489 @@
+{
+ "id": "gx-ratoniik-eleven",
+ "season": "gx",
+ "wiki": "Ratoniik Eleven",
+ "name": "Ratoniik Eleven",
+ "short": "RAT",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-predator",
+ "players": [
+  {
+   "id": "ceram",
+   "name": "Ceram",
+   "short": "Ceram",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 138,
+   "stats": {
+    "kick": 76,
+    "body": 71,
+    "control": 48,
+    "guard": 70,
+    "speed": 62,
+    "stamina": 54,
+    "guts": 65
+   },
+   "moves": [
+    "big-mouth",
+    "tentacle-hold"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Longa Kamicula",
+   "description": "Este portero no tiene ninguna debilidad. El capitán confía en él."
+  },
+  {
+   "id": "romborina-drohn",
+   "name": "Romborina Drohn",
+   "short": "Romborina",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 163,
+   "tp": 105,
+   "stats": {
+    "kick": 75,
+    "body": 55,
+    "control": 48,
+    "guard": 67,
+    "speed": 59,
+    "stamina": 66,
+    "guts": 71
+   },
+   "moves": [
+    "tentacle-hold",
+    "big-mouth",
+    "linear-drive",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Dron Naboon",
+   "description": "Defensa cuyo cuerpo es fuerte como una armadura. No siente el dolor."
+  },
+  {
+   "id": "heterocera",
+   "name": "Heterocera",
+   "short": "Heterocera",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 108,
+   "stats": {
+    "kick": 74,
+    "body": 53,
+    "control": 53,
+    "guard": 66,
+    "speed": 65,
+    "stamina": 57,
+    "guts": 73
+   },
+   "moves": [
+    "tentacle-hold",
+    "mushroom-hop",
+    "coil-upper",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Moth Gar",
+   "description": "Es un chico problemático pero que no causa ningún daño a su equipo."
+  },
+  {
+   "id": "formiga",
+   "name": "Formiga",
+   "short": "Formiga",
+   "number": 4,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 156,
+   "stats": {
+    "kick": 48,
+    "body": 53,
+    "control": 62,
+    "guard": 54,
+    "speed": 69,
+    "stamina": 49,
+    "guts": 72
+   },
+   "moves": [
+    "mushroom-hop",
+    "linear-drive",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Antwa Arley",
+   "description": "Pequeña pero con una fuerza brutal. Muy problemática para los rivales."
+  },
+  {
+   "id": "mantodea",
+   "name": "Mantodea",
+   "short": "Mantodea",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 105,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 61,
+    "control": 63,
+    "guard": 56,
+    "speed": 54,
+    "stamina": 70,
+    "guts": 73
+   },
+   "moves": [
+    "mushroom-hop",
+    "tentacle-hold",
+    "einsatz",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tis Khama",
+   "description": "Un cazador legendario de la aldea de Juuro, nuevo en el fútbol pero con mucho potencial."
+  },
+  {
+   "id": "lepidoptera",
+   "name": "Lepidoptera",
+   "short": "Lepidoptera",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 110,
+   "tp": 143,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 65,
+    "guard": 60,
+    "speed": 64,
+    "stamina": 47,
+    "guts": 77
+   },
+   "moves": [
+    "mushroom-hop",
+    "tentacle-hold",
+    "good-smell"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Putterf Chocho",
+   "description": "Tiene una habilidad explosiva que mejora con cada jornada."
+  },
+  {
+   "id": "caelif",
+   "name": "Caelif",
+   "short": "Caelif",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 150,
+   "tp": 95,
+   "stats": {
+    "kick": 53,
+    "body": 68,
+    "control": 61,
+    "guard": 59,
+    "speed": 61,
+    "stamina": 52,
+    "guts": 68
+   },
+   "moves": [
+    "gigant-vine",
+    "mushroom-hop",
+    "tentacle-hold"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hopper Bata",
+   "description": "Es capaz de saltar 5 metros de alto y 15 de metros de largo."
+  },
+  {
+   "id": "lucan",
+   "name": "Lucan",
+   "short": "Lucan",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 117,
+   "stats": {
+    "kick": 67,
+    "body": 69,
+    "control": 66,
+    "guard": 58,
+    "speed": 53,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "gigant-vine",
+    "mushroom-hop",
+    "tentacle-hold",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Stag Kuwatta",
+   "description": "Capitán de Los Fertilia. Es el más longevo del equipo."
+  },
+  {
+   "id": "banda-crix",
+   "name": "Banda Crix",
+   "short": "Crix",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 170,
+   "tp": 113,
+   "stats": {
+    "kick": 66,
+    "body": 65,
+    "control": 67,
+    "guard": 55,
+    "speed": 62,
+    "stamina": 50,
+    "guts": 75
+   },
+   "moves": [
+    "mushroom-hop",
+    "gigant-vine",
+    "dragon-crash",
+    "gauss-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Banda Koroegyu",
+   "description": "Jugador fundamental de Los Fertilia. Posee un gran físico."
+  },
+  {
+   "id": "vespa",
+   "name": "Vespa",
+   "short": "Vespa",
+   "number": 7,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 132,
+   "stats": {
+    "kick": 64,
+    "body": 63,
+    "control": 62,
+    "guard": 62,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 75
+   },
+   "moves": [
+    "gigant-vine",
+    "z-slash",
+    "melody-wave",
+    "parkour-attack"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Honet Harcha",
+   "description": "Delantera de Los Fertilia que siempre busca el punto débil del rival."
+  },
+  {
+   "id": "schisto",
+   "name": "Schisto",
+   "short": "Schisto",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 142,
+   "tp": 124,
+   "stats": {
+    "kick": 63,
+    "body": 63,
+    "control": 58,
+    "guard": 64,
+    "speed": 52,
+    "stamina": 55,
+    "guts": 77
+   },
+   "moves": [
+    "gigant-vine",
+    "illusion-ball",
+    "z-slash",
+    "death-spear"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Locus Inagus",
+   "description": "Amigo de la infancia de Lucan que teme por él en cada partido."
+  },
+  {
+   "id": "elater-clicka",
+   "name": "Elater Clicka",
+   "short": "Elater",
+   "number": 15,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 117,
+   "stats": {
+    "kick": 66,
+    "body": 39,
+    "control": 60,
+    "guard": 54,
+    "speed": 65,
+    "stamina": 56,
+    "guts": 68
+   },
+   "moves": [
+    "transmove",
+    "dragon-crash"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Komecky Shoryou",
+   "description": "Si le asustas con un grito reacciona con un salto increíble."
+  },
+  {
+   "id": "sect-pheromona",
+   "name": "Sect Pheromona",
+   "short": "Sect",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 50,
+    "body": 70,
+    "control": 50,
+    "guard": 70,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "spinning-cut",
+    "eternal-blizzard",
+    "air-bullet",
+    "go-to-heaven"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shimur Pheromona",
+   "description": "Entrenadora de Los Fertilia. Saca el potencial de cada jugador."
+  },
+  {
+   "id": "theraphos-tranchla",
+   "name": "Theraphos Tranchla",
+   "short": "Theraphos",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 120,
+   "stats": {
+    "kick": 68,
+    "body": 61,
+    "control": 66,
+    "guard": 54,
+    "speed": 54,
+    "stamina": 67,
+    "guts": 68
+   },
+   "moves": [
+    "trace-press",
+    "dragon-crash",
+    "death-drop",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tarran Tulakumo",
+   "description": "Creen que es un villano solo por su aspecto pero es todo amor."
+  },
+  {
+   "id": "banda-crix-junior",
+   "name": "Banda Crix Junior",
+   "short": "Junior",
+   "number": 21,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 144,
+   "tp": 99,
+   "stats": {
+    "kick": 57,
+    "body": 63,
+    "control": 57,
+    "guard": 54,
+    "speed": 61,
+    "stamina": 49,
+    "guts": 96
+   },
+   "moves": [
+    "the-mist",
+    "melody-wave",
+    "mushroom-hop",
+    "gigant-vine"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Banda Koroegyu Jr.",
+   "description": "Hijo de Banda, el jugador del Fertilia Eleven que perdió la vida en el partido contra el Earth Eleven."
+  }
+ ]
+}

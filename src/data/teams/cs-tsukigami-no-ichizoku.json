@@ -1,0 +1,395 @@
+{
+ "id": "cs-tsukigami-no-ichizoku",
+ "season": "cs",
+ "wiki": "Tsukigami no Ichizoku",
+ "name": "Aullido Lunar",
+ "short": "TSU",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-mangetsu",
+ "players": [
+  {
+   "id": "lee-canthrup",
+   "name": "Lee Canthrup",
+   "short": "Lee",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 142,
+   "tp": 131,
+   "stats": {
+    "kick": 67,
+    "body": 78,
+    "control": 72,
+    "guard": 87,
+    "speed": 52,
+    "stamina": 57,
+    "guts": 41
+   },
+   "moves": [
+    "burai-hand",
+    "twin-mixer",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Jawg",
+   "description": "Se dice que este portero es capaz de parar el balón de un mordico."
+  },
+  {
+   "id": "gerald-fuss",
+   "name": "Gerald Fuss",
+   "short": "Gerald",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 130,
+   "tp": 119,
+   "stats": {
+    "kick": 48,
+    "body": 64,
+    "control": 54,
+    "guard": 76,
+    "speed": 74,
+    "stamina": 57,
+    "guts": 50
+   },
+   "moves": [
+    "air-bullet",
+    "spark-edge-dribble",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ruda",
+   "description": "Cuando hay luna llena, le cambia la personalidad completamente..."
+  },
+  {
+   "id": "kym-errer",
+   "name": "Kym Errer",
+   "short": "Kym",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 148,
+   "stats": {
+    "kick": 63,
+    "body": 63,
+    "control": 55,
+    "guard": 73,
+    "speed": 78,
+    "stamina": 54,
+    "guts": 55
+   },
+   "moves": [
+    "air-bullet",
+    "fuujin-no-mai",
+    "screwdriver",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Chimera",
+   "description": "Aunque es pequeña, en el campo vale por tres jugadores."
+  },
+  {
+   "id": "hunter-o-mann",
+   "name": "Hunter O'Mann",
+   "short": "Hunter",
+   "number": 4,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 144,
+   "tp": 120,
+   "stats": {
+    "kick": 50,
+    "body": 52,
+    "control": 76,
+    "guard": 69,
+    "speed": 59,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "spark-edge-dribble",
+    "the-tower",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Jaega",
+   "description": "Lleva bozal para no volver locos a sus compañeros con sus aullidos."
+  },
+  {
+   "id": "mona-selene",
+   "name": "Mona Selene",
+   "short": "Mona",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 114,
+   "tp": 147,
+   "stats": {
+    "kick": 59,
+    "body": 61,
+    "control": 77,
+    "guard": 66,
+    "speed": 73,
+    "stamina": 58,
+    "guts": 54
+   },
+   "moves": [
+    "spark-edge-dribble",
+    "magical-flower",
+    "burning-summer",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Anansi",
+   "description": "Como le encanta correr detrás de una pelota, el fútbol es su gran pasión."
+  },
+  {
+   "id": "lou-garrou",
+   "name": "Lou Garrou",
+   "short": "Lou",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 103,
+   "stats": {
+    "kick": 61,
+    "body": 48,
+    "control": 80,
+    "guard": 67,
+    "speed": 54,
+    "stamina": 77,
+    "guts": 46
+   },
+   "moves": [
+    "endless-summer",
+    "big-scissors",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tauros",
+   "description": "Se tapa la nariz con un protector metálico para no resfriarse."
+  },
+  {
+   "id": "al-woo",
+   "name": "Al Woo",
+   "short": "Al",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 136,
+   "tp": 99,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 75,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 64,
+    "guts": 44
+   },
+   "moves": [
+    "southern-crosscut",
+    "wonder-trap",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nagun",
+   "description": "Va a clases de canto para aprender a modular sus potentes aullidos."
+  },
+  {
+   "id": "sylvester-bullet",
+   "name": "Sylvester Bullet",
+   "short": "Sylvester",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 136,
+   "tp": 131,
+   "stats": {
+    "kick": 65,
+    "body": 60,
+    "control": 76,
+    "guard": 66,
+    "speed": 68,
+    "stamina": 55,
+    "guts": 47
+   },
+   "moves": [
+    "southern-crosscut",
+    "wonder-trap",
+    "air-bullet",
+    "panther-blizzard"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Silva",
+   "description": "Siempre lleva pinturas de guerra en la cara, pero no le quedan mal del todo."
+  },
+  {
+   "id": "terri-ann-thrope",
+   "name": "Terri Ann Thrope",
+   "short": "Terri",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 99,
+   "tp": 132,
+   "stats": {
+    "kick": 75,
+    "body": 61,
+    "control": 76,
+    "guard": 61,
+    "speed": 67,
+    "stamina": 48,
+    "guts": 47
+   },
+   "moves": [
+    "inazuma-break",
+    "spark-edge-dribble",
+    "death-spear",
+    "dimension-storm"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Somni",
+   "description": "Se rumorea que come carne humana pero en realidad es vegetariana."
+  },
+  {
+   "id": "wolfram-vulpeen",
+   "name": "Wolfram Vulpeen",
+   "short": "Vulpeen",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 162,
+   "tp": 132,
+   "stats": {
+    "kick": 88,
+    "body": 68,
+    "control": 79,
+    "guard": 49,
+    "speed": 64,
+    "stamina": 60,
+    "guts": 52
+   },
+   "moves": [
+    "beast-lord",
+    "all-delete",
+    "ouja-no-kiba",
+    "the-monsters"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Garshah Wolfein",
+   "description": "Este guerrero parece salvaje, pero descendiente del gran clan Vulpeen."
+  },
+  {
+   "id": "luke-kayon",
+   "name": "Luke Kayon",
+   "short": "Luke",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 128,
+   "stats": {
+    "kick": 81,
+    "body": 70,
+    "control": 80,
+    "guard": 65,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 36
+   },
+   "moves": [
+    "death-drop",
+    "nobori-ryuu",
+    "souhi-yuuseidan",
+    "beast-lord"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sagitt",
+   "description": "Orgulloso guerrero del clan Vulpeen que no se doblega ante nadie."
+  },
+  {
+   "id": "wolfram-vulpeen-cs-garshah-mm",
+   "name": "Wolfram Vulpeen",
+   "short": "Vulpeen",
+   "number": 12,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 162,
+   "tp": 132,
+   "stats": {
+    "kick": 88,
+    "body": 68,
+    "control": 79,
+    "guard": 49,
+    "speed": 64,
+    "stamina": 60,
+    "guts": 52
+   },
+   "moves": [
+    "beast-lord",
+    "magma-carpet",
+    "ouja-no-kiba",
+    "atomic-flare"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Garshah Wolfein",
+   "description": "Este guerrero parece salvaje, pero descendiente del gran clan Vulpeen."
+  }
+ ]
+}

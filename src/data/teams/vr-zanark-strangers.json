@@ -1,0 +1,511 @@
+{
+ "id": "vr-zanark-strangers",
+ "season": "vr",
+ "wiki": "Zanark Strangers",
+ "name": "Zanark Strangers",
+ "short": "ZAN",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#2a8a3a"
+ },
+ "formation": "freedom",
+ "players": [
+  {
+   "id": "dave-quagmire",
+   "name": "Dave Quagmire",
+   "short": "Dave",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 123,
+   "stats": {
+    "kick": 99,
+    "body": 60,
+    "control": 75,
+    "guard": 57,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 30
+   },
+   "moves": [
+    "drill-smasher",
+    "god-hand-x"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Saginuma Osamu",
+   "description": "Se disgusta cuando las cosas no salen como las había planeado."
+  },
+  {
+   "id": "cao-cao",
+   "name": "Cao Cao",
+   "short": "Cao",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 167,
+   "tp": 136,
+   "stats": {
+    "kick": 88,
+    "body": 76,
+    "control": 65,
+    "guard": 81,
+    "speed": 47,
+    "stamina": 74,
+    "guts": 49
+   },
+   "moves": [
+    "nobori-ryuu",
+    "dimension-cut",
+    "muei-ranbu",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Cao Cao",
+   "description": "Rival de Liu Bei que llego a gobernar Wei, uno de los Tres Reinos."
+  },
+  {
+   "id": "gail-baker",
+   "name": "Gail Baker",
+   "short": "Gail",
+   "number": 12,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 121,
+   "stats": {
+    "kick": 44,
+    "body": 50,
+    "control": 47,
+    "guard": 62,
+    "speed": 57,
+    "stamina": 57,
+    "guts": 40
+   },
+   "moves": [
+    "photon-flash",
+    "sigma-zone",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kujirai Takanori",
+   "description": "Ni el más mínimo movimiento del rival escapa de su penetrante mirada."
+  },
+  {
+   "id": "baron-oxford",
+   "name": "Baron Oxford",
+   "short": "Baron",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 153,
+   "stats": {
+    "kick": 80,
+    "body": 43,
+    "control": 54,
+    "guard": 34,
+    "speed": 50,
+    "stamina": 53,
+    "guts": 50
+   },
+   "moves": [
+    "elephant-press",
+    "britannia-cross",
+    "go-to-hell"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kabata Taruhiko",
+   "description": "Muestra una convicción casi fanática en la superioridad de su equipo."
+  },
+  {
+   "id": "panca",
+   "name": "Panca",
+   "short": "Panca",
+   "number": 4,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 92,
+   "stats": {
+    "kick": 47,
+    "body": 61,
+    "control": 53,
+    "guard": 56,
+    "speed": 61,
+    "stamina": 49,
+    "guts": 60
+   },
+   "moves": [
+    "bungee-thrust",
+    "screwdriver",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Engil",
+   "description": "Como es vergonzoso, lleva máscara, así que todo el mundo le tiene miedo."
+  },
+  {
+   "id": "ryoma-nishiki",
+   "name": "Ryoma Nishiki",
+   "short": "Ryoma",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 124,
+   "stats": {
+    "kick": 70,
+    "body": 68,
+    "control": 65,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 55
+   },
+   "moves": [
+    "nobori-ryuu",
+    "ichiyajou",
+    "fuurinkazan-destroyer"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nishiki Ryouma",
+   "description": "Era delantero, pero volvió de Italia convertido en centrocampista."
+  },
+  {
+   "id": "sapta",
+   "name": "Sapta",
+   "short": "Sapta",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 105,
+   "tp": 104,
+   "stats": {
+    "kick": 60,
+    "body": 63,
+    "control": 63,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 50
+   },
+   "moves": [
+    "kumo-no-ito",
+    "bungee-thrust",
+    "naraku-otoshi"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shinjami",
+   "description": "Una tenaz centrocampista que se peina para parecerse a Medusa."
+  },
+  {
+   "id": "caleb-stonewall",
+   "name": "Caleb Stonewall",
+   "short": "Caleb",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 135,
+   "stats": {
+    "kick": 73,
+    "body": 72,
+    "control": 73,
+    "guard": 63,
+    "speed": 60,
+    "stamina": 65,
+    "guts": 60
+   },
+   "moves": [
+    "judge-through-3",
+    "jibashiri-kaen",
+    "koutei-penguin-1gou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fudou Akio",
+   "description": "Destaca por su fanfarronería, pero tiene la habilidad para respaldarla. Convierte a los demás en sus marionetas con sus trucos."
+  },
+  {
+   "id": "arachne",
+   "name": "Arachne",
+   "short": "Arachne",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 135,
+   "stats": {
+    "kick": 59,
+    "body": 53,
+    "control": 67,
+    "guard": 61,
+    "speed": 62,
+    "stamina": 49,
+    "guts": 50
+   },
+   "moves": [
+    "devil-ball",
+    "meteor-shower",
+    "demon-cut"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Arachnes",
+   "description": "Usa retorcidas técnicas arácnidas del inframundo para aterrar a sus rivales."
+  },
+  {
+   "id": "grisley-bear",
+   "name": "Grisley Bear",
+   "short": "Grisley",
+   "number": 3,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 137,
+   "tp": 120,
+   "stats": {
+    "kick": 70,
+    "body": 30,
+    "control": 49,
+    "guard": 58,
+    "speed": 57,
+    "stamina": 69,
+    "guts": 52
+   },
+   "moves": [
+    "elephant-press",
+    "heat-tackle",
+    "iron-wall"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seki Ganjirou",
+   "description": "Muy peligroso. Busca lesionar a los demás y tiene la fuerza para hacerlo."
+  },
+  {
+   "id": "zanark-avalonic",
+   "name": "Zanark Avalonic",
+   "short": "Zanark",
+   "number": 6,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 180,
+   "tp": 128,
+   "stats": {
+    "kick": 78,
+    "body": 74,
+    "control": 65,
+    "guard": 45,
+    "speed": 55,
+    "stamina": 79,
+    "guts": 61
+   },
+   "moves": [
+    "disaster-break",
+    "judge-through-3"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanark Avalonic",
+   "description": "Fugado de la prisión CONTRA. Odia seguir las normas y simplemente hace lo que le da la gana."
+  },
+  {
+   "id": "bash-lancer",
+   "name": "Bash Lancer",
+   "short": "Bash",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 175,
+   "tp": 140,
+   "stats": {
+    "kick": 85,
+    "body": 63,
+    "control": 68,
+    "guard": 62,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "death-spear",
+    "claymore",
+    "death-break"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Baddap Sleed",
+   "description": "Este soldado del Equipo Ogro aplasta a sus rivales sin dejar de sonreír."
+  },
+  {
+   "id": "hurricane-zeta",
+   "name": "Hurricane Zeta",
+   "short": "Hurricane",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 193,
+   "tp": 149,
+   "stats": {
+    "kick": 81,
+    "body": 43,
+    "control": 61,
+    "guard": 77,
+    "speed": 77,
+    "stamina": 75,
+    "guts": 49
+   },
+   "moves": [
+    "the-typhoon",
+    "dash-storm",
+    "great-max-na-ore"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Clara Jane",
+   "description": "El huracán más grande jamás visto. Sus furiosos vientos aplastan todo a su paso."
+  },
+  {
+   "id": "destra",
+   "name": "Destra",
+   "short": "Destra",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 157,
+   "tp": 135,
+   "stats": {
+    "kick": 76,
+    "body": 67,
+    "control": 62,
+    "guard": 61,
+    "speed": 52,
+    "stamina": 66,
+    "guts": 52
+   },
+   "moves": [
+    "dark-matter",
+    "devil-ball",
+    "gaia-break"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Desuta",
+   "description": "El cruel líder del Dark Team. Su plato favorito: la venganza. Bien fría."
+  },
+  {
+   "id": "lars-luceaf-r",
+   "name": "Lars Luceafăr",
+   "short": "Lars",
+   "number": 14,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 158,
+   "tp": 140,
+   "stats": {
+    "kick": 52,
+    "body": 63,
+    "control": 55,
+    "guard": 82,
+    "speed": 36,
+    "stamina": 63,
+    "guts": 61
+   },
+   "moves": [
+    "needle-hammer",
+    "electrap",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Zagomel Zande",
+   "description": "El portero del Equipo Ogro. Dice ser capaz de parar cualquier disparo."
+  },
+  {
+   "id": "venom-braggard",
+   "name": "Venom Braggard",
+   "short": "Venom",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 185,
+   "tp": 125,
+   "stats": {
+    "kick": 56,
+    "body": 70,
+    "control": 65,
+    "guard": 76,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 75
+   },
+   "moves": [
+    "hunter-s-net",
+    "southern-crosscut",
+    "grand-sweeper"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Venom",
+   "description": "Un chico misterioso con un aura de otro mundo que empuña los nuevos poderes que le otorgó Zanark."
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "id": "cs-soccer-robots",
+ "season": "cs",
+ "wiki": "Soccer Robots",
+ "name": "Futboloides",
+ "short": "SOC",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-soft-rime",
+ "players": [
+  {
+   "id": "fb-101x",
+   "name": "FB-101X",
+   "short": "FB-101X",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 77,
+   "tp": 99,
+   "stats": {
+    "kick": 21,
+    "body": 47,
+    "control": 40,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 81,
+    "guts": 56
+   },
+   "moves": [
+    "beam-kobushi",
+    "buttobi-punch",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "SR-101X",
+   "description": "El portero del Museo del Fútbol. Le chirría un poco el brazo."
+  },
+  {
+   "id": "fb-102x",
+   "name": "FB-102X",
+   "short": "FB-102X",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 91,
+   "stats": {
+    "kick": 46,
+    "body": 50,
+    "control": 56,
+    "guard": 55,
+    "speed": 53,
+    "stamina": 72,
+    "guts": 54
+   },
+   "moves": [
+    "blitz-bridge",
+    "dash-train",
+    "boomerang-feint"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "SR-102X",
+   "description": "Un guarda del Museo del Fútbol que nunca deja de lado el mantenimiento."
+  },
+  {
+   "id": "fb-103x",
+   "name": "FB-103X",
+   "short": "FB-103X",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 83,
+   "tp": 77,
+   "stats": {
+    "kick": 34,
+    "body": 58,
+    "control": 55,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 71,
+    "guts": 60
+   },
+   "moves": [
+    "blitz-bridge",
+    "transmove",
+    "magnet-draw"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "SR-103X",
+   "description": "Un guarda del Museo del Fútbol que se lubrica las juntas dos veces al día."
+  },
+  {
+   "id": "fb-104x",
+   "name": "FB-104X",
+   "short": "FB-104X",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 88,
+   "tp": 80,
+   "stats": {
+    "kick": 34,
+    "body": 50,
+    "control": 54,
+    "guard": 58,
+    "speed": 63,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "blitz-bridge",
+    "dash-train",
+    "zeroyon"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "SR-104X",
+   "description": "Un guarda del Museo del Fútbol que solo usa bombillas de bajo consumo."
+  },
+  {
+   "id": "fb-111x",
+   "name": "FB-111X",
+   "short": "FB-111X",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 110,
+   "stats": {
+    "kick": 59,
+    "body": 59,
+    "control": 51,
+    "guard": 61,
+    "speed": 53,
+    "stamina": 75,
+    "guts": 55
+   },
+   "moves": [
+    "gear-drive",
+    "thief-eye",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "SR-111X",
+   "description": "Un guarda del Museo del Fútbol al que le falta un tornillo (literalmente)."
+  },
+  {
+   "id": "fb-105x",
+   "name": "FB-105X",
+   "short": "FB-105X",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 83,
+   "tp": 81,
+   "stats": {
+    "kick": 53,
+    "body": 50,
+    "control": 56,
+    "guard": 54,
+    "speed": 50,
+    "stamina": 84,
+    "guts": 70
+   },
+   "moves": [
+    "blitz-bridge",
+    "transmove",
+    "the-stamp"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "SR-105X",
+   "description": "Un guarda del Museo del Fútbol, fan de los protocolos de comunicación."
+  },
+  {
+   "id": "fb-106x",
+   "name": "FB-106X",
+   "short": "FB-106X",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 102,
+   "tp": 88,
+   "stats": {
+    "kick": 59,
+    "body": 48,
+    "control": 59,
+    "guard": 50,
+    "speed": 53,
+    "stamina": 82,
+    "guts": 59
+   },
+   "moves": [
+    "transmove",
+    "future-eye",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "SR-106X",
+   "description": "Un guarda del Museo del Fútbol que ejecuta programas a gran velocidad."
+  },
+  {
+   "id": "fb-107x",
+   "name": "FB-107X",
+   "short": "FB-107X",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 85,
+   "stats": {
+    "kick": 53,
+    "body": 59,
+    "control": 57,
+    "guard": 54,
+    "speed": 51,
+    "stamina": 80,
+    "guts": 56
+   },
+   "moves": [
+    "transmove",
+    "perfect-course",
+    "presto-turn"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "SR-107X",
+   "description": "Un guarda del Museo del Fútbol que sueña con vivir en una isla tropical."
+  },
+  {
+   "id": "fb-108x",
+   "name": "FB-108X",
+   "short": "FB-108X",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 86,
+   "tp": 77,
+   "stats": {
+    "kick": 52,
+    "body": 51,
+    "control": 60,
+    "guard": 53,
+    "speed": 61,
+    "stamina": 79,
+    "guts": 60
+   },
+   "moves": [
+    "transmove",
+    "blitz-bridge",
+    "sonic-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "SR-108X",
+   "description": "Un guarda del Museo del Fútbol que cree que es humano."
+  },
+  {
+   "id": "fb-110x",
+   "name": "FB-110X",
+   "short": "FB-110X",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 81,
+   "tp": 113,
+   "stats": {
+    "kick": 60,
+    "body": 53,
+    "control": 53,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 76,
+    "guts": 60
+   },
+   "moves": [
+    "gear-drive",
+    "dash-train",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "SR-110X",
+   "description": "Un guarda del Museo del Fútbol que no se siente parte del mundo robot."
+  },
+  {
+   "id": "fb-109x",
+   "name": "FB-109X",
+   "short": "FB-109X",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 86,
+   "tp": 114,
+   "stats": {
+    "kick": 59,
+    "body": 49,
+    "control": 50,
+    "guard": 59,
+    "speed": 47,
+    "stamina": 78,
+    "guts": 65
+   },
+   "moves": [
+    "gear-drive",
+    "future-eye",
+    "sparkle-wave"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "SR-109X",
+   "description": "Un guarda del Museo del Fútbol que solo quiere conocer a su creador."
+  }
+ ]
+}

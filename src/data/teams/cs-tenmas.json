@@ -1,0 +1,428 @@
+{
+ "id": "cs-tenmas",
+ "season": "cs",
+ "wiki": "Tenmas",
+ "name": "Tenmas",
+ "short": "TEN",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-raimon",
+ "players": [
+  {
+   "id": "mark-evans",
+   "name": "Mark Evans",
+   "short": "Mark",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 123,
+   "tp": 148,
+   "stats": {
+    "kick": 78,
+    "body": 74,
+    "control": 50,
+    "guard": 85,
+    "speed": 52,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "god-hand",
+    "inazuma-break",
+    "god-hand-w"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "El enérgico capitán del Raimon, famoso por no rendirse jamás."
+  },
+  {
+   "id": "smiley",
+   "name": "Smiley",
+   "short": "Smiley",
+   "number": 6,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 75,
+   "tp": 136,
+   "stats": {
+    "kick": 58,
+    "body": 59,
+    "control": 60,
+    "guard": 62,
+    "speed": 66,
+    "stamina": 51,
+    "guts": 70
+   },
+   "moves": [
+    "fractal-house",
+    "sparkle-wave",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Smile",
+   "description": "Un duplicado de Fei que siempre hace sonreír al resto del equipo."
+  },
+  {
+   "id": "skinny",
+   "name": "Skinny",
+   "short": "Skinny",
+   "number": 7,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 97,
+   "tp": 88,
+   "stats": {
+    "kick": 58,
+    "body": 77,
+    "control": 59,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 48,
+    "guts": 46
+   },
+   "moves": [
+    "fractal-house",
+    "future-eye",
+    "zeroyon",
+    "sargasso"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Strow",
+   "description": "Este duplicado de Fei se pasa el día masticando una pajita."
+  },
+  {
+   "id": "smarty",
+   "name": "Smarty",
+   "short": "Smarty",
+   "number": 8,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 125,
+   "tp": 67,
+   "stats": {
+    "kick": 61,
+    "body": 51,
+    "control": 49,
+    "guard": 66,
+    "speed": 31,
+    "stamina": 62,
+    "guts": 50
+   },
+   "moves": [
+    "fractal-house",
+    "naminori-pierrot",
+    "the-typhoon"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Wally",
+   "description": "Este duplicado de Fei es como un muro de mirada penetrante."
+  },
+  {
+   "id": "chunky",
+   "name": "Chunky",
+   "short": "Chunky",
+   "number": 9,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 110,
+   "tp": 60,
+   "stats": {
+    "kick": 63,
+    "body": 50,
+    "control": 45,
+    "guard": 58,
+    "speed": 43,
+    "stamina": 42,
+    "guts": 72
+   },
+   "moves": [
+    "fractal-house",
+    "future-eye",
+    "thief-eye",
+    "perfect-course"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Deboon",
+   "description": "Este robusto duplicado de Fei lleva con orgullo sus gafas de diseño."
+  },
+  {
+   "id": "arion-sherwind",
+   "name": "Arion Sherwind",
+   "short": "Arion",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 160,
+   "tp": 131,
+   "stats": {
+    "kick": 69,
+    "body": 57,
+    "control": 71,
+    "guard": 64,
+    "speed": 57,
+    "stamina": 65,
+    "guts": 71
+   },
+   "moves": [
+    "aggressive-beat",
+    "wonder-trap",
+    "kazaana-drive",
+    "god-wind",
+    "soyokaze-step",
+    "mach-wind"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Matsukaze Tenma",
+   "description": "El capitán del Raimon es un chico sencillo y puro como la brisa."
+  },
+  {
+   "id": "tiny",
+   "name": "Tiny",
+   "short": "Tiny",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 86,
+   "tp": 81,
+   "stats": {
+    "kick": 52,
+    "body": 63,
+    "control": 55,
+    "guard": 55,
+    "speed": 59,
+    "stamina": 56,
+    "guts": 60
+   },
+   "moves": [
+    "illusion-ball",
+    "thief-eye",
+    "the-mist",
+    "sparkle-wave"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Chibitto",
+   "description": "Un duplicado de Fei que se toma la vida con calma a pesar de su rapidez."
+  },
+  {
+   "id": "hairy",
+   "name": "Hairy",
+   "short": "Hairy",
+   "number": 11,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 131,
+   "stats": {
+    "kick": 54,
+    "body": 68,
+    "control": 65,
+    "guard": 60,
+    "speed": 68,
+    "stamina": 61,
+    "guts": 68
+   },
+   "moves": [
+    "illusion-ball",
+    "senpuujin",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Manto",
+   "description": "Esta reservada chica es un duplicado de Fei. No le faltan admiradores."
+  },
+  {
+   "id": "vladimir-blade",
+   "name": "Vladimir Blade",
+   "short": "Vladimir",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 157,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 72,
+    "control": 64,
+    "guard": 55,
+    "speed": 61,
+    "stamina": 72,
+    "guts": 42
+   },
+   "moves": [
+    "thousand-arrow",
+    "shippuu-dash",
+    "bakunetsu-screw",
+    "great-blaster"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tsurugi Yuuichi",
+   "description": "El hermano mayor de Victor de un universo paralelo muy diferente."
+  },
+  {
+   "id": "fei-rune",
+   "name": "Fei Rune",
+   "short": "Fei",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 180,
+   "tp": 127,
+   "stats": {
+    "kick": 66,
+    "body": 57,
+    "control": 57,
+    "guard": 48,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 64
+   },
+   "moves": [
+    "bouncer-rabbit",
+    "sky-walk",
+    "air-bullet",
+    "extreme-rabbit"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fei Rune",
+   "description": "Viajó 200 años desde el futuro para ayudar a Arion a proteger el fútbol."
+  },
+  {
+   "id": "creepy",
+   "name": "Creepy",
+   "short": "Creepy",
+   "number": 13,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 63,
+   "tp": 118,
+   "stats": {
+    "kick": 55,
+    "body": 47,
+    "control": 45,
+    "guard": 40,
+    "speed": 59,
+    "stamina": 46,
+    "guts": 65
+   },
+   "moves": [
+    "head-bazooka",
+    "bouncer-rabbit",
+    "disaster-break"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kimoro",
+   "description": "Un enigmático duplicado de Fei. Nadie del equipo le ha visto nunca la cara."
+  },
+  {
+   "id": "biggsy",
+   "name": "Biggsy",
+   "short": "Biggsy",
+   "number": 5,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 128,
+   "tp": 96,
+   "stats": {
+    "kick": 74,
+    "body": 49,
+    "control": 48,
+    "guard": 68,
+    "speed": 42,
+    "stamina": 70,
+    "guts": 42
+   },
+   "moves": [
+    "excellent-breast",
+    "power-spike",
+    "dash-train",
+    "buttobi-punch"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Machos",
+   "description": "Este duplicado de Fei tiene músculos de acero y para tiros con el pecho."
+  },
+  {
+   "id": "spikey",
+   "name": "Spikey",
+   "short": "Spikey",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 88,
+   "stats": {
+    "kick": 66,
+    "body": 66,
+    "control": 65,
+    "guard": 52,
+    "speed": 54,
+    "stamina": 71,
+    "guts": 46
+   },
+   "moves": [
+    "illusion-ball",
+    "wonder-trap",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Drill",
+   "description": "Este duplicado de Fei se pasa las horas muertas arreglándose el pelo."
+  }
+ ]
+}

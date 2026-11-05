@@ -1,0 +1,511 @@
+{
+ "id": "vr-gatekeepers",
+ "season": "vr",
+ "wiki": "Gatekeepers",
+ "name": "Gatekeepers",
+ "short": "GAT",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "triangle",
+ "players": [
+  {
+   "id": "amara-myles",
+   "name": "Amara Myles",
+   "short": "Amara",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "safety-protect",
+    "star-reflection",
+    "dry-blow"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Emelia Myhra",
+   "description": "Una prodigio táctica capaz de leer a cualquier rival; eso sí, no esperes que hable sin sus gafas protectoras."
+  },
+  {
+   "id": "vivian-calder",
+   "name": "Vivian Calder",
+   "short": "Vivian",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "screwdriver",
+    "asterisk-rock",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Vivi Malade",
+   "description": "Una defensa sólida como una roca con un corazón blando, y la única madre del equipo, lágrimas incluidas."
+  },
+  {
+   "id": "zora-selwick",
+   "name": "Zora Selwick",
+   "short": "Zora",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "air-bullet",
+    "go-to-heaven",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Zohra Seychet",
+   "description": "Con una mirada gélida y una lengua aún más afilada, hunde a la gente hasta que no le queda dónde esconderse."
+  },
+  {
+   "id": "ivy-celeste",
+   "name": "Ivy Celeste",
+   "short": "Ivy",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "blitz-bridge",
+    "decoy-release",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ilvy Celeste",
+   "description": "Todo orgullo y apariencia pulida por fuera, pero un error basta para que se hunda analizándolo a solas."
+  },
+  {
+   "id": "julietta-belamy",
+   "name": "Julietta Belamy",
+   "short": "Julietta",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "go-to-heaven",
+    "all-delete",
+    "melody-wave",
+    "plasma-ball"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Juliet Love",
+   "description": "Su imaginación es tan desbordante que se enamora de los perfiles que tiene que analizar."
+  },
+  {
+   "id": "jackie-mulligan",
+   "name": "Jackie Mulligan",
+   "short": "Jackie",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "reppuu-dash",
+    "rapid-fire",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Jackie Mulligan",
+   "description": "Lo da todo en cada misión y no se corta con los daños colaterales, que acaba pagando de su sueldo."
+  },
+  {
+   "id": "kendra-pierce",
+   "name": "Kendra Pierce",
+   "short": "Kendra",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "death-scythe-low",
+    "security-shot",
+    "quick-draw"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Chianti Paci",
+   "description": "Una chispa que alegra a todos y cubre a sus compañeras sin perder el ritmo."
+  },
+  {
+   "id": "trixie-bren",
+   "name": "Trixie Bren",
+   "short": "Trixie",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "decoy-release",
+    "gear-drive",
+    "all-delete"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Trixie Bren",
+   "description": "Una seductora política que intercambia secretos con la misma facilidad con que hace girar cabezas."
+  },
+  {
+   "id": "arwena-lark",
+   "name": "Arwena Lark",
+   "short": "Arwena",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "hellfire",
+    "rapid-fire",
+    "oraora-menchi"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Allik Reginia",
+   "description": "Fría y serena... hasta que se le despierta la chispa de su pasado de macarra, y entonces no hay quien la pare."
+  },
+  {
+   "id": "lindalyn-berny",
+   "name": "Lindalyn Berny",
+   "short": "Lindalyn",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "white-blade",
+    "security-shot",
+    "plasma-ball"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Lindalin Bernie",
+   "description": "Una veterana afiladísima de la Oficina de Asuntos Temporales cuyo escuadrón gana, sea un caso o un partido."
+  },
+  {
+   "id": "mira-lysander",
+   "name": "Mira Lysander",
+   "short": "Mira",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "sonic-shot",
+    "gear-drive",
+    "plasma-ball"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Migria Rusty",
+   "description": "La recluta más joven, con la vista puesta en el puesto más alto de la Oficina y una ambición capaz de cortar el acero."
+  },
+  {
+   "id": "keira-donnell",
+   "name": "Keira Donnell",
+   "short": "Keira",
+   "number": 12,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "quick-draw",
+    "profile-zone",
+    "death-scythe-low"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Keira Donapehr",
+   "description": "Empezó a jugar al fútbol por su novio, acabó jugando mejor que él y cortó con él de un plumazo."
+  },
+  {
+   "id": "cecily-noire",
+   "name": "Cecily Noire",
+   "short": "Cecily",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "profile-zone",
+    "gravitation",
+    "blitz-bridge"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Cicely Noa",
+   "description": "Fiel a no hacer ni un minuto extra: se va en cuanto acaba su turno, haya caso o partido."
+  },
+  {
+   "id": "norah-queensby",
+   "name": "Norah Queensby",
+   "short": "Norah",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "melody-wave",
+    "quick-draw",
+    "dimension-storm"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Norma Quaid",
+   "description": "Un profesional inexpresivo que parece frío, pero en realidad no sabe expresarse bien."
+  },
+  {
+   "id": "cressida-octavia",
+   "name": "Cressida Octavia",
+   "short": "Cressida",
+   "number": 18,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "white-blade",
+    "gear-drive"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Cruel Octuelly",
+   "description": "La hija descarriada de un político, enviada a la Oficina de Asuntos Temporales como última oportunidad para \"enmendarse\"."
+  },
+  {
+   "id": "catalina-riven",
+   "name": "Catalina Riven",
+   "short": "Catalina",
+   "number": 20,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "sand-knock",
+    "safety-protect"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Katarina Oleksia",
+   "description": "Una experta en combate cuerpo a cuerpo fría y letal que se derrite de ternura cada vez que aparece su gato."
+  }
+ ]
+}

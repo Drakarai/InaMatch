@@ -1,0 +1,361 @@
+{
+ "id": "go-unlimited-shining",
+ "season": "go",
+ "wiki": "Unlimited Shining",
+ "name": "Luz Eterna",
+ "short": "UNL",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c8202f"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "albion-lumina",
+   "name": "Albion Lumina",
+   "short": "Albion",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 84,
+   "tp": 181,
+   "stats": {
+    "kick": 57,
+    "body": 48,
+    "control": 52,
+    "guard": 60,
+    "speed": 46,
+    "stamina": 50,
+    "guts": 53
+   },
+   "moves": [
+    "serpent-fang",
+    "hunter-s-net",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hebino Makito",
+   "description": "Mantiene una cara de póquer inescrutable para todo el mundo."
+  },
+  {
+   "id": "candido-glow",
+   "name": "Candido Glow",
+   "short": "Candido",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 169,
+   "stats": {
+    "kick": 53,
+    "body": 48,
+    "control": 53,
+    "guard": 56,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 55
+   },
+   "moves": [
+    "presto-turn",
+    "crazy-sunlight",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Saki Yukio",
+   "description": "Tan desconfiado que no habla con franqueza ni con sus compañeros."
+  },
+  {
+   "id": "dwight-whittaker",
+   "name": "Dwight Whittaker",
+   "short": "Dwight",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 125,
+   "tp": 165,
+   "stats": {
+    "kick": 51,
+    "body": 48,
+    "control": 45,
+    "guard": 59,
+    "speed": 49,
+    "stamina": 67,
+    "guts": 53
+   },
+   "moves": [
+    "claymore",
+    "atlantis-wall",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ejima Kazuya",
+   "description": "De fuerza descomunal, puede levantar hasta una pesa de doscientos kilos."
+  },
+  {
+   "id": "beamer-daye",
+   "name": "Beamer Daye",
+   "short": "Beamer",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 147,
+   "stats": {
+    "kick": 66,
+    "body": 51,
+    "control": 64,
+    "guard": 44,
+    "speed": 88,
+    "stamina": 56,
+    "guts": 50
+   },
+   "moves": [
+    "zeroyon",
+    "crazy-sunlight",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Onizuka Heita",
+   "description": "Tenaz defensa que no ceja en su tarea, incluso cuando lo han rebasado."
+  },
+  {
+   "id": "chandler-blanc",
+   "name": "Chandler Blanc",
+   "short": "Chandler",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 75,
+   "tp": 181,
+   "stats": {
+    "kick": 59,
+    "body": 64,
+    "control": 66,
+    "guard": 49,
+    "speed": 60,
+    "stamina": 46,
+    "guts": 55
+   },
+   "moves": [
+    "sprint-warp",
+    "crazy-sunlight",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Fujiki Tatsuhiko",
+   "description": "Poco dado a mostrar sus emociones, cuando se enfada es imparable."
+  },
+  {
+   "id": "beacon-noor",
+   "name": "Beacon Noor",
+   "short": "Beacon",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 143,
+   "stats": {
+    "kick": 56,
+    "body": 75,
+    "control": 61,
+    "guard": 55,
+    "speed": 75,
+    "stamina": 70,
+    "guts": 57
+   },
+   "moves": [
+    "sprint-warp",
+    "mach-wind",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nitta Miru",
+   "description": "Dice las cosas con tanta franqueza, que a algunos no les cae nada bien."
+  },
+  {
+   "id": "dawntavius-spectrum",
+   "name": "Dawntavius Spectrum",
+   "short": "Dawntavius",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 127,
+   "tp": 152,
+   "stats": {
+    "kick": 73,
+    "body": 50,
+    "control": 44,
+    "guard": 56,
+    "speed": 63,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "bound-flame",
+    "fire-tornado",
+    "melody-wave",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seidou Dan",
+   "description": "Aunque no lo aparenta, es capaz de chutar con una fuerza increíble."
+  },
+  {
+   "id": "brighton-spark",
+   "name": "Brighton Spark",
+   "short": "Brighton",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 159,
+   "stats": {
+    "kick": 52,
+    "body": 50,
+    "control": 50,
+    "guard": 73,
+    "speed": 60,
+    "stamina": 51,
+    "guts": 53
+   },
+   "moves": [
+    "fortissimo",
+    "white-blade",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ginzamiya Akira",
+   "description": "Aunque le gusta estar en segundo plano, su lucidez es inestimable."
+  },
+  {
+   "id": "laban-lux",
+   "name": "Laban Lux",
+   "short": "Laban",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 152,
+   "stats": {
+    "kick": 53,
+    "body": 49,
+    "control": 52,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "white-blade",
+    "crazy-sunlight",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sasayama Taki",
+   "description": "Neutraliza cualquier ataque usando sus propias técnicas corporales."
+  },
+  {
+   "id": "bailong",
+   "name": "Bailong",
+   "short": "Bailong",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 165,
+   "tp": 139,
+   "stats": {
+    "kick": 81,
+    "body": 81,
+    "control": 68,
+    "guard": 52,
+    "speed": 49,
+    "stamina": 52,
+    "guts": 57
+   },
+   "moves": [
+    "white-hurricane",
+    "sprint-warp",
+    "air-bullet",
+    "zero-magnum"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hakuryuu",
+   "description": "Confía mucho en su talento, por eso destaca incluso entre los imperiales."
+  },
+  {
+   "id": "filbert-weissman",
+   "name": "Filbert Weissman",
+   "short": "Filbert",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 119,
+   "tp": 148,
+   "stats": {
+    "kick": 57,
+    "body": 50,
+    "control": 49,
+    "guard": 53,
+    "speed": 53,
+    "stamina": 59,
+    "guts": 55
+   },
+   "moves": [
+    "ballista-shot",
+    "acrobat-keep",
+    "thousand-arrow",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hoda Mitsuhiro",
+   "description": "Fantástico delantero que siempre lleva el gol entre ceja y ceja."
+  }
+ ]
+}

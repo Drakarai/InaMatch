@@ -1,0 +1,528 @@
+{
+ "id": "ares-tonegawa-tousen",
+ "season": "ares",
+ "wiki": "Tonegawa Tousen",
+ "name": "Tonegawa Tousen",
+ "short": "TON",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "mark-evans",
+   "name": "Mark Evans",
+   "short": "Mark",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 148,
+   "stats": {
+    "kick": 76,
+    "body": 74,
+    "control": 50,
+    "guard": 85,
+    "speed": 54,
+    "stamina": 76,
+    "guts": 73
+   },
+   "moves": [
+    "majin-the-hand",
+    "fuujin-raijin",
+    "god-hand-wood",
+    "nekketsu-punch"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Endou Mamoru",
+   "description": "Su pasión por el fútbol es insuperable. Pase lo que pase, su valiente corazón nunca se rendirá."
+  },
+  {
+   "id": "billy-miller",
+   "name": "Billy Miller",
+   "short": "Billy",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "volcano-cut",
+    "hurricane-arrow",
+    "god-hand-wood",
+    "gladius-arch"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sakanoue Noboru",
+   "description": "Levantó de la nada el club de fútbol del instituto a fuerza de tesón, sin perder nunca la alegría del juego."
+  },
+  {
+   "id": "meriwether-beaumont",
+   "name": "Meriwether Beaumont",
+   "short": "Meriwether",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "ninin-sankyaku",
+    "quick-draw",
+    "blade-attack",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Minoshima Toshiya",
+   "description": "Siempre está tramando alguna tontería y no puede evitar sonreír por muy serio que sea el momento."
+  },
+  {
+   "id": "burleigh-carpenter",
+   "name": "Burleigh Carpenter",
+   "short": "Burleigh",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "super-armadillo",
+    "armadillo-circus",
+    "rock-wall-dam",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Hashiya Kousaku",
+   "description": "Un gigante bonachón en defensa que ha ganado una rapidez sorprendente con los entrenamientos implacables de Mark."
+  },
+  {
+   "id": "dan-bowsun",
+   "name": "Dan Bowsun",
+   "short": "Dan",
+   "number": 8,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "gravestone",
+    "bunshin-defense",
+    "mogura-shuffle",
+    "kagome-kagome"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Dan Tetsuo",
+   "description": "Vive con el lema \"Primero cargar, luego pensar\" y se apuntó al club por la emoción de darlo todo."
+  },
+  {
+   "id": "jack-sawyer",
+   "name": "Jack Sawyer",
+   "short": "Jack",
+   "number": 3,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "tenryuu",
+    "shippuu-dash",
+    "dash-accel",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kaneshiro Mitsunari",
+   "description": "Fiel a sus principios y leal hasta el extremo, planea aprender a ser cocinero cuando termine los estudios."
+  },
+  {
+   "id": "luke-blank",
+   "name": "Luke Blank",
+   "short": "Luke",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "kamaitachi",
+    "fire-tornado",
+    "blade-attack",
+    "dog-run"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Muhyou Jou",
+   "description": "Inexpresivo y de voz suave, no deja ver nada salvo su inconfundible amor por el juego."
+  },
+  {
+   "id": "gaffer-mason",
+   "name": "Gaffer Mason",
+   "short": "Gaffer",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "oouchiwa",
+    "double-cyclone",
+    "stone-prison",
+    "dragon-ground"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Genba Kouji",
+   "description": "Tranquilo y sólido como una roca, entrena más que nadie para estar a la altura de la confianza que depositan en él."
+  },
+  {
+   "id": "giles-farmer",
+   "name": "Giles Farmer",
+   "short": "Giles",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "tenryuu",
+    "monkey-turn",
+    "mogura-feint",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tanoue Ikuto",
+   "description": "Se apuntó al club de fútbol buscando algo a lo que entregarse, y los entrenamientos brutales se lo dieron."
+  },
+  {
+   "id": "pacey-hawker",
+   "name": "Pacey Hawker",
+   "short": "Pacey",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "tenryuu",
+    "reppuu-dash",
+    "bunshin-feint",
+    "dragon-ground"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shimomachi Kakeru",
+   "description": "Un delantero apasionado y competitivo de los barrios del centro que mantiene alta la energía y el ánimo del equipo."
+  },
+  {
+   "id": "neville-merchant",
+   "name": "Neville Merchant",
+   "short": "Neville",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "tenryuu",
+    "cross-drive",
+    "hitori-one-two",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kaname Mizuho",
+   "description": "Entró en el club por la insistencia de Billy y acabó pasando de novato a nivel nacional."
+  },
+  {
+   "id": "eamond-everwing",
+   "name": "Eamond Everwing",
+   "short": "Eamond",
+   "number": 12,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "bunshin-shoot",
+    "konoha-roll",
+    "run-ball-run",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Onba Nagomu",
+   "description": "Decidido a moverse como una ardilla voladora, entrena saltando de árbol en árbol sin ningún miedo."
+  },
+  {
+   "id": "frey-fielding",
+   "name": "Frey Fielding",
+   "short": "Frey",
+   "number": 13,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "ninin-sankyaku",
+    "harvest",
+    "run-ball-run",
+    "ushiro-no-shoumen"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hatake Masasada",
+   "description": "Los huertos del instituto están en buenas manos: él supervisa cada cultivo de la siembra a la cosecha."
+  },
+  {
+   "id": "tobin-harveston",
+   "name": "Tobin Harveston",
+   "short": "Tobin",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "oouchiwa",
+    "harvest",
+    "yakimochi-screw",
+    "dog-run"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Komedawara Housaku",
+   "description": "Un devoto del arroz que se toma treinta cuencos al día, y aun así le queda sitio para crecer."
+  },
+  {
+   "id": "everest-brightwell",
+   "name": "Everest Brightwell",
+   "short": "Everest",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "kangaroo-kick",
+    "konoha-roll",
+    "dash-accel",
+    "dragon-ground"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sumiyoshi Einosuke",
+   "description": "Empezó a jugar al fútbol por capricho y le sorprendió lo mucho que llegó a engancharle."
+  },
+  {
+   "id": "kia-tanner",
+   "name": "Kia Tanner",
+   "short": "Kia",
+   "number": 18,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "kangaroo-kick",
+    "ninpou-gamagaeru",
+    "tatsumaki-senpuu",
+    "dual-strike"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tanukigahara Ponko",
+   "description": "Una chica misteriosa amante del fútbol a la que suelen ver con una pulsera idéntica a la de Rocco, la mascota peluda del equipo."
+  }
+ ]
+}

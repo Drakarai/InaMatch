@@ -32,3 +32,9 @@ export function portraitPack(teamIds: string[]): PackEntry[] {
   const keys = new Set(teamIds.map((t) => `portrait:${t}:`));
   return entries.filter((e) => e.folder === 'portraits' && [...keys].some((k) => e.key.startsWith(k)));
 }
+
+/** Retratos de unos jugadores concretos (los de "Mi club" o los que salen en el gacha). */
+export function portraitsOf(players: { team: string; id: string }[]): PackEntry[] {
+  const keys = new Set(players.map((p) => texKey.portrait(p.id, p.team)));
+  return entries.filter((e) => keys.has(e.key));
+}

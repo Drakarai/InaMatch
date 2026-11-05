@@ -1,0 +1,528 @@
+{
+ "id": "vr-senjutsu-no-teikoku",
+ "season": "vr",
+ "wiki": "Senjutsu no Teikoku",
+ "name": "Senjutsu no Teikoku",
+ "short": "SEN",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "ashlan-panoptos",
+   "name": "Ashlan Panoptos",
+   "short": "Ashlan",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "empire-shield",
+    "power-shield",
+    "full-power-shield",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Jinno Ashley",
+   "description": "Su increíble campo de visión le permite parar tiros desde ángulos imposibles."
+  },
+  {
+   "id": "hudson-headland",
+   "name": "Hudson Headland",
+   "short": "Hudson",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "cyclone",
+    "britannia-cross",
+    "sargasso",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Erusaki Eichi",
+   "description": "Es el más astuto en el campo. Gana por sus movimientos lógicos y su sincronización perfecta."
+  },
+  {
+   "id": "vex-frieden",
+   "name": "Vex Frieden",
+   "short": "Vex",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through-3",
+    "flame-dance",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Anza Naoichi",
+   "description": "Es un provocador que vive para sacar de quicio a sus rivales. Esboza una sonrisa cuando caen en sus trampas."
+  },
+  {
+   "id": "asten-royds",
+   "name": "Asten Royds",
+   "short": "Asten",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "earthquake",
+    "no-escape",
+    "the-fort",
+    "meteor-shower"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Meteo Kirameki",
+   "description": "Subir montañas cada día para ver las estrellas le ha ayudado a tener una fuerza y un salto increíbles."
+  },
+  {
+   "id": "ruelle-neurivieu",
+   "name": "Ruelle Neurivieu",
+   "short": "Ruelle",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "killer-slide",
+    "sargasso",
+    "illusion-ball",
+    "butterfly-dream"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Inobe Kiko",
+   "description": "Famosa por sus análisis precisos y su amplia base de fans, comenta partidos con una franqueza implacable."
+  },
+  {
+   "id": "theon-stillcliffe",
+   "name": "Theon Stillcliffe",
+   "short": "Theon",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "heat-tackle",
+    "general-flag",
+    "bound-flame",
+    "kaenhousha"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tonosaki Theo",
+   "description": "Entrena su fuerza mental con meditación diaria en la sauna. Se mantiene siempre zen, sea cual sea el marcador."
+  },
+  {
+   "id": "ciel-natcherall",
+   "name": "Ciel Natcherall",
+   "short": "Ciel",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "illusion-ball",
+    "thief-eye",
+    "death-zone",
+    "the-fort"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Honnouji Nemi",
+   "description": "Menosprecia a los rivales más débiles pero está presente cuando su capitán más lo necesita."
+  },
+  {
+   "id": "syd-faircrest",
+   "name": "Syd Faircrest",
+   "short": "Syd",
+   "number": 10,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "general-flag",
+    "killer-slide",
+    "twin-boost-f",
+    "britannia-cross"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Homura Eisuke",
+   "description": "Capitán que lee inmediatamente las jugadas de Alice. Lidera el equipo con maña y calma."
+  },
+  {
+   "id": "kaien-spiradawn",
+   "name": "Kaien Spiradawn",
+   "short": "Kaien",
+   "number": 8,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "general-flag",
+    "killer-slide",
+    "hyakuretsu-shot",
+    "koutei-penguin-7"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Reidou Kaiya",
+   "description": "Un delantero egoísta que quiere siempre más goles y se cabrea si alguien marca primero."
+  },
+  {
+   "id": "kyo-seestar",
+   "name": "Kyo Seestar",
+   "short": "Kyo",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "penguin-the-parade",
+    "meteor-shower",
+    "shooting-star",
+    "koutei-penguin-7"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hoshimizawa Kyou",
+   "description": "Protege a sus compañeros de equipo como si fueran su familia. Nunca se contiene si les pitan falta."
+  },
+  {
+   "id": "solan-brightmoor",
+   "name": "Solan Brightmoor",
+   "short": "Solan",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "general-flag",
+    "twin-mixer",
+    "the-fort",
+    "death-zone-2"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Motoyashiki Kuuki",
+   "description": "Antiguo aprendiz de sumo. Su grande complexión esconde una sorprendente buena educación."
+  },
+  {
+   "id": "lenox-grinder",
+   "name": "Lenox Grinder",
+   "short": "Lenox",
+   "number": 12,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "twin-boost",
+    "illusion-ball",
+    "general-flag",
+    "hyakuretsu-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yozakura Shishio",
+   "description": "Entrena incansablemente cada día. Llora cuando el trabajo duro da sus frutos."
+  },
+  {
+   "id": "ophelia-ennercourt",
+   "name": "Ophelia Ennercourt",
+   "short": "Ophelia",
+   "number": 13,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "devil-ball",
+    "killer-slide",
+    "killer-fields",
+    "koutei-penguin-3gou"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Horiuchi Honoka",
+   "description": "Valora mucho la habilidad para asistir, odia a los egocéntricos y guía al equipo lejos del foco de atención."
+  },
+  {
+   "id": "riggs-fornstrut",
+   "name": "Riggs Fornstrut",
+   "short": "Riggs",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "the-fort",
+    "general-flag",
+    "dash-train",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tetsubashira Dousuke",
+   "description": "Entrena cada día con vigas de acero para construir un cuerpo inquebrantable y resiste golpes duros como si fuera de piedra."
+  },
+  {
+   "id": "leticia-legatus",
+   "name": "Leticia Legatus",
+   "short": "Leticia",
+   "number": 15,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 169,
+   "stats": {
+    "kick": 60,
+    "body": 69,
+    "control": 59,
+    "guard": 35,
+    "speed": 78,
+    "stamina": 72,
+    "guts": 69
+   },
+   "moves": [
+    "empire-shield",
+    "power-shield",
+    "full-power-shield",
+    "britannia-cross"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sendou Marin",
+   "description": "Una joven heredera criada en tácticas de guerra y etiqueta, cuya sola presencia impone obediencia."
+  },
+  {
+   "id": "arran-realis",
+   "name": "Arran Realis",
+   "short": "Arran",
+   "number": 16,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "killer-slide",
+    "screwdriver",
+    "spring-arrow",
+    "love-arrow"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kanae Shana",
+   "description": "Sus pases relámpago se deslizan por la defensa. Convierte las crisis en claras oportunidades."
+  }
+ ]
+}

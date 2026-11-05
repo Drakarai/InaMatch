@@ -1,0 +1,526 @@
+{
+ "id": "ares-inakuni-raimon",
+ "season": "ares",
+ "wiki": "Inakuni Raimon",
+ "name": "Inakuni Raimon",
+ "short": "INA",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-3-4-3",
+ "players": [
+  {
+   "id": "sandra-fischer",
+   "name": "Sandra Fischer",
+   "short": "Sandra",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "uzumaki-the-hand",
+    "mermaid-veil",
+    "hanafubuki",
+    "great-barrier-reef"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Umihara Norika",
+   "description": "Ares  : Una portera muy enérgica y de buen corazón. Bocear le ha ayudado a ser mucho más resistente."
+  },
+  {
+   "id": "kiko-calavento",
+   "name": "Kiko Calavento",
+   "short": "Kiko",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "shooting-cut",
+    "gravity-cage",
+    "flash-dance",
+    "zanzou"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hiyori Masakatsu",
+   "description": "El motor del equipo y el más sensato de todos. Mantiene el ritmo incluso en los entrenamientos más duros."
+  },
+  {
+   "id": "trevor-cook",
+   "name": "Trevor Cook",
+   "short": "Trevor",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "spark-wind",
+    "spinning-cut",
+    "cyclone",
+    "dash-storm"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mansaku Yuuichirou",
+   "description": "Un defensa con unas piernas curtidas por su vida isleña. Famoso por su velocidad en el campo."
+  },
+  {
+   "id": "cliff-parker",
+   "name": "Cliff Parker",
+   "short": "Cliff",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "the-wall",
+    "super-armadillo",
+    "shikofumi",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Iwato Takashi",
+   "description": "Un defensa famoso por su gran estatura. Sus compañeros lo conocen como \"Gólem\"."
+  },
+  {
+   "id": "nino-nango",
+   "name": "Nino Nango",
+   "short": "Nino",
+   "number": 4,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "gravity-cage",
+    "ninpou-gamagaeru",
+    "illusion-ball",
+    "zanzou"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hattori Hanta",
+   "description": "Pequeño y ágil este estudiante de ninja a distancia es capaz de robar el balón a la velocidad del rayo."
+  },
+  {
+   "id": "maxime-dassier",
+   "name": "Maxime Dassier",
+   "short": "Maxime",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "spark-wind",
+    "flash-dance",
+    "dash-accel",
+    "victory-line"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Michinari Tatsumi",
+   "description": "Un capitán responsable, que antepone a su equipo a todo. Sin embargo, suele dudar de todas sus decisiones."
+  },
+  {
+   "id": "valentin-eisner",
+   "name": "Valentin Eisner",
+   "short": "Valentin",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "koori-no-ya",
+    "meteor-drop",
+    "cyclone",
+    "aurora-dribble"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hiura Kirina",
+   "description": "Aunque parece indiferente, es muy observador y atento. Apoya a su equipo a ambos lados del campo."
+  },
+  {
+   "id": "c-sar-montalb-n",
+   "name": "César Montalbán",
+   "short": "César",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "gravity-cage",
+    "the-labyrinth",
+    "super-scan-of",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Okuiri Hiro",
+   "description": "Centrocampista de visión aguda. Amable pero muy irónico, si la situación lo requiere."
+  },
+  {
+   "id": "adriano-donati",
+   "name": "Adriano Donati",
+   "short": "Adriano",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "fire-lemonade",
+    "grenade-shot",
+    "dokonjou-bat",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Goujin Tetsunosuke",
+   "description": "Lidera la delantera con valor. Osado al jugar, pero nunca defrauda en los momentos difíciles."
+  },
+  {
+   "id": "sonny-wright",
+   "name": "Sonny Wright",
+   "short": "Sonny",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "inabikari-dash",
+    "shining-bird"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Inamori Asuto",
+   "description": "Un fanático del fútbol, tan brillante y enérgico como el propio sol, que siempre hace que el ambiente se caldee."
+  },
+  {
+   "id": "basile-hardy",
+   "name": "Basile Hardy",
+   "short": "Basile",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "fire-tornado",
+    "hidaruma-bakunetsudan",
+    "heat-tackle",
+    "victory-line"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kozoumaru Sasuke",
+   "description": "Ares : Es el único chico de ciudad del equipo. Es algo pasota pero guay, y siempre busca seguir mejorando."
+  },
+  {
+   "id": "rolland-bowlby",
+   "name": "Rolland Bowlby",
+   "short": "Rolland",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "god-hand",
+    "burning-catch",
+    "bakuretsu-punch",
+    "nekketsu-punch"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kyouno Kyuuta",
+   "description": "Aunque era el blanco de los matones, ahora este chico de lágrima fácil trabaja más duro que ninguna otra persona."
+  },
+  {
+   "id": "mister-yi",
+   "name": "Mister Yi",
+   "short": "Mister",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "spinning-shoot",
+    "tamanori-pierrot",
+    "inazuma-otoshi",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Zhao Jinyun",
+   "description": "Un hombre enigmático metido a entrenador. ¡¿Su verdadero talento es jugar a videojuegos?!"
+  },
+  {
+   "id": "dean-rush",
+   "name": "Dean Rush",
+   "short": "Dean",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "dash-train",
+    "spark-edge-dribble",
+    "heat-tackle",
+    "the-ikaros"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kameda Yukinori",
+   "description": "El segundo entrenador del Raimon, siempre listo para tomar las riendas cuando el entrenador jefe, el señor Yi, no está."
+  },
+  {
+   "id": "regina-mulgrave",
+   "name": "Regina Mulgrave",
+   "short": "Regina",
+   "number": 15,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "burning-catch",
+    "hanafubuki",
+    "double-rocket",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mikado Anna",
+   "description": "La reina indiscutible, presidenta del Consejo de Estudiantes. Trata de cerrar el club de fútbol."
+  },
+  {
+   "id": "aurelia-dingle",
+   "name": "Aurelia Dingle",
+   "short": "Aurelia",
+   "number": 16,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 74,
+   "tp": 100,
+   "stats": {
+    "kick": 56,
+    "body": 57,
+    "control": 60,
+    "guard": 62,
+    "speed": 56,
+    "stamina": 46,
+    "guts": 69
+   },
+   "moves": [
+    "good-smell",
+    "the-mist",
+    "trick-ball",
+    "chaos-break"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ootani Tsukushi",
+   "description": "Esta estudiante del Raimon es muy tranquila y tiene muchos fans."
+  }
+ ]
+}

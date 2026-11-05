@@ -1,0 +1,355 @@
+{
+ "id": "go-akizora-challengers",
+ "season": "go",
+ "wiki": "Akizora Challengers",
+ "name": "Akizora Challengers",
+ "short": "AKI",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-basic",
+ "players": [
+  {
+   "id": "chuck-pumpkins",
+   "name": "Chuck Pumpkins",
+   "short": "Chuck",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 169,
+   "stats": {
+    "kick": 50,
+    "body": 47,
+    "control": 54,
+    "guard": 52,
+    "speed": 49,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "rapid-whip",
+    "elephant-press",
+    "counterdrive-gk"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Toyota Minoru",
+   "description": "Da miedo verlo, pero en realidad es muy buena gente. Le gusta Silvia."
+  },
+  {
+   "id": "scott-banyan",
+   "name": "Scott Banyan",
+   "short": "Scott",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 119,
+   "tp": 153,
+   "stats": {
+    "kick": 49,
+    "body": 53,
+    "control": 64,
+    "guard": 55,
+    "speed": 66,
+    "stamina": 56,
+    "guts": 53
+   },
+   "moves": [
+    "senpuujin",
+    "the-mist",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kogure Yuuya",
+   "description": "Un bromista empedernido. Parece poca cosa, pero tiene mucha fuerza."
+  },
+  {
+   "id": "filbert-chestnut",
+   "name": "Filbert Chestnut",
+   "short": "Filbert",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 184,
+   "tp": 168,
+   "stats": {
+    "kick": 49,
+    "body": 51,
+    "control": 49,
+    "guard": 55,
+    "speed": 45,
+    "stamina": 53,
+    "guts": 53
+   },
+   "moves": [
+    "twin-mixer",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Henkutsu Shibugaki",
+   "description": "Los inquilinos de su edificio lo tienen calado por su eterna mala uva."
+  },
+  {
+   "id": "gadish-oldman",
+   "name": "Gadish Oldman",
+   "short": "Gadish",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 187,
+   "tp": 167,
+   "stats": {
+    "kick": 50,
+    "body": 51,
+    "control": 51,
+    "guard": 50,
+    "speed": 47,
+    "stamina": 50,
+    "guts": 53
+   },
+   "moves": [
+    "denrai-houtou",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kuriyama Hiroshi",
+   "description": "Se considera un experto científico, pero sus teorías son muy malas."
+  },
+  {
+   "id": "autumn-leaf",
+   "name": "Autumn Leaf",
+   "short": "Autumn",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 172,
+   "stats": {
+    "kick": 56,
+    "body": 69,
+    "control": 61,
+    "guard": 41,
+    "speed": 74,
+    "stamina": 52,
+    "guts": 54
+   },
+   "moves": [
+    "the-mist",
+    "hunter-s-net",
+    "sky-walk"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kaedeno Komichi",
+   "description": "Una mujer con pinta de cansada que esconde muchos secretos."
+  },
+  {
+   "id": "skeeter-hawk",
+   "name": "Skeeter Hawk",
+   "short": "Skeeter",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 174,
+   "tp": 171,
+   "stats": {
+    "kick": 48,
+    "body": 52,
+    "control": 42,
+    "guard": 60,
+    "speed": 43,
+    "stamina": 50,
+    "guts": 58
+   },
+   "moves": [
+    "spiral-draw",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Akai Tonbo",
+   "description": "Un tipo un poco extraño. Colecciona figuritas y las fotografía."
+  },
+  {
+   "id": "guy-jean-harvestman",
+   "name": "Guy-Jean Harvestman",
+   "short": "Guy-Jean",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 112,
+   "tp": 170,
+   "stats": {
+    "kick": 50,
+    "body": 66,
+    "control": 43,
+    "guard": 58,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 55
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "sonic-shot",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Johnny Autumn",
+   "description": "Estudiante australiano con unas ideas un poco extrañas sobre Japón."
+  },
+  {
+   "id": "hal-l-w-n",
+   "name": "Hal Löwén",
+   "short": "Hal",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 174,
+   "tp": 167,
+   "stats": {
+    "kick": 49,
+    "body": 51,
+    "control": 50,
+    "guard": 58,
+    "speed": 57,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "soyokaze-step",
+    "buttobi-jump",
+    "acrobat-keep",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tsukimi Hideho",
+   "description": "Es un chico con un corazón tierno como el de una doncella."
+  },
+  {
+   "id": "jacko-lantern",
+   "name": "Jacko Lantern",
+   "short": "Jacko",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 184,
+   "tp": 161,
+   "stats": {
+    "kick": 74,
+    "body": 34,
+    "control": 47,
+    "guard": 52,
+    "speed": 53,
+    "stamina": 72,
+    "guts": 53
+   },
+   "moves": [
+    "mad-juggler",
+    "dash-train",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Udou Kai",
+   "description": "Un chico musculoso al que no cuesta mucho hacer enfadar."
+  },
+  {
+   "id": "bobine-apples",
+   "name": "Bobine Apples",
+   "short": "Bobine",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 180,
+   "tp": 147,
+   "stats": {
+    "kick": 74,
+    "body": 50,
+    "control": 48,
+    "guard": 53,
+    "speed": 51,
+    "stamina": 51,
+    "guts": 55
+   },
+   "moves": [
+    "koutei-penguin-2gou",
+    "elephant-press",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kazeaki Yone",
+   "description": "Una anciana encantadora y alegre que se pasa el día silbando."
+  },
+  {
+   "id": "sibylle-equinox",
+   "name": "Sibylle Equinox",
+   "short": "Sibylle",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 142,
+   "stats": {
+    "kick": 42,
+    "body": 62,
+    "control": 45,
+    "guard": 48,
+    "speed": 48,
+    "stamina": 55,
+    "guts": 83
+   },
+   "moves": [
+    "illusion-ball",
+    "maboroshi-shot",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Akiyama Himiko",
+   "description": "Estudiante y fan de lo paranormal. Habla sola constantemente."
+  }
+ ]
+}

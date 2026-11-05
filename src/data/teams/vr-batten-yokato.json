@@ -1,0 +1,528 @@
+{
+ "id": "vr-batten-yokato",
+ "season": "vr",
+ "wiki": "Batten-Yokato",
+ "name": "Batten-Yokato",
+ "short": "BAT",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "mayen-harmet",
+   "name": "Mayen Harmet",
+   "short": "Mayen",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "god-hand-wood",
+    "rocket-kobushi",
+    "majin-the-hand-wood",
+    "inazuma-1gou"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Meinohama Youki",
+   "description": "Alegre y vivaracho, sueña con hacerse amigo de todos sus rivales y organizar una fiesta enorme para todos."
+  },
+  {
+   "id": "vinda-koral",
+   "name": "Vinda Koral",
+   "short": "Vinda",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "hinawa-bullet",
+    "acrobat-keep",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bandai Kuromi",
+   "description": "Un macarra de sangre fría que se gana al público y lee las caras como libros abiertos."
+  },
+  {
+   "id": "susen-faircourt",
+   "name": "Susen Faircourt",
+   "short": "Susen",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "quick-draw",
+    "cyclone",
+    "blade-attack",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Susen Reita",
+   "description": "Un jugador muy recto que denuncia las jugadas sucias y riñe a sus compañeros cuando se pasan de la raya."
+  },
+  {
+   "id": "yarkin-cittey",
+   "name": "Yarkin Cittey",
+   "short": "Yarkin",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "fake-ball",
+    "shooting-star",
+    "sky-walk",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yakuin Kouya",
+   "description": "Tranquilo y alegre, se topa con jugadas milagrosas con un estilo muy suyo."
+  },
+  {
+   "id": "budan-ashwell",
+   "name": "Budan Ashwell",
+   "short": "Budan",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "dash-train",
+    "zigzag-spark",
+    "elephant-press",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hotei Daikou",
+   "description": "Es nuevo en este deporte, pero juega con una fuerza tranquila y una presencia que no pasa desapercibida."
+  },
+  {
+   "id": "benton-zellner",
+   "name": "Benton Zellner",
+   "short": "Benton",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "sonic-shot",
+    "claymore",
+    "flying-fish",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Benzai Tenshin",
+   "description": "Se pavonea con estilo y unas botas impecables, pero si se las pisas, explota."
+  },
+  {
+   "id": "hathea-calmell",
+   "name": "Hathea Calmell",
+   "short": "Hathea",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "spinning-cut",
+    "water-veil",
+    "aurora-dribble",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hatae Shizuna",
+   "description": "Tímida y recelosa de los macarras, entrena sin parar para no meter la pata y llevarse una bronca."
+  },
+  {
+   "id": "froclan-junn",
+   "name": "Froclan Junn",
+   "short": "Froclan",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "patriot-shoot",
+    "claymore",
+    "hunter-s-net",
+    "double-grenade"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fukuroku Gouji",
+   "description": "Antes era un alumno modelo, pero desde que tuvo que mudarse está borde y amargado."
+  },
+  {
+   "id": "ebiss-marlowe",
+   "name": "Ebiss Marlowe",
+   "short": "Ebiss",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "dash-train",
+    "volcano-cut",
+    "hitori-one-two",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ebisu Jougo",
+   "description": "Un chico de primero sencillo y entusiasta que escucha embobado cada palabra de sus superiores y su mánager."
+  },
+  {
+   "id": "vashan-morell",
+   "name": "Vashan Morell",
+   "short": "Vashan",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "hyakuretsu-shot",
+    "tsubame-gaeshi",
+    "hinawa-bullet",
+    "denrai-houtou"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gadou Bishamaru",
+   "description": "Sus patadas rapidísimas dejan estelas: no es raro que le llamen el Ciempiés Escarlata."
+  },
+  {
+   "id": "itor-sheerman",
+   "name": "Itor Sheerman",
+   "short": "Itor",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "shippuu-dash",
+    "spiral-shot",
+    "dash-storm",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Itoshima Hanahiko",
+   "description": "Excapitán del Fauxshore cuyas jugadas con Vashan desataban tormentas y le valieron el nombre de Vendaval del Sur."
+  },
+  {
+   "id": "trevin-seabourne",
+   "name": "Trevin Seabourne",
+   "short": "Trevin",
+   "number": 12,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "spinning-cut",
+    "sargasso",
+    "fuujin-no-mai",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Takarabune Daiba",
+   "description": "Un buceador veterano con pulmones de acero y un tupé que, no se sabe cómo, se mantiene firme bajo el agua."
+  },
+  {
+   "id": "jory-jinx",
+   "name": "Jory Jinx",
+   "short": "Jory",
+   "number": 13,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "patriot-shoot",
+    "hellfire",
+    "heat-tackle",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Takeriba Rouju",
+   "description": "Juega para desahogar el estrés, pero acaba molido persiguiendo cada balón como si le fuera la vida en ello."
+  },
+  {
+   "id": "clementine-weston",
+   "name": "Clementine Weston",
+   "short": "Clementine",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "presto-turn",
+    "back-tornado",
+    "illusion-ball",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nishijin Yuzuha",
+   "description": "Antes era tímida, pero encontró su fuego viendo al equipo del antiguo director y juró no volver a quedarse callada."
+  },
+  {
+   "id": "orfreya-newcomb",
+   "name": "Orfreya Newcomb",
+   "short": "Orfreya",
+   "number": 15,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "the-tower",
+    "jibashiri-kaen",
+    "prima-donna",
+    "shooting-star"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kushida Nui",
+   "description": "Hábil con la aguja, remienda los uniformes sobre la marcha y a veces borda chaquetas por dinero."
+  },
+  {
+   "id": "jakob-serveraw",
+   "name": "Jakob Serveraw",
+   "short": "Jakob",
+   "number": 16,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "bakuretsu-punch",
+    "burning-catch",
+    "power-shield",
+    "fence-of-gaia"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Muromi Hiromitsu",
+   "description": "Un alumno del Fauxshore enganchado al manga de macarras al que le encanta el ambiente alborotado del nuevo equipo."
+  }
+ ]
+}

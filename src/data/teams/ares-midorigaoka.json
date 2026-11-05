@@ -1,0 +1,528 @@
+{
+ "id": "ares-midorigaoka",
+ "season": "ares",
+ "wiki": "Midorigaoka",
+ "name": "Midorigaoka",
+ "short": "MID",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "wryn-twincrest",
+   "name": "Wryn Twincrest",
+   "short": "Wryn",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "tarzan-kick",
+    "ikari-no-tettsui",
+    "taikoku-ouka",
+    "serpent-fang"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Futakado Nirou",
+   "description": "Con manos hábiles para los tiros, siempre intenta competir con su amigo de la infancia y eterno rival, Griffit."
+  },
+  {
+   "id": "garvin-cliffmarch",
+   "name": "Garvin Cliffmarch",
+   "short": "Garvin",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "dragon-crash",
+    "kage-nui",
+    "hunter-s-net",
+    "demon-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tonobata Gakuto",
+   "description": "Un animador nato cuya voz retumba en todo el campo, reuniendo al equipo y manteniendo el ánimo alto."
+  },
+  {
+   "id": "therion-daywick",
+   "name": "Therion Daywick",
+   "short": "Therion",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "gravitation",
+    "ninin-sankyaku",
+    "muei-ranbu",
+    "the-mountain"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kooro Norihiko",
+   "description": "Pasa dos horas cada mañana perfeccionando su peinado y evita rematar de cabeza a toda costa."
+  },
+  {
+   "id": "sylvar-verdis",
+   "name": "Sylvar Verdis",
+   "short": "Sylvar",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "onryou",
+    "matador-feint",
+    "kage-nui",
+    "demon-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kanafumi Rokuri",
+   "description": "Movido por un fuerte sentido de la justicia, mantiene a raya sus emociones ardientes para estar fino en el campo."
+  },
+  {
+   "id": "orphion-ordain",
+   "name": "Orphion Ordain",
+   "short": "Orphion",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "sigma-zone",
+    "dual-smash",
+    "kage-nui",
+    "demon-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tendou Nanase",
+   "description": "Un amante del sol que se apuntó al club de fútbol solo para empaparse de su calor en el campo."
+  },
+  {
+   "id": "corwin-lumen",
+   "name": "Corwin Lumen",
+   "short": "Corwin",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "fake-ball",
+    "matador-feint",
+    "trick-ball",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tamamushi Mitsuki",
+   "description": "Pequeño pero ágil, supera a los rivales sin recurrir a la fuerza bruta."
+  },
+  {
+   "id": "aurel-ashdown",
+   "name": "Aurel Ashdown",
+   "short": "Aurel",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "lightning-accel",
+    "double-grenade",
+    "bungee-thrust",
+    "the-ikaros"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Higurashi Yuuhi",
+   "description": "Tranquilo y con espíritu de equipo, contagia a todos su ritmo relajado en el campo."
+  },
+  {
+   "id": "aveline-morrin",
+   "name": "Aveline Morrin",
+   "short": "Aveline",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "ice-block",
+    "dash-storm",
+    "heaven-s-time",
+    "angel-ball"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Miyama Ageha",
+   "description": "Se mueve como una mariposa y deslumbra a los fans con jugadas elegantes bajo la atenta mirada de Orphion."
+  },
+  {
+   "id": "merrick-seawell",
+   "name": "Merrick Seawell",
+   "short": "Merrick",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "ichiyajou",
+    "double-grenade",
+    "fire-tornado",
+    "hinawa-bullet"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hanmi Youta",
+   "description": "Un todoterreno llamativo que se crece cuando le miran y aspira a ser el mejor de los mejores."
+  },
+  {
+   "id": "griffit-valiance",
+   "name": "Griffit Valiance",
+   "short": "Griffit",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "condor-dive",
+    "aikidou",
+    "eternal-blizzard",
+    "revolution-v"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ikkaku Ooji",
+   "description": "Más fuerte de lo que parece, confía en su físico mientras una alergia al polen le obliga a llevar mascarilla todo el año."
+  },
+  {
+   "id": "corin-cainver",
+   "name": "Corin Cainver",
+   "short": "Corin",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "grenade-shot",
+    "la-flamme",
+    "dokonjou-bat",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kama Touya",
+   "description": "Un delantero incansable que no perdona ni a los rivales lesionados y persigue cada gol con un empuje inquebrantable."
+  },
+  {
+   "id": "galad-worden",
+   "name": "Galad Worden",
+   "short": "Galad",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "southern-crosscut",
+    "harvest",
+    "matador-feint",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gen Goroumaru",
+   "description": "Cautiva a sus fans con la elegancia de sus largas piernas y junta las manos para concentrarse antes de lanzar las faltas."
+  },
+  {
+   "id": "alaric-durnham",
+   "name": "Alaric Durnham",
+   "short": "Alaric",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "aggressive-beat",
+    "rc-shoot",
+    "heat-tackle",
+    "the-ikaros"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yasude Nagafumi",
+   "description": "De mal genio y fácil de alterar, se calma respirando hondo cuando le sube la ira."
+  },
+  {
+   "id": "plumian-whitlock",
+   "name": "Plumian Whitlock",
+   "short": "Plumian",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "naminori-pierrot",
+    "tatsumaki-otoshi",
+    "dash-storm",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Haneari Akiho",
+   "description": "Un chico trabajador y decidido que avanza sin pausa para ser el mejor en los estudios y en el fútbol."
+  },
+  {
+   "id": "queintas-quillmere",
+   "name": "Queintas Quillmere",
+   "short": "Queintas",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "wormhole",
+    "deep-mist",
+    "kumo-no-ito",
+    "demon-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Abu Bunsaku",
+   "description": "Tímido ante los focos, se escabulle de los defensas con una facilidad asombrosa."
+  },
+  {
+   "id": "tarvon-runnel",
+   "name": "Tarvon Runnel",
+   "short": "Tarvon",
+   "number": 16,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "coil-turn",
+    "dash-storm",
+    "heaven-s-time",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mimizuki Kojirou",
+   "description": "El campeón de la resistencia del equipo: ha aguantado entrenamientos agotadores sin quejarse jamás."
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "id": "cs-destructchers",
+ "season": "cs",
+ "wiki": "Destructchers",
+ "name": "Destructchers",
+ "short": "DES",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-chaos-flower",
+ "players": [
+  {
+   "id": "lotus",
+   "name": "Lotus",
+   "short": "Lotus",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 112,
+   "tp": 116,
+   "stats": {
+    "kick": 38,
+    "body": 68,
+    "control": 50,
+    "guard": 81,
+    "speed": 54,
+    "stamina": 52,
+    "guts": 47
+   },
+   "moves": [
+    "shining-hole",
+    "excellent-breast",
+    "destiny-cloud"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Lotus",
+   "description": "Portero y duplicado de Aster. Parece callado, pero habla por los codos."
+  },
+  {
+   "id": "magnol",
+   "name": "Magnol",
+   "short": "Magnol",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 101,
+   "stats": {
+    "kick": 52,
+    "body": 62,
+    "control": 45,
+    "guard": 75,
+    "speed": 70,
+    "stamina": 53,
+    "guts": 48
+   },
+   "moves": [
+    "magical-flower",
+    "the-wall",
+    "doon-shout",
+    "all-delete"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mokuren",
+   "description": "Defensa y duplicado de Aster. Es muy majo a pesar de su aspecto agresivo."
+  },
+  {
+   "id": "tulip",
+   "name": "Tulip",
+   "short": "Tulip",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 106,
+   "tp": 129,
+   "stats": {
+    "kick": 50,
+    "body": 63,
+    "control": 48,
+    "guard": 70,
+    "speed": 72,
+    "stamina": 64,
+    "guts": 66
+   },
+   "moves": [
+    "magical-flower",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tuli",
+   "description": "Duplicado de Aster y temible guerrera que nunca se salta el entrenamiento."
+  },
+  {
+   "id": "argyr",
+   "name": "Argyr",
+   "short": "Argyr",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 108,
+   "stats": {
+    "kick": 55,
+    "body": 71,
+    "control": 49,
+    "guard": 72,
+    "speed": 71,
+    "stamina": 60,
+    "guts": 50
+   },
+   "moves": [
+    "magical-flower",
+    "killer-slide",
+    "wormhole",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Margar",
+   "description": "Defensa y duplicado de Aster. Parece marrullero, pero siempre juega limpio."
+  },
+  {
+   "id": "laven",
+   "name": "Laven",
+   "short": "Laven",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 96,
+   "tp": 85,
+   "stats": {
+    "kick": 36,
+    "body": 68,
+    "control": 69,
+    "guard": 67,
+    "speed": 62,
+    "stamina": 50,
+    "guts": 44
+   },
+   "moves": [
+    "all-delete",
+    "serpent-fang",
+    "big-scissors",
+    "death-spear"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Laven",
+   "description": "Medio y duplicado de Aster. Es tan desconfiado que no habla con nadie."
+  },
+  {
+   "id": "viol",
+   "name": "Viol",
+   "short": "Viol",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 136,
+   "tp": 103,
+   "stats": {
+    "kick": 59,
+    "body": 56,
+    "control": 71,
+    "guard": 63,
+    "speed": 66,
+    "stamina": 77,
+    "guts": 47
+   },
+   "moves": [
+    "all-delete",
+    "power-spike",
+    "power-shield"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Viola",
+   "description": "Medio y duplicado de Aster. Es un jugador equilibrado bastante fuerte."
+  },
+  {
+   "id": "dandy",
+   "name": "Dandy",
+   "short": "Dandy",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 141,
+   "tp": 120,
+   "stats": {
+    "kick": 63,
+    "body": 66,
+    "control": 70,
+    "guard": 66,
+    "speed": 64,
+    "stamina": 65,
+    "guts": 52
+   },
+   "moves": [
+    "all-delete",
+    "death-sword",
+    "burning-summer",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Dande",
+   "description": "Centrocampista duplicado de Aster. Tenaz como una mala hierba, crece en cualquier sitio."
+  },
+  {
+   "id": "chamomile",
+   "name": "Chamomile",
+   "short": "Chamomile",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 78,
+   "tp": 107,
+   "stats": {
+    "kick": 62,
+    "body": 64,
+    "control": 69,
+    "guard": 68,
+    "speed": 67,
+    "stamina": 53,
+    "guts": 61
+   },
+   "moves": [
+    "all-delete",
+    "magical-flower",
+    "joker-rains"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Chamomi",
+   "description": "Medio y duplicado de Aster. Todos los chicos sucumben a su aroma."
+  },
+  {
+   "id": "orchid",
+   "name": "Orchid",
+   "short": "Orchid",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 170,
+   "tp": 103,
+   "stats": {
+    "kick": 70,
+    "body": 72,
+    "control": 73,
+    "guard": 61,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 48
+   },
+   "moves": [
+    "all-delete",
+    "astro-break",
+    "zigzag-spark",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ochid",
+   "description": "Medio y duplicado de Aster. No se corta a la hora de darle al balón."
+  },
+  {
+   "id": "aster",
+   "name": "Aster",
+   "short": "Aster",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 157,
+   "tp": 130,
+   "stats": {
+    "kick": 76,
+    "body": 67,
+    "control": 71,
+    "guard": 52,
+    "speed": 63,
+    "stamina": 50,
+    "guts": 55
+   },
+   "moves": [
+    "dimension-storm",
+    "asterisk-rock",
+    "sunshine-storm"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Asta",
+   "description": "El chico que apareció con Flora. Crea duplicados muy fuertes."
+  },
+  {
+   "id": "gentian",
+   "name": "Gentian",
+   "short": "Gentian",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 114,
+   "stats": {
+    "kick": 72,
+    "body": 64,
+    "control": 68,
+    "guard": 43,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "floral-despair",
+    "magical-flower",
+    "magnet-draw"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Zinnias",
+   "description": "Delantero y duplicado de Aster. Tiene amplios conocimientos de herbolaria."
+  },
+  {
+   "id": "flora",
+   "name": "Flora",
+   "short": "Flora",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 69,
+   "tp": 125,
+   "stats": {
+    "kick": 70,
+    "body": 56,
+    "control": 66,
+    "guard": 59,
+    "speed": 74,
+    "stamina": 42,
+    "guts": 52
+   },
+   "moves": [
+    "magical-flower",
+    "floral-despair",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fran",
+   "description": "Chica tímida con un gran poder. Viene de un futuro aciago."
+  },
+  {
+   "id": "flora-cs-fran-mm",
+   "name": "Flora",
+   "short": "Flora",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 69,
+   "tp": 125,
+   "stats": {
+    "kick": 70,
+    "body": 56,
+    "control": 66,
+    "guard": 59,
+    "speed": 74,
+    "stamina": 42,
+    "guts": 52
+   },
+   "moves": [
+    "chaos-meteor",
+    "floral-despair",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fran",
+   "description": "Chica tímida con un gran poder. Viene de un futuro aciago."
+  },
+  {
+   "id": "sterne",
+   "name": "Sterne",
+   "short": "Sterne",
+   "number": 14,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 133,
+   "stats": {
+    "kick": 74,
+    "body": 66,
+    "control": 64,
+    "guard": 62,
+    "speed": 65,
+    "stamina": 52,
+    "guts": 65
+   },
+   "moves": [
+    "gear-drive",
+    "magnet-draw",
+    "plasma-ball",
+    "evolution"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sun",
+   "description": "Hermano de Flora. Es un genio en batallas LBX."
+  }
+ ]
+}

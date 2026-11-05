@@ -1,0 +1,453 @@
+{
+ "id": "cs-el-dorado-team-02",
+ "season": "cs",
+ "wiki": "El Dorado Team 02",
+ "name": "El Dorado Equipo 02",
+ "short": "EDT",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c8202f"
+ },
+ "formation": "f-beta",
+ "players": [
+  {
+   "id": "romeo",
+   "name": "Romeo",
+   "short": "Romeo",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 134,
+   "stats": {
+    "kick": 52,
+    "body": 67,
+    "control": 54,
+    "guard": 68,
+    "speed": 62,
+    "stamina": 50,
+    "guts": 78
+   },
+   "moves": [
+    "gyro-saving",
+    "wormhole",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lugic",
+   "description": "A pesar de su aspecto dócil, defiende la portería con uñas y dientes."
+  },
+  {
+   "id": "wanli-changcheng",
+   "name": "Wanli Changcheng",
+   "short": "Wanli",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 105,
+   "stats": {
+    "kick": 55,
+    "body": 62,
+    "control": 51,
+    "guard": 67,
+    "speed": 38,
+    "stamina": 59,
+    "guts": 64
+   },
+   "moves": [
+    "viva-banri-no-choujou",
+    "elephant-press",
+    "atlantis-wall"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Amagi Daichi",
+   "description": "El jugador más grande del equipo. Un defensa que no tolera el juego sucio."
+  },
+  {
+   "id": "kilo",
+   "name": "Kilo",
+   "short": "Kilo",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 125,
+   "tp": 91,
+   "stats": {
+    "kick": 63,
+    "body": 53,
+    "control": 58,
+    "guard": 63,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 37
+   },
+   "moves": [
+    "coil-upper",
+    "burning-summer",
+    "magnet-draw"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ward",
+   "description": "Es tan robusto que muchos de sus rivales no resisten colisiones con él."
+  },
+  {
+   "id": "papa",
+   "name": "Papa",
+   "short": "Papa",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 80,
+   "stats": {
+    "kick": 58,
+    "body": 53,
+    "control": 64,
+    "guard": 64,
+    "speed": 50,
+    "stamina": 66,
+    "guts": 51
+   },
+   "moves": [
+    "magnet-draw",
+    "burning-summer",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Galling",
+   "description": "Su pelo refleja la pasión que siente. A pesar de su nombre, no tiene hijos."
+  },
+  {
+   "id": "november",
+   "name": "November",
+   "short": "November",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 128,
+   "stats": {
+    "kick": 66,
+    "body": 65,
+    "control": 67,
+    "guard": 67,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 58
+   },
+   "moves": [
+    "spinning-upper",
+    "twin-mixer",
+    "love-arrow"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Orca",
+   "description": "Esta centrocampista es puro nervio. Se lleva muy bien con Beta."
+  },
+  {
+   "id": "riccardo-di-rigo",
+   "name": "Riccardo Di Rigo",
+   "short": "Riccardo",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 141,
+   "tp": 124,
+   "stats": {
+    "kick": 70,
+    "body": 75,
+    "control": 66,
+    "guard": 66,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 55
+   },
+   "moves": [
+    "fortissimo",
+    "presto-turn",
+    "koutei-penguin-3gou",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shindou Takuto",
+   "description": "Por su genialidad y su impecable estrategia, es apodado el Virtuoso."
+  },
+  {
+   "id": "zanark-avalonic",
+   "name": "Zanark Avalonic",
+   "short": "Zanark",
+   "number": 99,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 128,
+   "stats": {
+    "kick": 78,
+    "body": 69,
+    "control": 66,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 79,
+    "guts": 61
+   },
+   "moves": [
+    "disaster-break",
+    "bungee-thrust",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanark Avalonic",
+   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
+  },
+  {
+   "id": "aitor-cazador",
+   "name": "Aitor Cazador",
+   "short": "Aitor",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 115,
+   "tp": 136,
+   "stats": {
+    "kick": 48,
+    "body": 63,
+    "control": 64,
+    "guard": 67,
+    "speed": 60,
+    "stamina": 57,
+    "guts": 58
+   },
+   "moves": [
+    "hunter-s-net",
+    "claymore",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kariya Masaki",
+   "description": "Un defensa con un equilibrio superior que a veces parece algo borde."
+  },
+  {
+   "id": "alpha",
+   "name": "Alpha",
+   "short": "Alpha",
+   "number": 6,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 152,
+   "tp": 127,
+   "stats": {
+    "kick": 71,
+    "body": 66,
+    "control": 65,
+    "guard": 63,
+    "speed": 58,
+    "stamina": 51,
+    "guts": 49
+   },
+   "moves": [
+    "spinning-transam",
+    "claymore",
+    "gauss-shot",
+    "omega-attack"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Alpha",
+   "description": "Capitán del Protocolo Omega. Nunca desobedece una orden directa."
+  },
+  {
+   "id": "beta",
+   "name": "Beta",
+   "short": "Beta",
+   "number": 8,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 94,
+   "tp": 139,
+   "stats": {
+    "kick": 70,
+    "body": 68,
+    "control": 72,
+    "guard": 64,
+    "speed": 71,
+    "stamina": 59,
+    "guts": 60
+   },
+   "moves": [
+    "double-shot",
+    "spinning-upper",
+    "omega-attack"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Beta",
+   "description": "La capitana del Protocolo Omega 2.0 es risueña pero tiene un lado oscuro."
+  },
+  {
+   "id": "gamma",
+   "name": "Gamma",
+   "short": "Gamma",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 133,
+   "stats": {
+    "kick": 72,
+    "body": 83,
+    "control": 64,
+    "guard": 52,
+    "speed": 75,
+    "stamina": 53,
+    "guts": 56
+   },
+   "moves": [
+    "gamma-strike",
+    "all-delete",
+    "omega-attack"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gamma",
+   "description": "El capitán del Protocolo Omega 3.0 tiene una fe ciega en sus habilidades."
+  },
+  {
+   "id": "mecha-mark",
+   "name": "Mecha-Mark",
+   "short": "Mecha-Mark",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 116,
+   "stats": {
+    "kick": 50,
+    "body": 67,
+    "control": 47,
+    "guard": 72,
+    "speed": 35,
+    "stamina": 46,
+    "guts": 76
+   },
+   "moves": [
+    "god-hand",
+    "penguin-the-hand",
+    "god-hand-v"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mecha Endou",
+   "description": "Schemer Guille diseñó este androide tras analizar los datos de Mark Evans."
+  },
+  {
+   "id": "mike",
+   "name": "Mike",
+   "short": "Mike",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 142,
+   "tp": 132,
+   "stats": {
+    "kick": 54,
+    "body": 54,
+    "control": 41,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 60
+   },
+   "moves": [
+    "gauss-shot",
+    "plasma-ball",
+    "spring-arrow"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Einam",
+   "description": "Este leal delantero de rostro juvenil es la mano derecha de Alfa."
+  },
+  {
+   "id": "michael-ballzack",
+   "name": "Michael Ballzack",
+   "short": "Michael",
+   "number": 17,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 119,
+   "tp": 128,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 54,
+    "guard": 48,
+    "speed": 59,
+    "stamina": 58,
+    "guts": 68
+   },
+   "moves": [
+    "sidewinder",
+    "mogura-feint",
+    "acrobat-keep",
+    "tiger-drive"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurama Norihito",
+   "description": "Su aparente frialdad oculta una enorme pasión por el fútbol."
+  }
+ ]
+}

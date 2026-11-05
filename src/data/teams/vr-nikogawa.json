@@ -1,0 +1,528 @@
+{
+ "id": "vr-nikogawa",
+ "season": "vr",
+ "wiki": "Nikogawa",
+ "name": "Nikogawa",
+ "short": "NIK",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "hobie-chartwood",
+   "name": "Hobie Chartwood",
+   "short": "Hobie",
+   "number": 14,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "makiwari-chop",
+    "chabudai-gaeshi",
+    "toughness-block",
+    "gigant-wall"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Oyobe Masao",
+   "description": "Dibujó un mapa tan preciso que acabó colgado en el ayuntamiento, y ahora traza los pases con la misma precisión."
+  },
+  {
+   "id": "lila-glosswood",
+   "name": "Lila Glosswood",
+   "short": "Lila",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "volcano-cut",
+    "jibashiri-kaen",
+    "hitori-one-two",
+    "photon-flash"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Makita Kazuko",
+   "description": "Hija de un barbero que sueña con hacerse una permanente de gran ciudad y lleva una media melena que dice \"todavía no, pero pronto\"."
+  },
+  {
+   "id": "rowland-brightwood",
+   "name": "Rowland Brightwood",
+   "short": "Rowland",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "quick-draw",
+    "kage-nui",
+    "bunshin-defense",
+    "profile-zone"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mondo Kanta",
+   "description": "Una reportera escolar muy aguda que ha entrevistado a medio pueblo y siempre descubre los puntos débiles del rival."
+  },
+  {
+   "id": "tristan-brookwood",
+   "name": "Tristan Brookwood",
+   "short": "Tristan",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "naminori-pierrot",
+    "spinning-cut",
+    "mogura-feint",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yamame Yukio",
+   "description": "Un maestro pescador que vuelca su concentración de pesca en una defensa a prueba de bombas y conoce más peces que personas."
+  },
+  {
+   "id": "lachlan-hartwood",
+   "name": "Lachlan Hartwood",
+   "short": "Lachlan",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "shikofumi",
+    "earthquake",
+    "super-armadillo",
+    "super-shikofumi"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kabamoto Yasunobu",
+   "description": "Entrenado en artes marciales como parte de la guardia del pueblo, se toma muy en serio proteger a su equipo."
+  },
+  {
+   "id": "nathaniel-whitewood",
+   "name": "Nathaniel Whitewood",
+   "short": "Nathaniel",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "coil-turn",
+    "quick-draw",
+    "ultra-moon",
+    "spiral-shot"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Koba Emiko",
+   "description": "De cuna noble y pulida a la perfección, juega con elegancia, pero sus pases golpean como un martillo."
+  },
+  {
+   "id": "orin-wildwood",
+   "name": "Orin Wildwood",
+   "short": "Orin",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "mogura-feint",
+    "bunshin-feint",
+    "tsuchi-daruma",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ino Yatarou",
+   "description": "Viene de una familia de cazadores y afina la puntería intentando cazar jabalíes a balonazos."
+  },
+  {
+   "id": "calvin-sixwood",
+   "name": "Calvin Sixwood",
+   "short": "Calvin",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "gorimuchuu",
+    "acrobat-keep",
+    "grenade-shot",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mutsumi Hideo",
+   "description": "El mayor de seis hermanos, criado para domar el caos, ahora dirige el centro del campo con precisión de experto."
+  },
+  {
+   "id": "iris-nightwood",
+   "name": "Iris Nightwood",
+   "short": "Iris",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "quick-draw",
+    "kage-nui",
+    "hitori-one-two",
+    "shooting-star"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Uwa Taeko",
+   "description": "Cuenta historias de fantasmas del pueblo con un estilo escalofriante y vende cada palabra como si la hubiera vivido."
+  },
+  {
+   "id": "ronan-strongwood",
+   "name": "Ronan Strongwood",
+   "short": "Ronan",
+   "number": 1,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "dash-train",
+    "tsuchi-daruma",
+    "gorimuchuu",
+    "reflect-buster"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gou Toshio",
+   "description": "Con un aguante de fiesta mayor y músculos de adulto, carga con el santuario portátil como uno de los ancianos del pueblo."
+  },
+  {
+   "id": "vearn-dashwood",
+   "name": "Vearn Dashwood",
+   "short": "Vearn",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "hitori-one-two",
+    "shine-drive",
+    "tiger-drive",
+    "paladin-strike"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Yomogi Kenta",
+   "description": "Nunca se le ve sin un mochi de artemisa en la mano: jura que es el secreto de sus músculos."
+  },
+  {
+   "id": "asher-norwood",
+   "name": "Asher Norwood",
+   "short": "Asher",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "back-tornado",
+    "spinning-shoot",
+    "fuujin-no-mai",
+    "divine-arrow"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shizukawa Kazuo",
+   "description": "Educado hasta el extremo, pero en el fondo resentido con la gente de ciudad. Va siempre con Vearn y le sigue apoyando."
+  },
+  {
+   "id": "emory-plainwood",
+   "name": "Emory Plainwood",
+   "short": "Emory",
+   "number": 12,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "thief-eye",
+    "quick-draw",
+    "zanzou",
+    "hunter-s-net"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Naoie Masaya",
+   "description": "Un estudiante deportista muy directo, sin ningún filtro y con la costumbre de meterse en líos de los que no sabe salir."
+  },
+  {
+   "id": "maris-hollowwood",
+   "name": "Maris Hollowwood",
+   "short": "Maris",
+   "number": 13,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 60,
+   "tp": 123,
+   "stats": {
+    "kick": 99,
+    "body": 15,
+    "control": 99,
+    "guard": 15,
+    "speed": 15,
+    "stamina": 15,
+    "guts": 93
+   },
+   "moves": [
+    "volcano-cut",
+    "fake-ball",
+    "grenade-shot",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Omotedani Sonoko",
+   "description": "Obsesionada con las máscaras de teatro noh, usa su sonrisa siniestra como arma para poner nerviosos a los rivales."
+  },
+  {
+   "id": "lydia-trailwood",
+   "name": "Lydia Trailwood",
+   "short": "Lydia",
+   "number": 15,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "acrobat-keep",
+    "kattobi-defense",
+    "sky-walk",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yoyobi Yae",
+   "description": "Creció corriendo de un lado a otro repartiendo caramelos a los turistas y acabó con un aguante inagotable."
+  },
+  {
+   "id": "alden-songwood",
+   "name": "Alden Songwood",
+   "short": "Alden",
+   "number": 16,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "makiwari-chop",
+    "bakuretsu-punch",
+    "tsumuji",
+    "burning-catch"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kubashira Kensuke",
+   "description": "Canta canciones populares con una voz que suena a hogar y sigue el balón de oído como si fuera parte de la melodía."
+  }
+ ]
+}

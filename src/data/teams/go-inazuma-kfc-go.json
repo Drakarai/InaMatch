@@ -1,0 +1,499 @@
+{
+ "id": "go-inazuma-kfc-go",
+ "season": "go",
+ "wiki": "Inazuma KFC (GO)",
+ "name": "Inazuma Kids FC (GO)",
+ "short": "IKG",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#c8202f"
+ },
+ "formation": "f-kid-s-heart",
+ "players": [
+  {
+   "id": "vivian-doosley",
+   "name": "Vivian Doosley",
+   "short": "Vivian",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 155,
+   "stats": {
+    "kick": 63,
+    "body": 60,
+    "control": 53,
+    "guard": 31,
+    "speed": 56,
+    "stamina": 58,
+    "guts": 58
+   },
+   "moves": [
+    "burning-catch",
+    "god-hand"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Koiwa Yousuke",
+   "description": "Parece que no ve nada con esos pelos, ¡pero tiene vista de lince!"
+  },
+  {
+   "id": "sean-muller",
+   "name": "Sean Muller",
+   "short": "Sean",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 171,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 55,
+    "control": 47,
+    "guard": 66,
+    "speed": 52,
+    "stamina": 71,
+    "guts": 60
+   },
+   "moves": [
+    "elephant-press",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Munakata Kosuke",
+   "description": "Parece duro, pero le afecta mucho el frío. Con una bufanda es invencible."
+  },
+  {
+   "id": "abe-roof",
+   "name": "Abe Roof",
+   "short": "Abe",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 167,
+   "tp": 157,
+   "stats": {
+    "kick": 71,
+    "body": 62,
+    "control": 61,
+    "guard": 41,
+    "speed": 66,
+    "stamina": 61,
+    "guts": 55
+   },
+   "moves": [
+    "hunter-s-net",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Doigaki Hajime",
+   "description": "Este fenómeno ribereño encuentra el punto flaco del rival de un vistazo."
+  },
+  {
+   "id": "buck-tucker",
+   "name": "Buck Tucker",
+   "short": "Buck",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 172,
+   "tp": 124,
+   "stats": {
+    "kick": 63,
+    "body": 45,
+    "control": 67,
+    "guard": 52,
+    "speed": 59,
+    "stamina": 76,
+    "guts": 55
+   },
+   "moves": [
+    "dash-train",
+    "elephant-press"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Omoi Takeshi",
+   "description": "Lo da todo en el campo para disfrutar de una opípara comida después."
+  },
+  {
+   "id": "edward-headwood",
+   "name": "Edward Headwood",
+   "short": "Edward",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 164,
+   "tp": 157,
+   "stats": {
+    "kick": 55,
+    "body": 56,
+    "control": 79,
+    "guard": 35,
+    "speed": 76,
+    "stamina": 52,
+    "guts": 57
+   },
+   "moves": [
+    "spiral-draw",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Matsuishi Rintarou",
+   "description": "Le encantan los bonsáis e incluso parece llevar uno en la cabeza..."
+  },
+  {
+   "id": "ricky-shea",
+   "name": "Ricky Shea",
+   "short": "Ricky",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 194,
+   "tp": 152,
+   "stats": {
+    "kick": 49,
+    "body": 59,
+    "control": 39,
+    "guard": 68,
+    "speed": 55,
+    "stamina": 67,
+    "guts": 61
+   },
+   "moves": [
+    "burning-summer",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sagami Toshihiko",
+   "description": "Su peso no le permitió dedicarse al sumo, así que ahora ama el fútbol."
+  },
+  {
+   "id": "felix-higgins",
+   "name": "Felix Higgins",
+   "short": "Felix",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 164,
+   "stats": {
+    "kick": 51,
+    "body": 68,
+    "control": 53,
+    "guard": 69,
+    "speed": 50,
+    "stamina": 60,
+    "guts": 63
+   },
+   "moves": [
+    "naminori-pierrot",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Terasaka Tokio",
+   "description": "Vive con 16 gatos y, quizá por eso, se le han puesto las orejas de felino..."
+  },
+  {
+   "id": "keeley-hall",
+   "name": "Keeley Hall",
+   "short": "Keeley",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 192,
+   "tp": 113,
+   "stats": {
+    "kick": 61,
+    "body": 49,
+    "control": 39,
+    "guard": 66,
+    "speed": 52,
+    "stamina": 74,
+    "guts": 63
+   },
+   "moves": [
+    "soyokaze-step",
+    "boomerang-feint",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kazama Remi",
+   "description": "Convencida de que es descendiente de piratas, no da tregua al adversario."
+  },
+  {
+   "id": "walt-riverside",
+   "name": "Walt Riverside",
+   "short": "Walt",
+   "number": 10,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 191,
+   "tp": 117,
+   "stats": {
+    "kick": 54,
+    "body": 64,
+    "control": 54,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 55,
+    "guts": 57
+   },
+   "moves": [
+    "naminori-pierrot",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Morimoto Kaito",
+   "description": "Rellenito pero con grandes reflejos y un don innato para el baile."
+  },
+  {
+   "id": "warren-cool",
+   "name": "Warren Cool",
+   "short": "Warren",
+   "number": 8,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 181,
+   "tp": 143,
+   "stats": {
+    "kick": 37,
+    "body": 51,
+    "control": 54,
+    "guard": 50,
+    "speed": 81,
+    "stamina": 55,
+    "guts": 56
+   },
+   "moves": [
+    "head-bazooka",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kouzu Aohiro",
+   "description": "Tiene un pelo tan rebelde que no hay peine ni cinta que lo domine."
+  },
+  {
+   "id": "elizabeth-buble",
+   "name": "Elizabeth Buble",
+   "short": "Elizabeth",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 186,
+   "tp": 127,
+   "stats": {
+    "kick": 60,
+    "body": 68,
+    "control": 47,
+    "guard": 54,
+    "speed": 51,
+    "stamina": 57,
+    "guts": 60
+   },
+   "moves": [
+    "perfect-course",
+    "bound-flame",
+    "death-drop"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Umemiya Chako",
+   "description": "Ídolo de la ribera, lleva un adorno para el pelo en forma de calavera."
+  },
+  {
+   "id": "titch-allhare",
+   "name": "Titch Allhare",
+   "short": "Titch",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 174,
+   "tp": 163,
+   "stats": {
+    "kick": 49,
+    "body": 54,
+    "control": 79,
+    "guard": 21,
+    "speed": 82,
+    "stamina": 66,
+    "guts": 54
+   },
+   "moves": [
+    "rapid-whip",
+    "bat-attack",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Karai Ataru",
+   "description": "Bajito pero experto portero, utiliza su pelo para defender la meta."
+  },
+  {
+   "id": "puck-fishley",
+   "name": "Puck Fishley",
+   "short": "Puck",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 167,
+   "tp": 155,
+   "stats": {
+    "kick": 56,
+    "body": 49,
+    "control": 51,
+    "guard": 61,
+    "speed": 53,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "spiral-draw",
+    "the-wall"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ayukawa Shun",
+   "description": "Conocido por su habilidad para salir de la nada y robar el balón."
+  },
+  {
+   "id": "reed-maind",
+   "name": "Reed Maind",
+   "short": "Reed",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 163,
+   "tp": 159,
+   "stats": {
+    "kick": 55,
+    "body": 71,
+    "control": 47,
+    "guard": 60,
+    "speed": 58,
+    "stamina": 65,
+    "guts": 63
+   },
+   "moves": [
+    "boomerang-feint",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shouji Takeru",
+   "description": "Poco dotado físicamente, controla el partido gracias a su sexto sentido."
+  },
+  {
+   "id": "jacqueline-rabbit",
+   "name": "Jacqueline Rabbit",
+   "short": "Jacqueline",
+   "number": 15,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 186,
+   "tp": 146,
+   "stats": {
+    "kick": 48,
+    "body": 53,
+    "control": 49,
+    "guard": 60,
+    "speed": 63,
+    "stamina": 61,
+    "guts": 63
+   },
+   "moves": [
+    "perfect-course",
+    "buttobi-jump"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kawai Mimi",
+   "description": "A pesar del gorro que siempre lleva puesto, tiene un oído finísimo."
+  },
+  {
+   "id": "bert-trapper",
+   "name": "Bert Trapper",
+   "short": "Bert",
+   "number": 16,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 153,
+   "stats": {
+    "kick": 72,
+    "body": 50,
+    "control": 72,
+    "guard": 38,
+    "speed": 68,
+    "stamina": 61,
+    "guts": 54
+   },
+   "moves": [
+    "thief-eye",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sasazuka Tooma",
+   "description": "Su sonrisa oculta a un cazador nato, siempre al acecho de nuevas presas."
+  }
+ ]
+}

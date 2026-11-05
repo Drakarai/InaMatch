@@ -1,0 +1,516 @@
+{
+ "id": "go-demon-s-horn",
+ "season": "go",
+ "wiki": "Demon's Horn",
+ "name": "Cuerno Demoniaco",
+ "short": "DSH",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-basic",
+ "players": [
+  {
+   "id": "xavier-shotwell",
+   "name": "Xavier Shotwell",
+   "short": "Xavier",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 165,
+   "tp": 161,
+   "stats": {
+    "kick": 62,
+    "body": 62,
+    "control": 70,
+    "guard": 68,
+    "speed": 49,
+    "stamina": 58,
+    "guts": 67
+   },
+   "moves": [
+    "fence-of-gaia",
+    "ballista-shot",
+    "serpent-fang"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seirou Kazuma",
+   "description": "Apodado \"Arenas movedizas\", sus guantes engullen cualquier disparo."
+  },
+  {
+   "id": "crimson-wiseman",
+   "name": "Crimson Wiseman",
+   "short": "Crimson",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 62,
+    "control": 63,
+    "guard": 51,
+    "speed": 77,
+    "stamina": 44,
+    "guts": 54
+   },
+   "moves": [
+    "zeroyon",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nachi Gai",
+   "description": "Apodado \"Espejismo\". Se mueve con sigilo para robarle el balón al rival."
+  },
+  {
+   "id": "linder-loper",
+   "name": "Linder Loper",
+   "short": "Linder",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 169,
+   "tp": 152,
+   "stats": {
+    "kick": 58,
+    "body": 51,
+    "control": 84,
+    "guard": 66,
+    "speed": 78,
+    "stamina": 44,
+    "guts": 62
+   },
+   "moves": [
+    "the-mist",
+    "claymore",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Ninba Tsukio",
+   "description": "Experto en camuflaje. Cuando no te lo esperas hace zas y aparece a tu lado."
+  },
+  {
+   "id": "locke-saflowe",
+   "name": "Locke Saflowe",
+   "short": "Locke",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 164,
+   "tp": 153,
+   "stats": {
+    "kick": 51,
+    "body": 50,
+    "control": 49,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 50,
+    "guts": 52
+   },
+   "moves": [
+    "britannia-cross",
+    "claymore",
+    "twin-mixer",
+    "deep-mist"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ruri Kushina",
+   "description": "Le gusta que le digan lo sedosa que es su melena. Se lo tiene muy creído."
+  },
+  {
+   "id": "linden-haregrove",
+   "name": "Linden Haregrove",
+   "short": "Linden",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 123,
+   "tp": 155,
+   "stats": {
+    "kick": 51,
+    "body": 50,
+    "control": 70,
+    "guard": 52,
+    "speed": 76,
+    "stamina": 53,
+    "guts": 60
+   },
+   "moves": [
+    "presto-turn",
+    "the-mist",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ruzaki Yasuki",
+   "description": "La mano derecha de Cirrus, el capitán. Lo llaman \"El rostro de la verdad\"."
+  },
+  {
+   "id": "cirrus-whisp",
+   "name": "Cirrus Whisp",
+   "short": "Cirrus",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 153,
+   "tp": 163,
+   "stats": {
+    "kick": 54,
+    "body": 49,
+    "control": 64,
+    "guard": 44,
+    "speed": 68,
+    "stamina": 50,
+    "guts": 52
+   },
+   "moves": [
+    "claymore",
+    "melody-wave",
+    "crazy-sunlight"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rinno Tenki",
+   "description": "Todo el mundo respeta al \"Faraón\", aunque nadie sabe de dónde viene."
+  },
+  {
+   "id": "sandy-dryhill",
+   "name": "Sandy Dryhill",
+   "short": "Sandy",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 174,
+   "tp": 159,
+   "stats": {
+    "kick": 49,
+    "body": 51,
+    "control": 66,
+    "guard": 52,
+    "speed": 53,
+    "stamina": 49,
+    "guts": 61
+   },
+   "moves": [
+    "twin-mixer",
+    "trick-ball",
+    "melody-wave",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Senda Nobuo",
+   "description": "Se adapta a cualquier coyuntura, como la arena del desierto. Un todoterreno."
+  },
+  {
+   "id": "romeo-fitzroy",
+   "name": "Romeo Fitzroy",
+   "short": "Romeo",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 56,
+    "control": 66,
+    "guard": 46,
+    "speed": 54,
+    "stamina": 60,
+    "guts": 56
+   },
+   "moves": [
+    "melody-wave",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rashou Nozomu",
+   "description": "Jugador versátil de los que atacan y defienden. Bastante ligón, además."
+  },
+  {
+   "id": "dryden-zephyr",
+   "name": "Dryden Zephyr",
+   "short": "Dryden",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 156,
+   "tp": 168,
+   "stats": {
+    "kick": 57,
+    "body": 62,
+    "control": 50,
+    "guard": 44,
+    "speed": 68,
+    "stamina": 76,
+    "guts": 56
+   },
+   "moves": [
+    "britannia-cross",
+    "maboroshi-shot",
+    "melody-wave"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shida Tsugumu",
+   "description": "\"El áspid\" es un futbolista que aúna técnica depurada y juego duro."
+  },
+  {
+   "id": "harry-dwind",
+   "name": "Harry Dwind",
+   "short": "Harry",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 166,
+   "tp": 143,
+   "stats": {
+    "kick": 54,
+    "body": 59,
+    "control": 52,
+    "guard": 63,
+    "speed": 45,
+    "stamina": 56,
+    "guts": 70
+   },
+   "moves": [
+    "britannia-cross",
+    "sidewinder",
+    "claymore",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Chihara Sakiya",
+   "description": "Nunca te fíes de \"La tormenta\": es implacable y no le caes bien."
+  },
+  {
+   "id": "bracknell-forge",
+   "name": "Bracknell Forge",
+   "short": "Bracknell",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 170,
+   "tp": 144,
+   "stats": {
+    "kick": 57,
+    "body": 51,
+    "control": 51,
+    "guard": 52,
+    "speed": 49,
+    "stamina": 71,
+    "guts": 56
+   },
+   "moves": [
+    "panther-blizzard",
+    "endless-summer",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shaza Sabaki",
+   "description": "Da miedo verlo correr. Sus rivales se apartan para que no los arrolle."
+  },
+  {
+   "id": "damien-blackloch",
+   "name": "Damien Blackloch",
+   "short": "Damien",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 170,
+   "tp": 126,
+   "stats": {
+    "kick": 58,
+    "body": 57,
+    "control": 68,
+    "guard": 45,
+    "speed": 58,
+    "stamina": 66,
+    "guts": 56
+   },
+   "moves": [
+    "eternal-blizzard",
+    "dimension-cut",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Teruyami Muu",
+   "description": "Tiene un aire misterioso. Viaja la tira, pero nunca le cuenta a nadie porqué."
+  },
+  {
+   "id": "brutus-nastion",
+   "name": "Brutus Nastion",
+   "short": "Brutus",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 155,
+   "stats": {
+    "kick": 62,
+    "body": 58,
+    "control": 64,
+    "guard": 53,
+    "speed": 63,
+    "stamina": 70,
+    "guts": 66
+   },
+   "moves": [
+    "twin-mixer",
+    "crystal-barrier",
+    "star-reflection",
+    "shoot-break"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Zanma Shido",
+   "description": "Talentoso pero muy bruto. Lo obligan a jugar de portero para evitar lesiones."
+  },
+  {
+   "id": "nate-gobby",
+   "name": "Nate Gobby",
+   "short": "Nate",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 166,
+   "tp": 159,
+   "stats": {
+    "kick": 65,
+    "body": 56,
+    "control": 76,
+    "guard": 51,
+    "speed": 62,
+    "stamina": 51,
+    "guts": 49
+   },
+   "moves": [
+    "viva-banri-no-choujou",
+    "rocket-head",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurata Nobuki",
+   "description": "Su cara de pocos amigos achanta a más de uno. En realidad es un guasón."
+  },
+  {
+   "id": "keith-wellington",
+   "name": "Keith Wellington",
+   "short": "Keith",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 164,
+   "tp": 159,
+   "stats": {
+    "kick": 61,
+    "body": 62,
+    "control": 61,
+    "guard": 56,
+    "speed": 53,
+    "stamina": 74,
+    "guts": 57
+   },
+   "moves": [
+    "dash-train",
+    "rocket-head",
+    "twin-mixer",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kagawa Ruriwo",
+   "description": "Lo llaman \"Búfalo\". No se sabe si se peina así aposta."
+  },
+  {
+   "id": "reggie-alldark",
+   "name": "Reggie Alldark",
+   "short": "Reggie",
+   "number": 16,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 105,
+   "tp": 167,
+   "stats": {
+    "kick": 53,
+    "body": 49,
+    "control": 50,
+    "guard": 43,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 52
+   },
+   "moves": [
+    "the-mist",
+    "fuujin-no-mai",
+    "claymore",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yamiyo Yamaki",
+   "description": "Surge por sorpresa de las sombras y lanza impetuosos y brutales ataques."
+  }
+ ]
+}

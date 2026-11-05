@@ -1,0 +1,393 @@
+{
+ "id": "gx-sazanaara-eleven",
+ "season": "gx",
+ "wiki": "Sazanaara Eleven",
+ "name": "Los Naiadi",
+ "short": "SAZ",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-grace-fin",
+ "players": [
+  {
+   "id": "van-tarel",
+   "name": "Van Tarel",
+   "short": "Van",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 138,
+   "stats": {
+    "kick": 41,
+    "body": 75,
+    "control": 55,
+    "guard": 68,
+    "speed": 70,
+    "stamina": 63,
+    "guts": 51
+   },
+   "moves": [
+    "aqua-breath",
+    "waterfall",
+    "rising-slash"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Van Tareru",
+   "description": "Solo es fiel a las órdenes que le da Plink."
+  },
+  {
+   "id": "squalcha",
+   "name": "Squalcha",
+   "short": "Squalcha",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 110,
+   "tp": 115,
+   "stats": {
+    "kick": 40,
+    "body": 60,
+    "control": 50,
+    "guard": 64,
+    "speed": 67,
+    "stamina": 53,
+    "guts": 59
+   },
+   "moves": [
+    "waterfall",
+    "ice-ground",
+    "winning-logic"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ness Biicha",
+   "description": "Jugador y gerente de Los Naiadi. Está obsesionado con la limpieza."
+  },
+  {
+   "id": "sog",
+   "name": "Sog",
+   "short": "Sog",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 119,
+   "stats": {
+    "kick": 50,
+    "body": 62,
+    "control": 48,
+    "guard": 66,
+    "speed": 65,
+    "stamina": 62,
+    "guts": 46
+   },
+   "moves": [
+    "waterfall",
+    "aqua-breath",
+    "spinning-upper",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Galila Zabu",
+   "description": "Tipo muy caballeroso que convierte los pequeños detalles en buenos gestos."
+  },
+  {
+   "id": "tinkel-urmia",
+   "name": "Tinkel Urmia",
+   "short": "Tinkel",
+   "number": 4,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 167,
+   "stats": {
+    "kick": 55,
+    "body": 64,
+    "control": 75,
+    "guard": 58,
+    "speed": 87,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "liquid-flow",
+    "waterfall",
+    "bubble-boil"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Urmi Chapupu",
+   "description": "Siempre juega con Plink. Su aspecto es como el de una niña pequeña."
+  },
+  {
+   "id": "plink-powai",
+   "name": "Plink Powai",
+   "short": "Plink",
+   "number": 5,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 122,
+   "tp": 159,
+   "stats": {
+    "kick": 50,
+    "body": 56,
+    "control": 69,
+    "guard": 62,
+    "speed": 66,
+    "stamina": 59,
+    "guts": 69
+   },
+   "moves": [
+    "liquid-flow",
+    "waterfall",
+    "jackknife"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Powai Pichori",
+   "description": "Capitana de Los Naiadi. Decide su jugada viendo el pensamiento del rival."
+  },
+  {
+   "id": "puddel",
+   "name": "Puddel",
+   "short": "Puddel",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 100,
+   "tp": 135,
+   "stats": {
+    "kick": 68,
+    "body": 60,
+    "control": 67,
+    "guard": 60,
+    "speed": 67,
+    "stamina": 52,
+    "guts": 58
+   },
+   "moves": [
+    "liquid-flow",
+    "bubble-boil",
+    "ribbon-shower"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Capis Tamal",
+   "description": "Tiene mucha fuerza a pesar de su tamaño. Es muy solitaria."
+  },
+  {
+   "id": "sploosh-saroma",
+   "name": "Sploosh Saroma",
+   "short": "Sploosh",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 131,
+   "stats": {
+    "kick": 62,
+    "body": 57,
+    "control": 62,
+    "guard": 61,
+    "speed": 62,
+    "stamina": 52,
+    "guts": 51
+   },
+   "moves": [
+    "liquid-flow",
+    "bubble-boil",
+    "shinkuuma"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sarama Sarasa",
+   "description": "Es muy antipática y por eso ha sufrido muchos problemas en su vida."
+  },
+  {
+   "id": "droplit",
+   "name": "Droplit",
+   "short": "Droplit",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 100,
+   "tp": 143,
+   "stats": {
+    "kick": 57,
+    "body": 60,
+    "control": 65,
+    "guard": 59,
+    "speed": 67,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "liquid-flow",
+    "bubble-boil",
+    "ice-ground",
+    "ribbon-shower"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Chuluka Potta",
+   "description": "Siempre está a la moda y los demás piensan que es muy linda."
+  },
+  {
+   "id": "plip-batur",
+   "name": "Plip Batur",
+   "short": "Plip",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 119,
+   "tp": 123,
+   "stats": {
+    "kick": 63,
+    "body": 56,
+    "control": 66,
+    "guard": 58,
+    "speed": 69,
+    "stamina": 60,
+    "guts": 64
+   },
+   "moves": [
+    "bubble-boil",
+    "waterfall",
+    "wolf-legend",
+    "muei-souha"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Batur Dobo",
+   "description": "Todo el mundo cree que es una mujer por su aspecto, pero no le importa."
+  },
+  {
+   "id": "serban",
+   "name": "Serban",
+   "short": "Serban",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 134,
+   "tp": 124,
+   "stats": {
+    "kick": 67,
+    "body": 60,
+    "control": 64,
+    "guard": 54,
+    "speed": 63,
+    "stamina": 66,
+    "guts": 55
+   },
+   "moves": [
+    "bubble-boil",
+    "liquid-flow",
+    "panther-blizzard"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Sevan Basha",
+   "description": "Un tipo de corazón puro que bromea con sus amigos constantemente."
+  },
+  {
+   "id": "plunk",
+   "name": "Plunk",
+   "short": "Plunk",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 166,
+   "tp": 118,
+   "stats": {
+    "kick": 68,
+    "body": 54,
+    "control": 61,
+    "guard": 45,
+    "speed": 55,
+    "stamina": 71,
+    "guts": 52
+   },
+   "moves": [
+    "bubble-boil",
+    "megalodon",
+    "air-ride",
+    "dead-straight"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Valha Poropo",
+   "description": "Delantero poderoso del equipo. Se apoya bastante en Urmi."
+  },
+  {
+   "id": "porco-umir",
+   "name": "Porco Umir",
+   "short": "Porco",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "maboroshi-dribble",
+    "big-spider",
+    "trick-ball",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Porco Umeel",
+   "description": "Entrenador de Los Naiadi. Bueno en encontrar el punto débil del enemigo."
+  }
+ ]
+}

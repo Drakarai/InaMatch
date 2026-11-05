@@ -1,0 +1,396 @@
+{
+ "id": "gx-sandorius-eleven",
+ "season": "gx",
+ "wiki": "Sandorius Eleven",
+ "name": "Sandorius Eleven",
+ "short": "SAN",
+ "colors": {
+  "shirt": "#5a3a8a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-iron-shell",
+ "players": [
+  {
+   "id": "b-adaen",
+   "name": "B'adaen",
+   "short": "B'adaen",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 134,
+   "stats": {
+    "kick": 67,
+    "body": 71,
+    "control": 48,
+    "guard": 67,
+    "speed": 42,
+    "stamina": 71,
+    "guts": 38
+   },
+   "moves": [
+    "sand-knock",
+    "dig-up",
+    "fence-of-gaia"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Badai Jaran",
+   "description": "El parche de su ojo mejora su vista para poder detener disparos veloces."
+  },
+  {
+   "id": "g-ob",
+   "name": "G'ob",
+   "short": "G'ob",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 101,
+   "stats": {
+    "kick": 46,
+    "body": 60,
+    "control": 50,
+    "guard": 63,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 62
+   },
+   "moves": [
+    "dig-up",
+    "dig-through",
+    "bungee-thrust",
+    "rolling-cutter"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gobila Mongo",
+   "description": "Hermano de Addah. Se llevan muy mal y se insultan todo el tiempo."
+  },
+  {
+   "id": "a-ddah",
+   "name": "A'ddah",
+   "short": "A'ddah",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 143,
+   "tp": 97,
+   "stats": {
+    "kick": 60,
+    "body": 51,
+    "control": 56,
+    "guard": 66,
+    "speed": 43,
+    "stamina": 76,
+    "guts": 58
+   },
+   "moves": [
+    "dig-up",
+    "sand-knock",
+    "atlantis-wall"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Duff Natter",
+   "description": "Tiene un físico muy potente y lo aprovecha en cada partido."
+  },
+  {
+   "id": "r-adji",
+   "name": "R'adji",
+   "short": "R'adji",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 138,
+   "tp": 105,
+   "stats": {
+    "kick": 69,
+    "body": 58,
+    "control": 48,
+    "guard": 64,
+    "speed": 49,
+    "stamina": 66,
+    "guts": 72
+   },
+   "moves": [
+    "dig-up",
+    "dust-javelin",
+    "dig-through",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Regi Stanin",
+   "description": "El mejor defensa de Los Sílice tiene la cabeza tan dura como una roca."
+  },
+  {
+   "id": "a-kra",
+   "name": "A'kra",
+   "short": "A'kra",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 130,
+   "tp": 101,
+   "stats": {
+    "kick": 75,
+    "body": 65,
+    "control": 61,
+    "guard": 60,
+    "speed": 42,
+    "stamina": 65,
+    "guts": 44
+   },
+   "moves": [
+    "dig-up",
+    "oraora-menchi",
+    "rolling-cutter"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Takla Marker",
+   "description": "Gracias a sus piernas tan largas hace que cualquier rival no escape de él."
+  },
+  {
+   "id": "n-ameeb",
+   "name": "N'ameeb",
+   "short": "N'ameeb",
+   "number": 6,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 121,
+   "stats": {
+    "kick": 47,
+    "body": 50,
+    "control": 44,
+    "guard": 58,
+    "speed": 77,
+    "stamina": 66,
+    "guts": 62
+   },
+   "moves": [
+    "dig-up",
+    "dig-through",
+    "konoha-roll"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Namiba Mib",
+   "description": "Defensa que quiere a K'aran como un hermano. Despeja todos los balones."
+  },
+  {
+   "id": "k-aran-uogu",
+   "name": "K'aran Uogu",
+   "short": "K'aran",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 150,
+   "tp": 110,
+   "stats": {
+    "kick": 65,
+    "body": 64,
+    "control": 65,
+    "guard": 58,
+    "speed": 54,
+    "stamina": 77,
+    "guts": 56
+   },
+   "moves": [
+    "dig-through",
+    "dust-javelin",
+    "dig-up",
+    "ogre-blade"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kazerma Worg",
+   "description": "Capitán de Los Sílice. Cree que se debería jugar limpio siempre."
+  },
+  {
+   "id": "k-al",
+   "name": "K'al",
+   "short": "K'al",
+   "number": 8,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 142,
+   "tp": 123,
+   "stats": {
+    "kick": 66,
+    "body": 68,
+    "control": 64,
+    "guard": 46,
+    "speed": 57,
+    "stamina": 71,
+    "guts": 50
+   },
+   "moves": [
+    "dust-javelin",
+    "dig-through",
+    "dragon-s-tail",
+    "tiger-drive"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gala Hariza",
+   "description": "Viene de una familia de militares y su fuerza es superior a la del resto."
+  },
+  {
+   "id": "s-haha",
+   "name": "S'haha",
+   "short": "S'haha",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 152,
+   "tp": 122,
+   "stats": {
+    "kick": 67,
+    "body": 58,
+    "control": 58,
+    "guard": 53,
+    "speed": 59,
+    "stamina": 72,
+    "guts": 51
+   },
+   "moves": [
+    "dust-javelin",
+    "dig-through",
+    "rocket-head",
+    "gigaton-head"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zaba Harler",
+   "description": "No sabe actuar sin recibir órdenes del capitán o el entrenador."
+  },
+  {
+   "id": "s-harqiyah",
+   "name": "S'harqiyah",
+   "short": "S'harqiyah",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 128,
+   "stats": {
+    "kick": 64,
+    "body": 57,
+    "control": 60,
+    "guard": 65,
+    "speed": 61,
+    "stamina": 73,
+    "guts": 59
+   },
+   "moves": [
+    "dust-javelin",
+    "dig-through",
+    "gungnir",
+    "dark-tornado"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shar Qiyah",
+   "description": "Mejor amigo de K'aran que tiene sangre de delantero puro."
+  },
+  {
+   "id": "a-tac",
+   "name": "A'tac",
+   "short": "A'tac",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 134,
+   "tp": 124,
+   "stats": {
+    "kick": 62,
+    "body": 64,
+    "control": 57,
+    "guard": 71,
+    "speed": 58,
+    "stamina": 75,
+    "guts": 50
+   },
+   "moves": [
+    "dust-javelin",
+    "dig-through",
+    "dinosaur-break",
+    "souhi-yuuseidan"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Acker Tamal",
+   "description": "Tiene los ojos del color de la sangre. Es un arma peligrosa para el equipo."
+  },
+  {
+   "id": "zundar-zand",
+   "name": "Zundar Zand",
+   "short": "Zundar",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "spinning-shoot",
+    "great-barrier-reef",
+    "sonic-shot",
+    "plasma-ball"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Zundal Zand",
+   "description": "Entrenador de Los Sílice. Se hizo cargo por su alta experiencia."
+  }
+ ]
+}

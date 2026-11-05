@@ -8,8 +8,9 @@ import { SEASONS, getSeason, seasonOf } from '../data/seasons';
 import type { TeamData } from '../data/types';
 import { defaultLineup } from '../engine/lineup';
 import { lineRatings, teamRating } from '../engine/rating';
-import { texKey } from '../gfx/placeholders';
-import { text } from '../ui/widgets';
+import { Button, text } from '../ui/widgets';
+import { loadClub } from '../club/club';
+import { makeEmblem, texKey } from '../gfx/placeholders';
 
 type Side = 'home' | 'away';
 
@@ -64,6 +65,8 @@ export class MenuScene extends Phaser.Scene {
   create(): void {
     fitCamera(this);
     music.play('menu');
+    const club = TEAMS.find((t) => t.id === 'club');
+    if (club) makeEmblem(this, club);
     const saved = this.registry.get('menuSelection') as Selection | undefined;
     this.sel = saved && TEAMS.some((t) => t.id === saved.home) && TEAMS.some((t) => t.id === saved.away) ? { ...saved } : this.defaults();
     this.shelfSeason = seasonOf(teamById(this.sel[this.sel.focus]));
@@ -80,6 +83,12 @@ export class MenuScene extends Phaser.Scene {
     this.renderShelf();
     this.bindKeys();
     soundButton(this, GAME_W - 34, 96, GAME_W - 350, 120);
+    // Mi club y fichajes
+    const clubBtn = new Button(this, 470, 40, '⚡ Mi club', () => this.scene.start('club'), { w: 170, h: 44, color: 0xff7a3d });
+    const gachaBtn = new Button(this, 650, 40, 'Fichajes', () => this.scene.start('gacha'), { w: 160, h: 44, color: YELLOW });
+    const coins = text(this, 760, 40, '', 16, '#ffd23f', { fontStyle: 'bold', strokeThickness: 4 }).setOrigin(0, 0.5);
+    coins.setText(`● ${loadClub()?.coins ?? 0}`);
+    if (!loadClub()) [clubBtn, gachaBtn, coins].forEach((o) => o.setVisible(false));
   }
 
   private defaults(): Selection {
@@ -310,18 +319,22 @@ export class MenuScene extends Phaser.Scene {
     c.add(g);
 
     // temporadas
-    seasonsWithTeams().forEach((s, i) => {
-      const x = 24 + i * 150;
+    const seasons = seasonsWithTeams();
+    const tabW = Math.min(150, (GAME_W - 250) / seasons.length);
+    seasons.forEach((s, i) => {
+      const x = 24 + i * tabW;
       const y = SHELF_Y + 30;
       const on = s.id === this.shelfSeason;
       const tab = this.add.graphics();
-      tab.fillStyle(on ? YELLOW : 0x1c2740).fillPoints([pt(x + 10, y), pt(x + 140, y), pt(x + 130, y + 30), pt(x, y + 30)], true);
+      const w = tabW - 8;
+      tab.fillStyle(on ? YELLOW : s.id === 'club' ? 0x5a3a12 : 0x1c2740).fillPoints([pt(x + 10, y), pt(x + w, y), pt(x + w - 10, y + 30), pt(x, y + 30)], true);
       c.add(tab);
-      c.add(text(this, x + 70, y + 15, `${s.short} · ${teamsOf(s.id).length} equipos`, 14, on ? '#0b1a2e' : '#c9d3e0', {
+      const n = teamsOf(s.id).length;
+      c.add(text(this, x + w / 2, y + 15, s.id === 'club' ? s.short : `${s.short} · ${n}`, 13, on ? '#0b1a2e' : '#c9d3e0', {
         fontStyle: 'italic bold',
         strokeThickness: 0,
       }).setOrigin(0.5));
-      const zone = this.add.zone(x, y, 140, 30).setOrigin(0).setInteractive({ useHandCursor: true });
+      const zone = this.add.zone(x, y, w, 30).setOrigin(0).setInteractive({ useHandCursor: true });
       zone.on('pointerdown', () => {
         this.shelfSeason = s.id;
         this.renderShelf();

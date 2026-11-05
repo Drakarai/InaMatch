@@ -1,0 +1,528 @@
+{
+ "id": "vr-hakuren-victory-road",
+ "season": "vr",
+ "wiki": "Hakuren (Victory Road)",
+ "name": "Hakuren (Victory Road)",
+ "short": "HVR",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "gael-vehemaint",
+   "name": "Gael Vehemaint",
+   "short": "Gael",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "ice-block",
+    "tsumuji",
+    "moonsault-stamp",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mashuu Isshin",
+   "description": "Con unos reflejos letales y un talento natural, se queda completamente callado cuando se concentra."
+  },
+  {
+   "id": "targan-snowbringer",
+   "name": "Targan Snowbringer",
+   "short": "Targan",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "ice-ground",
+    "illusion-ball",
+    "spiral-draw",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fuuren Shiroya",
+   "description": "Sea suerte o no, el balón siempre le encuentra... y en invierno, las bolas de nieve también."
+  },
+  {
+   "id": "berta-brunche",
+   "name": "Berta Brunche",
+   "short": "Berta",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "frozen-steal",
+    "earthquake",
+    "elephant-press",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kumamori Nenemi",
+   "description": "Huele a caramelo y sale disparado como un cohete cuando hay algo de picar."
+  },
+  {
+   "id": "mateo-potensio",
+   "name": "Mateo Potensio",
+   "short": "Mateo",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "earthquake",
+    "frozen-steal",
+    "super-armadillo",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Maruma Roman",
+   "description": "Llegó al fútbol por casualidad y enseguida brilló en el campo, aunque es el último en creérselo."
+  },
+  {
+   "id": "ivar-trialton",
+   "name": "Ivar Trialton",
+   "short": "Ivar",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "ice-ground",
+    "block-circus",
+    "stone-prison",
+    "muei-ranbu"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tobou Hatsuyuki",
+   "description": "Ganó músculo fallando ejercicios en la nieve y lo convirtió en puro aguante."
+  },
+  {
+   "id": "anastasia-mingler",
+   "name": "Anastasia Mingler",
+   "short": "Anastasia",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "eternal-blizzard",
+    "ice-ground",
+    "white-blade",
+    "snow-angel"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shumari Horoka",
+   "description": "Una bromista alegre con muchísimos fans, aunque siempre intenta colarse en las piñas de los otros equipos."
+  },
+  {
+   "id": "hail-homestead",
+   "name": "Hail Homestead",
+   "short": "Hail",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "water-veil",
+    "ice-ground",
+    "aurora-dribble",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Murazumi Hakka",
+   "description": "Viene de un pueblo pequeño, se lanza a todo lo que le interesa y nunca se está quieto."
+  },
+  {
+   "id": "fergat-silverpine",
+   "name": "Fergat Silverpine",
+   "short": "Fergat",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "aurora-dribble",
+    "white-blade",
+    "future-eye",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Matsuka Motomichi",
+   "description": "Nunca recuerda los nombres y disimula quedándose callado, pero todos saben que lo finge."
+  },
+  {
+   "id": "arlo-galbrash",
+   "name": "Arlo Galbrash",
+   "short": "Arlo",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "rocket-head",
+    "aurora-dribble",
+    "cross-drive",
+    "double-grenade"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sagae Kokichi",
+   "description": "Llamativo en el campo, tiene hambre de destacar y el valor de decir lo que piensa, incluso a los veteranos."
+  },
+  {
+   "id": "lev-langvil",
+   "name": "Lev Langvil",
+   "short": "Lev",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "eternal-blizzard",
+    "water-veil",
+    "panther-blizzard",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kitahira Uryuu",
+   "description": "Vista aguda e instinto sólido, pero aun así consigue tropezar con el aire."
+  },
+  {
+   "id": "wren-habilton",
+   "name": "Wren Habilton",
+   "short": "Wren",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "eternal-blizzard",
+    "panther-blizzard",
+    "megalodon",
+    "sargasso"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hieizaka Ganto",
+   "description": "Un delantero que volvió a lo grande tras una lesión... y así se descubrió lo goloso que es."
+  },
+  {
+   "id": "fifi-frostkin",
+   "name": "Fifi Frostkin",
+   "short": "Fifi",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "tsumuji",
+    "shoot-pocket",
+    "ice-block",
+    "power-spike"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tsumimori Umari",
+   "description": "Un natural en la nieve al que de verdad le gusta el frío y que no te dejará olvidarlo."
+  },
+  {
+   "id": "yetzy-klaus",
+   "name": "Yetzy Klaus",
+   "short": "Yetzy",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "spiral-draw",
+    "onryou",
+    "hunter-s-net",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Namihara Yoruna",
+   "description": "Llegó al fútbol persiguiendo leyendas raras y aún se las cree todas, incluidas el Pie Grande y Papá Noel."
+  },
+  {
+   "id": "elon-entremet",
+   "name": "Elon Entremet",
+   "short": "Elon",
+   "number": 14,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "bunshin-defense",
+    "rolling-slide",
+    "illusion-ball",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kanbashi Suezou",
+   "description": "Le encantan el ruido, las multitudes y repartir caramelos como si fuera una fiesta."
+  },
+  {
+   "id": "zain-blizzard",
+   "name": "Zain Blizzard",
+   "short": "Zain",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "bunshin-defense",
+    "jibashiri-kaen",
+    "claymore",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsunozaki Akaba",
+   "description": "Por mucho frío que haga, supera cada entrenamiento como un guerrero en una misión."
+  },
+  {
+   "id": "bayard-boreas",
+   "name": "Bayard Boreas",
+   "short": "Bayard",
+   "number": 16,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "sidewinder",
+    "spiral-shot",
+    "revolution-v",
+    "souhi-yuuseidan"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Tenke Nomo",
+   "description": "Huele el tiempo que hará mañana y usa esa intuición salvaje para olfatear también las ocasiones de gol."
+  }
+ ]
+}

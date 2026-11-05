@@ -1,0 +1,396 @@
+{
+ "id": "gx-gurdon-eleven",
+ "season": "gx",
+ "wiki": "Gurdon Eleven",
+ "name": "Gurdon Eleven",
+ "short": "GUR",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-lost-wing",
+ "players": [
+  {
+   "id": "aoba-gyr",
+   "name": "Aoba Gyr",
+   "short": "Aoba",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 142,
+   "tp": 140,
+   "stats": {
+    "kick": 71,
+    "body": 78,
+    "control": 56,
+    "guard": 68,
+    "speed": 67,
+    "stamina": 54,
+    "guts": 65
+   },
+   "moves": [
+    "volcano-head",
+    "volcanic-fly",
+    "beam-kobushi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Alvega Gordon",
+   "description": "Capitán de Los Magmavís. Cambió sus alas por unos poderosos brazos."
+  },
+  {
+   "id": "mayon",
+   "name": "Mayon",
+   "short": "Mayon",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 106,
+   "tp": 140,
+   "stats": {
+    "kick": 72,
+    "body": 73,
+    "control": 56,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 58,
+    "guts": 56
+   },
+   "moves": [
+    "volcanic-fly",
+    "jibashiri-kaen",
+    "magma-carpet",
+    "rolling-cutter"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mayon Creste",
+   "description": "En el pasado se llevaba bien con toda la familia de Aoba."
+  },
+  {
+   "id": "merapil-sekretair",
+   "name": "Merapil Sekretair",
+   "short": "Merapil",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 115,
+   "stats": {
+    "kick": 55,
+    "body": 68,
+    "control": 54,
+    "guard": 63,
+    "speed": 65,
+    "stamina": 50,
+    "guts": 55
+   },
+   "moves": [
+    "volcanic-fly",
+    "magma-carpet",
+    "footwork-draw",
+    "volcano-head"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Merapir Secreta",
+   "description": "Descartó sus alas y el poder volar para formar parte del equipo."
+  },
+  {
+   "id": "mistis",
+   "name": "Mistis",
+   "short": "Mistis",
+   "number": 4,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 96,
+   "tp": 135,
+   "stats": {
+    "kick": 47,
+    "body": 68,
+    "control": 62,
+    "guard": 46,
+    "speed": 72,
+    "stamina": 61,
+    "guts": 45
+   },
+   "moves": [
+    "magma-carpet",
+    "volcanic-fly",
+    "tsubame-gaeshi"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Misti Oar",
+   "description": "Se guía por la direccionalidad del sonido para hacerse con la pelota."
+  },
+  {
+   "id": "nevado",
+   "name": "Nevado",
+   "short": "Nevado",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 150,
+   "tp": 99,
+   "stats": {
+    "kick": 54,
+    "body": 74,
+    "control": 67,
+    "guard": 54,
+    "speed": 57,
+    "stamina": 64,
+    "guts": 61
+   },
+   "moves": [
+    "magma-carpet",
+    "volcanic-fly",
+    "rolling-cutter"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nevado Condarm",
+   "description": "Mediocentro que está de moda en el planeta Magmavís."
+  },
+  {
+   "id": "etna",
+   "name": "Etna",
+   "short": "Etna",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 122,
+   "tp": 120,
+   "stats": {
+    "kick": 53,
+    "body": 71,
+    "control": 63,
+    "guard": 58,
+    "speed": 60,
+    "stamina": 69,
+    "guts": 46
+   },
+   "moves": [
+    "magma-carpet",
+    "kazangan",
+    "volcanic-fly",
+    "silk-road"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Etuna Holk",
+   "description": "Linda jugadora de Los Magmavís. Su popularidad es bastante alta."
+  },
+  {
+   "id": "proman",
+   "name": "Proman",
+   "short": "Proman",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 110,
+   "stats": {
+    "kick": 67,
+    "body": 65,
+    "control": 66,
+    "guard": 47,
+    "speed": 64,
+    "stamina": 77,
+    "guts": 35
+   },
+   "moves": [
+    "magma-carpet",
+    "doukasen",
+    "burning-summer",
+    "bungee-thrust"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Promo Shoebill",
+   "description": "Tiene una relación amorosa en secreto con Etna."
+  },
+  {
+   "id": "cotopax",
+   "name": "Cotopax",
+   "short": "Cotopax",
+   "number": 8,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 114,
+   "tp": 125,
+   "stats": {
+    "kick": 63,
+    "body": 72,
+    "control": 53,
+    "guard": 58,
+    "speed": 70,
+    "stamina": 51,
+    "guts": 63
+   },
+   "moves": [
+    "kazangan",
+    "magma-carpet",
+    "bound-flame",
+    "triangle-zz"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Cotopak Gerigar",
+   "description": "Es considerado el más atractivo de Magmavís y un gran héroe del planeta."
+  },
+  {
+   "id": "vesuvian",
+   "name": "Vesuvian",
+   "short": "Vesuvian",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 123,
+   "stats": {
+    "kick": 66,
+    "body": 72,
+    "control": 62,
+    "guard": 52,
+    "speed": 69,
+    "stamina": 45,
+    "guts": 52
+   },
+   "moves": [
+    "kazangan",
+    "rocket-head",
+    "death-drop"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Vesu Horne",
+   "description": "Mano derecha de Aoba. También tiene una gran amistad con su padre."
+  },
+  {
+   "id": "tair",
+   "name": "Tair",
+   "short": "Tair",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 109,
+   "tp": 128,
+   "stats": {
+    "kick": 62,
+    "body": 66,
+    "control": 46,
+    "guard": 51,
+    "speed": 61,
+    "stamina": 53,
+    "guts": 68
+   },
+   "moves": [
+    "kazangan",
+    "volcanic-fly",
+    "tsubame-gaeshi",
+    "oil-rush"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Taal Parakee",
+   "description": "Siempre está con Nevado. Nadie sabe qué es lo que piensa."
+  },
+  {
+   "id": "nyira",
+   "name": "Nyira",
+   "short": "Nyira",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 137,
+   "tp": 130,
+   "stats": {
+    "kick": 67,
+    "body": 80,
+    "control": 65,
+    "guard": 68,
+    "speed": 59,
+    "stamina": 67,
+    "guts": 40
+   },
+   "moves": [
+    "kazangan",
+    "magma-carpet",
+    "fire-tornado",
+    "sunshine-storm"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nyira Pheasun",
+   "description": "Rival sano de Aoba. Sería capaz de dar su vida por él."
+  },
+  {
+   "id": "caldera-dorne",
+   "name": "Caldera Dorne",
+   "short": "Caldera",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "rolling-kick",
+    "matador-feint",
+    "bunshin-feint",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Caldera Doon",
+   "description": "Atrevido e ingenioso, el mánager del Magmavia Eleven empuja al equipo con jugadas experimentales."
+  }
+ ]
+}

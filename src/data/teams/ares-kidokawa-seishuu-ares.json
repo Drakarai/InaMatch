@@ -1,0 +1,528 @@
+{
+ "id": "ares-kidokawa-seishuu-ares",
+ "season": "ares",
+ "wiki": "Kidokawa Seishuu (Ares)",
+ "name": "Kidokawa Seishuu (Ares)",
+ "short": "KSA",
+ "colors": {
+  "shirt": "#2a8a3a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a8a3a"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "trice-topper",
+   "name": "Trice Topper",
+   "short": "Trice",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "toughness-block",
+    "rocket-kobushi",
+    "gigant-wall",
+    "burning-catch"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oogosho Yakata",
+   "description": "Juega con una confianza serena que tranquiliza a todo el equipo, sea novato o no."
+  },
+  {
+   "id": "malcolm-night",
+   "name": "Malcolm Night",
+   "short": "Malcolm",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "dash-accel",
+    "spinning-cut",
+    "hyakuretsu-shot",
+    "cyclone"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nishigaki Mamoru",
+   "description": "Como todos los grandes jugadores, lleva un peinado que da el cante."
+  },
+  {
+   "id": "alfred-meenan",
+   "name": "Alfred Meenan",
+   "short": "Alfred",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "quick-draw",
+    "hurricane-arrow",
+    "moonsault",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Megawa Akihi",
+   "description": "Siempre trata de ir al último grito en moda, y para ello viste de marca."
+  },
+  {
+   "id": "dan-mirthful",
+   "name": "Dan Mirthful",
+   "short": "Dan",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "spinning-cut",
+    "earthquake",
+    "kung-fu-head",
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mitsumune Dan",
+   "description": "Dormir le hace tan feliz que siempre llega tarde a todas partes."
+  },
+  {
+   "id": "ricky-clover",
+   "name": "Ricky Clover",
+   "short": "Ricky",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "coil-turn",
+    "hurricane-arrow",
+    "meteor-attack",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kurobe Ritsuki",
+   "description": "Suele estar quieto como una estatua y todos lo toman por una."
+  },
+  {
+   "id": "toby-damian",
+   "name": "Toby Damian",
+   "short": "Toby",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "moonsault",
+    "back-tornado",
+    "quick-draw",
+    "spinning-shoot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tobiyama Dan",
+   "description": "Es pequeñajo, pero su capacidad de salto deja atónito a cualquiera."
+  },
+  {
+   "id": "york-nashmith",
+   "name": "York Nashmith",
+   "short": "York",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "boost-glider",
+    "hawk-shot",
+    "monkey-turn",
+    "back-tornado"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yakata Naoto",
+   "description": "Le gusta sestear en el tejado, pero a veces da vueltas y se cae de él."
+  },
+  {
+   "id": "zachary-moore",
+   "name": "Zachary Moore",
+   "short": "Zachary",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "hawk-shot",
+    "illusion-ball",
+    "twin-boost",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mogi Sakito",
+   "description": "No es demasiado bueno, pero cuando da asistencias es otro cantar."
+  },
+  {
+   "id": "marvin-murdock",
+   "name": "Marvin Murdock",
+   "short": "Marvin",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 162,
+   "tp": 123,
+   "stats": {
+    "kick": 69,
+    "body": 61,
+    "control": 66,
+    "guard": 62,
+    "speed": 61,
+    "stamina": 51,
+    "guts": 70
+   },
+   "moves": [
+    "back-tornado",
+    "triangle-z",
+    "illusion-ball",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mukata Masaru",
+   "description": "Hermano mayor de los trillizos y capitán. Ansía ganarlo todo."
+  },
+  {
+   "id": "thomas-murdock",
+   "name": "Thomas Murdock",
+   "short": "Thomas",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 157,
+   "tp": 124,
+   "stats": {
+    "kick": 67,
+    "body": 64,
+    "control": 64,
+    "guard": 46,
+    "speed": 67,
+    "stamina": 42,
+    "guts": 68
+   },
+   "moves": [
+    "back-tornado",
+    "triangle-z",
+    "moonsault",
+    "killer-slide"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Mukata Tomo",
+   "description": "Hermano mediano de los trillizos. Es cordial y el equipo confía en él."
+  },
+  {
+   "id": "tyler-murdock",
+   "name": "Tyler Murdock",
+   "short": "Tyler",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 147,
+   "tp": 127,
+   "stats": {
+    "kick": 64,
+    "body": 41,
+    "control": 60,
+    "guard": 72,
+    "speed": 41,
+    "stamina": 68,
+    "guts": 50
+   },
+   "moves": [
+    "back-tornado",
+    "triangle-z",
+    "judge-through",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Mukata Tsutomu",
+   "description": "Admira a sus dos hermanos mayores y se entrena para ser como ellos."
+  },
+  {
+   "id": "seth-nichols",
+   "name": "Seth Nichols",
+   "short": "Seth",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "fire-tornado",
+    "the-tower",
+    "hurricane-arrow",
+    "perfect-tower"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nikaidou Shuugo",
+   "description": "El entrenador desaliñado del Kirkwood. Confía en sus jugadores y ellos en él."
+  },
+  {
+   "id": "lynn-tambelle",
+   "name": "Lynn Tambelle",
+   "short": "Lynn",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "spinning-cut",
+    "hurricane-arrow",
+    "boost-glider",
+    "fake-ball"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tanba Suzu",
+   "description": "Siempre agitando una pandereta para animar al equipo; su tintineo mantiene a todos con energía."
+  },
+  {
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 17,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 180,
+   "tp": 135,
+   "stats": {
+    "kick": 77,
+    "body": 64,
+    "control": 68,
+    "guard": 58,
+    "speed": 55,
+    "stamina": 69,
+    "guts": 56
+   },
+   "moves": [
+    "fire-tornado",
+    "heat-tackle",
+    "inazuma-otoshi",
+    "inazuma-1gou"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gouenji Shuuya",
+   "description": "Bajo su fría apariencia, en el interior de este chico arde una intensa pasión por el fútbol."
+  },
+  {
+   "id": "hilary-prentice",
+   "name": "Hilary Prentice",
+   "short": "Hilary",
+   "number": 23,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "hurricane-arrow",
+    "back-tornado",
+    "boost-glider",
+    "suisei-shoot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mito Atomi",
+   "description": "Una recién llegada rebosante de ganas cuyo rápido progreso levanta la moral del equipo."
+  },
+  {
+   "id": "jodi-green",
+   "name": "Jodi Green",
+   "short": "Jodi",
+   "number": 24,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "hurricane-arrow",
+    "shooting-star",
+    "boost-glider",
+    "mushroom-hop"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hoshino Madoka",
+   "description": "Un novato serio que mejora a un ritmo asombroso cada día."
+  }
+ ]
+}

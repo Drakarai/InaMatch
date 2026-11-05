@@ -1,0 +1,462 @@
+{
+ "id": "ares-barcelona-orb",
+ "season": "ares",
+ "wiki": "Barcelona Orb",
+ "name": "Barcelona Orb",
+ "short": "BAR",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "salvador-castell",
+   "name": "Salvador Castell",
+   "short": "Salvador",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "the-boyon",
+    "gigant-wall",
+    "omega-the-hand",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Alonso Fibiano",
+   "description": "Parece despreocupado, pero esconde la habilidad de parar los tiros de cualquier jugador."
+  },
+  {
+   "id": "antoni-valls",
+   "name": "Antoni Valls",
+   "short": "Antoni",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "stone-prison",
+    "echo-ball",
+    "air-ride",
+    "flame-veil"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Oscar Agito",
+   "description": "Un lateral con un aguante y una técnica de nivel mundial que le han dado fama entre la élite."
+  },
+  {
+   "id": "jordi-belloch",
+   "name": "Jordi Belloch",
+   "short": "Jordi",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "stone-prison",
+    "go-to-heaven",
+    "welcome-back",
+    "hellfire"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Federico Dazzlo",
+   "description": "Con una cara guapísima, sus fans lo adoran y se lanza sin miedo a las entradas en plancha."
+  },
+  {
+   "id": "gerard-carbonell",
+   "name": "Gerard Carbonell",
+   "short": "Gerard",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "liar-shot",
+    "gravestone",
+    "welcome-back",
+    "flame-veil"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gregorio Jaballo",
+   "description": "Un pilar defensivo en quien sus compañeros confían por su buen juicio y sus indicaciones precisas."
+  },
+  {
+   "id": "carles-ripoll",
+   "name": "Carles Ripoll",
+   "short": "Carles",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "liar-shot",
+    "super-el-stico",
+    "welcome-back",
+    "desert-storm"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Daniel Madrone",
+   "description": "Un defensa de velocidad explosiva cuya compenetración con Xavi es una delicia."
+  },
+  {
+   "id": "josep-anglesola",
+   "name": "Josep Anglesola",
+   "short": "Josep",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "kangaroo-kick",
+    "super-el-stico",
+    "rolling-slide",
+    "double-tornado"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Rubérn Boigk",
+   "description": "Un organizador con ojo para lo inesperado que cuela pases por los puntos más débiles del rival."
+  },
+  {
+   "id": "xavi-casals",
+   "name": "Xavi Casals",
+   "short": "Xavi",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "go-to-heaven",
+    "ultra-moon",
+    "super-el-stico",
+    "hellfire"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Trancy Cornet",
+   "description": "Un jugador polivalente en su mejor momento, con debilidad por los productos de personajes monos."
+  },
+  {
+   "id": "ronaldo-ramallets",
+   "name": "Ronaldo Ramallets",
+   "short": "Ronaldo",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "kangaroo-kick",
+    "super-el-stico",
+    "rolling-slide",
+    "desert-storm"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Donnell Gotti",
+   "description": "Contagia su energía, y su velocidad explosiva desequilibra a los rivales sin parar."
+  },
+  {
+   "id": "sergi-hern-ndez",
+   "name": "Sergi Hernández",
+   "short": "Sergi",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 204,
+   "tp": 195,
+   "stats": {
+    "kick": 61,
+    "body": 58,
+    "control": 86,
+    "guard": 66,
+    "speed": 98,
+    "stamina": 77,
+    "guts": 74
+   },
+   "moves": [
+    "diamond-ray",
+    "diamond-edge"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Clario Orvan",
+   "description": "Más fuerte que casi todos, este capitán tiene la calma de un campeón y no subestima a nadie."
+  },
+  {
+   "id": "leo-segarra",
+   "name": "Leo Segarra",
+   "short": "Leo",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "twin-lancer",
+    "ryuusei-blade",
+    "super-scan-of",
+    "double-tornado"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Luther Fandam",
+   "description": "Un delantero que destaca en todo, con un físico y una técnica que no dejan huecos a los defensas."
+  },
+  {
+   "id": "joan-asensi",
+   "name": "Joan Asensi",
+   "short": "Joan",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "twin-lancer",
+    "tenkuu-otoshi",
+    "heat-tackle",
+    "hellfire"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bergamo Regult",
+   "description": "Un rematador nato, muy competitivo y con un fuego interior que le empuja hacia delante."
+  },
+  {
+   "id": "augusto-gomez",
+   "name": "Augusto Gomez",
+   "short": "Augusto",
+   "number": 12,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "matador-feint",
+    "slingshot",
+    "scissors-bomb",
+    "double-tornado"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Agapito Goméz",
+   "description": "Juega con una confianza arrolladora y trata a su club de fans como a su familia."
+  },
+  {
+   "id": "geraldo-enrique",
+   "name": "Geraldo Enrique",
+   "short": "Geraldo",
+   "number": 13,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "matador-feint",
+    "slingshot",
+    "rapid-fire",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gerard Enrique",
+   "description": "Ve el mundo de otra manera y convierte hasta una simple piedra en una obra de arte."
+  },
+  {
+   "id": "alessio-ganonti",
+   "name": "Alessio Ganonti",
+   "short": "Alessio",
+   "number": 14,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "southern-crosscut",
+    "hunter-s-net",
+    "matador-feint",
+    "killer-fields"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Salomón Ganonti",
+   "description": "La mánager del Barcelona Orb, normalmente callada, habla por los codos cuando se pone nerviosa."
+  }
+ ]
+}

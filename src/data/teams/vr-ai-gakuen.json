@@ -1,0 +1,528 @@
+{
+ "id": "vr-ai-gakuen",
+ "season": "vr",
+ "wiki": "AI Gakuen",
+ "name": "AI Gakuen",
+ "short": "AIG",
+ "colors": {
+  "shirt": "#e86a1a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#e86a1a"
+ },
+ "formation": "f-5-3-2",
+ "players": [
+  {
+   "id": "eugenio-provost",
+   "name": "Eugenio Provost",
+   "short": "Eugenio",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "shoot-pocket",
+    "kogetsu-juujishou",
+    "beam-kobushi",
+    "gyro-saving"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shikichi Enzou",
+   "description": "Reclutado para demostrar que la IA tiene sitio en el fútbol, es un ingeniero que defiende la portería como un profesional."
+  },
+  {
+   "id": "pradip-lurning",
+   "name": "Pradip Lurning",
+   "short": "Pradip",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "profile-zone",
+    "hitori-one-two",
+    "dimension-cut",
+    "dog-run"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Morito Ankou",
+   "description": "Nuevo en la tecnología pero rápido adaptándose, ahora domina el fútbol de alta tecnología."
+  },
+  {
+   "id": "talim-muskel",
+   "name": "Talim Muskel",
+   "short": "Talim",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "dash-train",
+    "zigzag-spark",
+    "elephant-press",
+    "blitz-bridge"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kidera Dengo",
+   "description": "Antes era enclenque y ahora es un tanque gracias al entrenamiento con IA: una potencia de alta tecnología."
+  },
+  {
+   "id": "synthian-volkel",
+   "name": "Synthian Volkel",
+   "short": "Synthian",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "spiral-draw",
+    "kage-nui",
+    "zanzou",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Namikata Ryousei",
+   "description": "Tararea canciones populares creadas por IA incluso en los partidos, siempre al ritmo."
+  },
+  {
+   "id": "randon-datta",
+   "name": "Randon Datta",
+   "short": "Randon",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "profile-zone",
+    "the-matrix",
+    "thief-eye",
+    "blitz-bridge"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kurokura Mitsukuni",
+   "description": "Con ganas de ganar y siempre centrado, aun así acaba yendo a contrarreloj por el caos de su capitán."
+  },
+  {
+   "id": "chayce-golana",
+   "name": "Chayce Golana",
+   "short": "Chayce",
+   "number": 6,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "trick-ball",
+    "illusion-ball",
+    "maboroshi-dribble",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fumikage Chino",
+   "description": "Las máquinas le confunden, así que se concentra al máximo y se olvida de todo lo demás."
+  },
+  {
+   "id": "annalisa-cubon",
+   "name": "Annalisa Cubon",
+   "short": "Annalisa",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "thief-eye",
+    "perfect-course",
+    "ultra-moon",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yotsukado Keiri",
+   "description": "Siempre está analizándolo todo sin querer, y acaba agotada antes de que empiece el partido."
+  },
+  {
+   "id": "cleo-balbot",
+   "name": "Cleo Balbot",
+   "short": "Cleo",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "quick-draw",
+    "sky-walk",
+    "shooting-star",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Tamagiri Sanri",
+   "description": "Pasó de fan a jugadora con cara de valiente, aunque en el fondo está más nerviosa de lo que aparenta."
+  },
+  {
+   "id": "reubel-kauntless",
+   "name": "Reubel Kauntless",
+   "short": "Reubel",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "blitz-bridge",
+    "transmove",
+    "zigzag-spark",
+    "plasma-ball"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hakari Tomokazu",
+   "description": "Ignora las estrategias de la IA, confía en su instinto y deja desconcertados hasta a los algoritmos con sus jugadas locas."
+  },
+  {
+   "id": "obert-deance",
+   "name": "Obert Deance",
+   "short": "Obert",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "perfect-course",
+    "the-matrix",
+    "future-eye",
+    "souhi-yuuseidan"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shunou Ronri",
+   "description": "Vive según el manual de la IA dentro y fuera del campo, y hasta deja que las máquinas elijan su comida."
+  },
+  {
+   "id": "zuzu-intel",
+   "name": "Zuzu Intel",
+   "short": "Zuzu",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "astro-break",
+    "spinning-upper",
+    "revolution-v",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Touda Ritsumi",
+   "description": "Habla con la IA por diversión y entreteje su sabiduría en planes de juego ingeniosos."
+  },
+  {
+   "id": "bren-techner",
+   "name": "Bren Techner",
+   "short": "Bren",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "shoot-pocket",
+    "wormhole",
+    "power-shield",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Enzan Suushi",
+   "description": "Le intriga la IA y sueña con construir al jugador artificial más inteligente."
+  },
+  {
+   "id": "cognus-sention",
+   "name": "Cognus Sention",
+   "short": "Cognus",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "shippuu-dash",
+    "the-matrix",
+    "sargasso",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Amata Kiyohito",
+   "description": "Sigue las tácticas de la IA del equipo, pero no deja que ninguna máquina supere a su corazón."
+  },
+  {
+   "id": "manila-brickit",
+   "name": "Manila Brickit",
+   "short": "Manila",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "perfect-course",
+    "zigzag-spark",
+    "sky-walk",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shoudou Ana",
+   "description": "Le pega la garra de la vieja escuela, aunque eso suponga romper ordenadores y llevarse broncas."
+  },
+  {
+   "id": "nettie-neuralyn",
+   "name": "Nettie Neuralyn",
+   "short": "Nettie",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "thief-eye",
+    "profile-zone",
+    "future-eye",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Anjou Kazoe",
+   "description": "Una realista de lengua afilada que elimina lo que no sirve; creó su primera amiga IA solo para trabajar mejor."
+  },
+  {
+   "id": "deacon-pewter",
+   "name": "Deacon Pewter",
+   "short": "Deacon",
+   "number": 16,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "quick-draw",
+    "bunshin-feint",
+    "kattobi-defense",
+    "acrobat-keep"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Komatsuda Issen",
+   "description": "Se queda mirando al vacío hasta que recibe una orden, y entonces golpea con una precisión inquietante, como si nunca se hubiera ido."
+  }
+ ]
+}

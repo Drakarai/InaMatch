@@ -1,0 +1,363 @@
+{
+ "id": "gx-big-bang",
+ "season": "gx",
+ "wiki": "Big Bang",
+ "name": "Big Bang",
+ "short": "BIG",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-6-3-1",
+ "players": [
+  {
+   "id": "strem-goozer",
+   "name": "Strem Goozer",
+   "short": "Strem",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 158,
+   "tp": 155,
+   "stats": {
+    "kick": 60,
+    "body": 82,
+    "control": 70,
+    "guard": 93,
+    "speed": 58,
+    "stamina": 62,
+    "guts": 74
+   },
+   "moves": [
+    "castle-gate",
+    "gigant-wall",
+    "burai-hand"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Strem Gooser",
+   "description": "Portero muy talentoso que da mucha seguridad al equipo."
+  },
+  {
+   "id": "fow-tudas",
+   "name": "Fow Tudas",
+   "short": "Fow",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 158,
+   "tp": 143,
+   "stats": {
+    "kick": 72,
+    "body": 70,
+    "control": 59,
+    "guard": 76,
+    "speed": 72,
+    "stamina": 53,
+    "guts": 62
+   },
+   "moves": [
+    "phalanx",
+    "spinning-upper",
+    "screwdriver",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fou Tudus",
+   "description": "Su gran visión de juego y su fuerza en las piernas lo hacen un gran jugador."
+  },
+  {
+   "id": "cherio-pardon",
+   "name": "Cherio Pardon",
+   "short": "Cherio",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 158,
+   "tp": 121,
+   "stats": {
+    "kick": 79,
+    "body": 63,
+    "control": 67,
+    "guard": 67,
+    "speed": 62,
+    "stamina": 63,
+    "guts": 60
+   },
+   "moves": [
+    "phalanx",
+    "oraora-menchi",
+    "sneaking-raid"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Cherio Pardon",
+   "description": "Fue derrotado por Circulus en la final del torneo de luchadores."
+  },
+  {
+   "id": "bambaros-tower",
+   "name": "Bambaros Tower",
+   "short": "Bambaros",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 167,
+   "tp": 125,
+   "stats": {
+    "kick": 85,
+    "body": 74,
+    "control": 64,
+    "guard": 70,
+    "speed": 51,
+    "stamina": 71,
+    "guts": 55
+   },
+   "moves": [
+    "phalanx",
+    "big-scissors",
+    "atlantis-wall",
+    "iron-wall"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bambaros Tower",
+   "description": "Excapitán que defendió el reino y cedió su puesto a Circulus por respeto."
+  },
+  {
+   "id": "zartan-walder",
+   "name": "Zartan Walder",
+   "short": "Zartan",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 185,
+   "tp": 136,
+   "stats": {
+    "kick": 81,
+    "body": 83,
+    "control": 69,
+    "guard": 75,
+    "speed": 59,
+    "stamina": 63,
+    "guts": 48
+   },
+   "moves": [
+    "phalanx",
+    "burning-summer",
+    "bungee-thrust",
+    "rock-hammer"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zahtan Worlder",
+   "description": "Jefe de la caballería pesada. Es un guerrero con más de mil historias."
+  },
+  {
+   "id": "zyne-hanging",
+   "name": "Zyne Hanging",
+   "short": "Zyne",
+   "number": 6,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 148,
+   "tp": 119,
+   "stats": {
+    "kick": 75,
+    "body": 64,
+    "control": 49,
+    "guard": 68,
+    "speed": 70,
+    "stamina": 38,
+    "guts": 79
+   },
+   "moves": [
+    "phalanx",
+    "air-ride",
+    "waterfall"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zain Hanging",
+   "description": "Cuando la pelota se acerca le presta mucha atención para no dejarla pasar."
+  },
+  {
+   "id": "madison-barada",
+   "name": "Madison Barada",
+   "short": "Madison",
+   "number": 7,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 153,
+   "tp": 115,
+   "stats": {
+    "kick": 74,
+    "body": 61,
+    "control": 65,
+    "guard": 64,
+    "speed": 53,
+    "stamina": 66,
+    "guts": 51
+   },
+   "moves": [
+    "phalanx",
+    "elephant-press",
+    "dig-through",
+    "kodai-no-tsubasa"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Madison Ballada",
+   "description": "Gran guerrero que ha presenciado el poder absoluto de Circulus."
+  },
+  {
+   "id": "bindal-hermit",
+   "name": "Bindal Hermit",
+   "short": "Bindal",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 144,
+   "tp": 128,
+   "stats": {
+    "kick": 68,
+    "body": 74,
+    "control": 69,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 64
+   },
+   "moves": [
+    "atlas-sword",
+    "magnet-draw",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Bind Hermit",
+   "description": "Lamenta el no haber podido hacer nada por la muerte de Circulus."
+  },
+  {
+   "id": "astro-justin",
+   "name": "Astro Justin",
+   "short": "Astro",
+   "number": 9,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 175,
+   "tp": 120,
+   "stats": {
+    "kick": 69,
+    "body": 69,
+    "control": 67,
+    "guard": 61,
+    "speed": 55,
+    "stamina": 70,
+    "guts": 64
+   },
+   "moves": [
+    "atlas-sword",
+    "z-slash",
+    "muei-souha",
+    "heaven-s-time"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Astra Justin",
+   "description": "Todo el mundo le reconoce como un gran caballero por sus hazañas."
+  },
+  {
+   "id": "joss-fool",
+   "name": "Joss Fool",
+   "short": "Joss",
+   "number": 11,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 194,
+   "tp": 110,
+   "stats": {
+    "kick": 76,
+    "body": 67,
+    "control": 79,
+    "guard": 56,
+    "speed": 66,
+    "stamina": 73,
+    "guts": 65
+   },
+   "moves": [
+    "atlas-sword",
+    "devil-burst",
+    "black-ash"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Joss Fool",
+   "description": "Fiel a su capitán y más veloz que cualquier rival."
+  },
+  {
+   "id": "circulus",
+   "name": "Circulus",
+   "short": "Circulus",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 141,
+   "stats": {
+    "kick": 85,
+    "body": 78,
+    "control": 72,
+    "guard": 62,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 54
+   },
+   "moves": [
+    "loyal-heart-shot",
+    "atlas-sword",
+    "big-bang",
+    "galactica-fall"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sarjes Luhg",
+   "description": "Legendario guerrero del planeta Nomor que guio a Arion cuando era Picksie."
+  }
+ ]
+}

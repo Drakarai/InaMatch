@@ -1,0 +1,389 @@
+{
+ "id": "gx-fire-dragon-go",
+ "season": "gx",
+ "wiki": "Fire Dragon (GO)",
+ "name": "Fire Dragon (GO)",
+ "short": "FDG",
+ "colors": {
+  "shirt": "#c87aa8",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#c87aa8"
+ },
+ "formation": "f-burning-soul",
+ "players": [
+  {
+   "id": "do-hyeon-nam",
+   "name": "Do-Hyeon Nam",
+   "short": "Do-Hyeon",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 117,
+   "tp": 96,
+   "stats": {
+    "kick": 43,
+    "body": 65,
+    "control": 50,
+    "guard": 60,
+    "speed": 52,
+    "stamina": 62,
+    "guts": 54
+   },
+   "moves": [
+    "dai-bakuhatsu-harite",
+    "power-spike",
+    "sand-cutter"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nam Do-hyeon",
+   "description": "Tiene buen gusto musical. Su tensión aumenta mucho cuando juega un partido."
+  },
+  {
+   "id": "shinjae-choi",
+   "name": "Shinjae Choi",
+   "short": "Shinjae",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 97,
+   "stats": {
+    "kick": 47,
+    "body": 59,
+    "control": 49,
+    "guard": 60,
+    "speed": 57,
+    "stamina": 58,
+    "guts": 54
+   },
+   "moves": [
+    "jibashiri-kaen",
+    "dash-train",
+    "doukasen",
+    "footwork-draw"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Choi Shin-jae",
+   "description": "Defensa con una vista excelente. Es un experto en el juego entre líneas."
+  },
+  {
+   "id": "noh-bae",
+   "name": "Noh-Bae",
+   "short": "Noh-Bae",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 115,
+   "tp": 91,
+   "stats": {
+    "kick": 48,
+    "body": 58,
+    "control": 51,
+    "guard": 59,
+    "speed": 56,
+    "stamina": 63,
+    "guts": 52
+   },
+   "moves": [
+    "jibashiri-kaen",
+    "killer-slide",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bae Jeong-ho",
+   "description": "Es muy travieso y siempre se hace el sorprendido cuando le pillan liándola."
+  },
+  {
+   "id": "yongjin-seo",
+   "name": "Yongjin Seo",
+   "short": "Yongjin",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 138,
+   "tp": 84,
+   "stats": {
+    "kick": 52,
+    "body": 48,
+    "control": 55,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 69,
+    "guts": 54
+   },
+   "moves": [
+    "jibashiri-kaen",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seo Young-jin",
+   "description": "Después de cada partido le gusta darse un baño de agua caliente."
+  },
+  {
+   "id": "ujin-shin",
+   "name": "Ujin Shin",
+   "short": "Ujin",
+   "number": 5,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 88,
+   "stats": {
+    "kick": 38,
+    "body": 56,
+    "control": 45,
+    "guard": 58,
+    "speed": 55,
+    "stamina": 46,
+    "guts": 59
+   },
+   "moves": [
+    "jibashiri-kaen",
+    "doukasen",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shin Woo-jin",
+   "description": "Tiene interés en la cultura japonesa ya que tiene familia en Japón."
+  },
+  {
+   "id": "gunwoo-yang",
+   "name": "Gunwoo Yang",
+   "short": "Gunwoo",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "doukasen",
+    "mad-juggler",
+    "bungee-thrust"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Yang Gun-woo",
+   "description": "No descuida su entrenamiento diario y se alimenta a base de plátanos."
+  },
+  {
+   "id": "jihun-song",
+   "name": "Jihun Song",
+   "short": "Jihun",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 126,
+   "tp": 88,
+   "stats": {
+    "kick": 59,
+    "body": 56,
+    "control": 59,
+    "guard": 43,
+    "speed": 51,
+    "stamina": 64,
+    "guts": 53
+   },
+   "moves": [
+    "doukasen",
+    "jibashiri-kaen",
+    "rapid-fire"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sung Ji-hoon",
+   "description": "Se entrena haciendo taekwondo. Usa esa experiencia para el fútbol."
+  },
+  {
+   "id": "hwang",
+   "name": "Hwang",
+   "short": "Hwang",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 88,
+   "tp": 116,
+   "stats": {
+    "kick": 46,
+    "body": 47,
+    "control": 57,
+    "guard": 58,
+    "speed": 50,
+    "stamina": 64,
+    "guts": 45
+   },
+   "moves": [
+    "doukasen",
+    "fuusen-gum",
+    "the-stamp"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Byeon Min-seo",
+   "description": "Siempre lleva consigo un bote de chile que echa en todas sus comidas."
+  },
+  {
+   "id": "soyeon-sim",
+   "name": "Soyeon Sim",
+   "short": "Soyeon",
+   "number": 9,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 91,
+   "tp": 134,
+   "stats": {
+    "kick": 63,
+    "body": 62,
+    "control": 60,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 55,
+    "guts": 64
+   },
+   "moves": [
+    "rapid-fire",
+    "bound-flame",
+    "floral-despair"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shim Seo-yeon",
+   "description": "De aspecto lindo pero de juego sucio. Tiene fans por todo Corea."
+  },
+  {
+   "id": "jun-yeong-lee",
+   "name": "Jun-Yeong Lee",
+   "short": "Jun-Yeong",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 122,
+   "stats": {
+    "kick": 66,
+    "body": 71,
+    "control": 57,
+    "guard": 63,
+    "speed": 54,
+    "stamina": 50,
+    "guts": 48
+   },
+   "moves": [
+    "rapid-fire",
+    "mad-juggler",
+    "dark-tornado"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lee Choon-yoon",
+   "description": "Capitán de los Dragones de Fuego. Por su rapidez lo llaman el viento coreano."
+  },
+  {
+   "id": "joo-won",
+   "name": "Joo-Won",
+   "short": "Joo-Won",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 117,
+   "stats": {
+    "kick": 67,
+    "body": 63,
+    "control": 61,
+    "guard": 48,
+    "speed": 65,
+    "stamina": 58,
+    "guts": 54
+   },
+   "moves": [
+    "rapid-fire",
+    "sonic-shot",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hwang Joon-ho",
+   "description": "Aunque es un gran delantero, necesita de 2 mediocentros para brillar."
+  },
+  {
+   "id": "changsu-choi",
+   "name": "Changsu Choi",
+   "short": "Changsu",
+   "number": 12,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 136,
+   "tp": 113,
+   "stats": {
+    "kick": 56,
+    "body": 56,
+    "control": 69,
+    "guard": 62,
+    "speed": 56,
+    "stamina": 67,
+    "guts": 55
+   },
+   "moves": [
+    "naraku-otoshi",
+    "jibashiri-kaen",
+    "tsuutenkaku-shoot",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Choi Chang-soo",
+   "description": "Este talentoso organizador de juego detesta perder contra Jude Sharp."
+  }
+ ]
+}

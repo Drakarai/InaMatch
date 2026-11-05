@@ -1,0 +1,386 @@
+{
+ "id": "gx-faram-dite",
+ "season": "gx",
+ "wiki": "Faram Dite",
+ "name": "Faram Dite",
+ "short": "FAR",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#5a5a5a",
+  "accent": "#c8202f"
+ },
+ "formation": "f-orbius",
+ "players": [
+  {
+   "id": "argon-bulgess",
+   "name": "Argon Bulgess",
+   "short": "Argon",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 147,
+   "tp": 138,
+   "stats": {
+    "kick": 54,
+    "body": 60,
+    "control": 68,
+    "guard": 68,
+    "speed": 58,
+    "stamina": 67,
+    "guts": 59
+   },
+   "moves": [
+    "rebound-layer",
+    "shoot-pocket",
+    "reverse-world"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Argo Burgess",
+   "description": "Guardián de Falam Orbius. Es un portero asombroso."
+  },
+  {
+   "id": "xenon-reith",
+   "name": "Xenon Reith",
+   "short": "Xenon",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 143,
+   "tp": 115,
+   "stats": {
+    "kick": 67,
+    "body": 71,
+    "control": 62,
+    "guard": 66,
+    "speed": 69,
+    "stamina": 60,
+    "guts": 46
+   },
+   "moves": [
+    "stealth-walk",
+    "hologram-lock",
+    "spinning-cut"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Xeno Wolf",
+   "description": "Es el único del equipo que nunca muestra un ápice de preocupación."
+  },
+  {
+   "id": "ogar-circes",
+   "name": "Ogar Circes",
+   "short": "Ogar",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 213,
+   "tp": 121,
+   "stats": {
+    "kick": 63,
+    "body": 63,
+    "control": 61,
+    "guard": 85,
+    "speed": 52,
+    "stamina": 89,
+    "guts": 60
+   },
+   "moves": [
+    "rock-hammer",
+    "desert-drift"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Varga Sachs",
+   "description": "Jugador del Falam Medius. Le gusta resolver las jugadas usando su fuerza."
+  },
+  {
+   "id": "radon-mons",
+   "name": "Radon Mons",
+   "short": "Radon",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 135,
+   "tp": 112,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 60,
+    "guard": 64,
+    "speed": 62,
+    "stamina": 64,
+    "guts": 41
+   },
+   "moves": [
+    "stealth-walk",
+    "hologram-lock",
+    "asterisk-rock"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Radon Morm",
+   "description": "Casi no ve nada por su flequillo. Usa el sensor de sus cuernos para jugar."
+  },
+  {
+   "id": "selenia",
+   "name": "Selenia",
+   "short": "Selenia",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 150,
+   "tp": 175,
+   "stats": {
+    "kick": 66,
+    "body": 64,
+    "control": 83,
+    "guard": 63,
+    "speed": 61,
+    "stamina": 61,
+    "guts": 73
+   },
+   "moves": [
+    "hologram-lock",
+    "injection",
+    "magical-flower"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Selen Melvil",
+   "description": "No le gustan los partidos ni los entrenamientos y su equipo lo sabe."
+  },
+  {
+   "id": "rondula-flehl",
+   "name": "Rondula Flehl",
+   "short": "Rondula",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "jackknife",
+    "god-wind"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hilary Flail",
+   "description": "Jugadora del Falam Medius. Puede manipular el agua libremente."
+  },
+  {
+   "id": "neon",
+   "name": "Neon",
+   "short": "Neon",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 110,
+   "tp": 139,
+   "stats": {
+    "kick": 63,
+    "body": 63,
+    "control": 63,
+    "guard": 60,
+    "speed": 49,
+    "stamina": 70,
+    "guts": 67
+   },
+   "moves": [
+    "hologram-lock",
+    "injection",
+    "mochimochi-kinako-mochi"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Neol Lotz",
+   "description": "Le gusta hacer que sus compañeros se sientan cómodos y agradables."
+  },
+  {
+   "id": "ruger-baran",
+   "name": "Ruger Baran",
+   "short": "Ruger",
+   "number": 8,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 135,
+   "stats": {
+    "kick": 75,
+    "body": 66,
+    "control": 69,
+    "guard": 73,
+    "speed": 60,
+    "stamina": 55,
+    "guts": 69
+   },
+   "moves": [
+    "scream-of-eden",
+    "illusion-ball"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ryugel Baran",
+   "description": "Jugador del Falam Medius. Hace una dupla letal con Gandares."
+  },
+  {
+   "id": "gandares-baran",
+   "name": "Gandares Baran",
+   "short": "Gandares",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 175,
+   "tp": 130,
+   "stats": {
+    "kick": 74,
+    "body": 63,
+    "control": 68,
+    "guard": 61,
+    "speed": 58,
+    "stamina": 67,
+    "guts": 68
+   },
+   "moves": [
+    "scream-of-eden",
+    "death-scythe-low"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gandares Baran",
+   "description": "Jugador del Falam Medius. Piensa que su hermano Ruger es un genio."
+  },
+  {
+   "id": "bala-gasgula",
+   "name": "Bala Gasgula",
+   "short": "Bala",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 147,
+   "tp": 138,
+   "stats": {
+    "kick": 72,
+    "body": 72,
+    "control": 60,
+    "guard": 69,
+    "speed": 69,
+    "stamina": 47,
+    "guts": 58
+   },
+   "moves": [
+    "kazanrai",
+    "jibashiri-kaen"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rodan Gasgus",
+   "description": "Jugador del Falam Medius. Hace uso de juego sucio para ganar."
+  },
+  {
+   "id": "brimstone",
+   "name": "Brimstone",
+   "short": "Brimstone",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 157,
+   "tp": 130,
+   "stats": {
+    "kick": 68,
+    "body": 69,
+    "control": 61,
+    "guard": 67,
+    "speed": 58,
+    "stamina": 69,
+    "guts": 59
+   },
+   "moves": [
+    "injection",
+    "hologram-lock",
+    "ogre-blade"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sulfer Berg",
+   "description": "Quiere mucho a su mascota pero es muy negativo con las personas."
+  },
+  {
+   "id": "ray-dark",
+   "name": "Ray Dark",
+   "short": "Ray",
+   "number": 12,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 152,
+   "tp": 139,
+   "stats": {
+    "kick": 71,
+    "body": 78,
+    "control": 68,
+    "guard": 71,
+    "speed": 53,
+    "stamina": 42,
+    "guts": 58
+   },
+   "moves": [
+    "koutei-penguin-2gou",
+    "koutei-penguin-3gou",
+    "koutei-penguin-7",
+    "last-death-zone",
+    "illusion-ball",
+    "killer-slide"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kageyama Reiji",
+   "description": "Un hombre misterioso al que le llaman \"Abuelo\". Se desconoce su objetivo."
+  }
+ ]
+}

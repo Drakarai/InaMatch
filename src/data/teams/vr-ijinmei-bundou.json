@@ -1,0 +1,528 @@
+{
+ "id": "vr-ijinmei-bundou",
+ "season": "vr",
+ "wiki": "Ijinmei Bundou",
+ "name": "Ijinmei Bundou",
+ "short": "IJI",
+ "colors": {
+  "shirt": "#c8202f",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#c8202f"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "chat-baltauk",
+   "name": "Chat Baltauk",
+   "short": "Chat",
+   "number": 1,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "excellent-breast",
+    "gigant-wall",
+    "kage-tsukami",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Nitobe Denzou",
+   "description": "Dice que cada pase habla por sí solo, y sus duelos de miradas son tan intensos que los rivales chutan antes de tiempo."
+  },
+  {
+   "id": "elric-spiech",
+   "name": "Elric Spiech",
+   "short": "Elric",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "dash-train",
+    "elephant-press",
+    "stone-prison",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Fukuzawa Doukichi",
+   "description": "No se relaja si el equipo no está totalmente compenetrado, así que suelta largos discursos que casi siempre le cortan."
+  },
+  {
+   "id": "habib-liomont",
+   "name": "Habib Liomont",
+   "short": "Habib",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "thief-eye",
+    "profile-zone",
+    "future-eye",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kitazato Gakusaburou",
+   "description": "Antes solo jugaba de manual, y ahora dirige el juego mientras corre por el centro de la acción."
+  },
+  {
+   "id": "histrion-etcher",
+   "name": "Histrion Etcher",
+   "short": "Histrion",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "crazy-sunlight",
+    "ignite-steal",
+    "jibashiri-kaen",
+    "overglow"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fujino Kamatari",
+   "description": "Quiere hacerse un hueco en la historia y estudia como un loco, fútbol incluido, pero su juego aún no está a la altura."
+  },
+  {
+   "id": "nelvin-dustrie",
+   "name": "Nelvin Dustrie",
+   "short": "Nelvin",
+   "number": 5,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "hitori-one-two",
+    "block-circus",
+    "gorimuchuu",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shibusawa Eikou",
+   "description": "Criado en una familia de negocios muy lista, gestiona el equipo con el instinto frío de un emprendedor nato."
+  },
+  {
+   "id": "keepie-upshire",
+   "name": "Keepie Upshire",
+   "short": "Keepie",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "bunshin-defense",
+    "overglow",
+    "maboroshi-dribble",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Futatsumiya Kinjirou",
+   "description": "Empezó a jugar al fútbol en secundaria y avanzó rápido, aunque aún le riñen por dar toques en los pasillos."
+  },
+  {
+   "id": "jorna-privinski",
+   "name": "Jorna Privinski",
+   "short": "Jorna",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "onryou",
+    "phantom-shoot",
+    "maboroshi-dribble",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Shikino Murasaki",
+   "description": "Lleva un diario de fútbol ultrasecreto lleno de lecciones aprendidas, pero nadie ha visto nunca ni una página."
+  },
+  {
+   "id": "marcelline-memoir",
+   "name": "Marcelline Memoir",
+   "short": "Marcelline",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "quick-draw",
+    "illusion-ball",
+    "meteor-shower",
+    "bunshin-shoot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Higuchi Takeha",
+   "description": "Empezó a jugar al fútbol para despejarse, se enganchó enseguida y ya sueña con escribir sus memorias."
+  },
+  {
+   "id": "staton-folhard",
+   "name": "Staton Folhard",
+   "short": "Staton",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "matador-feint",
+    "block-circus",
+    "future-eye",
+    "profile-zone"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ito Hiroyasu",
+   "description": "Un servidor público nato que carga con todo a la vez y siempre se compromete a más de lo que puede."
+  },
+  {
+   "id": "aurelio-auditus",
+   "name": "Aurelio Auditus",
+   "short": "Aurelio",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "shine-drive",
+    "crazy-sunlight",
+    "gaia-break",
+    "gear-drive"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hijiri Tokutarou",
+   "description": "Capta hasta el susurro más leve y confía en su instinto para ir un paso por delante."
+  },
+  {
+   "id": "wilhelmina-goforth",
+   "name": "Wilhelmina Goforth",
+   "short": "Wilhelmina",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "rocket-head",
+    "ignite-steal",
+    "triple-boost",
+    "love-arrow"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Umezu Yamako",
+   "description": "Sin miedo y con mucho fuego, su mayor obstáculo es saber cuándo dejar de meterse hasta el fondo en campo rival."
+  },
+  {
+   "id": "basil-wanderbilt",
+   "name": "Basil Wanderbilt",
+   "short": "Basil",
+   "number": 12,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "grenade-shot",
+    "sargasso",
+    "hellfire",
+    "dog-run"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Iwakura Tomotsugu",
+   "description": "Creció entre lujos, pero odia los tratos especiales: el fútbol es el único sitio donde puede ser él mismo."
+  },
+  {
+   "id": "odell-farley",
+   "name": "Odell Farley",
+   "short": "Odell",
+   "number": 13,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "shippuu-dash",
+    "sargasso",
+    "fuujin-no-mai",
+    "double-cyclone"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Wakeno Seima",
+   "description": "Guarda las distancias, no por orgullo, sino porque aún está aprendiendo a conectar con la gente."
+  },
+  {
+   "id": "viki-devine",
+   "name": "Viki Devine",
+   "short": "Viki",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "crazy-sunlight",
+    "transmove",
+    "blitz-bridge",
+    "souhi-yuuseidan"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Jinguu Kougetsu",
+   "description": "Juega como guiada por el destino, y de algún modo todos los grandes partidos que juega amanecen con el cielo despejado."
+  },
+  {
+   "id": "horatio-tickner",
+   "name": "Horatio Tickner",
+   "short": "Horatio",
+   "number": 15,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "kattobi-defense",
+    "thief-eye",
+    "hunter-s-net",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Inoguchi Hideyuki",
+   "description": "Obsesionado con la salud y puntual como un reloj: podrías ponerlo en hora según cómo se mueve."
+  },
+  {
+   "id": "barney-snellman",
+   "name": "Barney Snellman",
+   "short": "Barney",
+   "number": 16,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "god-hand-x",
+    "bakuretsu-punch",
+    "beast-fang",
+    "full-power-shield"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Takabashi Korekiyo",
+   "description": "Rápido de mente pero lento de pies, y nadie sabe muy bien por qué empezó a jugar al fútbol."
+  }
+ ]
+}

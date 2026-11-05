@@ -1,0 +1,510 @@
+{
+ "id": "go-hakuren-go",
+ "season": "go",
+ "wiki": "Hakuren (GO)",
+ "name": "Instituto Alpino (GO)",
+ "short": "HAK",
+ "colors": {
+  "shirt": "#4a6a2a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#4a6a2a"
+ },
+ "formation": "f-soft-rime",
+ "players": [
+  {
+   "id": "wolfe-whyte",
+   "name": "Wolfe Whyte",
+   "short": "Wolfe",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 159,
+   "stats": {
+    "kick": 55,
+    "body": 49,
+    "control": 55,
+    "guard": 59,
+    "speed": 46,
+    "stamina": 42,
+    "guts": 54
+   },
+   "moves": [
+    "crystal-barrier",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Shirosaki Katsuya",
+   "description": "Asegura la portería como un muro. La victoria lo es todo para él."
+  },
+  {
+   "id": "sascha-kotch",
+   "name": "Sascha Kotch",
+   "short": "Sascha",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 164,
+   "tp": 156,
+   "stats": {
+    "kick": 51,
+    "body": 63,
+    "control": 50,
+    "guard": 56,
+    "speed": 51,
+    "stamina": 56,
+    "guts": 54
+   },
+   "moves": [
+    "ice-ground",
+    "sargasso",
+    "atlantis-wall"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hokugen Takeyuki",
+   "description": "Disfruta quitando con una pala la nieve de los portales del barrio."
+  },
+  {
+   "id": "guy-l-acier",
+   "name": "Guy l'Acier",
+   "short": "Guy",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 146,
+   "tp": 145,
+   "stats": {
+    "kick": 56,
+    "body": 62,
+    "control": 55,
+    "guard": 44,
+    "speed": 52,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "ice-ground",
+    "fuujin-no-mai",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Itou Torata",
+   "description": "Quiere poner una piscifactoría y para ello estudia la vida de los salmones."
+  },
+  {
+   "id": "matther-horne",
+   "name": "Matther Horne",
+   "short": "Matther",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 164,
+   "tp": 157,
+   "stats": {
+    "kick": 53,
+    "body": 49,
+    "control": 52,
+    "guard": 68,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "ice-ground",
+    "killer-whale",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Otaru Koutarou",
+   "description": "A veces trabaja como estibador en el puerto. Músculos no le faltan."
+  },
+  {
+   "id": "iggie-loo",
+   "name": "Iggie Loo",
+   "short": "Iggie",
+   "number": 5,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 155,
+   "stats": {
+    "kick": 56,
+    "body": 51,
+    "control": 72,
+    "guard": 62,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 53
+   },
+   "moves": [
+    "ice-ground",
+    "illusion-ball",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Makari Ginjirou",
+   "description": "Su ciudad natal es famosa por la granja familiar de lirios y bulbos, que siempre tienen un precio superior."
+  },
+  {
+   "id": "bob-sled",
+   "name": "Bob Sled",
+   "short": "Bob",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 108,
+   "tp": 167,
+   "stats": {
+    "kick": 42,
+    "body": 67,
+    "control": 54,
+    "guard": 58,
+    "speed": 63,
+    "stamina": 56,
+    "guts": 68
+   },
+   "moves": [
+    "white-blade",
+    "ice-ground",
+    "shippuu-dash"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kitaki Tsuneo",
+   "description": "Cuida de la naturaleza y vigila que los turistas no den comida a los animales."
+  },
+  {
+   "id": "blain-chills",
+   "name": "Blain Chills",
+   "short": "Blain",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 153,
+   "stats": {
+    "kick": 55,
+    "body": 58,
+    "control": 60,
+    "guard": 62,
+    "speed": 64,
+    "stamina": 55,
+    "guts": 55
+   },
+   "moves": [
+    "white-blade",
+    "koutei-penguin-7"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Touya Kunihiro",
+   "description": "Sabe abrir círculos perfectos en el hielo y luego pesca a través de ellos."
+  },
+  {
+   "id": "art-tundra",
+   "name": "Art Tundra",
+   "short": "Art",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 112,
+   "tp": 147,
+   "stats": {
+    "kick": 48,
+    "body": 74,
+    "control": 46,
+    "guard": 57,
+    "speed": 58,
+    "stamina": 56,
+    "guts": 60
+   },
+   "moves": [
+    "white-blade",
+    "eternal-blizzard",
+    "presto-turn",
+    "panther-blizzard"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Koori Itsuki",
+   "description": "Por pura afición ha hecho más de 1000 fotos de árboles con escarcha."
+  },
+  {
+   "id": "borel-aurora",
+   "name": "Borel Aurora",
+   "short": "Borel",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 150,
+   "tp": 134,
+   "stats": {
+    "kick": 49,
+    "body": 52,
+    "control": 59,
+    "guard": 51,
+    "speed": 75,
+    "stamina": 55,
+    "guts": 52
+   },
+   "moves": [
+    "white-blade",
+    "flying-fish",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rumoi Korohiko",
+   "description": "Se alimenta de arenques y es capaz de nadar en ríos de aguas heladas."
+  },
+  {
+   "id": "blake-wintry",
+   "name": "Blake Wintry",
+   "short": "Blake",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 117,
+   "tp": 161,
+   "stats": {
+    "kick": 49,
+    "body": 54,
+    "control": 50,
+    "guard": 46,
+    "speed": 66,
+    "stamina": 55,
+    "guts": 58
+   },
+   "moves": [
+    "white-blade",
+    "buttobi-jump",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Yamane Minori",
+   "description": "Trepa con habilidad a los árboles y salta de uno a otro con ligereza."
+  },
+  {
+   "id": "njord-snio",
+   "name": "Njord Snio",
+   "short": "Njord",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 183,
+   "tp": 142,
+   "stats": {
+    "kick": 64,
+    "body": 52,
+    "control": 50,
+    "guard": 48,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 54
+   },
+   "moves": [
+    "panther-blizzard",
+    "white-blade",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yukimura Hyouga",
+   "description": "El delantero más destacado del norte, descubierto por Shawn Froste."
+  },
+  {
+   "id": "yule-hoarfrost",
+   "name": "Yule Hoarfrost",
+   "short": "Yule",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 162,
+   "tp": 144,
+   "stats": {
+    "kick": 59,
+    "body": 54,
+    "control": 55,
+    "guard": 51,
+    "speed": 65,
+    "stamina": 59,
+    "guts": 56
+   },
+   "moves": [
+    "eternal-blizzard",
+    "ice-ground",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Itetsuki Touma",
+   "description": "Es ante todo un patinador veloz y tiene unas piernas muy fuertes."
+  },
+  {
+   "id": "suno-aisu",
+   "name": "Suno Aisu",
+   "short": "Suno",
+   "number": 12,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 165,
+   "tp": 155,
+   "stats": {
+    "kick": 56,
+    "body": 46,
+    "control": 51,
+    "guard": 38,
+    "speed": 49,
+    "stamina": 62,
+    "guts": 59
+   },
+   "moves": [
+    "boomerang-feint",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Mozaki Itaru",
+   "description": "Llegando del noroeste de Japón, su mayor deseo es la paz mundial."
+  },
+  {
+   "id": "himesh-himalaya",
+   "name": "Himesh Himalaya",
+   "short": "Himesh",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 156,
+   "stats": {
+    "kick": 50,
+    "body": 48,
+    "control": 64,
+    "guard": 55,
+    "speed": 58,
+    "stamina": 60,
+    "guts": 53
+   },
+   "moves": [
+    "white-blade",
+    "the-mist",
+    "spiral-draw"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oujika Kaku",
+   "description": "Estudia la población local de ciervos para conservar mejor su habitad."
+  },
+  {
+   "id": "fritz-brisk",
+   "name": "Fritz Brisk",
+   "short": "Fritz",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 114,
+   "tp": 156,
+   "stats": {
+    "kick": 53,
+    "body": 69,
+    "control": 51,
+    "guard": 59,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 61
+   },
+   "moves": [
+    "the-mist",
+    "white-blade"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hidaka Takeshi",
+   "description": "Un montañero experto y recio, con gran frialdad para tomar decisiones."
+  },
+  {
+   "id": "grisley-bear",
+   "name": "Grisley Bear",
+   "short": "Grisley",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 166,
+   "tp": 128,
+   "stats": {
+    "kick": 72,
+    "body": 39,
+    "control": 50,
+    "guard": 58,
+    "speed": 58,
+    "stamina": 64,
+    "guts": 58
+   },
+   "moves": [
+    "mad-juggler",
+    "head-bazooka",
+    "dash-train",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seki Ganjirou",
+   "description": "Muy peligroso. Busca lesionar a los demás y tiene la fuerza para hacerlo."
+  }
+ ]
+}

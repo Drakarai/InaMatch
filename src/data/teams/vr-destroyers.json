@@ -1,0 +1,526 @@
+{
+ "id": "vr-destroyers",
+ "season": "vr",
+ "wiki": "Destroyers",
+ "name": "Destroyers",
+ "short": "DES",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-3-4-3",
+ "players": [
+  {
+   "id": "garruk-vynce",
+   "name": "Garruk Vynce",
+   "short": "Garruk",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "rejection",
+    "reverse-world",
+    "destiny-cloud"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Galala Vinci",
+   "description": "Este poderoso guardián de los Destroyers admira tanto a Jude que hasta le ha copiado el peinado."
+  },
+  {
+   "id": "xyron-madric",
+   "name": "Xyron Madric",
+   "short": "Xyron",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 51,
+    "body": 73,
+    "control": 54,
+    "guard": 81,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "grand-sweeper",
+    "magnet-draw",
+    "muei-ranbu",
+    "storm-zone"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Xyon Madner",
+   "description": "Le llaman Cara de Piedra por su mirada gélida, pero se le dan genial los niños y sueña con ser maestro de infantil."
+  },
+  {
+   "id": "arden-drax",
+   "name": "Arden Drax",
+   "short": "Arden",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "asterisk-rock",
+    "magical-flower",
+    "all-delete",
+    "muei-ranbu"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Arden Drayce",
+   "description": "Perfeccionista en las formas y los modales, se hace llamar el heraldo de la belleza."
+  },
+  {
+   "id": "simen-thorne",
+   "name": "Simen Thorne",
+   "short": "Simen",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "blitz-bridge",
+    "asterisk-rock",
+    "spark-edge-dribble",
+    "muei-ranbu"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Simi Thorn",
+   "description": "Un llorica crónico con tendencia al pesimismo, y su costumbre de prepararse para lo peor lo convierte en una potencia defensiva."
+  },
+  {
+   "id": "denowar-krell",
+   "name": "Denowar Krell",
+   "short": "Denowar",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "plasma-ball",
+    "spark-edge-dribble",
+    "transmove",
+    "zone-of-pentagram"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Denebola Stoycho",
+   "description": "Un bromista empedernido que nunca llama la atención y trama travesuras con Prisca a la mínima ocasión."
+  },
+  {
+   "id": "prisca-grav",
+   "name": "Prisca Grav",
+   "short": "Prisca",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "love-arrow",
+    "magical-flower",
+    "bungee-thrust",
+    "tsubame-gaeshi"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Priss Gallis",
+   "description": "Una organizadora traviesa que arrastra a los rivales a su ritmo y a veces le roba el balón a sus propias compañeras."
+  },
+  {
+   "id": "grenadier-deton",
+   "name": "Grenadier Deton",
+   "short": "Grenadier",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "grand-sweeper",
+    "spark-edge-dribble",
+    "gamma-strike",
+    "spinning-upper"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Grenier Pius",
+   "description": "Un estratega de mente rápida, siempre sereno, cuya lógica le gana la confianza de todos."
+  },
+  {
+   "id": "declan-jaxor",
+   "name": "Declan Jaxor",
+   "short": "Declan",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "magnet-draw",
+    "screwdriver",
+    "tsubame-gaeshi",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Declan Jessup",
+   "description": "Pequeño pero astuto, desconcierta a los rivales y sigue cada uno de sus movimientos con el aparato de su ojo izquierdo."
+  },
+  {
+   "id": "nebula-raime",
+   "name": "Nebula Raime",
+   "short": "Nebula",
+   "number": 9,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "disaster-break",
+    "storm-zone",
+    "asterisk-rock",
+    "maboroshi-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nebula Raime",
+   "description": "Antes era tímida y reservada, pero el fútbol la volvió apasionada y ahora siempre se enfrenta de tú a tú con Vector."
+  },
+  {
+   "id": "keines-elvain",
+   "name": "Keines Elvain",
+   "short": "Keines",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 132,
+   "tp": 173,
+   "stats": {
+    "kick": 84,
+    "body": 62,
+    "control": 77,
+    "guard": 63,
+    "speed": 84,
+    "stamina": 56,
+    "guts": 77
+   },
+   "moves": [
+    "dimension-storm",
+    "ogre-blade",
+    "all-delete",
+    "disaster-break"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kinis Elvim",
+   "description": "Amigo de la infancia y antiguo rival de Vic, un talento natural que brilla en el campo."
+  },
+  {
+   "id": "vector-vernam",
+   "name": "Vector Vernam",
+   "short": "Vector",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "ogre-blade",
+    "bungee-thrust",
+    "dimension-storm",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Vector Cunningham",
+   "description": "Antes era el as del baloncesto; este orgulloso tirador siempre tiene la vista puesta en los focos."
+  },
+  {
+   "id": "zyphar-doar",
+   "name": "Zyphar Doar",
+   "short": "Zyphar",
+   "number": 12,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "storm-zone",
+    "grand-sweeper",
+    "asterisk-rock",
+    "muei-ranbu"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Zippy Doerr",
+   "description": "Con un flequillo largo y torcido por un mal corte de su abuela, sueña con la fama y con darle una vida más fácil a su familia."
+  },
+  {
+   "id": "machina-dex",
+   "name": "Machina Dex",
+   "short": "Machina",
+   "number": 13,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "all-delete",
+    "magnet-draw",
+    "screwdriver",
+    "spinning-upper"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Machina Dex",
+   "description": "Recién ascendido al primer equipo, se cree el arma secreta del grupo y siempre sueña con jugadas decisivas."
+  },
+  {
+   "id": "rourik-bhatt",
+   "name": "Rourik Bhatt",
+   "short": "Rourik",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "screwdriver",
+    "kazaana-drive",
+    "storm-zone",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Luol Batti",
+   "description": "Un titular convertido en suplente que desahoga su frustración con jugadas arriesgadísimas cada vez que sale al campo."
+  },
+  {
+   "id": "menox-kessler",
+   "name": "Menox Kessler",
+   "short": "Menox",
+   "number": 18,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "decoy-release",
+    "ogre-blade",
+    "sparkle-wave",
+    "gamma-strike"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Menos Kessler",
+   "description": "Le falta experiencia, pero este novato prometedor tiene madera de showman y ganas de demostrar lo que vale."
+  },
+  {
+   "id": "crysis-murdok",
+   "name": "Crysis Murdok",
+   "short": "Crysis",
+   "number": 20,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "rejection",
+    "destiny-cloud",
+    "reverse-world"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Crisis Muller",
+   "description": "Un visionario de vista aguda que estudia microbios en movimiento para idear tácticas nuevas."
+  }
+ ]
+}

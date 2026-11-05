@@ -1,0 +1,494 @@
+{
+ "id": "orion-soccer-zatsugidan",
+ "season": "orion",
+ "wiki": "Soccer Zatsugidan",
+ "name": "La Tropa Acrobática del Fútbol",
+ "short": "SOC",
+ "colors": {
+  "shirt": "#8a1a3a",
+  "shorts": "#f2f2f2",
+  "gkShirt": "#e8892b",
+  "accent": "#8a1a3a"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "bruce-lau",
+   "name": "Bruce Lau",
+   "short": "Bruce",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 89,
+    "speed": 61,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "ryuujin-tessen",
+    "kaenhousha",
+    "shoot-break",
+    "burai-hand"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kung Fuche",
+   "description": "Un portero con una defensa blindada que para los tiros con movimientos potentes y fluidos."
+  },
+  {
+   "id": "cindy-fong",
+   "name": "Cindy Fong",
+   "short": "Cindy",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 50,
+    "body": 70,
+    "control": 50,
+    "guard": 70,
+    "speed": 55,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "flame-dance",
+    "magical-flower",
+    "rolling-slide",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tao Lu",
+   "description": "Una jugadora del Soccer Zatsugidan que se mueve por el campo con la agilidad de una acróbata."
+  },
+  {
+   "id": "michelle-luo",
+   "name": "Michelle Luo",
+   "short": "Michelle",
+   "number": 3,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 135,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 72,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "flame-dance",
+    "block-circus",
+    "good-smell",
+    "rolling-slide"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Xiao Lau",
+   "description": "Dice lo que piensa sin filtros y disfruta chinchando a sus compañeros criados en los callejones."
+  },
+  {
+   "id": "sammo-tong",
+   "name": "Sammo Tong",
+   "short": "Sammo",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "bakugui-shishi",
+    "atlantis-wall",
+    "dash-train",
+    "mega-quake"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Min Yingqi",
+   "description": "Un chico de los callejones que adora la comida y defiende igual de bien: avanza con una fuerza imparable."
+  },
+  {
+   "id": "david-liang",
+   "name": "David Liang",
+   "short": "David",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "block-circus",
+    "zanzou",
+    "tamanori-pierrot",
+    "kung-fu-attack"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Che Lin",
+   "description": "Pequeño y ágil, convierte su tamaño en una ventaja y se maneja con soltura en los puestos clave."
+  },
+  {
+   "id": "donnie-yang",
+   "name": "Donnie Yang",
+   "short": "Donnie",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "tsubame-gaeshi",
+    "zanzou",
+    "jibashiri-kaen",
+    "naraku-otoshi"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Tan Tanmin",
+   "description": "Frío y listo, combina las buenas decisiones con el ahorro de sus orígenes en los callejones."
+  },
+  {
+   "id": "bolo-cheung",
+   "name": "Bolo Cheung",
+   "short": "Bolo",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "willy-willy",
+    "jigoku-guruma",
+    "body-shield",
+    "blade-attack"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Wu Longchi",
+   "description": "Grande y fiable, sus compañeros se apoyan mucho en él, pero cuando se le mete algo en la cabeza es muy testarudo."
+  },
+  {
+   "id": "jackie-tan",
+   "name": "Jackie Tan",
+   "short": "Jackie",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 204,
+   "tp": 133,
+   "stats": {
+    "kick": 77,
+    "body": 72,
+    "control": 63,
+    "guard": 75,
+    "speed": 77,
+    "stamina": 77,
+    "guts": 58
+   },
+   "moves": [
+    "tenhou-chiretsu",
+    "acrobat-keep",
+    "jigoku-guruma",
+    "brave-shot"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Zhou Xing",
+   "description": "Une a jugadores de todos los orígenes y lidera con unas dotes de capitán excepcionales."
+  },
+  {
+   "id": "jimmy-wongfu",
+   "name": "Jimmy Wongfu",
+   "short": "Jimmy",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 204,
+   "tp": 195,
+   "stats": {
+    "kick": 61,
+    "body": 58,
+    "control": 86,
+    "guard": 66,
+    "speed": 98,
+    "stamina": 77,
+    "guts": 74
+   },
+   "moves": [
+    "tenkuu-hayabusadan",
+    "tenhou-chiretsu"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Li Hao",
+   "description": "Un chico misterioso que oculta su cara mientras apoya al señor Yi y al equipo."
+  },
+  {
+   "id": "jet-long",
+   "name": "Jet Long",
+   "short": "Jet",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "abisegeri",
+    "jigoku-guruma",
+    "reppuu-dash",
+    "kung-fu-attack"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Wan Tanmeo",
+   "description": "Un luchador nacido en los callejones que odia perder, pero considera iguales incluso a sus compañeros ricos."
+  },
+  {
+   "id": "stephen-chang",
+   "name": "Stephen Chang",
+   "short": "Stephen",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "kung-fu-head",
+    "kung-fu-attack",
+    "shippuu-dash",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Xiu Chuna",
+   "description": "El entrenamiento de élite forjó su mente y su cuerpo, y aunque se le escapa el sarcasmo, tiene buen corazón."
+  },
+  {
+   "id": "mars-hung",
+   "name": "Mars Hung",
+   "short": "Mars",
+   "number": 14,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "kangaroo-kick",
+    "stone-prison",
+    "nobori-ryuu",
+    "rock-hammer"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Chao Mao",
+   "description": "Estoico y exigente consigo mismo y con los demás, vela en silencio por sus compañeros."
+  },
+  {
+   "id": "wilson-ip",
+   "name": "Wilson Ip",
+   "short": "Wilson",
+   "number": 14,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "stinger",
+    "bunshin-block",
+    "kage-tsukami",
+    "kill-bridge"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Xiao Longbao",
+   "description": "El enérgico mánager de los Avenging Acrobats indica las jugadas desde el banquillo con un gong atronador."
+  },
+  {
+   "id": "gordon-siu",
+   "name": "Gordon Siu",
+   "short": "Gordon",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "cyclone",
+    "kangaroo-kick",
+    "block-circus",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Chi Chinsu",
+   "description": "Con las gafas de sol puestas y una sonrisa blanquísima, anima el ambiente allá donde va."
+  },
+  {
+   "id": "lucy-wongfu",
+   "name": "Lucy Wongfu",
+   "short": "Lucy",
+   "number": 15,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "suisei-shoot",
+    "tenkuu-hayabusadan",
+    "southern-crosscut",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Li Yuchen",
+   "description": "Misteriosa y de mirada aguda, la hermana pequeña de Jimmy es la coordinadora de los Avenging Acrobats."
+  }
+ ]
+}

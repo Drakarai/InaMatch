@@ -1,0 +1,496 @@
+{
+ "id": "orion-red-bison",
+ "season": "orion",
+ "wiki": "Red Bison",
+ "name": "Red Bison",
+ "short": "RED",
+ "colors": {
+  "shirt": "#1a1a1a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#e8892b",
+  "accent": "#1a1a1a"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "park",
+   "name": "Park",
+   "short": "Park",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 45,
+    "body": 60,
+    "control": 40,
+    "guard": 80,
+    "speed": 45,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "fire-wall",
+    "shoot-break",
+    "shootrap",
+    "dai-bakuhatsu-harite"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shin Rae-won",
+   "description": "Un jugador del Red Bison que embiste como un búfalo y nunca da un balón por perdido."
+  },
+  {
+   "id": "hwang-bull-gim",
+   "name": "Hwang Bull-gim",
+   "short": "Hwang",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "cyclone",
+    "dash-storm",
+    "jibashiri-kaen",
+    "dual-pass"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hwang Do-yoon",
+   "description": "Con una cara encantadora y unos fans entregados, muestra una resistencia tozuda cuando le acorralan."
+  },
+  {
+   "id": "kim-bull-bit",
+   "name": "Kim Bull-bit",
+   "short": "Kim",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "jibashiri-kaen",
+    "dual-pass",
+    "volcano-cut",
+    "dual-storm"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kim Young-woo",
+   "description": "Amable y enemigo de los conflictos, suele dejarse arrastrar por sus compañeros más impetuosos."
+  },
+  {
+   "id": "suna-bey-bull",
+   "name": "Suna Bey-bull",
+   "short": "Suna",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "volcano-cut",
+    "dual-storm",
+    "flame-veil",
+    "jibashiri-kaen"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sung Seo-ah",
+   "description": "Aunque brilla en los focos como modelo de belleza, habla en voz baja y apoya al equipo desde la sombra."
+  },
+  {
+   "id": "han-bull-dang",
+   "name": "Han Bull-dang",
+   "short": "Han",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "elephant-press",
+    "ground-quake",
+    "horn-train",
+    "twin-mixer"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Park Yu-hwan",
+   "description": "Sostiene la defensa con su fuerza sólida, pero flaquea cuando aumenta la presión."
+  },
+  {
+   "id": "yeon-bull-say",
+   "name": "Yeon Bull-say",
+   "short": "Yeon",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "fuusen-gum",
+    "super-scan-df",
+    "jibashiri-kaen",
+    "naminori-pierrot"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Young Ji-hoon",
+   "description": "Como un bisonte, embiste de frente al rival y nunca se queda en el suelo por muchas veces que le derriben."
+  },
+  {
+   "id": "lee-bull-gae",
+   "name": "Lee Bull-gae",
+   "short": "Bull-gae",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "horn-train",
+    "fuusen-gum",
+    "bison-horn",
+    "naraku-otoshi"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lee Seung-jin",
+   "description": "Usa su físico potente para acosar al balón y levanta la moral del equipo con palabras seguras y oportunas."
+  },
+  {
+   "id": "seok-tel-bull",
+   "name": "Seok Tel-bull",
+   "short": "Seok",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "horn-train",
+    "heat-tackle",
+    "illusion-ball",
+    "red-break"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Seok Min-woo",
+   "description": "Conocido por su juego tramposo, se crece en los choques frontales y en las rupturas decisivas."
+  },
+  {
+   "id": "shin-bull-kot",
+   "name": "Shin Bull-kot",
+   "short": "Shin",
+   "number": 9,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "horn-train",
+    "burning-summer",
+    "rapid-fire",
+    "endless-summer"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Park Ji-won",
+   "description": "Un bruto astuto que sabotea a los rivales con faltas despiadadas junto a Baek."
+  },
+  {
+   "id": "baek-bull-wo",
+   "name": "Baek Bull-wo",
+   "short": "Baek",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "bison-horn",
+    "red-break",
+    "horn-train",
+    "rapid-fire"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#e8b888"
+   },
+   "wiki": "Baek Shi-woo",
+   "description": "Apasionado y hábil, arrastra a amigos y enemigos con sus tácticas implacables."
+  },
+  {
+   "id": "lee-san-bull",
+   "name": "Lee San-bull",
+   "short": "San-bull",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "bison-horn",
+    "horn-train",
+    "rapid-fire",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Lee Dong-hyuk",
+   "description": "Su risa burlona y su presencia peligrosa inquietan a los rivales antes de golpear con una fuerza implacable."
+  },
+  {
+   "id": "ho-bull-tong",
+   "name": "Ho Bull-tong",
+   "short": "Ho",
+   "number": 12,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "bison-horn",
+    "horn-train",
+    "flame-veil",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#b5835a"
+   },
+   "wiki": "Heo Eun-chang",
+   "description": "Todos ven en él a una futura estrella, aunque los desconocidos solo conocen su lado callado y tímido."
+  },
+  {
+   "id": "son-bull-gong",
+   "name": "Son Bull-gong",
+   "short": "Son",
+   "number": 13,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "horn-train",
+    "flame-veil",
+    "bison-horn",
+    "jibashiri-kaen"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Sung Min-soo",
+   "description": "Lo analiza todo con agudeza, pero su cinismo se le escapa en algún pensamiento de más."
+  },
+  {
+   "id": "harh-bull-gull",
+   "name": "Harh Bull-gull",
+   "short": "Harh",
+   "number": 14,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "mega-wall",
+    "ignite-steal",
+    "horn-train",
+    "no-escape"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ha Jung-pyo",
+   "description": "Para su frustración silenciosa, su ceño fruncido eterno suele confundirse con una rabia al rojo vivo."
+  },
+  {
+   "id": "an-min-su",
+   "name": "An Min-su",
+   "short": "An",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "horn-train",
+    "bison-horn",
+    "burning-summer",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#b5835a"
+   },
+   "wiki": "Cha Eun-soo",
+   "description": "El mánager de los Raging Bulls arrolla las defensas con pura fuerza y nunca rehúye el juego duro."
+  }
+ ]
+}

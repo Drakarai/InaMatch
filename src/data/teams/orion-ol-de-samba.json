@@ -1,0 +1,464 @@
+{
+ "id": "orion-ol-de-samba",
+ "season": "orion",
+ "wiki": "Olé de Samba",
+ "name": "Olé de Samba",
+ "short": "ODS",
+ "colors": {
+  "shirt": "#5a3a8a",
+  "shorts": "#1a1a1a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "gon-alo",
+   "name": "Gonçalo",
+   "short": "Gonçalo",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "macaroni-spaghetti",
+    "macaroni-spaghetti-sauce-zouryou",
+    "pressure-punch",
+    "dual-smash"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Macero",
+   "description": "El autoproclamado jefe de cocina sirve croquetas brasileñas bien calentitas como un auténtico maestro."
+  },
+  {
+   "id": "bernardo",
+   "name": "Bernardo",
+   "short": "Bernardo",
+   "number": 2,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "flame-dance",
+    "photon-flash",
+    "southern-crosscut",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ricardo",
+   "description": "Le encanta el café brasileño y reconoce cualquier grano solo por el aroma."
+  },
+  {
+   "id": "macei",
+   "name": "Maceió",
+   "short": "Maceió",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "flame-dance",
+    "photon-flash",
+    "southern-crosscut",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Matheus",
+   "description": "Hace malabares con el balón como un profesional, y los niños se paran a mirarle sin poder evitarlo."
+  },
+  {
+   "id": "jo-o",
+   "name": "João",
+   "short": "João",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "super-el-stico",
+    "flame-dance",
+    "killer-whale",
+    "death-samba"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Marcelo",
+   "description": "Se niega a jugar sin tomar chocolate antes del partido: cuanto más amargo, mejor juega."
+  },
+  {
+   "id": "lu-s",
+   "name": "Luís",
+   "short": "Luís",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "death-samba",
+    "maboroshi-dribble",
+    "southern-crosscut",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Lucian",
+   "description": "Baila samba con una elegancia serena y es un amigo muy comprensivo de Alegre."
+  },
+  {
+   "id": "belo",
+   "name": "Belo",
+   "short": "Belo",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "ultra-moon",
+    "super-el-stico",
+    "crazy-sunlight",
+    "carnival-shake"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Renato",
+   "description": "Siempre está alegre y no se agobia por tonterías, ni siquiera cuando llega tarde a un partido."
+  },
+  {
+   "id": "iga-u",
+   "name": "Igaçu",
+   "short": "Igaçu",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 120,
+   "stats": {
+    "kick": 60,
+    "body": 55,
+    "control": 65,
+    "guard": 50,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "death-samba",
+    "reppuu-dash",
+    "armadillo-circus",
+    "ultra-moon"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Daninho",
+   "description": "Responsable y siempre intentando liderar, se queda bloqueado y sin palabras delante de la chica que le gusta."
+  },
+  {
+   "id": "manaus",
+   "name": "Manaus",
+   "short": "Manaus",
+   "number": 8,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "death-samba",
+    "air-ride",
+    "dash-storm",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rolan",
+   "description": "Más de hip-hop que de samba, tiene un sentido del ritmo muy suyo."
+  },
+  {
+   "id": "andr",
+   "name": "André",
+   "short": "André",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "death-samba",
+    "air-ride",
+    "dash-storm",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Samuel",
+   "description": "Un animador nato cuya mirada amistosa convierte al instante a los desconocidos en amigos."
+  },
+  {
+   "id": "alegre",
+   "name": "Alegre",
+   "short": "Alegre",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "death-samba",
+    "carnival-shake",
+    "shine-drive",
+    "strike-samba"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Arthur",
+   "description": "Al grito de \"¡Olé!\", dirige a los Sambassadors con una determinación inquebrantable."
+  },
+  {
+   "id": "rio",
+   "name": "Rio",
+   "short": "Rio",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "aurora-dribble",
+    "death-samba",
+    "shine-drive",
+    "strike-samba"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Miguel",
+   "description": "Brilla como el sol y levanta el ánimo de todos en cuanto se acerca."
+  },
+  {
+   "id": "bel-m",
+   "name": "Belém",
+   "short": "Belém",
+   "number": 14,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "death-samba",
+    "ultra-moon",
+    "ground-quake",
+    "killer-whale"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Raymond",
+   "description": "Moldea cada mechón con mimo y se pone de los nervios cuando alguien confunde su peinado con pelos de recién levantado."
+  },
+  {
+   "id": "cristiano-dabola",
+   "name": "Cristiano Dabola",
+   "short": "Cristiano",
+   "number": 14,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "photon-flash",
+    "super-el-stico",
+    "crazy-sunlight",
+    "reppuu-dash"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Leoneira Camion",
+   "description": "Guiado por el ritmo libre de la samba, el mánager de los Sambassadors deja que el equipo baile por el campo a su antojo."
+  },
+  {
+   "id": "paulo",
+   "name": "Paulo",
+   "short": "Paulo",
+   "number": 17,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "heavy-baby",
+    "death-samba",
+    "armadillo-circus",
+    "super-el-stico"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Paulo",
+   "description": "Toca la batería con tanta precisión que hasta los gorilas de la selva, que de ritmo saben, se quedan callados."
+  }
+ ]
+}

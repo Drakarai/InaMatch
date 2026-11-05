@@ -1,0 +1,528 @@
+{
+ "id": "vr-houreikan",
+ "season": "vr",
+ "wiki": "Houreikan",
+ "name": "Houreikan",
+ "short": "HOU",
+ "colors": {
+  "shirt": "#2a5fc0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#2a5fc0"
+ },
+ "formation": "f-4-3-3",
+ "players": [
+  {
+   "id": "rufery-faire",
+   "name": "Rufery Faire",
+   "short": "Rufery",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "burning-catch",
+    "safety-protect",
+    "burai-hand",
+    "seigi-no-tekken"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Inazumi Sekirou",
+   "description": "Un vigilante implacable que detecta enseguida el juego sucio y llama la atención a cualquiera, incluso a los suyos."
+  },
+  {
+   "id": "willard-headdon",
+   "name": "Willard Headdon",
+   "short": "Willard",
+   "number": 2,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "big-scissors",
+    "body-shield",
+    "ninin-sankyaku",
+    "zigzag-flame"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kendou Yajirou",
+   "description": "Le gusta enfrentarse cara a cara a sus rivales y sabe que no vale para los faroles ni los trucos."
+  },
+  {
+   "id": "eames-rapport",
+   "name": "Eames Rapport",
+   "short": "Eames",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "cyclone",
+    "thief-eye",
+    "profile-zone",
+    "future-eye"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Daitou Ryouya",
+   "description": "Intenta entender a los demás, piensen lo que piensen, y así se ha ganado la confianza de todos."
+  },
+  {
+   "id": "gusto-reitonly",
+   "name": "Gusto Reitonly",
+   "short": "Gusto",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "endeavor-run",
+    "volcano-cut",
+    "shooting-star",
+    "dog-run"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tadamichi Fuuki",
+   "description": "Corre sin parar y nunca se agota, pero no sabe girar ni frenar en seco."
+  },
+  {
+   "id": "normon-peeveton",
+   "name": "Normon Peeveton",
+   "short": "Normon",
+   "number": 5,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "dash-train",
+    "elephant-press",
+    "twin-mixer",
+    "claymore"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Igari Tetsuta",
+   "description": "Se apuntó a fútbol para dejar de pasar desapercibido, pero a veces su pasión se le va de las manos y juega duro."
+  },
+  {
+   "id": "prudence-witt",
+   "name": "Prudence Witt",
+   "short": "Prudence",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "matador-feint",
+    "muei-ranbu",
+    "prima-donna",
+    "rose-splash"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kureno Hanka",
+   "description": "Es agudo, rápido y de una eficacia letal: la lectura rápida y el cálculo mental son lo suyo."
+  },
+  {
+   "id": "dion-arbiter",
+   "name": "Dion Arbiter",
+   "short": "Dion",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "shippuu-dash",
+    "aikidou",
+    "air-bullet",
+    "spinning-transam"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Okitehara Zan",
+   "description": "Se lo toma todo en serio y no tolera ni la más mínima injusticia cuando se trata de defender lo justo."
+  },
+  {
+   "id": "cordelia-collison",
+   "name": "Cordelia Collison",
+   "short": "Cordelia",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "kattobi-defense",
+    "presto-turn",
+    "spinning-cut",
+    "gunshot"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Ritsunomori Komachi",
+   "description": "Aburrida del fútbol de manual, ahora juega sucio a escondidas solo por la emoción."
+  },
+  {
+   "id": "norwin-naeve",
+   "name": "Norwin Naeve",
+   "short": "Norwin",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "twin-boost",
+    "souhi-yuuseidan",
+    "future-eye",
+    "triple-boost"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Koute Norimitsu",
+   "description": "Tan confiado que se cree cualquier historia, incluso la mentira que le metió en el fútbol."
+  },
+  {
+   "id": "faust-fennrick",
+   "name": "Faust Fennrick",
+   "short": "Faust",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "phantom-shoot",
+    "sidewinder",
+    "illusion-ball",
+    "perfect-course"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Fushimi Shishi",
+   "description": "Se salta las normas y engaña a los rivales para que le hagan falta con una sonrisa pícara y psicología inversa."
+  },
+  {
+   "id": "adamas-quarell",
+   "name": "Adamas Quarell",
+   "short": "Adamas",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "rocket-head",
+    "dokonjou-bat",
+    "ninin-sankyaku",
+    "double-grenade"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shimozuma Norimasa",
+   "description": "Es testarudo y discute enseguida, y luego siempre es el que más se arrepiente."
+  },
+  {
+   "id": "brie-brillante",
+   "name": "Brie Brillante",
+   "short": "Brie",
+   "number": 12,
+   "position": "GK",
+   "element": "wood",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "hanafubuki",
+    "shoot-pocket",
+    "ice-block",
+    "crystal-barrier"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Makabe Shiro",
+   "description": "Sus sonrisas y su amor radiante por el fútbol desprenden una energía que levanta a todo el equipo."
+  },
+  {
+   "id": "kieran-knavenly",
+   "name": "Kieran Knavenly",
+   "short": "Kieran",
+   "number": 13,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "the-mist",
+    "tsubame-gaeshi",
+    "hunter-s-net",
+    "fortissimo"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kiriki Sousui",
+   "description": "Por fuera es muy formal, pero nadie sospecha la vena salvaje que esconde."
+  },
+  {
+   "id": "alzen-wasruff",
+   "name": "Alzen Wasruff",
+   "short": "Alzen",
+   "number": 14,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "quick-draw",
+    "gunshot",
+    "gravitation",
+    "dimension-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Nigoriya Naki",
+   "description": "Antes tenía mal genio, pero ahora se dedica a esquivar y a jugar fino: aprendió la paciencia por las malas."
+  },
+  {
+   "id": "fabricius-cator",
+   "name": "Fabricius Cator",
+   "short": "Fabricius",
+   "number": 15,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "zanzou",
+    "hunter-s-net",
+    "tatsumaki-senpuu",
+    "hurricane-arrow"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Asagi Aruto",
+   "description": "Popular y juguetón, aunque a veces sus mentirijillas se le vuelven en contra."
+  },
+  {
+   "id": "recco-rectenwald",
+   "name": "Recco Rectenwald",
+   "short": "Recco",
+   "number": 16,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "shine-drive",
+    "twin-boost",
+    "endeavor-run",
+    "bound-flame"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Tadashiki Hanamaru",
+   "description": "Valiente e incansable, acepta cada reto y se deja la piel cuando le elogian."
+  }
+ ]
+}

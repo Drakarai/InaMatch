@@ -1,0 +1,514 @@
+{
+ "id": "go-dragonlink",
+ "season": "go",
+ "wiki": "Dragonlink",
+ "name": "Dragonlink",
+ "short": "DRA",
+ "colors": {
+  "shirt": "#5a3a8a",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#5a3a8a"
+ },
+ "formation": "f-thousand",
+ "players": [
+  {
+   "id": "quentin-cinquedea",
+   "name": "Quentin Cinquedea",
+   "short": "Quentin",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 110,
+   "tp": 171,
+   "stats": {
+    "kick": 66,
+    "body": 63,
+    "control": 56,
+    "guard": 75,
+    "speed": 49,
+    "stamina": 51,
+    "guts": 48
+   },
+   "moves": [
+    "shoot-break",
+    "thousand-arrow",
+    "gravity-point"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Senguuji Yamato",
+   "description": "Hijo de Gyan Cinquedea. Lidera su equipo con carisma y habilidad."
+  },
+  {
+   "id": "aim-quintet",
+   "name": "Aimé Quintet",
+   "short": "Aimé",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 119,
+   "tp": 116,
+   "stats": {
+    "kick": 61,
+    "body": 55,
+    "control": 56,
+    "guard": 50,
+    "speed": 58,
+    "stamina": 55,
+    "guts": 62
+   },
+   "moves": [
+    "vanishing-cut",
+    "fuujin-no-mai",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gomaki Tetsurou",
+   "description": "Un famoso especialista en la defensa que ha sido bendecido con un físico poderoso y astucia."
+  },
+  {
+   "id": "eljas-viisi",
+   "name": "Eljas Viisi",
+   "short": "Eljas",
+   "number": 3,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 115,
+   "tp": 120,
+   "stats": {
+    "kick": 56,
+    "body": 71,
+    "control": 56,
+    "guard": 45,
+    "speed": 60,
+    "stamina": 55,
+    "guts": 62
+   },
+   "moves": [
+    "vanishing-cut",
+    "head-bazooka",
+    "sprint-warp",
+    "air-bullet"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gouishi Senma",
+   "description": "Sus remates de cabeza no tienen rival, gracias a la dureza de su cráneo."
+  },
+  {
+   "id": "pentra-chek",
+   "name": "Pentra Chek",
+   "short": "Pentra",
+   "number": 4,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 124,
+   "tp": 114,
+   "stats": {
+    "kick": 74,
+    "body": 51,
+    "control": 49,
+    "guard": 45,
+    "speed": 61,
+    "stamina": 74,
+    "guts": 64
+   },
+   "moves": [
+    "sprint-warp",
+    "ballista-shot",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
+   },
+   "wiki": "Gomi Seiei",
+   "description": "Toma las decisiones justas en el momento adecuado. Un pelín rudo."
+  },
+  {
+   "id": "federigo-cinco",
+   "name": "Federigo Cinco",
+   "short": "Federigo",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 114,
+   "stats": {
+    "kick": 64,
+    "body": 48,
+    "control": 46,
+    "guard": 51,
+    "speed": 55,
+    "stamina": 72,
+    "guts": 66
+   },
+   "moves": [
+    "presto-turn",
+    "maboroshi-shot",
+    "dimension-cut",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kamiyama Gounoshin",
+   "description": "Es el as en la manga de Quentin para mantener una defensa perfecta."
+  },
+  {
+   "id": "ferdinand-delaf-nfe",
+   "name": "Ferdinand Delafünfe",
+   "short": "Ferdinand",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 113,
+   "stats": {
+    "kick": 65,
+    "body": 53,
+    "control": 43,
+    "guard": 55,
+    "speed": 57,
+    "stamina": 51,
+    "guts": 66
+   },
+   "moves": [
+    "nobori-ryuu",
+    "ballista-shot",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Ikari Gouriki",
+   "description": "Inquieto e impetuoso, se irrita con el menor incidente a su alrededor."
+  },
+  {
+   "id": "fivier-saviola",
+   "name": "Fivier Saviola",
+   "short": "Fivier",
+   "number": 9,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 126,
+   "tp": 117,
+   "stats": {
+    "kick": 65,
+    "body": 51,
+    "control": 54,
+    "guard": 45,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 65
+   },
+   "moves": [
+    "sprint-warp",
+    "vanishing-cut",
+    "joker-rains"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Aikawa Masaru",
+   "description": "Piensa con rapidez, y su calculador cerebro es de gran ayuda al equipo."
+  },
+  {
+   "id": "quinque-flores",
+   "name": "Quinque Flores",
+   "short": "Quinque",
+   "number": 7,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 114,
+   "tp": 125,
+   "stats": {
+    "kick": 54,
+    "body": 54,
+    "control": 55,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 50,
+    "guts": 63
+   },
+   "moves": [
+    "thousand-arrow",
+    "sprint-warp",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Seijou Shougo",
+   "description": "Cree malignos a quienes se enfrentan a él. Intenta purificarlos con el fútbol."
+  },
+  {
+   "id": "jacques-cinquini",
+   "name": "Jacques Cinquini",
+   "short": "Jacques",
+   "number": 8,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 117,
+   "tp": 125,
+   "stats": {
+    "kick": 53,
+    "body": 54,
+    "control": 53,
+    "guard": 48,
+    "speed": 58,
+    "stamina": 57,
+    "guts": 63
+   },
+   "moves": [
+    "sprint-warp",
+    "ballista-shot",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mito Shou",
+   "description": "Sabe aprovechar cualquier minúsculo resquicio para iniciar un ataque."
+  },
+  {
+   "id": "david-quintola",
+   "name": "David Quintola",
+   "short": "David",
+   "number": 10,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 115,
+   "tp": 126,
+   "stats": {
+    "kick": 59,
+    "body": 54,
+    "control": 62,
+    "guard": 49,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 66
+   },
+   "moves": [
+    "thousand-arrow",
+    "ballista-shot",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Godai Shingo",
+   "description": "Guarda para sí el orgullo de pertenecer a una antigua y aristocrática familia."
+  },
+  {
+   "id": "erik-pentona",
+   "name": "Erik Pentona",
+   "short": "Erik",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 122,
+   "tp": 127,
+   "stats": {
+    "kick": 71,
+    "body": 50,
+    "control": 49,
+    "guard": 54,
+    "speed": 51,
+    "stamina": 52,
+    "guts": 68
+   },
+   "moves": [
+    "thousand-arrow",
+    "ballista-shot",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gotou Yukai",
+   "description": "Posee una gran concentración que adquirió durante sus días de ermitaño."
+  },
+  {
+   "id": "leonidas-epsilon",
+   "name": "Leonidas Epsilon",
+   "short": "Leonidas",
+   "number": 12,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 114,
+   "tp": 115,
+   "stats": {
+    "kick": 70,
+    "body": 55,
+    "control": 64,
+    "guard": 31,
+    "speed": 65,
+    "stamina": 61,
+    "guts": 61
+   },
+   "moves": [
+    "god-hand",
+    "thousand-arrow",
+    "shoot-break"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gotenba Tooru",
+   "description": "Experto cocinero, brilla en la cocina cuando trabaja entre pucheros."
+  },
+  {
+   "id": "george-wu",
+   "name": "George Wu",
+   "short": "George",
+   "number": 13,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 114,
+   "stats": {
+    "kick": 65,
+    "body": 56,
+    "control": 47,
+    "guard": 45,
+    "speed": 55,
+    "stamina": 57,
+    "guts": 65
+   },
+   "moves": [
+    "nobori-ryuu",
+    "triangle-zz",
+    "sprint-warp"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Gonokami Eiji",
+   "description": "Forofo del feng shui, piensa al detalle cómo colocar el estuche en la mesa."
+  },
+  {
+   "id": "geert-vandevijf",
+   "name": "Geert Vandevijf",
+   "short": "Geert",
+   "number": 14,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 114,
+   "tp": 127,
+   "stats": {
+    "kick": 57,
+    "body": 51,
+    "control": 53,
+    "guard": 46,
+    "speed": 57,
+    "stamina": 53,
+    "guts": 64
+   },
+   "moves": [
+    "ryuusei-blade",
+    "thousand-arrow",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Gousaki Haeru",
+   "description": "Colecciona fotos nocturnas de faros. Su sueño es ver todos los del mundo."
+  },
+  {
+   "id": "folke-fem",
+   "name": "Folke Fem",
+   "short": "Folke",
+   "number": 15,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 124,
+   "tp": 114,
+   "stats": {
+    "kick": 70,
+    "body": 52,
+    "control": 64,
+    "guard": 45,
+    "speed": 55,
+    "stamina": 67,
+    "guts": 64
+   },
+   "moves": [
+    "sprint-warp",
+    "ballista-shot",
+    "nobori-ryuu"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Gozuma Takeyuki",
+   "description": "No ha cogido nunca ni un simple resfriado gracias a su salud de hierro."
+  },
+  {
+   "id": "naji-khamsa",
+   "name": "Naji Khamsa",
+   "short": "Naji",
+   "number": 16,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 117,
+   "tp": 116,
+   "stats": {
+    "kick": 71,
+    "body": 54,
+    "control": 61,
+    "guard": 30,
+    "speed": 65,
+    "stamina": 54,
+    "guts": 73
+   },
+   "moves": [
+    "presto-turn",
+    "ryuusei-blade",
+    "vanishing-cut"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Hoshii Tsuyoshi",
+   "description": "Quisiera pedir un deseo a una estrella fugaz, pero no ha visto nunca ninguna."
+  }
+ ]
+}

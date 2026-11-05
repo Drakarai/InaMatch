@@ -1,0 +1,462 @@
+{
+ "id": "orion-muteki-no-giant",
+ "season": "orion",
+ "wiki": "Muteki no Giant",
+ "name": "Muteki no Giant",
+ "short": "MUT",
+ "colors": {
+  "shirt": "#f2f2f2",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#e8892b",
+  "accent": "#f2f2f2"
+ },
+ "formation": "f-3-5-2",
+ "players": [
+  {
+   "id": "salvador-castell",
+   "name": "Salvador Castell",
+   "short": "Salvador",
+   "number": 1,
+   "position": "GK",
+   "element": "earth",
+   "level": 99,
+   "fp": 193,
+   "tp": 180,
+   "stats": {
+    "kick": 78,
+    "body": 76,
+    "control": 74,
+    "guard": 48,
+    "speed": 78,
+    "stamina": 77,
+    "guts": 76
+   },
+   "moves": [
+    "the-boyon",
+    "gigant-wall",
+    "omega-the-hand",
+    "star-reflection"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Alonso Fibiano",
+   "description": "Parece despreocupado, pero esconde la habilidad de parar los tiros de cualquier jugador."
+  },
+  {
+   "id": "manuel-guti-rrez",
+   "name": "Manuel Gutiérrez",
+   "short": "Manuel",
+   "number": 2,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "the-shelter",
+    "block-circus",
+    "stone-prison",
+    "matador-feint"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Domelgo Domínguez",
+   "description": "La rosa que lleva en la boca nunca se le cae, por mucho caos que haya a su alrededor."
+  },
+  {
+   "id": "dani-ramos",
+   "name": "Dani Ramos",
+   "short": "Dani",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 172,
+   "stats": {
+    "kick": 42,
+    "body": 73,
+    "control": 54,
+    "guard": 73,
+    "speed": 70,
+    "stamina": 72,
+    "guts": 50
+   },
+   "moves": [
+    "the-shelter",
+    "welcome-back",
+    "quick-draw",
+    "kangaroo-kick"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Reinaldo Baraja",
+   "description": "La pasión hierve en su interior como una sopa de tomate maduro que borbotea desde el fondo."
+  },
+  {
+   "id": "miguel-hontiveros",
+   "name": "Miguel Hontiveros",
+   "short": "Miguel",
+   "number": 4,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 129,
+   "tp": 172,
+   "stats": {
+    "kick": 65,
+    "body": 57,
+    "control": 67,
+    "guard": 62,
+    "speed": 70,
+    "stamina": 56,
+    "guts": 65
+   },
+   "moves": [
+    "the-shelter",
+    "volcano-cut",
+    "giant-spin",
+    "super-armadillo"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Rufino Ávalos",
+   "description": "Puede parecer huraño, pero su mente y su cuerpo siempre trabajan por el bien del equipo."
+  },
+  {
+   "id": "lvaro-mel-ndez",
+   "name": "Álvaro Meléndez",
+   "short": "Álvaro",
+   "number": 5,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "the-shelter",
+    "slingshot",
+    "kangaroo-kick",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Velasco Meléndez",
+   "description": "De una casa rodeada de olivares, lleva los sabores de la cocina española al campo."
+  },
+  {
+   "id": "andr-s-alonso",
+   "name": "Andrés Alonso",
+   "short": "Andrés",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 107,
+   "tp": 171,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 74,
+    "guard": 53,
+    "speed": 56,
+    "stamina": 49,
+    "guts": 70
+   },
+   "moves": [
+    "the-shelter",
+    "oil-rush",
+    "super-armadillo",
+    "elephant-press"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Fernando Davino",
+   "description": "Aunque suelen echarle más edad, esconde su preocupación tras una máscara de responsabilidad."
+  },
+  {
+   "id": "jos-mari-gonz-lez",
+   "name": "José Mari González",
+   "short": "José",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "the-shelter",
+    "aurora-dribble",
+    "snow-angel",
+    "sargasso"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Emerico Lorca",
+   "description": "Su pelo, tan claro y bonito como el Mediterráneo, cautiva a todos los que lo ven."
+  },
+  {
+   "id": "chicho-mu-oz",
+   "name": "Chicho Muñoz",
+   "short": "Chicho",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 176,
+   "tp": 180,
+   "stats": {
+    "kick": 56,
+    "body": 55,
+    "control": 80,
+    "guard": 53,
+    "speed": 88,
+    "stamina": 69,
+    "guts": 70
+   },
+   "moves": [
+    "the-shelter",
+    "heat-tackle",
+    "oil-rush",
+    "boost-glider"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#e8b888"
+   },
+   "wiki": "Chico Allison",
+   "description": "Se mueve con una rapidez antinatural y siempre busca la ocasión de gastarles bromas a sus compañeros."
+  },
+  {
+   "id": "sergi-hern-ndez",
+   "name": "Sergi Hernández",
+   "short": "Sergi",
+   "number": 10,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 204,
+   "tp": 195,
+   "stats": {
+    "kick": 61,
+    "body": 58,
+    "control": 86,
+    "guard": 66,
+    "speed": 98,
+    "stamina": 77,
+    "guts": 74
+   },
+   "moves": [
+    "diamond-ray",
+    "diamond-edge"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Clario Orvan",
+   "description": "Más fuerte que casi todos, este capitán tiene la calma de un campeón y no subestima a nadie."
+  },
+  {
+   "id": "leo-segarra",
+   "name": "Leo Segarra",
+   "short": "Leo",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 120,
+   "tp": 151,
+   "stats": {
+    "kick": 78,
+    "body": 58,
+    "control": 74,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 53,
+    "guts": 74
+   },
+   "moves": [
+    "twin-lancer",
+    "ryuusei-blade",
+    "super-scan-of",
+    "double-tornado"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Luther Fandam",
+   "description": "Un delantero que destaca en todo, con un físico y una técnica que no dejan huecos a los defensas."
+  },
+  {
+   "id": "joan-asensi",
+   "name": "Joan Asensi",
+   "short": "Joan",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "twin-lancer",
+    "tenkuu-otoshi",
+    "heat-tackle",
+    "hellfire"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Bergamo Regult",
+   "description": "Un rematador nato, muy competitivo y con un fuego interior que le empuja hacia delante."
+  },
+  {
+   "id": "ra-l-parejo",
+   "name": "Raúl Parejo",
+   "short": "Raúl",
+   "number": 14,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "the-shelter",
+    "moonsault",
+    "stone-prison",
+    "liar-shot"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Emilio Luján",
+   "description": "Empieza cada mañana con churros y chocolate caliente, como manda la tradición."
+  },
+  {
+   "id": "pepe-ballester",
+   "name": "Pepe Ballester",
+   "short": "Pepe",
+   "number": 14,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "the-shelter",
+    "slingshot",
+    "kangaroo-kick",
+    "diamond-ray"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Pepe Banderas",
+   "description": "Un mánager tranquilo pero escurridizo que escucha a sus jugadores y los guía con sabiduría."
+  },
+  {
+   "id": "marcos-canales",
+   "name": "Marcos Canales",
+   "short": "Marcos",
+   "number": 15,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 163,
+   "tp": 118,
+   "stats": {
+    "kick": 67,
+    "body": 70,
+    "control": 52,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 57
+   },
+   "moves": [
+    "the-shelter",
+    "defense-houteishiki",
+    "moonsault",
+    "super-scan-of"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fabio Esteve",
+   "description": "Las tácticas del equipo se despliegan al instante en su cabeza, cada jugada convertida en cálculos precisos."
+  }
+ ]
+}

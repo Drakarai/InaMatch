@@ -1,0 +1,528 @@
+{
+ "id": "vr-nishinomiya",
+ "season": "vr",
+ "wiki": "Nishinomiya",
+ "name": "Academia West Manor",
+ "short": "NIS",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#5a5a5a",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "dax-prescott",
+   "name": "Dax Prescott",
+   "short": "Dax",
+   "number": 1,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "burning-catch",
+    "rocket-kobushi",
+    "endeavor-run",
+    "burai-hand"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Konomachi Kiryou",
+   "description": "Por la mañana está en el club de investigación. Sus reflejos relámpago lo han convertido en un portero de primera."
+  },
+  {
+   "id": "edvan-trodden",
+   "name": "Edvan Trodden",
+   "short": "Edvan",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "bunshin-defense",
+    "cyclone",
+    "zigzag-spark",
+    "asteroid-belt"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Jimichi Susumi",
+   "description": "Sus estrictos padres le prohibieron ir a Raimon. Desde entonces. está distante y desilusionado."
+  },
+  {
+   "id": "drever-olflaire",
+   "name": "Drever Olflaire",
+   "short": "Drever",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "thief-eye",
+    "endeavor-run",
+    "quick-draw",
+    "rolling-slide"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Karunori Katsuki",
+   "description": "Durante los entrenamientos se mueve con agilidad, pero en los partidos se pone nervioso."
+  },
+  {
+   "id": "looke-raundoff",
+   "name": "Looke Raundoff",
+   "short": "Looke",
+   "number": 4,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "kumo-no-ito",
+    "endeavor-run",
+    "presto-turn",
+    "thief-eye"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Marume Mami",
+   "description": "Es el tesorero del consejo estudiantil del West Manor. Como es lento, prefiere contar monedas."
+  },
+  {
+   "id": "rutheo-wheyston",
+   "name": "Rutheo Wheyston",
+   "short": "Rutheo",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "quick-draw",
+    "elephant-press",
+    "zanzou",
+    "harvest"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Shiraishi Michio",
+   "description": "Sueña con un mundo dominado por los músculos y se dedica a promover su propia proteína casera."
+  },
+  {
+   "id": "ernesta-beauregard",
+   "name": "Ernesta Beauregard",
+   "short": "Ernesta",
+   "number": 6,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "prima-donna",
+    "rolling-kick",
+    "matador-feint",
+    "rose-splash"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#e8b888"
+   },
+   "wiki": "Majime Naoko",
+   "description": "Por fuera es fría y serena, pero la mirada desafiante del equipo contrario le hace perder el control en pleno partido."
+  },
+  {
+   "id": "laymark-starwyn",
+   "name": "Laymark Starwyn",
+   "short": "Laymark",
+   "number": 7,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "aim-shot",
+    "endeavor-run",
+    "thief-eye",
+    "future-eye"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Kinboshi Yatsuru",
+   "description": "Estricto, inteligente y estratégico. Siente una fuerte rivalidad hacia los estuantes de otras escuelas."
+  },
+  {
+   "id": "moby-tidbitt",
+   "name": "Moby Tidbitt",
+   "short": "Moby",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "endeavor-run",
+    "super-armadillo",
+    "thief-eye",
+    "fake-ball"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Mobunari Kako",
+   "description": "Es una enciclopedia del fútbol con patas. Incluso se sabe las mascotas de los jugadores pro."
+  },
+  {
+   "id": "edgard-loathe",
+   "name": "Edgard Loathe",
+   "short": "Edgard",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "presto-turn",
+    "future-eye",
+    "profile-zone",
+    "fuujin-no-mai"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Itoi Kou",
+   "description": "Es un estudiante modelo con un caballeroso encanto. Es la columna vertebral de la presidencia del consejo."
+  },
+  {
+   "id": "flanko-midspringle",
+   "name": "Flanko Midspringle",
+   "short": "Flanko",
+   "number": 10,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "rolling-kick",
+    "endeavor-run",
+    "dash-accel",
+    "run-ball-run"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Shikachi Ousuke",
+   "description": "Con muelles en los pies, lo ficharon por su talento deportivo... Sus notas son otra historia."
+  },
+  {
+   "id": "berdy-caster",
+   "name": "Berdy Caster",
+   "short": "Berdy",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 129,
+   "stats": {
+    "kick": 54,
+    "body": 62,
+    "control": 51,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "future-eye",
+    "aim-shot",
+    "zigzag-spark",
+    "perfect-course"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Manabiya Dento",
+   "description": "Su pasatiempo es hacer gameplays, incluso comenta los partidos con memes y hashtags."
+  },
+  {
+   "id": "chicory-bellflower",
+   "name": "Chicory Bellflower",
+   "short": "Chicory",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "fake-ball",
+    "coil-turn",
+    "tatsumaki-senpuu",
+    "spiral-shot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Henmi Kikyou",
+   "description": "Una chica tranquila a la que le gusta ser fuerte, pero dulce como una flor que crece al borde del camino."
+  },
+  {
+   "id": "aysen-demacon",
+   "name": "Aysen DeMacon",
+   "short": "Aysen",
+   "number": 13,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "endeavor-run",
+    "aim-shot",
+    "dokonjou-bat",
+    "trick-ball"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tsugino Ace",
+   "description": "Apoyado por su mamá mangaka, en forma de protesta, dice que es más de béisbol."
+  },
+  {
+   "id": "breppo-terrey",
+   "name": "Breppo Terrey",
+   "short": "Breppo",
+   "number": 14,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "fake-ball",
+    "endeavor-run",
+    "prima-donna",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Anba Touya",
+   "description": "Rompió una reliquia familiar durante un entrenamiento. No descansará hasta dominar el balón."
+  },
+  {
+   "id": "frie-sorbet",
+   "name": "Frie Sorbet",
+   "short": "Frie",
+   "number": 15,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "thief-eye",
+    "photon-flash",
+    "prima-donna",
+    "frozen-steal"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kimitake Aisu",
+   "description": "Su familia tiene una heladería. Después de los partidos comparte helados con todo el mundo."
+  },
+  {
+   "id": "eddi-losse",
+   "name": "Eddi Losse",
+   "short": "Eddi",
+   "number": 16,
+   "position": "GK",
+   "element": "wind",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "makiwari-chop",
+    "storm-rider",
+    "run-ball-run",
+    "moonsault-stamp"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Tohou Kure",
+   "description": "Vino al equipo para escribir canciones de fútbol. Ahora está entre las botas y los acordes."
+  }
+ ]
+}

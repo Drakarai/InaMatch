@@ -1,0 +1,432 @@
+{
+ "id": "ares-mikage-sennou-ares",
+ "season": "ares",
+ "wiki": "Mikage Sennou (Ares)",
+ "name": "Mikage Sennou (Ares)",
+ "short": "MSA",
+ "colors": {
+  "shirt": "#3a8ac0",
+  "shorts": "#2a3a5a",
+  "gkShirt": "#3a8a3a",
+  "accent": "#3a8ac0"
+ },
+ "formation": "f-4-4-2",
+ "players": [
+  {
+   "id": "gideon-poe",
+   "name": "Gideon Poe",
+   "short": "Gideon",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 116,
+   "tp": 124,
+   "stats": {
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 62,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 54
+   },
+   "moves": [
+    "shoot-pocket",
+    "rocket-kobushi",
+    "shootrap",
+    "double-rocket"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Oma Nao",
+   "description": "Un agudo recopilador de información al que señalan como el futuro cerebro del equipo, aunque aún está puliendo su juego."
+  },
+  {
+   "id": "harry-leading",
+   "name": "Harry Leading",
+   "short": "Harry",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "super-scan-df",
+    "ushiro-no-shoumen",
+    "super-scan-of",
+    "patriot-shoot"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Hiroyama Yuu",
+   "description": "Empezó a jugar al fútbol para ser famoso, y se dejó lavar el cerebro."
+  },
+  {
+   "id": "terry-stronger",
+   "name": "Terry Stronger",
+   "short": "Terry",
+   "number": 3,
+   "position": "DF",
+   "element": "fire",
+   "level": 99,
+   "fp": 179,
+   "tp": 99,
+   "stats": {
+    "kick": 42,
+    "body": 69,
+    "control": 45,
+    "guard": 73,
+    "speed": 46,
+    "stamina": 69,
+    "guts": 45
+   },
+   "moves": [
+    "super-scan-df",
+    "super-scan-of",
+    "psycho-shot",
+    "kung-fu-head"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hanaoka Tsuyoshi",
+   "description": "Ha sacrificado hasta su propia consciencia para tener más fuerza."
+  },
+  {
+   "id": "philip-marvel",
+   "name": "Philip Marvel",
+   "short": "Philip",
+   "number": 4,
+   "position": "DF",
+   "element": "earth",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "super-scan-df",
+    "dynamite-shoot",
+    "super-scan-of",
+    "jigoku-guruma"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Murobushi Kyou",
+   "description": "Extrae fuerzas del pánico que le causó el lavado de cerebro."
+  },
+  {
+   "id": "noel-good",
+   "name": "Noel Good",
+   "short": "Noel",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 118,
+   "tp": 123,
+   "stats": {
+    "kick": 61,
+    "body": 53,
+    "control": 58,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 63
+   },
+   "moves": [
+    "super-scan-df",
+    "super-scan-of",
+    "psycho-shot",
+    "earthquake"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Inada Nori",
+   "description": "El lavado de cerebro consiguió que hiciera tareas de manera ordenada."
+  },
+  {
+   "id": "electra-faraday",
+   "name": "Electra Faraday",
+   "short": "Electra",
+   "number": 6,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "psycho-shot",
+    "super-scan-of",
+    "reflect-buster",
+    "blitz-bridge"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#e8b888"
+   },
+   "wiki": "Segawa Den",
+   "description": "Conoce al detalle lo último en electrónica doméstica y es el asesor al que todos acuden antes de una gran compra."
+  },
+  {
+   "id": "francis-tell",
+   "name": "Francis Tell",
+   "short": "Francis",
+   "number": 7,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "super-scan-of",
+    "psycho-shot",
+    "super-scan-df",
+    "kage-nui"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Fujimaru Kei",
+   "description": "Dice haber visto apariciones. Cree a pies juntillas lo que le digan."
+  },
+  {
+   "id": "darren-gouger",
+   "name": "Darren Gouger",
+   "short": "Darren",
+   "number": 8,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 93,
+   "tp": 161,
+   "stats": {
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
+    "guts": 68
+   },
+   "moves": [
+    "u-boat",
+    "super-scan-df",
+    "liar-shot",
+    "security-shot"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Enami Michiru",
+   "description": "Antes era enclenque, pero rehízo su cuerpo con una dieta estricta de verduras frescas y mucha constancia."
+  },
+  {
+   "id": "victor-kind",
+   "name": "Victor Kind",
+   "short": "Victor",
+   "number": 10,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "super-scan-df",
+    "psycho-shot",
+    "super-scan-of",
+    "twin-boost"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Oobe Shin",
+   "description": "Le han hecho creer que el juego de su equipo no tiene rival."
+  },
+  {
+   "id": "jonathan-seller",
+   "name": "Jonathan Seller",
+   "short": "Jonathan",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 91,
+   "tp": 108,
+   "stats": {
+    "kick": 78,
+    "body": 46,
+    "control": 70,
+    "guard": 50,
+    "speed": 59,
+    "stamina": 45,
+    "guts": 67
+   },
+   "moves": [
+    "psycho-shot",
+    "super-scan-of",
+    "super-scan-df",
+    "fire-tornado"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Yamagishi Seri",
+   "description": "Solitario muchacho que padece la necesidad de ganar a toda costa."
+  },
+  {
+   "id": "neil-turner",
+   "name": "Neil Turner",
+   "short": "Neil",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 161,
+   "tp": 151,
+   "stats": {
+    "kick": 57,
+    "body": 66,
+    "control": 55,
+    "guard": 63,
+    "speed": 59,
+    "stamina": 64,
+    "guts": 56
+   },
+   "moves": [
+    "patriot-shoot",
+    "super-scan-of",
+    "fire-tornado",
+    "super-scan-df"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#e8b888"
+   },
+   "wiki": "Shimozuru Arata",
+   "description": "Era tranquilo hasta que le lavaron el cerebro. Se ha vuelto agresivo."
+  },
+  {
+   "id": "des-pott",
+   "name": "Des Pott",
+   "short": "Des",
+   "number": 12,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "super-scan-of",
+    "patriot-shoot",
+    "super-scan-df",
+    "future-eye"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Wagano Kakumei",
+   "description": "Destaca en las tácticas basadas en datos y cuida de cada jugador con esmero."
+  },
+  {
+   "id": "jethro-mackin",
+   "name": "Jethro Mackin",
+   "short": "Jethro",
+   "number": 13,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 149,
+   "tp": 109,
+   "stats": {
+    "kick": 61,
+    "body": 67,
+    "control": 52,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 61,
+    "guts": 53
+   },
+   "moves": [
+    "super-scan-of",
+    "super-scan-df",
+    "perfect-course",
+    "blitz-bridge"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kikai Yattarou",
+   "description": "Con un casco de IA de alta tecnología, esta coordinadora genial tiene memorizados los datos de cada jugador."
+  }
+ ]
+}

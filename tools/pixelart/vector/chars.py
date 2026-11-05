@@ -527,3 +527,7 @@ def _axel():
 
 
 CHARS['axel-blaze'] = _axel()
+
+
+# equipos en sus propios archivos (registran sus personajes en CHARS)
+import chars_teikoku  # noqa: E402,F401

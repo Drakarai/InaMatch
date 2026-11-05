@@ -4,12 +4,7 @@
  "wiki": "Nose",
  "name": "Instituto Wild",
  "short": "NOS",
- "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#1a1a1a"
- },
+ "colors": {"shirt": "#3f8a54", "shorts": "#2e3c44", "gkShirt": "#8a1e66", "accent": "#e8ece4", "sleeve": "#3f8a54"},
  "formation": "f-wild-park",
  "players": [
   {

@@ -63,6 +63,8 @@ STYLE = {
     # IE1
     'Raimon': ('#f2c230', '#2a5fc0', '#e8892b', '#d9a400'),
     # Teikoku: camiseta verde con detalles rojos (mangas del mismo verde), pantalón caqui; portero en naranja
+    # Nose (Wild): camiseta verde con detalles blancos, pantalón gris oscuro; portero de granate
+    'Nose': ('#3f8a54', '#2e3c44', '#8a1e66', '#e8ece4', '#3f8a54'),
     'Teikoku Gakuen': ('#36584a', '#7a6438', '#f08a2a', '#b0202a', '#36584a'),
     # Occult: camiseta morada (mangas iguales), pantalón gris, medias oscuras; portero de rojo
     'Occult': ('#4a4a7e', '#a2a2aa', '#a81c1c', '#3a3a68', '#4a4a7e', '#4a4a52'),

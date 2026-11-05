@@ -4,12 +4,7 @@
  "wiki": "Teikoku Gakuen",
  "name": "Royal Academy",
  "short": "TEI",
- "colors": {
-  "shirt": "#5a4a8a",
-  "shorts": "#3a3a4a",
-  "gkShirt": "#c8a020",
-  "accent": "#4a3a7a"
- },
+ "colors": {"shirt": "#36584a", "shorts": "#7a6438", "gkShirt": "#f08a2a", "accent": "#b0202a", "sleeve": "#36584a"},
  "formation": "f-death-zone",
  "players": [
   {

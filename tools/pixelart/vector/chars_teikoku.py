@@ -52,20 +52,27 @@ CHARS['joseph-king'] = {
 # la frente; corpulento y piel morena, sonrisa
 PETER_CAP = blob([(14, 56), (14, 30), (28, 12), (50, 6), (72, 12), (86, 30), (86, 56), (50, 52)])
 CHARS['peter-drent'] = {
-    'body': 'corpulento', 'pal': pal('#2c2640', '#8e5c3c', cap='#c8c8d0', cap_d='#9a9aa6', gog='#5a6a7a', lens='#a8d0e0'),
-    'face': {'eyes': 'normal', 'mouth': 'grin', 'hairline': False},
-    'front': [L(bumpy(10, 70, 16, 22, 8, 0.1)), L(bumpy(90, 70, 16, 22, 8, 0.1)),
-              L(PETER_CAP, 'cap', 'f'), L(blob([(60, 10), (84, 28), (86, 54), (70, 52)], 6), 'cap_d', 'f', False),
-              L(blob([(16, 50), (84, 50), (84, 58), (16, 58)], 3), 'gog', 'f'),
-              L(ell(36, 56, 9, 7), 'gog', 'f'), L(ell(64, 56, 9, 7), 'gog', 'f'),
-              L(ell(36, 56, 6, 4.6), 'lens', 'f', False), L(ell(64, 56, 6, 4.6), 'lens', 'f', False)],
-    'side': [L(bumpy(22, 64, 26, 30, 10, 0.1)), L(bumpy(16, 70, 14, 16, 6), 'shade', 'b', False),
-             L(blob([(16, 56), (14, 30), (30, 12), (54, 6), (76, 14), (88, 32), (88, 56), (50, 54)]), 'cap', 'f'),
-             L(blob([(16, 30), (30, 14), (34, 40), (20, 54)], 6), 'cap_d', 'f', False),
-             L(blob([(40, 50), (90, 50), (90, 58), (40, 58)], 3), 'gog', 'f'), L(ell(84, 56, 7, 7), 'gog', 'f'), L(ell(85, 56, 4.6, 4.6), 'lens', 'f', False)],
-    'back': [L(bumpy(50, 66, 46, 34, 14, 0.08)), L(bumpy(66, 76, 22, 18, 8), 'shade', 'b', False),
-             L(PETER_CAP, 'cap', 'f'), L(blob([(56, 10), (84, 28), (86, 54), (68, 52)], 6), 'cap_d', 'f', False),
-             L(blob([(14, 50), (86, 50), (86, 57), (14, 57)], 3), 'gog', 'f')],
+    'body': 'corpulento', 'pal': pal('#2c2640', '#8e5c3c', cap='#c4c4cc', cap_d='#9a9aa6', rim='#7ab8b8', lens='#1e3050', lens_l='#5a7aa0', mark='#c83030'),
+    # casco gris pegado a la cabeza hasta las cejas, con unas gafas redondas de cristal azul oscuro opaco unidas al casco
+    # que le tapan los ojos; afro a los lados, sonrisa enorme con dientes
+    'face': {'eyes': 'none', 'brows': False, 'mouth': 'grin', 'mouth_y': 90, 'hairline': False},
+    'front': [L(bumpy(10, 72, 16, 22, 8, 0.1)), L(bumpy(90, 72, 16, 22, 8, 0.1)),
+              L(blob([(16, 70), (14, 40), (26, 16), (50, 8), (74, 16), (86, 40), (84, 70), (70, 66), (50, 64), (30, 66)]), 'cap', 'f'),
+              L(blob([(62, 14), (84, 36), (84, 66), (72, 62)], 6), 'cap_d', 'f', False),
+              L([(66, 22), (72, 30)], 'mark', 'f', False, False, 1.6), L([(70, 20), (76, 28)], 'mark', 'f', False, False, 1.6),
+              L([(26, 74), (18, 70)], 'cap_d', 'f', False, False, 2.4), L([(74, 74), (82, 70)], 'cap_d', 'f', False, False, 2.4),
+              L(ell(36, 75, 10, 9), 'rim', 'f', ln=True), L(ell(64, 75, 10, 9), 'rim', 'f', ln=True),
+              L(ell(36, 75, 7, 6.4), 'lens', 'f', False), L(ell(64, 75, 7, 6.4), 'lens', 'f', False),
+              L(ell(33, 72, 2.4, 1.8), 'lens_l', 'f', False), L(ell(61, 72, 2.4, 1.8), 'lens_l', 'f', False),
+              L([(46, 75), (54, 75)], 'rim', 'f', False, False, 1.6)],
+    'side': [L(bumpy(22, 66, 26, 30, 10, 0.1)), L(bumpy(16, 72, 14, 16, 6), 'shade', 'b', False),
+             L(blob([(16, 66), (14, 34), (30, 12), (54, 6), (76, 14), (88, 34), (90, 66), (70, 64), (50, 62)]), 'cap', 'f'),
+             L(blob([(16, 34), (30, 14), (34, 44), (20, 60)], 6), 'cap_d', 'f', False),
+             L([(84, 72), (62, 68)], 'cap_d', 'f', False, False, 2.4),
+             L(ell(85, 75, 6, 8), 'rim', 'f', ln=True), L(ell(86, 75, 3.6, 5.6), 'lens', 'f', False)],
+    'back': [L(bumpy(50, 70, 46, 30, 14, 0.08)), L(bumpy(66, 78, 22, 16, 8), 'shade', 'b', False),
+             L(blob([(16, 70), (14, 40), (26, 16), (50, 8), (74, 16), (86, 40), (84, 70), (50, 74)]), 'cap', 'f'),
+             L(blob([(58, 14), (84, 34), (84, 68), (68, 70)], 6), 'cap_d', 'f', False)],
 }
 
 # ------------------------------------------------------------------ Ben Simmons: melena lisa granate hasta la mandíbula con
@@ -91,16 +98,20 @@ CHARS['ben-simmons'] = {
 # espiral sobre la frente, gafas redondas, sonrisa enorme de oreja a oreja y orejas puntiagudas
 GUS_CURL = blob([(40, 50), (36, 40), (42, 30), (54, 30), (58, 40), (52, 46), (46, 42), (50, 38)], 6)
 CHARS['gus-martin'] = {
-    'body': 'delgado', 'pal': pal('#4a2e14', '#f6d6b4'),
-    'face': {'eyes': 'dot', 'mouth': 'grin', 'mouth_y': 90, 'big_ears': 1, 'ear_out': 3, 'hairline': (56, 46)},
+    'body': 'delgado', 'pal': pal('#4a2e14', '#f6d6b4', lens=(248, 248, 248, 255), lens_d=(214, 218, 226, 255)),
+    'face': {'eyes': 'none', 'brows': False, 'mouth': 'grin', 'mouth_y': 90, 'big_ears': 1, 'ear_out': 3, 'hairline': (56, 46)},
+    # gafas redondas blancas y opacas (no se le ven los ojos)
     'front': [L(blob([(16, 60), (14, 36), (26, 16), (50, 10), (74, 16), (86, 36), (84, 60), (50, 50)])),
               L(blob([(58, 14), (84, 32), (84, 58), (70, 52)], 6), 'shade', 'b', False), sheen(28, 54, 18, 3),
-              L(GUS_CURL, 'mid', 'f', ln=True), L(blob([(46, 34), (54, 34), (54, 40), (48, 40)], 3), 'shade', 'f', False)]
-             + round_glasses(76, 8),
+              L(GUS_CURL, 'mid', 'f', ln=True), L(blob([(46, 34), (54, 34), (54, 40), (48, 40)], 3), 'shade', 'f', False),
+              L(ell(36, 75, 9, 8.4), 'lens', 'f', ln=True), L(ell(64, 75, 9, 8.4), 'lens', 'f', ln=True),
+              L([(31, 71), (36, 69)], 'lens_d', 'f', False, False, 1.4), L([(59, 71), (64, 69)], 'lens_d', 'f', False, False, 1.4),
+              L([(45, 74), (55, 74)], OUTC, 'f', False, False, 1.3), L([(27, 73), (18, 70)], OUTC, 'f', False, False, 1.3),
+              L([(73, 73), (82, 70)], OUTC, 'f', False, False, 1.3)],
     'side': [L(blob([(44, 92), (22, 88), (12, 64), (14, 36), (30, 16), (56, 10), (78, 18), (88, 36), (76, 44), (60, 48), (52, 62), (50, 80)])),
              L(blob([(16, 48), (20, 74), (38, 86), (28, 60)], 6), 'shade', 'b', False), sheen(32, 62, 16, 3),
              L(blob([(74, 44), (82, 36), (90, 40), (88, 47), (82, 48)], 6), 'mid', 'f', ln=True),
-             L([(76, 76), (88, 76)], (70, 70, 80, 255), 'f', False, False, 1.4)],
+             L(ell(84, 75, 5.6, 8), 'lens', 'f', ln=True), L([(78, 74), (50, 72)], OUTC, 'f', False, False, 1.3)],
     'back': [L(blob([(16, 66), (14, 38), (26, 16), (50, 10), (74, 16), (86, 38), (84, 66), (70, 86), (50, 92), (30, 86)])),
              L(blob([(58, 16), (86, 38), (84, 66), (66, 86)], 6), 'shade', 'b', False), sheen(28, 56, 20, 3),
              strand([(40, 30), (38, 80)], 'shade', 'b', 1.0), strand([(60, 30), (62, 80)], 'deep', 'b', 1.0)],
@@ -218,37 +229,46 @@ CHARS['david-samford'] = {
               L(blob([(70, 20), (92, 50), (90, 108), (80, 106)], 6), 'shade', 'b', False), sheen(24, 50, 22, 3),
               spk((14, 48), (34, 44), (20, 82), 4, z='f'), spk((32, 44), (52, 42), (42, 66), 4, z='f'),
               spk((50, 42), (68, 44), (60, 64), 4, z='f', light_left=False), spk((66, 46), (88, 50), (84, 88), 4, z='f', light_left=False),
-              L(quad((16, 46), (50, 36), (84, 46)) + quad((84, 51), (50, 41), (16, 51)), 'band', 'f', False),
-              L(ell(36, 76, 10, 8.5), 'patch', 'f'), L([(26, 70), (16, 50)], 'band', 'f', False, False, 1.4)],
+              L(ell(36, 76, 10, 8.5), 'patch', 'f'), L(ell(33, 73, 3.6, 2.2), (110, 110, 120, 255), 'f', False),
+              # correa del parche: del parche sube en diagonal por la frente hasta el lado derecho de la cabeza
+              L([(44, 70), (60, 56), (78, 44), (90, 40)], 'band', 'f', False, False, 1.8), L([(27, 72), (14, 70)], 'band', 'f', False, False, 1.8)],
     'side': [L(blob([(54, 46), (36, 52), (28, 76), (24, 112), (6, 110), (6, 66), (12, 32), (34, 12), (62, 10), (82, 22), (88, 40)])),
              L(blob([(10, 50), (8, 104), (22, 108), (22, 70)], 6), 'shade', 'b', False), sheen(32, 62, 16, 3),
              spk((56, 26), (86, 38), (90, 70), 5, z='f', light_left=False),
-             L(quad((20, 36), (50, 30), (84, 40)) + quad((84, 45), (50, 35), (20, 41)), 'band', 'f', False)],
+             L([(10, 40), (40, 40), (66, 46), (82, 66), (84, 74)], 'band', 'f', False, False, 1.8), L(ell(86, 76, 4, 6.5), 'patch', 'f')],
     'back': [L(blob([(10, 112), (6, 50), (16, 20), (50, 10), (84, 20), (94, 50), (90, 112), (50, 118)])),
              L(blob([(56, 16), (88, 36), (90, 110), (66, 116)], 6), 'shade', 'b', False), sheen(26, 54, 22, 3),
              strand([(34, 50), (30, 110)], 'shade', 'b', 1.0), strand([(50, 50), (50, 114)], 'shade', 'b', 1.0), strand([(66, 50), (70, 110)], 'deep', 'b', 1.0),
-             L(quad((12, 46), (50, 38), (88, 46)) + quad((88, 51), (50, 43), (12, 51)), 'band', 'f', False)],
+             L([(8, 44), (50, 40), (92, 44)], 'band', 'f', False, False, 1.8)],
 }
 
 # ------------------------------------------------------------------ Derek Swing: pelo castaño en forma de alas abiertas con un
 # mechón en punta arriba, ojos blancos redondos, pinturas naranja y azul en la cara y bufanda naranja
 DEREK_WINGS = blob([(12, 66), (-10, 40), (-18, 20), (6, 22), (24, 16), (44, 10), (50, -2), (56, 10), (76, 16), (94, 22), (118, 20), (110, 40), (88, 66), (50, 56)])
 CHARS['derek-swing'] = {
-    'body': 'bajito', 'pal': pal('#6c5a30', '#f6c690', paint='#e88a30', paint2='#3a9aa8', scarf='#e07020'),
-    'face': {'eyes': 'none', 'mouth': 'line', 'hairline': (60, 54)},
+    'body': 'bajito', 'pal': pal('#6c5a30', '#f6c690', paint='#e88a40', paint2='#4aa0a8', scarf='#e07020', scarf_d='#b45414'),
+    # ojos: dos óvalos blancos grandes sin pupila; pintura naranja que baja por el ojo izquierdo hasta la mejilla y
+    # pintura azul por el lado derecho; nariz pequeña y sonrisa; pelo en alas con un pincho arriba y bufanda naranja
+    'face': {'eyes': 'none', 'brows': False, 'mouth': 'smile', 'mouth_y': 92, 'hairline': (58, 54)},
     'front': [L(DEREK_WINGS), L(blob([(60, 16), (110, 26), (100, 42), (82, 56)], 6), 'shade', 'b', False),
               L(blob([(-10, 28), (20, 22), (30, 30), (6, 36)], 6), 'light', 'b', False),
               strand([(-6, 30), (20, 40)], 'deep', 'b', 1.2), strand([(106, 30), (80, 40)], 'deep', 'b', 1.2),
-              spk((26, 50), (40, 48), (32, 62), 2, z='f'), spk((60, 48), (74, 50), (68, 62), 2, z='f', light_left=False),
-              L(blob([(22, 64), (34, 62), (36, 96), (28, 98)], 4), 'paint', 'f', False), L(blob([(66, 62), (78, 64), (72, 98), (64, 96)], 4), 'paint2', 'f', False),
-              L(ell(36, 76, 8, 9), OUTC, 'f'), L(ell(36, 76, 6.6, 7.6), WHITE, 'f', False), L(ell(64, 76, 8, 9), OUTC, 'f'), L(ell(64, 76, 6.6, 7.6), WHITE, 'f', False),
-              L(ell(37, 77, 1.4, 1.4), DARK, 'f', False), L(ell(63, 77, 1.4, 1.4), DARK, 'f', False)],
+              L(blob([(30, 54), (38, 54), (36, 74), (34, 96), (28, 96), (30, 74)], 4), 'paint', 'f', False),
+              L(blob([(64, 54), (72, 54), (72, 76), (68, 96), (62, 94), (66, 76)], 4), 'paint2', 'f', False),
+              L(ell(36, 76, 8.4, 7.4), WHITE, 'f', ln=True), L(ell(64, 76, 8.4, 7.4), WHITE, 'f', ln=True),
+              L([(48, 86), (50, 84), (52, 86)], OUTC, 'f', False, False, 1.0),
+              L(blob([(18, 100), (50, 106), (82, 100), (84, 112), (50, 118), (16, 112)], 5), 'scarf', 'f', ln=True),
+              L(blob([(50, 108), (82, 102), (82, 110), (50, 116)], 4), 'scarf_d', 'f', False)],
     'side': [L(blob([(44, 90), (22, 86), (14, 60), (-12, 36), (-18, 14), (10, 20), (30, 12), (48, 0), (56, 12), (78, 18), (88, 36), (70, 46), (56, 54), (50, 76)])),
              L(blob([(-10, 22), (20, 22), (30, 34), (4, 34)], 6), 'light', 'b', False), L(blob([(14, 52), (18, 76), (38, 86), (26, 62)], 6), 'shade', 'b', False),
-             L(blob([(76, 62), (86, 64), (86, 96), (78, 96)], 4), 'paint', 'f', False),
-             L(ell(82, 76, 6, 9), OUTC, 'f'), L(ell(82.5, 76, 4.8, 7.6), WHITE, 'f', False)],
+             L(blob([(76, 54), (84, 56), (84, 76), (82, 96), (76, 94), (78, 74)], 4), 'paint', 'f', False),
+             L(ell(83, 76, 5, 7.4), WHITE, 'f', ln=True),
+             L(blob([(46, 98), (84, 100), (84, 110), (46, 112)], 5), 'scarf', 'f', ln=True),
+             L(blob([(46, 104), (30, 112), (20, 128), (30, 128), (44, 114)], 4), 'scarf_d', 'f', ln=True)],
     'back': [L(DEREK_WINGS), L(blob([(56, 20), (110, 26), (100, 42), (80, 60)], 6), 'shade', 'b', False),
-             L(blob([(18, 58), (82, 58), (76, 84), (50, 92), (24, 84)])), L(blob([(54, 60), (80, 60), (74, 82), (56, 90)], 6), 'shade', 'b', False)],
+             L(blob([(18, 58), (82, 58), (76, 84), (50, 92), (24, 84)])), L(blob([(54, 60), (80, 60), (74, 82), (56, 90)], 6), 'shade', 'b', False),
+             L(blob([(16, 100), (84, 100), (84, 112), (16, 112)], 5), 'scarf', 'f', ln=True),
+             L(blob([(44, 106), (56, 106), (60, 130), (40, 130)], 4), 'scarf_d', 'f', ln=True)],
 }
 
 # ------------------------------------------------------------------ Cliff Tomlinson: pelo verde azulado de puntas barridas hacia

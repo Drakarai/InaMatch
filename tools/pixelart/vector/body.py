@@ -131,9 +131,9 @@ def body_front(d, t, back=False, num='10'):
         d.ellipse([P(hand[0] - r, hand[1] - r), P(hand[0] + r, hand[1] + r)], fill=KIT.get('hand', SKIN['mid']))
     if back:
         f = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', int(20 * SS * t['sw'] / 54))
-        d.text(P(cx, top + t['tl'] * 0.55), num, font=f, fill=KIT['sleeve'], anchor='mm', stroke_width=int(0.5 * SS), stroke_fill=KIT['sleeve_d'])
+        d.text(P(cx, top + t['tl'] * 0.55), num, font=f, fill=KIT.get('num', KIT['sleeve']), anchor='mm', stroke_width=int(0.5 * SS), stroke_fill=tone(KIT.get('num', KIT['sleeve']), 0.75))
     else:
-        d.polygon([P(cx - 8, top), P(cx + 8, top), P(cx, top + 9)], fill=KIT['sleeve'], outline=OUT)
+        d.polygon([P(cx - 8, top), P(cx + 8, top), P(cx, top + 9)], fill=KIT.get('collar', KIT['sleeve']), outline=OUT)
     shape(d, rrect(cx - 6.5, 90, cx + 6.5, top + 3, 3), SKIN['shade'], 1.2)
 
 
@@ -311,10 +311,12 @@ def kit_for(colors, gk=False):
     """Equipación a partir de los colores del equipo (src/data/teams): camiseta, mangas, pantalón y medias."""
     shirt = hexc(colors['gkShirt'] if gk else colors['shirt'])
     shorts = hexc(colors['shorts'])
-    sleeve = tone(shirt, 0.72) if gk else shorts
+    sleeve = tone(shirt, 0.72) if gk else hexc(colors['sleeve']) if colors.get('sleeve') else shorts
     k = dict(DEFAULT_KIT)
     k.update({'shirt': shirt, 'shirt_d': tone(shirt, 0.84), 'sleeve': sleeve, 'sleeve_d': tone(sleeve, 0.75),
-              'shorts': shorts, 'shorts_d': tone(shorts, 0.72), 'stripe': shorts})
+              'shorts': shorts, 'shorts_d': tone(shorts, 0.72), 'stripe': hexc(colors['accent']) if colors.get('sleeve') else shorts})
+    if colors.get('sleeve'):  # mangas del color de la camiseta: cuello y dorsal con el color de los detalles
+        k['collar'] = k['num'] = hexc(colors['accent'])
     if gk:
         k['hand'] = (246, 246, 246, 255)
     return k

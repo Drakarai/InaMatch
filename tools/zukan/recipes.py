@@ -28,6 +28,28 @@ FALLBACK = {
     'go-to-heaven': 'light:pillar +wings:angel',
     'ignite-steal': 'fire:trail',
     'electrap': 'lightning:barrier',
+    # era GO y Victory Road sin vídeo: a partir de su imagen en la wiki y de sus técnicas hermanas
+    'dalphonus-echo': 'whale +scan:sonar +dark:orb',
+    'cossphee-burst': 'vine +bubbles:pink +fire:explosion',
+    'macaroni-spaghetti-sauce-zouryou': 'ribbon +punch:upper +fire:burst',
+    'uzumaki-the-hand': 'hand +tornado:spiral',
+    'kamakura-d': 'ice:block +shield:dome',
+    'skytree-fall': 'tower +impact:dive',
+    'unbalance-pisa': 'tower +impact:dust',
+    'bicycle-sword': 'impact:kick +sword',
+    'rc-shoot': 'missile +speedlines',
+    'magaru-diamond-ray': 'ice:cube +light:beam',
+    'arashi-tatsumaki-hurricane': 'tornado:double +tornado:white',
+    'dragon-blaster': 'dragon:red +light:beam',
+    'aqua-breath': 'water:wave +light:beam',
+    'gunji-eisei-phobos': 'planet +lasers',
+    'floral-despair': 'flower:storm +dark:curse',
+    'konoha-roll': 'tornado:leaves +impact:spin',
+    'spiral-draw': 'tornado:spiral +impact:ball',
+    'bousou-chariot': 'charge:roller +fire:dash',
+    'kattobi-defense': 'impact:giant +fire:burst',
+    'einsatz': 'notes +shield:aura',
+    'dry-blow': 'sandstorm:dust +punch',
 }
 
 

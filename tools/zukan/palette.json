@@ -1,7 +1,21 @@
 {
+ "abare-guruma": [
+  "#be8d2c",
+  "#2c8dbe"
+ ],
  "abisegeri": [
   "#be5d2c",
   "#ffaa00",
+  "#2c5dbe"
+ ],
+ "acrobat-keep": [
+  "#00a9ff",
+  "#003fbe",
+  "#be5d2c"
+ ],
+ "aggressive-beat": [
+  "#be3f00",
+  "#3bff7c",
   "#2c5dbe"
  ],
  "aikidou": [
@@ -9,20 +23,66 @@
   "#ff3b7c",
   "#2c5dbe"
  ],
+ "aim-shot": [
+  "#3b4a69",
+  "#ffff90",
+  "#a2be6b"
+ ],
+ "air-bullet": [
+  "#2c8dbe",
+  "#3bffff"
+ ],
  "air-ride": [
   "#3b5a69",
   "#ffda90",
   "#2c8dbe"
+ ],
+ "all-delete": [
+  "#ff3bff",
+  "#be00be",
+  "#2c5dbe"
  ],
  "angel-ball": [
   "#3b5a69",
   "#6ba2be",
   "#a2be6b"
  ],
+ "angel-ray": [
+  "#8dbe2c",
+  "#bdff3b"
+ ],
+ "angydra-combo": [
+  "#2c8dbe",
+  "#ff7c3b"
+ ],
+ "answer-boost": [
+  "#3bbdff",
+  "#7cff3b",
+  "#8dbe2c"
+ ],
  "armadillo-circus": [
   "#be5d2c",
   "#ffff3b",
   "#ff7c3b"
+ ],
+ "artemis-ring": [
+  "#ffbd3b",
+  "#2c5dbe",
+  "#3f00be"
+ ],
+ "asoko-ni-onigiri": [
+  "#3b5a69",
+  "#ffda90",
+  "#2c5dbe"
+ ],
+ "asoko-ni-ufo": [
+  "#3b5a69",
+  "#6ba2be",
+  "#ffda90"
+ ],
+ "asterisk-rock": [
+  "#be5d2c",
+  "#00ffff"
  ],
  "asteroid-belt": [
   "#8dbe2c",
@@ -39,6 +99,21 @@
   "#bd3bff",
   "#8dbe2c"
  ],
+ "athena-assault": [
+  "#003fbe",
+  "#00ffff",
+  "#be00be"
+ ],
+ "atlantis-wall": [
+  "#00a9ff",
+  "#00bebe",
+  "#be8d2c"
+ ],
+ "atlas-sword": [
+  "#3bbdff",
+  "#003fbe",
+  "#be2c2c"
+ ],
  "atomic-flare": [
   "#ff5400",
   "#ffff00",
@@ -54,10 +129,28 @@
   "#2cbe8d",
   "#2c5dbe"
  ],
+ "ayakashi-dribble": [
+  "#8dbe2c",
+  "#7e00be"
+ ],
  "back-tornado": [
   "#0054ff",
   "#2c5dbe",
   "#3bffff"
+ ],
+ "backdraft": [
+  "#3b7cff",
+  "#2c5dbe",
+  "#ff7c3b"
+ ],
+ "bahamut-crash": [
+  "#2cbebe",
+  "#3bffff",
+  "#2c5dbe"
+ ],
+ "bakugui-shishi": [
+  "#ff5400",
+  "#be5d2c"
  ],
  "bakunetsu-screw": [
   "#be0000",
@@ -74,53 +167,205 @@
   "#be8d2c",
   "#be0000"
  ],
+ "ballista-shot": [
+  "#3bff7c",
+  "#be8d2c"
+ ],
+ "banana-shoot": [
+  "#2c8dbe",
+  "#bdff3b"
+ ],
  "barbarian-no-tate": [
   "#aa00ff",
   "#5d2cbe"
+ ],
+ "bat-attack": [
+  "#ffbd3b",
+  "#8dbe2c",
+  "#be2c2c"
+ ],
+ "beam-kobushi": [
+  "#ff0000",
+  "#be0000",
+  "#ffbd3b"
  ],
  "beast-fang": [
   "#be0000",
   "#ff7c3b",
   "#54ff00"
  ],
+ "beast-lord": [
+  "#ffda90",
+  "#be5d2c",
+  "#693318"
+ ],
+ "beautiful-hoop": [
+  "#3b5a69",
+  "#2c8dbe",
+  "#ff90ff"
+ ],
+ "begiran-whip": [
+  "#8d2cbe",
+  "#bd3bff"
+ ],
+ "belion-whip": [
+  "#8d2cbe",
+  "#3bffff",
+  "#bd3bff"
+ ],
+ "big-bang": [
+  "#ffff3b",
+  "#ff5400",
+  "#5d2cbe"
+ ],
+ "big-bang-slash": [
+  "#be2c2c",
+  "#3bffff",
+  "#2cbe8d"
+ ],
+ "big-card": [
+  "#ff3b3b",
+  "#2c8dbe",
+  "#be0000"
+ ],
+ "big-mouth": [
+  "#ff7c3b",
+  "#be2c2c",
+  "#2c5dbe"
+ ],
+ "big-scissors": [
+  "#be0000",
+  "#2c5dbe"
+ ],
  "big-spider": [
   "#2c2cbe",
   "#ff0000",
   "#8dbe2c"
+ ],
+ "bison-horn": [
+  "#ff5400",
+  "#2c5dbe",
+  "#ffff3b"
+ ],
+ "black-ash": [
+  "#3b3b69",
+  "#9090ff",
+  "#8dbe2c"
+ ],
+ "black-dawn": [
+  "#2c8dbe",
+  "#00ffff",
+  "#5d2cbe"
+ ],
+ "black-field": [
+  "#ff0000",
+  "#be0000",
+  "#be00be"
  ],
  "black-hole": [
   "#3f00be",
   "#3bffff",
   "#ff7c3b"
  ],
+ "black-shield": [
+  "#be2cbe",
+  "#ffff3b",
+  "#3f00be"
+ ],
+ "blackmail": [
+  "#be2c5d",
+  "#5d2cbe",
+  "#be5d2c"
+ ],
  "blade-attack": [
   "#ffff3b",
   "#be8d2c"
+ ],
+ "blitz-bridge": [
+  "#3bbdff",
+  "#2c8dbe",
+  "#8d2cbe"
  ],
  "block-circus": [
   "#3b5a69",
   "#bea26b",
   "#6ba2be"
  ],
+ "bloody-encore": [
+  "#331869",
+  "#ff0000",
+  "#be876b"
+ ],
+ "blue-stardust": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
  "body-shield": [
   "#be8d2c",
   "#ffbd3b",
   "#2c5dbe"
+ ],
+ "boomerang-feint": [
+  "#3bbdff",
+  "#2c8dbe"
  ],
  "boost-glider": [
   "#be5d2c",
   "#ffbd3b",
   "#2c5dbe"
  ],
+ "boukyaku-no-sonata": [
+  "#ff7c3b",
+  "#8dbe2c"
+ ],
+ "bouncer-rabbit": [
+  "#ffbd3b",
+  "#2c5dbe",
+  "#8dbe2c"
+ ],
+ "bound-flame": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "brachias-blind": [
+  "#be5d2c",
+  "#ff3b3b",
+  "#2c8dbe"
+ ],
  "brave-shot": [
   "#3bbdff",
   "#2cbebe",
   "#2c5dbe"
  ],
+ "britannia-cross": [
+  "#ff0000",
+  "#be2c2c",
+  "#2cbebe"
+ ],
+ "bubble-boil": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
+ "buffalo-crusher": [
+  "#be2c2c",
+  "#183369",
+  "#bea26b"
+ ],
+ "bungee-thrust": [
+  "#ff0000",
+  "#be0000",
+  "#ffff3b"
+ ],
  "bunshin-block": [
   "#ffbd3b",
   "#bdff3b",
   "#be5d2c"
+ ],
+ "bunshin-death-zone": [
+  "#0054ff",
+  "#7e00be",
+  "#8dbe2c"
  ],
  "bunshin-defense": [
   "#2c5dbe",
@@ -131,25 +376,106 @@
   "#2c5dbe",
   "#a2be6b"
  ],
+ "bunshin-penguin": [
+  "#2c5dbe",
+  "#ffff3b"
+ ],
  "bunshin-shoot": [
   "#3b5a69",
   "#2c5dbe",
   "#a2be6b"
+ ],
+ "burai-hand": [
+  "#be0000",
+  "#ff0000",
+  "#ffbd3b"
+ ],
+ "burning-catch": [
+  "#ff5400",
+  "#be0000",
+  "#ffff00"
+ ],
+ "burning-edge": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff00"
+ ],
+ "burning-hi-no-tori": [
+  "#ffff00",
+  "#ff5400",
+  "#be5d2c"
+ ],
+ "burning-summer": [
+  "#ff7c3b",
+  "#ffff3b",
+  "#be5d2c"
  ],
  "burnout": [
   "#ff5400",
   "#ffff3b",
   "#be8d2c"
  ],
+ "bushin-renzan": [
+  "#be3f00",
+  "#ff0000",
+  "#ffbd3b"
+ ],
  "butterfly-dream": [
   "#ff3b7c",
   "#ffff3b",
   "#be2c2c"
  ],
+ "buttobi-jump": [
+  "#ff5400",
+  "#be8d2c"
+ ],
+ "buttobi-punch": [
+  "#be8d2c",
+  "#2c5dbe"
+ ],
  "capoeira-snatch": [
   "#be3f00",
   "#ff7c3b",
   "#ffff3b"
+ ],
+ "card-buster": [
+  "#3bffff",
+  "#ff3b3b",
+  "#be2c2c"
+ ],
+ "card-protect": [
+  "#ff7c3b",
+  "#be2c2c",
+  "#be8d2c"
+ ],
+ "card-splash": [
+  "#3b5a69",
+  "#be5d2c",
+  "#6ba2be"
+ ],
+ "carnival-shake": [
+  "#3bffbd",
+  "#2c8dbe",
+  "#2cbe2c"
+ ],
+ "carronade-hou": [
+  "#be5d2c",
+  "#ffbd3b"
+ ],
+ "casting-arm": [
+  "#ff3b3b",
+  "#2c5dbe",
+  "#ffbd3b"
+ ],
+ "castle-gate": [
+  "#be876b",
+  "#ffda90",
+  "#693b3b"
+ ],
+ "cerbegyra-combo": [
+  "#be5d2c",
+  "#ffbd3b",
+  "#2c5dbe"
  ],
  "chabudai-gaeshi": [
   "#be8d2c",
@@ -160,10 +486,37 @@
   "#bea26b",
   "#3b5a69"
  ],
+ "chaos-meteor": [
+  "#be0000",
+  "#ff0000",
+  "#003fbe"
+ ],
+ "cheat-blaster": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "checkmate": [
+  "#3bffff",
+  "#2c8dbe"
+ ],
+ "claymore": [
+  "#3b5a69",
+  "#bea26b",
+  "#ffda90"
+ ],
+ "clupe-claw": [
+  "#be5d2c",
+  "#8d2cbe"
+ ],
  "coil-turn": [
   "#183369",
   "#2c5dbe",
   "#6bbe87"
+ ],
+ "coil-upper": [
+  "#8d2cbe",
+  "#8dbe2c"
  ],
  "colosseo-guard": [
   "#003fbe",
@@ -174,15 +527,52 @@
   "#00be7e",
   "#00ffff"
  ],
+ "cosmic-blaster": [
+  "#ff3b3b",
+  "#be2c2c",
+  "#00ffff"
+ ],
+ "counterdrive-gk": [
+  "#bea26b",
+  "#a2be6b",
+  "#ff7c3b"
+ ],
  "counterstrike": [
   "#00a9ff",
   "#ff7c3b",
   "#2c8dbe"
  ],
+ "crazy-sunlight": [
+  "#ffbd3b",
+  "#be5d2c"
+ ],
+ "crimson-sphere": [
+  "#ff5400",
+  "#be0000"
+ ],
+ "crocodile-fang": [
+  "#ffff3b",
+  "#be8d2c",
+  "#ff7c3b"
+ ],
  "cross-drive": [
   "#ffff3b",
   "#183369",
   "#6ba2be"
+ ],
+ "crossfire": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "crossfire-wind": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "crystal-barrier": [
+  "#2c8dbe",
+  "#be5d2c"
  ],
  "cyclone": [
   "#3b5a69",
@@ -194,15 +584,38 @@
   "#ffff3b",
   "#be5d2c"
  ],
+ "dancing-ghost": [
+  "#bd3bff",
+  "#5d2cbe",
+  "#8dbe2c"
+ ],
+ "dancing-turtle": [
+  "#007ebe",
+  "#3bffff"
+ ],
+ "dandorl-crusher": [
+  "#3b5a69",
+  "#bea26b",
+  "#6b87be"
+ ],
  "dark-matter": [
   "#3b5a69",
   "#8dbe2c",
   "#6bbe87"
  ],
+ "dark-mist": [
+  "#5d2cbe",
+  "#7c3bff",
+  "#8dbe2c"
+ ],
  "dark-phoenix": [
   "#aa00ff",
   "#be2c5d",
   "#3f00be"
+ ],
+ "dark-space": [
+  "#be5d2c",
+  "#2c5dbe"
  ],
  "dark-tornado": [
   "#3b694a",
@@ -218,13 +631,67 @@
   "#6bbebe",
   "#6bbe6b"
  ],
+ "dash-train": [
+  "#be5d2c",
+  "#ff7c3b"
+ ],
+ "dead-future": [
+  "#be5d2c",
+  "#3bffff",
+  "#2c5dbe"
+ ],
+ "dead-straight": [
+  "#00a9ff",
+  "#003fbe",
+  "#ff3b3b"
+ ],
+ "death-break": [
+  "#be0000",
+  "#ff0000",
+  "#2c5dbe"
+ ],
+ "death-crater": [
+  "#ff3b3b",
+  "#be2c2c",
+  "#2c5dbe"
+ ],
+ "death-crusher-zone": [
+  "#ff3bff",
+  "#2c5dbe",
+  "#8d2cbe"
+ ],
+ "death-drop": [
+  "#003fbe",
+  "#0054ff",
+  "#ff0000"
+ ],
  "death-rain": [
   "#be0000",
   "#ff0000"
  ],
+ "death-samba": [
+  "#ffbd3b",
+  "#ff3bff",
+  "#be8d2c"
+ ],
+ "death-scythe-low": [
+  "#3b5a69",
+  "#2c5dbe",
+  "#3b3b69"
+ ],
+ "death-scythe-middle": [
+  "#ffda90",
+  "#3b4a69",
+  "#6ba2be"
+ ],
  "death-spear": [
   "#be0000",
   "#ff0000"
+ ],
+ "death-sword": [
+  "#0054ff",
+  "#003fbe",
+  "#ff7c3b"
  ],
  "death-zone": [
   "#7e00be",
@@ -234,19 +701,133 @@
   "#8d2cbe",
   "#8dbe2c"
  ],
+ "decoy-release": [
+  "#00ffff",
+  "#2cbebe",
+  "#2c5dbe"
+ ],
+ "deep-diver": [
+  "#183369",
+  "#6b87be"
+ ],
+ "deep-jungle": [
+  "#3bffff",
+  "#ffbd3b",
+  "#2cbebe"
+ ],
+ "deep-mist": [
+  "#3b5a69",
+  "#6bbea2"
+ ],
+ "defense-houteishiki": [
+  "#2c8dbe",
+  "#8d2cbe"
+ ],
+ "delpinus-echo": [
+  "#2c8dbe",
+  "#2cbe8d"
+ ],
  "demon-cut": [
   "#bd3bff",
   "#5d2cbe"
+ ],
+ "demon-s-bolt": [
+  "#2cbebe",
+  "#3bffff",
+  "#be5d2c"
+ ],
+ "denrai-houtou": [
+  "#ffff3b",
+  "#be8d2c",
+  "#2c5dbe"
+ ],
+ "desert-drift": [
+  "#bea26b",
+  "#ffda90",
+  "#183369"
  ],
  "desert-storm": [
   "#bea26b",
   "#ffda90",
   "#3b5a69"
  ],
+ "despair-fortress": [
+  "#3f00be",
+  "#be5d2c"
+ ],
+ "destiny-cloud": [
+  "#be003f",
+  "#ff0055",
+  "#8dbe2c"
+ ],
  "devil-ball": [
   "#0000be",
   "#2c8dbe",
   "#5dbe2c"
+ ],
+ "devil-burst": [
+  "#0054ff",
+  "#003fbe",
+  "#ff5400"
+ ],
+ "diamond-arm": [
+  "#be5d2c",
+  "#2c5dbe",
+  "#ffbd3b"
+ ],
+ "diamond-edge": [
+  "#7c3bff",
+  "#5d2cbe"
+ ],
+ "diamond-hand": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#2c5dbe"
+ ],
+ "diamond-punch": [
+  "#3b7cff",
+  "#2c5dbe",
+  "#be5d2c"
+ ],
+ "diamond-ray": [
+  "#3b3bff",
+  "#2c2cbe",
+  "#be5d2c"
+ ],
+ "diffuse-chord": [
+  "#3b5a69",
+  "#be876b",
+  "#6ba2be"
+ ],
+ "dig-through": [
+  "#3b5a69",
+  "#bea26b",
+  "#a2be6b"
+ ],
+ "dig-up": [
+  "#bea26b",
+  "#ffda90",
+  "#3b5a69"
+ ],
+ "dimension-cut": [
+  "#3f00be",
+  "#5400ff",
+  "#5dbe2c"
+ ],
+ "dimension-storm": [
+  "#bd3bff",
+  "#be003f",
+  "#7e00be"
+ ],
+ "dinosaur-break": [
+  "#3b7cff",
+  "#be3f00",
+  "#003fbe"
+ ],
+ "disaster-break": [
+  "#bea26b",
+  "#ffda90",
+  "#6bbe6b"
  ],
  "divine-arrow": [
   "#2c8dbe",
@@ -256,6 +837,14 @@
  "dog-run": [
   "#2c5dbe",
   "#be2c2c"
+ ],
+ "dohma-driller": [
+  "#be8d2c",
+  "#ffbd3b"
+ ],
+ "dokkan-train": [
+  "#be2c2c",
+  "#ff3b3b"
  ],
  "dokonjou-bat": [
   "#ffff3b",
@@ -276,10 +865,28 @@
   "#2c8dbe",
   "#da90ff"
  ],
+ "dolmega-pressure": [
+  "#be5d2c",
+  "#ffbd3b"
+ ],
+ "dolphanus-splash": [
+  "#2c8dbe",
+  "#3bffff"
+ ],
+ "doon-shout": [
+  "#ff7c3b",
+  "#be5d2c",
+  "#2c5dbe"
+ ],
  "doppelganger": [
   "#3b5a69",
   "#460069",
   "#87be6b"
+ ],
+ "dorouga-assault": [
+  "#be8d2c",
+  "#be2c2c",
+  "#ffbd3b"
  ],
  "double-cyclone": [
   "#184e69",
@@ -301,10 +908,30 @@
   "#be3f00",
   "#bdff3b"
  ],
+ "double-shot": [
+  "#ff3b3b",
+  "#be2cbe",
+  "#be8d2c"
+ ],
  "double-tornado": [
   "#ff5400",
   "#00a9ff",
   "#be0000"
+ ],
+ "doublehead-eagle": [
+  "#90ffff",
+  "#2c8dbe",
+  "#ffff90"
+ ],
+ "doukasen": [
+  "#ff5400",
+  "#be5d2c",
+  "#2c8dbe"
+ ],
+ "dragnova-strike": [
+  "#3f00be",
+  "#5400ff",
+  "#3bbdff"
  ],
  "dragon-cannon": [
   "#be2c2c",
@@ -321,10 +948,20 @@
   "#ff7c3b",
   "#3bff3b"
  ],
+ "dragon-s-tail": [
+  "#ffff00",
+  "#ff5400",
+  "#003fbe"
+ ],
  "dragon-slayer": [
   "#3b7cff",
   "#2c5dbe",
   "#ff5400"
+ ],
+ "dragon-storm": [
+  "#0000be",
+  "#0000ff",
+  "#2c8dbe"
  ],
  "dragon-tornado": [
   "#2c5dbe",
@@ -340,6 +977,11 @@
   "#2c8dbe",
   "#8dbe2c"
  ],
+ "dual-smash": [
+  "#2c5dbe",
+  "#ff7c3b",
+  "#be5d2c"
+ ],
  "dual-storm": [
   "#ff7c3b",
   "#be5d2c",
@@ -349,6 +991,16 @@
   "#2c8dbe",
   "#ffff3b",
   "#bebe2c"
+ ],
+ "dust-javelin": [
+  "#bea26b",
+  "#3b5a69",
+  "#695a3b"
+ ],
+ "dynamic-corona": [
+  "#3b7cff",
+  "#ffff3b",
+  "#ff5400"
  ],
  "dynamite-shoot": [
   "#be5d2c",
@@ -372,15 +1024,65 @@
   "#be8d2c",
   "#2cbe5d"
  ],
+ "elegant-blade": [
+  "#183369",
+  "#2c8dbe",
+  "#9090ff"
+ ],
+ "elephant-press": [
+  "#ff5400",
+  "#ffff3b",
+  "#2c5dbe"
+ ],
+ "empire-shield": [
+  "#ff5400",
+  "#be5d2c",
+  "#2c5dbe"
+ ],
+ "empress-shadow": [
+  "#7e00be",
+  "#be5d2c",
+  "#be2c5d"
+ ],
+ "endeavor-run": [
+  "#183369",
+  "#ffda90",
+  "#bea26b"
+ ],
+ "endless-summer": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
  "eternal-blizzard": [
   "#3b5a69",
   "#6ba2be",
   "#90daff"
  ],
+ "evolution": [
+  "#3bffff",
+  "#be8d2c",
+  "#2c5dbe"
+ ],
  "excalibur": [
   "#2cbebe",
   "#3b5a69",
   "#ffda90"
+ ],
+ "excellent-breast": [
+  "#ff7c3b",
+  "#be5d2c",
+  "#2c5dbe"
+ ],
+ "extend-zone": [
+  "#7e00be",
+  "#ff3bff",
+  "#8dbe2c"
+ ],
+ "extreme-rabbit": [
+  "#3b5a69",
+  "#ffda90",
+  "#be8d2c"
  ],
  "fake-ball": [
   "#3b5a69",
@@ -392,6 +1094,20 @@
   "#ffff3b",
   "#ff5400"
  ],
+ "falco-wing": [
+  "#00ff55",
+  "#00be3f"
+ ],
+ "fatal-lift": [
+  "#2c5dbe",
+  "#be5d2c",
+  "#be2c8d"
+ ],
+ "fence-of-gaia": [
+  "#be8d2c",
+  "#ffbd3b",
+  "#2c8dbe"
+ ],
  "fire-blizzard": [
   "#2c8dbe",
   "#ff5400",
@@ -402,10 +1118,35 @@
   "#ff5400",
   "#00a9ff"
  ],
+ "fire-lemonade": [
+  "#8dbe2c",
+  "#ffbd3b",
+  "#bdff3b"
+ ],
+ "fire-lemonade-rising": [
+  "#ffff3b",
+  "#8dbe2c",
+  "#7cff3b"
+ ],
  "fire-tornado": [
   "#ff5400",
   "#be5d2c",
   "#ffff3b"
+ ],
+ "fire-tornado-dd": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "fire-tornado-tc": [
+  "#ff5400",
+  "#be0000",
+  "#ffff00"
+ ],
+ "fire-wall": [
+  "#ffaa00",
+  "#be8d2c",
+  "#2c5dbe"
  ],
  "flame-dance": [
   "#ffaa00",
@@ -417,10 +1158,50 @@
   "#be3f00",
   "#ffff3b"
  ],
+ "flamey-mirage": [
+  "#ffbd3b",
+  "#be2c2c",
+  "#bebe2c"
+ ],
+ "flash-dance": [
+  "#be5d2c",
+  "#2c5dbe"
+ ],
  "flash-upper": [
   "#be8d2c",
   "#ffff3b",
   "#ff7c3b"
+ ],
+ "flying-fish": [
+  "#007ebe",
+  "#3bffff"
+ ],
+ "flying-marlin": [
+  "#007ebe",
+  "#00ffff"
+ ],
+ "footwork-draw": [
+  "#be5d2c",
+  "#2c5dbe"
+ ],
+ "fortissimo": [
+  "#2c8dbe",
+  "#3bffff",
+  "#7c3bff"
+ ],
+ "fox-mirage": [
+  "#ffbd3b",
+  "#2c5dbe"
+ ],
+ "fractal-house": [
+  "#be0000",
+  "#3f00be",
+  "#be8d2c"
+ ],
+ "franken-shu-tein": [
+  "#3bffbd",
+  "#2cbe8d",
+  "#be3f00"
  ],
  "freeze-shot": [
   "#3b5a69",
@@ -432,13 +1213,36 @@
   "#90daff",
   "#2c5dbe"
  ],
+ "fukurou-steal": [
+  "#be8d2c",
+  "#ffbd3b"
+ ],
  "full-power-shield": [
   "#ffbd3b",
   "#be5d2c"
  ],
+ "future-eye": [
+  "#00be7e",
+  "#3bffbd"
+ ],
  "fuujin-no-mai": [
   "#2c8dbe",
   "#3bbdff"
+ ],
+ "fuujin-raijin": [
+  "#3bffbd",
+  "#ff3b3b",
+  "#ffff3b"
+ ],
+ "fuujin-raijin-ghost": [
+  "#3bffbd",
+  "#ff3b3b",
+  "#be2cbe"
+ ],
+ "fuurinkazan-destroyer": [
+  "#ff5400",
+  "#5d2cbe",
+  "#ffff3b"
  ],
  "fuusen-gum": [
   "#2c5dbe",
@@ -450,29 +1254,118 @@
   "#be5d2c",
   "#ff7c3b"
  ],
+ "galactica-fall": [
+  "#2c5dbe",
+  "#3b7cff",
+  "#5d2cbe"
+ ],
  "galatyn": [
   "#3b5a69",
   "#ffda90",
   "#6ba2be"
+ ],
+ "gallop-buster": [
+  "#3bbdff",
+  "#5d2cbe",
+  "#2c5dbe"
+ ],
+ "gamma-strike": [
+  "#ffff3b",
+  "#ff7c3b",
+  "#be5d2c"
+ ],
+ "gandran-crusher": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#2c5dbe"
  ],
  "ganymede-proton": [
   "#5400ff",
   "#5d2cbe",
   "#3b7cff"
  ],
+ "garyuu-bounce": [
+  "#184e69",
+  "#bea26b",
+  "#4a3b69"
+ ],
+ "gauss-shot": [
+  "#be2c8d",
+  "#2c5dbe"
+ ],
+ "gear-drive": [
+  "#be8d2c",
+  "#007ebe"
+ ],
+ "gekirin-dunk": [
+  "#90ffff",
+  "#2c8dbe",
+  "#3b5a69"
+ ],
+ "gekkoumaru-tsubame-gaeshi": [
+  "#2c5dbe",
+  "#be8d2c"
+ ],
+ "general-flag": [
+  "#ffaa00",
+  "#be8d2c"
+ ],
+ "ggg-senjou-no-aria": [
+  "#ffff90",
+  "#bea26b",
+  "#a2be6b"
+ ],
  "giant-spin": [
   "#be5d2c",
   "#ff7c3b"
+ ],
+ "gigabite-screw": [
+  "#2c8dbe",
+  "#3bbdff",
+  "#ff7c3b"
+ ],
+ "gigant-vine": [
+  "#bea26b",
+  "#3b5a69",
+  "#ffda90"
  ],
  "gigant-wall": [
   "#ffbd3b",
   "#00ffff",
   "#2c8dbe"
  ],
+ "gigantic-bomb": [
+  "#be5d2c",
+  "#ffbd3b"
+ ],
+ "gigaton-head": [
+  "#ffaa00",
+  "#be5d2c",
+  "#bebe2c"
+ ],
+ "gigiras-shield": [
+  "#8d2cbe",
+  "#7c3bff",
+  "#ffff3b"
+ ],
+ "ginga-rocket": [
+  "#2c5dbe",
+  "#3b7cff",
+  "#8dbe2c"
+ ],
+ "ginrou-strike": [
+  "#5400ff",
+  "#0000be",
+  "#5dbe2c"
+ ],
  "gladius-arch": [
   "#bebe6b",
   "#69693b",
   "#ffff90"
+ ],
+ "glorious-ray": [
+  "#2c8dbe",
+  "#3bbdff"
  ],
  "goal-zurashi": [
   "#be5d2c",
@@ -484,20 +1377,58 @@
   "#184e69",
   "#ffff90"
  ],
+ "god-cannon": [
+  "#ffff3b",
+  "#bebe2c",
+  "#2c5dbe"
+ ],
  "god-catch": [
   "#0054ff",
   "#ffbd3b",
   "#be3f00"
+ ],
+ "god-catch-ft": [
+  "#ffbd3b",
+  "#3b3bff",
+  "#be5d2c"
+ ],
+ "god-fingers": [
+  "#ffbd3b",
+  "#be8d2c"
  ],
  "god-hand": [
   "#ffff3b",
   "#ff7c3b",
   "#be5d2c"
  ],
+ "god-hand-ev": [
+  "#ffff3b",
+  "#be5d2c",
+  "#ff5400"
+ ],
+ "god-hand-fire": [
+  "#ffff3b",
+  "#ff7c3b",
+  "#be5d2c"
+ ],
+ "god-hand-tiger": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#bdff3b"
+ ],
  "god-hand-triple": [
   "#ffbd3b",
   "#be5d2c",
   "#8dbe2c"
+ ],
+ "god-hand-v": [
+  "#ffff00",
+  "#ff5400",
+  "#be5d2c"
+ ],
+ "god-hand-w": [
+  "#ffaa00",
+  "#be8d2c"
  ],
  "god-hand-wood": [
   "#ffff3b",
@@ -514,15 +1445,49 @@
   "#3b5a69",
   "#6bbea2"
  ],
+ "god-knows-impact": [
+  "#ffff90",
+  "#2c8dbe",
+  "#bebe6b"
+ ],
+ "god-wind": [
+  "#3bffbd",
+  "#2cbe8d",
+  "#ffbd3b"
+ ],
+ "gold-fever": [
+  "#2c5dbe",
+  "#be8d2c",
+  "#ffbd3b"
+ ],
+ "goliger-assault": [
+  "#be8d2c",
+  "#ffbd3b"
+ ],
  "good-smell": [
   "#ff90ff",
   "#be6bbe",
   "#6ba2be"
  ],
+ "gooma-inferno": [
+  "#ff3b3b",
+  "#be2c2c",
+  "#ffff00"
+ ],
  "gorimuchuu": [
   "#bea26b",
   "#ffda90",
   "#3b5a69"
+ ],
+ "gou-no-issen": [
+  "#ff0055",
+  "#be003f",
+  "#ff7c3b"
+ ],
+ "gouryuu-swing": [
+  "#be5d2c",
+  "#ffff90",
+  "#690000"
  ],
  "gran-fenrir": [
   "#2c5dbe",
@@ -532,6 +1497,11 @@
   "#ffaa00",
   "#2c5dbe",
   "#ff0000"
+ ],
+ "grand-sweeper": [
+  "#3b5a69",
+  "#a2be6b",
+  "#ffff90"
  ],
  "gravestone": [
   "#bea26b",
@@ -543,19 +1513,68 @@
   "#2c8dbe",
   "#3b7cff"
  ],
+ "gravity-cage": [
+  "#3b7cff",
+  "#2c5dbe",
+  "#3f00be"
+ ],
+ "gravity-desert": [
+  "#bea26b",
+  "#ffda90",
+  "#3b5a69"
+ ],
+ "gravity-point": [
+  "#003fbe",
+  "#5d2cbe",
+  "#bebe2c"
+ ],
  "great-barrier-reef": [
   "#2c8dbe",
   "#3bbdff"
+ ],
+ "great-blaster": [
+  "#2c5dbe",
+  "#00a9ff"
+ ],
+ "great-max-na-ore": [
+  "#ff5400",
+  "#be8d2c",
+  "#2c5dbe"
+ ],
+ "great-the-hand": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#ff0000"
  ],
  "grenade-shot": [
   "#2cbebe",
   "#be3f00",
   "#3bffff"
  ],
+ "grimron-shield": [
+  "#ffbd3b",
+  "#3b5a69",
+  "#6ba2be"
+ ],
+ "grizzly-press": [
+  "#bea26b",
+  "#ffda90",
+  "#4a693b"
+ ],
  "ground-quake": [
   "#be0000",
   "#be8d2c",
   "#ff3b3b"
+ ],
+ "gryphbang-press": [
+  "#ffda90",
+  "#bea26b",
+  "#4a693b"
+ ],
+ "guardian-shield": [
+  "#2c8dbe",
+  "#5d2cbe",
+  "#be5d2c"
  ],
  "gungnir": [
   "#5d2cbe",
@@ -567,10 +1586,44 @@
   "#ffff3b",
   "#ff7c3b"
  ],
+ "guruguru-shoot": [
+  "#2c5dbe",
+  "#183369",
+  "#6bbea2"
+ ],
+ "gussphee-bomb": [
+  "#3b5a69",
+  "#be876b",
+  "#a2be6b"
+ ],
+ "gyorom-claw": [
+  "#2c5dbe",
+  "#be5d2c",
+  "#ff7c3b"
+ ],
+ "gyro-saving": [
+  "#ffff3b",
+  "#be5d2c"
+ ],
+ "hakai-danmaku": [
+  "#ff5400",
+  "#be5d2c",
+  "#003fbe"
+ ],
+ "hakutouwashi-glide": [
+  "#3b5a69",
+  "#bea26b",
+  "#90ffff"
+ ],
  "hanafubuki": [
   "#183369",
   "#3b6969",
   "#6ba2be"
+ ],
+ "harmonics": [
+  "#3bffff",
+  "#2cbebe",
+  "#003fbe"
  ],
  "harvest": [
   "#3b5a69",
@@ -582,6 +1635,31 @@
   "#2c8dbe",
   "#694a3b"
  ],
+ "hayabusa-gaeshi": [
+  "#184e69",
+  "#6b87be",
+  "#9090ff"
+ ],
+ "hayabusa-glide": [
+  "#3b5a69",
+  "#6ba2be",
+  "#90ffff"
+ ],
+ "head-bazooka": [
+  "#ffff00",
+  "#ff0000",
+  "#be8d2c"
+ ],
+ "heart-rapier": [
+  "#ff90b5",
+  "#be6b87",
+  "#2c5dbe"
+ ],
+ "heart-rapier-earth": [
+  "#ff90b5",
+  "#be6b87",
+  "#2c5dbe"
+ ],
  "heaven-drive": [
   "#bea26b",
   "#ffff90",
@@ -592,23 +1670,75 @@
   "#3b5a69",
   "#6bbea2"
  ],
+ "heavy-aqua-lance": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
  "heavy-baby": [
   "#5d2cbe",
   "#be8d2c"
+ ],
+ "hell-s-fist": [
+  "#7e00be",
+  "#be007e",
+  "#ffaa00"
  ],
  "hellfire": [
   "#ff5400",
   "#ffff00",
   "#be2c2c"
  ],
+ "hidaruma-bakunetsudan": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "high-beast-fang": [
+  "#ff5400",
+  "#00ff00",
+  "#be3f00"
+ ],
  "high-voltage": [
   "#ff5400",
   "#be3f00",
   "#3bbdff"
  ],
+ "hinawa-bullet": [
+  "#ff5400",
+  "#be5d2c"
+ ],
+ "hissatsu-kumagoroshi-baku": [
+  "#be0000",
+  "#be8d2c",
+  "#ff3bbd"
+ ],
+ "hissatsu-kumagoroshi-zan": [
+  "#be0000",
+  "#ff0055",
+  "#ff3bff"
+ ],
+ "hisshou-gamusharan": [
+  "#00ffa9",
+  "#2cbe8d",
+  "#be2c2c"
+ ],
  "hitori-one-two": [
   "#be5d2c",
   "#2c8dbe"
+ ],
+ "hitotsu": [
+  "#ff7c3b",
+  "#ffff3b",
+  "#be5d2c"
+ ],
+ "hokkyoku-guma-2gou": [
+  "#2c8dbe",
+  "#be8d2c"
+ ],
+ "hologram-lock": [
+  "#3bffff",
+  "#2cbe8d",
+  "#be8d2c"
  ],
  "holy-zone": [
   "#3b5a69",
@@ -624,6 +1754,25 @@
   "#2c8dbe",
   "#be5d2c"
  ],
+ "horse-sprint": [
+  "#be876b",
+  "#183369",
+  "#2c8dbe"
+ ],
+ "houou-rekka": [
+  "#ff5400",
+  "#ffff3b",
+  "#2c5dbe"
+ ],
+ "hunter-s-net": [
+  "#ff3bbd",
+  "#be2c5d"
+ ],
+ "hunting-lance": [
+  "#ffaa00",
+  "#be5d2c",
+  "#be2c5d"
+ ],
  "hurricane-arrow": [
   "#ffda90",
   "#bea26b",
@@ -633,6 +1782,20 @@
   "#be2c2c",
   "#8dbe2c",
   "#2c5dbe"
+ ],
+ "hydro-anchor": [
+  "#2c8dbe",
+  "#ff7c3b",
+  "#be2c2c"
+ ],
+ "hyouketsu-no-gungnir": [
+  "#2c8dbe",
+  "#2c2cbe",
+  "#be2c8d"
+ ],
+ "hyouketsu-no-mai": [
+  "#be5d2c",
+  "#ffbd3b"
  ],
  "ice-block": [
   "#183369",
@@ -644,6 +1807,15 @@
   "#3b5a69",
   "#6ba2be"
  ],
+ "ichiyajou": [
+  "#be5d2c",
+  "#2c5dbe"
+ ],
+ "icicle-road": [
+  "#6b87be",
+  "#90ffff",
+  "#876bbe"
+ ],
  "ijigen-the-hand": [
   "#ffaa00",
   "#2c8dbe"
@@ -653,25 +1825,68 @@
   "#be2c2c",
   "#ffff3b"
  ],
+ "inabikari-dash": [
+  "#ffff3b",
+  "#2c8dbe",
+  "#be5d2c"
+ ],
  "inazuma-1gou": [
   "#2c8dbe",
   "#ffff3b",
   "#ff7c3b"
+ ],
+ "inazuma-1gou-otoshi": [
+  "#2c5dbe",
+  "#be2c2c",
+  "#2cbebe"
  ],
  "inazuma-break": [
   "#2c8dbe",
   "#7e00be",
   "#ffff3b"
  ],
+ "inazuma-break-cg": [
+  "#3bbdff",
+  "#2c5dbe",
+  "#7e00be"
+ ],
  "inazuma-otoshi": [
   "#007ebe",
   "#183369",
   "#90ffff"
  ],
+ "injection": [
+  "#00ff00",
+  "#aaff00",
+  "#3bffff"
+ ],
+ "innocent-drive": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
  "iron-wall": [
   "#bea26b",
   "#ffda90",
   "#4a693b"
+ ],
+ "ivory-crash": [
+  "#ff0000",
+  "#ffbd3b",
+  "#2c5dbe"
+ ],
+ "ixaal-cannon": [
+  "#7e00be",
+  "#aa00ff",
+  "#2c8dbe"
+ ],
+ "jackknife": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
+ "jet-stream": [
+  "#3bbdff",
+  "#ffbd3b",
+  "#2c5dbe"
  ],
  "jibashiri-kaen": [
   "#ff5400",
@@ -688,10 +1903,34 @@
   "#ff7c3b",
   "#3bffff"
  ],
+ "jinryuu-bounce": [
+  "#8dbe2c",
+  "#ffbd3b"
+ ],
+ "joker-rains": [
+  "#5d2cbe",
+  "#3bffff",
+  "#007ebe"
+ ],
+ "judgment-ray": [
+  "#ffff3b",
+  "#ff7c3b",
+  "#be2c5d"
+ ],
  "jumping-thunder": [
   "#2cbe8d",
   "#be8d2c",
   "#be2c2c"
+ ],
+ "justice-wing": [
+  "#003fbe",
+  "#be003f",
+  "#00a9ff"
+ ],
+ "kabuki-break": [
+  "#2c5dbe",
+  "#ffaa00",
+  "#3fbe00"
  ],
  "kaenhousha": [
   "#ff7c3b",
@@ -703,8 +1942,17 @@
   "#8dbe2c",
   "#ff90da"
  ],
+ "kage-tsukami": [
+  "#ffff3b",
+  "#be8d2c",
+  "#2c8dbe"
+ ],
  "kagome-kagome": [
   "#be8d2c",
+  "#2c8dbe"
+ ],
+ "kaijin-the-quake": [
+  "#3bbdff",
   "#2c8dbe"
  ],
  "kamaitachi": [
@@ -717,14 +1965,47 @@
   "#aa00ff",
   "#be8d2c"
  ],
+ "kamoshika-cabriole": [
+  "#3b7cff",
+  "#2c5dbe"
+ ],
  "kangaroo-kick": [
   "#be5d2c",
   "#ff7c3b",
   "#bebe2c"
  ],
+ "kazaana-drive": [
+  "#90ffb5",
+  "#183369",
+  "#2c8dbe"
+ ],
+ "kazangan": [
+  "#bea26b",
+  "#3b5a69",
+  "#a2be6b"
+ ],
+ "kazanrai": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff00"
+ ],
+ "kiku-ichimonji": [
+  "#ffbd3b",
+  "#be5d2c"
+ ],
+ "kill-bridge": [
+  "#3f00be",
+  "#ffaa00",
+  "#2c5dbe"
+ ],
  "killer-blade": [
   "#00a9ff",
   "#2c8dbe"
+ ],
+ "killer-elbow": [
+  "#3b5a69",
+  "#2c5dbe",
+  "#6bbea2"
  ],
  "killer-fields": [
   "#bd3bff",
@@ -734,9 +2015,62 @@
   "#ffbd3b",
   "#2c5dbe"
  ],
+ "killer-whale": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
+ "king-fire": [
+  "#ff7c3b",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "king-s-lance": [
+  "#00a9ff",
+  "#003fbe",
+  "#be5d2c"
+ ],
+ "kirakira-illusion": [
+  "#3bffff",
+  "#8dbe2c",
+  "#be2c2c"
+ ],
+ "kodai-no-kiba": [
+  "#3f00be",
+  "#be5d2c",
+  "#ff0000"
+ ],
+ "kodai-no-tsubasa": [
+  "#2c8dbe",
+  "#184e69",
+  "#90daff"
+ ],
  "kogarashi": [
   "#ff7c3b",
   "#be5d2c"
+ ],
+ "kogetsu-juujishou": [
+  "#ffaa00",
+  "#8d2cbe",
+  "#be2c8d"
+ ],
+ "konoha-rendezvous": [
+  "#8dbe2c",
+  "#2cbe2c"
+ ],
+ "koori-no-ya": [
+  "#2c5dbe",
+  "#3b5a69",
+  "#90daff"
+ ],
+ "koori-no-yari": [
+  "#183369",
+  "#6b87be",
+  "#90daff"
+ ],
+ "kourin-no-ya": [
+  "#be5d2c",
+  "#ff7c3b",
+  "#ffff3b"
  ],
  "koutei-penguin-1gou": [
   "#ff5400",
@@ -748,13 +2082,28 @@
   "#2c5dbe",
   "#ffff3b"
  ],
+ "koutei-penguin-2gou-feat-shark": [
+  "#2c5dbe",
+  "#7c3bff",
+  "#3b7cff"
+ ],
  "koutei-penguin-3gou": [
   "#7e00be",
   "#bd3bff",
   "#5dbe2c"
  ],
+ "koutei-penguin-7": [
+  "#ffff3b",
+  "#2c8dbe",
+  "#3bff7c"
+ ],
  "koutei-penguin-x": [
   "#ff0000",
+  "#be5d2c"
+ ],
+ "kujaku-blind": [
+  "#ff7c3b",
+  "#2c5dbe",
   "#be5d2c"
  ],
  "kumo-no-ito": [
@@ -772,28 +2121,156 @@
   "#ff3b7c",
   "#be2c5d"
  ],
+ "kuroshio-ride": [
+  "#183369",
+  "#6ba2be",
+  "#be876b"
+ ],
  "kurukuru-head": [
   "#2c8dbe",
   "#be8d2c"
  ],
+ "kyoubou-head": [
+  "#ff3b3b",
+  "#2c5dbe",
+  "#be0000"
+ ],
+ "la-flamme": [
+  "#ff5400",
+  "#ffff00",
+  "#be3f00"
+ ],
+ "last-death-zone": [
+  "#7e00be",
+  "#003fbe",
+  "#ff5400"
+ ],
+ "last-resort": [
+  "#be2c2c",
+  "#ff3b3b",
+  "#2c5dbe"
+ ],
+ "last-resort-d": [
+  "#ff3bff",
+  "#8d2cbe",
+  "#be2c8d"
+ ],
+ "last-resort-neutral": [
+  "#be2c2c",
+  "#ff3b3b",
+  "#2c5dbe"
+ ],
  "liar-shot": [
   "#2c5dbe",
   "#be5d2c"
+ ],
+ "linear-drive": [
+  "#ff3b3b",
+  "#2c8dbe"
+ ],
+ "lion-assault": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#2c8dbe"
+ ],
+ "liquid-flow": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
+ "lost-angel": [
+  "#ff7c3b",
+  "#5d2cbe",
+  "#ffff3b"
+ ],
+ "love-arrow": [
+  "#ff3bff",
+  "#ff3b7c",
+  "#be2c8d"
+ ],
+ "loyal-heart-shot": [
+  "#ff0000",
+  "#be2c2c",
+  "#be8d2c"
+ ],
+ "lucky-dice": [
+  "#3bffbd",
+  "#ffaa00",
+  "#2cbe8d"
+ ],
+ "luminous-impact": [
+  "#3bffbd",
+  "#ffff90",
+  "#b5ff90"
  ],
  "maboroshi-dribble": [
   "#8dbe2c",
   "#3f00be",
   "#bdff3b"
  ],
+ "maboroshi-shot": [
+  "#3bffff",
+  "#2cbebe",
+  "#3f00be"
+ ],
+ "macaroni-spaghetti": [
+  "#ff7c3b",
+  "#be5d2c",
+  "#8dbe2c"
+ ],
+ "mach-wind": [
+  "#183369",
+  "#6ba2be",
+  "#87be6b"
+ ],
+ "machine-gun-beat": [
+  "#00a9ff",
+  "#ff7c3b",
+  "#be5d2c"
+ ],
  "mad-express": [
   "#be2c2c",
   "#ff7c3b",
   "#be8d2c"
  ],
+ "mad-juggler": [
+  "#ff0000",
+  "#be0000",
+  "#ffbd3b"
+ ],
  "magic": [
   "#3b5a69",
   "#2c5dbe",
   "#87be6b"
+ ],
+ "magic-amp": [
+  "#183369",
+  "#3bff7c",
+  "#6b87be"
+ ],
+ "magical-flower": [
+  "#be5d2c",
+  "#ff90b5",
+  "#b5ff90"
+ ],
+ "magician-s-box": [
+  "#2c8dbe",
+  "#ff3bbd",
+  "#5d2cbe"
+ ],
+ "magma-carpet": [
+  "#ff5400",
+  "#be3f00",
+  "#2c5dbe"
+ ],
+ "magnatas-pressure": [
+  "#be5d2c",
+  "#ff7c3b",
+  "#ffff3b"
+ ],
+ "magnet-draw": [
+  "#2cbe5d",
+  "#ff3b3b",
+  "#003fbe"
  ],
  "majin-the-hand": [
   "#be5d2c",
@@ -803,9 +2280,29 @@
   "#be5d2c",
   "#ff7c3b"
  ],
+ "majin-the-wave": [
+  "#3bbdff",
+  "#2c5dbe",
+  "#2cbebe"
+ ],
  "makiwari-chop": [
   "#be5d2c",
   "#ffbd3b"
+ ],
+ "mammoth-pressure": [
+  "#2c8dbe",
+  "#ffff3b",
+  "#3bffff"
+ ],
+ "mangetsu-rush": [
+  "#003fbe",
+  "#3bbdff",
+  "#8dbe2c"
+ ],
+ "maou-no-ono": [
+  "#8dbe2c",
+  "#be007e",
+  "#bdff3b"
  ],
  "maou-the-hand": [
   "#7e00be",
@@ -817,6 +2314,16 @@
   "#ff3b3b",
   "#ffff3b"
  ],
+ "matrix-eye": [
+  "#2c5dbe",
+  "#3bbdff",
+  "#2cbe8d"
+ ],
+ "maximum-circus": [
+  "#bdff3b",
+  "#ff3bbd",
+  "#2c5dbe"
+ ],
  "maximum-fire": [
   "#ff5400",
   "#ffff3b",
@@ -827,10 +2334,20 @@
   "#3b5a69",
   "#bea26b"
  ],
+ "mega-wall": [
+  "#183369",
+  "#6ba2be",
+  "#ffaa00"
+ ],
  "megalodon": [
   "#0000ff",
   "#3bbdff",
   "#ffff00"
+ ],
+ "megami-tairiku": [
+  "#ffda90",
+  "#3bbdff",
+  "#b5ff90"
  ],
  "megane-crash": [
   "#2c8dbe",
@@ -841,9 +2358,48 @@
   "#ffbd3b",
   "#be5d2c"
  ],
+ "meikyou-shisui": [
+  "#3bbdff",
+  "#2c8dbe",
+  "#ffff3b"
+ ],
+ "melody-wave": [
+  "#ffff3b",
+  "#0000be"
+ ],
+ "mermaid-smash": [
+  "#184e69",
+  "#6ba2be",
+  "#6bbe87"
+ ],
+ "mermaid-veil": [
+  "#3bbdff",
+  "#003fbe",
+  "#ffff3b"
+ ],
+ "metal-hammer": [
+  "#3b5a69",
+  "#bea26b",
+  "#ffda90"
+ ],
+ "meteodd-fire-tornado": [
+  "#ff5400",
+  "#be0000",
+  "#ffff00"
+ ],
+ "meteodd-fire-tornado-v": [
+  "#ff5400",
+  "#be0000",
+  "#ffff3b"
+ ],
  "meteor-attack": [
   "#ff7c3b",
   "#be5d2c"
+ ],
+ "meteor-drop": [
+  "#2c5dbe",
+  "#ffff3b",
+  "#ff3bbd"
  ],
  "meteor-shower": [
   "#2c8dbe",
@@ -855,9 +2411,18 @@
   "#ff7c3b",
   "#ffff3b"
  ],
+ "mimizuku-steal": [
+  "#2c8dbe",
+  "#183369",
+  "#be6b87"
+ ],
  "mirage-shoot": [
   "#ff5400",
   "#be7e00"
+ ],
+ "mochimochi-kinako-mochi": [
+  "#ffbd3b",
+  "#be3f00"
  ],
  "mogura-feint": [
   "#be8d2c",
@@ -869,6 +2434,16 @@
   "#bea26b",
   "#a2be6b"
  ],
+ "moja-catch": [
+  "#5d2cbe",
+  "#bebe2c",
+  "#ffff3b"
+ ],
+ "mokkori-oka-no-moai": [
+  "#183369",
+  "#bea26b",
+  "#693b5a"
+ ],
  "monkey-turn": [
   "#2c8dbe",
   "#be8d2c"
@@ -878,6 +2453,31 @@
   "#2c8dbe",
   "#6bbea2"
  ],
+ "moonsault-stamp": [
+  "#2c8dbe",
+  "#be5d2c",
+  "#ffff00"
+ ],
+ "mortal-smash": [
+  "#3bffff",
+  "#be5d2c",
+  "#2c8dbe"
+ ],
+ "mossphee-burst": [
+  "#3b5a69",
+  "#b590ff",
+  "#6ba2be"
+ ],
+ "muei-ranbu": [
+  "#2c8dbe",
+  "#be8d2c",
+  "#ffbd3b"
+ ],
+ "muei-souha": [
+  "#007ebe",
+  "#3bbdff",
+  "#2c2cbe"
+ ],
  "mugen-no-kabe": [
   "#ffaa00",
   "#2c5dbe"
@@ -886,6 +2486,25 @@
   "#ffff3b",
   "#007ebe",
   "#00ffff"
+ ],
+ "murakumo-trap": [
+  "#2c8dbe",
+  "#8d2cbe",
+  "#bd3bff"
+ ],
+ "mushroom-hop": [
+  "#ff3b3b",
+  "#5dbe2c",
+  "#2c8dbe"
+ ],
+ "mystic-thorn": [
+  "#690069",
+  "#6ba2be",
+  "#0000be"
+ ],
+ "naminori-pierrot": [
+  "#0054ff",
+  "#2c8dbe"
  ],
  "needle-hammer": [
   "#00a9ff",
@@ -902,15 +2521,34 @@
   "#be8d2c",
   "#ffff3b"
  ],
+ "neo-galaxy": [
+  "#ffaa00",
+  "#be5d2c",
+  "#2c5dbe"
+ ],
+ "niagara-falls": [
+  "#3bbdff",
+  "#2c5dbe"
+ ],
  "ninin-sankyaku": [
   "#2c5dbe",
   "#be8d2c",
   "#ffff00"
  ],
+ "ninpou-gamagaeru": [
+  "#3b7cff",
+  "#8d2cbe",
+  "#2c5dbe"
+ ],
  "no-escape": [
   "#be8d2c",
   "#ffda90",
   "#693318"
+ ],
+ "nobori-ryuu": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#3bffbd"
  ],
  "noroi": [
   "#be003f",
@@ -926,6 +2564,34 @@
   "#be8d2c",
   "#00a9ff"
  ],
+ "ogre-blade": [
+  "#ff00aa",
+  "#be007e",
+  "#be8d2c"
+ ],
+ "oil-rush": [
+  "#ffaa00",
+  "#bebe2c"
+ ],
+ "okan-the-hand": [
+  "#ffff3b",
+  "#be5d2c",
+  "#ff7c3b"
+ ],
+ "okehazama-wall": [
+  "#690000",
+  "#ffda90",
+  "#bea26b"
+ ],
+ "olympus-harmony": [
+  "#a2be6b",
+  "#3b4a69",
+  "#6ba2be"
+ ],
+ "omega-attack": [
+  "#7e00be",
+  "#3bffff"
+ ],
  "omega-the-hand": [
   "#ffbd3b",
   "#be8d2c",
@@ -935,42 +2601,188 @@
   "#7e00be",
   "#8dbe2c"
  ],
+ "ookami-strike": [
+  "#be5d2c",
+  "#5400ff",
+  "#0000be"
+ ],
  "oouchiwa": [
   "#000069",
   "#ffda90",
   "#be5d2c"
+ ],
+ "oraora-menchi": [
+  "#183369",
+  "#bea26b",
+  "#3b695a"
+ ],
+ "oraora-shikofumi": [
+  "#be2c2c",
+  "#ff3b3b"
+ ],
+ "orbital-drive": [
+  "#2c8dbe",
+  "#00a9ff",
+  "#bd3bff"
+ ],
+ "orion-crossviper": [
+  "#ff3bbd",
+  "#8d2cbe",
+  "#be2c8d"
+ ],
+ "ou-no-tsurugi": [
+  "#2c8dbe",
+  "#3bbdff"
+ ],
+ "ouja-no-kiba": [
+  "#be0000",
+  "#003fbe",
+  "#0000ff"
+ ],
+ "ouke-no-tate": [
+  "#ffff3b",
+  "#ff3b3b"
+ ],
+ "outer-world": [
+  "#3bff3b",
+  "#ff7c3b",
+  "#00be00"
+ ],
+ "overcyclone": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
+ "overdrive": [
+  "#2c8dbe",
+  "#3bffff"
+ ],
+ "overglow": [
+  "#be5d2c",
+  "#2c8dbe"
+ ],
+ "overhead-penguin": [
+  "#aa00ff",
+  "#be2c2c",
+  "#ff7c3b"
+ ],
+ "overhead-penguin-wood": [
+  "#aa00ff",
+  "#be2c2c",
+  "#ff7c3b"
  ],
  "paladin-strike": [
   "#003fbe",
   "#be5d2c",
   "#2cbebe"
  ],
+ "pamerio-cabriole": [
+  "#3b7cff",
+  "#3b5a69",
+  "#6b87be"
+ ],
+ "panther-blizzard": [
+  "#2c2cbe",
+  "#3b3bff",
+  "#2c8dbe"
+ ],
+ "parkour-attack": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
  "patriot-shoot": [
   "#2c8dbe",
   "#ffbd3b",
   "#be5d2c"
  ],
+ "pegasus-brave": [
+  "#90daff",
+  "#3b5a69",
+  "#ff90b5"
+ ],
+ "pegasus-break": [
+  "#003fbe",
+  "#be0000",
+  "#00ffff"
+ ],
+ "pegasus-red-brave": [
+  "#be2c2c",
+  "#3b5a69",
+  "#ff9090"
+ ],
  "pegasus-shot": [
   "#2c8dbe",
   "#00ffff"
+ ],
+ "pelion-whip": [
+  "#3bffff",
+  "#bd3bff"
+ ],
+ "penguin-the-god-devil": [
+  "#ffff3b",
+  "#8dbe2c",
+  "#ff3b3b"
+ ],
+ "penguin-the-hand": [
+  "#be0000",
+  "#ff7c3b",
+  "#ffff3b"
+ ],
+ "penguin-the-parade": [
+  "#2c8dbe",
+  "#ffff3b",
+  "#ff3bff"
+ ],
+ "perfect-course": [
+  "#2cbe8d",
+  "#ff0000",
+  "#3bffbd"
+ ],
+ "perfect-penguin": [
+  "#be8d2c",
+  "#ffbd3b",
+  "#8dbe2c"
  ],
  "perfect-tower": [
   "#be2c2c",
   "#00a9ff",
   "#2c5dbe"
  ],
+ "perseus-orb": [
+  "#90ffff",
+  "#6b87be",
+  "#183369"
+ ],
+ "phalanx": [
+  "#3b5a69",
+  "#ffda90",
+  "#2c5dbe"
+ ],
  "phantom-shoot": [
   "#2c5dbe",
   "#8d2cbe"
+ ],
+ "phoenichias-blind": [
+  "#ff3b7c",
+  "#3bffff"
  ],
  "photon-flash": [
   "#be5d2c",
   "#ff5400"
  ],
+ "planet-break": [
+  "#2c5dbe",
+  "#3bffff",
+  "#ff7c3b"
+ ],
  "planet-shield": [
   "#ff7c3b",
   "#5d2cbe",
   "#be3f00"
+ ],
+ "plasma-ball": [
+  "#2c8dbe",
+  "#ff3bff",
+  "#be2c5d"
  ],
  "power-charge": [
   "#ffbd3b",
@@ -980,10 +2792,19 @@
   "#ffff3b",
   "#be5d2c"
  ],
+ "power-spike": [
+  "#ff5400",
+  "#be3f00"
+ ],
  "pressure-punch": [
   "#be8d2c",
   "#2c5dbe",
   "#ff7c3b"
+ ],
+ "presto-turn": [
+  "#3b5a69",
+  "#181869",
+  "#bea26b"
  ],
  "prima-donna": [
   "#ff90ff",
@@ -1005,6 +2826,10 @@
   "#2c5dbe",
   "#2cbe5d"
  ],
+ "psychic-bow": [
+  "#2c5dbe",
+  "#8d2cbe"
+ ],
  "psycho-shot": [
   "#ffff00",
   "#ff5400",
@@ -1015,19 +2840,81 @@
   "#2c5dbe",
   "#6bbe6b"
  ],
+ "raging-claw": [
+  "#be8d2c",
+  "#2c5dbe"
+ ],
+ "rainbow-bubble-shot": [
+  "#2c5dbe",
+  "#be5d2c",
+  "#7e00be"
+ ],
  "rainbow-loop": [
   "#ffff3b",
   "#be5d2c",
   "#3bff7c"
  ],
+ "rapid-fire": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "rapid-whip": [
+  "#2c2cbe",
+  "#ff7c3b",
+  "#ffff00"
+ ],
+ "ratel-claw": [
+  "#2c5dbe",
+  "#3b6969",
+  "#87be6b"
+ ],
+ "rebound-layer": [
+  "#ffff3b",
+  "#3bffbd",
+  "#be5d2c"
+ ],
+ "red-break": [
+  "#ff5400",
+  "#ffff3b",
+  "#be5d2c"
+ ],
+ "red-hot-chili-meteor": [
+  "#ff5400",
+  "#be0000",
+  "#ffff3b"
+ ],
+ "red-prison": [
+  "#ff0000",
+  "#be0000",
+  "#7e00be"
+ ],
+ "redio-cabriole": [
+  "#3b7cff",
+  "#2c5dbe",
+  "#7e00be"
+ ],
  "reflect-buster": [
   "#ff5400",
   "#be5d2c"
+ ],
+ "rejection": [
+  "#ff0000",
+  "#be0000",
+  "#be8d2c"
  ],
  "reppuu-dash": [
   "#ff5400",
   "#be5d2c",
   "#2c8dbe"
+ ],
+ "requiem-dust": [
+  "#bd3bff",
+  "#3f00be"
+ ],
+ "reverse-world": [
+  "#2c8dbe",
+  "#be5d2c"
  ],
  "revolution-v": [
   "#ffbd3b",
@@ -1038,19 +2925,42 @@
   "#3b5a69",
   "#ff9090"
  ],
+ "rising-slash": [
+  "#ffff3b",
+  "#ff7c3b",
+  "#2c8dbe"
+ ],
  "roadroller-tackle": [
   "#bebe6b",
   "#3b5a69",
   "#ffff90"
+ ],
+ "rock-hammer": [
+  "#3b5a69",
+  "#bea26b",
+  "#693318"
+ ],
+ "rock-n-roll-beat": [
+  "#ff3b3b",
+  "#be2c2c"
  ],
  "rock-wall-dam": [
   "#ffbd3b",
   "#be5d2c",
   "#2c5dbe"
  ],
+ "rocket-head": [
+  "#ffff00",
+  "#2c2cbe",
+  "#be8d2c"
+ ],
  "rocket-kobushi": [
   "#ffaa00",
   "#be3f00",
+  "#2c8dbe"
+ ],
+ "rolling-cutter": [
+  "#be5d2c",
   "#2c8dbe"
  ],
  "rolling-kick": [
@@ -1066,9 +2976,18 @@
   "#ff3b7c",
   "#8dbe2c"
  ],
+ "round-spark": [
+  "#be5d2c",
+  "#ff7c3b"
+ ],
  "run-ball-run": [
   "#2c8dbe",
   "#3bffff"
+ ],
+ "ryuujin-tessen": [
+  "#ff7c3b",
+  "#ffff3b",
+  "#be3f00"
  ],
  "ryuusei-blade": [
   "#be003f",
@@ -1079,14 +2998,65 @@
   "#be5d2c",
   "#ffff3b"
  ],
+ "sacrifice": [
+  "#0054ff",
+  "#ffbd3b",
+  "#5d2cbe"
+ ],
  "safety-protect": [
   "#2c8dbe",
   "#3bbdff",
   "#00ff55"
  ],
+ "saikyou-eleven-hadou": [
+  "#ff3bff",
+  "#3bffff",
+  "#3bff7c"
+ ],
+ "saikyou-san-shoukan": [
+  "#be2cbe",
+  "#ffff3b",
+  "#be5d2c"
+ ],
+ "sand-cutter": [
+  "#be5d2c",
+  "#ff7c3b",
+  "#2c8dbe"
+ ],
+ "sand-knock": [
+  "#2c8dbe",
+  "#be8d2c"
+ ],
+ "saranarja-combo": [
+  "#ffff3b",
+  "#ff5400",
+  "#be5d2c"
+ ],
+ "sargasso": [
+  "#3bbdff",
+  "#2c8dbe"
+ ],
  "scissors-bomb": [
   "#ff0000",
   "#be2c2c"
+ ],
+ "scratch-raid": [
+  "#be2c2c",
+  "#ffff00",
+  "#ff7c3b"
+ ],
+ "scream-of-eden": [
+  "#8dbe2c",
+  "#ffbd3b"
+ ],
+ "screwdriver": [
+  "#2c2cbe",
+  "#ff5400",
+  "#00ffff"
+ ],
+ "second-life-hoop": [
+  "#2c8dbe",
+  "#3bbdff"
  ],
  "security-shot": [
   "#2c8dbe",
@@ -1098,10 +3068,39 @@
   "#ffbd3b",
   "#2c8dbe"
  ],
+ "seiken-kikkouha": [
+  "#7cff3b",
+  "#be8d2c",
+  "#5dbe2c"
+ ],
  "senpuujin": [
   "#3b5a69",
   "#6bbebe",
   "#87be6b"
+ ],
+ "serpent-fang": [
+  "#2c5dbe",
+  "#0054ff"
+ ],
+ "setsuna-boost": [
+  "#ff0000",
+  "#be2c2c",
+  "#8dbe2c"
+ ],
+ "shadow-guard": [
+  "#ff3b3b",
+  "#be2c2c",
+  "#2c8dbe"
+ ],
+ "shadow-hand": [
+  "#ff3b3b",
+  "#be2c2c",
+  "#8dbe2c"
+ ],
+ "shadow-leg": [
+  "#ff3b3b",
+  "#be2c2c",
+  "#003fbe"
  ],
  "shadow-ray": [
   "#be5d2c",
@@ -1113,6 +3112,26 @@
   "#2cbe8d",
   "#ffbd3b"
  ],
+ "shadow-sword": [
+  "#ff3b3b",
+  "#be2c2c",
+  "#003fbe"
+ ],
+ "shark-the-deep": [
+  "#2c5dbe",
+  "#3b7cff",
+  "#7c3bff"
+ ],
+ "shellbit-burst": [
+  "#ffff3b",
+  "#3bffbd",
+  "#2c8dbe"
+ ],
+ "shikigami-lines": [
+  "#ffff90",
+  "#3b5a69",
+  "#87be6b"
+ ],
  "shikofumi": [
   "#bea26b",
   "#3b5a69",
@@ -1123,19 +3142,61 @@
   "#be5d2c",
   "#5a693b"
  ],
+ "shining-bird": [
+  "#3b7cff",
+  "#ffff3b",
+  "#be3f00"
+ ],
+ "shining-hole": [
+  "#ff7c3b",
+  "#2c8dbe",
+  "#be5d2c"
+ ],
+ "shinjitsu-no-ooguchi": [
+  "#ffbd3b",
+  "#2c5dbe"
+ ],
  "shinkuuma": [
   "#5d2cbe",
   "#5400ff"
+ ],
+ "shiny-feather": [
+  "#2c8dbe",
+  "#3bffff",
+  "#3b3bff"
  ],
  "shippuu-dash": [
   "#3b5a69",
   "#2c8dbe",
   "#6bbea2"
  ],
+ "shippuu-jinrai": [
+  "#2c5dbe",
+  "#3bffbd"
+ ],
+ "shirousagi-dashoot": [
+  "#3b4a69",
+  "#87be6b",
+  "#2c5dbe"
+ ],
+ "shoot-break": [
+  "#ff5400",
+  "#be0000"
+ ],
+ "shoot-eater": [
+  "#ff7c3b",
+  "#ffff3b",
+  "#be5d2c"
+ ],
  "shoot-pocket": [
   "#be5d2c",
   "#ff7c3b",
   "#5dbe2c"
+ ],
+ "shooting-cut": [
+  "#3b5a69",
+  "#2c8dbe",
+  "#4a693b"
  ],
  "shooting-star": [
   "#be5d2c",
@@ -1145,10 +3206,34 @@
   "#be0000",
   "#ff7c3b"
  ],
+ "shunrai": [
+  "#2c5dbe",
+  "#be2c2c"
+ ],
+ "sidewinder": [
+  "#be8d2c",
+  "#3bff7c",
+  "#2cbe5d"
+ ],
  "sigma-zone": [
   "#00be7e",
   "#00ffa9",
   "#003fbe"
+ ],
+ "silk-road": [
+  "#be3f00",
+  "#ff5400",
+  "#2c5dbe"
+ ],
+ "silver-wolf-legend": [
+  "#2c8dbe",
+  "#be8d2c",
+  "#ff0000"
+ ],
+ "sky-walk": [
+  "#3b5a69",
+  "#a2be6b",
+  "#be8d2c"
  ],
  "slash-nail": [
   "#184e69",
@@ -1173,29 +3258,109 @@
   "#3bbdff",
   "#2c5dbe"
  ],
+ "sonic-shot": [
+  "#2cbe5d",
+  "#3bffbd",
+  "#00bebe"
+ ],
+ "souhi-yuuseidan": [
+  "#ff5400",
+  "#be5d2c"
+ ],
+ "soul-bringer": [
+  "#be0000",
+  "#ff0000",
+  "#be2c8d"
+ ],
  "southern-crosscut": [
   "#ffff3b",
   "#2c8dbe",
   "#2c2cbe"
+ ],
+ "soyokaze-step": [
+  "#3bff7c",
+  "#2cbe5d",
+  "#be8d2c"
+ ],
+ "soyoyagi-step": [
+  "#3bff7c",
+  "#2cbebe"
  ],
  "space-penguin": [
   "#3b7cff",
   "#003fbe",
   "#7c3bff"
  ],
+ "spark-edge-dribble": [
+  "#be5d2c",
+  "#ff7c3b"
+ ],
+ "spark-wind": [
+  "#3b7cff",
+  "#be5d2c",
+  "#2c5dbe"
+ ],
+ "sparkle-wave": [
+  "#3f00be",
+  "#2c5dbe"
+ ],
+ "spectre-magna": [
+  "#3bffff",
+  "#2c2cbe",
+  "#2cbebe"
+ ],
  "spinning-cut": [
   "#3bffff",
   "#2c8dbe"
+ ],
+ "spinning-fence": [
+  "#3b5a69",
+  "#6ba2be",
+  "#6bbe87"
  ],
  "spinning-shoot": [
   "#2c8dbe",
   "#ff5400",
   "#be8d2c"
  ],
+ "spinning-transam": [
+  "#90daff",
+  "#2c8dbe",
+  "#184e69"
+ ],
+ "spinning-upper": [
+  "#3b5a69",
+  "#181869",
+  "#6ba2be"
+ ],
  "spiral-shot": [
   "#bebe2c",
   "#ffff3b",
   "#2c8dbe"
+ ],
+ "spring-arrow": [
+  "#00be7e",
+  "#00ff55",
+  "#8dbe2c"
+ ],
+ "sprint-warp": [
+  "#3bffbd",
+  "#2cbe8d",
+  "#5d2cbe"
+ ],
+ "star-reflection": [
+  "#2c8dbe",
+  "#3bffbd"
+ ],
+ "stargazer": [
+  "#000069",
+  "#2c8dbe",
+  "#6b6bbe"
+ ],
+ "stealth-walk": [
+  "#2cbe8d",
+  "#3bff3b",
+  "#3bffbd"
  ],
  "stinger": [
   "#2c8dbe",
@@ -1212,14 +3377,48 @@
   "#bea26b",
   "#183369"
  ],
+ "storm-zone": [
+  "#2c5dbe",
+  "#8dbe2c"
+ ],
  "strike-samba": [
   "#ffaa00",
   "#7cff3b",
   "#bebe2c"
  ],
+ "strong-tower": [
+  "#ffff3b",
+  "#be3f00",
+  "#2cbebe"
+ ],
  "suisei-shoot": [
   "#3bffff",
   "#007ebe"
+ ],
+ "sunrise-blitz": [
+  "#be6b6b",
+  "#693b4a",
+  "#4a693b"
+ ],
+ "sunrise-carnival": [
+  "#8dbe2c",
+  "#ffff3b",
+  "#be8d2c"
+ ],
+ "sunshine-blade": [
+  "#0054ff",
+  "#ffaa00",
+  "#be5d2c"
+ ],
+ "sunshine-force": [
+  "#ffbd3b",
+  "#be8d2c",
+  "#be2c2c"
+ ],
+ "sunshine-storm": [
+  "#3bbdff",
+  "#ff5400",
+  "#be5d2c"
  ],
  "super-armadillo": [
   "#2c5dbe",
@@ -1230,6 +3429,16 @@
   "#00ffff",
   "#2cbebe",
   "#be8d2c"
+ ],
+ "super-god-hand": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#8dbe2c"
+ ],
+ "super-megaton-head": [
+  "#ffbd3b",
+  "#be8d2c",
+  "#3b7cff"
  ],
  "super-scan-df": [
   "#2c5dbe",
@@ -1255,6 +3464,34 @@
   "#ffff3b",
   "#2c5dbe",
   "#be8d2c"
+ ],
+ "sweat-stillness": [
+  "#ff7c3b",
+  "#ffff3b",
+  "#be3f00"
+ ],
+ "sword-excalibur": [
+  "#003fbe",
+  "#8d2cbe"
+ ],
+ "sword-of-d-artagnan": [
+  "#00a9ff",
+  "#003fbe",
+  "#ffff3b"
+ ],
+ "sword-of-fire": [
+  "#ff7c3b",
+  "#be5d2c",
+  "#ffff00"
+ ],
+ "taikoku-ouka": [
+  "#be8d2c",
+  "#695a3b"
+ ],
+ "taiyou-no-guillotine": [
+  "#ffff3b",
+  "#be5d2c",
+  "#2c5dbe"
  ],
  "tamanori-pierrot": [
   "#3b5a69",
@@ -1284,15 +3521,64 @@
   "#ffda90",
   "#2cbebe"
  ],
+ "tempest": [
+  "#3bffff",
+  "#8dbe2c"
+ ],
+ "tenchi-raimei": [
+  "#2c8dbe",
+  "#3bbdff",
+  "#be5d2c"
+ ],
+ "tenhou-chiretsu": [
+  "#be8d2c",
+  "#3bbdff",
+  "#2c5dbe"
+ ],
+ "tenkuu-hayabusadan": [
+  "#3bbdff",
+  "#2c5dbe"
+ ],
+ "tenkuu-no-mai": [
+  "#0054ff",
+  "#ff5400",
+  "#be5d2c"
+ ],
+ "tenkuu-no-yaiba": [
+  "#6ba2be",
+  "#3b5a69",
+  "#3bffff"
+ ],
  "tenkuu-otoshi": [
   "#3f00be",
   "#be5d2c",
   "#ff3bff"
  ],
+ "tenkuu-thunder": [
+  "#ffbd3b",
+  "#be8d2c"
+ ],
+ "tenryuu": [
+  "#2cbe5d",
+  "#ffff90",
+  "#90ff90"
+ ],
+ "tentacle-hold": [
+  "#be2c2c",
+  "#ff3b3b"
+ ],
+ "the-asura": [
+  "#ff7c3b",
+  "#be5d2c"
+ ],
  "the-birth": [
   "#ff3b3b",
   "#3bbdff",
   "#2c5dbe"
+ ],
+ "the-boyon": [
+  "#3bbdff",
+  "#2c8dbe"
  ],
  "the-earth": [
   "#2c8dbe",
@@ -1302,6 +3588,15 @@
  "the-end": [
   "#003fbe",
   "#be2c2c"
+ ],
+ "the-explosion": [
+  "#ff3bbd",
+  "#8dbe2c",
+  "#be8d2c"
+ ],
+ "the-fort": [
+  "#2c5dbe",
+  "#3b7cff"
  ],
  "the-galaxy": [
   "#be5d2c",
@@ -1318,6 +3613,25 @@
   "#be5d2c",
   "#2c5dbe"
  ],
+ "the-labyrinth": [
+  "#00bebe",
+  "#3bffff",
+  "#be5d2c"
+ ],
+ "the-matrix": [
+  "#3bbdff",
+  "#2c5dbe"
+ ],
+ "the-mist": [
+  "#184e69",
+  "#6ba2be",
+  "#3b3b69"
+ ],
+ "the-monsters": [
+  "#ffaa00",
+  "#2c8dbe",
+  "#be0000"
+ ],
  "the-mountain": [
   "#bea26b",
   "#ffda90",
@@ -1328,10 +3642,25 @@
   "#2c8dbe",
   "#ffff3b"
  ],
+ "the-shelter": [
+  "#00a9ff",
+  "#be5d2c",
+  "#ff0000"
+ ],
+ "the-stamp": [
+  "#ffda90",
+  "#bea26b",
+  "#3b5a69"
+ ],
  "the-tower": [
   "#3bffff",
   "#2c8dbe",
   "#3b7cff"
+ ],
+ "the-tube": [
+  "#0054ff",
+  "#0000be",
+  "#ffbd3b"
  ],
  "the-typhoon": [
   "#2c5dbe",
@@ -1341,6 +3670,15 @@
   "#ffda90",
   "#be8d2c",
   "#3b4a69"
+ ],
+ "thief-eye": [
+  "#00be3f",
+  "#3bffbd"
+ ],
+ "thousand-arrow": [
+  "#ff3b3b",
+  "#7e00be",
+  "#be2c8d"
  ],
  "thunder-beast": [
   "#2c8dbe",
@@ -1356,8 +3694,17 @@
   "#ffff3b",
   "#be8d2c"
  ],
+ "time-trance": [
+  "#5d2cbe",
+  "#7c3bff",
+  "#be2cbe"
+ ],
  "tkachev-bomber": [
   "#ffbd3b",
+  "#be5d2c"
+ ],
+ "tokkou-buffalo-train": [
+  "#ff3b3b",
   "#be5d2c"
  ],
  "tornado-catch": [
@@ -1374,6 +3721,15 @@
   "#2c5dbe",
   "#00ffff"
  ],
+ "trace-press": [
+  "#bea26b",
+  "#183369",
+  "#4a3b69"
+ ],
+ "transmove": [
+  "#2c8dbe",
+  "#3bffff"
+ ],
  "tri-pegasus": [
   "#00a9ff",
   "#2c8dbe"
@@ -1382,6 +3738,21 @@
   "#2c8dbe",
   "#ffaa00",
   "#be3f00"
+ ],
+ "triangle-zz": [
+  "#007ebe",
+  "#3bbdff",
+  "#ff3b3b"
+ ],
+ "tricera-shield": [
+  "#3bff3b",
+  "#2cbe5d",
+  "#ffff3b"
+ ],
+ "trick-ball": [
+  "#8dbe2c",
+  "#3b5a69",
+  "#4a693b"
  ],
  "triple-boost": [
   "#be2c2c",
@@ -1396,14 +3767,28 @@
   "#be8d2c",
   "#ffff3b"
  ],
+ "tsubame-gaeshi": [
+  "#3bffff",
+  "#be5d2c"
+ ],
  "tsuchi-daruma": [
   "#be8d2c",
   "#ffff3b"
+ ],
+ "tsukinowaguma-press": [
+  "#bea26b",
+  "#ffda90",
+  "#4a693b"
  ],
  "tsumuji": [
   "#2c5dbe",
   "#183369",
   "#87be6b"
+ ],
+ "tsumuji-no-yaiba": [
+  "#3bffff",
+  "#2c8dbe",
+  "#2c2cbe"
  ],
  "tsunami-boost": [
   "#3bbdff",
@@ -1413,6 +3798,11 @@
   "#3bbdff",
   "#2c8dbe",
   "#ff7c3b"
+ ],
+ "tsuumande-goran": [
+  "#ffbd3b",
+  "#be5d2c",
+  "#2c8dbe"
  ],
  "tsuutenkaku-shoot": [
   "#be2c2c",
@@ -1428,6 +3818,20 @@
   "#ff5400",
   "#2c8dbe",
   "#be5d2c"
+ ],
+ "twin-lancer": [
+  "#2c8dbe",
+  "#be5d2c"
+ ],
+ "twin-mixer": [
+  "#ffda90",
+  "#bea26b",
+  "#183369"
+ ],
+ "twist-reach": [
+  "#ffff3b",
+  "#8dbe2c",
+  "#ff7c3b"
  ],
  "u-boat": [
   "#186969",
@@ -1448,11 +3852,54 @@
   "#8d2cbe",
   "#bdff3b"
  ],
+ "univolt-sprint": [
+  "#2c5dbe",
+  "#be5d2c"
+ ],
  "ushiro-no-shoumen": [
   "#be8d2c",
   "#2c8dbe"
  ],
+ "vairaas-cannon": [
+  "#7e00be",
+  "#aa00ff",
+  "#ffbd3b"
+ ],
+ "valkyrie-flag": [
+  "#be8d2c",
+  "#be2c2c",
+  "#ffbd3b"
+ ],
+ "vampire-lord": [
+  "#be8d2c",
+  "#be0000",
+  "#ff0000"
+ ],
+ "vanishing-cut": [
+  "#3f00be",
+  "#5400ff"
+ ],
+ "victory-line": [
+  "#ffaa00",
+  "#ff0000",
+  "#bdff3b"
+ ],
+ "viva-banri-no-choujou": [
+  "#ffda90",
+  "#bea26b",
+  "#3b5a69"
+ ],
+ "volcanic-fly": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
  "volcano-cut": [
+  "#ff5400",
+  "#be5d2c",
+  "#ffff3b"
+ ],
+ "volcano-head": [
   "#ff5400",
   "#be5d2c",
   "#ffff3b"
@@ -1467,6 +3914,11 @@
   "#3b4a69",
   "#6bbea2"
  ],
+ "waterfall": [
+  "#3bbdff",
+  "#6ba2be",
+  "#3b4a69"
+ ],
  "welcome-back": [
   "#3b5a69",
   "#a2be6b",
@@ -1476,15 +3928,52 @@
   "#3bbdff",
   "#003fbe"
  ],
+ "white-blade": [
+  "#183369",
+  "#2c8dbe",
+  "#90ffff"
+ ],
+ "white-breath": [
+  "#be2c2c",
+  "#2c8dbe"
+ ],
+ "white-double-impact": [
+  "#6ba2be",
+  "#90daff",
+  "#183369"
+ ],
+ "white-hurricane": [
+  "#3b4a69",
+  "#6ba2be"
+ ],
  "wild-claw": [
   "#ffff3b",
   "#5d2cbe",
   "#ff5400"
  ],
+ "wild-dunk": [
+  "#bea26b",
+  "#ffda90",
+  "#6ba2be"
+ ],
+ "willy-willy": [
+  "#be5d2c",
+  "#ff7c3b",
+  "#2c5dbe"
+ ],
+ "winning-logic": [
+  "#3bff7c",
+  "#be003f"
+ ],
  "wolf-legend": [
   "#2c8dbe",
   "#be8d2c",
   "#ff0000"
+ ],
+ "wonder-trap": [
+  "#2c8dbe",
+  "#3b5a69",
+  "#6bbea2"
  ],
  "wormhole": [
   "#00be00",
@@ -1505,15 +3994,44 @@
   "#ff3b3b",
   "#be5d2c"
  ],
+ "yakimochi-screw": [
+  "#ff5400",
+  "#ffff00",
+  "#be3f00"
+ ],
+ "yamabiko-step": [
+  "#2c8dbe",
+  "#bdff3b"
+ ],
  "yugamu-kuukan": [
   "#3f00be",
   "#5400ff",
   "#8dbe2c"
  ],
+ "yuujou-no-god-hand": [
+  "#ffff3b",
+  "#be8d2c",
+  "#2cbebe"
+ ],
+ "z-slash": [
+  "#2c5dbe",
+  "#be0000",
+  "#ff7c3b"
+ ],
  "zanzou": [
   "#3b5a69",
   "#2c5dbe",
   "#daff90"
+ ],
+ "zero-magnum": [
+  "#3b3b69",
+  "#6b6bbe",
+  "#90ffff"
+ ],
+ "zeroyon": [
+  "#2c5dbe",
+  "#183369",
+  "#bea26b"
  ],
  "zigzag-flame": [
   "#ffaa00",
@@ -1523,5 +4041,19 @@
  "zigzag-spark": [
   "#2c8dbe",
   "#3bffff"
+ ],
+ "zigzag-strike": [
+  "#be8d2c",
+  "#2c8dbe",
+  "#ff3bbd"
+ ],
+ "zone-of-pentagram": [
+  "#2c8dbe",
+  "#3bffff"
+ ],
+ "zooma-driller": [
+  "#695a3b",
+  "#bea26b",
+  "#ffda90"
  ]
 }

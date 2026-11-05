@@ -1,7 +1,7 @@
 # InaMatch
 
 Juego de navegador para PC que recrea los partidos de **Inazuma Eleven 3** (DS): duelos por comandos,
-supertécnicas, FP/TP, elementos y la pantalla de formación. Trae **55 equipos** de IE1, IE2 e IE3. Gratis y sin servidor: es una web estática
+supertécnicas, FP/TP, elementos y la pantalla de formación. Trae **198 equipos**, de IE1 a Victory Road (GO, Chrono Stone, Galaxy, Ares y Orión incluidos), más de 3000 ojeadores y 887 supertécnicas. Gratis y sin servidor: es una web estática
 que se puede publicar gratis en Cloudflare Pages (ver abajo).
 
 > Proyecto de fans sin ánimo de lucro. Inazuma Eleven es una marca de LEVEL-5.
@@ -24,8 +24,10 @@ partidas por un rayo.
 - Cada lado muestra el escudo, la **media** del equipo y barras de **Ataque**, **Medio** y **Defensa** de los titulares
   (delanteros: tiro, control y velocidad; medios: control, físico, velocidad y tiro; defensas y portero: defensa,
   físico y agallas).
-- Abajo, la **estantería**: pestañas de temporada (IE1, IE2, IE3) con todos sus escudos. Pulsa una mitad para elegir
-  ese lado y luego un escudo. Las flechas o la rueda del ratón también cambian de equipo dentro de su temporada.
+- Abajo, la **estantería**: una fila con el logo de cada juego (Mi club, IE1, IE2, IE3, GO, Chrono Stone, Galaxy, Ares,
+  Orión y Victory Road; los logos son los de la [enciclopedia oficial](https://zukan.inazuma.jp/), en
+  `src/assets/pack/series/`) y, debajo, todos los escudos del juego elegido. Pulsa una mitad para elegir ese lado y luego
+  un escudo. Las flechas o la rueda del ratón también cambian de equipo dentro de su temporada.
 - Teclado: izquierda/derecha cambian de equipo, arriba/abajo de temporada, **Tab** de lado y **Enter** sigue.
 - En el centro: **Cambiar lados** y **Rival aleatorio** (de cualquier temporada). Se pueden mezclar temporadas.
 - La elección se recuerda al volver al menú.
@@ -180,14 +182,16 @@ De cada una guarda:
   son dos técnicas distintas.
 - Potencia y coste en Victory Road, y TP en IE3.
 
-Las técnicas del juego (`src/data/moves.json`, 721: todas las que usa algún jugador o ojeador) las genera `tools/wiki/teams.py`.
+Las técnicas del juego (`src/data/moves.json`, 887: todas las de la wiki, de IE1 a Victory Road; unas 160 no las lleva nadie y solo salen en los cuadernos) las genera `tools/wiki/teams.py`.
 Las de la era GO, Victory Road y Ares/Orión que no tienen datos de IE3 se pasan a su escala por percentiles. Cada una lleva:
 - **Nombre:** el de los juegos de DS en España. Sale del catálogo (el título de su página en la wiki española), salvo
-  las que están en `moves` de `tools/wiki/overrides.json` (26):
+  las que están en `moves` de `tools/wiki/overrides.json` (99):
   - La wiki española titula muchas con el nombre del anime y pone aparte el de los juegos ("también conocida como
     … en los videojuegos"): Carrera relámpago es Acelerrelámpago, Trama trama es Trama, Terremoto es Sismo…
   - Las que no tenían nombre en español o lo tenían mal: Vuelo de Ícaro, Regate aurora, Inmersión, Coz 2 y 3,
     Escáner ataque y Escáner defensa.
+  - Las de la era GO y Victory Road que la wiki española no trae, traducidas del nombre inglés o japonés
+    (Planeo del águila calva, Tiro radiocontrol, ¡Hala! ¡Un ovni!…).
 - **Potencia y coste:** los de IE3 (`Module:WazaData`).
 - **Afinidad:** la de cada versión. Por ejemplo, la Mano mágica de Darren es de Bosque.
 
@@ -210,6 +214,8 @@ Cada supertécnica tiene su propio efecto especial, hecho a partir de su vídeo 
   cielo, orbe eléctrico, agujero negro, espiral blanca y negra (Carga negativa) y portales.
 - **Objetos y lugares:** Excalibur, las siete espadas del Círculo de espadas, el Coliseo, la Torre Eiffel, un torii,
   un reloj, un tren, un misil, llaves, un abanico, una tabla de surf, la telaraña…
+- **Era GO, Ares, Orión y Victory Road:** los espíritus guerreros (Keshin) salen gigantes detrás del jugador, y hay
+  niebla, lluvia de cartas, dados, un moái, un ancla, pinzas de cangrejo y ojos que brillan en la oscuridad.
 
 Cómo se ven en el partido:
 - La animación con el retrato toma los colores reales del vídeo y las partículas del efecto.
@@ -223,8 +229,9 @@ Cómo está hecho:
   acompañan y sus colores. Está en `src/data/movefx.json`, que genera `python3 -I tools/zukan/recipes.py` a partir de:
   - `tools/zukan/recipes.txt`: la forma de cada técnica, anotada viendo su vídeo fotograma a fotograma.
   - `tools/zukan/palette.json`: los colores de cada vídeo (`tools/zukan/palette.py` los saca de los fotogramas).
-  - Las técnicas que no están en la enciclopedia van a mano en el propio script.
-- **Dibujo:** las formas son unas 130, dibujadas por código (`src/gfx/fxshapes.ts`, con utilidades en
+  - Las técnicas que no están en la enciclopedia (unas 30) van a mano en el propio script.
+- Las 887 técnicas tienen receta: 854 sacadas de su vídeo y el resto a mano.
+- **Dibujo:** las formas son unas 140, dibujadas por código (`src/gfx/fxshapes.ts`, con utilidades en
   `src/gfx/fxkit.ts` y los efectos básicos en `src/gfx/fx.ts`).
 - **Cambiar el efecto de una técnica:** edita su línea en `tools/zukan/recipes.txt` y vuelve a ejecutar el script.
 
@@ -256,7 +263,19 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
 - **Monedas:** se empieza con 500. Cada partido con Mi club da 150 ganando, 80 empatando y 50 perdiendo; con otros equipos,
   de 20 a 40.
 - La partida se guarda en el navegador (`localStorage`); si se borran los datos del sitio, se empieza de cero.
-- Código: `src/club/` (plantilla, gacha y guardado) y las escenas `ClubScene` y `GachaScene`.
+- **Cuadernos de supertécnicas** (botón **Cuadernos** del club): tirada a 80 monedas o diez a 700, que traen al menos un
+  ★★★. Cada cuaderno es una supertécnica; su rareza depende de lo potente que es entre las de su tipo (el 7 % más potente
+  es ★★★★). Los repetidos se acumulan: con dos cuadernos de la misma técnica se le puede poner a dos jugadores.
+- **Editar técnicas** (botón **Editar ✎** de la ficha de un jugador del club): como en los juegos, cada jugador tiene sus
+  **4 técnicas de base**, que se pueden cambiar, y **2 huecos extra**. Sus técnicas propias son gratis; las demás gastan un
+  cuaderno mientras estén puestas (al quitarlas, el cuaderno vuelve). En el partido salen todas en los comandos (teclas 3–8).
+- Código: `src/club/` (plantilla, gacha, cuadernos y guardado) y las escenas `ClubScene` y `GachaScene`.
+
+## Aspecto
+
+- Letras: **Bebas Neue** en títulos y marcadores, como en las retransmisiones deportivas, y **Barlow Semi Condensed**
+  en la interfaz. Van dentro del juego (`@fontsource`), y el juego espera a tenerlas antes de arrancar.
+- Pantalla de carga con el logo, fondo de estadio de noche y botones y paneles inclinados, como los rótulos del anime.
 
 ## Formación
 
@@ -266,9 +285,11 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
 
 ## Jugadores: sprites, retratos y descripciones
 
-- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (1970 de 5908, ojeadores incluidos). Sale en la ficha
+- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (5710 de 5908, ojeadores incluidos: 1970
+  de la wiki inglesa y 3740 de la [enciclopedia oficial](https://zukan.inazuma.jp/en/chara_param/)). Sale en la ficha
   de la formación, en el panel del partido y en la animación de las supertécnicas. Los baja
-  `python3 -I tools/wiki/sprites.py` de la wiki inglesa a `src/assets/pack/portraits/<equipo>/<jugador>.webp`, y se
+  `python3 -I tools/wiki/sprites.py` (de la wiki inglesa y, si no está, de la enciclopedia) a
+  `src/assets/pack/portraits/<equipo>/<jugador>.webp`, y se
   cargan al elegir equipos.
 - **Sprite del campo:** un muñeco en pixel art, al estilo de los partidos de IE3, parecido a cada jugador:
   - El mismo script saca de su retrato el color del pelo, de la piel y de los ojos, la silueta del peinado y algún

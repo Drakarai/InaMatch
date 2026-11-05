@@ -326,3 +326,535 @@ neo-galaxy: planet:earth +light:rays +hand
 card-buster: impact:kick +clone:balls
 corodra-shoot: dragon:wyvern +wind
 mega-wall: wall:cliff +earth
+
+# Era GO, Ares, Orión y Victory Road (anotadas viendo sus vídeos)
+spinning-fence: tornado:white +wind:dash
+the-mist: mist +clone:afterimage
+hunter-s-net: web
+dash-train: train +impact:dust
+sargasso: water:typhoon
+card-splash: cards +portal:space
+thief-eye: scan:grid
+air-bullet: impact:ball +tornado:white
+killer-whale: whale +water:wave
+twin-mixer: sandstorm:vortex +clone:double
+big-scissors: claws +clone:double
+dimension-cut: portal:space +foot
+elephant-press: charge:bull +clone:double +impact:dust
+saikyou-san-shoukan: dark:orb +light:beam
+crazy-sunlight: light:flash +sun
+vanishing-cut: dark:warp
+viva-banri-no-choujou: wall:stone +impact:dust
+deep-mist: mist +tornado:white
+atlantis-wall: wall:stone +water:wave +digital
+dragon-storm: giant +spear +tornado:white
+strong-tower: giant +punch:giant +light:pillar
+bloody-encore: giant +rays:red
+hakai-danmaku: giant +barrage +fire:explosion
+dark-space: giant +stars +dark:hole
+fractal-house: triangle +skull
+wonder-trap: clone:afterimage +speedlines
+kodai-no-tsubasa: bird:condor +tornado:white
+coil-upper: lightning:orb +tornado:spiral
+kirakira-illusion: giant +fireworks +stars
+deep-jungle: vine +bush +clone:triple
+magnet-draw: aura:ring +impact:ball
+asterisk-rock: rocks:ball +earth:slab
+la-flamme: fire:storm +fire:swirl
+mochimochi-kinako-mochi: bubbles:giant +impact:dust
+screwdriver: fire:spin +impact:kick
+ichiyajou: moon +tower:osaka
+magical-flower: flower:storm +fireworks
+okehazama-wall: fire:storm +impact:dust +clone:triple
+muei-ranbu: clone:afterimage +lightning:zigzag +speedlines
+blitz-bridge: lightning:zigzag +impact:spark
+grand-sweeper: stars +fire:explosion
+valkyrie-flag: giant +spear:light +impact:dust
+seiken-kikkouha: giant +shield:bubble +punch
+kourin-no-ya: giant +spear:light +sun
+hunting-lance: giant +spear +beast:tiger
+shadow-guard: giant +dark:spiral +digital
+tenkuu-no-mai: giant +bird +tornado:leaves
+mystic-thorn: giant +vine +dark:curse
+defense-houteishiki: runes +scan:grid
+flash-dance: clone:afterimage +punch:barrage
+footwork-draw: speedlines +impact:spin
+trace-press: clone:double +impact:ball
+willy-willy: sandstorm:vortex +tornado:sand
+death-scythe-middle: clone:double +impact:kick +light:flash
+rolling-cutter: crescent:ground +tornado:spiral
+dig-up: mole +impact:spark
+waterfall: water:geyser +wall
+volcanic-fly: fire:geyser +tornado:spiral
+tentacle-hold: vine +ribbon
+stealth-walk: digital +clone:afterimage
+rock-hammer: rocks:ball +earth:spikes
+judgment-ray: runes +lasers +fire:explosion
+phalanx: shield:panels +clone:triple
+fatal-lift: gravity +aura:psychic
+winning-logic: scan:grid +digital
+fox-mirage: beast:wolf +sandstorm:dust +impact:spark
+flamey-mirage: beast:wolf +fire:dash +impact:spark
+fukurou-steal: bird:hawk +eyes
+mimizuku-steal: eyes:green +clone:afterimage
+ratel-claw: beast:claw +slide
+clupe-claw: beast:claw +speedlines
+gyorom-claw: eyes +beast:claw
+buffalo-crusher: charge:bull +impact:spark
+gandran-crusher: charge:bull +beast:jaws
+dandorl-crusher: charge:bull +beast +impact:fire
+dolphanus-splash: whale +tornado:blue
+garyuu-bounce: dragon:earth +ballride:armadillo
+jinryuu-bounce: dragon:wyvern +ballride:armadillo +light:flash
+shooting-cut: tornado:white +slide
+gravity-cage: dark:hole +clone:triple
+zone-of-pentagram: shield:dome +light:beam
+franken-shu-tein: aura:green +giant +rays
+mokkori-oka-no-moai: moai +impact:dust
+hissatsu-kumagoroshi-baku: ribbon +beast +impact:giant
+the-shelter: digital +shield:panels +wall:iron
+red-hot-chili-meteor: meteor:big +fire:explosion
+bakugui-shishi: beast:jaws +fire:storm
+dancing-turtle: tornado:double +speedlines
+the-matrix: runes +digital +lasers
+deep-diver: water:typhoon +dark:spiral
+despair-fortress: tower +dark:curse
+the-fort: wall:iron +barrage +fire:explosion
+kaijin-the-quake: water:typhoon +giant +water:wave
+oraora-shikofumi: foot +earth:stomp +fire:burst
+dokkan-train: train +fire:explosion
+metal-hammer: wall:iron +earth:spikes +impact:spark
+dark-mist: mist:dark +dark:warp
+murakumo-trap: clone:afterimage +aura:psychic
+god-hand-fire: hand:god +fire
+dual-smash: clone:double +punch:double +impact:spark
+god-hand-ev: hand:god +rainbow
+god-catch-ft: hand:majin +rainbow +fire
+card-protect: cards +shield:panels
+hydro-anchor: anchor +water:geyser
+fence-of-gaia: wall:cliff +earth:stomp +rocks
+burning-catch: fire:hands +fire:burst
+counterdrive-gk: punch:upper +impact:dust
+rapid-whip: punch:barrage +punch:rocket
+crystal-barrier: ice:cube +shield:panels
+kage-tsukami: shadowhand +dark:hole
+moonsault-stamp: impact:goalpost +moon
+bat-attack: scan:sonar +dark:orb
+power-spike: fire:burst +impact:dive
+shoot-break: fire:zigzag +impact:kick
+god-hand-v: hand:god +wings:gold
+star-reflection: light:flash +stars +light:beam
+serpent-fang: snake +light:flash
+burai-hand: hand:demon +fire:explosion
+kill-bridge: dark:spiral +dark:hand
+gravity-point: gravity +dark:hole
+guardian-shield: giant +shield:panels
+gigantic-bomb: giant +punch:giant +fire:explosion
+king-fire: giant +fire:storm +light:beam
+hell-s-fist: giant +punch:fire +dark:spiral
+lucky-dice: giant +dice +aura:green
+crimson-sphere: giant +shield:bubble +fire:sun
+great-the-hand: giant +hand:gold +lightning:big
+doon-shout: aura:ring +impact:small
+excellent-breast: tornado:white +impact:ball
+shining-hole: light:halo +light:rays
+reverse-world: light:flash +clock:freeze
+gyro-saving: aura:ring +light:halo
+destiny-cloud: tornado:poison +dark:spiral
+beam-kobushi: punch:fire +light:beam +fire:explosion
+sand-cutter: crescent:ground +lightning:zigzag +sandstorm:dust
+buttobi-punch: punch:dive +impact:dust
+abare-guruma: wheel +tornado:white
+god-hand-w: hand:god +hand:many
+taikoku-ouka: hand +rocks +wall:mountain
+kogetsu-juujishou: cross +crescent
+penguin-the-hand: penguin:red +hand +fire:explosion
+rejection: rays:red +light:flash
+shadow-hand: giant +shadowhand +digital
+gigabite-screw: giant +water:typhoon +beast:jaws
+shikigami-lines: giant +clone:triple +light:flash
+hisshou-gamusharan: giant +barrage +missile
+wild-dunk: impact:dive +hand +impact:dust
+twist-reach: tornado:spiral +punch:giant
+crocodile-fang: beast:jaws +impact:fire
+killer-elbow: punch +impact:spark
+sand-knock: sandstorm:dust +punch:upper
+volcano-head: fire:explosion +impact:spark
+big-mouth: beast:jaws +vine +light:rays
+rebound-layer: shield:rings +digital
+rising-slash: beast:claw +light:rays
+shoot-eater: beast:jaws +light:beam
+castle-gate: wall:stone +wall:iron +light:flash
+sacrifice: portal:space +impact:dust
+ginga-rocket: missile +portal:space +stars
+gekirin-dunk: dragon:blue +tornado:blue +impact:dive
+mammoth-pressure: beast +foot +impact:giant
+magnatas-pressure: beast:jaws +foot +fire:explosion
+dolmega-pressure: beast:thunder +foot +earth:stomp
+delpinus-echo: whale +scan:sonar
+gouryuu-swing: dragon:red +impact:giant
+mossphee-burst: vine +bubbles:pink +fire:explosion
+gigiras-shield: web:spider +shield:aura
+grimron-shield: shield:aura +beast +light:flash
+angydra-combo: dragon:wyvern +clone:triple +impact:spark
+saranarja-combo: dragon:king +clone:triple
+cerbegyra-combo: beast:wolf +clone:triple +fire:comet
+mermaid-veil: water:wave +ribbon
+moja-catch: bush +dark:orb
+death-crater: earth:slab +impact:giant +rays:red
+ouke-no-tate: runes +shield:aura +light:flash
+casting-arm: hand +rays:red
+high-beast-fang: beast:jaws +aura:green
+fuujin-raijin: hand:majin +lightning:big +tornado
+artemis-ring: runes +stars:ring +light:beam
+the-asura: hand:deity +hand:many +fire:sun
+the-boyon: bubbles:giant +shield:bubble
+dynamic-corona: fire:sun +light:halo +impact:dive
+diamond-punch: punch +ice:cube +light:flash
+diamond-hand: hand:gold +ice:cube +lightning:zigzag
+tsuumande-goran: hand:giant +punch:giant
+tricera-shield: charge:bull +shield:panels
+fire-wall: fire:storm +wall
+black-shield: ghosthands +dark:hole
+macaroni-spaghetti: ribbon +punch:upper
+majin-the-wave: hand:majin +water:wave +water:typhoon
+shinjitsu-no-ooguchi: earth:slab +beast:jaws +rays:red
+taiyou-no-guillotine: sun +sword:giant +fire:trail
+fuujin-raijin-ghost: hand:majin +lightning:big +fire:storm +tornado
+boukyaku-no-sonata: notes +ribbon +aura:psychic
+yuujou-no-god-hand: hand:god +clone:triple +light:flash
+ryuujin-tessen: fan +dragon:red +fire:burst
+diamond-arm: punch +ice:cube +rays
+super-god-hand: hand:god +lightning:hand
+hyouketsu-no-mai: ice:blizzard +ice:block
+outer-world: digital +scan:grid +shield:bubble
+sweat-stillness: fire:burst +impact:ball
+gravity-desert: sandstorm:vortex +gravity
+meikyou-shisui: water:wave +shield:bubble
+empire-shield: runes +fire:geyser +rays:red
+god-hand-tiger: hand:god +beast:tiger
+megami-tairiku: wings:angel +rocks:float +light:rays
+god-fingers: ice:cube +hand:gold +light:beam
+okan-the-hand: hand +lightning:zigzag +fire:burst
+big-card: cards +impact:giant
+burning-summer: fire:explosion +impact:kick +fire:spin
+naminori-pierrot: surfboard +water:wave
+trick-ball: fakeball +dark:orb
+mad-juggler: impact:spin +impact:kick +light:halo
+future-eye: scan:grid +digital
+zeroyon: speedlines +impact:dust
+presto-turn: clone:double +impact:dust
+soyokaze-step: wind:dash +tornado:leaves
+white-blade: ice:ground +crescent +ice:blizzard
+boomerang-feint: crescent:moon +wind:dash
+endless-summer: fire:spin +impact:kick +fire:burst
+claymore: earth:spikes +impact:dust
+britannia-cross: runes +cross:x +fire:explosion
+round-spark: lightning:orb +lightning:zigzag
+sky-walk: wind:dash +impact:small
+sprint-warp: speedlines +wind:dash
+melody-wave: notes +light:halo
+nobori-ryuu: dragon:red +light:halo
+olympus-harmony: colosseum +light:rays
+the-stamp: runes +impact:giant +earth:slab
+acrobat-keep: speedlines +impact:spin
+overdrive: giant +portal:space +speedlines
+dancing-ghost: giant +wisps +dark:spiral
+scratch-raid: giant +beast:claw +light:rays
+machine-gun-beat: giant +punch:barrage
+pegasus-break: giant +bird:pegasus +lightning:zigzag
+aggressive-beat: lasers +aura:green +speedlines
+spinning-upper: tornado:white +impact:spin
+kazaana-drive: tornado:leaves +wind:dash
+linear-drive: rainbow +speedlines
+transmove: portal:grid +light:beam
+storm-zone: sandstorm:dust +rocks:float
+bungee-thrust: ribbon +impact:dust
+spark-edge-dribble: fire:burst +impact:spark
+tsubame-gaeshi: crescent +impact:spark
+kuroshio-ride: water:typhoon +dragon:blue
+ou-no-tsurugi: sword:excalibur +light:rays
+all-delete: aura:psychic +light:flash
+muei-souha: water:wave +clone:triple +speedlines
+soyoyagi-step: beast +wind:dash
+decoy-release: digital +clone:triple
+tsumuji-no-yaiba: giant +tornado:white +crescent
+tempest: giant +dragon:wyvern +lightning:big
+shippuu-jinrai: giant +beast:wolf +lightning:zigzag
+shadow-sword: giant +sword:giant +digital
+burning-edge: giant +beast:claw +fire:storm
+demon-s-bolt: giant +lightning:orb +wings:devil
+beautiful-hoop: ribbon +aura:ring
+oraora-menchi: eyes +impact:small
+doukasen: fire:trail +fire:explosion
+z-slash: triangle:z +lasers
+desert-drift: sandstorm:dust +wind:dash
+death-scythe-low: crescent:ground +slide
+silk-road: sun +speedlines
+dig-through: mole +sandstorm:dust
+liquid-flow: water:wave +clone:afterimage
+magma-carpet: fire:geyser +earth:fire
+mushroom-hop: bush +bubbles +impact:dust
+hologram-lock: digital +hand +shield:panels
+jackknife: water:wave +crescent
+shiny-feather: wings:angel +light:flash
+atlas-sword: sword:giant +lightning:zigzag
+psychic-bow: aura:psychic +spear
+asoko-ni-ufo: light:flash +clone:afterimage
+diffuse-chord: notes +rainbow
+konoha-rendezvous: tornado:leaves +clone:double
+horse-sprint: unicorn +speedlines
+univolt-sprint: unicorn +lightning:zigzag
+kujaku-blind: bird +rainbow +light:flash
+phoenichias-blind: bird:phoenix +rainbow +light:flash
+brachias-blind: dragon:red +rainbow +light:flash
+grizzly-press: beast:jaws +impact:dive +sandstorm:dust
+tsukinowaguma-press: beast +impact:dive +moon
+gryphbang-press: beast:tiger +impact:dive +sandstorm:dust
+kamoshika-cabriole: unicorn +rocks
+redio-cabriole: unicorn +rocks +dark:orb
+pamerio-cabriole: unicorn +rocks +tornado:leaves
+dohma-driller: drill +mole
+zooma-driller: drill +mole +water:wave
+gussphee-bomb: bush +fire:explosion +mist
+pegasus-brave: bird:pegasus +wings:angel
+pegasus-red-brave: bird:pegasus +wings:angel +fire:dash
+inabikari-dash: lightning:zigzag +speedlines
+spark-wind: tornado:white +lightning:orb
+angel-ray: light:flash +wings:angel
+blue-stardust: stars +speedlines
+tokkou-buffalo-train: charge:bull +train +clone:triple
+the-labyrinth: digital +portal:grid
+sunrise-carnival: cards +confetti +fireworks
+endeavor-run: speedlines +impact:dust
+overglow: light:flash +light:rays
+niagara-falls: water:geyser +water:wave +rainbow
+blackmail: eyes +dark:curse
+general-flag: fire:trail +runes +fire:explosion
+yamabiko-step: aura:ring +tornado:leaves
+matrix-eye: scan:grid +digital +speedlines
+hayabusa-gaeshi: bird:hawk +crescent
+elegant-blade: crescent:moon +flower:rose
+second-life-hoop: aura:ring +water:wave
+ayakashi-dribble: mist:dark +clone:triple
+asoko-ni-onigiri: light:flash +impact:dust
+rock-n-roll-beat: lasers +rays:red
+inazuma-1gou-otoshi: clone:double +lightning:big
+crossfire: fire:swirl +tornado:blue +stars
+crossfire-wind: tornado:blue +fire:swirl +stars
+big-bang: portal:space +planet +fire:explosion
+banana-shoot: ballspin +fire:trail
+the-tube: water:wave +impact:ball
+jet-stream: tornado:white +clone:triple +lightning:orb
+god-cannon: hand:god +fire:comet +light:beam
+death-break: dark:orb +rays:red +impact:giant
+bunshin-death-zone: clone:triple +triangle +dark:orb
+bunshin-penguin: penguin +clone:triple
+mach-wind: tornado:white +speedlines
+death-sword: dark:orb +spear +fire:explosion
+koutei-penguin-7: penguin +rainbow +light:flash
+buttobi-jump: impact:dive +fire:comet
+denrai-houtou: sword:giant +light:pillar
+bound-flame: fire:burst +fire:trail
+head-bazooka: impact:spin +fire:comet
+rocket-head: punch:rocket +fire:comet
+ballista-shot: missile +light:beam
+triangle-zz: triangle +lasers +clone:triple
+perfect-course: scan:grid +digital +spear:red
+fortissimo: notes +aura:ring +light:beam
+death-drop: dark:orb +lightning:zigzag +rays:red
+maboroshi-shot: wisps +light:halo
+dinosaur-break: beast:jaws +rocks +light:beam
+sonic-shot: speedlines +tornado:white
+thousand-arrow: barrage +spear:red
+joker-rains: dark:orb +lightning:zigzag +barrage
+flying-fish: shark +water:wave +speedlines
+sidewinder: snake +impact:spark
+devil-burst: wings:devil +dark:orb +fire:comet
+white-hurricane: tornado:white +light:flash
+zero-magnum: dark:hole +light:rays +light:beam
+extend-zone: portal:space +dark:orb +light:beam
+evolution: clone:triple +lightning:orb +tornado:blue
+panther-blizzard: beast:tiger +ice:blizzard
+fuurinkazan-destroyer: fire:swirl +tornado +lightning:orb +dark:orb
+black-ash: dark:hole +light:pillar
+rainbow-bubble-shot: bubbles:giant +rainbow
+dragon-s-tail: dragon:earth +speedlines
+fire-tornado-dd: fire:spin +clone:double +fire:explosion
+lost-angel: giant +dark:hole +fire:comet
+harmonics: giant +shield:bubble +notes
+falco-wing: giant +bird:hawk +tornado:white
+magician-s-box: giant +triangle +dark:orb
+justice-wing: giant +wings:angel +lightning:zigzag
+icicle-road: giant +ice:blizzard +ice:ground
+raging-claw: giant +beast:claw +dragon:wyvern
+heavy-aqua-lance: giant +water:wave +spear
+sunshine-force: giant +fire:sun +fire:swirl
+bushin-renzan: giant +sword +cross:x
+white-breath: giant +wings:angel +light:beam
+maou-no-ono: giant +sword:axe +dark:spiral
+sword-excalibur: giant +sword:excalibur +lightning:big
+sword-of-fire: giant +sword:fire +fire:storm
+gallop-buster: giant +unicorn +tornado:blue
+checkmate: giant +runes +dark:orb
+soul-bringer: giant +sword:scythe +dark:orb
+bouncer-rabbit: moon +impact:spark
+spinning-transam: tornado:blue +ballspin
+kodai-no-kiba: eyes:green +beast:jaws +rays:red
+plasma-ball: lightning:orb +aura:psychic
+double-shot: clone:double +fire:comet
+tenryuu: dragon:blue +light:beam
+sparkle-wave: stars +portal:space +speedlines
+last-death-zone: planet:earth +triangle +dark:orb
+dimension-storm: portal:space +dark:rift +stars:cross
+gauss-shot: rainbow +ballspin +aura:spiral
+setsuna-boost: clone:afterimage +light:beam
+hinawa-bullet: missile +fire:explosion
+love-arrow: hearts +spear
+gigaton-head: hand:gold +fire:comet +impact:dive
+disaster-break: dark:orb +rays:red +earth:spikes
+gear-drive: clock +light:beam
+chaos-meteor: dark:orb +meteor:big +rays:red
+ogre-blade: eyes +crescent:demon +aura:ring
+souhi-yuuseidan: clone:double +sun +meteor:single
+sunshine-storm: fire:sun +light:flash +light:beam
+god-wind: tornado:white +speedlines +fire:comet
+fire-tornado-tc: fire:spin +clone:triple +fire:explosion
+great-blaster: shield:rings +light:beam
+extreme-rabbit: moon +clone:double +impact:spark
+gamma-strike: planet +fire:explosion +light:beam
+tenchi-raimei: lightning:big +tornado
+kiku-ichimonji: crescent +flower:storm +light:beam
+shellbit-burst: shield:panels +lasers
+yakimochi-screw: bubbles:giant +fire:explosion +fire:spin
+ouja-no-kiba: beast:jaws +ice:cube +light:flash
+glorious-ray: giant +spear:light +light:beam
+big-bang-slash: giant +sword +crescent
+omega-attack: triangle +rainbow +light:beam
+beast-lord: moon +beast:wolf +fire:breath
+vampire-lord: moon +wings:devil +rays:red
+the-monsters: moon +dark:orb +rays:red
+dead-future: flower:rose +light:beam +rays:red
+spring-arrow: aura:spiral +spear
+great-max-na-ore: tornado +fire:spin +lightning:orb
+saikyou-eleven-hadou: clone:triple +rainbow +light:beam
+houou-rekka: bird:phoenix +fire:storm
+athena-assault: giant +lightning:orb +aura:psychic
+red-prison: giant +wings:devil +rays:red
+shadow-leg: giant +digital +dark:spiral
+mangetsu-rush: giant +moon +punch:barrage
+mortal-smash: giant +punch:giant +lightning:orb
+heart-rapier: hearts +sword +light:flash
+heart-rapier-earth: hearts +sword +light:flash
+parkour-attack: impact:kick +light:flash +speedlines
+mermaid-smash: bubbles:pink +water:wave
+kyoubou-head: impact:spin +fire:comet
+rapid-fire: fire:explosion +fire:trail
+oil-rush: dark:orb +earth:spikes
+ivory-crash: beast +impact:spark
+gold-fever: impact:spin +stars
+dust-javelin: sandstorm:dust +spear
+bubble-boil: bubbles:giant +water:geyser
+kazangan: earth:fire +fire:comet
+gigant-vine: vine +impact:dust
+injection: aura:green +fire:comet
+kazanrai: fire:geyser +lightning:big +fire:explosion
+magic-amp: runes +aura:green +light:beam
+stargazer: stars +portal:space +meteor:belt
+kabuki-break: flower:storm +impact:spin
+loyal-heart-shot: aura:ring +fire:explosion +fire:comet
+orbital-drive: lightning:zigzag +light:beam
+galactica-fall: portal:space +tornado:blue +light:beam
+scream-of-eden: fire:sun +dark:hole +dark:spiral
+dead-straight: punch:rocket +impact:spark
+black-dawn: lightning:orb +dark:hole +light:halo
+hayabusa-glide: bird:hawk +tornado:white
+hakutouwashi-glide: bird:eagle +tornado:white
+ookami-strike: beast:wolf +dark:spiral
+ginrou-strike: beast:wolf +dark:spiral +crescent
+dragnova-strike: dragon:wyvern +dark:spiral
+lion-assault: beast:tiger +impact:spark +sandstorm:dust
+dorouga-assault: beast:wolf +fire:burst +sandstorm:dust
+goliger-assault: beast:tiger +fire:explosion +sandstorm:dust
+belion-whip: snake +dark:orb +crescent:demon
+begiran-whip: tornado:blue +snake +crescent:demon
+pelion-whip: tornado:blue +snake +dark:orb
+ixaal-cannon: giant +dark:spiral +light:beam
+vairaas-cannon: giant +dark:spiral +fire:comet
+gooma-inferno: beast:jaws +fire:breath
+shining-bird: bird:phoenix +sun +light:flash
+hokkyoku-guma-2gou: beast +ice:blizzard +light:beam
+meteor-drop: meteor:single +fire:comet
+ninpou-gamagaeru: runes +beast +bubbles
+koori-no-yari: ice:cube +spear:light +ice:blizzard
+backdraft: fire:spin +fire:comet
+victory-line: tornado:white +clone:triple +fire:comet
+hidaruma-bakunetsudan: fire:swirl +fire:explosion +fire:comet
+fire-lemonade: bubbles +fire:explosion +fire:trail
+spectre-magna: lightning:orb +light:beam
+overhead-penguin: penguin:purple +light:flash +fire:comet
+overhead-penguin-wood: penguin:purple +light:flash +fire:comet
+perfect-penguin: penguin +sun +light:flash
+king-s-lance: hand:spirit +spear:light
+god-knows-impact: wings:angel +light:pillar +impact:giant
+tenkuu-no-yaiba: wings:angel +tornado:blue +crescent
+hissatsu-kumagoroshi-zan: crescent +cross:x +rays:red
+white-double-impact: ice:blizzard +clone:double +ice:ball
+shirousagi-dashoot: speedlines +impact:spark +aura:psychic
+the-explosion: fire:explosion +portal:space +light:beam
+zigzag-strike: lightning:zigzag +fire:explosion
+cosmic-blaster: stars +lasers +dark:hole
+diamond-ray: ice:cube +light:flash +light:beam
+ggg-senjou-no-aria: wings:gold +notes +light:pillar
+innocent-drive: ice:cube +light:beam
+overcyclone: water:geyser +tornado:blue +rocks
+orion-crossviper: clone:dark +dark:orb +rays:red
+carnival-shake: tornado:leaves +confetti
+carronade-hou: missile +fire:explosion
+sunrise-blitz: lightning:hand +sun +light:flash
+shark-the-deep: shark +dark:spiral +water:wave
+super-megaton-head: hand:gold +fire:comet +impact:dive
+sword-of-d-artagnan: clone:triple +sword +light:beam
+time-trance: clock:freeze +portal:space
+diamond-edge: ice:cube +light:flash +light:beam
+doublehead-eagle: bird:eagle +clone:double +light:beam
+twin-lancer: clone:double +light:beam +fire:spin
+death-samba: wings:devil +confetti +fire:explosion
+death-crusher-zone: ice:cube +triangle +dark:orb
+burning-hi-no-tori: bird:fire +fire:storm
+bison-horn: charge:bull +fire:storm +fire:comet
+fire-lemonade-rising: bubbles +fire:spin +light:beam
+black-field: dark:orb +rays:red +clone:dark
+planet-break: planet +light:flash +fire:explosion
+perseus-orb: hand:spirit +light:beam +wings:angel
+penguin-the-god-devil: penguin +light:pillar +dark:orb
+maximum-circus: clone:triple +portal:space +confetti
+last-resort: lightning:orb +dark:spiral +dragon:red
+last-resort-neutral: lightning:orb +dark:spiral +dragon
+last-resort-d: lightning:orb +dark:spiral +dragon:wyvern
+requiem-dust: notes +light:halo +light:beam
+red-break: fire:storm +fire:explosion +fire:trail
+gekkoumaru-tsubame-gaeshi: moon +crescent +light:beam
+koutei-penguin-2gou-feat-shark: penguin +shark +light:beam
+tenkuu-hayabusadan: bird:hawk +light:beam +impact:dive
+tenhou-chiretsu: lightning:orb +runes +fire:explosion
+hyouketsu-no-gungnir: ice:blizzard +ice:cube +spear:light
+inazuma-break-cg: clone:triple +dark:orb +lightning:big
+koori-no-ya: ice:blizzard +ice:ball +spear:light
+shunrai: fire:comet +sandstorm:dust +lightning:zigzag
+sunshine-blade: sun +sword:fire +fire:comet
+hitotsu: impact:spark +tornado:white
+gou-no-issen: aura:spiral +rays:red +light:beam
+guruguru-shoot: tornado:white +ballspin
+cheat-blaster: fire:explosion +barrage +fire:comet
+aim-shot: scan:grid +fire:comet
+empress-shadow: giant +dark:orb +spear
+penguin-the-parade: penguin:purple +lasers +light:flash
+meteodd-fire-tornado: fire:spin +meteor:big +lightning:zigzag
+bahamut-crash: giant +dragon:wyvern +lightning:orb
+tenkuu-thunder: fire:sun +lightning:big +light:beam
+answer-boost: scan:grid +light:beam
+flying-marlin: shark +water:wave +speedlines
+meteodd-fire-tornado-v: hand:majin +fire:spin +meteor:big
+silver-wolf-legend: beast:wolf +moon +lasers
+luminous-impact: giant +wings:gold +light:beam

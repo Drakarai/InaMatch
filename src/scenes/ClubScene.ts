@@ -128,8 +128,8 @@ export class ClubScene extends Phaser.Scene {
     const club = getTeam('club');
     this.save.squad.forEach((key, i) => {
       const card = cardByKey(key);
-      const y = SQUAD.y + 52 + i * 33 + (i >= 11 ? 14 : 0);
-      if (i === 11) c.add(text(this, SQUAD.x + 18, y - 12, 'BANQUILLO', 11, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0, 0.5));
+      const y = SQUAD.y + 50 + i * 33 + (i >= 11 ? 22 : 0);
+      if (i === 11) c.add(text(this, SQUAD.x + 18, y - 25, 'BANQUILLO', 11, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0, 0.5));
       const row = this.add.graphics();
       const on = this.selected === i;
       row.fillStyle(on ? THEME.yellow : i < 11 ? 0x1a2840 : 0x131e31, on ? 0.95 : 0.9).fillPoints(slant(SQUAD.x + 12, y - 14, SQUAD.w - 24, 29, 8), true);
@@ -243,8 +243,8 @@ export class ClubScene extends Phaser.Scene {
     const inSquad = new Set(this.save.squad);
     shown.forEach((card, i) => {
       const x = COLL.x + 80 + (i % 5) * 146;
-      const y = COLL.y + 132 + Math.floor(i / 5) * 186;
-      const cc = drawCard(this, x, y, card, 128, 172);
+      const y = COLL.y + 126 + Math.floor(i / 5) * 172;
+      const cc = drawCard(this, x, y, card, 124, 162);
       if (inSquad.has(card.key)) {
         cc.add(this.add.graphics().fillStyle(THEME.yellow).fillPoints(slant(-60, -60, 60, 18, 5), true));
         cc.add(text(this, -30, -51, 'EN EL 16', 10, THEME.ink, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5));

@@ -34,19 +34,34 @@ def ref_height():
 
 
 def pixel(im, k):
-    """Reduce el dibujo con la escala k, colores duros y un contorno de 1 px."""
+    """Reduce el dibujo con la escala k a pixel art limpio: cada píxel toma el color plano más cercano del propio
+    dibujo (sin tonos intermedios borrosos) y la silueta lleva un contorno de 1 px."""
     im = im.crop(im.getbbox())
     w, h = max(1, round(im.width * k)), max(1, round(im.height * k))
-    s = im.resize((w, h), Image.LANCZOS)
-    a = s.split()[3].point(lambda v: 255 if v > 120 else 0)
-    rgb = s.convert('RGB').quantize(colors=24, method=Image.MEDIANCUT, dither=Image.Dither.NONE).convert('RGBA')
-    rgb.putalpha(a)
+    # paleta: los colores planos del dibujo (los que ocupan bastante superficie)
+    counts = im.getcolors(1 << 20)
+    total = sum(c for c, _ in counts if _[3] == 255)
+    pal = [col[:3] for c, col in counts if col[3] == 255 and c > total * 0.0004]
+    s = im.resize((w, h), Image.BOX)
+    a = s.split()[3].point(lambda v: 255 if v > 110 else 0)
+    out_px = []
+    for (r, g, b, al) in s.getdata():
+        if al < 20:
+            out_px.append((0, 0, 0, 0))
+            continue
+        # el color sin el fondo transparente
+        r, g, b = (r * 255 // al, g * 255 // al, b * 255 // al) if al < 255 else (r, g, b)
+        best = min(pal, key=lambda p: (p[0] - r) ** 2 + (p[1] - g) ** 2 + (p[2] - b) ** 2)
+        out_px.append(best + (255,))
+    flat = Image.new('RGBA', (w, h))
+    flat.putdata(out_px)
+    flat.putalpha(a)
     ring = a.filter(ImageFilter.MaxFilter(3))
     out = Image.new('RGBA', (w + 2, h + 2))
     ol = Image.new('RGBA', (w, h), OUT)
     ol.putalpha(ring)
     out.alpha_composite(ol, (1, 1))
-    out.alpha_composite(rgb, (1, 1))
+    out.alpha_composite(flat, (1, 1))
     return out
 
 

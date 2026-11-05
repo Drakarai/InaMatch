@@ -7,7 +7,7 @@ SS = 6
 NUM = '10'
 OUT = V.OUT
 X0, Y0 = -30, -20  # origen del lienzo en unidades
-CW, CH = 160, 270
+CW, CH = 160, 290
 SKIN, HAIR = V.SKIN, V.HAIR
 KIT = {
     'shirt': (246, 206, 52, 255), 'shirt_d': (214, 168, 30, 255),
@@ -17,12 +17,12 @@ KIT = {
     'boot': (44, 44, 56, 255), 'boot_l': (90, 90, 106, 255),
 }
 # tipos de cuerpo: hombros, cintura, largo del torso, cadera, largo del pantalón, piernas, grosor de pierna y de brazo, largo del brazo
-TYPES = {
-    'normal': dict(sw=60, ww=50, tl=40, hip=54, sl=16, ll=46, lt=15, at=12, al=42),
-    'delgado': dict(sw=54, ww=44, tl=46, hip=48, sl=16, ll=58, lt=12.5, at=10.5, al=50),
-    'corpulento': dict(sw=80, ww=84, tl=54, hip=76, sl=18, ll=54, lt=21, at=17, al=54, round=True),
-    'bajito': dict(sw=52, ww=46, tl=32, hip=48, sl=13, ll=34, lt=14, at=11.5, al=34),
-    'chica': dict(sw=52, ww=42, tl=40, hip=54, sl=15, ll=50, lt=13, at=10.5, al=44),
+TYPES = {  # medidas en unidades de cabeza (100 = ancho de la cabeza)
+    'normal': dict(sw=54, ww=46, tl=40, hip=52, sl=22, ll=60, lt=11, at=9, al=50),
+    'delgado': dict(sw=50, ww=40, tl=44, hip=46, sl=22, ll=70, lt=10, at=8.5, al=56),
+    'corpulento': dict(sw=76, ww=80, tl=50, hip=76, sl=24, ll=56, lt=16, at=14, al=56, round=True),
+    'bajito': dict(sw=48, ww=42, tl=32, hip=46, sl=18, ll=46, lt=10.5, at=8.5, al=40),
+    'chica': dict(sw=48, ww=38, tl=40, hip=50, sl=20, ll=62, lt=10, at=8, al=50),
 }
 
 
@@ -79,94 +79,103 @@ def capsule(d, p0, p1, r, fill, shade=None, w=1.5):
 # ------------------------------------------------------------------ cuerpo de frente / espalda
 
 def body_front(d, t, back=False, num='10'):
-    cx = 50
-    top = 100
+    """Cuerpo de frente (o de espaldas): brazos colgando, pantalón hasta la rodilla y medias altas."""
+    cx, top = 50, 100
+    sw, ww, hw = t['sw'] / 2, t['ww'] / 2, t['hip'] / 2
     waist = top + t['tl']
-    leg_top = waist + t['sl'] - 4
-    foot = leg_top + t['ll']
-    # piernas
+    short_bot = waist + t['sl']
+    foot = short_bot + t['ll']
+    knee = short_bot + t['ll'] * 0.3
+    lt = t['lt']
+    # piernas: muslo y rodilla de piel, media hasta debajo de la rodilla, bota
     for s in (-1, 1):
-        x = cx + s * (t['hip'] / 2 - t['lt'] / 2 - 2)
-        capsule(d, (x, leg_top), (x, foot - 6), t['lt'] / 2, SKIN['mid'], SKIN['shade'])
-        sock_top = foot - t['ll'] * 0.5
-        capsule(d, (x, sock_top), (x, foot - 6), t['lt'] / 2 + 0.6, KIT['sock'], KIT['sock_d'])
-        d.rectangle([P(x - t['lt'] / 2 + 0.4, sock_top + 3), P(x + t['lt'] / 2 - 0.4, sock_top + 6)], fill=KIT['stripe'])
-        bw = t['lt'] / 2 + 4
-        shape(d, rrect(x - bw + s * 1.5, foot - 9, x + bw + s * 1.5, foot + 2, 5), KIT['boot'], 1.5)
-        d.ellipse([P(x - bw * 0.5 + s * 1.5, foot - 7.5), P(x + s * 1.5, foot - 4.5)], fill=KIT['boot_l'])
-    # pantalón
-    hw = t['hip'] / 2
-    shape(d, rrect(cx - hw, waist - 6, cx + hw, waist + t['sl'], 5), KIT['shorts'], 1.6)
-    d.polygon([P(cx + hw * 0.45, waist - 4), P(cx + hw - 1.5, waist - 4), P(cx + hw - 1.5, waist + t['sl'] - 2), P(cx + hw * 0.45, waist + t['sl'] - 2)], fill=KIT['shorts_d'])
-    d.line([P(cx, waist + 4), P(cx, waist + t['sl'] - 1)], fill=OUT, width=int(1.2 * SS))
-    # brazos
-    sw = t['sw'] / 2
-    for s in (-1, 1):
-        x = cx + s * (sw + t['at'] / 2 - 3)
-        capsule(d, (x, top + 6), (x + s * 2, top + t['al']), t['at'] / 2, SKIN['mid'], SKIN['shade'])
-        capsule(d, (x, top + 6), (x + s * 0.6, top + t['al'] * 0.42), t['at'] / 2 + 1, KIT['sleeve'], KIT['sleeve_d'])
-        d.ellipse([P(x + s * 2 - t['at'] / 2 - 1, top + t['al'] - 2), P(x + s * 2 + t['at'] / 2 + 1, top + t['al'] + t['at'])], fill=OUT)
-        d.ellipse([P(x + s * 2 - t['at'] / 2 + 0.6, top + t['al'] - 0.4), P(x + s * 2 + t['at'] / 2 - 0.6, top + t['al'] + t['at'] - 1.6)], fill=KIT.get('hand', SKIN['mid']))
-    # torso
-    ww = t['ww'] / 2
+        x0 = cx + s * (hw * 0.45)
+        x1 = cx + s * (hw * 0.42)
+        capsule(d, (x0, short_bot - 6), (x1, foot - 6), lt / 2, SKIN['mid'], SKIN['shade'])
+        capsule(d, (x1, knee + 4), (x1, foot - 6), lt / 2 + 0.5, KIT['sock'], KIT['sock_d'])
+        d.rectangle([P(x1 - lt / 2 + 0.2, knee + 6), P(x1 + lt / 2 - 0.2, knee + 9)], fill=KIT['stripe'])
+        shape(d, blob_pts([(x1 - lt / 2 - 1.5 + s * 1, foot - 7), (x1 + lt / 2 + 1.5 + s * 1, foot - 7), (x1 + lt / 2 + 2.5 + s * 3, foot + 1.5),
+                            (x1 - lt / 2 - 0.5 + s * 1, foot + 2)]), KIT['boot'], 1.4)
+        d.ellipse([P(x1 - lt * 0.25 + s, foot - 5.5), P(x1 + lt * 0.15 + s, foot - 3)], fill=KIT['boot_l'])
+    # pantalón: más ancho abajo, con la separación de las piernas
+    shorts = [(cx - ww + 1, waist - 5), (cx + ww - 1, waist - 5), (cx + hw + 3, short_bot), (cx + 2, short_bot), (cx, short_bot - 6),
+              (cx - 2, short_bot), (cx - hw - 3, short_bot)]
+    shape(d, shorts, KIT['shorts'], 1.6)
+    d.polygon([P(cx + ww * 0.4, waist - 3), P(cx + ww - 2, waist - 3), P(cx + hw + 1, short_bot - 1.5), P(cx + hw * 0.5, short_bot - 1.5)], fill=KIT['shorts_d'])
+    # torso: hombros redondeados que se estrechan hacia la cintura (barriga en el corpulento)
     if t.get('round'):
-        bw = ww + 5  # barriga: más ancho a media altura que en hombros y cintura
+        bw = ww + 4
         torso = V.quad((cx - sw + 8, top), (cx - sw - 2, top + 2), (cx - sw, top + 14)) + \
             V.quad((cx - sw, top + 14), (cx - bw - 2, waist - 18), (cx - ww + 4, waist + 2))[1:] + \
             V.quad((cx - ww + 4, waist + 2), (cx, waist + 6), (cx + ww - 4, waist + 2))[1:] + \
             V.quad((cx + ww - 4, waist + 2), (cx + bw + 2, waist - 18), (cx + sw, top + 14))[1:] + \
             V.quad((cx + sw, top + 14), (cx + sw + 2, top + 2), (cx + sw - 8, top))[1:]
     else:
-        torso = trap(cx - sw, cx + sw, top, cx - ww, cx + ww, waist + 2, r=7)
+        torso = V.quad((cx - sw + 7, top), (cx - sw, top), (cx - sw, top + 9)) + V.quad((cx - sw, top + 9), (cx - ww - 1, waist - 10), (cx - ww, waist + 1))[1:] + \
+            [(cx + ww, waist + 1)] + V.quad((cx + ww, waist + 1), (cx + ww + 1, waist - 10), (cx + sw, top + 9))[1:] + V.quad((cx + sw, top + 9), (cx + sw, top), (cx + sw - 7, top))[1:]
     shape(d, torso, KIT['shirt'])
-    d.polygon([P(cx + sw * 0.5, top + 3), P(cx + sw - 2, top + 5), P(cx + ww - 2, waist), P(cx + ww * 0.5, waist)], fill=KIT['shirt_d'])
-    # mangas raglán (de color) desde el cuello
+    d.polygon([P(cx + sw * 0.45, top + 3), P(cx + sw - 2, top + 6), P(cx + ww - 2, waist), P(cx + ww * 0.45, waist)], fill=KIT['shirt_d'])
+    # mangas raglán: del cuello al sobaco
     for s in (-1, 1):
-        d.polygon([P(cx + s * 7, top), P(cx + s * sw, top + 2), P(cx + s * (sw - 1), top + 14), P(cx + s * (sw - 7), top + 14)], fill=KIT['sleeve'])
-        d.line([P(cx + s * 7, top), P(cx + s * (sw - 7), top + 14)], fill=OUT, width=int(1.1 * SS))
+        rag = [(cx + s * 8, top), (cx + s * (sw - 6), top), (cx + s * (sw + 0.5), top + 8), (cx + s * (sw - 1), top + 15), (cx + s * (sw - 7), top + 13)]
+        d.polygon([P(*p) for p in rag], fill=KIT['sleeve'])
+        d.line([P(cx + s * 8, top), P(cx + s * (sw - 7), top + 13), P(cx + s * (sw - 1), top + 15)], fill=OUT, width=int(1.1 * SS))
+    # brazos colgando junto al torso, por delante de sus bordes
+    for s in (-1, 1):
+        sh = (cx + s * (sw - 1), top + 7)
+        hand = (cx + s * (sw + t['at'] * 0.55), top + t['al'])
+        capsule(d, sh, hand, t['at'] / 2, SKIN['mid'], SKIN['shade'] if s > 0 else None)
+        capsule(d, sh, V.lerp(sh, hand, 0.28), t['at'] / 2 + 0.8, KIT['sleeve'], KIT['sleeve_d'] if s > 0 else None)
+        r = t['at'] * 0.62
+        d.ellipse([P(hand[0] - r - 1.4, hand[1] - r - 1.4), P(hand[0] + r + 1.4, hand[1] + r + 1.4)], fill=OUT)
+        d.ellipse([P(hand[0] - r, hand[1] - r), P(hand[0] + r, hand[1] + r)], fill=KIT.get('hand', SKIN['mid']))
     if back:
-        f = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', int(22 * SS * t['sw'] / 60))
+        f = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', int(20 * SS * t['sw'] / 54))
         d.text(P(cx, top + t['tl'] * 0.55), num, font=f, fill=KIT['sleeve'], anchor='mm', stroke_width=int(0.5 * SS), stroke_fill=KIT['sleeve_d'])
     else:
         d.polygon([P(cx - 8, top), P(cx + 8, top), P(cx, top + 9)], fill=KIT['sleeve'], outline=OUT)
-    # cuello
-    neck = rrect(cx - 7, 90, cx + 7, top + 3, 3)
-    shape(d, neck, SKIN['shade'], 1.2)
+    shape(d, rrect(cx - 6.5, 90, cx + 6.5, top + 3, 3), SKIN['shade'], 1.2)
+
+
+def blob_pts(pts):
+    import heads
+    return heads.blob(pts, 6)
 
 
 # ------------------------------------------------------------------ cuerpo de perfil (mirando a la derecha)
 
 def body_side(d, t, step=0):
-    cx = 50
-    top = 100
-    depth = max(34, t['sw'] * 0.66)
+    """Cuerpo de perfil, mirando a la derecha; step 1 y 2: zancadas."""
+    cx, top = 50, 100
+    depth = max(30, t['sw'] * 0.6)
     waist = top + t['tl']
-    leg_top = waist + t['sl'] - 4
-    foot = leg_top + t['ll']
+    short_bot = waist + t['sl']
+    foot = short_bot + t['ll']
     lt = t['lt']
     stride = {0: 0, 1: 1, 2: -1}[step]
-    # piernas: la de atrás más oscura
-    for k, (dx, dark) in enumerate(((-stride * 9, True), (stride * 9, False))):
-        x0 = cx
-        x1 = cx + dx
+    for dx, dark in ((-stride * 11, True), (stride * 11, False)):
+        hip = (cx, short_bot - 6)
+        ft = (cx + dx, foot - 6)
+        knee = V.lerp(hip, ft, 0.38)
         sk = SKIN['shade'] if dark else SKIN['mid']
-        capsule(d, (x0, leg_top), (x1, foot - 6), lt / 2, sk, None if dark else SKIN['shade'])
-        sock_top = leg_top + (foot - leg_top) * 0.5
-        sx = x0 + (x1 - x0) * 0.5
-        capsule(d, (sx, sock_top), (x1, foot - 6), lt / 2 + 0.6, KIT['sock_d'] if dark else KIT['sock'])
-        shape(d, rrect(x1 - lt / 2 - 1, foot - 9, x1 + lt / 2 + 9, foot + 2, 5), KIT['boot'], 1.5)
-        d.ellipse([P(x1 + 1, foot - 7.5), P(x1 + lt / 2 + 6, foot - 4.5)], fill=KIT['boot_l'])
+        capsule(d, hip, ft, lt / 2, sk, None if dark else SKIN['shade'])
+        capsule(d, knee, ft, lt / 2 + 0.5, KIT['sock_d'] if dark else KIT['sock'])
+        shape(d, blob_pts([(ft[0] - lt / 2 - 1, foot - 7), (ft[0] + lt / 2 + 6, foot - 5), (ft[0] + lt / 2 + 8, foot + 1.5), (ft[0] - lt / 2 - 1, foot + 2)]),
+              tone(KIT['boot'], 0.8) if dark else KIT['boot'], 1.4)
     # pantalón
-    shape(d, rrect(cx - depth / 2 - 1, waist - 6, cx + depth / 2 + 1, waist + t['sl'], 5), KIT['shorts'])
+    shape(d, [(cx - depth / 2, waist - 5), (cx + depth / 2, waist - 5), (cx + depth / 2 + 3, short_bot), (cx - depth / 2 - 3, short_bot)], KIT['shorts'])
     # torso
     shape(d, rrect(cx - depth / 2, top, cx + depth / 2, waist + 2, 8), KIT['shirt'])
-    d.polygon([P(cx - depth / 2 + 2, top + 8), P(cx - depth / 2 + 7, top + 8), P(cx - depth / 2 + 7, waist), P(cx - depth / 2 + 2, waist)], fill=KIT['shirt_d'])
-    # brazo (el de este lado), colgando con un leve balanceo
-    sw_arm = -stride * 6
-    capsule(d, (cx, top + 7), (cx + sw_arm, top + t['al']), t['at'] / 2, SKIN['mid'], SKIN['shade'])
-    capsule(d, (cx, top + 7), (cx + sw_arm * 0.4, top + t['al'] * 0.42), t['at'] / 2 + 1, KIT['sleeve'], KIT['sleeve_d'])
-    d.ellipse([P(cx + sw_arm - t['at'] / 2 - 1, top + t['al'] - 2), P(cx + sw_arm + t['at'] / 2 + 1, top + t['al'] + t['at'])], fill=OUT)
-    d.ellipse([P(cx + sw_arm - t['at'] / 2 + 0.6, top + t['al'] - 0.4), P(cx + sw_arm + t['at'] / 2 - 0.6, top + t['al'] + t['at'] - 1.6)], fill=KIT.get('hand', SKIN['mid']))
+    d.polygon([P(cx - depth / 2 + 2, top + 8), P(cx - depth / 2 + 6, top + 8), P(cx - depth / 2 + 6, waist), P(cx - depth / 2 + 2, waist)], fill=KIT['shirt_d'])
+    # brazo de este lado, balanceándose al correr
+    sw_arm = -stride * 8
+    sh = (cx, top + 6)
+    hand = (cx + sw_arm, top + t['al'])
+    capsule(d, sh, hand, t['at'] / 2, SKIN['mid'], SKIN['shade'])
+    capsule(d, sh, V.lerp(sh, hand, 0.34), t['at'] / 2 + 1.6, KIT['sleeve'], KIT['sleeve_d'])
+    r = t['at'] * 0.62
+    d.ellipse([P(hand[0] - r - 1.4, hand[1] - r - 1.4), P(hand[0] + r + 1.4, hand[1] + r + 1.4)], fill=OUT)
+    d.ellipse([P(hand[0] - r, hand[1] - r), P(hand[0] + r, hand[1] + r)], fill=KIT.get('hand', SKIN['mid']))
     shape(d, rrect(cx - 4, 90, cx + 8, top + 4, 3), SKIN['shade'], 1.2)
 
 

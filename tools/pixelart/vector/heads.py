@@ -55,8 +55,19 @@ def mirror(pts):
 
 # ------------------------------------------------------------------ capas
 
-def L(shape, c='mid', z='b', sil=True, ln=False):
-    return {'s': shape, 'c': c, 'z': z, 'sil': sil, 'ln': ln}
+def L(shape, c='mid', z='b', sil=True, ln=False, w=0):
+    """Capa: forma rellena (o, con w > 0, un trazo de ese grosor: mechones y rayas del pelo)."""
+    return {'s': shape, 'c': c, 'z': z, 'sil': sil and not w, 'ln': ln, 'w': w}
+
+
+def strand(pts, c='deep', z='b', w=1.0):
+    """Línea de mechón dentro del pelo (curva suave por los puntos)."""
+    out = []
+    for i in range(len(pts) - 1):
+        a, b = pts[i], pts[i + 1]
+        out += [lerp(a, b, t / 6) for t in range(6)]
+    out.append(pts[-1])
+    return L(out, c, z, False, False, w)
 
 
 def spk(a, b, tip, bulge=6, z='b', light_left=True, sil=True, ln=False):
@@ -71,8 +82,8 @@ def spk(a, b, tip, bulge=6, z='b', light_left=True, sil=True, ln=False):
 
 # ------------------------------------------------------------------ caras
 
-FACE_FRONT = quad((20, 54), (16, 98), (50, 103)) + quad((50, 103), (84, 98), (80, 54))[1:]
-FACE_SIDE = quad((62, 48), (86, 50), (88, 76)) + quad((88, 76), (90, 98), (72, 102))[1:] + quad((72, 102), (52, 102), (40, 90))[1:] + [(40, 60)]
+FACE_FRONT = quad((19, 52), (17, 94), (50, 103)) + quad((50, 103), (83, 94), (81, 52))[1:] + quad((81, 52), (50, 26), (19, 52))[1:-1]
+FACE_SIDE = blob([(48, 20), (72, 24), (85, 40), (87, 62), (87, 82), (82, 96), (72, 102), (58, 101), (42, 94), (24, 80), (16, 58), (24, 32)])
 
 
 def poly(d, pts, fill):
@@ -203,31 +214,46 @@ def draw(d, spec, view):
         q = [P(*p) for p in sh]
         d.line(q + [q[0]], fill=OUT, width=int(W * 2 * SS), joint='curve')
         d.polygon(q, fill=OUT)
-    # 2) orejas
-    if ears:
+    # 2) orejas (de perfil, más tarde: encima del pelo)
+    def draw_ears():
+        for ex, ey in ear_spots:
+            r = 4.4 + big_ears
+            d.ellipse([P(ex - r - 1.6, ey - 8 - big_ears), P(ex + r + 1.6, ey + 8 + big_ears)], fill=OUT)
+            d.ellipse([P(ex - r, ey - 6.4 - big_ears), P(ex + r, ey + 6.4 + big_ears)], fill=pal['skin'])
+            d.ellipse([P(ex - r * 0.4, ey - 4), P(ex + r * 0.4, ey + 4)], fill=pal['skin_d'])
+
+    if ears and view != 'side':
         for ex, ey in ear_spots:
             r = 4.4 + big_ears
             d.ellipse([P(ex - r, ey - 6.4 - big_ears), P(ex + r, ey + 6.4 + big_ears)], fill=pal['skin'])
             d.ellipse([P(ex - r * 0.4, ey - 4), P(ex + r * 0.4, ey + 4)], fill=pal['skin_d'])
     # 3) capas de detrás
+    def paint(l):
+        if l['w']:
+            line(d, l['s'], resolve(l['c'], pal), l['w'])
+        else:
+            poly(d, l['s'], resolve(l['c'], pal))
+
+    if view == 'side':  # de perfil la cabeza entera es piel y el pelo va encima (marca el nacimiento del pelo)
+        poly(d, FACE_SIDE, pal['skin'])
+        poly(d, quad((60, 92), (68, 100), (78, 101)) + [(62, 102), (50, 97)], pal['skin_d'])
     for l in layers:
         if l['z'] == 'b':
-            poly(d, l['s'], resolve(l['c'], pal))
+            paint(l)
     # 4) cara, sombra bajo el pelo y rasgos
     if view == 'front':
         poly(d, FACE_FRONT, pal['skin'])
-        poly(d, quad((20, 58), (50, 72), (80, 58)) + [(80, 54), (20, 54)], pal['skin_d'])
         poly(d, quad((73, 64), (79, 92), (58, 100)) + quad((58, 100), (79, 93), (81, 62))[1:], pal['skin_d'])
         eyes_front(d, f, pal)
         mouth_front(d, f)
-    elif view == 'side':
-        poly(d, FACE_SIDE, pal['skin'])
-        poly(d, quad((50, 84), (60, 98), (72, 101)) + [(52, 101), (42, 90)], pal['skin_d'])
-        eye_side(d, f, pal)
     # 5) capas de delante (flequillos, gorros, gafas...)
     for l in layers:
         if l['z'] == 'f':
-            poly(d, l['s'], resolve(l['c'], pal))
+            paint(l)
+    if view == 'side':
+        if ears:
+            draw_ears()
+        eye_side(d, f, pal)
     # 6) líneas interiores
     for l in layers:
         if l['ln']:

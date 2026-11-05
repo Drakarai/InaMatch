@@ -264,6 +264,104 @@ def zukan_portraits(names, done, all_looks, force):
     return n
 
 
+# juego de cada temporada, como lo escribe la enciclopedia en japonés
+SEASON_GAME_JA = {'ie1': 'イナズマイレブン', 'ie2': 'イナズマイレブン2', 'ie3': 'イナズマイレブン3', 'go': 'イナズマイレブンGO シャイン',
+                  'cs': 'イナズマイレブンGO2', 'gx': 'ギャラクシー', 'ares': 'アレス', 'orion': 'オリオン', 'vr': '英雄たち'}
+PAGES_CACHE = os.path.join(ROOT, 'tools', 'wiki', '.cache', 'pages_missing.json')
+EXTRA_PATH = os.path.join(ROOT, 'tools', 'wiki', 'portraits_extra.json')
+
+
+def wiki_pages(titles):
+    """Texto de las fichas de la wiki inglesa (con caché)."""
+    cache = json.load(open(PAGES_CACHE, encoding='utf-8')) if os.path.exists(PAGES_CACHE) else {}
+    todo = [t for t in titles if t not in cache]
+    for i in range(0, len(todo), 40):
+        d = get({'action': 'query', 'prop': 'revisions', 'rvprop': 'content', 'rvslots': 'main', 'redirects': 1, 'titles': '|'.join(todo[i:i + 40])})
+        back = {r['to']: r['from'] for r in d['query'].get('redirects', [])}
+        back.update({r['to']: r['from'] for r in d['query'].get('normalized', [])})
+        for page in d['query']['pages']:
+            title = back.get(page['title'], page['title'])
+            title = back.get(title, title)
+            revs = page.get('revisions') or [{}]
+            cache[title] = revs[0].get('slots', {}).get('main', {}).get('content', '')
+    os.makedirs(os.path.dirname(PAGES_CACHE), exist_ok=True)
+    json.dump(cache, open(PAGES_CACHE, 'w', encoding='utf-8'), ensure_ascii=False)
+    return cache
+
+
+def ja_keys(text):
+    """Nombres japoneses de una ficha: el nombre, el apodo (el alias alienígena de los de Aliea) y la lectura en kana."""
+    field = lambda f: (re.search(r'\|\s*' + f + r'\s*=\s*([^\n|]*)', text) or [None, ''])[1].strip().lstrip('*')
+    keys = [field('name_jp'), field('nickname_jp')]
+    ruby = re.findall(r'\{\{Ruby\|([^|}]+)\|([^}]+)\}\}', text[:3000])
+    if ruby:
+        keys.append(''.join(r[1] for r in ruby[:3]))
+    return [k for k in keys if k]
+
+
+def ja_norm(s):
+    return re.sub(r'[\s・=＝\-·*]', '', unicodedata.normalize('NFKC', s or ''))
+
+
+def save_portrait(img, tid, pid, all_looks):
+    dest_dir = os.path.join(OUT, tid)
+    os.makedirs(dest_dir, exist_ok=True)
+    portrait(img).save(os.path.join(dest_dir, pid + '.webp'), 'WEBP', quality=82, method=6)
+    all_looks[f'{tid}:{pid}'] = looks(portrait(img))
+
+
+def missing_portraits(wikis, all_looks):
+    """Los que siguen sin retrato después de la wiki e Inazugle:
+    1. Inazugle en japonés (tools/zukan/charas_ja.json), por el nombre japonés de su ficha de la wiki. Así salen los
+       que en la enciclopedia tienen otro nombre de doblaje, como los de Aliea con su alias (Gordon Star es ゴルレオ).
+    2. tools/wiki/portraits_extra.json: los que no están en la enciclopedia (cameos, fusiones Mixi Max, robots,
+       sombras...), con el retrato de su ficha de la wiki y, si hace falta, un recorte.
+    3. Si no, el retrato de su ficha de la wiki (<página>.png, el de los juegos de DS/3DS)."""
+    left = {k: w for k, w in wikis.items() if w and not os.path.exists(os.path.join(OUT, k[0], k[1] + '.webp'))}
+    if not left:
+        return 0
+    pages = wiki_pages(sorted(set(left.values())))
+    ja = [c for c in json.load(open(os.path.join(ROOT, 'tools', 'zukan', 'charas_ja.json'), encoding='utf-8')) if c.get('img')]
+    index = {}
+    for c in ja:
+        for k in (c['name'], c['kana'], c['nick']):
+            if k:
+                index.setdefault(ja_norm(k), []).append(c)
+    extra = json.load(open(EXTRA_PATH, encoding='utf-8')) if os.path.exists(EXTRA_PATH) else {}
+    n = 0
+    for (tid, pid), title in sorted(left.items()):
+        season = tid.split('-')[1] if tid.startswith('scouts-') else tid.split('-')[0]
+        cands = next((index[ja_norm(k)] for k in ja_keys(pages.get(title, '')) if ja_norm(k) in index), None)
+        try:
+            if cands and title not in extra:
+                game = SEASON_GAME_JA.get(season, '~')
+                c = next((x for x in cands if x['game'] == game), None) or next((x for x in cands if game in x['game']), None) or cands[0]
+                img = fetch(c['img'], os.path.join(ZUKAN_CACHE, re.sub(r'[^A-Za-z0-9]+', '_', c['img'].split('/')[-1])))
+            else:
+                rule = extra.get(title, {})
+                if rule.get('skip'):
+                    continue
+                fname = 'File:' + rule.get('file', title + '.png')
+                info = get({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url', 'titles': fname})['query']['pages'][0]
+                if 'imageinfo' not in info:
+                    continue
+                img = fetch(info['imageinfo'][0]['url'], os.path.join(CACHE, re.sub(r'[^A-Za-z0-9]+', '_', fname[5:])))
+                if rule.get('crop'):
+                    W, H = img.size
+                    x0, y0, x1, y1 = rule['crop']
+                    img = img.crop((int(x0 * W), int(y0 * H), int(x1 * W), int(y1 * H)))
+                # los retratos de DS son de 64 px: se amplían para que no se vean diminutos
+                if max(img.size) < PORTRAIT:
+                    f = PORTRAIT / max(img.size)
+                    img = img.resize((round(img.width * f), round(img.height * f)), Image.LANCZOS)
+        except Exception as e:  # noqa: BLE001 - una imagen que falla no para el resto
+            print('no se pudo bajar el retrato de', title, e, file=sys.stderr)
+            continue
+        save_portrait(img, tid, pid, all_looks)
+        n += 1
+    return n
+
+
 def main():
     force = '--force' in sys.argv
     teams = {}
@@ -321,6 +419,8 @@ def main():
     # Quien no tiene retrato de Victory Road en la wiki: el de Inazugle (zukan.inazuma.jp), del mismo estilo
     done = {k for k in chosen}
     extra = zukan_portraits(names, done, all_looks, force)
+    wikis = {(tid, pid): w for tid, players in teams.items() for pid, w in players}
+    extra += missing_portraits(wikis, all_looks)
     with open(looks_path, 'w', encoding='utf-8') as f:
         f.write('{\n' + ',\n'.join(f' {json.dumps(k)}: {json.dumps(v)}' for k, v in sorted(all_looks.items())) + '\n}\n')
     total = sum(len(v) for v in teams.values())

@@ -285,12 +285,20 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
 
 ## Jugadores: sprites, retratos y descripciones
 
-- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (5710 de 5908, ojeadores incluidos: 1970
-  de la wiki inglesa y 3740 de la [enciclopedia oficial](https://zukan.inazuma.jp/en/chara_param/)). Sale en la ficha
+- **Retrato:** el de Victory Road, con la equipación del equipo en el que juega cada uno (5907 de 5908, ojeadores incluidos: 1970
+  de la wiki inglesa y el resto de la [enciclopedia oficial](https://zukan.inazuma.jp/en/chara_param/) o de su ficha
+  de la wiki). Solo falta Avatar, el personaje que se crea el jugador en Victory Road, que no tiene cara fija. Sale en la ficha
   de la formación, en el panel del partido y en la animación de las supertécnicas. Los baja
   `python3 -I tools/wiki/sprites.py` (de la wiki inglesa y, si no está, de la enciclopedia) a
   `src/assets/pack/portraits/<equipo>/<jugador>.webp`, y se
-  cargan al elegir equipos.
+  cargan al elegir equipos. Quien no está con el mismo nombre se busca así:
+  - En la enciclopedia en inglés, por el nombre del doblaje.
+  - En la enciclopedia en japonés (`tools/zukan/charas_ja.json`, de `python3 -I tools/zukan/charas_ja.py`), por el
+    nombre japonés de su ficha de la wiki, su apodo o su lectura en kana. Así salen los que allí tienen otro nombre de
+    doblaje, como los de la Academia Alius con su alias alienígena (Gordon Star es ゴルレオ, Ashton Malone es アーク).
+  - Los que no están en la enciclopedia (cameos de famosos, fusiones Mixi Max de Galaxy, los robots SR y las sombras
+    de Osoroshii Kage) llevan el retrato de su ficha de la wiki, ampliado o recortado según
+    `tools/wiki/portraits_extra.json`.
 - **Sprite del campo:** un muñeco en pixel art, al estilo de los partidos de IE3, parecido a cada jugador:
   - El mismo script saca de su retrato el color del pelo, de la piel y de los ojos, la silueta del peinado y algún
     accesorio, como la cinta de Mark (`src/data/looks.json`).

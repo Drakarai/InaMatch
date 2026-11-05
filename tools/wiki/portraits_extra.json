@@ -1,0 +1,219 @@
+{
+ "_": "Retratos de los que no salen en la enciclopedia oficial: el archivo de la wiki inglesa (si no es <página>.png) y un recorte opcional (x0, y0, x1, y1, en fracciones de la imagen).",
+ "Mai": {
+  "file": "(SW) Mai sprite.png"
+ },
+ "Nakata Hidetoshi": {
+  "file": "(O) Nakata Hidetoshi sprite.png"
+ },
+ "Sina Yuis": {
+  "file": "(EE-J) Sina 3D (1).png",
+  "crop": [
+   0.05,
+   0,
+   0.95,
+   0.33
+  ]
+ },
+ "Avatar": {
+  "skip": true
+ },
+ "Osoroshii Kage 1": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-101X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 2": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-102X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 3": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-103X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 4": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-104X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 5": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-105X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 6": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-106X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 7": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-107X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 8": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-108X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 9": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-109X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 10": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-110X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ },
+ "Osoroshii Kage 11": {
+  "file": "(OK) Kage 3D (1).png",
+  "crop": [
+   0,
+   0,
+   1,
+   0.42
+  ]
+ },
+ "SR-111X": {
+  "file": "(SR) Robo 1 3D (1).png",
+  "crop": [
+   0.2,
+   0,
+   0.8,
+   0.4
+  ]
+ }
+}

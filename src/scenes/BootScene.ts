@@ -19,7 +19,7 @@ export class BootScene extends Phaser.Scene {
     for (const { key, url } of bootPack) this.load.image(key, url);
     // los sprites son pixel art: escalado nítido. Escudos y retratos (los de Victory Road) se suavizan.
     this.load.on(Phaser.Loader.Events.FILE_COMPLETE, (key: string) => {
-      const pixel = key.startsWith('sprite:');
+      const pixel = key.startsWith('sprite:') || key.startsWith('vsprite:');
       this.textures.get(key).setFilter(pixel ? Phaser.Textures.FilterMode.NEAREST : Phaser.Textures.FilterMode.LINEAR);
     });
   }

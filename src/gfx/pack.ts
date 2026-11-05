@@ -52,10 +52,24 @@ export const seriesPack: PackEntry[] = Object.entries(seriesFiles).map(
   }),
 );
 
+// Sprites de partido dibujados (tools/pixelart/vector): vsprites/<equipo>/<jugador>/<vista>.png
+const vspriteFiles = import.meta.glob<string>('../assets/pack/vsprites/*/*/*.png', { eager: true, query: '?url', import: 'default' });
+
+/** Vistas de cada sprite dibujado: front, back, side0 (de perfil a la derecha), side1 y side2 (pasos). */
+export const VSPRITE_VIEWS = ['front', 'back', 'side0', 'side1', 'side2'] as const;
+export type VspriteView = (typeof VSPRITE_VIEWS)[number];
+export const vspriteKey = (team: string, player: string, view: VspriteView) => `vsprite:${team}:${player}:${view}`;
+
+export const vspritePack: PackEntry[] = Object.entries(vspriteFiles).flatMap(([path, url]) => {
+  const m = path.match(/vsprites\/([^/]+)\/([^/]+)\/([^/]+)\.png$/);
+  return m ? [{ key: vspriteKey(m[1], m[2], m[3] as VspriteView), url, folder: 'vsprites' }] : [];
+});
+
 /** Lo que se carga al arrancar: sprites completos y escudos. */
 export const bootPack = [
   ...entries.filter((e) => e.folder !== "portraits"),
   ...seriesPack,
+  ...vspritePack,
 ];
 
 /** Retratos de Victory Road de los jugadores de unos equipos (se cargan al elegir equipos). */

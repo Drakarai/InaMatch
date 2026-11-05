@@ -19,6 +19,9 @@ export const texKey = {
 
 /** Textura del jugador en el campo: la del paquete si la hay; si no, la dibujada con su equipación. */
 export function spriteKey(scene: Phaser.Scene, p: PlayerData, team: TeamData): string {
+  // sprite dibujado (src/gfx/pack.ts, vspriteKey): sin importar pack.ts, que ya importa este archivo
+  const drawn = `vsprite:${p.origin ?? team.id}:${p.originId ?? p.id}:front`;
+  if (scene.textures.exists(drawn)) return drawn;
   const pack = texKey.sprite(p.id);
   if (scene.textures.exists(pack)) return pack;
   makePlayerSprite(scene, p, team);

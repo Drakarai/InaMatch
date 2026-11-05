@@ -4,6 +4,7 @@ import { movesOf } from '../data';
 import type { MoveData, PlayerData, TeamData } from '../data/types';
 import { EXHAUSTED_SPEED, isExhausted, type Fighter } from '../engine/rules';
 import { spriteKey } from '../gfx/placeholders';
+import { vspriteKey, type VspriteView } from '../gfx/pack';
 
 export type Side = 0 | 1; // 0 = jugador humano (ataca hacia arriba), 1 = CPU (ataca hacia abajo)
 
@@ -31,6 +32,8 @@ export class MatchPlayer {
   stunnedUntil = 0;
   facing: Vec;
   moving = false;
+  /** Sprite dibujado con vistas (frente, espalda, perfil y pasos), si lo tiene; si no, uno solo. */
+  private views: ((v: VspriteView) => string) | null = null;
 
   constructor(
     scene: Phaser.Scene,
@@ -49,7 +52,15 @@ export class MatchPlayer {
     const ringColor = side === 0 ? 0x4fa3ff : 0xff5a6a;
     this.ring = scene.add.ellipse(0, 0, 30, 11).setStrokeStyle(2, ringColor, 0.9);
     this.sprite = scene.add.image(0, 0, spriteKey(scene, data, team));
-    this.sprite.setScale(SPRITE_HEIGHT / this.sprite.height);
+    const vteam = data.origin ?? team.id;
+    const vid = data.originId ?? data.id;
+    if (scene.textures.exists(vspriteKey(vteam, vid, 'front'))) {
+      this.views = (v) => vspriteKey(vteam, vid, v);
+      // los dibujados guardan la altura real de cada uno: misma escala para todos (64 px = cuerpo normal)
+      this.sprite.setScale(SPRITE_HEIGHT / 62);
+    } else {
+      this.sprite.setScale(SPRITE_HEIGHT / this.sprite.height);
+    }
     this.tag = scene.add
       .text(0, 0, data.short, {
         fontFamily: FONT,
@@ -130,8 +141,18 @@ export class MatchPlayer {
     this.tag.setDepth(10000);
     // pequeño bote al correr
     const bob = this.moving ? Math.abs(Math.sin(now * 14)) * 2 : 0;
-    this.sprite.setOrigin(0.5, 0.5 + bob / this.sprite.height);
-    this.sprite.setFlipX(this.facing.x < -0.3);
+    if (this.views) {
+      // vista según hacia dónde va: de perfil si va más de lado que de frente; si no, de frente o de espaldas
+      const side = Math.abs(this.facing.x) > Math.abs(this.facing.y) * 0.8;
+      let view: VspriteView = side ? 'side0' : this.facing.y > 0 ? 'front' : 'back';
+      if (side && this.moving) view = (['side1', 'side0', 'side2', 'side0'] as const)[Math.floor(now * 8) % 4];
+      this.sprite.setTexture(this.views(view));
+      this.sprite.setOrigin(0.5, 1 - 21 / this.sprite.displayHeight + bob / this.sprite.height);
+      this.sprite.setFlipX(side && this.facing.x < 0);
+    } else {
+      this.sprite.setOrigin(0.5, 0.5 + bob / this.sprite.height);
+      this.sprite.setFlipX(this.facing.x < -0.3);
+    }
     // derribado: tumbado en el suelo y parpadea justo antes de levantarse
     const down = this.stunnedUntil - now;
     if (down > 0) {

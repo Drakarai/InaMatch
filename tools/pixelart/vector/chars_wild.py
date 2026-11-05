@@ -198,9 +198,12 @@ CHARS['bruce-monkey'] = {
 # oscuro peinado en una tupé, ceja gruesa y una cicatriz en el ojo
 CHARS['gary-lancaster'] = {
     'body': 'corpulento', 'pal': pal('#2c3e5c', '#c0702c', nose='#5a2a1a'),
-    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'nose': (50, 80, 4.4), 'nose_side': (90, 79, 4), 'big_ears': 1, 'hairline': (56, 46)},
+    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'grin', 'mouth_y': 91, 'nose': (50, 80, 4.4), 'nose_side': (90, 79, 4), 'big_ears': 1, 'hairline': (56, 46)},
     'front': [L(blob([(18, 56), (16, 30), (28, 12), (50, 4), (72, 12), (84, 30), (82, 56), (50, 46)])),
               L(blob([(58, 8), (84, 30), (82, 54), (68, 50)], 6), 'shade', 'b', False), sheen(30, 54, 12, 3),
+              # cejas gruesas muy inclinadas y sombra bajo ellas: mirada amenazante
+              L(blob([(22, 62), (46, 70), (46, 74), (24, 68)], 3), OUTC, 'f'), L(blob([(78, 62), (54, 70), (54, 74), (76, 68)], 3), OUTC, 'f'),
+              L(blob([(24, 68), (46, 74), (44, 78), (26, 74)], 3), 'skin_d', 'f', False), L(blob([(76, 68), (54, 74), (56, 78), (74, 74)], 3), 'skin_d', 'f', False),
               L([(58, 66), (70, 86)], OUTC, 'f', False, False, 1.4), L([(62, 64), (74, 84)], OUTC, 'f', False, False, 1.0)],
     'side': [L(blob([(48, 66), (30, 72), (16, 56), (16, 30), (30, 8), (56, 0), (80, 10), (92, 30), (84, 44), (64, 46)])),
              L(blob([(18, 40), (30, 12), (36, 60)], 6), 'shade', 'b', False), strand([(80, 20), (50, 14), (24, 36)], 'shade', 'b', 1.1)],

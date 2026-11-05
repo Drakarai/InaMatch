@@ -224,7 +224,9 @@ def draw(d, spec, view):
     ear_spots = {'front': [(18 - eo, 72), (82 + eo, 72)], 'back': [(18 - eo, 70), (82 + eo, 70)], 'side': [(46, 70)]}[view]
     face_front = f.get('face_front', FACE_FRONT)
     face_side = f.get('face_side', FACE_SIDE)
-    face = face_front if view == 'front' else face_side if view == 'side' else None
+    # de espaldas también hay cabeza: la parte de atrás (nuca y orejas) por si el pelo no la tapa entera
+    BACK_HEAD = blob([(18, 60), (20, 32), (50, 18), (80, 32), (82, 60), (78, 86), (62, 98), (38, 98), (22, 86)])
+    face = face_front if view == 'front' else face_side if view == 'side' else BACK_HEAD
     # 1) silueta: contorno grueso alrededor de todo
     sil = [l['s'] for l in layers if l['sil']] + ([face] if face else [])
     if ears:
@@ -247,6 +249,9 @@ def draw(d, spec, view):
             r = 4.4 + big_ears
             d.ellipse([P(ex - r, ey - 6.4 - big_ears), P(ex + r, ey + 6.4 + big_ears)], fill=pal['skin'])
             d.ellipse([P(ex - r * 0.4, ey - 4), P(ex + r * 0.4, ey + 4)], fill=pal['skin_d'])
+    if view == 'back':
+        poly(d, BACK_HEAD, pal['skin'])
+        poly(d, blob([(56, 30), (80, 40), (80, 80), (62, 94)], 6), pal['skin_d'])
     # 3) capas de detrás
     def paint(l):
         if l['w']:

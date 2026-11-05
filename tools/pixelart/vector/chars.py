@@ -181,15 +181,11 @@ CHARS['tod-ironside'] = {
     'body': 'bajito', 'pal': pal('#934814', '#ffbe8d', stub='#a9805a', plaster='#c8a070'),
     # cara de mono enfadado: ojos redondos pequeños, cejas en V, tirita en la nariz, dientes de conejo y orejas grandes
     'face': {'eyes': 'round', 'eye_y': 74, 'eye_sep': 13, 'brows': 'angry', 'mouth': 'buck', 'mouth_y': 90, 'big_ears': 2,
-             'ear_out': 5, 'ears_front': True, 'hairline': False},
+             'ear_out': 5, 'ears_front': True, 'hairline': [(6, 88), (21, 88), (22, 66), (25, 54), (32, 50), (40, 54), (46, 62), (50, 68), (54, 62), (60, 54), (68, 50), (75, 54), (78, 66), (79, 88), (94, 88)]},
     # pelo en forma de bellota que acaba en punta y enmarca la cara hasta la mandíbula, con pico en la frente
     'front': [L(blob([(14, 84), (10, 54), (18, 26), (36, 10), (50, -2), (64, 10), (82, 26), (90, 54), (86, 84), (78, 80), (22, 80)])),
               L(blob([(26, 22), (42, 8), (50, 2), (40, 26), (28, 40)], 6), 'light', 'b', False),
               L(blob([(62, 14), (84, 34), (86, 70), (72, 56)], 6), 'shade', 'b', False),
-              L(blob([(15, 54), (28, 58), (25, 72), (22, 86), (16, 84)]), 'mid', 'f'),
-              L(blob([(85, 54), (72, 58), (75, 72), (78, 86), (84, 84)]), 'mid', 'f'),
-              L(blob([(20, 50), (40, 54), (50, 64), (60, 54), (80, 50), (80, 44), (20, 44)]), 'mid', 'f'),
-              L(blob([(72, 54), (82, 54), (82, 80), (78, 84), (76, 64)], 6), 'shade', 'f', False),
               L(blob([(42, 79), (58, 79), (58, 84), (42, 84)], 2), 'plaster', 'f', ln=True)],
     'side': [L(blob([(42, 96), (22, 90), (16, 72), (30, 74), (44, 84)]), 'stub'),
              L(blob([(26, 76), (16, 56), (20, 30), (44, 2), (66, 14), (82, 30), (88, 50), (74, 52), (62, 54), (58, 74), (50, 76), (40, 70)])),

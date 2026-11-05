@@ -8,6 +8,7 @@ import type { PlayerData, Stats } from '../data/types';
 import { portraitPack, portraitsOf } from '../gfx/pack';
 import { loadClub, setSquad } from '../club/club';
 import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
+import { VSPRITE_REF } from '../gfx/pack';
 import { lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
 import { fitCamera, POS_COLOR, pt, sectionTitle, slant, teamBackdrop, THEME, themePanel } from '../ui/theme';
 import { Button, StatBar, display, text } from '../ui/widgets';
@@ -200,7 +201,7 @@ export class FormationScene extends Phaser.Scene {
     if (selected) g.fillStyle(THEME.yellow, 0.35).fillCircle(0, 0, 28).lineStyle(3, THEME.yellow).strokeCircle(0, 0, 28);
     const sprite = this.add.image(0, -2, spriteKey(this, p, getTeam(this.home.teamId)));
     // los dibujados (vsprite) guardan la altura de cada uno: misma escala para todos
-    sprite.setScale(sprite.texture.key.startsWith('vsprite:') ? 44 / 62 : 44 / sprite.height);
+    sprite.setScale(sprite.texture.key.startsWith('vsprite:') ? 44 / VSPRITE_REF : 44 / sprite.height);
     const nameBand = this.add.graphics();
     const label = text(this, 0, 32, p.short, 12, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 3 }).setOrigin(0.5);
     const bw = Math.max(54, label.width + 18);

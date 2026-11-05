@@ -19,7 +19,7 @@ import chars as C  # noqa: E402
 import json  # noqa: E402
 
 B.V.OFF = 0
-REF_PX = 64
+REF_PX = 80
 OUT = (60, 24, 16, 255)
 
 # equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo

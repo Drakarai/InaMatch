@@ -58,6 +58,8 @@ const vspriteFiles = import.meta.glob<string>('../assets/pack/vsprites/*/*/*.png
 /** Vistas de cada sprite dibujado: front, back, side0 (de perfil a la derecha), side1 y side2 (pasos). */
 export const VSPRITE_VIEWS = ['front', 'back', 'side0', 'side1', 'side2'] as const;
 export type VspriteView = (typeof VSPRITE_VIEWS)[number];
+/** Altura en píxeles del cuerpo normal en los sprites dibujados (REF_PX de tools/pixelart/vector/export.py, menos el contorno). */
+export const VSPRITE_REF = 78;
 export const vspriteKey = (team: string, player: string, view: VspriteView) => `vsprite:${team}:${player}:${view}`;
 
 export const vspritePack: PackEntry[] = Object.entries(vspriteFiles).flatMap(([path, url]) => {

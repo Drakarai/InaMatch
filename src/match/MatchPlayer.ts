@@ -4,7 +4,7 @@ import { movesOf } from '../data';
 import type { MoveData, PlayerData, TeamData } from '../data/types';
 import { EXHAUSTED_SPEED, isExhausted, type Fighter } from '../engine/rules';
 import { spriteKey } from '../gfx/placeholders';
-import { vspriteKey, type VspriteView } from '../gfx/pack';
+import { VSPRITE_REF, vspriteKey, type VspriteView } from '../gfx/pack';
 
 export type Side = 0 | 1; // 0 = jugador humano (ataca hacia arriba), 1 = CPU (ataca hacia abajo)
 
@@ -57,7 +57,7 @@ export class MatchPlayer {
     if (scene.textures.exists(vspriteKey(vteam, vid, 'front'))) {
       this.views = (v) => vspriteKey(vteam, vid, v);
       // los dibujados guardan la altura real de cada uno: misma escala para todos (64 px = cuerpo normal)
-      this.sprite.setScale(SPRITE_HEIGHT / 62);
+      this.sprite.setScale(SPRITE_HEIGHT / VSPRITE_REF);
     } else {
       this.sprite.setScale(SPRITE_HEIGHT / this.sprite.height);
     }

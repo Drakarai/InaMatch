@@ -15,13 +15,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 sys.path.insert(0, HERE)
 import body as B  # noqa: E402
+import chars as C  # noqa: E402
+import json  # noqa: E402
 
 B.V.OFF = 0
 REF_PX = 64
 OUT = (60, 24, 16, 255)
 
-# jugadores con dibujo propio: (equipo, jugador, tipo de cuerpo, dorsal)
-PLAYERS = [('ie1-raimon', 'axel-blaze', 'normal', '10')]
+# equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo
+TEAMS = ['ie1-raimon']
+# dibujos que no están en chars.py (Axel tiene su propio módulo, head_axel.py)
+SPECIAL = {'axel-blaze': None}
 
 
 def ref_height():
@@ -46,16 +50,21 @@ def pixel(im, k):
     return out
 
 
-def frames(tname, num):
+def char_of(pid):
+    """Ficha del personaje (por id; las versiones como mark-evans-endou-b usan la del original)."""
+    for base in sorted(list(C.CHARS) + list(SPECIAL), key=len, reverse=True):
+        if pid == base or pid.startswith(base + '-'):
+            return base
+    return None
+
+
+def frames(base, kit, num):
     k = REF_PX / ref_height()
-    B.NUM = num
-    return {
-        'front': pixel(B.figure('front', tname), k),
-        'back': pixel(B.figure('back', tname), k),
-        'side0': pixel(B.figure('side', tname, 0), k),
-        'side1': pixel(B.figure('side', tname, 1), k),
-        'side2': pixel(B.figure('side', tname, 2), k),
-    }
+    ch = C.CHARS.get(base)
+    tname = ch['body'] if ch else 'normal'
+    fig = lambda v, st=0: B.figure(v, tname, st, ch, kit, num)
+    return {'front': pixel(fig('front'), k), 'back': pixel(fig('back'), k), 'side0': pixel(fig('side'), k),
+            'side1': pixel(fig('side', 1), k), 'side2': pixel(fig('side', 2), k)}
 
 
 def pad_same(fr):
@@ -71,12 +80,19 @@ def pad_same(fr):
 
 
 def main():
-    for team, pid, tname, num in PLAYERS:
-        dest = os.path.join(ROOT, 'src', 'assets', 'pack', 'vsprites', team, pid)
-        os.makedirs(dest, exist_ok=True)
-        for name, im in pad_same(frames(tname, num)).items():
-            im.save(os.path.join(dest, name + '.png'))
-        print(team, pid, 'ok')
+    for tid in TEAMS:
+        team = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
+        for p in team['players']:
+            base = char_of(p['id'])
+            if base is None:
+                print(tid, p['id'], 'sin dibujo')
+                continue
+            kit = B.kit_for(team['colors'], p['position'] == 'GK')
+            dest = os.path.join(ROOT, 'src', 'assets', 'pack', 'vsprites', tid, p['id'])
+            os.makedirs(dest, exist_ok=True)
+            for name, im in pad_same(frames(base, kit, str(p['number']))).items():
+                im.save(os.path.join(dest, name + '.png'))
+        print(tid, 'ok')
 
 
 if __name__ == '__main__':

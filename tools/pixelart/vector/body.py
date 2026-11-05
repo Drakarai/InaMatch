@@ -106,7 +106,7 @@ def body_front(d, t, back=False, num='10'):
         capsule(d, (x, top + 6), (x + s * 2, top + t['al']), t['at'] / 2, SKIN['mid'], SKIN['shade'])
         capsule(d, (x, top + 6), (x + s * 0.6, top + t['al'] * 0.42), t['at'] / 2 + 1, KIT['sleeve'], KIT['sleeve_d'])
         d.ellipse([P(x + s * 2 - t['at'] / 2 - 1, top + t['al'] - 2), P(x + s * 2 + t['at'] / 2 + 1, top + t['al'] + t['at'])], fill=OUT)
-        d.ellipse([P(x + s * 2 - t['at'] / 2 + 0.6, top + t['al'] - 0.4), P(x + s * 2 + t['at'] / 2 - 0.6, top + t['al'] + t['at'] - 1.6)], fill=SKIN['mid'])
+        d.ellipse([P(x + s * 2 - t['at'] / 2 + 0.6, top + t['al'] - 0.4), P(x + s * 2 + t['at'] / 2 - 0.6, top + t['al'] + t['at'] - 1.6)], fill=KIT.get('hand', SKIN['mid']))
     # torso
     ww = t['ww'] / 2
     if t.get('round'):
@@ -166,7 +166,7 @@ def body_side(d, t, step=0):
     capsule(d, (cx, top + 7), (cx + sw_arm, top + t['al']), t['at'] / 2, SKIN['mid'], SKIN['shade'])
     capsule(d, (cx, top + 7), (cx + sw_arm * 0.4, top + t['al'] * 0.42), t['at'] / 2 + 1, KIT['sleeve'], KIT['sleeve_d'])
     d.ellipse([P(cx + sw_arm - t['at'] / 2 - 1, top + t['al'] - 2), P(cx + sw_arm + t['at'] / 2 + 1, top + t['al'] + t['at'])], fill=OUT)
-    d.ellipse([P(cx + sw_arm - t['at'] / 2 + 0.6, top + t['al'] - 0.4), P(cx + sw_arm + t['at'] / 2 - 0.6, top + t['al'] + t['at'] - 1.6)], fill=SKIN['mid'])
+    d.ellipse([P(cx + sw_arm - t['at'] / 2 + 0.6, top + t['al'] - 0.4), P(cx + sw_arm + t['at'] / 2 - 0.6, top + t['al'] + t['at'] - 1.6)], fill=KIT.get('hand', SKIN['mid']))
     shape(d, rrect(cx - 4, 90, cx + 8, top + 4, 3), SKIN['shade'], 1.2)
 
 
@@ -282,19 +282,83 @@ def head_back(d):
 
 # ------------------------------------------------------------------ montaje
 
-def figure(view, tname, step=0):
+import heads as H  # noqa: E402
+
+H.P = P
+H.SS = SS
+AXEL_SKIN = dict(SKIN)
+DEFAULT_KIT = dict(KIT)
+
+
+def hexc(h):
+    return tuple(int(h[i:i + 2], 16) for i in (1, 3, 5)) + (255,)
+
+
+def tone(c, f):
+    return tuple(max(0, min(255, int(v * f))) for v in c[:3]) + (255,)
+
+
+def kit_for(colors, gk=False):
+    """Equipación a partir de los colores del equipo (src/data/teams): camiseta, mangas, pantalón y medias."""
+    shirt = hexc(colors['gkShirt'] if gk else colors['shirt'])
+    shorts = hexc(colors['shorts'])
+    sleeve = tone(shirt, 0.72) if gk else shorts
+    k = dict(DEFAULT_KIT)
+    k.update({'shirt': shirt, 'shirt_d': tone(shirt, 0.84), 'sleeve': sleeve, 'sleeve_d': tone(sleeve, 0.75),
+              'shorts': shorts, 'shorts_d': tone(shorts, 0.72), 'stripe': shorts})
+    if gk:
+        k['hand'] = (246, 246, 246, 255)
+    return k
+
+
+def cape(d, t, view):
+    """Capa (Jude): de frente asoma por detrás de los hombros; de espaldas cubre la espalda; de perfil, por detrás."""
+    c = KIT['cape']
+    cd = tone(c, 0.75)
+    top, sw = 100, t['sw'] / 2
+    bottom = top + t['tl'] + t['sl'] + t['ll'] * 0.45
+    if view == 'front':
+        shape(d, [(50 - sw - 2, top + 2), (50 + sw + 2, top + 2), (50 + sw + 12, bottom), (50 - sw - 12, bottom)], cd)
+    elif view == 'side':
+        shape(d, [(36, top + 2), (56, top + 2), (36, bottom), (14, bottom + 2)], c)
+    return bottom
+
+
+def cape_back(d, t):
+    c = KIT['cape']
+    top, sw = 100, t['sw'] / 2
+    bottom = top + t['tl'] + t['sl'] + t['ll'] * 0.45
+    shape(d, [(50 - sw - 2, top), (50 + sw + 2, top), (50 + sw + 12, bottom), (50 - sw - 12, bottom)], c)
+    d.polygon([P(50 + sw * 0.3, top + 4), P(50 + sw + 1, top + 4), P(50 + sw + 10, bottom - 2), P(50 + sw * 0.4, bottom - 2)], fill=tone(c, 0.8))
+
+
+def figure(view, tname, step=0, char=None, kit=None, num=None):
+    """Figura completa en vectores. char: ficha de chars.py (None = Axel); kit: de kit_for (None = el del Raimon)."""
+    KIT.clear()
+    KIT.update(kit or DEFAULT_KIT)
+    if char is not None and char.get('cape'):
+        KIT['cape'] = hexc(char['cape'])
+    SKIN.clear()
+    if char is None:
+        SKIN.update(AXEL_SKIN)
+    else:
+        SKIN.update({'mid': char['pal']['skin'], 'shade': char['pal']['skin_d'], 'light': char['pal']['skin']})
     im = Image.new('RGBA', (CW * SS, CH * SS))
     d = ImageDraw.Draw(im)
     t = TYPES[tname]
+    if 'cape' in KIT and view != 'back':
+        cape(d, t, view)
     if view == 'front':
         body_front(d, t)
-        V.head(d)
+        V.head(d) if char is None else H.draw(d, char, 'front')
     elif view == 'back':
-        body_front(d, t, back=True, num=NUM)
-        head_back(d)
+        body_front(d, t, back=True, num=num or NUM)
+        if 'cape' in KIT:
+            cape_back(d, t)
+        head_back(d) if char is None else H.draw(d, char, 'back')
     else:
         body_side(d, t, step)
-        head_side(d)
+        head_side(d) if char is None else H.draw(d, char, 'side')
     return im
 
 

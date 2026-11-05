@@ -533,3 +533,4 @@ CHARS['axel-blaze'] = _axel()
 import chars_teikoku  # noqa: E402,F401
 import chars_occult  # noqa: E402,F401
 import chars_wild  # noqa: E402,F401
+import chars_otaku  # noqa: E402,F401

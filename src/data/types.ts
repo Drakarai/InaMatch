@@ -51,6 +51,8 @@ export interface TeamData {
     accent: string; // color del lado del marcador / paneles
     /** Color de las mangas, si no son del color del pantalón (sprites dibujados). */
     sleeve?: string;
+    /** Color de las medias (si no son blancas). */
+    socks?: string;
   };
   formation: string; // id en formations.ts
   /** Los 11 primeros son titulares en el orden de los huecos de la formación. */

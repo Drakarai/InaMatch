@@ -4,12 +4,7 @@
  "wiki": "Occult",
  "name": "Instituto Occult",
  "short": "OCC",
- "colors": {
-  "shirt": "#3a1a4a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#6a8a2a",
-  "accent": "#5a2a6a"
- },
+ "colors": {"shirt": "#4a4a7e", "shorts": "#a2a2aa", "gkShirt": "#a81c1c", "accent": "#3a3a68", "sleeve": "#4a4a7e", "socks": "#4a4a52"},
  "formation": "f-ghost-dance",
  "players": [
   {

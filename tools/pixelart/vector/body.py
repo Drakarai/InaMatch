@@ -315,6 +315,9 @@ def kit_for(colors, gk=False):
     k = dict(DEFAULT_KIT)
     k.update({'shirt': shirt, 'shirt_d': tone(shirt, 0.84), 'sleeve': sleeve, 'sleeve_d': tone(sleeve, 0.75),
               'shorts': shorts, 'shorts_d': tone(shorts, 0.72), 'stripe': hexc(colors['accent']) if colors.get('sleeve') else shorts})
+    if colors.get('socks'):
+        k['sock'] = hexc(colors['socks'])
+        k['sock_d'] = tone(k['sock'], 0.78)
     if colors.get('sleeve'):  # mangas del color de la camiseta: cuello y dorsal con el color de los detalles
         k['collar'] = k['num'] = hexc(colors['accent'])
     if gk:

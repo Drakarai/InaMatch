@@ -64,7 +64,8 @@ STYLE = {
     'Raimon': ('#f2c230', '#2a5fc0', '#e8892b', '#d9a400'),
     # Teikoku: camiseta verde con detalles rojos (mangas del mismo verde), pantalón caqui; portero en naranja
     'Teikoku Gakuen': ('#36584a', '#7a6438', '#f08a2a', '#b0202a', '#36584a'),
-    'Occult': ('#3a1a4a', '#1a1a1a', '#6a8a2a', '#5a2a6a'),
+    # Occult: camiseta morada (mangas iguales), pantalón gris, medias oscuras; portero de rojo
+    'Occult': ('#4a4a7e', '#a2a2aa', '#a81c1c', '#3a3a68', '#4a4a7e', '#4a4a52'),
     'Zeus': ('#f2f2f2', '#c8a020', '#5a8ac8', '#b89020'),
     'Inazuma Eleven': ('#f2c230', '#2a5fc0', '#e8892b', '#c89a10'),
     # IE2
@@ -964,7 +965,7 @@ for season, game, name, fkey, page, players in raw_teams:
         'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
         'short': short,
-        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {})},
+        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {})},
         'formation': fid,
         'players': players,
     })

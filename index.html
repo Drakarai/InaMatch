@@ -3,14 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a1120" />
     <title>InaMatch</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230a1120'/%3E%3Cpath d='M36 6 16 36h13l-5 22 24-32H35z' fill='%23ffd23f'/%3E%3C/svg%3E"
+    />
     <style>
-      html, body { margin: 0; height: 100%; background: #07162b; overflow: hidden; }
-      #game { width: 100vw; height: 100vh; }
-      canvas { image-rendering: auto; }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        /* noche de estadio: focos arriba, césped oscuro abajo */
+        background:
+          radial-gradient(ellipse 60% 40% at 15% 0%, rgba(255, 210, 63, 0.14), transparent 70%),
+          radial-gradient(ellipse 60% 40% at 85% 0%, rgba(127, 178, 255, 0.16), transparent 70%),
+          radial-gradient(ellipse 90% 50% at 50% 110%, rgba(40, 140, 80, 0.22), transparent 70%),
+          repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.018) 0 18px, transparent 18px 36px),
+          #070d18;
+      }
+      #game {
+        width: 100vw;
+        height: 100vh;
+      }
+      canvas {
+        image-rendering: auto;
+        box-shadow: 0 0 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 210, 63, 0.12);
+      }
+      #splash {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        color: #ffd23f;
+        font-family: 'Bebas Neue', 'Barlow Semi Condensed', Impact, sans-serif;
+        transition: opacity 0.6s ease;
+        z-index: 10;
+        background:
+          radial-gradient(ellipse 60% 40% at 15% 0%, rgba(255, 210, 63, 0.14), transparent 70%),
+          radial-gradient(ellipse 60% 40% at 85% 0%, rgba(127, 178, 255, 0.16), transparent 70%),
+          #070d18;
+      }
+      #splash.done {
+        opacity: 0;
+        pointer-events: none;
+      }
+      #splash .logo {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-size: clamp(48px, 9vw, 110px);
+        letter-spacing: 4px;
+        text-shadow: 0 6px 0 #000, 0 0 40px rgba(255, 210, 63, 0.35);
+        -webkit-text-stroke: 3px #0b1a2e;
+      }
+      #splash svg {
+        width: 0.8em;
+        height: 0.8em;
+        filter: drop-shadow(0 4px 0 #000);
+        animation: zap 1.2s ease-in-out infinite;
+      }
+      #splash .sub {
+        font-family: 'Barlow Semi Condensed', 'Arial Narrow', sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 16px;
+        color: #c9d3e0;
+        letter-spacing: 1px;
+      }
+      #splash .bar {
+        width: 220px;
+        height: 6px;
+        border-radius: 3px;
+        background: rgba(255, 255, 255, 0.08);
+        overflow: hidden;
+      }
+      #splash .bar::after {
+        content: '';
+        display: block;
+        width: 40%;
+        height: 100%;
+        background: linear-gradient(90deg, #ffd23f, #ff7a3d);
+        animation: load 1s ease-in-out infinite;
+      }
+      @keyframes zap {
+        50% {
+          transform: scale(1.12) rotate(-6deg);
+        }
+      }
+      @keyframes load {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(260%);
+        }
+      }
     </style>
   </head>
   <body>
+    <div id="splash">
+      <div class="logo">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M36 4 14 36h14l-5 24 25-34H35z" fill="#ffd23f" stroke="#0b1a2e" stroke-width="3" /></svg>
+        InaMatch
+      </div>
+      <div class="bar"></div>
+      <div class="sub">Proyecto de fans sin ánimo de lucro · Inazuma Eleven es una marca de LEVEL-5</div>
+    </div>
     <div id="game"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>

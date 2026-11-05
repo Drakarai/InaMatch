@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { rewardMatch } from '../club/club';
-import { FIELD_VIEW, GAME_SPEED, RES, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
+import { DISPLAY, FIELD_VIEW, FONT, GAME_SPEED, RES, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { music, playFanfare } from '../audio/music';
 import { sfx } from '../audio/sfx';
 import { getTeam, moveFx } from '../data';
@@ -200,7 +200,7 @@ export class MatchScene extends Phaser.Scene {
     this.pathGfx = this.add.graphics().setDepth(9000);
     this.markerGfx = this.add.graphics().setDepth(9500);
     this.duelRing = this.add.graphics().setDepth(9400);
-    const bubble = { fontFamily: 'Arial', fontSize: '13px', fontStyle: 'bold', color: '#1b2a40', backgroundColor: '#ffffff', padding: { x: 5, y: 2 } };
+    const bubble = { fontFamily: FONT, fontSize: '13px', fontStyle: 'bold', color: '#1b2a40', backgroundColor: '#ffffff', padding: { x: 5, y: 2 } };
     this.passHintText = this.add.text(0, 0, '¡Aquí!', bubble).setOrigin(0.5, 1).setDepth(9600).setVisible(false);
     this.shootHintText = this.add
       .text(0, 0, '¡Tira!', { ...bubble, color: '#ffffff', backgroundColor: '#d8344a' })
@@ -1412,7 +1412,7 @@ export class MatchScene extends Phaser.Scene {
 
   private floatText(x: number, y: number, msg: string, color: string): void {
     const t = this.add
-      .text(x, y, msg, { fontFamily: 'Arial Black, Arial', fontSize: '16px', color, stroke: '#0b1a2e', strokeThickness: 4 })
+      .text(x, y, msg, { fontFamily: DISPLAY, fontSize: '20px', color, stroke: '#0b1a2e', strokeThickness: 4 })
       .setOrigin(0.5)
       .setDepth(9800);
     this.tweens.add({ targets: t, y: y - 30, alpha: 0, delay: 700, duration: 600, onComplete: () => t.destroy() });

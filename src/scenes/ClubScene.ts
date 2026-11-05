@@ -1,6 +1,9 @@
 import Phaser from 'phaser';
 import { music } from '../audio/music';
-import { loadClub, onClubChange, setSquad, type ClubSave } from '../club/club';
+import { BASE_SLOTS, freeNotebooks, loadClub, movesFor, notebookRarity, onClubChange, setMoves, setSquad, type ClubSave } from '../club/club';
+import { ELEMENT_COLOR } from '../data/elements';
+import type { MoveKind } from '../data/types';
+import { KIND_LABEL } from '../ui/notebook';
 import { cardByKey, RARITY, type Card } from '../club/pool';
 import { GAME_H, GAME_W } from '../config';
 import { getTeam, MOVES } from '../data';
@@ -9,9 +12,10 @@ import { teamRating } from '../engine/rating';
 import { portraitKey } from '../gfx/placeholders';
 import { cardPlayer, drawCard, loadCardPortraits } from '../ui/card';
 import { POS_COLOR, THEME, fitCamera, slant, sectionTitle, themePanel } from '../ui/theme';
-import { Button, text } from '../ui/widgets';
+import { Button, display, text } from '../ui/widgets';
 
 const SQUAD = { x: 24, y: 112, w: 470, h: 588 };
+const COLORS_RED = 0xd8344a;
 const COLL = { x: 512, y: 112, w: 744, h: 420 };
 const INFO = { x: 512, y: 548, w: 744, h: 152 };
 const PER_PAGE = 10;
@@ -57,6 +61,7 @@ export class ClubScene extends Phaser.Scene {
     this.squadBox = this.add.container(0, 0);
     this.collBox = this.add.container(0, 0);
     this.infoBox = this.add.container(0, 0);
+    new Button(this, GAME_W - 580, 62, 'Cuadernos', () => this.scene.start('gacha', { mode: 'notebooks' }), { w: 170, h: 46, color: 0x7a5aa8 });
     new Button(this, GAME_W - 400, 62, 'Fichajes', () => this.scene.start('gacha'), { w: 170, h: 46, color: 0xff7a3d });
     new Button(this, GAME_W - 220, 62, '¡A jugar!', () => this.play(), { w: 170, h: 46, color: THEME.yellow });
     new Button(this, GAME_W - 74, 62, 'Menú', () => this.scene.start('menu'), { w: 110, h: 46, color: THEME.panelLight });
@@ -94,7 +99,7 @@ export class ClubScene extends Phaser.Scene {
   private drawHeader(): void {
     const c = this.header;
     c.removeAll(true);
-    c.add(text(this, 40, 18, this.save.name, 32, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 6 }));
+    c.add(display(this, 40, 14, this.save.name, 42));
     let rating = 0;
     try {
       rating = teamRating(getTeam('club'));
@@ -277,12 +282,131 @@ export class ClubScene extends Phaser.Scene {
       c.add(text(this, x, y, label, 12, THEME.muted, { strokeThickness: 0 }).setOrigin(0, 0.5));
       c.add(text(this, x + 100, y, String(p.stats[k]), 14, '#ffffff', { fontStyle: 'bold' }).setOrigin(1, 0.5));
     });
-    const moves = p.moves.map((id) => MOVES[id]?.name).filter(Boolean);
+    const { base, extra } = movesFor(this.save, card);
+    const moves = [...base, ...extra].filter(Boolean).map((id) => MOVES[id]?.name ?? id);
     c.add(text(this, INFO.x + 500, INFO.y + 18, 'Supertécnicas', 12, '#ffd23f', { fontStyle: 'bold' }));
-    c.add(text(this, INFO.x + 500, INFO.y + 38, moves.length ? moves.map((m) => `· ${m}`).join('\n') : 'Ninguna', 13, '#e3e9f2', { lineSpacing: 4, strokeThickness: 0 }));
+    c.add(text(this, INFO.x + 500, INFO.y + 34, moves.length ? moves.map((m) => `· ${m}`).join('\n') : 'Ninguna', 12, '#e3e9f2', { lineSpacing: 2, strokeThickness: 0 }));
+    if (this.save.owned.includes(card.key)) {
+      const b = new Button(this, INFO.x + INFO.w - 70, INFO.y + 24, 'Editar ✎', () => this.openEditor(card), { w: 120, h: 34, color: 0x7a5aa8, size: 15 });
+      c.add(b);
+    }
     if (p.description) {
       const d = text(this, INFO.x + 18, INFO.y + 128, p.description, 12, '#c9d3e0', { fontStyle: 'italic', wordWrap: { width: 470 }, strokeThickness: 0 }).setOrigin(0, 0.5);
       c.add(d);
     }
   }
+
+  // ---------------------------------------------------- editor de técnicas
+
+  private editor?: Phaser.GameObjects.Container;
+  private editSlot = 0;
+  private editKind: 'ALL' | MoveKind = 'ALL';
+  private editPage = 0;
+
+  /** Las 4 técnicas de base y las 2 extra de un jugador, y los cuadernos que se le pueden poner. */
+  private openEditor(card: Card): void {
+    this.editSlot = 0;
+    this.editPage = 0;
+    this.editKind = 'ALL';
+    this.drawEditor(card);
+  }
+
+  private drawEditor(card: Card, message = ''): void {
+    this.editor?.destroy();
+    const c = this.add.container(0, 0).setDepth(300);
+    this.editor = c;
+    c.add(this.add.rectangle(0, 0, GAME_W, GAME_H, 0x000000, 0.72).setOrigin(0).setInteractive());
+    const g = this.add.graphics();
+    themePanel(g, 40, 40, GAME_W - 80, GAME_H - 80, 0x7a5aa8, 0.98);
+    c.add(g);
+    c.add(display(this, 64, 74, `Supertécnicas de ${card.player.name}`, 30, '#ffffff').setOrigin(0, 0.5));
+    c.add(text(this, 66, 104, 'Pulsa un hueco y luego una técnica. Las suyas no gastan cuaderno.', 13, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 }).setOrigin(0, 0.5));
+    if (message) c.add(text(this, GAME_W - 70, 104, message, 13, '#ff8a8a', { fontStyle: 'bold' }).setOrigin(1, 0.5));
+    c.add(new Button(this, GAME_W - 130, 74, 'Hecho', () => (this.editor?.destroy(), (this.editor = undefined), this.redraw()), { w: 140, h: 42, color: THEME.yellow }));
+
+    // huecos
+    const { base, extra } = movesFor(this.save, card);
+    const slots = [...base, ...extra];
+    slots.forEach((id, i) => {
+      const y = 150 + i * 70 + (i >= BASE_SLOTS ? 22 : 0);
+      if (i === 0) c.add(text(this, 66, y - 18, 'BASE', 12, '#ffd23f', { fontStyle: 'bold', strokeThickness: 0 }));
+      if (i === BASE_SLOTS) c.add(text(this, 66, y - 18, 'EXTRA', 12, '#c7a6ff', { fontStyle: 'bold', strokeThickness: 0 }));
+      const on = i === this.editSlot;
+      const m = id ? MOVES[id] : undefined;
+      const row = this.add.graphics();
+      row.fillStyle(on ? THEME.yellow : 0x1a2840, 0.95).fillPoints(slant(62, y, 420, 54, 12), true);
+      if (m) row.fillStyle(ELEMENT_COLOR[m.element]).fillRect(70, y + 8, 6, 38);
+      c.add(row);
+      const ink = on ? THEME.ink : '#ffffff';
+      c.add(text(this, 86, y + 18, m ? m.name : '— vacío —', 17, ink, { fontStyle: 'italic bold', strokeThickness: on ? 0 : 3 }).setOrigin(0, 0.5));
+      if (m) c.add(text(this, 86, y + 38, `${KIND_LABEL[m.kind]} · potencia ${m.power} · TP ${m.tp}`, 12, on ? THEME.ink : '#c9d3e0', { strokeThickness: 0 }).setOrigin(0, 0.5));
+      const hit = this.add.zone(62, y, 420, 54).setOrigin(0).setInteractive({ useHandCursor: true });
+      hit.on('pointerdown', () => ((this.editSlot = i), this.drawEditor(card)));
+      c.add(hit);
+      if (m) {
+        const x = new Button(this, 452, y + 27, '✕', () => this.assign(card, i, ''), { w: 40, h: 34, color: COLORS_RED, size: 16 });
+        c.add(x);
+      }
+    });
+
+    // técnicas disponibles: las suyas y los cuadernos libres
+    const own = new Set(card.player.moves);
+    const all = Object.values(MOVES)
+      .filter((m) => own.has(m.id) || freeNotebooks(this.save, m.id) > 0 || slots.includes(m.id))
+      .filter((m) => this.editKind === 'ALL' || m.kind === this.editKind)
+      .sort((a, b) => Number(own.has(b.id)) - Number(own.has(a.id)) || b.power - a.power);
+    const LX = 520;
+    const kinds: ('ALL' | MoveKind)[] = ['ALL', 'shoot', 'dribble', 'block', 'catch'];
+    kinds.forEach((k, i) => {
+      const on = k === this.editKind;
+      const b = new Button(this, LX + 50 + i * 104, 150, k === 'ALL' ? 'Todas' : KIND_LABEL[k], () => ((this.editKind = k), (this.editPage = 0), this.drawEditor(card)), {
+        w: 98,
+        h: 32,
+        size: 13,
+        color: on ? THEME.yellow : THEME.panelLight,
+      });
+      c.add(b);
+    });
+    const PER = 16;
+    const pages = Math.max(1, Math.ceil(all.length / PER));
+    this.editPage = Math.min(this.editPage, pages - 1);
+    if (!all.length) c.add(text(this, LX + 340, 330, 'No tienes cuadernos de este tipo.\nConsíguelos en Cuadernos.', 16, THEME.muted, { align: 'center', strokeThickness: 0 }).setOrigin(0.5));
+    all.slice(this.editPage * PER, (this.editPage + 1) * PER).forEach((m, i) => {
+      const x = LX + (i % 2) * 344;
+      const y = 186 + Math.floor(i / 2) * 52;
+      const r = notebookRarity(m);
+      const row = this.add.graphics();
+      row.fillStyle(0x0e1626, 0.95).fillRoundedRect(x, y, 334, 46, 6);
+      row.lineStyle(2, RARITY[r].color, 0.9).strokeRoundedRect(x, y, 334, 46, 6);
+      row.fillStyle(ELEMENT_COLOR[m.element]).fillRect(x + 6, y + 8, 5, 30);
+      c.add(row);
+      c.add(text(this, x + 18, y + 15, m.name, 14, '#ffffff', { fontStyle: 'bold', strokeThickness: 2 }).setOrigin(0, 0.5));
+      c.add(text(this, x + 18, y + 33, `${KIND_LABEL[m.kind]} · ${m.power} · TP ${m.tp}  ${'★'.repeat(r)}`, 11, RARITY[r].css, { strokeThickness: 0 }).setOrigin(0, 0.5));
+      const tag = own.has(m.id) ? 'suya' : slots.includes(m.id) ? 'puesta' : `×${freeNotebooks(this.save, m.id)}`;
+      c.add(text(this, x + 324, y + 23, tag, 13, own.has(m.id) ? '#7dff9a' : '#ffd23f', { fontStyle: 'bold' }).setOrigin(1, 0.5));
+      const hit = this.add.zone(x, y, 334, 46).setOrigin(0).setInteractive({ useHandCursor: true });
+      hit.on('pointerdown', () => this.assign(card, this.editSlot, m.id));
+      c.add(hit);
+    });
+    const navY = GAME_H - 72;
+    c.add(text(this, LX + 340, navY, `${this.editPage + 1} / ${pages}`, 14, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5));
+    for (const dir of [-1, 1]) {
+      c.add(new Button(this, LX + 340 + dir * 80, navY, dir < 0 ? '◀' : '▶', () => ((this.editPage = (this.editPage + dir + pages) % pages), this.drawEditor(card)), { w: 46, h: 30, color: THEME.panelLight, size: 14 }));
+    }
+  }
+
+  private assign(card: Card, slot: number, moveId: string): void {
+    const { base, extra } = movesFor(this.save, card);
+    const slots = [...base, ...extra];
+    if (moveId && slots.includes(moveId) && slots[slot] !== moveId) {
+      // ya la tiene en otro hueco: se cambian de sitio
+      slots[slots.indexOf(moveId)] = slots[slot];
+    }
+    slots[slot] = moveId;
+    const ok = setMoves(this.save, card, slots.slice(0, BASE_SLOTS), slots.slice(BASE_SLOTS));
+    this.save = loadClub()!;
+    if (ok && moveId) this.editSlot = Math.min(slots.length - 1, slot + 1);
+    this.drawEditor(card, ok ? '' : 'No te quedan cuadernos de esa técnica');
+  }
 }
+

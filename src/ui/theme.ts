@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { GAME_H, GAME_W, RES, hex } from '../config';
+import { FONT, GAME_H, GAME_W, RES, hex } from '../config';
 import type { Position, TeamData } from '../data/types';
 
 /**
@@ -46,10 +46,15 @@ export function dim(color: number | string, amount = 0.62): number {
 export function themePanel(g: Phaser.GameObjects.Graphics, x: number, y: number, w: number, h: number, accent: number = THEME.yellow, alpha = 0.9): void {
   const cut = Math.min(22, h / 4);
   const shape = [pt(x, y), pt(x + w - cut, y), pt(x + w, y + cut), pt(x + w, y + h), pt(x, y + h)];
-  g.fillStyle(0x000000, 0.35).fillPoints(shape.map((p) => pt(p.x + 4, p.y + 5)), true);
+  g.fillStyle(0x000000, 0.4).fillPoints(shape.map((p) => pt(p.x + 5, p.y + 6)), true);
   g.fillStyle(THEME.panel, alpha).fillPoints(shape, true);
+  // luz suave arriba y franja del color del panel, como un marcador de televisión
+  g.fillStyle(0xffffff, 0.035).fillPoints([pt(x, y), pt(x + w - cut, y), pt(x + w, y + cut), pt(x + w, y + Math.min(46, h * 0.3)), pt(x, y + Math.min(46, h * 0.3))], true);
+  g.fillStyle(accent, 0.07).fillPoints([pt(x, y + h), pt(x, y + h - Math.min(70, h * 0.4)), pt(x + Math.min(160, w * 0.4), y + h)], true);
   g.lineStyle(1, THEME.line, 0.9).strokePoints(shape, true);
+  g.lineStyle(1, 0xffffff, 0.08).lineBetween(x + 1, y + 4, x + w - cut, y + 4);
   g.fillStyle(accent).fillRect(x, y, Math.min(120, w * 0.4), 3);
+  g.fillStyle(accent, 0.5).fillRect(x + Math.min(120, w * 0.4) + 4, y, 10, 3);
 }
 
 /** Título de sección: texto en cursiva con una barrita de color delante. */
@@ -57,7 +62,7 @@ export function sectionTitle(scene: Phaser.Scene, x: number, y: number, label: s
   const c = scene.add.container(x, y);
   const g = scene.add.graphics().fillStyle(color).fillPoints(slant(0, -8, 10, 16, 4), true);
   const t = scene.add.text(16, 0, label, {
-    fontFamily: '"Trebuchet MS", Arial, sans-serif',
+    fontFamily: FONT,
     fontSize: '16px',
     fontStyle: 'italic bold',
     color: '#ffffff',

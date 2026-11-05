@@ -19,7 +19,7 @@ import { fxColors, fxParticle, type FxRecipe } from '../gfx/fx';
 import { portraitKey, texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
 import { dim, fitCamera, pt, sectionTitle, slant, THEME, themePanel } from '../ui/theme';
-import { Button, StatBar, text } from '../ui/widgets';
+import { Button, StatBar, display, text } from '../ui/widgets';
 import type { MatchScene } from './MatchScene';
 
 const PROMPT_TITLE: Record<Situation, string> = {
@@ -100,7 +100,7 @@ export class HudScene extends Phaser.Scene {
     this.buildScoreboard();
     this.buildPlayerPanel();
     this.buildRadar();
-    this.toastText = text(this, FIELD_VIEW.w / 2, 70, '', 26, '#ffffff', { strokeThickness: 6, fontStyle: 'italic bold' }).setOrigin(0.5).setDepth(50);
+    this.toastText = display(this, FIELD_VIEW.w / 2, 70, '', 32, '#ffffff').setOrigin(0.5).setDepth(50);
     new Button(this, FIELD_VIEW.w - 42, 34, 'II', () => this.match.togglePause(), { w: 54, h: 40, size: 18, color: THEME.panelLight });
     this.input.keyboard?.on('keydown-ESC', () => this.match.togglePause());
     // la portería no siempre se ve: botón (y tecla T) para tirar a distancia
@@ -137,7 +137,7 @@ export class HudScene extends Phaser.Scene {
     this.add.image(x + 62, 96, texKey.emblem(home.id)).setDisplaySize(76, 76);
     this.add.image(x + w - 62, 96, texKey.emblem(away.id)).setDisplaySize(76, 76);
     this.scoreTexts = [-1, 1].map((d) =>
-      text(this, x + w / 2 + d * 62, 100, '0', 64, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 8 }).setOrigin(0.5),
+      display(this, x + w / 2 + d * 62, 100, '0', 72, '#ffffff').setOrigin(0.5),
     );
     text(this, x + w / 2, 100, '-', 34, '#ffd23f', { fontStyle: 'bold', strokeThickness: 5 }).setOrigin(0.5);
     // nombres en bandas blancas inclinadas
@@ -551,7 +551,7 @@ export class HudScene extends Phaser.Scene {
         plate.fillStyle(0x000000, 0.55).fillPoints(slant(px + 6, 118, pw, 56, 16), true);
         plate.fillStyle(col).fillPoints(slant(px, 112, pw, 56, 16), true);
         plate.fillStyle(0xffffff, 0.25).fillPoints(slant(px + 8, 115, pw - 16, 14, 6), true);
-        const tech = text(this, px + pw / 2, 140, label, 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 6 }).setOrigin(0.5);
+        const tech = display(this, px + pw / 2, 140, label, 32, '#ffffff').setOrigin(0.5);
         for (let size = 26; tech.width > pw - 40 && size > 14; ) tech.setFontSize(--size);
         const who = text(this, px + 20, 100, s.player.data.name, 15, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 4 }).setOrigin(0, 1);
         const kind =
@@ -703,7 +703,7 @@ export class HudScene extends Phaser.Scene {
           // la ganadora al centro, en grande
           this.tweens.add({ targets: winnerK.k, x: CX, y: CY, scale: 1.18, duration: 340, ease: 'Back.Out' });
           const [wc] = winIsLeft ? [lc] : [rc];
-          const wins = text(this, CX, 96, '¡GANA!', 56, '#ffffff', { fontStyle: 'italic bold', stroke: Phaser.Display.Color.IntegerToColor(dim(wc, 0.2)).rgba, strokeThickness: 10 })
+          const wins = display(this, CX, 96, '¡GANA!', 66, '#ffffff', { fontStyle: 'italic bold', stroke: Phaser.Display.Color.IntegerToColor(dim(wc, 0.2)).rgba, strokeThickness: 10 })
             .setOrigin(0.5)
             .setAngle(-4)
             .setScale(2.4)
@@ -819,7 +819,7 @@ export class HudScene extends Phaser.Scene {
       g.fillStyle(THEME.night, 0.85).fillPoints([pt(-half, -60), pt(half, -86), pt(half, 60), pt(-half, 86)], true);
       g.fillStyle(THEME.yellow).fillPoints([pt(-half, -60), pt(half, -86), pt(half, -80), pt(-half, -54)], true);
       g.fillStyle(THEME.yellow).fillPoints([pt(-half, 80), pt(half, 54), pt(half, 60), pt(-half, 86)], true);
-      const t = text(this, 0, sub ? -14 : 0, main, 76, color, { strokeThickness: 12, fontStyle: 'italic bold' }).setOrigin(0.5).setAngle(-2);
+      const t = display(this, 0, sub ? -14 : 0, main, 92, color, { strokeThickness: 12 }).setOrigin(0.5).setAngle(-2);
       c.add([g, t]);
       if (sub) c.add(text(this, 0, 44, sub, 22, '#ffffff', { fontStyle: 'italic' }).setOrigin(0.5).setAngle(-2));
       t.setScale(2.2);
@@ -839,7 +839,7 @@ export class HudScene extends Phaser.Scene {
     this.overlay = c;
     c.add(this.add.rectangle(W / 2, H / 2, W, H, THEME.night, 0.86).setInteractive());
     const [home, away] = this.match.teams;
-    c.add(text(this, 40, 40, 'PAUSA', 52, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 9 }));
+    c.add(display(this, 40, 30, 'PAUSA', 66));
     c.add(
       text(this, 44, 112, `${home.short}  ${this.match.score[0]} - ${this.match.score[1]}  ${away.short}   ·   ${this.clockText.text}  ${this.halfText.text}`, 18, '#ffffff', {
         fontStyle: 'italic bold',
@@ -931,16 +931,16 @@ export class HudScene extends Phaser.Scene {
     g.fillStyle(dim(away.colors.shirt)).fillPoints([pt(W, 130), pt(W / 2 + 30, 150), pt(W / 2 - 30, 470), pt(W, 450)], true);
     g.lineStyle(4, THEME.yellow).lineBetween(W / 2 + 30, 150, W / 2 - 30, 470);
     c.add(g);
-    c.add(text(this, W / 2, 110, 'FINAL DEL PARTIDO', 34, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 7 }).setOrigin(0.5));
+    c.add(display(this, W / 2, 110, 'FINAL DEL PARTIDO', 48).setOrigin(0.5));
     c.add(this.add.image(W / 2 - 220, 260, texKey.emblem(home.id)).setDisplaySize(130, 130));
     c.add(this.add.image(W / 2 + 220, 260, texKey.emblem(away.id)).setDisplaySize(130, 130));
-    c.add(text(this, W / 2, 270, `${a}  -  ${b}`, 84, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 10 }).setOrigin(0.5));
+    c.add(display(this, W / 2, 270, `${a}  -  ${b}`, 100, '#ffffff').setOrigin(0.5));
     const wrap = { align: 'center', wordWrap: { width: 190 }, fontStyle: 'italic bold' };
     c.add(fitWidth(text(this, W / 2 - 220, 360, home.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
     c.add(fitWidth(text(this, W / 2 + 220, 360, away.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
     const verdict = a > b ? '¡VICTORIA!' : a < b ? 'DERROTA...' : 'EMPATE';
     if (coins) c.add(text(this, W / 2, 586, `+${coins} monedas para Mi club`, 16, '#ffd23f', { fontStyle: 'bold' }).setOrigin(0.5));
-    c.add(text(this, W / 2, 540, verdict, 44, a > b ? '#7dff9a' : a < b ? '#ff8a8a' : '#ffffff', { fontStyle: 'italic bold', strokeThickness: 8 }).setOrigin(0.5));
+    c.add(display(this, W / 2, 540, verdict, 58, a > b ? '#7dff9a' : a < b ? '#ff8a8a' : '#ffffff', { fontStyle: 'italic bold', strokeThickness: 8 }).setOrigin(0.5));
     c.add(new Button(this, W / 2 - 130, 630, 'Revancha', onRematch, { w: 220, h: 56, color: THEME.yellow }));
     c.add(new Button(this, W / 2 + 130, 630, 'Menú', onMenu, { w: 220, h: 52, color: THEME.panelLight }));
   }

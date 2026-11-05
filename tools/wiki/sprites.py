@@ -18,6 +18,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -205,17 +206,78 @@ def portrait(img):
     return canvas
 
 
+ZUKAN_CACHE = os.path.join(ROOT, 'tools', 'wiki', '.cache', 'zukan')
+# juego de cada temporada en las fichas de Inazugle, para elegir el retrato con la equipación de esa época
+SEASON_GAME = {'ie1': 'Inazuma Eleven', 'ie2': 'Inazuma Eleven 2', 'ie3': 'Inazuma Eleven 3', 'go': 'GO: Light',
+               'cs': 'Chrono Stones', 'gx': 'Galaxy', 'ares': 'Ares', 'orion': 'Orion', 'vr': 'Victory Road'}
+
+
+def norm(s):
+    s = unicodedata.normalize('NFKD', (s or '').lower())
+    return re.sub(r'[^a-z0-9]', '', ''.join(c for c in s if not unicodedata.combining(c)))
+
+
+def tokens(s):
+    s = unicodedata.normalize('NFKD', (s or '').lower())
+    return set(re.findall(r'[a-z]{2,}', ''.join(c for c in s if not unicodedata.combining(c))))
+
+
+def zukan_portraits(names, done, all_looks, force):
+    """Retratos de Inazugle (tools/zukan/charas.json) para los jugadores sin retrato de la wiki: por el nombre del
+    doblaje (o, si no, por las palabras del nombre, si solo encaja un personaje), de la ficha de su temporada."""
+    charas = [c for c in json.load(open(os.path.join(ROOT, 'tools', 'zukan', 'charas.json'), encoding='utf-8')) if c.get('img')]
+    by_name = {}
+    for c in charas:
+        by_name.setdefault(norm(c['name']), []).append(c)
+    os.makedirs(ZUKAN_CACHE, exist_ok=True)
+    n = 0
+    for (tid, pid), name in sorted(names.items()):
+        if (tid, pid) in done:
+            continue
+        cands = by_name.get(norm(name))
+        if not cands:
+            want = tokens(name)
+            loose = {c['name']: c for c in charas if want and want <= tokens(c['name'] + ' ' + c['nick'])}
+            cands = list(loose.values()) if len(loose) == 1 else None
+        if not cands:
+            continue
+        season = tid.split('-')[1] if tid.startswith('scouts-') else tid.split('-')[0]
+        game = SEASON_GAME.get(season, '~')
+        c = next((x for x in cands if x['game'] == game), None) or next((x for x in cands if game in x['game']), None) or cands[0]
+        dest_dir = os.path.join(OUT, tid)
+        dest = os.path.join(dest_dir, pid + '.webp')
+        key = f'{tid}:{pid}'
+        if not force and os.path.exists(dest) and key in all_looks:
+            n += 1
+            continue
+        try:
+            img = fetch(c['img'], os.path.join(ZUKAN_CACHE, re.sub(r'[^A-Za-z0-9]+', '_', c['img'].split('/')[-1])))
+        except Exception as e:  # noqa: BLE001 - una imagen que falla no para el resto
+            print('no se pudo bajar', c['img'], e, file=sys.stderr)
+            continue
+        os.makedirs(dest_dir, exist_ok=True)
+        portrait(img).save(dest, 'WEBP', quality=82, method=6)
+        all_looks[key] = looks(img)
+        n += 1
+        if n % 200 == 0:
+            print(f'Inazugle: {n}', file=sys.stderr)
+    return n
+
+
 def main():
     force = '--force' in sys.argv
     teams = {}
+    names = {}
     for path in sorted(glob.glob(os.path.join(ROOT, 'src', 'data', 'teams', '*.json'))):
         t = json.load(open(path, encoding='utf-8'))
         teams[t['id']] = [(p['id'], p['wiki']) for p in t['players'] if p.get('wiki')]
+        names.update({(t['id'], p['id']): p['name'] for p in t['players']})
     # los ojeadores van como un equipo por temporada (scouts-ie1...)
     scouts_path = os.path.join(ROOT, 'src', 'data', 'scouts.json')
     if os.path.exists(scouts_path):
         for season, players in json.load(open(scouts_path, encoding='utf-8')).items():
             teams[f'scouts-{season}'] = [(p['id'], p['wiki']) for p in players if p.get('wiki')]
+            names.update({(f'scouts-{season}', p['id']): p['name'] for p in players})
     # archivos de cada personaje, por prefijo de equipo ('' = sin prefijo)
     by_name = {}
     for fn in vr_files():
@@ -256,10 +318,13 @@ def main():
             all_looks[key] = looks(img)
         if n % 100 == 0:
             print(f'{n}/{len(chosen)}', file=sys.stderr)
+    # Quien no tiene retrato de Victory Road en la wiki: el de Inazugle (zukan.inazuma.jp), del mismo estilo
+    done = {k for k in chosen}
+    extra = zukan_portraits(names, done, all_looks, force)
     with open(looks_path, 'w', encoding='utf-8') as f:
         f.write('{\n' + ',\n'.join(f' {json.dumps(k)}: {json.dumps(v)}' for k, v in sorted(all_looks.items())) + '\n}\n')
     total = sum(len(v) for v in teams.values())
-    print(f'{total} jugadores en equipos; con retrato de Victory Road: {len(chosen)}; códigos de equipo: {len(codes)}/{len(teams)}', file=sys.stderr)
+    print(f'{total} jugadores en equipos; con retrato de Victory Road: {len(chosen)} de la wiki y {extra} de Inazugle; códigos de equipo: {len(codes)}/{len(teams)}', file=sys.stderr)
 
 
 if __name__ == '__main__':

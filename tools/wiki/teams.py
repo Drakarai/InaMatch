@@ -977,6 +977,12 @@ with open(os.path.join(ROOT, 'src', 'data', 'scouts.json'), 'w', encoding='utf-8
     f.write('{\n' + ',\n'.join(f' {json.dumps(k)}: {json.dumps(v, ensure_ascii=False, separators=(",", ":"))}' for k, v in scouts.items()) + '\n}\n')
 print('ojeadores por temporada:', {k: len(v) for k, v in scouts.items()})
 
+# todas las supertécnicas de la wiki, también las que no lleva ningún jugador: son los cuadernos del gacha de Mi club
+used_by_players = set(moves_used)
+for key in sorted(WAZA):
+    move_from_key(key)
+print('técnicas que no lleva nadie (solo en cuadernos):', len(set(moves_used) - used_by_players))
+
 with open(os.path.join(ROOT, 'src', 'data', 'moves.json'), 'w', encoding='utf-8') as f:
     kinds = ['shoot', 'dribble', 'block', 'catch']
     moves = sorted(moves_used.values(), key=lambda m: (kinds.index(m['kind']), -m['power'], m['name']))

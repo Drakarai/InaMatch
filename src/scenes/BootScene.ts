@@ -31,11 +31,12 @@ export class BootScene extends Phaser.Scene {
     makeFxTextures(this);
     audio.init(this.game);
     // "Mi club": la primera vez se reparte la plantilla inicial (hace falta la lista de ojeadores)
-    const loading = this.add.text(640, 360, 'Cargando jugadores...', { fontFamily: 'Arial', fontSize: '22px', color: '#ffd23f' }).setOrigin(0.5);
+    const loading = this.add.text(640, 360, '', {}).setVisible(false); // la pantalla de carga es la de index.html
     ensureClub()
       .catch((err) => console.warn('[club] no se pudo preparar el club', err))
       .then(() => {
         loading.destroy();
+        document.getElementById('splash')?.classList.add('done');
         this.scene.start('menu');
       });
   }

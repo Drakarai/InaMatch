@@ -1,4 +1,14 @@
 import Phaser from 'phaser';
+import '@fontsource/barlow-semi-condensed/latin-500.css';
+import '@fontsource/barlow-semi-condensed/latin-ext-500.css';
+import '@fontsource/barlow-semi-condensed/latin-700.css';
+import '@fontsource/barlow-semi-condensed/latin-ext-700.css';
+import '@fontsource/barlow-semi-condensed/latin-500-italic.css';
+import '@fontsource/barlow-semi-condensed/latin-ext-500-italic.css';
+import '@fontsource/barlow-semi-condensed/latin-700-italic.css';
+import '@fontsource/barlow-semi-condensed/latin-ext-700-italic.css';
+import '@fontsource/bebas-neue/latin-400.css';
+import '@fontsource/bebas-neue/latin-ext-400.css';
 import { GAME_H, GAME_W, RES } from './config';
 import { BootScene } from './scenes/BootScene';
 import { FormationScene } from './scenes/FormationScene';
@@ -18,7 +28,9 @@ Phaser.GameObjects.TextStyle.prototype.setStyle = function (style, updateText, s
   return out;
 };
 
-const game = new Phaser.Game({
+// el juego no arranca hasta tener las letras (si tardan más de 4 s, arranca con las del sistema)
+function startGame(): void {
+  const game = new Phaser.Game({
   type: Phaser.AUTO,
   parent: 'game',
   width: Math.round(GAME_W * RES),
@@ -29,5 +41,13 @@ const game = new Phaser.Game({
   scene: [BootScene, MenuScene, ClubScene, GachaScene, FormationScene, MatchScene, HudScene],
 });
 
-// útil para depurar desde la consola del navegador
-(window as unknown as { game: Phaser.Game }).game = game;
+  // útil para depurar desde la consola del navegador
+  (window as unknown as { game: Phaser.Game }).game = game;
+}
+
+Promise.race([
+  Promise.all(['500 24px "Barlow Semi Condensed"', '700 24px "Barlow Semi Condensed"', 'italic 500 24px "Barlow Semi Condensed"', 'italic 700 24px "Barlow Semi Condensed"', '24px "Bebas Neue"'].map((f) => document.fonts.load(f, 'ÁÉÍÓÚÑáéíóúñ¡¿Aa'))),
+  new Promise((r) => setTimeout(r, 4000)),
+])
+  .catch(() => undefined)
+  .then(startGame);

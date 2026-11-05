@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { sfx } from '../audio/sfx';
-import { COLORS, FONT } from '../config';
+import { COLORS, DISPLAY, FONT } from '../config';
 import { THEME, slant, themePanel } from './theme';
 
 export function text(
@@ -20,6 +20,25 @@ export function text(
     strokeThickness: Math.max(2, Math.round(size / 6)),
     ...extra,
   });
+}
+
+/** Rótulo grande con la letra de marcador (títulos de pantalla, marcadores, avisos del partido). */
+export function display(
+  scene: Phaser.Scene,
+  x: number,
+  y: number,
+  value: string,
+  size = 40,
+  color = '#ffd23f',
+  extra: Phaser.Types.GameObjects.Text.TextStyle = {},
+): Phaser.GameObjects.Text {
+  return text(scene, x, y, value, size, color, {
+    strokeThickness: Math.max(4, Math.round(size / 7)),
+    shadow: { offsetX: 0, offsetY: Math.max(2, Math.round(size / 14)), color: '#000000', blur: 0, fill: true, stroke: true },
+    ...extra,
+    fontFamily: DISPLAY,
+    fontStyle: 'normal',
+  }).setLetterSpacing(Math.round(size / 24));
 }
 
 export interface ButtonOptions {
@@ -59,8 +78,15 @@ export class Button extends Phaser.GameObjects.Container {
     this.draw(false);
     this.setSize(this.bw, this.bh);
     this.setInteractive({ useHandCursor: true })
-      .on('pointerover', () => this.enabled && this.draw(true))
-      .on('pointerout', () => this.draw(false))
+      .on('pointerover', () => {
+        if (!this.enabled) return;
+        this.draw(true);
+        scene.tweens.add({ targets: this, scale: 1.04, duration: 90 });
+      })
+      .on('pointerout', () => {
+        this.draw(false);
+        scene.tweens.add({ targets: this, scale: 1, duration: 90 });
+      })
       .on('pointerdown', (_p: Phaser.Input.Pointer, _x: number, _y: number, ev: Phaser.Types.Input.EventData) => {
         ev.stopPropagation();
         if (!this.enabled) return;
@@ -86,12 +112,16 @@ export class Button extends Phaser.GameObjects.Container {
     const h = this.bh;
     const skew = Math.min(14, h * 0.3);
     const g = this.bg.clear();
-    const fill = hover ? Phaser.Display.Color.ValueToColor(this.color).lighten(14).color : this.color;
-    g.fillStyle(0x000000, 0.5).fillPoints(slant(-w / 2 + 4, -h / 2 + 5, w, h, skew), true);
+    const base = Phaser.Display.Color.ValueToColor(this.color);
+    const fill = hover ? base.clone().lighten(12).color : this.color;
+    const dark = base.clone().darken(hover ? 6 : 14).color;
+    // sombra, cuerpo en dos tonos (como un rótulo con volumen), brillo arriba y filo
+    g.fillStyle(0x000000, 0.55).fillPoints(slant(-w / 2 + 4, -h / 2 + 6, w, h, skew), true);
     g.fillStyle(fill).fillPoints(slant(-w / 2, -h / 2, w, h, skew), true);
-    g.fillStyle(0xffffff, hover ? 0.3 : 0.2).fillPoints(slant(-w / 2 + skew * 0.5 + 3, -h / 2 + 3, w - skew - 6, h * 0.36, skew * 0.36), true);
-    g.fillStyle(0x000000, 0.18).fillPoints(slant(-w / 2 - 1, h / 2 - 5, w - skew + 2, 5, 1), true);
-    if (hover) g.lineStyle(2, 0xffffff, 0.9).strokePoints(slant(-w / 2, -h / 2, w, h, skew), true);
+    g.fillStyle(dark).fillPoints(slant(-w / 2, h * 0.08, w - skew * (0.5 - 0.08), h * 0.42, skew * 0.42), true);
+    g.fillStyle(0xffffff, hover ? 0.32 : 0.22).fillPoints(slant(-w / 2 + skew * 0.5 + 3, -h / 2 + 3, w - skew - 6, h * 0.34, skew * 0.34), true);
+    g.lineStyle(1, 0xffffff, 0.35).lineBetween(-w / 2 + skew + 1, -h / 2 + 1, w / 2 - 1, -h / 2 + 1);
+    g.lineStyle(hover ? 3 : 1.5, hover ? 0xfff3b0 : 0x000000, hover ? 1 : 0.35).strokePoints(slant(-w / 2, -h / 2, w, h, skew), true);
   }
 }
 

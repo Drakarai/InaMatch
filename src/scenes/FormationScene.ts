@@ -10,7 +10,7 @@ import { loadClub, setSquad } from '../club/club';
 import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
 import { lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
 import { fitCamera, POS_COLOR, pt, sectionTitle, slant, teamBackdrop, THEME, themePanel } from '../ui/theme';
-import { Button, StatBar, text } from '../ui/widgets';
+import { Button, StatBar, display, text } from '../ui/widgets';
 
 export const STAT_LABELS: [keyof Stats, string][] = [
   ['kick', 'Tiro'],
@@ -87,10 +87,10 @@ export class FormationScene extends Phaser.Scene {
 
     // cabecera: escudo, título y el rival
     this.add.image(60, 44, texKey.emblem(team.id)).setDisplaySize(58, 58);
-    text(this, 100, 14, this.halftime ? 'Descanso' : 'Formación', 30, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 6 });
+    display(this, 100, 8, this.halftime ? 'Descanso' : 'Formación', 40);
     if (this.halftime) {
       const [a, b] = this.halftime.score;
-      text(this, 640, 40, `${team.short}  ${a} - ${b}  ${rival.short}`, 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 6 }).setOrigin(0.5);
+      display(this, 640, 40, `${team.short}  ${a} - ${b}  ${rival.short}`, 34, '#ffffff').setOrigin(0.5);
     }
     text(this, 102, 52, team.name, 16, '#ffffff', { fontStyle: 'italic' });
     const rx = 1240;
@@ -325,7 +325,7 @@ export class FormationScene extends Phaser.Scene {
     g.fillStyle(0x000000, 0.35).fillPoints(slant(20, 22, 120, 120, 16), true);
     const portrait = this.add.image(80, 82, portraitKey(this, p, team)).setDisplaySize(112, 112);
     // nombre y etiquetas
-    const name = text(this, 166, 20, p.name, 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 4 });
+    const name = display(this, 166, 16, p.name, 32, '#ffffff');
     for (let size = 26; name.width > 360 && size > 15; ) name.setFontSize(--size);
     const tags = this.add.graphics();
     tags.fillStyle(POS_COLOR[p.position]).fillPoints(slant(166, 58, 56, 22, 6), true);

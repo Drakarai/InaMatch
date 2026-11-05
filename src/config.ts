@@ -33,7 +33,10 @@ export const HALF_REAL_SECONDS = 210;
 /** Ritmo del partido: multiplica la velocidad de jugadores y balón (1 = el ritmo original). */
 export const GAME_SPEED = 0.75;
 
-export const FONT = '"Trebuchet MS", "Arial Black", Arial, sans-serif';
+/** Letra de la interfaz: Barlow Semi Condensed, de rótulo deportivo (se carga antes de arrancar el juego, en main.ts). */
+export const FONT = '"Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif';
+/** Letra de los rótulos grandes y marcadores: Bebas Neue, como en las retransmisiones deportivas. */
+export const DISPLAY = '"Bebas Neue", "Barlow Semi Condensed", Impact, sans-serif';
 
 export const COLORS = {
   panelBg: 0x2c4f7a,

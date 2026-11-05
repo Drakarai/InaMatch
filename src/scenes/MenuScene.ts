@@ -2,13 +2,13 @@ import Phaser from 'phaser';
 import { music } from '../audio/music';
 import { fitCamera } from '../ui/theme';
 import { soundButton } from '../ui/soundPanel';
-import { FONT, GAME_H, GAME_W, hex } from '../config';
+import { GAME_H, GAME_W, hex } from '../config';
 import { TEAMS } from '../data';
 import { SEASONS, getSeason, seasonOf } from '../data/seasons';
 import type { TeamData } from '../data/types';
 import { defaultLineup } from '../engine/lineup';
 import { lineRatings, teamRating } from '../engine/rating';
-import { Button, text } from '../ui/widgets';
+import { Button, display, text } from '../ui/widgets';
 import { loadClub } from '../club/club';
 import { makeEmblem, texKey } from '../gfx/placeholders';
 
@@ -147,7 +147,7 @@ export class MenuScene extends Phaser.Scene {
   private drawHeader(): void {
     const g = this.add.graphics();
     g.fillStyle(YELLOW).fillPoints([pt(24, 18), pt(44, 18), pt(36, 34), pt(46, 34), pt(26, 60), pt(31, 40), pt(20, 40)], true);
-    text(this, 54, 18, 'InaMatch', 32, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 6 });
+    display(this, 54, 8, 'InaMatch', 46);
     text(this, 56, 58, '¡Elige a los equipos!', 15, '#ffffff', { fontStyle: 'italic' });
     text(this, GAME_W - 24, 30, 'Proyecto de fans sin ánimo de lucro\nInazuma Eleven es una marca de LEVEL-5', 11, '#c4cddc', {
       align: 'right',
@@ -219,7 +219,7 @@ export class MenuScene extends Phaser.Scene {
     band.fillStyle(0xffffff).fillPoints([pt(cx - 200, 338), pt(cx + 210, 338), pt(cx + 196, 390), pt(cx - 214, 390)], true);
     band.fillStyle(hex(team.colors.accent)).fillPoints([pt(cx - 214, 390), pt(cx + 196, 390), pt(cx + 194, 396), pt(cx - 216, 396)], true);
     c.add(band);
-    const name = text(this, cx - 2, 364, team.name, 28, '#0b1a2e', { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5);
+    const name = display(this, cx - 2, 364, team.name, 36, '#0b1a2e', { strokeThickness: 0, shadow: { offsetX: 0, offsetY: 0, color: '#000', blur: 0, fill: false } }).setOrigin(0.5);
     for (let size = 28; name.width > 380 && size > 14; ) name.setFontSize(--size);
     c.add(name);
     const list = teamsOf(seasonOf(team));
@@ -257,12 +257,7 @@ export class MenuScene extends Phaser.Scene {
   // ----------------------------------------------------------------- centro
 
   private drawCenter(): void {
-    const vs = text(this, 646, EMBLEM_Y - 6, 'VS', 76, '#ffd23f', {
-      fontFamily: '"Arial Black", ' + FONT,
-      fontStyle: 'italic',
-      stroke: '#0b1a2e',
-      strokeThickness: 12,
-    }).setOrigin(0.5);
+    const vs = display(this, 646, EMBLEM_Y - 6, 'VS', 110, '#ffd23f', { strokeThickness: 12 }).setOrigin(0.5);
     this.tweens.add({ targets: vs, scale: 1.06, duration: 700, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
 
     const round = (x: number, y: number, icon: string, hint: string, onClick: () => void) => {

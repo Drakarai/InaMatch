@@ -1,4 +1,5 @@
-import { upsertTeam } from '../data';
+import { MOVES, upsertTeam } from '../data';
+import type { MoveData } from '../data/types';
 import type { PlayerData, Position, TeamData } from '../data/types';
 import { byPosition, cardByKey, loadPool, RARITY, type Card, type Rarity } from './pool';
 
@@ -20,7 +21,16 @@ export interface ClubSave {
   squad: string[];
   formation: string;
   pulls: number;
+  /** Cuadernos de supertécnicas conseguidos: id de la técnica -> cuántos. */
+  notebooks?: Record<string, number>;
+  /** Técnicas elegidas para cada jugador (Card.key): las 4 de base y las 2 extra ('' = hueco vacío). */
+  custom?: Record<string, { base: string[]; extra: string[] }>;
 }
+
+export const BASE_SLOTS = 4;
+export const EXTRA_SLOTS = 2;
+export const NOTEBOOK_COST = 80;
+export const TEN_NOTEBOOK_COST = 700;
 
 const KEY = 'inamatch-club';
 export const PULL_COST = 100;
@@ -131,7 +141,9 @@ export function clubTeam(save: ClubSave): TeamData {
     let id = card.player.id;
     while (used.has(id)) id += '-2';
     used.add(id);
-    return [{ ...card.player, id, number: i + 1, origin: card.origin, originId: card.player.id }];
+    const { base, extra } = movesFor(save, card);
+    const moves = [...base, ...extra].filter((m) => m && MOVES[m]);
+    return [{ ...card.player, id, number: i + 1, origin: card.origin, originId: card.player.id, moves }];
   });
   return {
     id: 'club',
@@ -199,3 +211,78 @@ export function rewardMatch(result: 'win' | 'draw' | 'loss', withClub: boolean):
 }
 
 export { RARITY };
+
+// ------------------------------------------------------------ supertécnicas
+
+/** Las técnicas de un jugador del club: las elegidas o, si no se han tocado, las suyas (4 de base, 2 extra vacías). */
+export function movesFor(save: ClubSave, card: Card): { base: string[]; extra: string[] } {
+  const c = save.custom?.[card.key];
+  const pad = (list: string[], n: number) => [...list.slice(0, n), ...Array(Math.max(0, n - list.length)).fill('')];
+  if (c) return { base: pad(c.base, BASE_SLOTS), extra: pad(c.extra, EXTRA_SLOTS) };
+  return { base: pad(card.player.moves, BASE_SLOTS), extra: pad([], EXTRA_SLOTS) };
+}
+
+/** Cuadernos de una técnica que no está puesta en ningún jugador (las suyas propias no gastan cuaderno). */
+export function freeNotebooks(save: ClubSave, moveId: string): number {
+  let used = 0;
+  for (const [key, c] of Object.entries(save.custom ?? {})) {
+    const own = cardByKey(key)?.player.moves ?? [];
+    used += [...c.base, ...c.extra].filter((m) => m === moveId && !own.includes(m)).length;
+  }
+  return (save.notebooks?.[moveId] ?? 0) - used;
+}
+
+/** Cambia las técnicas de un jugador. Devuelve false si se usa un cuaderno que no se tiene. */
+export function setMoves(save: ClubSave, card: Card, base: string[], extra: string[]): boolean {
+  const next: ClubSave = { ...save, custom: { ...(save.custom ?? {}), [card.key]: { base, extra } } };
+  const own = card.player.moves;
+  for (const m of new Set([...base, ...extra].filter((x) => x && !own.includes(x)))) {
+    if (freeNotebooks(next, m) < 0) return false;
+  }
+  saveClub(next);
+  upsertTeam(clubTeam(next));
+  return true;
+}
+
+/** Rareza de un cuaderno según la potencia de la técnica entre las de su tipo: el 7 % más potente es ★★★★. */
+let moveRarity: Map<string, Rarity> | null = null;
+export function notebookRarity(move: MoveData): Rarity {
+  if (!moveRarity) {
+    moveRarity = new Map();
+    for (const kind of ['shoot', 'dribble', 'block', 'catch']) {
+      const list = Object.values(MOVES)
+        .filter((m) => m.kind === kind)
+        .sort((a, b) => a.power - b.power);
+      list.forEach((m, i) => {
+        const f = i / Math.max(1, list.length - 1);
+        moveRarity!.set(m.id, f >= 0.93 ? 4 : f >= 0.75 ? 3 : f >= 0.4 ? 2 : 1);
+      });
+    }
+  }
+  return moveRarity.get(move.id) ?? 1;
+}
+
+export interface NotebookResult {
+  move: MoveData;
+  rarity: Rarity;
+  total: number;
+}
+
+/** Tiradas de cuadernos. Las de diez traen al menos uno ★★★. */
+export function pullNotebooks(count: 1 | 10): NotebookResult[] | null {
+  const save = loadClub();
+  const cost = count === 10 ? TEN_NOTEBOOK_COST : NOTEBOOK_COST;
+  if (!save || save.coins < cost) return null;
+  const notebooks = { ...(save.notebooks ?? {}) };
+  const all = Object.values(MOVES);
+  const results: NotebookResult[] = [];
+  for (let i = 0; i < count; i++) {
+    const guaranteed = count === 10 && i === count - 1 && !results.some((r) => r.rarity >= 3);
+    const rarity = rollRarity(guaranteed ? 3 : 1);
+    const move = pickOne(all.filter((m) => notebookRarity(m) === rarity));
+    notebooks[move.id] = (notebooks[move.id] ?? 0) + 1;
+    results.push({ move, rarity, total: notebooks[move.id] });
+  }
+  saveClub({ ...save, coins: save.coins - cost, notebooks });
+  return results;
+}

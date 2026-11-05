@@ -1,11 +1,12 @@
 import Phaser from 'phaser';
 import { sfx } from '../audio/sfx';
-import { loadClub, onClubChange, pull, PULL_COST, TEN_PULL_COST, type PullResult } from '../club/club';
+import { loadClub, NOTEBOOK_COST, onClubChange, pull, pullNotebooks, PULL_COST, TEN_NOTEBOOK_COST, TEN_PULL_COST, type NotebookResult, type PullResult } from '../club/club';
+import { drawNotebook } from '../ui/notebook';
 import { RARITY } from '../club/pool';
 import { GAME_H, GAME_W } from '../config';
 import { drawCard, loadCardPortraits } from '../ui/card';
 import { THEME, fitCamera, pt, sectionTitle, themePanel } from '../ui/theme';
-import { Button, text, wait } from '../ui/widgets';
+import { Button, display, text, wait } from '../ui/widgets';
 
 /**
  * Fichajes: tiradas de 1 o de 10 para conseguir jugadores para "Mi club". Cada tirada sale de un balón que se
@@ -16,17 +17,33 @@ export class GachaScene extends Phaser.Scene {
   private stage!: Phaser.GameObjects.Container;
   private buttons: Button[] = [];
   private busy = false;
+  /** Qué se ficha: jugadores o cuadernos de supertécnicas. */
+  private mode: 'players' | 'notebooks' = 'players';
 
   constructor() {
     super('gacha');
+  }
+
+  init(data: { mode?: 'players' | 'notebooks' }): void {
+    this.mode = data?.mode ?? 'players';
   }
 
   create(): void {
     fitCamera(this);
     this.busy = false;
     this.drawBackground();
-    text(this, 40, 22, 'Fichajes', 34, '#ffd23f', { fontStyle: 'italic bold', strokeThickness: 7 });
-    text(this, 42, 66, 'Consigue jugadores para Mi club', 15, '#ffffff', { fontStyle: 'italic' });
+    display(this, 40, 14, this.mode === 'notebooks' ? 'Cuadernos' : 'Fichajes', 46);
+    const nb = this.mode === 'notebooks';
+    text(this, 42, 66, nb ? 'Cuadernos de supertécnicas para Mi club' : 'Consigue jugadores para Mi club', 15, '#ffffff', { fontStyle: 'italic' });
+    // pestañas: jugadores o cuadernos
+    (['players', 'notebooks'] as const).forEach((m, i) => {
+      new Button(this, 560 + i * 200, 44, m === 'players' ? 'Jugadores' : 'Cuadernos', () => m !== this.mode && !this.busy && this.scene.restart({ mode: m }), {
+        w: 180,
+        h: 44,
+        color: m === this.mode ? THEME.yellow : THEME.panelLight,
+        size: 18,
+      });
+    });
     this.coinsLabel = text(this, GAME_W - 40, 40, '', 24, '#ffd23f', { fontStyle: 'bold', strokeThickness: 5 }).setOrigin(1, 0.5);
     this.drawCoins();
     const off = onClubChange(() => this.drawCoins());
@@ -48,7 +65,7 @@ export class GachaScene extends Phaser.Scene {
       text(this, 150, y, RARITY[r].name, 15, '#ffffff', { fontStyle: 'bold' }).setOrigin(0, 0.5);
       text(this, 320, y, pct, 15, '#ffffff', { fontStyle: 'bold' }).setOrigin(1, 0.5);
     });
-    text(this, 60, 322, 'Repetidos: devuelven monedas', 12, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 });
+    text(this, 60, 322, nb ? 'Rareza según la potencia de la técnica' : 'Repetidos: devuelven monedas', 12, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 });
     const g2 = this.add.graphics();
     themePanel(g2, 40, 372, 300, 150);
     sectionTitle(this, 56, 394, 'Monedas');
@@ -61,9 +78,10 @@ export class GachaScene extends Phaser.Scene {
     this.stage = this.add.container(0, 0);
     this.idle();
 
+    const [one, ten] = nb ? [NOTEBOOK_COST, TEN_NOTEBOOK_COST] : [PULL_COST, TEN_PULL_COST];
     this.buttons = [
-      new Button(this, 190, 580, `Tirada · ${PULL_COST}`, () => this.roll(1), { w: 260, h: 54, color: THEME.yellow }),
-      new Button(this, 190, 642, `10 tiradas · ${TEN_PULL_COST}`, () => this.roll(10), { w: 260, h: 54, color: 0xff7a3d }),
+      new Button(this, 190, 580, `Tirada · ${one}`, () => this.roll(1), { w: 260, h: 54, color: THEME.yellow }),
+      new Button(this, 190, 642, `10 tiradas · ${ten}`, () => this.roll(10), { w: 260, h: 54, color: 0xff7a3d }),
     ];
     text(this, 190, 686, 'Las 10 tiradas traen al menos un ★★★', 12, '#ffd23f', { fontStyle: 'italic', strokeThickness: 3 }).setOrigin(0.5);
     new Button(this, GAME_W - 130, 672, 'Mi club', () => this.scene.start('club'), { w: 200, h: 48, color: THEME.panelLight });
@@ -73,8 +91,9 @@ export class GachaScene extends Phaser.Scene {
   private drawCoins(): void {
     this.coinsLabel?.setText(`● ${loadClub()?.coins ?? 0} monedas`);
     const coins = loadClub()?.coins ?? 0;
-    this.buttons[0]?.setEnabled(coins >= PULL_COST);
-    this.buttons[1]?.setEnabled(coins >= TEN_PULL_COST);
+    const nb = this.mode === 'notebooks';
+    this.buttons[0]?.setEnabled(coins >= (nb ? NOTEBOOK_COST : PULL_COST));
+    this.buttons[1]?.setEnabled(coins >= (nb ? TEN_NOTEBOOK_COST : TEN_PULL_COST));
   }
 
   private drawBackground(): void {
@@ -97,7 +116,7 @@ export class GachaScene extends Phaser.Scene {
     const ball = this.ball(800, 330, 90);
     this.tweens.add({ targets: ball, scale: 1.06, duration: 800, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
     this.stage.add(ball);
-    this.stage.add(text(this, 800, 470, '¡Haz una tirada!', 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 6 }).setOrigin(0.5));
+    this.stage.add(display(this, 800, 470, '¡Haz una tirada!', 36, '#ffffff').setOrigin(0.5));
   }
 
   private ball(x: number, y: number, r: number): Phaser.GameObjects.Container {
@@ -120,6 +139,15 @@ export class GachaScene extends Phaser.Scene {
   private async roll(count: 1 | 10): Promise<void> {
     if (this.busy) return;
     this.busy = true;
+    if (this.mode === 'notebooks') {
+      const books = pullNotebooks(count);
+      if (books) {
+        await this.charge(Math.max(...books.map((r) => r.rarity)));
+        await this.revealNotebooks(books);
+      }
+      this.busy = false;
+      return;
+    }
     const results = await pull(count);
     if (!results) {
       this.busy = false;
@@ -165,6 +193,31 @@ export class GachaScene extends Phaser.Scene {
     ball.destroy();
     bolts.destroy();
     await wait(this, 350);
+  }
+
+  private async revealNotebooks(results: NotebookResult[]): Promise<void> {
+    this.tweens.killTweensOf(this.stage.list);
+    this.stage.removeAll(true);
+    const one = results.length === 1;
+    const w = one ? 200 : 126;
+    const h = one ? 270 : 168;
+    results.forEach((r, i) => {
+      const x = one ? 800 : 520 + (i % 5) * 140;
+      const y = one ? 320 : 220 + Math.floor(i / 5) * 210;
+      const book = drawNotebook(this, x, y, r.move, r.rarity, w, h);
+      book.setScale(0, 1);
+      this.stage.add(book);
+      const tag = r.total > 1 ? `Ya tenías · ahora ${r.total}` : '¡NUEVO!';
+      const label = text(this, x, y + h / 2 + 14, tag, one ? 16 : 12, r.total > 1 ? THEME.muted : '#7dff9a', { fontStyle: 'bold' }).setOrigin(0.5).setAlpha(0);
+      this.stage.add(label);
+      this.time.delayedCall(i * 160, () => {
+        if (r.rarity >= 3) sfx.cutin();
+        else sfx.click();
+        this.tweens.add({ targets: book, scaleX: 1, duration: 220, ease: 'Back.out' });
+        this.tweens.add({ targets: label, alpha: 1, duration: 200, delay: 180 });
+      });
+    });
+    await wait(this, results.length * 160 + 300);
   }
 
   private async reveal(results: PullResult[]): Promise<void> {

@@ -106,9 +106,11 @@ def eyes_front(d, f, pal):
             line(d, quad((cx - 6, ey), (cx, ey + 4), (cx + 6, ey)), OUT, 2.2)
             continue
         if style == 'round':
-            d.ellipse([P(cx - 4.6, ey - 4.6), P(cx + 4.6, ey + 4.6)], fill=OUT)
-            d.ellipse([P(cx - 3.4, ey - 3.4), P(cx + 3.4, ey + 3.4)], fill=(255, 255, 255, 255))
-            d.ellipse([P(cx - 1.6, ey - 1.6), P(cx + 1.6, ey + 1.6)], fill=(20, 14, 18, 255))
+            # ojo redondo pequeño: el blanco justo alrededor de una pupila grande (si no, a tamaño de partido se ve en blanco)
+            d.ellipse([P(cx - 4.4, ey - 4.6), P(cx + 4.4, ey + 4.6)], fill=OUT)
+            d.ellipse([P(cx - 3.3, ey - 3.5), P(cx + 3.3, ey + 3.5)], fill=(255, 255, 255, 255))
+            d.ellipse([P(cx - 2.5, ey - 2.7), P(cx + 2.5, ey + 2.7)], fill=(20, 14, 18, 255))
+            d.ellipse([P(cx - 1.6 + s * 0.4, ey - 2.2), P(cx - 0.4 + s * 0.4, ey - 1.0)], fill=(255, 255, 255, 255))
             continue
         if style == 'dot':
             d.ellipse([P(cx - 2.6, ey - 3), P(cx + 2.6, ey + 3)], fill=OUT)
@@ -175,7 +177,7 @@ def eye_side(d, f, pal):
     elif style == 'round':
         d.ellipse([P(77, ey - 4.6), P(86, ey + 4.6)], fill=OUT)
         d.ellipse([P(78.2, ey - 3.4), P(84.8, ey + 3.4)], fill=(255, 255, 255, 255))
-        d.ellipse([P(81, ey - 1.6), P(84.2, ey + 1.6)], fill=(20, 14, 18, 255))
+        d.ellipse([P(80.2, ey - 2.6), P(85, ey + 2.6)], fill=(20, 14, 18, 255))
     elif style == 'sharp':
         eye = [(74, ey - 3.5), (85, ey - 2), (84.5, ey + 5.5), (75, ey + 4.5)]
         poly(d, eye, (255, 255, 255, 255))

@@ -82,7 +82,7 @@ def spk(a, b, tip, bulge=6, z='b', light_left=True, sil=True, ln=False):
 
 # ------------------------------------------------------------------ caras
 
-FACE_FRONT = quad((19, 52), (17, 94), (50, 103)) + quad((50, 103), (83, 94), (81, 52))[1:] + quad((81, 52), (50, 26), (19, 52))[1:-1]
+FACE_FRONT = quad((19, 52), (17, 92), (50, 100)) + quad((50, 100), (83, 92), (81, 52))[1:] + quad((81, 52), (50, 26), (19, 52))[1:-1]
 FACE_SIDE = blob([(48, 20), (72, 24), (85, 40), (87, 62), (87, 82), (82, 96), (72, 102), (58, 101), (42, 94), (24, 80), (16, 58), (24, 32)])
 
 
@@ -97,13 +97,18 @@ def line(d, pts, fill, w):
 def eyes_front(d, f, pal):
     style = f.get('eyes', 'normal')
     iris = pal.get('iris', (48, 34, 50, 255))
-    ey = f.get('eye_y', 82)
+    ey = f.get('eye_y', 75)
     sep = f.get('eye_sep', 14)
     for cx, s in ((50 - sep, 1), (50 + sep, -1)):
         if style == 'none':
             continue
         if style == 'closed':
             line(d, quad((cx - 6, ey), (cx, ey + 4), (cx + 6, ey)), OUT, 2.2)
+            continue
+        if style == 'round':
+            d.ellipse([P(cx - 4.6, ey - 4.6), P(cx + 4.6, ey + 4.6)], fill=OUT)
+            d.ellipse([P(cx - 3.4, ey - 3.4), P(cx + 3.4, ey + 3.4)], fill=(255, 255, 255, 255))
+            d.ellipse([P(cx - 1.6, ey - 1.6), P(cx + 1.6, ey + 1.6)], fill=(20, 14, 18, 255))
             continue
         if style == 'dot':
             d.ellipse([P(cx - 2.6, ey - 3), P(cx + 2.6, ey + 3)], fill=OUT)
@@ -135,7 +140,7 @@ def eyes_front(d, f, pal):
 
 def mouth_front(d, f):
     m = f.get('mouth', 'line')
-    y = f.get('mouth_y', 95.5)
+    y = f.get('mouth_y', 91)
     if m == 'line':
         line(d, [(46, y), (54, y)], (130, 70, 50, 255), 1.4)
     elif m == 'smile':
@@ -144,9 +149,15 @@ def mouth_front(d, f):
         poly(d, [(42, y - 3), (58, y - 3), (56, y + 3), (44, y + 3)], (120, 40, 40, 255))
         poly(d, [(44, y - 3), (56, y - 3), (55, y), (45, y)], (255, 255, 255, 255))
         line(d, [(42, y - 3), (58, y - 3), (56, y + 3), (44, y + 3), (42, y - 3)], OUT, 1.2)
-    elif m == 'lips':  # labios gruesos (Jack)
-        poly(d, ell(50, y, 9, 3.6), (200, 110, 90, 255))
-        line(d, [(42, y), (58, y)], OUT, 1.2)
+    elif m == 'lips':  # labios gruesos (Jack): boca ancha sonriente
+        w = f.get('mouth_w', 9)
+        poly(d, quad((50 - w, y - 2), (50, y - 4), (50 + w, y - 2)) + quad((50 + w, y - 2), (50, y + 9), (50 - w, y - 2))[1:], (196, 106, 86, 255))
+        line(d, quad((50 - w + 1, y - 0.5), (50, y + 4), (50 + w - 1, y - 0.5)), OUT, 1.3)
+    elif m == 'buck':  # boca apretada con los dos dientes de delante (Tod)
+        line(d, quad((42, y), (50, y - 2), (58, y)), OUT, 1.4)
+        poly(d, [(46.5, y - 1.2), (53.5, y - 1.2), (53.5, y + 3.5), (46.5, y + 3.5)], (255, 255, 255, 255))
+        line(d, [(46.5, y - 1.2), (46.5, y + 3.5), (53.5, y + 3.5), (53.5, y - 1.2)], OUT, 1.0)
+        line(d, [(50, y - 1), (50, y + 3.5)], OUT, 0.8)
     elif m == 'frown':
         line(d, quad((44, y + 1.5), (50, y - 2), (56, y + 1.5)), (130, 70, 50, 255), 1.4)
 
@@ -154,13 +165,17 @@ def mouth_front(d, f):
 def eye_side(d, f, pal):
     style = f.get('eyes', 'normal')
     iris = pal.get('iris', (48, 34, 50, 255))
-    ey = f.get('eye_y', 82)
+    ey = f.get('eye_y', 75)
     if style == 'none':
         return
     if style == 'closed':
         line(d, quad((74, ey), (79, ey + 3), (84, ey)), OUT, 2.2)
     elif style == 'dot':
         d.ellipse([P(79, ey - 3), P(83.5, ey + 3)], fill=OUT)
+    elif style == 'round':
+        d.ellipse([P(77, ey - 4.6), P(86, ey + 4.6)], fill=OUT)
+        d.ellipse([P(78.2, ey - 3.4), P(84.8, ey + 3.4)], fill=(255, 255, 255, 255))
+        d.ellipse([P(81, ey - 1.6), P(84.2, ey + 1.6)], fill=(20, 14, 18, 255))
     elif style == 'sharp':
         eye = [(74, ey - 3.5), (85, ey - 2), (84.5, ey + 5.5), (75, ey + 4.5)]
         poly(d, eye, (255, 255, 255, 255))
@@ -179,7 +194,7 @@ def eye_side(d, f, pal):
         else:
             line(d, quad((72, by + 1), (78, by - 2), (85, by)), OUT, 2.0)
     m = f.get('mouth', 'line')
-    y = f.get('mouth_y', 95.5)
+    y = f.get('mouth_y', 91)
     if m in ('grin',):
         poly(d, [(80, y - 2.5), (87, y - 3), (86, y + 2.5), (80, y + 2)], (255, 255, 255, 255))
         line(d, [(80, y - 2.5), (87, y - 3), (86, y + 2.5), (80, y + 2), (80, y - 2.5)], OUT, 1.1)
@@ -203,8 +218,11 @@ def draw(d, spec, view):
     ears = f.get('ears', True)
     W = 2.0
     big_ears = f.get('big_ears', 0)
-    ear_spots = {'front': [(19, 74), (81, 74)], 'back': [(18, 72), (82, 72)], 'side': [(46, 74)]}[view]
-    face = FACE_FRONT if view == 'front' else FACE_SIDE if view == 'side' else None
+    eo = f.get('ear_out', 0)
+    ear_spots = {'front': [(18 - eo, 72), (82 + eo, 72)], 'back': [(18 - eo, 70), (82 + eo, 70)], 'side': [(46, 70)]}[view]
+    face_front = f.get('face_front', FACE_FRONT)
+    face_side = f.get('face_side', FACE_SIDE)
+    face = face_front if view == 'front' else face_side if view == 'side' else None
     # 1) silueta: contorno grueso alrededor de todo
     sil = [l['s'] for l in layers if l['sil']] + ([face] if face else [])
     if ears:
@@ -222,7 +240,7 @@ def draw(d, spec, view):
             d.ellipse([P(ex - r, ey - 6.4 - big_ears), P(ex + r, ey + 6.4 + big_ears)], fill=pal['skin'])
             d.ellipse([P(ex - r * 0.4, ey - 4), P(ex + r * 0.4, ey + 4)], fill=pal['skin_d'])
 
-    if ears and view != 'side':
+    if ears and view != 'side' and not (view == 'front' and f.get('ears_front')):
         for ex, ey in ear_spots:
             r = 4.4 + big_ears
             d.ellipse([P(ex - r, ey - 6.4 - big_ears), P(ex + r, ey + 6.4 + big_ears)], fill=pal['skin'])
@@ -235,25 +253,67 @@ def draw(d, spec, view):
             poly(d, l['s'], resolve(l['c'], pal))
 
     if view == 'side':  # de perfil la cabeza entera es piel y el pelo va encima (marca el nacimiento del pelo)
-        poly(d, FACE_SIDE, pal['skin'])
-        poly(d, quad((60, 92), (68, 100), (78, 101)) + [(62, 102), (50, 97)], pal['skin_d'])
+        poly(d, face_side, pal['skin'])
+        if 'face_side' not in f:
+            poly(d, quad((60, 92), (68, 100), (78, 101)) + [(62, 102), (50, 97)], pal['skin_d'])
     for l in layers:
         if l['z'] == 'b':
             paint(l)
     # 4) cara, sombra bajo el pelo y rasgos
     if view == 'front':
-        poly(d, FACE_FRONT, pal['skin'])
-        poly(d, quad((73, 64), (79, 92), (58, 100)) + quad((58, 100), (79, 93), (81, 62))[1:], pal['skin_d'])
+        poly(d, face_front, pal['skin'])
+        if 'face_front' not in f:
+            poly(d, quad((73, 64), (79, 92), (58, 100)) + quad((58, 100), (79, 93), (81, 62))[1:], pal['skin_d'])
+        # el pelo tapa la frente hasta su línea de nacimiento ('hairline': altura en los lados y en el centro)
+        hl = f.get('hairline', (64, 50))
+        if hl:
+            from PIL import Image, ImageDraw as _ID
+            img = d._image
+            top = Image.new('RGBA', img.size)
+            td = _ID.Draw(top)
+            for l in layers:
+                if l['z'] == 'b':
+                    if l['w']:
+                        td.line([P(*p) for p in l['s']], fill=resolve(l['c'], pal), width=max(1, int(l['w'] * SS)))
+                    else:
+                        td.polygon([P(*p) for p in l['s']], fill=resolve(l['c'], pal))
+            if isinstance(hl, list):  # nacimiento del pelo con forma propia (entradas, pico...)
+                curve = [(-10, hl[0][1])] + blob(hl, 6)[:len(hl) * 6 - 5] + [(110, hl[-1][1])] if False else [(-10, hl[0][1])] + hl + [(110, hl[-1][1])]
+            else:
+                side_y, center_y = hl
+                curve = quad((-10, side_y), (50, 2 * center_y - side_y), (110, side_y))
+            mask = Image.new('L', img.size, 0)
+            _ID.Draw(mask).polygon([P(-10, -60)] + [P(*p) for p in curve] + [P(110, -60)], fill=255)
+            # línea del nacimiento del pelo (contorno fino), solo donde hay pelo
+            edge = Image.new('RGBA', img.size)
+            _ID.Draw(edge).line([P(*p) for p in curve], fill=OUT, width=int(1.3 * SS))
+            ea = edge.split()[3]
+            ta = top.split()[3].point(lambda v: 255 if v else 0)
+            from PIL import ImageChops
+            top.putalpha(ImageChops.multiply(ta, mask))
+            img.alpha_composite(top)
+            edge.putalpha(ImageChops.multiply(ea, ta.filter(__import__('PIL.ImageFilter', fromlist=['x']).MaxFilter(5))))
+            img.alpha_composite(edge)
         eyes_front(d, f, pal)
         mouth_front(d, f)
+        if f.get('nose'):
+            nx, ny, nr = f['nose']
+            d.ellipse([P(nx - nr - 1, ny - nr * 0.8 - 1), P(nx + nr + 1, ny + nr * 0.8 + 1)], fill=OUT)
+            d.ellipse([P(nx - nr, ny - nr * 0.8), P(nx + nr, ny + nr * 0.8)], fill=pal.get('nose', pal['skin_d']))
     # 5) capas de delante (flequillos, gorros, gafas...)
     for l in layers:
         if l['z'] == 'f':
             paint(l)
+    if view == 'front' and ears and f.get('ears_front'):
+        draw_ears()
     if view == 'side':
         if ears:
             draw_ears()
         eye_side(d, f, pal)
+        if f.get('nose_side'):
+            nx, ny, nr = f['nose_side']
+            d.ellipse([P(nx - nr - 1, ny - nr * 0.8 - 1), P(nx + nr + 1, ny + nr * 0.8 + 1)], fill=OUT)
+            d.ellipse([P(nx - nr, ny - nr * 0.8), P(nx + nr, ny + nr * 0.8)], fill=pal.get('nose', pal['skin_d']))
     # 6) líneas interiores
     for l in layers:
         if l['ln']:
@@ -262,8 +322,13 @@ def draw(d, spec, view):
     # 7) extras de la cara por encima de todo (gafas)
     if view == 'front' and f.get('glasses'):
         for cx in (36, 64):
-            line(d, ell(cx, f.get('eye_y', 82), 9, 6.5) + [ell(cx, f.get('eye_y', 82), 9, 6.5)[0]], f['glasses'], 1.6)
-        line(d, [(45, 81), (55, 81)], f['glasses'], 1.4)
+            gy = f.get('eye_y', 75)
+            if f.get('glasses_rect'):
+                line(d, [(cx - 10, gy - 6), (cx + 10, gy - 6), (cx + 9, gy + 6), (cx - 9, gy + 6), (cx - 10, gy - 6)], f['glasses'], 1.8)
+            else:
+                line(d, ell(cx, gy, 9, 6.5) + [ell(cx, gy, 9, 6.5)[0]], f['glasses'], 1.6)
+        line(d, [(45, f.get('eye_y', 75) - 1), (55, f.get('eye_y', 75) - 1)], f['glasses'], 1.4)
     if view == 'side' and f.get('glasses'):
-        line(d, ell(80, f.get('eye_y', 82), 6, 6.5) + [ell(80, f.get('eye_y', 82), 6, 6.5)[0]], f['glasses'], 1.6)
-        line(d, [(74, 81), (50, 76)], f['glasses'], 1.4)
+        gy = f.get('eye_y', 75)
+        line(d, ell(80, gy, 6, 6.5) + [ell(80, gy, 6, 6.5)[0]], f['glasses'], 1.6)
+        line(d, [(74, gy - 1), (50, gy - 6)], f['glasses'], 1.4)

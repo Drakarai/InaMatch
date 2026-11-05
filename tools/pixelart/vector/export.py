@@ -25,7 +25,7 @@ OUT = (60, 24, 16, 255)
 # equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo
 TEAMS = ['ie1-raimon']
 # dibujos que no están en chars.py (Axel tiene su propio módulo, head_axel.py)
-SPECIAL = {'axel-blaze': None}
+SPECIAL = {}
 
 
 def ref_height():

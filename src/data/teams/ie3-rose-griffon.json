@@ -5,10 +5,18 @@
  "name": "Grifos de la Rosa",
  "short": "RGR",
  "colors": {
-  "shirt": "#1d3b8a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#c8202f",
-  "accent": "#2a4fa8"
+  "shirt": "#2a3aa8",
+  "shorts": "#ece4d4",
+  "gkShirt": "#1e2234",
+  "accent": "#2a3aa8",
+  "sleeve": "#2a3aa8",
+  "socks": "#d81e2a",
+  "gkShorts": "#1e2234",
+  "gkSleeve": "#1e2234",
+  "gkLongSleeve": true,
+  "stripe": "#f2f2f2",
+  "collar": "#f2f2f2",
+  "num": "#f2f2f2"
  },
  "formation": "f-eiffel",
  "players": [

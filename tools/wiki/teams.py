@@ -149,7 +149,8 @@ STYLE = {
     # de manga larga con pantalón verde oscuro y guantes morados
     'Neo Japan': ('#ecebf0', '#26262a', '#f08a20', '#c82020', '#ecebf0', '#b01a1a', '#4a4a3a', '#f08a20',
                   {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#7a4aa0', 'stripe': '#f2f2f2', 'collar': '#c82020', 'num': '#26262a'}),
-    'Fire Dragon': ('#d6342a', '#1a1a1a', '#f2c230', '#b82a22'),
+    # Fire Dragon (Corea): camiseta roja de cuello blanco, pantalón beige y medias rojas; el portero gris oscuro de manga larga con pantalón azul y guantes azules
+    'Fire Dragon': ('#e82a22', '#d8c8b0', '#4a4a52', '#e82a22', '#e82a22', '#e82a22', '#1e4a9a', '#4a4a52', {'gkLongSleeve': True, 'gkGloves': '#2a6ad0', 'stripe': '#e82a22', 'collar': '#f2ece0', 'num': '#f2ece0'}),
     'Knights of Queen': ('#f2f2f2', '#1d2f6b', '#c8202f', '#1d2f6b'),
     'Orpheus': ('#2457b8', '#f2f2f2', '#2e2e2e', '#1d4596'),
     'Team K': ('#3a2a5a', '#1a1a1a', '#8a8a8a', '#5a3a8a'),

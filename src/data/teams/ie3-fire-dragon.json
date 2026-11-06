@@ -5,10 +5,19 @@
  "name": "Dragones de Fuego",
  "short": "FDR",
  "colors": {
-  "shirt": "#d6342a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#f2c230",
-  "accent": "#b82a22"
+  "shirt": "#e82a22",
+  "shorts": "#d8c8b0",
+  "gkShirt": "#4a4a52",
+  "accent": "#e82a22",
+  "sleeve": "#e82a22",
+  "socks": "#e82a22",
+  "gkShorts": "#1e4a9a",
+  "gkSleeve": "#4a4a52",
+  "gkLongSleeve": true,
+  "gkGloves": "#2a6ad0",
+  "stripe": "#e82a22",
+  "collar": "#f2ece0",
+  "num": "#f2ece0"
  },
  "formation": "f-f-dragon",
  "players": [

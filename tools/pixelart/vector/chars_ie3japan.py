@@ -232,3 +232,7 @@ CHARS['ie3:zeke-valanche'] = {
                         (64, 88), (50, 100, 1), (36, 88), (24, 98, 1)])),
              L(outline([(10, 50), (50, 30), (90, 46), (90, 80), (50, 96), (12, 82)]), 'shade', 'b', False)],
 }
+
+# En IE3 los del Zeus ya no llevan la tela cruzada de su equipo (Byron juega con los Dragones de Fuego)
+for _k in [k for k, v in list(CHARS.items()) if ':' not in k and v.get('sash')]:
+    CHARS['ie3:' + _k] = dict(CHARS[_k], sash=None)

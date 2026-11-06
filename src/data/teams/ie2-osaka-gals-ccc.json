@@ -4,12 +4,7 @@
  "wiki": "Osaka Gals CCC",
  "name": "Triple C de Osaka",
  "short": "OGC",
- "colors": {
-  "shirt": "#f2c230",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#f2c230"
- },
+ "colors": {"shirt": "#f4f0f4", "shorts": "#e890b8", "gkShirt": "#8a6ac8", "accent": "#9a3a6a", "sleeve": "#e890b8", "socks": "#6a4a6a", "gkShorts": "#8a6ac8", "gkSleeve": "#8a6ac8"},
  "formation": "f-4-4-2",
  "players": [
   {

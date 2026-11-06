@@ -4,12 +4,7 @@
  "wiki": "Osoroshii Kage",
  "name": "Sombras Terribles",
  "short": "OSO",
- "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#c87aa8"
- },
+ "colors": {"shirt": "#0c1a22", "shorts": "#0c1a22", "gkShirt": "#0c1a22", "accent": "#40d8f0", "sleeve": "#0c1a22", "socks": "#0c1a22", "gkShorts": "#0c1a22", "gkSleeve": "#0c1a22"},
  "formation": "f-lightning",
  "players": [
   {

@@ -1,4 +1,4 @@
-"""Mar de Árboles y Robots Guardias (IE2). Los del Mar de Árboles llevan máscaras antigás de piedra cubiertas de musgo
+"""Mar de Árboles (IE2). Los del Mar de Árboles llevan máscaras antigás de piedra cubiertas de musgo
 (con orejas, una seta o un árbol encima); los Robots Guardias son todos el mismo robot (pelo rosa, cinta y gafas)."""
 from chars import CHARS, L, OUTC, blob, bumpy, ell, pal, sheen, spk, strand
 from chars_alius import SIDE_SKULL, SKULL_B, SKULL_F
@@ -129,30 +129,6 @@ CHARS['roy-daring'] = {
             + gasmask('back') + [L([(44, 8), (50, -16), (56, 8)], 'mask', 'f', ln=True)],
 }
 
-# ------------------------------------------------------------------ Robots Guardias: todos el mismo robot con pelo rosa, un pelillo
-# arriba, cinta oscura con un piloto rojo en la frente y gafas redondas de cristal blanco
-ROBOT = {
-    'body': 'normal', 'pal': pal('#d87a70', '#fcd0a4', band='#2a2440', led='#e04a4a', lens='#f4f4f8'),
-    'face': {'eyes': 'none', 'brows': False, 'mouth': 'smile', 'mouth_y': 92, 'hairline': (62, 54)},
-    'front': [spk((46, 10), (54, 8), (58, -18), 3, light_left=False),
-              L(blob([(10, 84), (6, 46), (16, 14), (50, 4), (84, 14), (94, 46), (90, 84), (80, 80), (80, 62), (20, 62), (20, 80)])),
-              L(blob([(62, 12), (92, 44), (88, 82), (82, 80)], 6), 'shade', 'b', False), sheen(22, 48, 14, 3),
-              L(blob([(12, 52), (12, 38), (50, 34), (88, 38), (88, 52), (50, 50)]), 'band', 'f', ln=True), L(ell(50, 42, 4, 4), 'led', 'f', ln=True),
-              spk((12, 50), (24, 52), (16, 82), 4, z='f'), spk((76, 52), (88, 50), (84, 82), 4, z='f', light_left=False),
-              L(ell(36, 74, 8, 7), 'lens', 'f', ln=True), L(ell(64, 74, 8, 7), 'lens', 'f', ln=True), L([(44, 73), (56, 73)], OUTC, 'f', False, False, 1.2),
-              L(ell(36, 74, 3.4, 2.6), (160, 160, 170, 255), 'f', False), L(ell(64, 74, 3.4, 2.6), (160, 160, 170, 255), 'f', False)],
-    'side': [spk((40, 8), (48, 6), (52, -18), 3, light_left=False),
-             L(blob([(46, 94), (14, 92), (2, 62), (6, 28), (26, 8), (56, 4), (82, 14), (94, 34), (92, 56), (76, 54), (62, 56), (56, 72), (52, 90)])),
-             L(blob([(6, 50), (8, 88), (40, 92), (24, 64)], 6), 'shade', 'b', False),
-             L(quad((8, 44), (50, 34), (94, 38)) + quad((94, 50), (50, 46), (8, 56)), 'band', 'f', ln=True),
-             L(ell(86, 74, 5, 7), 'lens', 'f', ln=True), L([(80, 72), (56, 70)], OUTC, 'f', False, False, 1.2)],
-    'back': [spk((46, 10), (54, 8), (58, -18), 3, light_left=False),
-             L(blob([(10, 86), (6, 46), (16, 14), (50, 4), (84, 14), (94, 46), (90, 86), (50, 92)])),
-             L(blob([(58, 12), (92, 44), (88, 84), (66, 90)], 6), 'shade', 'b', False),
-             L(quad((6, 40), (50, 34), (94, 40)) + quad((94, 54), (50, 48), (6, 54)), 'band', 'f', ln=True)],
-}
-for _r in 'sptvclobgkf':
-    CHARS[f'robot-{_r}'] = ROBOT
 
 # Chris Ticker (sin modelo 3D; su retrato): casco redondo de piedra con enredaderas, una visera oscura ancha con un piloto
 # rojo y un filtro verde bajo la barbilla

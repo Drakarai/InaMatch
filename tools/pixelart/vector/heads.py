@@ -226,6 +226,8 @@ def draw(d, spec, view):
     face_side = f.get('face_side', FACE_SIDE)
     # de espaldas también hay cabeza: la parte de atrás (nuca y orejas) por si el pelo no la tapa entera
     BACK_HEAD = blob([(18, 60), (20, 32), (50, 18), (80, 32), (82, 60), (78, 86), (62, 98), (38, 98), (22, 86)])
+    if f.get('no_head'):  # cabezas que no son humanas (robots, sombras): todo lo dibujan sus capas
+        BACK_HEAD = face_front = face_side = blob([(48, 90), (52, 90), (52, 94), (48, 94)], 2)
     face = face_front if view == 'front' else face_side if view == 'side' else BACK_HEAD
     # 1) silueta: contorno grueso alrededor de todo
     sil = [l['s'] for l in layers if l['sil']] + ([face] if face else [])

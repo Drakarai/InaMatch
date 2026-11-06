@@ -4,12 +4,7 @@
  "wiki": "Soccer Robots",
  "name": "Futboloides",
  "short": "SOC",
- "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#8a1a3a"
- },
+ "colors": {"shirt": "#d4bab4", "shorts": "#a88c86", "gkShirt": "#5a4c4c", "accent": "#e83020", "sleeve": "#d4bab4", "socks": "#d4bab4", "gkShorts": "#3a3030", "gkSleeve": "#5a4c4c"},
  "formation": "f-soft-rime",
  "players": [
   {

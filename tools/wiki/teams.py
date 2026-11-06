@@ -98,7 +98,10 @@ STYLE = {
     'Diamond Dust': ('#a8d8f2', '#2a4a6a', '#f2f2f2', '#4a8ac0'),
     'Prominence': ('#d8342a', '#2a1a1a', '#f2a020', '#b82a22'),
     'Chaos': ('#7a2a5a', '#1a1a2a', '#3a8ac0', '#8a3a6a'),
-    'Dark Emperors': ('#1a1a1a', '#5a1a1a', '#8a8a8a', '#6a1a2a'),
+    # Emperadores Oscuros: mono azul marino con una V azul, medias blancas; portero gris con la V amarilla
+    'Dark Emperors': ('#1e2440', '#1e2440', '#7a7a80', '#1e8ac8', '#1e2440', '#e8e4e4', '#7a7a80', '#7a7a80'),
+    # Jóvenes Inazuma: camiseta negra con mangas blancas, pantalón blanco y medias negras; portero rojo oscuro con mangas negras
+    'Young Inazuma': ('#1a1a1e', '#e8e4e4', '#8a1e14', '#e8e4e4', '#e8e4e4', '#1a1a1e', '#1a1a1e', '#1a1a1e'),
     'Shin Teikoku Gakuen': ('#2a2a4a', '#1a1a1a', '#c8a020', '#3a3a6a'),
     # IE3
     'Inazuma Japan': ('#2a6fd6', '#f4f4f4', '#e8892b', '#2d5fb8'),

@@ -4,12 +4,7 @@
  "wiki": "Young Inazuma",
  "name": "Jóvenes Inazuma",
  "short": "YOU",
- "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#2a8a3a"
- },
+ "colors": {"shirt": "#1a1a1e", "shorts": "#e8e4e4", "gkShirt": "#8a1e14", "accent": "#e8e4e4", "sleeve": "#e8e4e4", "socks": "#1a1a1e", "gkShorts": "#1a1a1e", "gkSleeve": "#1a1a1e"},
  "formation": "f-basic-2",
  "players": [
   {

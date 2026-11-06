@@ -5,10 +5,19 @@
  "name": "Equipo Ogro",
  "short": "OGR",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#8a1a1a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#8a1a1a"
+  "shirt": "#d82a2a",
+  "shorts": "#5a2aa0",
+  "gkShirt": "#26262a",
+  "accent": "#d82a2a",
+  "sleeve": "#5a2aa0",
+  "socks": "#5a2aa0",
+  "gkShorts": "#26262a",
+  "gkSleeve": "#2ab0d0",
+  "gkLongSleeve": true,
+  "gkGloves": "#2ab0d0",
+  "stripe": "#5a2aa0",
+  "collar": "#f2f2f2",
+  "num": "#f2f2f2"
  },
  "formation": "f-three-top",
  "players": [

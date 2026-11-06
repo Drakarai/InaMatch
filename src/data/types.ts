@@ -61,6 +61,13 @@ export interface TeamData {
     suit?: boolean;
     /** Los jugadores de campo llevan manga larga. */
     longSleeve?: boolean;
+    /** Pantalón largo (bombachos) para los de campo y para el portero, y su color si no es el del pantalón. */
+    longPants?: boolean;
+    gkLongPants?: boolean;
+    pants?: string;
+    /** Rayas verticales y parte de abajo en dientes de sierra de otro color (sprites dibujados). */
+    vstripes?: string;
+    zig?: string;
     /** El portero lleva manga larga. */
     gkLongSleeve?: boolean;
     /** Color de los guantes del portero (si no son blancos). */

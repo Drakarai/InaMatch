@@ -5,10 +5,23 @@
  "name": "Zoolan Team",
  "short": "GAR",
  "colors": {
-  "shirt": "#2e2e2e",
-  "shorts": "#5a5a5a",
-  "gkShirt": "#8a2a2a",
-  "accent": "#4a4a4a"
+  "shirt": "#26262a",
+  "shorts": "#26262a",
+  "gkShirt": "#e8b020",
+  "accent": "#8a1e34",
+  "sleeve": "#26262a",
+  "socks": "#2a6a6a",
+  "gkShorts": "#26262a",
+  "gkSleeve": "#e8b020",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "longPants": true,
+  "gkLongPants": true,
+  "pants": "#2a6a6a",
+  "gkGloves": "#26262a",
+  "stripe": "#e8b020",
+  "collar": "#8a1e34",
+  "num": "#e8b020"
  },
  "formation": "f-assassin",
  "players": [

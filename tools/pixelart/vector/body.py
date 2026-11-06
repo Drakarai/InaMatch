@@ -91,8 +91,9 @@ def body_front(d, t, back=False, num='10'):
     for s in (-1, 1):
         x0 = cx + s * (hw * 0.45)
         x1 = cx + s * (hw * 0.42)
-        if KIT.get('longPants'):  # pantalón largo de traje hasta los zapatos
-            capsule(d, (x0, short_bot - 6), (x1, foot - 6), lt / 2 + 1.5, KIT['shorts'], KIT['shorts_d'])
+        if KIT.get('longPants'):  # pantalón largo hasta los zapatos (traje, bombachos)
+            pc = KIT.get('pants', KIT['shorts'])
+            capsule(d, (x0, short_bot - 6), (x1, foot - 6), lt / 2 + 1.5, pc, tone(pc, 0.75))
         else:
             capsule(d, (x0, short_bot - 6), (x1, foot - 6), lt / 2, SKIN['mid'], SKIN['shade'])
             capsule(d, (x1, knee + 4), (x1, foot - 6), lt / 2 + 0.5, KIT['sock'], KIT['sock_d'])
@@ -203,7 +204,8 @@ def body_side(d, t, step=0):
         knee = V.lerp(hip, ft, 0.38)
         sk = SKIN['shade'] if dark else SKIN['mid']
         if KIT.get('longPants'):
-            capsule(d, hip, ft, lt / 2 + 1.5, KIT['shorts_d'] if dark else KIT['shorts'])
+            pc = KIT.get('pants', KIT['shorts'])
+            capsule(d, hip, ft, lt / 2 + 1.5, tone(pc, 0.75) if dark else pc)
         else:
             capsule(d, hip, ft, lt / 2, sk, None if dark else SKIN['shade'])
             capsule(d, knee, ft, lt / 2 + 0.5, KIT['sock_d'] if dark else KIT['sock'])
@@ -389,7 +391,9 @@ def kit_for(colors, gk=False):
             k[key] = hexc(colors[key])
     suit = bool(colors.get('suit')) and not gk
     k['longSleeve'] = suit or (gk and bool(colors.get('gkLongSleeve'))) or (not gk and bool(colors.get('longSleeve')))
-    k['longPants'] = suit
+    k['longPants'] = suit or (not gk and bool(colors.get('longPants'))) or (gk and bool(colors.get('gkLongPants')))
+    if colors.get('pants'):
+        k['pants'] = hexc(colors['pants'])
     k['suit'] = suit
     if suit:
         k['boot'], k['boot_l'] = (24, 22, 26, 255), (70, 70, 80, 255)

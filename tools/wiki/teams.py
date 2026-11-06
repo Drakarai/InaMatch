@@ -162,7 +162,8 @@ STYLE = {
     'Unicorn': ('#e8dccc', '#1e2a5a', '#22305e', '#1e2a5a', '#e8dccc', '#f4f0e8', '#e0401e', '#22305e', {'gkLongSleeve': True, 'stripe': '#e0401e', 'collar': '#1e2a5a', 'num': '#1e2a5a'}),
     # The Kingdom (Brasil): camiseta amarilla de manga larga con cuello y ribetes verdes, pantalón azul y medias blancas; el portero verde de manga larga con pantalón negro
     'The Kingdom': ('#f4d020', '#2a46b0', '#1e6a2a', '#f4d020', '#f4d020', '#ece4d4', '#1e2a1e', '#1e6a2a', {'longSleeve': True, 'gkLongSleeve': True, 'stripe': '#1e7a2a', 'collar': '#1e7a2a', 'num': '#1e7a2a'}),
-    'Team Garshield': ('#2e2e2e', '#5a5a5a', '#8a2a2a', '#4a4a4a'),
+    # Team Garshield (Zoolan Team): sudadera negra de manga larga con franjas amarillas, bufanda y faja granates y bombachos verde azulado; el portero amarillo
+    'Team Garshield': ('#26262a', '#26262a', '#e8b020', '#8a1e34', '#26262a', '#2a6a6a', '#26262a', '#e8b020', {'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'pants': '#2a6a6a', 'gkGloves': '#26262a', 'stripe': '#e8b020', 'collar': '#8a1e34', 'num': '#e8b020'}),
     # Little Gigant (Cotarl): camiseta verde con ribetes amarillos, pantalón verde oscuro y medias amarillas; el portero rojo con mangas azul marino
     'Little Gigant': ('#4aa880', '#16362a', '#d81e2a', '#4aa880', '#4aa880', '#f0c020', '#1e2a5a', '#1e2a5a', {'gkLongSleeve': True, 'gkGloves': '#d81e2a', 'stripe': '#f0c020', 'collar': '#f2f2f2', 'num': '#f0c020'}),
     # Brockenborg (Alemania): camiseta blanca con mangas negras y franjas rojas, pantalón negro y medias blancas; el portero gris verdoso de manga larga

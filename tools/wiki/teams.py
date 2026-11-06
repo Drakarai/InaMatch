@@ -166,7 +166,8 @@ STYLE = {
     # Little Gigant (Cotarl): camiseta verde con ribetes amarillos, pantalón verde oscuro y medias amarillas; el portero rojo con mangas azul marino
     'Little Gigant': ('#4aa880', '#16362a', '#d81e2a', '#4aa880', '#4aa880', '#f0c020', '#1e2a5a', '#1e2a5a', {'gkLongSleeve': True, 'gkGloves': '#d81e2a', 'stripe': '#f0c020', 'collar': '#f2f2f2', 'num': '#f0c020'}),
     'Brockenborg': ('#1a1a1a', '#f2f2f2', '#c8a020', '#3a3a3a'),
-    'Red Matador': ('#c8202f', '#1d2f6b', '#f2c230', '#a01a26'),
+    # Red Matador (España): camiseta roja con las mangas amarillas, pantalón y medias negros; el portero celeste con mangas largas negras
+    'Red Matador': ('#e0401e', '#24242a', '#7ac0ec', '#e0401e', '#f4c020', '#24242a', '#24242a', '#24242a', {'gkLongSleeve': True, 'stripe': '#f4c020', 'collar': '#f4c020', 'num': '#24242a'}),
     'Rose Griffon': ('#1d3b8a', '#f2f2f2', '#c8202f', '#2a4fa8'),
     'The Great Horn': ('#2a8a5a', '#f2f2f2', '#c87a20', '#1f6a44'),
     'Tenkuu no Shito': ('#f2f2f2', '#d8c070', '#7ab8e8', '#b8a050'),

@@ -5,10 +5,18 @@
  "name": "Los Rojos",
  "short": "RMA",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#1d2f6b",
-  "gkShirt": "#f2c230",
-  "accent": "#a01a26"
+  "shirt": "#e0401e",
+  "shorts": "#24242a",
+  "gkShirt": "#7ac0ec",
+  "accent": "#e0401e",
+  "sleeve": "#f4c020",
+  "socks": "#24242a",
+  "gkShorts": "#24242a",
+  "gkSleeve": "#24242a",
+  "gkLongSleeve": true,
+  "stripe": "#f4c020",
+  "collar": "#f4c020",
+  "num": "#24242a"
  },
  "formation": "f-matador",
  "players": [

@@ -310,7 +310,7 @@ def tone(c, f):
 def kit_for(colors, gk=False):
     """Equipación a partir de los colores del equipo (src/data/teams): camiseta, mangas, pantalón y medias."""
     shirt = hexc(colors['gkShirt'] if gk else colors['shirt'])
-    shorts = hexc(colors['shorts'])
+    shorts = hexc(colors['gkShorts'] if gk and colors.get('gkShorts') else colors['shorts'])
     sleeve = tone(shirt, 0.72) if gk else hexc(colors['sleeve']) if colors.get('sleeve') else shorts
     k = dict(DEFAULT_KIT)
     k.update({'shirt': shirt, 'shirt_d': tone(shirt, 0.84), 'sleeve': sleeve, 'sleeve_d': tone(sleeve, 0.75),

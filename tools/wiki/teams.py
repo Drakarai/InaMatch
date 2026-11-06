@@ -69,6 +69,8 @@ STYLE = {
     'Shuuyou Meito Gakuen': ('#1e5a78', '#b8949a', '#6a9a70', '#e4b0b4', '#e4b0b4'),
     # Sally's: camiseta mostaza con detalles verdes, pantalón verde; portero de rosa
     "Ichibangai Sally's": ('#e0a020', '#2e6a3a', '#ee7a7a', '#2e6a3a', '#e0a020'),
+    # Sengoku Igajima (Instituto Shuriken): todo morado con ribetes azul grisáceo y medias grises; portero verde azulado
+    'Sengoku Igajima': ('#4e3a5c', '#4e3a5c', '#6a9a96', '#9ab4bc', '#4e3a5c', '#a8a49c', '#5e8a86'),
     'Teikoku Gakuen': ('#36584a', '#7a6438', '#f08a2a', '#b0202a', '#36584a'),
     # Occult: camiseta morada (mangas iguales), pantalón gris, medias oscuras; portero de rojo
     'Occult': ('#4a4a7e', '#a2a2aa', '#a81c1c', '#3a3a68', '#4a4a7e', '#4a4a52'),
@@ -971,7 +973,7 @@ for season, game, name, fkey, page, players in raw_teams:
         'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
         'short': short,
-        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {})},
+        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 else {})},
         'formation': fid,
         'players': players,
     })

@@ -53,6 +53,8 @@ export interface TeamData {
     sleeve?: string;
     /** Color de las medias (si no son blancas). */
     socks?: string;
+    /** Color del pantalón del portero (si no es el del equipo). */
+    gkShorts?: string;
   };
   formation: string; // id en formations.ts
   /** Los 11 primeros son titulares en el orden de los huecos de la formación. */

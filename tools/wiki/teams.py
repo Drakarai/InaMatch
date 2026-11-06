@@ -155,7 +155,8 @@ STYLE = {
     'Knights of Queen': ('#f4ece8', '#d0221e', '#1e3a8a', '#1e3a8a', '#f4ece8', '#1e3a8a', '#5a3a7a', '#1e3a8a', {'longSleeve': True, 'gkLongSleeve': True, 'stripe': '#1e3a8a', 'collar': '#1e3a8a', 'num': '#1e3a8a'}),
     # Orpheus (Italia): camiseta azul de manga larga con cuello blanco, pantalón y medias negros; el portero todo de rojo con guantes negros
     'Orpheus': ('#3a64b8', '#26262a', '#d82a1e', '#3a64b8', '#3a64b8', '#26262a', '#d82a1e', '#d82a1e', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e1e1e', 'stripe': '#2a5aa8', 'collar': '#f2ece0', 'num': '#f2ece0'}),
-    'Team K': ('#3a2a5a', '#1a1a1a', '#8a8a8a', '#5a3a8a'),
+    # Team K (Equipo D): camiseta gris azulado de manga larga con detalles azules, pantalón azul y medias grises; el portero morado con mangas grises
+    'Team K': ('#6a7480', '#2a46b0', '#8a1e6a', '#2a46b0', '#6a7480', '#4a4e56', '#8a1e6a', '#6a7480', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e2a40', 'stripe': '#2a46b0', 'collar': '#2a46b0', 'num': '#f2f2f2'}),
     # The Empire (Argentina): camiseta a rayas verticales celestes y blancas, pantalón negro y medias blancas; el portero azul marino con mangas crema
     'The Empire': ('#8ab8e0', '#1e1e22', '#1e2a4a', '#8ab8e0', '#8ab8e0', '#ece4d4', '#5a6478', '#f0d890', {'gkLongSleeve': True, 'gkGloves': '#1e2a4a', 'vstripes': '#ece4d4', 'stripe': '#ece4d4', 'collar': '#ece4d4', 'num': '#1e1e22'}),
     # Unicorn (EE. UU.): camiseta crema de cuello azul marino, pantalón azul marino y medias blancas con franja roja; el portero azul marino de manga larga con pantalón rojo

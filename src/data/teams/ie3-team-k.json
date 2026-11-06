@@ -5,10 +5,20 @@
  "name": "Equipo D",
  "short": "TMK",
  "colors": {
-  "shirt": "#3a2a5a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#8a8a8a",
-  "accent": "#5a3a8a"
+  "shirt": "#6a7480",
+  "shorts": "#2a46b0",
+  "gkShirt": "#8a1e6a",
+  "accent": "#2a46b0",
+  "sleeve": "#6a7480",
+  "socks": "#4a4e56",
+  "gkShorts": "#8a1e6a",
+  "gkSleeve": "#6a7480",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#1e2a40",
+  "stripe": "#2a46b0",
+  "collar": "#2a46b0",
+  "num": "#f2f2f2"
  },
  "formation": "f-kage",
  "players": [

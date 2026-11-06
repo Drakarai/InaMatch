@@ -68,6 +68,8 @@ export interface TeamData {
     /** Rayas verticales y parte de abajo en dientes de sierra de otro color (sprites dibujados). */
     vstripes?: string;
     zig?: string;
+    /** Equipos mixtos: equipación del equipo de origen de algunos jugadores (id del jugador → id del equipo). */
+    kitFrom?: Record<string, string>;
     /** Alas a la espalda (Sky Team, Dark Angel). */
     wings?: string;
     /** El portero lleva manga larga. */

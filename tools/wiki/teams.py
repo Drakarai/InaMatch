@@ -177,7 +177,8 @@ STYLE = {
     'The Great Horn': ('#1e8a3a', '#e8b020', '#b81e1e', '#1e8a3a', '#1e8a3a', '#1e8a3a', '#2a2a2a', '#b81e1e', {'gkLongSleeve': True, 'stripe': '#e8b020', 'collar': '#e8b020', 'num': '#e8b020'}),
     # Tenkuu no Shito (Sky Team): túnica blanca a rayas verde agua de manga larga, cuello negro, mallas negras y alas verde pálido; el portero amarillo con mangas negras
     'Tenkuu no Shito': ('#f0ecec', '#f0ecec', '#e0c040', '#6ab0a8', '#f0ecec', '#1e1e22', '#e0c040', '#26262a', {'longSleeve': True, 'gkLongSleeve': True, 'vstripes': '#6ab0a8', 'wings': '#c8e8c0', 'stripe': '#d0a040', 'collar': '#26262a', 'num': '#26262a'}),
-    'Makai Gundan Z': ('#3a1a4a', '#1a1a1a', '#8a1a2a', '#5a2a6a'),
+    # Makai Gundan Z (Dark Team): mono negro con placas blancas en el pecho, alas de murciélago negras y franjas rojas en las medias; el portero rojo
+    'Makai Gundan Z': ('#26262a', '#26262a', '#c81e2a', '#c81e2a', '#26262a', '#26262a', '#26262a', '#c81e2a', {'gkGloves': '#c81e2a', 'wings': '#2e2e34', 'stripe': '#c81e2a', 'collar': '#ece8e8', 'num': '#e8b0b8'}),
     # Ogre (Equipo Ogro): camiseta roja con mangas y detalles morados, pantalón y medias moradas; el portero negro con mangas y guantes azul celeste
     'Ogre': ('#d82a2a', '#5a2aa0', '#26262a', '#d82a2a', '#5a2aa0', '#5a2aa0', '#26262a', '#2ab0d0', {'gkLongSleeve': True, 'gkGloves': '#2ab0d0', 'stripe': '#5a2aa0', 'collar': '#f2f2f2', 'num': '#f2f2f2'}),
     'Real Inazuma': ('#f2c230', '#2a5fc0', '#e8892b', '#c89a10'),
@@ -309,7 +310,8 @@ STYLE.update({
     'Kami to Uchuu': ('#f2f2f2', '#5a3a8a', '#c8a020', '#7a5aa8'),
     'Zenkoku Team Senbatsu A': ('#2a5fc0', '#f2f2f2', '#e8892b', '#1d4596'),
     'Zenkoku Team Senbatsu B': ('#c8202f', '#f2f2f2', '#2a8a3a', '#a01a26'),
-    'Dark Angel': ('#1a1a1a', '#3a1a4a', '#8a1a2a', '#5a2a6a'),
+    # Dark Angel (Ángel Oscuro): cada jugador con la equipación de su equipo (los demonios del Dark Team y los ángeles del Sky Team)
+    'Dark Angel': ('#26262a', '#26262a', '#c81e2a', '#c81e2a', '#26262a', '#26262a', '#26262a', '#c81e2a', {'gkGloves': '#c81e2a', 'wings': '#2e2e34', 'stripe': '#c81e2a', 'collar': '#ece8e8', 'num': '#e8b0b8', 'kitFrom': {'nenel': 'ie3-tenkuu-no-shito', 'lephiel': 'ie3-tenkuu-no-shito', 'wenel': 'ie3-tenkuu-no-shito', 'sanctus': 'ie3-tenkuu-no-shito', 'gaiel': 'ie3-tenkuu-no-shito'}}),
     'Chaos Angels': ('#7a2a5a', '#f2f2f2', '#3a8ac0', '#8a3a6a'),
     'God Angel': ('#f2f2f2', '#c8a020', '#7ab8e8', '#b89020'),
     'Sekai Daihyou': ('#1d2f6b', '#f2f2f2', '#c8a020', '#c8a020'),

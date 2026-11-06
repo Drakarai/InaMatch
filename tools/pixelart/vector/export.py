@@ -23,7 +23,7 @@ REF_PX = 80
 OUT = (60, 24, 16, 255)
 
 # equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo
-TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis', 'ie2-hakuren', 'ie2-jukai-team', 'ie2-keibi-machines', 'ie2-manyuuji', 'cs-soccer-robots', 'gx-osoroshii-kage', 'ie2-osaka-gals-ccc', 'ie2-oumihara', 'ie2-shin-teikoku-gakuen', 'ie2-sp-fixers', 'ie2-yokato', 'ie3-inazuma-japan', 'ie3-nippon-daihyou-kouho-a', 'ie3-nippon-daihyou-kouho-b', 'ie3-neo-japan', 'ie3-big-waves', 'ie3-desert-lion', 'ie3-fire-dragon', 'ie3-knights-of-queen', 'ie3-unicorn', 'ie3-orpheus', 'ie3-little-gigant', 'ie3-the-empire', 'ie3-the-kingdom', 'ie3-red-matador', 'ie3-rose-griffon', 'ie3-brockenborg', 'ie3-the-great-horn', 'ie3-team-garshield', 'ie3-ogre', 'ie3-team-k', 'ie3-tenkuu-no-shito']
+TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis', 'ie2-hakuren', 'ie2-jukai-team', 'ie2-keibi-machines', 'ie2-manyuuji', 'cs-soccer-robots', 'gx-osoroshii-kage', 'ie2-osaka-gals-ccc', 'ie2-oumihara', 'ie2-shin-teikoku-gakuen', 'ie2-sp-fixers', 'ie2-yokato', 'ie3-inazuma-japan', 'ie3-nippon-daihyou-kouho-a', 'ie3-nippon-daihyou-kouho-b', 'ie3-neo-japan', 'ie3-big-waves', 'ie3-desert-lion', 'ie3-fire-dragon', 'ie3-knights-of-queen', 'ie3-unicorn', 'ie3-orpheus', 'ie3-little-gigant', 'ie3-the-empire', 'ie3-the-kingdom', 'ie3-red-matador', 'ie3-rose-griffon', 'ie3-brockenborg', 'ie3-the-great-horn', 'ie3-team-garshield', 'ie3-ogre', 'ie3-team-k', 'ie3-tenkuu-no-shito', 'ie3-makai-gundan-z', 'ie3-dark-angel']
 # dibujos que no están en chars.py (Axel tiene su propio módulo, head_axel.py)
 SPECIAL = {}
 
@@ -115,7 +115,10 @@ def main():
             if base is None:
                 print(tid, p['id'], 'sin dibujo')
                 continue
-            kit = B.kit_for(team['colors'], p['position'] == 'GK')
+            # equipos mixtos (Ángel Oscuro): cada uno con la equipación de su equipo de origen
+            src = team['colors'].get('kitFrom', {}).get(p['id'])
+            colors = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', src + '.json'), encoding='utf-8'))['colors'] if src else team['colors']
+            kit = B.kit_for(colors, p['position'] == 'GK')
             dest = os.path.join(ROOT, 'src', 'assets', 'pack', 'vsprites', tid, p['id'])
             os.makedirs(dest, exist_ok=True)
             for name, im in pad_same(frames(base, kit, str(p['number']))).items():

@@ -5,10 +5,19 @@
  "name": "Dark Team",
  "short": "MGZ",
  "colors": {
-  "shirt": "#3a1a4a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#8a1a2a",
-  "accent": "#5a2a6a"
+  "shirt": "#26262a",
+  "shorts": "#26262a",
+  "gkShirt": "#c81e2a",
+  "accent": "#c81e2a",
+  "sleeve": "#26262a",
+  "socks": "#26262a",
+  "gkShorts": "#26262a",
+  "gkSleeve": "#c81e2a",
+  "gkGloves": "#c81e2a",
+  "wings": "#2e2e34",
+  "stripe": "#c81e2a",
+  "collar": "#ece8e8",
+  "num": "#e8b0b8"
  },
  "formation": "f-pandemonium",
  "players": [

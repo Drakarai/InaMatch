@@ -76,6 +76,8 @@ STYLE = {
     'Jukai Team': ('#a8d888', '#a8d888', '#4a5a3a', '#1e2a1e', '#a8d888', '#a8d888', '#4a5a3a', '#4a5a3a'),
     # Robots Guardias: camiseta azul petróleo con mangas rosas, pantalón azul oscuro; portero rojo
     'Keibi Machines': ('#1e5a7a', '#1a2e44', '#a83a3a', '#e8b0b0', '#e8b0b0', '#1e5a7a', '#1a2e44', '#e8b0b0'),
+    # Manyuuji (Claustro Sagrado): hábito naranja de cuello cruzado rojo, pantalón y medias naranjas; portero con chaleco azul marino
+    'Manyuuji': ('#f09a2a', '#e0802a', '#1e3a5a', '#c02a2a', '#f09a2a', '#f0a040', '#f0ece4', '#f0ece4'),
     'Sengoku Igajima': ('#4e3a5c', '#4e3a5c', '#6a9a96', '#9ab4bc', '#4e3a5c', '#a8a49c', '#5e8a86'),
     # Kidokawa Seishuu (Kirkwood): camiseta roja (con laterales negros), pantalón beige y medias rojas; portero verde claro
     'Kidokawa Seishuu': ('#c00c0c', '#d8c8b4', '#b8c87e', '#2a2a2e', '#c00c0c', '#c00c0c', '#4a5a68'),

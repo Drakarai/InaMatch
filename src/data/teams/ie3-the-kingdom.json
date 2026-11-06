@@ -5,10 +5,19 @@
  "name": "Os Reis",
  "short": "KNG",
  "colors": {
-  "shirt": "#f2d230",
-  "shorts": "#2a5fc0",
-  "gkShirt": "#2a8a3a",
-  "accent": "#2a8a3a"
+  "shirt": "#f4d020",
+  "shorts": "#2a46b0",
+  "gkShirt": "#1e6a2a",
+  "accent": "#f4d020",
+  "sleeve": "#f4d020",
+  "socks": "#ece4d4",
+  "gkShorts": "#1e2a1e",
+  "gkSleeve": "#1e6a2a",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "stripe": "#1e7a2a",
+  "collar": "#1e7a2a",
+  "num": "#1e7a2a"
  },
  "formation": "f-kingdom",
  "players": [

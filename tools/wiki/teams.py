@@ -160,7 +160,8 @@ STYLE = {
     'The Empire': ('#8ab8e0', '#1e1e22', '#1e2a4a', '#8ab8e0', '#8ab8e0', '#ece4d4', '#5a6478', '#f0d890', {'gkLongSleeve': True, 'gkGloves': '#1e2a4a', 'vstripes': '#ece4d4', 'stripe': '#ece4d4', 'collar': '#ece4d4', 'num': '#1e1e22'}),
     # Unicorn (EE. UU.): camiseta crema de cuello azul marino, pantalón azul marino y medias blancas con franja roja; el portero azul marino de manga larga con pantalón rojo
     'Unicorn': ('#e8dccc', '#1e2a5a', '#22305e', '#1e2a5a', '#e8dccc', '#f4f0e8', '#e0401e', '#22305e', {'gkLongSleeve': True, 'stripe': '#e0401e', 'collar': '#1e2a5a', 'num': '#1e2a5a'}),
-    'The Kingdom': ('#f2d230', '#2a5fc0', '#2a8a3a', '#2a8a3a'),
+    # The Kingdom (Brasil): camiseta amarilla de manga larga con cuello y ribetes verdes, pantalón azul y medias blancas; el portero verde de manga larga con pantalón negro
+    'The Kingdom': ('#f4d020', '#2a46b0', '#1e6a2a', '#f4d020', '#f4d020', '#ece4d4', '#1e2a1e', '#1e6a2a', {'longSleeve': True, 'gkLongSleeve': True, 'stripe': '#1e7a2a', 'collar': '#1e7a2a', 'num': '#1e7a2a'}),
     'Team Garshield': ('#2e2e2e', '#5a5a5a', '#8a2a2a', '#4a4a4a'),
     # Little Gigant (Cotarl): camiseta verde con ribetes amarillos, pantalón verde oscuro y medias amarillas; el portero rojo con mangas azul marino
     'Little Gigant': ('#4aa880', '#16362a', '#d81e2a', '#4aa880', '#4aa880', '#f0c020', '#1e2a5a', '#1e2a5a', {'gkLongSleeve': True, 'gkGloves': '#d81e2a', 'stripe': '#f0c020', 'collar': '#f2f2f2', 'num': '#f0c020'}),

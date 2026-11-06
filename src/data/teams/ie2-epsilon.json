@@ -9,8 +9,8 @@
  "players": [
   {
    "id": "dave-quagmire",
-   "name": "Dave Quagmire",
-   "short": "Dave",
+   "name": "Dvalin",
+   "short": "Dvalin",
    "number": 1,
    "position": "GK",
    "element": "fire",
@@ -41,8 +41,8 @@
   },
   {
    "id": "craven-kenville",
-   "name": "Craven Kenville",
-   "short": "Craven",
+   "name": "Kenville",
+   "short": "Kenville",
    "number": 2,
    "position": "DF",
    "element": "fire",
@@ -73,8 +73,8 @@
   },
   {
    "id": "anna-mole",
-   "name": "Anna Mole",
-   "short": "Anna",
+   "name": "Mole",
+   "short": "Mole",
    "number": 3,
    "position": "DF",
    "element": "wood",
@@ -105,7 +105,7 @@
   },
   {
    "id": "kayson-wattever",
-   "name": "Kayson Wattever",
+   "name": "Kayson",
    "short": "Kayson",
    "number": 4,
    "position": "DF",
@@ -137,8 +137,8 @@
   },
   {
    "id": "mike-tytan",
-   "name": "Mike Tytan",
-   "short": "Mike",
+   "name": "Tytan",
+   "short": "Tytan",
    "number": 5,
    "position": "DF",
    "element": "earth",
@@ -169,8 +169,8 @@
   },
   {
    "id": "zeke-valanche",
-   "name": "Zeke Valanche",
-   "short": "Zeke",
+   "name": "Zell",
+   "short": "Zell",
    "number": 11,
    "position": "FW",
    "element": "wind",
@@ -201,8 +201,8 @@
   },
   {
    "id": "mads-hatter",
-   "name": "Mads Hatter",
-   "short": "Mads",
+   "name": "Fedora",
+   "short": "Fedora",
    "number": 6,
    "position": "MF",
    "element": "fire",
@@ -232,8 +232,8 @@
   },
   {
    "id": "karen-ripton",
-   "name": "Karen Ripton",
-   "short": "Karen",
+   "name": "Krypto",
+   "short": "Krypto",
    "number": 7,
    "position": "MF",
    "element": "wind",
@@ -264,8 +264,8 @@
   },
   {
    "id": "yakker-plantsworm",
-   "name": "Yakker Plantsworm",
-   "short": "Yakker",
+   "name": "Sworm",
+   "short": "Sworm",
    "number": 8,
    "position": "MF",
    "element": "wood",
@@ -296,8 +296,8 @@
   },
   {
    "id": "ronny-metcalf",
-   "name": "Ronny Metcalf",
-   "short": "Ronny",
+   "name": "Metron",
+   "short": "Metron",
    "number": 10,
    "position": "FW",
    "element": "wind",
@@ -328,8 +328,8 @@
   },
   {
    "id": "carrie-mccuring",
-   "name": "Carrie McCuring",
-   "short": "Carrie",
+   "name": "Mercury",
+   "short": "Mercury",
    "number": 9,
    "position": "FW",
    "element": "wind",

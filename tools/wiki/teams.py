@@ -196,6 +196,17 @@ SURNAME_TEAMS = {
     'Big Waves', 'Desert Lion', 'Fire Dragon', 'Knights of Queen', 'Orpheus', 'The Empire', 'Unicorn', 'The Kingdom',
     'Little Gigant', 'Brockenborg', 'Red Matador', 'Rose Griffon', 'The Great Horn', 'Team Garshield',
 }
+# Equipos de la Academia Alius: sus jugadores salen con el nombre alienígena del doblaje (Janus, no Jordan
+# Greenway); el id sigue siendo el del nombre humano, para que coincidan sprites y retratos
+ALIUS_TEAMS = {'Gemini Storm', 'Epsilon', 'Epsilon Kai', 'Diamond Dust', 'Prominence', 'Chaos', 'The Genesis'}
+
+
+def alien_name(text):
+    m = re.search(r'\|nickname_dub=\s*([^\n|]+)', text)
+    name = re.sub(r"\{\{.*?\}\}|'''?|\[\[|\]\]|<[^>]+>", '', m.group(1)) if m else ''
+    return re.sub(r'\s*\(.*$', '', name).lstrip('*').strip() or None
+
+
 # Equipos sin página propia en la wiki (variantes): nombre en español puesto a mano
 # Nombre en España de los equipos sin enlace entre wikis, o cuyo nombre en los juegos no es el del
 # título de la página de la wiki española (inazuma.fandom.com/es, campo "Nombre" de cada equipo).
@@ -914,6 +925,8 @@ def build_player(key, number, team_name, season, order, used_ids):
             moves.append(mid)
     if mgame == 'VR' and len(moves) > 4:  # en Victory Road aprenden seis: las cuatro últimas son las suyas
         moves = moves[-4:]
+    if team_name in ALIUS_TEAMS and (alien := alien_name(text)):
+        name = alien
     parts = name.split()
     player = {
         'id': pid,

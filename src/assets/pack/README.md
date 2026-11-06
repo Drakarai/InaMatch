@@ -228,29 +228,6 @@ Escudo: `emblems/ares-outei-tsukinomiya.png`
 | 24 · Raylon Highmoor (MF) | `raylon-highmoor.png` |
 | 25 · Fedrin Fennley (DF) | `fedrin-fennley.png` |
 
-### Instituto Raimon (Ares)
-
-Escudo: `emblems/ares-raimon-ares.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Sandra Fischer (GK) | `sandra-fischer.png` |
-| 2 · Kiko Calavento (DF) | `kiko-calavento.png` |
-| 3 · Trevor Cook (DF) | `trevor-cook.png` |
-| 4 · Nino Nango (MF) | `nino-nango.png` |
-| 5 · Cliff Parker (DF) | `cliff-parker.png` |
-| 6 · Maxime Dassier (MF) | `maxime-dassier.png` |
-| 7 · Valentin Eisner (MF) | `valentin-eisner.png` |
-| 8 · César Montalbán (MF) | `c-sar-montalb-n.png` |
-| 9 · Adriano Donati (FW) | `adriano-donati.png` |
-| 10 · Sonny Wright (FW) | `sonny-wright.png` |
-| 11 · Basile Hardy (FW) | `basile-hardy.png` |
-| 12 · Rolland Bowlby (GK) | `rolland-bowlby.png` |
-| 13 · Jim Wraith (DF) | `jim-wraith.png` |
-| 14 · Tod Ironside (DF) | `tod-ironside.png` |
-| 15 · Steve Grim (MF) | `steve-grim.png` |
-| 16 · Tim Saunders (MF) | `tim-saunders.png` |
-
 ### Academia Polaris
 
 Escudo: `emblems/ares-seishou-gakuen.png`
@@ -338,29 +315,6 @@ Escudo: `emblems/ares-zeus-ares.png`
 | 11 · Percy Hurst (FW) | `percy-hurst.png` |
 | 12 · Deirdre Staples (FW) | `deirdre-staples.png` |
 | 13 · Alexander Scrivener (GK) | `alexander-scrivener.png` |
-
-### Auras
-
-Escudo: `emblems/cs-auras.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · King Arthur (FW) | `king-arthur.png` |
-| 2 · Big (FW) | `big.png` |
-| 3 · Cao Cao (DF) | `cao-cao.png` |
-| 4 · Hurricane Zeta (FW) | `hurricane-zeta.png` |
-| 5 · W gene (MF) | `w-gene.png` |
-| 6 · Joan of Arc (DF) | `joan-of-arc.png` |
-| 7 · Zhuge Liang (MF) | `zhuge-liang.png` |
-| 8 · Black rose (MF) | `black-rose.png` |
-| 9 · Liu Bei (GK) | `liu-bei.png` |
-| 10 · Queen of Dragons (DF) | `queen-of-dragons.png` |
-| 11 · Nobunaga Oda (FW) | `nobunaga-oda.png` |
-| 12 · Soji Okita (FW) | `soji-okita.png` |
-| 13 · Ryoma Sakamoto (MF) | `ryoma-sakamoto.png` |
-| 14 · S gene (MF) | `s-gene.png` |
-| 15 · Quetzalcoatlus (DF) | `quetzalcoatlus.png` |
-| 16 · Tyrannosaurus Rex (GK) | `tyrannosaurus-rex.png` |
 
 ### Chrono Storm
 
@@ -1412,25 +1366,6 @@ Escudo: `emblems/gx-fire-dragon-go.png`
 | 10 · Jun-Yeong Lee (FW) | `jun-yeong-lee.png` |
 | 11 · Joo-Won (FW) | `joo-won.png` |
 | 12 · Changsu Choi (MF) | `changsu-choi.png` |
-
-### Galaxy Eleven
-
-Escudo: `emblems/gx-galaxy-eleven.png`
-
-| Jugador | Archivo |
-|---|---|
-| 12 · Aoba Gyr (GK) | `aoba-gyr.png` |
-| 13 · Ogar Circes (DF) | `ogar-circes.png` |
-| 14 · K'aran Uogu (MF) | `k-aran-uogu.png` |
-| 15 · Plink Powai (MF) | `plink-powai.png` |
-| 16 · Rondula Flehl (MF) | `rondula-flehl.png` |
-| 17 · Lucan (MF) | `lucan.png` |
-| 18 · Zack Avalon (FW) | `zack-avalon.png` |
-| 19 · Bala Gasgula (FW) | `bala-gasgula.png` |
-| 20 · Jean-Pierre Lapin (GK) | `jean-pierre-lapin.png` |
-| 21 · Banda Crix Junior (MF) | `banda-crix-junior.png` |
-| 22 · Gandares Baran (FW) | `gandares-baran.png` |
-| 23 · Ruger Baran (FW) | `ruger-baran.png` |
 
 ### Los Magmavís
 

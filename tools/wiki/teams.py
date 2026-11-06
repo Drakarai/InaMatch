@@ -168,7 +168,7 @@ NAME_ES = {
     'Mikage Sennou (Ares)': 'Instituto Brain (Ares)',
     'Minodouzan': 'Instituto Bastión',
     'Outei Tsukinomiya': 'Academia Plenilunio',
-    'Raimon (Ares)': 'Instituto Raimon (Ares)',
+
     'Seishou Gakuen': 'Academia Polaris',
     'Tonegawa Tousen': 'Instituto Ribera',
     'Destructchers': 'Desesperdidos',
@@ -235,7 +235,7 @@ REMOVED = {
     'Ura Zeus', 'Aliea A', 'Aliea B', 'Kami to Uchuu', 'Dark Emperors (cloaked)', 'NEW Genesis', 'Inazuma KFC Kai', 'Kageyama All Star',
     'Neo Teikoku', 'Zenkoku Team Senbatsu A', 'Zenkoku Team Senbatsu B', 'Super Shuuyou Meito', 'Super Oosaka CCC', 'NEW Zeus',
     'Chaos Angels', 'Real Aliea', 'Real Inazuma', 'Inazuma Legend', 'Joshi Senbatsu Team', 'God Angel', 'Neo Japan Kai', 'Neo Raimon',
-    'Another Chaos', 'Ura Raimon', 'First Raimon',
+    'Another Chaos', 'Ura Raimon', 'First Raimon', 'Raimon (Ares)', 'Auras', 'Galaxy Eleven',
 }
 # Equipos extra que visten como otro (versiones del mismo equipo) o con colores puestos aquí
 STYLE_OF = {

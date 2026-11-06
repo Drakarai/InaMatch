@@ -5,7 +5,7 @@ si no lo hay, el de los juegos de DS ("X emblem.png"), el de Strikers (S) o el d
 src/assets/pack/emblems/<id del equipo>.png a 160 px (los de pixel art se amplían sin suavizar),
 que el juego carga solo.
 
-Uso (desde la raíz del repo, después de tools/wiki/teams.py): python3 -I tools/wiki/emblems.py
+Uso (desde la raíz del repo, después de tools/wiki/teams.py): python3 -I tools/wiki/emblems.py [ids de equipo...]
 """
 import glob
 import io
@@ -36,10 +36,12 @@ ALIAS = {
     'NEW Genesis': ['The Genesis'],
     'NEW Zeus': ['Zeus'],
     'NEW Teikoku Gakuen': ['Teikoku Gakuen'],
+    # el Raimon de Chrono Stones lleva el escudo del Raimon de GO
+    'Team Raimon': ['Shinsei Raimon'],
 }
 # escudos que solo están en la wiki española
 ES_API = 'https://inazuma.fandom.com/es/api.php'
-ES_FILES = {'Osaka Gals CCC': 'Escudo - Triple C de Osaka (SD).png'}
+ES_FILES = {'Osaka Gals CCC': 'Escudo - Triple C de Osaka (SD).png', 'Ijinmei Bundou': 'Escudo - Visión Noble.png'}
 # orden de preferencia de las variantes del archivo
 VARIANTS = [' (VR)', '', ' (S)', ' (SD)', ' (X)']
 
@@ -93,8 +95,11 @@ def download(url):
 def main():
     os.makedirs(OUT, exist_ok=True)
     missing = []
+    only = set(sys.argv[1:])  # ids de equipo: solo esos (sin argumentos, todos)
     for path in sorted(glob.glob(os.path.join(ROOT, 'src', 'data', 'teams', '*.json'))):
         team = json.load(open(path, encoding='utf-8'))
+        if only and team['id'] not in only:
+            continue
         wiki = team.get('wiki')
         if not wiki:
             continue

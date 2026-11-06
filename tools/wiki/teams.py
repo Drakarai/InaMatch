@@ -153,7 +153,8 @@ STYLE = {
     'Fire Dragon': ('#e82a22', '#d8c8b0', '#4a4a52', '#e82a22', '#e82a22', '#e82a22', '#1e4a9a', '#4a4a52', {'gkLongSleeve': True, 'gkGloves': '#2a6ad0', 'stripe': '#e82a22', 'collar': '#f2ece0', 'num': '#f2ece0'}),
     # Knights of Queen (Inglaterra): camiseta blanca de manga larga con detalles azules, pantalón rojo y medias azul marino; el portero azul marino de manga larga con pantalón morado
     'Knights of Queen': ('#f4ece8', '#d0221e', '#1e3a8a', '#1e3a8a', '#f4ece8', '#1e3a8a', '#5a3a7a', '#1e3a8a', {'longSleeve': True, 'gkLongSleeve': True, 'stripe': '#1e3a8a', 'collar': '#1e3a8a', 'num': '#1e3a8a'}),
-    'Orpheus': ('#2457b8', '#f2f2f2', '#2e2e2e', '#1d4596'),
+    # Orpheus (Italia): camiseta azul de manga larga con cuello blanco, pantalón y medias negros; el portero todo de rojo con guantes negros
+    'Orpheus': ('#3a64b8', '#26262a', '#d82a1e', '#3a64b8', '#3a64b8', '#26262a', '#d82a1e', '#d82a1e', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e1e1e', 'stripe': '#2a5aa8', 'collar': '#f2ece0', 'num': '#f2ece0'}),
     'Team K': ('#3a2a5a', '#1a1a1a', '#8a8a8a', '#5a3a8a'),
     'The Empire': ('#8fc6ea', '#1a1a1a', '#f2c230', '#4a8fc0'),
     # Unicorn (EE. UU.): camiseta crema de cuello azul marino, pantalón azul marino y medias blancas con franja roja; el portero azul marino de manga larga con pantalón rojo

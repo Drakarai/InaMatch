@@ -5,10 +5,20 @@
  "name": "Orfeo",
  "short": "ORP",
  "colors": {
-  "shirt": "#2457b8",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#2e2e2e",
-  "accent": "#1d4596"
+  "shirt": "#3a64b8",
+  "shorts": "#26262a",
+  "gkShirt": "#d82a1e",
+  "accent": "#3a64b8",
+  "sleeve": "#3a64b8",
+  "socks": "#26262a",
+  "gkShorts": "#d82a1e",
+  "gkSleeve": "#d82a1e",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1e1e",
+  "stripe": "#2a5aa8",
+  "collar": "#f2ece0",
+  "num": "#f2ece0"
  },
  "formation": "f-orpheus",
  "players": [

@@ -4,12 +4,7 @@
  "wiki": "Epsilon Kai",
  "name": "Épsilon Plus",
  "short": "EPK",
- "colors": {
-  "shirt": "#3a2a6a",
-  "shorts": "#1a1a2a",
-  "gkShirt": "#c83a3a",
-  "accent": "#4a3a8a"
- },
+ "colors": {"shirt": "#b81e3a", "shorts": "#3a3a44", "gkShirt": "#28262c", "accent": "#2a8aa0", "sleeve": "#3a3a44", "socks": "#b81e3a", "gkShorts": "#28262c", "gkSleeve": "#28262c"},
  "formation": "f-epsilon",
  "players": [
   {

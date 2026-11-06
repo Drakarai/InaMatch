@@ -93,8 +93,9 @@ STYLE = {
     'Second Raimon': ('#f2c230', '#2a5fc0', '#e8892b', '#d9a400'),
     # Tormenta de Géminis: traje gris pardo con tirantes naranjas y un orbe azul, mangas crema; portero azul marino
     'Gemini Storm': ('#6e6460', '#4a4240', '#2a3450', '#e07020', '#e8e0d0', '#6e6460', '#2a3450', '#2a3450'),
-    'Epsilon': ('#3a2a6a', '#1a1a2a', '#c83a3a', '#4a3a8a'),
-    'Epsilon Kai': ('#3a2a6a', '#1a1a2a', '#c83a3a', '#4a3a8a'),
+    # Épsilon (y Épsilon Plus): traje rojo con mangas y pantalón gris oscuro, medias rojas; el portero (Dvalin / Zel) de negro
+    'Epsilon': ('#b81e3a', '#3a3a44', '#28262c', '#2a8aa0', '#3a3a44', '#b81e3a', '#28262c', '#28262c'),
+    'Epsilon Kai': ('#b81e3a', '#3a3a44', '#28262c', '#2a8aa0', '#3a3a44', '#b81e3a', '#28262c', '#28262c'),
     'The Genesis': ('#e8e8e8', '#5a3a8a', '#c8a020', '#7a5aa8'),
     'Diamond Dust': ('#a8d8f2', '#2a4a6a', '#f2f2f2', '#4a8ac0'),
     'Prominence': ('#d8342a', '#2a1a1a', '#f2a020', '#b82a22'),

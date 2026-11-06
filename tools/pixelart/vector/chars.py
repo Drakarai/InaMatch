@@ -547,3 +547,4 @@ import chars_raimon2  # noqa: E402,F401
 import chars_ie2misc  # noqa: E402,F401
 import chars_gemini  # noqa: E402,F401
 import chars_young  # noqa: E402,F401
+import chars_epsilon  # noqa: E402,F401

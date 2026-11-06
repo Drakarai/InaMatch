@@ -23,7 +23,7 @@ REF_PX = 80
 OUT = (60, 24, 16, 255)
 
 # equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo
-TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma']
+TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm']
 # dibujos que no están en chars.py (Axel tiene su propio módulo, head_axel.py)
 SPECIAL = {}
 
@@ -98,7 +98,8 @@ def main():
     for tid in TEAMS:
         team = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
         for p in team['players']:
-            base = char_of(p['id'])
+            # versión propia de este equipo (los Jóvenes Inazuma son los veteranos de niños): '<equipo>:<jugador>'
+            base = f"{tid}:{p['id']}" if f"{tid}:{p['id']}" in C.CHARS else char_of(p['id'])
             if base is None:
                 print(tid, p['id'], 'sin dibujo')
                 continue

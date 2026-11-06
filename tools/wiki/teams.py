@@ -91,7 +91,8 @@ STYLE = {
     'Inazuma Eleven': ('#382a4a', '#141218', '#2e2240', '#c8a030', '#141218', '#e0d4b8', '#2e2240', '#2e2240'),
     # IE2
     'Second Raimon': ('#f2c230', '#2a5fc0', '#e8892b', '#d9a400'),
-    'Gemini Storm': ('#4a7a3a', '#1a2a1a', '#c8c020', '#3a6a2a'),
+    # Tormenta de Géminis: traje gris pardo con tirantes naranjas y un orbe azul, mangas crema; portero azul marino
+    'Gemini Storm': ('#6e6460', '#4a4240', '#2a3450', '#e07020', '#e8e0d0', '#6e6460', '#2a3450', '#2a3450'),
     'Epsilon': ('#3a2a6a', '#1a1a2a', '#c83a3a', '#4a3a8a'),
     'Epsilon Kai': ('#3a2a6a', '#1a1a2a', '#c83a3a', '#4a3a8a'),
     'The Genesis': ('#e8e8e8', '#5a3a8a', '#c8a020', '#7a5aa8'),

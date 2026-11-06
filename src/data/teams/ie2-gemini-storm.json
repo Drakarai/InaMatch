@@ -4,12 +4,7 @@
  "wiki": "Gemini Storm",
  "name": "Tormenta de Géminis",
  "short": "GEM",
- "colors": {
-  "shirt": "#4a7a3a",
-  "shorts": "#1a2a1a",
-  "gkShirt": "#c8c020",
-  "accent": "#3a6a2a"
- },
+ "colors": {"shirt": "#6e6460", "shorts": "#4a4240", "gkShirt": "#2a3450", "accent": "#e07020", "sleeve": "#e8e0d0", "socks": "#6e6460", "gkShorts": "#2a3450", "gkSleeve": "#2a3450"},
  "formation": "f-gemini",
  "players": [
   {

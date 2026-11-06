@@ -7,13 +7,24 @@ export const GAME_H = 720;
  * Resolución de dibujado: el lienzo se crea al tamaño real con el que se va a ver (pantalla y densidad de
  * píxeles) para que todo salga nítido. El juego sigue pensado en 1280x720: cada escena amplía su cámara
  * por este factor (ver fitCamera) y los textos se rasterizan a esta resolución.
+ * Cambia al redimensionar la ventana (main.ts vuelve a crear el lienzo y avisa a las escenas).
  */
-export const RES = (() => {
+export function computeRes(): number {
   if (typeof window === 'undefined') return 1;
   const fit = Math.min(window.innerWidth / GAME_W, window.innerHeight / GAME_H);
-  const r = Math.ceil(fit * (window.devicePixelRatio || 1) * 4) / 4;
-  return Math.min(3, Math.max(1, r));
-})();
+  // sin redondear: así el lienzo coincide píxel a píxel con la ventana y no se reescala (lo que emborrona)
+  const r = fit * (window.devicePixelRatio || 1);
+  return Math.min(3, Math.max(0.5, Math.round(r * 1000) / 1000));
+}
+
+export let RES = computeRes();
+
+export function setRes(r: number): void {
+  RES = r;
+}
+
+/** Evento global (game.events) que se emite cuando cambia la resolución de dibujado. */
+export const RES_EVENT = 'inamatch-res';
 
 /** Zona de la izquierda: el campo (la "pantalla táctil" de la DS). */
 export const FIELD_VIEW = { x: 0, y: 0, w: 820, h: 720 };

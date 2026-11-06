@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { music } from '../audio/music';
-import { COLORS, hex } from '../config';
+import { COLORS, GAME_W, hex } from '../config';
 import { getTeam, movesOf } from '../data';
 import { ELEMENT_COLOR, ELEMENT_LABEL } from '../data/elements';
 import { FORMATIONS, getFormation } from '../data/formations';
@@ -9,9 +9,10 @@ import { portraitPack, portraitsOf } from '../gfx/pack';
 import { loadClub, setSquad } from '../club/club';
 import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
 import { VSPRITE_REF } from '../gfx/pack';
-import { lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
-import { fitCamera, POS_COLOR, pt, sectionTitle, slant, teamBackdrop, THEME, themePanel } from '../ui/theme';
-import { Button, StatBar, display, text } from '../ui/widgets';
+import { bestLineup, lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
+import { lineRatings, playerOverall, ratingStars, teamRating } from '../engine/rating';
+import { cardPanel, chip, fitCamera, POS_COLOR, pt, sectionTitle, slant, stadiumBackdrop, starRow, THEME, toast, topBar } from '../ui/theme';
+import { Button, StatBar, display, fitWidth, label, meter, text } from '../ui/widgets';
 
 export const STAT_LABELS: [keyof Stats, string][] = [
   ['kick', 'Tiro'],
@@ -25,9 +26,10 @@ export const STAT_LABELS: [keyof Stats, string][] = [
 
 const MOVE_KIND_LABEL = { shoot: 'Tiro', dribble: 'Regate', block: 'Bloqueo', catch: 'Parada' } as const;
 
-const PITCH_BOX = { x: 44, y: 112, w: 452, h: 552 };
-const CARD = { x: 536, y: 104, w: 704, h: 330 };
-const BENCH = { x: 536, y: 450, w: 704, h: 150 };
+const PITCH_BOX = { x: 24, y: 96, w: 452, h: 540 };
+const CARD = { x: 500, y: 84, w: 756, h: 316 };
+const BENCH = { x: 500, y: 412, w: 756, h: 148 };
+const BAR = { x: 500, y: 572, w: 756, h: 136 };
 
 /** Formación en el descanso de un partido: estamina y técnica de cada jugador y vuelta al partido. */
 export interface Halftime {
@@ -52,6 +54,8 @@ export class FormationScene extends Phaser.Scene {
   private previewId: string | null = null;
   private formationList: Phaser.GameObjects.Container | null = null;
   private hint!: Phaser.GameObjects.Text;
+  private summary!: Phaser.GameObjects.Container;
+  private pitchHint!: Phaser.GameObjects.Text;
 
   constructor() {
     super('formation');
@@ -84,57 +88,65 @@ export class FormationScene extends Phaser.Scene {
     if (!this.halftime) music.play('menu');
     const team = getTeam(this.home.teamId);
     const rival = getTeam(this.away.teamId);
-    teamBackdrop(this, team, undefined, { x: 270, y: 380 });
+    stadiumBackdrop(this, hex(team.colors.shirt), hex(rival.colors.shirt));
 
-    // cabecera: escudo, título y el rival
-    this.add.image(60, 44, texKey.emblem(team.id)).setDisplaySize(58, 58);
-    display(this, 100, 8, this.halftime ? 'Descanso' : 'Formación', 40);
+    // cabecera: escudo, título, marcador en el descanso y el rival
+    topBar(this, {
+      title: this.halftime ? 'Descanso' : 'Formación',
+      subtitle: team.name,
+      icon: texKey.emblem(team.id),
+      back: this.halftime ? undefined : { label: 'Menú', onClick: () => this.scene.start('menu') },
+      accent: hex(team.colors.accent),
+    });
     if (this.halftime) {
       const [a, b] = this.halftime.score;
-      display(this, 640, 40, `${team.short}  ${a} - ${b}  ${rival.short}`, 34, '#ffffff').setOrigin(0.5);
+      display(this, 640, 32, `${team.short}  ${a} - ${b}  ${rival.short}`, 34, '#ffffff').setOrigin(0.5).setDepth(101);
     }
-    text(this, 102, 52, team.name, 16, '#ffffff', { fontStyle: 'italic' });
-    const rx = 1240;
-    this.add.image(rx - 26, 50, texKey.emblem(rival.id)).setDisplaySize(48, 48);
-    text(this, rx - 60, 40, 'RIVAL', 12, THEME.awayCss, { fontStyle: 'italic bold' }).setOrigin(1, 0.5);
-    text(this, rx - 60, 60, rival.name, 16, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(1, 0.5);
+    const rx = GAME_W - 24;
+    this.add.image(rx - 24, 32, texKey.emblem(rival.id)).setDisplaySize(44, 44).setDepth(101);
+    label(this, rx - 56, 23, 'RIVAL', 10, THEME.awayCss, { fontStyle: 'bold' }).setOrigin(1, 0.5).setDepth(101);
+    label(this, rx - 56, 40, `${rival.name}  ·  ${teamRating(rival)}`, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(1, 0.5).setDepth(101);
 
     this.drawPitch();
     this.info = this.add.container(CARD.x, CARD.y);
 
     // banquillo
     const g = this.add.graphics();
-    themePanel(g, BENCH.x, BENCH.y, BENCH.w, BENCH.h, hex(team.colors.accent));
-    sectionTitle(this, BENCH.x + 16, BENCH.y + 20, 'Banquillo');
-    this.hint = text(this, BENCH.x + BENCH.w - 16, BENCH.y + 20, '', 13, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 }).setOrigin(1, 0.5);
+    cardPanel(g, BENCH.x, BENCH.y, BENCH.w, BENCH.h, { accent: hex(team.colors.accent) });
+    sectionTitle(this, BENCH.x + 16, BENCH.y + 22, 'Banquillo');
+    this.hint = label(this, BENCH.x + BENCH.w - 16, BENCH.y + 22, '', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(1, 0.5);
 
-    // barra de abajo: formación, volver y jugar
-    const bar = this.add.graphics();
-    bar.fillStyle(0x000000, 0.5).fillPoints(slant(536, 622, 400, 58, 16), true);
-    bar.lineStyle(2, THEME.yellow, 0.8).strokePoints(slant(536, 622, 400, 58, 16), true);
-    new Button(this, 578, 651, '◀', () => this.cycleFormation(-1), { w: 50, h: 42, color: THEME.panelLight });
-    new Button(this, 892, 651, '▶', () => this.cycleFormation(1), { w: 50, h: 42, color: THEME.panelLight });
-    text(this, 736, 636, 'FORMACIÓN  ▾ pulsa para ver todas', 11, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
-    this.formationLabel = text(this, 736, 660, '', 20, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0.5);
+    // barra de abajo: formación, mejor once, medias del once y jugar
+    const bg = this.add.graphics();
+    cardPanel(bg, BAR.x, BAR.y, BAR.w, BAR.h, { plain: true });
+    const fy = BAR.y + 36;
+    label(this, BAR.x + 18, fy - 20, 'FORMACIÓN', 10, THEME.muted, { fontStyle: 'bold' }).setOrigin(0, 0.5);
+    new Button(this, BAR.x + 40, fy + 8, '◀', () => this.cycleFormation(-1), { w: 40, h: 34, variant: 'secondary', size: 13 });
+    new Button(this, BAR.x + 330, fy + 8, '▶', () => this.cycleFormation(1), { w: 40, h: 34, variant: 'secondary', size: 13 });
+    this.formationLabel = label(this, BAR.x + 185, fy + 8, '', 18, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5);
     // pulsar el nombre abre la lista de todas las formaciones
-    const labelHit = this.add.zone(612, 626, 248, 52).setOrigin(0).setInteractive({ useHandCursor: true });
+    const labelHit = this.add.zone(BAR.x + 64, fy - 10, 242, 36).setOrigin(0).setInteractive({ useHandCursor: true });
     labelHit.on('pointerdown', () => this.toggleFormationList());
-    labelHit.on('pointerover', () => this.formationLabel.setColor('#ffd23f'));
-    labelHit.on('pointerout', () => this.formationLabel.setColor('#ffffff'));
-    this.input.keyboard?.on('keydown-ESC', () => this.closeFormationList());
-    if (!this.halftime) new Button(this, 1016, 651, 'Menú', () => this.scene.start('menu'), { w: 120, h: 46, size: 17, color: THEME.panelLight });
-    new Button(this, 1160, 651, this.halftime ? '¡2ª parte!' : '¡A jugar!', () => this.play(), { w: 160, h: 58, size: 24, color: THEME.yellow });
+    labelHit.on('pointerover', () => this.formationLabel.setColor(THEME.yellowCss));
+    labelHit.on('pointerout', () => this.formationLabel.setColor(THEME.text));
+    label(this, BAR.x + 185, fy + 32, 'pulsa el nombre para ver todas', 10, THEME.muted, { fontStyle: 'italic' }).setOrigin(0.5);
+    new Button(this, BAR.x + 460, fy + 8, 'Mejor once', () => this.autoLineup(), { w: 150, h: 38, variant: 'accent', size: 15, icon: '✦' });
+    this.summary = this.add.container(BAR.x + 18, BAR.y + 100);
+    this.input.keyboard?.on('keydown-ESC', () => (this.formationList ? this.closeFormationList() : !this.halftime && this.scene.start('menu')));
+    this.input.keyboard?.on('keydown-ENTER', () => this.play());
+    new Button(this, BAR.x + BAR.w - 100, BAR.y + BAR.h / 2, this.halftime ? '¡2ª parte!' : '¡A jugar!', () => this.play(), { w: 170, h: 60, variant: 'primary', size: 24, hint: '⏎' });
 
     this.layoutTokens();
     this.showInfo(lineupPlayers(team, this.home)[0]);
   }
 
-  /** Campo en verde oscuro con las líneas finas, dentro de un marco inclinado. */
+  /** Campo en verde oscuro con las líneas finas, dentro de un marco redondeado. */
   private drawPitch(): void {
     const { x, y, w, h } = PITCH_BOX;
     const g = this.add.graphics();
-    g.fillStyle(0x000000, 0.45).fillRect(x + 6, y + 8, w, h);
-    for (let i = 0; i < 10; i++) g.fillStyle(i % 2 ? 0x1f6b3a : 0x247a43).fillRect(x, y + (i * h) / 10, w, h / 10);
+    g.fillStyle(0x000000, 0.45).fillRoundedRect(x + 4, y + 8, w, h, 12);
+    g.fillStyle(0x1f6b3a).fillRoundedRect(x, y, w, h, 12);
+    for (let i = 0; i < 10; i++) if (i % 2) g.fillStyle(0x247a43).fillRect(x, y + (i * h) / 10, w, h / 10);
     // brillo diagonal
     g.fillStyle(0xffffff, 0.05).fillPoints([pt(x, y), pt(x + w * 0.55, y), pt(x, y + h * 0.5)], true);
     g.lineStyle(2, 0xffffff, 0.55).strokeRect(x + 10, y + 10, w - 20, h - 20);
@@ -144,9 +156,10 @@ export class FormationScene extends Phaser.Scene {
     g.strokePath();
     g.strokeRect(x + w / 2 - 110, y + h - 100, 220, 90);
     g.strokeRect(x + w / 2 - 50, y + h - 44, 100, 34);
-    g.lineStyle(3, THEME.yellow).strokeRect(x, y, w, h);
-    g.fillStyle(THEME.yellow).fillPoints(slant(x - 2, y - 26, 150, 26, 10), true);
-    text(this, x + 70, y - 13, 'TITULARES', 14, THEME.ink, { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5);
+    g.lineStyle(2, 0xffffff, 0.15).strokeRoundedRect(x, y, w, h, 12);
+    const tag = chip(this, x + 10, y - 2, 'TITULARES', THEME.yellow, { size: 11, h: 22, padX: 10 });
+    tag.setDepth(2);
+    this.pitchHint = label(this, x + w - 10, y - 2, '', 11, THEME.muted, { fontStyle: 'italic bold' }).setOrigin(1, 0.5);
   }
 
   private slotY(sy: number): number {
@@ -164,7 +177,8 @@ export class FormationScene extends Phaser.Scene {
     const team = getTeam(this.home.teamId);
     const formation = getFormation(previewId ?? this.home.formationId);
     this.previewId = previewId ?? null;
-    this.formationLabel.setText(formation.name);
+    const layout = ['DF', 'MF', 'FW'].map((pos) => formation.slots.filter((s) => s.pos === pos).length).join('-');
+    this.formationLabel.setText(`${formation.name}  ·  ${layout}`);
     const players = lineupPlayers(team, this.home);
 
     players.forEach((p, index) => {
@@ -176,8 +190,8 @@ export class FormationScene extends Phaser.Scene {
         y = this.slotY(slot.y);
       } else {
         const b = index - 11;
-        x = BENCH.x + 60 + (b % 9) * 74;
-        y = BENCH.y + 78 + Math.floor(b / 9) * 64;
+        x = BENCH.x + 60 + (b % 9) * 76;
+        y = BENCH.y + 80 + Math.floor(b / 9) * 64;
       }
       const token = this.makeToken(p, index, x, y);
       const from = before.get(index);
@@ -188,6 +202,31 @@ export class FormationScene extends Phaser.Scene {
       this.tokens.push({ index, container: token });
     });
     this.hint.setText(this.selected === null ? 'Pulsa dos jugadores para cambiarlos' : 'Ahora pulsa con quién cambiarlo');
+    this.drawSummary(formation.id);
+  }
+
+  /** Medias del once que hay en el campo ahora mismo (y avisos de jugadores fuera de su puesto). */
+  private drawSummary(formationId: string): void {
+    const c = this.summary;
+    c.removeAll(true);
+    const team = getTeam(this.home.teamId);
+    const starters = lineupPlayers(team, this.home).slice(0, 11);
+    const rating = teamRating(team, starters);
+    const lines = lineRatings(team, starters);
+    c.add(display(this, 0, 0, String(rating), 30, THEME.yellowCss, { strokeThickness: 0 }).setOrigin(0, 0.5));
+    c.add(starRow(this, 46, -2, ratingStars(rating), 6));
+    c.add(label(this, 46, 12, 'MEDIA DEL ONCE', 9, THEME.muted, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    const rows = [
+      ['ATA', lines.att, THEME.orange],
+      ['MED', lines.mid, THEME.green],
+      ['DEF', lines.def, 0x4fa3ff],
+    ] as const;
+    rows.forEach(([cap, v, color], i) => c.add(meter(this, 200 + i * 130, 0, 60, v - 30, 60, color, cap, String(v))));
+    const slots = getFormation(formationId).slots;
+    const wrong = starters.filter((p, i) => slots[i] && slots[i].pos !== p.position).length;
+    const gkOk = starters[0]?.position === 'GK';
+    const warn = !gkOk ? '⚠ Sin portero en la portería' : wrong ? `⚠ ${wrong} fuera de su puesto (chapa en rojo)` : '';
+    this.pitchHint.setText(warn || 'Todos en su puesto ✓').setColor(warn ? THEME.coralCss : THEME.muted);
   }
 
   /** Chapa del jugador: sprite sobre un círculo, nombre en una banda y la demarcación en su color. */
@@ -198,27 +237,27 @@ export class FormationScene extends Phaser.Scene {
     const outOfPosition = index < 11 && slotPos !== p.position;
     const g = this.add.graphics();
     g.fillStyle(0x000000, 0.35).fillEllipse(0, 20, 40, 12);
-    if (selected) g.fillStyle(THEME.yellow, 0.35).fillCircle(0, 0, 28).lineStyle(3, THEME.yellow).strokeCircle(0, 0, 28);
+    if (selected) g.fillStyle(THEME.cyan, 0.3).fillCircle(0, 0, 28).lineStyle(3, THEME.cyan).strokeCircle(0, 0, 28);
     const sprite = this.add.image(0, -2, spriteKey(this, p, getTeam(this.home.teamId)));
     // los dibujados (vsprite) guardan la altura de cada uno: misma escala para todos
     sprite.setScale(sprite.texture.key.startsWith('vsprite:') ? 44 / VSPRITE_REF : 44 / sprite.height);
     const nameBand = this.add.graphics();
-    const label = text(this, 0, 32, p.short, 12, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 3 }).setOrigin(0.5);
-    const bw = Math.max(54, label.width + 18);
-    nameBand.fillStyle(0x000000, 0.6).fillPoints(slant(-bw / 2, 24, bw, 16, 5), true);
-    const chip = this.add.graphics();
-    chip.fillStyle(POS_COLOR[p.position]).fillPoints(slant(10, -32, 30, 14, 4), true);
-    if (outOfPosition) chip.lineStyle(2, 0xff5a5a).strokePoints(slant(10, -32, 30, 14, 4), true);
+    const lbl = text(this, 0, 32, p.short, 12, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 3 }).setOrigin(0.5);
+    const bw = Math.max(54, lbl.width + 18);
+    nameBand.fillStyle(0x000000, 0.6).fillRoundedRect(-bw / 2, 24, bw, 16, 8);
+    const posChip = this.add.graphics();
+    posChip.fillStyle(POS_COLOR[p.position]).fillRoundedRect(10, -32, 30, 14, 5);
+    if (outOfPosition) posChip.lineStyle(2, THEME.coral).strokeRoundedRect(10, -32, 30, 14, 5);
     const pos = text(this, 25, -25, p.position, 10, '#ffffff', { fontStyle: 'bold', strokeThickness: 2 }).setOrigin(0.5);
     const elem = this.add.graphics().fillStyle(ELEMENT_COLOR[p.element]).fillCircle(-20, -24, 6).lineStyle(1.5, 0xffffff).strokeCircle(-20, -24, 6);
-    c.add([g, sprite, nameBand, label, chip, pos, elem]);
+    c.add([g, sprite, nameBand, lbl, posChip, pos, elem]);
     if (this.halftime) {
       // en el descanso, la estamina de cada uno debajo del nombre, para decidir los cambios
       const { fp } = this.bars(p);
       const ratio = Phaser.Math.Clamp(fp / p.fp, 0, 1);
       const bar = this.add.graphics();
-      bar.fillStyle(0x000000, 0.7).fillRect(-22, 42, 44, 5);
-      bar.fillStyle(ratio < 0.01 ? 0xe2463b : COLORS.fp).fillRect(-21, 43, 42 * ratio, 3);
+      bar.fillStyle(0x000000, 0.7).fillRoundedRect(-22, 42, 44, 5, 2);
+      bar.fillStyle(ratio < 0.01 ? 0xe2463b : COLORS.fp).fillRoundedRect(-21, 43, 42 * ratio, 3, 1);
       c.add(bar);
     }
     c.setSize(60, 76);
@@ -245,6 +284,15 @@ export class FormationScene extends Phaser.Scene {
     this.layoutTokens();
   }
 
+  private autoLineup(): void {
+    const next = bestLineup(getTeam(this.home.teamId), this.home);
+    if (next.order.join() === this.home.order.join()) return toast(this, 'Ya está el mejor once para esta formación', THEME.panelLight);
+    this.home = next;
+    this.selected = null;
+    this.layoutTokens();
+    toast(this, 'Colocados los mejores en cada puesto');
+  }
+
   /** Lista de formaciones sobre la ficha: al pasar el ratón se ve en el campo, al pulsar se elige. */
   private toggleFormationList(): void {
     if (this.formationList) return this.closeFormationList();
@@ -258,11 +306,11 @@ export class FormationScene extends Phaser.Scene {
     const back = this.add.rectangle(640, 360, 1280, 720, 0x000000, 0.12).setInteractive();
     back.on('pointerdown', () => this.closeFormationList());
     const g = this.add.graphics();
-    themePanel(g, X, Y, Wd, Hd, THEME.yellow, 1);
+    cardPanel(g, X, Y, Wd, Hd, { alpha: 1 });
     const panelHit = this.add.zone(X, Y, Wd, Hd).setOrigin(0).setInteractive();
     c.add([back, g, panelHit]);
     c.add(sectionTitle(this, X + 18, Y + 22, 'Formaciones'));
-    c.add(text(this, X + Wd - 18, Y + 22, 'Pasa el ratón para verla en el campo · pulsa para elegirla', 12, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 }).setOrigin(1, 0.5));
+    c.add(label(this, X + Wd - 18, Y + 22, 'Pasa el ratón para verla en el campo · pulsa para elegirla · Esc cierra', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(1, 0.5));
     const cols = 3;
     const rows = Math.ceil(FORMATIONS.length / cols);
     const cw = (Wd - 36 - (cols - 1) * 8) / cols;
@@ -275,12 +323,12 @@ export class FormationScene extends Phaser.Scene {
       const bg = this.add.graphics();
       const draw = (hover: boolean) => {
         bg.clear();
-        if (current || hover) bg.fillStyle(current ? THEME.yellow : THEME.panelLight, current ? 0.9 : 1).fillPoints(slant(cx, cy + 2, cw, rh - 4, 6), true);
+        if (current || hover) bg.fillStyle(current ? THEME.yellow : THEME.panelLight, current ? 0.9 : 1).fillRoundedRect(cx, cy + 2, cw, rh - 4, 8);
       };
       draw(false);
-      const name = text(this, cx + 14, cy + rh / 2, f.name, 14, current ? THEME.ink : '#ffffff', { fontStyle: 'italic bold', strokeThickness: current ? 0 : 3 }).setOrigin(0, 0.5);
-      for (let size = 14; name.width > cw - 70 && size > 10; ) name.setFontSize(--size);
-      const lay = text(this, cx + cw - 12, cy + rh / 2, lines, 12, current ? THEME.ink : '#9fb8d8', { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(1, 0.5);
+      const name = label(this, cx + 14, cy + rh / 2, f.name, 14, current ? THEME.ink : THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5);
+      fitWidth(name, cw - 70, 10);
+      const lay = label(this, cx + cw - 12, cy + rh / 2, lines, 12, current ? THEME.ink : '#9fb8d8', { fontStyle: 'bold' }).setOrigin(1, 0.5);
       const hit = this.add.zone(cx, cy, cw, rh).setOrigin(0).setInteractive({ useHandCursor: true });
       hit.on('pointerover', () => {
         draw(true);
@@ -319,67 +367,68 @@ export class FormationScene extends Phaser.Scene {
     const { w: W, h: H } = CARD;
     const accent = hex(team.colors.accent);
     const g = this.add.graphics();
-    themePanel(g, 0, 0, W, H, accent);
+    cardPanel(g, 0, 0, W, H, { accent });
     // dorsal gigante de fondo
-    const number = text(this, W - 20, -18, String(p.number), 150, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(1, 0).setAlpha(0.06);
+    const number = text(this, W - 20, -14, String(p.number), 150, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(1, 0).setAlpha(0.05);
     // retrato en un marco inclinado
     g.fillStyle(accent).fillPoints(slant(14, 16, 132, 132, 18), true);
     g.fillStyle(0x000000, 0.35).fillPoints(slant(20, 22, 120, 120, 16), true);
     const portrait = this.add.image(80, 82, portraitKey(this, p, team)).setDisplaySize(112, 112);
     // nombre y etiquetas
-    const name = display(this, 166, 16, p.name, 32, '#ffffff');
-    for (let size = 26; name.width > 360 && size > 15; ) name.setFontSize(--size);
+    const name = display(this, 166, 18, p.name, 32, '#ffffff');
+    fitWidth(name, 250, 15);
     const tags = this.add.graphics();
-    tags.fillStyle(POS_COLOR[p.position]).fillPoints(slant(166, 58, 56, 22, 6), true);
-    tags.fillStyle(ELEMENT_COLOR[p.element]).fillPoints(slant(228, 58, 96, 22, 6), true);
-    tags.fillStyle(0x000000, 0.5).fillPoints(slant(330, 58, 72, 22, 6), true);
-    const posT = text(this, 194, 69, p.position, 13, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5);
-    const elT = text(this, 276, 69, ELEMENT_LABEL[p.element], 13, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5);
-    const lvT = text(this, 366, 69, `Nv. ${p.level}`, 13, '#ffd23f', { fontStyle: 'bold' }).setOrigin(0.5);
+    tags.fillStyle(POS_COLOR[p.position]).fillRoundedRect(166, 58, 56, 22, 7);
+    tags.fillStyle(ELEMENT_COLOR[p.element]).fillRoundedRect(228, 58, 96, 22, 7);
+    tags.fillStyle(0x000000, 0.5).fillRoundedRect(330, 58, 72, 22, 7);
+    const posT = label(this, 194, 69, p.position, 13, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5);
+    const elT = label(this, 276, 69, ELEMENT_LABEL[p.element], 13, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5);
+    const lvT = label(this, 366, 69, `Nv. ${p.level}`, 13, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5);
     const fp = new StatBar(this, 166, 102, 'FP', COLORS.fp, 150);
     fp.set(this.bars(p).fp, p.fp);
     const tp = new StatBar(this, 166, 126, 'TP', COLORS.tp, 150);
     tp.set(this.bars(p).tp, p.tp);
-    this.info.add([g, number, portrait, name, tags, posT, elT, lvT, fp, tp]);
+    const ov = display(this, W - 24, 56, String(playerOverall(p)), 44, THEME.yellowCss, { strokeThickness: 0 }).setOrigin(1, 0.5);
+    const ovL = label(this, W - 24, 84, 'MEDIA', 9, THEME.muted, { fontStyle: 'bold' }).setOrigin(1, 0.5);
+    this.info.add([g, number, portrait, name, tags, posT, elT, lvT, fp, tp, ov, ovL]);
 
     // atributos en barras
     const sx = 430;
-    STAT_LABELS.forEach(([key, label], i) => {
-      const y = 28 + i * 17;
+    STAT_LABELS.forEach(([key, lbl], i) => {
+      const y = 108 + i * 17;
       const v = p.stats[key];
       const bar = this.add.graphics();
-      bar.fillStyle(0x000000, 0.45).fillPoints(slant(sx + 66, y - 5, 160, 10, 3), true);
-      bar.fillStyle(v >= 75 ? THEME.yellow : 0x7fb2ff).fillPoints(slant(sx + 66, y - 5, Phaser.Math.Clamp(v / 99, 0.05, 1) * 160, 10, 3), true);
+      bar.fillStyle(0x000000, 0.45).fillRoundedRect(sx + 66, y - 4, 160, 8, 4);
+      bar.fillStyle(v >= 75 ? THEME.yellow : THEME.glow).fillRoundedRect(sx + 66, y - 4, Phaser.Math.Clamp(v / 99, 0.05, 1) * 160, 8, 4);
       this.info.add(bar);
-      this.info.add(text(this, sx, y, label, 12, '#c9d3e0', { fontStyle: 'italic', strokeThickness: 0 }).setOrigin(0, 0.5));
-      this.info.add(text(this, sx + 256, y, String(v), 13, '#ffffff', { fontStyle: 'bold', strokeThickness: 2 }).setOrigin(1, 0.5));
+      this.info.add(label(this, sx, y, lbl, 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(0, 0.5));
+      this.info.add(label(this, sx + 256, y, String(v), 13, THEME.text, { fontStyle: 'bold' }).setOrigin(1, 0.5));
     });
 
     // supertécnicas
     this.info.add(sectionTitle(this, 16, 172, 'Supertécnicas'));
     const moves = movesOf(p.moves);
-    if (moves.length === 0) this.info.add(text(this, 34, 198, '—', 15));
+    if (moves.length === 0) this.info.add(label(this, 34, 192, '—', 15));
     moves.slice(0, 6).forEach((m, i) => {
-      const y = 194 + i * 22;
+      const y = 190 + i * 20;
       const row = this.add.graphics();
-      row.fillStyle(0x000000, i % 2 ? 0.15 : 0.3).fillRect(16, y, 400, 20);
-      row.fillStyle(ELEMENT_COLOR[m.element]).fillRect(16, y, 5, 20);
+      row.fillStyle(0x000000, i % 2 ? 0.15 : 0.3).fillRoundedRect(16, y, 396, 18, 4);
+      row.fillStyle(ELEMENT_COLOR[m.element]).fillRoundedRect(16, y, 5, 18, 2);
       this.info.add(row);
-      this.info.add(text(this, 30, y + 10, m.name, 14, '#ffffff', { fontStyle: 'bold', strokeThickness: 2 }).setOrigin(0, 0.5));
-      this.info.add(text(this, 410, y + 10, `${MOVE_KIND_LABEL[m.kind]}  ·  ${m.power}  ·  TP ${m.tp}`, 12, '#c9d3e0', { strokeThickness: 0 }).setOrigin(1, 0.5));
+      this.info.add(label(this, 30, y + 9, m.name, 13, THEME.text, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+      this.info.add(label(this, 406, y + 9, `${MOVE_KIND_LABEL[m.kind]}  ·  ${m.power}  ·  TP ${m.tp}`, 11, THEME.muted).setOrigin(1, 0.5));
     });
 
     // descripción
     const dg = this.add.graphics();
-    dg.fillStyle(0x000000, 0.3).fillRect(430, 160, W - 446, H - 176);
-    dg.fillStyle(accent).fillRect(430, 160, 3, H - 176);
+    dg.fillStyle(0x000000, 0.3).fillRoundedRect(430, 232, W - 446, H - 248, 8);
+    dg.fillStyle(accent).fillRoundedRect(430, 232, 3, H - 248, 2);
     this.info.add(dg);
     this.info.add(
-      text(this, 444, 170, p.description ?? `Jugador de ${team.name}.`, 13, '#e3e9f2', {
+      label(this, 444, 242, p.description ?? `Jugador de ${team.name}.`, 12, THEME.text, {
         fontStyle: 'italic',
-        strokeThickness: 0,
         wordWrap: { width: W - 474 },
-        lineSpacing: 4,
+        lineSpacing: 3,
       }),
     );
   }

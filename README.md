@@ -19,19 +19,25 @@ Otros comandos: `npm test` (tests de las reglas y los datos), `npm run build` (g
 
 ## Menú
 
-Pantalla de "versus": cada mitad lleva los colores de su equipo (**TÚ** a la izquierda, **RIVAL** a la derecha),
-partidas por un rayo.
-- Cada lado muestra el escudo, la **media** del equipo y barras de **Ataque**, **Medio** y **Defensa** de los titulares
-  (delanteros: tiro, control y velocidad; medios: control, físico, velocidad y tiro; defensas y portero: defensa,
-  físico y agallas).
-- Abajo, la **estantería**: una fila con el logo de cada juego (Mi club, IE1, IE2, IE3, GO, Chrono Stone, Galaxy, Ares,
+Pantalla de "versus": una tarjeta por equipo (**TÚ** a la izquierda, **RIVAL** a la derecha) con el color de su camiseta.
+- Cada tarjeta muestra el escudo, la **media** con estrellas, la formación, el jugador **estrella** y barras de
+  **Ataque**, **Medio** y **Defensa** de los titulares (delanteros: tiro, control y velocidad; medios: control,
+  físico, velocidad y tiro; defensas y portero: defensa, físico y agallas).
+- Abajo, la **estantería**: pestañas con el logo de cada juego (Mi club, IE1, IE2, IE3, GO, Chrono Stone, Galaxy, Ares,
   Orión y Victory Road; los logos son los de la [enciclopedia oficial](https://zukan.inazuma.jp/), en
-  `src/assets/pack/series/`) y, debajo, todos los escudos del juego elegido. Pulsa una mitad para elegir ese lado y luego
-  un escudo. Las flechas o la rueda del ratón también cambian de equipo dentro de su temporada.
-- Teclado: izquierda/derecha cambian de equipo, arriba/abajo de temporada, **Tab** de lado y **Enter** sigue.
-- En el centro: **Cambiar lados** y **Rival aleatorio** (de cualquier temporada). Se pueden mezclar temporadas.
+  `src/assets/pack/series/`) y, debajo, todos los escudos del juego elegido. Pulsa una tarjeta (o el segmento
+  "eligiendo para") para elegir ese lado y luego un escudo. Las flechas o la rueda del ratón también cambian de
+  equipo dentro de su temporada. Nunca pueden estar los dos lados con el mismo equipo: si eliges el del otro lado,
+  se intercambian.
+- Teclado: izquierda/derecha cambian de equipo, arriba/abajo de temporada, **Tab** de lado, **R** rival al azar y
+  **Enter** sigue.
+- En el centro: **Cambiar lados** y **Rival al azar** (de cualquier temporada). Se pueden mezclar temporadas.
 - La elección se recuerda al volver al menú.
-- Arriba a la derecha, el botón **♪** abre el panel de sonido.
+- La barra de arriba es igual en todas las pantallas: volver (o **Esc**) a la izquierda, monedas, **Mi club**,
+  **Fichajes** y el botón **♪** del sonido a la derecha.
+
+El rediseño de la interfaz (y la comparativa de antes y después de cada pantalla) está documentado en
+`docs/rediseno/`.
 
 ## Controles
 

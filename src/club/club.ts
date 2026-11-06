@@ -2,6 +2,8 @@ import { MOVES, upsertTeam } from '../data';
 import type { MoveData } from '../data/types';
 import type { PlayerData, Position, TeamData } from '../data/types';
 import { byPosition, cardByKey, cardForStaleKey, loadPool, RARITY, type Card, type Rarity } from './pool';
+import { getFormation } from '../data/formations';
+import { playerOverall } from '../engine/rating';
 
 /**
  * "Mi club": el equipo propio, con los jugadores que se consiguen en el gacha.
@@ -216,6 +218,31 @@ export function rewardMatch(result: 'win' | 'draw' | 'loss', withClub: boolean):
 }
 
 export { RARITY };
+
+export const cardOverall = playerOverall;
+
+/**
+ * Mejor plantilla posible con lo que se tiene: para cada hueco de la formación, el mejor jugador de ese puesto
+ * que quede; el banquillo, los mejores que sobren (con un portero si lo hay). Devuelve las claves en orden.
+ */
+export function autoSquad(save: ClubSave, size = 16): string[] {
+  const cards = save.owned.map((k) => cardByKey(k)).filter((c): c is Card => !!c);
+  const byOverall = (a: Card, b: Card) => cardOverall(b.player) - cardOverall(a.player);
+  const left = [...cards].sort(byOverall);
+  const take = (pred: (c: Card) => boolean): Card | undefined => {
+    const i = left.findIndex(pred);
+    return i >= 0 ? left.splice(i, 1)[0] : undefined;
+  };
+  const squad: string[] = [];
+  for (const slot of getFormation(save.formation).slots) {
+    const c = take((x) => x.player.position === slot.pos) ?? take(() => true);
+    if (c) squad.push(c.key);
+  }
+  const gk = take((x) => x.player.position === 'GK');
+  if (gk) squad.push(gk.key);
+  while (squad.length < size && left.length) squad.push(left.shift()!.key);
+  return squad;
+}
 
 // ------------------------------------------------------------ supertécnicas
 

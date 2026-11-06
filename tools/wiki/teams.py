@@ -175,7 +175,8 @@ STYLE = {
     'Rose Griffon': ('#2a3aa8', '#ece4d4', '#1e2234', '#2a3aa8', '#2a3aa8', '#d81e2a', '#1e2234', '#1e2234', {'gkLongSleeve': True, 'stripe': '#f2f2f2', 'collar': '#f2f2f2', 'num': '#f2f2f2'}),
     # The Great Horn (Sudáfrica): camiseta verde con franjas amarillas, pantalón amarillo y medias verdes; el portero rojo de manga larga con pantalón negro
     'The Great Horn': ('#1e8a3a', '#e8b020', '#b81e1e', '#1e8a3a', '#1e8a3a', '#1e8a3a', '#2a2a2a', '#b81e1e', {'gkLongSleeve': True, 'stripe': '#e8b020', 'collar': '#e8b020', 'num': '#e8b020'}),
-    'Tenkuu no Shito': ('#f2f2f2', '#d8c070', '#7ab8e8', '#b8a050'),
+    # Tenkuu no Shito (Sky Team): túnica blanca a rayas verde agua de manga larga, cuello negro, mallas negras y alas verde pálido; el portero amarillo con mangas negras
+    'Tenkuu no Shito': ('#f0ecec', '#f0ecec', '#e0c040', '#6ab0a8', '#f0ecec', '#1e1e22', '#e0c040', '#26262a', {'longSleeve': True, 'gkLongSleeve': True, 'vstripes': '#6ab0a8', 'wings': '#c8e8c0', 'stripe': '#d0a040', 'collar': '#26262a', 'num': '#26262a'}),
     'Makai Gundan Z': ('#3a1a4a', '#1a1a1a', '#8a1a2a', '#5a2a6a'),
     # Ogre (Equipo Ogro): camiseta roja con mangas y detalles morados, pantalón y medias moradas; el portero negro con mangas y guantes azul celeste
     'Ogre': ('#d82a2a', '#5a2aa0', '#26262a', '#d82a2a', '#5a2aa0', '#5a2aa0', '#26262a', '#2ab0d0', {'gkLongSleeve': True, 'gkGloves': '#2ab0d0', 'stripe': '#5a2aa0', 'collar': '#f2f2f2', 'num': '#f2f2f2'}),

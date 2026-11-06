@@ -384,6 +384,8 @@ def kit_for(colors, gk=False):
         k['hand'] = hexc(colors['gkGloves']) if colors.get('gkGloves') else (246, 246, 246, 255)
     if colors.get('vstripes') and not gk:
         k['vstripes'] = hexc(colors['vstripes'])
+    if colors.get('wings'):
+        k['wings'] = hexc(colors['wings'])
     if colors.get('zig') and not gk:
         k['zig'] = hexc(colors['zig'])
     for key in ('collar', 'num', 'stripe'):
@@ -421,6 +423,24 @@ def cape_back(d, t):
     d.polygon([P(50 + sw * 0.3, top + 4), P(50 + sw + 1, top + 4), P(50 + sw + 10, bottom - 2), P(50 + sw * 0.4, bottom - 2)], fill=tone(c, 0.8))
 
 
+def wings(d, t, view):
+    """Alas de plumas verde pálido a la espalda (Sky Team y Dark Angel): de frente y de espaldas asoman a los dos lados de los
+    hombros; de perfil, una por detrás."""
+    c = KIT['wings']
+    cd = tone(c, 0.8)
+    top, sw = 100, t['sw'] / 2
+    def wing(s, x0):
+        pts = [(x0, top + 4), (x0 + s * 26, top - 14), (x0 + s * 30, top - 4), (x0 + s * 26, top + 10), (x0 + s * 22, top + 26), (x0 + s * 8, top + 30)]
+        shape(d, blob_pts(pts), c, 1.4)
+        for k in range(3):
+            d.line([P(x0 + s * (6 + k * 6), top + 6 + k * 2), P(x0 + s * (18 + k * 4), top - 6 + k * 10)], fill=cd, width=int(1.0 * SS))
+    if view == 'side':
+        wing(-1, 46)
+    else:
+        wing(-1, 50 - sw + 6)
+        wing(1, 50 + sw - 6)
+
+
 def figure(view, tname, step=0, char=None, kit=None, num=None):
     """Figura completa en vectores. char: ficha de chars.py (None = Axel); kit: de kit_for (None = el del Raimon)."""
     KIT.clear()
@@ -441,6 +461,8 @@ def figure(view, tname, step=0, char=None, kit=None, num=None):
     t = TYPES[tname]
     if 'cape' in KIT and view != 'back':
         cape(d, t, view)
+    if KIT.get('wings') and view != 'back':
+        wings(d, t, view)
     if view == 'front':
         body_front(d, t)
         V.head(d) if char is None else H.draw(d, char, 'front')
@@ -448,6 +470,8 @@ def figure(view, tname, step=0, char=None, kit=None, num=None):
         body_front(d, t, back=True, num=num or NUM)
         if 'cape' in KIT:
             cape_back(d, t)
+        if KIT.get('wings'):
+            wings(d, t, view)
         head_back(d) if char is None else H.draw(d, char, 'back')
     else:
         body_side(d, t, step)

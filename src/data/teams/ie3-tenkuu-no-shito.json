@@ -5,10 +5,21 @@
  "name": "Sky Team",
  "short": "TNS",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#d8c070",
-  "gkShirt": "#7ab8e8",
-  "accent": "#b8a050"
+  "shirt": "#f0ecec",
+  "shorts": "#f0ecec",
+  "gkShirt": "#e0c040",
+  "accent": "#6ab0a8",
+  "sleeve": "#f0ecec",
+  "socks": "#1e1e22",
+  "gkShorts": "#e0c040",
+  "gkSleeve": "#26262a",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "vstripes": "#6ab0a8",
+  "wings": "#c8e8c0",
+  "stripe": "#d0a040",
+  "collar": "#26262a",
+  "num": "#26262a"
  },
  "formation": "f-pantheon",
  "players": [

@@ -4,12 +4,7 @@
  "wiki": "The Genesis",
  "name": "Génesis",
  "short": "THE",
- "colors": {
-  "shirt": "#e8e8e8",
-  "shorts": "#5a3a8a",
-  "gkShirt": "#c8a020",
-  "accent": "#7a5aa8"
- },
+ "colors": {"shirt": "#f0eef0", "shorts": "#f0eef0", "gkShirt": "#5a3a9a", "accent": "#4a4a54", "sleeve": "#3a3a44", "socks": "#f0eef0", "gkShorts": "#3a2a5a", "gkSleeve": "#3a3a44"},
  "formation": "f-genesis",
  "players": [
   {

@@ -96,10 +96,14 @@ STYLE = {
     # Épsilon (y Épsilon Plus): traje rojo con mangas y pantalón gris oscuro, medias rojas; el portero (Dvalin / Zel) de negro
     'Epsilon': ('#b81e3a', '#3a3a44', '#28262c', '#2a8aa0', '#3a3a44', '#b81e3a', '#28262c', '#28262c'),
     'Epsilon Kai': ('#b81e3a', '#3a3a44', '#28262c', '#2a8aa0', '#3a3a44', '#b81e3a', '#28262c', '#28262c'),
-    'The Genesis': ('#e8e8e8', '#5a3a8a', '#c8a020', '#7a5aa8'),
-    'Diamond Dust': ('#a8d8f2', '#2a4a6a', '#f2f2f2', '#4a8ac0'),
-    'Prominence': ('#d8342a', '#2a1a1a', '#f2a020', '#b82a22'),
-    'Chaos': ('#7a2a5a', '#1a1a2a', '#3a8ac0', '#8a3a6a'),
+    # Génesis: traje blanco con mangas y medias negras grises; portero morado
+    'The Genesis': ('#f0eef0', '#f0eef0', '#5a3a9a', '#4a4a54', '#3a3a44', '#f0eef0', '#3a2a5a', '#3a3a44'),
+    # Polvo de Diamantes: camiseta blanca con el pecho azul, pantalón y medias azul marino; portero negro
+    'Diamond Dust': ('#f0ece4', '#1e2e5a', '#2a2a30', '#2a7ac0', '#2a7ac0', '#2a4a8a', '#2a2a30', '#2a2a30'),
+    # Prominence: camiseta roja con el pecho blanco, pantalón negro y medias rojas; portero rojo oscuro
+    'Prominence': ('#d82a20', '#26222a', '#7a1a1a', '#f0ece4', '#d82a20', '#d82a20', '#26222a', '#7a1a1a'),
+    # Caos: camiseta roja y azul petróleo, pantalón negro y medias azul marino; portero negro
+    'Chaos': ('#d02a2a', '#22202a', '#2a2a30', '#2a9aa8', '#d02a2a', '#1e2e5a', '#2a2a30', '#2a2a30'),
     # Emperadores Oscuros: mono azul marino con una V azul, medias blancas; portero gris con la V amarilla
     'Dark Emperors': ('#1e2440', '#1e2440', '#7a7a80', '#1e8ac8', '#1e2440', '#e8e4e4', '#7a7a80', '#7a7a80'),
     # Jóvenes Inazuma: camiseta negra con mangas blancas, pantalón blanco y medias negras; portero rojo oscuro con mangas negras

@@ -23,7 +23,7 @@ REF_PX = 80
 OUT = (60, 24, 16, 255)
 
 # equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo
-TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai']
+TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis']
 # dibujos que no están en chars.py (Axel tiene su propio módulo, head_axel.py)
 SPECIAL = {}
 

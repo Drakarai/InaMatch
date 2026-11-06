@@ -11,6 +11,15 @@ SKULL_F = [(16, 64), (14, 36), (26, 14), (50, 6), (74, 14), (86, 36), (84, 64)]
 SKULL_B = [(16, 70), (14, 36), (26, 14), (50, 6), (74, 14), (86, 36), (84, 70), (66, 86), (34, 86)]
 
 
+def squash(layers, y0=96, f=0.5):
+    """Acorta lo que cae por debajo de y0 (melenas largas): con la cabeza tan grande, "hasta el pecho" queda mucho más arriba."""
+    out = []
+    for item in layers:
+        for l in (item if isinstance(item, list) else [item]):
+            out.append(dict(l, s=[(x, y if y <= y0 else y0 + (y - y0) * f) for x, y in l['s']]))
+    return out
+
+
 def bald(view):
     if view == 'front':
         return [L(blob(SKULL_F), 'skin'), L(blob([(62, 12), (86, 34), (84, 62), (72, 58)], 6), 'skin_d', 'b', False)]
@@ -19,26 +28,48 @@ def bald(view):
     return [L(blob(SKULL_B), 'skin'), L(blob([(58, 12), (86, 36), (84, 68), (66, 84)], 6), 'skin_d', 'b', False)]
 
 
-# ------------------------------------------------------------------ Paul Siddon (portero): corpulento, cabeza rapada con una
-# corona de rastas cortas verde azulado que salen de la coronilla y caen alrededor como serpientes; ceño y muecas
-def paul_dreads(view):
-    if view == 'side':
-        ends = [((40, 14), (8, 34)), ((36, 18), (-4, 56)), ((32, 22), (2, 80)), ((44, 12), (24, 2)), ((52, 12), (72, 8)), ((38, 20), (16, 70))]
-    elif view == 'front':
-        ends = [((24, 26), (2, 40)), ((20, 36), (-2, 56)), ((22, 48), (4, 68)), ((76, 26), (98, 40)), ((80, 36), (102, 56)), ((78, 48), (96, 68)),
-                ((42, 12), (30, 2)), ((58, 12), (70, 2))]
-    else:
-        ends = [((24, 26), (2, 40)), ((20, 36), (-2, 56)), ((22, 48), (4, 68)), ((76, 26), (98, 40)), ((80, 36), (102, 56)), ((78, 48), (96, 68)),
-                ((40, 20), (32, 60)), ((50, 20), (50, 64)), ((60, 20), (68, 60))]
-    return [x for p0, p1 in ends for x in dread(p0, p1, 3.6)]
+# ------------------------------------------------------------------ Paul Siddon (Poseidón, portero): corpulento, cabeza muy ancha y
+# redonda; la coronilla rapada (gris verdoso) con una franja de raíces verde azulado en lo alto, de la que salen rastas gruesas
+# que caen por detrás como tentáculos y asoman por los lados junto a la mandíbula; ojos pequeños, nariz chata y dientes apretados
+PAUL_FACE = blob([(10, 54), (50, 46), (90, 54), (95, 76), (88, 96), (68, 108), (50, 110), (32, 108), (12, 96), (5, 76)])
+
+
+def tentacle(pts, r=4.4, z='b'):
+    """Rasta curvada: varios tramos seguidos."""
+    return [x for a, b in zip(pts, pts[1:]) for x in dread(a, b, r, z)]
 
 
 CHARS['paul-siddon'] = {
-    'body': 'corpulento', 'pal': pal('#4a8a7a', '#f0b068', crown='#7a8a80'),
-    'face': {'eyes': 'round', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 92, 'big_ears': 1, 'ear_out': 3, 'hairline': False},
-    'front': bald('front') + [L(ell(50, 14, 12, 6), 'crown', 'b', ln=True)] + paul_dreads('front'),
-    'side': bald('side') + [L(ell(44, 14, 10, 6), 'crown', 'b', ln=True)] + paul_dreads('side'),
-    'back': bald('back') + [L(ell(50, 14, 12, 6), 'crown', 'b', ln=True)] + paul_dreads('back'),
+    'body': 'corpulento', 'pal': pal('#4a8a7a', '#f0b068', crown='#7e8c80', crown_d='#5e6a60', nose='#c8804a'),
+    'face': {'eyes': 'round', 'brows': 'angry', 'mouth': 'none', 'eye_y': 74, 'eye_sep': 16, 'big_ears': 1, 'ear_out': 7, 'face_front': PAUL_FACE,
+             'nose': (50, 83, 3.2), 'nose_side': (93, 81, 3), 'hairline': False},
+    'front': tentacle([(16, 60), (6, 76), (-2, 88)], 3.8) + tentacle([(84, 60), (94, 76), (102, 88)], 3.8)
+             + tentacle([(20, 50), (4, 62), (-4, 74)], 3.6) + tentacle([(80, 50), (96, 62), (104, 74)], 3.6)
+             + [L(blob([(4, 70), (4, 42), (16, 20), (50, 10), (84, 20), (96, 42), (96, 70)]), 'skin'),
+                L(blob([(66, 16), (94, 40), (94, 68), (78, 60)], 6), 'skin_d', 'b', False),
+                L(blob([(14, 30), (22, 14), (50, 4), (78, 14), (86, 30), (74, 24), (50, 19), (26, 24)]), 'mid', 'b', ln=True),
+                L(blob([(56, 6), (74, 12), (80, 24), (68, 20)], 4), 'shade', 'b', False),
+                strand([(34, 14), (36, 22)], OUTC, 'b', 0.9), strand([(50, 10), (50, 18)], OUTC, 'b', 0.9), strand([(66, 14), (64, 22)], OUTC, 'b', 0.9),
+                # dientes apretados en una mueca, mofletes y papada
+                L([(36, 92), (64, 91), (62, 99), (38, 100)], WHITE, 'f', ln=True), L([(50, 91), (50, 99.5)], OUTC, 'f', False, False, 0.9),
+                L([(43, 91.5), (43, 99.8)], OUTC, 'f', False, False, 0.8), L([(57, 91.2), (57, 99.3)], OUTC, 'f', False, False, 0.8),
+                L(quad((18, 86), (22, 94), (28, 98)), 'skin_d', 'f', False, False, 1.4), L(quad((82, 86), (78, 94), (72, 98)), 'skin_d', 'f', False, False, 1.4),
+                L(quad((38, 106), (50, 109), (62, 106)), 'skin_d', 'f', False, False, 1.3)],
+    'side': [L(blob([(46, 98), (18, 94), (4, 66), (8, 34), (28, 12), (58, 6), (84, 14), (96, 36), (98, 64), (94, 90), (72, 106), (54, 106)]), 'skin'),
+             L(blob([(28, 18), (56, 8), (82, 16), (92, 32), (76, 34), (56, 30), (40, 30)]), 'crown'),
+             L(blob([(28, 20), (40, 14), (44, 30), (32, 36)], 5), 'crown_d', 'b', False)]
+            + tentacle([(42, 14), (20, 14), (4, 32), (0, 54)], 4.6) + tentacle([(38, 20), (16, 34), (6, 58), (10, 76)], 4.6)
+            + tentacle([(36, 26), (22, 50), (20, 72), (28, 88)], 4.4) + tentacle([(40, 30), (36, 56), (40, 78), (50, 90)], 4.2)
+            + [L(blob([(30, 18), (48, 6), (76, 6), (90, 14), (76, 16), (50, 18)]), 'mid', 'b', ln=True),
+               L([(84, 90), (94, 88), (94, 95), (85, 96)], WHITE, 'f', ln=True)],
+    'back': [L(blob([(4, 72), (4, 42), (16, 20), (50, 10), (84, 20), (96, 42), (96, 72), (74, 94), (26, 94)]), 'skin'),
+             L(blob([(58, 18), (90, 40), (88, 70), (68, 88)], 6), 'skin_d', 'b', False),
+             L(blob([(16, 40), (24, 18), (50, 10), (76, 18), (84, 40), (66, 46), (50, 48), (34, 46)]), 'crown'),
+             L(blob([(14, 30), (22, 14), (50, 4), (78, 14), (86, 30), (74, 24), (50, 19), (26, 24)]), 'mid', 'b', ln=True)]
+            + tentacle([(30, 20), (14, 40), (4, 58), (-2, 70)], 4.4) + tentacle([(70, 20), (86, 40), (96, 58), (102, 70)], 4.4)
+            + tentacle([(40, 18), (30, 44), (24, 66), (28, 80)], 4.6) + tentacle([(60, 18), (70, 44), (76, 66), (72, 80)], 4.6)
+            + tentacle([(46, 18), (42, 50), (40, 76), (44, 92)], 4.8) + tentacle([(54, 18), (58, 50), (60, 76), (56, 92)], 4.8)
+            + tentacle([(50, 18), (50, 60), (50, 100)], 4.8),
 }
 
 # ------------------------------------------------------------------ Apollo Light: pelo verde oliva rizado y despeinado con una
@@ -62,26 +93,35 @@ CHARS['apollo-light'] = {
              L(quad((10, 30), (50, 12), (90, 30)) + quad((90, 38), (50, 20), (10, 38)), 'band', 'f', ln=True)],
 }
 
-# ------------------------------------------------------------------ Jeff Iron: piel morena, melena azul marino ondulada hasta
-# los hombros con una cinta dorada fina en la frente; ojos verdes afilados
+# ------------------------------------------------------------------ Jeff Iron: piel morena, melena azul marino de rizos sueltos
+# hasta los hombros, con mechones ondulados que enmarcan la cara y una cinta dorada fina en la frente; ojos verdes afilados
 CHARS['jeff-iron'] = {
-    'body': 'normal', 'pal': pal('#2e3466', '#a86a3a', iris='#7aa86a', gold='#d8b860'),
+    'body': 'normal', 'pal': pal('#2e3466', '#a86a3a', iris='#7aa86a', gold='#f0c840'),
     'face': {'eyes': 'sharp', 'brows': True, 'mouth': 'smile', 'mouth_y': 92, 'hairline': (58, 50)},
-    'front': [L(blob([(4, 100), (-2, 60), (8, 22), (50, 6), (92, 22), (102, 60), (96, 100), (82, 96), (82, 62), (18, 62), (18, 96)])),
-              L(bumpy(2, 84, 10, 14, 6, 0.1)), L(bumpy(98, 84, 10, 14, 6, 0.1)), L(bumpy(4, 64, 8, 10, 6, 0.1)), L(bumpy(96, 64, 8, 10, 6, 0.1)),
-              L(blob([(62, 12), (98, 46), (96, 96), (84, 94)], 6), 'shade', 'b', False), sheen(22, 48, 20, 3),
-              L(quad((14, 54), (50, 46), (86, 54)), 'gold', 'f', False, False, 1.8),
-              wavy((14, 42), (30, 36), (18, 70), -4, z='f'), wavy((70, 36), (86, 42), (84, 70), 4, z='f', light_left=False),
-              L(blob([(34, 34), (66, 34), (60, 42), (50, 46), (40, 42)], 5), 'mid', 'f')],
-    'side': [L(blob([(48, 100), (10, 102), (-4, 62), (2, 28), (24, 8), (56, 4), (82, 14), (94, 34), (92, 58), (76, 56), (62, 58), (58, 74), (56, 96)])),
-             L(bumpy(2, 86, 10, 14, 6, 0.1)), L(bumpy(20, 98, 12, 10, 6, 0.1)),
-             L(blob([(4, 50), (6, 92), (40, 98), (24, 66)], 6), 'shade', 'b', False), sheen(30, 62, 14, 3),
-             L(quad((10, 44), (50, 40), (92, 48)), 'gold', 'f', False, False, 1.8),
-             wavy((56, 30), (90, 40), (92, 72), 6, z='f', light_left=False)],
-    'back': [L(blob([(4, 100), (-2, 60), (8, 22), (50, 6), (92, 22), (102, 60), (96, 100), (50, 106)])),
-             L(bumpy(10, 100, 12, 10, 6, 0.1)), L(bumpy(50, 104, 14, 10, 6, 0.1)), L(bumpy(90, 100, 12, 10, 6, 0.1)),
-             L(blob([(58, 12), (98, 46), (96, 98), (66, 104)], 6), 'shade', 'b', False), sheen(22, 48, 20, 3),
-             L(quad((4, 46), (50, 38), (96, 46)), 'gold', 'f', False, False, 1.8)],
+    'front': [L(bumpy(50, 30, 44, 26, 12, 0.06)),
+              L(blob([(8, 96), (2, 60), (8, 34), (92, 34), (98, 60), (92, 96), (82, 92), (82, 62), (18, 62), (18, 92)])),
+              wavy((2, 70), (14, 72), (-6, 102), -5), wavy((10, 80), (20, 84), (8, 108), 5),
+              wavy((86, 72), (98, 70), (106, 102), 5, light_left=False), wavy((80, 84), (90, 80), (92, 108), -5, light_left=False),
+              wavy((2, 46), (8, 60), (-10, 66), 4), wavy((92, 60), (98, 46), (110, 66), -4, light_left=False),
+              L(blob([(62, 12), (96, 46), (94, 92), (84, 90)], 6), 'shade', 'b', False), sheen(22, 48, 14, 3),
+              L(quad((14, 54), (50, 46), (86, 54)), 'gold', 'f', False, False, 2.4),
+              wavy((12, 42), (28, 36), (16, 74), -5, z='f'), wavy((28, 36), (46, 34), (36, 58), -4, z='f'),
+              wavy((54, 34), (72, 36), (64, 58), 4, z='f', light_left=False), wavy((72, 36), (88, 42), (86, 74), 5, z='f', light_left=False)],
+    'side': [L(bumpy(44, 32, 42, 26, 12, 0.06)),
+             L(blob([(48, 96), (12, 98), (0, 62), (4, 34), (30, 14), (60, 8), (84, 16), (94, 34), (92, 58), (76, 56), (62, 58), (58, 74), (56, 92)])),
+             wavy((0, 66), (8, 50), (-14, 70), 5), wavy((2, 84), (10, 70), (-10, 96), -5), wavy((14, 94), (28, 98), (14, 112), 5),
+             wavy((32, 96), (46, 96), (40, 112), -4),
+             L(blob([(4, 50), (6, 90), (40, 96), (24, 66)], 6), 'shade', 'b', False), sheen(30, 62, 12, 3),
+             L(quad((10, 44), (50, 40), (92, 48)), 'gold', 'f', False, False, 2.4),
+             wavy((56, 30), (90, 40), (92, 74), 6, z='f', light_left=False)],
+    'back': [L(bumpy(50, 30, 44, 26, 12, 0.06)),
+             L(blob([(8, 96), (2, 60), (8, 34), (92, 34), (98, 60), (92, 96), (50, 102)])),
+             wavy((2, 70), (14, 72), (-6, 102), -5), wavy((86, 72), (98, 70), (106, 102), 5, light_left=False),
+             wavy((2, 46), (8, 60), (-10, 66), 4), wavy((92, 60), (98, 46), (110, 66), -4, light_left=False),
+             wavy((12, 94), (28, 98), (12, 112), 5), wavy((28, 98), (44, 100), (32, 116), -5), wavy((44, 100), (58, 100), (54, 118), 5),
+             wavy((58, 100), (74, 98), (72, 116), -5, light_left=False), wavy((74, 98), (90, 94), (92, 112), 5, light_left=False),
+             L(blob([(58, 12), (96, 46), (94, 94), (66, 100)], 6), 'shade', 'b', False), sheen(22, 48, 14, 3),
+             L(quad((4, 46), (50, 38), (96, 46)), 'gold', 'f', False, False, 2.4)],
 }
 
 # ------------------------------------------------------------------ Lane War: melena roja con un flequillo grande que le tapa un
@@ -196,76 +236,98 @@ CHARS['wesley-knox'] = {
                                                                L(blob([(44, 4), (56, 4), (60, -16), (50, -22), (42, -14)]), 'mid', 'b', ln=True)],
 }
 
-# ------------------------------------------------------------------ Byron Love (Afrodita): melena rubia muy clara, lisa y larga
-# hasta más abajo de los hombros, con raya en medio y mechones a los lados de la cara; ojos rojos grandes
+# ------------------------------------------------------------------ Byron Love (Afrodita): melena rubia muy clara, lisa y larguísima
+# (le llega al pecho), coronilla estrecha con raya en medio y un remolino; mechones largos en punta sobre la frente (uno le baja
+# entre los ojos) y dos cortinas a los lados de la cara que caen por delante de los hombros; ojos rojos afilados y sonrisa
 CHARS['byron-love'] = {
-    'body': 'normal', 'pal': pal('#e2de9c', '#fce0c4', iris='#b0201a'),
-    'face': {'eyes': 'big', 'brows': False, 'mouth': 'smile', 'mouth_y': 92, 'hairline': (58, 50)},
-    'front': [L(blob([(2, 128), (-4, 64), (8, 20), (50, 6), (92, 20), (104, 64), (98, 128), (82, 124), (82, 66), (18, 66), (18, 124)])),
-              L(blob([(62, 12), (100, 50), (96, 124), (86, 122)], 6), 'shade', 'b', False), sheen(22, 48, 20, 3),
-              strand([(50, 8), (50, 40)], 'shade', 'b', 1.2),
-              L(quad((48, 16), (50, 20), (52, 16)), 'shade', 'b', False, False, 1.0),
-              spk((12, 42), (32, 34), (18, 92), 5, z='f'), spk((28, 36), (48, 30), (40, 66), 5, z='f'),
-              spk((52, 30), (72, 36), (62, 66), 5, z='f', light_left=False), spk((68, 34), (88, 42), (82, 92), 5, z='f', light_left=False),
-              L(blob([(10, 60), (20, 62), (22, 110), (14, 126), (8, 100)]), 'mid', 'f'), L(blob([(90, 60), (80, 62), (78, 110), (86, 126), (92, 100)]), 'mid', 'f'),
-              strand([(20, 64), (20, 112), (14, 124)], OUTC, 'f', 1.0), strand([(80, 64), (80, 112), (86, 124)], OUTC, 'f', 1.0)],
-    'side': [L(blob([(56, 128), (14, 130), (-2, 80), (2, 30), (24, 8), (56, 4), (82, 14), (94, 34), (92, 58), (76, 56), (62, 58), (58, 76), (58, 110)])),
-             L(blob([(4, 50), (8, 120), (46, 126), (26, 80)], 6), 'shade', 'b', False), sheen(30, 62, 14, 3),
-             strand([(20, 40), (14, 124)], 'shade', 'b', 1.0), strand([(40, 30), (36, 126)], 'shade', 'b', 1.0),
-             spk((56, 30), (92, 40), (92, 84), 6, z='f', light_left=False)],
-    'back': [L(blob([(2, 128), (-4, 64), (8, 20), (50, 6), (92, 20), (104, 64), (98, 128), (50, 134)])),
-             L(blob([(58, 12), (100, 50), (96, 126), (66, 132)], 6), 'shade', 'b', False), sheen(22, 48, 20, 3)]
-            + [strand([(x, 30), (x + (x - 50) * 0.15, 128)], 'shade', 'b', 1.0) for x in (24, 38, 50, 62, 76)],
+    'body': 'normal', 'pal': pal('#e4dea0', '#fce0c4', iris='#b81a14', shade='#c2b46e', deep='#9a8a50'),
+    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'smile', 'mouth_y': 92, 'eye_y': 76, 'hairline': (60, 50)},
+    'front': [L(blob([(8, 136), (4, 100), (6, 52), (16, 20), (50, 8), (84, 20), (94, 52), (96, 100), (92, 136), (82, 132), (80, 76), (20, 76), (18, 132)])),
+              spk((4, 128), (16, 132), (-2, 152), 3.5), spk((14, 134), (26, 130), (22, 154), 3.5, light_left=False),
+              spk((74, 130), (86, 134), (78, 154), 3.5), spk((84, 132), (96, 128), (102, 152), 3.5, light_left=False),
+              L(blob([(66, 14), (96, 50), (96, 142), (86, 140), (84, 74)], 6), 'shade', 'b', False), sheen(24, 46, 20, 3),
+              strand([(50, 8), (50, 30)], 'deep', 'b', 1.1), L(quad((45, 12), (50, 5), (55, 10)), 'deep', 'b', False, False, 1.1),
+              strand([(36, 12), (22, 46)], 'shade', 'b', 1.0), strand([(64, 12), (78, 46)], 'shade', 'b', 1.0),
+              # cortinas a los lados de la cara, por delante de los hombros
+              L(blob([(8, 48), (24, 50), (28, 96), (24, 126), (16, 138), (8, 110)]), 'mid', 'f'),
+              L(blob([(92, 48), (76, 50), (72, 96), (76, 126), (84, 138), (92, 110)]), 'mid', 'f'),
+              spk((10, 124), (22, 128), (14, 150), 3, z='f'), spk((20, 126), (27, 118), (30, 146), 2.5, z='f', light_left=False),
+              spk((73, 118), (80, 126), (70, 146), 2.5, z='f'), spk((78, 128), (90, 124), (86, 150), 3, z='f', light_left=False),
+              L(blob([(80, 54), (90, 60), (90, 140), (82, 136)], 5), 'shade', 'f', False),
+              strand([(25, 52), (28, 96), (24, 122)], OUTC, 'f', 1.0), strand([(75, 52), (72, 96), (76, 122)], OUTC, 'f', 1.0),
+              strand([(16, 60), (16, 124)], 'shade', 'f', 0.9), strand([(84, 60), (84, 124)], 'shade', 'f', 0.9),
+              strand([(21, 70), (22, 118)], 'deep', 'f', 0.8), strand([(79, 70), (78, 118)], 'deep', 'f', 0.8),
+              # mechones en punta sobre la frente; el del centro baja entre los ojos
+              spk((14, 40), (30, 32), (22, 80), 4, z='f'), spk((28, 34), (44, 28), (36, 66), 4, z='f'),
+              spk((42, 28), (56, 30), (44, 88), 3.5, z='f'), spk((54, 30), (70, 34), (62, 64), 4, z='f', light_left=False),
+              spk((68, 34), (86, 40), (78, 80), 4, z='f', light_left=False)],
+    'side': [spk((10, 126), (24, 132), (2, 152), 4), spk((24, 132), (38, 134), (26, 156), 4), spk((38, 134), (52, 132), (46, 156), 4, light_left=False),
+             spk((50, 128), (60, 120), (64, 150), 3.5, light_left=False),
+             L(blob([(60, 134), (16, 136), (6, 100), (6, 44), (20, 12), (52, 4), (80, 12), (92, 32), (90, 56), (76, 54), (64, 58), (60, 80), (62, 114)])),
+             L(blob([(4, 60), (8, 136), (46, 142), (24, 90)], 6), 'shade', 'b', False), sheen(30, 62, 12, 3),
+             strand([(22, 30), (14, 140)], 'shade', 'b', 1.0), strand([(40, 26), (36, 142)], 'shade', 'b', 1.0), strand([(54, 60), (54, 140)], 'deep', 'b', 1.0),
+             spk((58, 26), (90, 36), (92, 84), 6, z='f', light_left=False), spk((52, 52), (64, 52), (60, 104), 3, z='f')],
+    'back': [spk((4, 128), (18, 134), (-2, 154), 4), spk((18, 134), (34, 136), (22, 158), 4), spk((34, 136), (50, 138), (40, 160), 4),
+             spk((50, 138), (66, 136), (60, 160), 4, light_left=False), spk((66, 136), (82, 134), (78, 158), 4, light_left=False),
+             spk((82, 134), (96, 128), (102, 154), 4, light_left=False),
+             L(blob([(6, 138), (2, 100), (6, 52), (16, 20), (50, 8), (84, 20), (94, 52), (98, 100), (94, 138), (50, 142)])),
+             L(blob([(58, 14), (96, 50), (98, 140), (66, 146)], 6), 'shade', 'b', False), sheen(24, 46, 20, 3),
+             L(quad((45, 12), (50, 5), (55, 10)), 'deep', 'b', False, False, 1.1)]
+            + [strand([(x, 24), (x + (x - 50) * 0.18, 142)], 'shade', 'b', 1.0) for x in (22, 34, 44, 56, 66, 78)],
 }
+for _v in ('front', 'side', 'back'):
+    CHARS['byron-love'][_v] = squash(CHARS['byron-love'][_v], 92, 0.55)
 
 # ------------------------------------------------------------------ Jonas Demetrius: casco griego de metal con la cresta roja de
-# delante atrás, carrilleras y una abertura en T para los ojos; asoma pelo castaño en la nuca
-HELM_F = blob([(10, 98), (8, 50), (14, 22), (34, 8), (50, 6), (66, 8), (86, 22), (92, 50), (90, 98), (72, 100), (66, 84), (60, 64), (40, 64),
-               (34, 84), (28, 100)], 8)
+# delante atrás; baja hasta las cejas, con una pieza que cae sobre la nariz y carrilleras a los lados de la cara (que queda a la
+# vista en el hueco); asoma pelo castaño en la nuca
+HELM_F = [(8, 100), (6, 52), (12, 24), (32, 8), (50, 4), (68, 8), (88, 24), (94, 52), (92, 100), (76, 102), (72, 88), (74, 68), (60, 64),
+          (55, 66), (53, 80), (47, 80), (45, 66), (40, 64), (26, 68), (28, 88), (24, 102)]
 CHARS['jonas-demetrius'] = {
     'body': 'normal', 'pal': pal('#5a3a2a', '#f6c08e', helm='#a0a0a8', helm_d='#6e6e78', helm_l='#d0d0d8', crest='#b02a10', crest_d='#801a08'),
-    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'frown', 'mouth_y': 93, 'ears': False, 'hairline': False},
-    'front': [L(blob([(44, 8), (44, -14), (50, -18), (56, -14), (56, 8)], 6), 'crest', 'b', ln=True),
-              L(HELM_F, 'helm', 'f', ln=True), L(blob([(62, 10), (88, 30), (90, 96), (74, 98), (68, 70)], 6), 'helm_d', 'f', False),
-              L(blob([(20, 30), (34, 16), (44, 14), (32, 28)], 4), 'helm_l', 'f', False),
-              L([(40, 66), (60, 66)], 'helm_d', 'f', False, False, 1.4),
-              L(blob([(44, 30), (50, 26), (56, 30), (54, 44), (50, 50), (46, 44)], 4), 'helm_d', 'f', ln=True),
-              L(quad((14, 54), (50, 46), (86, 54)), 'helm_d', 'f', False, False, 1.4)],
+    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'frown', 'mouth_y': 93, 'eye_y': 76, 'eye_sep': 13, 'ears': False, 'hairline': False},
+    'front': [L(blob([(42, 8), (42, -16), (50, -20), (58, -16), (58, 8)], 6), 'crest', 'b', ln=True),
+              L(blob([(50, -18), (58, -16), (58, 6), (52, 6)], 4), 'crest_d', 'b', False),
+              L(HELM_F, 'helm', 'f', ln=True), L([(64, 10), (88, 26), (92, 54), (90, 98), (78, 100), (74, 88), (76, 66), (68, 40)], 'helm_d', 'f', False),
+              L(blob([(18, 30), (32, 14), (44, 12), (30, 28)], 4), 'helm_l', 'f', False),
+              L([(40, 44), (50, 36), (60, 44), (50, 52)], 'helm_d', 'f', ln=True),
+              L(quad((12, 58), (50, 48), (88, 58)), 'helm_d', 'f', False, False, 1.3)],
     'side': [L(blob([(24, 20), (40, -4), (66, -12), (96, -6), (86, 2), (64, 0), (42, 10)]), 'crest', 'b', ln=True),
              L(blob([(26, 4), (50, -6), (80, -6), (60, 2), (40, 10)], 5), 'crest_d', 'b', False),
-             L(blob([(12, 84), (8, 50), (14, 22), (36, 6), (64, 6), (84, 18), (94, 40), (92, 58), (78, 58), (74, 74), (80, 98), (64, 102), (56, 84),
-                     (40, 90), (24, 96)]), 'helm', 'f', ln=True),
+             L([(12, 86), (8, 50), (14, 22), (36, 6), (64, 4), (84, 16), (96, 40), (96, 62), (84, 64), (80, 70), (84, 100), (66, 104), (58, 86), (40, 90),
+                (24, 96)], 'helm', 'f', ln=True),
              L(blob([(12, 50), (18, 24), (34, 14), (32, 60), (22, 90)], 6), 'helm_d', 'f', False),
              L(blob([(40, 14), (64, 10), (80, 18), (60, 18)], 4), 'helm_l', 'f', False),
-             L(quad((14, 54), (50, 50), (92, 52)), 'helm_d', 'f', False, False, 1.4)],
-    'back': [L(blob([(44, 10), (44, -14), (50, -18), (56, -14), (56, 10)], 6), 'crest', 'b', ln=True),
-             L(blob([(24, 88), (30, 70), (70, 70), (76, 88), (50, 96)]), 'mid', 'b', ln=True),
-             L(blob([(10, 78), (8, 46), (14, 22), (34, 8), (50, 6), (66, 8), (86, 22), (92, 46), (90, 78), (50, 72)]), 'helm', 'f', ln=True),
-             L(blob([(58, 10), (88, 30), (90, 76), (64, 74)], 6), 'helm_d', 'f', False),
-             L(quad((10, 56), (50, 50), (90, 56)), 'helm_d', 'f', False, False, 1.4)],
+             L(quad((14, 56), (50, 50), (94, 56)), 'helm_d', 'f', False, False, 1.3)],
+    'back': [L(blob([(42, 10), (42, -16), (50, -20), (58, -16), (58, 10)], 6), 'crest', 'b', ln=True),
+             L(blob([(24, 90), (28, 70), (72, 70), (76, 90), (50, 98)]), 'mid', 'b', ln=True),
+             L(blob([(8, 80), (6, 48), (12, 22), (32, 8), (50, 4), (68, 8), (88, 22), (94, 48), (92, 80), (50, 74)]), 'helm', 'f', ln=True),
+             L(blob([(58, 10), (88, 30), (92, 78), (64, 76)], 6), 'helm_d', 'f', False),
+             L(quad((8, 58), (50, 52), (92, 58)), 'helm_d', 'f', False, False, 1.3)],
 }
 
-# ------------------------------------------------------------------ Gus Heeley: piel tostada, pelo castaño de pinchos en todas
-# direcciones; sonrisa pícara y mirada afilada
-GUS_TOP = [spk((6, 62), (10, 44), (-14, 56), 6), spk((10, 44), (20, 26), (-14, 22), 7), spk((20, 26), (38, 12), (16, -16), 7),
-           spk((38, 12), (58, 8), (48, -26), 8), spk((58, 10), (76, 18), (84, -12), 7, light_left=False),
-           spk((76, 22), (88, 38), (114, 24), 7, light_left=False), spk((88, 42), (94, 62), (114, 60), 6, light_left=False)]
+# ------------------------------------------------------------------ Gus Heeley: piel tostada, pelo castaño en punta: un pincho alto
+# en el centro, otros que se abren hacia arriba y a los lados y unos cortos que asoman bajo las orejas; mechones de punta en la
+# frente, sonrisa pícara y mirada afilada
+GUS_TOP = [spk((8, 54), (14, 38), (-12, 34), 7), spk((16, 34), (30, 18), (2, 2), 7), spk((30, 18), (46, 10), (30, -14), 7),
+           spk((42, 10), (58, 10), (50, -26), 7), spk((54, 10), (70, 18), (70, -14), 7, light_left=False),
+           spk((70, 18), (84, 34), (98, 2), 7, light_left=False), spk((86, 38), (92, 54), (112, 34), 7, light_left=False),
+           spk((8, 66), (14, 56), (-6, 72), 4), spk((86, 56), (92, 66), (106, 72), 4, light_left=False)]
 CHARS['gus-heeley'] = {
     'body': 'normal', 'pal': pal('#5a3a30', '#e0a040'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 92, 'hairline': (60, 50)},
-    'front': GUS_TOP + [L(blob([(8, 74), (6, 40), (18, 16), (50, 6), (82, 16), (94, 40), (92, 74), (80, 66), (20, 66)])),
-                        spk((6, 70), (14, 80), (-8, 88), 4), spk((86, 80), (94, 70), (108, 88), 4, light_left=False),
-                        L(blob([(62, 12), (92, 38), (90, 70), (78, 66)], 6), 'shade', 'b', False),
-                        spk((12, 46), (30, 40), (18, 72), 5, z='f'), spk((30, 40), (48, 36), (38, 62), 5, z='f'),
-                        spk((52, 36), (70, 40), (62, 62), 5, z='f', light_left=False), spk((70, 40), (88, 46), (84, 72), 5, z='f', light_left=False)],
-    'side': [spk((16, 40), (24, 22), (-18, 18), 8), spk((24, 24), (42, 12), (8, -16), 8), spk((42, 12), (62, 6), (54, -24), 8),
-             spk((14, 58), (16, 40), (-18, 52), 7), spk((18, 74), (22, 58), (-10, 82), 6), spk((26, 86), (30, 74), (8, 98), 5),
+    'front': GUS_TOP + [L(blob([(10, 70), (8, 40), (20, 16), (50, 6), (80, 16), (92, 40), (90, 70), (80, 64), (20, 64)])),
+                        L(blob([(62, 12), (90, 38), (88, 66), (78, 62)], 6), 'shade', 'b', False),
+                        spk((12, 46), (30, 40), (18, 70), 5, z='f'), spk((30, 40), (48, 36), (38, 62), 5, z='f'),
+                        spk((52, 36), (70, 40), (62, 62), 5, z='f', light_left=False), spk((70, 40), (88, 46), (84, 70), 5, z='f', light_left=False)],
+    'side': [spk((16, 40), (24, 22), (-14, 20), 8), spk((24, 24), (42, 12), (10, -12), 8), spk((42, 12), (62, 6), (52, -26), 8),
+             spk((14, 58), (16, 40), (-14, 54), 7), spk((18, 74), (22, 58), (-6, 82), 6),
              L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((62, 12), (82, 22), (100, 0), 7, light_left=False), spk((56, 30), (88, 40), (92, 70), 6, z='f', light_left=False)],
-    'back': GUS_TOP + [L(blob([(8, 76), (6, 40), (18, 16), (50, 6), (82, 16), (94, 40), (92, 76), (66, 88), (34, 88)])),
-                       spk((12, 74), (30, 86), (6, 98), 5), spk((30, 88), (50, 90), (40, 108), 5), spk((50, 90), (70, 88), (62, 108), 5, light_left=False),
-                       spk((70, 86), (88, 74), (94, 98), 5, light_left=False),
-                       L(blob([(58, 12), (92, 38), (90, 74), (66, 86)], 6), 'shade', 'b', False)],
+             spk((62, 12), (82, 22), (96, 0), 7, light_left=False), spk((56, 30), (88, 40), (92, 70), 6, z='f', light_left=False)],
+    'back': GUS_TOP + [L(blob([(10, 74), (8, 40), (20, 16), (50, 6), (80, 16), (92, 40), (90, 74), (66, 86), (34, 86)])),
+                       spk((14, 72), (32, 84), (12, 96), 5), spk((32, 86), (50, 88), (40, 104), 5), spk((50, 88), (68, 86), (60, 104), 5, light_left=False),
+                       spk((68, 84), (86, 72), (88, 96), 5, light_left=False),
+                       L(blob([(58, 12), (90, 38), (88, 72), (66, 84)], 6), 'shade', 'b', False)],
 }
 
 # ------------------------------------------------------------------ Henry House: melena castaña lisa hasta los hombros con raya
@@ -372,3 +434,7 @@ CHARS['ned-yousef'] = {
                                  spk((56, 30), (88, 40), (92, 60), 5, z='f', light_left=False)],
     'back': ned_locks('back') + [L(blob(SKULL_B))] + back_hair() + [strand([(50, 8), (50, 84)], 'deep', 'b', 1.2)],
 }
+
+# el himatión gris cruzado sobre el hombro que llevan varios del Zeus
+for _pid in ('apollo-light', 'danny-wood', 'artie-mishman', 'byron-love', 'gus-heeley', 'harry-closs', 'ned-yousef'):
+    CHARS[_pid]['sash'] = '#a4a8ac'

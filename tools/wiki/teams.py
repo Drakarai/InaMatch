@@ -76,7 +76,7 @@ STYLE = {
     # Mikage Sennou (Brain): camiseta crema con mangas gris pardo, pantalón y medias grises; portero gris con pantalón oliva
     'Mikage Sennou': ('#e8dcc0', '#8a8076', '#9a9488', '#6a4a3a', '#8a7e74', '#a09888', '#5a5238'),
     # Zeus: todo blanco con ribetes azul petróleo y medias moradas grisáceas; portero marrón oscuro con pantalón malva
-    'Zeus': ('#f2f2f2', '#f2f2f2', '#3a2c18', '#1e5a6a', '#f2f2f2', '#6a6078', '#8a7e94'),
+    'Zeus': ('#f2f2f2', '#f2f2f2', '#3a2c18', '#1e5a6a', '#f2f2f2', '#6a6078', '#8a7e94', '#1e2a4a'),
     'Teikoku Gakuen': ('#36584a', '#7a6438', '#f08a2a', '#b0202a', '#36584a'),
     # Occult: camiseta morada (mangas iguales), pantalón gris, medias oscuras; portero de rojo
     'Occult': ('#4a4a7e', '#a2a2aa', '#a81c1c', '#3a3a68', '#4a4a7e', '#4a4a52'),
@@ -978,7 +978,7 @@ for season, game, name, fkey, page, players in raw_teams:
         'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
         'short': short,
-        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 else {})},
+        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 else {}), **({'gkSleeve': style[7]} if len(style) > 7 else {})},
         'formation': fid,
         'players': players,
     })

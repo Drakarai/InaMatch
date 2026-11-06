@@ -120,6 +120,15 @@ def body_front(d, t, back=False, num='10'):
         rag = [(cx + s * 8, top), (cx + s * (sw - 6), top), (cx + s * (sw + 0.5), top + 8), (cx + s * (sw - 1), top + 15), (cx + s * (sw - 7), top + 13)]
         d.polygon([P(*p) for p in rag], fill=KIT['sleeve'])
         d.line([P(cx + s * 8, top), P(cx + s * (sw - 7), top + 13), P(cx + s * (sw - 1), top + 15)], fill=OUT, width=int(1.1 * SS))
+    # tela cruzada sobre un hombro hasta la cadera contraria (el himatión gris del Zeus)
+    if KIT.get('sash'):
+        k = 1 if not back else -1
+        c, cd = KIT['sash'], tone(KIT['sash'], 0.8)
+        band = [(cx + k * (sw - 9), top - 1), (cx + k * (sw + 1), top + 4), (cx + k * (sw - 2), top + 16), (cx - k * (ww - 4), waist + 4),
+                (cx - k * (ww + 3), waist - 1), (cx - k * (ww + 1), waist - 9)]
+        shape(d, blob_pts(band), c, 1.3)
+        d.polygon([P(cx + k * (sw - 3), top + 10), P(cx + k * (sw - 2), top + 16), P(cx - k * (ww - 4), waist + 4), P(cx - k * (ww - 2), waist - 2)], fill=cd)
+        d.line([P(cx + k * (sw - 6), top + 4), P(cx - k * (ww - 2), waist - 4)], fill=cd, width=int(1.0 * SS))
     # brazos colgando junto al torso, por delante de sus bordes
     for s in (-1, 1):
         sh = (cx + s * (sw - 1), top + 7)
@@ -167,6 +176,10 @@ def body_side(d, t, step=0):
     # torso
     shape(d, rrect(cx - depth / 2, top, cx + depth / 2, waist + 2, 8), KIT['shirt'])
     d.polygon([P(cx - depth / 2 + 2, top + 8), P(cx - depth / 2 + 6, top + 8), P(cx - depth / 2 + 6, waist), P(cx - depth / 2 + 2, waist)], fill=KIT['shirt_d'])
+    if KIT.get('sash'):  # la tela cruzada: de perfil, una franja que baja del hombro por el costado
+        shape(d, blob_pts([(cx - depth / 2 + 1, top + 2), (cx + 4, top - 1), (cx + depth / 2 - 1, waist - 4), (cx + depth / 2 - 6, waist + 4),
+                           (cx - 2, waist)]), KIT['sash'], 1.3)
+        d.line([P(cx - 1, top + 6), P(cx + depth / 2 - 6, waist - 2)], fill=tone(KIT['sash'], 0.8), width=int(1.0 * SS))
     # brazo de este lado, balanceándose al correr
     sw_arm = -stride * 8
     sh = (cx, top + 6)
@@ -311,7 +324,7 @@ def kit_for(colors, gk=False):
     """Equipación a partir de los colores del equipo (src/data/teams): camiseta, mangas, pantalón y medias."""
     shirt = hexc(colors['gkShirt'] if gk else colors['shirt'])
     shorts = hexc(colors['gkShorts'] if gk and colors.get('gkShorts') else colors['shorts'])
-    sleeve = tone(shirt, 0.72) if gk else hexc(colors['sleeve']) if colors.get('sleeve') else shorts
+    sleeve = (hexc(colors['gkSleeve']) if colors.get('gkSleeve') else tone(shirt, 0.72)) if gk else hexc(colors['sleeve']) if colors.get('sleeve') else shorts
     k = dict(DEFAULT_KIT)
     k.update({'shirt': shirt, 'shirt_d': tone(shirt, 0.84), 'sleeve': sleeve, 'sleeve_d': tone(sleeve, 0.75),
               'shorts': shorts, 'shorts_d': tone(shorts, 0.72), 'stripe': hexc(colors['accent']) if colors.get('sleeve') else shorts})
@@ -352,6 +365,8 @@ def figure(view, tname, step=0, char=None, kit=None, num=None):
     KIT.update(kit or DEFAULT_KIT)
     if char is not None and char.get('cape'):
         KIT['cape'] = hexc(char['cape'])
+    if char is not None and char.get('sash'):
+        KIT['sash'] = hexc(char['sash'])
     SKIN.clear()
     if char is None:
         SKIN.update(AXEL_SKIN)

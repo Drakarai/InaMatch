@@ -1,5 +1,5 @@
 """Inazuma Japón (IE3): los nuevos de la selección y el aspecto que tienen en IE3 los que ya estaban dibujados, con sus
-modelos 3D como referencia (contornos calcados sobre una rejilla de unidades de cabeza). Las versiones de temporada van
+modelos 3D como referencia (contornos calcados sobre una rejilla de unidades de cabeza). Jude lleva sus gafas de siempre. Las versiones de temporada van
 con la clave 'ie3:<jugador>' y valen para todos los equipos de IE3."""
 import copy
 
@@ -9,17 +9,11 @@ from heads import quad
 
 WHITE = (250, 250, 250, 255)
 
-# Jude Sharp en IE3: el mismo peinado de rastas, pero sin las gafas (el modelo de IE3 no las lleva): ojos rojos, cejas
-# marcadas y media sonrisa; la capa roja sigue
-_jude = copy.deepcopy(CHARS['jude-sharp'])
+# Caleb Stonewall en IE3: el mismo peinado, pero ya sin el rayo rojo pintado en la sien
+_caleb = copy.deepcopy(CHARS['caleb-stonewall'])
 for _v in ('front', 'side', 'back'):
-    _flat = [l for it in _jude[_v] for l in (it if isinstance(it, list) else [it])]
-    _jude[_v] = [l for l in _flat if l['c'] not in ('strap', 'rim', 'lens', 'lens_l')]
-# por delante el modelo de IE3 deja la frente al aire: fuera la fila de rastas que bajaba hasta los ojos
-_jude['front'] = [l for l in _jude['front'] if not (min(y for _, y in l['s']) >= 50 and 22 < sum(x for x, _ in l['s']) / len(l['s']) < 78)]
-_jude['pal'] = dict(_jude['pal'], iris=(176, 30, 40, 255))
-_jude['face'] = {'eyes': 'sharp', 'brows': True, 'mouth': 'smile', 'mouth_y': 94, 'hairline': (58, 50)}
-CHARS['ie3:jude-sharp'] = _jude
+    _caleb[_v] = [l for it in _caleb[_v] for l in (it if isinstance(it, list) else [it]) if l['c'] != 'paint']
+CHARS['ie3:caleb-stonewall'] = _caleb
 
 # Xavier Foster en IE3 (humano, ya no Gran): media melena roja a capas, con mechones que le caen por la frente y uno entre
 # los ojos, las puntas abiertas hacia fuera por encima de las orejas y la nuca; ojos verdes y media sonrisa

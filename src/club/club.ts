@@ -1,7 +1,7 @@
 import { MOVES, upsertTeam } from '../data';
 import type { MoveData } from '../data/types';
 import type { PlayerData, Position, TeamData } from '../data/types';
-import { byPosition, cardByKey, loadPool, RARITY, type Card, type Rarity } from './pool';
+import { byPosition, cardByKey, cardForStaleKey, loadPool, RARITY, type Card, type Rarity } from './pool';
 
 /**
  * "Mi club": el equipo propio, con los jugadores que se consiguen en el gacha.
@@ -116,7 +116,12 @@ export async function ensureClub(): Promise<ClubSave> {
   const pool = await loadPool();
   let save = loadClub();
   if (save) {
-    // jugadores que ya no existen (datos regenerados): se sustituyen por ojeadores de su puesto
+    // jugadores cuyo equipo de origen ya no está: el mismo personaje en otro equipo, si sale en alguno
+    const remap = (k: string) => (cardByKey(k) ? k : (cardForStaleKey(k)?.key ?? k));
+    save.squad = save.squad.map(remap);
+    save.owned = [...new Set(save.owned.map(remap))];
+    saveClub(save);
+    // los que no existen en ningún sitio (datos regenerados): se sustituyen por ojeadores de su puesto
     const valid = (k: string) => !!cardByKey(k);
     if (!save.squad.every(valid) || !save.owned.every(valid)) {
       const fresh = starterSquad(pool);

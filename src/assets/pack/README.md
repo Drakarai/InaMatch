@@ -47,7 +47,7 @@ Escudo: `emblems/ares-barcelona-orb.png`
 | 13 · Geraldo Enrique (FW) | `geraldo-enrique.png` |
 | 14 · Alessio Ganonti (MF) | `alessio-ganonti.png` |
 
-### Eisei Gakuen
+### Academia Alia
 
 Escudo: `emblems/ares-eisei-gakuen.png`
 
@@ -69,7 +69,7 @@ Escudo: `emblems/ares-eisei-gakuen.png`
 | 14 · Bonnie Sparks (DF) | `bonnie-sparks.png` |
 | 15 · Aquilina Schiller (MF) | `aquilina-schiller.png` |
 
-### Hakuren (Ares)
+### Instituto Alpino (Ares)
 
 Escudo: `emblems/ares-hakuren-ares.png`
 
@@ -92,7 +92,7 @@ Escudo: `emblems/ares-hakuren-ares.png`
 | 17 · Bunny Cottontail (FW) | `bunny-cottontail.png` |
 | 19 · Kevin Dragonfly (FW) | `kevin-dragonfly.png` |
 
-### Inakuni Raimon
+### Raimon Isla Remota
 
 Escudo: `emblems/ares-inakuni-raimon.png`
 
@@ -115,7 +115,7 @@ Escudo: `emblems/ares-inakuni-raimon.png`
 | 15 · Regina Mulgrave (GK) | `regina-mulgrave.png` |
 | 16 · Aurelia Dingle (MF) | `aurelia-dingle.png` |
 
-### Kidokawa Seishuu (Ares)
+### Instituto Kirkwood (Ares)
 
 Escudo: `emblems/ares-kidokawa-seishuu-ares.png`
 
@@ -138,7 +138,7 @@ Escudo: `emblems/ares-kidokawa-seishuu-ares.png`
 | 23 · Hilary Prentice (MF) | `hilary-prentice.png` |
 | 24 · Jodi Green (DF) | `jodi-green.png` |
 
-### Midorigaoka
+### Instituto Colina Verde
 
 Escudo: `emblems/ares-midorigaoka.png`
 
@@ -161,7 +161,7 @@ Escudo: `emblems/ares-midorigaoka.png`
 | 15 · Queintas Quillmere (DF) | `queintas-quillmere.png` |
 | 16 · Tarvon Runnel (MF) | `tarvon-runnel.png` |
 
-### Mikage Sennou (Ares)
+### Instituto Brain (Ares)
 
 Escudo: `emblems/ares-mikage-sennou-ares.png`
 
@@ -181,7 +181,7 @@ Escudo: `emblems/ares-mikage-sennou-ares.png`
 | 12 · Des Pott (MF) | `des-pott.png` |
 | 13 · Jethro Mackin (MF) | `jethro-mackin.png` |
 
-### Minodouzan
+### Instituto Bastión
 
 Escudo: `emblems/ares-minodouzan.png`
 
@@ -204,7 +204,7 @@ Escudo: `emblems/ares-minodouzan.png`
 | 15 · Warden Watchford (MF) | `warden-watchford.png` |
 | 15 · Jack Wallside (DF) | `jack-wallside.png` |
 
-### Outei Tsukinomiya
+### Academia Plenilunio
 
 Escudo: `emblems/ares-outei-tsukinomiya.png`
 
@@ -228,7 +228,7 @@ Escudo: `emblems/ares-outei-tsukinomiya.png`
 | 24 · Raylon Highmoor (MF) | `raylon-highmoor.png` |
 | 25 · Fedrin Fennley (DF) | `fedrin-fennley.png` |
 
-### Raimon (Ares)
+### Instituto Raimon (Ares)
 
 Escudo: `emblems/ares-raimon-ares.png`
 
@@ -251,7 +251,7 @@ Escudo: `emblems/ares-raimon-ares.png`
 | 15 · Steve Grim (MF) | `steve-grim.png` |
 | 16 · Tim Saunders (MF) | `tim-saunders.png` |
 
-### Seishou Gakuen
+### Academia Polaris
 
 Escudo: `emblems/ares-seishou-gakuen.png`
 
@@ -296,7 +296,7 @@ Escudo: `emblems/ares-teikoku-gakuen-ares.png`
 | 15 · Emperio N. Guinn (DF) | `emperio-n-guinn.png` |
 | 19 · Caleb Stonewall (MF) | `caleb-stonewall.png` |
 
-### Tonegawa Tousen
+### Instituto Ribera
 
 Escudo: `emblems/ares-tonegawa-tousen.png`
 
@@ -381,7 +381,7 @@ Escudo: `emblems/cs-chrono-storm.png`
 | 16 · Ryoma Nishiki (MF) | `ryoma-nishiki.png` |
 | 78 · Goldie Lemmon (DF) | `goldie-lemmon.png` |
 
-### Destructchers
+### Desesperdidos
 
 Escudo: `emblems/cs-destructchers.png`
 
@@ -423,7 +423,7 @@ Escudo: `emblems/cs-el-dorado-team-02.png`
 | 17 · Michael Ballzack (FW) | `michael-ballzack.png` |
 | 99 · Zanark Avalonic (FW) | `zanark-avalonic.png` |
 
-### Garu
+### Gar
 
 Escudo: `emblems/cs-garu.png`
 
@@ -446,7 +446,7 @@ Escudo: `emblems/cs-garu.png`
 | 15 · Chikka (MF) | `chikka.png` |
 | 16 · Mahrsa (FW) | `mahrsa.png` |
 
-### Giru
+### Gir
 
 Escudo: `emblems/cs-giru.png`
 
@@ -487,7 +487,7 @@ Escudo: `emblems/cs-inazuma-legend-japan.png`
 | 17 · Kevin Dragonfly (FW) | `kevin-dragonfly.png` |
 | 18 · Xavier Foster (FW) | `xavier-foster.png` |
 
-### Ejército de Terracotta
+### Ejército de Terracota
 
 Escudo: `emblems/cs-karakuri-bingmayong.png`
 
@@ -507,7 +507,7 @@ Escudo: `emblems/cs-karakuri-bingmayong.png`
 | 12 · Terracotta Warrior 10 (MF) | `terracotta-warrior-10.png` |
 | 13 · Terracotta Warrior 11 (FW) | `terracotta-warrior-11.png` |
 
-### Perfect Cascade
+### Cascada Perfecta
 
 Escudo: `emblems/cs-perfect-cascade.png`
 
@@ -599,7 +599,7 @@ Escudo: `emblems/cs-protocol-omega.png`
 | 15 · Zulu (MF) | `zulu.png` |
 | 16 · X-Ray (FW) | `x-ray.png` |
 
-### Shiroshika Gumi
+### Banda del Ciervo Blanco
 
 Escudo: `emblems/cs-shiroshika-gumi.png`
 
@@ -640,7 +640,7 @@ Escudo: `emblems/cs-soccer-robots.png`
 | 10 · FB-110X (FW) | `fb-110x.png` |
 | 11 · FB-111X (FW) | `fb-111x.png` |
 
-### Instituto Raimon (GO)
+### Instituto Raimon (Chrono Stones)
 
 Escudo: `emblems/cs-team-raimon.png`
 
@@ -663,7 +663,7 @@ Escudo: `emblems/cs-team-raimon.png`
 | 21 · Sor (DF) | `sor.png` |
 | 78 · Goldie Lemmon (DF) | `goldie-lemmon.png` |
 
-### Tenmas
+### Los Arions
 
 Escudo: `emblems/cs-tenmas.png`
 
@@ -683,7 +683,7 @@ Escudo: `emblems/cs-tenmas.png`
 | 12 · Spikey (MF) | `spikey.png` |
 | 13 · Creepy (FW) | `creepy.png` |
 
-### The Lagoon
+### Ragnah
 
 Escudo: `emblems/cs-the-lagoon.png`
 
@@ -790,7 +790,7 @@ Escudo: `emblems/cs-zanark-domain.png`
 | 15 · Laksha (FW) | `laksha.png` |
 | 16 · Niyuta (FW) | `niyuta.png` |
 
-### Akizora Challengers
+### Edad Dorada
 
 Escudo: `emblems/go-akizora-challengers.png`
 
@@ -808,7 +808,7 @@ Escudo: `emblems/go-akizora-challengers.png`
 | 10 · Bobine Apples (FW) | `bobine-apples.png` |
 | 11 · Sibylle Equinox (FW) | `sibylle-equinox.png` |
 
-### Ancient Dark
+### Oscuridad Ancestral
 
 Escudo: `emblems/go-ancient-dark.png`
 
@@ -826,7 +826,7 @@ Escudo: `emblems/go-ancient-dark.png`
 | 10 · Tezcat (FW) | `tezcat.png` |
 | 11 · Yang (FW) | `yang.png` |
 
-### Ultramegahiedra
+### Colegio Ultramegahiedra
 
 Escudo: `emblems/go-aoba-gakuen.png`
 
@@ -849,7 +849,7 @@ Escudo: `emblems/go-aoba-gakuen.png`
 | 15 · Skylar Lepton (DF) | `skylar-lepton.png` |
 | 16 · Tarquin Orchards (FW) | `tarquin-orchards.png` |
 
-### Arakumo Gakuen
+### Instituto Universal
 
 Escudo: `emblems/go-arakumo-gakuen.png`
 
@@ -872,7 +872,7 @@ Escudo: `emblems/go-arakumo-gakuen.png`
 | 15 · Namak Haumea (DF) | `namak-haumea.png` |
 | 16 · Mac Emake (DF) | `mac-emake.png` |
 
-### Cuerno Demoniaco
+### Cuerno Demoníaco
 
 Escudo: `emblems/go-demon-s-horn.png`
 
@@ -895,7 +895,7 @@ Escudo: `emblems/go-demon-s-horn.png`
 | 15 · Keith Wellington (DF) | `keith-wellington.png` |
 | 16 · Reggie Alldark (MF) | `reggie-alldark.png` |
 
-### Dragonlink
+### Dragon Link
 
 Escudo: `emblems/go-dragonlink.png`
 
@@ -964,7 +964,7 @@ Escudo: `emblems/go-gassan-kunimitsu.png`
 | 15 · Bobby Bruce (FW) | `bobby-bruce.png` |
 | 16 · Hanny Bawl (FW) | `hanny-bawl.png` |
 
-### Genei Gakuen
+### Instituto Espejismo
 
 Escudo: `emblems/go-genei-gakuen.png`
 
@@ -1102,7 +1102,7 @@ Escudo: `emblems/go-kidokawa-seishuu-go.png`
 | 15 · Laike Alder (DF) | `laike-alder.png` |
 | 16 · Tahoma Sequoia (MF) | `tahoma-sequoia.png` |
 
-### Kuro no Kishidan
+### Orden de los Caballeros Templarios
 
 Escudo: `emblems/go-kuro-no-kishidan.png`
 
@@ -1125,7 +1125,7 @@ Escudo: `emblems/go-kuro-no-kishidan.png`
 | 15 · Morgan Stern (DF) | `morgan-stern.png` |
 | 16 · Roman Ballista (MF) | `roman-ballista.png` |
 
-### Mannouzaka
+### Colegio Poderosa Fe
 
 Escudo: `emblems/go-mannouzaka.png`
 
@@ -1187,7 +1187,7 @@ Escudo: `emblems/go-raimon-2gun.png`
 | 13 · Ota Shape (DF) | `ota-shape.png` |
 | 14 · Nogo Sarikid (MF) | `nogo-sarikid.png` |
 
-### Seidouzan
+### Colegio Monte Olimpo
 
 Escudo: `emblems/go-seidouzan.png`
 
@@ -1251,7 +1251,7 @@ Escudo: `emblems/go-southern-claw.png`
 | 10 · Solomon Roundhay (FW) | `solomon-roundhay.png` |
 | 11 · Harry Dwind (FW) | `harry-dwind.png` |
 
-### Colegio Vía Láctea
+### Colegio Concertado Vía Láctea
 
 Escudo: `emblems/go-tengawara.png`
 
@@ -1375,7 +1375,7 @@ Escudo: `emblems/gx-earth-eleven.png`
 | 18 · Zack Avalon (FW) | `zack-avalon.png` |
 | 20 · Jean-Pierre Lapin (GK) | `jean-pierre-lapin.png` |
 
-### Faram Dite
+### Falam Medius
 
 Escudo: `emblems/gx-faram-dite.png`
 
@@ -1394,7 +1394,7 @@ Escudo: `emblems/gx-faram-dite.png`
 | 11 · Brimstone (FW) | `brimstone.png` |
 | 12 · Ray Dark (FW) | `ray-dark.png` |
 
-### Fire Dragon (GO)
+### Dragones de Fuego (GO)
 
 Escudo: `emblems/gx-fire-dragon-go.png`
 
@@ -1432,7 +1432,7 @@ Escudo: `emblems/gx-galaxy-eleven.png`
 | 22 · Gandares Baran (FW) | `gandares-baran.png` |
 | 23 · Ruger Baran (FW) | `ruger-baran.png` |
 
-### Gurdon Eleven
+### Los Magmavís
 
 Escudo: `emblems/gx-gurdon-eleven.png`
 
@@ -1469,7 +1469,7 @@ Escudo: `emblems/gx-inside-silver.png`
 | 10 · Nathas Gin (FW) | `nathas-gin.png` |
 | 11 · Zane Gin (FW) | `zane-gin.png` |
 
-### Ixal Fleet
+### Flota Ixar
 
 Escudo: `emblems/gx-ixal-fleet.png`
 
@@ -1487,7 +1487,7 @@ Escudo: `emblems/gx-ixal-fleet.png`
 | 10 · Ozrock Boldar (FW) | `ozrock-boldar.png` |
 | 11 · Loge Colles (FW) | `loge-colles.png` |
 
-### Mach Tiger
+### Muay Tigers
 
 Escudo: `emblems/gx-mach-tiger.png`
 
@@ -1524,7 +1524,7 @@ Escudo: `emblems/gx-osoroshii-kage.png`
 | 10 · Osoroshii Kage 10 (FW) | `osoroshii-kage-10.png` |
 | 11 · Osoroshii Kage 11 (FW) | `osoroshii-kage-11.png` |
 
-### Ratoniik Eleven
+### Los Fertilia
 
 Escudo: `emblems/gx-ratoniik-eleven.png`
 
@@ -1546,7 +1546,7 @@ Escudo: `emblems/gx-ratoniik-eleven.png`
 | 16 · Theraphos Tranchla (FW) | `theraphos-tranchla.png` |
 | 21 · Banda Crix Junior (MF) | `banda-crix-junior.png` |
 
-### Sandorius Eleven
+### Los Sílice
 
 Escudo: `emblems/gx-sandorius-eleven.png`
 
@@ -1584,7 +1584,7 @@ Escudo: `emblems/gx-sazanaara-eleven.png`
 | 11 · Plunk (FW) | `plunk.png` |
 | 12 · Porco Umir (MF) | `porco-umir.png` |
 
-### Shamshir
+### Los Cimitarras
 
 Escudo: `emblems/gx-shamshir.png`
 
@@ -1603,7 +1603,7 @@ Escudo: `emblems/gx-shamshir.png`
 | 11 · Qasim Batal (FW) | `qasim-batal.png` |
 | 12 · Marshi Amir (DF) | `marshi-amir.png` |
 
-### Storm Wolf
+### Storm Wolves
 
 Escudo: `emblems/gx-storm-wolf.png`
 
@@ -1939,29 +1939,6 @@ Escudo: `emblems/ie1-teikoku-gakuen.png`
 | 15 · Barry Potts (MF) | `barry-potts.png` |
 | 16 · Steve Ingham (FW) | `steve-ingham.png` |
 
-### Ultra Zeus
-
-Escudo: `emblems/ie1-ura-zeus.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Paul Siddon (GK) | `paul-siddon.png` |
-| 2 · Apollo Light (DF) | `apollo-light.png` |
-| 3 · Jeff Iron (DF) | `jeff-iron.png` |
-| 4 · Lane War (DF) | `lane-war.png` |
-| 5 · Danny Wood (DF) | `danny-wood.png` |
-| 6 · Artie Mishman (MF) | `artie-mishman.png` |
-| 7 · Arion Matlock (MF) | `arion-matlock.png` |
-| 8 · Wesley Knox (MF) | `wesley-knox.png` |
-| 9 · Jonas Demetrius (FW) | `jonas-demetrius.png` |
-| 10 · Byron Love (MF) | `byron-love.png` |
-| 11 · Henry House (MF) | `henry-house.png` |
-| 12 · Iggy Russ (GK) | `iggy-russ.png` |
-| 13 · Gus Heeley (FW) | `gus-heeley.png` |
-| 14 · Harry Closs (DF) | `harry-closs.png` |
-| 15 · Andy Chronic (DF) | `andy-chronic.png` |
-| 16 · Ned Yousef (MF) | `ned-yousef.png` |
-
 ### Instituto Zeus
 
 Escudo: `emblems/ie1-zeus.png`
@@ -1985,42 +1962,6 @@ Escudo: `emblems/ie1-zeus.png`
 | 15 · Andy Chronic (DF) | `andy-chronic.png` |
 | 16 · Ned Yousef (MF) | `ned-yousef.png` |
 
-### Alius A
-
-Escudo: `emblems/ie2-aliea-a.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Gordon Star (GK) | `gordon-star.png` |
-| 2 · Craven Kenville (DF) | `craven-kenville.png` |
-| 3 · Grant Icewater (DF) | `grant-icewater.png` |
-| 4 · Kim Powell (DF) | `kim-powell.png` |
-| 5 · Pat Box (MF) | `pat-box.png` |
-| 6 · Mads Hatter (MF) | `mads-hatter.png` |
-| 7 · Connor Murray (MF) | `connor-murray.png` |
-| 8 · Katie Brown (MF) | `katie-brown.png` |
-| 9 · Rhona Countdown (FW) | `rhona-countdown.png` |
-| 10 · Isabelle Trick (MF) | `isabelle-trick.png` |
-| 11 · Zeke Valanche (FW) | `zeke-valanche.png` |
-
-### Alius B
-
-Escudo: `emblems/ie2-aliea-b.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Dave Quagmire (GK) | `dave-quagmire.png` |
-| 2 · Connor Shuttle (DF) | `connor-shuttle.png` |
-| 3 · Anna Mole (DF) | `anna-mole.png` |
-| 4 · Jim Landing (DF) | `jim-landing.png` |
-| 5 · Wilbur Watkins (FW) | `wilbur-watkins.png` |
-| 6 · Karen Ripton (MF) | `karen-ripton.png` |
-| 7 · Dylan Bluemoon (FW) | `dylan-bluemoon.png` |
-| 8 · Yakker Plantsworm (MF) | `yakker-plantsworm.png` |
-| 9 · Jordan Greenway (MF) | `jordan-greenway.png` |
-| 10 · Ashton Malone (MF) | `ashton-malone.png` |
-| 11 · Xavier Foster (FW) | `xavier-foster.png` |
-
 ### Caos
 
 Escudo: `emblems/ie2-chaos.png`
@@ -2038,24 +1979,6 @@ Escudo: `emblems/ie2-chaos.png`
 | 9 · Claude Beacons (FW) | `claude-beacons.png` |
 | 10 · Nigel August (FW) | `nigel-august.png` |
 | 11 · Bryce Whitingale (FW) | `bryce-whitingale.png` |
-
-### Emperadores Oscuros (con capa)
-
-Escudo: `emblems/ie2-dark-emperors-cloaked.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Seymour Hillman (GK) | `seymour-hillman.png` |
-| 2 · Charles Island (DF) | `charles-island.png` |
-| 3 · Garret Hairtown (DF) | `garret-hairtown.png` |
-| 4 · Arthur Sweet (DF) | `arthur-sweet.png` |
-| 5 · Peter Mildred (DF) | `peter-mildred.png` |
-| 6 · Josh Nathaniel (MF) | `josh-nathaniel.png` |
-| 7 · Edward Gladstone (MF) | `edward-gladstone.png` |
-| 8 · Tyler Thomas (MF) | `tyler-thomas.png` |
-| 9 · Joseph Yosemite (MF) | `joseph-yosemite.png` |
-| 10 · Ian Suffolk (FW) | `ian-suffolk.png` |
-| 11 · Constant Builder (FW) | `constant-builder.png` |
 
 ### Emperadores Oscuros
 
@@ -2172,24 +2095,6 @@ Escudo: `emblems/ie2-hakuren.png`
 | 15 · Gem Strata (DF) | `gem-strata.png` |
 | 16 · Horace Onlign (FW) | `horace-onlign.png` |
 
-### Inazuma Kids FC Plus
-
-Escudo: `emblems/ie2-inazuma-kfc-kai.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Herman Muller (GK) | `herman-muller.png` |
-| 2 · Keth Claus (DF) | `keth-claus.png` |
-| 3 · Robert Silver (DF) | `robert-silver.png` |
-| 4 · Izzy Island (DF) | `izzy-island.png` |
-| 5 · Sothern Newman (DF) | `sothern-newman.png` |
-| 6 · Irwin Hall (MF) | `irwin-hall.png` |
-| 7 · Taylor Higgins (MF) | `taylor-higgins.png` |
-| 8 · Jamie Cool (MF) | `jamie-cool.png` |
-| 9 · Hans Randall (FW) | `hans-randall.png` |
-| 10 · Michael Riverside (MF) | `michael-riverside.png` |
-| 11 · Millie Moonlight (FW) | `millie-moonlight.png` |
-
 ### Mar de Árboles
 
 Escudo: `emblems/ie2-jukai-team.png`
@@ -2207,42 +2112,6 @@ Escudo: `emblems/ie2-jukai-team.png`
 | 9 · Chris Ticker (FW) | `chris-ticker.png` |
 | 10 · Roy Daring (FW) | `roy-daring.png` |
 | 11 · Scaber Enoki (FW) | `scaber-enoki.png` |
-
-### Ray Dark All Stars
-
-Escudo: `emblems/ie2-kageyama-all-star.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Paul Siddon (GK) | `paul-siddon.png` |
-| 2 · Lane War (DF) | `lane-war.png` |
-| 3 · Danny Wood (DF) | `danny-wood.png` |
-| 4 · Apollo Light (DF) | `apollo-light.png` |
-| 5 · Jeff Iron (DF) | `jeff-iron.png` |
-| 6 · Jude Sharp (MF) | `jude-sharp.png` |
-| 7 · Eton Messer (MF) | `eton-messer.png` |
-| 8 · Sue Sparrow (MF) | `sue-sparrow.png` |
-| 9 · Riley Jamm (FW) | `riley-jamm.png` |
-| 10 · Caleb Stonewall (MF) | `caleb-stonewall.png` |
-| 11 · Byron Love (MF) | `byron-love.png` |
-
-### Divinidades y Alienígenas
-
-Escudo: `emblems/ie2-kami-to-uchuu.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Paul Siddon (GK) | `paul-siddon.png` |
-| 2 · Jeff Iron (DF) | `jeff-iron.png` |
-| 3 · Gail Baker (DF) | `gail-baker.png` |
-| 4 · Zack Cummings (DF) | `zack-cummings.png` |
-| 5 · Hunt Mercer (DF) | `hunt-mercer.png` |
-| 6 · Xavier Foster (FW) | `xavier-foster.png` |
-| 7 · Katie Brown (MF) | `katie-brown.png` |
-| 8 · Isabelle Trick (MF) | `isabelle-trick.png` |
-| 9 · Byron Love (MF) | `byron-love.png` |
-| 10 · Jonas Demetrius (FW) | `jonas-demetrius.png` |
-| 11 · Arion Matlock (MF) | `arion-matlock.png` |
 
 ### Robots Guardias
 
@@ -2285,42 +2154,6 @@ Escudo: `emblems/ie2-manyuuji.png`
 | 15 · Roman Kandel (MF) | `roman-kandel.png` |
 | 16 · Don Ation (FW) | `don-ation.png` |
 
-### Neo Royal Academy
-
-Escudo: `emblems/ie2-neo-teikoku.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Joseph King (GK) | `joseph-king.png` |
-| 2 · Peter Drent (DF) | `peter-drent.png` |
-| 3 · Argie Bargie (DF) | `argie-bargie.png` |
-| 4 · Blade Healen (DF) | `blade-healen.png` |
-| 5 · Rowan Beltzer (DF) | `rowan-beltzer.png` |
-| 6 · Caleb Stonewall (MF) | `caleb-stonewall.png` |
-| 7 · Herman Waldon (MF) | `herman-waldon.png` |
-| 8 · Derek Swing (MF) | `derek-swing.png` |
-| 9 · Daniel Hatch (FW) | `daniel-hatch.png` |
-| 10 · Jude Sharp (MF) | `jude-sharp.png` |
-| 11 · David Samford (FW) | `david-samford.png` |
-
-### Génesis NEW
-
-Escudo: `emblems/ie2-new-genesis.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Nelson Rockwell (GK) | `nelson-rockwell.png` |
-| 2 · Gail Baker (DF) | `gail-baker.png` |
-| 3 · Kim Powell (DF) | `kim-powell.png` |
-| 4 · Zack Cummings (DF) | `zack-cummings.png` |
-| 5 · Hunt Mercer (DF) | `hunt-mercer.png` |
-| 6 · Connor Murray (MF) | `connor-murray.png` |
-| 7 · Katie Brown (MF) | `katie-brown.png` |
-| 8 · Ashton Malone (MF) | `ashton-malone.png` |
-| 9 · Wilbur Watkins (FW) | `wilbur-watkins.png` |
-| 10 · Isabelle Trick (MF) | `isabelle-trick.png` |
-| 11 · Xavier Foster (FW) | `xavier-foster.png` |
-
 ### Royal Academy NEW
 
 Escudo: `emblems/ie2-new-teikoku-gakuen.png`
@@ -2343,29 +2176,6 @@ Escudo: `emblems/ie2-new-teikoku-gakuen.png`
 | 14 · Jim Lawrenson (FW) | `jim-lawrenson.png` |
 | 15 · Barry Potts (MF) | `barry-potts.png` |
 | 16 · Steve Ingham (FW) | `steve-ingham.png` |
-
-### Zeus NEW
-
-Escudo: `emblems/ie2-new-zeus.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Paul Siddon (GK) | `paul-siddon.png` |
-| 2 · Apollo Light (DF) | `apollo-light.png` |
-| 3 · Jeff Iron (DF) | `jeff-iron.png` |
-| 4 · Lane War (DF) | `lane-war.png` |
-| 5 · Danny Wood (DF) | `danny-wood.png` |
-| 6 · Artie Mishman (MF) | `artie-mishman.png` |
-| 7 · Arion Matlock (MF) | `arion-matlock.png` |
-| 8 · Wesley Knox (MF) | `wesley-knox.png` |
-| 9 · Jonas Demetrius (FW) | `jonas-demetrius.png` |
-| 10 · Byron Love (MF) | `byron-love.png` |
-| 11 · Henry House (MF) | `henry-house.png` |
-| 12 · Iggy Russ (GK) | `iggy-russ.png` |
-| 13 · Gus Heeley (FW) | `gus-heeley.png` |
-| 14 · Harry Closs (DF) | `harry-closs.png` |
-| 15 · Andy Chronic (DF) | `andy-chronic.png` |
-| 16 · Ned Yousef (MF) | `ned-yousef.png` |
 
 ### Triple C de Osaka
 
@@ -2501,42 +2311,6 @@ Escudo: `emblems/ie2-sp-fixers.png`
 | 15 · Linda Shadey (FW) | `linda-shadey.png` |
 | 16 · Sid Safehouse (DF) | `sid-safehouse.png` |
 
-### Súper Triple C
-
-Escudo: `emblems/ie2-super-oosaka-ccc.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Daisy Fields (GK) | `daisy-fields.png` |
-| 2 · Alexia Sand (DF) | `alexia-sand.png` |
-| 3 · Hellen Hearth (DF) | `hellen-hearth.png` |
-| 4 · Rose Pinkpetal (DF) | `rose-pinkpetal.png` |
-| 5 · Esther Greenland (DF) | `esther-greenland.png` |
-| 6 · Bela Bluebells (MF) | `bela-bluebells.png` |
-| 7 · Natalie Sunrise (MF) | `natalie-sunrise.png` |
-| 8 · Hillary Bush (MF) | `hillary-bush.png` |
-| 9 · Mary Moor (MF) | `mary-moor.png` |
-| 10 · Suzette Hartland (FW) | `suzette-hartland.png` |
-| 11 · Lily Willow (FW) | `lily-willow.png` |
-
-### Súper Otaku
-
-Escudo: `emblems/ie2-super-shuuyou-meito.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Sam Idol (GK) | `sam-idol.png` |
-| 2 · Marcus Train (DF) | `marcus-train.png` |
-| 3 · Light Nobel (MF) | `light-nobel.png` |
-| 4 · Walter Valiant (MF) | `walter-valiant.png` |
-| 5 · Spencer Gates (DF) | `spencer-gates.png` |
-| 6 · Josh Spear (FW) | `josh-spear.png` |
-| 7 · Gaby Farmer (FW) | `gaby-farmer.png` |
-| 8 · A. Woodbridge (MF) | `a-woodbridge.png` |
-| 9 · Gus Gamer (FW) | `gus-gamer.png` |
-| 10 · Mark Gambling (FW) | `mark-gambling.png` |
-| 11 · Theodore Master (FW) | `theodore-master.png` |
-
 ### Génesis
 
 Escudo: `emblems/ie2-the-genesis.png`
@@ -2598,42 +2372,6 @@ Escudo: `emblems/ie2-young-inazuma.png`
 | 11 · Constant Builder (FW) | `constant-builder.png` |
 | 12 · David Evans (GK) | `david-evans.png` |
 
-### Selección Nacional A
-
-Escudo: `emblems/ie2-zenkoku-team-senbatsu-a.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Crane Kik (GK) | `crane-kik.png` |
-| 2 · Victor Hills (DF) | `victor-hills.png` |
-| 3 · Louis Leave (DF) | `louis-leave.png` |
-| 4 · Max Fortune (DF) | `max-fortune.png` |
-| 5 · Drancis Fake (DF) | `drancis-fake.png` |
-| 6 · Mackenzie Fordline (MF) | `mackenzie-fordline.png` |
-| 7 · Kerry Bootgaiter (MF) | `kerry-bootgaiter.png` |
-| 8 · Spencer Duskplay (MF) | `spencer-duskplay.png` |
-| 9 · Dirk Artz (FW) | `dirk-artz.png` |
-| 10 · Jonathan Luckyman (FW) | `jonathan-luckyman.png` |
-| 11 · Tyke Wando (FW) | `tyke-wando.png` |
-
-### Selección Nacional B
-
-Escudo: `emblems/ie2-zenkoku-team-senbatsu-b.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Adam Ropes (GK) | `adam-ropes.png` |
-| 2 · Sean Snowfield (MF) | `sean-snowfield.png` |
-| 3 · Hector Redding (DF) | `hector-redding.png` |
-| 4 · Joaquine Downtown (DF) | `joaquine-downtown.png` |
-| 5 · Dave Fate (FW) | `dave-fate.png` |
-| 6 · Dora Delight (MF) | `dora-delight.png` |
-| 7 · Ulric Richmen (MF) | `ulric-richmen.png` |
-| 8 · Junior Fardream (MF) | `junior-fardream.png` |
-| 9 · Roland Climbstein (FW) | `roland-climbstein.png` |
-| 10 · Tom Contented (MF) | `tom-contented.png` |
-| 11 · Quentin Rackner (FW) | `quentin-rackner.png` |
-
 ### Ases Africanos
 
 Escudo: `emblems/ie3-africa-daihyou.png`
@@ -2656,24 +2394,6 @@ Escudo: `emblems/ie3-africa-daihyou.png`
 | 14 · Ian Ferrum (DF) | `ian-ferrum.png` |
 | 15 · Yasir Haddad (MF) | `yasir-haddad.png` |
 | 16 · Reggie Ines (MF) | `reggie-ines.png` |
-
-### Nuevo Caos
-
-Escudo: `emblems/ie3-another-chaos.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Ben North (GK) | `ben-north.png` |
-| 2 · Alan Downhill (DF) | `alan-downhill.png` |
-| 3 · Val Flamewood (DF) | `val-flamewood.png` |
-| 4 · Sean Ashford (DF) | `sean-ashford.png` |
-| 5 · Lucy Hailstone (MF) | `lucy-hailstone.png` |
-| 6 · Brad Coldwater (MF) | `brad-coldwater.png` |
-| 7 · Brenda Firequest (MF) | `brenda-firequest.png` |
-| 8 · Sam Bournes (MF) | `sam-bournes.png` |
-| 9 · Bernie White (FW) | `bernie-white.png` |
-| 10 · Denzel Freezer (FW) | `denzel-freezer.png` |
-| 11 · Jim Flareson (FW) | `jim-flareson.png` |
 
 ### Ases Asiáticos
 
@@ -2743,29 +2463,6 @@ Escudo: `emblems/ie3-brockenborg.png`
 | 14 · Jens Hoffman (FW) | `jens-hoffman.png` |
 | 15 · Ernst Fliedner (MF) | `ernst-fliedner.png` |
 | 16 · Emmanuel Ewerz (DF) | `emmanuel-ewerz.png` |
-
-### Ángeles del Caos
-
-Escudo: `emblems/ie3-chaos-angels.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Astaroth (GK) | `astaroth.png` |
-| 2 · Albert Denver (DF) | `albert-denver.png` |
-| 3 · Ben Blowton (MF) | `ben-blowton.png` |
-| 4 · Bael (DF) | `bael.png` |
-| 5 · Lephiel (DF) | `lephiel.png` |
-| 6 · Claire Lesnow (DF) | `claire-lesnow.png` |
-| 7 · Gaiel (FW) | `gaiel.png` |
-| 8 · Thanatos (FW) | `thanatos.png` |
-| 9 · Claude Beacons (FW) | `claude-beacons.png` |
-| 10 · Destra (FW) | `destra.png` |
-| 11 · Sanctus (FW) | `sanctus.png` |
-| 12 · Grant Cook (GK) | `grant-cook.png` |
-| 13 · Ethan Whitering (MF) | `ethan-whitering.png` |
-| 14 · Bryce Whitingale (FW) | `bryce-whitingale.png` |
-| 15 · Dawson Foxx (MF) | `dawson-foxx.png` |
-| 16 · Bonnie Sparks (DF) | `bonnie-sparks.png` |
 
 ### Ángel Oscuro
 
@@ -2854,48 +2551,6 @@ Escudo: `emblems/ie3-fire-dragon.png`
 | 15 · Sung-Jin Noh (FW) | `sung-jin-noh.png` |
 | 16 · Joon-Ho Ja (MF) | `joon-ho-ja.png` |
 
-### Raimon I
-
-Escudo: `emblems/ie3-first-raimon.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Mark Evans (GK) | `mark-evans.png` |
-| 2 · Nathan Swift (DF) | `nathan-swift.png` |
-| 3 · Jack Wallside (DF) | `jack-wallside.png` |
-| 4 · Jim Wraith (DF) | `jim-wraith.png` |
-| 5 · Tod Ironside (DF) | `tod-ironside.png` |
-| 6 · Steve Grim (MF) | `steve-grim.png` |
-| 7 · Tim Saunders (MF) | `tim-saunders.png` |
-| 8 · Sam Kincaid (MF) | `sam-kincaid.png` |
-| 9 · Maxwell Carson (FW) | `maxwell-carson.png` |
-| 10 · Axel Blaze (FW) | `axel-blaze.png` |
-| 11 · Kevin Dragonfly (FW) | `kevin-dragonfly.png` |
-| 12 · William Glass (FW) | `william-glass.png` |
-
-### Equipo Celestial
-
-Escudo: `emblems/ie3-god-angel.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Paul Siddon (GK) | `paul-siddon.png` |
-| 2 · Nenel (DF) | `nenel.png` |
-| 3 · Apollo Light (DF) | `apollo-light.png` |
-| 4 · Lephiel (DF) | `lephiel.png` |
-| 5 · Artie Mishman (MF) | `artie-mishman.png` |
-| 6 · Ientel (MF) | `ientel.png` |
-| 7 · Jonas Demetrius (FW) | `jonas-demetrius.png` |
-| 8 · Nuel (MF) | `nuel.png` |
-| 9 · Byron Love (MF) | `byron-love.png` |
-| 10 · Gaiel (FW) | `gaiel.png` |
-| 11 · Sanctus (FW) | `sanctus.png` |
-| 12 · Anorel (GK) | `anorel.png` |
-| 13 · Wenel (MF) | `wenel.png` |
-| 14 · Henry House (MF) | `henry-house.png` |
-| 15 · Genel (DF) | `genel.png` |
-| 16 · Danny Wood (DF) | `danny-wood.png` |
-
 ### Inazuma Japón
 
 Escudo: `emblems/ie3-inazuma-japan.png`
@@ -2918,52 +2573,6 @@ Escudo: `emblems/ie3-inazuma-japan.png`
 | 17 · Kevin Dragonfly (FW) | `kevin-dragonfly.png` |
 | 18 · Xavier Foster (FW) | `xavier-foster.png` |
 | 20 · Darren LaChance (GK) | `darren-lachance.png` |
-
-### Leyendas de Antaño
-
-Escudo: `emblems/ie3-inazuma-legend.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Thomas Feldt (GK) | `thomas-feldt.png` |
-| 2 · Archer Hawkins (DF) | `archer-hawkins.png` |
-| 3 · Hoots Knightly (DF) | `hoots-knightly.png` |
-| 4 · Alex Dauger (DF) | `alex-dauger.png` |
-| 5 · Alan Sumner (DF) | `alan-sumner.png` |
-| 6 · Shadow Cimmerian (FW) | `shadow-cimmerian.png` |
-| 7 · Hidetoshi Nakata (MF) | `hidetoshi-nakata.png` |
-| 8 · Ethan Whitering (MF) | `ethan-whitering.png` |
-| 9 · Giulio Acuto (MF) | `giulio-acuto.png` |
-| 10 · Byron Love (MF) | `byron-love.png` |
-| 11 · Eddy Steady (FW) | `eddy-steady.png` |
-| 12 · Ted Autumn (GK) | `ted-autumn.png` |
-| 13 · Erik Eagle (MF) | `erik-eagle.png` |
-| 14 · Jude Sharp (MF) | `jude-sharp.png` |
-| 15 · Bruce Barkley (FW) | `bruce-barkley.png` |
-| 16 · George Winters (FW) | `george-winters.png` |
-
-### Estrellas Femeninas
-
-Escudo: `emblems/ie3-joshi-senbatsu-team.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Daisy Fields (GK) | `daisy-fields.png` |
-| 2 · Joaquine Downtown (DF) | `joaquine-downtown.png` |
-| 3 · Alexia Sand (DF) | `alexia-sand.png` |
-| 4 · Rose Pinkpetal (DF) | `rose-pinkpetal.png` |
-| 5 · Amy Spires (DF) | `amy-spires.png` |
-| 6 · Dora Delight (MF) | `dora-delight.png` |
-| 7 · Victoria Vanguard (MF) | `victoria-vanguard.png` |
-| 8 · Kerry Bootgaiter (MF) | `kerry-bootgaiter.png` |
-| 9 · Bela Bluebells (MF) | `bela-bluebells.png` |
-| 10 · Suzette Hartland (FW) | `suzette-hartland.png` |
-| 11 · Sue Sparrow (MF) | `sue-sparrow.png` |
-| 12 · Dell Closeout (GK) | `dell-closeout.png` |
-| 13 · Coral Talent (FW) | `coral-talent.png` |
-| 14 · Millie Moonlight (FW) | `millie-moonlight.png` |
-| 15 · Samantha Moonlight (FW) | `samantha-moonlight.png` |
-| 16 · Marge Fielding (MF) | `marge-fielding.png` |
 
 ### Knights of Queen
 
@@ -3052,29 +2661,6 @@ Escudo: `emblems/ie3-nanbei-daihyou.png`
 | 15 · Carlos Lagarto (DF) | `carlos-lagarto.png` |
 | 16 · Falcão Da Silva (GK) | `falc-o-da-silva.png` |
 
-### Neo Japón Plus
-
-Escudo: `emblems/ie3-neo-japan-kai.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Joseph King (GK) | `joseph-king.png` |
-| 2 · Daniel Hatch (FW) | `daniel-hatch.png` |
-| 3 · Zack Cummings (DF) | `zack-cummings.png` |
-| 4 · Argie Bargie (DF) | `argie-bargie.png` |
-| 5 · Alan Master (MF) | `alan-master.png` |
-| 6 · Neil Turner (FW) | `neil-turner.png` |
-| 7 · Dave Quagmire (MF) | `dave-quagmire.png` |
-| 8 · Sail Bluesea (FW) | `sail-bluesea.png` |
-| 9 · Johan Tassman (FW) | `johan-tassman.png` |
-| 10 · Wilbur Watkins (FW) | `wilbur-watkins.png` |
-| 11 · Zeke Valanche (FW) | `zeke-valanche.png` |
-| 12 · Ethan Whitering (MF) | `ethan-whitering.png` |
-| 13 · Tyler Murdock (FW) | `tyler-murdock.png` |
-| 14 · Henry House (MF) | `henry-house.png` |
-| 15 · Mark Hillvalley (DF) | `mark-hillvalley.png` |
-| 16 · Jonas Demetrius (FW) | `jonas-demetrius.png` |
-
 ### Neo Japón
 
 Escudo: `emblems/ie3-neo-japan.png`
@@ -3097,26 +2683,6 @@ Escudo: `emblems/ie3-neo-japan.png`
 | 14 · Tyler Murdock (FW) | `tyler-murdock.png` |
 | 15 · Jonas Demetrius (FW) | `jonas-demetrius.png` |
 | 16 · Mark Hillvalley (DF) | `mark-hillvalley.png` |
-
-### Neo Raimon
-
-Escudo: `emblems/ie3-neo-raimon.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Mark Evans (GK) | `mark-evans.png` |
-| 2 · Nathan Swift (DF) | `nathan-swift.png` |
-| 3 · Jack Wallside (DF) | `jack-wallside.png` |
-| 4 · Archer Hawkins (DF) | `archer-hawkins.png` |
-| 5 · Shawn Froste (FW) | `shawn-froste.png` |
-| 6 · Austin Hobbes (FW) | `austin-hobbes.png` |
-| 7 · Xavier Foster (FW) | `xavier-foster.png` |
-| 8 · Paolo Bianchi (FW) | `paolo-bianchi.png` |
-| 9 · Canon Evans (FW) | `canon-evans.png` |
-| 10 · Axel Blaze (FW) | `axel-blaze.png` |
-| 11 · Chester Horse Jr (MF) | `chester-horse-jr.png` |
-| 12 · William Glass (FW) | `william-glass.png` |
-| 14 · Jude Sharp (MF) | `jude-sharp.png` |
 
 ### Pruebas de Selección - Equipo A
 
@@ -3197,52 +2763,6 @@ Escudo: `emblems/ie3-orpheus.png`
 | 14 · Alessandro Rossa (MF) | `alessandro-rossa.png` |
 | 15 · Giuseppe Cannavaro (DF) | `giuseppe-cannavaro.png` |
 | 16 · Gianluca Zanardi (MF) | `gianluca-zanardi.png` |
-
-### Atlético Alius
-
-Escudo: `emblems/ie3-real-aliea.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Nelson Rockwell (GK) | `nelson-rockwell.png` |
-| 2 · Jim Landing (DF) | `jim-landing.png` |
-| 3 · Anna Mole (DF) | `anna-mole.png` |
-| 4 · Kim Powell (DF) | `kim-powell.png` |
-| 5 · Pat Box (MF) | `pat-box.png` |
-| 6 · Mads Hatter (MF) | `mads-hatter.png` |
-| 7 · Gregory Saturn (MF) | `gregory-saturn.png` |
-| 8 · Isabelle Trick (MF) | `isabelle-trick.png` |
-| 9 · Claude Beacons (FW) | `claude-beacons.png` |
-| 10 · Bryce Whitingale (FW) | `bryce-whitingale.png` |
-| 11 · Zeke Valanche (FW) | `zeke-valanche.png` |
-| 12 · Dave Quagmire (GK) | `dave-quagmire.png` |
-| 13 · Jordan Greenway (MF) | `jordan-greenway.png` |
-| 14 · Xavier Foster (FW) | `xavier-foster.png` |
-| 15 · Nigel August (FW) | `nigel-august.png` |
-| 16 · Ving Rice (MF) | `ving-rice.png` |
-
-### Mega Inazuma Eleven
-
-Escudo: `emblems/ie3-real-inazuma.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Mark Evans (GK) | `mark-evans.png` |
-| 2 · Nathan Swift (DF) | `nathan-swift.png` |
-| 3 · Jack Wallside (DF) | `jack-wallside.png` |
-| 4 · Hurley Kane (DF) | `hurley-kane.png` |
-| 5 · Scott Banyan (DF) | `scott-banyan.png` |
-| 6 · Thor Stoutberg (MF) | `thor-stoutberg.png` |
-| 7 · Caleb Stonewall (MF) | `caleb-stonewall.png` |
-| 9 · Shawn Froste (FW) | `shawn-froste.png` |
-| 10 · Axel Blaze (FW) | `axel-blaze.png` |
-| 11 · Austin Hobbes (FW) | `austin-hobbes.png` |
-| 12 · Darren LaChance (GK) | `darren-lachance.png` |
-| 13 · Kevin Dragonfly (FW) | `kevin-dragonfly.png` |
-| 14 · Jude Sharp (MF) | `jude-sharp.png` |
-| 15 · Archer Hawkins (DF) | `archer-hawkins.png` |
-| 16 · David Samford (FW) | `david-samford.png` |
-| 20 · Xavier Foster (FW) | `xavier-foster.png` |
 
 ### Los Rojos
 
@@ -3469,27 +2989,7 @@ Escudo: `emblems/ie3-unicorn.png`
 | 15 · Petie Pooma (MF) | `petie-pooma.png` |
 | 16 · Norbert Poindexter (FW) | `norbert-poindexter.png` |
 
-### Ultra Raimon
-
-Escudo: `emblems/ie3-ura-raimon.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Silvia Woods (GK) | `silvia-woods.png` |
-| 2 · Jim Wraith (DF) | `jim-wraith.png` |
-| 3 · Camellia Travis (DF) | `camellia-travis.png` |
-| 4 · Steve Grim (MF) | `steve-grim.png` |
-| 5 · Tim Saunders (MF) | `tim-saunders.png` |
-| 6 · Sam Kincaid (MF) | `sam-kincaid.png` |
-| 7 · Maxwell Carson (MF) | `maxwell-carson.png` |
-| 8 · Nathan Swift (FW) | `nathan-swift.png` |
-| 9 · Celia Hills (MF) | `celia-hills.png` |
-| 10 · Nelly Raimon (FW) | `nelly-raimon.png` |
-| 11 · Kevin Dragonfly (FW) | `kevin-dragonfly.png` |
-| 12 · Tod Ironside (DF) | `tod-ironside.png` |
-| 13 · William Glass (FW) | `william-glass.png` |
-
-### Arab no Hi no Tori Gundan
+### Ejército del Fénix Árabe
 
 Escudo: `emblems/orion-arab-no-hi-no-tori-gundan.png`
 
@@ -3511,7 +3011,7 @@ Escudo: `emblems/orion-arab-no-hi-no-tori-gundan.png`
 | 15 · Roc Nasr (GK) | `roc-nasr.png` |
 | 16 · Eagle Al-Suhra (MF) | `eagle-al-suhra.png` |
 
-### Eternal Dancers
+### Bailarines Eternos
 
 Escudo: `emblems/orion-eternal-dancers.png`
 
@@ -3533,7 +3033,7 @@ Escudo: `emblems/orion-eternal-dancers.png`
 | 15 · Carrie Ogrova (GK) | `carrie-ogrova.png` |
 | 16 · Bhangra Makarov (MF) | `bhangra-makarov.png` |
 
-### Guardians of Queen
+### Guardianes de la Reina
 
 Escudo: `emblems/orion-guardians-of-queen.png`
 
@@ -3556,7 +3056,7 @@ Escudo: `emblems/orion-guardians-of-queen.png`
 | 15 · Marfisa Corsi (MF) | `marfisa-corsi.png` |
 | 16 · Ruggiero Spinola (DF) | `ruggiero-spinola.png` |
 
-### Inazuma Japan (Orion)
+### Inazuma Japón (Orion)
 
 Escudo: `emblems/orion-inazuma-japan-orion.png`
 
@@ -3581,7 +3081,7 @@ Escudo: `emblems/orion-inazuma-japan-orion.png`
 | 16 · Byron Love (MF) | `byron-love.png` |
 | 17 · Cliff Parker (DF) | `cliff-parker.png` |
 
-### Muteki no Giant
+### Gigantes Invencibles
 
 Escudo: `emblems/orion-muteki-no-giant.png`
 
@@ -3645,7 +3145,7 @@ Escudo: `emblems/orion-ol-de-samba.png`
 | 14 · Cristiano Dabola (DF) | `cristiano-dabola.png` |
 | 17 · Paulo (MF) | `paulo.png` |
 
-### Perfect Spark
+### Chispas Perfectas
 
 Escudo: `emblems/orion-perfect-spark.png`
 
@@ -3668,7 +3168,7 @@ Escudo: `emblems/orion-perfect-spark.png`
 | 16 · Martemeli Prestov (MF) | `martemeli-prestov-ok-lus.png` |
 | 17 · Oleg Animatov (MF) | `oleg-animatov.png` |
 
-### Red Bison
+### Bisonte Rojo
 
 Escudo: `emblems/orion-red-bison.png`
 
@@ -3690,7 +3190,7 @@ Escudo: `emblems/orion-red-bison.png`
 | 14 · Harh Bull-gull (DF) | `harh-bull-gull.png` |
 | 15 · An Min-su (MF) | `an-min-su.png` |
 
-### La Sombra de Orión
+### Eclipse de Orión
 
 Escudo: `emblems/orion-shadow-of-orion.png`
 
@@ -3711,7 +3211,7 @@ Escudo: `emblems/orion-shadow-of-orion.png`
 | 15 · Kappa (MF) | `kappa.png` |
 | 17 · Hatysa (MF) | `hatysa.png` |
 
-### Shining Satans
+### Demonios Brillantes
 
 Escudo: `emblems/orion-shining-satans.png`
 
@@ -3734,7 +3234,7 @@ Escudo: `emblems/orion-shining-satans.png`
 | 15 · Grant Grimoire (DF) | `grant-grimoire.png` |
 | 16 · Baz Azel (GK) | `baz-azel.png` |
 
-### La Tropa Acrobática del Fútbol
+### Tropa Acrobática del Fútbol
 
 Escudo: `emblems/orion-soccer-zatsugidan.png`
 
@@ -3779,7 +3279,7 @@ Escudo: `emblems/orion-star-unicorn.png`
 | 15 · Petie Pooma (MF) | `petie-pooma.png` |
 | 16 · Norbert Poindexter (FW) | `norbert-poindexter.png` |
 
-### AI Gakuen
+### Academia IA
 
 Escudo: `emblems/vr-ai-gakuen.png`
 
@@ -3802,7 +3302,7 @@ Escudo: `emblems/vr-ai-gakuen.png`
 | 15 · Nettie Neuralyn (DF) | `nettie-neuralyn.png` |
 | 16 · Deacon Pewter (DF) | `deacon-pewter.png` |
 
-### Batten-Yokato
+### Secundaria Crosswind-Fauxshore
 
 Escudo: `emblems/vr-batten-yokato.png`
 
@@ -3825,7 +3325,7 @@ Escudo: `emblems/vr-batten-yokato.png`
 | 15 · Orfreya Newcomb (DF) | `orfreya-newcomb.png` |
 | 16 · Jakob Serveraw (GK) | `jakob-serveraw.png` |
 
-### Destroyers
+### Destructores
 
 Escudo: `emblems/vr-destroyers.png`
 
@@ -3848,7 +3348,7 @@ Escudo: `emblems/vr-destroyers.png`
 | 18 · Menox Kessler (FW) | `menox-kessler.png` |
 | 20 · Crysis Murdok (GK) | `crysis-murdok.png` |
 
-### Gatekeepers
+### Guardianas
 
 Escudo: `emblems/vr-gatekeepers.png`
 
@@ -3871,7 +3371,7 @@ Escudo: `emblems/vr-gatekeepers.png`
 | 18 · Cressida Octavia (FW) | `cressida-octavia.png` |
 | 20 · Catalina Riven (GK) | `catalina-riven.png` |
 
-### Hakuren (Victory Road)
+### Instituto Alpino (Victory Road)
 
 Escudo: `emblems/vr-hakuren-victory-road.png`
 
@@ -3917,7 +3417,7 @@ Escudo: `emblems/vr-hokuyou-gakuen.png`
 | 15 · Conley Quiver (DF) | `conley-quiver.png` |
 | 16 · Denzel Harvest (FW) | `denzel-harvest.png` |
 
-### Houreikan
+### Instituto Lawcrest
 
 Escudo: `emblems/vr-houreikan.png`
 
@@ -3940,7 +3440,7 @@ Escudo: `emblems/vr-houreikan.png`
 | 15 · Fabricius Cator (MF) | `fabricius-cator.png` |
 | 16 · Recco Rectenwald (FW) | `recco-rectenwald.png` |
 
-### Ijinmei Bundou
+### Instituto Visión Noble
 
 Escudo: `emblems/vr-ijinmei-bundou.png`
 
@@ -3963,7 +3463,7 @@ Escudo: `emblems/vr-ijinmei-bundou.png`
 | 15 · Horatio Tickner (DF) | `horatio-tickner.png` |
 | 16 · Barney Snellman (GK) | `barney-snellman.png` |
 
-### Keizen Arashiyama
+### Secundaria Stormridge
 
 Escudo: `emblems/vr-keizen-arashiyama.png`
 
@@ -3986,7 +3486,7 @@ Escudo: `emblems/vr-keizen-arashiyama.png`
 | 15 · Rael Abbeybogy (MF) | `rael-abbeybogy.png` |
 | 16 · Zelane Whitlow (GK) | `zelane-whitlow.png` |
 
-### Meiran Gakuin
+### Academia Orchid
 
 Escudo: `emblems/vr-meiran-gakuin.png`
 
@@ -4009,7 +3509,7 @@ Escudo: `emblems/vr-meiran-gakuin.png`
 | 15 · Liliane Alban (FW) | `liliane-alban.png` |
 | 16 · Amara Winslow (DF) | `amara-winslow.png` |
 
-### Nagumohara Shopkeepers
+### Vendedores de South Cirrus
 
 Escudo: `emblems/vr-nagumohara-shopkeepers.png`
 
@@ -4055,7 +3555,7 @@ Escudo: `emblems/vr-nagumohara.png`
 | 15 · Tai Richter (MF) | `tai-richter.png` |
 | 16 · Davin Bullock (MF) | `davin-bullock.png` |
 
-### Nikogawa
+### Instituto Twinford
 
 Escudo: `emblems/vr-nikogawa.png`
 
@@ -4101,7 +3601,7 @@ Escudo: `emblems/vr-nishinomiya.png`
 | 15 · Frie Sorbet (DF) | `frie-sorbet.png` |
 | 16 · Eddi Losse (GK) | `eddi-losse.png` |
 
-### Ouja Raimon
+### Instituto Raimon (Victory Road)
 
 Escudo: `emblems/vr-ouja-raimon.png`
 
@@ -4124,7 +3624,7 @@ Escudo: `emblems/vr-ouja-raimon.png`
 | 15 · Kaeo Springfield (MF) | `kaeo-springfield.png` |
 | 20 · Matilda Shadebough (GK) | `matilda-shadebough.png` |
 
-### Platos
+### Plathos
 
 Escudo: `emblems/vr-platos.png`
 
@@ -4147,7 +3647,7 @@ Escudo: `emblems/vr-platos.png`
 | 16 · Hugo Severian (FW) | `hugo-severian.png` |
 | 20 · Pharos Radris (GK) | `pharos-radris.png` |
 
-### Rojiura Backkicks
+### Goleadores del Callejón
 
 Escudo: `emblems/vr-rojiura-backkicks.png`
 
@@ -4170,7 +3670,7 @@ Escudo: `emblems/vr-rojiura-backkicks.png`
 | 15 · Drako Bonner (DF) | `drako-bonner.png` |
 | 16 · Chancer Cosgrave (DF) | `chancer-cosgrave.png` |
 
-### Senjutsu no Teikoku
+### Royal Academy (Victory Road)
 
 Escudo: `emblems/vr-senjutsu-no-teikoku.png`
 
@@ -4193,7 +3693,7 @@ Escudo: `emblems/vr-senjutsu-no-teikoku.png`
 | 15 · Leticia Legatus (GK) | `leticia-legatus.png` |
 | 16 · Arran Realis (DF) | `arran-realis.png` |
 
-### Tenshou-Zeus
+### Secundaria Solaria-Zeus
 
 Escudo: `emblems/vr-tenshou-zeus.png`
 
@@ -4216,7 +3716,7 @@ Escudo: `emblems/vr-tenshou-zeus.png`
 | 15 · Burke Forzane (DF) | `burke-forzane.png` |
 | 16 · Kazimir Stormblade (FW) | `kazimir-stormblade.png` |
 
-### Toufuu Ikokukan
+### Secundaria Internacional Eastwind
 
 Escudo: `emblems/vr-toufuu-ikokukan.png`
 
@@ -4239,7 +3739,7 @@ Escudo: `emblems/vr-toufuu-ikokukan.png`
 | 15 · Kaos Dao (GK) | `kaos-dao.png` |
 | 16 · Edmond Pias (DF) | `edmond-pias.png` |
 
-### Umi Kamome Soccer Club
+### Gaviotas FC
 
 Escudo: `emblems/vr-umi-kamome-soccer-club.png`
 
@@ -4262,7 +3762,7 @@ Escudo: `emblems/vr-umi-kamome-soccer-club.png`
 | 15 · Kata Caballo (GK) | `kata-caballo.png` |
 | 20 · Asuna Sugami (FW) | `asuna-sugami.png` |
 
-### Zanark Strangers
+### Zanark Outsiders
 
 Escudo: `emblems/vr-zanark-strangers.png`
 

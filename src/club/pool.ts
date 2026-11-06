@@ -74,6 +74,15 @@ export function cardByKey(key: string): Card | undefined {
   return index.get(key);
 }
 
+/**
+ * La carta de una clave guardada que ya no existe (su equipo de origen se ha quitado): el mismo personaje en otro
+ * equipo, por el id del jugador.
+ */
+export function cardForStaleKey(key: string): Card | undefined {
+  const id = key.split(':').pop();
+  return cache?.find((c) => c.player.id === id);
+}
+
 export function byPosition(pool: Card[], pos: Position, rarity?: Rarity): Card[] {
   return pool.filter((c) => c.player.position === pos && (rarity === undefined || c.rarity === rarity));
 }

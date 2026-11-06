@@ -77,6 +77,8 @@ STYLE = {
     'Mikage Sennou': ('#e8dcc0', '#8a8076', '#9a9488', '#6a4a3a', '#8a7e74', '#a09888', '#5a5238'),
     # Zeus: todo blanco con ribetes azul petróleo y medias moradas grisáceas; portero marrón oscuro con pantalón malva
     'Zeus': ('#f2f2f2', '#f2f2f2', '#3a2c18', '#1e5a6a', '#f2f2f2', '#6a6078', '#8a7e94', '#1e2a4a'),
+    # Senbayama (Farm): camiseta mostaza de cuadros con cuello crema, pantalón marrón oscuro y medias mostaza; portero azul grisáceo
+    'Senbayama': ('#9a8010', '#3a2c20', '#4e6e80', '#f0e8cc', '#9a8010', '#9a8010'),
     'Teikoku Gakuen': ('#36584a', '#7a6438', '#f08a2a', '#b0202a', '#36584a'),
     # Occult: camiseta morada (mangas iguales), pantalón gris, medias oscuras; portero de rojo
     'Occult': ('#4a4a7e', '#a2a2aa', '#a81c1c', '#3a3a68', '#4a4a7e', '#4a4a52'),

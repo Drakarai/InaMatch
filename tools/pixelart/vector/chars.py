@@ -539,3 +539,4 @@ import chars_sengoku  # noqa: E402,F401
 import chars_kirkwood  # noqa: E402,F401
 import chars_brain  # noqa: E402,F401
 import chars_zeus  # noqa: E402,F401
+import chars_farm  # noqa: E402,F401

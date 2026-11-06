@@ -4,12 +4,7 @@
  "wiki": "Senbayama",
  "name": "Instituto Farm",
  "short": "SNB",
- "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#2a8a3a"
- },
+ "colors": {"shirt": "#9a8010", "shorts": "#3a2c20", "gkShirt": "#4e6e80", "accent": "#f0e8cc", "sleeve": "#9a8010", "socks": "#9a8010"},
  "formation": "f-4-5-1",
  "players": [
   {

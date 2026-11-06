@@ -6,8 +6,8 @@ import head_axel as V
 SS = 6
 NUM = '10'
 OUT = V.OUT
-X0, Y0 = -30, -20  # origen del lienzo en unidades
-CW, CH = 160, 290
+X0, Y0 = -30, -60  # origen del lienzo en unidades (margen arriba para los peinados altos)
+CW, CH = 160, 330
 SKIN, HAIR = V.SKIN, V.HAIR
 KIT = {
     'shirt': (246, 206, 52, 255), 'shirt_d': (214, 168, 30, 255),

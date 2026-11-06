@@ -89,7 +89,7 @@ Las supertécnicas gastan TP y suelen ganar a los comandos básicos. Además, **
 - Los porcentajes no son oficiales; están juntos en `src/data/elements.ts` y `src/engine/rules.ts` para ajustarlos.
 - **Estamina (FP, naranja):** se gasta al moverse, al tirar (más cuanto más fuerte) y al parar. Con la estamina
   agotada, el jugador corre más despacio y rinde algo menos en duelos, tiros y paradas.
-- **Técnica (TP, verde):** solo la gastan las supertécnicas.
+- **Técnica (TP, verde):** solo la gastan las supertécnicas, y solo si ganan su choque: la que pierde (un regate frenado, un bloqueo que no para el tiro, un tiro parado o la parada de un gol) no gasta nada.
 - **Descanso:** todos recuperan un 33 % de cada barra. Se abre la formación para hacer cambios (cada jugador
   conserva su estamina) o cambiar de formación antes de la 2ª parte.
 - En un **duelo** con supertécnica, la pantalla se parte en diagonal con el color de cada técnica. Los dos jugadores

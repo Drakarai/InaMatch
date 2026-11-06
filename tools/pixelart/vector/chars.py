@@ -29,6 +29,20 @@ def pal(hair, skin, iris='#302232', **extra):
     return out
 
 
+def outline(pts, n=6):
+    """Contorno cerrado y suave por los puntos; los que llevan un tercer valor, (x, y, 1), son puntas afiladas."""
+    out, k = [], len(pts)
+    for i in range(k):
+        p1, p2 = pts[i], pts[(i + 1) % k]
+        p0 = p1 if len(p1) > 2 else pts[i - 1]
+        p3 = p2 if len(p2) > 2 else pts[(i + 2) % k]
+        for j in range(n):
+            t = j / n
+            out.append(tuple(0.5 * (2 * p1[c] + (-p0[c] + p2[c]) * t + (2 * p0[c] - 5 * p1[c] + 4 * p2[c] - p3[c]) * t * t
+                                    + (-p0[c] + 3 * p1[c] - 3 * p2[c] + p3[c]) * t ** 3) for c in (0, 1)))
+    return out
+
+
 def bumpy(cx, cy, rx, ry, n=16, amp=0.07, a0=0.0):
     """Contorno de rizos: elipse con bultos."""
     pts = []

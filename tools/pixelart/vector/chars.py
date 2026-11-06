@@ -627,6 +627,7 @@ import chars_spfixers  # noqa: E402,F401
 import chars_yokato  # noqa: E402,F401
 import chars_ie3japan  # noqa: E402,F401
 import chars_bigwaves  # noqa: E402,F401
+import chars_desertlion  # noqa: E402,F401
 
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):

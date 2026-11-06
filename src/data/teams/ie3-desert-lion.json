@@ -5,10 +5,19 @@
  "name": "Leones del Desierto",
  "short": "DLI",
  "colors": {
-  "shirt": "#8e1f2f",
-  "shorts": "#f2ede4",
-  "gkShirt": "#3b3b48",
-  "accent": "#a8283a"
+  "shirt": "#8a1e30",
+  "shorts": "#8a1e30",
+  "gkShirt": "#4a6a9a",
+  "accent": "#8a1e30",
+  "sleeve": "#8a1e30",
+  "socks": "#8a1e30",
+  "gkShorts": "#1e2a44",
+  "gkSleeve": "#4a6a9a",
+  "gkLongSleeve": true,
+  "zig": "#f2eae4",
+  "stripe": "#f2eae4",
+  "collar": "#f2eae4",
+  "num": "#f2eae4"
  },
  "formation": "f-d-lion",
  "players": [

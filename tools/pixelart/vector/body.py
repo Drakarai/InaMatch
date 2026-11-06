@@ -117,6 +117,20 @@ def body_front(d, t, back=False, num='10'):
         torso = V.quad((cx - sw + 7, top), (cx - sw, top), (cx - sw, top + 9)) + V.quad((cx - sw, top + 9), (cx - ww - 1, waist - 10), (cx - ww, waist + 1))[1:] + \
             [(cx + ww, waist + 1)] + V.quad((cx + ww, waist + 1), (cx + ww + 1, waist - 10), (cx + sw, top + 9))[1:] + V.quad((cx + sw, top + 9), (cx + sw, top), (cx + sw - 7, top))[1:]
     shape(d, torso, KIT['shirt'])
+    if KIT.get('zig') and not back:  # la parte de abajo de la camiseta de otro color, que sube en dientes de sierra
+        n, y0, y1 = 5, top + t['tl'] * 0.22, top + t['tl'] * 0.55
+        pts = [(cx - ww - 1, waist + 1)]
+        for k in range(2 * n + 1):  # picos blancos que suben (k impar) entre los dientes del color de la camiseta
+            pts.append((cx - sw - 2 + (2 * sw + 4) * k / (2 * n), y0 if k % 2 else y1))
+        pts.append((cx + ww + 1, waist + 1))
+        import heads as _H
+        clip = Image.new('L', (CW * SS, CH * SS), 0)
+        ImageDraw.Draw(clip).polygon([P(*q) for q in torso], fill=255)
+        layer = Image.new('RGBA', (CW * SS, CH * SS))
+        ImageDraw.Draw(layer).polygon([P(*q) for q in pts], fill=KIT['zig'])
+        from PIL import ImageChops
+        layer.putalpha(ImageChops.multiply(layer.split()[3], clip))
+        d._image.alpha_composite(layer)
     d.polygon([P(cx + sw * 0.45, top + 3), P(cx + sw - 2, top + 6), P(cx + ww - 2, waist), P(cx + ww * 0.45, waist)], fill=KIT['shirt_d'])
     # mangas raglán: del cuello al sobaco
     for s in (-1, 1):
@@ -351,6 +365,8 @@ def kit_for(colors, gk=False):
         k['collar'] = k['num'] = hexc(colors['accent'])
     if gk:
         k['hand'] = hexc(colors['gkGloves']) if colors.get('gkGloves') else (246, 246, 246, 255)
+    if colors.get('zig') and not gk:
+        k['zig'] = hexc(colors['zig'])
     for key in ('collar', 'num', 'stripe'):
         if colors.get(key) and not (gk and key == 'collar'):
             k[key] = hexc(colors[key])

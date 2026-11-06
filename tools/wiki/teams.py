@@ -70,6 +70,8 @@ STYLE = {
     # Sally's: camiseta mostaza con detalles verdes, pantalón verde; portero de rosa
     "Ichibangai Sally's": ('#e0a020', '#2e6a3a', '#ee7a7a', '#2e6a3a', '#e0a020'),
     # Sengoku Igajima (Instituto Shuriken): todo morado con ribetes azul grisáceo y medias grises; portero verde azulado
+    # Hakuren (Instituto Alpino): camiseta crema con ribetes azul marino, pantalón azul marino y medias blancas; portero verde oliva
+    'Hakuren': ('#f4f0dc', '#2e4466', '#4a5226', '#2e4466', '#f4f0dc', '#f4f0dc', '#d8d0b0', '#4a5226'),
     'Sengoku Igajima': ('#4e3a5c', '#4e3a5c', '#6a9a96', '#9ab4bc', '#4e3a5c', '#a8a49c', '#5e8a86'),
     # Kidokawa Seishuu (Kirkwood): camiseta roja (con laterales negros), pantalón beige y medias rojas; portero verde claro
     'Kidokawa Seishuu': ('#c00c0c', '#d8c8b4', '#b8c87e', '#2a2a2e', '#c00c0c', '#c00c0c', '#4a5a68'),

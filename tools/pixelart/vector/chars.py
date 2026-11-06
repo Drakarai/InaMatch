@@ -549,3 +549,4 @@ import chars_gemini  # noqa: E402,F401
 import chars_young  # noqa: E402,F401
 import chars_epsilon  # noqa: E402,F401
 import chars_alius  # noqa: E402,F401
+import chars_alpino  # noqa: E402,F401

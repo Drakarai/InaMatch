@@ -4,7 +4,7 @@ Escribe src/assets/pack/vsprites/<equipo>/<jugador>/{front,back,side0,side1,side
 - front/back: de frente y de espaldas; side0: de perfil mirando a la derecha; side1/side2: pasos de carrera.
 - Todos con la misma escala (REF_PX de alto para el cuerpo normal): los altos miden más que los bajitos.
 
-Uso (desde la raíz del repo): python3 -I tools/pixelart/vector/export.py
+Uso (desde la raíz del repo): python3 -I tools/pixelart/vector/export.py [ids de equipo...]
 """
 import os
 import sys
@@ -23,7 +23,7 @@ REF_PX = 80
 OUT = (60, 24, 16, 255)
 
 # equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo
-TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis']
+TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis', 'ie2-hakuren']
 # dibujos que no están en chars.py (Axel tiene su propio módulo, head_axel.py)
 SPECIAL = {}
 
@@ -95,7 +95,10 @@ def pad_same(fr):
 
 
 def main():
+    only = sys.argv[1:]  # ids de equipo: solo esos (sin argumentos, todos)
     for tid in TEAMS:
+        if only and tid not in only:
+            continue
         team = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
         for p in team['players']:
             # versión propia de este equipo (los Jóvenes Inazuma son los veteranos de niños): '<equipo>:<jugador>'

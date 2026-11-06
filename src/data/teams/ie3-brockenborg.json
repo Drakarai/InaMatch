@@ -5,10 +5,18 @@
  "name": "Brocken Brigade",
  "short": "BRO",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#c8a020",
-  "accent": "#3a3a3a"
+  "shirt": "#f4ece4",
+  "shorts": "#24242a",
+  "gkShirt": "#3a4848",
+  "accent": "#c81e2a",
+  "sleeve": "#24242a",
+  "socks": "#f4ece4",
+  "gkShorts": "#3a4848",
+  "gkSleeve": "#3a4848",
+  "gkLongSleeve": true,
+  "stripe": "#c81e2a",
+  "collar": "#e8b020",
+  "num": "#24242a"
  },
  "formation": "f-blitz",
  "players": [

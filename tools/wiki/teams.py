@@ -165,7 +165,8 @@ STYLE = {
     'Team Garshield': ('#2e2e2e', '#5a5a5a', '#8a2a2a', '#4a4a4a'),
     # Little Gigant (Cotarl): camiseta verde con ribetes amarillos, pantalón verde oscuro y medias amarillas; el portero rojo con mangas azul marino
     'Little Gigant': ('#4aa880', '#16362a', '#d81e2a', '#4aa880', '#4aa880', '#f0c020', '#1e2a5a', '#1e2a5a', {'gkLongSleeve': True, 'gkGloves': '#d81e2a', 'stripe': '#f0c020', 'collar': '#f2f2f2', 'num': '#f0c020'}),
-    'Brockenborg': ('#1a1a1a', '#f2f2f2', '#c8a020', '#3a3a3a'),
+    # Brockenborg (Alemania): camiseta blanca con mangas negras y franjas rojas, pantalón negro y medias blancas; el portero gris verdoso de manga larga
+    'Brockenborg': ('#f4ece4', '#24242a', '#3a4848', '#c81e2a', '#24242a', '#f4ece4', '#3a4848', '#3a4848', {'gkLongSleeve': True, 'stripe': '#c81e2a', 'collar': '#e8b020', 'num': '#24242a'}),
     # Red Matador (España): camiseta roja con las mangas amarillas, pantalón y medias negros; el portero celeste con mangas largas negras
     'Red Matador': ('#e0401e', '#24242a', '#7ac0ec', '#e0401e', '#f4c020', '#24242a', '#24242a', '#24242a', {'gkLongSleeve': True, 'stripe': '#f4c020', 'collar': '#f4c020', 'num': '#24242a'}),
     # Rose Griffon (Francia): camiseta azul con ribetes rojos y cuello blanco, pantalón blanco y medias rojas; el portero azul marino muy oscuro de manga larga

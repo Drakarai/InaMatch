@@ -4,12 +4,7 @@
  "wiki": "Mikage Sennou",
  "name": "Instituto Brain",
  "short": "MIK",
- "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#f2f2f2"
- },
+ "colors": {"shirt": "#e8dcc0", "shorts": "#8a8076", "gkShirt": "#9a9488", "accent": "#6a4a3a", "sleeve": "#8a7e74", "socks": "#a09888", "gkShorts": "#5a5238"},
  "formation": "f-grid442",
  "players": [
   {

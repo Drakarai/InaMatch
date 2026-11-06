@@ -329,10 +329,30 @@ export function basePower(f: Fighter, situation: Situation, mul = 1): number {
   return Math.round(((choicePower(f, { type: 'basic', id: a }) + choicePower(f, { type: 'basic', id: b })) / 2) * mul);
 }
 
+/** Técnicas que valen para cortar un tiro rival: de bloqueo de tiro o tiros de contra. */
+export function shotBlockMoves(moves: MoveData[]): MoveData[] {
+  return moves.filter((m) => m.shotBlock && (m.kind === 'block' || m.kind === 'shoot'));
+}
+
 /** Supertécnicas que un jugador puede usar ahora mismo en esta situación. */
 export function usableMoves(moves: MoveData[], situation: Situation, tp: number): MoveData[] {
+  if (situation === 'block') return shotBlockMoves(moves).filter((m) => m.tp <= tp);
   const kind = SITUATION_MOVE_KIND[situation];
   return moves.filter((m) => m.kind === kind && m.tp <= tp);
+}
+
+/**
+ * ¿Puede este jugador ponerse delante de un tiro y bloquearlo? Solo con una supertécnica de bloqueo de tiro o un tiro
+ * de contra (y TP para usarla): sin ella el balón le pasa de largo, como en los juegos; parar sin técnica es cosa del portero.
+ */
+export function canBlockShot(moves: MoveData[], tp: number): boolean {
+  return usableMoves(moves, 'block', tp).length > 0;
+}
+
+/** Potencia que se enseña antes de bloquear: la de su mejor técnica para cortar el tiro (0 si no tiene). */
+export function blockPreview(f: Fighter, moves: MoveData[], tp: number, mul = 1): number {
+  const usable = usableMoves(moves, 'block', tp);
+  return usable.length ? Math.round(Math.max(...usable.map((m) => choicePower(f, { type: 'move', move: m }))) * mul) : 0;
 }
 
 /**
@@ -341,13 +361,15 @@ export function usableMoves(moves: MoveData[], situation: Situation, tp: number)
  */
 export function cpuChoice(moves: MoveData[], situation: Situation, tp: number, rng: Rng, moveChance = 0.6): Choice {
   const usable = usableMoves(moves, situation, tp);
+  // un tiro solo se corta con supertécnica: si tiene, la usa siempre; si no, lo deja pasar
+  if (situation === 'block') {
+    return usable.length ? { type: 'move', move: usable.reduce((a, b) => (b.power > a.power ? b : a)) } : { type: 'basic', id: 'letpass' };
+  }
   if (usable.length > 0 && rng() < moveChance) {
     const best = usable.reduce((a, b) => (b.power > a.power ? b : a));
     return { type: 'move', move: best };
   }
   const [a, b] = BASIC_OPTIONS[situation];
-  // la CPU nunca deja pasar un tiro a propósito
-  if (situation === 'block') return { type: 'basic', id: a };
   return { type: 'basic', id: rng() < 0.5 ? a : b };
 }
 

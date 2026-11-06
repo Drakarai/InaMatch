@@ -17,6 +17,8 @@ import {
   SHOT_POWER_LEVELS,
   TENSION_GAIN,
   basePower,
+  blockPreview,
+  canBlockShot,
   choiceLabel,
   cpuChoice,
   isFoul,
@@ -1140,7 +1142,16 @@ export class MatchScene extends Phaser.Scene {
       stopTrail: shotChoice.type === 'move' ? fxTrail(this, moveFx(shotChoice.move.id), b.sprite, shotChoice.move.element) : undefined,
     };
     this.hud.hideDuel();
-    if (defSide === 0) this.hud.toast(isChip ? '¡Vaselina! Va por encima' : '¡Ponte delante del tiro!', 1500);
+    if (defSide === 0) {
+      // ponerse delante solo sirve a quien tiene una técnica de bloqueo de tiro o un tiro de contra
+      const blockers = this.players[0].filter((p) => !p.isGK && canBlockShot(p.moves, p.tp));
+      const msg = isChip
+        ? '¡Vaselina! Va por encima'
+        : blockers.length
+          ? `¡Ponte delante con ${blockers.map((p) => p.data.short).slice(0, 3).join(', ')}!`
+          : 'Nadie puede bloquearlo: ¡a por todas, portero!';
+      this.hud.toast(msg, 1700);
+    }
     this.state = 'shot';
   }
 
@@ -1164,7 +1175,8 @@ export class MatchScene extends Phaser.Scene {
     b.height = f.isChip ? Math.sin(progress * Math.PI) * 46 : 6;
     if (f.isChip) return; // la vaselina pasa por encima de los defensas
     for (const o of this.opponents(f.shooter.side)) {
-      if (o.isGK || o.isStunned(this.now) || f.tried.has(o)) continue;
+      // solo se cruza en el tiro quien tiene una técnica de bloqueo de tiro o un tiro de contra: al resto le pasa de largo
+      if (o.isGK || o.isStunned(this.now) || f.tried.has(o) || !canBlockShot(o.moves, o.tp)) continue;
       if (Phaser.Math.Distance.Between(o.x, o.y + 16, b.x, b.y) < BLOCK_RADIUS) {
         f.tried.add(o);
         this.state = 'event';
@@ -1179,7 +1191,7 @@ export class MatchScene extends Phaser.Scene {
     const f = this.flight!;
     const { shooter, shotChoice } = f;
     this.hud.showDuel(shooter, blocker, {
-      power: [Math.round(f.power), basePower(blocker.fighter(), 'block', this.sideMul(blocker.side) * elementMultiplier(blocker.data.element, shooter.data.element))],
+      power: [Math.round(f.power), blockPreview(blocker.fighter(), blocker.moves, blocker.tp, this.sideMul(blocker.side) * elementMultiplier(blocker.data.element, shooter.data.element))],
     });
     const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, 0.5);
     this.payMoves([blocker, blockChoice]);
@@ -1257,7 +1269,7 @@ export class MatchScene extends Phaser.Scene {
     const dy = f.target.y - b.y;
     const len2 = dx * dx + dy * dy || 1;
     const options = this.players[side]
-      .filter((p) => !p.isGK && !p.isStunned(this.now) && !f.tried.has(p))
+      .filter((p) => !p.isGK && !p.isStunned(this.now) && !f.tried.has(p) && canBlockShot(p.moves, p.tp))
       .map((p) => {
         // punto de la trayectoria por delante del balón más cercano a los pies de este defensa
         const feetY = p.y + 16;

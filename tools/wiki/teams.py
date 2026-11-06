@@ -716,6 +716,11 @@ def move_from_key(key):
     }
     if w.get('chr') == 'L':  # tiro largo: se puede usar desde cualquier distancia
         moves_used[mid]['long'] = True
+    # bloqueo de tiros: las técnicas defensivas de bloqueo (B) y los tiros que sirven para cortar o devolver un tiro
+    # rival (B en IE2/GO, CN "Counter" en Victory Road). Sin una de estas, solo el portero puede parar un tiro.
+    chr_all = set(w['chr'].values()) if isinstance(w.get('chr'), dict) else {w.get('chr')}
+    if (KIND[w['wType']] == 'block' and 'B' in chr_all) or (KIND[w['wType']] == 'shoot' and chr_all & {'B', 'CN'}):
+        moves_used[mid]['shotBlock'] = True
     return mid
 
 

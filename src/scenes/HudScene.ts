@@ -10,6 +10,8 @@ import {
   SITUATION_MOVE_KIND,
   choiceLabel,
   isExhausted,
+  shotBlockMoves,
+  type BasicId,
   type Choice,
   type Situation,
 } from '../engine/rules';
@@ -377,18 +379,22 @@ export class HudScene extends Phaser.Scene {
   /** Comandos de un duelo, tiro, bloqueo o parada: dos básicos y las supertécnicas. */
   prompt(situation: Situation, player: MatchPlayer): Promise<Choice> {
     const [a, b] = BASIC_OPTIONS[situation];
-    const basicA: Choice = { type: 'basic', id: a };
+    // un tiro solo se bloquea con supertécnica: la única opción básica es dejarlo pasar
+    const blockMode = situation === 'block';
+    const basicA: Choice = { type: 'basic', id: blockMode ? 'letpass' : a };
     const basicB: Choice = { type: 'basic', id: b };
     return this.commandBar<Choice>(PROMPT_TITLE[situation], basicA, (c, cy, finish) => {
       // rojo al atacar, azul al defender, como los botones de IE3
       const defensive = situation === 'defend' || situation === 'keep' || situation === 'block';
       const color = defensive ? 0x2f6fc4 : 0xd8344a;
-      c.add(new Button(this, 130, cy + 10, `1 · ${BASIC_LABEL[a]}`, () => finish(basicA), { w: 230, h: 50, color }));
-      c.add(new Button(this, FIELD_VIEW.w - 130, cy + 10, `2 · ${BASIC_LABEL[b]}`, () => finish(basicB), { w: 230, h: 50, color }));
-
-      const keys: Record<string, Choice> = { '1': basicA, '2': basicB };
+      c.add(new Button(this, 130, cy + 10, `1 · ${BASIC_LABEL[basicA.id as BasicId]}`, () => finish(basicA), { w: 230, h: 50, color }));
+      const keys: Record<string, Choice> = { '1': basicA };
+      if (!blockMode) {
+        c.add(new Button(this, FIELD_VIEW.w - 130, cy + 10, `2 · ${BASIC_LABEL[b]}`, () => finish(basicB), { w: 230, h: 50, color }));
+        keys['2'] = basicB;
+      }
       const kind = SITUATION_MOVE_KIND[situation];
-      const moves = player.moves.filter((m) => m.kind === kind);
+      const moves = blockMode ? shotBlockMoves(player.moves) : player.moves.filter((m) => m.kind === kind);
       moves.forEach((move, i) => {
         const ok = move.tp <= player.tp;
         const choice: Choice = { type: 'move', move };

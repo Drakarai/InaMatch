@@ -6,6 +6,7 @@ import type { MoveData, Stats } from '../data/types';
 import {
   affinityMultiplier,
   basePower,
+  canBlockShot,
   choicePower,
   cpuChoice,
   distanceFactor,
@@ -35,7 +36,9 @@ const MOVES: Record<string, MoveData> = {
   'eagle-buster': { id: 'eagle-buster', name: 'Remate del águila', kind: 'shoot', element: 'wind', power: 86, tp: 50, long: true },
   'illusion-ball': { id: 'illusion-ball', name: 'Espejismo de balón', kind: 'dribble', element: 'wood', power: 45, tp: 28 },
   'heat-tackle': { id: 'heat-tackle', name: 'Entrada de llamas', kind: 'dribble', element: 'fire', power: 45, tp: 27 },
-  'the-wall': { id: 'the-wall', name: 'El muro', kind: 'block', element: 'earth', power: 45, tp: 30 },
+  'the-wall': { id: 'the-wall', name: 'El muro', kind: 'block', element: 'earth', power: 45, tp: 30, shotBlock: true },
+  'killer-slide': { id: 'killer-slide', name: 'Entrada asesina', kind: 'block', element: 'earth', power: 40, tp: 20 },
+  'tarzan-shot': { id: 'tarzan-shot', name: 'Remate tarzán', kind: 'shoot', element: 'wood', power: 50, tp: 30, shotBlock: true },
 };
 const move = (id: string): Choice => ({ type: 'move', move: MOVES[id] });
 
@@ -242,8 +245,25 @@ describe('bloqueos de tiro', () => {
     expect(weak.outcome).toBe('caught');
   });
 
-  it('la CPU nunca deja pasar un tiro', () => {
-    expect(cpuChoice([], 'block', 100, fixed(0.99))).toEqual({ type: 'basic', id: 'shotblock' });
+  it('solo se bloquea un tiro con técnica de bloqueo de tiro o con un tiro de contra (y TP para usarla)', () => {
+    expect(canBlockShot([], 100)).toBe(false);
+    expect(canBlockShot([MOVES['killer-slide'], MOVES['fireball-screw']], 100)).toBe(false);
+    expect(canBlockShot([MOVES['the-wall']], 100)).toBe(true);
+    expect(canBlockShot([MOVES['tarzan-shot']], 100)).toBe(true);
+    expect(canBlockShot([MOVES['the-wall']], 10)).toBe(false);
+    expect(usableMoves([MOVES['the-wall'], MOVES['killer-slide'], MOVES['tarzan-shot']], 'block', 100).map((m) => m.id)).toEqual(['the-wall', 'tarzan-shot']);
+  });
+
+  it('la CPU bloquea siempre con su técnica y, sin ella, deja pasar el tiro', () => {
+    expect(cpuChoice([], 'block', 100, fixed(0.99))).toEqual({ type: 'basic', id: 'letpass' });
+    expect(cpuChoice([MOVES['the-wall']], 'block', 100, fixed(0.99))).toEqual({ type: 'move', move: MOVES['the-wall'] });
+  });
+
+  it('hay técnicas de bloqueo de tiro y tiros de contra en los datos', () => {
+    const marked = Object.values(MOVES_DATA).filter((m) => m.shotBlock);
+    expect(marked.some((m) => m.kind === 'block')).toBe(true);
+    expect(marked.some((m) => m.kind === 'shoot')).toBe(true);
+    expect(marked.every((m) => m.kind === 'block' || m.kind === 'shoot')).toBe(true);
   });
 });
 

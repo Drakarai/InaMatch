@@ -135,34 +135,114 @@ export class GachaScene extends Phaser.Scene {
     this.tweens.add({ targets: g, alpha: 0.6, duration: 1500, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
   }
 
-  /** El balón en reposo, latiendo, esperando una tirada. */
+  /** El balón en reposo: flota, gira despacio y le orbitan chispas, esperando una tirada. */
   private idle(): void {
     this.tweens.killTweensOf(this.stage.list);
     this.stage.removeAll(true);
-    const ball = this.ball(STAGE.x, STAGE.y, 90);
-    this.tweens.add({ targets: ball, scale: 1.06, duration: 800, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
-    this.stage.add(ball);
-    this.stage.add(display(this, STAGE.x, STAGE.y + 140, '¡Haz una tirada!', 34, '#ffffff').setOrigin(0.5));
-    this.stage.add(label(this, STAGE.x, STAGE.y + 172, this.mode === 'notebooks' ? 'Los cuadernos se ponen a un jugador desde Mi club → Editar' : 'Los nuevos jugadores van a tu colección de Mi club', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(0.5));
+    const ball = this.ball(STAGE.x, STAGE.y, 92);
+    this.stage.add(ball.root);
+    this.tweens.add({ targets: ball.body, y: -10, duration: 1400, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
+    this.tweens.add({ targets: ball.shadow, scaleX: 0.86, alpha: 0.5, duration: 1400, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
+    this.tweens.add({ targets: ball.pattern, angle: 360, duration: 14000, repeat: -1 });
+    this.tweens.add({ targets: ball.halo, angle: -360, duration: 9000, repeat: -1 });
+    this.tweens.add({ targets: ball.halo, alpha: 0.55, duration: 1100, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
+    this.tweens.add({ targets: ball.sparks, angle: 360, duration: 5000, repeat: -1 });
+    this.stage.add(display(this, STAGE.x, STAGE.y + 150, '¡Haz una tirada!', 34, '#ffffff').setOrigin(0.5));
+    this.stage.add(label(this, STAGE.x, STAGE.y + 182, this.mode === 'notebooks' ? 'Los cuadernos se ponen a un jugador desde Mi club → Editar' : 'Los nuevos jugadores van a tu colección de Mi club', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(0.5));
   }
 
-  private ball(x: number, y: number, r: number): Phaser.GameObjects.Container {
-    const c = this.add.container(x, y);
-    const g = this.add.graphics();
-    g.fillStyle(0x000000, 0.35).fillEllipse(6, r + 14, r * 1.6, r * 0.35);
-    g.fillStyle(0xd8dee8).fillCircle(0, 0, r);
-    g.fillStyle(0xffffff).fillCircle(-r * 0.1, -r * 0.1, r * 0.88);
-    g.fillStyle(0x1a1a1a);
-    const pent = (px: number, py: number, s: number) =>
-      g.fillPoints(Array.from({ length: 5 }, (_, i) => pt(px + Math.cos(-Math.PI / 2 + (i * 2 * Math.PI) / 5) * s, py + Math.sin(-Math.PI / 2 + (i * 2 * Math.PI) / 5) * s)), true);
-    pent(0, 0, r * 0.3);
+  /**
+   * Balón de verdad: esfera sombreada, costuras y pentágonos en perspectiva (los del borde, achatados), brillo
+   * y un halo eléctrico detrás. Devuelve las piezas por separado para animarlas: el dibujo gira dentro del cuerpo,
+   * y el sombreado y el brillo quedan fijos, así parece que gira una esfera.
+   */
+  private ball(x: number, y: number, r: number): { root: Phaser.GameObjects.Container; body: Phaser.GameObjects.Container; pattern: Phaser.GameObjects.Graphics; halo: Phaser.GameObjects.Graphics; sparks: Phaser.GameObjects.Container; shadow: Phaser.GameObjects.Graphics } {
+    const root = this.add.container(x, y);
+    // sombra en el suelo
+    const shadow = this.add.graphics({ y: r + 26 });
+    for (let i = 5; i >= 1; i--) shadow.fillStyle(0x000000, 0.1).fillEllipse(0, 0, r * 0.38 * i, r * 0.11 * i);
+    root.add(shadow);
+    // halo eléctrico: anillo con dientes, como una rueda de rayos
+    const halo = this.add.graphics();
+    glow(halo, 0, 0, r * 1.9, THEME.yellow, 0.22, 8);
+    halo.lineStyle(3, THEME.yellow, 0.9);
+    for (let i = 0; i < 18; i++) {
+      const a = (i / 18) * Math.PI * 2;
+      const r0 = r * 1.16;
+      const r1 = r * (i % 3 ? 1.3 : 1.48);
+      halo.lineBetween(Math.cos(a) * r0, Math.sin(a) * r0, Math.cos(a + 0.12) * r1, Math.sin(a + 0.12) * r1);
+    }
+    halo.lineStyle(2, 0xffffff, 0.5).strokeCircle(0, 0, r * 1.14);
+    root.add(halo);
+    const body = this.add.container(0, 0);
+    root.add(body);
+    // esfera: círculos concéntricos del claro al oscuro, desplazados hacia la luz (arriba a la izquierda)
+    const sphere = this.add.graphics();
+    const steps = 14;
+    for (let i = 0; i < steps; i++) {
+      const t = i / (steps - 1);
+      const c = Phaser.Display.Color.Interpolate.ColorWithColor(Phaser.Display.Color.ValueToColor(0x7f8aa0), Phaser.Display.Color.ValueToColor(0xffffff), 100, t * 100);
+      sphere.fillStyle(Phaser.Display.Color.GetColor(c.r, c.g, c.b)).fillCircle(-r * 0.22 * t, -r * 0.22 * t, r * (1 - t * 0.78));
+    }
+    body.add(sphere);
+    // dibujo del balón (gira): pentágonos negros con perspectiva y costuras
+    const pattern = this.add.graphics();
+    const pent = (cx: number, cy: number, s: number, squash: number, rot: number) => {
+      const d = Math.hypot(cx, cy);
+      const ux = d ? cx / d : 1;
+      const uy = d ? cy / d : 0;
+      const pts: Phaser.Geom.Point[] = [];
+      for (let i = 0; i < 5; i++) {
+        const a = rot + (i * 2 * Math.PI) / 5;
+        // se aplasta en la dirección radial (perspectiva de esfera)
+        const px = Math.cos(a) * s;
+        const py = Math.sin(a) * s;
+        const rad = px * ux + py * uy;
+        const tan = -px * uy + py * ux;
+        pts.push(pt(cx + ux * rad * squash - uy * tan, cy + uy * rad * squash + ux * tan));
+      }
+      pattern.fillPoints(pts, true);
+      pattern.lineStyle(1.5, 0x5a6478, 0.9).strokePoints(pts, true);
+      return pts;
+    };
+    pattern.fillStyle(0x1b2230);
+    const center = pent(0, 0, r * 0.3, 1, -Math.PI / 2);
+    const ring: Phaser.Geom.Point[][] = [];
     for (let i = 0; i < 5; i++) {
       const a = -Math.PI / 2 + (i * 2 * Math.PI) / 5;
-      pent(Math.cos(a) * r * 0.78, Math.sin(a) * r * 0.78, r * 0.2);
+      ring.push(pent(Math.cos(a) * r * 0.72, Math.sin(a) * r * 0.72, r * 0.23, 0.55, a + Math.PI));
     }
-    g.lineStyle(4, THEME.yellow).strokeCircle(0, 0, r);
-    c.add(g);
-    return c;
+    // costuras: del centro a cada pentágono y entre vecinos
+    pattern.lineStyle(2.5, 0x1b2230, 0.6);
+    for (let i = 0; i < 5; i++) {
+      const c0 = center[(i + 1) % 5];
+      const a = -Math.PI / 2 + (i * 2 * Math.PI) / 5;
+      pattern.lineBetween(c0.x, c0.y, Math.cos(a) * r * 0.5, Math.sin(a) * r * 0.5);
+      const b1 = ring[i][2];
+      const b2 = ring[(i + 1) % 5][3];
+      pattern.lineBetween(b1.x, b1.y, b2.x, b2.y);
+    }
+    body.add(pattern);
+    // sombreado fijo encima: borde oscuro y brillo especular
+    const shade = this.add.graphics();
+    // borde oscuro hacia abajo a la derecha (anillos cada vez más pequeños, siempre dentro de la esfera)
+    for (let i = 0; i < 4; i++) shade.lineStyle(r * 0.1, 0x0b1220, 0.07 + i * 0.03).strokeCircle(r * 0.03 * i, r * 0.03 * i, r - r * (0.05 + 0.07 * i));
+    shade.fillStyle(0xffffff, 0.75).fillEllipse(-r * 0.4, -r * 0.46, r * 0.42, r * 0.22);
+    shade.fillStyle(0xffffff, 0.35).fillEllipse(-r * 0.3, -r * 0.3, r * 0.9, r * 0.6);
+    shade.lineStyle(3, 0x0b1220, 0.6).strokeCircle(0, 0, r);
+    body.add(shade);
+    // chispas que orbitan (en una elipse inclinada, por delante y por detrás del balón)
+    const sparks = this.add.container(0, 0);
+    for (let i = 0; i < 4; i++) {
+      const a = (i / 4) * Math.PI * 2;
+      const sp = this.add.graphics({ x: Math.cos(a) * r * 1.35, y: Math.sin(a) * r * 1.35 });
+      sp.fillStyle(THEME.yellow, 0.9).fillCircle(0, 0, 5);
+      sp.fillStyle(0xffffff).fillCircle(0, 0, 2.2);
+      sparks.add(sp);
+    }
+    sparks.setScale(1, 0.45);
+    root.add(sparks);
+    return { root, body, pattern, halo, sparks, shadow };
   }
 
   private async roll(count: 1 | 10): Promise<void> {
@@ -192,40 +272,81 @@ export class GachaScene extends Phaser.Scene {
     this.busy = false;
   }
 
-  /** El balón se carga de rayos del color de la mejor carta y estalla. */
+  /** El balón gira cada vez más deprisa, tiembla, se carga de rayos del color de la mejor carta y estalla. */
   private async charge(best: number): Promise<void> {
     this.tweens.killTweensOf(this.stage.list);
     this.stage.removeAll(true);
     const color = RARITY[best as 1 | 2 | 3 | 4].color;
-    const ball = this.ball(STAGE.x, STAGE.y, 90);
-    this.stage.add(ball);
+    const ball = this.ball(STAGE.x, STAGE.y, 92);
+    this.stage.add(ball.root);
     const bolts = this.add.graphics();
     this.stage.add(bolts);
+    // el balón sube, gira cada vez más rápido y el halo se enciende
+    this.tweens.add({ targets: ball.body, y: -30, duration: 900, ease: 'Sine.inOut' });
+    this.tweens.add({ targets: ball.shadow, scaleX: 0.7, alpha: 0.5, duration: 900 });
+    this.tweens.add({ targets: ball.pattern, angle: 1800, duration: 1400, ease: 'Quad.in' });
+    this.tweens.add({ targets: ball.halo, angle: -720, scale: 1.3, duration: 1400, ease: 'Quad.in' });
+    this.tweens.add({ targets: ball.sparks, angle: 1080, scale: 1.4, duration: 1400, ease: 'Quad.in' });
     sfx.duelStart();
-    for (let i = 0; i < 10; i++) {
-      bolts.clear().lineStyle(4, i > 5 ? color : 0xffffff, 0.9);
-      for (let k = 0; k < 6; k++) {
+    for (let i = 0; i < 18; i++) {
+      const k = i / 17;
+      // cada rayo se pinta dos veces: un halo grueso de color y un núcleo fino blanco
+      bolts.clear();
+      const n = 3 + Math.floor(k * 7);
+      const paths: [number, number][][] = [];
+      for (let b = 0; b < n; b++) {
         const a = Math.random() * Math.PI * 2;
-        let x = STAGE.x + Math.cos(a) * 95;
-        let y = STAGE.y + Math.sin(a) * 95;
-        bolts.beginPath().moveTo(x, y);
-        for (let s = 0; s < 4; s++) {
-          x += Math.cos(a) * 30 + (Math.random() - 0.5) * 30;
-          y += Math.sin(a) * 30 + (Math.random() - 0.5) * 30;
-          bolts.lineTo(x, y);
+        let x = STAGE.x + Math.cos(a) * 100;
+        let y = STAGE.y - 15 + Math.sin(a) * 100;
+        const path: [number, number][] = [[x, y]];
+        for (let st = 0; st < 5; st++) {
+          x += Math.cos(a) * 30 + (Math.random() - 0.5) * 44;
+          y += Math.sin(a) * 30 + (Math.random() - 0.5) * 44;
+          path.push([x, y]);
         }
-        bolts.strokePath();
+        paths.push(path);
       }
-      ball.setScale(1 + i * 0.03).setAngle((Math.random() - 0.5) * 12);
-      await wait(this, 70);
+      for (const [width, col, alpha] of [
+        [6 + k * 6, i > 9 ? color : THEME.yellow, 0.35],
+        [2 + k * 2, 0xffffff, 0.95],
+      ] as const) {
+        bolts.lineStyle(width, col, alpha);
+        for (const path of paths) {
+          bolts.beginPath().moveTo(path[0][0], path[0][1]);
+          for (const [px, py] of path.slice(1)) bolts.lineTo(px, py);
+          bolts.strokePath();
+        }
+      }
+      // tiembla cada vez más
+      ball.body.setPosition((Math.random() - 0.5) * 10 * k, ball.body.y);
+      ball.body.setScale(1 + k * 0.12);
+      if (i > 10) this.cameras.main.shake(80, 0.002 * k);
+      await wait(this, 75);
     }
     sfx.win();
-    // el destello va fuera del escenario: se borra solo al acabar
-    const flash = this.add.circle(STAGE.x, STAGE.y, 40, color, 1);
-    this.tweens.add({ targets: flash, scale: 22, alpha: 0, duration: 500, onComplete: () => flash.destroy() });
-    ball.destroy();
+    // estallido: destello, tres ondas de choque y chispas que salen disparadas (van fuera del escenario)
+    const fx: Phaser.GameObjects.GameObject[] = [];
+    const flash = this.add.circle(STAGE.x, STAGE.y - 15, 40, color, 1).setDepth(5);
+    fx.push(flash);
+    this.tweens.add({ targets: flash, scale: 24, alpha: 0, duration: 520, ease: 'Cubic.out' });
+    for (let w = 0; w < 3; w++) {
+      const ringG = this.add.graphics({ x: STAGE.x, y: STAGE.y - 15 }).setDepth(5);
+      ringG.lineStyle(6 - w, w ? color : 0xffffff, 0.9).strokeCircle(0, 0, 60);
+      fx.push(ringG);
+      this.tweens.add({ targets: ringG, scale: 8 + w * 3, alpha: 0, duration: 650 + w * 150, delay: w * 90, ease: 'Cubic.out' });
+    }
+    for (let p = 0; p < 26; p++) {
+      const a = Math.random() * Math.PI * 2;
+      const d = 260 + Math.random() * 220;
+      const spark = this.add.circle(STAGE.x, STAGE.y - 15, 3 + Math.random() * 4, p % 3 ? color : 0xffffff, 1).setDepth(5);
+      fx.push(spark);
+      this.tweens.add({ targets: spark, x: STAGE.x + Math.cos(a) * d, y: STAGE.y - 15 + Math.sin(a) * d + 120, scale: 0, duration: 600 + Math.random() * 400, ease: 'Cubic.out' });
+    }
+    this.cameras.main.shake(220, 0.006);
+    this.time.delayedCall(1300, () => fx.forEach((o) => o.destroy()));
+    ball.root.destroy();
     bolts.destroy();
-    await wait(this, 350);
+    await wait(this, 380);
   }
 
   /** Coloca las 1 o 10 cartas y las va abriendo una a una. */

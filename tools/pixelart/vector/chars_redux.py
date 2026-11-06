@@ -100,24 +100,36 @@ CHARS['sue-sparrow'] = {
     'side': [L(blob(BOB_S))] + bob_shade('side') + wavy((4, 64), (14, 74), (-8, 100), -6) + [L(blob([(70, 80), (96, 82), (96, 98), (74, 102)]), 'mask', 'f', ln=True)],
     'back': [L(blob(BOB_B))] + bob_shade('back') + wavy((6, 80), (24, 88), (2, 106), 6) + wavy((76, 88), (94, 80), (98, 106), -6, light_left=False),
 }
+def horn(k, view='front'):
+    """Cuerno de pelo grueso que sale del lado de la cabeza y se curva hacia arriba y hacia fuera (k = -1 izquierda, 1 derecha)."""
+    pts = [(28, 26), (8, 26), (-12, 18), (-24, 2), (-22, -10), (-14, 4), (2, 12), (22, 12), (36, 18)]
+    return L(blob([(50 + (x - 50) * 1 if k < 0 else 100 - x, y) for x, y in pts], 6), 'mid', 'b', ln=True)
+
+
 # Riley Jamm: cara pintada de payaso blanca con una sonrisa enorme, y un pelo verde azulado en dos grandes cuernos curvados
 CHARS['riley-jamm'] = {
     'body': 'normal', 'pal': pal('#1e7a6a', '#f4f0e8', smile='#2a2a2a'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'none', 'hairline': (52, 44)},
-    'front': wavy((22, 20), (36, 12), (-16, 40), 10) + wavy((64, 12), (78, 20), (116, 40), -10, light_left=False) + cap_hair('front')
+    'front': [horn(-1), horn(1)] + cap_hair('front')
              + [L(quad((22, 84), (50, 104), (78, 84)) + quad((78, 84), (50, 94), (22, 84))[1:], WHITE, 'f', ln=True),
                 L([(28, 86), (72, 86)], OUTC, 'f', False, False, 1.0)],
-    'side': wavy((30, 16), (50, 8), (-8, 30), 10) + cap_hair('side') + [L(quad((66, 84), (84, 100), (98, 84)), OUTC, 'f', False, False, 1.6)],
-    'back': wavy((22, 20), (36, 12), (-16, 40), 10) + wavy((64, 12), (78, 20), (116, 40), -10, light_left=False) + cap_hair('back'),
+    'side': [L(blob([(40, 22), (20, 22), (-4, 14), (-14, 0), (-8, -10), (2, 4), (24, 10), (44, 12)], 6), 'mid', 'b', ln=True)] + cap_hair('side') + [L(quad((66, 84), (84, 100), (98, 84)), OUTC, 'f', False, False, 1.6)],
+    'back': [horn(-1), horn(1)] + cap_hair('back'),
 }
 # Caleb Stonewall: rapado por detrás con un mechón castaño oscuro de pinchos arriba y un rayo rojo pintado en la frente
 CHARS['caleb-stonewall'] = {
     'body': 'normal', 'pal': pal('#3a2a1e', '#fcd8b8', paint='#c03a2a'),
-    'face': {'eyes': 'big', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 92, 'hairline': (50, 40)},
-    'front': spk((20, 30), (44, 10), (10, -12), 6) + spk((44, 10), (64, 12), (60, -18), 6, light_left=False) + cap_hair('front')
+    'face': {'eyes': 'big', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 92, 'hairline': False},
+    # lados y nuca rapados (piel); solo una cresta de pinchos castaños de delante atrás que cae en un mechón sobre la frente
+    'front': bald('front') + spk((28, 16), (44, 8), (20, -14), 5) + spk((44, 8), (60, 8), (54, -22), 5, light_left=False) + spk((58, 10), (72, 18), (80, -10), 4, light_left=False)
+             + [L(blob([(26, 44), (28, 16), (50, 6), (72, 16), (74, 40), (50, 34)])), L(blob([(54, 10), (72, 18), (72, 38), (58, 34)], 4), 'shade', 'b', False)]
+             + spk((26, 32), (46, 28), (14, 62), 6, z='f') + spk((44, 30), (58, 30), (48, 52), 4, z='f')
              + [L([(62, 44), (70, 52), (64, 56), (74, 64)], 'paint', 'f', False, False, 2.2)],
-    'side': bald('side') + spk((30, 20), (52, 6), (12, -10), 7) + spk((50, 6), (68, 8), (64, -18), 6, light_left=False),
-    'back': bald('back') + spk((36, 12), (52, 8), (28, -16), 6) + spk((52, 8), (66, 12), (70, -14), 5, light_left=False),
+    'side': bald('side') + [L(blob([(14, 50), (22, 22), (46, 4), (74, 4), (90, 20), (78, 22), (52, 16), (30, 30), (22, 52)]))]
+            + spk((22, 30), (40, 10), (0, 0), 6) + spk((40, 10), (60, 4), (34, -16), 6) + spk((60, 4), (78, 8), (70, -14), 5, light_left=False)
+            + spk((76, 14), (88, 22), (98, 40), 4, z='f', light_left=False),
+    'back': bald('back') + [L(blob([(40, 60), (40, 14), (50, 6), (60, 14), (60, 60), (50, 66)]))]
+            + spk((42, 30), (50, 26), (26, 30), 4) + spk((50, 26), (58, 30), (74, 30), 4, light_left=False) + spk((42, 50), (58, 50), (50, 64), 3),
 }
 # Jimbo Cellar (portero suplente): melena castaña lisa y larga con raya en medio, cara alargada pálida y ojos rasgados
 CHARS['jimbo-cellar'] = {
@@ -161,4 +173,14 @@ CHARS['cosimo-beck'] = {
                 L(blob([(18, 70), (46, 70), (46, 80), (20, 80)], 4), 'lens', 'f', ln=True), L(blob([(82, 70), (54, 70), (54, 80), (80, 80)], 4), 'lens', 'f', ln=True)],
     'side': [L(blob(BOB_S))] + bob_shade('side') + [L(blob([(68, 70), (96, 70), (94, 80), (70, 80)], 4), 'lens', 'f', ln=True)],
     'back': [L(blob(BOB_B))] + bob_shade('back') + wavy((6, 80), (24, 88), (2, 102), 5) + wavy((76, 88), (94, 80), (98, 102), -5, light_left=False),
+}
+
+# Joseph King en la Redux: la melena castaña rojiza, más larga y salvaje que en IE1, le cae hasta los hombros
+CHARS['ie2-shin-teikoku-gakuen:joseph-king'] = {
+    'body': 'corpulento', 'pal': pal('#8a3a14', '#f8c890', paint='#a04a2a'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 93, 'hairline': (60, 50)},
+    'front': spiky('front', 1.3) + [spk((0, 66), (12, 70), (-14, 96), 6), spk((88, 70), (100, 66), (114, 96), 6, light_left=False)] + spiky_face('front')
+             + [spk((40, 34), (60, 34), (54, 78), 5, z='f'), L([(26, 82), (40, 76)], 'paint', 'f', False, False, 1.6), L([(74, 82), (60, 76)], 'paint', 'f', False, False, 1.6)],
+    'side': spiky('side', 1.3) + spiky_face('side') + [spk((10, 70), (20, 84), (-16, 100), 6)],
+    'back': spiky('back', 1.3) + [spk((0, 66), (12, 70), (-14, 96), 6), spk((88, 70), (100, 66), (114, 96), 6, light_left=False)],
 }

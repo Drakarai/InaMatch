@@ -116,20 +116,56 @@ CHARS['riley-jamm'] = {
     'side': [L(blob([(40, 22), (20, 22), (-4, 14), (-14, 0), (-8, -10), (2, 4), (24, 10), (44, 12)], 6), 'mid', 'b', ln=True)] + cap_hair('side') + [L(quad((66, 84), (84, 100), (98, 84)), OUTC, 'f', False, False, 1.6)],
     'back': [horn(-1), horn(1)] + cap_hair('back'),
 }
-# Caleb Stonewall: rapado por detrás con un mechón castaño oscuro de pinchos arriba y un rayo rojo pintado en la frente
+def outline(pts, n=6):
+    """Contorno cerrado y suave por los puntos; los que llevan un tercer valor, (x, y, 1), son puntas afiladas."""
+    out, k = [], len(pts)
+    for i in range(k):
+        p1, p2 = pts[i], pts[(i + 1) % k]
+        p0 = p1 if len(p1) > 2 else pts[i - 1]
+        p3 = p2 if len(p2) > 2 else pts[(i + 2) % k]
+        for j in range(n):
+            t = j / n
+            out.append(tuple(0.5 * (2 * p1[c] + (-p0[c] + p2[c]) * t + (2 * p0[c] - 5 * p1[c] + 4 * p2[c] - p3[c]) * t * t
+                                    + (-p0[c] + 3 * p1[c] - 3 * p2[c] + p3[c]) * t ** 3) for c in (0, 1)))
+    return out
+
+
+# Caleb Stonewall: medio cráneo rapado. Una cresta castaña oscura recorre la cabeza de la frente a la coronilla y por su
+# derecha cae en una masa de pelo con un mechón sobre la frente hasta entre los ojos; la izquierda va rapada, con un rayo
+# rojo pintado en la sien. De perfil y de espaldas solo se ve la cresta sobre la cabeza rapada. Contornos calcados del
+# modelo 3D sobre una rejilla de unidades de cabeza.
 CHARS['caleb-stonewall'] = {
-    'body': 'normal', 'pal': pal('#3a2a1e', '#fcd8b8', paint='#c03a2a'),
-    'face': {'eyes': 'big', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 92, 'hairline': False},
-    # lados y nuca rapados (piel); solo una cresta de pinchos castaños de delante atrás que cae en un mechón sobre la frente
-    'front': bald('front') + spk((28, 16), (44, 8), (20, -14), 5) + spk((44, 8), (60, 8), (54, -22), 5, light_left=False) + spk((58, 10), (72, 18), (80, -10), 4, light_left=False)
-             + [L(blob([(26, 44), (28, 16), (50, 6), (72, 16), (74, 40), (50, 34)])), L(blob([(54, 10), (72, 18), (72, 38), (58, 34)], 4), 'shade', 'b', False)]
-             + spk((26, 32), (46, 28), (14, 62), 6, z='f') + spk((44, 30), (58, 30), (48, 52), 4, z='f')
-             + [L([(62, 44), (70, 52), (64, 56), (74, 64)], 'paint', 'f', False, False, 2.2)],
-    'side': bald('side') + [L(blob([(14, 50), (22, 22), (46, 4), (74, 4), (90, 20), (78, 22), (52, 16), (30, 30), (22, 52)]))]
-            + spk((22, 30), (40, 10), (0, 0), 6) + spk((40, 10), (60, 4), (34, -16), 6) + spk((60, 4), (78, 8), (70, -14), 5, light_left=False)
-            + spk((76, 14), (88, 22), (98, 40), 4, z='f', light_left=False),
-    'back': bald('back') + [L(blob([(40, 60), (40, 14), (50, 6), (60, 14), (60, 60), (50, 66)]))]
-            + spk((42, 30), (50, 26), (26, 30), 4) + spk((50, 26), (58, 30), (74, 30), 4, light_left=False) + spk((42, 50), (58, 50), (50, 64), 3),
+    'body': 'normal', 'pal': pal('#4a3424', '#fad4a0', iris='#3a6a62', paint='#c42a14', light='#6a4c36'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 93, 'hairline': False, 'big_ears': 1, 'ear_out': 2},
+    'front': [L(blob(SKULL_F), 'skin'),
+              L([(71, 15), (77, 18), (72, 27), (78, 29), (80, 35), (76, 41), (68, 45), (73, 37), (74, 33), (67, 32)], 'paint', 'b', False),
+              L([(69, 45), (76, 46), (66, 57)], 'paint', 'b', False),
+              L(outline([(5, 52, 1), (14, 47), (18, 42), (17, 34), (16, 29), (9, 31, 1), (13, 14), (21, 1), (31, -9), (40, -11), (31, -17, 1), (41, -24),
+                         (50, -26), (57, -21), (62, -15, 1), (67, -17), (77, -16, 1), (70, -14), (66, -9), (65, -3), (64, 5), (60, 12),
+                         (59, 21), (61, 32), (60, 39), (57, 45), (53, 51), (51, 60), (53, 68, 1), (50, 67), (46, 79, 1), (43, 70),
+                         (39, 63), (33, 58), (23, 54), (17, 55), (11, 55)]), 'mid', 'f'),
+              # sombras: bajo la masa a la izquierda del mechón y la raya oscura bajo la cresta
+              L(outline([(20, 50), (26, 40), (36, 36), (42, 44), (46, 56), (46, 79, 1), (43, 70), (39, 63), (33, 58), (23, 54)]), 'shade', 'f', False),
+              L(outline([(50, 10), (55, 4), (59, 12), (58, 30), (55, 42, 1), (52, 26)]), 'shade', 'f', False),
+              L(outline([(15, 14), (22, 10), (20, 22), (10, 30, 1), (15, 20)]), 'shade', 'f', False),
+              strand([(28, 6), (36, 18), (42, 34), (46, 50)], 'deep', 'f', 1.0), strand([(42, -16), (46, -6), (48, 6)], 'deep', 'f', 1.0),
+              L(outline([(26, 4), (34, -4), (42, -7), (34, 1), (28, 8)]), 'light', 'f', False)],
+    'side': [L(blob(SIDE_SKULL), 'skin'),
+             L(blob([(14, 44), (20, 26), (30, 30), (48, 40), (60, 56), (64, 76), (60, 92), (44, 92), (24, 82), (14, 64)], 6), 'skin_d', 'b', False),
+             L(outline([(26, -19, 1), (36, -14), (44, -12), (51, -16), (59, -22), (69, -24), (76, -20, 1), (70, -14), (66, -9), (71, -10),
+                        (80, -11), (92, -8), (97, 0), (100, 9), (99, 13, 1), (104, 21), (107, 32), (107, 43), (108, 49, 1), (100, 50),
+                        (97, 56), (95, 66), (92, 76, 1), (89, 72), (87, 62), (86, 50), (83, 38), (79, 25), (71, 16), (62, 10), (52, 8),
+                        (40, 8), (33, 10), (33, -6)]), 'mid', 'b'),
+             L(outline([(36, 8), (37, -4), (44, -8), (54, -10), (60, -4), (64, 4), (68, 12), (60, 9), (50, 8)]), 'shade', 'b', False),
+             L(outline([(80, -6), (92, -4), (98, 8), (96, 14), (102, 26), (98, 30), (90, 12)]), 'light', 'b', False),
+             strand([(84, 0), (94, 20), (100, 40)], 'deep', 'b', 1.0), strand([(78, 10), (88, 30), (92, 52), (91, 70)], 'deep', 'b', 1.0)],
+    'back': [L(blob(SKULL_B), 'skin'), L(blob([(58, 12), (86, 36), (84, 68), (66, 84)], 6), 'skin_d', 'b', False),
+             L([(28, 20), (30, 18), (30, 26)], 'paint', 'b', False),
+             L(outline([(21, -20, 1), (26, -21), (31, -18), (38, -14), (42, -12, 1), (46, -16), (52, -17), (58, -15), (66, -7, 1), (59, -6),
+                        (55, -4), (57, -2), (65, 1), (73, 8), (79, 16), (83, 25), (84, 34, 1), (81, 28), (75, 22), (70, 16), (62, 12), (50, 12),
+                        (42, 13), (37, 13), (36, -4), (33, -13), (28, -18)]), 'mid', 'b'),
+             L(outline([(38, 12), (38, 0), (42, -6), (48, -2), (54, 6), (50, 12)]), 'shade', 'b', False),
+             L(outline([(64, 4), (74, 10), (80, 20), (83, 30, 1), (76, 18)]), 'shade', 'b', False)],
 }
 # Jimbo Cellar (portero suplente): melena castaña lisa y larga con raya en medio, cara alargada pálida y ojos rasgados
 CHARS['jimbo-cellar'] = {

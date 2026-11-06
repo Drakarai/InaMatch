@@ -84,6 +84,8 @@ STYLE = {
     'Osoroshii Kage': ('#0c1a22', '#0c1a22', '#0c1a22', '#40d8f0', '#0c1a22', '#0c1a22', '#0c1a22', '#0c1a22'),
     # Triple C de Osaka: camiseta blanca con mangas de cuadros rosas, pantalón y medias rosas; portera morada con chaleco negro
     'Osaka Gals CCC': ('#f4f0f4', '#e890b8', '#8a6ac8', '#9a3a6a', '#e890b8', '#6a4a6a', '#8a6ac8', '#8a6ac8'),
+    # Oumihara (Mary Times): camiseta verde azulado con una franja blanca, pantalón blanco y medias verde azulado; portero verde
+    'Oumihara': ('#1aa08a', '#f0ece0', '#2a8a3a', '#f0ece0', '#1aa08a', '#1aa08a', '#1e5a2a', '#2a8a3a'),
     'Sengoku Igajima': ('#4e3a5c', '#4e3a5c', '#6a9a96', '#9ab4bc', '#4e3a5c', '#a8a49c', '#5e8a86'),
     # Kidokawa Seishuu (Kirkwood): camiseta roja (con laterales negros), pantalón beige y medias rojas; portero verde claro
     'Kidokawa Seishuu': ('#c00c0c', '#d8c8b4', '#b8c87e', '#2a2a2e', '#c00c0c', '#c00c0c', '#4a5a68'),

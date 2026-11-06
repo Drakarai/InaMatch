@@ -4,12 +4,7 @@
  "wiki": "Oumihara",
  "name": "Instituto Mary Times",
  "short": "OUM",
- "colors": {
-  "shirt": "#e86a1a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#e86a1a"
- },
+ "colors": {"shirt": "#1aa08a", "shorts": "#f0ece0", "gkShirt": "#2a8a3a", "accent": "#f0ece0", "sleeve": "#1aa08a", "socks": "#1aa08a", "gkShorts": "#1e5a2a", "gkSleeve": "#2a8a3a"},
  "formation": "f-basic",
  "players": [
   {

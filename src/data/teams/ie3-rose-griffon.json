@@ -408,14 +408,14 @@
    "element": "fire",
    "level": 99,
    "fp": 179,
-   "tp": 99,
+   "tp": 100,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 45,
+    "control": 44,
     "guard": 73,
     "speed": 46,
-    "stamina": 69,
+    "stamina": 70,
     "guts": 45
    },
    "moves": [

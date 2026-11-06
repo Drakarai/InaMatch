@@ -4,7 +4,16 @@
  "wiki": "Prominence",
  "name": "Prominence",
  "short": "PRO",
- "colors": {"shirt": "#d82a20", "shorts": "#26222a", "gkShirt": "#7a1a1a", "accent": "#f0ece4", "sleeve": "#d82a20", "socks": "#d82a20", "gkShorts": "#26222a", "gkSleeve": "#7a1a1a"},
+ "colors": {
+  "shirt": "#d82a20",
+  "shorts": "#26222a",
+  "gkShirt": "#7a1a1a",
+  "accent": "#f0ece4",
+  "sleeve": "#d82a20",
+  "socks": "#d82a20",
+  "gkShorts": "#26222a",
+  "gkSleeve": "#7a1a1a"
+ },
  "formation": "f-basic-2",
  "players": [
   {

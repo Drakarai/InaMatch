@@ -20,16 +20,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 167,
-   "tp": 148,
+   "fp": 165,
+   "tp": 149,
    "stats": {
     "kick": 65,
     "body": 85,
-    "control": 54,
+    "control": 53,
     "guard": 97,
     "speed": 51,
     "stamina": 81,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "shoot-eater",
@@ -52,13 +52,13 @@
    "element": "wind",
    "level": 99,
    "fp": 143,
-   "tp": 125,
+   "tp": 126,
    "stats": {
-    "kick": 71,
+    "kick": 70,
     "body": 63,
-    "control": 60,
+    "control": 59,
     "guard": 67,
-    "speed": 69,
+    "speed": 68,
     "stamina": 57,
     "guts": 60
    },
@@ -83,12 +83,12 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 180,
-   "tp": 147,
+   "fp": 181,
+   "tp": 148,
    "stats": {
     "kick": 67,
     "body": 74,
-    "control": 67,
+    "control": 66,
     "guard": 80,
     "speed": 56,
     "stamina": 53,
@@ -114,15 +114,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 180,
-   "tp": 121,
+   "fp": 181,
+   "tp": 122,
    "stats": {
-    "kick": 74,
+    "kick": 73,
     "body": 71,
-    "control": 62,
+    "control": 61,
     "guard": 68,
-    "speed": 50,
-    "stamina": 68,
+    "speed": 49,
+    "stamina": 69,
     "guts": 57
    },
    "moves": [
@@ -146,11 +146,11 @@
    "element": "wind",
    "level": 99,
    "fp": 125,
-   "tp": 129,
+   "tp": 130,
    "stats": {
-    "kick": 63,
+    "kick": 62,
     "body": 60,
-    "control": 59,
+    "control": 58,
     "guard": 64,
     "speed": 74,
     "stamina": 52,
@@ -176,13 +176,13 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 122,
-   "tp": 121,
+   "fp": 121,
+   "tp": 122,
    "stats": {
     "kick": 72,
     "body": 62,
     "control": 51,
-    "guard": 63,
+    "guard": 62,
     "speed": 65,
     "stamina": 51,
     "guts": 54
@@ -213,11 +213,11 @@
    "stats": {
     "kick": 68,
     "body": 60,
-    "control": 69,
+    "control": 67,
     "guard": 61,
-    "speed": 51,
+    "speed": 50,
     "stamina": 72,
-    "guts": 70
+    "guts": 71
    },
    "moves": [
     "shiny-feather",
@@ -239,12 +239,12 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 155,
+   "fp": 154,
    "tp": 110,
    "stats": {
     "kick": 69,
     "body": 63,
-    "control": 66,
+    "control": 65,
     "guard": 58,
     "speed": 47,
     "stamina": 73,
@@ -271,15 +271,15 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 115,
-   "tp": 144,
+   "fp": 116,
+   "tp": 145,
    "stats": {
     "kick": 68,
     "body": 64,
     "control": 65,
     "guard": 64,
     "speed": 60,
-    "stamina": 64,
+    "stamina": 65,
     "guts": 70
    },
    "moves": [
@@ -302,16 +302,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 157,
-   "tp": 144,
+   "fp": 158,
+   "tp": 145,
    "stats": {
     "kick": 77,
     "body": 89,
     "control": 53,
-    "guard": 51,
-    "speed": 57,
+    "guard": 50,
+    "speed": 56,
     "stamina": 75,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "stargazer",
@@ -333,7 +333,7 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 142,
+   "fp": 143,
    "tp": 123,
    "stats": {
     "kick": 64,

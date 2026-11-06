@@ -4,7 +4,13 @@
  "wiki": "Ichibangai Sally's",
  "name": "Sallys",
  "short": "ISS",
- "colors": {"shirt": "#e0a020", "shorts": "#2e6a3a", "gkShirt": "#ee7a7a", "accent": "#2e6a3a", "sleeve": "#e0a020"},
+ "colors": {
+  "shirt": "#e0a020",
+  "shorts": "#2e6a3a",
+  "gkShirt": "#ee7a7a",
+  "accent": "#2e6a3a",
+  "sleeve": "#e0a020"
+ },
  "formation": "f-death-zone",
  "players": [
   {

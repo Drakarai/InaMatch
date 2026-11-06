@@ -8,7 +8,25 @@
   "shirt": "#c8202f",
   "shorts": "#f2f2f2",
   "gkShirt": "#2a5fc0",
-  "accent": "#a01a26"
+  "accent": "#a01a26",
+  "kitFrom": {
+   "nasir-mustafa": "ie3-desert-lion",
+   "ken-crackham": "ie3-big-waves",
+   "kjell-snapper": "ie3-big-waves",
+   "bilal-kalil": "ie3-desert-lion",
+   "umi-hwang": "ie3-fire-dragon",
+   "dooyoon-hong": "ie3-fire-dragon",
+   "sayid-armand": "ie3-desert-lion",
+   "yusuf-massoud": "ie3-desert-lion",
+   "dolph-hensen": "ie3-big-waves",
+   "zack-abdulla": "ie3-desert-lion",
+   "hamilton-reith": "ie3-big-waves",
+   "byron-love": "ie3-fire-dragon",
+   "changsu-choi": "ie3-fire-dragon",
+   "gene-whalon": "ie3-big-waves",
+   "claude-beacons": "ie3-fire-dragon",
+   "bryce-whitingale": "ie3-fire-dragon"
+  }
  },
  "formation": "f-death-zone-2",
  "players": [

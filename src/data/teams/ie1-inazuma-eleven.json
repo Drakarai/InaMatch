@@ -4,7 +4,16 @@
  "wiki": "Inazuma Eleven",
  "name": "Inazuma Eleven",
  "short": "INE",
- "colors": {"shirt": "#382a4a", "shorts": "#141218", "gkShirt": "#2e2240", "accent": "#c8a030", "sleeve": "#141218", "socks": "#e0d4b8", "gkShorts": "#2e2240", "gkSleeve": "#2e2240"},
+ "colors": {
+  "shirt": "#382a4a",
+  "shorts": "#141218",
+  "gkShirt": "#2e2240",
+  "accent": "#c8a030",
+  "sleeve": "#141218",
+  "socks": "#e0d4b8",
+  "gkShorts": "#2e2240",
+  "gkSleeve": "#2e2240"
+ },
  "formation": "f-death-zone",
  "players": [
   {

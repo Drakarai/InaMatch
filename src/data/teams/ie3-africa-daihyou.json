@@ -8,7 +8,25 @@
   "shirt": "#2a8a5a",
   "shorts": "#f2c230",
   "gkShirt": "#c8202f",
-  "accent": "#1f6a44"
+  "accent": "#1f6a44",
+  "kitFrom": {
+   "zolani-baloi": "ie3-the-great-horn",
+   "zephyr-vitesse": "ie3-little-gigant",
+   "jimi-gaines": "ie3-little-gigant",
+   "masego-molelo": "ie3-the-great-horn",
+   "cassius-tobler": "ie3-the-great-horn",
+   "quint-hampton": "ie3-little-gigant",
+   "maximino-cruz": "ie3-little-gigant",
+   "adam-marunga": "ie3-the-great-horn",
+   "anton-nortje": "ie3-the-great-horn",
+   "drago-hill": "ie3-little-gigant",
+   "melisizwe-zamani": "ie3-the-great-horn",
+   "herschel-de-villiers": "ie3-the-great-horn",
+   "hector-helio": "ie3-little-gigant",
+   "ian-ferrum": "ie3-little-gigant",
+   "yasir-haddad": "ie3-little-gigant",
+   "reggie-ines": "ie3-the-great-horn"
+  }
  },
  "formation": "f-little-gigant",
  "players": [

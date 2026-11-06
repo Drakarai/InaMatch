@@ -26,9 +26,9 @@
     "kick": 57,
     "body": 48,
     "control": 52,
-    "guard": 60,
+    "guard": 59,
     "speed": 46,
-    "stamina": 50,
+    "stamina": 49,
     "guts": 53
    },
    "moves": [
@@ -52,11 +52,11 @@
    "element": "wood",
    "level": 99,
    "fp": 123,
-   "tp": 169,
+   "tp": 171,
    "stats": {
-    "kick": 53,
+    "kick": 52,
     "body": 48,
-    "control": 53,
+    "control": 52,
     "guard": 56,
     "speed": 56,
     "stamina": 60,
@@ -83,15 +83,15 @@
    "element": "earth",
    "level": 99,
    "fp": 125,
-   "tp": 165,
+   "tp": 167,
    "stats": {
-    "kick": 51,
+    "kick": 50,
     "body": 48,
     "control": 45,
     "guard": 59,
     "speed": 49,
     "stamina": 67,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "claymore",
@@ -113,13 +113,13 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 195,
-   "tp": 147,
+   "fp": 196,
+   "tp": 148,
    "stats": {
     "kick": 66,
     "body": 51,
-    "control": 64,
-    "guard": 44,
+    "control": 63,
+    "guard": 43,
     "speed": 88,
     "stamina": 56,
     "guts": 50
@@ -144,14 +144,14 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 75,
-   "tp": 181,
+   "fp": 73,
+   "tp": 183,
    "stats": {
-    "kick": 59,
+    "kick": 58,
     "body": 64,
-    "control": 66,
+    "control": 65,
     "guard": 49,
-    "speed": 60,
+    "speed": 59,
     "stamina": 46,
     "guts": 55
    },
@@ -178,12 +178,12 @@
    "fp": 163,
    "tp": 143,
    "stats": {
-    "kick": 56,
+    "kick": 55,
     "body": 75,
-    "control": 61,
+    "control": 60,
     "guard": 55,
     "speed": 75,
-    "stamina": 70,
+    "stamina": 71,
     "guts": 57
    },
    "moves": [
@@ -206,15 +206,15 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 127,
-   "tp": 152,
+   "fp": 126,
+   "tp": 151,
    "stats": {
     "kick": 73,
-    "body": 50,
-    "control": 44,
+    "body": 49,
+    "control": 43,
     "guard": 56,
     "speed": 63,
-    "stamina": 57,
+    "stamina": 56,
     "guts": 53
    },
    "moves": [
@@ -238,14 +238,14 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 120,
-   "tp": 159,
+   "fp": 119,
+   "tp": 158,
    "stats": {
-    "kick": 52,
-    "body": 50,
-    "control": 50,
+    "kick": 51,
+    "body": 49,
+    "control": 49,
     "guard": 73,
-    "speed": 60,
+    "speed": 59,
     "stamina": 51,
     "guts": 53
    },
@@ -269,16 +269,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 127,
-   "tp": 152,
+   "fp": 126,
+   "tp": 151,
    "stats": {
-    "kick": 53,
+    "kick": 52,
     "body": 49,
-    "control": 52,
+    "control": 51,
     "guard": 64,
-    "speed": 63,
+    "speed": 62,
     "stamina": 57,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "fuujin-no-mai",
@@ -301,16 +301,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 165,
-   "tp": 139,
+   "fp": 166,
+   "tp": 140,
    "stats": {
     "kick": 81,
     "body": 81,
-    "control": 68,
+    "control": 67,
     "guard": 52,
-    "speed": 49,
+    "speed": 48,
     "stamina": 52,
-    "guts": 57
+    "guts": 56
    },
    "moves": [
     "white-hurricane",
@@ -334,15 +334,15 @@
    "element": "earth",
    "level": 99,
    "fp": 119,
-   "tp": 148,
+   "tp": 149,
    "stats": {
     "kick": 57,
     "body": 50,
-    "control": 49,
+    "control": 48,
     "guard": 53,
-    "speed": 53,
+    "speed": 52,
     "stamina": 59,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "ballista-shot",

@@ -4,7 +4,13 @@
  "wiki": "Shuuyou Meito Gakuen",
  "name": "Instituto Otaku",
  "short": "SMG",
- "colors": {"shirt": "#1e5a78", "shorts": "#b8949a", "gkShirt": "#6a9a70", "accent": "#e4b0b4", "sleeve": "#e4b0b4"},
+ "colors": {
+  "shirt": "#1e5a78",
+  "shorts": "#b8949a",
+  "gkShirt": "#6a9a70",
+  "accent": "#e4b0b4",
+  "sleeve": "#e4b0b4"
+ },
  "formation": "f-super-5",
  "players": [
   {

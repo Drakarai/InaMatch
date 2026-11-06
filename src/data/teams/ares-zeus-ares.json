@@ -21,14 +21,14 @@
    "element": "earth",
    "level": 99,
    "fp": 178,
-   "tp": 169,
+   "tp": 171,
    "stats": {
     "kick": 60,
     "body": 69,
     "control": 59,
-    "guard": 35,
+    "guard": 33,
     "speed": 78,
-    "stamina": 72,
+    "stamina": 73,
     "guts": 69
    },
    "moves": [
@@ -53,11 +53,11 @@
    "element": "wood",
    "level": 99,
    "fp": 148,
-   "tp": 121,
+   "tp": 122,
    "stats": {
-    "kick": 52,
+    "kick": 51,
     "body": 52,
-    "control": 61,
+    "control": 60,
     "guard": 67,
     "speed": 67,
     "stamina": 53,
@@ -84,16 +84,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 191,
+   "tp": 173,
    "stats": {
     "kick": 42,
     "body": 73,
-    "control": 54,
+    "control": 53,
     "guard": 73,
     "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "stamina": 73,
+    "guts": 49
    },
    "moves": [
     "sabaki-no-tettsui",
@@ -117,14 +117,14 @@
    "element": "earth",
    "level": 99,
    "fp": 163,
-   "tp": 112,
+   "tp": 113,
    "stats": {
-    "kick": 69,
+    "kick": 68,
     "body": 61,
-    "control": 60,
+    "control": 59,
     "guard": 66,
     "speed": 39,
-    "stamina": 68,
+    "stamina": 69,
     "guts": 50
    },
    "moves": [
@@ -149,13 +149,13 @@
    "element": "wind",
    "level": 99,
    "fp": 163,
-   "tp": 97,
+   "tp": 98,
    "stats": {
-    "kick": 46,
-    "body": 47,
-    "control": 42,
+    "kick": 45,
+    "body": 46,
+    "control": 41,
     "guard": 67,
-    "speed": 45,
+    "speed": 44,
     "stamina": 62,
     "guts": 63
    },
@@ -180,16 +180,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 126,
+   "fp": 124,
    "tp": 120,
    "stats": {
-    "kick": 51,
-    "body": 49,
-    "control": 60,
+    "kick": 50,
+    "body": 48,
+    "control": 59,
     "guard": 52,
-    "speed": 67,
+    "speed": 66,
     "stamina": 47,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "heaven-s-time",
@@ -212,16 +212,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 131,
-   "tp": 85,
+   "fp": 130,
+   "tp": 86,
    "stats": {
     "kick": 56,
-    "body": 53,
-    "control": 59,
+    "body": 52,
+    "control": 58,
     "guard": 58,
-    "speed": 59,
+    "speed": 58,
     "stamina": 64,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "heaven-s-time",
@@ -244,16 +244,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 150,
+   "fp": 149,
    "tp": 113,
    "stats": {
-    "kick": 60,
+    "kick": 59,
     "body": 57,
-    "control": 65,
+    "control": 64,
     "guard": 54,
-    "speed": 56,
+    "speed": 55,
     "stamina": 55,
-    "guts": 74
+    "guts": 75
    },
    "moves": [
     "dash-storm",
@@ -276,15 +276,15 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 179,
+   "fp": 178,
    "tp": 142,
    "stats": {
-    "kick": 80,
+    "kick": 79,
     "body": 72,
-    "control": 73,
-    "guard": 65,
+    "control": 72,
+    "guard": 64,
     "speed": 63,
-    "stamina": 52,
+    "stamina": 51,
     "guts": 64
    },
    "moves": [
@@ -311,13 +311,13 @@
    "fp": 124,
    "tp": 122,
    "stats": {
-    "kick": 66,
+    "kick": 65,
     "body": 60,
     "control": 58,
     "guard": 48,
     "speed": 49,
     "stamina": 48,
-    "guts": 54
+    "guts": 53
    },
    "moves": [
     "reflect-buster",
@@ -344,8 +344,8 @@
    "tp": 108,
    "stats": {
     "kick": 78,
-    "body": 46,
-    "control": 70,
+    "body": 45,
+    "control": 69,
     "guard": 50,
     "speed": 59,
     "stamina": 45,
@@ -372,16 +372,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 150,
+   "tp": 131,
    "stats": {
-    "kick": 54,
+    "kick": 53,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "maboroshi-dribble",
@@ -405,12 +405,12 @@
    "element": "earth",
    "level": 99,
    "fp": 116,
-   "tp": 124,
+   "tp": 125,
    "stats": {
     "kick": 51,
     "body": 53,
     "control": 51,
-    "guard": 62,
+    "guard": 61,
     "speed": 51,
     "stamina": 54,
     "guts": 54

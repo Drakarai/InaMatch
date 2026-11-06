@@ -21,14 +21,14 @@
    "element": "wood",
    "level": 99,
    "fp": 178,
-   "tp": 169,
+   "tp": 171,
    "stats": {
     "kick": 60,
     "body": 69,
     "control": 59,
-    "guard": 35,
+    "guard": 33,
     "speed": 78,
-    "stamina": 72,
+    "stamina": 73,
     "guts": 69
    },
    "moves": [
@@ -53,14 +53,14 @@
    "element": "earth",
    "level": 99,
    "fp": 179,
-   "tp": 99,
+   "tp": 100,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 45,
+    "control": 44,
     "guard": 73,
     "speed": 46,
-    "stamina": 69,
+    "stamina": 70,
     "guts": 45
    },
    "moves": [
@@ -85,12 +85,12 @@
    "element": "wind",
    "level": 99,
    "fp": 129,
-   "tp": 172,
+   "tp": 173,
    "stats": {
     "kick": 65,
     "body": 57,
     "control": 67,
-    "guard": 62,
+    "guard": 61,
     "speed": 70,
     "stamina": 56,
     "guts": 65
@@ -117,12 +117,12 @@
    "element": "wind",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -149,14 +149,14 @@
    "element": "fire",
    "level": 99,
    "fp": 179,
-   "tp": 99,
+   "tp": 100,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 45,
+    "control": 44,
     "guard": 73,
     "speed": 46,
-    "stamina": 69,
+    "stamina": 70,
     "guts": 45
    },
    "moves": [
@@ -180,16 +180,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 191,
+   "tp": 173,
    "stats": {
     "kick": 42,
     "body": 73,
-    "control": 54,
+    "control": 53,
     "guard": 73,
     "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "stamina": 73,
+    "guts": 49
    },
    "moves": [
     "hunter-s-net",
@@ -212,16 +212,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 191,
+   "tp": 173,
    "stats": {
     "kick": 51,
     "body": 73,
-    "control": 54,
+    "control": 53,
     "guard": 81,
     "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "stamina": 73,
+    "guts": 49
    },
    "moves": [
     "carronade-hou",
@@ -244,15 +244,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 93,
+   "fp": 91,
    "tp": 161,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
+    "kick": 44,
+    "body": 46,
+    "control": 68,
+    "guard": 43,
+    "speed": 55,
+    "stamina": 44,
     "guts": 68
    },
    "moves": [
@@ -280,12 +280,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "carronade-hou",
@@ -308,10 +308,10 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 162,
+   "tp": 154,
    "stats": {
-    "kick": 57,
+    "kick": 56,
     "body": 66,
     "control": 55,
     "guard": 63,
@@ -340,16 +340,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 150,
+   "tp": 131,
    "stats": {
-    "kick": 54,
+    "kick": 53,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "tarzan-kick",
@@ -373,12 +373,12 @@
    "element": "wood",
    "level": 99,
    "fp": 116,
-   "tp": 124,
+   "tp": 125,
    "stats": {
     "kick": 51,
     "body": 53,
     "control": 51,
-    "guard": 62,
+    "guard": 61,
     "speed": 51,
     "stamina": 54,
     "guts": 54
@@ -408,12 +408,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "carronade-hou",
@@ -436,16 +436,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 150,
+   "tp": 131,
    "stats": {
-    "kick": 54,
+    "kick": 53,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "carronade-hou",
@@ -472,7 +472,7 @@
    "tp": 97,
    "stats": {
     "kick": 75,
-    "body": 46,
+    "body": 45,
     "control": 66,
     "guard": 41,
     "speed": 59,

@@ -4,7 +4,16 @@
  "wiki": "Osoroshii Kage",
  "name": "Sombras Terribles",
  "short": "OSO",
- "colors": {"shirt": "#0c1a22", "shorts": "#0c1a22", "gkShirt": "#0c1a22", "accent": "#40d8f0", "sleeve": "#0c1a22", "socks": "#0c1a22", "gkShorts": "#0c1a22", "gkSleeve": "#0c1a22"},
+ "colors": {
+  "shirt": "#0c1a22",
+  "shorts": "#0c1a22",
+  "gkShirt": "#0c1a22",
+  "accent": "#40d8f0",
+  "sleeve": "#0c1a22",
+  "socks": "#0c1a22",
+  "gkShorts": "#0c1a22",
+  "gkSleeve": "#0c1a22"
+ },
  "formation": "f-lightning",
  "players": [
   {
@@ -16,15 +25,15 @@
    "element": "wind",
    "level": 99,
    "fp": 117,
-   "tp": 131,
+   "tp": 132,
    "stats": {
-    "kick": 62,
+    "kick": 61,
     "body": 57,
-    "control": 72,
-    "guard": 63,
+    "control": 71,
+    "guard": 62,
     "speed": 62,
     "stamina": 47,
-    "guts": 64
+    "guts": 63
    },
    "moves": [
     "wormhole",
@@ -46,15 +55,15 @@
    "element": "wood",
    "level": 99,
    "fp": 120,
-   "tp": 115,
+   "tp": 116,
    "stats": {
-    "kick": 77,
-    "body": 47,
+    "kick": 76,
+    "body": 46,
     "control": 45,
-    "guard": 63,
+    "guard": 62,
     "speed": 61,
     "stamina": 51,
-    "guts": 69
+    "guts": 70
    },
    "moves": [
     "death-scythe-middle",
@@ -76,12 +85,12 @@
    "element": "wood",
    "level": 99,
    "fp": 115,
-   "tp": 119,
+   "tp": 120,
    "stats": {
     "kick": 72,
-    "body": 51,
+    "body": 50,
     "control": 50,
-    "guard": 62,
+    "guard": 61,
     "speed": 61,
     "stamina": 59,
     "guts": 71
@@ -106,11 +115,11 @@
    "element": "earth",
    "level": 99,
    "fp": 110,
-   "tp": 121,
+   "tp": 122,
    "stats": {
-    "kick": 69,
+    "kick": 68,
     "body": 52,
-    "control": 54,
+    "control": 53,
     "guard": 66,
     "speed": 55,
     "stamina": 64,
@@ -135,16 +144,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 125,
+   "fp": 106,
+   "tp": 126,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 56,
     "control": 56,
     "guard": 64,
     "speed": 65,
     "stamina": 50,
-    "guts": 69
+    "guts": 70
    },
    "moves": [
     "spinning-cut",
@@ -165,14 +174,14 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 136,
+   "fp": 135,
    "tp": 106,
    "stats": {
-    "kick": 60,
+    "kick": 59,
     "body": 57,
-    "control": 63,
+    "control": 62,
     "guard": 57,
-    "speed": 53,
+    "speed": 52,
     "stamina": 73,
     "guts": 63
    },
@@ -195,14 +204,14 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 141,
+   "fp": 140,
    "tp": 103,
    "stats": {
     "kick": 68,
-    "body": 53,
-    "control": 65,
+    "body": 52,
+    "control": 64,
     "guard": 44,
-    "speed": 59,
+    "speed": 58,
     "stamina": 70,
     "guts": 51
    },
@@ -225,16 +234,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 144,
+   "fp": 143,
    "tp": 99,
    "stats": {
-    "kick": 67,
-    "body": 50,
-    "control": 62,
+    "kick": 66,
+    "body": 49,
+    "control": 61,
     "guard": 62,
     "speed": 62,
     "stamina": 46,
-    "guts": 70
+    "guts": 71
    },
    "moves": [
     "air-ride",
@@ -255,16 +264,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 150,
+   "fp": 149,
    "tp": 95,
    "stats": {
     "kick": 56,
     "body": 60,
-    "control": 66,
+    "control": 65,
     "guard": 56,
-    "speed": 61,
+    "speed": 60,
     "stamina": 55,
-    "guts": 70
+    "guts": 71
    },
    "moves": [
     "trick-ball",
@@ -285,15 +294,15 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 147,
-   "tp": 117,
+   "fp": 148,
+   "tp": 118,
    "stats": {
     "kick": 63,
     "body": 48,
     "control": 61,
     "guard": 56,
-    "speed": 57,
-    "stamina": 69,
+    "speed": 56,
+    "stamina": 70,
     "guts": 50
    },
    "moves": [
@@ -315,14 +324,14 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 152,
+   "fp": 153,
    "tp": 116,
    "stats": {
     "kick": 65,
     "body": 66,
     "control": 58,
     "guard": 68,
-    "speed": 42,
+    "speed": 41,
     "stamina": 53,
     "guts": 67
    },

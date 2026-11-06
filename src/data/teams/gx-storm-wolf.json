@@ -20,13 +20,13 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 142,
+   "fp": 141,
    "tp": 114,
    "stats": {
-    "kick": 73,
+    "kick": 72,
     "body": 75,
     "control": 58,
-    "guard": 66,
+    "guard": 65,
     "speed": 61,
     "stamina": 58,
     "guts": 62
@@ -52,13 +52,13 @@
    "element": "wind",
    "level": 99,
    "fp": 153,
-   "tp": 105,
+   "tp": 106,
    "stats": {
     "kick": 67,
     "body": 71,
-    "control": 60,
+    "control": 59,
     "guard": 64,
-    "speed": 69,
+    "speed": 68,
     "stamina": 44,
     "guts": 57
    },
@@ -83,11 +83,11 @@
    "element": "fire",
    "level": 99,
    "fp": 138,
-   "tp": 119,
+   "tp": 120,
    "stats": {
-    "kick": 71,
+    "kick": 70,
     "body": 68,
-    "control": 64,
+    "control": 63,
     "guard": 66,
     "speed": 63,
     "stamina": 53,
@@ -114,10 +114,10 @@
    "element": "wood",
    "level": 99,
    "fp": 120,
-   "tp": 125,
+   "tp": 126,
    "stats": {
     "kick": 58,
-    "body": 58,
+    "body": 57,
     "control": 56,
     "guard": 68,
     "speed": 66,
@@ -145,15 +145,15 @@
    "element": "earth",
    "level": 99,
    "fp": 163,
-   "tp": 97,
+   "tp": 98,
    "stats": {
-    "kick": 74,
-    "body": 51,
-    "control": 66,
-    "guard": 63,
-    "speed": 44,
+    "kick": 73,
+    "body": 50,
+    "control": 65,
+    "guard": 62,
+    "speed": 43,
     "stamina": 67,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "rolling-cutter",
@@ -175,16 +175,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 120,
+   "fp": 119,
    "tp": 128,
    "stats": {
-    "kick": 60,
+    "kick": 59,
     "body": 67,
-    "control": 63,
-    "guard": 59,
-    "speed": 60,
+    "control": 62,
+    "guard": 58,
+    "speed": 59,
     "stamina": 53,
-    "guts": 58
+    "guts": 57
    },
    "moves": [
     "silk-road",
@@ -207,14 +207,14 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 136,
+   "fp": 135,
    "tp": 99,
    "stats": {
-    "kick": 67,
+    "kick": 66,
     "body": 63,
-    "control": 62,
+    "control": 61,
     "guard": 55,
-    "speed": 49,
+    "speed": 48,
     "stamina": 73,
     "guts": 65
    },
@@ -238,16 +238,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 131,
+   "fp": 130,
    "tp": 106,
    "stats": {
     "kick": 69,
-    "body": 71,
-    "control": 65,
+    "body": 70,
+    "control": 64,
     "guard": 56,
-    "speed": 50,
-    "stamina": 65,
-    "guts": 59
+    "speed": 49,
+    "stamina": 66,
+    "guts": 58
    },
    "moves": [
     "silk-road",
@@ -277,7 +277,7 @@
     "body": 62,
     "control": 61,
     "guard": 54,
-    "speed": 58,
+    "speed": 57,
     "stamina": 60,
     "guts": 56
    },
@@ -302,16 +302,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 147,
-   "tp": 127,
+   "fp": 148,
+   "tp": 128,
    "stats": {
     "kick": 69,
     "body": 75,
-    "control": 64,
+    "control": 63,
     "guard": 62,
-    "speed": 58,
-    "stamina": 69,
-    "guts": 52
+    "speed": 57,
+    "stamina": 70,
+    "guts": 51
    },
    "moves": [
     "gold-fever",
@@ -334,15 +334,15 @@
    "element": "wind",
    "level": 99,
    "fp": 137,
-   "tp": 130,
+   "tp": 131,
    "stats": {
-    "kick": 66,
+    "kick": 65,
     "body": 69,
     "control": 53,
     "guard": 68,
-    "speed": 68,
+    "speed": 67,
     "stamina": 52,
-    "guts": 51
+    "guts": 50
    },
    "moves": [
     "gold-fever",
@@ -369,7 +369,7 @@
    "tp": 97,
    "stats": {
     "kick": 75,
-    "body": 46,
+    "body": 45,
     "control": 66,
     "guard": 41,
     "speed": 59,

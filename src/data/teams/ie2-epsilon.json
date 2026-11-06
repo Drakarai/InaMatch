@@ -4,7 +4,16 @@
  "wiki": "Epsilon",
  "name": "Épsilon",
  "short": "EPS",
- "colors": {"shirt": "#b81e3a", "shorts": "#3a3a44", "gkShirt": "#28262c", "accent": "#2a8aa0", "sleeve": "#3a3a44", "socks": "#b81e3a", "gkShorts": "#28262c", "gkSleeve": "#28262c"},
+ "colors": {
+  "shirt": "#b81e3a",
+  "shorts": "#3a3a44",
+  "gkShirt": "#28262c",
+  "accent": "#2a8aa0",
+  "sleeve": "#3a3a44",
+  "socks": "#b81e3a",
+  "gkShorts": "#28262c",
+  "gkSleeve": "#28262c"
+ },
  "formation": "f-epsilon",
  "players": [
   {

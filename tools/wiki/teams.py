@@ -314,11 +314,16 @@ STYLE.update({
     'Dark Angel': ('#26262a', '#26262a', '#c81e2a', '#c81e2a', '#26262a', '#26262a', '#26262a', '#c81e2a', {'gkGloves': '#c81e2a', 'wings': '#2e2e34', 'stripe': '#c81e2a', 'collar': '#ece8e8', 'num': '#e8b0b8', 'kitFrom': {'nenel': 'ie3-tenkuu-no-shito', 'lephiel': 'ie3-tenkuu-no-shito', 'wenel': 'ie3-tenkuu-no-shito', 'sanctus': 'ie3-tenkuu-no-shito', 'gaiel': 'ie3-tenkuu-no-shito'}}),
     'Chaos Angels': ('#7a2a5a', '#f2f2f2', '#3a8ac0', '#8a3a6a'),
     'God Angel': ('#f2f2f2', '#c8a020', '#7ab8e8', '#b89020'),
-    'Sekai Daihyou': ('#1d2f6b', '#f2f2f2', '#c8a020', '#c8a020'),
-    'Asia Daihyou': ('#c8202f', '#f2f2f2', '#2a5fc0', '#a01a26'),
-    'Europe Daihyou': ('#2457b8', '#f2f2f2', '#c8a020', '#1d4596'),
-    'Africa Daihyou': ('#2a8a5a', '#f2c230', '#c8202f', '#1f6a44'),
-    'Nanbei Daihyou': ('#f2d230', '#2a8a3a', '#2a5fc0', '#2a8a3a'),
+    # Sekai Daihyou: cada jugador con la equipación de su selección
+    'Sekai Daihyou': ('#1d2f6b', '#f2f2f2', '#c8a020', '#c8a020', None, None, None, None, {'kitFrom': {'hector-helio': 'ie3-little-gigant', 'bilal-kalil': 'ie3-desert-lion', 'alexander-hausen': 'ie3-brockenborg', 'masego-molelo': 'ie3-the-great-horn', 'thiago-torres': 'ie3-the-empire', 'jimi-gaines': 'ie3-little-gigant', 'changsu-choi': 'ie3-fire-dragon', 'dolph-hensen': 'ie3-big-waves', 'mark-krueger': 'ie3-unicorn', 'mac-robingo': 'ie3-the-kingdom', 'paolo-bianchi': 'ie3-orpheus', 'edgar-partinus': 'ie3-knights-of-queen', 'miguel-pereira': 'ie3-red-matador', 'julien-rousseau': 'ie3-rose-griffon', 'byron-love': 'ie3-fire-dragon', 'gigi-blasi': 'ie3-orpheus'}}),
+    # Asia Daihyou: cada jugador con la equipación de su selección
+    'Asia Daihyou': ('#c8202f', '#f2f2f2', '#2a5fc0', '#a01a26', None, None, None, None, {'kitFrom': {'nasir-mustafa': 'ie3-desert-lion', 'ken-crackham': 'ie3-big-waves', 'kjell-snapper': 'ie3-big-waves', 'bilal-kalil': 'ie3-desert-lion', 'umi-hwang': 'ie3-fire-dragon', 'dooyoon-hong': 'ie3-fire-dragon', 'sayid-armand': 'ie3-desert-lion', 'yusuf-massoud': 'ie3-desert-lion', 'dolph-hensen': 'ie3-big-waves', 'zack-abdulla': 'ie3-desert-lion', 'hamilton-reith': 'ie3-big-waves', 'byron-love': 'ie3-fire-dragon', 'changsu-choi': 'ie3-fire-dragon', 'gene-whalon': 'ie3-big-waves', 'claude-beacons': 'ie3-fire-dragon', 'bryce-whitingale': 'ie3-fire-dragon'}}),
+    # Europe Daihyou: cada jugador con la equipación de su selección
+    'Europe Daihyou': ('#2457b8', '#f2f2f2', '#c8a020', '#1d4596', None, None, None, None, {'kitFrom': {'gigi-blasi': 'ie3-orpheus', 'pierre-godin': 'ie3-rose-griffon', 'lance-rawton': 'ie3-knights-of-queen', 'marco-maserati': 'ie3-orpheus', 'lukas-schmidt': 'ie3-brockenborg', 'alexander-hausen': 'ie3-brockenborg', 'julien-rousseau': 'ie3-rose-griffon', 'roland-p-rec': 'ie3-rose-griffon', 'miguel-pereira': 'ie3-red-matador', 'paolo-bianchi': 'ie3-orpheus', 'samuel-mayo': 'ie3-red-matador', 'edgar-partinus': 'ie3-knights-of-queen', 'phillip-owen': 'ie3-knights-of-queen', 'ferm-n-s-nchez': 'ie3-red-matador', 'raffaele-generani': 'ie3-orpheus', 'jonas-polk': 'ie3-brockenborg'}}),
+    # Africa Daihyou: cada jugador con la equipación de su selección
+    'Africa Daihyou': ('#2a8a5a', '#f2c230', '#c8202f', '#1f6a44', None, None, None, None, {'kitFrom': {'zolani-baloi': 'ie3-the-great-horn', 'zephyr-vitesse': 'ie3-little-gigant', 'jimi-gaines': 'ie3-little-gigant', 'masego-molelo': 'ie3-the-great-horn', 'cassius-tobler': 'ie3-the-great-horn', 'quint-hampton': 'ie3-little-gigant', 'maximino-cruz': 'ie3-little-gigant', 'adam-marunga': 'ie3-the-great-horn', 'anton-nortje': 'ie3-the-great-horn', 'drago-hill': 'ie3-little-gigant', 'melisizwe-zamani': 'ie3-the-great-horn', 'herschel-de-villiers': 'ie3-the-great-horn', 'hector-helio': 'ie3-little-gigant', 'ian-ferrum': 'ie3-little-gigant', 'yasir-haddad': 'ie3-little-gigant', 'reggie-ines': 'ie3-the-great-horn'}}),
+    # Nanbei Daihyou: cada jugador con la equipación de su selección
+    'Nanbei Daihyou': ('#f2d230', '#2a8a3a', '#2a5fc0', '#2a8a3a', None, None, None, None, {'kitFrom': {'jorge-ortega': 'ie3-the-empire', 'julio-acosta': 'ie3-the-empire', 'ram-n-mart-nez': 'ie3-the-empire', 'thiago-torres': 'ie3-the-empire', 'formiga-clemens': 'ie3-the-kingdom', 'carlos-lagarto': 'ie3-the-kingdom', 'pablo-castillo': 'ie3-the-empire', 'roberto-torres': 'ie3-the-empire', 'sergio-p-rez': 'ie3-the-empire', 'leone-badigo': 'ie3-the-empire', 'mac-robingo': 'ie3-the-kingdom', 'coruja-cerezo': 'ie3-the-kingdom', 'gato-carvalho': 'ie3-the-kingdom', 'leonardo-almeida': 'ie3-the-kingdom', 'presa-passos': 'ie3-the-kingdom', 'falc-o-da-silva': 'ie3-the-kingdom'}}),
     'Joshi Senbatsu Team': ('#e98aa8', '#f2f2f2', '#5a3a8a', '#c86a8a'),
 })
 
@@ -1130,7 +1135,7 @@ for season, game, name, fkey, page, players in raw_teams:
         'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
         'short': short,
-        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 and style[6] else {}), **({'gkSleeve': style[7]} if len(style) > 7 and style[7] else {}), **(style[8] if len(style) > 8 else {})},
+        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 and style[4] else {}), **({'socks': style[5]} if len(style) > 5 and style[5] else {}), **({'gkShorts': style[6]} if len(style) > 6 and style[6] else {}), **({'gkSleeve': style[7]} if len(style) > 7 and style[7] else {}), **(style[8] if len(style) > 8 else {})},
         'formation': fid,
         'players': players,
     })

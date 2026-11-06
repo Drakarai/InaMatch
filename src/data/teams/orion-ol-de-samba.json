@@ -21,12 +21,12 @@
    "element": "fire",
    "level": 99,
    "fp": 116,
-   "tp": 124,
+   "tp": 125,
    "stats": {
     "kick": 51,
     "body": 53,
     "control": 51,
-    "guard": 62,
+    "guard": 61,
     "speed": 51,
     "stamina": 54,
     "guts": 54
@@ -53,12 +53,12 @@
    "element": "wood",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -85,14 +85,14 @@
    "element": "fire",
    "level": 99,
    "fp": 179,
-   "tp": 99,
+   "tp": 100,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 45,
+    "control": 44,
     "guard": 73,
     "speed": 46,
-    "stamina": 69,
+    "stamina": 70,
     "guts": 45
    },
    "moves": [
@@ -117,12 +117,12 @@
    "element": "wind",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -152,12 +152,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "death-samba",
@@ -184,12 +184,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "ultra-moon",
@@ -244,15 +244,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 106,
+   "tp": 170,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
+    "kick": 44,
+    "body": 46,
+    "control": 73,
+    "guard": 52,
+    "speed": 55,
+    "stamina": 48,
     "guts": 70
    },
    "moves": [
@@ -277,15 +277,15 @@
    "element": "wind",
    "level": 99,
    "fp": 163,
-   "tp": 118,
+   "tp": 119,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
+    "kick": 66,
+    "body": 69,
+    "control": 51,
     "guard": 66,
-    "speed": 56,
+    "speed": 55,
     "stamina": 65,
-    "guts": 57
+    "guts": 56
    },
    "moves": [
     "death-samba",
@@ -308,16 +308,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 178,
-   "tp": 184,
+   "fp": 180,
+   "tp": 188,
    "stats": {
-    "kick": 60,
+    "kick": 59,
     "body": 70,
-    "control": 63,
+    "control": 62,
     "guard": 72,
     "speed": 72,
     "stamina": 69,
-    "guts": 60
+    "guts": 59
    },
    "moves": [
     "death-samba",
@@ -340,10 +340,10 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 162,
+   "tp": 154,
    "stats": {
-    "kick": 57,
+    "kick": 56,
     "body": 66,
     "control": 55,
     "guard": 63,
@@ -373,14 +373,14 @@
    "element": "earth",
    "level": 99,
    "fp": 179,
-   "tp": 99,
+   "tp": 100,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 45,
+    "control": 44,
     "guard": 73,
     "speed": 46,
-    "stamina": 69,
+    "stamina": 70,
     "guts": 45
    },
    "moves": [
@@ -405,14 +405,14 @@
    "element": "fire",
    "level": 99,
    "fp": 179,
-   "tp": 99,
+   "tp": 100,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 45,
+    "control": 44,
     "guard": 73,
     "speed": 46,
-    "stamina": 69,
+    "stamina": 70,
     "guts": 45
    },
    "moves": [
@@ -436,15 +436,15 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 93,
+   "fp": 91,
    "tp": 161,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
+    "kick": 44,
+    "body": 46,
+    "control": 68,
+    "guard": 43,
+    "speed": 55,
+    "stamina": 44,
     "guts": 68
    },
    "moves": [

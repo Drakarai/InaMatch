@@ -20,15 +20,15 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 142,
+   "fp": 141,
    "tp": 110,
    "stats": {
-    "kick": 73,
+    "kick": 72,
     "body": 53,
     "control": 50,
-    "guard": 66,
+    "guard": 65,
     "speed": 62,
-    "stamina": 60,
+    "stamina": 59,
     "guts": 59
    },
    "moves": [
@@ -52,15 +52,15 @@
    "element": "fire",
    "level": 99,
    "fp": 125,
-   "tp": 101,
+   "tp": 102,
    "stats": {
-    "kick": 71,
+    "kick": 70,
     "body": 63,
-    "control": 60,
+    "control": 59,
     "guard": 60,
     "speed": 55,
     "stamina": 45,
-    "guts": 69
+    "guts": 70
    },
    "moves": [
     "death-scythe-middle",
@@ -84,13 +84,13 @@
    "element": "wood",
    "level": 99,
    "fp": 135,
-   "tp": 112,
+   "tp": 113,
    "stats": {
-    "kick": 63,
+    "kick": 62,
     "body": 59,
-    "control": 61,
+    "control": 60,
     "guard": 64,
-    "speed": 60,
+    "speed": 59,
     "stamina": 50,
     "guts": 71
    },
@@ -115,12 +115,12 @@
    "element": "earth",
    "level": 99,
    "fp": 130,
-   "tp": 95,
+   "tp": 96,
    "stats": {
-    "kick": 69,
-    "body": 43,
+    "kick": 68,
+    "body": 42,
     "control": 56,
-    "guard": 62,
+    "guard": 61,
     "speed": 55,
     "stamina": 63,
     "guts": 51
@@ -146,12 +146,12 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 96,
+   "fp": 95,
    "tp": 135,
    "stats": {
-    "kick": 45,
+    "kick": 44,
     "body": 57,
-    "control": 62,
+    "control": 61,
     "guard": 46,
     "speed": 69,
     "stamina": 71,
@@ -177,14 +177,14 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 131,
+   "fp": 130,
    "tp": 120,
    "stats": {
-    "kick": 65,
+    "kick": 64,
     "body": 67,
-    "control": 62,
+    "control": 61,
     "guard": 57,
-    "speed": 59,
+    "speed": 58,
     "stamina": 61,
     "guts": 65
    },
@@ -208,16 +208,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 131,
+   "fp": 130,
    "tp": 113,
    "stats": {
-    "kick": 66,
-    "body": 39,
-    "control": 61,
+    "kick": 65,
+    "body": 38,
+    "control": 60,
     "guard": 61,
-    "speed": 43,
+    "speed": 42,
     "stamina": 61,
-    "guts": 44
+    "guts": 43
    },
    "moves": [
     "death-scythe-low",
@@ -239,15 +239,15 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 105,
+   "fp": 104,
    "tp": 143,
    "stats": {
     "kick": 56,
     "body": 65,
-    "control": 65,
+    "control": 64,
     "guard": 58,
     "speed": 62,
-    "stamina": 43,
+    "stamina": 42,
     "guts": 65
    },
    "moves": [
@@ -271,14 +271,14 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 150,
+   "fp": 149,
    "tp": 95,
    "stats": {
     "kick": 68,
     "body": 60,
-    "control": 62,
+    "control": 61,
     "guard": 55,
-    "speed": 61,
+    "speed": 60,
     "stamina": 58,
     "guts": 51
    },
@@ -303,16 +303,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 165,
+   "fp": 164,
    "tp": 103,
    "stats": {
     "kick": 70,
-    "body": 50,
-    "control": 67,
+    "body": 49,
+    "control": 66,
     "guard": 46,
     "speed": 46,
-    "stamina": 85,
-    "guts": 54
+    "stamina": 86,
+    "guts": 53
    },
    "moves": [
     "death-scythe-low",
@@ -335,16 +335,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 147,
-   "tp": 120,
+   "fp": 148,
+   "tp": 121,
    "stats": {
-    "kick": 66,
+    "kick": 65,
     "body": 64,
     "control": 58,
     "guard": 49,
-    "speed": 58,
+    "speed": 57,
     "stamina": 56,
-    "guts": 52
+    "guts": 51
    },
    "moves": [
     "ivory-crash",
@@ -368,12 +368,12 @@
    "element": "fire",
    "level": 99,
    "fp": 116,
-   "tp": 124,
+   "tp": 125,
    "stats": {
     "kick": 51,
     "body": 53,
     "control": 51,
-    "guard": 62,
+    "guard": 61,
     "speed": 51,
     "stamina": 54,
     "guts": 54

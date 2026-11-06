@@ -8,7 +8,25 @@
   "shirt": "#f2d230",
   "shorts": "#2a8a3a",
   "gkShirt": "#2a5fc0",
-  "accent": "#2a8a3a"
+  "accent": "#2a8a3a",
+  "kitFrom": {
+   "jorge-ortega": "ie3-the-empire",
+   "julio-acosta": "ie3-the-empire",
+   "ram-n-mart-nez": "ie3-the-empire",
+   "thiago-torres": "ie3-the-empire",
+   "formiga-clemens": "ie3-the-kingdom",
+   "carlos-lagarto": "ie3-the-kingdom",
+   "pablo-castillo": "ie3-the-empire",
+   "roberto-torres": "ie3-the-empire",
+   "sergio-p-rez": "ie3-the-empire",
+   "leone-badigo": "ie3-the-empire",
+   "mac-robingo": "ie3-the-kingdom",
+   "coruja-cerezo": "ie3-the-kingdom",
+   "gato-carvalho": "ie3-the-kingdom",
+   "leonardo-almeida": "ie3-the-kingdom",
+   "presa-passos": "ie3-the-kingdom",
+   "falc-o-da-silva": "ie3-the-kingdom"
+  }
  },
  "formation": "f-death-zone-2",
  "players": [

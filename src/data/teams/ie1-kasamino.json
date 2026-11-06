@@ -4,7 +4,16 @@
  "wiki": "Kasamino",
  "name": "Instituto Umbrella",
  "short": "KAS",
- "colors": {"shirt": "#94bccc", "shorts": "#2e5a80", "gkShirt": "#5a7a34", "accent": "#2e4a6a", "sleeve": "#e8dcc0", "socks": "#f2f2f2", "gkShorts": "#3a4a40", "gkSleeve": "#e8dcc0"},
+ "colors": {
+  "shirt": "#94bccc",
+  "shorts": "#2e5a80",
+  "gkShirt": "#5a7a34",
+  "accent": "#2e4a6a",
+  "sleeve": "#e8dcc0",
+  "socks": "#f2f2f2",
+  "gkShorts": "#3a4a40",
+  "gkSleeve": "#e8dcc0"
+ },
  "formation": "f-death-zone",
  "players": [
   {

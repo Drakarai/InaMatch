@@ -21,12 +21,12 @@
    "element": "wind",
    "level": 99,
    "fp": 116,
-   "tp": 124,
+   "tp": 125,
    "stats": {
     "kick": 51,
     "body": 53,
     "control": 51,
-    "guard": 62,
+    "guard": 61,
     "speed": 51,
     "stamina": 54,
     "guts": 54
@@ -52,12 +52,12 @@
    "element": "fire",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -83,12 +83,12 @@
    "element": "wind",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -114,12 +114,12 @@
    "element": "fire",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -145,12 +145,12 @@
    "element": "wind",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -180,12 +180,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "reppuu-dash",
@@ -211,12 +211,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "death-scythe-low",
@@ -242,12 +242,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "decoy-release",
@@ -269,16 +269,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 150,
+   "tp": 131,
    "stats": {
-    "kick": 54,
+    "kick": 53,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "hellfire",
@@ -300,16 +300,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 150,
+   "tp": 131,
    "stats": {
-    "kick": 54,
+    "kick": 53,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "white-blade",
@@ -331,16 +331,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 150,
+   "tp": 131,
    "stats": {
-    "kick": 54,
+    "kick": 53,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "sonic-shot",
@@ -363,12 +363,12 @@
    "element": "wood",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -394,12 +394,12 @@
    "element": "earth",
    "level": 99,
    "fp": 118,
-   "tp": 123,
+   "tp": 124,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 53,
     "control": 58,
-    "guard": 54,
+    "guard": 53,
     "speed": 58,
     "stamina": 52,
     "guts": 63
@@ -428,12 +428,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 67,
-    "control": 52,
+    "body": 66,
+    "control": 51,
     "guard": 61,
-    "speed": 56,
+    "speed": 55,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "melody-wave",
@@ -455,16 +455,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 150,
+   "tp": 131,
    "stats": {
-    "kick": 54,
+    "kick": 53,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "white-blade",
@@ -486,12 +486,12 @@
    "element": "earth",
    "level": 99,
    "fp": 116,
-   "tp": 124,
+   "tp": 125,
    "stats": {
     "kick": 51,
     "body": 53,
     "control": 51,
-    "guard": 62,
+    "guard": 61,
     "speed": 51,
     "stamina": 54,
     "guts": 54

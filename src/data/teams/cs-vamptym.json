@@ -20,16 +20,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 142,
-   "tp": 131,
+   "fp": 141,
+   "tp": 132,
    "stats": {
     "kick": 50,
     "body": 71,
-    "control": 77,
-    "guard": 95,
+    "control": 76,
+    "guard": 94,
     "speed": 48,
     "stamina": 44,
-    "guts": 61
+    "guts": 60
    },
    "moves": [
     "gravity-point",
@@ -52,11 +52,11 @@
    "element": "earth",
    "level": 99,
    "fp": 158,
-   "tp": 121,
+   "tp": 122,
    "stats": {
-    "kick": 61,
+    "kick": 60,
     "body": 71,
-    "control": 53,
+    "control": 52,
     "guard": 77,
     "speed": 66,
     "stamina": 59,
@@ -82,14 +82,14 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 117,
-   "tp": 136,
+   "fp": 116,
+   "tp": 137,
    "stats": {
-    "kick": 52,
+    "kick": 51,
     "body": 63,
-    "control": 47,
+    "control": 46,
     "guard": 81,
-    "speed": 52,
+    "speed": 51,
     "stamina": 56,
     "guts": 62
    },
@@ -114,11 +114,11 @@
    "element": "earth",
    "level": 99,
    "fp": 153,
-   "tp": 115,
+   "tp": 116,
    "stats": {
-    "kick": 47,
-    "body": 67,
-    "control": 54,
+    "kick": 46,
+    "body": 66,
+    "control": 53,
     "guard": 79,
     "speed": 65,
     "stamina": 52,
@@ -144,16 +144,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 126,
+   "fp": 124,
    "tp": 113,
    "stats": {
     "kick": 56,
-    "body": 65,
-    "control": 73,
-    "guard": 71,
+    "body": 64,
+    "control": 71,
+    "guard": 70,
     "speed": 63,
     "stamina": 50,
-    "guts": 35
+    "guts": 33
    },
    "moves": [
     "olympus-harmony",
@@ -175,16 +175,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 136,
+   "fp": 135,
    "tp": 128,
    "stats": {
-    "kick": 55,
+    "kick": 54,
     "body": 63,
-    "control": 73,
+    "control": 72,
     "guard": 68,
-    "speed": 67,
+    "speed": 66,
     "stamina": 55,
-    "guts": 59
+    "guts": 58
    },
    "moves": [
     "white-blade",
@@ -206,15 +206,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 96,
+   "fp": 95,
    "tp": 128,
    "stats": {
-    "kick": 46,
+    "kick": 45,
     "body": 65,
-    "control": 71,
-    "guard": 67,
+    "control": 70,
+    "guard": 66,
     "speed": 69,
-    "stamina": 52,
+    "stamina": 51,
     "guts": 51
    },
    "moves": [
@@ -238,16 +238,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 115,
+   "fp": 114,
    "tp": 131,
    "stats": {
-    "kick": 59,
+    "kick": 58,
     "body": 60,
-    "control": 73,
+    "control": 72,
     "guard": 64,
     "speed": 75,
-    "stamina": 37,
-    "guts": 45
+    "stamina": 36,
+    "guts": 44
    },
    "moves": [
     "sky-walk",
@@ -269,16 +269,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 165,
+   "fp": 164,
    "tp": 138,
    "stats": {
-    "kick": 88,
+    "kick": 87,
     "body": 69,
-    "control": 91,
-    "guard": 65,
-    "speed": 67,
+    "control": 90,
+    "guard": 64,
+    "speed": 66,
     "stamina": 49,
-    "guts": 45
+    "guts": 44
    },
    "moves": [
     "vampire-lord",
@@ -302,15 +302,15 @@
    "element": "wood",
    "level": 99,
    "fp": 134,
-   "tp": 128,
+   "tp": 129,
    "stats": {
     "kick": 81,
     "body": 66,
-    "control": 75,
+    "control": 74,
     "guard": 64,
     "speed": 65,
     "stamina": 58,
-    "guts": 46
+    "guts": 45
    },
    "moves": [
     "northern-impact",
@@ -334,15 +334,15 @@
    "element": "wood",
    "level": 99,
    "fp": 82,
-   "tp": 138,
+   "tp": 139,
    "stats": {
-    "kick": 74,
+    "kick": 73,
     "body": 60,
     "control": 69,
     "guard": 58,
     "speed": 74,
-    "stamina": 50,
-    "guts": 53
+    "stamina": 49,
+    "guts": 52
    },
    "moves": [
     "koutei-penguin-7",
@@ -365,16 +365,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 165,
+   "fp": 164,
    "tp": 138,
    "stats": {
-    "kick": 88,
+    "kick": 87,
     "body": 69,
-    "control": 91,
-    "guard": 65,
-    "speed": 67,
+    "control": 90,
+    "guard": 64,
+    "speed": 66,
     "stamina": 49,
-    "guts": 45
+    "guts": 44
    },
    "moves": [
     "vampire-lord",

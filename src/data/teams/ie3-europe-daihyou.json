@@ -8,7 +8,25 @@
   "shirt": "#2457b8",
   "shorts": "#f2f2f2",
   "gkShirt": "#c8a020",
-  "accent": "#1d4596"
+  "accent": "#1d4596",
+  "kitFrom": {
+   "gigi-blasi": "ie3-orpheus",
+   "pierre-godin": "ie3-rose-griffon",
+   "lance-rawton": "ie3-knights-of-queen",
+   "marco-maserati": "ie3-orpheus",
+   "lukas-schmidt": "ie3-brockenborg",
+   "alexander-hausen": "ie3-brockenborg",
+   "julien-rousseau": "ie3-rose-griffon",
+   "roland-p-rec": "ie3-rose-griffon",
+   "miguel-pereira": "ie3-red-matador",
+   "paolo-bianchi": "ie3-orpheus",
+   "samuel-mayo": "ie3-red-matador",
+   "edgar-partinus": "ie3-knights-of-queen",
+   "phillip-owen": "ie3-knights-of-queen",
+   "ferm-n-s-nchez": "ie3-red-matador",
+   "raffaele-generani": "ie3-orpheus",
+   "jonas-polk": "ie3-brockenborg"
+  }
  },
  "formation": "f-death-zone-2",
  "players": [

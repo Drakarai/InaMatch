@@ -8,7 +8,25 @@
   "shirt": "#1d2f6b",
   "shorts": "#f2f2f2",
   "gkShirt": "#c8a020",
-  "accent": "#c8a020"
+  "accent": "#c8a020",
+  "kitFrom": {
+   "hector-helio": "ie3-little-gigant",
+   "bilal-kalil": "ie3-desert-lion",
+   "alexander-hausen": "ie3-brockenborg",
+   "masego-molelo": "ie3-the-great-horn",
+   "thiago-torres": "ie3-the-empire",
+   "jimi-gaines": "ie3-little-gigant",
+   "changsu-choi": "ie3-fire-dragon",
+   "dolph-hensen": "ie3-big-waves",
+   "mark-krueger": "ie3-unicorn",
+   "mac-robingo": "ie3-the-kingdom",
+   "paolo-bianchi": "ie3-orpheus",
+   "edgar-partinus": "ie3-knights-of-queen",
+   "miguel-pereira": "ie3-red-matador",
+   "julien-rousseau": "ie3-rose-griffon",
+   "byron-love": "ie3-fire-dragon",
+   "gigi-blasi": "ie3-orpheus"
+  }
  },
  "formation": "f-death-zone-2",
  "players": [

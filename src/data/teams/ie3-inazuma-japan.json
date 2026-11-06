@@ -5,10 +5,15 @@
  "name": "Inazuma Japón",
  "short": "INA",
  "colors": {
-  "shirt": "#2a6fd6",
-  "shorts": "#f4f4f4",
+  "shirt": "#1e6ec8",
+  "shorts": "#dccdb8",
   "gkShirt": "#e8892b",
-  "accent": "#2d5fb8"
+  "accent": "#1e6ec8",
+  "sleeve": "#1e6ec8",
+  "socks": "#1e6ec8",
+  "stripe": "#f0c020",
+  "collar": "#d02a2a",
+  "num": "#e8b8a0"
  },
  "formation": "f-basic",
  "players": [

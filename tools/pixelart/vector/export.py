@@ -23,7 +23,7 @@ REF_PX = 80
 OUT = (60, 24, 16, 255)
 
 # equipos con todos sus jugadores dibujados (packs): se exportan con los colores de cada equipo
-TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis', 'ie2-hakuren', 'ie2-jukai-team', 'ie2-keibi-machines', 'ie2-manyuuji', 'cs-soccer-robots', 'gx-osoroshii-kage', 'ie2-osaka-gals-ccc', 'ie2-oumihara', 'ie2-shin-teikoku-gakuen', 'ie2-sp-fixers', 'ie2-yokato']
+TEAMS = ['ie1-raimon', 'ie1-teikoku-gakuen', 'ie1-occult', 'ie1-nose', 'ie1-shuuyou-meito-gakuen', 'ie1-ichibangai-sally-s', 'ie1-sengoku-igajima', 'ie1-kidokawa-seishuu', 'ie1-mikage-sennou', 'ie1-zeus', 'ie1-senbayama', 'ie1-kasamino', 'ie1-inazuma-kfc', 'ie1-inazuma-eleven', 'ie2-second-raimon', 'ie2-dark-emperors', 'ie2-young-inazuma', 'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis', 'ie2-hakuren', 'ie2-jukai-team', 'ie2-keibi-machines', 'ie2-manyuuji', 'cs-soccer-robots', 'gx-osoroshii-kage', 'ie2-osaka-gals-ccc', 'ie2-oumihara', 'ie2-shin-teikoku-gakuen', 'ie2-sp-fixers', 'ie2-yokato', 'ie3-inazuma-japan']
 # dibujos que no están en chars.py (Axel tiene su propio módulo, head_axel.py)
 SPECIAL = {}
 
@@ -94,6 +94,15 @@ def pad_same(fr):
     return out
 
 
+def key_for(tid, pid):
+    """Dibujo de un jugador en un equipo: la versión de ese equipo ('<equipo>:<jugador>'), la de su temporada ('ie3:<jugador>':
+    el aspecto que tiene en ese juego) o la suya de siempre."""
+    for k in (f'{tid}:{pid}', f"{tid.split('-')[0]}:{pid}"):
+        if k in C.CHARS:
+            return k
+    return char_of(pid)
+
+
 def main():
     only = sys.argv[1:]  # ids de equipo: solo esos (sin argumentos, todos)
     for tid in TEAMS:
@@ -102,7 +111,7 @@ def main():
         team = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
         for p in team['players']:
             # versión propia de este equipo (los Jóvenes Inazuma son los veteranos de niños): '<equipo>:<jugador>'
-            base = f"{tid}:{p['id']}" if f"{tid}:{p['id']}" in C.CHARS else char_of(p['id'])
+            base = key_for(tid, p['id'])
             if base is None:
                 print(tid, p['id'], 'sin dibujo')
                 continue

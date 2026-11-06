@@ -121,6 +121,8 @@ def body_front(d, t, back=False, num='10'):
     # mangas raglán: del cuello al sobaco
     for s in (-1, 1):
         rag = [(cx + s * 8, top), (cx + s * (sw - 6), top), (cx + s * (sw + 0.5), top + 8), (cx + s * (sw - 1), top + 15), (cx + s * (sw - 7), top + 13)]
+        if KIT.get('sleeveless'):  # camiseta sin mangas: la sisa recortada y el hombro al aire
+            continue
         d.polygon([P(*p) for p in rag], fill=KIT['sleeve'])
         d.line([P(cx + s * 8, top), P(cx + s * (sw - 7), top + 13), P(cx + s * (sw - 1), top + 15)], fill=OUT, width=int(1.1 * SS))
     # tela cruzada sobre un hombro hasta la cadera contraria (el himatión gris del Zeus)
@@ -137,7 +139,8 @@ def body_front(d, t, back=False, num='10'):
         sh = (cx + s * (sw - 1), top + 7)
         hand = (cx + s * (sw + t['at'] * 0.55), top + t['al'])
         capsule(d, sh, hand, t['at'] / 2, SKIN['mid'], SKIN['shade'] if s > 0 else None)
-        capsule(d, sh, V.lerp(sh, hand, 0.82 if KIT.get('longSleeve') else 0.28), t['at'] / 2 + 0.8, KIT['sleeve'], KIT['sleeve_d'] if s > 0 else None)
+        if not KIT.get('sleeveless'):
+            capsule(d, sh, V.lerp(sh, hand, 0.82 if KIT.get('longSleeve') else 0.28), t['at'] / 2 + 0.8, KIT['sleeve'], KIT['sleeve_d'] if s > 0 else None)
         r = t['at'] * 0.62
         d.ellipse([P(hand[0] - r - 1.4, hand[1] - r - 1.4), P(hand[0] + r + 1.4, hand[1] + r + 1.4)], fill=OUT)
         d.ellipse([P(hand[0] - r, hand[1] - r), P(hand[0] + r, hand[1] + r)], fill=KIT.get('hand', SKIN['mid']))
@@ -195,7 +198,8 @@ def body_side(d, t, step=0):
     sh = (cx, top + 6)
     hand = (cx + sw_arm, top + t['al'])
     capsule(d, sh, hand, t['at'] / 2, SKIN['mid'], SKIN['shade'])
-    capsule(d, sh, V.lerp(sh, hand, 0.82 if KIT.get('longSleeve') else 0.34), t['at'] / 2 + 1.6, KIT['sleeve'], KIT['sleeve_d'])
+    if not KIT.get('sleeveless'):
+        capsule(d, sh, V.lerp(sh, hand, 0.82 if KIT.get('longSleeve') else 0.34), t['at'] / 2 + 1.6, KIT['sleeve'], KIT['sleeve_d'])
     if KIT.get('suit'):  # el pico blanco de la camisa asoma por delante
         d.polygon([P(cx + depth / 2 - 6, top + 1), P(cx + depth / 2 + 0.5, top + 1), P(cx + depth / 2 + 0.5, top + 14)], fill=KIT.get('collar', (242, 242, 242, 255)))
     r = t['at'] * 0.62
@@ -388,6 +392,8 @@ def figure(view, tname, step=0, char=None, kit=None, num=None):
         KIT['cape'] = hexc(char['cape'])
     if char is not None and char.get('sash'):
         KIT['sash'] = hexc(char['sash'])
+    if char is not None and char.get('sleeveless') and not KIT.get('longSleeve'):
+        KIT['sleeveless'] = True
     SKIN.clear()
     if char is None:
         SKIN.update(AXEL_SKIN)

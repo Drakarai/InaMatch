@@ -135,7 +135,9 @@ STYLE = {
     # Jóvenes Inazuma: camiseta negra con mangas blancas, pantalón blanco y medias negras; portero rojo oscuro con mangas negras
     'Young Inazuma': ('#1a1a1e', '#e8e4e4', '#8a1e14', '#e8e4e4', '#e8e4e4', '#1a1a1e', '#1a1a1e', '#1a1a1e'),
     # IE3
-    'Inazuma Japan': ('#2a6fd6', '#f4f4f4', '#e8892b', '#2d5fb8'),
+    # Inazuma Japan: camiseta azul con el cuello rojo y ribetes amarillos, pantalón crema y medias azules con franja amarilla
+    'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
+                      {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     'Big Waves': ('#f2c230', '#1f5f3a', '#3a7bd5', '#2f8a4a'),
     'Desert Lion': ('#8e1f2f', '#f2ede4', '#3b3b48', '#a8283a'),
     'Neo Japan': ('#1b1b2f', '#e8e8e8', '#c9a227', '#3a3a6a'),
@@ -1104,7 +1106,7 @@ for season, game, name, fkey, page, players in raw_teams:
         'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
         'short': short,
-        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 else {}), **({'gkSleeve': style[7]} if len(style) > 7 else {}), **(style[8] if len(style) > 8 else {})},
+        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 and style[6] else {}), **({'gkSleeve': style[7]} if len(style) > 7 and style[7] else {}), **(style[8] if len(style) > 8 else {})},
         'formation': fid,
         'players': players,
     })

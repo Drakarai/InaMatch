@@ -4,16 +4,7 @@
  "wiki": "Keibi Machines",
  "name": "Robots Guardias",
  "short": "KEI",
- "colors": {
-  "shirt": "#c8b4b0",
-  "shorts": "#c8b4b0",
-  "gkShirt": "#4a3e40",
-  "accent": "#2a2a34",
-  "sleeve": "#c8b4b0",
-  "socks": "#4a4048",
-  "gkShorts": "#4a3e40",
-  "gkSleeve": "#4a3e40"
- },
+ "colors": {"shirt": "#c8b4b0", "shorts": "#c8b4b0", "gkShirt": "#4a3e40", "accent": "#2a2a34", "sleeve": "#c8b4b0", "socks": "#4a4048", "gkShorts": "#4a3e40", "gkSleeve": "#4a3e40"},
  "formation": "f-basic-2",
  "players": [
   {

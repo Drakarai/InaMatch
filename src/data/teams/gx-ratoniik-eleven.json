@@ -20,7 +20,7 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 146,
+   "fp": 147,
    "tp": 138,
    "stats": {
     "kick": 76,
@@ -28,8 +28,8 @@
     "control": 48,
     "guard": 70,
     "speed": 62,
-    "stamina": 53,
-    "guts": 64
+    "stamina": 54,
+    "guts": 65
    },
    "moves": [
     "big-mouth",
@@ -51,13 +51,13 @@
    "element": "wood",
    "level": 99,
    "fp": 163,
-   "tp": 106,
+   "tp": 105,
    "stats": {
     "kick": 75,
     "body": 55,
     "control": 48,
     "guard": 67,
-    "speed": 58,
+    "speed": 59,
     "stamina": 66,
     "guts": 71
    },
@@ -83,15 +83,15 @@
    "element": "wind",
    "level": 99,
    "fp": 158,
-   "tp": 109,
+   "tp": 108,
    "stats": {
-    "kick": 73,
+    "kick": 74,
     "body": 53,
-    "control": 52,
+    "control": 53,
     "guard": 66,
     "speed": 65,
     "stamina": 57,
-    "guts": 74
+    "guts": 73
    },
    "moves": [
     "tentacle-hold",
@@ -114,12 +114,12 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 95,
-   "tp": 155,
+   "fp": 96,
+   "tp": 156,
    "stats": {
     "kick": 48,
-    "body": 52,
-    "control": 61,
+    "body": 53,
+    "control": 62,
     "guard": 54,
     "speed": 69,
     "stamina": 49,
@@ -145,14 +145,14 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 104,
+   "fp": 105,
    "tp": 124,
    "stats": {
-    "kick": 50,
+    "kick": 51,
     "body": 61,
-    "control": 62,
+    "control": 63,
     "guard": 56,
-    "speed": 53,
+    "speed": 54,
     "stamina": 70,
     "guts": 73
    },
@@ -177,13 +177,13 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 109,
+   "fp": 110,
    "tp": 143,
    "stats": {
     "kick": 62,
     "body": 57,
-    "control": 64,
-    "guard": 59,
+    "control": 65,
+    "guard": 60,
     "speed": 64,
     "stamina": 47,
     "guts": 77
@@ -208,15 +208,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 149,
+   "fp": 150,
    "tp": 95,
    "stats": {
-    "kick": 52,
-    "body": 67,
-    "control": 60,
-    "guard": 58,
-    "speed": 60,
-    "stamina": 51,
+    "kick": 53,
+    "body": 68,
+    "control": 61,
+    "guard": 59,
+    "speed": 61,
+    "stamina": 52,
     "guts": 68
    },
    "moves": [
@@ -239,14 +239,14 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 164,
+   "fp": 165,
    "tp": 117,
    "stats": {
-    "kick": 66,
+    "kick": 67,
     "body": 69,
-    "control": 65,
+    "control": 66,
     "guard": 58,
-    "speed": 52,
+    "speed": 53,
     "stamina": 64,
     "guts": 70
    },
@@ -274,13 +274,13 @@
    "fp": 170,
    "tp": 113,
    "stats": {
-    "kick": 65,
+    "kick": 66,
     "body": 65,
-    "control": 66,
+    "control": 67,
     "guard": 55,
     "speed": 62,
     "stamina": 50,
-    "guts": 76
+    "guts": 75
    },
    "moves": [
     "mushroom-hop",
@@ -303,7 +303,7 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 116,
+   "fp": 115,
    "tp": 132,
    "stats": {
     "kick": 64,
@@ -335,14 +335,14 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 143,
-   "tp": 125,
+   "fp": 142,
+   "tp": 124,
    "stats": {
     "kick": 63,
     "body": 63,
     "control": 58,
     "guard": 64,
-    "speed": 51,
+    "speed": 52,
     "stamina": 55,
     "guts": 77
    },
@@ -367,12 +367,12 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 148,
-   "tp": 118,
+   "fp": 147,
+   "tp": 117,
    "stats": {
-    "kick": 65,
+    "kick": 66,
     "body": 39,
-    "control": 59,
+    "control": 60,
     "guard": 54,
     "speed": 65,
     "stamina": 56,
@@ -429,8 +429,8 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 168,
-   "tp": 121,
+   "fp": 166,
+   "tp": 120,
    "stats": {
     "kick": 68,
     "body": 61,
@@ -461,16 +461,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 143,
+   "fp": 144,
    "tp": 99,
    "stats": {
     "kick": 57,
     "body": 63,
-    "control": 56,
+    "control": 57,
     "guard": 54,
-    "speed": 60,
+    "speed": 61,
     "stamina": 49,
-    "guts": 97
+    "guts": 96
    },
    "moves": [
     "the-mist",

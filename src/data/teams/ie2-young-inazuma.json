@@ -4,16 +4,7 @@
  "wiki": "Young Inazuma",
  "name": "Jóvenes Inazuma",
  "short": "YOU",
- "colors": {
-  "shirt": "#1a1a1e",
-  "shorts": "#e8e4e4",
-  "gkShirt": "#8a1e14",
-  "accent": "#e8e4e4",
-  "sleeve": "#e8e4e4",
-  "socks": "#1a1a1e",
-  "gkShorts": "#1a1a1e",
-  "gkSleeve": "#1a1a1e"
- },
+ "colors": {"shirt": "#1a1a1e", "shorts": "#e8e4e4", "gkShirt": "#8a1e14", "accent": "#e8e4e4", "sleeve": "#e8e4e4", "socks": "#1a1a1e", "gkShorts": "#1a1a1e", "gkSleeve": "#1a1a1e"},
  "formation": "f-basic-2",
  "players": [
   {
@@ -373,12 +364,12 @@
    "element": "earth",
    "level": 99,
    "fp": 116,
-   "tp": 125,
+   "tp": 124,
    "stats": {
     "kick": 51,
     "body": 53,
     "control": 51,
-    "guard": 61,
+    "guard": 62,
     "speed": 51,
     "stamina": 54,
     "guts": 54

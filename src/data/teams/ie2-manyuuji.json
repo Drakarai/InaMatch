@@ -4,16 +4,7 @@
  "wiki": "Manyuuji",
  "name": "Instituto Claustro Sagrado",
  "short": "MAN",
- "colors": {
-  "shirt": "#f09a2a",
-  "shorts": "#e0802a",
-  "gkShirt": "#1e3a5a",
-  "accent": "#c02a2a",
-  "sleeve": "#f09a2a",
-  "socks": "#f0a040",
-  "gkShorts": "#f0ece4",
-  "gkSleeve": "#f0ece4"
- },
+ "colors": {"shirt": "#f09a2a", "shorts": "#e0802a", "gkShirt": "#1e3a5a", "accent": "#c02a2a", "sleeve": "#f09a2a", "socks": "#f0a040", "gkShorts": "#f0ece4", "gkSleeve": "#f0ece4"},
  "formation": "f-double-dog",
  "players": [
   {

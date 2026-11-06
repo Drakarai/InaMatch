@@ -21,15 +21,15 @@
    "element": "earth",
    "level": 99,
    "fp": 112,
-   "tp": 117,
+   "tp": 116,
    "stats": {
-    "kick": 37,
+    "kick": 38,
     "body": 68,
     "control": 50,
-    "guard": 80,
+    "guard": 81,
     "speed": 54,
-    "stamina": 51,
-    "guts": 46
+    "stamina": 52,
+    "guts": 47
    },
    "moves": [
     "shining-hole",
@@ -52,13 +52,13 @@
    "element": "wood",
    "level": 99,
    "fp": 120,
-   "tp": 102,
+   "tp": 101,
    "stats": {
-    "kick": 51,
+    "kick": 52,
     "body": 62,
     "control": 45,
     "guard": 75,
-    "speed": 69,
+    "speed": 70,
     "stamina": 53,
     "guts": 48
    },
@@ -83,8 +83,8 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 105,
-   "tp": 130,
+   "fp": 106,
+   "tp": 129,
    "stats": {
     "kick": 50,
     "body": 63,
@@ -114,9 +114,9 @@
    "element": "fire",
    "level": 99,
    "fp": 120,
-   "tp": 109,
+   "tp": 108,
    "stats": {
-    "kick": 54,
+    "kick": 55,
     "body": 71,
     "control": 49,
     "guard": 72,
@@ -145,16 +145,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 95,
-   "tp": 86,
+   "fp": 96,
+   "tp": 85,
    "stats": {
     "kick": 36,
-    "body": 67,
-    "control": 67,
-    "guard": 66,
+    "body": 68,
+    "control": 69,
+    "guard": 67,
     "speed": 62,
     "stamina": 50,
-    "guts": 43
+    "guts": 44
    },
    "moves": [
     "all-delete",
@@ -177,14 +177,14 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 135,
+   "fp": 136,
    "tp": 103,
    "stats": {
-    "kick": 58,
-    "body": 55,
-    "control": 70,
+    "kick": 59,
+    "body": 56,
+    "control": 71,
     "guard": 63,
-    "speed": 65,
+    "speed": 66,
     "stamina": 77,
     "guts": 47
    },
@@ -208,16 +208,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 140,
+   "fp": 141,
    "tp": 120,
    "stats": {
     "kick": 63,
     "body": 66,
-    "control": 69,
-    "guard": 65,
+    "control": 70,
+    "guard": 66,
     "speed": 64,
-    "stamina": 66,
-    "guts": 51
+    "stamina": 65,
+    "guts": 52
    },
    "moves": [
     "all-delete",
@@ -240,14 +240,14 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 76,
-   "tp": 108,
+   "fp": 78,
+   "tp": 107,
    "stats": {
     "kick": 62,
     "body": 64,
-    "control": 67,
+    "control": 69,
     "guard": 68,
-    "speed": 66,
+    "speed": 67,
     "stamina": 53,
     "guts": 61
    },
@@ -276,11 +276,11 @@
    "stats": {
     "kick": 70,
     "body": 72,
-    "control": 71,
+    "control": 73,
     "guard": 61,
     "speed": 68,
     "stamina": 69,
-    "guts": 47
+    "guts": 48
    },
    "moves": [
     "all-delete",
@@ -303,15 +303,15 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 158,
-   "tp": 131,
+   "fp": 157,
+   "tp": 130,
    "stats": {
     "kick": 76,
     "body": 67,
-    "control": 70,
-    "guard": 51,
+    "control": 71,
+    "guard": 52,
     "speed": 63,
-    "stamina": 49,
+    "stamina": 50,
     "guts": 55
    },
    "moves": [
@@ -335,15 +335,15 @@
    "element": "earth",
    "level": 99,
    "fp": 134,
-   "tp": 115,
+   "tp": 114,
    "stats": {
     "kick": 72,
     "body": 64,
-    "control": 67,
-    "guard": 42,
+    "control": 68,
+    "guard": 43,
     "speed": 60,
     "stamina": 60,
-    "guts": 59
+    "guts": 60
    },
    "moves": [
     "floral-despair",
@@ -365,16 +365,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 68,
-   "tp": 126,
+   "fp": 69,
+   "tp": 125,
    "stats": {
     "kick": 70,
     "body": 56,
     "control": 66,
     "guard": 59,
     "speed": 74,
-    "stamina": 41,
-    "guts": 51
+    "stamina": 42,
+    "guts": 52
    },
    "moves": [
     "magical-flower",
@@ -396,16 +396,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 68,
-   "tp": 126,
+   "fp": 69,
+   "tp": 125,
    "stats": {
     "kick": 70,
     "body": 56,
     "control": 66,
     "guard": 59,
     "speed": 74,
-    "stamina": 41,
-    "guts": 51
+    "stamina": 42,
+    "guts": 52
    },
    "moves": [
     "chaos-meteor",
@@ -430,9 +430,9 @@
    "fp": 124,
    "tp": 133,
    "stats": {
-    "kick": 73,
+    "kick": 74,
     "body": 66,
-    "control": 63,
+    "control": 64,
     "guard": 62,
     "speed": 65,
     "stamina": 52,

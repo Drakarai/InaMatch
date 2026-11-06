@@ -20,16 +20,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 146,
-   "tp": 149,
+   "fp": 147,
+   "tp": 148,
    "stats": {
     "kick": 76,
     "body": 74,
     "control": 50,
     "guard": 85,
     "speed": 54,
-    "stamina": 75,
-    "guts": 72
+    "stamina": 76,
+    "guts": 73
    },
    "moves": [
     "majin-the-hand",
@@ -52,13 +52,13 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 134,
-   "tp": 173,
+   "fp": 135,
+   "tp": 172,
    "stats": {
     "kick": 65,
     "body": 61,
-    "control": 71,
-    "guard": 61,
+    "control": 72,
+    "guard": 62,
     "speed": 70,
     "stamina": 57,
     "guts": 65
@@ -85,14 +85,14 @@
    "element": "wood",
    "level": 99,
    "fp": 179,
-   "tp": 100,
+   "tp": 99,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 44,
+    "control": 45,
     "guard": 73,
     "speed": 46,
-    "stamina": 70,
+    "stamina": 69,
     "guts": 45
    },
    "moves": [
@@ -117,14 +117,14 @@
    "element": "earth",
    "level": 99,
    "fp": 179,
-   "tp": 100,
+   "tp": 99,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 44,
+    "control": 45,
     "guard": 73,
     "speed": 46,
-    "stamina": 70,
+    "stamina": 69,
     "guts": 45
    },
    "moves": [
@@ -149,14 +149,14 @@
    "element": "earth",
    "level": 99,
    "fp": 179,
-   "tp": 100,
+   "tp": 99,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 44,
+    "control": 45,
     "guard": 73,
     "speed": 46,
-    "stamina": 70,
+    "stamina": 69,
     "guts": 45
    },
    "moves": [
@@ -184,12 +184,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 66,
-    "control": 51,
+    "body": 67,
+    "control": 52,
     "guard": 61,
-    "speed": 55,
+    "speed": 56,
     "stamina": 61,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "tenryuu",
@@ -212,15 +212,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 91,
+   "fp": 93,
    "tp": 161,
    "stats": {
-    "kick": 44,
-    "body": 46,
-    "control": 68,
-    "guard": 43,
-    "speed": 55,
-    "stamina": 44,
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
     "guts": 68
    },
    "moves": [
@@ -248,12 +248,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 66,
-    "control": 51,
+    "body": 67,
+    "control": 52,
     "guard": 61,
-    "speed": 55,
+    "speed": 56,
     "stamina": 61,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "oouchiwa",
@@ -280,12 +280,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 66,
-    "control": 51,
+    "body": 67,
+    "control": 52,
     "guard": 61,
-    "speed": 55,
+    "speed": 56,
     "stamina": 61,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "tenryuu",
@@ -308,16 +308,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 150,
-   "tp": 131,
+   "fp": 149,
+   "tp": 129,
    "stats": {
-    "kick": 53,
+    "kick": 54,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "tenryuu",
@@ -344,7 +344,7 @@
    "tp": 97,
    "stats": {
     "kick": 75,
-    "body": 45,
+    "body": 46,
     "control": 66,
     "guard": 41,
     "speed": 59,
@@ -372,16 +372,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 150,
-   "tp": 131,
+   "fp": 149,
+   "tp": 129,
    "stats": {
-    "kick": 53,
+    "kick": 54,
     "body": 62,
     "control": 51,
     "guard": 59,
     "speed": 53,
     "stamina": 61,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "bunshin-shoot",
@@ -408,12 +408,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 66,
-    "control": 51,
+    "body": 67,
+    "control": 52,
     "guard": 61,
-    "speed": 55,
+    "speed": 56,
     "stamina": 61,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "ninin-sankyaku",
@@ -436,15 +436,15 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 91,
+   "fp": 93,
    "tp": 161,
    "stats": {
-    "kick": 44,
-    "body": 46,
-    "control": 68,
-    "guard": 43,
-    "speed": 55,
-    "stamina": 44,
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
     "guts": 68
    },
    "moves": [
@@ -469,14 +469,14 @@
    "element": "wood",
    "level": 99,
    "fp": 179,
-   "tp": 100,
+   "tp": 99,
    "stats": {
     "kick": 42,
     "body": 69,
-    "control": 44,
+    "control": 45,
     "guard": 73,
     "speed": 46,
-    "stamina": 70,
+    "stamina": 69,
     "guts": 45
    },
    "moves": [
@@ -500,15 +500,15 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 206,
+   "fp": 204,
    "tp": 133,
    "stats": {
     "kick": 77,
     "body": 72,
-    "control": 62,
+    "control": 63,
     "guard": 75,
     "speed": 77,
-    "stamina": 78,
+    "stamina": 77,
     "guts": 58
    },
    "moves": [

@@ -20,10 +20,10 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 164,
-   "tp": 159,
+   "fp": 165,
+   "tp": 158,
    "stats": {
-    "kick": 55,
+    "kick": 56,
     "body": 64,
     "control": 66,
     "guard": 29,
@@ -52,13 +52,13 @@
    "element": "wind",
    "level": 99,
    "fp": 164,
-   "tp": 121,
+   "tp": 120,
    "stats": {
-    "kick": 59,
-    "body": 61,
-    "control": 56,
-    "guard": 55,
-    "speed": 57,
+    "kick": 60,
+    "body": 62,
+    "control": 57,
+    "guard": 56,
+    "speed": 58,
     "stamina": 55,
     "guts": 60
    },
@@ -83,12 +83,12 @@
    "element": "wind",
    "level": 99,
    "fp": 171,
-   "tp": 118,
+   "tp": 117,
    "stats": {
-    "kick": 54,
+    "kick": 55,
     "body": 58,
-    "control": 54,
-    "guard": 50,
+    "control": 55,
+    "guard": 51,
     "speed": 57,
     "stamina": 62,
     "guts": 60
@@ -113,14 +113,14 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 116,
-   "tp": 157,
+   "fp": 117,
+   "tp": 156,
    "stats": {
-    "kick": 55,
-    "body": 58,
-    "control": 54,
+    "kick": 56,
+    "body": 59,
+    "control": 55,
     "guard": 51,
-    "speed": 59,
+    "speed": 60,
     "stamina": 63,
     "guts": 59
    },
@@ -144,14 +144,14 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 128,
-   "tp": 155,
+   "fp": 129,
+   "tp": 156,
    "stats": {
     "kick": 55,
     "body": 62,
-    "control": 50,
+    "control": 51,
     "guard": 61,
-    "speed": 51,
+    "speed": 52,
     "stamina": 60,
     "guts": 63
    },
@@ -174,12 +174,12 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 190,
-   "tp": 162,
+   "fp": 191,
+   "tp": 163,
    "stats": {
-    "kick": 49,
+    "kick": 50,
     "body": 69,
-    "control": 50,
+    "control": 51,
     "guard": 49,
     "speed": 74,
     "stamina": 57,
@@ -205,14 +205,14 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 112,
-   "tp": 159,
+   "fp": 114,
+   "tp": 160,
    "stats": {
-    "kick": 54,
+    "kick": 55,
     "body": 79,
-    "control": 46,
+    "control": 47,
     "guard": 58,
-    "speed": 64,
+    "speed": 65,
     "stamina": 58,
     "guts": 62
    },
@@ -236,12 +236,12 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 164,
-   "tp": 142,
+   "fp": 163,
+   "tp": 141,
    "stats": {
-    "kick": 59,
+    "kick": 60,
     "body": 59,
-    "control": 60,
+    "control": 61,
     "guard": 53,
     "speed": 58,
     "stamina": 58,
@@ -266,14 +266,14 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 170,
-   "tp": 144,
+   "fp": 168,
+   "tp": 143,
    "stats": {
     "kick": 57,
     "body": 61,
     "control": 63,
     "guard": 53,
-    "speed": 56,
+    "speed": 57,
     "stamina": 58,
     "guts": 60
    },
@@ -297,16 +297,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 166,
-   "tp": 126,
+   "fp": 165,
+   "tp": 125,
    "stats": {
-    "kick": 53,
+    "kick": 54,
     "body": 70,
     "control": 66,
     "guard": 48,
-    "speed": 55,
+    "speed": 56,
     "stamina": 57,
-    "guts": 56
+    "guts": 57
    },
    "moves": [
     "sonic-shot",
@@ -321,36 +321,35 @@
    "description": "Juicioso ariete del Colegio Ultramegahiedra. Forma un dúo estupendo con Hayden."
   },
   {
-   "id": "francis-tuffnot",
-   "name": "Francis Tuffnot",
-   "short": "Francis",
-   "number": 9,
+   "id": "skylar-lepton",
+   "name": "Skylar Lepton",
+   "short": "Skylar",
+   "number": 15,
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 103,
-   "tp": 167,
+   "fp": 171,
+   "tp": 157,
    "stats": {
-    "kick": 52,
-    "body": 80,
-    "control": 67,
-    "guard": 48,
+    "kick": 56,
+    "body": 58,
+    "control": 56,
+    "guard": 54,
     "speed": 59,
-    "stamina": 61,
+    "stamina": 60,
     "guts": 59
    },
    "moves": [
-    "soyokaze-step",
-    "mach-wind",
-    "senpuujin",
-    "ice-ground"
+    "buttobi-jump",
+    "sargasso",
+    "killer-whale"
    ],
    "look": {
-    "hair": "#c0302a",
-    "skin": "#f1c79b"
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
    },
-   "wiki": "Sougetsu Nozomi",
-   "description": "Tiene la resistencia y la fragilidad de una chica, ¡pero es muy masculino!"
+   "wiki": "Hizu Takatoshi",
+   "description": "Sus saltos y remates de cabeza son una amenaza para cualquier portero."
   },
   {
    "id": "brook-bold",
@@ -360,13 +359,13 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 123,
-   "tp": 151,
+   "fp": 124,
+   "tp": 152,
    "stats": {
     "kick": 53,
     "body": 65,
     "control": 50,
-    "guard": 62,
+    "guard": 63,
     "speed": 66,
     "stamina": 60,
     "guts": 58
@@ -384,6 +383,38 @@
    "description": "Se ha llevado muchos chascos por su carácter enamoradizo."
   },
   {
+   "id": "francis-tuffnot",
+   "name": "Francis Tuffnot",
+   "short": "Francis",
+   "number": 9,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 104,
+   "tp": 165,
+   "stats": {
+    "kick": 52,
+    "body": 80,
+    "control": 67,
+    "guard": 49,
+    "speed": 60,
+    "stamina": 61,
+    "guts": 59
+   },
+   "moves": [
+    "soyokaze-step",
+    "mach-wind",
+    "senpuujin",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sougetsu Nozomi",
+   "description": "Tiene la resistencia y la fragilidad de una chica, ¡pero es muy masculino!"
+  },
+  {
    "id": "matt-durer",
    "name": "Matt Durer",
    "short": "Matt",
@@ -391,16 +422,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 115,
-   "tp": 175,
+   "fp": 116,
+   "tp": 174,
    "stats": {
     "kick": 48,
     "body": 60,
     "control": 60,
-    "guard": 57,
+    "guard": 58,
     "speed": 58,
     "stamina": 48,
-    "guts": 60
+    "guts": 61
    },
    "moves": [
     "moonsault-stamp",
@@ -423,13 +454,13 @@
    "element": "wind",
    "level": 99,
    "fp": 171,
-   "tp": 153,
+   "tp": 152,
    "stats": {
-    "kick": 53,
+    "kick": 54,
     "body": 59,
-    "control": 50,
+    "control": 51,
     "guard": 56,
-    "speed": 56,
+    "speed": 57,
     "stamina": 65,
     "guts": 60
    },
@@ -452,16 +483,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 126,
-   "tp": 158,
+   "fp": 127,
+   "tp": 159,
    "stats": {
     "kick": 57,
     "body": 60,
     "control": 34,
-    "guard": 54,
-    "speed": 60,
+    "guard": 55,
+    "speed": 61,
     "stamina": 58,
-    "guts": 86
+    "guts": 85
    },
    "moves": [
     "naminori-pierrot",
@@ -474,37 +505,6 @@
    },
    "wiki": "Wakeru Kagehiro",
    "description": "Suele confiar en sus corazonadas... ¡y acierta a menudo!"
-  },
-  {
-   "id": "skylar-lepton",
-   "name": "Skylar Lepton",
-   "short": "Skylar",
-   "number": 15,
-   "position": "DF",
-   "element": "wind",
-   "level": 99,
-   "fp": 171,
-   "tp": 159,
-   "stats": {
-    "kick": 55,
-    "body": 58,
-    "control": 55,
-    "guard": 53,
-    "speed": 59,
-    "stamina": 60,
-    "guts": 59
-   },
-   "moves": [
-    "buttobi-jump",
-    "sargasso",
-    "killer-whale"
-   ],
-   "look": {
-    "hair": "#c9ccd6",
-    "skin": "#c08a5e"
-   },
-   "wiki": "Hizu Takatoshi",
-   "description": "Sus saltos y remates de cabeza son una amenaza para cualquier portero."
   }
  ]
 }

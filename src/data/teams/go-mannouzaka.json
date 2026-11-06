@@ -21,7 +21,7 @@
    "element": "wind",
    "level": 99,
    "fp": 117,
-   "tp": 175,
+   "tp": 174,
    "stats": {
     "kick": 47,
     "body": 61,
@@ -29,7 +29,7 @@
     "guard": 59,
     "speed": 56,
     "stamina": 46,
-    "guts": 53
+    "guts": 54
    },
    "moves": [
     "bat-attack",
@@ -52,14 +52,14 @@
    "element": "wind",
    "level": 99,
    "fp": 158,
-   "tp": 121,
+   "tp": 120,
    "stats": {
-    "kick": 61,
-    "body": 41,
-    "control": 61,
+    "kick": 62,
+    "body": 42,
+    "control": 62,
     "guard": 59,
-    "speed": 56,
-    "stamina": 75,
+    "speed": 57,
+    "stamina": 74,
     "guts": 62
    },
    "moves": [
@@ -81,15 +81,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 188,
-   "tp": 122,
+   "fp": 187,
+   "tp": 121,
    "stats": {
     "kick": 60,
     "body": 35,
-    "control": 56,
+    "control": 57,
     "guard": 58,
     "speed": 54,
-    "stamina": 77,
+    "stamina": 76,
     "guts": 64
    },
    "moves": [
@@ -113,13 +113,13 @@
    "element": "wood",
    "level": 99,
    "fp": 189,
-   "tp": 108,
+   "tp": 107,
    "stats": {
-    "kick": 54,
+    "kick": 55,
     "body": 56,
-    "control": 69,
+    "control": 70,
     "guard": 54,
-    "speed": 56,
+    "speed": 57,
     "stamina": 63,
     "guts": 55
    },
@@ -144,12 +144,12 @@
    "element": "fire",
    "level": 99,
    "fp": 164,
-   "tp": 153,
+   "tp": 152,
    "stats": {
     "kick": 56,
     "body": 60,
-    "control": 69,
-    "guard": 54,
+    "control": 70,
+    "guard": 55,
     "speed": 56,
     "stamina": 51,
     "guts": 53
@@ -174,16 +174,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 123,
+   "fp": 124,
    "tp": 116,
    "stats": {
-    "kick": 66,
+    "kick": 67,
     "body": 70,
     "control": 50,
-    "guard": 71,
-    "speed": 58,
+    "guard": 72,
+    "speed": 59,
     "stamina": 48,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "boomerang-feint",
@@ -206,11 +206,11 @@
    "element": "wind",
    "level": 99,
    "fp": 177,
-   "tp": 158,
+   "tp": 159,
    "stats": {
     "kick": 48,
     "body": 74,
-    "control": 61,
+    "control": 62,
     "guard": 63,
     "speed": 57,
     "stamina": 53,
@@ -236,14 +236,14 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 128,
+   "fp": 129,
    "tp": 113,
    "stats": {
     "kick": 53,
     "body": 52,
-    "control": 76,
+    "control": 78,
     "guard": 60,
-    "speed": 57,
+    "speed": 58,
     "stamina": 52,
     "guts": 64
    },
@@ -267,16 +267,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 116,
-   "tp": 126,
+   "fp": 115,
+   "tp": 125,
    "stats": {
     "kick": 48,
     "body": 62,
-    "control": 69,
+    "control": 70,
     "guard": 64,
-    "speed": 53,
+    "speed": 54,
     "stamina": 52,
-    "guts": 54
+    "guts": 55
    },
    "moves": [
     "bound-flame",
@@ -299,16 +299,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 143,
+   "fp": 162,
+   "tp": 142,
    "stats": {
-    "kick": 51,
+    "kick": 52,
     "body": 67,
-    "control": 78,
+    "control": 79,
     "guard": 48,
     "speed": 60,
     "stamina": 62,
-    "guts": 61
+    "guts": 62
    },
    "moves": [
     "bound-flame",
@@ -331,11 +331,11 @@
    "element": "fire",
    "level": 99,
    "fp": 122,
-   "tp": 148,
+   "tp": 147,
    "stats": {
     "kick": 73,
     "body": 63,
-    "control": 57,
+    "control": 58,
     "guard": 49,
     "speed": 50,
     "stamina": 50,
@@ -361,13 +361,13 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 157,
+   "fp": 158,
    "tp": 118,
    "stats": {
     "kick": 59,
-    "body": 55,
-    "control": 53,
-    "guard": 47,
+    "body": 56,
+    "control": 54,
+    "guard": 48,
     "speed": 56,
     "stamina": 56,
     "guts": 58
@@ -392,16 +392,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 188,
-   "tp": 145,
+   "fp": 186,
+   "tp": 144,
    "stats": {
     "kick": 45,
     "body": 53,
     "control": 61,
-    "guard": 68,
+    "guard": 67,
     "speed": 65,
     "stamina": 56,
-    "guts": 55
+    "guts": 56
    },
    "moves": [
     "bound-flame",
@@ -423,13 +423,13 @@
    "element": "wood",
    "level": 99,
    "fp": 177,
-   "tp": 158,
+   "tp": 159,
    "stats": {
     "kick": 53,
     "body": 54,
-    "control": 53,
+    "control": 54,
     "guard": 64,
-    "speed": 49,
+    "speed": 50,
     "stamina": 53,
     "guts": 55
    },
@@ -452,16 +452,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 171,
-   "tp": 158,
+   "fp": 172,
+   "tp": 159,
    "stats": {
     "kick": 55,
     "body": 58,
-    "control": 55,
+    "control": 56,
     "guard": 62,
     "speed": 72,
     "stamina": 62,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "boomerang-feint",
@@ -484,11 +484,11 @@
    "element": "wood",
    "level": 99,
    "fp": 163,
-   "tp": 118,
+   "tp": 117,
    "stats": {
     "kick": 52,
     "body": 61,
-    "control": 69,
+    "control": 70,
     "guard": 54,
     "speed": 58,
     "stamina": 58,

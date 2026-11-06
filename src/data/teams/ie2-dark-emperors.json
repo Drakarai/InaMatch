@@ -4,16 +4,7 @@
  "wiki": "Dark Emperors",
  "name": "Emperadores Oscuros",
  "short": "DAR",
- "colors": {
-  "shirt": "#1e2440",
-  "shorts": "#1e2440",
-  "gkShirt": "#7a7a80",
-  "accent": "#1e8ac8",
-  "sleeve": "#1e2440",
-  "socks": "#e8e4e4",
-  "gkShorts": "#7a7a80",
-  "gkSleeve": "#7a7a80"
- },
+ "colors": {"shirt": "#1e2440", "shorts": "#1e2440", "gkShirt": "#7a7a80", "accent": "#1e8ac8", "sleeve": "#1e2440", "socks": "#e8e4e4", "gkShorts": "#7a7a80", "gkSleeve": "#7a7a80"},
  "formation": "f-d-emperor",
  "players": [
   {
@@ -356,15 +347,15 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 91,
+   "fp": 93,
    "tp": 161,
    "stats": {
-    "kick": 44,
-    "body": 46,
-    "control": 68,
-    "guard": 43,
-    "speed": 55,
-    "stamina": 44,
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
     "guts": 68
    },
    "moves": [],

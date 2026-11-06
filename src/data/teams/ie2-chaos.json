@@ -4,16 +4,7 @@
  "wiki": "Chaos",
  "name": "Caos",
  "short": "CHA",
- "colors": {
-  "shirt": "#d02a2a",
-  "shorts": "#22202a",
-  "gkShirt": "#2a2a30",
-  "accent": "#2a9aa8",
-  "sleeve": "#d02a2a",
-  "socks": "#1e2e5a",
-  "gkShorts": "#2a2a30",
-  "gkSleeve": "#2a2a30"
- },
+ "colors": {"shirt": "#d02a2a", "shorts": "#22202a", "gkShirt": "#2a2a30", "accent": "#2a9aa8", "sleeve": "#d02a2a", "socks": "#1e2e5a", "gkShorts": "#2a2a30", "gkSleeve": "#2a2a30"},
  "formation": "f-basic-2",
  "players": [
   {

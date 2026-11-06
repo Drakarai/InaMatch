@@ -20,15 +20,15 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 122,
-   "tp": 100,
+   "fp": 123,
+   "tp": 99,
    "stats": {
     "kick": 50,
     "body": 66,
     "control": 51,
-    "guard": 63,
+    "guard": 64,
     "speed": 55,
-    "stamina": 61,
+    "stamina": 62,
     "guts": 56
    },
    "moves": [
@@ -52,13 +52,13 @@
    "element": "fire",
    "level": 99,
    "fp": 110,
-   "tp": 92,
+   "tp": 91,
    "stats": {
-    "kick": 54,
-    "body": 57,
+    "kick": 55,
+    "body": 58,
     "control": 55,
     "guard": 59,
-    "speed": 44,
+    "speed": 45,
     "stamina": 57,
     "guts": 66
    },
@@ -83,14 +83,14 @@
    "element": "wood",
    "level": 99,
    "fp": 135,
-   "tp": 96,
+   "tp": 95,
    "stats": {
-    "kick": 59,
-    "body": 46,
+    "kick": 60,
+    "body": 47,
     "control": 56,
-    "guard": 61,
+    "guard": 62,
     "speed": 47,
-    "stamina": 70,
+    "stamina": 69,
     "guts": 56
    },
    "moves": [
@@ -114,11 +114,11 @@
    "element": "wind",
    "level": 99,
    "fp": 125,
-   "tp": 106,
+   "tp": 105,
    "stats": {
     "kick": 58,
     "body": 59,
-    "control": 58,
+    "control": 59,
     "guard": 60,
     "speed": 62,
     "stamina": 44,
@@ -145,12 +145,12 @@
    "element": "fire",
    "level": 99,
    "fp": 115,
-   "tp": 102,
+   "tp": 101,
    "stats": {
-    "kick": 45,
-    "body": 57,
+    "kick": 46,
+    "body": 58,
     "control": 48,
-    "guard": 62,
+    "guard": 63,
     "speed": 70,
     "stamina": 48,
     "guts": 60
@@ -175,14 +175,14 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
+   "fp": 150,
    "tp": 95,
    "stats": {
     "kick": 63,
     "body": 57,
-    "control": 62,
+    "control": 63,
     "guard": 52,
-    "speed": 55,
+    "speed": 56,
     "stamina": 53,
     "guts": 64
    },
@@ -207,15 +207,15 @@
    "element": "earth",
    "level": 99,
    "fp": 163,
-   "tp": 119,
+   "tp": 118,
    "stats": {
-    "kick": 66,
-    "body": 69,
-    "control": 51,
+    "kick": 67,
+    "body": 70,
+    "control": 52,
     "guard": 66,
-    "speed": 55,
+    "speed": 56,
     "stamina": 65,
-    "guts": 56
+    "guts": 57
    },
    "moves": [
     "kangaroo-kick",
@@ -237,16 +237,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 159,
+   "fp": 160,
    "tp": 106,
    "stats": {
-    "kick": 66,
+    "kick": 67,
     "body": 69,
-    "control": 65,
-    "guard": 59,
-    "speed": 54,
+    "control": 66,
+    "guard": 60,
+    "speed": 55,
     "stamina": 58,
-    "guts": 57
+    "guts": 58
    },
    "moves": [
     "kangaroo-kick",
@@ -268,12 +268,12 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 104,
+   "fp": 105,
    "tp": 147,
    "stats": {
-    "kick": 64,
+    "kick": 65,
     "body": 54,
-    "control": 60,
+    "control": 61,
     "guard": 62,
     "speed": 64,
     "stamina": 44,
@@ -306,7 +306,7 @@
     "body": 49,
     "control": 58,
     "guard": 44,
-    "speed": 50,
+    "speed": 51,
     "stamina": 66,
     "guts": 63
    },
@@ -331,7 +331,7 @@
    "element": "wind",
    "level": 99,
    "fp": 124,
-   "tp": 121,
+   "tp": 120,
    "stats": {
     "kick": 61,
     "body": 56,
@@ -365,12 +365,12 @@
    "tp": 109,
    "stats": {
     "kick": 61,
-    "body": 66,
-    "control": 51,
+    "body": 67,
+    "control": 52,
     "guard": 61,
-    "speed": 55,
+    "speed": 56,
     "stamina": 61,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "megalodon",

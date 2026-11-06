@@ -4,15 +4,7 @@
  "wiki": "Kidokawa Seishuu",
  "name": "Instituto Kirkwood",
  "short": "KID",
- "colors": {
-  "shirt": "#c00c0c",
-  "shorts": "#d8c8b4",
-  "gkShirt": "#b8c87e",
-  "accent": "#2a2a2e",
-  "sleeve": "#c00c0c",
-  "socks": "#c00c0c",
-  "gkShorts": "#4a5a68"
- },
+ "colors": {"shirt": "#c00c0c", "shorts": "#d8c8b4", "gkShirt": "#b8c87e", "accent": "#2a2a2e", "sleeve": "#c00c0c", "socks": "#c00c0c", "gkShorts": "#4a5a68"},
  "formation": "f-mukata-march",
  "players": [
   {

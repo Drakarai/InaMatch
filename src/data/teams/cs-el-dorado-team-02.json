@@ -20,16 +20,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 106,
+   "fp": 107,
    "tp": 134,
    "stats": {
     "kick": 52,
     "body": 67,
-    "control": 53,
+    "control": 54,
     "guard": 68,
     "speed": 62,
     "stamina": 50,
-    "guts": 77
+    "guts": 78
    },
    "moves": [
     "gyro-saving",
@@ -52,9 +52,9 @@
    "element": "earth",
    "level": 99,
    "fp": 143,
-   "tp": 106,
+   "tp": 105,
    "stats": {
-    "kick": 54,
+    "kick": 55,
     "body": 62,
     "control": 51,
     "guard": 67,
@@ -83,13 +83,13 @@
    "element": "wood",
    "level": 99,
    "fp": 125,
-   "tp": 92,
+   "tp": 91,
    "stats": {
-    "kick": 62,
+    "kick": 63,
     "body": 53,
-    "control": 57,
-    "guard": 62,
-    "speed": 59,
+    "control": 58,
+    "guard": 63,
+    "speed": 60,
     "stamina": 64,
     "guts": 37
    },
@@ -114,13 +114,13 @@
    "element": "fire",
    "level": 99,
    "fp": 130,
-   "tp": 81,
+   "tp": 80,
    "stats": {
     "kick": 58,
     "body": 53,
-    "control": 63,
+    "control": 64,
     "guard": 64,
-    "speed": 49,
+    "speed": 50,
     "stamina": 66,
     "guts": 51
    },
@@ -144,16 +144,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 109,
+   "fp": 110,
    "tp": 128,
    "stats": {
-    "kick": 65,
+    "kick": 66,
     "body": 65,
-    "control": 66,
-    "guard": 66,
-    "speed": 59,
+    "control": 67,
+    "guard": 67,
+    "speed": 60,
     "stamina": 62,
-    "guts": 57
+    "guts": 58
    },
    "moves": [
     "spinning-upper",
@@ -175,16 +175,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 140,
+   "fp": 141,
    "tp": 124,
    "stats": {
     "kick": 70,
     "body": 75,
-    "control": 65,
-    "guard": 65,
-    "speed": 59,
+    "control": 66,
+    "guard": 66,
+    "speed": 60,
     "stamina": 62,
-    "guts": 54
+    "guts": 55
    },
    "moves": [
     "fortissimo",
@@ -207,14 +207,14 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 168,
-   "tp": 129,
+   "fp": 166,
+   "tp": 128,
    "stats": {
     "kick": 78,
     "body": 69,
     "control": 66,
     "guard": 45,
-    "speed": 56,
+    "speed": 57,
     "stamina": 79,
     "guts": 61
    },
@@ -239,13 +239,13 @@
    "element": "wood",
    "level": 99,
    "fp": 115,
-   "tp": 137,
+   "tp": 136,
    "stats": {
     "kick": 48,
     "body": 63,
-    "control": 63,
+    "control": 64,
     "guard": 67,
-    "speed": 59,
+    "speed": 60,
     "stamina": 57,
     "guts": 58
    },
@@ -269,14 +269,14 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 153,
-   "tp": 128,
+   "fp": 152,
+   "tp": 127,
    "stats": {
     "kick": 71,
     "body": 66,
     "control": 65,
     "guard": 63,
-    "speed": 57,
+    "speed": 58,
     "stamina": 51,
     "guts": 49
    },
@@ -302,15 +302,15 @@
    "element": "wind",
    "level": 99,
    "fp": 94,
-   "tp": 140,
+   "tp": 139,
    "stats": {
     "kick": 70,
     "body": 68,
-    "control": 71,
+    "control": 72,
     "guard": 64,
     "speed": 71,
     "stamina": 59,
-    "guts": 59
+    "guts": 60
    },
    "moves": [
     "double-shot",
@@ -332,13 +332,13 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 148,
+   "fp": 147,
    "tp": 133,
    "stats": {
     "kick": 72,
     "body": 83,
-    "control": 63,
-    "guard": 51,
+    "control": 64,
+    "guard": 52,
     "speed": 75,
     "stamina": 53,
     "guts": 56
@@ -363,16 +363,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 106,
-   "tp": 117,
+   "fp": 107,
+   "tp": 116,
    "stats": {
     "kick": 50,
     "body": 67,
-    "control": 46,
-    "guard": 71,
+    "control": 47,
+    "guard": 72,
     "speed": 35,
-    "stamina": 45,
-    "guts": 75
+    "stamina": 46,
+    "guts": 76
    },
    "moves": [
     "god-hand",
@@ -394,16 +394,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 143,
+   "fp": 142,
    "tp": 132,
    "stats": {
-    "kick": 53,
+    "kick": 54,
     "body": 54,
-    "control": 40,
-    "guard": 51,
+    "control": 41,
+    "guard": 52,
     "speed": 55,
     "stamina": 55,
-    "guts": 59
+    "guts": 60
    },
    "moves": [
     "gauss-shot",
@@ -426,10 +426,10 @@
    "element": "earth",
    "level": 99,
    "fp": 119,
-   "tp": 129,
+   "tp": 128,
    "stats": {
     "kick": 61,
-    "body": 52,
+    "body": 53,
     "control": 54,
     "guard": 48,
     "speed": 59,

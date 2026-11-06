@@ -20,7 +20,7 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 106,
+   "fp": 107,
    "tp": 138,
    "stats": {
     "kick": 41,
@@ -29,7 +29,7 @@
     "guard": 68,
     "speed": 70,
     "stamina": 63,
-    "guts": 50
+    "guts": 51
    },
    "moves": [
     "aqua-breath",
@@ -52,7 +52,7 @@
    "element": "wood",
    "level": 99,
    "fp": 110,
-   "tp": 116,
+   "tp": 115,
    "stats": {
     "kick": 40,
     "body": 60,
@@ -83,7 +83,7 @@
    "element": "earth",
    "level": 99,
    "fp": 143,
-   "tp": 120,
+   "tp": 119,
    "stats": {
     "kick": 50,
     "body": 62,
@@ -114,12 +114,12 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 112,
-   "tp": 166,
+   "fp": 114,
+   "tp": 167,
    "stats": {
-    "kick": 54,
+    "kick": 55,
     "body": 64,
-    "control": 74,
+    "control": 75,
     "guard": 58,
     "speed": 87,
     "stamina": 49,
@@ -145,14 +145,14 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 121,
-   "tp": 158,
+   "fp": 122,
+   "tp": 159,
    "stats": {
-    "kick": 49,
-    "body": 55,
-    "control": 67,
+    "kick": 50,
+    "body": 56,
+    "control": 69,
     "guard": 62,
-    "speed": 65,
+    "speed": 66,
     "stamina": 59,
     "guts": 69
    },
@@ -176,16 +176,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 98,
+   "fp": 100,
    "tp": 135,
    "stats": {
     "kick": 68,
     "body": 60,
-    "control": 66,
-    "guard": 59,
-    "speed": 66,
-    "stamina": 51,
-    "guts": 57
+    "control": 67,
+    "guard": 60,
+    "speed": 67,
+    "stamina": 52,
+    "guts": 58
    },
    "moves": [
     "liquid-flow",
@@ -207,15 +207,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 90,
+   "fp": 91,
    "tp": 131,
    "stats": {
     "kick": 62,
     "body": 57,
-    "control": 61,
+    "control": 62,
     "guard": 61,
     "speed": 62,
-    "stamina": 51,
+    "stamina": 52,
     "guts": 51
    },
    "moves": [
@@ -238,16 +238,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 98,
+   "fp": 100,
    "tp": 143,
    "stats": {
     "kick": 57,
     "body": 60,
-    "control": 64,
-    "guard": 58,
-    "speed": 66,
+    "control": 65,
+    "guard": 59,
+    "speed": 67,
     "stamina": 49,
-    "guts": 71
+    "guts": 70
    },
    "moves": [
     "liquid-flow",
@@ -303,11 +303,11 @@
    "element": "wind",
    "level": 99,
    "fp": 134,
-   "tp": 125,
+   "tp": 124,
    "stats": {
-    "kick": 66,
+    "kick": 67,
     "body": 60,
-    "control": 63,
+    "control": 64,
     "guard": 54,
     "speed": 63,
     "stamina": 66,
@@ -333,8 +333,8 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 168,
-   "tp": 119,
+   "fp": 166,
+   "tp": 118,
    "stats": {
     "kick": 68,
     "body": 54,
@@ -342,7 +342,7 @@
     "guard": 45,
     "speed": 55,
     "stamina": 71,
-    "guts": 51
+    "guts": 52
    },
    "moves": [
     "bubble-boil",
@@ -365,15 +365,15 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 91,
+   "fp": 93,
    "tp": 161,
    "stats": {
-    "kick": 44,
-    "body": 46,
-    "control": 68,
-    "guard": 43,
-    "speed": 55,
-    "stamina": 44,
+    "kick": 45,
+    "body": 47,
+    "control": 69,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 45,
     "guts": 68
    },
    "moves": [

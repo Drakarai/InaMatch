@@ -20,7 +20,7 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 164,
+   "fp": 165,
    "tp": 169,
    "stats": {
     "kick": 50,
@@ -51,14 +51,14 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 118,
-   "tp": 155,
+   "fp": 119,
+   "tp": 153,
    "stats": {
-    "kick": 48,
+    "kick": 49,
     "body": 53,
-    "control": 63,
+    "control": 64,
     "guard": 55,
-    "speed": 65,
+    "speed": 66,
     "stamina": 56,
     "guts": 53
    },
@@ -83,15 +83,15 @@
    "element": "fire",
    "level": 99,
    "fp": 184,
-   "tp": 169,
+   "tp": 168,
    "stats": {
-    "kick": 48,
+    "kick": 49,
     "body": 51,
-    "control": 48,
+    "control": 49,
     "guard": 55,
-    "speed": 44,
+    "speed": 45,
     "stamina": 53,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "twin-mixer",
@@ -112,16 +112,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 188,
-   "tp": 168,
+   "fp": 187,
+   "tp": 167,
    "stats": {
     "kick": 50,
-    "body": 50,
-    "control": 50,
-    "guard": 49,
+    "body": 51,
+    "control": 51,
+    "guard": 50,
     "speed": 47,
     "stamina": 50,
-    "guts": 52
+    "guts": 53
    },
    "moves": [
     "denrai-houtou",
@@ -142,13 +142,13 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 106,
-   "tp": 173,
+   "fp": 107,
+   "tp": 172,
    "stats": {
     "kick": 56,
     "body": 69,
     "control": 61,
-    "guard": 40,
+    "guard": 41,
     "speed": 74,
     "stamina": 52,
     "guts": 54
@@ -173,16 +173,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 173,
-   "tp": 170,
+   "fp": 174,
+   "tp": 171,
    "stats": {
     "kick": 48,
     "body": 52,
-    "control": 41,
-    "guard": 59,
-    "speed": 42,
-    "stamina": 49,
-    "guts": 57
+    "control": 42,
+    "guard": 60,
+    "speed": 43,
+    "stamina": 50,
+    "guts": 58
    },
    "moves": [
     "spiral-draw",
@@ -203,14 +203,14 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 110,
-   "tp": 169,
+   "fp": 112,
+   "tp": 170,
    "stats": {
-    "kick": 49,
+    "kick": 50,
     "body": 66,
-    "control": 42,
-    "guard": 57,
-    "speed": 50,
+    "control": 43,
+    "guard": 58,
+    "speed": 51,
     "stamina": 50,
     "guts": 55
    },
@@ -234,16 +234,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 173,
-   "tp": 166,
+   "fp": 174,
+   "tp": 167,
    "stats": {
-    "kick": 48,
+    "kick": 49,
     "body": 51,
-    "control": 49,
+    "control": 50,
     "guard": 58,
-    "speed": 56,
+    "speed": 57,
     "stamina": 53,
-    "guts": 51
+    "guts": 52
    },
    "moves": [
     "soyokaze-step",
@@ -266,16 +266,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 183,
+   "fp": 184,
    "tp": 161,
    "stats": {
     "kick": 74,
-    "body": 33,
+    "body": 34,
     "control": 47,
-    "guard": 51,
-    "speed": 52,
-    "stamina": 73,
-    "guts": 52
+    "guard": 52,
+    "speed": 53,
+    "stamina": 72,
+    "guts": 53
    },
    "moves": [
     "mad-juggler",
@@ -297,16 +297,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 181,
-   "tp": 148,
+   "fp": 180,
+   "tp": 147,
    "stats": {
-    "kick": 73,
+    "kick": 74,
     "body": 50,
-    "control": 47,
+    "control": 48,
     "guard": 53,
     "speed": 51,
-    "stamina": 50,
-    "guts": 54
+    "stamina": 51,
+    "guts": 55
    },
    "moves": [
     "koutei-penguin-2gou",
@@ -329,14 +329,14 @@
    "element": "wood",
    "level": 99,
    "fp": 134,
-   "tp": 143,
+   "tp": 142,
    "stats": {
-    "kick": 41,
+    "kick": 42,
     "body": 62,
     "control": 45,
     "guard": 48,
-    "speed": 47,
-    "stamina": 54,
+    "speed": 48,
+    "stamina": 55,
     "guts": 83
    },
    "moves": [

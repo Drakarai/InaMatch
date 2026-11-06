@@ -141,7 +141,8 @@ STYLE = {
                                {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#1e5ab8'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
-    'Big Waves': ('#f2c230', '#1f5f3a', '#3a7bd5', '#2f8a4a'),
+    # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino
+    'Big Waves': ('#f4c848', '#1e7a4a', '#c8e030', '#1e7a4a', '#1e7a4a', '#f4c848', '#1e2a40', '#c8e030', {'gkLongSleeve': True, 'gkGloves': '#5a3a6a', 'stripe': '#f4c848', 'collar': '#1e7a4a', 'num': '#1e7a4a'}),
     'Desert Lion': ('#8e1f2f', '#f2ede4', '#3b3b48', '#a8283a'),
     # Neo Japan: camiseta blanca de manga larga con franjas negras y rojas, pantalón negro y medias rojas; el portero de naranja
     # de manga larga con pantalón verde oscuro y guantes morados

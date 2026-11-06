@@ -5,10 +5,19 @@
  "name": "Big Waves",
  "short": "BWA",
  "colors": {
-  "shirt": "#f2c230",
-  "shorts": "#1f5f3a",
-  "gkShirt": "#3a7bd5",
-  "accent": "#2f8a4a"
+  "shirt": "#f4c848",
+  "shorts": "#1e7a4a",
+  "gkShirt": "#c8e030",
+  "accent": "#1e7a4a",
+  "sleeve": "#1e7a4a",
+  "socks": "#f4c848",
+  "gkShorts": "#1e2a40",
+  "gkSleeve": "#c8e030",
+  "gkLongSleeve": true,
+  "gkGloves": "#5a3a6a",
+  "stripe": "#f4c848",
+  "collar": "#1e7a4a",
+  "num": "#1e7a4a"
  },
  "formation": "f-big-wave",
  "players": [

@@ -5,6 +5,7 @@ import { makeFxTextures } from '../gfx/fx';
 import { bootPack } from '../gfx/pack';
 import { makeBall, makeEmblem } from '../gfx/placeholders';
 import { ensureClub } from '../club/club';
+import { applyClubCrest } from '../club/crests';
 import { fitCamera } from '../ui/theme';
 
 export class BootScene extends Phaser.Scene {
@@ -33,6 +34,7 @@ export class BootScene extends Phaser.Scene {
     // "Mi club": la primera vez se reparte la plantilla inicial (hace falta la lista de ojeadores)
     const loading = this.add.text(640, 360, '', {}).setVisible(false); // la pantalla de carga es la de index.html
     ensureClub()
+      .then((save) => new Promise<void>((resolve) => applyClubCrest(this, save.crest, resolve)))
       .catch((err) => console.warn('[club] no se pudo preparar el club', err))
       .then(() => {
         loading.destroy();

@@ -1406,11 +1406,11 @@ export class MatchScene extends Phaser.Scene {
     sfx.whistle(true);
     await this.hud.banner('¡Final!', '', '#ffffff', 1400);
     const [a, b] = this.score;
-    const coins = rewardMatch(a > b ? 'win' : a < b ? 'loss' : 'draw', this.teams[0].id === 'club');
+    const reward = rewardMatch(a, b, this.teams[0].id === 'club');
     this.hud.showResult(
       () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
       () => this.scene.start('menu'),
-      coins,
+      reward,
     );
   }
 

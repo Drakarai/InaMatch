@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import { music } from '../audio/music';
-import { autoSquad, BASE_SLOTS, cardOverall, freeNotebooks, loadClub, movesFor, notebookRarity, onClubChange, setMoves, setSquad, type ClubSave } from '../club/club';
+import { autoSquad, BASE_SLOTS, cardOverall, freeNotebooks, loadClub, movesFor, notebookRarity, onClubChange, setCrest, setMoves, setSquad, type ClubSave } from '../club/club';
+import { applyClubCrest, crestById, crestKey, CRESTS, loadCrests } from '../club/crests';
 import { ELEMENT_COLOR } from '../data/elements';
 import type { MoveKind } from '../data/types';
 import { KIND_LABEL } from '../ui/notebook';
@@ -13,12 +14,13 @@ import { teamRating } from '../engine/rating';
 import { portraitKey } from '../gfx/placeholders';
 import { cardPlayer, drawCard, loadCardPortraits } from '../ui/card';
 import { POS_COLOR, THEME, cardPanel, chip, coinChip, fitCamera, sectionTitle, stadiumBackdrop, toast, topBar } from '../ui/theme';
-import { Button, display, label, text } from '../ui/widgets';
+import { Button, display, fitWidth, label, text } from '../ui/widgets';
 
 const SQUAD = { x: 24, y: 84, w: 470, h: 624 };
 const COLL = { x: 512, y: 84, w: 744, h: 426 };
 const INFO = { x: 512, y: 522, w: 744, h: 186 };
 const PER_PAGE = 10;
+const CREST_PER_PAGE = 24;
 const ROW_H = 31;
 const FILTERS: ('ALL' | Position)[] = ['ALL', 'GK', 'DF', 'MF', 'FW'];
 const STAT_LABEL: [keyof Card['player']['stats'], string][] = [
@@ -66,7 +68,7 @@ export class ClubScene extends Phaser.Scene {
       this.redraw();
     });
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, off);
-    this.input.keyboard?.on('keydown-ESC', () => (this.editor ? this.closeEditor() : this.scene.start('menu')));
+    this.input.keyboard?.on('keydown-ESC', () => (this.crestBox ? this.closeCrests() : this.editor ? this.closeEditor() : this.scene.start('menu')));
     const keys = [...this.save.squad, ...this.collection().slice(0, PER_PAGE).map((c) => c.key)];
     loadCardPortraits(this, keys.map((k) => cardByKey(k)).filter((c): c is Card => !!c), () => this.redraw());
     this.redraw();
@@ -106,6 +108,7 @@ export class ClubScene extends Phaser.Scene {
     c.add(coinChip(this, GAME_W - 24, 32, this.save.coins));
     c.add(new Button(this, GAME_W - 200, 32, '¡A jugar!', () => this.play(), { w: 130, h: 38, variant: 'primary', size: 16 }));
     c.add(new Button(this, GAME_W - 340, 32, 'Fichajes', () => this.scene.start('gacha', { from: 'club' }), { w: 120, h: 38, color: THEME.orange, size: 15 }));
+    c.add(new Button(this, GAME_W - 610, 32, 'Escudo', () => this.openCrests(), { w: 110, h: 38, color: 0x2f7bff, size: 15 }));
     c.add(new Button(this, GAME_W - 480, 32, 'Cuadernos', () => this.scene.start('gacha', { mode: 'notebooks', from: 'club' }), { w: 130, h: 38, color: 0x7a5aa8, size: 15 }));
   }
 
@@ -338,6 +341,73 @@ export class ClubScene extends Phaser.Scene {
     }
     if (p.description) {
       c.add(label(this, INFO.x + 18, INFO.y + 140, p.description, 12, THEME.muted, { fontStyle: 'italic', wordWrap: { width: 470 } }).setOrigin(0, 0.5));
+    }
+  }
+
+  // ---------------------------------------------------- escudo del club
+
+  private crestBox?: Phaser.GameObjects.Container;
+  private crestPage = 0;
+
+  /** Los escudos conseguidos (tres al empezar y uno por victoria): el que se pulse pasa a ser el del club. */
+  private openCrests(): void {
+    const owned = this.save.crests ?? [];
+    this.crestPage = Math.max(0, Math.floor(owned.indexOf(this.save.crest ?? '') / CREST_PER_PAGE));
+    this.drawCrests();
+  }
+
+  private closeCrests(): void {
+    this.crestBox?.destroy();
+    this.crestBox = undefined;
+  }
+
+  private drawCrests(): void {
+    this.crestBox?.destroy();
+    const c = this.add.container(0, 0).setDepth(300);
+    this.crestBox = c;
+    c.add(this.add.rectangle(0, 0, GAME_W, GAME_H, 0x000000, 0.72).setOrigin(0).setInteractive());
+    const g = this.add.graphics();
+    cardPanel(g, 40, 40, GAME_W - 80, GAME_H - 80, { accent: 0x2f7bff, alpha: 0.98 });
+    c.add(g);
+    const owned = this.save.crests ?? [];
+    c.add(display(this, 64, 74, 'Escudo del club', 30, '#ffffff').setOrigin(0, 0.5));
+    c.add(label(this, 66, 104, `${owned.length} de ${CRESTS.length} escudos de Victory Road. Ganas uno nuevo con cada victoria.`, 13, THEME.muted, { fontStyle: 'italic' }).setOrigin(0, 0.5));
+    c.add(new Button(this, GAME_W - 130, 74, 'Hecho', () => this.closeCrests(), { w: 140, h: 42, variant: 'primary', hint: 'Esc' }));
+    const pages = Math.max(1, Math.ceil(owned.length / CREST_PER_PAGE));
+    this.crestPage = Math.min(this.crestPage, pages - 1);
+    const list = owned.slice(this.crestPage * CREST_PER_PAGE, (this.crestPage + 1) * CREST_PER_PAGE);
+    const cols = 8;
+    const cw = (GAME_W - 160) / cols;
+    const ch = 160;
+    const cells = list.map((id, i) => {
+      const x = 80 + (i % cols) * cw + cw / 2;
+      const y = 140 + Math.floor(i / cols) * ch + ch / 2;
+      const on = id === this.save.crest;
+      const cell = this.add.graphics();
+      cell.fillStyle(on ? THEME.yellow : 0x1a2942, on ? 0.95 : 0.85).fillRoundedRect(x - cw / 2 + 6, y - ch / 2 + 6, cw - 12, ch - 12, 12);
+      c.add(cell);
+      c.add(fitWidth(label(this, x, y + 56, crestById(id)?.name ?? id, 11, on ? THEME.ink : THEME.text, { fontStyle: 'bold', align: 'center' }).setOrigin(0.5), cw - 20, 8));
+      const hit = this.add.zone(x - cw / 2 + 6, y - ch / 2 + 6, cw - 12, ch - 12).setOrigin(0).setInteractive({ useHandCursor: true });
+      hit.on('pointerdown', () => {
+        setCrest(this.save, id);
+        this.save = loadClub()!;
+        applyClubCrest(this, id, () => {
+          this.drawHeader();
+          if (this.crestBox) this.drawCrests();
+        });
+      });
+      c.add(hit);
+      return { id, x, y };
+    });
+    loadCrests(this, list, () => {
+      if (this.crestBox !== c) return;
+      for (const { id, x, y } of cells) if (this.textures.exists(crestKey(id))) c.add(this.add.image(x, y - 12, crestKey(id)).setDisplaySize(100, 100));
+    });
+    if (pages > 1) {
+      const py = GAME_H - 66;
+      c.add(new Button(this, GAME_W / 2 - 120, py, '◀', () => ((this.crestPage = (this.crestPage + pages - 1) % pages), this.drawCrests()), { w: 60, h: 38, variant: 'secondary' }));
+      c.add(label(this, GAME_W / 2, py, `${this.crestPage + 1} / ${pages}`, 15, THEME.text, { fontStyle: 'bold' }).setOrigin(0.5));
+      c.add(new Button(this, GAME_W / 2 + 120, py, '▶', () => ((this.crestPage = (this.crestPage + 1) % pages), this.drawCrests()), { w: 60, h: 38, variant: 'secondary' }));
     }
   }
 

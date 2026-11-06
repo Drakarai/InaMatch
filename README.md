@@ -266,8 +266,12 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
   ★★★ Conocido 10 %, ★★ Poco conocido 28 %, ★ Ojeador 60 %. Los repetidos devuelven monedas.
 - **Rareza:** según lo conocido que es cada personaje: en cuántos equipos sale (ojeadores, uno, dos o tres, cuatro o más,
   como Mark o Axel). De cada personaje se puede conseguir su mejor versión, con sus técnicas de la wiki.
-- **Monedas:** se empieza con 500. Cada partido con Mi club da 150 ganando, 80 empatando y 50 perdiendo; con otros equipos,
-  de 20 a 40.
+- **Monedas:** se empieza con 500. Cada partido con Mi club da 300 ganando, 140 empatando y 70 perdiendo, más 20 por gol;
+  con otros equipos, 120, 70 o 40, más 10 por gol.
+- **Escudos** (botón **Escudo** del club): los 340 de Victory Road de la wiki (`Category:Victory Road emblem images`,
+  en `src/assets/crests/` a 192 px y su lista en `src/data/crests.json`). Se empieza con tres al azar y cada victoria da
+  uno nuevo (con todos, 100 monedas); el elegido es el escudo de Mi club en el menú y en los partidos.
+- **Rango S:** ganar 5-0 o más sin encajar da 500 monedas extra y un cuaderno de supertécnica ★★★ o ★★★★.
 - La partida se guarda en el navegador (`localStorage`); si se borran los datos del sitio, se empieza de cero.
 - **Cuadernos de supertécnicas** (botón **Cuadernos** del club): tirada a 80 monedas o diez a 700, que traen al menos un
   ★★★. Cada cuaderno es una supertécnica; su rareza depende de lo potente que es entre las de su tipo (el 7 % más potente

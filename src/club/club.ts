@@ -4,6 +4,7 @@ import type { PlayerData, Position, TeamData } from '../data/types';
 import { byPosition, cardByKey, cardForStaleKey, loadPool, RARITY, type Card, type Rarity } from './pool';
 import { getFormation } from '../data/formations';
 import { playerOverall } from '../engine/rating';
+import crestList from '../data/crests.json';
 
 /**
  * "Mi club": el equipo propio, con los jugadores que se consiguen en el gacha.
@@ -27,6 +28,9 @@ export interface ClubSave {
   notebooks?: Record<string, number>;
   /** Técnicas elegidas para cada jugador (Card.key): las 4 de base y las 2 extra ('' = hueco vacío). */
   custom?: Record<string, { base: string[]; extra: string[] }>;
+  /** Escudos conseguidos (id de src/data/crests.json) y el que lleva el club. */
+  crests?: string[];
+  crest?: string;
 }
 
 export const BASE_SLOTS = 4;
@@ -47,8 +51,14 @@ const RATES: [Rarity, number][] = [
 ];
 /** Monedas que devuelve un jugador repetido. */
 const DUPLICATE: Record<Rarity, number> = { 1: 10, 2: 25, 3: 60, 4: 150 };
-/** Monedas por partido: con tu club se gana más. */
-export const REWARD = { club: { win: 150, draw: 80, loss: 50 }, other: { win: 40, draw: 30, loss: 20 } };
+/** Monedas por partido (con tu club se gana más) y por cada gol marcado. */
+export const REWARD = { club: { win: 300, draw: 140, loss: 70, goal: 20 }, other: { win: 120, draw: 70, loss: 40, goal: 10 } };
+/** Rango S: ganar por 5-0 o más sin encajar. Da monedas extra y un cuaderno ★★★ o mejor. */
+export const RANK_S = { goals: 5, coins: 500 };
+/** Escudos con los que se empieza; luego, uno por victoria (si ya se tienen todos, monedas). */
+const START_CRESTS = 3;
+const CREST_FULL_COINS = 100;
+const CREST_IDS: string[] = (crestList as { id: string }[]).map((c) => c.id);
 
 /** Huecos de la plantilla inicial (4-4-2 y banquillo). */
 const START_SLOTS: Position[] = ['GK', 'DF', 'DF', 'DF', 'DF', 'MF', 'MF', 'MF', 'MF', 'FW', 'FW', 'GK', 'DF', 'MF', 'FW', 'MF'];
@@ -94,6 +104,28 @@ const rand = (n: number) => {
 };
 const pickOne = <T>(list: T[]): T => list[rand(list.length)];
 
+/** Escudos al azar que aún no se tienen. */
+function newCrests(owned: string[], n: number): string[] {
+  const left = CREST_IDS.filter((id) => !owned.includes(id));
+  const out: string[] = [];
+  while (out.length < n && left.length) out.push(left.splice(rand(left.length), 1)[0]);
+  return out;
+}
+
+/** Los tres escudos iniciales (también a las partidas de antes de que hubiera escudos). */
+function withStartCrests(save: ClubSave): ClubSave {
+  const crests = (save.crests ?? []).filter((id) => CREST_IDS.includes(id));
+  if (crests.length < START_CRESTS) crests.push(...newCrests(crests, START_CRESTS - crests.length));
+  const crest = save.crest && crests.includes(save.crest) ? save.crest : crests[0];
+  return { ...save, crests, crest };
+}
+
+/** Cambia el escudo del club (uno de los conseguidos). */
+export function setCrest(save: ClubSave, id: string): void {
+  if (!(save.crests ?? []).includes(id)) return;
+  saveClub({ ...save, crest: id });
+}
+
 /** Plantilla inicial al azar: cada club empieza distinto. */
 function starterSquad(pool: Card[]): string[] {
   // uno o dos "conocidos" (rareza 3), unos pocos "poco conocidos" (2) y el resto ojeadores (1)
@@ -119,6 +151,7 @@ export async function ensureClub(): Promise<ClubSave> {
   let save = loadClub();
   if (save) {
     // jugadores cuyo equipo de origen ya no está: el mismo personaje en otro equipo, si sale en alguno
+    save = withStartCrests(save);
     const remap = (k: string) => (cardByKey(k) ? k : (cardForStaleKey(k)?.key ?? k));
     save.squad = save.squad.map(remap);
     save.owned = [...new Set(save.owned.map(remap))];
@@ -133,7 +166,7 @@ export async function ensureClub(): Promise<ClubSave> {
     }
   } else {
     const squad = starterSquad(pool);
-    save = { v: 1, name: 'Mi club', coins: START_COINS, owned: [...squad], squad, formation: START_FORMATION, pulls: 0 };
+    save = withStartCrests({ v: 1, name: 'Mi club', coins: START_COINS, owned: [...squad], squad, formation: START_FORMATION, pulls: 0 });
     saveClub(save);
   }
   upsertTeam(clubTeam(save));
@@ -208,13 +241,45 @@ export async function pull(count: 1 | 10): Promise<PullResult[] | null> {
   return results;
 }
 
-/** Monedas por terminar un partido. Devuelve las ganadas. */
-export function rewardMatch(result: 'win' | 'draw' | 'loss', withClub: boolean): number {
+export interface MatchReward {
+  /** Monedas en total (partido, goles, rango S y escudo repetido). */
+  coins: number;
+  /** Escudo nuevo ganado con la victoria. */
+  crest?: string;
+  rankS: boolean;
+  /** Cuaderno del rango S. */
+  notebook?: MoveData;
+}
+
+/** Premio por terminar un partido: monedas según el resultado y los goles; si se gana, un escudo; con 5-0, el rango S. */
+export function rewardMatch(goalsFor: number, goalsAgainst: number, withClub: boolean): MatchReward | null {
   const save = loadClub();
-  if (!save) return 0;
-  const coins = (withClub ? REWARD.club : REWARD.other)[result];
-  saveClub({ ...save, coins: save.coins + coins });
-  return coins;
+  if (!save) return null;
+  const table = withClub ? REWARD.club : REWARD.other;
+  const result = goalsFor > goalsAgainst ? 'win' : goalsFor < goalsAgainst ? 'loss' : 'draw';
+  let coins = table[result] + table.goal * goalsFor;
+  const next: ClubSave = { ...save };
+  const reward: MatchReward = { coins: 0, rankS: false };
+  if (result === 'win') {
+    const [crest] = newCrests(save.crests ?? [], 1);
+    if (crest) {
+      next.crests = [...(save.crests ?? []), crest];
+      reward.crest = crest;
+    } else coins += CREST_FULL_COINS;
+  }
+  if (goalsFor >= RANK_S.goals && goalsAgainst === 0) {
+    reward.rankS = true;
+    coins += RANK_S.coins;
+    const good = Object.values(MOVES).filter((m) => notebookRarity(m) >= 3);
+    if (good.length) {
+      const move = pickOne(good);
+      next.notebooks = { ...(save.notebooks ?? {}), [move.id]: (save.notebooks?.[move.id] ?? 0) + 1 };
+      reward.notebook = move;
+    }
+  }
+  reward.coins = coins;
+  saveClub({ ...next, coins: save.coins + coins });
+  return reward;
 }
 
 export { RARITY };

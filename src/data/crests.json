@@ -1,0 +1,1702 @@
+[
+{
+"id": "a-team",
+"name": "A Team",
+"wiki": "A Team"
+},
+{
+"id": "ai-gakuen",
+"name": "Academia IA",
+"wiki": "AI Gakuen"
+},
+{
+"id": "akajishi",
+"name": "Akajishi",
+"wiki": "Akajishi"
+},
+{
+"id": "akizora-challengers",
+"name": "Edad Dorada",
+"wiki": "Akizora Challengers"
+},
+{
+"id": "aliea-a",
+"name": "Alius A",
+"wiki": "Aliea A"
+},
+{
+"id": "aliea-b",
+"name": "Alius B",
+"wiki": "Aliea B"
+},
+{
+"id": "america-daihyou",
+"name": "America Daihyou",
+"wiki": "America Daihyou"
+},
+{
+"id": "ancient-dark",
+"name": "Oscuridad Ancestral",
+"wiki": "Ancient Dark"
+},
+{
+"id": "another-chaos",
+"name": "Another Chaos",
+"wiki": "Another Chaos"
+},
+{
+"id": "aoba-gakuen",
+"name": "Colegio Ultramegahiedra",
+"wiki": "Aoba Gakuen"
+},
+{
+"id": "aqua-hermit",
+"name": "Aqua Hermit",
+"wiki": "Aqua Hermit"
+},
+{
+"id": "arab-no-hi-no-tori-gundan",
+"name": "Ejército del Fénix Árabe",
+"wiki": "Arab no Hi no Tori Gundan"
+},
+{
+"id": "arakumo-gakuen",
+"name": "Instituto Universal",
+"wiki": "Arakumo Gakuen"
+},
+{
+"id": "ares-heroes",
+"name": "Ares Heroes",
+"wiki": "Ares Heroes"
+},
+{
+"id": "asia-senbatsu-team",
+"name": "Asia Senbatsu Team",
+"wiki": "Asia Senbatsu Team"
+},
+{
+"id": "ayakashi-geneidan",
+"name": "Ayakashi Geneidan",
+"wiki": "Ayakashi Geneidan"
+},
+{
+"id": "b-team",
+"name": "Raimon Equipo B",
+"wiki": "B Team"
+},
+{
+"id": "badminton-bu",
+"name": "Club de Bádminton",
+"wiki": "Badminton Bu"
+},
+{
+"id": "barcelona-orb",
+"name": "Barcelona Orb",
+"wiki": "Barcelona Orb"
+},
+{
+"id": "basketball-bu",
+"name": "Club de Baloncesto",
+"wiki": "Basketball Bu"
+},
+{
+"id": "batten-yokato",
+"name": "Secundaria Crosswind-Fauxshore",
+"wiki": "Batten-Yokato"
+},
+{
+"id": "battle-brothers",
+"name": "Battle Brothers",
+"wiki": "Battle Brothers"
+},
+{
+"id": "battle-families",
+"name": "Battle Families",
+"wiki": "Battle Families"
+},
+{
+"id": "battle-parents",
+"name": "Battle Parents",
+"wiki": "Battle Parents"
+},
+{
+"id": "big-bang",
+"name": "Big Bang",
+"wiki": "Big Bang"
+},
+{
+"id": "big-waves",
+"name": "Big Waves",
+"wiki": "Big Waves"
+},
+{
+"id": "big-waves-go",
+"name": "Big Waves (GO)",
+"wiki": "Big Waves (GO)"
+},
+{
+"id": "bijutsu-bu",
+"name": "Club de Arte",
+"wiki": "Bijutsu Bu"
+},
+{
+"id": "blue-eyes-eleven",
+"name": "Blue Eyes Eleven",
+"wiki": "Blue Eyes Eleven"
+},
+{
+"id": "bodybuilder-bu",
+"name": "Club de Culturismo",
+"wiki": "Bodybuilder Bu"
+},
+{
+"id": "brilliant-enemy",
+"name": "Brilliant Enemy",
+"wiki": "Brilliant Enemy"
+},
+{
+"id": "brockenborg",
+"name": "Brocken Brigade",
+"wiki": "Brockenborg"
+},
+{
+"id": "cs-boss-charas",
+"name": "CS Boss Charas",
+"wiki": "CS Boss Charas"
+},
+{
+"id": "chaos",
+"name": "Caos",
+"wiki": "Chaos"
+},
+{
+"id": "chaos-angel-zero",
+"name": "Chaos Angel Zero",
+"wiki": "Chaos Angel Zero"
+},
+{
+"id": "chaos-angels",
+"name": "Ángeles del Caos",
+"wiki": "Chaos Angels"
+},
+{
+"id": "chengdu-rafters",
+"name": "Chengdu Rafters",
+"wiki": "Chengdu Rafters"
+},
+{
+"id": "chrono-storm",
+"name": "Chrono Storm",
+"wiki": "Chrono Storm"
+},
+{
+"id": "crim-hound",
+"name": "Crim Hound",
+"wiki": "Crim Hound"
+},
+{
+"id": "daigojou-kanri-kai",
+"name": "Pro Sector Quinto",
+"wiki": "Daigojou Kanri Kai"
+},
+{
+"id": "dance-bu",
+"name": "Club de Baile",
+"wiki": "Dance Bu"
+},
+{
+"id": "dark-angel",
+"name": "Ángel Oscuro",
+"wiki": "Dark Angel"
+},
+{
+"id": "dark-emperors",
+"name": "Emperadores Oscuros",
+"wiki": "Dark Emperors"
+},
+{
+"id": "demon-s-horn",
+"name": "Cuerno Demoníaco",
+"wiki": "Demon's Horn"
+},
+{
+"id": "denshikeisanki-bu",
+"name": "Club de Informática",
+"wiki": "Denshikeisanki Bu"
+},
+{
+"id": "desert-lion",
+"name": "Leones del Desierto",
+"wiki": "Desert Lion"
+},
+{
+"id": "destroyers",
+"name": "Destructores",
+"wiki": "Destroyers"
+},
+{
+"id": "destructchers",
+"name": "Desesperdidos",
+"wiki": "Destructchers"
+},
+{
+"id": "devil",
+"name": "Devil",
+"wiki": "Devil"
+},
+{
+"id": "diamond-dust",
+"name": "Polvo de Diamantes",
+"wiki": "Diamond Dust"
+},
+{
+"id": "dragonlink",
+"name": "Dragon Link",
+"wiki": "Dragonlink"
+},
+{
+"id": "earth-eleven",
+"name": "Earth Eleven",
+"wiki": "Earth Eleven"
+},
+{
+"id": "edge-tempest",
+"name": "Edge Tempest",
+"wiki": "Edge Tempest"
+},
+{
+"id": "eisei-gakuen",
+"name": "Academia Alia",
+"wiki": "Eisei Gakuen"
+},
+{
+"id": "eito-gakuen",
+"name": "Colegio de Empollones",
+"wiki": "Eito Gakuen"
+},
+{
+"id": "el-dorado-team-01",
+"name": "El Dorado Equipo 01",
+"wiki": "El Dorado Team 01"
+},
+{
+"id": "el-dorado-team-02",
+"name": "El Dorado Equipo 02",
+"wiki": "El Dorado Team 02"
+},
+{
+"id": "el-dorado-team-03",
+"name": "El Dorado Equipo 03",
+"wiki": "El Dorado Team 03"
+},
+{
+"id": "element-master",
+"name": "Element Master",
+"wiki": "Element Master"
+},
+{
+"id": "engeki-bu",
+"name": "Club de Teatro",
+"wiki": "Engeki Bu"
+},
+{
+"id": "entaku-no-kishidan",
+"name": "Entaku no Kishidan",
+"wiki": "Entaku no Kishidan"
+},
+{
+"id": "epsilon",
+"name": "Épsilon",
+"wiki": "Epsilon"
+},
+{
+"id": "epsilon-kai",
+"name": "Épsilon Plus",
+"wiki": "Epsilon Kai"
+},
+{
+"id": "esports-bu",
+"name": "Club de eSports",
+"wiki": "Esports Bu"
+},
+{
+"id": "eternal-dancers",
+"name": "Bailarines Eternos",
+"wiki": "Eternal Dancers"
+},
+{
+"id": "ff-chiku-senbatsu-a",
+"name": "FF Chiku Senbatsu A",
+"wiki": "FF Chiku Senbatsu A"
+},
+{
+"id": "ff-chiku-senbatsu-b",
+"name": "FF Chiku Senbatsu B",
+"wiki": "FF Chiku Senbatsu B"
+},
+{
+"id": "ff-zenkoku-senbatsu-a",
+"name": "FF Zenkoku Senbatsu A",
+"wiki": "FF Zenkoku Senbatsu A"
+},
+{
+"id": "ff-zenkoku-senbatsu-b",
+"name": "FF Zenkoku Senbatsu B",
+"wiki": "FF Zenkoku Senbatsu B"
+},
+{
+"id": "fake-blonde",
+"name": "Fake Blonde",
+"wiki": "Fake Blonde"
+},
+{
+"id": "faram-dite",
+"name": "Falam Medius",
+"wiki": "Faram Dite"
+},
+{
+"id": "fire-dragon",
+"name": "Dragones de Fuego",
+"wiki": "Fire Dragon"
+},
+{
+"id": "fire-dragon-go",
+"name": "Dragones de Fuego (GO)",
+"wiki": "Fire Dragon (GO)"
+},
+{
+"id": "first-raimon",
+"name": "Raimon I",
+"wiki": "First Raimon"
+},
+{
+"id": "frost-flames",
+"name": "Frost Flames",
+"wiki": "Frost Flames"
+},
+{
+"id": "galaxy-rivals",
+"name": "Galaxy Rivals",
+"wiki": "Galaxy Rivals"
+},
+{
+"id": "garu",
+"name": "Gar",
+"wiki": "Garu"
+},
+{
+"id": "gassan-kunimitsu",
+"name": "Academia Militar Mar de Luna",
+"wiki": "Gassan Kunimitsu"
+},
+{
+"id": "gasshou-bu",
+"name": "Club de Coro",
+"wiki": "Gasshou Bu"
+},
+{
+"id": "gatekeepers",
+"name": "Guardianas",
+"wiki": "Gatekeepers"
+},
+{
+"id": "gemini-storm",
+"name": "Tormenta de Géminis",
+"wiki": "Gemini Storm"
+},
+{
+"id": "genei-gakuen",
+"name": "Instituto Espejismo",
+"wiki": "Genei Gakuen"
+},
+{
+"id": "gigant-boys",
+"name": "Gigant Boys",
+"wiki": "Gigant Boys"
+},
+{
+"id": "giru",
+"name": "Gir",
+"wiki": "Giru"
+},
+{
+"id": "god-of-megane",
+"name": "God of Megane",
+"wiki": "God of Megane"
+},
+{
+"id": "gold-bear",
+"name": "Osos Dorados",
+"wiki": "Gold Bear"
+},
+{
+"id": "gourmet-hunters",
+"name": "Gourmet Hunters",
+"wiki": "Gourmet Hunters"
+},
+{
+"id": "group-a-senbatsu",
+"name": "Astros del Grupo A",
+"wiki": "Group A Senbatsu"
+},
+{
+"id": "guardians-of-queen",
+"name": "Guardianes de la Reina",
+"wiki": "Guardians of Queen"
+},
+{
+"id": "gurdon-eleven",
+"name": "Los Magmavís",
+"wiki": "Gurdon Eleven"
+},
+{
+"id": "hr-all-star",
+"name": "Superestrellas CI",
+"wiki": "HR All Star"
+},
+{
+"id": "hr-chiku-yosen-senbatsu",
+"name": "HR Chiku Yosen Senbatsu",
+"wiki": "HR Chiku Yosen Senbatsu"
+},
+{
+"id": "hakuren",
+"name": "Instituto Alpino",
+"wiki": "Hakuren"
+},
+{
+"id": "hakuren-ares",
+"name": "Instituto Alpino (Ares)",
+"wiki": "Hakuren (Ares)"
+},
+{
+"id": "hakuren-go",
+"name": "Instituto Alpino (GO)",
+"wiki": "Hakuren (GO)"
+},
+{
+"id": "hakuren-victory-road",
+"name": "Instituto Alpino (Victory Road)",
+"wiki": "Hakuren (Victory Road)"
+},
+{
+"id": "handball-bu",
+"name": "Club de Balonmano",
+"wiki": "Handball Bu"
+},
+{
+"id": "henkaku-no-teikoku",
+"name": "Royal Academy (GO)",
+"wiki": "Henkaku no Teikoku"
+},
+{
+"id": "heroines",
+"name": "Heroines",
+"wiki": "Heroines"
+},
+{
+"id": "high-yard-tower",
+"name": "High Yard Tower",
+"wiki": "High Yard Tower"
+},
+{
+"id": "hokuyou-gakuen",
+"name": "Secundaria Northbright",
+"wiki": "Hokuyou Gakuen"
+},
+{
+"id": "houreikan",
+"name": "Instituto Lawcrest",
+"wiki": "Houreikan"
+},
+{
+"id": "hyakunin-isshu-club",
+"name": "Club de Karuta",
+"wiki": "Hyakunin Isshu Club"
+},
+{
+"id": "ibara-no-ken",
+"name": "Ibara no Ken",
+"wiki": "Ibara no Ken"
+},
+{
+"id": "ichibangai-sally-s",
+"name": "Sallys",
+"wiki": "Ichibangai Sally's"
+},
+{
+"id": "idol-doukoukai",
+"name": "Idol Doukoukai",
+"wiki": "Idol Doukoukai"
+},
+{
+"id": "igo-shougi-bu",
+"name": "Club de Go y Shogi",
+"wiki": "Igo-Shougi Bu"
+},
+{
+"id": "ijin-meibundou",
+"name": "Ijin Meibundou",
+"wiki": "Ijin Meibundou"
+},
+{
+"id": "imagawa-gun",
+"name": "Imagawa Gun",
+"wiki": "Imagawa Gun"
+},
+{
+"id": "inakuni",
+"name": "Inakuni",
+"wiki": "Inakuni"
+},
+{
+"id": "inakuni-raimon",
+"name": "Raimon Isla Remota",
+"wiki": "Inakuni Raimon"
+},
+{
+"id": "inakuni-raimon-a",
+"name": "Inakuni Raimon A",
+"wiki": "Inakuni Raimon A"
+},
+{
+"id": "inakuni-raimon-b",
+"name": "Inakuni Raimon B",
+"wiki": "Inakuni Raimon B"
+},
+{
+"id": "inazuma",
+"name": "Inazuma",
+"wiki": "Inazuma"
+},
+{
+"id": "inazuma-braves",
+"name": "Inazuma Braves",
+"wiki": "Inazuma Braves"
+},
+{
+"id": "inazuma-japan",
+"name": "Inazuma Japón",
+"wiki": "Inazuma Japan"
+},
+{
+"id": "inazuma-japan-go",
+"name": "Inazuma Japón (GO)",
+"wiki": "Inazuma Japan (GO)"
+},
+{
+"id": "inazuma-japan-orion",
+"name": "Inazuma Japón (Orion)",
+"wiki": "Inazuma Japan (Orion)"
+},
+{
+"id": "inazuma-kfc",
+"name": "Inazuma Kids FC",
+"wiki": "Inazuma KFC"
+},
+{
+"id": "inazuma-kfc-go",
+"name": "Inazuma Kids FC (GO)",
+"wiki": "Inazuma KFC (GO)"
+},
+{
+"id": "inazuma-legend-japan",
+"name": "Inazuma Japón Legendario",
+"wiki": "Inazuma Legend Japan"
+},
+{
+"id": "iruka",
+"name": "Iruka",
+"wiki": "Iruka"
+},
+{
+"id": "ixal-fleet",
+"name": "Flota Ixar",
+"wiki": "Ixal Fleet"
+},
+{
+"id": "joshi-senbatsu-team",
+"name": "Estrellas Femeninas",
+"wiki": "Joshi Senbatsu Team"
+},
+{
+"id": "jukai-team",
+"name": "Mar de Árboles",
+"wiki": "Jukai Team"
+},
+{
+"id": "juudou-bu",
+"name": "Club de Judo",
+"wiki": "Juudou Bu"
+},
+{
+"id": "kaeru",
+"name": "Kaeru",
+"wiki": "Kaeru"
+},
+{
+"id": "kageyama-all-star",
+"name": "Ray Dark All Stars",
+"wiki": "Kageyama All Star"
+},
+{
+"id": "kaiou-gakuen",
+"name": "Academia Cala Pirata",
+"wiki": "Kaiou Gakuen"
+},
+{
+"id": "kaiyou-seibutsu-bu",
+"name": "Club de Biología Marina",
+"wiki": "Kaiyou Seibutsu Bu"
+},
+{
+"id": "kaizoku",
+"name": "Kaizoku",
+"wiki": "Kaizoku"
+},
+{
+"id": "kakumei-senbatsu-team",
+"name": "Revolucionarios",
+"wiki": "Kakumei Senbatsu Team"
+},
+{
+"id": "kakutougi-bu",
+"name": "Club de Artes Marciales",
+"wiki": "Kakutougi Bu"
+},
+{
+"id": "kami-to-uchuu",
+"name": "Divinidades y Alienígenas",
+"wiki": "Kami to Uchuu"
+},
+{
+"id": "kantoku-gundan",
+"name": "Corporación Imperial",
+"wiki": "Kantoku Gundan"
+},
+{
+"id": "karakuri-bingmayong",
+"name": "Ejército de Terracota",
+"wiki": "Karakuri Bingmayong"
+},
+{
+"id": "kasamino",
+"name": "Instituto Umbrella",
+"wiki": "Kasamino"
+},
+{
+"id": "keibi-machines",
+"name": "Robots Guardias",
+"wiki": "Keibi Machines"
+},
+{
+"id": "keiongaku-bu",
+"name": "Club de Música Ligera",
+"wiki": "Keiongaku Bu"
+},
+{
+"id": "keizen-arashiyama",
+"name": "Secundaria Stormridge",
+"wiki": "Keizen Arashiyama"
+},
+{
+"id": "kendou-bu",
+"name": "Club de Kendo",
+"wiki": "Kendou Bu"
+},
+{
+"id": "kidokawa-seishuu",
+"name": "Instituto Kirkwood",
+"wiki": "Kidokawa Seishuu"
+},
+{
+"id": "kidokawa-seishuu-ares",
+"name": "Instituto Kirkwood (Ares)",
+"wiki": "Kidokawa Seishuu (Ares)"
+},
+{
+"id": "kidokawa-seishuu-go",
+"name": "Instituto Kirkwood (GO)",
+"wiki": "Kidokawa Seishuu (GO)"
+},
+{
+"id": "knights-of-queen",
+"name": "Knights of Queen",
+"wiki": "Knights of Queen"
+},
+{
+"id": "kokurou",
+"name": "Kokurou",
+"wiki": "Kokurou"
+},
+{
+"id": "kuro-no-kishidan",
+"name": "Orden de los Caballeros Templarios",
+"wiki": "Kuro no Kishidan"
+},
+{
+"id": "last-rival",
+"name": "Última Orden",
+"wiki": "Last Rival"
+},
+{
+"id": "leaf-sharpener",
+"name": "Leaf Sharpener",
+"wiki": "Leaf Sharpener"
+},
+{
+"id": "legend-resistance",
+"name": "Legend Resistance",
+"wiki": "Legend Resistance"
+},
+{
+"id": "liberty-samurais",
+"name": "Liberty Samurais",
+"wiki": "Liberty Samurais"
+},
+{
+"id": "little-gigant",
+"name": "Los Pequeños Gigantes",
+"wiki": "Little Gigant"
+},
+{
+"id": "little-stars",
+"name": "Little Stars",
+"wiki": "Little Stars"
+},
+{
+"id": "mach-tiger",
+"name": "Muay Tigers",
+"wiki": "Mach Tiger"
+},
+{
+"id": "macho-muscles",
+"name": "Macho Muscles",
+"wiki": "Macho Muscles"
+},
+{
+"id": "magic-kenkyuukai",
+"name": "Magic Kenkyuukai",
+"wiki": "Magic Kenkyuukai"
+},
+{
+"id": "makai-gundan-z",
+"name": "Dark Team",
+"wiki": "Makai Gundan Z"
+},
+{
+"id": "managers",
+"name": "Managers",
+"wiki": "Managers"
+},
+{
+"id": "manga-kenkyuukai",
+"name": "Manga Kenkyuukai",
+"wiki": "Manga Kenkyuukai"
+},
+{
+"id": "mannouzaka",
+"name": "Colegio Poderosa Fe",
+"wiki": "Mannouzaka"
+},
+{
+"id": "manyuuji",
+"name": "Instituto Claustro Sagrado",
+"wiki": "Manyuuji"
+},
+{
+"id": "meiran-gakuin",
+"name": "Academia Orchid",
+"wiki": "Meiran Gakuin"
+},
+{
+"id": "metal-kenkyuukai",
+"name": "Metal Kenkyuukai",
+"wiki": "Metal Kenkyuukai"
+},
+{
+"id": "midorigaoka",
+"name": "Instituto Colina Verde",
+"wiki": "Midorigaoka"
+},
+{
+"id": "mikage-sennou",
+"name": "Instituto Brain",
+"wiki": "Mikage Sennou"
+},
+{
+"id": "mikage-sennou-ares",
+"name": "Instituto Brain (Ares)",
+"wiki": "Mikage Sennou (Ares)"
+},
+{
+"id": "minodouzan",
+"name": "Instituto Bastión",
+"wiki": "Minodouzan"
+},
+{
+"id": "mitsukubi-ryuu",
+"name": "Mitsukubi Ryuu",
+"wiki": "Mitsukubi Ryuu"
+},
+{
+"id": "muteki-no-giant",
+"name": "Gigantes Invencibles",
+"wiki": "Muteki no Giant"
+},
+{
+"id": "muteki-no-inazuma",
+"name": "Muteki no Inazuma",
+"wiki": "Muteki no Inazuma"
+},
+{
+"id": "nagumohara",
+"name": "Secundaria South Cirrus",
+"wiki": "Nagumohara"
+},
+{
+"id": "nagumohara-a",
+"name": "Nagumohara A",
+"wiki": "Nagumohara A"
+},
+{
+"id": "nagumohara-b",
+"name": "Nagumohara B",
+"wiki": "Nagumohara B"
+},
+{
+"id": "nagumohara-c",
+"name": "Nagumohara C",
+"wiki": "Nagumohara C"
+},
+{
+"id": "nagumohara-shopkeepers",
+"name": "Vendedores de South Cirrus",
+"wiki": "Nagumohara Shopkeepers"
+},
+{
+"id": "navy-invader",
+"name": "Navy Invader",
+"wiki": "Navy Invader"
+},
+{
+"id": "neo-japan",
+"name": "Neo Japón",
+"wiki": "Neo Japan"
+},
+{
+"id": "neo-raimon",
+"name": "Neo Raimon",
+"wiki": "Neo Raimon"
+},
+{
+"id": "neo-teikoku",
+"name": "Neo Royal Academy",
+"wiki": "Neo Teikoku"
+},
+{
+"id": "new-stars",
+"name": "New Stars",
+"wiki": "New Stars"
+},
+{
+"id": "night-viper",
+"name": "Night Viper",
+"wiki": "Night Viper"
+},
+{
+"id": "nihonbuyou-bu",
+"name": "Club de Danza Japonesa",
+"wiki": "Nihonbuyou Bu"
+},
+{
+"id": "nikogawa",
+"name": "Instituto Twinford",
+"wiki": "Nikogawa"
+},
+{
+"id": "nippon-daihyou-kouho-a",
+"name": "Pruebas de Selección - Equipo A",
+"wiki": "Nippon Daihyou Kouho A"
+},
+{
+"id": "nippon-daihyou-kouho-b",
+"name": "Pruebas de Selección - Equipo B",
+"wiki": "Nippon Daihyou Kouho B"
+},
+{
+"id": "nishinomiya",
+"name": "Academia West Manor",
+"wiki": "Nishinomiya"
+},
+{
+"id": "northern-fang",
+"name": "Colmillos del Norte",
+"wiki": "Northern Fang"
+},
+{
+"id": "nose",
+"name": "Instituto Wild",
+"wiki": "Nose"
+},
+{
+"id": "occult",
+"name": "Instituto Occult",
+"wiki": "Occult"
+},
+{
+"id": "occult-kenkyuukai",
+"name": "Occult Kenkyuukai",
+"wiki": "Occult Kenkyuukai"
+},
+{
+"id": "oda-gun",
+"name": "Oda Gun",
+"wiki": "Oda Gun"
+},
+{
+"id": "ogre",
+"name": "Equipo Ogro",
+"wiki": "Ogre"
+},
+{
+"id": "oko-sama-eleven",
+"name": "Oko-sama Eleven",
+"wiki": "Oko-sama Eleven"
+},
+{
+"id": "ole-de-samba",
+"name": "Olé de Samba",
+"wiki": "Olé de Samba"
+},
+{
+"id": "omega-elites",
+"name": "Élite Omega",
+"wiki": "Omega Elites"
+},
+{
+"id": "omote-to-ura-no-ouja",
+"name": "Omote to Ura no Ouja",
+"wiki": "Omote to Ura no Ouja"
+},
+{
+"id": "onee-sama-eleven",
+"name": "Onee-sama Eleven",
+"wiki": "Onee-sama Eleven"
+},
+{
+"id": "oosaka-gals-ccc",
+"name": "Triple C de Osaka",
+"wiki": "Oosaka Gals CCC"
+},
+{
+"id": "ootate",
+"name": "Ootate",
+"wiki": "Ootate"
+},
+{
+"id": "orion-elites",
+"name": "Orion Elites",
+"wiki": "Orion Elites"
+},
+{
+"id": "orleans",
+"name": "Fuerza de Orleans",
+"wiki": "Orléans"
+},
+{
+"id": "orpheus",
+"name": "Orfeo",
+"wiki": "Orpheus"
+},
+{
+"id": "osoroshii-kage",
+"name": "Sombras Terribles",
+"wiki": "Osoroshii Kage"
+},
+{
+"id": "ouja-raimon",
+"name": "Instituto Raimon (Victory Road)",
+"wiki": "Ouja Raimon"
+},
+{
+"id": "oumihara",
+"name": "Instituto Mary Times",
+"wiki": "Oumihara"
+},
+{
+"id": "outei-tsukinomiya",
+"name": "Academia Plenilunio",
+"wiki": "Outei Tsukinomiya"
+},
+{
+"id": "owari-braves",
+"name": "Superestrellas de Owari",
+"wiki": "Owari Braves"
+},
+{
+"id": "patchworks",
+"name": "Patchworks",
+"wiki": "Patchworks"
+},
+{
+"id": "perfect-cascade",
+"name": "Cascada Perfecta",
+"wiki": "Perfect Cascade"
+},
+{
+"id": "perfect-spark",
+"name": "Chispas Perfectas",
+"wiki": "Perfect Spark"
+},
+{
+"id": "pierrot-team",
+"name": "Los Payasetes",
+"wiki": "Pierrot Team"
+},
+{
+"id": "planet-girls",
+"name": "Planet Girls",
+"wiki": "Planet Girls"
+},
+{
+"id": "platos",
+"name": "Plathos",
+"wiki": "Platos"
+},
+{
+"id": "prince-kingdom",
+"name": "Prince Kingdom",
+"wiki": "Prince Kingdom"
+},
+{
+"id": "princess-girls",
+"name": "Princess Girls",
+"wiki": "Princess Girls"
+},
+{
+"id": "prominence",
+"name": "Prominence",
+"wiki": "Prominence"
+},
+{
+"id": "protocol-omega",
+"name": "Protocolo Omega",
+"wiki": "Protocol Omega"
+},
+{
+"id": "protocol-omega-2-0",
+"name": "Protocolo Omega 2.0",
+"wiki": "Protocol Omega 2.0"
+},
+{
+"id": "protocol-omega-3-0",
+"name": "Protocolo Omega 3.0",
+"wiki": "Protocol Omega 3.0"
+},
+{
+"id": "quiz-kenkyuukai",
+"name": "Quiz Kenkyuukai",
+"wiki": "Quiz Kenkyuukai"
+},
+{
+"id": "raigou",
+"name": "Raigou",
+"wiki": "Raigou"
+},
+{
+"id": "raimon",
+"name": "Instituto Raimon",
+"wiki": "Raimon"
+},
+{
+"id": "raimon-2gun",
+"name": "Equipo B del Instituto Raimon (GO)",
+"wiki": "Raimon 2gun"
+},
+{
+"id": "raimon-ob",
+"name": "Raimon OB",
+"wiki": "Raimon OB"
+},
+{
+"id": "ratoniik-eleven",
+"name": "Los Fertilia",
+"wiki": "Ratoniik Eleven"
+},
+{
+"id": "real-inazuma",
+"name": "Real Inazuma",
+"wiki": "Real Inazuma"
+},
+{
+"id": "real-legends",
+"name": "Auténticas Leyendas",
+"wiki": "Real Legends"
+},
+{
+"id": "red-bison",
+"name": "Bisonte Rojo",
+"wiki": "Red Bison"
+},
+{
+"id": "red-eyes-eleven",
+"name": "Red Eyes Eleven",
+"wiki": "Red Eyes Eleven"
+},
+{
+"id": "red-matador",
+"name": "Los Rojos",
+"wiki": "Red Matador"
+},
+{
+"id": "resistance-japan",
+"name": "Resistencia de Japón",
+"wiki": "Resistance Japan"
+},
+{
+"id": "rikujou-bu",
+"name": "Club de Atletismo",
+"wiki": "Rikujou Bu"
+},
+{
+"id": "rojiura-backkicks",
+"name": "Goleadores del Callejón",
+"wiki": "Rojiura Backkicks"
+},
+{
+"id": "rojiura-shounentai",
+"name": "Rojiura Shounentai",
+"wiki": "Rojiura Shounentai"
+},
+{
+"id": "rose-griffon",
+"name": "Grifos de la Rosa",
+"wiki": "Rose Griffon"
+},
+{
+"id": "rugby-bu",
+"name": "Club de Rugby",
+"wiki": "Rugby Bu"
+},
+{
+"id": "sp-fixers",
+"name": "Servicio Secreto",
+"wiki": "SP Fixers"
+},
+{
+"id": "sadou-bu",
+"name": "Club de Ceremonia del Té",
+"wiki": "Sadou Bu"
+},
+{
+"id": "sandorius-eleven",
+"name": "Los Sílice",
+"wiki": "Sandorius Eleven"
+},
+{
+"id": "sazanaara-eleven",
+"name": "Los Naiadi",
+"wiki": "Sazanaara Eleven"
+},
+{
+"id": "seidouzan",
+"name": "Colegio Monte Olimpo",
+"wiki": "Seidouzan"
+},
+{
+"id": "seishou-gakuen",
+"name": "Academia Polaris",
+"wiki": "Seishou Gakuen"
+},
+{
+"id": "seishun",
+"name": "Seishun",
+"wiki": "Seishun"
+},
+{
+"id": "sekai-daihyou",
+"name": "Ases Internacionales",
+"wiki": "Sekai Daihyou"
+},
+{
+"id": "sekai-senbatsu-team",
+"name": "Sekai Senbatsu Team",
+"wiki": "Sekai Senbatsu Team"
+},
+{
+"id": "senbayama",
+"name": "Instituto Farm",
+"wiki": "Senbayama"
+},
+{
+"id": "sengoku-igajima",
+"name": "Instituto Shuriken",
+"wiki": "Sengoku Igajima"
+},
+{
+"id": "senjutsu-no-teikoku",
+"name": "Royal Academy (Victory Road)",
+"wiki": "Senjutsu no Teikoku"
+},
+{
+"id": "senkou",
+"name": "Senkou",
+"wiki": "Senkou"
+},
+{
+"id": "senshin-inazuma-japan-a",
+"name": "Senshin Inazuma Japan A",
+"wiki": "Senshin Inazuma Japan A"
+},
+{
+"id": "senshin-inazuma-japan-b",
+"name": "Senshin Inazuma Japan B",
+"wiki": "Senshin Inazuma Japan B"
+},
+{
+"id": "senshin-neo-japan",
+"name": "Senshin Neo Japan",
+"wiki": "Senshin Neo Japan"
+},
+{
+"id": "shadow-of-orion",
+"name": "Eclipse de Orión",
+"wiki": "Shadow of Orion"
+},
+{
+"id": "shadow-of-sun",
+"name": "Shadow of Sun",
+"wiki": "Shadow of Sun"
+},
+{
+"id": "shamshir",
+"name": "Los Cimitarras",
+"wiki": "Shamshir"
+},
+{
+"id": "shanghai-hoshinekodan",
+"name": "Shanghai Hoshinekodan",
+"wiki": "Shanghai Hoshinekodan"
+},
+{
+"id": "shin-outei-tsukinomiya",
+"name": "Shin Outei Tsukinomiya",
+"wiki": "Shin Outei Tsukinomiya"
+},
+{
+"id": "shin-teikoku-gakuen",
+"name": "Royal Academy Redux",
+"wiki": "Shin Teikoku Gakuen"
+},
+{
+"id": "shinbun-bu",
+"name": "Club de Periodismo",
+"wiki": "Shinbun Bu"
+},
+{
+"id": "shining-satans",
+"name": "Demonios Brillantes",
+"wiki": "Shining Satans"
+},
+{
+"id": "shinsei",
+"name": "Shinsei",
+"wiki": "Shinsei"
+},
+{
+"id": "shinsei-inazuma-japan",
+"name": "Nuevo Inazuma Japón",
+"wiki": "Shinsei Inazuma Japan"
+},
+{
+"id": "shinsei-raimon",
+"name": "Instituto Raimon (GO)",
+"wiki": "Shinsei Raimon"
+},
+{
+"id": "shiroshika-gumi",
+"name": "Banda del Ciervo Blanco",
+"wiki": "Shiroshika Gumi"
+},
+{
+"id": "shuuyou-meito-gakuen",
+"name": "Instituto Otaku",
+"wiki": "Shuuyou Meito Gakuen"
+},
+{
+"id": "snow-weasel",
+"name": "Armiños Invernales",
+"wiki": "Snow Weasel"
+},
+{
+"id": "soccer-robots",
+"name": "Futboloides",
+"wiki": "Soccer Robots"
+},
+{
+"id": "soccer-zatsugidan",
+"name": "Tropa Acrobática del Fútbol",
+"wiki": "Soccer Zatsugidan"
+},
+{
+"id": "souken",
+"name": "Souken",
+"wiki": "Souken"
+},
+{
+"id": "southern-claw",
+"name": "Garras del Sur",
+"wiki": "Southern Claw"
+},
+{
+"id": "space-rankers",
+"name": "Space Rankers",
+"wiki": "Space Rankers"
+},
+{
+"id": "star-sisters",
+"name": "Star Sisters",
+"wiki": "Star Sisters"
+},
+{
+"id": "star-unicorn",
+"name": "Star Unicorn",
+"wiki": "Star Unicorn"
+},
+{
+"id": "stone-crushers",
+"name": "Stone Crushers",
+"wiki": "Stone Crushers"
+},
+{
+"id": "storm-wolf",
+"name": "Storm Wolves",
+"wiki": "Storm Wolf"
+},
+{
+"id": "suiei-bu",
+"name": "Club de Natación",
+"wiki": "Suiei Bu"
+},
+{
+"id": "suikyuu-bu",
+"name": "Club de Waterpolo",
+"wiki": "Suikyuu Bu"
+},
+{
+"id": "suisougaku-bu",
+"name": "Club de Banda",
+"wiki": "Suisougaku Bu"
+},
+{
+"id": "sumou-bu",
+"name": "Club de Sumo",
+"wiki": "Sumou Bu"
+},
+{
+"id": "super-animals",
+"name": "Los Superadorables",
+"wiki": "Super Animals"
+},
+{
+"id": "supernova",
+"name": "Supernova",
+"wiki": "Supernova"
+},
+{
+"id": "surfin-bu",
+"name": "Club de Surf",
+"wiki": "Surfin' Bu"
+},
+{
+"id": "takabies",
+"name": "Reinas del Hielo",
+"wiki": "Takabies"
+},
+{
+"id": "takkyuu-bu",
+"name": "Club de Tenis de Mesa",
+"wiki": "Takkyuu Bu"
+},
+{
+"id": "tasogare",
+"name": "Tasogare",
+"wiki": "Tasogare"
+},
+{
+"id": "team-a5",
+"name": "Equipo A-5",
+"wiki": "Team A5"
+},
+{
+"id": "team-garshield",
+"name": "Zoolan Team",
+"wiki": "Team Garshield"
+},
+{
+"id": "team-k",
+"name": "Equipo D",
+"wiki": "Team K"
+},
+{
+"id": "teikoku-gakuen",
+"name": "Royal Academy",
+"wiki": "Teikoku Gakuen"
+},
+{
+"id": "teikoku-gakuen-ares",
+"name": "Royal Academy (Ares)",
+"wiki": "Teikoku Gakuen (Ares)"
+},
+{
+"id": "tekken",
+"name": "Tekken",
+"wiki": "Tekken"
+},
+{
+"id": "tengawara",
+"name": "Colegio Concertado Vía Láctea",
+"wiki": "Tengawara"
+},
+{
+"id": "tenkuu-no-shito",
+"name": "Sky Team",
+"wiki": "Tenkuu no Shito"
+},
+{
+"id": "tenmas",
+"name": "Los Arions",
+"wiki": "Tenmas"
+},
+{
+"id": "tennis-bu",
+"name": "Club de Tenis",
+"wiki": "Tennis Bu"
+},
+{
+"id": "tenshou-zeus",
+"name": "Secundaria Solaria-Zeus",
+"wiki": "Tenshou-Zeus"
+},
+{
+"id": "the-card",
+"name": "Tarjeteros",
+"wiki": "The Card"
+},
+{
+"id": "the-empire",
+"name": "Los Emperadores",
+"wiki": "The Empire"
+},
+{
+"id": "the-excellar",
+"name": "The Excellar",
+"wiki": "The Excellar"
+},
+{
+"id": "the-genesis",
+"name": "Génesis",
+"wiki": "The Genesis"
+},
+{
+"id": "the-great-horn",
+"name": "Caimanes del Cabo",
+"wiki": "The Great Horn"
+},
+{
+"id": "the-kingdom",
+"name": "Os Reis",
+"wiki": "The Kingdom"
+},
+{
+"id": "the-lagoon",
+"name": "Ragnah",
+"wiki": "The Lagoon"
+},
+{
+"id": "tonegawa-tousen",
+"name": "Instituto Ribera",
+"wiki": "Tonegawa Tousen"
+},
+{
+"id": "toufuu-ikokukan",
+"name": "Secundaria Internacional Eastwind",
+"wiki": "Toufuu Ikokukan"
+},
+{
+"id": "tournament-emblem-best4",
+"name": "Tournament Emblem - BEST4",
+"wiki": "Tournament Emblem - BEST4"
+},
+{
+"id": "tournament-emblem-champion",
+"name": "Tournament Emblem - Champion",
+"wiki": "Tournament Emblem - Champion"
+},
+{
+"id": "tournament-emblem-finals-t-participation",
+"name": "Tournament Emblem - Finals T Participation",
+"wiki": "Tournament Emblem - Finals T Participation"
+},
+{
+"id": "tournament-emblem-main-tournament-participation",
+"name": "Tournament Emblem - Main Tournament Participation",
+"wiki": "Tournament Emblem - Main Tournament Participation"
+},
+{
+"id": "tournament-emblem-runner-up",
+"name": "Tournament Emblem - Runner-Up",
+"wiki": "Tournament Emblem - Runner-Up"
+},
+{
+"id": "tournament-emblem-top-qualifier",
+"name": "Tournament Emblem - Top Qualifier",
+"wiki": "Tournament Emblem - Top Qualifier"
+},
+{
+"id": "tsubasa",
+"name": "Tsubasa",
+"wiki": "Tsubasa"
+},
+{
+"id": "tsukigami-no-ichizoku",
+"name": "Aullido Lunar",
+"wiki": "Tsukigami no Ichizoku"
+},
+{
+"id": "uchuu-kenkyuukai",
+"name": "Uchuu Kenkyuukai",
+"wiki": "Uchuu Kenkyuukai"
+},
+{
+"id": "umi-kamome-soccer-club",
+"name": "Gaviotas FC",
+"wiki": "Umi Kamome Soccer Club"
+},
+{
+"id": "unicorn",
+"name": "Unicorn",
+"wiki": "Unicorn"
+},
+{
+"id": "unlimited-shining",
+"name": "Luz Eterna",
+"wiki": "Unlimited Shining"
+},
+{
+"id": "ura-raimon",
+"name": "Ultra Raimon A",
+"wiki": "Ura Raimon"
+},
+{
+"id": "ura-zeus",
+"name": "Ultra Zeus",
+"wiki": "Ura Zeus"
+},
+{
+"id": "vamptym",
+"name": "Nosfanáticos",
+"wiki": "Vamptym"
+},
+{
+"id": "volcano-blaze",
+"name": "Volcano Blaze",
+"wiki": "Volcano Blaze"
+},
+{
+"id": "volleyball-bu",
+"name": "Club de Voleibol",
+"wiki": "Volleyball Bu"
+},
+{
+"id": "wakusei",
+"name": "Wakusei",
+"wiki": "Wakusei"
+},
+{
+"id": "wanamai",
+"name": "Wanamai",
+"wiki": "Wanamai"
+},
+{
+"id": "yakyuu-bu-team",
+"name": "Yakyuu Bu Team",
+"wiki": "Yakyuu Bu Team"
+},
+{
+"id": "yokato",
+"name": "Instituto Fauxshore",
+"wiki": "Yokato"
+},
+{
+"id": "young-inazuma",
+"name": "Jóvenes Inazuma",
+"wiki": "Young Inazuma"
+},
+{
+"id": "zan",
+"name": "Zan",
+"wiki": "Zan"
+},
+{
+"id": "zanark-domain",
+"name": "Zanark Domain",
+"wiki": "Zanark Domain"
+},
+{
+"id": "zanark-strangers",
+"name": "Zanark Outsiders",
+"wiki": "Zanark Strangers"
+},
+{
+"id": "zenkoku-team-senbatsu-a",
+"name": "Selección Nacional A",
+"wiki": "Zenkoku Team Senbatsu A"
+},
+{
+"id": "zenkoku-team-senbatsu-b",
+"name": "Selección Nacional B",
+"wiki": "Zenkoku Team Senbatsu B"
+},
+{
+"id": "zero",
+"name": "Equipo Zero",
+"wiki": "Zero"
+},
+{
+"id": "zeus",
+"name": "Instituto Zeus",
+"wiki": "Zeus"
+},
+{
+"id": "zeus-ares",
+"name": "Instituto Zeus (Ares)",
+"wiki": "Zeus (Ares)"
+},
+{
+"id": "zhao-jinyun-senbatsu-team",
+"name": "Zhao Jinyun Senbatsu Team",
+"wiki": "Zhao Jinyun Senbatsu Team"
+},
+{
+"id": "zhao-jinyuns",
+"name": "Zhao Jinyuns",
+"wiki": "Zhao Jinyuns"
+},
+{
+"id": "zodiacs",
+"name": "Astros del Firmamento",
+"wiki": "Zodiacs"
+},
+{
+"id": "ninja",
+"name": "Ninjas a Gogó",
+"wiki": "◇NINJA◇"
+},
+{
+"id": "megane",
+"name": "○Megane○",
+"wiki": "○Megane○"
+}
+]

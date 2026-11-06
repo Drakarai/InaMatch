@@ -5,10 +5,19 @@
  "name": "Knights of Queen",
  "short": "KOQ",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#1d2f6b",
-  "gkShirt": "#c8202f",
-  "accent": "#1d2f6b"
+  "shirt": "#f4ece8",
+  "shorts": "#d0221e",
+  "gkShirt": "#1e3a8a",
+  "accent": "#1e3a8a",
+  "sleeve": "#f4ece8",
+  "socks": "#1e3a8a",
+  "gkShorts": "#5a3a7a",
+  "gkSleeve": "#1e3a8a",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "stripe": "#1e3a8a",
+  "collar": "#1e3a8a",
+  "num": "#1e3a8a"
  },
  "formation": "f-knights",
  "players": [

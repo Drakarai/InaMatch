@@ -1,18 +1,19 @@
-import Phaser from "phaser";
-import { music } from "../audio/music";
-import { fitCamera } from "../ui/theme";
-import { soundButton } from "../ui/soundPanel";
-import { GAME_H, GAME_W, hex } from "../config";
-import { TEAMS } from "../data";
-import { SEASONS, getSeason, seasonOf } from "../data/seasons";
-import type { TeamData } from "../data/types";
-import { defaultLineup } from "../engine/lineup";
-import { lineRatings, teamRating } from "../engine/rating";
-import { Button, display, text } from "../ui/widgets";
-import { loadClub } from "../club/club";
-import { makeEmblem, texKey } from "../gfx/placeholders";
+import Phaser from 'phaser';
+import { music } from '../audio/music';
+import { THEME, cardPanel, chip, coinChip, dim, fitCamera, glow, inkOn, pt, starRow, topBar } from '../ui/theme';
+import { soundButton } from '../ui/soundPanel';
+import { GAME_H, GAME_W, hex } from '../config';
+import { TEAMS } from '../data';
+import { getFormation } from '../data/formations';
+import { SEASONS, getSeason, seasonOf } from '../data/seasons';
+import type { TeamData } from '../data/types';
+import { defaultLineup } from '../engine/lineup';
+import { lineRatings, playerOverall, ratingStars, teamRating } from '../engine/rating';
+import { Button, display, fitWidth, label, meter, text } from '../ui/widgets';
+import { loadClub } from '../club/club';
+import { makeEmblem, texKey } from '../gfx/placeholders';
 
-type Side = "home" | "away";
+type Side = 'home' | 'away';
 
 interface Selection {
   home: string;
@@ -21,47 +22,19 @@ interface Selection {
   focus: Side;
 }
 
-// Pantalla de "versus": cada mitad con los colores de su equipo, partidas por un rayo.
-const CX = { home: 330, away: 950 } as const;
-const EMBLEM_Y = 196;
-const EMBLEM = 140;
-const SHELF_Y = 446;
-/** Azul de la enciclopedia oficial, fondo de los logos de cada juego. */
-const ZUKAN_BLUE = 0x1d7ce0;
-const NIGHT = 0x0a1120;
-const YELLOW = 0xffd23f;
+// Pantalla de "versus": una tarjeta por equipo, el VS en medio y abajo la estantería de escudos.
+const CARD = { y: 80, w: 520, h: 332 };
+const CARD_X: Record<Side, number> = { home: 28, away: GAME_W - 28 - CARD.w };
+const CTA_Y = 450;
+const SHELF = { x: 20, y: 488, w: GAME_W - 40, h: GAME_H - 488 - 8 };
 const SIDE = {
-  home: { label: "TÚ", color: 0x2f7bff, css: "#7fb2ff" },
-  away: { label: "RIVAL", color: 0xff3b4e, css: "#ff8f9a" },
+  home: { label: 'TÚ', color: THEME.home, css: THEME.homeCss },
+  away: { label: 'RIVAL', color: THEME.away, css: THEME.awayCss },
 } as const;
-/** El rayo que parte la pantalla: puntos de arriba abajo. */
-const BOLT = [
-  [700, 0],
-  [654, 128],
-  [690, 136],
-  [622, 280],
-  [664, 288],
-  [600, SHELF_Y],
-] as const;
 
-const seasonsWithTeams = () =>
-  SEASONS.filter((s) => TEAMS.some((t) => seasonOf(t) === s.id));
-const teamsOf = (season: string) =>
-  TEAMS.filter((t) => seasonOf(t) === season).sort((a, b) =>
-    a.name.localeCompare(b.name, "es"),
-  );
+const seasonsWithTeams = () => SEASONS.filter((s) => TEAMS.some((t) => seasonOf(t) === s.id));
+const teamsOf = (season: string) => TEAMS.filter((t) => seasonOf(t) === season).sort((a, b) => a.name.localeCompare(b.name, 'es'));
 const teamById = (id: string) => TEAMS.find((t) => t.id === id)!;
-const pt = (x: number, y: number) => new Phaser.Geom.Point(x, y);
-/** Color del equipo oscurecido para el fondo, que el texto se lea siempre. */
-const dim = (color: string, amount = 0.62) => {
-  const c = Phaser.Display.Color.Interpolate.ColorWithColor(
-    Phaser.Display.Color.ValueToColor(hex(color)),
-    Phaser.Display.Color.ValueToColor(NIGHT),
-    100,
-    amount * 100,
-  );
-  return Phaser.Display.Color.GetColor(c.r, c.g, c.b);
-};
 
 export class MenuScene extends Phaser.Scene {
   private sel!: Selection;
@@ -69,178 +42,73 @@ export class MenuScene extends Phaser.Scene {
   private bg!: Phaser.GameObjects.Graphics;
   private sides!: Record<Side, Phaser.GameObjects.Container>;
   private shelf!: Phaser.GameObjects.Container;
+  private ctaRow!: Phaser.GameObjects.Container;
 
   constructor() {
-    super("menu");
+    super('menu');
   }
 
   create(): void {
     fitCamera(this);
-    music.play("menu");
-    const club = TEAMS.find((t) => t.id === "club");
+    music.play('menu');
+    const club = TEAMS.find((t) => t.id === 'club');
     if (club) makeEmblem(this, club);
-    const saved = this.registry.get("menuSelection") as Selection | undefined;
-    this.sel =
-      saved &&
-      TEAMS.some((t) => t.id === saved.home) &&
-      TEAMS.some((t) => t.id === saved.away)
-        ? { ...saved }
-        : this.defaults();
+    const saved = this.registry.get('menuSelection') as Selection | undefined;
+    this.sel = saved && TEAMS.some((t) => t.id === saved.home) && TEAMS.some((t) => t.id === saved.away) && saved.home !== saved.away ? { ...saved } : this.defaults();
     this.shelfSeason = seasonOf(teamById(this.sel[this.sel.focus]));
 
     this.bg = this.add.graphics();
-    this.drawSplit();
-    this.drawBolt();
-    this.sides = {
-      home: this.add.container(0, 0),
-      away: this.add.container(0, 0),
-    };
+    this.drawBackground();
+    this.sides = { home: this.add.container(0, 0), away: this.add.container(0, 0) };
+    this.ctaRow = this.add.container(0, 0);
     this.shelf = this.add.container(0, 0);
-    this.drawHeader();
     this.drawCenter();
-    this.renderSide("home");
-    this.renderSide("away");
+    this.renderSide('home');
+    this.renderSide('away');
+    this.renderCta();
     this.renderShelf();
     this.bindKeys();
-    soundButton(this, GAME_W - 34, 96, GAME_W - 350, 120);
-    // Mi club y fichajes
-    const clubBtn = new Button(
-      this,
-      470,
-      40,
-      "⚡ Mi club",
-      () => this.scene.start("club"),
-      { w: 170, h: 44, color: 0xff7a3d },
-    );
-    const gachaBtn = new Button(
-      this,
-      650,
-      40,
-      "Fichajes",
-      () => this.scene.start("gacha"),
-      { w: 160, h: 44, color: YELLOW },
-    );
-    const coins = text(this, 760, 40, "", 16, "#ffd23f", {
-      fontStyle: "bold",
-      strokeThickness: 4,
-    }).setOrigin(0, 0.5);
-    coins.setText(`● ${loadClub()?.coins ?? 0}`);
-    if (!loadClub())
-      [clubBtn, gachaBtn, coins].forEach((o) => o.setVisible(false));
+    this.drawTopBar();
   }
 
   private defaults(): Selection {
-    const home = TEAMS.find((t) => t.id === "ie3-inazuma-japan") ?? TEAMS[0];
-    const away =
-      TEAMS.find((t) => t.id === "ie3-desert-lion") ??
-      TEAMS.find((t) => t !== home) ??
-      home;
-    return { home: home.id, away: away.id, focus: "away" };
+    const home = TEAMS.find((t) => t.id === 'ie3-inazuma-japan') ?? TEAMS[0];
+    const away = TEAMS.find((t) => t.id === 'ie3-desert-lion') ?? TEAMS.find((t) => t !== home) ?? home;
+    return { home: home.id, away: away.id, focus: 'away' };
   }
 
   // ----------------------------------------------------------------- fondo
 
-  /** Las dos mitades con el color de cada equipo, tramado de puntos y líneas de velocidad, como en una viñeta. */
-  private drawSplit(): void {
+  private drawBackground(): void {
     const g = this.bg.clear();
     const home = teamById(this.sel.home);
     const away = teamById(this.sel.away);
-    g.fillStyle(NIGHT).fillRect(0, 0, GAME_W, GAME_H);
-    const left = [pt(0, 0), ...BOLT.map(([x, y]) => pt(x, y)), pt(0, SHELF_Y)];
-    const right = [
-      pt(GAME_W, 0),
-      ...BOLT.map(([x, y]) => pt(x, y)),
-      pt(GAME_W, SHELF_Y),
-    ];
-    g.fillStyle(dim(home.colors.shirt)).fillPoints(left, true);
-    g.fillStyle(dim(away.colors.shirt)).fillPoints(right, true);
-    // líneas de velocidad que salen de cada escudo
-    for (const [side, team] of [
-      ["home", home],
-      ["away", away],
-    ] as const) {
-      g.lineStyle(2, hex(team.colors.accent), 0.16);
-      for (let i = 0; i < 28; i++) {
-        const a = (i / 28) * Math.PI * 2;
-        const r0 = 128 + (i % 3) * 20;
-        g.lineBetween(
-          CX[side] + Math.cos(a) * r0,
-          EMBLEM_Y + Math.sin(a) * r0,
-          CX[side] + Math.cos(a) * 520,
-          EMBLEM_Y + Math.sin(a) * 520,
-        );
-      }
+    g.fillGradientStyle(THEME.deep, THEME.deep, THEME.night, THEME.night, 1, 1, 1, 1).fillRect(0, 0, GAME_W, GAME_H);
+    // cada mitad con un foco del color de su equipo, partidas en diagonal
+    g.fillStyle(dim(home.colors.shirt, 0.8)).fillPoints([pt(0, 0), pt(700, 0), pt(580, SHELF.y), pt(0, SHELF.y)], true);
+    g.fillStyle(dim(away.colors.shirt, 0.8)).fillPoints([pt(700, 0), pt(GAME_W, 0), pt(GAME_W, SHELF.y), pt(580, SHELF.y)], true);
+    glow(g, 200, 120, 520, hex(home.colors.accent), 0.16);
+    glow(g, GAME_W - 200, 120, 520, hex(away.colors.accent), 0.16);
+    g.fillStyle(0xffffff, 0.025);
+    for (let i = 0; i < 6; i++) {
+      const bx = 60 + i * 220;
+      g.fillPoints([pt(bx - 20, 0), pt(bx + 20, 0), pt(bx + 200, SHELF.y), pt(bx + 90, SHELF.y)], true);
     }
-    // trama de puntos, más densa hacia el borde de abajo
-    for (let y = 250; y < SHELF_Y; y += 14) {
-      const r = ((y - 250) / (SHELF_Y - 250)) * 2.6;
-      g.fillStyle(0x000000, 0.22);
-      for (let x = (y / 14) % 2 ? 7 : 0; x < GAME_W; x += 14)
-        g.fillCircle(x, y, r);
-    }
-    // sombra arriba para el título
-    g.fillGradientStyle(
-      0x000000,
-      0x000000,
-      0x000000,
-      0x000000,
-      0.55,
-      0.55,
-      0,
-      0,
-    ).fillRect(0, 0, GAME_W, 90);
+    g.lineStyle(1, 0xffffff, 0.025);
+    for (let gx = 0; gx <= GAME_W; gx += 40) g.lineBetween(gx, 0, gx, SHELF.y);
+    for (let gy = 0; gy <= SHELF.y; gy += 40) g.lineBetween(0, gy, GAME_W, gy);
+    g.lineStyle(2, THEME.yellow, 0.5).lineBetween(700, 0, 580, SHELF.y);
+    g.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0, 0, 0.45, 0.45).fillRect(0, SHELF.y - 120, GAME_W, 120);
   }
 
-  private drawBolt(): void {
-    const g = this.add.graphics();
-    const line = (width: number, color: number, alpha: number) => {
-      g.lineStyle(width, color, alpha).beginPath();
-      BOLT.forEach(([x, y], i) => (i ? g.lineTo(x, y) : g.moveTo(x, y)));
-      g.strokePath();
-    };
-    line(26, YELLOW, 0.12);
-    line(12, YELLOW, 0.35);
-    line(5, 0xfff6c8, 1);
-    this.tweens.add({
-      targets: g,
-      alpha: 0.7,
-      duration: 900,
-      yoyo: true,
-      repeat: -1,
-      ease: "Sine.inOut",
-    });
-  }
-
-  private drawHeader(): void {
-    const g = this.add.graphics();
-    g.fillStyle(YELLOW).fillPoints(
-      [
-        pt(24, 18),
-        pt(44, 18),
-        pt(36, 34),
-        pt(46, 34),
-        pt(26, 60),
-        pt(31, 40),
-        pt(20, 40),
-      ],
-      true,
-    );
-    display(this, 54, 8, "InaMatch", 46);
-    text(this, 56, 58, "¡Elige a los equipos!", 15, "#ffffff", {
-      fontStyle: "italic",
-    });
-    text(
-      this,
-      GAME_W - 24,
-      30,
-      "Proyecto de fans sin ánimo de lucro\nInazuma Eleven es una marca de LEVEL-5",
-      11,
-      "#c4cddc",
-      {
-        align: "right",
-        strokeThickness: 3,
-      },
-    ).setOrigin(1, 0.5);
+  private drawTopBar(): void {
+    topBar(this, { title: 'InaMatch', subtitle: 'Elige los equipos y ¡a jugar!' });
+    const save = loadClub();
+    soundButton(this, GAME_W - 30, 32, GAME_W - 350, 76);
+    if (!save) return;
+    coinChip(this, GAME_W - 64, 32, save.coins).setDepth(101);
+    new Button(this, GAME_W - 222, 32, 'Fichajes', () => this.scene.start('gacha', { from: 'menu' }), { w: 120, h: 38, variant: 'secondary', size: 15 }).setDepth(101);
+    new Button(this, GAME_W - 366, 32, 'Mi club', () => this.scene.start('club'), { w: 140, h: 38, color: THEME.orange, size: 15, icon: '⚡' }).setDepth(101);
   }
 
   // ------------------------------------------------------------------ lados
@@ -249,227 +117,92 @@ export class MenuScene extends Phaser.Scene {
     const c = this.sides[side];
     this.tweens.killTweensOf(c.list);
     c.removeAll(true);
-    const cx = CX[side];
     const team = teamById(this.sel[side]);
     const s = SIDE[side];
     const choosing = this.sel.focus === side;
+    const x0 = CARD_X[side];
+    const y0 = CARD.y;
+    const accent = hex(team.colors.accent);
 
-    // destello giratorio detrás del escudo
-    const rays = this.add.graphics({ x: cx, y: EMBLEM_Y });
-    for (let i = 0; i < 16; i++) {
-      const a = (i / 16) * Math.PI * 2;
-      rays.fillStyle(
-        i % 2 ? 0xffffff : hex(team.colors.accent),
-        i % 2 ? 0.07 : 0.22,
-      );
-      rays.fillTriangle(
-        0,
-        0,
-        Math.cos(a - 0.12) * 128,
-        Math.sin(a - 0.12) * 128,
-        Math.cos(a + 0.12) * 128,
-        Math.sin(a + 0.12) * 128,
-      );
+    const g = this.add.graphics();
+    cardPanel(g, x0, y0, CARD.w, CARD.h, { accent: s.color, fill: dim(team.colors.shirt, 0.78), alpha: 0.96, radius: 18 });
+    if (choosing) g.lineStyle(2, THEME.cyan, 0.9).strokeRoundedRect(x0, y0, CARD.w, CARD.h, 18);
+    // destello detrás del escudo
+    const ex = x0 + 118;
+    const ey = y0 + 168;
+    glow(g, ex, ey, 110, accent, 0.5, 8);
+    g.fillStyle(0x000000, 0.3).fillCircle(ex, ey, 88);
+    g.lineStyle(choosing ? 3 : 2, choosing ? THEME.cyan : 0xffffff, choosing ? 0.9 : 0.25).strokeCircle(ex, ey, 88);
+    c.add(g);
+    const rays = this.add.graphics({ x: ex, y: ey });
+    for (let i = 0; i < 12; i++) {
+      const a = (i / 12) * Math.PI * 2;
+      rays.fillStyle(0xffffff, 0.05).fillTriangle(0, 0, Math.cos(a - 0.1) * 86, Math.sin(a - 0.1) * 86, Math.cos(a + 0.1) * 86, Math.sin(a + 0.1) * 86);
     }
-    rays.fillStyle(0x000000, 0.28).fillCircle(0, 0, 82);
-    rays
-      .lineStyle(4, choosing ? YELLOW : 0xffffff, choosing ? 0.9 : 0.35)
-      .strokeCircle(0, 0, 82);
-    this.tweens.add({
-      targets: rays,
-      angle: side === "home" ? 360 : -360,
-      duration: 40000,
-      repeat: -1,
-    });
+    this.tweens.add({ targets: rays, angle: side === 'home' ? 360 : -360, duration: 50000, repeat: -1 });
     c.add(rays);
+    c.add(this.add.image(ex, ey, texKey.emblem(team.id)).setDisplaySize(136, 136));
 
-    const emblem = this.add
-      .image(cx, EMBLEM_Y, texKey.emblem(team.id))
-      .setDisplaySize(EMBLEM, EMBLEM);
-    c.add(emblem);
+    // etiqueta TÚ / RIVAL y la pista de qué lado se elige
+    c.add(chip(this, x0 + 18, y0 + 24, s.label, s.color, { size: 12, h: 24, padX: 12, textColor: '#ffffff' }));
+    if (choosing) c.add(label(this, x0 + (side === 'home' ? 86 : 104), y0 + 24, 'eligiendo en la estantería ▾', 11, THEME.cyanCss, { fontStyle: 'italic' }).setOrigin(0, 0.5));
 
-    // etiqueta TÚ / RIVAL, inclinada, encima del escudo
-    const tag = this.add.graphics();
-    tag
-      .fillStyle(s.color)
-      .fillPoints(
-        [pt(cx - 54, 84), pt(cx + 62, 84), pt(cx + 52, 108), pt(cx - 64, 108)],
-        true,
-      );
-    c.add(tag);
-    c.add(
-      text(this, cx - 1, 96, s.label, 16, "#ffffff", {
-        fontStyle: "italic bold",
-      }).setOrigin(0.5),
-    );
-
-    // media en un hexágono, a un lado del escudo
-    const hx = cx + (side === "home" ? -112 : 112);
-    const hy = EMBLEM_Y - 58;
-    const hexG = this.add.graphics();
-    const hexPts = Array.from({ length: 6 }, (_, i) =>
-      pt(
-        hx + Math.cos((i * Math.PI) / 3) * 34,
-        hy + Math.sin((i * Math.PI) / 3) * 34,
-      ),
-    );
-    hexG.fillStyle(NIGHT, 0.9).fillPoints(hexPts, true);
-    hexG.lineStyle(3, YELLOW).strokePoints(hexPts, true);
-    c.add(hexG);
-    c.add(
-      text(this, hx, hy - 9, String(teamRating(team)), 24, "#ffd23f", {
-        fontStyle: "bold",
-      }).setOrigin(0.5),
-    );
-    c.add(text(this, hx, hy + 15, "MEDIA", 10, "#ffffff").setOrigin(0.5));
-
-    // flechas
+    // flechas a los lados del escudo
     for (const dir of [-1, 1]) {
-      const ax = cx + dir * 150;
+      const ax = ex + dir * 106;
       const arrow = this.add.graphics();
       const draw = (hover: boolean) => {
-        arrow.clear().fillStyle(hover ? YELLOW : 0xffffff, hover ? 1 : 0.85);
-        arrow.fillPoints(
-          [
-            pt(ax + dir * 16, EMBLEM_Y),
-            pt(ax - dir * 10, EMBLEM_Y - 22),
-            pt(ax - dir * 10, EMBLEM_Y + 22),
-          ],
-          true,
-        );
+        arrow.clear().fillStyle(hover ? THEME.yellow : 0xffffff, hover ? 1 : 0.7);
+        arrow.fillPoints([pt(ax + dir * 9, ey), pt(ax - dir * 7, ey - 14), pt(ax - dir * 7, ey + 14)], true);
       };
       draw(false);
-      const zone = this.add
-        .zone(ax - 24, EMBLEM_Y - 34, 48, 68)
-        .setOrigin(0)
-        .setInteractive({ useHandCursor: true });
-      zone
-        .on("pointerover", () => draw(true))
-        .on("pointerout", () => draw(false));
-      zone.on("pointerdown", () => this.cycle(side, dir));
+      const zone = this.add.zone(ax - 16, ey - 26, 32, 52).setOrigin(0).setInteractive({ useHandCursor: true });
+      zone.on('pointerover', () => draw(true)).on('pointerout', () => draw(false));
+      zone.on('pointerdown', () => this.cycle(side, dir));
       c.add([arrow, zone]);
     }
 
-    // nombre en una banda blanca inclinada, como los rótulos del anime
-    const band = this.add.graphics();
-    band
-      .fillStyle(0x000000, 0.35)
-      .fillPoints(
-        [
-          pt(cx - 196, 294),
-          pt(cx + 214, 294),
-          pt(cx + 202, 338),
-          pt(cx - 208, 338),
-        ],
-        true,
-      );
-    band
-      .fillStyle(0xffffff)
-      .fillPoints(
-        [
-          pt(cx - 200, 288),
-          pt(cx + 210, 288),
-          pt(cx + 198, 332),
-          pt(cx - 212, 332),
-        ],
-        true,
-      );
-    band
-      .fillStyle(hex(team.colors.accent))
-      .fillPoints(
-        [
-          pt(cx - 212, 332),
-          pt(cx + 198, 332),
-          pt(cx + 196, 338),
-          pt(cx - 214, 338),
-        ],
-        true,
-      );
-    c.add(band);
-    const name = display(this, cx - 2, 311, team.name, 34, "#0b1a2e", {
-      strokeThickness: 0,
-      shadow: { offsetX: 0, offsetY: 0, color: "#000", blur: 0, fill: false },
-    }).setOrigin(0.5);
-    for (let size = 34; name.width > 380 && size > 14; )
-      name.setFontSize(--size);
+    // nombre, temporada y posición en la lista
+    const tx = x0 + 236;
+    const name = display(this, tx, y0 + 50, team.name, 36, '#ffffff').setOrigin(0, 0.5);
+    fitWidth(name, CARD.w - 252, 18);
     c.add(name);
-    // de qué juego es, con su logo
     const list = teamsOf(seasonOf(team));
     const season = getSeason(seasonOf(team));
-    const info = text(
-      this,
-      cx + 14,
-      356,
-      `${season.name}  ·  ${list.indexOf(team) + 1}/${list.length}`,
-      13,
-      "#e3e9f2",
-      { fontStyle: "italic" },
-    ).setOrigin(0.5);
-    c.add(info);
-    if (season.icon && this.textures.exists(`series:${season.icon}`)) {
-      c.add(
-        this.add
-          .image(info.x - info.width / 2 - 16, 356, `series:${season.icon}`)
-          .setDisplaySize(22, 23),
-      );
-    }
+    const icon = season.icon && this.textures.exists(`series:${season.icon}`) ? `series:${season.icon}` : undefined;
+    const sc = chip(this, tx, y0 + 86, `${season.name}  ·  ${list.indexOf(team) + 1}/${list.length}`, THEME.panelLight, { size: 11, h: 22, textColor: THEME.text, icon });
+    c.add(sc);
 
-    // barras de línea, como las de FP/TP del partido
+    // media grande con estrellas
+    const rating = teamRating(team);
+    c.add(display(this, tx, y0 + 132, String(rating), 58, THEME.yellowCss, { strokeThickness: 0, shadow: { offsetX: 0, offsetY: 3, color: '#000', blur: 0, fill: true } }).setOrigin(0, 0.5));
+    c.add(label(this, tx + 2, y0 + 165, 'MEDIA', 10, THEME.muted, { fontStyle: 'bold' }));
+    c.add(starRow(this, tx + 82, y0 + 124, ratingStars(rating), 9));
+    const f = getFormation(team.formation);
+    const layout = ['DF', 'MF', 'FW'].map((pos) => f.slots.filter((sl) => sl.pos === pos).length).join('-');
+    c.add(label(this, tx + 84, y0 + 146, `${f.name}  ·  ${layout}`, 12, THEME.text, { fontStyle: 'italic' }).setOrigin(0, 0.5));
+
+    // líneas
     const lines = lineRatings(team);
     const rows = [
-      ["Ataque", lines.att, 0xff7a3d],
-      ["Medio", lines.mid, 0x46d68c],
-      ["Defensa", lines.def, 0x4fa3ff],
+      ['Ataque', lines.att, THEME.orange],
+      ['Medio', lines.mid, THEME.green],
+      ['Defensa', lines.def, 0x4fa3ff],
     ] as const;
-    rows.forEach(([label, value, color], i) => {
-      const y = 384 + i * 20;
-      const x0 = cx - 150;
-      const bar = this.add.graphics();
-      bar
-        .fillStyle(0x000000, 0.45)
-        .fillPoints(
-          [
-            pt(x0 + 86, y - 5),
-            pt(x0 + 266, y - 5),
-            pt(x0 + 263, y + 5),
-            pt(x0 + 83, y + 5),
-          ],
-          true,
-        );
-      const w = Phaser.Math.Clamp((value - 30) / 60, 0.05, 1) * 180;
-      bar
-        .fillStyle(color)
-        .fillPoints(
-          [
-            pt(x0 + 86, y - 5),
-            pt(x0 + 86 + w, y - 5),
-            pt(x0 + 83 + w, y + 5),
-            pt(x0 + 83, y + 5),
-          ],
-          true,
-        );
-      c.add(bar);
-      c.add(
-        text(this, x0, y, label, 13, "#ffffff", {
-          fontStyle: "italic bold",
-        }).setOrigin(0, 0.5),
-      );
-      c.add(
-        text(this, x0 + 300, y, String(value), 14, "#ffffff", {
-          fontStyle: "bold",
-        }).setOrigin(1, 0.5),
-      );
-    });
+    rows.forEach(([cap, value, color], i) => c.add(meter(this, tx + 70, y0 + 198 + i * 24, 160, value - 30, 60, color, cap, String(value))));
 
-    // pulsar en cualquier parte de la mitad la elige para la estantería
-    const hit = this.add
-      .zone(cx - 250, 80, 500, SHELF_Y - 90)
-      .setOrigin(0)
-      .setInteractive();
-    hit.on("pointerdown", () => this.setFocus(side));
-    hit.on("wheel", (_p: Phaser.Input.Pointer, _dx: number, dy: number) =>
-      this.cycle(side, dy > 0 ? 1 : -1),
-    );
+    // la estrella del equipo
+    const best = [...team.players.slice(0, 11)].sort((a, b) => playerOverall(b) - playerOverall(a))[0];
+    if (best) {
+      const by = y0 + CARD.h - 34;
+      c.add(label(this, tx, by, 'ESTRELLA', 10, THEME.muted, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+      c.add(label(this, tx + 62, by, `${best.name}  ·  ${best.position}  ·  ${playerOverall(best)}`, 13, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5));
+    }
+
+    // pulsar en cualquier parte de la tarjeta la elige para la estantería
+    const hit = this.add.zone(x0, y0, CARD.w, CARD.h).setOrigin(0).setInteractive({ useHandCursor: !choosing });
+    hit.on('pointerdown', () => this.setFocus(side));
+    hit.on('wheel', (_p: Phaser.Input.Pointer, _dx: number, dy: number) => this.cycle(side, dy > 0 ? 1 : -1));
     c.add(hit);
     c.sendToBack(hit);
   }
@@ -477,97 +210,60 @@ export class MenuScene extends Phaser.Scene {
   // ----------------------------------------------------------------- centro
 
   private drawCenter(): void {
-    const vs = display(this, 646, EMBLEM_Y - 6, "VS", 110, "#ffd23f", {
-      strokeThickness: 12,
-    }).setOrigin(0.5);
-    this.tweens.add({
-      targets: vs,
-      scale: 1.06,
-      duration: 700,
-      yoyo: true,
-      repeat: -1,
-      ease: "Sine.inOut",
-    });
+    const vs = display(this, 640, 200, 'VS', 96, THEME.yellowCss, { strokeThickness: 10 }).setOrigin(0.5);
+    this.tweens.add({ targets: vs, scale: 1.05, duration: 800, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
 
-    const round = (
-      x: number,
-      y: number,
-      icon: string,
-      hint: string,
-      onClick: () => void,
-    ) => {
+    const round = (x: number, y: number, icon: string, hint: string, onClick: () => void) => {
       const g = this.add.graphics();
       const draw = (hover: boolean) => {
-        g.clear()
-          .fillStyle(hover ? YELLOW : NIGHT, 0.92)
-          .fillCircle(x, y, 27);
-        g.lineStyle(3, YELLOW).strokeCircle(x, y, 27);
+        g.clear().fillStyle(hover ? THEME.yellow : THEME.panel, 0.95).fillCircle(x, y, 24);
+        g.lineStyle(2, hover ? THEME.yellow : 0xffffff, hover ? 1 : 0.3).strokeCircle(x, y, 24);
       };
       draw(false);
-      const label = text(this, x, y, icon, 22, "#ffffff").setOrigin(0.5);
-      const tip = text(this, x, y + 42, hint, 12, "#ffffff", {
-        fontStyle: "italic",
-      })
-        .setOrigin(0.5)
-        .setAlpha(0);
+      const lbl = text(this, x, y, icon, 20, '#ffffff', { strokeThickness: 0 }).setOrigin(0.5);
+      const tip = label(this, x, y + 38, hint, 12, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5).setAlpha(0);
       this.add
-        .zone(x - 28, y - 28, 56, 56)
+        .zone(x - 26, y - 26, 52, 52)
         .setOrigin(0)
         .setInteractive({ useHandCursor: true })
-        .on(
-          "pointerover",
-          () => (draw(true), label.setColor("#0b1a2e"), tip.setAlpha(1)),
-        )
-        .on(
-          "pointerout",
-          () => (draw(false), label.setColor("#ffffff"), tip.setAlpha(0)),
-        )
-        .on("pointerdown", onClick);
+        .on('pointerover', () => (draw(true), lbl.setColor(THEME.ink), tip.setAlpha(1)))
+        .on('pointerout', () => (draw(false), lbl.setColor('#ffffff'), tip.setAlpha(0)))
+        .on('pointerdown', onClick);
     };
-    round(610, 296, "⇄", "Cambiar lados", () => this.swap());
-    round(680, 296, "⚄", "Rival aleatorio", () => this.randomRival());
+    round(606, 290, '⇄', 'Cambiar lados', () => this.swap());
+    round(674, 290, '⚄', 'Rival al azar', () => this.randomRival());
+  }
 
-    // botón principal: un rayo con el texto
-    const bx = 640;
-    const by = 392;
+  /** Fila entre las tarjetas y la estantería: el botón de seguir, las teclas y para qué lado se elige. */
+  private renderCta(): void {
+    const c = this.ctaRow;
+    c.removeAll(true);
+    c.add(new Button(this, 640, CTA_Y, '¡A la formación!', () => this.next(), { w: 300, h: 54, variant: 'primary', size: 22, hint: '⏎' }));
+    c.add(label(this, 28, CTA_Y, '← →  equipo     ↑ ↓  temporada     Tab  lado     Rueda del ratón sobre una tarjeta', 11, THEME.muted).setOrigin(0, 0.5));
+    // para qué lado se elige en la estantería
+    const sx = GAME_W - 28;
     const g = this.add.graphics();
-    const shape = (dx: number, dy: number) => [
-      pt(bx - 112 + dx, by - 30 + dy),
-      pt(bx + 126 + dx, by - 30 + dy),
-      pt(bx + 112 + dx, by + 30 + dy),
-      pt(bx - 126 + dx, by + 30 + dy),
-    ];
-    const draw = (hover: boolean) => {
-      g.clear().fillStyle(0x000000, 0.5).fillPoints(shape(5, 6), true);
-      g.fillStyle(hover ? 0xffe27a : YELLOW).fillPoints(shape(0, 0), true);
-      g.fillStyle(0xffffff, 0.35).fillPoints(
-        [
-          pt(bx - 108, by - 26),
-          pt(bx + 121, by - 26),
-          pt(bx + 117, by - 6),
-          pt(bx - 113, by - 6),
-        ],
-        true,
-      );
-    };
-    draw(false);
-    text(this, bx, by, "¡A la formación!", 22, "#0b1a2e", {
-      fontStyle: "italic bold",
-      strokeThickness: 0,
-    }).setOrigin(0.5);
-    this.add
-      .zone(bx - 126, by - 30, 252, 60)
-      .setOrigin(0)
-      .setInteractive({ useHandCursor: true })
-      .on("pointerover", () => draw(true))
-      .on("pointerout", () => draw(false))
-      .on("pointerdown", () => this.next());
+    const segW = 78;
+    const x0 = sx - segW * 2 - 2;
+    g.fillStyle(THEME.panel, 0.95).fillRoundedRect(x0 - 2, CTA_Y - 16, segW * 2 + 4, 32, 16);
+    (['home', 'away'] as const).forEach((side, i) => {
+      const on = this.sel.focus === side;
+      const x = x0 + i * segW;
+      if (on) g.fillStyle(SIDE[side].color).fillRoundedRect(x, CTA_Y - 14, segW, 28, 14);
+      const t = label(this, x + segW / 2, CTA_Y, SIDE[side].label, 12, on ? '#ffffff' : THEME.muted, { fontStyle: 'bold' }).setOrigin(0.5);
+      const z = this.add.zone(x, CTA_Y - 16, segW, 32).setOrigin(0).setInteractive({ useHandCursor: true });
+      z.on('pointerdown', () => this.setFocus(side));
+      c.add([t, z]);
+    });
+    c.add(label(this, x0 - 12, CTA_Y, 'eligiendo para', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(1, 0.5));
+    c.add(g);
+    c.sendToBack(g);
   }
 
   // ------------------------------------------------------------- estantería
 
   /**
-   * Abajo: una fila con el logo de cada juego de la saga (los de la enciclopedia oficial) y, debajo, todos los
+   * Abajo: pestañas con el logo de cada juego de la saga (los de la enciclopedia oficial) y, debajo, todos los
    * escudos del juego elegido, en hasta tres filas, para elegir de un vistazo.
    */
   private renderShelf(): void {
@@ -575,221 +271,99 @@ export class MenuScene extends Phaser.Scene {
     this.tweens.killTweensOf(c.list);
     c.removeAll(true);
     const g = this.add.graphics();
-    g.fillStyle(0x060b15, 0.96).fillPoints(
-      [
-        pt(0, SHELF_Y + 12),
-        pt(GAME_W, SHELF_Y - 8),
-        pt(GAME_W, GAME_H),
-        pt(0, GAME_H),
-      ],
-      true,
-    );
-    g.lineStyle(3, YELLOW, 0.9).lineBetween(
-      0,
-      SHELF_Y + 12,
-      GAME_W,
-      SHELF_Y - 8,
-    );
-    // banda azul de los logos, como la barra de juegos de la enciclopedia
-    g.fillStyle(ZUKAN_BLUE, 0.22).fillRect(0, SHELF_Y + 22, GAME_W, 74);
-    g.fillStyle(ZUKAN_BLUE, 0.6).fillRect(0, SHELF_Y + 94, GAME_W, 2);
+    cardPanel(g, SHELF.x, SHELF.y, SHELF.w, SHELF.h, { plain: true, alpha: 0.9, radius: 16 });
     c.add(g);
 
-    // logos de los juegos
+    // pestañas de los juegos
     const seasons = seasonsWithTeams();
-    const step = Math.min(84, (GAME_W - 420) / seasons.length);
-    const x0 = 28 + step / 2;
-    const ty = SHELF_Y + 59;
-    seasons.forEach((s, i) => {
-      const x = x0 + i * step;
+    const tabW = 96;
+    const tabH = 36;
+    const ty = SHELF.y + 30;
+    let tx = SHELF.x + 16;
+    const tip = text(this, 0, 0, '', 13, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 5 }).setOrigin(0.5).setVisible(false);
+    seasons.forEach((s) => {
       const on = s.id === this.shelfSeason;
-      const tile = this.add.graphics();
+      const x = tx;
+      const tab = this.add.graphics();
+      const color = on ? THEME.yellow : s.id === 'club' ? THEME.orange : THEME.panelLight;
       const draw = (hover: boolean) => {
-        const w = step - 10;
-        const pts = [
-          pt(x - w / 2 + 8, ty - 32),
-          pt(x + w / 2 + 2, ty - 32),
-          pt(x + w / 2 - 8, ty + 32),
-          pt(x - w / 2 - 2, ty + 32),
-        ];
-        tile.clear();
-        tile.fillStyle(0x000000, 0.4).fillPoints(
-          pts.map((p) => pt(p.x + 3, p.y + 4)),
-          true,
-        );
-        tile
-          .fillStyle(
-            on
-              ? YELLOW
-              : s.id === "club"
-                ? 0xff7a3d
-                : hover
-                  ? 0x3b95f0
-                  : ZUKAN_BLUE,
-          )
-          .fillPoints(pts, true);
-        tile
-          .fillStyle(0xffffff, on ? 0.35 : 0.16)
-          .fillPoints(
-            [
-              pts[0],
-              pts[1],
-              pt(pts[1].x - 3, ty - 20),
-              pt(pts[0].x - 3, ty - 20),
-            ],
-            true,
-          );
-        if (on) tile.lineStyle(3, 0xffffff).strokePoints(pts, true);
+        tab.clear().fillStyle(color, 1).fillRoundedRect(x, ty - tabH / 2, tabW - 6, tabH, 10);
+        if (hover && !on) tab.lineStyle(1, 0xffffff, 0.6).strokeRoundedRect(x, ty - tabH / 2, tabW - 6, tabH, 10);
+        else if (!on) tab.lineStyle(1, 0xffffff, 0.1).strokeRoundedRect(x, ty - tabH / 2, tabW - 6, tabH, 10);
       };
       draw(false);
-      c.add(tile);
+      c.add(tab);
+      let lx = x + 12;
       if (s.icon && this.textures.exists(`series:${s.icon}`)) {
-        const icon = this.add
-          .image(x, ty - 2, `series:${s.icon}`)
-          .setDisplaySize(50, 53);
+        const icon = this.add.image(x + 22, ty, `series:${s.icon}`).setDisplaySize(24, 26);
         if (on) icon.setTint(0x0b1a2e);
         c.add(icon);
-      } else if (s.id === "club") {
-        c.add(
-          this.add
-            .image(x, ty - 8, texKey.emblem("club"))
-            .setDisplaySize(36, 36),
-        );
-        c.add(
-          text(this, x, ty + 20, "MI CLUB", 11, on ? "#0b1a2e" : "#ffffff", {
-            fontStyle: "bold",
-            strokeThickness: on ? 0 : 3,
-          }).setOrigin(0.5),
-        );
-      } else {
-        c.add(
-          display(this, x, ty - 4, s.short, 34, on ? "#0b1a2e" : "#ffffff", {
-            strokeThickness: 0,
-            shadow: {
-              offsetX: 0,
-              offsetY: 0,
-              color: "#000",
-              blur: 0,
-              fill: false,
-            },
-          }).setOrigin(0.5),
-        );
+        lx = x + 40;
+      } else if (s.id === 'club') {
+        c.add(this.add.image(x + 22, ty, texKey.emblem('club')).setDisplaySize(24, 24));
+        lx = x + 40;
       }
-      const zone = this.add
-        .zone(x - step / 2, ty - 34, step, 68)
-        .setOrigin(0)
-        .setInteractive({ useHandCursor: true });
-      zone.on(
-        "pointerover",
-        () => (
-          on ? null : draw(true),
-          tip
-            .setText(`${s.name} · ${teamsOf(s.id).length}`)
-            .setPosition(Phaser.Math.Clamp(x, 120, GAME_W - 120), ty - 46)
-            .setVisible(true),
-          c.bringToTop(tip)
-        ),
-      );
-      zone.on("pointerout", () => (draw(false), tip.setVisible(false)));
-      zone.on("pointerdown", () => {
+      c.add(label(this, lx, ty, s.short, 13, inkOn(color), { fontStyle: 'bold' }).setOrigin(0, 0.5));
+      const zone = this.add.zone(x, ty - tabH / 2, tabW - 6, tabH).setOrigin(0).setInteractive({ useHandCursor: true });
+      zone.on('pointerover', () => {
+        draw(true);
+        tip.setText(`${s.name} · ${teamsOf(s.id).length} equipos`).setPosition(Phaser.Math.Clamp(x + 45, 120, GAME_W - 140), ty - 30).setVisible(true);
+        c.bringToTop(tip);
+      });
+      zone.on('pointerout', () => (draw(false), tip.setVisible(false)));
+      zone.on('pointerdown', () => {
         this.shelfSeason = s.id;
         this.renderShelf();
       });
       c.add(zone);
+      tx += tabW;
     });
-
-    // a la derecha: el juego elegido y para qué lado se elige
     const season = getSeason(this.shelfSeason);
     const teams = teamsOf(this.shelfSeason);
-    const rx = GAME_W - 26;
-    const title = display(this, rx, ty - 14, season.name, 30, "#ffffff", {
-      strokeThickness: 5,
-    }).setOrigin(1, 0.5);
-    for (let size = 30; title.width > 360 && size > 16; )
-      title.setFontSize(--size);
-    c.add(title);
     const who = SIDE[this.sel.focus];
-    const whoText = text(this, rx, ty + 16, who.label, 15, who.css, {
-      fontStyle: "italic bold",
-    }).setOrigin(1, 0.5);
-    c.add(whoText);
-    c.add(
-      text(
-        this,
-        rx - whoText.width - 6,
-        ty + 16,
-        `${teams.length} ${teams.length === 1 ? "equipo" : "equipos"}  ·  eligiendo:`,
-        13,
-        "#c9d3e0",
-        { fontStyle: "italic" },
-      ).setOrigin(1, 0.5),
-    );
+    c.add(label(this, SHELF.x + SHELF.w - 18, ty - 8, season.name, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(1, 0.5));
+    c.add(label(this, SHELF.x + SHELF.w - 18, ty + 10, `${teams.length} ${teams.length === 1 ? 'equipo' : 'equipos'}  ·  pulsa uno para ponerlo como `, 11, THEME.muted).setOrigin(1, 0.5));
+    const whoT = label(this, SHELF.x + SHELF.w - 18, ty + 10, who.label, 11, who.css, { fontStyle: 'bold' }).setOrigin(1, 0.5);
+    c.add(whoT);
+    (c.list[c.list.length - 2] as Phaser.GameObjects.Text).setX(SHELF.x + SHELF.w - 18 - whoT.width - 2);
 
     // escudos del juego: hasta tres filas, centradas
     const rows = teams.length > 30 ? 3 : teams.length > 15 ? 2 : 1;
     const perRow = Math.ceil(teams.length / rows);
-    const size = rows === 3 ? 44 : rows === 2 ? 50 : 56;
-    const stepX = Math.min(size + 20, (GAME_W - 60) / perRow);
-    const area = { top: SHELF_Y + 104, bottom: GAME_H - 6 };
+    const size = rows === 3 ? 42 : rows === 2 ? 52 : 60;
+    const stepX = Math.min(size + 26, (SHELF.w - 40) / perRow);
+    const area = { top: SHELF.y + 56, bottom: SHELF.y + SHELF.h - 6 };
     const stepY = (area.bottom - area.top) / rows;
-    const tip = text(this, 0, 0, "", 13, "#ffffff", {
-      fontStyle: "italic bold",
-      strokeThickness: 5,
-    })
-      .setOrigin(0.5)
-      .setVisible(false);
     teams.forEach((team, i) => {
       const row = Math.floor(i / perRow);
       const inRow = row === rows - 1 ? teams.length - perRow * row : perRow;
-      const x =
-        GAME_W / 2 - ((inRow - 1) * stepX) / 2 + (i - perRow * row) * stepX;
+      const x = GAME_W / 2 - ((inRow - 1) * stepX) / 2 + (i - perRow * row) * stepX;
       const y = area.top + stepY * (row + 0.5);
       const ring = this.add.graphics();
-      const mark =
-        team.id === this.sel.home
-          ? SIDE.home.color
-          : team.id === this.sel.away
-            ? SIDE.away.color
-            : null;
-      const r = size / 2 + 4;
-      if (mark !== null)
-        ring
-          .fillStyle(mark, 0.35)
-          .fillCircle(x, y, r)
-          .lineStyle(3, mark)
-          .strokeCircle(x, y, r);
-      const img = this.add
-        .image(x, y, texKey.emblem(team.id))
-        .setDisplaySize(size, size);
+      const mark = team.id === this.sel.home ? SIDE.home : team.id === this.sel.away ? SIDE.away : null;
+      const r = size / 2 + 5;
+      if (mark) {
+        ring.fillStyle(mark.color, 0.3).fillCircle(x, y, r).lineStyle(2.5, mark.color).strokeCircle(x, y, r);
+        const tag = chip(this, x, y + r - 6, mark.label, mark.color, { size: 8, h: 13, padX: 5, textColor: '#ffffff' });
+        tag.setX(x - tag.width / 2);
+        c.add(tag);
+      }
+      const img = this.add.image(x, y, texKey.emblem(team.id)).setDisplaySize(size, size);
       img.setInteractive({ useHandCursor: true });
-      img.on("pointerover", () => {
+      img.on('pointerover', () => {
         c.bringToTop(img);
-        this.tweens.add({
-          targets: img,
-          displayWidth: size + 14,
-          displayHeight: size + 14,
-          duration: 100,
-        });
-        tip
-          .setText(team.name)
-          .setPosition(
-            Phaser.Math.Clamp(x, 120, GAME_W - 120),
-            y - size / 2 - 16,
-          )
-          .setVisible(true);
+        this.tweens.add({ targets: img, displayWidth: size + 14, displayHeight: size + 14, duration: 100 });
+        tip.setText(`${team.name}  ·  ${teamRating(team)}`).setPosition(Phaser.Math.Clamp(x, 120, GAME_W - 120), y - size / 2 - 16).setVisible(true);
         c.bringToTop(tip);
       });
-      img.on("pointerout", () => {
-        this.tweens.add({
-          targets: img,
-          displayWidth: size,
-          displayHeight: size,
-          duration: 100,
-        });
+      img.on('pointerout', () => {
+        this.tweens.add({ targets: img, displayWidth: size, displayHeight: size, duration: 100 });
         tip.setVisible(false);
       });
-      img.on("pointerdown", () => this.choose(team));
+      img.on('pointerdown', () => this.choose(team));
       c.add([ring, img]);
+      c.bringToTop(ring);
+      c.bringToTop(img);
     });
     c.add(tip);
   }
@@ -799,21 +373,23 @@ export class MenuScene extends Phaser.Scene {
   private bindKeys(): void {
     const kb = this.input.keyboard;
     if (!kb) return;
-    kb.on("keydown-LEFT", () => this.cycle(this.sel.focus, -1));
-    kb.on("keydown-RIGHT", () => this.cycle(this.sel.focus, 1));
-    kb.on("keydown-UP", () => this.stepSeason(-1));
-    kb.on("keydown-DOWN", () => this.stepSeason(1));
-    kb.on("keydown-TAB", (e: KeyboardEvent) => {
+    kb.on('keydown-LEFT', () => this.cycle(this.sel.focus, -1));
+    kb.on('keydown-RIGHT', () => this.cycle(this.sel.focus, 1));
+    kb.on('keydown-UP', () => this.stepSeason(-1));
+    kb.on('keydown-DOWN', () => this.stepSeason(1));
+    kb.on('keydown-TAB', (e: KeyboardEvent) => {
       e.preventDefault();
-      this.setFocus(this.sel.focus === "home" ? "away" : "home");
+      this.setFocus(this.sel.focus === 'home' ? 'away' : 'home');
     });
-    kb.on("keydown-ENTER", () => this.next());
+    kb.on('keydown-ENTER', () => this.next());
+    kb.on('keydown-R', () => this.randomRival());
   }
 
   private refresh(): void {
-    this.drawSplit();
-    this.renderSide("home");
-    this.renderSide("away");
+    this.drawBackground();
+    this.renderSide('home');
+    this.renderSide('away');
+    this.renderCta();
     this.renderShelf();
   }
 
@@ -824,16 +400,29 @@ export class MenuScene extends Phaser.Scene {
     this.refresh();
   }
 
+  private other(side: Side): Side {
+    return side === 'home' ? 'away' : 'home';
+  }
+
+  /** Pone el equipo en el lado activo; si ya estaba en el otro lado, los intercambia (nunca los dos iguales). */
   private choose(team: TeamData): void {
-    this.sel[this.sel.focus] = team.id;
+    const side = this.sel.focus;
+    if (this.sel[this.other(side)] === team.id) this.sel[this.other(side)] = this.sel[side];
+    this.sel[side] = team.id;
     this.refresh();
   }
 
   private cycle(side: Side, dir: number): void {
     const team = teamById(this.sel[side]);
     const list = teamsOf(seasonOf(team));
-    this.sel[side] =
-      list[(list.indexOf(team) + dir + list.length) % list.length].id;
+    let i = list.indexOf(team);
+    let next = team;
+    for (let n = 0; n < list.length; n++) {
+      i = (i + dir + list.length) % list.length;
+      next = list[i];
+      if (next.id !== this.sel[this.other(side)]) break;
+    }
+    this.sel[side] = next.id;
     this.sel.focus = side;
     this.shelfSeason = seasonOf(team);
     this.refresh();
@@ -844,7 +433,8 @@ export class MenuScene extends Phaser.Scene {
     const seasons = seasonsWithTeams();
     const i = seasons.findIndex((s) => s.id === this.shelfSeason);
     this.shelfSeason = seasons[(i + dir + seasons.length) % seasons.length].id;
-    this.sel[this.sel.focus] = teamsOf(this.shelfSeason)[0].id;
+    const list = teamsOf(this.shelfSeason).filter((t) => t.id !== this.sel[this.other(this.sel.focus)]);
+    if (list.length) this.sel[this.sel.focus] = list[0].id;
     this.refresh();
   }
 
@@ -854,21 +444,19 @@ export class MenuScene extends Phaser.Scene {
   }
 
   private randomRival(): void {
-    const pool = TEAMS.filter((t) => t.id !== this.sel.home);
-    const pick: TeamData | undefined =
-      pool[Math.floor(Math.random() * pool.length)];
+    const pool = TEAMS.filter((t) => t.id !== this.sel.home && t.id !== this.sel.away);
+    const pick: TeamData | undefined = pool[Math.floor(Math.random() * pool.length)];
     if (!pick) return;
     this.sel.away = pick.id;
+    this.sel.focus = 'away';
+    this.shelfSeason = seasonOf(pick);
     this.refresh();
   }
 
   private next(): void {
-    this.registry.set("menuSelection", { ...this.sel });
+    this.registry.set('menuSelection', { ...this.sel });
     const home = teamById(this.sel.home);
     const away = teamById(this.sel.away);
-    this.scene.start("formation", {
-      home: defaultLineup(home),
-      away: defaultLineup(away),
-    });
+    this.scene.start('formation', { home: defaultLineup(home), away: defaultLineup(away) });
   }
 }

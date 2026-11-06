@@ -37,3 +37,17 @@ export function lineRatings(team: TeamData, starters: PlayerData[] = team.player
     def: line(['DF', 'GK'], ['guard', 'body', 'guts']),
   };
 }
+
+/** Media de un jugador según su puesto (portero: defensa, físico y valor; delantero: tiro, control y rapidez...). */
+export function playerOverall(p: PlayerData): number {
+  const s = p.stats;
+  const v =
+    p.position === 'GK'
+      ? s.guard * 0.5 + s.body * 0.2 + s.guts * 0.3
+      : p.position === 'DF'
+        ? s.guard * 0.4 + s.body * 0.3 + s.speed * 0.15 + s.guts * 0.15
+        : p.position === 'MF'
+          ? s.control * 0.35 + s.speed * 0.25 + s.kick * 0.2 + s.body * 0.2
+          : s.kick * 0.5 + s.control * 0.25 + s.speed * 0.25;
+  return Math.round(v);
+}

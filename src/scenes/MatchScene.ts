@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { rewardMatch } from '../club/club';
-import { DISPLAY, FIELD_VIEW, FONT, GAME_SPEED, RES, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
+import { DISPLAY, FIELD_VIEW, FONT, GAME_SPEED, RES, RES_EVENT, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { music, playFanfare } from '../audio/music';
 import { sfx } from '../audio/sfx';
 import { getTeam, moveFx } from '../data';
@@ -170,7 +170,10 @@ export class MatchScene extends Phaser.Scene {
   create(): void {
     music.play('match');
     // el campo ocupa la parte izquierda del lienzo, ampliado a la resolución real (RES)
-    this.cameras.main.setViewport(FIELD_VIEW.x * RES, FIELD_VIEW.y * RES, FIELD_VIEW.w * RES, FIELD_VIEW.h * RES).setZoom(RES);
+    const fit = () => this.cameras.main.setViewport(FIELD_VIEW.x * RES, FIELD_VIEW.y * RES, FIELD_VIEW.w * RES, FIELD_VIEW.h * RES).setZoom(RES);
+    fit();
+    this.events.on(RES_EVENT, fit);
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => this.events.off(RES_EVENT, fit));
     this.cameras.main.setBounds(0, 0, WORLD.w, WORLD.h);
     this.drawPitch();
 

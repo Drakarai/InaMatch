@@ -20,8 +20,8 @@ import { soundPanel } from '../ui/soundPanel';
 import { fxColors, fxParticle, type FxRecipe } from '../gfx/fx';
 import { portraitKey, texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
-import { dim, fitCamera, pt, sectionTitle, slant, THEME, themePanel } from '../ui/theme';
-import { Button, StatBar, display, text } from '../ui/widgets';
+import { cardPanel, chip, confirmDialog, dim, fitCamera, glow, pt, sectionTitle, slant, THEME, themePanel } from '../ui/theme';
+import { Button, StatBar, display, fitWidth, label, text } from '../ui/widgets';
 import type { MatchScene } from './MatchScene';
 
 const PROMPT_TITLE: Record<Situation, string> = {
@@ -843,79 +843,66 @@ export class HudScene extends Phaser.Scene {
     const H = FIELD_VIEW.h;
     const c = this.add.container(0, 0).setDepth(80);
     this.overlay = c;
-    c.add(this.add.rectangle(W / 2, H / 2, W, H, THEME.night, 0.86).setInteractive());
+    c.add(this.add.rectangle(W / 2, H / 2, W, H, THEME.night, 0.88).setInteractive());
     const [home, away] = this.match.teams;
-    c.add(display(this, 40, 30, 'PAUSA', 66));
-    c.add(
-      text(this, 44, 112, `${home.short}  ${this.match.score[0]} - ${this.match.score[1]}  ${away.short}   ·   ${this.clockText.text}  ${this.halfText.text}`, 18, '#ffffff', {
-        fontStyle: 'italic bold',
-      }),
-    );
+    c.add(display(this, 40, 26, 'PAUSA', 60));
+    c.add(label(this, 44, 100, `${home.short}  ${this.match.score[0]} - ${this.match.score[1]}  ${away.short}   ·   ${this.clockText.text}  ${this.halfText.text}`, 16, THEME.text, { fontStyle: 'italic bold' }));
 
     // columna de botones
     const bx = 170;
-    const confirmQuit = { armed: false };
-    c.add(new Button(this, bx, 200, 'Reanudar', o.onResume, { w: 260, h: 54, color: THEME.yellow }));
-    const controls = new Button(this, bx, 268, 'Controles', () => help.setVisible(!help.visible), { w: 260, h: 48, color: THEME.panelLight });
+    const ask = (title: string, body: string, onOk: () => void) => confirmDialog(this, { title, body, ok: 'Sí, adelante', danger: true, onOk }, 90);
+    c.add(new Button(this, bx, 180, 'Reanudar', o.onResume, { w: 260, h: 54, variant: 'primary', size: 20, hint: 'Esc' }));
+    const controls = new Button(this, bx, 246, 'Controles', () => help.setVisible(!help.visible), { w: 260, h: 46, variant: 'secondary' });
     c.add(controls);
-    c.add(new Button(this, bx, 330, 'Reiniciar partido', o.onRestart, { w: 260, h: 48, color: THEME.panelLight }));
-    c.add(new Button(this, bx, 392, 'Sonido', () => {
+    c.add(new Button(this, bx, 306, 'Sonido', () => {
       if (this.soundBox?.active) this.soundBox.destroy();
-      else c.add((this.soundBox = soundPanel(this, 330, 330)));
-    }, { w: 260, h: 48, color: THEME.panelLight }));
-    const quit = new Button(this, bx, 454, 'Abandonar partido', () => {
-      if (confirmQuit.armed) return o.onQuit();
-      confirmQuit.armed = true;
-      quit.setCaption('¿Seguro? Pulsa otra vez');
-      this.time.delayedCall(2500, () => {
-        confirmQuit.armed = false;
-        if (quit.active) quit.setCaption('Abandonar partido');
-      });
-    }, { w: 260, h: 48, color: COLORS.uiRed });
-    c.add(quit);
-    c.add(text(this, bx, 502, 'Espacio / Esc: reanudar', 12, THEME.muted, { strokeThickness: 0 }).setOrigin(0.5, 0));
+      else c.add((this.soundBox = soundPanel(this, 330, 300)));
+    }, { w: 260, h: 46, variant: 'secondary' }));
+    c.add(new Button(this, bx, 366, 'Reiniciar partido', () => ask('¿Reiniciar el partido?', 'Se vuelve a empezar desde el saque inicial con las mismas alineaciones.', o.onRestart), { w: 260, h: 46, variant: 'secondary' }));
+    c.add(new Button(this, bx, 426, 'Abandonar partido', () => ask('¿Abandonar el partido?', 'Vuelves al menú. Este partido no cuenta ni da monedas.', o.onQuit), { w: 260, h: 46, variant: 'danger' }));
 
     // estado del equipo: estamina (naranja) y técnica (verde) de los once
     const px = 330;
     const g = this.add.graphics();
-    themePanel(g, px, 160, W - px - 24, 520);
+    cardPanel(g, px, 150, W - px - 24, 540);
     c.add(g);
-    c.add(sectionTitle(this, px + 16, 182, 'Tu equipo'));
-    c.add(text(this, px + 160, 182, 'FP  estamina', 12, '#ffb15a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
-    c.add(text(this, px + 310, 182, 'TP  técnica', 12, '#7dff9a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    c.add(sectionTitle(this, px + 16, 172, 'Tu equipo'));
+    c.add(label(this, px + 160, 172, 'FP  estamina', 11, '#ffb15a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    c.add(label(this, px + 310, 172, 'TP  técnica', 11, '#7dff9a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
     const players = this.match.allPlayers().filter((p) => p.side === 0);
     players.forEach((p, i) => {
-      const y = 214 + i * 41;
+      const y = 206 + i * 43;
       c.add(this.add.image(px + 30, y + 6, portraitKey(this, p.data, p.team)).setDisplaySize(32, 32));
-      c.add(text(this, px + 52, y - 2, `${p.data.number} ${p.data.short}`, 14, '#ffffff', { fontStyle: 'italic bold' }));
-      c.add(text(this, px + 52, y + 15, p.data.position, 10, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }));
+      c.add(label(this, px + 52, y - 2, `${p.data.number} ${p.data.short}`, 14, THEME.text, { fontStyle: 'italic bold' }));
+      c.add(label(this, px + 52, y + 15, p.data.position, 10, THEME.muted, { fontStyle: 'bold' }));
       const bars = this.add.graphics();
       const bar = (x: number, v: number, max: number, color: number) => {
         const r = Phaser.Math.Clamp(v / max, 0, 1);
-        bars.fillStyle(0x000000, 0.6).fillPoints(slant(x, y + 1, 100, 10, 3), true);
-        if (r > 0) bars.fillStyle(color).fillPoints(slant(x + 1, y + 2, Math.max(6, 98 * r), 8, 3), true);
-        c.add(text(this, x + 106, y + 6, String(Math.round(v)), 12, '#ffffff', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+        bars.fillStyle(0x000000, 0.6).fillRoundedRect(x, y + 1, 100, 10, 5);
+        if (r > 0) bars.fillStyle(r < 0.25 ? 0xe2463b : color).fillRoundedRect(x + 1, y + 2, Math.max(8, 98 * r), 8, 4);
+        c.add(label(this, x + 106, y + 6, String(Math.round(v)), 12, THEME.text, { fontStyle: 'bold' }).setOrigin(0, 0.5));
       };
       bar(px + 160, p.fp, p.maxFp, COLORS.fp);
       bar(px + 310, p.tp, p.maxTp, COLORS.tp);
       c.add(bars);
-      if (isExhausted(p.fp)) c.add(text(this, px + 80, y + 15, 'AGOTADO', 10, '#ff6a5a', { fontStyle: 'bold' }));
+      if (isExhausted(p.fp)) c.add(label(this, px + 80, y + 15, 'AGOTADO', 10, THEME.coralCss, { fontStyle: 'bold' }));
     });
 
     // controles (se muestran con el botón)
     const help = this.add.container(0, 0).setVisible(false);
     const hg = this.add.graphics();
-    themePanel(hg, 24, 524, 290, 186);
+    cardPanel(hg, 24, 470, 292, 236, { accent: THEME.cyan });
     help.add(hg);
+    help.add(sectionTitle(this, 40, 492, 'Controles', THEME.cyan));
     help.add(
-      text(
+      label(
         this,
-        38,
-        536,
-        'Con balón:\n· Arrastra desde tu jugador: regate\n· Pulsa a un compañero: pase\n· Pulsa un hueco: pase al espacio\n· Portería o T: tirar\n\nSin balón:\n· Arrastra a cualquier jugador\n· Pulsa en el campo',
-        13,
-        '#e3e9f2',
-        { lineSpacing: 3, wordWrap: { width: 260 } },
+        40,
+        510,
+        'Con balón\n· Arrastra desde tu jugador: regate\n· Pulsa a un compañero: pase\n· Pulsa un hueco: pase al espacio\n· Portería, botón Tirar o T: tirar\n\nSin balón\n· Arrastra a cualquier jugador\n· Pulsa en el campo: mandar al activo\n\nDuelos: botones o teclas 1, 2, 3…',
+        12,
+        THEME.text,
+        { lineSpacing: 3, wordWrap: { width: 262 } },
       ),
     );
     c.add(help);
@@ -931,30 +918,42 @@ export class HudScene extends Phaser.Scene {
     const [a, b] = this.match.score;
     const W = FIELD_VIEW.w;
     const c = this.add.container(0, 0).setDepth(90);
-    c.add(this.add.rectangle(W / 2, FIELD_VIEW.h / 2, W, FIELD_VIEW.h, THEME.night, 0.85).setInteractive());
+    c.add(this.add.rectangle(W / 2, FIELD_VIEW.h / 2, W, FIELD_VIEW.h, THEME.night, 0.9).setInteractive());
     const g = this.add.graphics();
-    g.fillStyle(dim(home.colors.shirt)).fillPoints([pt(0, 170), pt(W / 2 + 30, 150), pt(W / 2 - 30, 470), pt(0, 490)], true);
-    g.fillStyle(dim(away.colors.shirt)).fillPoints([pt(W, 130), pt(W / 2 + 30, 150), pt(W / 2 - 30, 470), pt(W, 450)], true);
-    g.lineStyle(4, THEME.yellow).lineBetween(W / 2 + 30, 150, W / 2 - 30, 470);
+    const won = a > b;
+    const lost = a < b;
+    glow(g, W / 2, 300, 420, won ? THEME.green : lost ? THEME.coral : THEME.yellow, 0.14);
+    // la tarjeta del marcador, con cada mitad del color de su equipo
+    const cx = 60;
+    const cy = 140;
+    const cw = W - 120;
+    const ch = 300;
+    cardPanel(g, cx, cy, cw, ch, { plain: true, alpha: 0.96, radius: 20 });
+    g.fillStyle(dim(home.colors.shirt, 0.6)).fillPoints([pt(cx + 20, cy + 20), pt(cx + cw / 2 + 20, cy + 20), pt(cx + cw / 2 - 20, cy + ch - 20), pt(cx + 20, cy + ch - 20)], true);
+    g.fillStyle(dim(away.colors.shirt, 0.6)).fillPoints([pt(cx + cw / 2 + 20, cy + 20), pt(cx + cw - 20, cy + 20), pt(cx + cw - 20, cy + ch - 20), pt(cx + cw / 2 - 20, cy + ch - 20)], true);
+    g.lineStyle(3, THEME.yellow).lineBetween(cx + cw / 2 + 20, cy + 20, cx + cw / 2 - 20, cy + ch - 20);
     c.add(g);
-    c.add(display(this, W / 2, 110, 'FINAL DEL PARTIDO', 48).setOrigin(0.5));
-    c.add(this.add.image(W / 2 - 220, 260, texKey.emblem(home.id)).setDisplaySize(130, 130));
-    c.add(this.add.image(W / 2 + 220, 260, texKey.emblem(away.id)).setDisplaySize(130, 130));
-    c.add(display(this, W / 2, 270, `${a}  -  ${b}`, 100, '#ffffff').setOrigin(0.5));
-    const wrap = { align: 'center', wordWrap: { width: 190 }, fontStyle: 'italic bold' };
-    c.add(fitWidth(text(this, W / 2 - 220, 360, home.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
-    c.add(fitWidth(text(this, W / 2 + 220, 360, away.name, 18, '#ffffff', wrap).setOrigin(0.5, 0), 190, 13));
-    const verdict = a > b ? '¡VICTORIA!' : a < b ? 'DERROTA...' : 'EMPATE';
-    if (coins) c.add(text(this, W / 2, 586, `+${coins} monedas para Mi club`, 16, '#ffd23f', { fontStyle: 'bold' }).setOrigin(0.5));
-    c.add(display(this, W / 2, 540, verdict, 58, a > b ? '#7dff9a' : a < b ? '#ff8a8a' : '#ffffff', { fontStyle: 'italic bold', strokeThickness: 8 }).setOrigin(0.5));
-    c.add(new Button(this, W / 2 - 130, 630, 'Revancha', onRematch, { w: 220, h: 56, color: THEME.yellow }));
-    c.add(new Button(this, W / 2 + 130, 630, 'Menú', onMenu, { w: 220, h: 52, color: THEME.panelLight }));
+    c.add(display(this, W / 2, 96, 'FINAL DEL PARTIDO', 44).setOrigin(0.5));
+    c.add(this.add.image(W / 2 - 230, cy + 120, texKey.emblem(home.id)).setDisplaySize(120, 120));
+    c.add(this.add.image(W / 2 + 230, cy + 120, texKey.emblem(away.id)).setDisplaySize(120, 120));
+    c.add(display(this, W / 2, cy + 120, `${a}  -  ${b}`, 96, '#ffffff').setOrigin(0.5));
+    const wrap = { align: 'center', wordWrap: { width: 200 }, fontStyle: 'italic bold', strokeThickness: 0 };
+    c.add(fitWidth(label(this, W / 2 - 230, cy + 196, home.name, 17, THEME.text, wrap).setOrigin(0.5, 0), 200, 12));
+    c.add(fitWidth(label(this, W / 2 + 230, cy + 196, away.name, 17, THEME.text, wrap).setOrigin(0.5, 0), 200, 12));
+    // goleadores
+    const goals = this.match.goals;
+    for (const side of [0, 1] as const) {
+      const list = goals.filter((gl) => gl.side === side).map((gl) => `${gl.name} ${gl.minute}'`);
+      if (list.length) c.add(label(this, W / 2 + (side ? 230 : -230), cy + 244, list.join('  ·  '), 11, THEME.muted, { align: 'center', wordWrap: { width: 260 } }).setOrigin(0.5, 0));
+    }
+    const verdict = won ? '¡VICTORIA!' : lost ? 'DERROTA...' : 'EMPATE';
+    c.add(display(this, W / 2, 500, verdict, 56, won ? '#7dff9a' : lost ? '#ff8a8a' : '#ffffff', { strokeThickness: 8 }).setOrigin(0.5));
+    if (coins) {
+      const chipC = chip(this, 0, 548, `+${coins} monedas para Mi club`, THEME.yellow, { size: 13, h: 26, padX: 12 });
+      chipC.setX(W / 2 - chipC.width / 2);
+      c.add(chipC);
+    }
+    c.add(new Button(this, W / 2 - 125, 620, 'Revancha', onRematch, { w: 230, h: 56, variant: 'primary', size: 20 }));
+    c.add(new Button(this, W / 2 + 125, 620, 'Menú', onMenu, { w: 230, h: 56, variant: 'secondary', size: 20 }));
   }
-}
-
-/** Reduce el tamaño de letra hasta que el texto quepa en `maxW` (sin bajar de `minSize`). */
-function fitWidth(t: Phaser.GameObjects.Text, maxW: number, minSize: number): Phaser.GameObjects.Text {
-  let size = parseInt(String(t.style.fontSize), 10);
-  while (t.width > maxW && size > minSize) t.setFontSize(--size);
-  return t;
 }

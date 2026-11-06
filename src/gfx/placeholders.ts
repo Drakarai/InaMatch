@@ -211,21 +211,48 @@ export function makePortrait(scene: Phaser.Scene, p: PlayerData, team: TeamData)
 export function makeEmblem(scene: Phaser.Scene, team: TeamData): void {
   const key = texKey.emblem(team.id);
   if (scene.textures.exists(key)) return;
-  const size = 64;
+  // a 256 px: en el menú se muestra a 140 px de juego (más de 300 reales en pantallas grandes)
+  const size = 256;
   const g = scene.make.graphics({}, false);
   const accent = hex(team.colors.accent);
-  // escudo
-  g.fillStyle(0xffffff).fillRoundedRect(6, 4, 52, 34, 6).fillTriangle(6, 30, 58, 30, 32, 60);
-  g.fillStyle(accent).fillRoundedRect(10, 8, 44, 28, 4).fillTriangle(10, 30, 54, 30, 32, 54);
-  g.fillStyle(hex(team.colors.shirt)).fillRect(10, 20, 44, 6);
+  const shirt = hex(team.colors.shirt);
+  const shield = (inset: number, color: number) =>
+    g.fillStyle(color).fillPoints(
+      [
+        new Phaser.Geom.Point(size * 0.1 + inset, size * 0.08 + inset),
+        new Phaser.Geom.Point(size * 0.9 - inset, size * 0.08 + inset),
+        new Phaser.Geom.Point(size * 0.9 - inset, size * 0.52),
+        new Phaser.Geom.Point(size * 0.5, size * 0.95 - inset * 1.4),
+        new Phaser.Geom.Point(size * 0.1 + inset, size * 0.52),
+      ],
+      true,
+    );
+  shield(0, 0x0b1a2e);
+  shield(size * 0.03, 0xffffff);
+  shield(size * 0.07, accent);
+  g.fillStyle(shirt).fillRect(size * 0.17, size * 0.28, size * 0.66, size * 0.14);
+  g.fillStyle(0xffffff, 0.18).fillTriangle(size * 0.17, size * 0.15, size * 0.5, size * 0.15, size * 0.17, size * 0.5);
+  // un rayo en el centro
+  const bolt = [
+    [0.52, 0.42],
+    [0.66, 0.42],
+    [0.56, 0.6],
+    [0.64, 0.6],
+    [0.42, 0.86],
+    [0.49, 0.65],
+    [0.4, 0.65],
+  ].map(([x, y]) => new Phaser.Geom.Point(x * size, y * size));
+  g.fillStyle(0x000000, 0.35).fillPoints(bolt.map((p) => new Phaser.Geom.Point(p.x + 3, p.y + 4)), true);
+  g.fillStyle(0xffd23f).fillPoints(bolt, true);
   const rt = scene.make.renderTexture({ width: size, height: size }, false);
   rt.draw(g, 0, 0);
   const label = scene.make.text(
-    { text: team.short, style: { fontFamily: FONT, fontSize: '15px', color: '#ffffff', stroke: '#000000', strokeThickness: 3 } },
+    { text: team.short, style: { fontFamily: FONT, fontSize: '44px', fontStyle: 'bold', color: '#ffffff', stroke: '#0b1a2e', strokeThickness: 8 } },
     false,
   );
-  rt.draw(label, size / 2 - label.width / 2, 12);
+  rt.draw(label, size / 2 - label.width / 2, size * 0.1);
   rt.saveTexture(key);
+  scene.textures.get(key).setFilter(Phaser.Textures.FilterMode.LINEAR);
   g.destroy();
   label.destroy();
 }

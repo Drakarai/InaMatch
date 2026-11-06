@@ -1,6 +1,6 @@
 """Ichibangai Sally's (IE1): el equipo de los vecinos del barrio comercial; pelo, bigotes, gorros y gafas de cada uno, con sus
 modelos 3D como referencia."""
-from chars import CHARS, L, OUTC, blob, bumpy, dread, ell, fat, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, dread, ell, fat, outline, pal, sheen, spk, strand
 from chars_otaku import back_hair, glasses, side_glass
 from heads import quad
 
@@ -21,15 +21,24 @@ def beard(c='mid'):
 # ------------------------------------------------------------------ Suzanne Yuma (portera): corpulenta, melena morada abombada y
 # ondulada, ojos pequeños y labios rojos; cuello de camisa blanco
 CHARS['suzanne-yuma'] = {
-    'body': 'corpulento', 'pal': pal('#4a2a4a', '#f2b48c'),
-    'face': {'eyes': 'dot', 'brows': True, 'mouth': 'smile', 'hairline': (56, 48)},
-    'front': [L(bumpy(50, 40, 54, 36, 14, 0.08)), L(bumpy(70, 46, 22, 22, 8, 0.08), 'shade', 'b', False), L(ell(30, 20, 10, 4), 'light', 'b', False),
-              L(blob([(6, 66), (4, 46), (96, 46), (94, 66), (80, 60), (20, 60)])),
-              spk((20, 46), (40, 42), (28, 58), 4, z='f'), spk((40, 42), (60, 42), (50, 56), 4, z='f'), spk((60, 42), (80, 46), (72, 58), 4, z='f', light_left=False),
-              L(ell(50, 92, 5, 2.6), (200, 50, 50, 255), 'f', ln=True)],
-    'side': [L(bumpy(40, 40, 50, 36, 14, 0.08)), L(bumpy(22, 52, 22, 24, 8, 0.08), 'shade', 'b', False),
-             L(blob(SIDE_SKULL)), spk((56, 30), (86, 40), (90, 60), 5, z='f', light_left=False)],
-    'back': [L(bumpy(50, 44, 54, 40, 14, 0.08)), L(bumpy(70, 52, 22, 24, 8, 0.08), 'shade', 'b', False), L(ell(30, 22, 10, 4), 'light', 'b', False)],
+    'body': 'corpulento', 'pal': pal('#4a2a4a', '#f2b48c', band='#c0401a', nose='#c8805a'),
+    # el pelo morado en grandes rulos: dos sobre la frente con raya en medio, una cinta naranja debajo y dos rulos dobles a
+    # cada lado hasta la barbilla; ojos cerrados y sonrientes
+    'face': {'eyes': 'closed', 'brows': False, 'mouth': 'smile', 'mouth_y': 94, 'nose': (50, 84, 3.4), 'hairline': False, 'ears': False},
+    'front': [L(blob([(20, 40), (2, 36), (-12, 50), (-8, 68), (-14, 84), (-4, 100), (14, 102), (22, 82)])),
+              L(blob([(80, 40), (98, 36), (112, 50), (108, 68), (114, 84), (104, 100), (86, 102), (78, 82)])),
+              L(blob([(-10, 70), (6, 72), (16, 90), (0, 96)], 5), 'shade', 'b', False), L(blob([(110, 70), (94, 72), (84, 90), (100, 96)], 5), 'shade', 'b', False),
+              L(outline([(28, 54), (50, 48), (72, 54), (70, 64), (50, 58), (30, 64)]), 'band', 'f', ln=True),
+              L(blob([(8, 54), (8, 30), (24, 12), (48, 14), (52, 26), (44, 48), (28, 56)]), 'mid', 'f', ln=True),
+              L(blob([(92, 54), (92, 30), (76, 12), (52, 14), (48, 26), (56, 48), (72, 56)]), 'mid', 'f', ln=True),
+              L(blob([(60, 18), (84, 22), (90, 44), (74, 46)], 5), 'shade', 'f', False),
+              strand([(20, 28), (36, 26), (44, 36)], 'shade', 'f', 1.0), strand([(80, 28), (64, 26), (56, 36)], 'deep', 'f', 1.0)],
+    'side': [L(blob([(-16, 44), (-6, 12), (28, -2), (66, 2), (88, 16), (94, 38), (80, 48), (62, 50), (44, 68), (34, 92), (4, 90), (-18, 68)])),
+             L(blob([(-12, 52), (10, 46), (30, 64), (28, 88), (0, 86)], 6), 'shade', 'b', False),
+             L(blob([(70, 4), (90, 14), (94, 36), (80, 44), (72, 24)], 5), 'deep', 'b', False)],
+    'back': [L(blob([(-14, 62), (-10, 30), (10, 8), (50, 0), (90, 8), (110, 30), (114, 62), (104, 90), (50, 98), (-4, 90)])),
+             L(blob([(-10, 64), (50, 58), (110, 64), (102, 88), (50, 96), (-2, 88)], 6), 'shade', 'b', False),
+             strand([(0, 40), (50, 30), (100, 40)], 'deep', 'b', 1.2)],
 }
 
 # ------------------------------------------------------------------ T. Fielding: melena castaña clara, ancha y abombada hasta los

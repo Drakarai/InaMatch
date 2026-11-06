@@ -1,6 +1,6 @@
 """Kidokawa Seishuu / Instituto Kirkwood (IE1): rastas con pañuelo, tupés, crestas de los trillizos Murdock con sus gafas
 de sol y demás peinados, con sus modelos 3D como referencia."""
-from chars import CHARS, L, OUTC, blob, bumpy, dread, ell, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, dread, ell, messy, pal, sheen, spk, strand
 from chars_otaku import back_hair
 from chars_sengoku import wavy
 from heads import quad
@@ -174,23 +174,14 @@ CHARS['toby-damian'] = {
 CHARS['york-nashmith'] = {
     'body': 'normal', 'pal': pal('#3a5a1e', '#fcd8b4'),
     'face': {'eyes': 'normal', 'brows': True, 'mouth': 'none', 'hairline': (60, 50)},
-    'front': [spk((10, 46), (18, 28), (-4, 22), 7), spk((22, 22), (40, 12), (24, -16), 7),
-              spk((40, 12), (58, 10), (52, -22), 7), spk((58, 12), (76, 18), (80, -14), 7, light_left=False),
-              spk((80, 26), (90, 46), (106, 20), 7, light_left=False), spk((8, 60), (12, 46), (-4, 62), 4), spk((88, 46), (92, 60), (104, 62), 4, light_left=False),
-              L(blob([(10, 70), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 70), (80, 64), (20, 64)])),
+    'front': messy('front', 20, 9, seed=51, rx=48, ry=42, lo=70, nape=90, shade=False) + [L(blob([(10, 70), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 70), (80, 64), (20, 64)])),
               L(blob([(62, 14), (90, 38), (88, 66), (78, 62)], 6), 'shade', 'b', False),
               spk((12, 44), (30, 38), (18, 74), 5, z='f'), spk((28, 40), (46, 36), (36, 62), 4, z='f'),
               spk((54, 36), (72, 40), (64, 62), 4, z='f', light_left=False), spk((70, 38), (88, 44), (84, 74), 5, z='f', light_left=False),
               zigzag(92, 44, 56, 4)],
-    'side': [spk((16, 40), (24, 24), (-16, 22), 7), spk((24, 26), (40, 14), (8, -12), 7), spk((40, 14), (60, 8), (52, -18), 7),
-             spk((14, 56), (16, 40), (-14, 54), 6), spk((18, 70), (22, 58), (-6, 80), 5),
-             L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((60, 14), (80, 22), (98, 4), 6, light_left=False),
+    'side': messy('side', 22, 8, seed=51, rx=46, ry=42, nape=92, sweep=-0.4) + [
              spk((56, 30), (88, 40), (92, 72), 6, z='f', light_left=False), spk((50, 54), (60, 54), (56, 76), 2.5, z='f')],
-    'back': [spk((10, 46), (18, 28), (-4, 22), 7), spk((22, 22), (40, 12), (24, -16), 7),
-             spk((40, 12), (58, 10), (52, -22), 7), spk((58, 12), (76, 18), (80, -14), 7, light_left=False),
-             spk((80, 26), (90, 46), (106, 20), 7, light_left=False), spk((8, 60), (12, 46), (-4, 62), 4), spk((88, 46), (92, 60), (104, 62), 4, light_left=False),
-             L(blob([(10, 72), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 72), (66, 84), (34, 84)])),
+    'back': messy('back', 20, 9, seed=51, rx=48, ry=42, lo=70, nape=90, shade=False) + [L(blob([(10, 72), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 72), (66, 84), (34, 84)])),
              spk((14, 72), (32, 82), (10, 94), 4), spk((32, 82), (50, 86), (40, 100), 4), spk((50, 86), (68, 82), (62, 100), 4, light_left=False),
              spk((68, 82), (86, 72), (90, 94), 4, light_left=False),
              L(blob([(58, 14), (90, 38), (88, 70), (66, 82)], 6), 'shade', 'b', False)],
@@ -198,10 +189,7 @@ CHARS['york-nashmith'] = {
 
 # ------------------------------------------------------------------ Zachary Moore: pelo castaño rojizo muy oscuro de pinchos
 # finos en todas direcciones, como un erizo; ojos pequeños y cara tranquila
-ZACH_TOP = [spk((6, 60), (10, 42), (-14, 54), 6), spk((10, 44), (20, 26), (-12, 24), 6), spk((18, 28), (32, 14), (4, -6), 6),
-            spk((30, 14), (46, 8), (28, -18), 6), spk((44, 8), (58, 8), (50, -22), 6), spk((56, 8), (72, 14), (74, -18), 6, light_left=False),
-            spk((70, 14), (84, 26), (98, -4), 6, light_left=False), spk((82, 28), (92, 44), (114, 26), 6, light_left=False),
-            spk((90, 44), (94, 62), (114, 58), 5, light_left=False)]
+ZACH_TOP = messy('front', 18, 11, seed=55, rx=50, ry=42, lo=72, shade=False)
 CHARS['zachary-moore'] = {
     'body': 'normal', 'pal': pal('#5a1e14', '#f6bc80'),
     'face': {'eyes': 'dot', 'brows': True, 'mouth': 'line', 'mouth_y': 92, 'hairline': (60, 50)},
@@ -210,10 +198,7 @@ CHARS['zachary-moore'] = {
                          spk((12, 44), (28, 36), (16, 70), 4, z='f'), spk((26, 36), (42, 32), (34, 60), 4, z='f'),
                          spk((40, 32), (56, 30), (50, 58), 4, z='f'), spk((56, 32), (72, 36), (66, 60), 4, z='f', light_left=False),
                          spk((72, 36), (88, 44), (84, 70), 4, z='f', light_left=False)],
-    'side': [spk((16, 40), (24, 24), (-18, 22), 7), spk((24, 26), (40, 14), (6, -14), 7), spk((40, 14), (60, 8), (48, -20), 7),
-             spk((14, 56), (16, 40), (-18, 52), 6), spk((16, 72), (20, 58), (-12, 80), 6), spk((24, 84), (26, 72), (4, 96), 5),
-             L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((60, 14), (80, 22), (96, 0), 6, light_left=False),
+    'side': messy('side', 20, 9, seed=55, rx=46, ry=42, nape=92, sweep=-0.4) + [
              spk((56, 30), (88, 40), (92, 66), 6, z='f', light_left=False)],
     'back': ZACH_TOP + [L(blob([(8, 72), (6, 40), (18, 16), (50, 6), (82, 16), (94, 40), (92, 72), (66, 86), (34, 86)])),
                         spk((12, 72), (30, 82), (6, 96), 5), spk((30, 84), (50, 88), (38, 104), 5), spk((50, 88), (70, 84), (64, 104), 5, light_left=False),
@@ -309,22 +294,13 @@ CHARS['brody-gloom'] = {
 CHARS['victor-talis'] = {
     'body': 'normal', 'pal': pal('#40584e', '#f6bc80', nose='#e05a3a'),
     'face': {'eyes': 'round', 'brows': False, 'mouth': 'smile', 'mouth_y': 92, 'nose': (50, 83, 2.6), 'nose_side': (90, 81, 2.4), 'hairline': (58, 50)},
-    'front': [spk((8, 60), (12, 42), (-14, 50), 6), spk((12, 42), (24, 24), (-6, 14), 7), spk((24, 24), (42, 12), (24, -16), 7),
-              spk((40, 12), (60, 10), (52, -22), 7), spk((58, 12), (76, 18), (82, -14), 7, light_left=False),
-              spk((74, 20), (88, 36), (110, 18), 7, light_left=False), spk((88, 40), (92, 60), (114, 52), 6, light_left=False),
-              L(blob([(10, 70), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 70), (80, 64), (20, 64)])),
+    'front': messy('front', 20, 9, seed=53, rx=48, ry=42, lo=70, nape=90, shade=False) + [L(blob([(10, 70), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 70), (80, 64), (20, 64)])),
               L(blob([(62, 14), (90, 38), (88, 66), (78, 62)], 6), 'shade', 'b', False),
               spk((12, 46), (30, 40), (18, 70), 5, z='f'), spk((30, 40), (48, 36), (38, 60), 4, z='f'),
               spk((52, 36), (70, 40), (62, 60), 4, z='f', light_left=False), spk((70, 40), (88, 46), (84, 70), 5, z='f', light_left=False)],
-    'side': [spk((16, 40), (24, 24), (-18, 20), 7), spk((24, 26), (40, 14), (6, -14), 7), spk((40, 14), (60, 8), (54, -20), 7),
-             spk((14, 56), (16, 40), (-16, 50), 6), spk((18, 70), (22, 58), (-8, 80), 5),
-             L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((60, 14), (80, 22), (98, 2), 6, light_left=False),
+    'side': messy('side', 22, 8, seed=53, rx=46, ry=42, nape=92, sweep=-0.4) + [
              spk((56, 30), (88, 40), (92, 70), 6, z='f', light_left=False), spk((54, 52), (66, 52), (62, 84), 3, z='f')],
-    'back': [spk((8, 60), (12, 42), (-14, 50), 6), spk((12, 42), (24, 24), (-6, 14), 7), spk((24, 24), (42, 12), (24, -16), 7),
-             spk((40, 12), (60, 10), (52, -22), 7), spk((58, 12), (76, 18), (82, -14), 7, light_left=False),
-             spk((74, 20), (88, 36), (110, 18), 7, light_left=False), spk((88, 40), (92, 60), (114, 52), 6, light_left=False),
-             L(blob([(10, 72), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 72), (66, 86), (34, 86)])),
+    'back': messy('back', 20, 9, seed=53, rx=48, ry=42, lo=70, nape=90, shade=False) + [L(blob([(10, 72), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (90, 72), (66, 86), (34, 86)])),
              spk((16, 74), (34, 84), (14, 96), 4), spk((34, 84), (50, 88), (42, 100), 4), spk((50, 88), (66, 84), (58, 100), 4, light_left=False),
              spk((66, 84), (84, 74), (86, 96), 4, light_left=False),
              L(blob([(58, 14), (90, 38), (88, 70), (66, 84)], 6), 'shade', 'b', False)],

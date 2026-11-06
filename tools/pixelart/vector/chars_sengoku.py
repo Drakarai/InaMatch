@@ -2,7 +2,7 @@
 shurikens de adorno, con sus modelos 3D como referencia."""
 import math
 
-from chars import CHARS, L, OUTC, blob, bumpy, ell, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, ell, messy, pal, sheen, spk, strand
 from chars_otaku import back_hair
 from heads import quad
 
@@ -114,9 +114,7 @@ CHARS['newton-flust'] = {
 # ------------------------------------------------------------------ Jim Hillfort: pelo castaño oscuro de pinchos en todas
 # direcciones (con reflejos verdosos), cinta ninja ocre con una placa metálica, ojos rojos y una bufanda ocre que le tapa la
 # boca y ondea a un lado
-JIM_SPIKES_F = [spk((8, 60), (12, 42), (-14, 62), 7), spk((10, 44), (20, 24), (-16, 26), 8), spk((20, 26), (40, 12), (12, -16), 8),
-                spk((36, 12), (54, 8), (44, -24), 8), spk((52, 8), (70, 14), (74, -12), 8, light_left=False),
-                spk((68, 16), (86, 30), (108, 10), 8, light_left=False), spk((86, 34), (92, 56), (116, 50), 7, light_left=False)]
+JIM_SPIKES_F = messy('front', 20, 9, seed=41, rx=48, ry=42, lo=70, shade=False)
 CHARS['jim-hillfort'] = {
     'body': 'normal', 'pal': pal('#3e3024', '#f6c08e', iris='#c02424', light='#6e6a3a', band='#a89024', band_d='#7a6818',
                                  plate='#b0b0b8', plate_d='#7a7a88', scarf='#ab9a24', scarf_d='#7e7018'),
@@ -132,10 +130,7 @@ CHARS['jim-hillfort'] = {
                 L(blob([(12, 78), (50, 80), (88, 78), (90, 92), (76, 104), (50, 110), (24, 104), (10, 92)]), 'scarf', 'f', ln=True),
                 L(blob([(56, 82), (88, 80), (88, 94), (74, 104), (58, 106)], 6), 'scarf_d', 'f', False),
                 strand([(30, 90), (46, 96)], 'scarf_d', 'f', 1.0)],
-    'side': [spk((16, 40), (24, 24), (-18, 20), 7), spk((24, 26), (40, 14), (8, -14), 7), spk((40, 14), (58, 8), (46, -16), 6),
-             spk((56, 10), (74, 14), (82, -10), 6, light_left=False), spk((14, 56), (16, 40), (-16, 50), 6), spk((16, 70), (20, 58), (-8, 76), 5),
-             L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((70, 18), (86, 32), (100, 14), 5, light_left=False),
+    'side': messy('side', 22, 8, seed=41, rx=46, ry=42, nape=92, sweep=-0.4) + [
              L(quad((12, 46), (50, 40), (92, 44)) + quad((92, 56), (50, 52), (12, 58)), 'band', 'f', ln=True),
              L([(80, 43), (93, 44), (93, 56), (80, 56)], 'plate', 'f', ln=True),
              L(blob([(14, 48), (2, 48), (-6, 58), (6, 58)], 4), 'band', 'f', ln=True),
@@ -463,9 +458,7 @@ CHARS['winston-falls'] = {
 
 # ------------------------------------------------------------------ Kevin Castle (portero suplente): pelo castaño rojizo de
 # pinchos, dos coletas a los lados envueltas en vendas blancas que acaban en puntas; ojeras y mirada cansada
-KEVIN_TOP = [spk((10, 50), (16, 36), (-14, 36), 6), spk((14, 36), (26, 22), (-6, 8), 6), spk((24, 22), (42, 12), (22, -12), 6),
-             spk((42, 12), (58, 10), (50, -16), 6), spk((56, 10), (74, 18), (78, -12), 6, light_left=False),
-             spk((72, 20), (86, 34), (108, 12), 6, light_left=False), spk((84, 36), (90, 50), (114, 40), 6, light_left=False)]
+KEVIN_TOP = messy('front', 20, 9, seed=43, rx=48, ry=42, lo=70, shade=False)
 
 
 def kevin_tail(x, flip=1):
@@ -484,10 +477,7 @@ CHARS['kevin-castle'] = {
                           spk((54, 34), (72, 38), (64, 58), 4, z='f', light_left=False), spk((70, 38), (88, 44), (84, 66), 5, z='f', light_left=False),
                           L(quad((30, 82), (36, 85), (42, 82)), 'bag', 'f', False, False, 1.2), L(quad((58, 82), (64, 85), (70, 82)), 'bag', 'f', False, False, 1.2)]
              + kevin_tail(12, 1) + kevin_tail(88, -1),
-    'side': [spk((16, 40), (24, 24), (-18, 18), 7), spk((24, 26), (40, 14), (10, -14), 7), spk((40, 12), (60, 8), (52, -16), 6),
-             spk((14, 56), (16, 40), (-18, 46), 6), spk((16, 70), (20, 58), (-12, 74), 5),
-             L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((58, 14), (80, 22), (96, 6), 5, light_left=False),
+    'side': messy('side', 22, 8, seed=43, rx=46, ry=42, nape=92, sweep=-0.4) + [
              spk((56, 30), (88, 40), (92, 64), 5, z='f', light_left=False)]
             + kevin_tail(36, 1),
     'back': KEVIN_TOP + [L(blob([(10, 70), (8, 36), (20, 14), (50, 6), (80, 14), (92, 36), (90, 70), (72, 84), (28, 84)])),

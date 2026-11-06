@@ -1,6 +1,6 @@
 """Nose / Instituto Wild (IE1): un equipo de chicos salvajes con aspecto de animal; pelo y rasgos de cada jugador, con sus
 modelos 3D como referencia."""
-from chars import CHARS, L, OUTC, blob, bumpy, ell, fat, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, ell, fat, messy, outline, pal, sheen, spk, strand
 from heads import quad
 
 DARK = (30, 22, 24, 255)
@@ -24,24 +24,13 @@ def eyes_white(y=74, sep=14, r=6, pupil=2.2):
 CHARS['charlie-boardfield'] = {
     'body': 'corpulento', 'pal': pal('#3e3a22', '#e2a070', nose='#8a5a3a'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 92, 'nose': (50, 82, 6), 'nose_side': (90, 80, 5), 'hairline': (60, 52)},
-    'front': [L(blob([(8, 70), (4, 40), (16, 16), (50, 6), (84, 16), (96, 40), (92, 70)])),
-              spk((6, 40), (18, 26), (-14, 20), 6), spk((18, 24), (36, 14), (10, -6), 6), spk((40, 12), (58, 10), (48, -10), 6),
-              spk((62, 12), (80, 22), (88, -4), 6, light_left=False), spk((82, 26), (94, 40), (114, 20), 6, light_left=False),
-              spk((4, 56), (12, 70), (-10, 76), 5), spk((88, 70), (96, 56), (110, 76), 5, light_left=False),
-              L(blob([(60, 14), (92, 34), (92, 66), (76, 60)], 6), 'shade', 'b', False),
+    'front': messy('front', 18, 8, seed=3, rx=50, ry=42, lo=72) + [
               spk((16, 48), (36, 42), (22, 66), 4, z='f'), spk((34, 42), (54, 40), (44, 62), 4, z='f'),
               spk((52, 40), (70, 42), (64, 60), 4, z='f', light_left=False), spk((66, 44), (86, 50), (84, 66), 4, z='f', light_left=False),
               L(fat((40, 90), (44, 90), (40, 98), 0), WHITE, 'f', ln=True), L(fat((56, 90), (60, 90), (60, 98), 0), WHITE, 'f', ln=True)],
-    'side': [L(blob([(44, 94), (20, 90), (6, 64), (6, 32), (24, 8), (56, 2), (82, 14), (92, 36), (76, 44), (60, 48), (52, 62), (50, 80)])),
-             spk((14, 30), (30, 14), (-12, 6), 7), spk((8, 52), (16, 36), (-16, 40), 6), spk((10, 76), (22, 88), (-10, 96), 5),
-             spk((40, 6), (58, 2), (42, -14), 6), L(blob([(14, 46), (16, 80), (38, 90), (28, 62)], 6), 'shade', 'b', False),
+    'side': messy('side', 20, 7, seed=3, rx=46, ry=42, nape=96, sweep=-0.4) + [
              spk((54, 24), (86, 36), (92, 66), 6, z='f', light_left=False)],
-    'back': [L(blob([(8, 70), (4, 40), (16, 16), (50, 6), (84, 16), (96, 40), (92, 70), (76, 92), (50, 98), (24, 92)])),
-             spk((6, 40), (18, 26), (-14, 20), 6), spk((18, 24), (36, 14), (10, -6), 6), spk((40, 12), (58, 10), (48, -10), 6),
-             spk((62, 12), (80, 22), (88, -4), 6, light_left=False), spk((82, 26), (94, 40), (114, 20), 6, light_left=False),
-             spk((10, 76), (28, 88), (4, 102), 5), spk((28, 90), (48, 94), (34, 110), 5), spk((50, 94), (70, 90), (66, 110), 5, light_left=False),
-             spk((70, 88), (88, 76), (96, 102), 5, light_left=False),
-             L(blob([(58, 14), (92, 36), (90, 70), (70, 90)], 6), 'shade', 'b', False)],
+    'back': messy('back', 18, 8, seed=3, rx=50, ry=42, nape=98),
 }
 
 # ------------------------------------------------------------------ Wilson Fishman: pelo azul grisáceo corto con una cresta como
@@ -95,20 +84,13 @@ CHARS['leonard-o-shea'] = {
     'body': 'corpulento', 'pal': pal('#9a5422', '#e8b080', nose='#c88a5a'),
     # melena castaña de león: mechones grandes alrededor de la cara; ojos pequeños y enfadados, nariz chata
     'face': {'eyes': 'dot', 'brows': 'angry', 'mouth': 'frown', 'nose': (50, 80, 4.4), 'nose_side': (90, 80, 4), 'hairline': (60, 52)},
-    'front': LEO_MANE + [L(blob([(10, 72), (6, 42), (18, 18), (50, 10), (82, 18), (94, 42), (90, 72)])),
-              L(blob([(60, 14), (90, 36), (90, 70), (76, 64)], 6), 'shade', 'b', False), sheen(24, 48, 18, 3),
+    'front': messy('front', 18, 9, seed=7, rx=52, ry=44, cy=44, lo=96) + [
               spk((14, 44), (34, 40), (20, 68), 5, z='f'), spk((32, 40), (52, 38), (42, 62), 5, z='f'),
               spk((50, 38), (68, 40), (62, 60), 5, z='f', light_left=False), spk((66, 42), (88, 46), (84, 68), 5, z='f', light_left=False),
               spk((10, 64), (20, 70), (10, 98), 4, z='f'), spk((80, 70), (90, 64), (90, 98), 4, z='f', light_left=False)],
-    'side': [spk((14, 34), (28, 18), (-10, 10), 7), spk((8, 56), (16, 38), (-16, 42), 7), spk((10, 78), (22, 90), (-10, 98), 6),
-             spk((34, 12), (54, 8), (40, -12), 6), spk((56, 10), (72, 16), (78, -6), 6, light_left=False),
-             L(blob([(46, 94), (20, 90), (6, 62), (8, 32), (24, 10), (54, 4), (80, 14), (92, 36), (76, 44), (60, 48), (54, 62), (52, 82)])),
-             L(blob([(12, 46), (14, 84), (40, 92), (26, 62)], 6), 'shade', 'b', False),
+    'side': messy('side', 20, 8, seed=7, rx=48, ry=44, cy=44, nape=100) + [
              spk((54, 24), (86, 34), (94, 68), 7, z='f', light_left=False), spk((52, 54), (62, 54), (58, 86), 3, z='f')],
-    'back': LEO_MANE + [L(blob([(10, 72), (6, 42), (18, 18), (50, 10), (82, 18), (94, 42), (90, 72), (74, 92), (50, 98), (26, 92)])),
-             spk((12, 80), (30, 92), (4, 106), 6), spk((30, 94), (50, 98), (36, 114), 6), spk((50, 98), (70, 94), (66, 114), 6, light_left=False),
-             spk((70, 92), (88, 80), (96, 106), 6, light_left=False),
-             L(blob([(58, 14), (92, 38), (90, 72), (70, 92)], 6), 'shade', 'b', False), sheen(26, 50, 18, 3)],
+    'back': messy('back', 18, 9, seed=7, rx=52, ry=44, cy=44, nape=104),
 }
 
 # ------------------------------------------------------------------ Hugo Tallgeese: bajito, cabeza calva con una cresta roja de
@@ -320,23 +302,14 @@ CHARS['rocky-rackham'] = {
 CHARS['matt-mouseman'] = {
     'body': 'normal', 'pal': pal('#b07058', '#f6c48e'),
     'face': {'eyes': 'round', 'brows': False, 'mouth': 'buck', 'mouth_y': 88, 'hairline': (60, 52)},
-    'front': [L(blob([(12, 64), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 64)])),
-              spk((8, 52), (16, 64), (-6, 66), 4), spk((84, 64), (92, 52), (106, 66), 4, light_left=False),
-              spk((36, 12), (50, 10), (42, -2), 4), spk((50, 10), (64, 12), (60, -2), 4, light_left=False),
-              L(blob([(60, 14), (88, 34), (88, 62), (72, 58)], 6), 'shade', 'b', False), sheen(22, 46, 18, 3),
+    'front': messy('front', 9, 8, seed=11, rx=44, ry=38, lo=66) + [
               spk((16, 46), (34, 42), (22, 68), 4, z='f'), spk((32, 42), (50, 40), (40, 64), 4, z='f'),
               spk((50, 40), (68, 42), (62, 62), 4, z='f', light_left=False), spk((66, 44), (86, 48), (82, 68), 4, z='f', light_left=False),
               L([(30, 84), (18, 82)], OUTC, 'f', False, False, 0.9), L([(30, 87), (18, 88)], OUTC, 'f', False, False, 0.9),
               L([(70, 84), (82, 82)], OUTC, 'f', False, False, 0.9), L([(70, 87), (82, 88)], OUTC, 'f', False, False, 0.9)],
-    'side': [L(blob(SIDE_SKULL)), spk((14, 40), (28, 24), (-8, 16), 6), spk((12, 62), (22, 46), (-10, 52), 5), spk((40, 12), (56, 8), (40, -10), 5),
-             L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
+    'side': messy('side', 10, 7, seed=11, rx=44, ry=38, nape=92, sweep=-0.3) + [
              spk((54, 26), (84, 36), (92, 66), 6, z='f', light_left=False), L([(84, 84), (96, 82)], OUTC, 'f', False, False, 0.9)],
-    'back': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66), (74, 86), (50, 92), (26, 86)])),
-             spk((8, 52), (16, 64), (-6, 66), 4), spk((84, 64), (92, 52), (106, 66), 4, light_left=False),
-             spk((36, 12), (50, 10), (42, -2), 4), spk((50, 10), (64, 12), (60, -2), 4, light_left=False),
-             spk((18, 76), (36, 86), (12, 100), 4), spk((36, 88), (54, 92), (42, 106), 4), spk((54, 92), (72, 88), (68, 106), 4, light_left=False),
-             spk((70, 86), (86, 76), (94, 100), 4, light_left=False),
-             L(blob([(58, 14), (88, 36), (86, 68), (68, 86)], 6), 'shade', 'b', False)],
+    'back': messy('back', 9, 8, seed=11, rx=44, ry=38, nape=94),
 }
 
 # ------------------------------------------------------------------ Chad Bullford: corpulento, pelo verde azulado revuelto con dos
@@ -344,19 +317,13 @@ CHARS['matt-mouseman'] = {
 CHARS['chad-bullford'] = {
     'body': 'corpulento', 'pal': pal('#2a7a74', '#e8a46a', horn='#ece4d4', nose='#c88a5a'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'nose': (50, 80, 5), 'nose_side': (90, 79, 4.4), 'hairline': (60, 52)},
-    'front': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66)])),
-              spk((20, 20), (36, 12), (16, -4), 5), spk((40, 10), (58, 8), (48, -10), 5), spk((62, 10), (78, 18), (82, -4), 5, light_left=False),
-              L(blob([(60, 14), (88, 34), (88, 62), (72, 58)], 6), 'shade', 'b', False),
+    'front': messy('front', 12, 8, seed=5, rx=46, ry=40, lo=66) + [
               spk((16, 46), (34, 42), (22, 66), 4, z='f'), spk((32, 42), (50, 40), (40, 62), 4, z='f'),
               spk((50, 40), (68, 42), (62, 60), 4, z='f', light_left=False), spk((66, 44), (86, 48), (82, 66), 4, z='f', light_left=False),
               L(fat((12, 52), (20, 44), (-6, 34), 4), 'horn', 'f', True, True), L(fat((80, 44), (88, 52), (106, 34), 4), 'horn', 'f', True, True)],
     'side': [
-             L(blob(SIDE_SKULL)), spk((18, 36), (32, 20), (-6, 10), 6), spk((12, 60), (22, 44), (-10, 50), 5), spk((40, 12), (58, 8), (44, -10), 5),
-             L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
+             ] + messy('side', 13, 7, seed=5, rx=46, ry=40, nape=94, sweep=-0.3) + [
              spk((54, 26), (84, 36), (92, 66), 6, z='f', light_left=False), L(fat((58, 46), (68, 40), (76, 22), 4), 'horn', 'f', True, True)],
     'back': [L(fat((12, 52), (20, 44), (-6, 34), 4), 'horn', 'b', True, True), L(fat((80, 44), (88, 52), (106, 34), 4), 'horn', 'b', True, True),
-             L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66), (74, 86), (50, 92), (26, 86)])),
-             spk((20, 20), (36, 12), (16, -4), 5), spk((40, 10), (58, 8), (48, -10), 5), spk((62, 10), (78, 18), (82, -4), 5, light_left=False),
-             spk((18, 76), (36, 86), (12, 100), 4), spk((36, 88), (54, 92), (42, 106), 4), spk((54, 92), (72, 88), (68, 106), 4, light_left=False),
-             L(blob([(58, 14), (88, 36), (86, 68), (68, 86)], 6), 'shade', 'b', False)],
+             ] + messy('back', 12, 8, seed=5, rx=46, ry=40, nape=94),
 }

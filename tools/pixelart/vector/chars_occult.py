@@ -1,7 +1,7 @@
 """Occult (IE1): un equipo de monstruos. Pelo, máscaras y disfraces de cada jugador, con sus modelos 3D como referencia."""
 import math
 
-from chars import CHARS, L, OUTC, blob, bumpy, caps, dread, ell, fat, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, caps, dread, ell, fat, outline, pal, rope, sheen, spk, strand
 from heads import FACE_FRONT, FACE_SIDE, quad
 
 DARK = (30, 22, 24, 255)
@@ -134,27 +134,29 @@ CHARS['ken-furan'] = {
                                               L(blob([(58, 22), (82, 36), (82, 64), (64, 80)], 6), 'shade', 'b', False)],
 }
 
-# ------------------------------------------------------------------ Jerry Fulton: corpulento, pelo rubio despeinado de puntas,
-# cara redonda y labios morados
+# ------------------------------------------------------------------ Jerry Fulton: corpulento, pelo rubio despeinado de puntas
+# cortas y sin orden que le tapa la frente hasta las cejas, cara redonda y labios morados
 CHARS['jerry-fulton'] = {
-    'body': 'corpulento', 'pal': pal('#e2c46c', '#f0c09a', lip='#7a4a8a'),
-    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'none', 'hairline': (60, 52)},
-    'front': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66)])),
-              spk((8, 46), (18, 32), (-8, 26), 5), spk((82, 32), (92, 46), (108, 26), 5, light_left=False),
-              spk((30, 14), (46, 10), (34, -6), 5), spk((52, 10), (68, 14), (66, -6), 5, light_left=False),
-              L(blob([(60, 14), (88, 34), (88, 62), (72, 58)], 6), 'shade', 'b', False), sheen(22, 46, 18, 3),
-              spk((18, 46), (36, 42), (24, 66), 4, z='f'), spk((34, 42), (52, 40), (44, 62), 4, z='f'),
-              spk((50, 40), (68, 42), (62, 62), 4, z='f', light_left=False), spk((66, 44), (84, 48), (82, 66), 4, z='f', light_left=False),
+    'body': 'corpulento', 'pal': pal('#e2c46c', '#f0c09a', lip='#7a4a8a', shade='#c09a50'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'none', 'hairline': False},
+    'front': [L(outline([(10, 66), (6, 50), (-4, 42, 1), (8, 36), (4, 20), (18, 8), (14, -2, 1), (28, 4), (36, -6, 1), (46, 2), (56, -6, 1), (62, 4),
+                         (78, 2, 1), (80, 12), (92, 22), (96, 36), (106, 44, 1), (92, 50), (90, 66)])),
+              L(outline([(60, 6), (80, 14), (92, 30), (92, 52), (80, 44)]), 'shade', 'b', False),
+              L(outline([(14, 62), (16, 40), (30, 26), (50, 22), (70, 26), (86, 40), (90, 62, 1), (80, 54), (74, 62, 1), (66, 52), (58, 64, 1), (52, 52),
+                         (42, 62, 1), (36, 50), (26, 66, 1), (22, 54)]), 'mid', 'f'),
+              L(outline([(56, 26), (76, 30), (86, 44), (82, 54), (70, 44)]), 'shade', 'f', False),
+              strand([(36, 28), (40, 48)], 'shade', 'f', 1.0), strand([(62, 28), (60, 46)], 'shade', 'f', 1.0),
               L(ell(50, 92, 7, 3.4), 'lip', 'f', ln=True)],
-    'side': [L(blob([(44, 92), (22, 88), (10, 64), (10, 36), (26, 12), (56, 6), (80, 16), (90, 36), (76, 44), (60, 48), (52, 62), (50, 80)])),
-             spk((14, 40), (28, 24), (-10, 18), 6), spk((12, 62), (22, 46), (-12, 52), 5),
-             L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((54, 26), (84, 38), (92, 66), 6, z='f', light_left=False), L(ell(84, 92, 4, 3), 'lip', 'f', ln=True)],
-    'back': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66), (74, 88), (50, 94), (26, 88)])),
-             spk((8, 46), (18, 32), (-8, 26), 5), spk((82, 32), (92, 46), (108, 26), 5, light_left=False),
-             spk((30, 14), (46, 10), (34, -6), 5), spk((52, 10), (68, 14), (66, -6), 5, light_left=False),
-             spk((20, 80), (40, 88), (24, 102), 4), spk((40, 90), (60, 90), (50, 104), 4), spk((60, 88), (80, 80), (78, 102), 4, light_left=False),
-             L(blob([(58, 16), (88, 38), (86, 68), (68, 86)], 6), 'shade', 'b', False)],
+    'side': [L(outline([(44, 92), (22, 88), (10, 70), (-4, 66, 1), (8, 58), (-6, 46, 1), (8, 40), (-2, 26, 1), (14, 22), (10, 8, 1), (28, 10), (34, -4, 1),
+                        (46, 6), (56, -4, 1), (62, 8), (78, 6, 1), (80, 16), (90, 30), (94, 50, 1), (80, 44), (62, 48), (52, 62), (50, 80)])),
+             L(outline([(14, 40), (24, 60), (38, 86), (20, 84), (8, 64)]), 'shade', 'b', False),
+             strand([(30, 14), (20, 40)], 'shade', 'b', 1.0), strand([(56, 12), (46, 40)], 'shade', 'b', 1.0),
+             L(ell(84, 92, 4, 3), 'lip', 'f', ln=True)],
+    'back': [L(outline([(10, 66), (6, 50), (-4, 42, 1), (8, 36), (4, 20), (18, 8), (14, -2, 1), (28, 4), (36, -6, 1), (46, 2), (56, -6, 1), (62, 4),
+                        (78, 2, 1), (80, 12), (92, 22), (96, 36), (106, 44, 1), (92, 50), (90, 66), (84, 86), (74, 94, 1), (66, 86), (56, 98, 1), (48, 88),
+                        (38, 98, 1), (30, 86), (18, 92, 1), (16, 80)])),
+             L(outline([(58, 10), (88, 30), (90, 66), (74, 90), (64, 60)]), 'shade', 'b', False),
+             strand([(30, 10), (34, 40), (30, 70)], 'shade', 'b', 1.0), strand([(50, 4), (50, 50)], 'shade', 'b', 1.0)],
 }
 
 # ------------------------------------------------------------------ Ray Mannings: un jiangshi bajito: gorro chino azul con borde
@@ -336,33 +338,31 @@ CHARS['rob-crombie'] = {
 }
 
 # ------------------------------------------------------------------ Chuck Dollman: un muñeco: pelo naranja de mechones gruesos
-# como lana, cara pálida con costuras en la mejilla y la boca
+# como cuerdas de lana con las puntas redondas, que caen desde la coronilla hacia fuera y por delante hasta las cejas;
+# cara pálida con costuras en la frente, la mejilla y la boca
+CHUCK_TOP = [rope((40, 8), (20, 6), (0, 22), 15), rope((56, 6), (78, 4), (98, 22), 15), rope((48, 8), (36, -4), (22, -8), 14),
+             rope((52, 8), (66, -4), (80, -6), 14), rope((30, 14), (8, 26), (-6, 46), 15), rope((70, 14), (92, 26), (106, 46), 15)]
 CHARS['chuck-dollman'] = {
-    'body': 'normal', 'pal': pal('#d8781e', '#ece0c8'),
-    # muñeco: pelo naranja con volumen, de mechones gruesos que caen hacia fuera y hacia abajo; cara pálida con costuras
-    'face': {'eyes': 'normal', 'brows': 'angry', 'mouth': 'none', 'hairline': (60, 52)},
-    'front': [L(blob([(10, 64), (4, 38), (16, 14), (50, 4), (84, 14), (96, 38), (90, 64)])),
-              spk((8, 36), (20, 22), (-12, 44), 6), spk((80, 22), (92, 36), (112, 44), 6, light_left=False),
-              spk((4, 50), (14, 62), (-8, 76), 5), spk((86, 62), (96, 50), (108, 76), 5, light_left=False),
-              spk((26, 10), (46, 6), (24, -6), 6), spk((54, 6), (74, 10), (78, -6), 6, light_left=False),
-              L(blob([(60, 12), (92, 34), (90, 60), (74, 56)], 6), 'shade', 'b', False), sheen(22, 48, 18, 3),
-              strand([(30, 16), (20, 36)], 'shade', 'b', 1.1), strand([(50, 12), (50, 32)], 'shade', 'b', 1.1), strand([(70, 16), (80, 36)], 'shade', 'b', 1.1),
-              spk((14, 44), (32, 40), (16, 72), 5, z='f'), spk((30, 40), (48, 38), (36, 70), 5, z='f'),
-              spk((48, 38), (64, 40), (60, 68), 5, z='f', light_left=False), spk((62, 42), (86, 46), (84, 72), 5, z='f', light_left=False)]
+    'body': 'normal', 'pal': pal('#d8781e', '#ece0c8', shade='#b85a14'),
+    'face': {'eyes': 'normal', 'brows': 'angry', 'mouth': 'none', 'hairline': False},
+    'front': [L(blob([(10, 64), (4, 38), (16, 14), (50, 4), (84, 14), (96, 38), (90, 64)]))]
+             + [L(s, 'mid', 'b', ln=True) for s in CHUCK_TOP]
+             + [L(rope((22, 30), (6, 50), (2, 74), 15), 'mid', 'b', ln=True), L(rope((78, 30), (94, 50), (98, 74), 15), 'mid', 'b', ln=True)]
+             + [L(rope((30, 30), (22, 48), (18, 68), 16), 'mid', 'f', ln=True), L(rope((44, 28), (40, 46), (34, 64), 16), 'mid', 'f', ln=True),
+                L(rope((58, 28), (62, 46), (66, 66), 16), 'mid', 'f', ln=True), L(rope((70, 30), (78, 48), (82, 70), 16), 'mid', 'f', ln=True),
+                L(rope((50, 24), (52, 40), (52, 56), 15), 'shade', 'f', ln=True)]
              + stitches((40, 92), (60, 92), 4) + stitches((22, 66), (30, 84), 2),
     'side': [L(blob([(44, 92), (20, 88), (6, 62), (6, 34), (24, 8), (56, 2), (82, 14), (92, 36), (76, 44), (60, 48), (52, 62), (50, 80)])),
-             spk((20, 20), (34, 10), (-4, 8), 6), spk((10, 40), (20, 26), (-14, 34), 6), spk((8, 62), (16, 48), (-10, 66), 5),
-             spk((14, 80), (28, 88), (2, 100), 5), spk((44, 6), (62, 4), (54, -10), 5),
-             L(blob([(14, 46), (16, 78), (38, 88), (28, 60)], 6), 'shade', 'b', False), sheen(34, 64, 12, 3),
-             spk((54, 24), (86, 36), (92, 72), 7, z='f', light_left=False)]
+             L(rope((50, 4), (30, -6), (6, 2), 15), 'mid', 'b', ln=True), L(rope((40, 10), (14, 14), (-4, 36), 15), 'mid', 'b', ln=True),
+             L(rope((26, 30), (6, 50), (0, 72), 15), 'mid', 'b', ln=True), L(rope((26, 52), (14, 70), (12, 90), 15), 'mid', 'b', ln=True),
+             L(rope((60, 4), (80, 0), (96, 16), 15), 'mid', 'b', ln=True), L(rope((44, 12), (36, 40), (34, 70), 16), 'shade', 'b', ln=True),
+             L(rope((66, 14), (84, 30), (90, 62), 16), 'mid', 'f', ln=True), L(rope((56, 20), (64, 40), (70, 60), 15), 'mid', 'f', ln=True)]
             + stitches((80, 92), (88, 92), 2),
-    'back': [L(blob([(10, 64), (4, 38), (16, 14), (50, 4), (84, 14), (96, 38), (90, 64), (76, 88), (50, 94), (24, 88)])),
-             spk((8, 36), (20, 22), (-12, 44), 6), spk((80, 22), (92, 36), (112, 44), 6, light_left=False),
-             spk((4, 50), (14, 62), (-8, 76), 5), spk((86, 62), (96, 50), (108, 76), 5, light_left=False),
-             spk((26, 10), (46, 6), (24, -6), 6), spk((54, 6), (74, 10), (78, -6), 6, light_left=False),
-             spk((14, 74), (34, 86), (10, 100), 5), spk((34, 88), (54, 92), (40, 108), 5), spk((52, 92), (72, 88), (66, 108), 5, light_left=False),
-             spk((70, 86), (88, 74), (96, 100), 5, light_left=False),
-             L(blob([(58, 12), (92, 36), (90, 66), (70, 86)], 6), 'shade', 'b', False), sheen(24, 50, 20, 3)],
+    'back': [L(blob([(10, 64), (4, 38), (16, 14), (50, 4), (84, 14), (96, 38), (90, 64), (76, 88), (50, 94), (24, 88)]))]
+            + [L(s, 'mid', 'b', ln=True) for s in CHUCK_TOP]
+            + [L(rope((22, 30), (6, 50), (2, 74), 15), 'mid', 'b', ln=True), L(rope((78, 30), (94, 50), (98, 74), 15), 'mid', 'b', ln=True),
+               L(rope((30, 40), (24, 64), (22, 88), 16), 'mid', 'b', ln=True), L(rope((44, 40), (42, 66), (40, 92), 16), 'shade', 'b', ln=True),
+               L(rope((58, 40), (60, 66), (60, 92), 16), 'mid', 'b', ln=True), L(rope((72, 40), (78, 64), (80, 88), 16), 'shade', 'b', ln=True)],
 }
 
 # ------------------------------------------------------------------ Uxley Allen: un alienígena: cabeza calva naranja alargada con

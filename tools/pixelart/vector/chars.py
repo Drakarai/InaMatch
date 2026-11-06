@@ -43,6 +43,59 @@ def outline(pts, n=6):
     return out
 
 
+def messy(view, amp=10, n=11, seed=1, rx=46, ry=40, cy=40, lo=66, nape=92, c='mid', shade=True, sweep=0.0):
+    """Pelo revuelto de pinchos irregulares (largo y ángulo distintos en cada uno), sin brillos: la silueta de los peinados
+    de puntas despeinadas. sweep inclina las puntas (negativo hacia la izquierda de la imagen)."""
+    import math as _m
+    import random as _r
+    rnd = _r.Random(seed)
+    def ring(t0, t1, k, cx, cy_, rx_, ry_, a):
+        pts = []
+        for i in range(k):
+            ta = t0 + (t1 - t0) * i / k
+            tb = t0 + (t1 - t0) * (i + 0.5 + rnd.uniform(-0.15, 0.15)) / k
+            pts.append((cx + rx_ * _m.cos(ta), cy_ - ry_ * _m.sin(ta)))
+            f = 1 + a * rnd.uniform(0.3, 1.45) / max(rx_, ry_)
+            tx, ty = cx + rx_ * f * _m.cos(tb), cy_ - ry_ * f * _m.sin(tb)
+            pts.append((tx + sweep * a, ty, 1))
+        pts.append((cx + rx_ * _m.cos(t1), cy_ - ry_ * _m.sin(t1)))
+        return pts
+    R = _m.radians
+    if view == 'side':
+        pts = ring(R(30), R(235), n, 46, cy, rx, ry, amp)
+        pts += [(30, nape), (44, nape + 2), (52, 82), (52, 62), (60, 48), (76, 44), (88, 36)]
+    elif view == 'back':
+        pts = ring(R(195), R(-15), n, 50, cy, rx, ry, amp)
+        pts += ring(R(-15), R(-165), max(4, n // 2), 50, cy + 14, rx * 0.88, nape - cy - 14, amp * 0.7)[1:-1]
+    else:
+        pts = ring(R(195), R(-15), n, 50, cy, rx, ry, amp) + [(50 + rx * 0.92, lo), (50 - rx * 0.92, lo)]
+    out = [L(outline(pts), c)]
+    if shade:
+        if view == 'side':
+            out.append(L(blob([(14, 46), (18, 78), (38, 88), (28, 60)], 6), 'shade', 'b', False))
+        else:
+            out.append(L(blob([(60, 6), (92, 34), (92, 66 if view == 'front' else 80), (74, 60)], 6), 'shade', 'b', False))
+    return out
+
+
+def rope(p0, c, p1, w=6, n=12):
+    """Mechón grueso con las puntas redondeadas (rastas, lana): curva de p0 a p1 por c, de ancho w."""
+    import math as _m
+    from heads import quad
+    pts = quad(p0, c, p1, n)
+    left, right = [], []
+    for i, (x, y) in enumerate(pts):
+        a, b = pts[max(0, i - 1)], pts[min(len(pts) - 1, i + 1)]
+        dx, dy = b[0] - a[0], b[1] - a[1]
+        d = _m.hypot(dx, dy) or 1
+        r = w / 2 * (1 - 0.25 * i / n)
+        left.append((x - dy / d * r, y + dx / d * r)); right.append((x + dy / d * r, y - dx / d * r))
+    def cap(p, q, ctr, sgn):
+        a0 = _m.atan2(p[1] - ctr[1], p[0] - ctr[0]); rr = _m.hypot(p[0] - ctr[0], p[1] - ctr[1])
+        return [(ctr[0] + rr * _m.cos(a0 + sgn * _m.pi * t / 6), ctr[1] + rr * _m.sin(a0 + sgn * _m.pi * t / 6)) for t in range(1, 6)]
+    return left + cap(left[-1], right[-1], pts[-1], -1) + right[::-1] + cap(right[0], left[0], pts[0], -1)
+
+
 def bumpy(cx, cy, rx, ry, n=16, amp=0.07, a0=0.0):
     """Contorno de rizos: elipse con bultos."""
     pts = []

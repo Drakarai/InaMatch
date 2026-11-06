@@ -1,6 +1,6 @@
 """Teikoku Gakuen (IE1): pelo, rasgos y accesorios de cada jugador, con sus modelos 3D como referencia."""
-from chars import (BACK_SKULL, CHARS, DOME, L, OUTC, blob, bumpy, caps, clumps, dread, ell, fat, mirror, pal, sheen, spk,
-                   strand)
+from chars import (BACK_SKULL, CHARS, DOME, L, OUTC, blob, bumpy, caps, clumps, dread, ell, fat, mirror, outline, pal, sheen,
+                   spk, strand)
 from heads import quad
 
 DARK = (36, 24, 22, 255)
@@ -23,29 +23,31 @@ def round_glasses(y=75, r=7.5, c=(70, 70, 80, 255)):
 # ------------------------------------------------------------------ Joseph King (portero): pelo rojizo de pinchos grandes y
 # desordenados, un mechón que le cae entre los ojos y dos marcas en las mejillas
 CHARS['joseph-king'] = {
-    'body': 'normal', 'pal': pal('#8e3c16', '#f2b886', iris='#3a2a2a', mark='#a03a2a'),
-    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'line', 'hairline': (62, 56)},
-    'front': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66)])),
-              spk((10, 40), (24, 26), (-8, 10), 6), spk((22, 26), (40, 16), (14, -8), 6), spk((38, 16), (58, 12), (44, -12), 6),
-              spk((56, 14), (74, 22), (80, -6), 6, light_left=False), spk((72, 24), (88, 40), (106, 16), 6, light_left=False),
-              spk((8, 54), (16, 66), (-6, 72), 4), spk((84, 66), (92, 54), (106, 72), 4, light_left=False),
-              L(blob([(60, 14), (88, 30), (92, 56), (78, 60)], 6), 'shade', 'b', False), sheen(24, 48, 22, 3),
-              spk((18, 48), (34, 44), (22, 66), 3, z='f'), spk((30, 44), (50, 42), (44, 80), 4, z='f'),
-              spk((50, 42), (66, 44), (60, 66), 3, z='f', light_left=False), spk((64, 46), (84, 50), (80, 68), 3, z='f', light_left=False),
-              L([(26, 82), (32, 86)], 'mark', 'f', False, False, 1.6), L([(29, 81), (35, 85)], 'mark', 'f', False, False, 1.6),
-              L([(74, 82), (68, 86)], 'mark', 'f', False, False, 1.6), L([(71, 81), (65, 85)], 'mark', 'f', False, False, 1.6)],
+    'body': 'normal', 'pal': pal('#8e3c16', '#f2b886', iris='#3a5a6a', mark='#d0702a', light='#b85a26'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 94, 'hairline': False},
+    # el pelo barrido hacia su derecha (izquierda de la imagen) en pinchos largos, con mechones del flequillo que le cruzan
+    # la cara en diagonal hasta la nariz, y dos rayas naranjas en cada mejilla
+    'front': [L(outline([(12, 72), (-8, 80, 1), (6, 60), (-20, 56, 1), (2, 40), (-26, 30, 1), (4, 22), (-16, 6, 1), (14, 6), (8, -14, 1), (30, -4),
+                         (26, -24, 1), (50, -6), (64, -12, 1), (72, 4), (88, 10), (96, 28), (98, 50), (92, 72, 1), (86, 62), (84, 72)])),
+              L(outline([(60, 0), (86, 12), (94, 30), (96, 50), (88, 60), (76, 30)]), 'shade', 'b', False),
+              L(outline([(-12, 32, 1), (10, 22), (30, 10), (10, 30)]), 'light', 'b', False),
+              L([(26, 80), (32, 92)], 'mark', 'f', False, False, 1.8), L([(31, 79), (37, 91)], 'mark', 'f', False, False, 1.8),
+              L([(74, 80), (68, 92)], 'mark', 'f', False, False, 1.8), L([(69, 79), (63, 91)], 'mark', 'f', False, False, 1.8),
+              L(outline([(14, 64), (16, 40), (34, 24), (60, 18), (80, 26), (88, 44), (90, 64, 1), (80, 54), (66, 74, 1), (60, 52), (47, 92, 1), (44, 60),
+                         (32, 72, 1), (30, 54), (20, 66, 1)]), 'mid', 'f'),
+              L(outline([(56, 22), (80, 28), (88, 46), (82, 56), (66, 40)]), 'shade', 'f', False),
+              strand([(62, 24), (52, 50), (47, 88)], 'deep', 'f', 1.0), strand([(70, 30), (64, 52), (66, 70)], 'deep', 'f', 1.0)],
     'side': [L(blob([(44, 92), (22, 88), (10, 66), (10, 40), (24, 18), (52, 10), (76, 16), (90, 34), (84, 48), (66, 50), (56, 56), (52, 72)])),
              spk((14, 44), (26, 26), (-12, 20), 7), spk((24, 26), (44, 16), (6, -6), 7), spk((44, 16), (62, 14), (46, -10), 6),
              spk((12, 64), (20, 48), (-10, 60), 5), spk((14, 80), (28, 88), (0, 96), 4),
              L(blob([(16, 50), (18, 74), (38, 88), (28, 62)], 6), 'shade', 'b', False),
              spk((56, 26), (84, 36), (92, 70), 6, z='f', light_left=False), spk((52, 54), (60, 54), (56, 74), 2, z='f'),
              L([(80, 82), (86, 85)], 'mark', 'f', False, False, 1.6)],
-    'back': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66), (76, 88), (50, 94), (24, 88)])),
-             spk((10, 40), (24, 26), (-8, 10), 6), spk((22, 26), (40, 16), (14, -8), 6), spk((38, 16), (58, 12), (44, -12), 6),
-             spk((56, 14), (74, 22), (80, -6), 6, light_left=False), spk((72, 24), (88, 40), (106, 16), 6, light_left=False),
-             spk((14, 74), (30, 86), (6, 96), 4), spk((30, 88), (48, 92), (36, 106), 4), spk((52, 92), (70, 88), (64, 106), 4, light_left=False),
-             spk((70, 86), (86, 74), (94, 96), 4, light_left=False),
-             L(blob([(58, 18), (88, 40), (86, 70), (68, 88)], 6), 'shade', 'b', False)],
+    'back': [L(outline([(88, 72), (108, 80, 1), (94, 60), (120, 56, 1), (98, 40), (126, 30, 1), (96, 22), (116, 6, 1), (86, 6), (92, -14, 1), (70, -4),
+                        (74, -24, 1), (50, -6), (36, -12, 1), (28, 4), (12, 10), (4, 28), (2, 50), (6, 80), (30, 92), (60, 94), (80, 88)])),
+             L(outline([(4, 30), (14, 12), (30, 6), (28, 50), (14, 86), (4, 70)]), 'shade', 'b', False),
+             L(outline([(112, 32, 1), (90, 22), (70, 10), (90, 30)]), 'light', 'b', False),
+             strand([(40, 4), (70, 30), (100, 54)], 'deep', 'b', 1.2), strand([(30, 30), (60, 60), (90, 76)], 'deep', 'b', 1.2)],
 }
 
 # ------------------------------------------------------------------ Peter Drent: afro oscuro, gorro gris con gafas de aviador en
@@ -96,14 +98,16 @@ CHARS['ben-simmons'] = {
 
 # ------------------------------------------------------------------ Gus Martin: pelo castaño peinado hacia atrás con un rizo en
 # espiral sobre la frente, gafas redondas, sonrisa enorme de oreja a oreja y orejas puntiagudas
-GUS_CURL = blob([(40, 50), (36, 40), (42, 30), (54, 30), (58, 40), (52, 46), (46, 42), (50, 38)], 6)
+GUS_CURL = blob([(42, 62), (32, 50), (34, 36), (48, 28), (60, 34), (62, 46), (54, 54), (46, 48), (50, 42)], 6)
 CHARS['gus-martin'] = {
     'body': 'delgado', 'pal': pal('#4a2e14', '#f6d6b4', lens=(248, 248, 248, 255), lens_d=(214, 218, 226, 255)),
-    'face': {'eyes': 'none', 'brows': False, 'mouth': 'grin', 'mouth_y': 90, 'big_ears': 1, 'ear_out': 3, 'hairline': (56, 46)},
+    'face': {'eyes': 'none', 'brows': False, 'mouth': 'none', 'big_ears': 1, 'ear_out': 3, 'hairline': (56, 46)},
     # gafas redondas blancas y opacas (no se le ven los ojos)
     'front': [L(blob([(16, 60), (14, 36), (26, 16), (50, 10), (74, 16), (86, 36), (84, 60), (50, 50)])),
               L(blob([(58, 14), (84, 32), (84, 58), (70, 52)], 6), 'shade', 'b', False), sheen(28, 54, 18, 3),
-              L(GUS_CURL, 'mid', 'f', ln=True), L(blob([(46, 34), (54, 34), (54, 40), (48, 40)], 3), 'shade', 'f', False),
+              L(GUS_CURL, 'mid', 'f', ln=True), L(blob([(44, 36), (54, 34), (56, 44), (48, 44)], 3), 'shade', 'f', False),
+              L(outline([(22, 84, 1), (50, 90), (78, 84, 1), (68, 98), (50, 103), (32, 98)]), WHITE, 'f', ln=True),
+              L(quad((26, 88), (50, 96), (74, 88)), OUTC, 'f', False, False, 0.8),
               L(ell(36, 75, 9, 8.4), 'lens', 'f', ln=True), L(ell(64, 75, 9, 8.4), 'lens', 'f', ln=True),
               L([(31, 71), (36, 69)], 'lens_d', 'f', False, False, 1.4), L([(59, 71), (64, 69)], 'lens_d', 'f', False, False, 1.4),
               L([(45, 74), (55, 74)], OUTC, 'f', False, False, 1.3), L([(27, 73), (18, 70)], OUTC, 'f', False, False, 1.3),
@@ -188,15 +192,17 @@ CHARS['herman-waldon'] = {
 # ------------------------------------------------------------------ John Bloom: media melena verde oliva con un flequillo largo
 # que le tapa el ojo derecho y cae en punta hasta la barbilla
 CHARS['john-bloom'] = {
-    'body': 'normal', 'pal': pal('#6c8442', '#f8d0a8'),
-    'face': {'eyes': 'sharp', 'mouth': 'line', 'hairline': (62, 52)},
+    'body': 'normal', 'pal': pal('#6c8442', '#f8d0a8', mask='#f0e6c0'),
+    'face': {'eyes': 'sharp', 'mouth': 'none', 'hairline': (62, 52)},
     'front': [L(blob([(12, 92), (8, 46), (18, 18), (50, 8), (82, 18), (92, 46), (90, 92), (80, 88), (80, 62), (20, 62), (20, 88)])),
               L(blob([(70, 20), (90, 48), (88, 90), (80, 86)], 6), 'shade', 'b', False), sheen(22, 48, 20, 3),
+              L(outline([(16, 82), (36, 80), (56, 84), (62, 104), (50, 106), (30, 100), (18, 92)]), 'mask', 'f', ln=True),
               spk((16, 46), (34, 42), (22, 70), 4, z='f'),
               L(blob([(32, 40), (58, 34), (80, 42), (88, 66), (84, 96), (74, 100), (66, 80), (56, 62), (42, 52)]), 'mid', 'f', ln=True),
               L(blob([(64, 44), (82, 54), (82, 92), (74, 96), (70, 70)], 6), 'shade', 'f', False)],
     'side': [L(blob([(48, 98), (20, 94), (8, 66), (10, 38), (26, 16), (54, 8), (78, 16), (90, 34), (78, 44), (62, 48), (54, 62), (52, 84)])),
              L(blob([(12, 50), (14, 88), (40, 96), (26, 66)], 6), 'shade', 'b', False), sheen(30, 60, 14, 3),
+             L(outline([(68, 84), (88, 80), (92, 96), (80, 104), (66, 100)]), 'mask', 'f', ln=True),
              spk((56, 24), (86, 36), (90, 88), 6, z='f', light_left=False)],
     'back': [L(blob([(12, 92), (8, 46), (18, 18), (50, 8), (82, 18), (92, 46), (90, 92), (70, 100), (30, 100)])),
              L(blob([(56, 14), (86, 34), (88, 90), (66, 98)], 6), 'shade', 'b', False), sheen(26, 54, 20, 3),

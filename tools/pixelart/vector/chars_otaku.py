@@ -1,6 +1,6 @@
 """Shuuyou Meito / Instituto Otaku (IE1): pelo, gafas, cascos y disfraces de cada jugador, con sus modelos 3D como
 referencia (Marcus Train no tiene modelo: su retrato de la wiki)."""
-from chars import CHARS, L, OUTC, blob, bumpy, ell, fat, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, ell, fat, messy, pal, sheen, spk, strand
 from heads import quad
 
 DARK = (30, 22, 24, 255)
@@ -47,22 +47,14 @@ CHARS['sam-idol'] = {
 CHARS['marcus-train'] = {
     'body': 'normal', 'pal': pal('#5a3a22', '#e8b07a', band='#b82a2a', band_d='#8a1e1e'),
     'face': {'eyes': 'dot', 'brows': True, 'mouth': 'frown', 'hairline': (58, 52)},
-    'front': [L(blob([(8, 70), (2, 44), (14, 18), (50, 8), (86, 18), (98, 44), (92, 70)])),
-              spk((4, 50), (12, 66), (-10, 70), 5), spk((88, 66), (96, 50), (110, 70), 5, light_left=False),
-              spk((30, 14), (44, 10), (26, 2), 4), spk((44, 10), (56, 10), (50, 0), 3), spk((56, 10), (70, 14), (74, 2), 4, light_left=False),
-              L(blob([(60, 14), (92, 36), (92, 66), (76, 62)], 6), 'shade', 'b', False), sheen(22, 46, 18, 3),
+    'front': messy('front', 14, 9, seed=21, rx=50, ry=40, lo=72) + [
               L(quad((14, 46), (50, 38), (86, 46)) + quad((86, 56), (50, 48), (14, 56)), 'band', 'f', ln=True),
               L(quad((14, 52), (50, 44), (86, 52)) + quad((86, 56), (50, 48), (14, 56)), 'band_d', 'f', False),
               spk((18, 56), (34, 54), (22, 68), 3, z='f'), spk((66, 54), (82, 56), (78, 68), 3, z='f', light_left=False)],
-    'side': [L(blob([(46, 92), (20, 88), (6, 62), (8, 34), (24, 12), (54, 6), (80, 16), (92, 36), (76, 44), (60, 48), (54, 62), (52, 82)])),
-             spk((10, 44), (20, 28), (-12, 28), 6), spk((8, 64), (16, 48), (-14, 56), 5), spk((12, 80), (24, 90), (-6, 98), 5),
-             L(blob([(12, 48), (14, 84), (40, 92), (26, 62)], 6), 'shade', 'b', False),
+    'side': messy('side', 15, 8, seed=21, rx=48, ry=40, nape=94, sweep=-0.3) + [
              L(quad((12, 44), (50, 36), (90, 46)) + quad((90, 56), (50, 46), (12, 54)), 'band', 'f', ln=True),
              spk((60, 54), (86, 56), (90, 70), 3, z='f', light_left=False)],
-    'back': [L(blob([(8, 70), (2, 44), (14, 18), (50, 8), (86, 18), (98, 44), (92, 70), (76, 90), (50, 96), (24, 90)])),
-             spk((4, 50), (12, 66), (-10, 70), 5), spk((88, 66), (96, 50), (110, 70), 5, light_left=False),
-             spk((14, 78), (32, 90), (6, 104), 5), spk((32, 92), (52, 96), (38, 110), 5), spk((52, 96), (72, 92), (68, 110), 5, light_left=False),
-             spk((70, 90), (88, 78), (96, 104), 5, light_left=False)] + back_hair() + [
+    'back': messy('back', 14, 9, seed=21, rx=50, ry=40, nape=98) + [
              L(quad((10, 46), (50, 40), (90, 46)) + quad((90, 56), (50, 50), (10, 56)), 'band', 'f', ln=True)],
 }
 
@@ -336,26 +328,16 @@ CHARS['mike-vox'] = {
 CHARS['ollie-webb'] = {
     'body': 'normal', 'pal': pal('#9a3a1e', '#f2c49a', gog='#5a5a5a', lens='#f0e8d0', freckle='#c8805a'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'hairline': (60, 52)},
-    'front': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66)])),
-              spk((8, 44), (18, 30), (-12, 24), 6), spk((82, 30), (92, 44), (112, 24), 6, light_left=False),
-              spk((6, 58), (14, 70), (-10, 74), 5), spk((86, 70), (94, 58), (110, 74), 5, light_left=False),
-              spk((26, 16), (44, 10), (24, -8), 5), spk((56, 10), (74, 16), (76, -8), 5, light_left=False),
-              L(blob([(60, 14), (88, 34), (88, 62), (72, 58)], 6), 'shade', 'b', False),
+    'front': messy('front', 16, 9, seed=31, rx=48, ry=40, lo=70) + [
               L(blob([(16, 36), (84, 36), (84, 44), (16, 44)], 3), 'gog', 'f'),
               L(ell(36, 40, 10, 7), 'gog', 'f', ln=True), L(ell(64, 40, 10, 7), 'gog', 'f', ln=True),
               L(ell(36, 40, 7, 4.6), 'lens', 'f', False), L(ell(64, 40, 7, 4.6), 'lens', 'f', False),
               spk((18, 50), (36, 46), (24, 68), 4, z='f'), spk((36, 46), (54, 46), (44, 62), 4, z='f'),
               spk((54, 46), (70, 48), (64, 62), 4, z='f', light_left=False), spk((68, 50), (86, 52), (82, 68), 4, z='f', light_left=False)]
              + [L(ell(x, y, 1.1, 1.1), 'freckle', 'f', False) for x, y in ((26, 84), (30, 86), (28, 88), (74, 84), (70, 86), (72, 88))],
-    'side': [L(blob(SIDE_SKULL)), spk((14, 40), (28, 24), (-10, 16), 6), spk((12, 62), (22, 46), (-12, 52), 6), spk((40, 12), (58, 8), (44, -10), 5),
-             L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
+    'side': messy('side', 18, 8, seed=31, rx=46, ry=40, nape=94, sweep=-0.5) + [
              spk((54, 26), (84, 36), (92, 66), 6, z='f', light_left=False),
              L(blob([(40, 34), (90, 36), (90, 44), (40, 42)], 3), 'gog', 'f'), L(ell(82, 40, 7, 7), 'gog', 'f', ln=True), L(ell(83, 40, 4.4, 4.6), 'lens', 'f', False)],
-    'back': [L(blob([(12, 66), (8, 40), (20, 16), (50, 8), (80, 16), (92, 40), (88, 66), (74, 86), (50, 92), (26, 86)])),
-             spk((8, 44), (18, 30), (-12, 24), 6), spk((82, 30), (92, 44), (112, 24), 6, light_left=False),
-             spk((6, 58), (14, 70), (-10, 74), 5), spk((86, 70), (94, 58), (110, 74), 5, light_left=False),
-             spk((26, 16), (44, 10), (24, -8), 5), spk((56, 10), (74, 16), (76, -8), 5, light_left=False),
-             spk((16, 76), (34, 88), (10, 102), 5), spk((34, 90), (54, 94), (40, 108), 5), spk((54, 94), (72, 90), (68, 108), 5, light_left=False),
-             spk((70, 88), (86, 76), (94, 102), 5, light_left=False)] + back_hair() + [
+    'back': messy('back', 16, 9, seed=31, rx=48, ry=40, nape=96) + [
              L(blob([(10, 36), (90, 36), (90, 43), (10, 43)], 3), 'gog', 'f')],
 }

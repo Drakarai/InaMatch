@@ -161,7 +161,8 @@ STYLE = {
     'Unicorn': ('#e8dccc', '#1e2a5a', '#22305e', '#1e2a5a', '#e8dccc', '#f4f0e8', '#e0401e', '#22305e', {'gkLongSleeve': True, 'stripe': '#e0401e', 'collar': '#1e2a5a', 'num': '#1e2a5a'}),
     'The Kingdom': ('#f2d230', '#2a5fc0', '#2a8a3a', '#2a8a3a'),
     'Team Garshield': ('#2e2e2e', '#5a5a5a', '#8a2a2a', '#4a4a4a'),
-    'Little Gigant': ('#f28a1d', '#1a1a1a', '#2a8a8a', '#d06a10'),
+    # Little Gigant (Cotarl): camiseta verde con ribetes amarillos, pantalón verde oscuro y medias amarillas; el portero rojo con mangas azul marino
+    'Little Gigant': ('#4aa880', '#16362a', '#d81e2a', '#4aa880', '#4aa880', '#f0c020', '#1e2a5a', '#1e2a5a', {'gkLongSleeve': True, 'gkGloves': '#d81e2a', 'stripe': '#f0c020', 'collar': '#f2f2f2', 'num': '#f0c020'}),
     'Brockenborg': ('#1a1a1a', '#f2f2f2', '#c8a020', '#3a3a3a'),
     'Red Matador': ('#c8202f', '#1d2f6b', '#f2c230', '#a01a26'),
     'Rose Griffon': ('#1d3b8a', '#f2f2f2', '#c8202f', '#2a4fa8'),

@@ -5,10 +5,19 @@
  "name": "Los Pequeños Gigantes",
  "short": "LGI",
  "colors": {
-  "shirt": "#f28a1d",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#2a8a8a",
-  "accent": "#d06a10"
+  "shirt": "#4aa880",
+  "shorts": "#16362a",
+  "gkShirt": "#d81e2a",
+  "accent": "#4aa880",
+  "sleeve": "#4aa880",
+  "socks": "#f0c020",
+  "gkShorts": "#1e2a5a",
+  "gkSleeve": "#1e2a5a",
+  "gkLongSleeve": true,
+  "gkGloves": "#d81e2a",
+  "stripe": "#f0c020",
+  "collar": "#f2f2f2",
+  "num": "#f0c020"
  },
  "formation": "f-little-gigant",
  "players": [

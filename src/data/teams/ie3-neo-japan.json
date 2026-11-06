@@ -5,10 +5,20 @@
  "name": "Neo Japón",
  "short": "NEO",
  "colors": {
-  "shirt": "#1b1b2f",
-  "shorts": "#e8e8e8",
-  "gkShirt": "#c9a227",
-  "accent": "#3a3a6a"
+  "shirt": "#ecebf0",
+  "shorts": "#26262a",
+  "gkShirt": "#f08a20",
+  "accent": "#c82020",
+  "sleeve": "#ecebf0",
+  "socks": "#b01a1a",
+  "gkShorts": "#4a4a3a",
+  "gkSleeve": "#f08a20",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#7a4aa0",
+  "stripe": "#f2f2f2",
+  "collar": "#c82020",
+  "num": "#26262a"
  },
  "formation": "f-neo",
  "players": [

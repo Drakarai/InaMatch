@@ -119,3 +119,116 @@ CHARS['thor-stoutberg'] = {
              strand([(26, 40), (20, 100)], 'deep', 'b', 1.0), strand([(50, 30), (50, 104)], 'deep', 'b', 1.0), strand([(74, 40), (80, 100)], 'deep', 'b', 1.0),
              L(outline([(36, 12), (30, -10, 1), (42, 0), (48, -22, 1), (56, -2), (68, -14, 1), (64, 10)]), 'flame_d', 'f', ln=True)],
 }
+
+# Jordan Greenway en IE3: el pelo verde claro recogido atrás en una coleta alta que cae gruesa hasta la espalda, con dos
+# mechones largos que le enmarcan la cara y un flequillo en pico
+CHARS['ie3:jordan-greenway'] = {
+    'body': 'normal', 'pal': pal('#a8b850', '#fcc490', iris='#1e1a1a', shade='#86924a'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 94, 'hairline': False},
+    'front': [L(outline([(14, 66), (10, 36), (22, 12), (50, 2), (78, 12), (90, 36), (86, 66)])),
+              L(outline([(60, 6), (82, 18), (90, 44), (84, 62), (76, 36)]), 'shade', 'b', False),
+              L(outline([(12, 60), (14, 38), (28, 24), (50, 20), (72, 24), (86, 38), (88, 60), (76, 46), (60, 44), (50, 62, 1), (40, 44), (24, 46)]), 'mid', 'f'),
+              L(outline([(56, 24), (76, 30), (86, 48), (74, 44)]), 'shade', 'f', False),
+              L(outline([(14, 56), (22, 58), (20, 84), (16, 104, 1), (12, 82)]), 'mid', 'f', ln=True),
+              L(outline([(86, 56), (78, 58), (80, 84), (84, 104, 1), (88, 82)]), 'mid', 'f', ln=True)],
+    'side': [L(outline([(26, 20), (10, 30), (-4, 60), (-8, 100), (-6, 124, 1), (4, 98), (10, 66), (24, 40)]), 'shade', 'b', ln=True),
+             L(outline([(44, 92), (22, 88), (12, 64), (12, 36), (24, 14), (52, 4), (76, 10), (90, 28), (88, 44), (74, 46), (60, 48), (52, 62), (50, 80)])),
+             L(outline([(14, 40), (34, 44), (42, 80), (22, 86), (12, 64)]), 'shade', 'b', False),
+             L(ell(24, 22, 5, 5), 'shade', 'b', ln=True),
+             L(outline([(62, 30), (88, 38), (90, 64), (88, 100, 1), (80, 70), (70, 48)]), 'mid', 'f', ln=True)],
+    'back': [L(outline([(12, 82), (10, 36), (22, 12), (50, 2), (78, 12), (90, 36), (88, 82), (50, 88)])),
+             L(outline([(58, 6), (86, 26), (90, 60), (84, 80), (66, 84)]), 'shade', 'b', False),
+             strand([(30, 10), (40, 30)], 'shade', 'b', 1.0), strand([(70, 10), (60, 30)], 'shade', 'b', 1.0),
+             L(outline([(40, 26), (60, 26), (64, 60), (62, 100), (54, 126, 1), (46, 104), (38, 64)]), 'mid', 'f', ln=True),
+             L(outline([(52, 30), (60, 30), (62, 70), (56, 110), (52, 70)]), 'shade', 'f', False),
+             L(ell(50, 28, 7, 3), 'shade', 'f', ln=True)],
+}
+
+# Paul Peabody: pelo verde musgo despeinado y abultado, con mechones en punta que le caen por la frente, las sienes y la
+# nuca, y dos pelos de punta arriba; ojos negros enormes y redondos, coloretes y sonrisa
+CHARS['paul-peabody'] = {
+    'body': 'bajito', 'pal': pal('#5e7a3a', '#fcc890', shade='#465e2a', blush='#f0a080'),
+    'face': {'eyes': 'none', 'brows': False, 'mouth': 'smile', 'mouth_y': 94, 'hairline': False},
+    'front': [L(outline([(8, 76, 1), (6, 56), (-6, 46, 1), (4, 34), (12, 14), (30, 2), (36, -10, 1), (44, 0), (56, -2), (66, -12, 1), (68, 2), (84, 10), (94, 32),
+                         (106, 44, 1), (94, 54), (92, 76, 1), (84, 64), (16, 64)])),
+              L(outline([(60, 2), (84, 12), (94, 36), (90, 64), (78, 40)]), 'shade', 'b', False),
+              L(outline([(12, 70, 1), (14, 42), (28, 26), (50, 20), (72, 26), (86, 42), (88, 70, 1), (80, 54), (72, 64, 1), (64, 48), (56, 60, 1), (50, 46), (42, 60, 1),
+                         (36, 48), (26, 64, 1), (20, 54)]), 'mid', 'f'),
+              L(outline([(56, 24), (78, 32), (86, 52), (76, 50), (68, 38)]), 'shade', 'f', False),
+              L(ell(35, 76, 6.2, 6.6), WHITE, 'f', ln=True), L(ell(65, 76, 6.2, 6.6), WHITE, 'f', ln=True),
+              L(ell(35, 76, 4.6, 5), OUTC, 'f', False), L(ell(65, 76, 4.6, 5), OUTC, 'f', False),
+              L(ell(33.6, 74.4, 1.4, 1.4), WHITE, 'f', False), L(ell(63.6, 74.4, 1.4, 1.4), WHITE, 'f', False),
+              L(ell(24, 86, 4, 2.4), 'blush', 'f', False), L(ell(76, 86, 4, 2.4), 'blush', 'f', False)],
+    'side': [L(outline([(44, 94), (30, 98, 1), (20, 88), (-2, 88, 1), (6, 70), (-6, 60, 1), (6, 50), (4, 28), (18, 8), (40, -2), (48, -14, 1), (54, 0), (72, 4), (88, 18),
+                        (94, 40, 1), (80, 40), (64, 46), (54, 62), (50, 80)])),
+             L(outline([(8, 46), (32, 48), (40, 84), (20, 86), (8, 66)]), 'shade', 'b', False),
+             L(ell(84, 76, 3.6, 6), WHITE, 'f', ln=True), L(ell(85, 76, 2.6, 4.6), OUTC, 'f', False),
+             spk((60, 30), (88, 40), (92, 66), 4, z='f', light_left=False)],
+    'back': [L(outline([(-4, 72, 1), (6, 60), (4, 32), (16, 10), (36, 0), (44, -12, 1), (52, 0), (64, -8, 1), (68, 4), (84, 12), (96, 32), (94, 60), (104, 72, 1),
+                        (86, 80), (70, 76), (50, 84), (30, 76), (14, 80)])),
+             L(outline([(8, 50), (50, 40), (92, 50), (100, 70), (80, 78), (50, 82), (20, 78), (0, 70)]), 'shade', 'b', False)],
+}
+
+# Isaac Glass: pelo castaño muy oscuro corto, con flequillo de mechones finos y las puntas abiertas por encima de las
+# orejas; gafas de montura negra con la patilla verde y media sonrisa pícara
+CHARS['isaac-glass'] = {
+    'body': 'normal', 'pal': pal('#2e2018', '#fcc890', iris='#1e1814', rim='#1e1e1e', arm='#3a8a5a'),
+    'face': {'eyes': 'sharp', 'brows': True, 'mouth': 'smile', 'mouth_y': 94, 'hairline': False},
+    'front': [L(outline([(12, 70), (8, 56), (-4, 50, 1), (8, 44), (8, 30), (20, 10), (50, 2), (80, 10), (92, 30), (92, 44), (104, 50, 1), (92, 56), (88, 70), (80, 64),
+                         (20, 64)])),
+              L(outline([(60, 6), (84, 16), (92, 40), (88, 62), (78, 36)]), 'shade', 'b', False),
+              L(outline([(12, 64), (14, 40), (28, 26), (50, 20), (72, 26), (86, 40), (88, 64, 1), (80, 50), (68, 56, 1), (62, 44), (52, 52, 1), (44, 40), (34, 56, 1),
+                         (30, 44), (20, 60, 1)]), 'mid', 'f'),
+              L(outline([(56, 24), (78, 32), (86, 50), (74, 44)]), 'shade', 'f', False),
+              L(outline([(22, 68), (46, 68), (46, 82), (24, 82)]) + [outline([(22, 68), (46, 68), (46, 82), (24, 82)])[0]], 'rim', 'f', False, False, 2.0),
+              L(outline([(78, 68), (54, 68), (54, 82), (76, 82)]) + [outline([(78, 68), (54, 68), (54, 82), (76, 82)])[0]], 'rim', 'f', False, False, 2.0),
+              L([(46, 72), (54, 72)], 'arm', 'f', False, False, 1.6), L([(14, 72), (22, 72)], 'arm', 'f', False, False, 1.6),
+              L([(78, 72), (86, 72)], 'arm', 'f', False, False, 1.6)],
+    'side': [L(outline([(44, 92), (22, 88), (12, 66), (0, 58, 1), (12, 54), (12, 30), (26, 10), (54, 2), (78, 10), (92, 30), (90, 46), (76, 46), (62, 48), (52, 62),
+                        (50, 80)])),
+             L(outline([(14, 40), (36, 44), (42, 80), (22, 86), (12, 66)]), 'shade', 'b', False),
+             L(outline([(76, 68), (92, 68), (92, 82), (78, 82)]) + [outline([(76, 68), (92, 68), (92, 82), (78, 82)])[0]], 'rim', 'f', False, False, 2.0),
+             L([(50, 72), (76, 72)], 'arm', 'f', False, False, 1.8),
+             spk((60, 28), (88, 38), (90, 60), 4, z='f', light_left=False)],
+    'back': [L(outline([(12, 80), (8, 56), (-4, 50, 1), (8, 44), (8, 30), (20, 10), (50, 2), (80, 10), (92, 30), (92, 44), (104, 50, 1), (92, 56), (88, 80), (50, 88)])),
+             L(outline([(58, 6), (86, 22), (92, 50), (86, 78), (64, 86)]), 'shade', 'b', False),
+             L([(14, 72), (86, 72)], 'arm', 'f', False, False, 1.4)],
+}
+
+# Dave Quagmire (humano, en Neo Japón): pelo negro azulado recogido en un moño alto y ancho como un abanico, con dos
+# mechones largos que le caen por delante de las orejas hasta el cuello y se abren en punta; cara alargada pálida, ojos
+# naranjas rasgados y media sonrisa
+CHARS['ie3:dave-quagmire'] = {
+    'body': 'normal', 'pal': pal('#24303a', '#fce8c8', iris='#d0601a', shade='#1a2228'),
+    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'smile', 'mouth_y': 96, 'hairline': [(16, 60), (20, 40), (36, 32), (50, 34), (64, 32), (80, 40), (84, 60)]},
+    'front': [L(outline([(16, 64), (14, 30), (24, 16), (6, 6, 1), (26, 0), (40, -12), (60, -12), (74, 0), (94, 6, 1), (76, 16), (86, 30), (84, 64)])),
+              L(outline([(60, -8), (76, 2), (90, 6, 1), (76, 16), (84, 34), (82, 60), (74, 30)]), 'shade', 'b', False),
+              L(quad((24, 16), (50, 10), (76, 16)), 'shade', 'b', False, False, 1.4),
+              L(outline([(14, 50), (22, 52), (24, 80), (20, 100), (26, 112, 1), (12, 104), (10, 80)]), 'mid', 'f', ln=True),
+              L(outline([(86, 50), (78, 52), (76, 80), (80, 100), (74, 112, 1), (88, 104), (90, 80)]), 'mid', 'f', ln=True)],
+    'side': [L(outline([(44, 92), (22, 88), (14, 64), (8, 80), (-10, 104, 1), (-2, 80), (8, 54), (10, 30), (20, 12), (12, -12, 1), (32, 0), (50, -10), (66, -12, 1),
+                        (70, 8), (86, 22), (88, 40), (76, 44), (62, 46), (54, 62), (50, 80)])),
+             L(outline([(12, 40), (32, 44), (40, 84), (22, 88), (12, 64)]), 'shade', 'b', False),
+             L(outline([(52, 54), (60, 56), (58, 96), (50, 108, 1), (48, 80)]), 'mid', 'f', ln=True)],
+    'back': [L(outline([(16, 84), (10, 40), (22, 18), (4, 8, 1), (24, 0), (40, -12), (60, -12), (76, 0), (96, 8, 1), (78, 18), (90, 40), (84, 84), (70, 92),
+                        (62, 108, 1), (56, 92), (50, 104, 1), (44, 92), (38, 108, 1), (30, 92)])),
+             L(outline([(56, -8), (78, 4), (92, 40), (84, 82), (66, 90), (62, 40)]), 'shade', 'b', False),
+             L(outline([(36, 20), (50, 54, 1), (64, 20)]), 'shade', 'b', False)],
+}
+# Zeke Valanche (humano, en Neo Japón): piel morena; pelo blanco rosado peinado hacia atrás y a un lado, con un mechón en
+# punta que se levanta por su izquierda y puntas cortas en la nuca; ojos naranjas de pillo y sonrisa de dientes
+CHARS['ie3:zeke-valanche'] = {
+    'body': 'normal', 'pal': pal('#f2e4e0', '#9a6440', iris='#d0601a', shade='#c8a8a8', light=WHITE),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 95, 'hairline': False},
+    'front': [L(outline([(10, 74), (6, 40), (18, 14), (44, 2), (70, 4), (88, 14), (96, -8, 1), (92, 20), (104, 46, 1), (92, 50), (90, 74), (82, 64), (18, 64)])),
+              L(outline([(62, 6), (86, 16), (94, -4, 1), (90, 24), (100, 44, 1), (88, 46), (78, 30)]), 'shade', 'b', False),
+              L(outline([(12, 66, 1), (14, 40), (28, 22), (52, 14), (74, 20), (88, 38), (88, 60, 1), (78, 44), (62, 34), (44, 36), (30, 46), (22, 62, 1), (18, 50)]), 'mid', 'f'),
+              L(outline([(30, 24), (52, 16), (68, 22), (48, 26)]), 'light', 'f', False),
+              L(outline([(8, 66), (2, 86, 1), (14, 76)]), 'mid', 'f', ln=True), L(outline([(92, 66), (98, 86, 1), (86, 76)]), 'mid', 'f', ln=True)],
+    'side': [L(outline([(44, 92), (34, 100, 1), (24, 90), (10, 96, 1), (12, 80), (0, 76, 1), (8, 60), (6, 36), (20, 12), (48, 2), (74, 6), (90, 20), (94, 34), (86, 44),
+                        (70, 44), (58, 50), (52, 64), (50, 80)])),
+             L(outline([(8, 40), (40, 30), (54, 46), (46, 88), (26, 92), (10, 70)]), 'shade', 'b', False)],
+    'back': [L(outline([(10, 84), (0, 92, 1), (8, 74), (6, 40), (18, 12), (50, 2), (82, 12), (96, -6, 1), (92, 22), (94, 40), (92, 74), (100, 92, 1), (88, 86), (76, 98, 1),
+                        (64, 88), (50, 100, 1), (36, 88), (24, 98, 1)])),
+             L(outline([(10, 50), (50, 30), (90, 46), (90, 80), (50, 96), (12, 82)]), 'shade', 'b', False)],
+}

@@ -59,6 +59,8 @@ export interface TeamData {
     gkSleeve?: string;
     /** Equipación de traje (sprites dibujados): manga larga, pantalón largo, camisa y corbata. */
     suit?: boolean;
+    /** Los jugadores de campo llevan manga larga. */
+    longSleeve?: boolean;
     /** El portero lleva manga larga. */
     gkLongSleeve?: boolean;
     /** Color de los guantes del portero (si no son blancos). */

@@ -355,7 +355,7 @@ def kit_for(colors, gk=False):
         if colors.get(key) and not (gk and key == 'collar'):
             k[key] = hexc(colors[key])
     suit = bool(colors.get('suit')) and not gk
-    k['longSleeve'] = suit or (gk and bool(colors.get('gkLongSleeve')))
+    k['longSleeve'] = suit or (gk and bool(colors.get('gkLongSleeve'))) or (not gk and bool(colors.get('longSleeve')))
     k['longPants'] = suit
     k['suit'] = suit
     if suit:

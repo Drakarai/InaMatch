@@ -5,10 +5,15 @@
  "name": "Pruebas de Selección - Equipo B",
  "short": "NIP",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#2a6fd6",
+  "shirt": "#e8dccc",
+  "shorts": "#1e5ab8",
   "gkShirt": "#e8892b",
-  "accent": "#2d5fb8"
+  "accent": "#1e5ab8",
+  "sleeve": "#e8dccc",
+  "socks": "#e8dccc",
+  "stripe": "#f0c020",
+  "collar": "#d02a2a",
+  "num": "#1e5ab8"
  },
  "formation": "f-basic",
  "players": [

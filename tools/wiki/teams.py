@@ -136,11 +136,17 @@ STYLE = {
     'Young Inazuma': ('#1a1a1e', '#e8e4e4', '#8a1e14', '#e8e4e4', '#e8e4e4', '#1a1a1e', '#1a1a1e', '#1a1a1e'),
     # IE3
     # Inazuma Japan: camiseta azul con el cuello rojo y ribetes amarillos, pantalón crema y medias azules con franja amarilla
+    # Pruebas de selección: el equipo B con la camiseta crema de cuello rojo, pantalón azul y medias crema
+    'Nippon Daihyou Kouho B': ('#e8dccc', '#1e5ab8', '#e8892b', '#1e5ab8', '#e8dccc', '#e8dccc', None, None,
+                               {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#1e5ab8'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     'Big Waves': ('#f2c230', '#1f5f3a', '#3a7bd5', '#2f8a4a'),
     'Desert Lion': ('#8e1f2f', '#f2ede4', '#3b3b48', '#a8283a'),
-    'Neo Japan': ('#1b1b2f', '#e8e8e8', '#c9a227', '#3a3a6a'),
+    # Neo Japan: camiseta blanca de manga larga con franjas negras y rojas, pantalón negro y medias rojas; el portero de naranja
+    # de manga larga con pantalón verde oscuro y guantes morados
+    'Neo Japan': ('#ecebf0', '#26262a', '#f08a20', '#c82020', '#ecebf0', '#b01a1a', '#4a4a3a', '#f08a20',
+                  {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#7a4aa0', 'stripe': '#f2f2f2', 'collar': '#c82020', 'num': '#26262a'}),
     'Fire Dragon': ('#d6342a', '#1a1a1a', '#f2c230', '#b82a22'),
     'Knights of Queen': ('#f2f2f2', '#1d2f6b', '#c8202f', '#1d2f6b'),
     'Orpheus': ('#2457b8', '#f2f2f2', '#2e2e2e', '#1d4596'),
@@ -286,7 +292,6 @@ STYLE.update({
     'Kami to Uchuu': ('#f2f2f2', '#5a3a8a', '#c8a020', '#7a5aa8'),
     'Zenkoku Team Senbatsu A': ('#2a5fc0', '#f2f2f2', '#e8892b', '#1d4596'),
     'Zenkoku Team Senbatsu B': ('#c8202f', '#f2f2f2', '#2a8a3a', '#a01a26'),
-    'Nippon Daihyou Kouho B': ('#f2f2f2', '#2a6fd6', '#e8892b', '#2d5fb8'),
     'Dark Angel': ('#1a1a1a', '#3a1a4a', '#8a1a2a', '#5a2a6a'),
     'Chaos Angels': ('#7a2a5a', '#f2f2f2', '#3a8ac0', '#8a3a6a'),
     'God Angel': ('#f2f2f2', '#c8a020', '#7ab8e8', '#b89020'),

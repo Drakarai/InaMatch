@@ -5,10 +5,20 @@
  "name": "Los Emperadores",
  "short": "EMP",
  "colors": {
-  "shirt": "#8fc6ea",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#f2c230",
-  "accent": "#4a8fc0"
+  "shirt": "#8ab8e0",
+  "shorts": "#1e1e22",
+  "gkShirt": "#1e2a4a",
+  "accent": "#8ab8e0",
+  "sleeve": "#8ab8e0",
+  "socks": "#ece4d4",
+  "gkShorts": "#5a6478",
+  "gkSleeve": "#f0d890",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e2a4a",
+  "vstripes": "#ece4d4",
+  "stripe": "#ece4d4",
+  "collar": "#ece4d4",
+  "num": "#1e1e22"
  },
  "formation": "f-empire",
  "players": [

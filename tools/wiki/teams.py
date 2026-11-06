@@ -156,7 +156,8 @@ STYLE = {
     # Orpheus (Italia): camiseta azul de manga larga con cuello blanco, pantalón y medias negros; el portero todo de rojo con guantes negros
     'Orpheus': ('#3a64b8', '#26262a', '#d82a1e', '#3a64b8', '#3a64b8', '#26262a', '#d82a1e', '#d82a1e', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e1e1e', 'stripe': '#2a5aa8', 'collar': '#f2ece0', 'num': '#f2ece0'}),
     'Team K': ('#3a2a5a', '#1a1a1a', '#8a8a8a', '#5a3a8a'),
-    'The Empire': ('#8fc6ea', '#1a1a1a', '#f2c230', '#4a8fc0'),
+    # The Empire (Argentina): camiseta a rayas verticales celestes y blancas, pantalón negro y medias blancas; el portero azul marino con mangas crema
+    'The Empire': ('#8ab8e0', '#1e1e22', '#1e2a4a', '#8ab8e0', '#8ab8e0', '#ece4d4', '#5a6478', '#f0d890', {'gkLongSleeve': True, 'gkGloves': '#1e2a4a', 'vstripes': '#ece4d4', 'stripe': '#ece4d4', 'collar': '#ece4d4', 'num': '#1e1e22'}),
     # Unicorn (EE. UU.): camiseta crema de cuello azul marino, pantalón azul marino y medias blancas con franja roja; el portero azul marino de manga larga con pantalón rojo
     'Unicorn': ('#e8dccc', '#1e2a5a', '#22305e', '#1e2a5a', '#e8dccc', '#f4f0e8', '#e0401e', '#22305e', {'gkLongSleeve': True, 'stripe': '#e0401e', 'collar': '#1e2a5a', 'num': '#1e2a5a'}),
     'The Kingdom': ('#f2d230', '#2a5fc0', '#2a8a3a', '#2a8a3a'),

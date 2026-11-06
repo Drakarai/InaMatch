@@ -78,6 +78,39 @@ def messy(view, amp=10, n=11, seed=1, rx=46, ry=40, cy=40, lo=66, nape=92, c='mi
     return out
 
 
+def longhair(view, length=100, flare=10, top=0, part=False, ends=4, c='mid', fringe=None, sides=True):
+    """Melena lisa que cae por los lados hasta length (altura), abierta flare unidades hacia fuera en las puntas, que acaban
+    en ends puntas; part: raya en medio; fringe: flequillo de mechones (front) hasta esa altura."""
+    L0, R0 = 8 - flare * 0.2, 92 + flare * 0.2
+    if view == 'front':
+        pts = [(L0 - flare, length, 1), (L0 + 2, length - 20), (L0 - 2, 40), (16, 12 + top), (50, top), (84, 12 + top), (R0 + 2, 40), (R0 - 2, length - 20),
+               (R0 + flare, length, 1), (82, length - 10), (82, 64), (18, 64), (18, length - 10)]
+        out = [L(outline(pts), c), L(outline([(60, 4 + top), (86, 18 + top), (R0, 44), (R0, length - 14), (84, length - 12), (80, 50)]), 'shade', 'b', False)]
+        if part:
+            out.append(strand([(50, top + 2), (50, 36)], 'deep', 'b', 1.2))
+        if fringe:
+            pts = [(12, fringe - 4, 1), (14, 40), (28, 24), (50, 18), (72, 24), (86, 40), (88, fringe - 4, 1)]
+            n = 4
+            for i in range(n):
+                x = 80 - (i + 0.5) * 60 / n
+                pts += [(x + 6, fringe - 14), (x, fringe, 1)]
+            pts.append((18, fringe - 14))
+            out.append(L(outline(pts), c, 'f'))
+        return out
+    if view == 'side':
+        pts = [(54, 70), (54, length - 18), (40, length - 8), (24, length, 1), (14, length - 12), (2 - flare, length, 1), (2, length - 30), (2, 36), (18, 8 + top), (50, -2 + top),
+               (78, 6 + top), (92, 26), (92, 44), (78, 44), (64, 50)]
+        return [L(outline(pts), c), L(outline([(4, 40), (34, 40), (46, length - 20), (30, length - 6), (6, length - 10)]), 'shade', 'b', False)]
+    pts = [(L0 - flare, length, 1), (L0 + 2, length - 20), (L0 - 2, 40), (16, 12 + top), (50, top), (84, 12 + top), (R0 + 2, 40), (R0 - 2, length - 20), (R0 + flare, length, 1)]
+    for i in range(ends):
+        x = R0 - (i + 1) * (R0 - L0) / (ends + 1)
+        pts += [(x + 6, length - 8), (x, length + 6, 1)]
+    out = [L(outline(pts), c), L(outline([(56, 4 + top), (86, 18 + top), (R0, 50), (R0, length - 6), (64, length)]), 'shade', 'b', False)]
+    if part:
+        out.append(strand([(50, top + 2), (50, length - 4)], 'deep', 'b', 1.0))
+    return out
+
+
 def rope(p0, c, p1, w=6, n=12):
     """Mechón grueso con las puntas redondeadas (rastas, lana): curva de p0 a p1 por c, de ancho w."""
     import math as _m
@@ -633,6 +666,7 @@ import chars_knights  # noqa: E402,F401
 import chars_unicorn  # noqa: E402,F401
 import chars_orpheus  # noqa: E402,F401
 import chars_littlegigant  # noqa: E402,F401
+import chars_empire  # noqa: E402,F401
 
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):

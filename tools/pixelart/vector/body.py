@@ -131,6 +131,17 @@ def body_front(d, t, back=False, num='10'):
         from PIL import ImageChops
         layer.putalpha(ImageChops.multiply(layer.split()[3], clip))
         d._image.alpha_composite(layer)
+    if KIT.get('vstripes'):  # rayas verticales (Argentina): franjas del otro color recortadas a la camiseta
+        from PIL import ImageChops
+        clip = Image.new('L', (CW * SS, CH * SS), 0)
+        ImageDraw.Draw(clip).polygon([P(*q) for q in torso], fill=255)
+        layer = Image.new('RGBA', (CW * SS, CH * SS))
+        ld = ImageDraw.Draw(layer)
+        for k in range(-3, 4, 2):
+            x = cx + k * sw / 3.5
+            ld.polygon([P(x - sw / 7, top - 2), P(x + sw / 7, top - 2), P(x + sw / 7, waist + 4), P(x - sw / 7, waist + 4)], fill=KIT['vstripes'])
+        layer.putalpha(ImageChops.multiply(layer.split()[3], clip))
+        d._image.alpha_composite(layer)
     d.polygon([P(cx + sw * 0.45, top + 3), P(cx + sw - 2, top + 6), P(cx + ww - 2, waist), P(cx + ww * 0.45, waist)], fill=KIT['shirt_d'])
     # mangas raglán: del cuello al sobaco
     for s in (-1, 1):
@@ -203,6 +214,10 @@ def body_side(d, t, step=0):
     # torso
     shape(d, rrect(cx - depth / 2, top, cx + depth / 2, waist + 2, 8), KIT['shirt'])
     d.polygon([P(cx - depth / 2 + 2, top + 8), P(cx - depth / 2 + 6, top + 8), P(cx - depth / 2 + 6, waist), P(cx - depth / 2 + 2, waist)], fill=KIT['shirt_d'])
+    if KIT.get('vstripes'):
+        for k in (-1, 1):
+            x = cx + k * depth / 4
+            d.polygon([P(x - depth / 9, top + 2), P(x + depth / 9, top + 2), P(x + depth / 9, waist), P(x - depth / 9, waist)], fill=KIT['vstripes'])
     if KIT.get('sash'):  # la tela cruzada: de perfil, una franja que baja del hombro por el costado
         shape(d, blob_pts([(cx - depth / 2 + 1, top + 2), (cx + 4, top - 1), (cx + depth / 2 - 1, waist - 4), (cx + depth / 2 - 6, waist + 4),
                            (cx - 2, waist)]), KIT['sash'], 1.3)
@@ -365,6 +380,8 @@ def kit_for(colors, gk=False):
         k['collar'] = k['num'] = hexc(colors['accent'])
     if gk:
         k['hand'] = hexc(colors['gkGloves']) if colors.get('gkGloves') else (246, 246, 246, 255)
+    if colors.get('vstripes') and not gk:
+        k['vstripes'] = hexc(colors['vstripes'])
     if colors.get('zig') and not gk:
         k['zig'] = hexc(colors['zig'])
     for key in ('collar', 'num', 'stripe'):

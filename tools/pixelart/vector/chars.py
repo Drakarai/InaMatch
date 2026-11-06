@@ -542,3 +542,4 @@ import chars_zeus  # noqa: E402,F401
 import chars_farm  # noqa: E402,F401
 import chars_umbrella  # noqa: E402,F401
 import chars_kfc  # noqa: E402,F401
+import chars_ob  # noqa: E402,F401

@@ -86,7 +86,9 @@ STYLE = {
     'Teikoku Gakuen': ('#36584a', '#7a6438', '#f08a2a', '#b0202a', '#36584a'),
     # Occult: camiseta morada (mangas iguales), pantalón gris, medias oscuras; portero de rojo
     'Occult': ('#4a4a7e', '#a2a2aa', '#a81c1c', '#3a3a68', '#4a4a7e', '#4a4a52'),
-    'Inazuma Eleven': ('#f2c230', '#2a5fc0', '#e8892b', '#c89a10'),
+    # Inazuma Eleven (los veteranos): camiseta morada oscura con mangas negras y cremallera dorada, pantalón negro y medias crema;
+    # portero con un abrigo morado largo
+    'Inazuma Eleven': ('#382a4a', '#141218', '#2e2240', '#c8a030', '#141218', '#e0d4b8', '#2e2240', '#2e2240'),
     # IE2
     'Second Raimon': ('#f2c230', '#2a5fc0', '#e8892b', '#d9a400'),
     'Gemini Storm': ('#4a7a3a', '#1a2a1a', '#c8c020', '#3a6a2a'),

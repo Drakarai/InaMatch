@@ -81,6 +81,8 @@ STYLE = {
     'Senbayama': ('#9a8010', '#3a2c20', '#4e6e80', '#f0e8cc', '#9a8010', '#9a8010'),
     # Kasamino (Umbrella): camiseta azul claro con mangas crema, pantalón azul y medias blancas; portero verde con mangas crema
     'Kasamino': ('#94bccc', '#2e5a80', '#5a7a34', '#2e4a6a', '#e8dcc0', '#f2f2f2', '#3a4a40', '#e8dcc0'),
+    # Inazuma KFC: camiseta roja con mangas amarillas, pantalón gris pardo y medias rojas; portero azul petróleo con mangas amarillas
+    'Inazuma KFC': ('#d01010', '#4e4a40', '#1e5a7a', '#f0c010', '#f0c010', '#c01010', '#3a3a3e', '#e0a020'),
     'Teikoku Gakuen': ('#36584a', '#7a6438', '#f08a2a', '#b0202a', '#36584a'),
     # Occult: camiseta morada (mangas iguales), pantalón gris, medias oscuras; portero de rojo
     'Occult': ('#4a4a7e', '#a2a2aa', '#a81c1c', '#3a3a68', '#4a4a7e', '#4a4a52'),

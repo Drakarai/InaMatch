@@ -5,10 +5,18 @@
  "name": "Unicorn",
  "short": "UNI",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#1d3b8a",
-  "gkShirt": "#c8202f",
-  "accent": "#1d3b8a"
+  "shirt": "#e8dccc",
+  "shorts": "#1e2a5a",
+  "gkShirt": "#22305e",
+  "accent": "#1e2a5a",
+  "sleeve": "#e8dccc",
+  "socks": "#f4f0e8",
+  "gkShorts": "#e0401e",
+  "gkSleeve": "#22305e",
+  "gkLongSleeve": true,
+  "stripe": "#e0401e",
+  "collar": "#1e2a5a",
+  "num": "#1e2a5a"
  },
  "formation": "f-unicorn",
  "players": [

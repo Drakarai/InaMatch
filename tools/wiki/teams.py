@@ -156,7 +156,8 @@ STYLE = {
     'Orpheus': ('#2457b8', '#f2f2f2', '#2e2e2e', '#1d4596'),
     'Team K': ('#3a2a5a', '#1a1a1a', '#8a8a8a', '#5a3a8a'),
     'The Empire': ('#8fc6ea', '#1a1a1a', '#f2c230', '#4a8fc0'),
-    'Unicorn': ('#f2f2f2', '#1d3b8a', '#c8202f', '#1d3b8a'),
+    # Unicorn (EE. UU.): camiseta crema de cuello azul marino, pantalón azul marino y medias blancas con franja roja; el portero azul marino de manga larga con pantalón rojo
+    'Unicorn': ('#e8dccc', '#1e2a5a', '#22305e', '#1e2a5a', '#e8dccc', '#f4f0e8', '#e0401e', '#22305e', {'gkLongSleeve': True, 'stripe': '#e0401e', 'collar': '#1e2a5a', 'num': '#1e2a5a'}),
     'The Kingdom': ('#f2d230', '#2a5fc0', '#2a8a3a', '#2a8a3a'),
     'Team Garshield': ('#2e2e2e', '#5a5a5a', '#8a2a2a', '#4a4a4a'),
     'Little Gigant': ('#f28a1d', '#1a1a1a', '#2a8a8a', '#d06a10'),

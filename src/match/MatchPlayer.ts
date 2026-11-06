@@ -128,11 +128,20 @@ export class MatchPlayer {
     return false;
   }
 
-  /** Sincroniza sombra, aro y profundidad con la posición del sprite. */
-  syncVisuals(now: number, showTag: boolean): void {
+  /**
+   * Sincroniza sombra, aro y profundidad con la posición del sprite. blocker: mientras vuela un tiro rival, este jugador
+   * puede cruzarse para bloquearlo (tiene una supertécnica de bloqueo de tiro con TP): su aro brilla en dorado.
+   */
+  syncVisuals(now: number, showTag: boolean, blocker = false): void {
     const feet = this.y + 21;
     this.shadow.setPosition(this.x, feet);
     this.ring.setPosition(this.x, feet);
+    if (blocker) {
+      const pulse = 0.6 + Math.abs(Math.sin(now * 8)) * 0.4;
+      this.ring.setStrokeStyle(3, 0xffd54a, pulse).setScale(1.2);
+    } else {
+      this.ring.setStrokeStyle(2, this.side === 0 ? 0x4fa3ff : 0xff5a6a, 0.9).setScale(1);
+    }
     this.tag.setPosition(this.x, feet + 6).setVisible(showTag);
     const depth = feet;
     this.shadow.setDepth(depth - 2);

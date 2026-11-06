@@ -28,7 +28,7 @@ export const GOAL_DEPTH = 36;
 
 /** Duración de cada parte: minutos que marca el reloj y segundos reales que dura. */
 export const HALF_GAME_MINUTES = 30;
-export const HALF_REAL_SECONDS = 210;
+export const HALF_REAL_SECONDS = 105;
 
 /** Ritmo del partido: multiplica la velocidad de jugadores y balón (1 = el ritmo original). */
 export const GAME_SPEED = 0.75;

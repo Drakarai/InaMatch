@@ -483,7 +483,14 @@ export class MatchScene extends Phaser.Scene {
   private syncAll(): void {
     const owner = this.ball.owner;
     const focus = this.focusPlayer();
-    for (const p of this.allPlayers()) p.syncVisuals(this.now, p === owner || p === focus);
+    // mientras vuela un tiro, se marcan los defensas que pueden bloquearlo (y su nombre), los únicos que pueden tocarlo
+    const f = this.flight;
+    const canCut = (p: MatchPlayer) =>
+      !!f && this.state === 'shot' && !f.isChip && p.side === f.defSide && !p.isGK && !f.tried.has(p) && !p.isStunned(this.now) && canBlockShot(p.moves, p.tp);
+    for (const p of this.allPlayers()) {
+      const cut = canCut(p);
+      p.syncVisuals(this.now, p === owner || p === focus || cut, cut);
+    }
 
     const b = this.ball;
     if (b.owner) {
@@ -676,7 +683,8 @@ export class MatchScene extends Phaser.Scene {
   }
 
   private drainFp(p: MatchPlayer, dt: number): void {
-    p.fp = Math.max(0, p.fp - dt * 0.15 * (65 / Math.max(20, p.data.stats.stamina)));
+    // el desgaste por correr va al doble que antes porque las partes duran la mitad: al final del partido se acaba igual de cansado
+    p.fp = Math.max(0, p.fp - dt * 0.3 * (65 / Math.max(20, p.data.stats.stamina)));
   }
 
   private cpuDribble(p: MatchPlayer, speed: number, dt: number): void {
@@ -1196,7 +1204,8 @@ export class MatchScene extends Phaser.Scene {
     const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, 0.5);
     this.payMoves([blocker, blockChoice]);
     const block = resolveBlock(f.power, shooter.fighter(), shotChoice, blocker.fighter(), blockChoice, rng, this.sideMul(blocker.side));
-    const blockShown = blockChoice.type === 'move' && (block.blocked || shotChoice.type !== 'move');
+    // la supertécnica de bloqueo se ve siempre, aunque solo le quite potencia al tiro
+    const blockShown = blockChoice.type === 'move';
     if (blockShown) await this.showMove(blocker, blockChoice, this.ball);
     if (block.blockPower > 0) {
       this.hud.showClash(Math.round(f.power), block.blockPower, !block.blocked, shooter.side);
@@ -1211,7 +1220,7 @@ export class MatchScene extends Phaser.Scene {
     }
     if (blockShown) this.breakMove(blocker, blockChoice);
     f.power = block.remaining;
-    if (block.blockPower > 0) this.floatText(blocker.x, blocker.y - 46, 'No basta...', '#ffe28a');
+    if (block.blockPower > 0) this.floatText(blocker.x, blocker.y - 46, `¡Le quita potencia! ${Math.round(block.remaining)}`, '#ffe28a');
     this.time.delayedCall(500, () => this.hud.hideDuel());
     // el tiro sigue su camino
     if (this.state === 'event') this.state = 'shot';

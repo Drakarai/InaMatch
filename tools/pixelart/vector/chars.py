@@ -555,3 +555,4 @@ import chars_manyuuji  # noqa: E402,F401
 import chars_robots  # noqa: E402,F401
 import chars_ccc  # noqa: E402,F401
 import chars_marytimes  # noqa: E402,F401
+import chars_redux  # noqa: E402,F401

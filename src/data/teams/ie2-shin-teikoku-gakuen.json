@@ -4,12 +4,7 @@
  "wiki": "Shin Teikoku Gakuen",
  "name": "Royal Academy Redux",
  "short": "STG",
- "colors": {
-  "shirt": "#2a2a4a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#c8a020",
-  "accent": "#3a3a6a"
- },
+ "colors": {"shirt": "#1e3a2e", "shorts": "#2e2420", "gkShirt": "#d8801e", "accent": "#c0302a", "sleeve": "#1e3a2e", "socks": "#1e3a2e", "gkShorts": "#2e2420", "gkSleeve": "#d8801e"},
  "formation": "f-death-zone",
  "players": [
   {

@@ -91,9 +91,12 @@ def body_front(d, t, back=False, num='10'):
     for s in (-1, 1):
         x0 = cx + s * (hw * 0.45)
         x1 = cx + s * (hw * 0.42)
-        capsule(d, (x0, short_bot - 6), (x1, foot - 6), lt / 2, SKIN['mid'], SKIN['shade'])
-        capsule(d, (x1, knee + 4), (x1, foot - 6), lt / 2 + 0.5, KIT['sock'], KIT['sock_d'])
-        d.rectangle([P(x1 - lt / 2 + 0.2, knee + 6), P(x1 + lt / 2 - 0.2, knee + 9)], fill=KIT['stripe'])
+        if KIT.get('longPants'):  # pantalón largo de traje hasta los zapatos
+            capsule(d, (x0, short_bot - 6), (x1, foot - 6), lt / 2 + 1.5, KIT['shorts'], KIT['shorts_d'])
+        else:
+            capsule(d, (x0, short_bot - 6), (x1, foot - 6), lt / 2, SKIN['mid'], SKIN['shade'])
+            capsule(d, (x1, knee + 4), (x1, foot - 6), lt / 2 + 0.5, KIT['sock'], KIT['sock_d'])
+            d.rectangle([P(x1 - lt / 2 + 0.2, knee + 6), P(x1 + lt / 2 - 0.2, knee + 9)], fill=KIT['stripe'])
         shape(d, blob_pts([(x1 - lt / 2 - 1.5 + s * 1, foot - 7), (x1 + lt / 2 + 1.5 + s * 1, foot - 7), (x1 + lt / 2 + 2.5 + s * 3, foot + 1.5),
                             (x1 - lt / 2 - 0.5 + s * 1, foot + 2)]), KIT['boot'], 1.4)
         d.ellipse([P(x1 - lt * 0.25 + s, foot - 5.5), P(x1 + lt * 0.15 + s, foot - 3)], fill=KIT['boot_l'])
@@ -134,13 +137,17 @@ def body_front(d, t, back=False, num='10'):
         sh = (cx + s * (sw - 1), top + 7)
         hand = (cx + s * (sw + t['at'] * 0.55), top + t['al'])
         capsule(d, sh, hand, t['at'] / 2, SKIN['mid'], SKIN['shade'] if s > 0 else None)
-        capsule(d, sh, V.lerp(sh, hand, 0.28), t['at'] / 2 + 0.8, KIT['sleeve'], KIT['sleeve_d'] if s > 0 else None)
+        capsule(d, sh, V.lerp(sh, hand, 0.82 if KIT.get('longSleeve') else 0.28), t['at'] / 2 + 0.8, KIT['sleeve'], KIT['sleeve_d'] if s > 0 else None)
         r = t['at'] * 0.62
         d.ellipse([P(hand[0] - r - 1.4, hand[1] - r - 1.4), P(hand[0] + r + 1.4, hand[1] + r + 1.4)], fill=OUT)
         d.ellipse([P(hand[0] - r, hand[1] - r), P(hand[0] + r, hand[1] + r)], fill=KIT.get('hand', SKIN['mid']))
     if back:
         f = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', int(20 * SS * t['sw'] / 54))
         d.text(P(cx, top + t['tl'] * 0.55), num, font=f, fill=KIT.get('num', KIT['sleeve']), anchor='mm', stroke_width=int(0.5 * SS), stroke_fill=tone(KIT.get('num', KIT['sleeve']), 0.75))
+    elif KIT.get('suit'):  # camisa blanca en pico entre las solapas y la corbata negra
+        d.polygon([P(cx - 9, top), P(cx + 9, top), P(cx, top + 22)], fill=KIT.get('collar', (242, 242, 242, 255)), outline=OUT)
+        d.polygon([P(cx - 2, top + 1), P(cx + 2, top + 1), P(cx + 2.6, top + 17), P(cx, top + 20), P(cx - 2.6, top + 17)], fill=(20, 20, 24, 255))
+        d.line([P(cx - 2.4, top + 14), P(cx + 2.4, top + 14)], fill=(200, 170, 60, 255), width=int(0.8 * SS))
     else:
         d.polygon([P(cx - 8, top), P(cx + 8, top), P(cx, top + 9)], fill=KIT.get('collar', KIT['sleeve']), outline=OUT)
     shape(d, rrect(cx - 6.5, 90, cx + 6.5, top + 3, 3), SKIN['shade'], 1.2)
@@ -167,8 +174,11 @@ def body_side(d, t, step=0):
         ft = (cx + dx, foot - 6)
         knee = V.lerp(hip, ft, 0.38)
         sk = SKIN['shade'] if dark else SKIN['mid']
-        capsule(d, hip, ft, lt / 2, sk, None if dark else SKIN['shade'])
-        capsule(d, knee, ft, lt / 2 + 0.5, KIT['sock_d'] if dark else KIT['sock'])
+        if KIT.get('longPants'):
+            capsule(d, hip, ft, lt / 2 + 1.5, KIT['shorts_d'] if dark else KIT['shorts'])
+        else:
+            capsule(d, hip, ft, lt / 2, sk, None if dark else SKIN['shade'])
+            capsule(d, knee, ft, lt / 2 + 0.5, KIT['sock_d'] if dark else KIT['sock'])
         shape(d, blob_pts([(ft[0] - lt / 2 - 1, foot - 7), (ft[0] + lt / 2 + 6, foot - 5), (ft[0] + lt / 2 + 8, foot + 1.5), (ft[0] - lt / 2 - 1, foot + 2)]),
               tone(KIT['boot'], 0.8) if dark else KIT['boot'], 1.4)
     # pantalón
@@ -185,7 +195,9 @@ def body_side(d, t, step=0):
     sh = (cx, top + 6)
     hand = (cx + sw_arm, top + t['al'])
     capsule(d, sh, hand, t['at'] / 2, SKIN['mid'], SKIN['shade'])
-    capsule(d, sh, V.lerp(sh, hand, 0.34), t['at'] / 2 + 1.6, KIT['sleeve'], KIT['sleeve_d'])
+    capsule(d, sh, V.lerp(sh, hand, 0.82 if KIT.get('longSleeve') else 0.34), t['at'] / 2 + 1.6, KIT['sleeve'], KIT['sleeve_d'])
+    if KIT.get('suit'):  # el pico blanco de la camisa asoma por delante
+        d.polygon([P(cx + depth / 2 - 6, top + 1), P(cx + depth / 2 + 0.5, top + 1), P(cx + depth / 2 + 0.5, top + 14)], fill=KIT.get('collar', (242, 242, 242, 255)))
     r = t['at'] * 0.62
     d.ellipse([P(hand[0] - r - 1.4, hand[1] - r - 1.4), P(hand[0] + r + 1.4, hand[1] + r + 1.4)], fill=OUT)
     d.ellipse([P(hand[0] - r, hand[1] - r), P(hand[0] + r, hand[1] + r)], fill=KIT.get('hand', SKIN['mid']))
@@ -334,7 +346,16 @@ def kit_for(colors, gk=False):
     if colors.get('sleeve'):  # mangas del color de la camiseta: cuello y dorsal con el color de los detalles
         k['collar'] = k['num'] = hexc(colors['accent'])
     if gk:
-        k['hand'] = (246, 246, 246, 255)
+        k['hand'] = hexc(colors['gkGloves']) if colors.get('gkGloves') else (246, 246, 246, 255)
+    for key in ('collar', 'num', 'stripe'):
+        if colors.get(key) and not (gk and key == 'collar'):
+            k[key] = hexc(colors[key])
+    suit = bool(colors.get('suit')) and not gk
+    k['longSleeve'] = suit or (gk and bool(colors.get('gkLongSleeve')))
+    k['longPants'] = suit
+    k['suit'] = suit
+    if suit:
+        k['boot'], k['boot_l'] = (24, 22, 26, 255), (70, 70, 80, 255)
     return k
 
 

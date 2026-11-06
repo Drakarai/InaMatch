@@ -5,10 +5,19 @@
  "name": "Servicio Secreto",
  "short": "SPF",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#5a3a8a"
+  "shirt": "#1e1e22",
+  "shorts": "#1e1e22",
+  "gkShirt": "#26262a",
+  "accent": "#5a6a8a",
+  "sleeve": "#1e1e22",
+  "socks": "#1e1e22",
+  "gkShorts": "#2e4a7a",
+  "gkSleeve": "#5a7090",
+  "suit": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#2e5aa0",
+  "collar": "#f2f2f2",
+  "num": "#e8e8e8"
  },
  "formation": "f-basic-2",
  "players": [

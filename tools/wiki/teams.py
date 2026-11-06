@@ -85,6 +85,14 @@ STYLE = {
     # Triple C de Osaka: camiseta blanca con mangas de cuadros rosas, pantalón y medias rosas; portera morada con chaleco negro
     'Osaka Gals CCC': ('#f4f0f4', '#e890b8', '#8a6ac8', '#9a3a6a', '#e890b8', '#6a4a6a', '#8a6ac8', '#8a6ac8'),
     # Oumihara (Mary Times): camiseta verde azulado con una franja blanca, pantalón blanco y medias verde azulado; portero verde
+    # SP Fixers (Servicio Secreto): traje negro con camisa blanca y corbata, pantalón largo; el portero con chaleco antibalas
+    # negro, mangas largas azul grisáceo, pantalón azul y guantes azules
+    'SP Fixers': ('#1e1e22', '#1e1e22', '#26262a', '#5a6a8a', '#1e1e22', '#1e1e22', '#2e4a7a', '#5a7090',
+                  {'suit': True, 'gkLongSleeve': True, 'gkGloves': '#2e5aa0', 'collar': '#f2f2f2', 'num': '#e8e8e8'}),
+    # Yokato (Instituto Fauxshore): happi azul cielo de cuello negro con ribete blanco, pantalón azul y medias blancas con
+    # franja azul; el portero de naranja con manga larga y pantalón negro
+    'Yokato': ('#6ab4ea', '#2a5a9a', '#c8641a', '#6ab4ea', '#6ab4ea', '#f2f2f2', '#1e1e22', '#c8641a',
+               {'gkLongSleeve': True, 'stripe': '#4a90d0', 'collar': '#1e1e22', 'num': '#1e3a6a'}),
     'Oumihara': ('#1aa08a', '#f0ece0', '#2a8a3a', '#f0ece0', '#1aa08a', '#1aa08a', '#1e5a2a', '#2a8a3a'),
     # Royal Academy Redux: camiseta verde muy oscuro con ribetes, pantalón marrón oscuro y medias verdes; portero naranja
     'Shin Teikoku Gakuen': ('#1e3a2e', '#2e2420', '#d8801e', '#c0302a', '#1e3a2e', '#1e3a2e', '#2e2420', '#d8801e'),
@@ -1096,7 +1104,7 @@ for season, game, name, fkey, page, players in raw_teams:
         'wiki': name,
         'name': NAME_ES.get(name) or (es[0]['title'] if es else name),
         'short': short,
-        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 else {}), **({'gkSleeve': style[7]} if len(style) > 7 else {})},
+        'colors': {'shirt': style[0], 'shorts': style[1], 'gkShirt': style[2], 'accent': style[3], **({'sleeve': style[4]} if len(style) > 4 else {}), **({'socks': style[5]} if len(style) > 5 else {}), **({'gkShorts': style[6]} if len(style) > 6 else {}), **({'gkSleeve': style[7]} if len(style) > 7 else {}), **(style[8] if len(style) > 8 else {})},
         'formation': fid,
         'players': players,
     })

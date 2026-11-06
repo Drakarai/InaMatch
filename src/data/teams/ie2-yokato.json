@@ -5,10 +5,18 @@
  "name": "Instituto Fauxshore",
  "short": "YOK",
  "colors": {
-  "shirt": "#2a5fc0",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#2a5fc0"
+  "shirt": "#6ab4ea",
+  "shorts": "#2a5a9a",
+  "gkShirt": "#c8641a",
+  "accent": "#6ab4ea",
+  "sleeve": "#6ab4ea",
+  "socks": "#f2f2f2",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#c8641a",
+  "gkLongSleeve": true,
+  "stripe": "#4a90d0",
+  "collar": "#1e1e22",
+  "num": "#1e3a6a"
  },
  "formation": "f-aegis",
  "players": [

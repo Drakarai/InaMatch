@@ -57,6 +57,16 @@ export interface TeamData {
     gkShorts?: string;
     /** Color de las mangas del portero (si no son de un tono más oscuro que su camiseta). */
     gkSleeve?: string;
+    /** Equipación de traje (sprites dibujados): manga larga, pantalón largo, camisa y corbata. */
+    suit?: boolean;
+    /** El portero lleva manga larga. */
+    gkLongSleeve?: boolean;
+    /** Color de los guantes del portero (si no son blancos). */
+    gkGloves?: string;
+    /** Color del cuello, del dorsal y de la franja de las medias (si no son los de los detalles). */
+    collar?: string;
+    num?: string;
+    stripe?: string;
   };
   formation: string; // id en formations.ts
   /** Los 11 primeros son titulares en el orden de los huecos de la formación. */

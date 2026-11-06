@@ -5,10 +5,18 @@
  "name": "Caimanes del Cabo",
  "short": "TGH",
  "colors": {
-  "shirt": "#2a8a5a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#c87a20",
-  "accent": "#1f6a44"
+  "shirt": "#1e8a3a",
+  "shorts": "#e8b020",
+  "gkShirt": "#b81e1e",
+  "accent": "#1e8a3a",
+  "sleeve": "#1e8a3a",
+  "socks": "#1e8a3a",
+  "gkShorts": "#2a2a2a",
+  "gkSleeve": "#b81e1e",
+  "gkLongSleeve": true,
+  "stripe": "#e8b020",
+  "collar": "#e8b020",
+  "num": "#e8b020"
  },
  "formation": "f-bread",
  "players": [

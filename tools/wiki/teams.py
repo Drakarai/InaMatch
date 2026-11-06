@@ -171,7 +171,8 @@ STYLE = {
     'Red Matador': ('#e0401e', '#24242a', '#7ac0ec', '#e0401e', '#f4c020', '#24242a', '#24242a', '#24242a', {'gkLongSleeve': True, 'stripe': '#f4c020', 'collar': '#f4c020', 'num': '#24242a'}),
     # Rose Griffon (Francia): camiseta azul con ribetes rojos y cuello blanco, pantalón blanco y medias rojas; el portero azul marino muy oscuro de manga larga
     'Rose Griffon': ('#2a3aa8', '#ece4d4', '#1e2234', '#2a3aa8', '#2a3aa8', '#d81e2a', '#1e2234', '#1e2234', {'gkLongSleeve': True, 'stripe': '#f2f2f2', 'collar': '#f2f2f2', 'num': '#f2f2f2'}),
-    'The Great Horn': ('#2a8a5a', '#f2f2f2', '#c87a20', '#1f6a44'),
+    # The Great Horn (Sudáfrica): camiseta verde con franjas amarillas, pantalón amarillo y medias verdes; el portero rojo de manga larga con pantalón negro
+    'The Great Horn': ('#1e8a3a', '#e8b020', '#b81e1e', '#1e8a3a', '#1e8a3a', '#1e8a3a', '#2a2a2a', '#b81e1e', {'gkLongSleeve': True, 'stripe': '#e8b020', 'collar': '#e8b020', 'num': '#e8b020'}),
     'Tenkuu no Shito': ('#f2f2f2', '#d8c070', '#7ab8e8', '#b8a050'),
     'Makai Gundan Z': ('#3a1a4a', '#1a1a1a', '#8a1a2a', '#5a2a6a'),
     'Ogre': ('#1a1a1a', '#8a1a1a', '#5a5a5a', '#8a1a1a'),

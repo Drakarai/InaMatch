@@ -1,6 +1,6 @@
 """Oumihara / Instituto Mary Times (IE2): el equipo de Okinawa; gafas de buceo, peinados de playa y caras curtidas,
 con sus modelos 3D como referencia."""
-from chars import CHARS, L, OUTC, blob, bumpy, ell, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, ell, outline, pal, sheen, spk, strand
 from chars_alius import SIDE_SKULL, SKULL_B, SKULL_F, WIDE_FACE, spiky, spiky_face
 from chars_ccc import cap_hair
 from chars_otaku import back_hair, glasses
@@ -124,11 +124,19 @@ CHARS['gaston-cooley'] = {
 CHARS['bevan-breakfast'] = {
     'body': 'normal', 'pal': pal('#3e2e1a', '#fcc890'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 93, 'hairline': False},
-    'front': [L(blob(SKULL_F), 'skin'), L(blob([(62, 12), (86, 34), (84, 62), (72, 58)], 6), 'skin_d', 'b', False)]
-             + spk((20, 30), (50, 4), (14, -12), 6) + spk((40, 6), (60, 6), (66, -24), 6, light_left=False) + spk((30, 36), (56, 16), (70, 60), 6, z='f', light_left=False),
-    'side': [L(blob(SIDE_SKULL), 'skin')] + spk((30, 20), (54, 6), (6, -14), 8) + spk((40, 10), (64, 8), (60, -22), 7, light_left=False),
-    'back': [L(blob(SKULL_B), 'skin'), L(blob([(58, 12), (86, 36), (84, 68), (66, 84)], 6), 'skin_d', 'b', False)]
-            + spk((30, 14), (50, 10), (24, -20), 6) + spk((50, 10), (70, 14), (76, -20), 6, light_left=False),
+    # su derecha (izquierda de la imagen) va rapada; el pelo nace en una cresta de la frente a la coronilla, sube en pinchos
+    # hacia atrás y cae en un mechón grande por su izquierda hasta la ceja
+    'front': [L(blob(SKULL_F), 'skin'), L(blob([(62, 12), (86, 34), (84, 62), (72, 58)], 6), 'skin_d', 'b', False),
+              L(outline([(40, 20), (34, 4), (22, -16, 1), (40, -6), (44, -24, 1), (54, -6), (66, -22, 1), (64, -2), (80, 2, 1), (74, 12), (86, 26),
+                         (90, 46), (86, 62, 1), (80, 46), (70, 38), (60, 40), (50, 44, 1), (52, 32), (44, 26)]), 'mid', 'f'),
+              L(outline([(58, 0), (74, 12), (86, 30), (86, 54, 1), (76, 36), (62, 30)]), 'shade', 'f', False)],
+    'side': [L(blob(SIDE_SKULL), 'skin'),
+             L(outline([(40, 14), (24, -2), (6, -14, 1), (28, -10), (34, -26, 1), (46, -10), (60, -22, 1), (62, -6), (78, -6, 1), (76, 6), (88, 20),
+                        (92, 40, 1), (80, 30), (64, 22), (50, 20)])),
+             L(outline([(44, 16), (36, 2), (54, -4), (70, 6), (60, 18)]), 'shade', 'b', False)],
+    'back': [L(blob(SKULL_B), 'skin'), L(blob([(58, 12), (86, 36), (84, 68), (66, 84)], 6), 'skin_d', 'b', False),
+             L(outline([(40, 22), (32, 0), (20, -18, 1), (40, -8), (48, -24, 1), (56, -6), (72, -18, 1), (66, 0), (60, 20)])),
+             L(outline([(50, 18), (46, -4), (58, -6), (62, 14)]), 'shade', 'b', False)],
 }
 # Jack Griddle: piel morena, pelo morado oscuro de pinchos hacia atrás y gafas de sol envolventes azul oscuro; sonrisa
 CHARS['jack-griddle'] = {

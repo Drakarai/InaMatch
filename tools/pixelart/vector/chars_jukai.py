@@ -63,8 +63,10 @@ CHARS['harry-boufante'] = {
              + gasmask('front', (32, 56, 13, 9), None, extra_f=[L(blob([(42, 82), (58, 82), (60, 120), (40, 120)]), 'filt', 'f', ln=True)]
                                                                + [L([(41, y), (59, y)], (70, 60, 80, 255), 'f', False, False, 1.2) for y in (90, 98, 106, 114)]),
     'side': [L(blob([(30, 120), (0, 110), (-4, 50), (14, 10), (40, 6), (30, 60)]))] + gasmask('side', (32, 56, 13, 9), None),
-    'back': [L(blob([(4, 122), (0, 50), (14, 10), (50, 0), (86, 10), (100, 50), (96, 122), (50, 126)]))] + gasmask('back')
-            + [strand([(x, 40), (x, 120)], 'shade', 'f', 1.0) for x in (20, 36, 64, 80)],
+    # de espaldas solo se ve la melena (la máscara se ata por delante): le tapa la nuca y cae recta hasta los hombros
+    'back': gasmask('back') + [L(blob([(4, 122), (0, 50), (14, 10), (50, 0), (86, 10), (100, 50), (96, 122), (50, 126)]), 'mid', 'f', ln=True),
+                               L(blob([(60, 6), (92, 40), (94, 118), (66, 122)], 6), 'shade', 'f', False)]
+            + [strand([(x, 30), (x, 120)], 'deep', 'f', 1.0) for x in (20, 36, 50, 64, 80)],
 }
 # Todd Stuhl (corpulento): máscara gris verdosa con un sombrerito, ojos amarillos enormes y filtro redondo negro
 CHARS['todd-stuhl'] = {
@@ -117,7 +119,9 @@ CHARS['judas-deathcap'] = {
 CHARS['chase-faithfull'] = {
     'body': 'corpulento', 'pal': mpal(skin='#b0703e', lens='#c03030'), 'face': NOFACE,
     'front': gasmask('front', (32, 60, 10, 9), None, jaw=True, extra_f=[L(blob([(32, 88), (50, 84), (68, 88), (60, 94), (40, 94)]), (80, 60, 90, 255), 'f', ln=True)]),
-    'side': gasmask('side', (32, 60, 10, 9), None, jaw=True), 'back': gasmask('back'),
+    # pelo morado que asoma bajo la máscara por la nuca y los lados
+    'side': [L(blob([(4, 70), (14, 60), (40, 66), (40, 96), (20, 100), (2, 92)]), (110, 80, 150, 255), 'b')] + gasmask('side', (32, 60, 10, 9), None, jaw=True),
+    'back': [L(blob([(-4, 70), (50, 64), (104, 70), (100, 96), (50, 102), (0, 96)]), (110, 80, 150, 255), 'b')] + gasmask('back'),
 }
 # Roy Daring: máscara de piedra con un cuerno en lo alto y dos alas de musgo a los lados; la barbilla al aire
 CHARS['roy-daring'] = {

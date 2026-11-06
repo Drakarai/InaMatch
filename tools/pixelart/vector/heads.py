@@ -75,8 +75,11 @@ def spk(a, b, tip, bulge=6, z='b', light_left=True, sil=True, ln=False):
     out = [L(fat(a, b, tip, bulge), 'mid', z, sil, ln)]
     mid = lerp(a, b, 0.55 if light_left else 0.45)
     out.append(L(fat(mid, b, tip, bulge * 0.6) if light_left else fat(a, mid, tip, bulge * 0.6), 'shade', z, False))
-    la, lb = (lerp(a, b, 0.12), lerp(a, b, 0.36)) if light_left else (lerp(a, b, 0.64), lerp(a, b, 0.88))
-    out.append(L(fat(lerp(la, tip, 0.12), lerp(lb, tip, 0.12), lerp(lerp(la, lb, 0.5), tip, 0.6), bulge * 0.3), 'light', z, False))
+    # brillo: una franja estrecha pegada al borde iluminado (no un triángulo dentro del pincho, que parecía una oreja de gato)
+    la, lb = (lerp(a, b, 0.04), lerp(a, b, 0.16)) if light_left else (lerp(a, b, 0.84), lerp(a, b, 0.96))
+    out.append(L(fat(lerp(la, tip, 0.18), lerp(lb, tip, 0.18), lerp(lerp(la, lb, 0.5), tip, 0.55), bulge * 0.2), 'light', z, False))
+    for l in out:
+        l['spk'] = True
     return out
 
 

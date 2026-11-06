@@ -392,3 +392,20 @@ CHARS['neil-waters'] = {
              L(blob([(58, 12), (98, 42), (94, 70), (66, 78)], 6), 'shade', 'b', False), sheen(18, 44, 18, 3),
              L([(10, 70), (30, 80), (70, 80), (90, 70)], WIRE, 'f', False, False, 2.0)],
 }
+
+
+# Nathan Swift con los Emperadores Oscuros: la coleta alta se le abre en una melena suelta de mechones ondulados que le
+# caen por los lados y la espalda hasta los hombros
+def _nathan_de():
+    import copy
+    from chars_sengoku import wavy
+    base = copy.deepcopy(CHARS['nathan-swift'])
+    locks_f = (wavy((6, 58), (16, 60), (-14, 110), -8) + wavy((-2, 50), (8, 52), (-24, 98), 8) + wavy((84, 60), (94, 58), (112, 110), 8, light_left=False)
+               + wavy((92, 52), (102, 50), (124, 98), -8, light_left=False))
+    base['front'] = locks_f + base['front']
+    base['side'] = (wavy((-2, 60), (10, 62), (-20, 112), 8) + wavy((6, 70), (18, 72), (2, 120), -8) + wavy((-6, 46), (4, 48), (-30, 92), 8)) + base['side']
+    base['back'] = (locks_f + wavy((24, 86), (36, 90), (18, 128), 8) + wavy((64, 90), (76, 86), (82, 128), -8, light_left=False)) + base['back']
+    return base
+
+
+CHARS['ie2-dark-emperors:nathan-swift'] = _nathan_de()

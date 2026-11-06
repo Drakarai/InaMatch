@@ -1,6 +1,6 @@
 """Zeus (IE1): los "dioses" del Instituto Zeus: casco griego, máscara, maquillaje de payaso, rastas, melenas largas y
 cintas en la frente, con sus modelos 3D como referencia (Ned Yousef no tiene modelo: su retrato)."""
-from chars import CHARS, L, OUTC, blob, bumpy, dread, ell, pal, sheen, spk, strand
+from chars import CHARS, L, OUTC, blob, bumpy, dread, ell, messy, outline, pal, sheen, spk, strand
 from chars_otaku import back_hair
 from chars_sengoku import wavy
 from heads import quad
@@ -311,10 +311,7 @@ CHARS['jonas-demetrius'] = {
 # ------------------------------------------------------------------ Gus Heeley: piel tostada, pelo castaño en punta: un pincho alto
 # en el centro, otros que se abren hacia arriba y a los lados y unos cortos que asoman bajo las orejas; mechones de punta en la
 # frente, sonrisa pícara y mirada afilada
-GUS_TOP = [spk((8, 54), (14, 38), (-12, 34), 7), spk((16, 34), (30, 18), (2, 2), 7), spk((30, 18), (46, 10), (30, -14), 7),
-           spk((42, 10), (58, 10), (50, -26), 7), spk((54, 10), (70, 18), (70, -14), 7, light_left=False),
-           spk((70, 18), (84, 34), (98, 2), 7, light_left=False), spk((86, 38), (92, 54), (112, 34), 7, light_left=False),
-           spk((8, 66), (14, 56), (-6, 72), 4), spk((86, 56), (92, 66), (106, 72), 4, light_left=False)]
+GUS_TOP = messy('front', 22, 9, seed=61, rx=50, ry=42, lo=72, shade=False)
 CHARS['gus-heeley'] = {
     'body': 'normal', 'pal': pal('#5a3a30', '#e0a040'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 92, 'hairline': (60, 50)},
@@ -322,10 +319,7 @@ CHARS['gus-heeley'] = {
                         L(blob([(62, 12), (90, 38), (88, 66), (78, 62)], 6), 'shade', 'b', False),
                         spk((12, 46), (30, 40), (18, 70), 5, z='f'), spk((30, 40), (48, 36), (38, 62), 5, z='f'),
                         spk((52, 36), (70, 40), (62, 62), 5, z='f', light_left=False), spk((70, 40), (88, 46), (84, 70), 5, z='f', light_left=False)],
-    'side': [spk((16, 40), (24, 22), (-14, 20), 8), spk((24, 24), (42, 12), (10, -12), 8), spk((42, 12), (62, 6), (52, -26), 8),
-             spk((14, 58), (16, 40), (-14, 54), 7), spk((18, 74), (22, 58), (-6, 82), 6),
-             L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False),
-             spk((62, 12), (82, 22), (96, 0), 7, light_left=False), spk((56, 30), (88, 40), (92, 70), 6, z='f', light_left=False)],
+    'side': messy('side', 24, 8, seed=61, rx=46, ry=42, nape=94, sweep=-0.4) + [spk((56, 30), (88, 40), (92, 70), 6, z='f', light_left=False)],
     'back': GUS_TOP + [L(blob([(10, 74), (8, 40), (20, 16), (50, 6), (80, 16), (92, 40), (90, 74), (66, 86), (34, 86)])),
                        spk((14, 72), (32, 84), (12, 96), 5), spk((32, 86), (50, 88), (40, 104), 5), spk((50, 88), (68, 86), (60, 104), 5, light_left=False),
                        spk((68, 84), (86, 72), (88, 96), 5, light_left=False),
@@ -382,19 +376,16 @@ CHARS['iggy-russ'] = {
 CHARS['harry-closs'] = {
     'body': 'corpulento', 'pal': pal('#2a2440', '#a0683a'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 92, 'big_ears': 1, 'hairline': (56, 46)},
-    'front': [spk((18, 28), (36, 14), (6, -6), 7), spk((34, 14), (52, 8), (36, -16), 7), spk((50, 8), (68, 14), (70, -14), 7, light_left=False),
-              spk((66, 16), (82, 28), (98, 4), 7, light_left=False),
-              L(blob([(12, 64), (10, 36), (22, 14), (50, 8), (78, 14), (90, 36), (88, 64)])),
-              spk((8, 50), (14, 64), (-6, 64), 4), spk((86, 64), (92, 50), (106, 64), 4, light_left=False),
-              L(blob([(62, 12), (88, 34), (86, 62), (74, 58)], 6), 'shade', 'b', False)],
-    'side': [spk((20, 30), (36, 12), (-4, 0), 8), spk((36, 12), (56, 4), (24, -18), 8), spk((56, 6), (76, 10), (66, -16), 7, light_left=False),
-             spk((76, 14), (90, 26), (104, 10), 6, light_left=False), spk((14, 52), (18, 34), (-12, 40), 7),
-             L(blob(SIDE_SKULL)), L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False)],
-    'back': [spk((18, 28), (36, 14), (6, -6), 7), spk((34, 14), (52, 8), (36, -16), 7), spk((50, 8), (68, 14), (70, -14), 7, light_left=False),
-             spk((66, 16), (82, 28), (98, 4), 7, light_left=False),
-             L(blob([(12, 70), (10, 36), (22, 14), (50, 8), (78, 14), (90, 36), (88, 70), (66, 82), (34, 82)])),
-             spk((8, 50), (14, 64), (-6, 64), 4), spk((86, 64), (92, 50), (106, 64), 4, light_left=False),
-             spk((20, 74), (38, 82), (24, 94), 4), spk((62, 82), (80, 74), (76, 94), 4, light_left=False)] + back_hair(),
+    'front': [L(outline([(12, 64), (10, 44), (-6, 40, 1), (10, 32), (4, 16, 1), (20, 18), (26, -4, 1), (38, 8), (50, -16, 1), (58, 6), (74, -6, 1),
+                         (74, 12), (96, 10, 1), (86, 28), (104, 40, 1), (90, 44), (88, 64)])),
+              L(outline([(60, 8), (80, 16), (90, 34), (88, 60), (76, 40)]), 'shade', 'b', False),
+              L(outline([(8, 52), (16, 52), (16, 66), (-2, 68, 1)]), 'mid', 'b', ln=True), L(outline([(92, 52), (84, 52), (84, 66), (102, 68, 1)]), 'mid', 'b', ln=True)],
+    'side': [L(outline([(44, 92), (22, 88), (12, 66), (-6, 64, 1), (10, 52), (-10, 40, 1), (12, 32), (0, 14, 1), (24, 16), (22, -6, 1), (40, 8), (50, -14, 1),
+                        (60, 6), (76, 0, 1), (80, 18), (88, 36), (76, 44), (60, 48), (52, 62), (50, 80)])),
+             L(blob([(16, 48), (18, 76), (38, 88), (28, 60)], 6), 'shade', 'b', False)],
+    'back': [L(outline([(12, 70), (10, 44), (-6, 40, 1), (10, 32), (4, 16, 1), (20, 18), (26, -4, 1), (38, 8), (50, -16, 1), (58, 6), (74, -6, 1),
+                        (74, 12), (96, 10, 1), (86, 28), (104, 40, 1), (90, 44), (88, 70), (78, 84, 1), (66, 80), (50, 88, 1), (34, 80), (22, 84, 1)])),
+             L(outline([(58, 10), (86, 30), (88, 68), (72, 80)]), 'shade', 'b', False)],
 }
 
 # ------------------------------------------------------------------ Andy Chronic: calvo, con una cicatriz cosida en la cabeza y

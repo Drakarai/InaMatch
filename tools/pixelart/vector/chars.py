@@ -623,3 +623,64 @@ import chars_robots  # noqa: E402,F401
 import chars_ccc  # noqa: E402,F401
 import chars_marytimes  # noqa: E402,F401
 import chars_redux  # noqa: E402,F401
+
+
+def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):
+    """Cambia los pinchos de detrás (los de 'sol': todos iguales, en abanico y con brillo) por pelo revuelto irregular,
+    como en los modelos 3D; los mechones de delante de la cara se quedan."""
+    ch = CHARS[cid]
+    for v in views:
+        flat = [l for it in ch[v] for l in (it if isinstance(it, list) else [it])]
+        keep = [l for l in flat if not (l.get('spk') and l['z'] == 'b')]
+        kw = dict(rx=rx, ry=ry, nape=nape + (2 if v == 'side' else 0), lo=lo)
+        if v == 'side':
+            kw['sweep'] = sweep
+            kw['rx'] = rx - 2
+        ch[v] = messy(v, amp + (2 if v == 'side' else 0), n - (1 if v == 'side' else 0), seed=seed, shade=False, **kw) + keep
+
+
+# pelos de pinchos en abanico que en el modelo son revueltos
+for _cid, _seed, _amp in (('albert-green', 71, 22), ('seward-hayseed', 72, 22), ('orville-newman', 73, 22), ('daniel-dawson', 74, 20),
+                          ('wilbur-watkins', 80, 22),
+                          ('kendall-sefton', 81, 18),
+                          ('bryce-whitingale', 82, 22),
+                          ('alan-master', 83, 24),
+                          ('val-flamewood', 84, 18),
+                          ('terry-stronger', 85, 18),
+                          ('rose-pinkpetal', 86, 9),
+                          ('pete-bogg', 87, 22),
+                          ('nelson-rockwell', 88, 20),
+                          ('hurley-kane', 89, 20),
+                          ('horace-onlign', 90, 18),
+                          ('ethan-whitering', 91, 22),
+                          ('cadence-soundtown', 92, 16),
+                          ('brad-coldwater', 93, 5),
+                          ('bart-grantham', 94, 18),
+                          ('alan-downhill', 95, 18),
+                          ('chad-taylor', 96, 7),
+                          ('victor-kind', 97, 18),
+                          ('samuel-buster', 98, 18),
+                          ('leroy-rhymes', 99, 20),
+                          ('bob-carlton', 100, 20),
+                          ('jamie-cool', 101, 12),
+                          ('philip-marvel', 102, 18),
+                          ('bobby-shearer', 103, 7),
+                          ('theakston-plank', 120, 20), ('shadow-cimmerian', 121, 11), ('claude-beacons', 123, 22), ('trent-peggs', 124, 14), ('jack-griddle', 125, 10), ('stan-andagi', 126, 9),
+                          ('ie2-epsilon:yakker-plantsworm', 122, 14), ('ie2-epsilon-kai:yakker-plantsworm', 122, 14),
+                          ):
+    desun(_cid, _seed, _amp)
+
+
+def _wilbur_mane():
+    """Wilbur Watkins: la melena blanca de pinchos le cae por detrás en mechones largos hasta media espalda."""
+    from chars_sengoku import wavy
+    ch = CHARS['wilbur-watkins']
+    ch['back'] = [L(outline([(2, 50), (98, 50), (104, 90), (96, 124, 1), (84, 108), (72, 130, 1), (60, 112), (48, 134, 1), (38, 112), (24, 130, 1),
+                             (14, 106), (2, 120, 1), (-4, 88)])),
+                  L(outline([(60, 54), (98, 56), (100, 90), (92, 116, 1), (82, 102), (70, 122, 1), (64, 90)]), 'shade', 'b', False)] + ch['back']
+    ch['side'] = [L(outline([(36, 60), (24, 90), (30, 128, 1), (14, 110), (2, 126, 1), (-6, 100), (-20, 108, 1), (-14, 76), (-12, 50)])),
+                  L(outline([(30, 66), (20, 92), (24, 120, 1), (8, 100), (0, 76)]), 'shade', 'b', False)] + ch['side']
+    ch['front'] = [L(outline([(10, 60), (-6, 70), (-16, 104, 1), (2, 88), (12, 80)])), L(outline([(90, 60), (106, 70), (116, 104, 1), (98, 88), (88, 80)]))] + ch['front']
+
+
+_wilbur_mane()

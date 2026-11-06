@@ -339,3 +339,54 @@ def draw(d, spec, view):
         gy = f.get('eye_y', 75)
         line(d, ell(80, gy, 6, 6.5) + [ell(80, gy, 6, 6.5)[0]], f['glasses'], 1.6)
         line(d, [(74, gy - 1), (50, gy - 6)], f['glasses'], 1.4)
+    if view == 'back':
+        fill_back_gaps(d._image, pal, f)
+
+
+def fill_back_gaps(img, pal, f, max_units=18):
+    """De espaldas: rellena con pelo los huecos de piel que quedan entre la masa del pelo (o un gorro) y los mechones de
+    debajo, que parecen calvas. Solo los huecos cortos (hasta max_units de alto) con pelo justo debajo, para no tapar
+    cabezas rapadas a propósito (una cresta y el resto calvo)."""
+    import numpy as np
+    from PIL import Image
+    a = np.array(img)
+    bottom = int(P(0, 104)[1])
+    rgb = a[:bottom, :, :3].astype(int)
+    al = a[:bottom, :, 3]
+    skin = np.zeros(al.shape, bool)
+    for c in (pal['skin'], pal['skin_d']):
+        skin |= np.all(rgb == c[:3], axis=-1) & (al > 0)
+    outline = np.all(rgb == OUT[:3], axis=-1) & (al > 0)
+    hair = np.zeros(al.shape, bool)
+    for k in ('mid', 'shade', 'deep', 'light'):
+        if k in pal:
+            hair |= np.all(rgb == pal[k][:3], axis=-1) & (al > 0)
+    cover = (al > 0) & ~skin & ~outline
+    maxlen = int(max_units * SS)
+    fillc = np.array(pal['shade'][:3])
+    changed = False
+    for x in range(a.shape[1]):
+        col_s, col_c, col_h, col_o = skin[:, x], cover[:, x], hair[:, x], outline[:, x]
+        y = 0
+        n = len(col_s)
+        while y < n:
+            if not col_s[y]:
+                y += 1
+                continue
+            y0 = y
+            while y < n and col_s[y]:
+                y += 1
+            y1 = y  # piel en [y0, y1)
+            if y1 - y0 > maxlen:
+                continue
+            up = y0 - 1
+            while up >= 0 and col_o[up]:
+                up -= 1
+            dn = y1
+            while dn < n and col_o[dn]:
+                dn += 1
+            if up >= 0 and dn < n and col_c[up] and col_h[dn]:
+                a[y0:y1, x, :3] = fillc
+                changed = True
+    if changed:
+        img.paste(Image.fromarray(a))

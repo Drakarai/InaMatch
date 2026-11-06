@@ -168,7 +168,8 @@ CHARS['f-riversong'] = {
             + [L(blob(SIDE_SKULL))] + [strand([(70 - k * 10, 14 + k * 2), (30 - k * 4, 30 + k * 10)], 'deep', 'b', 1.1) for k in range(4)]
             + [L(ell(84, 74, 4, 5), DARK, 'f', ln=True), L([(80, 73), (54, 70)], DARK, 'f', False, False, 1.2),
                L(blob([(80, 86), (92, 84), (92, 90), (82, 90)], 3), 'mid', 'f')],
-    'back': [x for k in range(8) for x in dread((16 + k * 10, 50), (8 + k * 12, 92), 4.6)]
+    'back': [L(blob([(12, 50), (88, 50), (96, 92), (50, 98), (4, 92)]), 'deep', 'b', False)]
+            + [x for k in range(8) for x in dread((16 + k * 10, 50), (8 + k * 12, 92), 4.6)]
             + [L(blob([(14, 64), (10, 38), (20, 14), (50, 4), (80, 14), (90, 38), (86, 64), (50, 68)]))]
             + [strand([(x, 8), (x + (x - 50) * 0.2, 60)], 'deep', 'b', 1.1) for x in (26, 38, 50, 62, 74)],
 }

@@ -72,6 +72,10 @@ STYLE = {
     # Sengoku Igajima (Instituto Shuriken): todo morado con ribetes azul grisáceo y medias grises; portero verde azulado
     # Hakuren (Instituto Alpino): camiseta crema con ribetes azul marino, pantalón azul marino y medias blancas; portero verde oliva
     'Hakuren': ('#f4f0dc', '#2e4466', '#4a5226', '#2e4466', '#f4f0dc', '#f4f0dc', '#d8d0b0', '#4a5226'),
+    # Mar de Árboles: mono verde claro con franjas negras; el portero de verde oliva oscuro
+    'Jukai Team': ('#a8d888', '#a8d888', '#4a5a3a', '#1e2a1e', '#a8d888', '#a8d888', '#4a5a3a', '#4a5a3a'),
+    # Robots Guardias: camiseta azul petróleo con mangas rosas, pantalón azul oscuro; portero rojo
+    'Keibi Machines': ('#1e5a7a', '#1a2e44', '#a83a3a', '#e8b0b0', '#e8b0b0', '#1e5a7a', '#1a2e44', '#e8b0b0'),
     'Sengoku Igajima': ('#4e3a5c', '#4e3a5c', '#6a9a96', '#9ab4bc', '#4e3a5c', '#a8a49c', '#5e8a86'),
     # Kidokawa Seishuu (Kirkwood): camiseta roja (con laterales negros), pantalón beige y medias rojas; portero verde claro
     'Kidokawa Seishuu': ('#c00c0c', '#d8c8b4', '#b8c87e', '#2a2a2e', '#c00c0c', '#c00c0c', '#4a5a68'),

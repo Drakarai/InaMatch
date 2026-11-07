@@ -269,6 +269,10 @@ STYLE = {
     'Midorigaoka': ('#2e8a34', '#f08a1e', '#a8a8ac', '#f4f4f4', '#2e8a34', '#2e8a34', '#f0c040', '#f4f0f0', {'gkLongSleeve': True, 'gkGloves': '#3a3a3e', 'gkSocks': '#f0c040', 'collar': '#f08a1e', 'num': '#f4f4f4'}),
     # Brain (Ares): camiseta crema con mangas y pantalón gris pardo, medias grises; portera gris con mangas largas marrones
     'Mikage Sennou (Ares)': ('#e8dcc0', '#a8a090', '#a8a8ac', '#6a5a4a', '#a8a090', '#a8a8a8', '#6a5030', '#6a5030', {'gkLongSleeve': True, 'gkGloves': '#e8e0d0', 'gkSocks': '#a8a8a8', 'collar': '#6a5a4a', 'num': '#6a5a4a'}),
+    # Raimon Isla Remota: camiseta amarilla con hombros verde azulado, pantalón y medias verde azulado; portero con chaleco morado sobre manga larga lavanda
+    'Inakuni Raimon': ('#f2c432', '#1e8a8c', '#6a2a86', '#1e8a8c', '#1e8a8c', '#1e8a8c', '#6a2a86', '#9aa6e6', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#9aa6e6', 'collar': '#f2c432', 'num': '#1e8a8c', 'stripe': '#f2c432'}),
+    # Ribera: camiseta verde con mangas blancas, pantalón gris oscuro y medias verdes; portero naranja de manga larga
+    'Tonegawa Tousen': ('#2aae2a', '#3a3440', '#f2a050', '#3a3440', '#f2ecec', '#2aae2a', '#1e6a6a', '#f2a050', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#f4f4f4', 'collar': '#3a3440', 'num': '#f2ecec'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

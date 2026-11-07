@@ -139,6 +139,8 @@ STYLE = {
     # Pruebas de selección: el equipo B con la camiseta crema de cuello rojo, pantalón azul y medias crema
     'Nippon Daihyou Kouho B': ('#e8dccc', '#1e5ab8', '#e8892b', '#1e5ab8', '#e8dccc', '#e8dccc', None, None,
                                {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#1e5ab8'}),
+    # Raimon (GO): camiseta amarilla con cuello y puños azules, pantalón y medias azules; portero de azul marino con mangas naranjas
+    'Shinsei Raimon': ('#f4b62a', '#2456b8', '#1e3c5c', '#2456b8', '#f4b62a', '#2456b8', '#1e3c5c', '#e8782a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

@@ -5,10 +5,16 @@
  "name": "Instituto Raimon (GO)",
  "short": "SHI",
  "colors": {
-  "shirt": "#e86a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#e86a1a"
+  "shirt": "#f4b62a",
+  "shorts": "#2456b8",
+  "gkShirt": "#1e3c5c",
+  "accent": "#2456b8",
+  "sleeve": "#f4b62a",
+  "socks": "#2456b8",
+  "gkShorts": "#1e3c5c",
+  "gkSleeve": "#e8782a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-raimon",
  "players": [

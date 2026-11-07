@@ -181,6 +181,12 @@ STYLE = {
     'Eito Gakuen': ('#26b6c6', '#28348e', '#d01e22', '#28348e', '#26b6c6', '#f0f0f0', '#28348e', '#d01e22', {'gkGloves': '#f0f0f0'}),
     # Mar de Luna: uniforme azul marino con rayas verticales doradas, medias blancas; portero rojo de manga larga con pantalón verde muy oscuro
     'Gassan Kunimitsu': ('#2a3c4c', '#2a3c4c', '#c81e1e', '#c8b878', '#2a3c4c', '#f0f0f0', '#1e2a20', '#c81e1e', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'vstripes': '#c8b878'}),
+    # Espejismo: camiseta morada con ribetes dorados, pantalón granate y medias moradas; portero gris de manga larga con pantalón negro
+    'Genei Gakuen': ('#4a2e7a', '#8a2234', '#b8bcc6', '#e8b830', '#4a2e7a', '#4a2e7a', '#2a2a2a', '#b8bcc6', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
+    # Alpino (GO): camiseta crema de manga larga con cuello celeste, pantalón azul marino y medias blancas; portero gris con pantalón blanco
+    'Hakuren (GO)': ('#eef2e2', '#2a3478', '#8a8e8a', '#2a3478', '#eef2e2', '#eef2e2', '#f2f2f2', '#f2f2f2', {'longSleeve': True, 'collar': '#8aa4d8', 'gkGloves': '#1e6a7a'}),
+    # Royal Academy (GO): camiseta verde oscuro de manga larga con cuello rojo, pantalón caqui y medias verdes; portero rojo de manga larga con pantalón marrón
+    'Henkaku no Teikoku': ('#2e5a44', '#7a6430', '#c03018', '#c03018', '#2e5a44', '#2e5a44', '#6a5428', '#c03018', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

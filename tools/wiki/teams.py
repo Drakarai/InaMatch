@@ -255,6 +255,8 @@ STYLE = {
     'Ratoniik Eleven': ('#4a5aa0', '#3e4a8a', '#9a2e2a', '#7a3a6a', '#1e1e26', '#4a5aa0', '#9a2e2a', '#1e1e26', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#9a2e2a', 'collar': '#1e1e26', 'num': '#f0dcdc'}),
     # Sílice: túnica amarilla con mangas largas gris pardo y bombachos gris pardo; portero de rojo
     'Sandorius Eleven': ('#e8c428', '#6a6250', '#a8241a', '#2a2a2a', '#5e5a4c', '#e8c428', '#6a6250', '#5e5a4c', {'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#a8241a', 'collar': '#3a3630', 'num': '#1e1e1e'}),
+    # Barcelona Orb: camiseta morada con franjas blancas en el pecho, pantalón blanco y medias moradas; portero marrón oscuro de manga larga
+    'Barcelona Orb': ('#7a2a8c', '#f4f2f2', '#4a2a26', '#f4f2f2', '#7a2a8c', '#7a2a8c', '#f4f2f2', '#4a2a26', {'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'gkSocks': '#5a5a60', 'collar': '#f4f2f2', 'num': '#f4f2f2', 'stripe': '#f4f2f2'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

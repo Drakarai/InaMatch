@@ -84,9 +84,9 @@ CHARS['cs-team-raimon:bailong-cs-hakuryuu-mm'] = {
              L(outline([(20, 12), (4, 2), (-10, -8, 1), (-2, 10), (12, 20)]), 'mid', 'f', ln=True)],
 }
 
-# Fei Rune con Mixi Max (Big): piel morena, pelo rosa claro abultado con dos cuernos curvos hacia arriba a los lados y una
+# Fei Rune con Mixi Max (Tyranno, en la wiki "(TR) Fei Rune sprite (MM Tyranno)"): piel morena, pelo rosa claro abultado con dos cuernos curvos hacia arriba a los lados y una
 # coleta larga que ondea hacia los lados; ojos rojos afilados
-CHARS['cs-team-raimon:fei-rune-cs-fei-mmbig'] = {
+CHARS['cs-team-raimon:fei-rune-cs-fei-mmtyranno'] = {
     'body': 'normal', 'pal': pal('#f4c0c8', '#b47a50', iris='#d01e1e', shade='#d898a4', deep='#b87884'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 98, 'hairline': False},
     'front': [L(outline([(16, 70), (8, 40), (-6, 30), (-10, -6, 1), (10, 10), (30, 0), (50, -6), (70, 0), (90, 10), (110, -6, 1), (106, 30), (92, 40), (86, 70),
@@ -105,9 +105,9 @@ CHARS['cs-team-raimon:fei-rune-cs-fei-mmbig'] = {
              L(outline([(56, 0), (90, 12), (104, 0), (100, 34), (88, 76), (62, 84)]), 'shade', 'b', False)],
 }
 
-# Fei Rune con Mixi Max (Tyranno): piel morena, pelo azul intenso de pinchos altísimos hacia arriba y mechón en pico por la
+# Fei Rune con Mixi Max (Big, en la wiki "(TR) Fei Rune sprite (MM Big)"): piel morena, pelo azul intenso de pinchos altísimos hacia arriba y mechón en pico por la
 # frente; ojos turquesa afilados
-CHARS['cs-team-raimon:fei-rune-cs-fei-mmtyranno'] = {
+CHARS['cs-team-raimon:fei-rune-cs-fei-mmbig'] = {
     'body': 'normal', 'pal': pal('#2a78d8', '#b47a50', iris='#20b0c0'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 98, 'hairline': False},
     'front': [L(outline([(16, 72), (2, 62, 1), (8, 48), (-10, 30, 1), (8, 22), (4, -14, 1), (24, 4), (30, -34, 1), (44, -2), (56, -38, 1), (62, -2), (80, -30, 1),

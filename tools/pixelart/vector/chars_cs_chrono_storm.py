@@ -1,6 +1,5 @@
-"""Chrono Storm (cs-chrono-storm): sus modelos 3D de Inazuma Eleven GO 2: Chrono Stone como referencia (busto de frente,
-perfil y espalda). Los del Raimon de GO (Tenma, Shindou, Kirino, Shinsuke, Nishiki, Tsurugi), Amemiya y Hakuryuu llevan su
-dibujo de GO: en Chrono Stone su aspecto normal es el mismo (los otros modelos de la enciclopedia son sus Mixi Max)."""
+"""Chrono Storm (cs-chrono-storm): Sor (Torb), Goldie (Kinako) y Fei en su forma normal, que usan otros equipos de Chrono Stone.
+En Chrono Storm todos juegan con su Mixi Max: esos dibujos están en chars_cs_mixi.py."""
 from chars import CHARS, L, OUTC, ell, outline, pal, strand
 
 BONE = (240, 232, 206, 255)

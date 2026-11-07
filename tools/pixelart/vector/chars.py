@@ -740,6 +740,14 @@ import chars_gx_shamshir  # noqa: E402,F401
 import chars_gx_storm_wolf  # noqa: E402,F401
 import chars_gx_supernova  # noqa: E402,F401
 
+# equipos de Ares (en curso: si uno falla al cargar, se avisa y se siguen cargando los demás)
+import importlib as _il  # noqa: E402
+for _m in ['chars_ares_barcelona_orb', 'chars_ares_eisei_gakuen', 'chars_ares_hakuren_ares', 'chars_ares_inakuni_raimon', 'chars_ares_kidokawa_seishuu_ares', 'chars_ares_midorigaoka', 'chars_ares_mikage_sennou_ares', 'chars_ares_minodouzan', 'chars_ares_outei_tsukinomiya', 'chars_ares_seishou_gakuen', 'chars_ares_teikoku_gakuen_ares', 'chars_ares_tonegawa_tousen', 'chars_ares_zeus_ares']:
+    try:
+        _il.import_module(_m)
+    except Exception as _e:  # noqa: BLE001
+        print(f"[chars] {_m}: {_e!r}")
+
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):
     """Cambia los pinchos de detrás (los de 'sol': todos iguales, en abanico y con brillo) por pelo revuelto irregular,

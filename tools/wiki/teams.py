@@ -277,6 +277,10 @@ STYLE = {
     'Teikoku Gakuen (Ares)': ('#3c6a52', '#8a6c38', '#f08a24', '#c8202a', '#3c6a52', '#f0eee8', '#4a4436', '#f08a24', {'gkLongSleeve': True, 'gkGloves': '#6a4aa0', 'gkSocks': '#6a4aa0', 'stripe': '#c8202a', 'num': '#c8202a'}),
     # Polaris (Seishou): camiseta negra con mangas raglán beis, pantalón negro y medias azul marino; portero azul marino de manga larga
     'Seishou Gakuen': ('#1e1e26', '#1e1e26', '#26305a', '#d8c090', '#d8c090', '#22305a', '#e8e4f0', '#26305a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#22305a', 'collar': '#d8c090', 'num': '#d8c090'}),
+    # Bastión: camiseta naranja con cuello granate, pantalón granate y medias naranjas; portero morado de manga larga
+    'Minodouzan': ('#f07a14', '#5a1420', '#7a5ad0', '#5a1420', '#f07a14', '#f07a14', '#1e1e22', '#7a5ad0', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#7a5ad0', 'collar': '#5a1420', 'num': '#5a1420'}),
+    # Plenilunio: camiseta gris con cuello blanco, pantalón blanco y medias grises; portero crema de manga larga con pantalón celeste
+    'Outei Tsukinomiya': ('#5e5e62', '#f4f2f2', '#f6efd6', '#f4f2f2', '#5e5e62', '#5e5e62', '#1e9ad8', '#f6efd6', {'gkLongSleeve': True, 'gkGloves': '#2a2a2e', 'gkSocks': '#1e9ad8', 'collar': '#f4f2f2', 'num': '#f4f2f2'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

@@ -5,10 +5,22 @@
  "name": "Zan",
  "short": "ZA10",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#8a1a3a"
+  "shirt": "#9a1e24",
+  "shorts": "#1e1a1e",
+  "gkShirt": "#e8dcec",
+  "accent": "#c8a040",
+  "sleeve": "#1e1a1e",
+  "socks": "#1e1a1e",
+  "gkShorts": "#1e3048",
+  "gkSleeve": "#1e3048",
+  "longSleeve": true,
+  "longPants": true,
+  "gkLongSleeve": true,
+  "gkLongPants": true,
+  "gkGloves": "#2a5ac8",
+  "gkSocks": "#1e3048",
+  "collar": "#c8a040",
+  "num": "#c8a040"
  },
  "formation": "f-zan",
  "players": [

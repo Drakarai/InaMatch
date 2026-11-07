@@ -5,10 +5,21 @@
  "name": "Nosfanáticos",
  "short": "VAM",
  "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#2a8a3a"
+  "shirt": "#1e1e24",
+  "shorts": "#1e1e24",
+  "gkShirt": "#e8e4e0",
+  "accent": "#c81e2a",
+  "sleeve": "#26304e",
+  "socks": "#1e1e24",
+  "gkShorts": "#e8e4e0",
+  "gkSleeve": "#e8e4e0",
+  "longSleeve": true,
+  "longPants": true,
+  "pants": "#26304e",
+  "gkLongSleeve": true,
+  "gkGloves": "#3a3a44",
+  "gkSocks": "#1e1e24",
+  "collar": "#c81e2a"
  },
  "formation": "f-mikazuki",
  "players": [

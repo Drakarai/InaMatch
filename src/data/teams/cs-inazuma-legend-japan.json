@@ -5,10 +5,19 @@
  "name": "Inazuma Japón Legendario",
  "short": "ILJ",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#8a1a3a"
+  "shirt": "#1e4ec0",
+  "shorts": "#f4f2ee",
+  "gkShirt": "#f0a030",
+  "accent": "#1e4ec0",
+  "sleeve": "#f4f4f4",
+  "socks": "#1e2a3a",
+  "gkShorts": "#2a7a6a",
+  "gkSleeve": "#f0a030",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#1e1e22",
+  "collar": "#d02a2a",
+  "stripe": "#1e4ec0"
  },
  "formation": "f-raimon",
  "players": [

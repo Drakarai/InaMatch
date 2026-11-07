@@ -5,10 +5,18 @@
  "name": "Aullido Lunar",
  "short": "TSU",
  "colors": {
-  "shirt": "#e86a1a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#e86a1a"
+  "shirt": "#d42a2a",
+  "shorts": "#c82626",
+  "gkShirt": "#1e1e22",
+  "accent": "#a8a8b0",
+  "sleeve": "#1e1e22",
+  "socks": "#1e1e22",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#6a6878",
+  "gkLongSleeve": true,
+  "gkGloves": "#c81e1e",
+  "gkSocks": "#6a6878",
+  "collar": "#1e1e22"
  },
  "formation": "f-mangetsu",
  "players": [

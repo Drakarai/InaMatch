@@ -5,10 +5,19 @@
  "name": "Academia Orchid",
  "short": "MEI",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#f2f2f2"
+  "shirt": "#1e1c22",
+  "shorts": "#1e1c22",
+  "socks": "#1e1c22",
+  "accent": "#d8b04a",
+  "stripe": "#d8b04a",
+  "num": "#d8b04a",
+  "collar": "#e8e4dc",
+  "gkShirt": "#1e1c22",
+  "gkShorts": "#1e1c22",
+  "gkSleeve": "#1e1c22",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1c22",
+  "gkSocks": "#1e1c22"
  },
  "formation": "f-4-4-2",
  "players": [

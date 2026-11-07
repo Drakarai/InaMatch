@@ -5,10 +5,20 @@
  "name": "Bailarines Eternos",
  "short": "ETE",
  "colors": {
-  "shirt": "#e86a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#e86a1a"
+  "shirt": "#1e5a6e",
+  "shorts": "#1c4650",
+  "gkShirt": "#e2dc3a",
+  "accent": "#f2f0e2",
+  "sleeve": "#f2f0e2",
+  "socks": "#f2f0e2",
+  "stripe": "#1e5a6e",
+  "collar": "#1e5a6e",
+  "num": "#f2f0e2",
+  "gkShorts": "#f2f0e2",
+  "gkSleeve": "#8a7a22",
+  "gkLongSleeve": true,
+  "gkGloves": "#9a9aa0",
+  "gkSocks": "#8a7a22"
  },
  "formation": "f-4-5-1",
  "players": [

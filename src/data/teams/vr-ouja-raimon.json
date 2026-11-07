@@ -5,10 +5,20 @@
  "name": "Instituto Raimon (Victory Road)",
  "short": "OUJ",
  "colors": {
-  "shirt": "#2a5fc0",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#2a5fc0"
+  "shirt": "#f6c232",
+  "shorts": "#1e4aa0",
+  "gkShirt": "#ee8a22",
+  "accent": "#1e4aa0",
+  "sleeve": "#1e4aa0",
+  "socks": "#1e4aa0",
+  "collar": "#1e4aa0",
+  "num": "#1e4aa0",
+  "stripe": "#f6c232",
+  "gkShorts": "#1e6a44",
+  "gkSleeve": "#1e6a44",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#ece4c4"
  },
  "formation": "f-3-5-2",
  "players": [

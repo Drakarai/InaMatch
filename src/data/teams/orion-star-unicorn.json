@@ -5,10 +5,20 @@
  "name": "Star Unicorn",
  "short": "STA",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#5a3a8a"
+  "shirt": "#e2d2be",
+  "shorts": "#24294a",
+  "gkShirt": "#1c233d",
+  "accent": "#24294a",
+  "sleeve": "#e2d2be",
+  "socks": "#f6f0e6",
+  "gkShorts": "#c0301c",
+  "gkSleeve": "#1c233d",
+  "gkLongSleeve": true,
+  "gkGloves": "#ece2d9",
+  "gkSocks": "#f6f0e6",
+  "stripe": "#c03c20",
+  "collar": "#24294a",
+  "num": "#24294a"
  },
  "formation": "box",
  "players": [

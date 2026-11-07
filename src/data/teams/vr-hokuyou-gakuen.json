@@ -5,10 +5,17 @@
  "name": "Secundaria Northbright",
  "short": "HOK",
  "colors": {
-  "shirt": "#2a5fc0",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#2a5fc0"
+  "shirt": "#f07820",
+  "sleeve": "#f4f4f4",
+  "shorts": "#1e1a1c",
+  "accent": "#f8d040",
+  "socks": "#f07820",
+  "gkShirt": "#1e1e22",
+  "gkSleeve": "#f4f4f4",
+  "gkLongSleeve": true,
+  "gkShorts": "#1e1e22",
+  "gkGloves": "#1e1e22",
+  "gkSocks": "#20b090"
  },
  "formation": "f-3-5-2",
  "players": [

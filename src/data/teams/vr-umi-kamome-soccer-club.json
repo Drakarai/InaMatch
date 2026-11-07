@@ -5,10 +5,20 @@
  "name": "Gaviotas FC",
  "short": "UKS",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#c87aa8"
+  "shirt": "#1e2e6a",
+  "shorts": "#f0f0f4",
+  "gkShirt": "#f2f2f2",
+  "accent": "#1e2e6a",
+  "sleeve": "#a0ec5a",
+  "socks": "#a0ec5a",
+  "stripe": "#1e2e6a",
+  "collar": "#a0ec5a",
+  "num": "#f2f2f2",
+  "gkShorts": "#f0f0f4",
+  "gkSleeve": "#e8743a",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e2e6a",
+  "gkSocks": "#e8743a"
  },
  "formation": "f-3-6-1",
  "players": [

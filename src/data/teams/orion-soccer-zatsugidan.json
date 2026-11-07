@@ -5,10 +5,19 @@
  "name": "Tropa Acrobática del Fútbol",
  "short": "SOC",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#8a1a3a"
+  "shirt": "#f0f0f2",
+  "shorts": "#1e1e22",
+  "sleeve": "#1e1e22",
+  "accent": "#1e1e22",
+  "collar": "#1e1e22",
+  "num": "#1e1e22",
+  "socks": "#1e1e22",
+  "gkShirt": "#8ad032",
+  "gkShorts": "#f2ece4",
+  "gkSleeve": "#8ad032",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e3a28",
+  "gkSocks": "#8ad032"
  },
  "formation": "f-3-5-2",
  "players": [

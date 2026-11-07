@@ -5,10 +5,20 @@
  "name": "Destructores",
  "short": "DES",
  "colors": {
-  "shirt": "#2a5fc0",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#2a5fc0"
+  "shirt": "#1e1e22",
+  "shorts": "#1e1e22",
+  "gkShirt": "#7a7a80",
+  "accent": "#8a8a90",
+  "sleeve": "#8a8a90",
+  "socks": "#1e1e22",
+  "stripe": "#b8243a",
+  "collar": "#8a8a90",
+  "num": "#c8c8cc",
+  "gkShorts": "#7a7a80",
+  "gkSleeve": "#1e1e22",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1e22",
+  "gkSocks": "#1e1e22"
  },
  "formation": "f-3-4-3",
  "players": [

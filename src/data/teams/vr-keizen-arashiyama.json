@@ -5,10 +5,18 @@
  "name": "Secundaria Stormridge",
  "short": "KEI",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#f2f2f2"
+  "shirt": "#1c1c22",
+  "shorts": "#1c1c22",
+  "socks": "#1c1c22",
+  "accent": "#8a8a98",
+  "stripe": "#8a8a98",
+  "num": "#9a9aa8",
+  "gkShirt": "#ececee",
+  "gkSleeve": "#a4a4aa",
+  "gkShorts": "#9a9aa0",
+  "gkLongSleeve": true,
+  "gkGloves": "#1c1c22",
+  "gkSocks": "#1c1c22"
  },
  "formation": "f-3-4-3",
  "players": [

@@ -5,10 +5,20 @@
  "name": "Eclipse de Orión",
  "short": "SHA",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#1c1a24",
+  "shorts": "#1c1a24",
+  "sleeve": "#1c1a24",
+  "accent": "#9a8cf2",
+  "collar": "#9a8cf2",
+  "num": "#9a8cf2",
+  "stripe": "#9a8cf2",
+  "socks": "#1c1a24",
+  "gkShirt": "#7c7c86",
+  "gkShorts": "#1c1a24",
+  "gkSleeve": "#7c7c86",
+  "gkLongSleeve": true,
+  "gkGloves": "#eeeeee",
+  "gkSocks": "#1c1a24"
  },
  "formation": "f-3-5-2",
  "players": [

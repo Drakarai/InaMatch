@@ -5,10 +5,20 @@
  "name": "Secundaria Crosswind-Fauxshore",
  "short": "BAT",
  "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#2a8a3a"
+  "shirt": "#1e1e22",
+  "shorts": "#1e1e22",
+  "gkShirt": "#1e1e22",
+  "accent": "#5aa8d8",
+  "sleeve": "#5aa8d8",
+  "socks": "#f2f2f2",
+  "stripe": "#5aa8d8",
+  "collar": "#5aa8d8",
+  "num": "#f2f2f2",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#e8902a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#f2f2f2"
  },
  "formation": "f-3-5-2",
  "players": [

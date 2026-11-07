@@ -5,10 +5,20 @@
  "name": "Ejército del Fénix Árabe",
  "short": "AHT",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#5a3a8a"
+  "shirt": "#221e22",
+  "shorts": "#f4f2f2",
+  "accent": "#4ab4b0",
+  "sleeve": "#ea6a2c",
+  "socks": "#221e22",
+  "collar": "#4ab4b0",
+  "num": "#ea6a2c",
+  "stripe": "#4ab4b0",
+  "gkShirt": "#ecc22a",
+  "gkShorts": "#f4f2f2",
+  "gkSleeve": "#4ab4b0",
+  "gkLongSleeve": true,
+  "gkGloves": "#222226",
+  "gkSocks": "#4ab4b0"
  },
  "formation": "f-3-5-2",
  "players": [

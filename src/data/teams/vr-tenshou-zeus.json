@@ -5,10 +5,20 @@
  "name": "Secundaria Solaria-Zeus",
  "short": "TEN",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#1a1a1a"
+  "shirt": "#f2eeee",
+  "shorts": "#f2eeee",
+  "gkShirt": "#262a4e",
+  "accent": "#1e6a7a",
+  "sleeve": "#f2eeee",
+  "socks": "#7a7480",
+  "collar": "#1e6a7a",
+  "num": "#1e6a7a",
+  "stripe": "#1e6a7a",
+  "gkShorts": "#8a8a94",
+  "gkSleeve": "#262a4e",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1e22",
+  "gkSocks": "#8a8a94"
  },
  "formation": "f-4-4-2",
  "players": [

@@ -5,10 +5,20 @@
  "name": "Inazuma Japón (Orion)",
  "short": "IJO",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#8a1a3a"
+  "shirt": "#2345a9",
+  "shorts": "#25266a",
+  "gkShirt": "#ed6b37",
+  "accent": "#c8241e",
+  "sleeve": "#201d4b",
+  "socks": "#2444a9",
+  "gkShorts": "#f2a01a",
+  "gkSleeve": "#ed6b37",
+  "gkLongSleeve": true,
+  "gkGloves": "#8a8a8a",
+  "gkSocks": "#ed6b37",
+  "collar": "#f4f4f4",
+  "num": "#f4f4f4",
+  "stripe": "#c8241e"
  },
  "formation": "freedom",
  "players": [

@@ -5,10 +5,20 @@
  "name": "Secundaria South Cirrus",
  "short": "NAG",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#f2f4f8",
+  "sleeve": "#f2f4f8",
+  "shorts": "#2a5ac8",
+  "socks": "#2a5ac8",
+  "accent": "#2a5ac8",
+  "stripe": "#f2f4f8",
+  "num": "#2a5ac8",
+  "collar": "#2a5ac8",
+  "gkShirt": "#6a4ac0",
+  "gkSleeve": "#6a4ac0",
+  "gkLongSleeve": true,
+  "gkShorts": "#f2f4f8",
+  "gkSocks": "#6a4ac0",
+  "gkGloves": "#6a2a90"
  },
  "formation": "delta",
  "players": [

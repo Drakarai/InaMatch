@@ -5,10 +5,17 @@
  "name": "Instituto Lawcrest",
  "short": "HOU",
  "colors": {
-  "shirt": "#2a5fc0",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#2a5fc0"
+  "shirt": "#f0e4cc",
+  "sleeve": "#5e3418",
+  "shorts": "#8a4c1e",
+  "accent": "#5e3418",
+  "vstripes": "#b87a3e",
+  "socks": "#f0e4cc",
+  "gkShirt": "#2c2c8c",
+  "gkLongSleeve": true,
+  "gkShorts": "#16162a",
+  "gkGloves": "#d8ccb0",
+  "gkSocks": "#2c2c8c"
  },
  "formation": "f-4-3-3",
  "players": [

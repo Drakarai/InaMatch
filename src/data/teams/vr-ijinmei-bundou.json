@@ -5,10 +5,18 @@
  "name": "Instituto Visión Noble",
  "short": "IJI",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#d890a8",
+  "sleeve": "#d890a8",
+  "shorts": "#4a1a32",
+  "accent": "#7a2048",
+  "socks": "#f2e4ec",
+  "gkShirt": "#f2e2ec",
+  "gkSleeve": "#f2e2ec",
+  "gkShorts": "#f2e2ec",
+  "gkLongSleeve": true,
+  "gkGloves": "#6a1a3a",
+  "gkSocks": "#f2e4ec",
+  "num": "#f4f4f4"
  },
  "formation": "f-3-5-2",
  "players": [

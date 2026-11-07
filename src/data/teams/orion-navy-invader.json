@@ -5,10 +5,20 @@
  "name": "Navy Invader",
  "short": "NAV",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#7a7a7e",
+  "shorts": "#26262a",
+  "gkShirt": "#161c34",
+  "accent": "#b6d6ea",
+  "sleeve": "#b6d6ea",
+  "socks": "#7a7a80",
+  "stripe": "#7a7a80",
+  "collar": "#b6d6ea",
+  "num": "#f2f2f2",
+  "gkShorts": "#5a6ae2",
+  "gkSleeve": "#5a7ae8",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1e22",
+  "gkSocks": "#5a6ae2"
  },
  "formation": "f-6-2-2",
  "players": [

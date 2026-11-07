@@ -754,6 +754,42 @@ import chars_ares_teikoku_gakuen_ares  # noqa: E402,F401
 import chars_ares_tonegawa_tousen  # noqa: E402,F401
 import chars_ares_zeus_ares  # noqa: E402,F401
 
+import chars_orion_arab_no_hi_no_tori_gundan  # noqa: E402,F401
+import chars_orion_eternal_dancers  # noqa: E402,F401
+import chars_orion_guardians_of_queen  # noqa: E402,F401
+import chars_orion_inazuma_japan_orion  # noqa: E402,F401
+import chars_orion_muteki_no_giant  # noqa: E402,F401
+import chars_orion_navy_invader  # noqa: E402,F401
+import chars_orion_ol_de_samba  # noqa: E402,F401
+import chars_orion_perfect_spark  # noqa: E402,F401
+import chars_orion_red_bison  # noqa: E402,F401
+import chars_orion_shadow_of_orion  # noqa: E402,F401
+import chars_orion_shining_satans  # noqa: E402,F401
+import chars_orion_soccer_zatsugidan  # noqa: E402,F401
+import chars_orion_star_unicorn  # noqa: E402,F401
+import chars_vr_ai_gakuen  # noqa: E402,F401
+import chars_vr_batten_yokato  # noqa: E402,F401
+import chars_vr_destroyers  # noqa: E402,F401
+import chars_vr_gatekeepers  # noqa: E402,F401
+import chars_vr_hakuren_victory_road  # noqa: E402,F401
+import chars_vr_hokuyou_gakuen  # noqa: E402,F401
+import chars_vr_houreikan  # noqa: E402,F401
+import chars_vr_ijinmei_bundou  # noqa: E402,F401
+import chars_vr_keizen_arashiyama  # noqa: E402,F401
+import chars_vr_meiran_gakuin  # noqa: E402,F401
+import chars_vr_nagumohara  # noqa: E402,F401
+import chars_vr_nagumohara_shopkeepers  # noqa: E402,F401
+import chars_vr_nikogawa  # noqa: E402,F401
+import chars_vr_nishinomiya  # noqa: E402,F401
+import chars_vr_ouja_raimon  # noqa: E402,F401
+import chars_vr_platos  # noqa: E402,F401
+import chars_vr_rojiura_backkicks  # noqa: E402,F401
+import chars_vr_senjutsu_no_teikoku  # noqa: E402,F401
+import chars_vr_tenshou_zeus  # noqa: E402,F401
+import chars_vr_toufuu_ikokukan  # noqa: E402,F401
+import chars_vr_umi_kamome_soccer_club  # noqa: E402,F401
+import chars_vr_zanark_strangers  # noqa: E402,F401
+
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):
     """Cambia los pinchos de detrás (los de 'sol': todos iguales, en abanico y con brillo) por pelo revuelto irregular,

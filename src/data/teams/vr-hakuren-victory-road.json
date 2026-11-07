@@ -5,10 +5,16 @@
  "name": "Instituto Alpino (Victory Road)",
  "short": "HVR",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#1a1a1a"
+  "shirt": "#f4eed2",
+  "sleeve": "#2e3f5e",
+  "shorts": "#2e3f5e",
+  "accent": "#2e3f5e",
+  "socks": "#f4eed2",
+  "gkShirt": "#4c5632",
+  "gkShorts": "#d6cbb0",
+  "gkLongSleeve": true,
+  "gkGloves": "#c8c0a8",
+  "gkSocks": "#f4eed2"
  },
  "formation": "f-4-3-3",
  "players": [

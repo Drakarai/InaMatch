@@ -5,10 +5,20 @@
  "name": "Secundaria Internacional Eastwind",
  "short": "TOU",
  "colors": {
-  "shirt": "#4a6a2a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#4a6a2a"
+  "shirt": "#c8202a",
+  "shorts": "#1e1e22",
+  "gkShirt": "#f2f2f2",
+  "accent": "#1e1e22",
+  "sleeve": "#c8202a",
+  "socks": "#c8202a",
+  "stripe": "#1e1e22",
+  "collar": "#b8b8bc",
+  "num": "#f2f2f2",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#7a2a8a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#7a2a8a"
  },
  "formation": "f-3-4-3",
  "players": [

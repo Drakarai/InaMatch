@@ -5,10 +5,20 @@
  "name": "Olé de Samba",
  "short": "ODS",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#5a3a8a"
+  "shirt": "#f4dc1e",
+  "shorts": "#1e7a2a",
+  "accent": "#1e7a2a",
+  "sleeve": "#f4dc1e",
+  "socks": "#1e1e22",
+  "collar": "#1e7a2a",
+  "num": "#1e7a2a",
+  "stripe": "#1e7a2a",
+  "gkShirt": "#2a2a6a",
+  "gkShorts": "#d8283a",
+  "gkSleeve": "#2a2a6a",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1e22",
+  "gkSocks": "#1e1e22"
  },
  "formation": "f-3-5-2",
  "players": [

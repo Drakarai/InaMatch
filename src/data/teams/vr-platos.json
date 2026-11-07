@@ -5,10 +5,20 @@
  "name": "Plathos",
  "short": "PLA",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#c87aa8"
+  "shirt": "#3a5ad0",
+  "shorts": "#f0e830",
+  "sleeve": "#3a5ad0",
+  "longSleeve": true,
+  "accent": "#60d0e0",
+  "collar": "#60d0e0",
+  "num": "#f0e830",
+  "socks": "#3a5ad0",
+  "gkShirt": "#f0962a",
+  "gkSleeve": "#f0962a",
+  "gkLongSleeve": true,
+  "gkShorts": "#f2f2f2",
+  "gkSocks": "#f0962a",
+  "gkGloves": "#f2f2f2"
  },
  "formation": "f-4-4-2",
  "players": [

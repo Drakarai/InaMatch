@@ -5,10 +5,20 @@
  "name": "Demonios Brillantes",
  "short": "SHI",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#1e2a6a",
+  "shorts": "#f4d23a",
+  "gkShirt": "#1e1e22",
+  "accent": "#f4d23a",
+  "sleeve": "#1e2a6a",
+  "socks": "#1e2a6a",
+  "collar": "#f4d23a",
+  "num": "#f4d23a",
+  "stripe": "#f4d23a",
+  "gkShorts": "#e8541e",
+  "gkSleeve": "#e8541e",
+  "gkLongSleeve": true,
+  "gkGloves": "#f4f4f4",
+  "gkSocks": "#1e1e22"
  },
  "formation": "f-4-4-2",
  "players": [

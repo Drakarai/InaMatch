@@ -5,10 +5,20 @@
  "name": "Bisonte Rojo",
  "short": "RED",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#1a1a1a"
+  "shirt": "#e01e2a",
+  "shorts": "#3a3a3e",
+  "gkShirt": "#1e1e22",
+  "accent": "#3a5ab0",
+  "sleeve": "#e01e2a",
+  "socks": "#e01e2a",
+  "collar": "#3a5ab0",
+  "num": "#f4dada",
+  "stripe": "#3a5ab0",
+  "gkShorts": "#f4f2f2",
+  "gkSleeve": "#3a6ab8",
+  "gkLongSleeve": true,
+  "gkGloves": "#f4f4f4",
+  "gkSocks": "#1e1e22"
  },
  "formation": "f-4-4-2",
  "players": [

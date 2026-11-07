@@ -281,6 +281,76 @@ STYLE = {
     'Minodouzan': ('#f07a14', '#5a1420', '#7a5ad0', '#5a1420', '#f07a14', '#f07a14', '#1e1e22', '#7a5ad0', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#7a5ad0', 'collar': '#5a1420', 'num': '#5a1420'}),
     # Plenilunio: camiseta gris con cuello blanco, pantalón blanco y medias grises; portero crema de manga larga con pantalón celeste
     'Outei Tsukinomiya': ('#5e5e62', '#f4f2f2', '#f6efd6', '#f4f2f2', '#5e5e62', '#5e5e62', '#1e9ad8', '#f6efd6', {'gkLongSleeve': True, 'gkGloves': '#2a2a2e', 'gkSocks': '#1e9ad8', 'collar': '#f4f2f2', 'num': '#f4f2f2'}),
+    # Ejército del Fénix Árabe (Orion): camiseta negra con mangas y llamas naranjas, cuello turquesa, pantalón blanco y medias negras; portero de amarillo con mangas turquesa
+    'Arab no Hi no Tori Gundan': ('#221e22', '#f4f2f2', '#ecc22a', '#4ab4b0', '#ea6a2c', '#221e22', '#f4f2f2', '#4ab4b0', {'collar': '#4ab4b0', 'num': '#ea6a2c', 'stripe': '#4ab4b0', 'gkLongSleeve': True, 'gkGloves': '#222226', 'gkSocks': '#4ab4b0'}),
+    # Bailarines Eternos (Orion): verde azulado con mangas y uve blancas, pantalón verde azulado oscuro y medias blancas; portero amarillo con mangas oliva
+    'Eternal Dancers': ('#1e5a6e', '#1c4650', '#e2dc3a', '#f2f0e2', '#f2f0e2', '#f2f0e2', '#f2f0e2', '#8a7a22', {'stripe': '#1e5a6e', 'collar': '#1e5a6e', 'num': '#f2f0e2', 'gkLongSleeve': True, 'gkGloves': '#9a9aa0', 'gkSocks': '#8a7a22'}),
+    # Guardianes de la Reina (Orion): azul con el pecho blanco, pantalón y medias azules con franja dorada; portero morado oscuro con pantalón gris claro
+    'Guardians of Queen': ('#3a72d6', '#3a72d6', '#3c1c60', '#f4f4f4', '#3a72d6', '#3a72d6', '#dcd8d8', '#3c1c60', {'collar': '#f4f4f4', 'num': '#f4f4f4', 'stripe': '#e0b040', 'gkLongSleeve': True, 'gkGloves': '#4c2c7c', 'gkSocks': '#3c1c60'}),
+    # Inazuma Japón (Orion): azul con cuello blanco, mangas marino con ribete rojo, pantalón marino con raya roja; portero naranja de manga larga
+    'Inazuma Japan (Orion)': ('#2345a9', '#25266a', '#ed6b37', '#c8241e', '#201d4b', '#2444a9', '#f2a01a', '#ed6b37', {'gkLongSleeve': True, 'gkGloves': '#8a8a8a', 'gkSocks': '#ed6b37', 'collar': '#f4f4f4', 'num': '#f4f4f4', 'stripe': '#c8241e'}),
+    # Gigantes Invencibles (Orion): camiseta negra con detalles amarillos, pantalón rojo anaranjado y medias amarillas; portero granate oscuro con pantalón blanco
+    'Muteki no Giant': ('#1e1e22', '#e8502a', '#4a2a26', '#f2c41e', '#1e1e22', '#f2c41e', '#f4f2f2', '#4a2a26', {'collar': '#1e1e22', 'num': '#f2c41e', 'stripe': '#f2c41e', 'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'gkSocks': '#5a5a60'}),
+    # Navy Invader (Orion): gris con mangas azul claro, pantalón negro y medias grises; portero azul marino con mangas y pantalón azules
+    'Navy Invader': ('#7a7a7e', '#26262a', '#161c34', '#b6d6ea', '#b6d6ea', '#7a7a80', '#5a6ae2', '#5a7ae8', {'stripe': '#7a7a80', 'collar': '#b6d6ea', 'num': '#f2f2f2', 'gkLongSleeve': True, 'gkGloves': '#1e1e22', 'gkSocks': '#5a6ae2'}),
+    # Olé de Samba (Orion): amarilla con cuello y detalles verdes, pantalón verde y medias negras; portero azul marino con pantalón rojo
+    'Olé de Samba': ('#f4dc1e', '#1e7a2a', '#2a2a6a', '#1e7a2a', '#f4dc1e', '#1e1e22', '#d8283a', '#2a2a6a', {'collar': '#1e7a2a', 'num': '#1e7a2a', 'stripe': '#1e7a2a', 'gkLongSleeve': True, 'gkGloves': '#1e1e22', 'gkSocks': '#1e1e22'}),
+    # Chispas Perfectas (Orion): blanca con mangas y medias azules y uve verde agua; portero rojo con pantalón granate
+    'Perfect Spark': ('#f4f4f6', '#f4f4f6', '#d23a30', '#2a4a9e', '#2a4a9e', '#2a4a9e', '#5e1418', '#d23a30', {'stripe': '#2a4a9e', 'collar': '#2a4a9e', 'num': '#7ac8b4', 'gkLongSleeve': True, 'gkGloves': '#3a1a1c', 'gkSocks': '#5e1418'}),
+    # Bisonte Rojo (Orion): roja con ribetes azules, pantalón gris oscuro y medias rojas; portero negro con mangas azules y pantalón blanco
+    'Red Bison': ('#e01e2a', '#3a3a3e', '#1e1e22', '#3a5ab0', '#e01e2a', '#e01e2a', '#f4f2f2', '#3a6ab8', {'collar': '#3a5ab0', 'num': '#f4dada', 'stripe': '#3a5ab0', 'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'gkSocks': '#1e1e22'}),
+    # Eclipse de Orión: todo negro con detalles violeta; portero gris de manga larga con guantes blancos
+    'Shadow of Orion': ('#1c1a24', '#1c1a24', '#7c7c86', '#9a8cf2', '#1c1a24', '#1c1a24', '#1c1a24', '#7c7c86', {'collar': '#9a8cf2', 'num': '#9a8cf2', 'stripe': '#9a8cf2', 'gkLongSleeve': True, 'gkGloves': '#eeeeee', 'gkSocks': '#1c1a24'}),
+    # Demonios Brillantes (Orion): azul marino con cuello y detalles amarillos, pantalón amarillo; portero negro con mangas y pantalón naranjas
+    'Shining Satans': ('#1e2a6a', '#f4d23a', '#1e1e22', '#f4d23a', '#1e2a6a', '#1e2a6a', '#e8541e', '#e8541e', {'collar': '#f4d23a', 'num': '#f4d23a', 'stripe': '#f4d23a', 'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'gkSocks': '#1e1e22'}),
+    # Tropa Acrobática del Fútbol (Orion): blanca con hombros, mangas y cuello negros y pantalón negro; portero verde lima con pantalón blanco
+    'Soccer Zatsugidan': ('#f0f0f2', '#1e1e22', '#8ad032', '#1e1e22', '#1e1e22', '#1e1e22', '#f2ece4', '#8ad032', {'collar': '#1e1e22', 'num': '#1e1e22', 'gkLongSleeve': True, 'gkGloves': '#1e3a28', 'gkSocks': '#8ad032'}),
+    # Star Unicorn (Orion): crema con cuello azul marino y pico rojo, pantalón marino y medias blancas; portero marino de manga larga con pantalón rojo
+    'Star Unicorn': ('#e2d2be', '#24294a', '#1c233d', '#24294a', '#e2d2be', '#f6f0e6', '#c0301c', '#1c233d', {'gkLongSleeve': True, 'gkGloves': '#ece2d9', 'gkSocks': '#f6f0e6', 'stripe': '#c03c20', 'collar': '#24294a', 'num': '#24294a'}),
+    # Academia IA (VR): azul marino con franja diagonal azul claro, medias azul grisáceo; portero gris oscuro con guantes verdes
+    'AI Gakuen': ('#1e3a5e', '#1e3a5e', '#2e3a4a', '#6ab0e0', '#1e3a5e', '#6a80a8', '#1e2a38', '#2e3a4a', {'stripe': '#1e3a5e', 'collar': '#6ab0e0', 'num': '#f2f2f2', 'gkLongSleeve': True, 'gkGloves': '#3ac880', 'gkSocks': '#1e2a38'}),
+    # Crosswind-Fauxshore (VR): negra con mangas azul claro, pantalón negro y medias blancas; porteros con mangas naranjas
+    'Batten-Yokato': ('#1e1e22', '#1e1e22', '#1e1e22', '#5aa8d8', '#5aa8d8', '#f2f2f2', '#1e1e22', '#e8902a', {'stripe': '#5aa8d8', 'collar': '#5aa8d8', 'num': '#f2f2f2', 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#f2f2f2'}),
+    # Destructores (VR): negra con mangas grises y filo rojo, pantalón y medias negros; portero gris con manga larga negra
+    'Destroyers': ('#1e1e22', '#1e1e22', '#7a7a80', '#8a8a90', '#8a8a90', '#1e1e22', '#7a7a80', '#1e1e22', {'stripe': '#b8243a', 'collar': '#8a8a90', 'num': '#c8c8cc', 'gkLongSleeve': True, 'gkGloves': '#1e1e22', 'gkSocks': '#1e1e22'}),
+    # Guardianas (VR): pecho negro, mangas y pantalón blancos con detalles turquesa, medias negras
+    'Gatekeepers': ('#1e1e22', '#f4f4f4', '#1e1e22', '#2ac8c0', '#f4f4f4', '#1e1e22', '#f4f4f4', '#f4f4f4', {'stripe': '#2ac8c0', 'collar': '#2ac8c0', 'num': '#f4f4f4', 'gkGloves': '#1e1e22', 'gkSocks': '#1e1e22'}),
+    # Instituto Alpino (VR): crema con hombros y mangas marino, pantalón marino y medias crema; portero oliva de manga larga
+    'Hakuren (Victory Road)': ('#f4eed2', '#2e3f5e', '#4c5632', '#2e3f5e', '#2e3f5e', '#f4eed2', '#d6cbb0', None, {'gkLongSleeve': True, 'gkGloves': '#c8c0a8', 'gkSocks': '#f4eed2'}),
+    # Northbright (VR): naranja con mangas blancas y sol amarillo, pantalón negro; portero negro con mangas blancas y medias turquesa
+    'Hokuyou Gakuen': ('#f07820', '#1e1a1c', '#1e1e22', '#f8d040', '#f4f4f4', '#f07820', '#1e1e22', '#f4f4f4', {'gkLongSleeve': True, 'gkGloves': '#1e1e22', 'gkSocks': '#20b090'}),
+    # Lawcrest (VR): crema con rayas verticales marrones, mangas y pantalón marrones; portero azul violeta de manga larga
+    'Houreikan': ('#f0e4cc', '#8a4c1e', '#2c2c8c', '#5e3418', '#5e3418', '#f0e4cc', '#16162a', None, {'vstripes': '#b87a3e', 'gkLongSleeve': True, 'gkGloves': '#d8ccb0', 'gkSocks': '#2c2c8c'}),
+    # Visión Noble (VR): rosa con la S magenta, pantalón granate y medias rosa pálido; portero rosa pálido con guantes granates
+    'Ijinmei Bundou': ('#d890a8', '#4a1a32', '#f2e2ec', '#7a2048', '#d890a8', '#f2e4ec', '#f2e2ec', '#f2e2ec', {'gkLongSleeve': True, 'gkGloves': '#6a1a3a', 'gkSocks': '#f2e4ec', 'num': '#f4f4f4'}),
+    # Stormridge (VR): negra con dibujos grises, pantalón y medias negros; portero blanco con mangas grises
+    'Keizen Arashiyama': ('#1c1c22', '#1c1c22', '#ececee', '#8a8a98', None, '#1c1c22', '#9a9aa0', '#a4a4aa', {'stripe': '#8a8a98', 'num': '#9a9aa8', 'gkLongSleeve': True, 'gkGloves': '#1c1c22', 'gkSocks': '#1c1c22'}),
+    # Academia Orchid (VR): negra con líneas doradas; portera negra de manga larga
+    'Meiran Gakuin': ('#1e1c22', '#1e1c22', '#1e1c22', '#d8b04a', None, '#1e1c22', '#1e1c22', '#1e1c22', {'stripe': '#d8b04a', 'num': '#d8b04a', 'collar': '#e8e4dc', 'gkLongSleeve': True, 'gkGloves': '#1e1c22', 'gkSocks': '#1e1c22'}),
+    # Vendedores de South Cirrus (VR): granate con paneles blancos a los lados; portero marrón con mangas ocre
+    'Nagumohara Shopkeepers': ('#a8323a', '#a8323a', '#a05a30', '#f2e8e2', '#a8323a', '#a8323a', '#a05a30', '#c89a3a', {'stripe': '#f2e8e2', 'num': '#f2e8e2', 'collar': '#a8323a', 'gkLongSleeve': True, 'gkSocks': '#a05a30', 'gkGloves': '#3a4a7a'}),
+    # South Cirrus (VR): blanca con la ola azul, pantalón y medias azules; portero morado con pantalón blanco
+    'Nagumohara': ('#f2f4f8', '#2a5ac8', '#6a4ac0', '#2a5ac8', '#f2f4f8', '#2a5ac8', '#f2f4f8', '#6a4ac0', {'stripe': '#f2f4f8', 'num': '#2a5ac8', 'collar': '#2a5ac8', 'gkLongSleeve': True, 'gkSocks': '#6a4ac0', 'gkGloves': '#6a2a90'}),
+    # Twinford (VR): verde hoja con franja marrón cruzada, pantalón negro; portero azul marino de manga larga
+    'Nikogawa': ('#6ab04c', '#1e1e1e', '#2c3a5c', '#6a4632', '#6ab04c', '#6ab04c', '#1e1e1e', '#2c3a5c', {'collar': '#6a4632', 'gkLongSleeve': True, 'gkSocks': '#1e1e1e', 'gkGloves': '#1e1e1e', 'num': '#f4f4f4'}),
+    # West Manor (VR): verde menta con cuello y ribetes negros, pantalón negro; portero negro con pantalón verde
+    'Nishinomiya': ('#64dcb4', '#1e1e1e', '#1e2420', '#1e1e1e', '#64dcb4', '#64dcb4', '#2a8a2a', '#1e2420', {'collar': '#1e1e1e', 'gkLongSleeve': True, 'gkSocks': '#f2f2f2', 'gkGloves': '#f2f2f2', 'num': '#1e1e1e'}),
+    # Raimon (VR): amarilla con mangas, pantalón y medias azules; portero naranja con mangas largas y pantalón verdes
+    'Ouja Raimon': ('#f6c232', '#1e4aa0', '#ee8a22', '#1e4aa0', '#1e4aa0', '#1e4aa0', '#1e6a44', '#1e6a44', {'collar': '#1e4aa0', 'num': '#1e4aa0', 'stripe': '#f6c232', 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#ece4c4'}),
+    # Plathos (VR): azul de manga larga con cuello en V celeste y pantalón amarillo; portero naranja con pantalón blanco
+    'Platos': ('#3a5ad0', '#f0e830', '#f0962a', '#60d0e0', '#3a5ad0', '#3a5ad0', '#f2f2f2', '#f0962a', {'longSleeve': True, 'collar': '#60d0e0', 'num': '#f0e830', 'gkLongSleeve': True, 'gkSocks': '#f0962a', 'gkGloves': '#f2f2f2'}),
+    # Goleadores del Callejón (VR): morado muy oscuro de manga larga con detalles dorados; portero blanco con pantalón negro
+    'Rojiura Backkicks': ('#2e1a40', '#2e1a40', '#f2eeee', '#c8a870', '#2e1a40', '#2e1a40', '#1e1e1e', '#f2eeee', {'longSleeve': True, 'collar': '#c8a870', 'num': '#c8a870', 'gkLongSleeve': True, 'gkSocks': '#1e1e1e', 'gkGloves': '#1e1e1e'}),
+    # Royal Academy (VR): verde oscuro con detalles rojos, pantalón y medias negros; portero naranja y negro
+    'Senjutsu no Teikoku': ('#1e4a36', '#18181c', '#e0781e', '#b81e24', '#1e4a36', '#18181c', '#18181c', '#2a1e1a', {'collar': '#b81e24', 'num': '#b81e24', 'stripe': '#b81e24', 'gkLongSleeve': True, 'gkGloves': '#8a4a2a', 'gkSocks': '#8a3e1e'}),
+    # Solaria-Zeus (VR): túnica blanca con ribetes turquesa y medias grises; portero azul marino con pantalón gris
+    'Tenshou-Zeus': ('#f2eeee', '#f2eeee', '#262a4e', '#1e6a7a', '#f2eeee', '#7a7480', '#8a8a94', '#262a4e', {'collar': '#1e6a7a', 'num': '#1e6a7a', 'stripe': '#1e6a7a', 'gkLongSleeve': True, 'gkGloves': '#1e1e22', 'gkSocks': '#8a8a94'}),
+    # Eastwind (VR): roja con paneles negros y grises, pantalón negro y medias rojas; portero blanco con mangas moradas
+    'Toufuu Ikokukan': ('#c8202a', '#1e1e22', '#f2f2f2', '#1e1e22', '#c8202a', '#c8202a', '#1e1e22', '#7a2a8a', {'stripe': '#1e1e22', 'collar': '#b8b8bc', 'num': '#f2f2f2', 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#7a2a8a'}),
+    # Gaviotas FC (VR): azul marino con mangas verde lima, pantalón blanco y medias lima; porteros blancos con mangas naranjas
+    'Umi Kamome Soccer Club': ('#1e2e6a', '#f0f0f4', '#f2f2f2', '#1e2e6a', '#a0ec5a', '#a0ec5a', '#f0f0f4', '#e8743a', {'stripe': '#1e2e6a', 'collar': '#a0ec5a', 'num': '#f2f2f2', 'gkLongSleeve': True, 'gkGloves': '#1e2e6a', 'gkSocks': '#e8743a'}),
+    # Zanark Outsiders (VR): gris oscuro con líneas magenta y mangas largas gris claro; portero granate entero
+    'Zanark Strangers': ('#4a4a52', '#45454c', '#8c1838', '#e8306e', '#d2d2d8', '#3c3c44', '#8c1838', '#3a3a42', {'longSleeve': True, 'collar': '#e8306e', 'num': '#e8306e', 'gkLongSleeve': True, 'gkLongPants': True, 'gkGloves': '#3a3a42', 'gkSocks': '#8c1838'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

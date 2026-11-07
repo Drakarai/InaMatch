@@ -5,10 +5,20 @@
  "name": "Guardianes de la Reina",
  "short": "GUA",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#c87aa8"
+  "shirt": "#3a72d6",
+  "shorts": "#3a72d6",
+  "accent": "#f4f4f4",
+  "sleeve": "#3a72d6",
+  "socks": "#3a72d6",
+  "collar": "#f4f4f4",
+  "num": "#f4f4f4",
+  "stripe": "#e0b040",
+  "gkShirt": "#3c1c60",
+  "gkShorts": "#dcd8d8",
+  "gkSleeve": "#3c1c60",
+  "gkLongSleeve": true,
+  "gkGloves": "#4c2c7c",
+  "gkSocks": "#3c1c60"
  },
  "formation": "f-3-4-3",
  "players": [

@@ -5,10 +5,20 @@
  "name": "Goleadores del Callejón",
  "short": "ROJ",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#f2f2f2"
+  "shirt": "#2e1a40",
+  "shorts": "#2e1a40",
+  "sleeve": "#2e1a40",
+  "longSleeve": true,
+  "accent": "#c8a870",
+  "collar": "#c8a870",
+  "num": "#c8a870",
+  "socks": "#2e1a40",
+  "gkShirt": "#f2eeee",
+  "gkSleeve": "#f2eeee",
+  "gkLongSleeve": true,
+  "gkShorts": "#1e1e1e",
+  "gkSocks": "#1e1e1e",
+  "gkGloves": "#1e1e1e"
  },
  "formation": "f-3-4-3",
  "players": [

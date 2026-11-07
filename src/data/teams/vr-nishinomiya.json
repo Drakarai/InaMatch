@@ -5,10 +5,19 @@
  "name": "Academia West Manor",
  "short": "NIS",
  "colors": {
-  "shirt": "#3a8ac0",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#3a8ac0"
+  "shirt": "#64dcb4",
+  "shorts": "#1e1e1e",
+  "sleeve": "#64dcb4",
+  "accent": "#1e1e1e",
+  "collar": "#1e1e1e",
+  "socks": "#64dcb4",
+  "gkShirt": "#1e2420",
+  "gkSleeve": "#1e2420",
+  "gkLongSleeve": true,
+  "gkShorts": "#2a8a2a",
+  "gkSocks": "#f2f2f2",
+  "gkGloves": "#f2f2f2",
+  "num": "#1e1e1e"
  },
  "formation": "f-4-4-2",
  "players": [

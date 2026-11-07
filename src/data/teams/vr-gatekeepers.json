@@ -5,10 +5,19 @@
  "name": "Guardianas",
  "short": "GAT",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#8a1a3a"
+  "shirt": "#1e1e22",
+  "shorts": "#f4f4f4",
+  "gkShirt": "#1e1e22",
+  "accent": "#2ac8c0",
+  "sleeve": "#f4f4f4",
+  "socks": "#1e1e22",
+  "stripe": "#2ac8c0",
+  "collar": "#2ac8c0",
+  "num": "#f4f4f4",
+  "gkShorts": "#f4f4f4",
+  "gkSleeve": "#f4f4f4",
+  "gkGloves": "#1e1e22",
+  "gkSocks": "#1e1e22"
  },
  "formation": "triangle",
  "players": [

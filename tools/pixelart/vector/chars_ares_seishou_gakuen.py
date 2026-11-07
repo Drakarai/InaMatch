@@ -217,7 +217,7 @@ CHARS['eddy-o-ryan'] = {
 }
 
 # Haizaki Ryouhei: melena larga gris ondulada que le cae hasta el pecho y le tapa el ojo derecho, con un mechón suelto que se
-# riza hacia arriba y un mechón rojo en el flequillo; piel morena, ojo rojo y sonrisa de dientes
+# riza hacia arriba (sin mechón rojo: ni el modelo 3D ni el sprite lo tienen); piel morena, ojo rojo y sonrisa de dientes
 CHARS['elliot-ember'] = {
     'body': 'normal', 'pal': pal('#8a8a8c', '#9a6a48', iris='#c0201e', shade='#5e5e60', red='#c81e24'),
     'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'grin', 'mouth_y': 100, 'hairline': False},
@@ -225,8 +225,7 @@ CHARS['elliot-ember'] = {
               L(quad((14, 24), (-2, 10), (6, -6)), 'mid', 'b', False, False, 2.6),
               L(outline([(60, 6), (88, 22), (100, 60), (98, 112), (86, 80)]), 'shade', 'b', False),
               fringe([(12, 96), (8, 56), (20, 26), (44, 14), (70, 18), (88, 38), (90, 74), (82, 60), (74, 56), (62, 50), (56, 60), (52, 96, 1), (42, 92), (30, 104, 1),
-                      (22, 96)]),
-              L(outline([(46, 18), (54, 16), (52, 60), (48, 64)]), 'red', 'f', False)],
+                      (22, 96)])],
     'side': [L(outline([(54, 64), (58, 52), (80, 50), (94, 36), (90, 14), (68, 0), (38, 2), (14, 16), (2, 44), (-4, 80), (-10, 116, 1), (6, 108), (16, 124, 1),
                         (28, 110), (40, 88), (46, 76)])),
              L(quad((20, 10), (6, -6), (14, -20)), 'mid', 'b', False, False, 2.6),

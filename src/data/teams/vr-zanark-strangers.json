@@ -5,10 +5,21 @@
  "name": "Zanark Outsiders",
  "short": "ZAN",
  "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#2a8a3a"
+  "shirt": "#4a4a52",
+  "shorts": "#45454c",
+  "sleeve": "#d2d2d8",
+  "longSleeve": true,
+  "accent": "#e8306e",
+  "collar": "#e8306e",
+  "num": "#e8306e",
+  "socks": "#3c3c44",
+  "gkShirt": "#8c1838",
+  "gkShorts": "#8c1838",
+  "gkSleeve": "#3a3a42",
+  "gkLongSleeve": true,
+  "gkLongPants": true,
+  "gkGloves": "#3a3a42",
+  "gkSocks": "#8c1838"
  },
  "formation": "freedom",
  "players": [

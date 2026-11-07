@@ -5,10 +5,20 @@
  "name": "Royal Academy (Victory Road)",
  "short": "SEN",
  "colors": {
-  "shirt": "#e86a1a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#e86a1a"
+  "shirt": "#1e4a36",
+  "shorts": "#18181c",
+  "gkShirt": "#e0781e",
+  "accent": "#b81e24",
+  "sleeve": "#1e4a36",
+  "socks": "#18181c",
+  "collar": "#b81e24",
+  "num": "#b81e24",
+  "stripe": "#b81e24",
+  "gkShorts": "#18181c",
+  "gkSleeve": "#2a1e1a",
+  "gkLongSleeve": true,
+  "gkGloves": "#8a4a2a",
+  "gkSocks": "#8a3e1e"
  },
  "formation": "f-4-3-3",
  "players": [

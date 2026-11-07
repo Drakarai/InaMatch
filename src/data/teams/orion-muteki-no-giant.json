@@ -5,10 +5,20 @@
  "name": "Gigantes Invencibles",
  "short": "MUT",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#f2f2f2"
+  "shirt": "#1e1e22",
+  "shorts": "#e8502a",
+  "gkShirt": "#4a2a26",
+  "accent": "#f2c41e",
+  "sleeve": "#1e1e22",
+  "socks": "#f2c41e",
+  "collar": "#1e1e22",
+  "num": "#f2c41e",
+  "stripe": "#f2c41e",
+  "gkShorts": "#f4f2f2",
+  "gkSleeve": "#4a2a26",
+  "gkLongSleeve": true,
+  "gkGloves": "#f4f4f4",
+  "gkSocks": "#5a5a60"
  },
  "formation": "f-3-5-2",
  "players": [

@@ -5,10 +5,21 @@
  "name": "Zanark Domain",
  "short": "ZAN",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#f2f2f2"
+  "shirt": "#1e1a22",
+  "shorts": "#1e1a22",
+  "gkShirt": "#1e2a8a",
+  "accent": "#e0b030",
+  "sleeve": "#c81e24",
+  "socks": "#c81e24",
+  "gkShorts": "#1e2a8a",
+  "gkSleeve": "#f0f0f0",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1e1e",
+  "gkSocks": "#f0f0f0",
+  "collar": "#e0b030",
+  "num": "#e0b030",
+  "stripe": "#e0b030"
  },
  "formation": "f-domain",
  "players": [

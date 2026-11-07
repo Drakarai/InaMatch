@@ -203,6 +203,10 @@ STYLE = {
     'Giru': ('#f2ecd8', '#f2ecd8', '#f2ecd8', '#c8a830', '#2a3a8a', '#1e3a34', '#f2ecd8', '#6a1e78', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'longPants': True, 'gkLongPants': True, 'pants': '#1e3a34', 'collar': '#c8a830', 'num': '#c8a830'}),
     # Ragnah: blusón verde lima con mangas verde oscuro, mallas verde oscuro; portero morado de manga larga
     'The Lagoon': ('#b8e04a', '#b8e04a', '#8a3aa8', '#1e3a34', '#1e3a34', '#1e3a34', '#8a3aa8', '#1e3a34', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'longPants': True, 'gkLongPants': True, 'pants': '#1e3a34', 'collar': '#f2f2f2', 'num': '#1e3a34'}),
+    # Zan: chaleco rojo oscuro con ribetes dorados sobre manga larga negra, pantalón largo negro; portero blanco lila con mangas y pantalón largos azul marino
+    'Zan': ('#9a1e24', '#1e1a1e', '#e8dcec', '#c8a040', '#1e1a1e', '#1e1a1e', '#1e3048', '#1e3048', {'longSleeve': True, 'longPants': True, 'gkLongSleeve': True, 'gkLongPants': True, 'gkGloves': '#2a5ac8', 'gkSocks': '#1e3048', 'collar': '#c8a040', 'num': '#c8a040'}),
+    # Zanark Domain: camiseta negra de manga larga roja con detalles dorados, pantalón negro y medias rojas; portero azul marino con mangas largas blancas
+    'Zanark Domain': ('#1e1a22', '#1e1a22', '#1e2a8a', '#e0b030', '#c81e24', '#c81e24', '#1e2a8a', '#f0f0f0', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e1e1e', 'gkSocks': '#f0f0f0', 'collar': '#e0b030', 'num': '#e0b030', 'stripe': '#e0b030'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

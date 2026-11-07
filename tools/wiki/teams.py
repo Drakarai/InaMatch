@@ -231,6 +231,10 @@ STYLE = {
     'Big Waves (GO)': ('#f6c84a', '#1e7a50', '#bcd84a', '#1e7a50', '#1e7a50', '#f0c040', '#1e2e44', '#bcd84a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#8a1e5a', 'collar': '#1e7a50'}),
     # Fire Dragon (GO): camiseta roja con cuello y puños blancos, pantalón beige y medias rojas; portero gris claro con mangas largas gris oscuro y pantalón azul
     'Fire Dragon (GO)': ('#e0281e', '#d8ccb8', '#c8c8cc', '#f0e8e0', '#e0281e', '#e0281e', '#1e48a8', '#585860', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#585860', 'collar': '#f0e8e0'}),
+    # Muay Tigers: camiseta amarilla de hombros y cuello rojos, pantalón y medias rojos; portero verde con mangas largas azul marino
+    'Mach Tiger': ('#f4c21e', '#e0401e', '#1e9a5a', '#e0401e', '#e0401e', '#e0401e', '#1e4a6a', '#1e4a6a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e4a6a', 'collar': '#e0401e', 'num': '#e0401e'}),
+    # Los Cimitarras: camiseta verde con cuello blanco, pantalón blanco y medias verdes; portero negro de manga larga con pantalón gris
+    'Shamshir': ('#2a8a3e', '#f4f2ee', '#1e2a22', '#f4f2ee', '#2a8a3e', '#2a8a3e', '#5a5a5e', '#1e2a22', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e2a22', 'collar': '#f4f2ee', 'num': '#f0c8d0', 'stripe': '#f4f2ee'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

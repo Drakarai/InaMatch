@@ -5,10 +5,20 @@
  "name": "Los Cimitarras",
  "short": "SHA",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#5a3a8a"
+  "shirt": "#2a8a3e",
+  "shorts": "#f4f2ee",
+  "gkShirt": "#1e2a22",
+  "accent": "#f4f2ee",
+  "sleeve": "#2a8a3e",
+  "socks": "#2a8a3e",
+  "gkShorts": "#5a5a5e",
+  "gkSleeve": "#1e2a22",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#1e2a22",
+  "collar": "#f4f2ee",
+  "num": "#f0c8d0",
+  "stripe": "#f4f2ee"
  },
  "formation": "f-sandstorm",
  "players": [

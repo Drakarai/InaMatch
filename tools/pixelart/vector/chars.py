@@ -679,6 +679,14 @@ import chars_sky  # noqa: E402,F401
 import chars_darkteam  # noqa: E402,F401
 import chars_go_raimon  # noqa: E402,F401
 
+# equipos de GO: cada uno en su módulo (si uno falla al cargar, se avisa y se siguen cargando los demás)
+import importlib as _il  # noqa: E402
+for _m in ['chars_go_akizora_challengers', 'chars_go_ancient_dark', 'chars_go_aoba_gakuen', 'chars_go_arakumo_gakuen', 'chars_go_demon_s_horn', 'chars_go_dragonlink', 'chars_go_eito_gakuen', 'chars_go_gassan_kunimitsu', 'chars_go_genei_gakuen', 'chars_go_hakuren_go', 'chars_go_henkaku_no_teikoku', 'chars_go_inazuma_kfc_go', 'chars_go_kaiou_gakuen', 'chars_go_kidokawa_seishuu_go', 'chars_go_kuro_no_kishidan', 'chars_go_mannouzaka', 'chars_go_northern_fang', 'chars_go_raimon_2gun', 'chars_go_seidouzan', 'chars_go_southern_claw', 'chars_go_tengawara', 'chars_go_unlimited_shining', 'chars_go_zero']:
+    try:
+        _il.import_module(_m)
+    except Exception as _e:  # noqa: BLE001
+        print(f"[chars] {_m}: {_e!r}")
+
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):
     """Cambia los pinchos de detrás (los de 'sol': todos iguales, en abanico y con brillo) por pelo revuelto irregular,

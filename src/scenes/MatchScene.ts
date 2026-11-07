@@ -1027,10 +1027,16 @@ export class MatchScene extends Phaser.Scene {
    * especial sobre el campo, hacia `toward` (el rival, la portería o el balón que llega).
    */
   private async playMoves(...entries: [MatchPlayer, Choice, Vec][]): Promise<void> {
-    for (const [p, c, toward] of entries) await this.showMove(p, c, toward);
+    for (const [p, c, toward] of entries) {
+      this.payMoves([p, c]);
+      await this.showMove(p, c, toward);
+    }
   }
 
-  /** Cobra los TP de las supertécnicas que han ganado su choque (las que pierden no gastan nada). */
+  /**
+   * Cobra los TP de unas supertécnicas. El tiro y el bloqueo de tiro pagan siempre al usarse; en los duelos y
+   * ante el portero solo paga la que gana (la que pierde no llega a hacerse).
+   */
   private payMoves(...entries: [MatchPlayer, Choice][]): void {
     for (const [p, c] of entries) if (c.type === 'move') p.tp = Math.max(0, p.tp - c.move.tp);
   }
@@ -1204,6 +1210,7 @@ export class MatchScene extends Phaser.Scene {
       power: [Math.round(f.power), blockPreview(blocker.fighter(), blocker.moves, blocker.tp, this.sideMul(blocker.side) * elementMultiplier(blocker.data.element, shooter.data.element))],
     });
     const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, 0.5);
+    this.payMoves([blocker, blockChoice]);
     const block = resolveBlock(f.power, shooter.fighter(), shotChoice, blocker.fighter(), blockChoice, rng, this.sideMul(blocker.side));
     // la supertécnica de bloqueo se ve siempre, aunque solo le quite potencia al tiro
     const blockShown = blockChoice.type === 'move';
@@ -1212,8 +1219,6 @@ export class MatchScene extends Phaser.Scene {
       this.hud.showClash(Math.round(f.power), block.blockPower, !block.blocked, shooter.side);
     }
     if (block.blocked) {
-      // el bloqueo gana: paga el defensa; el tiro, que no ha entrado, no gasta TP
-      this.payMoves([blocker, blockChoice]);
       this.breakMove(shooter, shotChoice, this.ball);
       this.floatText(blocker.x, blocker.y - 46, '¡Bloqueado!', '#ffffff');
       this.addTension(blocker.side, TENSION_GAIN.shotBlocked);
@@ -1245,8 +1250,8 @@ export class MatchScene extends Phaser.Scene {
     keeper.fp = Math.max(0, keeper.fp - SAVE_FP_COST);
     this.hud.showClash(result.shotPower, result.keeperPower, result.outcome === 'goal', shooter.side);
 
-    // paga solo quien gana: el tirador si es gol, el portero si lo para o lo despeja
-    this.payMoves(result.outcome === 'goal' ? [shooter, shotChoice] : [keeper, keepChoice]);
+    // el tiro ya se pagó al lanzarlo; el portero solo paga si lo para o lo despeja
+    if (result.outcome !== 'goal') this.payMoves([keeper, keepChoice]);
     if (result.outcome === 'goal') {
       if (keepShown) this.breakMove(keeper, keepChoice);
       await this.tweenBall({ x: target.x, y: goal.y + this.attackDir(shooter.side) * 22 }, 220, 4);

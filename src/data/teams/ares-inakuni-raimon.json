@@ -5,10 +5,20 @@
  "name": "Raimon Isla Remota",
  "short": "INA",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#f2f2f2"
+  "shirt": "#f2c432",
+  "shorts": "#1e8a8c",
+  "gkShirt": "#6a2a86",
+  "accent": "#1e8a8c",
+  "sleeve": "#1e8a8c",
+  "socks": "#1e8a8c",
+  "gkShorts": "#6a2a86",
+  "gkSleeve": "#9aa6e6",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#9aa6e6",
+  "collar": "#f2c432",
+  "num": "#1e8a8c",
+  "stripe": "#f2c432"
  },
  "formation": "hexa",
  "players": [

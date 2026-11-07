@@ -67,8 +67,8 @@ CHARS['burleigh-carpenter'] = {
     'body': 'corpulento', 'pal': pal('#2e2024', '#f2c49a', iris='#1e1414', shade='#1e1418'),
     'face': {'eyes': 'none', 'brows': False, 'mouth': 'line', 'mouth_y': 98, 'hairline': False, 'big_ears': 2,
              'face_front': outline([(14, 50), (50, 42), (86, 50), (88, 90), (78, 108), (50, 112), (22, 108), (12, 90)])},
-    'front': [L(outline([(16, 64), (14, 44), (-14, 46, 1), (8, 34), (-4, 28, 1), (14, 22), (24, 6), (30, -4, 1), (40, 4), (50, -6, 1), (58, 4), (70, -4, 1),
-                         (76, 6), (86, 22), (104, 28, 1), (92, 34), (114, 46, 1), (86, 44), (84, 64), (76, 50), (24, 50)])),
+    'front': [L(outline([(16, 64), (14, 48), (-16, 48, 1), (8, 38), (-6, 32, 1), (14, 28), (24, 16), (30, 4, 1), (40, 12), (50, 2, 1), (58, 12), (70, 4, 1),
+                         (76, 14), (86, 28), (106, 32, 1), (92, 38), (116, 48, 1), (86, 48), (84, 64), (76, 50), (24, 50)])),
               L(outline([(60, 4), (84, 16), (100, 32), (90, 40), (76, 30)]), 'shade', 'b', False),
               L(outline([(24, 64), (36, 60), (46, 64), (46, 70), (36, 72), (24, 70)]), WHITE, 'f', ln=True),
               L(outline([(54, 64), (64, 60), (76, 64), (76, 70), (64, 72), (54, 70)]), WHITE, 'f', ln=True),
@@ -154,8 +154,7 @@ CHARS['gaffer-mason'] = {
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 100, 'hairline': [(18, 62), (22, 44), (34, 38), (50, 40), (66, 38), (78, 44), (82, 62)],
              'big_ears': 3, 'ear_out': 4, 'nose': (50, 86, 4.4)},
     'front': [L(outline([(18, 64), (16, 30), (22, 4), (50, -4), (78, 4), (84, 30), (82, 64), (80, 46), (20, 46)])),
-              L(outline([(60, -2), (78, 6), (84, 34), (80, 58), (72, 38)]), 'shade', 'b', False),
-              L(quad((26, 96), (50, 110), (74, 96)), OUTC, 'f', False, False, 2.0)],
+              L(outline([(60, -2), (78, 6), (84, 34), (80, 58), (72, 38)]), 'shade', 'b', False)],
     'side': [L(outline([(56, 54), (62, 42), (86, 36), (96, 18), (90, -4), (60, -8), (28, -4), (10, 10), (6, 44), (10, 70), (24, 80), (38, 64)])),
              L(outline([(8, 36), (26, 40), (28, 74), (12, 70)]), 'shade', 'b', False),
              L(outline([(92, 78), (104, 82), (98, 92), (90, 88)]), 'nose', 'f', ln=True)],
@@ -227,7 +226,7 @@ CHARS['neville-merchant'] = {
 # picos como orejas de animal arriba y flequillo en pico; bufanda roja al cuello; ojos grandes y boca pequeña
 CHARS['eamond-everwing'] = {
     'body': 'bajito', 'pal': pal('#4a4a24', '#fcd8b8', iris='#6a2a3a', shade='#34341a', scarf='#c8483e', scarf_d='#9a3028'),
-    'face': {'eyes': 'big', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 100, 'hairline': False},
+    'face': {'eyes': 'big', 'brows': True, 'mouth': 'frown', 'mouth_y': 100, 'hairline': False},
     'front': [L(outline([(8, 104), (0, 70), (2, 30), (-4, 4, 1), (16, 14), (50, 4), (84, 14), (104, 4, 1), (98, 30), (100, 70), (92, 104), (80, 100), (84, 60),
                          (16, 60), (20, 100)])),
               L(outline([(60, 6), (86, 14), (98, 40), (96, 96), (84, 96), (82, 50)]), 'shade', 'b', False),
@@ -310,7 +309,7 @@ CHARS['everest-brightwell'] = {
 CHARS['kia-tanner'] = {
     'body': 'chica', 'pal': pal('#9a5a1e', '#fcdcc4', iris='#c8701e', shade='#6e3e14', light='#c48040', leaf='#5ab84a', leaf_d='#3a8a30', tape='#f0c870',
                                 blush='#f8a8a0'),
-    'face': {'eyes': 'big', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 100, 'hairline': False},
+    'face': {'eyes': 'big', 'brows': True, 'mouth': 'grin', 'mouth_y': 100, 'hairline': False},
     'front': [L(ell(10, -2, 14, 13), 'mid', 'b', ln=True), L(ell(90, -2, 14, 13), 'mid', 'b', ln=True),
               L(ell(10, -2, 6, 5), (255, 255, 255, 0), 'b', False), L(ell(90, -2, 6, 5), (255, 255, 255, 0), 'b', False),
               L(outline([(12, 70), (8, 36), (20, 12), (50, 2), (80, 12), (92, 36), (88, 70), (84, 60), (16, 60)])),

@@ -5,10 +5,19 @@
  "name": "Instituto Ribera",
  "short": "TON",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#8a1a3a"
+  "shirt": "#2aae2a",
+  "shorts": "#3a3440",
+  "gkShirt": "#f2a050",
+  "accent": "#3a3440",
+  "sleeve": "#f2ecec",
+  "socks": "#2aae2a",
+  "gkShorts": "#1e6a6a",
+  "gkSleeve": "#f2a050",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#f4f4f4",
+  "collar": "#3a3440",
+  "num": "#f2ecec"
  },
  "formation": "f-4-4-2",
  "players": [

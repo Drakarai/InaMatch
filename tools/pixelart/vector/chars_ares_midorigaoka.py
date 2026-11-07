@@ -228,8 +228,18 @@ CHARS['corin-cainver'] = {
 # ------------------------------------------------------------------ Merrick Seawell (Hanmi Youta)
 # Pelo gris beige recogido en un moño con forma de estrella de mar (cinco puntas que se abren por detrás y por arriba),
 # mechones en punta a los lados de la cara y flequillo partido; ojos negros y sonrisa de pillo
-_ms_star = [L(outline([(50, -22), (44, 4), (56, 4)])), L(outline([(14, 50), (-8, 44, 1), (16, 36)])), L(outline([(86, 50), (108, 44, 1), (84, 36)])),
-            L(outline([(16, 92), (-6, 100, 1), (18, 82)])), L(outline([(84, 92), (106, 100, 1), (82, 82)]))]
+def _petal(base, tip, w=9):
+    """Punta de la estrella de mar: un pétalo ancho y aplanado, con contorno."""
+    bx, by = base
+    tx, ty = tip
+    dx, dy = tx - bx, ty - by
+    n = (dx * dx + dy * dy) ** 0.5 or 1
+    px, py = -dy / n * w, dx / n * w
+    return L(outline([(bx + px, by + py), (bx + dx * 0.55 + px * 1.1, by + dy * 0.55 + py * 1.1), (tx, ty, 1), (bx + dx * 0.55 - px * 1.1, by + dy * 0.55 - py * 1.1),
+                      (bx - px, by - py)]), 'mid', 'b', ln=True)
+
+
+_ms_star = [_petal((50, 8), (50, -24), 7), _petal((22, 42), (-6, 40), 8), _petal((78, 42), (106, 40), 8), _petal((20, 86), (-4, 98), 8), _petal((80, 86), (104, 98), 8)]
 CHARS['merrick-seawell'] = {
     'body': 'normal', 'pal': pal('#c8bca0', '#fcd0a8', iris='#1e1414', shade='#a89478'),
     'face': {'eyes': 'normal', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 96, 'hairline': False},
@@ -239,14 +249,12 @@ CHARS['merrick-seawell'] = {
         fringe([(14, 64), (14, 34), (28, 14), (48, 8), (50, 22), (52, 8), (72, 14), (86, 34), (86, 64), (78, 46), (64, 34), (54, 42), (50, 32), (46, 42), (36, 34),
                 (22, 46)]),
         L(outline([(58, 10), (80, 18), (88, 40), (76, 36)]), 'shade', 'f', False)],
-    'side': [L(outline([(30, 12), (24, -18, 1), (40, 4)])), L(outline([(18, 30), (-10, 22, 1), (10, 46)])), L(outline([(16, 60), (-14, 70, 1), (14, 72)])),
+    'side': [_petal((32, 14), (26, -20), 8), _petal((18, 34), (-14, 22), 9), _petal((16, 62), (-16, 72), 9),
              L(outline([(54, 60), (58, 48), (80, 46), (92, 30), (86, 10), (66, -2), (40, 0), (18, 12), (8, 40), (6, 70), (12, 92), (28, 96), (40, 80)])),
              L(outline([(8, 40), (28, 46), (30, 80), (12, 80)]), 'shade', 'b', False), fringe([(64, 2), (88, 16), (94, 40), (90, 58, 1), (82, 44), (74, 34)])],
-    'back': [L(outline([(16, 96), (8, 60), (12, 24), (26, 6), (50, 0), (74, 6), (88, 24), (92, 60), (84, 96), (50, 104)])),
-             L(outline([(50, 34), (46, -20, 1), (54, 34)])), L(outline([(50, 34), (6, 20, 1), (50, 40)])), L(outline([(50, 34), (94, 20, 1), (50, 40)])),
-             L(outline([(50, 36), (2, 52, 1), (48, 44)])), L(outline([(50, 36), (98, 52, 1), (52, 44)])),
-             L(outline([(16, 92), (-6, 100, 1), (18, 82)])), L(outline([(84, 92), (106, 100, 1), (82, 82)])),
-             L(outline([(56, 6), (86, 18), (92, 60), (84, 90), (62, 96)]), 'shade', 'b', False)],
+    'back': [L(outline([(16, 96), (8, 60), (12, 24), (26, 6), (50, 0), (74, 6), (88, 24), (92, 60), (84, 96), (50, 104)]), 'shade'),
+             _petal((50, 40), (50, -22), 9), _petal((44, 36), (-4, 18), 9), _petal((56, 36), (104, 18), 9), _petal((44, 44), (0, 60), 9), _petal((56, 44), (100, 60), 9),
+             _petal((22, 88), (-4, 98), 7), _petal((78, 88), (104, 98), 7)],
 }
 
 # ------------------------------------------------------------------ Griffit Valiance (Ikkaku Ooji)

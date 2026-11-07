@@ -5,10 +5,19 @@
  "name": "Instituto Colina Verde",
  "short": "MID",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#1a1a1a"
+  "shirt": "#2e8a34",
+  "shorts": "#f08a1e",
+  "gkShirt": "#a8a8ac",
+  "accent": "#f4f4f4",
+  "sleeve": "#2e8a34",
+  "socks": "#2e8a34",
+  "gkShorts": "#f0c040",
+  "gkSleeve": "#f4f0f0",
+  "gkLongSleeve": true,
+  "gkGloves": "#3a3a3e",
+  "gkSocks": "#f0c040",
+  "collar": "#f08a1e",
+  "num": "#f4f4f4"
  },
  "formation": "diamond",
  "players": [

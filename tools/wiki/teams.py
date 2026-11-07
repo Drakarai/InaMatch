@@ -195,6 +195,10 @@ STYLE = {
     'Perfect Cascade': ('#f2f2f2', '#2a2a2e', '#7ac81e', '#3a3a40', '#f2f2f2', '#c8c8cc', '#2a2a2e', '#7ac81e', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'num': '#2a5ab0'}),
     # Shiroshika-gumi: kimono blanco con ribetes morados y amarillos, mallas negras; portero de kimono azul marino con mangas grises
     'Shiroshika Gumi': ('#f4f2ee', '#f4f2ee', '#2a3070', '#5a2a8a', '#f4f2ee', '#1e1e22', '#2a3070', '#8a8a90', {'gkLongSleeve': True, 'gkGloves': '#2a2a2e', 'collar': '#5a2a8a', 'stripe': '#e8c840', 'num': '#5a2a8a'}),
+    # Aullido Lunar: chaleco rojo sobre camiseta negra, pantalón rojo y medias negras; portero negro con mangas largas grises
+    'Tsukigami no Ichizoku': ('#d42a2a', '#c82626', '#1e1e22', '#a8a8b0', '#1e1e22', '#1e1e22', '#1e1e22', '#6a6878', {'gkLongSleeve': True, 'gkGloves': '#c81e1e', 'gkSocks': '#6a6878', 'collar': '#1e1e22'}),
+    # Nosfanáticos: casaca negra con detalles rojos y mangas largas azul marino, pantalón largo azul marino; portero con bata blanca
+    'Vamptym': ('#1e1e24', '#1e1e24', '#e8e4e0', '#c81e2a', '#26304e', '#1e1e24', '#e8e4e0', '#e8e4e0', {'longSleeve': True, 'longPants': True, 'pants': '#26304e', 'gkLongSleeve': True, 'gkGloves': '#3a3a44', 'gkSocks': '#1e1e24', 'collar': '#c81e2a'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

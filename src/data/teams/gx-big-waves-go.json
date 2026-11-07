@@ -5,10 +5,18 @@
  "name": "Big Waves (GO)",
  "short": "BWG",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#f2f2f2"
+  "shirt": "#f6c84a",
+  "shorts": "#1e7a50",
+  "gkShirt": "#bcd84a",
+  "accent": "#1e7a50",
+  "sleeve": "#1e7a50",
+  "socks": "#f0c040",
+  "gkShorts": "#1e2e44",
+  "gkSleeve": "#bcd84a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#8a1e5a",
+  "collar": "#1e7a50"
  },
  "formation": "f-ocean-dive",
  "players": [

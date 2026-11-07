@@ -5,10 +5,18 @@
  "name": "Dragones de Fuego (GO)",
  "short": "FDG",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#c87aa8"
+  "shirt": "#e0281e",
+  "shorts": "#d8ccb8",
+  "gkShirt": "#c8c8cc",
+  "accent": "#f0e8e0",
+  "sleeve": "#e0281e",
+  "socks": "#e0281e",
+  "gkShorts": "#1e48a8",
+  "gkSleeve": "#585860",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#585860",
+  "collar": "#f0e8e0"
  },
  "formation": "f-burning-soul",
  "players": [

@@ -225,6 +225,12 @@ STYLE = {
     'Garu': ('#c8281e', '#1e2a28', '#3a8ac8', '#f4f4f4', '#f4f4f4', '#f0f0f0', '#1e2a28', '#1e2a28', {'gkLongSleeve': True, 'gkGloves': '#2a5ac0', 'collar': '#f4f4f4', 'stripe': '#f4f4f4'}),
     # Inazuma Legend Japan: camiseta azul con hombros y mangas blancos y cuello rojo, pantalón blanco y medias gris oscuro; portero negro con mangas largas blancas
     'Inazuma Legend Japan': ('#1e4ec0', '#f4f2ee', '#2a2a2e', '#1e4ec0', '#f4f4f4', '#2e3438', '#2a2a2e', '#f2f2f2', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#2a2a2e', 'collar': '#d02a2a', 'stripe': '#1e4ec0', 'num': '#f4f4f4'}),
+    # Earth Eleven: camiseta azul con mangas y cuello blancos, pantalón y medias azules; portero verde de manga larga
+    'Earth Eleven': ('#2a46b0', '#2a46b0', '#2a9a3e', '#f4f4f4', '#f4f4f4', '#2a46b0', '#2a9a3e', '#2a9a3e', {'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'gkSocks': '#2a9a3e', 'num': '#f4f4f4'}),
+    # Big Waves (GO): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; portero verde lima de manga larga con pantalón azul marino
+    'Big Waves (GO)': ('#f6c84a', '#1e7a50', '#bcd84a', '#1e7a50', '#1e7a50', '#f0c040', '#1e2e44', '#bcd84a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#8a1e5a', 'collar': '#1e7a50'}),
+    # Fire Dragon (GO): camiseta roja con cuello y puños blancos, pantalón beige y medias rojas; portero gris claro con mangas largas gris oscuro y pantalón azul
+    'Fire Dragon (GO)': ('#e0281e', '#d8ccb8', '#c8c8cc', '#f0e8e0', '#e0281e', '#e0281e', '#1e48a8', '#585860', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#585860', 'collar': '#f0e8e0'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

@@ -5,10 +5,18 @@
  "name": "Earth Eleven",
  "short": "EAR",
  "colors": {
-  "shirt": "#3a8ac0",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#3a8ac0"
+  "shirt": "#2a46b0",
+  "shorts": "#2a46b0",
+  "gkShirt": "#2a9a3e",
+  "accent": "#f4f4f4",
+  "sleeve": "#f4f4f4",
+  "socks": "#2a46b0",
+  "gkShorts": "#2a9a3e",
+  "gkSleeve": "#2a9a3e",
+  "gkLongSleeve": true,
+  "gkGloves": "#f4f4f4",
+  "gkSocks": "#2a9a3e",
+  "num": "#f4f4f4"
  },
  "formation": "f-lightning",
  "players": [

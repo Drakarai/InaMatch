@@ -5,10 +5,19 @@
  "name": "Instituto Universal",
  "short": "ARA",
  "colors": {
-  "shirt": "#4a6a2a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#4a6a2a"
+  "shirt": "#3a5ab0",
+  "shorts": "#6e6e6e",
+  "gkShirt": "#7a1a1e",
+  "accent": "#7a7a7a",
+  "sleeve": "#3a5ab0",
+  "socks": "#3a5ab0",
+  "gkShorts": "#4a4a50",
+  "gkSleeve": "#7a1a1e",
+  "stripe": "#f2c41e",
+  "num": "#f2c41e",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#7a1a1e"
  },
  "formation": "f-neo-cloud",
  "players": [

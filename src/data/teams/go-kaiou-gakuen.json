@@ -14,7 +14,8 @@
   "gkShorts": "#f2ead6",
   "gkSleeve": "#f2ead6",
   "gkLongSleeve": true,
-  "gkGloves": "#2a5ac0"
+  "gkGloves": "#2a5ac0",
+  "gkSocks": "#1e1e22"
  },
  "formation": "f-marine-snow",
  "players": [

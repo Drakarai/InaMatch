@@ -15,7 +15,8 @@
   "gkSleeve": "#1e3c5c",
   "gkLongSleeve": true,
   "gkGloves": "#f0f0f0",
-  "stripe": "#eef0f2"
+  "stripe": "#eef0f2",
+  "gkSocks": "#2a8a3a"
  },
  "formation": "f-basic",
  "players": [

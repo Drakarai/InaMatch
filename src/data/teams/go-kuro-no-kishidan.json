@@ -15,7 +15,8 @@
   "gkSleeve": "#f0e8dc",
   "gkLongSleeve": true,
   "gkGloves": "#2a9a9a",
-  "stripe": "#2a2a2e"
+  "stripe": "#2a2a2e",
+  "gkSocks": "#8a1a2a"
  },
  "formation": "f-dark-knights",
  "players": [

@@ -15,7 +15,8 @@
   "gkSleeve": "#2a4aa8",
   "collar": "#4a4a4a",
   "gkLongSleeve": true,
-  "gkGloves": "#7a7a7a"
+  "gkGloves": "#7a7a7a",
+  "gkSocks": "#2a4aa8"
  },
  "formation": "f-kid-s-heart",
  "players": [

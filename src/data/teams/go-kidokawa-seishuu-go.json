@@ -14,7 +14,8 @@
   "gkShorts": "#4a5a5a",
   "gkSleeve": "#a8c878",
   "gkLongSleeve": true,
-  "gkGloves": "#f0f0f0"
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#a8c878"
  },
  "formation": "f-taiga-strike",
  "players": [

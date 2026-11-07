@@ -157,6 +157,30 @@ STYLE = {
     'Zero': ('#f6d070', '#f4f0e4', '#1e2228', '#1e3c6a', '#f4f0e4', '#f0c860', '#2ab0b8', '#1e2228', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
     # Unlimited Shining: la equipación del Zero
     'Unlimited Shining': ('#f6d070', '#f4f0e4', '#1e2228', '#1e3c6a', '#f4f0e4', '#f0c860', '#2ab0b8', '#1e2228', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
+    # Edad Dorada: camiseta verde azulado con cuello y puños lima, pantalón lima; portero gris de manga larga con pantalón rosa
+    'Akizora Challengers': ('#1aa88e', '#a8ec6a', '#d4d4d8', '#a8ec6a', '#1aa88e', '#1aa88e', '#f07a8a', '#d4d4d8', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#7a1a1e'}),
+    # Ultramegahiedra: camiseta azul con rayas azul marino y mangas negras, pantalón blanco; portero blanco de manga larga con pantalón y guantes negros
+    'Aoba Gakuen': ('#2a50c0', '#e8eef0', '#f0f0f0', '#1e2230', '#1e2230', '#2a50c0', '#1e2230', '#f0f0f0', {'vstripes': '#1a2a6a', 'num': '#e8e8f0', 'gkLongSleeve': True, 'gkGloves': '#1e2230', 'gkSocks': '#f0f0f0'}),
+    # Arakumo: camiseta azul con cuello gris y dorsal amarillo, pantalón gris; portero granate de manga larga
+    'Arakumo Gakuen': ('#3a5ab0', '#6e6e6e', '#7a1a1e', '#7a7a7a', '#3a5ab0', '#3a5ab0', '#4a4a50', '#7a1a1e', {'stripe': '#f2c41e', 'num': '#f2c41e', 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#7a1a1e'}),
+    # Caballeros Templarios: camiseta y pantalón negros con cuello y dorsal amarillos, medias amarillas; portero blanco de manga larga con pantalón granate y guantes turquesa
+    'Kuro no Kishidan': ('#2a2a2e', '#2a2a2e', '#f0e8dc', '#f2d020', '#2a2a2e', '#f2d020', '#8a1a2a', '#f0e8dc', {'gkLongSleeve': True, 'gkGloves': '#2a9a9a', 'stripe': '#2a2a2e', 'gkSocks': '#8a1a2a'}),
+    # Poderosa Fe: camiseta y pantalón azul marino con detalles rojos, medias rojas; portero gris oscuro de manga larga con guantes lima
+    'Mannouzaka': ('#2a3478', '#2a3478', '#3a4048', '#b81e2a', '#2a3478', '#b81e2a', '#3a4048', '#3a4048', {'gkLongSleeve': True, 'gkGloves': '#8ad040', 'stripe': '#2a3478', 'gkSocks': '#3a4048'}),
+    # Raimon 2.º equipo: camiseta blanca con cuello azul, pantalón amarillo, medias blancas; portero verde con mangas azul marino
+    'Raimon 2gun': ('#eef0f2', '#f2b830', '#2a8a3a', '#2456b8', '#eef0f2', '#eef0f2', '#2a8a3a', '#1e3c5c', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'stripe': '#eef0f2', 'gkSocks': '#2a8a3a'}),
+    # Inazuma KFC (GO): camiseta roja con detalles amarillos, pantalón gris pardo y medias rojas; portero azul de manga larga con pantalón negro
+    'Inazuma KFC (GO)': ('#d82a24', '#5c5852', '#2a4aa8', '#f2c230', '#d82a24', '#d82a24', '#1e1e1e', '#2a4aa8', {'collar': '#4a4a4a', 'gkLongSleeve': True, 'gkGloves': '#7a7a7a', 'gkSocks': '#2a4aa8'}),
+    # Cala Pirata: camiseta crema con detalles rojos, pantalón azul marino y medias crema; portero negro con mangas largas crema
+    'Kaiou Gakuen': ('#f2ead6', '#1e2e5a', '#1e1e22', '#b81e24', '#f2ead6', '#f2ead6', '#f2ead6', '#f2ead6', {'gkLongSleeve': True, 'gkGloves': '#2a5ac0', 'gkSocks': '#1e1e22'}),
+    # Kirkwood (GO): camiseta roja con cuello negro, pantalón blanco roto y medias rojas; portero verde claro de manga larga con pantalón gris verdoso
+    'Kidokawa Seishuu (GO)': ('#c8101e', '#ece4dc', '#a8c878', '#2a2a2e', '#c8101e', '#c8101e', '#4a5a5a', '#a8c878', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#a8c878'}),
+    # Dragon Link: camiseta morado oscuro con mangas blancas, pantalón y medias blancos; portero turquesa de manga larga con pantalón azul petróleo y medias negras
+    'Dragonlink': ('#3c3658', '#f0ece0', '#38c0b4', '#8a80c8', '#f0ece0', '#f0ece0', '#1e7494', '#38c0b4', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e1e22'}),
+    # Eito: camiseta turquesa con cuello azul marino, pantalón azul marino y medias blancas; portero de rojo
+    'Eito Gakuen': ('#26b6c6', '#28348e', '#d01e22', '#28348e', '#26b6c6', '#f0f0f0', '#28348e', '#d01e22', {'gkGloves': '#f0f0f0'}),
+    # Mar de Luna: uniforme azul marino con rayas verticales doradas, medias blancas; portero rojo de manga larga con pantalón verde muy oscuro
+    'Gassan Kunimitsu': ('#2a3c4c', '#2a3c4c', '#c81e1e', '#c8b878', '#2a3c4c', '#f0f0f0', '#1e2a20', '#c81e1e', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'vstripes': '#c8b878'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

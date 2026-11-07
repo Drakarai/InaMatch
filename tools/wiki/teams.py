@@ -239,6 +239,14 @@ STYLE = {
     'Storm Wolf': ('#f4f2f2', '#f4f2f2', '#f2c41e', '#1e1e22', '#f4f2f2', '#f4f2f2', '#f2c41e', '#f2c41e', {'gkLongSleeve': True, 'gkGloves': '#7a7a80', 'gkSocks': '#f2c41e', 'collar': '#6a6a70', 'num': '#1e1e22', 'stripe': '#1e1e22'}),
     # Inside Silver: camiseta blanca con cuello celeste, pantalón y medias celestes; el portero igual
     'Inside Silver': ('#f6f2f4', '#8ee0ee', '#f6f2f4', '#8ee0ee', '#f6f2f4', '#8ee0ee', '#8ee0ee', '#f6f2f4', {'gkGloves': '#a8acb4', 'collar': '#8ee0ee', 'num': '#3a7ab8'}),
+    # Magmavís: mono de piloto marrón claro de manga y pantalón largos con brazos grises; portero con mono verde grisáceo
+    'Gurdon Eleven': ('#a88a6a', '#a88a6a', '#5e6e62', '#5a3a2a', '#9a9ca4', '#5a3a2a', '#5e6e62', '#9a9ca4', {'longSleeve': True, 'longPants': True, 'gkLongSleeve': True, 'gkLongPants': True, 'gkGloves': '#4a2e1e', 'gkSocks': '#5a3a2a', 'collar': '#5a3a2a', 'num': '#e8c8c0'}),
+    # Naiadi: chaqueta azul marino con ribetes blancos, brazos y medias grises; portero morado de manga larga
+    'Sazanaara Eleven': ('#1e3a7a', '#1e3a7a', '#5a1e7a', '#4ab8e0', '#a8acb8', '#a8acb8', '#5a1e7a', '#5a1e7a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#9ad8e0', 'gkSocks': '#a8acb8', 'collar': '#f2f2f2', 'num': '#f2f2f2'}),
+    # Big Bang: coraza gris verdosa con mangas largas rosadas y bufanda roja, faldón blanco y mallas grises; portero con coraza azul pizarra
+    'Big Bang': ('#b4b6a0', '#f2ece6', '#4e5a68', '#c0201e', '#e6bcb4', '#3c3c44', '#f2ece6', '#e6bcb4', {'gkSocks': '#3c3c44', 'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'pants': '#3c3c44', 'collar': '#c0201e', 'num': '#3a3a40', 'gkGloves': '#f0f0f0'}),
+    # Supernova: mono azul marino con mangas largas negras y cuello blanco; portero gris con mangas negras
+    'Supernova': ('#2c3488', '#2c3488', '#6a6a72', '#d8a830', '#1e1e26', '#2c3488', '#56565e', '#1e1e26', {'gkSocks': '#56565e', 'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'collar': '#f0eef4', 'num': '#f0eef4', 'stripe': '#d8a830', 'gkGloves': '#f0f0f0'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

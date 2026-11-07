@@ -5,10 +5,18 @@
  "name": "Gar",
  "short": "GAR",
  "colors": {
-  "shirt": "#4a6a2a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#4a6a2a"
+  "shirt": "#c8281e",
+  "shorts": "#1e2a28",
+  "gkShirt": "#3a8ac8",
+  "accent": "#f4f4f4",
+  "sleeve": "#f4f4f4",
+  "socks": "#f0f0f0",
+  "gkShorts": "#1e2a28",
+  "gkSleeve": "#1e2a28",
+  "gkLongSleeve": true,
+  "gkGloves": "#2a5ac0",
+  "collar": "#f4f4f4",
+  "stripe": "#f4f4f4"
  },
  "formation": "f-garu",
  "players": [

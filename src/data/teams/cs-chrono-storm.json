@@ -5,10 +5,17 @@
  "name": "Chrono Storm",
  "short": "CHR",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#1a1a1a"
+  "shirt": "#f4b62a",
+  "shorts": "#2456b8",
+  "accent": "#2456b8",
+  "sleeve": "#f4b62a",
+  "socks": "#2456b8",
+  "gkShirt": "#1e1e22",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#f4f4f4",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#f2b62a"
  },
  "formation": "f-shining",
  "players": [

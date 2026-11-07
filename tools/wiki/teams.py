@@ -215,6 +215,16 @@ STYLE = {
     'Protocol Omega 3.0': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
     # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
     'El Dorado Team 02': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
+    # Chrono Storm: la equipación amarilla y azul del Raimon; portero negro con mangas largas blancas
+    'Chrono Storm': ('#f4b62a', '#2456b8', '#1e1e22', '#2456b8', '#f4b62a', '#2456b8', '#1e1e22', '#f4f4f4', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#f2b62a'}),
+    # Raimon (Chrono Stone): la equipación amarilla y azul; portero negro con mangas largas blancas
+    'Team Raimon': ('#f4b62a', '#2456b8', '#1e1e22', '#2456b8', '#f4b62a', '#2456b8', '#1e1e22', '#f4f4f4', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#f2b62a'}),
+    # Los Arions: camiseta roja de mangas blancas, pantalón blanco y medias rojas; portero naranja de manga larga
+    'Tenmas': ('#e0262a', '#f4f4f4', '#f0a030', '#f4f4f4', '#f4f4f4', '#e0262a', '#2a7a6a', '#f0a030', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e1e22', 'collar': '#f4f4f4'}),
+    # Gar: chaleco rojo sobre camiseta blanca, pantalón negro y medias blancas; portero con chaleco azul y manga larga negra
+    'Garu': ('#c8281e', '#1e2a28', '#3a8ac8', '#f4f4f4', '#f4f4f4', '#f0f0f0', '#1e2a28', '#1e2a28', {'gkLongSleeve': True, 'gkGloves': '#2a5ac0', 'collar': '#f4f4f4', 'stripe': '#f4f4f4'}),
+    # Inazuma Legend Japan: camiseta azul con mangas blancas y cuello rojo, pantalón blanco y medias azul marino; portero naranja de manga larga
+    'Inazuma Legend Japan': ('#1e4ec0', '#f4f2ee', '#f0a030', '#1e4ec0', '#f4f4f4', '#1e2a3a', '#2a7a6a', '#f0a030', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e1e22', 'collar': '#d02a2a', 'stripe': '#1e4ec0', 'num': '#f4f4f4'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

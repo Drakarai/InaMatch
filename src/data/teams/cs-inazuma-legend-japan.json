@@ -17,7 +17,8 @@
   "gkGloves": "#f0f0f0",
   "gkSocks": "#1e1e22",
   "collar": "#d02a2a",
-  "stripe": "#1e4ec0"
+  "stripe": "#1e4ec0",
+  "num": "#f4f4f4"
  },
  "formation": "f-raimon",
  "players": [

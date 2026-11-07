@@ -5,10 +5,18 @@
  "name": "Los Arions",
  "short": "TEN",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#e0262a",
+  "shorts": "#f4f4f4",
+  "gkShirt": "#f0a030",
+  "accent": "#f4f4f4",
+  "sleeve": "#f4f4f4",
+  "socks": "#e0262a",
+  "gkShorts": "#2a7a6a",
+  "gkSleeve": "#f0a030",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#1e1e22",
+  "collar": "#f4f4f4"
  },
  "formation": "f-raimon",
  "players": [

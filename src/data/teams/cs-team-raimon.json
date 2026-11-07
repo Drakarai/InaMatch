@@ -5,10 +5,17 @@
  "name": "Instituto Raimon (Chrono Stones)",
  "short": "TEA",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#5a3a8a"
+  "shirt": "#f4b62a",
+  "shorts": "#2456b8",
+  "accent": "#2456b8",
+  "sleeve": "#f4b62a",
+  "socks": "#2456b8",
+  "gkShirt": "#1e1e22",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#f4f4f4",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#f2b62a"
  },
  "formation": "f-raimon",
  "players": [

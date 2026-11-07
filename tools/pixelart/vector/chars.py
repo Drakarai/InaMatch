@@ -703,13 +703,25 @@ import chars_go_tengawara  # noqa: E402,F401
 import chars_go_unlimited_shining  # noqa: E402,F401
 import chars_go_zero  # noqa: E402,F401
 
-# equipos de Chrono Stone (en curso: si uno falla al cargar, se avisa y se siguen cargando los demás)
-import importlib as _il  # noqa: E402
-for _m in ['chars_cs_chrono_storm', 'chars_cs_destructchers', 'chars_cs_el_dorado_team_02', 'chars_cs_garu', 'chars_cs_giru', 'chars_cs_karakuri_bingmayong', 'chars_cs_perfect_cascade', 'chars_cs_protocol_omega_2_0', 'chars_cs_protocol_omega_3_0', 'chars_cs_protocol_omega', 'chars_cs_shiroshika_gumi', 'chars_cs_team_raimon', 'chars_cs_tenmas', 'chars_cs_the_lagoon', 'chars_cs_tsukigami_no_ichizoku', 'chars_cs_vamptym', 'chars_cs_zan', 'chars_cs_zanark_domain', 'chars_cs_inazuma_legend_japan']:
-    try:
-        _il.import_module(_m)
-    except Exception as _e:  # noqa: BLE001
-        print(f"[chars] {_m}: {_e!r}")
+import chars_cs_chrono_storm  # noqa: E402,F401
+import chars_cs_destructchers  # noqa: E402,F401
+import chars_cs_el_dorado_team_02  # noqa: E402,F401
+import chars_cs_garu  # noqa: E402,F401
+import chars_cs_giru  # noqa: E402,F401
+import chars_cs_karakuri_bingmayong  # noqa: E402,F401
+import chars_cs_perfect_cascade  # noqa: E402,F401
+import chars_cs_protocol_omega_2_0  # noqa: E402,F401
+import chars_cs_protocol_omega_3_0  # noqa: E402,F401
+import chars_cs_protocol_omega  # noqa: E402,F401
+import chars_cs_shiroshika_gumi  # noqa: E402,F401
+import chars_cs_team_raimon  # noqa: E402,F401
+import chars_cs_tenmas  # noqa: E402,F401
+import chars_cs_the_lagoon  # noqa: E402,F401
+import chars_cs_tsukigami_no_ichizoku  # noqa: E402,F401
+import chars_cs_vamptym  # noqa: E402,F401
+import chars_cs_zan  # noqa: E402,F401
+import chars_cs_zanark_domain  # noqa: E402,F401
+import chars_cs_inazuma_legend_japan  # noqa: E402,F401
 
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):

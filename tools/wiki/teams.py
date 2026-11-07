@@ -139,8 +139,18 @@ STYLE = {
     # Pruebas de selección: el equipo B con la camiseta crema de cuello rojo, pantalón azul y medias crema
     'Nippon Daihyou Kouho B': ('#e8dccc', '#1e5ab8', '#e8892b', '#1e5ab8', '#e8dccc', '#e8dccc', None, None,
                                {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#1e5ab8'}),
-    # Raimon (GO): camiseta amarilla con cuello y puños azules, pantalón y medias azules; portero de azul marino con mangas naranjas
-    'Shinsei Raimon': ('#f4b62a', '#2456b8', '#1e3c5c', '#2456b8', '#f4b62a', '#2456b8', '#1e3c5c', '#e8782a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
+    # Raimon (GO): camiseta amarilla con cuello y puños azules, pantalón y medias azules; portero de azul marino con mangas y medias naranjas
+    'Shinsei Raimon': ('#f4b62a', '#2456b8', '#1e3c5c', '#2456b8', '#f4b62a', '#2456b8', '#1e3c5c', '#e8782a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#e8782a'}),
+    # Monte Olimpo: camiseta naranja con cuello oscuro, pantalón gris oscuro y medias grises; portero verde azulado de manga larga con pantalón azul marino
+    'Seidouzan': ('#f4901e', '#5a5650', '#1e9a9a', '#4a4440', '#f4901e', '#a8a8a8', '#24304a', '#1e9a9a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e9a9a'}),
+    # Vía Láctea: camiseta blanca de mangas y cuello negros, pantalón negro y medias rojas; portero negro de manga larga con pantalón verde azulado y medias naranjas
+    'Tengawara': ('#f4f2ee', '#1e1e22', '#1e2a28', '#1e1e22', '#1e1e22', '#c81e24', '#2a9a8a', '#2a9a8a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'num': '#c81e24', 'stripe': '#1e1e22', 'gkSocks': '#e8782a'}),
+    # Cuerno Demoníaco: camiseta y pantalón verde oscuro con la V roja, medias verdes; portero naranja dorado con mangas largas azules
+    "Demon's Horn": ('#1e4a2e', '#1e4a2e', '#e8a022', '#d02424', '#1e4a2e', '#2a9a3e', '#e8a022', '#2a4a82', {'gkLongSleeve': True, 'gkGloves': '#e8c040', 'collar': '#d02424', 'num': '#d02424', 'stripe': '#2a9a3e'}),
+    # Garras del Sur: camiseta naranja arriba y gris abajo en dientes de sierra, pantalón y medias grises; portero teja con mangas largas grises
+    'Southern Claw': ('#f07a1a', '#8c8a8e', '#c8501e', '#1a1a1a', '#f07a1a', '#8c8a8e', '#c8501e', '#b8b8bc', {'gkLongSleeve': True, 'gkGloves': '#c8501e', 'zig': '#8c8a8e', 'collar': '#1a1a1a', 'num': '#1a1a1a'}),
+    # Colmillos del Norte: camiseta blanca con mangas celestes, pantalón blanco, medias celestes; portero blanco de manga larga con pantalón azul
+    'Northern Fang': ('#f4f2ee', '#f4f2ee', '#f4f2ee', '#a88a2a', '#7ad8e8', '#7ad8e8', '#2a6ac0', '#f4f2ee', {'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'collar': '#7ad8e8', 'num': '#2a8ab0', 'stripe': '#a88a2a'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

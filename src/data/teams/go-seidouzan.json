@@ -5,10 +5,17 @@
  "name": "Colegio Monte Olimpo",
  "short": "SEI",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#5a3a8a"
+  "shirt": "#f4901e",
+  "shorts": "#5a5650",
+  "gkShirt": "#1e9a9a",
+  "accent": "#4a4440",
+  "sleeve": "#f4901e",
+  "socks": "#a8a8a8",
+  "gkShorts": "#24304a",
+  "gkSleeve": "#1e9a9a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#1e9a9a"
  },
  "formation": "f-sacred",
  "players": [

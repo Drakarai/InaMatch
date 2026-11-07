@@ -5,10 +5,19 @@
  "name": "Colegio Concertado Vía Láctea",
  "short": "TEN",
  "colors": {
-  "shirt": "#2a5fc0",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#2a5fc0"
+  "shirt": "#f4f2ee",
+  "shorts": "#1e1e22",
+  "gkShirt": "#1e2a28",
+  "accent": "#1e1e22",
+  "sleeve": "#1e1e22",
+  "socks": "#c81e24",
+  "gkShorts": "#2a9a8a",
+  "gkSleeve": "#2a9a8a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "num": "#c81e24",
+  "stripe": "#1e1e22",
+  "gkSocks": "#e8782a"
  },
  "formation": "f-milky-way",
  "players": [

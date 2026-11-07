@@ -5,10 +5,19 @@
  "name": "Cuerno Demoníaco",
  "short": "DSH",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#1a1a1a"
+  "shirt": "#1e4a2e",
+  "shorts": "#1e4a2e",
+  "gkShirt": "#e8a022",
+  "accent": "#d02424",
+  "sleeve": "#1e4a2e",
+  "socks": "#2a9a3e",
+  "gkShorts": "#e8a022",
+  "gkSleeve": "#2a4a82",
+  "gkLongSleeve": true,
+  "gkGloves": "#e8c040",
+  "collar": "#d02424",
+  "num": "#d02424",
+  "stripe": "#2a9a3e"
  },
  "formation": "f-basic",
  "players": [

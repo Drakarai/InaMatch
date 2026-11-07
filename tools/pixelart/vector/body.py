@@ -378,6 +378,9 @@ def kit_for(colors, gk=False):
     if colors.get('socks'):
         k['sock'] = hexc(colors['socks'])
         k['sock_d'] = tone(k['sock'], 0.78)
+    if gk and colors.get('gkSocks'):  # medias del portero, si no son las del equipo
+        k['sock'] = hexc(colors['gkSocks'])
+        k['sock_d'] = tone(k['sock'], 0.78)
     if colors.get('sleeve'):  # mangas del color de la camiseta: cuello y dorsal con el color de los detalles
         k['collar'] = k['num'] = hexc(colors['accent'])
     if gk:

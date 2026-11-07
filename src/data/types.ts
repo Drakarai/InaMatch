@@ -64,6 +64,8 @@ export interface TeamData {
     /** Pantalón largo (bombachos) para los de campo y para el portero, y su color si no es el del pantalón. */
     longPants?: boolean;
     gkLongPants?: boolean;
+    /** Medias del portero, si no son las del equipo. */
+    gkSocks?: string;
     pants?: string;
     /** Rayas verticales y parte de abajo en dientes de sierra de otro color (sprites dibujados). */
     vstripes?: string;

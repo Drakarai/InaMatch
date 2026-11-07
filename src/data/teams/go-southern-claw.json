@@ -5,10 +5,19 @@
  "name": "Garras del Sur",
  "short": "SOU",
  "colors": {
-  "shirt": "#4a6a2a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#4a6a2a"
+  "shirt": "#f07a1a",
+  "shorts": "#8c8a8e",
+  "gkShirt": "#c8501e",
+  "accent": "#1a1a1a",
+  "sleeve": "#f07a1a",
+  "socks": "#8c8a8e",
+  "gkShorts": "#c8501e",
+  "gkSleeve": "#b8b8bc",
+  "gkLongSleeve": true,
+  "gkGloves": "#c8501e",
+  "zig": "#8c8a8e",
+  "collar": "#1a1a1a",
+  "num": "#1a1a1a"
  },
  "formation": "f-basic",
  "players": [

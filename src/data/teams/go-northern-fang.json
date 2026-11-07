@@ -5,10 +5,19 @@
  "name": "Colmillos del Norte",
  "short": "NOR",
  "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#2a8a3a"
+  "shirt": "#f4f2ee",
+  "shorts": "#f4f2ee",
+  "gkShirt": "#f4f2ee",
+  "accent": "#a88a2a",
+  "sleeve": "#7ad8e8",
+  "socks": "#7ad8e8",
+  "gkShorts": "#2a6ac0",
+  "gkSleeve": "#f4f2ee",
+  "gkLongSleeve": true,
+  "gkGloves": "#f4f4f4",
+  "collar": "#7ad8e8",
+  "num": "#2a8ab0",
+  "stripe": "#a88a2a"
  },
  "formation": "f-basic",
  "players": [

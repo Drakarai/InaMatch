@@ -1,3 +1,4 @@
+import Phaser from "phaser";
 import { texKey } from "./placeholders";
 
 // Paquete de imágenes: basta con dejarlas en src/assets/pack/ con el id del jugador o del equipo como
@@ -72,6 +73,51 @@ export async function loadVspritePack(): Promise<PackEntry[]> {
       return m ? [{ key: vspriteKey(m[1], m[2], m[3] as VspriteView), url, folder: 'vsprites' }] : [];
     }),
   );
+}
+
+// Los de los ojeadores (miles, que solo se fichan para Mi club) van aparte, uno por temporada, y solo se cargan los de los
+// jugadores que tiene el club (loadScoutSprites).
+const SCOUT_SPRITES: Record<string, () => Promise<{ files: Record<string, string> }>> = {
+  ie1: () => import('./vsprites/scouts-ie1'),
+  ie2: () => import('./vsprites/scouts-ie2'),
+  ie3: () => import('./vsprites/scouts-ie3'),
+  go: () => import('./vsprites/scouts-go'),
+  cs: () => import('./vsprites/scouts-cs'),
+  gx: () => import('./vsprites/scouts-gx'),
+  vr: () => import('./vsprites/scouts-vr'),
+  ares: () => import('./vsprites/scouts-other'),
+  orion: () => import('./vsprites/scouts-other'),
+};
+
+/** Carga los sprites dibujados de los ojeadores de estas claves de carta ('scouts-<temporada>:<id>'); el resto, nada. */
+export async function loadScoutSprites(textures: Phaser.Textures.TextureManager, keys: string[]): Promise<void> {
+  const bySeason = new Map<string, string[]>();
+  for (const key of keys) {
+    const m = key.match(/^scouts-([^:]+):(.+)$/);
+    if (!m || !SCOUT_SPRITES[m[1]] || textures.exists(vspriteKey(`scouts-${m[1]}`, m[2], 'front'))) continue;
+    bySeason.set(m[1], [...(bySeason.get(m[1]) ?? []), m[2]]);
+  }
+  const jobs: Promise<void>[] = [];
+  for (const [season, ids] of bySeason) {
+    const { files } = await SCOUT_SPRITES[season]();
+    for (const id of ids) {
+      for (const view of VSPRITE_VIEWS) {
+        const url = files[`../../assets/pack/vsprites/scouts-${season}/${id}/${view}.png`];
+        const key = vspriteKey(`scouts-${season}`, id, view);
+        if (!url || textures.exists(key)) continue;
+        jobs.push(new Promise<void>((resolve) => {
+          const img = new Image();
+          img.onload = () => {
+            if (!textures.exists(key)) textures.addImage(key, img)?.setFilter(Phaser.Textures.FilterMode.NEAREST);
+            resolve();
+          };
+          img.onerror = () => resolve();
+          img.src = url;
+        }));
+      }
+    }
+  }
+  await Promise.all(jobs);
 }
 
 /** Lo que se carga al arrancar: sprites completos y escudos (los dibujados, aparte: loadVspritePack). */

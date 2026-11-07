@@ -790,6 +790,20 @@ import chars_vr_toufuu_ikokukan  # noqa: E402,F401
 import chars_vr_umi_kamome_soccer_club  # noqa: E402,F401
 import chars_vr_zanark_strangers  # noqa: E402,F401
 
+# ojeadores (claves 'scouts-<temporada>:<id>')
+import chars_scouts_ie1_01  # noqa: E402,F401
+import chars_scouts_ie1_02  # noqa: E402,F401
+import chars_scouts_ie1_03  # noqa: E402,F401
+import chars_scouts_ie1_04  # noqa: E402,F401
+import chars_scouts_ie1_05  # noqa: E402,F401
+import chars_scouts_ie1_06  # noqa: E402,F401
+import chars_scouts_ie1_07  # noqa: E402,F401
+import chars_scouts_ie1_08  # noqa: E402,F401
+import chars_scouts_ie1_09  # noqa: E402,F401
+import chars_scouts_ie1_10  # noqa: E402,F401
+import chars_scouts_ie1_11  # noqa: E402,F401
+import chars_scouts_ie1_12  # noqa: E402,F401
+
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):
     """Cambia los pinchos de detrás (los de 'sol': todos iguales, en abanico y con brillo) por pelo revuelto irregular,

@@ -470,7 +470,7 @@ def figure(view, tname, step=0, char=None, kit=None, num=None):
         body_front(d, t)
         V.head(d) if char is None else H.draw(d, char, 'front')
     elif view == 'back':
-        body_front(d, t, back=True, num=num or NUM)
+        body_front(d, t, back=True, num=NUM if num is None else num)
         if 'cape' in KIT:
             cape_back(d, t)
         if KIT.get('wings'):

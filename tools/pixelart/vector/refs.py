@@ -3,7 +3,7 @@
 Para cada jugador: nombre japonés de su ficha de la wiki -> ficha de la enciclopedia en japonés (tools/wiki/.cache/
 zukan_ja, de tools/zukan/charas_ja.py) -> visor 3D -> busto de frente (b0), perfil (b6), espalda (b4) y cuerpo (f0).
 
-Uso: python3 -I tools/pixelart/vector/refs.py <equipo> <carpeta de salida>
+Uso: python3 -I tools/pixelart/vector/refs.py <equipo | scouts-<temporada>> <carpeta de salida> [ids,separados,por,comas]
 """
 import glob
 import io
@@ -88,11 +88,18 @@ def zukan_links():
 
 def main():
     tid, out = sys.argv[1], sys.argv[2]
+    ids = set(sys.argv[3].split(',')) if len(sys.argv) > 3 else None  # solo esos jugadores
     os.makedirs(out, exist_ok=True)
-    team = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
+    if tid.startswith('scouts-'):  # ojeadores de una temporada (src/data/scouts.json)
+        season = tid.split('-', 1)[1]
+        team = {'players': json.load(open(os.path.join(ROOT, 'src', 'data', 'scouts.json'), encoding='utf-8'))[season]}
+    else:
+        season = tid.split('-')[0]
+        team = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
+    if ids:
+        team['players'] = [p for p in team['players'] if p['id'] in ids]
     jp = wiki_jp([p['wiki'] for p in team['players'] if p.get('wiki')])
     links = zukan_links()
-    season = tid.split('-')[0]
     for p in team['players']:
         name, alias = (re.sub(r'\s', '', x) for x in jp.get(p.get('wiki', ''), ('', '')))
         names = [alias, name] if tid in ALIAS_TEAMS else [name, alias]

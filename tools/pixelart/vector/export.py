@@ -103,15 +103,33 @@ def key_for(tid, pid):
     return char_of(pid)
 
 
+# ojeadores (src/data/scouts.json): solo se fichan para Mi club, así que van con su equipación y sin dorsal, y cada uno
+# con su clave 'scouts-<temporada>:<id>' (nada de coger por prefijo el dibujo de otro)
+SCOUTS = ['scouts-ie1', 'scouts-ie2', 'scouts-ie3', 'scouts-go', 'scouts-cs', 'scouts-gx', 'scouts-vr', 'scouts-orion', 'scouts-ares']
+CLUB_COLORS = {'shirt': '#ffd23f', 'shorts': '#0b1a2e', 'gkShirt': '#2f7bff', 'accent': '#ffd23f'}  # los de src/club/club.ts
+
+
+def load_team(tid):
+    """Datos de un equipo, o de los ojeadores de una temporada como si fueran uno."""
+    if tid in SCOUTS:
+        sc = json.load(open(os.path.join(ROOT, 'src', 'data', 'scouts.json'), encoding='utf-8'))
+        return {'id': tid, 'colors': CLUB_COLORS, 'players': sc.get(tid.split('-', 1)[1], [])}
+    return json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
+
+
 def main():
-    only = sys.argv[1:]  # ids de equipo: solo esos (sin argumentos, todos)
-    for tid in TEAMS:
+    only = [a for a in sys.argv[1:] if not a.startswith('--ids=')]  # ids de equipo: solo esos (sin argumentos, todos)
+    ids = next((set(a[6:].split(',')) for a in sys.argv[1:] if a.startswith('--ids=')), None)  # --ids=a,b: solo esos jugadores
+    for tid in TEAMS + SCOUTS:
         if only and tid not in only:
             continue
-        team = json.load(open(os.path.join(ROOT, 'src', 'data', 'teams', tid + '.json'), encoding='utf-8'))
+        scouts = tid in SCOUTS
+        team = load_team(tid)
         for p in team['players']:
+            if ids and p['id'] not in ids:
+                continue
             # versión propia de este equipo (los Jóvenes Inazuma son los veteranos de niños): '<equipo>:<jugador>'
-            base = key_for(tid, p['id'])
+            base = (f"{tid}:{p['id']}" if f"{tid}:{p['id']}" in C.CHARS else None) if scouts else key_for(tid, p['id'])
             if base is None:
                 print(tid, p['id'], 'sin dibujo')
                 continue
@@ -121,7 +139,7 @@ def main():
             kit = B.kit_for(colors, p['position'] == 'GK')
             dest = os.path.join(ROOT, 'src', 'assets', 'pack', 'vsprites', tid, p['id'])
             os.makedirs(dest, exist_ok=True)
-            for name, im in pad_same(frames(base, kit, str(p['number']))).items():
+            for name, im in pad_same(frames(base, kit, '' if scouts else str(p['number']))).items():
                 im.save(os.path.join(dest, name + '.png'))
         print(tid, 'ok')
 

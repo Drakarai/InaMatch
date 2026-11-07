@@ -5,10 +5,20 @@
  "name": "Desesperdidos",
  "short": "DES",
  "colors": {
-  "shirt": "#4a6a2a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#4a6a2a"
+  "shirt": "#2a3458",
+  "shorts": "#2a3458",
+  "gkShirt": "#d8d8e0",
+  "accent": "#e0206a",
+  "sleeve": "#2a3458",
+  "socks": "#2a3458",
+  "gkShorts": "#d8d8e0",
+  "gkSleeve": "#d8d8e0",
+  "gkLongSleeve": true,
+  "gkGloves": "#2a2a3a",
+  "gkSocks": "#d8d8e0",
+  "collar": "#e0206a",
+  "num": "#e0206a",
+  "stripe": "#e0206a"
  },
  "formation": "f-chaos-flower",
  "players": [

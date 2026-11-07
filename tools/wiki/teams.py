@@ -187,6 +187,10 @@ STYLE = {
     'Hakuren (GO)': ('#eef2e2', '#2a3478', '#8a8e8a', '#2a3478', '#eef2e2', '#eef2e2', '#f2f2f2', '#f2f2f2', {'longSleeve': True, 'collar': '#8aa4d8', 'gkGloves': '#1e6a7a'}),
     # Royal Academy (GO): camiseta verde oscuro de manga larga con cuello rojo, pantalón caqui y medias verdes; portero rojo de manga larga con pantalón marrón
     'Henkaku no Teikoku': ('#2e5a44', '#7a6430', '#c03018', '#c03018', '#2e5a44', '#2e5a44', '#6a5428', '#c03018', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
+    # Desesperdidos: camiseta, pantalón y medias azul marino con detalles magenta; portero gris claro de manga larga
+    'Destructchers': ('#2a3458', '#2a3458', '#d8d8e0', '#e0206a', '#2a3458', '#2a3458', '#d8d8e0', '#d8d8e0', {'gkLongSleeve': True, 'gkGloves': '#2a2a3a', 'gkSocks': '#d8d8e0', 'collar': '#e0206a', 'num': '#e0206a', 'stripe': '#e0206a'}),
+    # Ejército de Terracota: coraza marrón sobre túnica rosa pálido de manga larga y faldón largo; el portero igual
+    'Karakuri Bingmayong': ('#7a6040', '#f2dcd4', '#7a6040', '#f6ecea', '#f2dcd4', '#6a5034', '#f2dcd4', '#f2dcd4', {'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'collar': '#f6ecea', 'num': '#f6ecea', 'gkGloves': '#e8d4b0'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

@@ -5,10 +5,21 @@
  "name": "Ejército de Terracota",
  "short": "KAR",
  "colors": {
-  "shirt": "#3a8ac0",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#3a8ac0"
+  "shirt": "#7a6040",
+  "shorts": "#f2dcd4",
+  "gkShirt": "#7a6040",
+  "accent": "#f6ecea",
+  "sleeve": "#f2dcd4",
+  "socks": "#6a5034",
+  "gkShorts": "#f2dcd4",
+  "gkSleeve": "#f2dcd4",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "longPants": true,
+  "gkLongPants": true,
+  "collar": "#f6ecea",
+  "num": "#f6ecea",
+  "gkGloves": "#e8d4b0"
  },
  "formation": "f-terracotta",
  "players": [

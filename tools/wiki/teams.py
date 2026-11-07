@@ -247,6 +247,10 @@ STYLE = {
     'Big Bang': ('#b4b6a0', '#f2ece6', '#4e5a68', '#c0201e', '#e6bcb4', '#3c3c44', '#f2ece6', '#e6bcb4', {'gkSocks': '#3c3c44', 'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'pants': '#3c3c44', 'collar': '#c0201e', 'num': '#3a3a40', 'gkGloves': '#f0f0f0'}),
     # Supernova: mono azul marino con mangas largas negras y cuello blanco; portero gris con mangas negras
     'Supernova': ('#2c3488', '#2c3488', '#6a6a72', '#d8a830', '#1e1e26', '#2c3488', '#56565e', '#1e1e26', {'gkSocks': '#56565e', 'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'collar': '#f0eef4', 'num': '#f0eef4', 'stripe': '#d8a830', 'gkGloves': '#f0f0f0'}),
+    # Falam Medius: camiseta y pantalón morados con detalles amarillos y mallas negras; portero negro de manga larga
+    'Faram Dite': ('#5a2c9c', '#5a2c9c', '#2c2832', '#e8d860', '#5a2c9c', '#1e1e24', '#2c2832', '#2c2832', {'gkLongSleeve': True, 'gkGloves': '#6a34b0', 'gkSocks': '#4a1e34', 'longPants': True, 'pants': '#1e1e24', 'collar': '#f0f0f0', 'num': '#e8d860', 'stripe': '#b8a0e0'}),
+    # Flota Ixar: casaca azul noche de manga larga con ribetes rojos, mallas azul noche; portero con la casaca blanca
+    'Ixal Fleet': ('#2c3248', '#2c3248', '#f0ecec', '#c81e24', '#2c3248', '#f0ecec', '#1e1e22', '#f0ecec', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e1e22', 'gkSocks': '#f0ecec', 'longPants': True, 'pants': '#262b3e', 'collar': '#c81e24', 'num': '#c81e24', 'stripe': '#c81e24'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

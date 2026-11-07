@@ -191,6 +191,10 @@ STYLE = {
     'Destructchers': ('#2a3458', '#2a3458', '#d8d8e0', '#e0206a', '#2a3458', '#2a3458', '#d8d8e0', '#d8d8e0', {'gkLongSleeve': True, 'gkGloves': '#2a2a3a', 'gkSocks': '#d8d8e0', 'collar': '#e0206a', 'num': '#e0206a', 'stripe': '#e0206a'}),
     # Ejército de Terracota: coraza marrón sobre túnica rosa pálido de manga larga y faldón largo; el portero igual
     'Karakuri Bingmayong': ('#7a6040', '#f2dcd4', '#7a6040', '#f6ecea', '#f2dcd4', '#6a5034', '#f2dcd4', '#f2dcd4', {'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'collar': '#f6ecea', 'num': '#f6ecea', 'gkGloves': '#e8d4b0'}),
+    # Cascada Perfecta: camiseta blanca con cuello gris oscuro, pantalón negro y medias gris claro; portero verde lima de manga larga
+    'Perfect Cascade': ('#f2f2f2', '#2a2a2e', '#7ac81e', '#3a3a40', '#f2f2f2', '#c8c8cc', '#2a2a2e', '#7ac81e', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'num': '#2a5ab0'}),
+    # Shiroshika-gumi: kimono blanco con ribetes morados y amarillos, mallas negras; portero de kimono azul marino con mangas grises
+    'Shiroshika Gumi': ('#f4f2ee', '#f4f2ee', '#2a3070', '#5a2a8a', '#f4f2ee', '#1e1e22', '#2a3070', '#8a8a90', {'gkLongSleeve': True, 'gkGloves': '#2a2a2e', 'collar': '#5a2a8a', 'stripe': '#e8c840', 'num': '#5a2a8a'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

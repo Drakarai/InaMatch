@@ -5,10 +5,17 @@
  "name": "Cascada Perfecta",
  "short": "PER",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#8a1a3a"
+  "shirt": "#f2f2f2",
+  "shorts": "#2a2a2e",
+  "gkShirt": "#7ac81e",
+  "accent": "#3a3a40",
+  "sleeve": "#f2f2f2",
+  "socks": "#c8c8cc",
+  "gkShorts": "#2a2a2e",
+  "gkSleeve": "#7ac81e",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "num": "#2a5ab0"
  },
  "formation": "f-perfect",
  "players": [

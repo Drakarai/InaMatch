@@ -5,10 +5,19 @@
  "name": "Banda del Ciervo Blanco",
  "short": "SHI",
  "colors": {
-  "shirt": "#e86a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#e86a1a"
+  "shirt": "#f4f2ee",
+  "shorts": "#f4f2ee",
+  "gkShirt": "#2a3070",
+  "accent": "#5a2a8a",
+  "sleeve": "#f4f2ee",
+  "socks": "#1e1e22",
+  "gkShorts": "#2a3070",
+  "gkSleeve": "#8a8a90",
+  "gkLongSleeve": true,
+  "gkGloves": "#2a2a2e",
+  "collar": "#5a2a8a",
+  "stripe": "#e8c840",
+  "num": "#5a2a8a"
  },
  "formation": "f-shika-no-tsuno",
  "players": [

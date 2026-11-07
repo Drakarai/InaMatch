@@ -5,10 +5,22 @@
  "name": "Falam Medius",
  "short": "FAR",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#c8202f"
+  "shirt": "#5a2c9c",
+  "shorts": "#5a2c9c",
+  "gkShirt": "#2c2832",
+  "accent": "#e8d860",
+  "sleeve": "#5a2c9c",
+  "socks": "#1e1e24",
+  "gkShorts": "#2c2832",
+  "gkSleeve": "#2c2832",
+  "gkLongSleeve": true,
+  "gkGloves": "#6a34b0",
+  "gkSocks": "#4a1e34",
+  "longPants": true,
+  "pants": "#1e1e24",
+  "collar": "#f0f0f0",
+  "num": "#e8d860",
+  "stripe": "#b8a0e0"
  },
  "formation": "f-orbius",
  "players": [

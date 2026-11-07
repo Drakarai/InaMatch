@@ -5,10 +5,23 @@
  "name": "Flota Ixar",
  "short": "IXA",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#1a1a1a"
+  "shirt": "#2c3248",
+  "shorts": "#2c3248",
+  "gkShirt": "#f0ecec",
+  "accent": "#c81e24",
+  "sleeve": "#2c3248",
+  "socks": "#f0ecec",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#f0ecec",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#1e1e22",
+  "gkSocks": "#f0ecec",
+  "longPants": true,
+  "pants": "#262b3e",
+  "collar": "#c81e24",
+  "num": "#c81e24",
+  "stripe": "#c81e24"
  },
  "formation": "f-black-hole",
  "players": [

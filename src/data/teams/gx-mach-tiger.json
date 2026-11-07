@@ -5,10 +5,19 @@
  "name": "Muay Tigers",
  "short": "MAC",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#c87aa8"
+  "shirt": "#f4c21e",
+  "shorts": "#e0401e",
+  "gkShirt": "#1e9a5a",
+  "accent": "#e0401e",
+  "sleeve": "#e0401e",
+  "socks": "#e0401e",
+  "gkShorts": "#1e4a6a",
+  "gkSleeve": "#1e4a6a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#1e4a6a",
+  "collar": "#e0401e",
+  "num": "#e0401e"
  },
  "formation": "f-phakchi-smell",
  "players": [

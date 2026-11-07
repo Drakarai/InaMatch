@@ -35,7 +35,7 @@ def elf_ears(view, tip=(-12, 52), stip=(24, 50), z='b'):
     out = []
     for m in (False, True):
         f = (lambda p: (100 - p[0], p[1]) + p[2:]) if m else (lambda p: p)
-        out.append(L(outline([f((20, 58)), f((tx + 2, ty, 1)), f((20, 84))]), 'skin_d', z, ln=True))
+        out.append(L(outline([f((20, 58)), f((tx + 2, ty, 1)), f((20, 84))]), 'skin_d', z))
     return out
 
 
@@ -147,15 +147,17 @@ CHARS['radon-mons'] = {
 
 # Selen Melvil: pelo malva con raya en medio y dos coletas largas a los lados, atadas arriba con gomas verdes y que caen en
 # mechones gruesos hasta el pecho; orejas puntiagudas y ojos grandes azules
-_sel_tail = [(16, 22), (2, 26), (-6, 50), (0, 74), (-6, 112, 1), (8, 100), (14, 114, 1), (18, 80), (14, 56), (20, 40)]
+_sel_tail = [(18, 16), (4, 18), (-8, 34), (-14, 60), (-8, 82), (-14, 114, 1), (2, 104), (8, 118, 1), (18, 92), (22, 62), (26, 34)]
 CHARS['selenia'] = {
     'body': 'chica', 'pal': pal('#b04a78', '#fcdcc0', iris='#2a7ab8', shade='#8a3a5e', tie='#a8c860'),
     'face': {'eyes': 'big', 'brows': True, 'mouth': 'smile', 'mouth_y': 96, 'hairline': False, 'ears': False},
     'front': [L(outline([(14, 70), (10, 40), (18, 10), (50, -6), (82, 10), (90, 40), (86, 70)])),
-              L(outline(_sel_tail)), L(outline([(100 - x, y) + p[2:] for (x, y, *p) in [tuple(t) for t in _sel_tail]])),
+              L(outline(_sel_tail)), L(outline([(100 - t[0],) + tuple(t[1:]) for t in _sel_tail])),
               L(outline([(8, 60), (16, 70), (8, 104), (4, 90)]), 'shade', 'b', False), L(outline([(92, 60), (84, 70), (92, 104), (96, 90)]), 'shade', 'b', False),
               L(outline([(60, -2), (82, 10), (90, 40), (86, 66), (78, 36)]), 'shade', 'b', False),
-              L(ell(12, 24, 3.4, 4), 'tie', 'f', ln=True), L(ell(88, 24, 3.4, 4), 'tie', 'f', ln=True)]
+              L(ell(12, 24, 3.4, 4), 'tie', 'f', ln=True), L(ell(88, 24, 3.4, 4), 'tie', 'f', ln=True),
+             strand([(-10, 60), (6, 64)], 'shade', 'b', 1.2), strand([(-10, 84), (8, 86)], 'shade', 'b', 1.2),
+             strand([(110, 60), (94, 64)], 'shade', 'b', 1.2), strand([(110, 84), (92, 86)], 'shade', 'b', 1.2)]
              + elf_ears('front', (-8, 54))
              + [fringe([(12, 60), (12, 36), (24, 14), (48, 4), (50, 14), (52, 4), (76, 14), (88, 36), (88, 60), (82, 48), (74, 56, 1), (68, 36), (56, 22), (50, 30), (44, 22),
                         (32, 36), (26, 56, 1), (18, 48)])],
@@ -167,7 +169,7 @@ CHARS['selenia'] = {
     'back': elf_ears('back', (-8, 54))
             + [L(outline([(14, 74), (10, 40), (18, 10), (50, -6), (82, 10), (90, 40), (86, 74), (50, 82)])),
                L(outline([(56, -2), (82, 10), (90, 44), (84, 72), (60, 80)]), 'shade', 'b', False),
-               L(outline(_sel_tail), 'mid', 'f'), L(outline([(100 - x, y) + p[2:] for (x, y, *p) in [tuple(t) for t in _sel_tail]]), 'mid', 'f'),
+               L(outline(_sel_tail), 'mid', 'f'), L(outline([(100 - t[0],) + tuple(t[1:]) for t in _sel_tail]), 'mid', 'f'),
                L(ell(12, 24, 3.4, 4), 'tie', 'f', ln=True), L(ell(88, 24, 3.4, 4), 'tie', 'f', ln=True),
                strand([(50, -4), (50, 76)], 'shade', 'b', 1.2)],
 }
@@ -228,8 +230,8 @@ CHARS['neon'] = {
 CHARS['ruger-baran'] = {
     'body': 'normal', 'pal': pal('#f2d8e0', '#fcf2ec', iris='#7a6ac8', shade='#d0a4b4', gem='#8a4ab8'),
     'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'smile', 'mouth_y': 96, 'hairline': False, 'ears': False},
-    'front': [L(outline([(14, 74), (2, 62, 1), (10, 50), (-6, 34, 1), (10, 28), (6, 4, 1), (22, 12), (28, -16, 1), (36, 4), (44, -34, 1), (54, 0), (66, -20, 1), (70, 6), (88, -4, 1),
-                         (86, 18), (106, 24, 1), (92, 36), (106, 50, 1), (92, 58), (98, 72, 1), (86, 74), (84, 56), (16, 56)])),
+    'front': [L(outline([(14, 74), (2, 62, 1), (10, 50), (-4, 36, 1), (12, 28), (10, 10, 1), (24, 14), (36, -4), (40, -46, 1), (50, -6), (62, -10, 1), (68, 6), (84, 4, 1),
+                         (86, 18), (104, 26, 1), (92, 38), (104, 52, 1), (92, 58), (98, 72, 1), (86, 74), (84, 56), (16, 56)])),
               L(outline([(56, -2), (86, 8), (94, 40), (88, 66), (76, 38)]), 'shade', 'b', False)]
              + elf_ears('front', (-12, 50))
              + [fringe([(12, 66), (14, 42), (28, 26), (50, 20), (72, 26), (86, 42), (88, 66), (80, 56), (76, 72, 1), (70, 50), (62, 46), (58, 56, 1), (52, 44), (46, 44),
@@ -241,7 +243,7 @@ CHARS['ruger-baran'] = {
              L(outline([(4, 36), (24, 42), (26, 70), (8, 64)]), 'shade', 'b', False),
              fringe([(66, 4), (90, 18), (96, 42), (94, 68, 1), (86, 50), (80, 62, 1), (76, 42), (66, 30)])] + elf_ears('side', stip=(22, 48)),
     'back': elf_ears('back', (-12, 50))
-            + [L(outline([(14, 82), (0, 74, 1), (8, 60), (-8, 44, 1), (8, 36), (4, 10, 1), (22, 14), (28, -14, 1), (36, 4), (44, -32, 1), (54, 0), (66, -18, 1), (70, 6),
+            + [L(outline([(14, 82), (0, 74, 1), (8, 60), (-8, 44, 1), (8, 36), (8, 12, 1), (24, 14), (36, -4), (58, -46, 1), (52, -4), (66, -8, 1), (70, 6),
                           (88, -2, 1), (86, 18), (106, 24, 1), (92, 40), (108, 56, 1), (92, 64), (98, 80, 1), (84, 84), (68, 94, 1), (60, 86), (50, 96, 1), (40, 86), (30, 94, 1)])),
                L(outline([(56, 0), (86, 10), (94, 46), (86, 80), (62, 88)]), 'shade', 'b', False)],
 }
@@ -321,16 +323,18 @@ CHARS['brimstone'] = {
 # coleta baja, barba y bigote blancos, gafas de sol negras, nariz larga, una cicatriz en la frente y piel morena anaranjada
 CHARS[f'{T}:ray-dark'] = {
     'body': 'delgado', 'pal': pal('#e8e4e0', '#e0984e', iris='#1e1414', shade='#b8b0ac', glass='#1e1e22', skin_d='#b8743a'),
-    'face': {'eyes': 'none', 'brows': False, 'mouth': 'none', 'hairline': False, 'big_ears': 2, 'ear_out': 2},
+    'face': {'eyes': 'none', 'brows': False, 'mouth': 'none', 'hairline': False, 'big_ears': 2, 'ear_out': 2,
+             'face_front': outline([(18, 52), (16, 22), (30, 4), (50, -2), (70, 4), (84, 22), (82, 52), (84, 80), (76, 98), (50, 106), (24, 98), (16, 80)])},
     'front': [L(outline([(14, 64), (10, 30), (16, 4), (32, -14), (50, -18), (68, -14), (84, 4), (90, 30), (86, 64), (80, 44), (20, 44)])),
-              L(outline([(14, 50), (12, 24), (20, 2), (36, -12), (50, -16), (64, -12), (80, 2), (88, 24), (86, 50), (78, 34), (64, 26), (50, 28), (36, 26), (22, 34)]), 'mid', 'f',
-                ln=True),
-              strand([(30, 0), (28, 30)], 'shade', 'f', 1.0), strand([(44, -10), (42, 26)], 'shade', 'f', 1.0), strand([(58, -10), (58, 26)], 'shade', 'f', 1.0),
-              strand([(72, 0), (74, 30)], 'shade', 'f', 1.0),
-              L(quad((32, 40), (44, 38), (54, 30)), OUTC, 'f', False, False, 1.4),
-              L(outline([(20, 88), (30, 96), (40, 92), (50, 98), (60, 92), (70, 96), (80, 88), (86, 104), (74, 122), (50, 128), (26, 122), (14, 104)]), 'mid', 'f', ln=True),
+              L(outline([(14, 54), (12, 24), (20, 0), (36, -14), (50, -18), (64, -14), (80, 0), (88, 24), (86, 54), (80, 40), (74, 22), (62, 12), (50, 10), (38, 12), (26, 22),
+                         (20, 40)]), 'mid', 'f', ln=True),
+              strand([(26, 4), (18, 40)], 'shade', 'f', 1.0), strand([(40, -8), (30, 14)], 'shade', 'f', 1.0), strand([(60, -8), (70, 14)], 'shade', 'f', 1.0),
+              strand([(74, 4), (82, 40)], 'shade', 'f', 1.0),
+              L(quad((34, 50), (46, 46), (56, 38)), OUTC, 'f', False, False, 1.4),
+              L(outline([(18, 84), (30, 94), (40, 90), (50, 96), (60, 90), (70, 94), (82, 84), (90, 106), (76, 128), (58, 136, 1), (50, 128), (42, 136, 1), (24, 128), (10, 106)]),
+                'mid', 'f', ln=True),
               L(outline([(36, 92), (50, 88), (64, 92), (60, 98), (50, 94), (40, 98)]), 'shade', 'f', False),
-              L(outline([(46, 64), (54, 64), (58, 88), (50, 92), (42, 88)]), 'skin_d', 'f', ln=True),
+              L(outline([(45, 60), (55, 60), (60, 88), (50, 94), (40, 88)]), 'skin', 'f', ln=True),
               L(ell(36, 72, 10, 6), 'glass', 'f', ln=True), L(ell(64, 72, 10, 6), 'glass', 'f', ln=True),
               L([(46, 71), (54, 71)], 'glass', 'f', False, False, 1.6), L([(26, 70), (16, 68)], 'glass', 'f', False, False, 1.6), L([(74, 70), (84, 68)], 'glass', 'f', False, False, 1.6)],
     'side': [L(outline([(10, 62), (-6, 72), (-10, 96), (2, 106), (10, 88), (20, 76)])),

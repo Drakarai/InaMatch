@@ -5,10 +5,20 @@
  "name": "Storm Wolves",
  "short": "STO",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#c87aa8"
+  "shirt": "#f4f2f2",
+  "shorts": "#f4f2f2",
+  "gkShirt": "#f2c41e",
+  "accent": "#1e1e22",
+  "sleeve": "#f4f2f2",
+  "socks": "#f4f2f2",
+  "gkShorts": "#f2c41e",
+  "gkSleeve": "#f2c41e",
+  "gkLongSleeve": true,
+  "gkGloves": "#7a7a80",
+  "gkSocks": "#f2c41e",
+  "collar": "#6a6a70",
+  "num": "#1e1e22",
+  "stripe": "#1e1e22"
  },
  "formation": "f-oasis-route",
  "players": [

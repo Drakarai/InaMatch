@@ -9,7 +9,11 @@ SKIN_G = '#a2d4c4'  # los de piel más verdosa
 TIP = '#e8b4a8'      # las puntas rosadas del pelo
 
 
-def fringe(pts, c='mid'):
+def fringe(pts, c='mid', squash=True):
+    """Flequillo por delante de la cara; squash sube las puntas que bajarían por debajo de las cejas (a tamaño de partido
+    taparían los ojos), salvo en los que el pelo tapa un ojo a propósito."""
+    if squash:
+        pts = [(p[0], 56 + (p[1] - 56) * 0.45, *p[2:]) if p[1] > 56 else p for p in pts]
     return L(outline(pts), c, 'f')
 
 
@@ -145,7 +149,7 @@ CHARS['puddel'] = {
                 L(outline([(8, 108), (2, 122, 1), (18, 118), (20, 126, 1), (22, 110)]), 'tip', 'f', ln=True),
                 L(outline([(92, 108), (98, 122, 1), (82, 118), (80, 126, 1), (78, 110)]), 'tip', 'f', ln=True),
                 fringe([(90, 96), (92, 50), (82, 22), (56, 10), (28, 14), (12, 34), (10, 66), (18, 56), (28, 52), (38, 58, 1), (44, 50), (48, 64), (54, 82), (64, 92),
-                        (76, 100, 1), (80, 86)])],
+                        (76, 100, 1), (80, 86)], squash=False)],
     'side': [L(outline([(42, 8), (52, -20, 1), (62, 6)]), 'mid', 'b', ln=True),
              L(outline([(54, 64), (58, 52), (80, 50), (94, 36), (90, 12), (68, -4), (36, -4), (12, 10), (-2, 40), (-6, 90), (-8, 116, 1), (12, 108), (30, 100),
                         (46, 80)])),
@@ -242,7 +246,7 @@ CHARS['serban'] = {
                 L(outline([(10, 84), (2, 100, 1), (16, 96), (20, 104, 1), (24, 88)]), 'tip', 'f', ln=True),
                 L(outline([(90, 84), (98, 100, 1), (84, 96), (80, 104, 1), (76, 88)]), 'tip', 'f', ln=True),
                 fringe([(90, 74), (90, 40), (78, 18), (54, 10), (28, 14), (12, 34), (10, 70), (18, 58), (26, 48), (38, 52, 1), (44, 46), (48, 60), (54, 82, 1),
-                        (64, 74), (74, 90, 1), (80, 76)])],
+                        (64, 74), (74, 90, 1), (80, 76)], squash=False)],
     'side': [L(outline([(36, 10), (30, -20), (40, -42, 1), (50, -16), (54, 6)]), 'mid', 'b', ln=True),
              L(outline([(54, 62), (58, 50), (80, 48), (94, 34), (90, 12), (68, -4), (36, -4), (12, 10), (-2, 36), (-4, 70), (4, 90), (24, 96), (40, 88), (48, 74)])),
              L(outline([(14, 84), (6, 102, 1), (24, 94), (32, 104, 1), (38, 88)]), 'tip', 'f', ln=True),

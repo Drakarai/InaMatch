@@ -5,10 +5,24 @@
  "name": "Supernova",
  "short": "SUP",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#c87aa8"
+  "shirt": "#2c3488",
+  "shorts": "#2c3488",
+  "gkShirt": "#6a6a72",
+  "accent": "#d8a830",
+  "sleeve": "#1e1e26",
+  "socks": "#2c3488",
+  "gkShorts": "#56565e",
+  "gkSleeve": "#1e1e26",
+  "gkSocks": "#56565e",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "longPants": true,
+  "gkLongPants": true,
+  "pants": "#2c3488",
+  "collar": "#f0eef4",
+  "num": "#f0eef4",
+  "stripe": "#d8a830",
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-supernova",
  "players": [

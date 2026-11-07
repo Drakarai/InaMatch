@@ -5,10 +5,20 @@
  "name": "Los Naiadi",
  "short": "SAZ",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#f2f2f2"
+  "shirt": "#1e3a7a",
+  "shorts": "#1e3a7a",
+  "gkShirt": "#5a1e7a",
+  "accent": "#4ab8e0",
+  "sleeve": "#a8acb8",
+  "socks": "#a8acb8",
+  "gkShorts": "#5a1e7a",
+  "gkSleeve": "#5a1e7a",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#9ad8e0",
+  "gkSocks": "#a8acb8",
+  "collar": "#f2f2f2",
+  "num": "#f2f2f2"
  },
  "formation": "f-grace-fin",
  "players": [

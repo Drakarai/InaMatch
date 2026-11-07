@@ -5,10 +5,17 @@
  "name": "Inside Silver",
  "short": "INS",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#c8202f"
+  "shirt": "#f6f2f4",
+  "shorts": "#8ee0ee",
+  "gkShirt": "#f6f2f4",
+  "accent": "#8ee0ee",
+  "sleeve": "#f6f2f4",
+  "socks": "#8ee0ee",
+  "gkShorts": "#8ee0ee",
+  "gkSleeve": "#f6f2f4",
+  "gkGloves": "#a8acb4",
+  "collar": "#8ee0ee",
+  "num": "#3a7ab8"
  },
  "formation": "f-4-3-3",
  "players": [

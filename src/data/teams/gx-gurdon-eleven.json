@@ -5,10 +5,22 @@
  "name": "Los Magmavís",
  "short": "GUR",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#c87aa8"
+  "shirt": "#a88a6a",
+  "shorts": "#a88a6a",
+  "gkShirt": "#5e6e62",
+  "accent": "#5a3a2a",
+  "sleeve": "#9a9ca4",
+  "socks": "#5a3a2a",
+  "gkShorts": "#5e6e62",
+  "gkSleeve": "#9a9ca4",
+  "longSleeve": true,
+  "longPants": true,
+  "gkLongSleeve": true,
+  "gkLongPants": true,
+  "gkGloves": "#4a2e1e",
+  "gkSocks": "#5a3a2a",
+  "collar": "#5a3a2a",
+  "num": "#e8c8c0"
  },
  "formation": "f-lost-wing",
  "players": [

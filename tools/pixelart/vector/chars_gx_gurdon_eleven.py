@@ -366,7 +366,7 @@ CHARS['caldera-dorne'] = {
               L(outline([(60, 6), (84, 16), (96, 60), (94, 114), (80, 106), (82, 60)]), 'shade', 'b', False),
               strand([(30, 90), (24, 116)], 'deep', 'f', 1.2), strand([(70, 90), (76, 116)], 'deep', 'f', 1.2),
               L(ell(32, 54, 8, 6.4), WHITE, 'f', ln=True), L(ell(68, 54, 8, 6.4), WHITE, 'f', ln=True),
-              L(ell(33, 55, 5.6, 4.6), BLACK, 'f', False), L(ell(67, 55, 5.6, 4.6), BLACK, 'f', False),
+              L(ell(32, 54, 6.8, 5.4), BLACK, 'f', False), L(ell(68, 54, 6.8, 5.4), BLACK, 'f', False),
               L(ell(31, 53, 1.4, 1.4), WHITE, 'f', False), L(ell(65, 53, 1.4, 1.4), WHITE, 'f', False),
               mean_brow(22, 40, 44, 48, 3), mean_brow(78, 40, 56, 48, 3),
               strand([(44, 36), (50, 30), (56, 36)], 'deep', 'f', 1.2),
@@ -384,3 +384,15 @@ CHARS['caldera-dorne'] = {
              L(outline([(8, 120), (2, 80), (6, 40), (18, 12), (50, 2), (82, 12), (94, 40), (98, 80), (92, 120), (50, 126)])),
              L(outline([(56, 6), (84, 16), (96, 60), (94, 118), (60, 124)]), 'shade', 'b', False)],
 }
+
+
+def _shrink(spec, k=0.86, cy=112):
+    """Encoge la cabeza (todas sus capas) hacia el cuello: con el manto de plumas, a tamaño natural quedaban más grandes
+    que en el modelo."""
+    for v in ('front', 'side', 'back'):
+        spec[v] = [dict(l, s=[(50 + (x - 50) * k, cy + (y - cy) * k) for x, y in l['s']], w=l['w'] * k if l['w'] else 0)
+                   for item in spec[v] for l in (item if isinstance(item, list) else [item])]
+
+
+for _cid in ('aoba-gyr', 'mayon', 'merapil-sekretair', 'mistis', 'nevado', 'etna', 'proman', 'cotopax', 'vesuvian', 'tair', 'nyira', 'caldera-dorne'):
+    _shrink(CHARS[_cid])

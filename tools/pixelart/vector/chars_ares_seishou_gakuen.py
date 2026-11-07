@@ -28,6 +28,18 @@ def spikes(cx, cy, rx, ry, n, amp, a0=0.0, a1=360.0, inner=1.0):
     return pts
 
 
+def scallop(cx, cy, rx, ry, n, amp, a0=0.0, a1=360.0):
+    """Como spikes pero con bultos redondos (rizos): los valles son los puntos marcados y las crestas van suaves."""
+    import math
+    pts = []
+    for i in range(n):
+        ta = math.radians(a0 + (a1 - a0) * i / n)
+        tb = math.radians(a0 + (a1 - a0) * (i + 0.5) / n)
+        pts.append((cx + rx * math.cos(ta), cy - ry * math.sin(ta), 1))
+        pts.append((cx + (rx + amp) * math.cos(tb), cy - (ry + amp) * math.sin(tb)))
+    return pts
+
+
 # Amano Masamichi (portero): una melena castaño muy oscuro enorme y salvaje, de pinchos irregulares que le abultan la
 # cabeza y le caen por los lados hasta los hombros; piel morena, mirada afilada y sonrisa confiada
 CHARS['mickey-way'] = {
@@ -188,17 +200,20 @@ CHARS['oscar-pio'] = {
 CHARS['eddy-o-ryan'] = {
     'body': 'normal', 'pal': pal('#7a5ac8', '#fce2cc', iris='#6a3a22', shade='#5a40a0', low='#b8a0d4', low_d='#9a84bc'),
     'face': {'eyes': 'normal', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 98, 'hairline': False},
-    'front': [L(outline(spikes(50, 70, 50, 26, 9, 14, 190, 350)), 'low', 'b'),
-              L(outline(spikes(50, 30, 52, 40, 12, 14, -20, 200) + [(92, 66), (84, 62), (16, 62), (8, 66)])),
-              L(outline([(60, -10), (92, 6), (106, 40), (92, 62), (84, 40)]), 'shade', 'b', False),
+    'front': [L(outline([(14, 60), (2, 74), (6, 84, 1), (12, 78), (14, 90, 1), (20, 76)]), 'low', 'b'),
+              L(outline([(86, 60), (98, 74), (94, 84, 1), (88, 78), (86, 90, 1), (80, 76)]), 'low', 'b'),
+              L(outline(spikes(50, 30, 50, 40, 13, 13, -25, 205) + [(90, 70), (84, 62), (16, 62), (10, 70)])),
+              L(outline([(60, -10), (92, 6), (104, 40), (92, 64), (84, 40)]), 'shade', 'b', False),
               fringe([(12, 66), (14, 40), (28, 24), (50, 18), (72, 24), (86, 40), (88, 66), (80, 54), (74, 62, 1), (68, 48), (60, 58, 1), (54, 44), (48, 60, 1),
                       (42, 46), (34, 58, 1), (28, 48), (20, 62, 1)])],
-    'side': [L(outline(spikes(26, 70, 34, 30, 7, 14, 160, 330)), 'low', 'b'),
-             L(outline(spikes(40, 30, 52, 42, 12, 14, 30, 250) + [(30, 70), (48, 64), (60, 50), (88, 40)])),
+    'side': [L(outline(spikes(40, 32, 52, 42, 13, 13, 30, 260) + [(26, 90), (40, 82), (48, 66), (60, 50), (88, 40)])),
+             L(outline([(-8, 44), (6, 56), (24, 52), (40, 62), (46, 74), (36, 84), (28, 96, 1), (20, 84), (10, 92, 1), (6, 78), (-6, 82, 1), (-2, 66), (-14, 64, 1)]),
+               'low', 'f', False),
              fringe([(66, 4), (92, 18), (98, 42), (96, 64, 1), (88, 50), (78, 36)])],
-    'back': [L(outline(spikes(50, 74, 52, 28, 9, 14, 180, 360)), 'low', 'b'),
-             L(outline(spikes(50, 30, 52, 40, 12, 14, -10, 190) + [(90, 60), (50, 54), (10, 60)])),
-             L(outline([(50, 80), (54, 100), (50, 110, 1), (46, 100)]), 'low_d', 'b', False)],
+    'back': [L(outline(spikes(50, 40, 50, 46, 16, 13, -30, 210) + [(90, 86), (76, 96, 1), (64, 88), (50, 100, 1), (36, 88), (24, 96, 1), (10, 86)])),
+             L(outline([(4, 54), (16, 48), (28, 56), (40, 46), (52, 56), (64, 46), (76, 56), (88, 48), (98, 56), (92, 84), (76, 96, 1), (64, 88), (50, 100, 1),
+                        (36, 88), (24, 96, 1), (8, 84)]), 'low', 'f', False),
+             L(outline([(56, 60), (80, 64), (88, 84), (70, 88)]), 'low_d', 'f', False)],
 }
 
 # Haizaki Ryouhei: melena larga gris ondulada que le cae hasta el pecho y le tapa el ojo derecho, con un mechón suelto que se
@@ -267,7 +282,7 @@ CHARS['braveon-halvors'] = {
 CHARS['konrad-hardin'] = {
     'body': 'corpulento', 'pal': pal('#e85a5a', '#fcd8b4', iris='#3a4a6a', shade='#c03e40'),
     'face': {'eyes': 'round', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 100, 'hairline': False, 'big_ears': 2},
-    'front': [L(outline([(30, 4), (16, -12), (0, -16, 1), (22, -4), (14, 6, 1), (34, 6)])),
+    'front': [L(outline([(34, 6), (22, -10), (4, -22, 1), (24, -16), (20, -32, 1), (34, -16), (46, -28, 1), (42, -8), (40, 6)])),
               L(outline([(16, 70), (12, 36), (22, 12), (50, 4), (78, 12), (88, 36), (84, 70), (80, 56), (20, 56)])),
               L(outline([(56, 6), (80, 14), (88, 40), (84, 60), (76, 40)]), 'shade', 'b', False),
               fringe([(14, 56), (16, 36), (30, 22), (50, 30, 1), (70, 22), (84, 36), (86, 56), (76, 44), (64, 42), (56, 50, 1), (50, 40), (44, 50, 1), (36, 42),
@@ -275,13 +290,13 @@ CHARS['konrad-hardin'] = {
               L(outline([(14, 54), (22, 56), (22, 66), (28, 70), (22, 76), (28, 82), (20, 92), (16, 80)]), 'mid', 'f'),
               L(outline([(86, 54), (78, 56), (78, 66), (72, 70), (78, 76), (72, 82), (80, 92), (84, 80)]), 'mid', 'f'),
               L(ell(50, 8, 6, 3), WHITE, 'f', ln=True)],
-    'side': [L(outline([(36, 6), (20, -20), (-6, -30, 1), (12, -10), (-8, -4, 1), (20, 4), (30, 14)])),
+    'side': [L(outline([(40, 4), (30, -14), (14, -36, 1), (26, -24), (20, -40, 1), (36, -22), (0, -22, 1), (22, -12), (-12, -6, 1), (16, 0), (6, 14, 1), (28, 12)])),
              L(outline([(56, 56), (62, 46), (80, 40), (90, 26), (82, 10), (60, 2), (36, 4), (16, 16), (8, 40), (10, 64), (22, 80), (36, 76), (46, 66)])),
              L(outline([(52, 60), (58, 62), (56, 78), (62, 84), (54, 90), (50, 76)]), 'mid', 'f'),
              L(outline([(10, 36), (28, 40), (30, 66), (14, 62)]), 'shade', 'b', False), L(ell(34, 6, 4, 4), WHITE, 'f', ln=True)],
     'back': [L(outline([(16, 74), (12, 36), (22, 12), (50, 4), (78, 12), (88, 36), (84, 74), (50, 80)])),
              L(outline([(56, 6), (80, 14), (88, 44), (84, 70), (62, 78)]), 'shade', 'b', False),
-             L(outline([(44, 12), (40, -14), (30, -30, 1), (50, -16), (66, -34, 1), (62, -12), (56, 12)])),
+             L(outline([(44, 12), (38, -10), (20, -26, 1), (40, -18), (36, -40, 1), (50, -22), (64, -40, 1), (62, -18), (80, -26, 1), (62, -10), (56, 12)])),
              L(ell(50, 10, 6, 3), WHITE, 'f', ln=True)],
 }
 
@@ -306,20 +321,24 @@ CHARS[f'{T}:jude-sharp'] = {
     'body': 'normal', 'cape': '#d81e24', 'pal': pal('#9a7a3e', '#fcdcbc', shade='#7a5c2a', light='#c8a464', strap='#2a5a8a', lens='#3a6a2a', lens_l='#8ac880',
                                                   rim='#e8e8e8'),
     'face': {'eyes': 'none', 'brows': False, 'mouth': 'smile', 'mouth_y': 98, 'hairline': False},
-    'front': [L(outline(spikes(50, 34, 44, 36, 14, 8, -30, 210) + [(90, 70), (84, 60), (16, 60), (10, 70)])),
-              L(outline([(60, 0), (88, 14), (100, 44), (90, 66), (84, 44)]), 'shade', 'b', False),
-              fringe([(14, 62), (16, 40), (30, 26), (50, 22), (70, 26), (84, 40), (86, 62), (76, 54), (68, 60), (60, 52), (50, 58), (40, 52), (32, 60), (24, 54)]),
-              strand([(30, 4), (36, 14), (30, 24)], 'shade', 'f', 1.2), strand([(56, 0), (62, 10), (56, 20)], 'shade', 'f', 1.2),
+    'front': [L(outline(scallop(50, 26, 42, 40, 12, 9, -25, 205) + [(88, 66), (84, 56), (16, 56), (12, 66)])),
+              L(outline([(62, -14), (86, 4), (98, 36), (90, 62), (82, 36)]), 'shade', 'b', False),
+              fringe([(14, 60), (14, 40), (26, 28), (50, 24), (74, 28), (86, 40), (86, 60), (78, 54), (70, 58), (62, 50), (50, 56), (38, 50), (30, 58), (22, 54)]),
+              strand([(26, 2), (24, 18), (28, 34)], 'shade', 'f', 1.3), strand([(42, -10), (40, 8), (42, 26)], 'shade', 'f', 1.3),
+              strand([(58, -10), (60, 8), (58, 26)], 'shade', 'f', 1.3), strand([(74, 2), (76, 18), (72, 34)], 'shade', 'f', 1.3),
               L(outline([(10, 72), (90, 72), (90, 82), (10, 82)]), 'strap', 'f', ln=True),
               L(ell(34, 77, 12, 11), 'rim', 'f', ln=True), L(ell(66, 77, 12, 11), 'rim', 'f', ln=True),
               L(ell(34, 77, 8.6, 8), 'lens', 'f', ln=True), L(ell(66, 77, 8.6, 8), 'lens', 'f', ln=True),
               L(ell(31, 74, 3, 2.6), 'lens_l', 'f', False), L(ell(63, 74, 3, 2.6), 'lens_l', 'f', False)],
-    'side': [L(outline(spikes(-4, 44, 30, 36, 11, 7, 0, 360)), 'mid', 'b'),
-             L(outline(spikes(46, 34, 44, 36, 12, 8, 20, 200) + [(30, 70), (48, 62), (60, 52), (86, 46)])),
-             L(outline([(-20, 30), (0, 20), (14, 40), (-4, 60)]), 'shade', 'b', False),
+    'side': [L(outline(scallop(0, 0, 22, 24, 11, 7, 0, 360)), 'mid', 'b'),
+             L(outline([(-20, -6), (-8, -18), (4, 0), (-8, 22)]), 'shade', 'b', False),
+             strand([(-12, -14), (-14, 0), (-10, 16)], 'shade', 'b', 1.3), strand([(2, -20), (0, -2), (4, 16)], 'shade', 'b', 1.3),
+             L(outline(scallop(52, 32, 40, 36, 11, 8, 20, 210) + [(28, 74), (46, 64), (60, 52), (86, 46)])),
+             strand([(56, -4), (58, 14), (54, 30)], 'shade', 'f', 1.3), strand([(36, -6), (34, 14), (38, 32)], 'shade', 'f', 1.3),
              L(outline([(20, 74), (96, 70), (96, 80), (22, 82)]), 'strap', 'f', ln=True),
              L(ell(90, 76, 7, 10), 'rim', 'f', ln=True), L(ell(92, 76, 4, 7), 'lens', 'f', ln=True)],
-    'back': [L(outline(spikes(50, 40, 44, 38, 16, 8, 0, 360))),
-             L(outline(spikes(50, 60, 34, 32, 12, 7, 0, 360)), 'shade', 'f', ln=True),
-             L(outline([(10, 74), (50, 80), (90, 74), (90, 82), (50, 88), (10, 82)]), 'strap', 'b', ln=True)],
+    'back': [L(outline(scallop(50, 30, 44, 46, 16, 9, 0, 360))),
+             L(ell(36, 20, 9, 6), 'shade', 'f', False), L(ell(62, 14, 9, 6), 'shade', 'f', False), L(ell(50, 40, 10, 6), 'shade', 'f', False), L(ell(26, 46, 7, 5), 'shade', 'f', False), L(ell(74, 42, 8, 5), 'shade', 'f', False), L(ell(48, 62, 9, 5), 'shade', 'f', False),
+             L(outline([(10, 74), (50, 80), (90, 74), (90, 82), (50, 88), (10, 82)]), 'strap', 'f', ln=True),
+             L(outline([(18, 70), (30, 88), (50, 92), (70, 88), (82, 70), (70, 80), (50, 84), (30, 80)]))],
 }

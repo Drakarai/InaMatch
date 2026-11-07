@@ -5,10 +5,19 @@
  "name": "Academia Polaris",
  "short": "SEI",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#1a1a1a"
+  "shirt": "#1e1e26",
+  "shorts": "#1e1e26",
+  "gkShirt": "#26305a",
+  "accent": "#d8c090",
+  "sleeve": "#d8c090",
+  "socks": "#22305a",
+  "gkShorts": "#e8e4f0",
+  "gkSleeve": "#26305a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#22305a",
+  "collar": "#d8c090",
+  "num": "#d8c090"
  },
  "formation": "balance",
  "players": [

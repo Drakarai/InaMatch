@@ -5,10 +5,19 @@
  "name": "Instituto Brain (Ares)",
  "short": "MSA",
  "colors": {
-  "shirt": "#3a8ac0",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#3a8ac0"
+  "shirt": "#e8dcc0",
+  "shorts": "#a8a090",
+  "gkShirt": "#a8a8ac",
+  "accent": "#6a5a4a",
+  "sleeve": "#a8a090",
+  "socks": "#a8a8a8",
+  "gkShorts": "#6a5030",
+  "gkSleeve": "#6a5030",
+  "gkLongSleeve": true,
+  "gkGloves": "#e8e0d0",
+  "gkSocks": "#a8a8a8",
+  "collar": "#6a5a4a",
+  "num": "#6a5a4a"
  },
  "formation": "f-4-4-2",
  "players": [

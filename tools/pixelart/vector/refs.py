@@ -30,6 +30,18 @@ ORDER = {'ie1': ['ie1', 'ie2', 'ie3', 'vr'], 'ie2': ['ie2', 'ie1', 'ie3', 'vr'],
 ALIAS_TEAMS = {'ie2-gemini-storm', 'ie2-epsilon', 'ie2-epsilon-kai', 'ie2-diamond-dust', 'ie2-prominence', 'ie2-chaos', 'ie2-the-genesis'}
 
 
+# nombres japoneses que la wiki escribe con otro kanji que la enciclopedia (o que en la wiki no salen): nombre de la wiki
+# (sin espacios) -> nombre en la enciclopedia
+ZUKAN_NAME = {
+    '小庭利徳': '木庭利徳', 'コバ': '木庭利徳', '飛豆祟利': '飛豆崇利', '蒼月望観': '蒼月希観', '真住火郎志': '真住火朗志', '伊理虹七郎': '伊里虹七郎',
+    '御殿場亨': '御殿場享', '正宗五郎': '正宗五朗', '新木明': '新木朗', '佐々鬼巌': '佐々鬼厳', '村上軍紀': '村上軍記', '山崎虎太郎': '山裂虎太郎',
+    '遊海端': '遊海瑞', '天野帙司': '天野快司', '長久童子': '永久童子', '伊矢部聡志': '伊矢部敏志', '加納一括': '加納一活', '夜須天恵': '夜須天慧',
+    '早矢馬齧郎': '早矢馬鏑郎', 'サタン': 'ザタン',
+}
+# fichas de la wiki sin nombre japonés: título de la ficha -> nombre en la enciclopedia
+ZUKAN_PAGE = {'Guanyu': '関羽', 'Zhangfei': '張飛'}
+
+
 def pick(cands, season):
     """El modelo del juego de la temporada; si no sale en él, el del juego más parecido."""
     for s in ORDER.get(season, []):
@@ -84,6 +96,7 @@ def main():
     for p in team['players']:
         name, alias = (re.sub(r'\s', '', x) for x in jp.get(p.get('wiki', ''), ('', '')))
         names = [alias, name] if tid in ALIAS_TEAMS else [name, alias]
+        names = [ZUKAN_NAME.get(n, n) for n in names] + ([ZUKAN_PAGE[p['wiki']]] if p.get('wiki') in ZUKAN_PAGE else [])
         cands = next((links[n] for n in names if n and n in links), [])
         if not cands:
             print(p['id'], 'sin modelo 3D', name, alias)

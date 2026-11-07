@@ -228,17 +228,18 @@ CHARS['pallas-brandish'] = {
 # Iapetus Pierce (sin modelo 3D: su retrato): pelo plateado en casco con raya al medio y un pico de flequillo que le baja hasta
 # la nariz; cara alargada, cejas fruncidas
 CHARS['iapetus-pierce'] = {
-    'body': 'normal', 'pal': pal('#c4c6cc', '#f6c8a0', iris='#2a1e1a', shade='#9a9ca8'),
+    'body': 'normal', 'pal': pal('#c4ccd2', '#f6c8a0', iris='#2a1e1a', shade='#9aa4ac', low='#6e5a58'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 100, 'hairline': False, 'face_front': LONG_FACE},
     'front': [L(outline([(14, 80), (10, 40), (16, 14), (34, 0), (50, -2), (66, 0), (84, 14), (90, 40), (86, 80), (80, 64), (20, 64)])),
               L(outline([(60, 2), (82, 12), (90, 40), (86, 72), (78, 44)]), 'shade', 'b', False),
               fringe([(12, 70), (14, 40), (26, 16), (50, 8), (74, 16), (86, 40), (88, 70), (80, 60), (74, 44), (60, 40), (50, 76, 1), (40, 40), (26, 44), (20, 60)]),
               strand([(42, 12), (46, 40)], 'shade', 'f', 1.0), strand([(58, 12), (54, 40)], 'shade', 'f', 1.0)],
     'side': [L(outline([(56, 62), (62, 50), (80, 46), (90, 30), (84, 10), (62, -2), (34, 0), (14, 14), (6, 40), (8, 72), (20, 86), (36, 84), (46, 74)])),
-             L(outline([(6, 36), (26, 40), (30, 80), (12, 80)]), 'shade', 'b', False),
+             L(outline([(46, 74), (36, 84), (20, 86), (8, 72), (6, 40), (18, 30), (30, 40), (40, 30), (52, 42)]), 'low', 'b', False),
              fringe([(66, 2), (88, 16), (92, 40), (88, 66, 1), (80, 48), (72, 36)])],
     'back': [L(outline([(14, 82), (10, 40), (16, 14), (34, 0), (50, -2), (66, 0), (84, 14), (90, 40), (86, 82), (50, 90)])),
-             L(outline([(56, 2), (82, 12), (90, 46), (86, 80), (62, 86)]), 'shade', 'b', False), strand([(50, 0), (50, 86)], 'deep', 'b', 1.0)],
+             L(outline([(14, 82), (10, 44), (24, 34), (36, 46), (50, 30), (64, 46), (76, 34), (90, 44), (86, 82), (50, 90)]), 'low', 'b', False),
+             L(outline([(56, 2), (82, 12), (90, 36), (76, 32), (64, 44), (60, 20)]), 'shade', 'b', False)],
 }
 
 # Oceanus Worldstream: pelo granate con forma de sombrero de ala ancha, con dos alas que salen en punta a los lados y caen

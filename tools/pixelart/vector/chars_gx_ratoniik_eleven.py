@@ -12,9 +12,17 @@ WHITE = (248, 248, 248, 255)
 ANCH = {}
 
 
+# ensanche horizontal por jugador (las medidas de la rejilla salían algo estrechas: lo da el ajuste de la silueta del
+# dibujo a la de la referencia)
+WIDE = {'heterocera': 1.08, 'formiga': 1.08, 'mantodea': 1.04, 'lepidoptera': 1.08, 'caelif': 1.08, 'lucan': 1.08, 'banda-crix': 1.08,
+        'vespa': 1.08, 'schisto': 1.08, 'elater-clicka': 1.08, 'sect-pheromona': 1.08, 'theraphos-tranchla': 1.04}
+_cur = [None]
+
+
 def T(cx, ey, s, ex=50, k=1.0, vy=None, ev=75):
     """Píxeles de la referencia -> unidades de cabeza (s: px por unidad en horizontal; vy: en vertical)."""
     vy = vy or 0.776 * s
+    s = s / WIDE.get(_cur[0], 1.0)
 
     def f(pts):
         return [(round(ex + (p[0] - cx) / (s * k), 1), round(ev + (p[1] - ey) / vy, 1)) + tuple(p[2:]) for p in pts]
@@ -48,9 +56,10 @@ def mirror(pts, cx):
 # Capucha verde azulada larguísima acabada en pico arriba (inclinado a un lado) que le cae hasta los hombros y se abre en
 # puntas; por la abertura asoma la cara color menta con dos placas grises bajo los ojos morados, y por los lados le cuelgan
 # dos hebras claras
-F = T(364, 193, 2.1, vy=2.1)
-Sd = T(392, 192, 2.1, ex=80, k=0.845, vy=2.1)
-B = T(372, 193, 2.1, vy=2.1)
+_cur[0] = 'ceram'
+F = T(364, 193, 2.1, vy=2.85)
+Sd = T(392, 192, 2.1, ex=80, k=0.845, vy=2.85)
+B = T(372, 193, 2.1, vy=2.85)
 views('ceram', F, Sd, B)
 CHARS['ceram'] = {
     'body': 'normal', 'pal': pal('#3e8484', '#c4ead8', iris='#9a6ab8', shade='#2c5e62', deep='#22484c', plate='#9aa2aa', thread='#ecdccc'),
@@ -81,9 +90,10 @@ CHARS['ceram'] = {
 # ------------------------------------------------------------------ Romborina Drohn (Dron Naboon)
 # Yelmo granate con dos cuernos altísimos, manchas crema y una placa gris en pico que baja por la nariz; la cara de abajo,
 # verde agua, con la boca granate
-F = T(345, 183, 1.77, vy=2.3)
-Sd = T(395, 182, 1.77, ex=80, k=0.845, vy=2.3)
-B = T(345, 183, 1.77, vy=2.3)
+_cur[0] = 'romborina-drohn'
+F = T(345, 183, 1.77, vy=3.0)
+Sd = T(395, 182, 1.77, ex=80, k=0.845, vy=3.0)
+B = T(345, 183, 1.77, vy=3.0)
 views('romborina-drohn', F, Sd, B)
 CHARS['romborina-drohn'] = {
     'body': 'normal', 'pal': pal('#a83058', '#88c4ac', iris='#1e1e1e', shade='#7a2040', deep='#5a1830', cream='#f0e0d0', grey='#9aa0aa',
@@ -110,9 +120,10 @@ CHARS['romborina-drohn'] = {
 # ------------------------------------------------------------------ Heterocera (Moth Gar)
 # Yelmo dorado en cono con una cresta morada arriba, dos colmillos blancos curvos hacia los lados y faldones dorados que le
 # caen hasta los hombros; la visera baja en pico hasta la nariz, cara gris y ojos rojos
-F = T(351, 213, 1.5, vy=2.0)
-Sd = T(410, 210, 1.5, ex=80, k=0.845, vy=2.0)
-B = T(376, 213, 1.5, vy=2.0)
+_cur[0] = 'heterocera'
+F = T(351, 213, 1.5, vy=2.05)
+Sd = T(410, 210, 1.5, ex=80, k=0.845, vy=2.05)
+B = T(376, 213, 1.5, vy=2.05)
 views('heterocera', F, Sd, B)
 CHARS['heterocera'] = {
     'body': 'normal', 'pal': pal('#e0b028', '#a8aab4', iris='#d02020', shade='#b88818', deep='#8a6410', purple='#7a3aa0', tusk='#e6e6ee'),
@@ -144,9 +155,10 @@ CHARS['heterocera'] = {
 # ------------------------------------------------------------------ Formiga (Antwa Arley)
 # Casco verde redondo con dos cuernos crema enormes que salen de la frente y se curvan hacia fuera, dos puntos rojos en la
 # frente; carita blanca de ojos rojos grandes
-F = T(336, 232, 1.15, vy=1.05)
-Sd = T(382, 230, 1.15, ex=80, k=0.845, vy=1.05)
-B = T(345, 232, 1.15, vy=1.05)
+_cur[0] = 'formiga'
+F = T(336, 232, 1.15, vy=1.32)
+Sd = T(382, 230, 1.15, ex=80, k=0.845, vy=1.32)
+B = T(345, 232, 1.15, vy=1.32)
 views('formiga', F, Sd, B)
 CHARS['formiga'] = {
     'body': 'chica', 'pal': pal('#5cb898', '#f6f6f8', iris='#d0201e', shade='#3e8a70', deep='#2e6a54', horn='#ece4d8', horn_d='#9a7a6a', red='#c81e1e'),
@@ -174,9 +186,10 @@ CHARS['formiga'] = {
 # ------------------------------------------------------------------ Mantodea (Tis Khama)
 # Capucha amarilla pálida en punta con dos picos a los lados, que por detrás se vuelve parda; ojos compuestos enormes verde
 # agua con rejilla y dos trenzas amarillas retorcidas a los lados de la carita rosada
-F = T(352, 213, 2.0, vy=1.8)
-Sd = T(430, 213, 2.0, ex=80, k=0.845, vy=1.8)
-B = T(352, 213, 2.0, vy=1.8)
+_cur[0] = 'mantodea'
+F = T(352, 213, 2.0, vy=2.0)
+Sd = T(430, 213, 2.0, ex=80, k=0.845, vy=2.0)
+B = T(352, 213, 2.0, vy=2.0)
 views('mantodea', F, Sd, B)
 _eye = '#90d8c8'
 CHARS['mantodea'] = {
@@ -208,9 +221,10 @@ CHARS['mantodea'] = {
 # ------------------------------------------------------------------ Lepidoptera (Putterf Chocho)
 # Pelo rosa en forma de flor, con dos «alas» de mariposa enormes abiertas a los lados (con una línea oscura), dos antenas
 # azul oscuro en horquilla y una diadema crema; cara blanca de ojos amarillos y un mechón rosa que le cruza la cara
-F = T(314, 205, 1.6, vy=1.7)
-Sd = T(410, 200, 1.6, ex=80, k=0.845, vy=1.7)
-B = T(358, 205, 1.6, vy=1.7)
+_cur[0] = 'lepidoptera'
+F = T(314, 205, 1.6, vy=1.84)
+Sd = T(410, 200, 1.6, ex=80, k=0.845, vy=1.84)
+B = T(358, 205, 1.6, vy=1.84)
 views('lepidoptera', F, Sd, B)
 _wl = [(248, 145), (205, 140), (160, 148, 1), (165, 190), (190, 222), (225, 232), (250, 220)]
 _wb = [(300, 150), (255, 145), (210, 150, 1), (215, 195), (240, 230), (275, 240), (300, 225)]
@@ -242,14 +256,15 @@ CHARS['lepidoptera'] = {
 # ------------------------------------------------------------------ Caelif (Hopper Bata)
 # Casco facetado verde agua que le hace de máscara, con dos ojos blancos grandes de pupila negra, la mandíbula gris y un
 # pico amarillo; dos antenas largas blancas de punta negra hacia arriba y mechones blancos y rosados que caen a los hombros
-F = T(332, 197, 1.65, vy=1.75)
-Sd = T(412, 198, 1.65, ex=80, k=0.845, vy=1.75)
-B = T(350, 197, 1.65, vy=1.75)
+_cur[0] = 'caelif'
+F = T(332, 197, 1.65, vy=2.2)
+Sd = T(412, 198, 1.65, ex=80, k=0.845, vy=2.2)
+B = T(350, 197, 1.65, vy=2.2)
 views('caelif', F, Sd, B)
 CHARS['caelif'] = {
     'body': 'normal', 'pal': pal('#7cc0b4', '#7cc0b4', iris='#1e1e1e', shade='#5a8a84', deep='#4a5a5c', jaw='#8a9098', beak='#f0c020', hairw='#ece8ec',
                                  hairp='#e0b4b0', ant='#f0eef0'),
-    'face': {'eyes': 'round', 'brows': False, 'mouth': 'none', 'ears': False, 'eye_sep': 24, 'hairline': False,
+    'face': {'eyes': 'none', 'brows': False, 'mouth': 'none', 'ears': False, 'hairline': False,
              'face_front': outline(F([(268, 175), (396, 175), (392, 250), (360, 268), (332, 278), (304, 268), (272, 250)])),
              'face_side': outline(Sd([(375, 175), (420, 180), (425, 230), (412, 255), (390, 258), (372, 230)]))},
     'front': [O(F, [(270, 220), (262, 300, 1), (290, 270), (298, 230)], 'hairw'), O(F, [(394, 220), (402, 300, 1), (374, 270), (366, 230)], 'hairw'),
@@ -260,13 +275,16 @@ CHARS['caelif'] = {
               O(F, [(268, 172), (300, 150), (332, 160), (364, 150), (396, 172), (380, 182), (332, 176), (284, 182)], 'mid', 'f', ln=True),
               O(F, [(278, 228), (386, 228), (382, 252), (360, 268), (332, 276), (304, 268), (282, 252)], 'jaw', 'f', ln=True),
               O(F, [(318, 262), (346, 262), (332, 280, 1)], 'beak', 'f', ln=True),
+              O(F, [(276, 185), (300, 180), (312, 200), (300, 214), (278, 208)], WHITE, 'f', ln=True), O(F, [(388, 185), (364, 180), (352, 200), (364, 214), (386, 208)], WHITE, 'f', ln=True),
+              E(F, 296, 198, 5, 8, OUTC, ln=False), E(F, 368, 198, 5, 8, OUTC, ln=False),
               S(F, [(300, 100), (290, 150)], 'shade', 'f', 1.0), S(F, [(364, 100), (374, 150)], 'shade', 'f', 1.0)],
     'side': [O(Sd, [(330, 180), (300, 260), (282, 330, 1), (340, 320), (370, 260), (360, 200)], 'hairw'),
              O(Sd, [(316, 220), (300, 300, 1), (330, 290)], 'hairp'),
              O(Sd, [(362, 105), (350, 40), (338, -10, 1), (360, 40), (375, 100)], 'ant', 'b', ln=True),
              O(Sd, [(330, 95), (395, 100), (420, 140), (425, 180), (415, 232), (395, 252), (360, 242), (330, 252), (320, 180)]),
              O(Sd, [(380, 225), (425, 225), (418, 250), (396, 258), (382, 248)], 'jaw', 'f', ln=True),
-             O(Sd, [(418, 250), (432, 260, 1), (416, 266)], 'beak', 'f', ln=True)],
+             O(Sd, [(418, 250), (432, 260, 1), (416, 266)], 'beak', 'f', ln=True),
+             O(Sd, [(400, 186), (420, 182), (424, 202), (406, 212)], WHITE, 'f', ln=True), E(Sd, 415, 198, 4, 7, OUTC, ln=False)],
     'back': [O(B, [(290, 160), (410, 160), (430, 330, 1), (390, 310), (350, 324), (310, 310), (270, 330, 1)], 'hairw'),
              O(B, [(330, 180), (370, 180), (380, 300), (350, 314), (320, 300)], 'hairp', 'b', False),
              O(B, [(318, 110), (300, 50), (290, -10, 1), (312, 40), (330, 104)], 'ant', 'b', ln=True),
@@ -277,11 +295,12 @@ CHARS['caelif'] = {
 # ------------------------------------------------------------------ Lucan (Stag Kuwatta)
 # Yelmo facetado negro pardo que le cubre la cabeza y baja en pico por la cara, con ranuras de ojos blancas; dos pinzas de
 # ciervo volante larguísimas, crema, hacia arriba, y mechones rosados que le caen por detrás hasta los hombros
-F = T(318, 190, 1.55, vy=1.8)
-Sd = T(393, 193, 1.55, ex=80, k=0.845, vy=1.8)
-B = T(330, 190, 1.55, vy=1.8)
+_cur[0] = 'lucan'
+F = T(318, 190, 1.55, vy=2.1)
+Sd = T(393, 193, 1.55, ex=80, k=0.845, vy=2.1)
+B = T(330, 190, 1.55, vy=2.1)
 views('lucan', F, Sd, B)
-_pinz = [(262, 150), (252, 80), (244, -10, 1), (258, 40), (262, 70), (272, 60, 1), (268, 90), (276, 148)]
+_pinz = [(262, 150), (250, 70), (238, -40, 1), (256, 20), (262, 55), (274, 42, 1), (268, 85), (276, 148)]
 CHARS['lucan'] = {
     'body': 'normal', 'pal': pal('#3a3434', '#9aa0a8', iris='#1e1e1e', shade='#262222', light='#5a5450', deep='#1a1616', pincer='#ece0cc', hairp='#e8b0a0'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 98, 'ears': False, 'eye_sep': 17, 'hairline': False,
@@ -310,9 +329,10 @@ CHARS['lucan'] = {
 # ------------------------------------------------------------------ Banda Crix (Banda Koroegyu) y Banda Crix Junior
 # Casco azul marino redondo con una cresta central y dos cuernos curvos, rodeado por dos bandas crema en forma de C a los
 # lados de la cara; máscara azul marino con ojos rojos y la cara de abajo gris. Junior tiene el mismo modelo
-F = T(337, 213, 1.45, vy=1.4)
-Sd = T(378, 210, 1.45, ex=80, k=0.845, vy=1.4)
-B = T(335, 213, 1.45, vy=1.4)
+_cur[0] = 'banda-crix'
+F = T(337, 213, 1.45, vy=1.75)
+Sd = T(378, 210, 1.45, ex=80, k=0.845, vy=1.75)
+B = T(335, 213, 1.45, vy=1.75)
 views('banda-crix', F, Sd, B)
 _horn = [(290, 130), (268, 90), (275, 45, 1), (300, 90), (310, 115)]
 CHARS['banda-crix'] = {
@@ -345,9 +365,10 @@ ANCH['banda-crix-junior'] = ANCH['banda-crix']
 # ------------------------------------------------------------------ Vespa (Honet Harcha)
 # Pelo azul lavanda en capucha con flequillo de mechones, dos cuernos negros curvos hacia arriba, una gema dorada en la
 # frente; cara pálida de ojos amarillos y sonrisa
-F = T(326, 208, 1.4, vy=1.6)
-Sd = T(398, 208, 1.4, ex=80, k=0.845, vy=1.6)
-B = T(330, 208, 1.4, vy=1.6)
+_cur[0] = 'vespa'
+F = T(326, 208, 1.4, vy=1.74)
+Sd = T(398, 208, 1.4, ex=80, k=0.845, vy=1.74)
+B = T(330, 208, 1.4, vy=1.74)
 views('vespa', F, Sd, B)
 _vh = [(300, 162), (276, 120), (255, 45, 1), (288, 108), (312, 152)]
 CHARS['vespa'] = {
@@ -376,9 +397,10 @@ CHARS['vespa'] = {
 # ------------------------------------------------------------------ Schisto (Locus Inagus)
 # Capucha gris parda con una máscara crema en rombo sobre la frente y la nariz y dos cuernecillos curvos; por debajo le
 # asoma una melena granate oscura que le cae por detrás y a los lados; cara pálida de ojos turquesa
-F = T(337, 238, 1.45, vy=1.35)
-Sd = T(422, 240, 1.45, ex=80, k=0.845, vy=1.35)
-B = T(340, 238, 1.45, vy=1.35)
+_cur[0] = 'schisto'
+F = T(337, 238, 1.45, vy=1.6)
+Sd = T(422, 240, 1.45, ex=80, k=0.845, vy=1.6)
+B = T(340, 238, 1.45, vy=1.6)
 views('schisto', F, Sd, B)
 CHARS['schisto'] = {
     'body': 'normal', 'pal': pal('#b0a498', '#f4e8ec', iris='#20a0b8', shade='#8a7e74', deep='#6a5e56', mask='#f0ead8', red='#8a2438', red_d='#5e1a28'),
@@ -404,6 +426,7 @@ CHARS['schisto'] = {
 # ------------------------------------------------------------------ Elater Clicka (Komecky Shoryou)
 # Saltamontes: gorra verde con arrugas oscuras y dos antenas, cara larguísima verde agua con ojos redondos amarillos a los
 # lados, arrugas en las mejillas, dos dientes blancos y unas placas verdes que le cuelgan por los lados de la cara
+_cur[0] = 'elater-clicka'
 F = T(338, 130, 1.25, vy=2.3, ev=55)
 Sd = T(412, 130, 1.25, ex=80, k=0.845, vy=2.3, ev=55)
 B = T(360, 130, 1.25, vy=2.3, ev=55)
@@ -439,9 +462,10 @@ CHARS['elater-clicka'] = {
 # ------------------------------------------------------------------ Sect Pheromona (Shimur Pheromona)
 # Melena crema rosada en pétalos anchos que se abren a los lados, con flequillo en pico y dos antenas finas curvas; por
 # detrás le baja una trenza; cara rosada de ojos rojos
-F = T(346, 213, 1.6, vy=1.45)
-Sd = T(428, 212, 1.6, ex=80, k=0.845, vy=1.45)
-B = T(380, 213, 1.6, vy=1.45)
+_cur[0] = 'sect-pheromona'
+F = T(346, 213, 1.6, vy=1.7)
+Sd = T(428, 212, 1.6, ex=80, k=0.845, vy=1.7)
+B = T(380, 213, 1.6, vy=1.7)
 views('sect-pheromona', F, Sd, B)
 CHARS['sect-pheromona'] = {
     'body': 'chica', 'pal': pal('#f0dcc8', '#f6e0e8', iris='#c81e2a', shade='#c89888', deep='#9a6a5a', ant='#c89880'),
@@ -471,9 +495,10 @@ CHARS['sect-pheromona'] = {
 # ------------------------------------------------------------------ Theraphos Tranchla (Tarran Tulakumo)
 # Tarántula: casco abombado morado oscuro con ojillos rojos en fila arriba y dos grandes delante, y unas «patas» largas gris
 # azulado que le caen en arco por los lados hasta los hombros; cara blanca con marcas grises y sonrisa de dientes
-F = T(345, 205, 1.45, vy=1.6)
-Sd = T(412, 205, 1.45, ex=80, k=0.845, vy=1.6)
-B = T(380, 205, 1.45, vy=1.6)
+_cur[0] = 'theraphos-tranchla'
+F = T(345, 205, 1.45, vy=1.84)
+Sd = T(412, 205, 1.45, ex=80, k=0.845, vy=1.84)
+B = T(380, 205, 1.45, vy=1.84)
 views('theraphos-tranchla', F, Sd, B)
 _leg1 = [(285, 118), (270, 160), (262, 302, 1), (280, 302), (292, 168)]
 _leg2 = [(302, 140), (294, 200), (292, 302, 1), (306, 302), (312, 190)]

@@ -724,13 +724,21 @@ import chars_cs_zanark_domain  # noqa: E402,F401
 import chars_cs_inazuma_legend_japan  # noqa: E402,F401
 import chars_cs_mixi  # noqa: E402,F401
 
-# equipos de Galaxy (en curso: si uno falla al cargar, se avisa y se siguen cargando los demás)
-import importlib as _il  # noqa: E402
-for _m in ['chars_gx_big_bang', 'chars_gx_big_waves_go', 'chars_gx_earth_eleven', 'chars_gx_faram_dite', 'chars_gx_fire_dragon_go', 'chars_gx_gurdon_eleven', 'chars_gx_inside_silver', 'chars_gx_ixal_fleet', 'chars_gx_mach_tiger', 'chars_gx_ratoniik_eleven', 'chars_gx_sandorius_eleven', 'chars_gx_sazanaara_eleven', 'chars_gx_shamshir', 'chars_gx_storm_wolf', 'chars_gx_supernova']:
-    try:
-        _il.import_module(_m)
-    except Exception as _e:  # noqa: BLE001
-        print(f"[chars] {_m}: {_e!r}")
+import chars_gx_big_bang  # noqa: E402,F401
+import chars_gx_big_waves_go  # noqa: E402,F401
+import chars_gx_earth_eleven  # noqa: E402,F401
+import chars_gx_faram_dite  # noqa: E402,F401
+import chars_gx_fire_dragon_go  # noqa: E402,F401
+import chars_gx_gurdon_eleven  # noqa: E402,F401
+import chars_gx_inside_silver  # noqa: E402,F401
+import chars_gx_ixal_fleet  # noqa: E402,F401
+import chars_gx_mach_tiger  # noqa: E402,F401
+import chars_gx_ratoniik_eleven  # noqa: E402,F401
+import chars_gx_sandorius_eleven  # noqa: E402,F401
+import chars_gx_sazanaara_eleven  # noqa: E402,F401
+import chars_gx_shamshir  # noqa: E402,F401
+import chars_gx_storm_wolf  # noqa: E402,F401
+import chars_gx_supernova  # noqa: E402,F401
 
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):

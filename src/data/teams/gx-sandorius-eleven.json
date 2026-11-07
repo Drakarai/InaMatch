@@ -5,10 +5,22 @@
  "name": "Los Sílice",
  "short": "SAN",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#5a3a8a"
+  "shirt": "#e8c428",
+  "shorts": "#6a6250",
+  "gkShirt": "#a8241a",
+  "accent": "#2a2a2a",
+  "sleeve": "#5e5a4c",
+  "socks": "#e8c428",
+  "gkShorts": "#6a6250",
+  "gkSleeve": "#5e5a4c",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "longPants": true,
+  "gkLongPants": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#a8241a",
+  "collar": "#3a3630",
+  "num": "#1e1e1e"
  },
  "formation": "f-iron-shell",
  "players": [

@@ -251,6 +251,10 @@ STYLE = {
     'Faram Dite': ('#5a2c9c', '#5a2c9c', '#2c2832', '#e8d860', '#5a2c9c', '#1e1e24', '#2c2832', '#2c2832', {'gkLongSleeve': True, 'gkGloves': '#6a34b0', 'gkSocks': '#4a1e34', 'longPants': True, 'pants': '#1e1e24', 'collar': '#f0f0f0', 'num': '#e8d860', 'stripe': '#b8a0e0'}),
     # Flota Ixar: casaca azul noche de manga larga con ribetes rojos, mallas azul noche; portero con la casaca blanca
     'Ixal Fleet': ('#2c3248', '#2c3248', '#f0ecec', '#c81e24', '#2c3248', '#f0ecec', '#1e1e22', '#f0ecec', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e1e22', 'gkSocks': '#f0ecec', 'longPants': True, 'pants': '#262b3e', 'collar': '#c81e24', 'num': '#c81e24', 'stripe': '#c81e24'}),
+    # Fertilia: armadura azul de mangas largas negras, pantalón y medias azules; portero con armadura granate
+    'Ratoniik Eleven': ('#4a5aa0', '#3e4a8a', '#9a2e2a', '#7a3a6a', '#1e1e26', '#4a5aa0', '#9a2e2a', '#1e1e26', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#9a2e2a', 'collar': '#1e1e26', 'num': '#f0dcdc'}),
+    # Sílice: túnica amarilla con mangas largas gris pardo y bombachos gris pardo; portero de rojo
+    'Sandorius Eleven': ('#e8c428', '#6a6250', '#a8241a', '#2a2a2a', '#5e5a4c', '#e8c428', '#6a6250', '#5e5a4c', {'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#a8241a', 'collar': '#3a3630', 'num': '#1e1e1e'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

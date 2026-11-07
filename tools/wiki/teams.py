@@ -273,6 +273,10 @@ STYLE = {
     'Inakuni Raimon': ('#f2c432', '#1e8a8c', '#6a2a86', '#1e8a8c', '#1e8a8c', '#1e8a8c', '#6a2a86', '#9aa6e6', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#9aa6e6', 'collar': '#f2c432', 'num': '#1e8a8c', 'stripe': '#f2c432'}),
     # Ribera: camiseta verde con mangas blancas, pantalón gris oscuro y medias verdes; portero naranja de manga larga
     'Tonegawa Tousen': ('#2aae2a', '#3a3440', '#f2a050', '#3a3440', '#f2ecec', '#2aae2a', '#1e6a6a', '#f2a050', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#f4f4f4', 'collar': '#3a3440', 'num': '#f2ecec'}),
+    # Royal Academy (Ares): camiseta verde militar con franja roja al hombro, pantalón caqui y medias blancas; portero naranja de manga larga
+    'Teikoku Gakuen (Ares)': ('#3c6a52', '#8a6c38', '#f08a24', '#c8202a', '#3c6a52', '#f0eee8', '#4a4436', '#f08a24', {'gkLongSleeve': True, 'gkGloves': '#6a4aa0', 'gkSocks': '#6a4aa0', 'stripe': '#c8202a', 'num': '#c8202a'}),
+    # Polaris (Seishou): camiseta negra con mangas raglán beis, pantalón negro y medias azul marino; portero azul marino de manga larga
+    'Seishou Gakuen': ('#1e1e26', '#1e1e26', '#26305a', '#d8c090', '#d8c090', '#22305a', '#e8e4f0', '#26305a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#22305a', 'collar': '#d8c090', 'num': '#d8c090'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

@@ -207,6 +207,14 @@ STYLE = {
     'Zan': ('#9a1e24', '#1e1a1e', '#e8dcec', '#c8a040', '#1e1a1e', '#1e1a1e', '#1e3048', '#1e3048', {'longSleeve': True, 'longPants': True, 'gkLongSleeve': True, 'gkLongPants': True, 'gkGloves': '#2a5ac8', 'gkSocks': '#1e3048', 'collar': '#c8a040', 'num': '#c8a040'}),
     # Zanark Domain: camiseta negra de manga larga roja con detalles dorados, pantalón negro y medias rojas; portero azul marino con mangas largas blancas
     'Zanark Domain': ('#1e1a22', '#1e1a22', '#1e2a8a', '#e0b030', '#c81e24', '#c81e24', '#1e2a8a', '#f0f0f0', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#1e1e1e', 'gkSocks': '#f0f0f0', 'collar': '#e0b030', 'num': '#e0b030', 'stripe': '#e0b030'}),
+    # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
+    'Protocol Omega': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
+    # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
+    'Protocol Omega 2.0': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
+    # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
+    'Protocol Omega 3.0': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
+    # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
+    'El Dorado Team 02': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

@@ -5,10 +5,19 @@
  "name": "El Dorado Equipo 02",
  "short": "EDT",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#c8202f"
+  "shirt": "#1e1e3e",
+  "shorts": "#1e1e3e",
+  "gkShirt": "#c0408a",
+  "accent": "#f0e2e8",
+  "sleeve": "#5a6270",
+  "socks": "#e8e6ee",
+  "gkShorts": "#c0408a",
+  "gkSleeve": "#26203a",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#3a6ab0",
+  "gkSocks": "#e8e6ee",
+  "collar": "#f0e2e8"
  },
  "formation": "f-beta",
  "players": [

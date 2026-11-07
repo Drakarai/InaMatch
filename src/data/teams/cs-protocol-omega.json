@@ -5,10 +5,19 @@
  "name": "Protocolo Omega",
  "short": "PRO",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#1e1e3e",
+  "shorts": "#1e1e3e",
+  "gkShirt": "#c0408a",
+  "accent": "#f0e2e8",
+  "sleeve": "#5a6270",
+  "socks": "#e8e6ee",
+  "gkShorts": "#c0408a",
+  "gkSleeve": "#26203a",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#3a6ab0",
+  "gkSocks": "#e8e6ee",
+  "collar": "#f0e2e8"
  },
  "formation": "f-alpha",
  "players": [

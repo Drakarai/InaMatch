@@ -2,7 +2,7 @@ import Phaser from 'phaser';
 import { audio } from '../audio/engine';
 import { TEAMS } from '../data';
 import { makeFxTextures } from '../gfx/fx';
-import { bootPack } from '../gfx/pack';
+import { bootPack, loadVspritePack } from '../gfx/pack';
 import { makeBall, makeEmblem } from '../gfx/placeholders';
 import { ensureClub } from '../club/club';
 import { applyClubCrest } from '../club/crests';
@@ -33,7 +33,15 @@ export class BootScene extends Phaser.Scene {
     audio.init(this.game);
     // "Mi club": la primera vez se reparte la plantilla inicial (hace falta la lista de ojeadores)
     const loading = this.add.text(640, 360, '', {}).setVisible(false); // la pantalla de carga es la de index.html
-    ensureClub()
+    loadVspritePack()
+      .then((pack) => new Promise<void>((resolve) => {
+        // los sprites dibujados: cada temporada en su archivo JS, que se pide ahora
+        for (const { key, url } of pack) this.load.image(key, url);
+        this.load.once(Phaser.Loader.Events.COMPLETE, () => resolve());
+        this.load.start();
+      }))
+      .catch((err) => console.warn('[pack] no se pudieron cargar los sprites dibujados', err))
+      .then(() => ensureClub())
       .then((save) => new Promise<void>((resolve) => applyClubCrest(this, save.crest, resolve)))
       .catch((err) => console.warn('[club] no se pudo preparar el club', err))
       .then(() => {

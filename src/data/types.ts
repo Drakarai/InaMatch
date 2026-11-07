@@ -122,4 +122,6 @@ export interface Formation {
   layout: string;
   /** Otros nombres de la wiki con la misma colocación (formaciones juntadas). */
   also?: string[];
+  /** Genérica (solo por distribución, sin datos de la wiki): no sale como premio. */
+  generic?: boolean;
 }

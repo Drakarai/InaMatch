@@ -1,8 +1,8 @@
-import { MOVES, upsertTeam } from '../data';
+import { getTeam, MOVES, upsertTeam } from '../data';
 import type { MoveData } from '../data/types';
 import type { PlayerData, Position, TeamData } from '../data/types';
 import { byPosition, cardByKey, cardForStaleKey, loadPool, RARITY, type Card, type Rarity } from './pool';
-import { getFormation } from '../data/formations';
+import { FORMATIONS, formationId, getFormation } from '../data/formations';
 import { playerOverall } from '../engine/rating';
 import crestList from '../data/crests.json';
 
@@ -31,6 +31,8 @@ export interface ClubSave {
   /** Escudos conseguidos (id de src/data/crests.json) y el que lleva el club. */
   crests?: string[];
   crest?: string;
+  /** Formaciones conseguidas (id de src/data/formations.json): se pueden usar con cualquier equipo. */
+  formations?: string[];
 }
 
 export const BASE_SLOTS = 4;
@@ -62,7 +64,8 @@ const CREST_IDS: string[] = (crestList as { id: string }[]).map((c) => c.id);
 
 /** Huecos de la plantilla inicial (4-4-2 y banquillo). */
 const START_SLOTS: Position[] = ['GK', 'DF', 'DF', 'DF', 'DF', 'MF', 'MF', 'MF', 'MF', 'FW', 'FW', 'GK', 'DF', 'MF', 'FW', 'MF'];
-const START_FORMATION = 'f-4-4-2';
+/** La formación del Raimon de IE1 (F-Basic): la del club al empezar y la primera conseguida. */
+export const START_FORMATION = 'f-basic-ie3';
 
 let memory: ClubSave | null = null;
 const listeners: (() => void)[] = [];
@@ -120,6 +123,31 @@ function withStartCrests(save: ClubSave): ClubSave {
   return { ...save, crests, crest };
 }
 
+/** Formaciones que se pueden ganar: las de la wiki (no las genéricas por distribución). */
+const PRIZE_FORMATIONS = (): string[] => FORMATIONS.filter((f) => !f.generic).map((f) => f.id);
+
+/** La formación inicial y la que lleve el club (las partidas de antes de que hubiera premios conservan la suya). */
+function withStartFormations(save: ClubSave): ClubSave {
+  const owned = new Set((save.formations ?? []).map(formationId));
+  owned.add(START_FORMATION);
+  owned.add(formationId(save.formation));
+  return { ...save, formations: [...owned], formation: formationId(save.formation) };
+}
+
+/** Las formaciones que puede usar un equipo: las conseguidas y, si no es Mi club, la suya propia. */
+export function availableFormations(teamId: string): Set<string> {
+  const save = loadClub();
+  const out = new Set((save?.formations ?? [START_FORMATION]).map(formationId));
+  if (teamId !== 'club') {
+    try {
+      out.add(formationId(getTeam(teamId).formation));
+    } catch {
+      // equipo desconocido
+    }
+  }
+  return out;
+}
+
 /** Cambia el escudo del club (uno de los conseguidos). */
 export function setCrest(save: ClubSave, id: string): void {
   if (!(save.crests ?? []).includes(id)) return;
@@ -151,7 +179,7 @@ export async function ensureClub(): Promise<ClubSave> {
   let save = loadClub();
   if (save) {
     // jugadores cuyo equipo de origen ya no está: el mismo personaje en otro equipo, si sale en alguno
-    save = withStartCrests(save);
+    save = withStartFormations(withStartCrests(save));
     const remap = (k: string) => (cardByKey(k) ? k : (cardForStaleKey(k)?.key ?? k));
     save.squad = save.squad.map(remap);
     save.owned = [...new Set(save.owned.map(remap))];
@@ -166,7 +194,7 @@ export async function ensureClub(): Promise<ClubSave> {
     }
   } else {
     const squad = starterSquad(pool);
-    save = withStartCrests({ v: 1, name: 'Mi club', coins: START_COINS, owned: [...squad], squad, formation: START_FORMATION, pulls: 0 });
+    save = withStartFormations(withStartCrests({ v: 1, name: 'Mi club', coins: START_COINS, owned: [...squad], squad, formation: START_FORMATION, pulls: 0 }));
     saveClub(save);
   }
   upsertTeam(clubTeam(save));
@@ -246,6 +274,8 @@ export interface MatchReward {
   coins: number;
   /** Escudo nuevo ganado con la victoria. */
   crest?: string;
+  /** Formación nueva ganada con la victoria. */
+  formation?: string;
   rankS: boolean;
   /** Cuaderno del rango S. */
   notebook?: MoveData;
@@ -265,6 +295,13 @@ export function rewardMatch(goalsFor: number, goalsAgainst: number, withClub: bo
     if (crest) {
       next.crests = [...(save.crests ?? []), crest];
       reward.crest = crest;
+    } else coins += CREST_FULL_COINS;
+    const have = new Set((save.formations ?? []).map(formationId));
+    const left = PRIZE_FORMATIONS().filter((id) => !have.has(id));
+    if (left.length) {
+      const f = pickOne(left);
+      next.formations = [...have, f];
+      reward.formation = f;
     } else coins += CREST_FULL_COINS;
   }
   if (goalsFor >= RANK_S.goals && goalsAgainst === 0) {

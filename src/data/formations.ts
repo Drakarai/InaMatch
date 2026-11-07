@@ -31,11 +31,14 @@ export function formationFromLayout(id: string, name: string, layout: string): F
  */
 type FormationEntry = { id: string; name: string; layout: string; slots?: FormationSlot[]; also?: string[] };
 export const FORMATIONS: Formation[] = (generated as FormationEntry[]).map((f) =>
-  f.slots ? { id: f.id, name: f.name, slots: f.slots, layout: f.layout, also: f.also } : { ...formationFromLayout(f.id, f.name, f.layout), layout: f.layout },
+  f.slots ? { id: f.id, name: f.name, slots: f.slots, layout: f.layout, also: f.also } : { ...formationFromLayout(f.id, f.name, f.layout), layout: f.layout, generic: true },
 );
 
 /** Ids que ya no existen (formaciones juntadas o hechas a mano antes): para las partidas guardadas. */
 const ALIASES = aliases as Record<string, string>;
+
+/** El id actual de una formación (los antiguos, por su alias). */
+export const formationId = (id: string): string => ALIASES[id] ?? id;
 
 export function getFormation(id: string): Formation {
   const real = ALIASES[id] ?? id;

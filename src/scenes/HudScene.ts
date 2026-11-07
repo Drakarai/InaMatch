@@ -21,6 +21,7 @@ import { fxColors, fxParticle, type FxRecipe } from '../gfx/fx';
 import { portraitKey, texKey } from '../gfx/placeholders';
 import type { MatchPlayer } from '../match/MatchPlayer';
 import { RANK_S, type MatchReward } from '../club/club';
+import { getFormation } from '../data/formations';
 import { crestById, crestKey, loadCrests } from '../club/crests';
 import { cardPanel, chip, confirmDialog, dim, fitCamera, glow, pt, sectionTitle, slant, THEME, themePanel } from '../ui/theme';
 import { Button, StatBar, display, fitWidth, label, text } from '../ui/widgets';
@@ -957,7 +958,7 @@ export class HudScene extends Phaser.Scene {
 
   /** Premios del partido: monedas, el escudo nuevo (si se ha ganado) y el rango S (5-0). */
   private showReward(c: Phaser.GameObjects.Container, reward: MatchReward, W: number): void {
-    const chips: Phaser.GameObjects.Container[] = [chip(this, 0, 548, `+${reward.coins} monedas para Mi club`, THEME.yellow, { size: 13, h: 26, padX: 12 })];
+    const chips: Phaser.GameObjects.Container[] = [chip(this, 0, 548, reward.rankS ? `+${reward.coins} monedas (${RANK_S.coins} del rango S)` : `+${reward.coins} monedas para Mi club`, THEME.yellow, { size: 13, h: 26, padX: 12 })];
     if (reward.notebook) chips.push(chip(this, 0, 548, `Cuaderno de regalo: ${reward.notebook.name}`, 0x7a5aa8, { size: 13, h: 26, padX: 12 }));
     const total = chips.reduce((acc, ch) => acc + ch.width, 0) + (chips.length - 1) * 10;
     let x = W / 2 - total / 2;
@@ -968,7 +969,7 @@ export class HudScene extends Phaser.Scene {
     }
     if (reward.rankS) {
       // sello de rango S junto al veredicto
-      const stamp = this.add.container(W / 2 + 250, 494).setAngle(-12);
+      const stamp = this.add.container(W / 2 + 205, 494).setAngle(-12);
       const g = this.add.graphics();
       g.fillStyle(0x000000, 0.35).fillCircle(4, 6, 46);
       g.fillStyle(THEME.yellow).fillCircle(0, 0, 46);
@@ -979,7 +980,27 @@ export class HudScene extends Phaser.Scene {
       c.add(stamp);
       stamp.setScale(2.4).setAlpha(0);
       this.tweens.add({ targets: stamp, scale: 1, alpha: 1, duration: 420, ease: 'Back.Out', delay: 300 });
-      c.add(label(this, W / 2 + 250, 556, `+${RANK_S.coins} extra`, 12, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5));
+    }
+    const form = reward.formation ? getFormation(reward.formation) : undefined;
+    if (form) {
+      // la formación nueva: su colocación en un campo pequeño (ataque hacia arriba)
+      const fx = W - 82;
+      const box = this.add.container(fx, 512);
+      c.add(box);
+      box.add(label(this, 0, -62, '¡FORMACIÓN NUEVA!', 13, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5));
+      const pw = 58;
+      const ph = 80;
+      const g = this.add.graphics();
+      g.fillStyle(0x2f7d3e, 1).fillRoundedRect(-pw / 2, -ph / 2 - 6, pw, ph, 6);
+      g.lineStyle(1, 0xffffff, 0.4).strokeRoundedRect(-pw / 2, -ph / 2 - 6, pw, ph, 6).lineBetween(-pw / 2 + 3, -6, pw / 2 - 3, -6);
+      for (const sl of form.slots) {
+        const col = sl.pos === 'GK' ? 0xffffff : sl.pos === 'DF' ? 0x4f9bff : sl.pos === 'MF' ? 0xffb02e : 0xff5050;
+        g.fillStyle(col, 1).fillCircle(-pw / 2 + 5 + sl.x * (pw - 10), -ph / 2 - 6 + 5 + sl.y * (ph - 10), 3);
+      }
+      box.add(g);
+      box.add(fitWidth(label(this, 0, 50, `${form.name} · ${form.layout}`, 12, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), 150, 9));
+      box.setScale(0.2).setAlpha(0);
+      this.tweens.add({ targets: box, scale: 1, alpha: 1, duration: 450, ease: 'Back.Out', delay: 450 });
     }
     const crest = reward.crest ? crestById(reward.crest) : undefined;
     if (crest) {

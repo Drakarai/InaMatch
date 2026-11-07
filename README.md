@@ -162,6 +162,8 @@ De dónde sale cada cosa:
   de ataque de Victory Road. Cada equipo usa la de su juego (varias cambian entre GO y Chrono Stone: F-Raimon, F-Shining…).
   Las que coinciden en todos los puestos están juntas en una (F-Basic 2 = F-Death Zone = F-Gemini…; los ids antiguos siguen
   valiendo, en `src/data/formation-aliases.json`). Los equipos sin formación en la wiki llevan una genérica (F-4-4-2…).
+  También están las que no lleva ningún equipo, para ganarlas: F-Phoenix, F-Butterfly, F-Albatross, F-Legacy, F-Resistance,
+  F-Galaxy, F-Ogre… y las del juego Inazuma Eleven «Match» (F-Beginner, F-Cross, F-Inazuma KFC), leídas a mano de sus casillas.
 - **Nombre del equipo en español:** el enlace con la [wiki española](https://inazuma.fandom.com/es/). Los que no lo
   tienen, o se llaman distinto en los juegos (Polvo de Diamantes, Servicio Secreto, Equipo D, Os Reis…), están en
   `NAME_ES` dentro del script.
@@ -275,6 +277,9 @@ Toda la música y los efectos se generan en el navegador con Web Audio. No hay a
 - **Escudos** (botón **Escudo** del club): los 340 de Victory Road de la wiki (`Category:Victory Road emblem images`,
   en `src/assets/crests/` a 192 px y su lista en `src/data/crests.json`). Se empieza con tres al azar y cada victoria da
   uno nuevo (con todos, 100 monedas); el elegido es el escudo de Mi club en el menú y en los partidos.
+- **Formaciones:** se empieza con F-Basic (la del Raimon de IE1) y cada victoria da una formación nueva al azar entre las
+  de la wiki (con todas, 100 monedas). Las conseguidas se pueden usar con cualquier equipo; cada equipo, además, siempre
+  puede jugar con la suya. En la lista, las que faltan salen con candado.
 - **Rango S:** ganar 5-0 o más sin encajar da 500 monedas extra y un cuaderno de supertécnica ★★★ o ★★★★.
 - La partida se guarda en el navegador (`localStorage`); si se borran los datos del sitio, se empieza de cero.
 - **Cuadernos de supertécnicas** (botón **Cuadernos** del club): tirada a 80 monedas o diez a 700, que traen al menos un

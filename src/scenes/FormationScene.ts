@@ -6,7 +6,7 @@ import { ELEMENT_COLOR, ELEMENT_LABEL } from '../data/elements';
 import { FORMATIONS, getFormation } from '../data/formations';
 import type { Formation, PlayerData, Stats } from '../data/types';
 import { portraitPack, portraitsOf } from '../gfx/pack';
-import { loadClub, setSquad } from '../club/club';
+import { availableFormations, loadClub, setSquad } from '../club/club';
 import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
 import { VSPRITE_REF } from '../gfx/pack';
 import { bestLineup, lineupPlayers, swapInLineup, type Lineup } from '../engine/lineup';
@@ -312,7 +312,8 @@ export class FormationScene extends Phaser.Scene {
   }
 
   private filteredFormations(): Formation[] {
-    const all = [...FORMATIONS].sort((a, b) => a.name.localeCompare(b.name));
+    const avail = availableFormations(this.home.teamId);
+    const all = [...FORMATIONS].sort((a, b) => Number(!avail.has(a.id)) - Number(!avail.has(b.id)) || a.name.localeCompare(b.name));
     if (this.formationFilter === 'all') return all;
     if (this.formationFilter === 'other') return all.filter((f) => !this.formationFilters().includes(f.layout));
     return all.filter((f) => f.layout === this.formationFilter);
@@ -341,7 +342,11 @@ export class FormationScene extends Phaser.Scene {
     const panelHit = this.add.zone(X, Y, Wd, Hd).setOrigin(0).setInteractive();
     c.add([back, g, panelHit]);
     c.add(sectionTitle(this, X + 18, Y + 22, 'Formaciones'));
-    c.add(label(this, X + Wd - 18, Y + 22, 'Pasa el ratón para verla en el campo · pulsa para elegirla · Esc cierra', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(1, 0.5));
+    const avail = availableFormations(this.home.teamId);
+    const won = FORMATIONS.filter((f) => !f.generic && avail.has(f.id)).length;
+    const total = FORMATIONS.filter((f) => !f.generic).length;
+    c.add(label(this, X + 160, Y + 22, `${won} de ${total} conseguidas · ganas una con cada victoria`, 12, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    c.add(label(this, X + Wd - 18, Y + 22, 'Pasa el ratón para verla · pulsa para elegirla · Esc cierra', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(1, 0.5));
 
     // filtros por distribución
     const filters = ['all', ...this.formationFilters(), 'other'];
@@ -375,11 +380,12 @@ export class FormationScene extends Phaser.Scene {
     shown.forEach((f, i) => {
       const cx = X + 18 + Math.floor(i / rowsPer) * (cw + 10);
       const cy = top + (i % rowsPer) * rh;
-      const current = f.id === this.home.formationId;
+      const current = f.id === getFormation(this.home.formationId).id;
+      const locked = !avail.has(f.id) && !current;
       const bg = this.add.graphics();
       const draw = (hover: boolean) => {
         bg.clear();
-        bg.fillStyle(current ? THEME.yellow : hover ? THEME.panelLight : 0x14223a, current ? 0.92 : hover ? 1 : 0.7).fillRoundedRect(cx, cy + 2, cw, rh - 4, 8);
+        bg.fillStyle(current ? THEME.yellow : hover ? THEME.panelLight : 0x14223a, current ? 0.92 : hover ? 1 : locked ? 0.35 : 0.7).fillRoundedRect(cx, cy + 2, cw, rh - 4, 8);
       };
       draw(false);
       // mini campo, con la portería propia a la izquierda y el ataque hacia la derecha
@@ -394,13 +400,20 @@ export class FormationScene extends Phaser.Scene {
         const col = s.pos === 'GK' ? 0xffffff : s.pos === 'DF' ? 0x4f9bff : s.pos === 'MF' ? 0xffb02e : 0xff5050;
         m.fillStyle(col, 1).fillCircle(mx + 3 + (1 - s.y) * (mw - 6), my + 3 + s.x * (mh - 6), 2.1);
       }
-      const name = label(this, cx + 64, cy + rh / 2, f.name, 14, current ? THEME.ink : THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5);
+      if (locked) m.setAlpha(0.35);
+      const name = label(this, cx + 64, cy + rh / 2, locked ? `🔒 ${f.name}` : f.name, 14, current ? THEME.ink : locked ? THEME.muted : THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5);
       fitWidth(name, cw - 64 - 52, 10);
       const lay = label(this, cx + cw - 10, cy + rh / 2, f.layout, 12, current ? THEME.ink : '#9fb8d8', { fontStyle: 'bold' }).setOrigin(1, 0.5);
       const hit = this.add.zone(cx, cy, cw, rh).setOrigin(0).setInteractive({ useHandCursor: true });
       hit.on('pointerover', () => {
         draw(true);
-        also.setText(f.also?.length ? `${f.name}: la misma colocación que ${f.also.join(', ')}` : '');
+        also.setText(
+          locked
+            ? `${f.name}: aún no la tienes${f.generic ? '' : ' (gana partidos para conseguirla)'}`
+            : f.also?.length
+              ? `${f.name}: la misma colocación que ${f.also.join(', ')}`
+              : '',
+        );
         this.layoutTokens(f.id);
       });
       hit.on('pointerout', () => {
@@ -409,6 +422,7 @@ export class FormationScene extends Phaser.Scene {
         if (this.previewId === f.id) this.layoutTokens();
       });
       hit.on('pointerdown', () => {
+        if (locked) return toast(this, 'Esa formación aún no la tienes: se consiguen ganando partidos', THEME.panelLight);
         this.closeFormationList();
         this.setFormation(f.id);
       });
@@ -430,8 +444,10 @@ export class FormationScene extends Phaser.Scene {
   }
 
   private cycleFormation(d: number): void {
-    const all = [...FORMATIONS].sort((a, b) => a.name.localeCompare(b.name));
-    const i = all.findIndex((f) => f.id === getFormation(this.home.formationId).id);
+    const avail = availableFormations(this.home.teamId);
+    const cur = getFormation(this.home.formationId).id;
+    const all = [...FORMATIONS].filter((f) => avail.has(f.id) || f.id === cur).sort((a, b) => a.name.localeCompare(b.name));
+    const i = all.findIndex((f) => f.id === cur);
     const next = all[(i + d + all.length) % all.length];
     this.home = { ...this.home, formationId: next.id };
     this.layoutTokens();

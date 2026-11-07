@@ -5,10 +5,19 @@
  "name": "Royal Academy (Ares)",
  "short": "TGA",
  "colors": {
-  "shirt": "#f2c230",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#f2c230"
+  "shirt": "#3c6a52",
+  "shorts": "#8a6c38",
+  "gkShirt": "#f08a24",
+  "accent": "#c8202a",
+  "sleeve": "#3c6a52",
+  "socks": "#f0eee8",
+  "gkShorts": "#4a4436",
+  "gkSleeve": "#f08a24",
+  "gkLongSleeve": true,
+  "gkGloves": "#6a4aa0",
+  "gkSocks": "#6a4aa0",
+  "stripe": "#c8202a",
+  "num": "#c8202a"
  },
  "formation": "f-4-4-2",
  "players": [

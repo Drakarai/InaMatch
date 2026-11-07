@@ -5,10 +5,19 @@
  "name": "Instituto Bastión",
  "short": "MIN",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#e8892b",
-  "accent": "#f2f2f2"
+  "shirt": "#f07a14",
+  "shorts": "#5a1420",
+  "gkShirt": "#7a5ad0",
+  "accent": "#5a1420",
+  "sleeve": "#f07a14",
+  "socks": "#f07a14",
+  "gkShorts": "#1e1e22",
+  "gkSleeve": "#7a5ad0",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#7a5ad0",
+  "collar": "#5a1420",
+  "num": "#5a1420"
  },
  "formation": "f-4-4-2",
  "players": [

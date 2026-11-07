@@ -4,7 +4,16 @@
  "wiki": "Chaos",
  "name": "Caos",
  "short": "CHA",
- "colors": {"shirt": "#d02a2a", "shorts": "#22202a", "gkShirt": "#2a2a30", "accent": "#2a9aa8", "sleeve": "#d02a2a", "socks": "#1e2e5a", "gkShorts": "#2a2a30", "gkSleeve": "#2a2a30"},
+ "colors": {
+  "shirt": "#d02a2a",
+  "shorts": "#22202a",
+  "gkShirt": "#2a2a30",
+  "accent": "#2a9aa8",
+  "sleeve": "#d02a2a",
+  "socks": "#1e2e5a",
+  "gkShorts": "#2a2a30",
+  "gkSleeve": "#2a2a30"
+ },
  "formation": "f-basic-2",
  "players": [
   {
@@ -124,34 +133,64 @@
    "description": "Jugador de sumo despiadado que empuja al rival para robar el balón."
   },
   {
-   "id": "bryce-whitingale",
-   "name": "Gazelle",
-   "short": "Gazelle",
-   "number": 11,
+   "id": "nigel-august",
+   "name": "Neppten",
+   "short": "Neppten",
+   "number": 10,
    "position": "FW",
-   "element": "wind",
+   "element": "wood",
    "level": 99,
-   "fp": 189,
-   "tp": 96,
+   "fp": 180,
+   "tp": 93,
    "stats": {
-    "kick": 78,
+    "kick": 60,
     "body": 65,
-    "control": 76,
-    "guard": 74,
-    "speed": 66,
+    "control": 61,
+    "guard": 63,
+    "speed": 61,
     "stamina": 67,
-    "guts": 68
+    "guts": 60
    },
    "moves": [
-    "fire-blizzard",
+    "atomic-flare",
+    "flame-veil",
+    "ignite-steal"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#b5835a"
+   },
+   "wiki": "Netsuha Natsuhiko",
+   "description": "Joven de ojos oscuros. Nadie sabe lo que esconde en su corazón."
+  },
+  {
+   "id": "dawson-foxx",
+   "name": "Droll",
+   "short": "Droll",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 198,
+   "tp": 84,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 62,
+    "guard": 59,
+    "speed": 69,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
     "water-veil"
    ],
    "look": {
-    "hair": "#6b3e1f",
+    "hair": "#1d1410",
     "skin": "#f1c79b"
    },
-   "wiki": "Suzuno Fuusuke",
-   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple."
+   "wiki": "Kadomichi Tooru",
+   "description": "Lleva máscara porque enseguida se le ve en la cara lo que piensa."
   },
   {
    "id": "ving-rice",
@@ -243,33 +282,34 @@
    "description": "Amigo de la infancia de Torch. Se entrenó para ser más fuerte."
   },
   {
-   "id": "dawson-foxx",
-   "name": "Droll",
-   "short": "Droll",
-   "number": 7,
-   "position": "MF",
+   "id": "bryce-whitingale",
+   "name": "Gazelle",
+   "short": "Gazelle",
+   "number": 11,
+   "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 198,
-   "tp": 84,
+   "fp": 189,
+   "tp": 96,
    "stats": {
-    "kick": 62,
-    "body": 68,
-    "control": 62,
-    "guard": 59,
-    "speed": 69,
-    "stamina": 62,
-    "guts": 61
+    "kick": 78,
+    "body": 65,
+    "control": 76,
+    "guard": 74,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 68
    },
    "moves": [
+    "fire-blizzard",
     "water-veil"
    ],
    "look": {
-    "hair": "#1d1410",
+    "hair": "#6b3e1f",
     "skin": "#f1c79b"
    },
-   "wiki": "Kadomichi Tooru",
-   "description": "Lleva máscara porque enseguida se le ve en la cara lo que piensa."
+   "wiki": "Suzuno Fuusuke",
+   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple."
   },
   {
    "id": "claude-beacons",
@@ -300,37 +340,6 @@
    },
    "wiki": "Nagumo Haruya",
    "description": "Capitán de Prominence. Es muy presuntuoso y siempre va al ataque."
-  },
-  {
-   "id": "nigel-august",
-   "name": "Neppten",
-   "short": "Neppten",
-   "number": 10,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 180,
-   "tp": 93,
-   "stats": {
-    "kick": 60,
-    "body": 65,
-    "control": 61,
-    "guard": 63,
-    "speed": 61,
-    "stamina": 67,
-    "guts": 60
-   },
-   "moves": [
-    "atomic-flare",
-    "flame-veil",
-    "ignite-steal"
-   ],
-   "look": {
-    "hair": "#1d1410",
-    "skin": "#b5835a"
-   },
-   "wiki": "Netsuha Natsuhiko",
-   "description": "Joven de ojos oscuros. Nadie sabe lo que esconde en su corazón."
   }
  ]
 }

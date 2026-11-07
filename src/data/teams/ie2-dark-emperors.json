@@ -4,8 +4,17 @@
  "wiki": "Dark Emperors",
  "name": "Emperadores Oscuros",
  "short": "DAR",
- "colors": {"shirt": "#1e2440", "shorts": "#1e2440", "gkShirt": "#7a7a80", "accent": "#1e8ac8", "sleeve": "#1e2440", "socks": "#e8e4e4", "gkShorts": "#7a7a80", "gkSleeve": "#7a7a80"},
- "formation": "f-d-emperor",
+ "colors": {
+  "shirt": "#1e2440",
+  "shorts": "#1e2440",
+  "gkShirt": "#7a7a80",
+  "accent": "#1e8ac8",
+  "sleeve": "#1e2440",
+  "socks": "#e8e4e4",
+  "gkShorts": "#7a7a80",
+  "gkSleeve": "#7a7a80"
+ },
+ "formation": "f-little-gigant",
  "players": [
   {
    "id": "thomas-feldt",
@@ -129,34 +138,34 @@
    "description": "Su cuerpo es pequeño, pero su coraje enorme. Da vidilla al equipo."
   },
   {
-   "id": "kevin-dragonfly",
-   "name": "Kevin Dragonfly",
-   "short": "Kevin",
-   "number": 11,
+   "id": "nathan-swift",
+   "name": "Nathan Swift",
+   "short": "Nathan",
+   "number": 10,
    "position": "FW",
-   "element": "wood",
+   "element": "wind",
    "level": 99,
-   "fp": 195,
-   "tp": 145,
+   "fp": 169,
+   "tp": 156,
    "stats": {
-    "kick": 71,
-    "body": 60,
-    "control": 59,
-    "guard": 61,
-    "speed": 60,
-    "stamina": 64,
-    "guts": 70
+    "kick": 64,
+    "body": 58,
+    "control": 68,
+    "guard": 54,
+    "speed": 76,
+    "stamina": 58,
+    "guts": 56
    },
    "moves": [
-    "dragon-crash",
-    "wyvern-crash"
+    "dark-phoenix",
+    "bunshin-feint"
    ],
    "look": {
-    "hair": "#c9ccd6",
-    "skin": "#c08a5e"
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
    },
-   "wiki": "Someoka Ryuugo",
-   "description": "Goleador del Raimon. Algo arisco, pero se deja la piel por el equipo."
+   "wiki": "Kazemaru Ichirouta",
+   "description": "Defensa veloz como un torbellino. Conoce a Mark desde hace tiempo."
   },
   {
    "id": "sam-kincaid",
@@ -279,6 +288,36 @@
    "description": "Por su pinta, nunca dirías que es un as de los deportes."
   },
   {
+   "id": "kevin-dragonfly",
+   "name": "Kevin Dragonfly",
+   "short": "Kevin",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 195,
+   "tp": 145,
+   "stats": {
+    "kick": 71,
+    "body": 60,
+    "control": 59,
+    "guard": 61,
+    "speed": 60,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "dragon-crash",
+    "wyvern-crash"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Someoka Ryuugo",
+   "description": "Goleador del Raimon. Algo arisco, pero se deja la piel por el equipo."
+  },
+  {
    "id": "shadow-cimmerian",
    "name": "Shadow Cimmerian",
    "short": "Shadow",
@@ -308,36 +347,6 @@
    },
    "wiki": "Yamino Kageto",
    "description": "Guerrero que nació de la oscuridad. Su fuerza es portentosa."
-  },
-  {
-   "id": "nathan-swift",
-   "name": "Nathan Swift",
-   "short": "Nathan",
-   "number": 10,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 169,
-   "tp": 156,
-   "stats": {
-    "kick": 64,
-    "body": 58,
-    "control": 68,
-    "guard": 54,
-    "speed": 76,
-    "stamina": 58,
-    "guts": 56
-   },
-   "moves": [
-    "dark-phoenix",
-    "bunshin-feint"
-   ],
-   "look": {
-    "hair": "#6b3e1f",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Kazemaru Ichirouta",
-   "description": "Defensa veloz como un torbellino. Conoce a Mark desde hace tiempo."
   },
   {
    "id": "godric-wyles",

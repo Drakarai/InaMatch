@@ -15,7 +15,7 @@
   "collar": "#d02a2a",
   "num": "#e8b8a0"
  },
- "formation": "f-basic",
+ "formation": "f-basic-ie3",
  "players": [
   {
    "id": "mark-evans",
@@ -272,6 +272,38 @@
    "description": "Un genio organizando el juego. El equipo lo sigue como a un líder."
   },
   {
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 133,
+   "tp": 123,
+   "stats": {
+    "kick": 78,
+    "body": 66,
+    "control": 62,
+    "guard": 58,
+    "speed": 63,
+    "stamina": 60,
+    "guts": 60
+   },
+   "moves": [
+    "fire-tornado",
+    "bakunetsu-storm",
+    "bakunetsu-screw",
+    "grand-fire"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gouenji Shuuya",
+   "description": "Es un jugador de sangre fría, pero su pasión por el fútbol es ardiente."
+  },
+  {
    "id": "xavier-foster",
    "name": "Xavier Foster",
    "short": "Xavier",
@@ -334,38 +366,6 @@
    },
    "wiki": "Fubuki Shirou",
    "description": "La estrella del Instituto Alpino. Como defensa es invencible."
-  },
-  {
-   "id": "axel-blaze",
-   "name": "Axel Blaze",
-   "short": "Axel",
-   "number": 10,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 133,
-   "tp": 123,
-   "stats": {
-    "kick": 78,
-    "body": 66,
-    "control": 62,
-    "guard": 58,
-    "speed": 63,
-    "stamina": 60,
-    "guts": 60
-   },
-   "moves": [
-    "fire-tornado",
-    "bakunetsu-storm",
-    "bakunetsu-screw",
-    "grand-fire"
-   ],
-   "look": {
-    "hair": "#5a3a7a",
-    "skin": "#9a6a44"
-   },
-   "wiki": "Gouenji Shuuya",
-   "description": "Es un jugador de sangre fría, pero su pasión por el fútbol es ardiente."
   },
   {
    "id": "archer-hawkins",

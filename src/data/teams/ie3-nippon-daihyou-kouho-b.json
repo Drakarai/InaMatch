@@ -15,7 +15,7 @@
   "collar": "#d02a2a",
   "num": "#1e5ab8"
  },
- "formation": "f-basic",
+ "formation": "f-basic-ie3",
  "players": [
   {
    "id": "darren-lachance",
@@ -273,6 +273,38 @@
    "description": "Un genio organizando el juego. El equipo lo sigue como a un líder."
   },
   {
+   "id": "austin-hobbes",
+   "name": "Austin Hobbes",
+   "short": "Austin",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 130,
+   "stats": {
+    "kick": 72,
+    "body": 56,
+    "control": 60,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 56,
+    "guts": 57
+   },
+   "moves": [
+    "hitori-one-two",
+    "tiger-drive",
+    "tiger-storm",
+    "gladius-arch"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Utsunomiya Toramaru",
+   "description": "Un joven delantero que idolatra a Axel. Tiene un talento increíble."
+  },
+  {
    "id": "shadow-cimmerian",
    "name": "Shadow Cimmerian",
    "short": "Shadow",
@@ -335,38 +367,6 @@
    },
    "wiki": "Gouenji Shuuya",
    "description": "Es un jugador de sangre fría, pero su pasión por el fútbol es ardiente."
-  },
-  {
-   "id": "austin-hobbes",
-   "name": "Austin Hobbes",
-   "short": "Austin",
-   "number": 11,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 120,
-   "tp": 130,
-   "stats": {
-    "kick": 72,
-    "body": 56,
-    "control": 60,
-    "guard": 55,
-    "speed": 60,
-    "stamina": 56,
-    "guts": 57
-   },
-   "moves": [
-    "hitori-one-two",
-    "tiger-drive",
-    "tiger-storm",
-    "gladius-arch"
-   ],
-   "look": {
-    "hair": "#d9822b",
-    "skin": "#b5835a"
-   },
-   "wiki": "Utsunomiya Toramaru",
-   "description": "Un joven delantero que idolatra a Axel. Tiene un talento increíble."
   },
   {
    "id": "maxwell-carson",

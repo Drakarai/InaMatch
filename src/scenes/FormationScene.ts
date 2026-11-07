@@ -4,7 +4,7 @@ import { COLORS, GAME_W, hex } from '../config';
 import { getTeam, movesOf } from '../data';
 import { ELEMENT_COLOR, ELEMENT_LABEL } from '../data/elements';
 import { FORMATIONS, getFormation } from '../data/formations';
-import type { PlayerData, Stats } from '../data/types';
+import type { Formation, PlayerData, Stats } from '../data/types';
 import { portraitPack, portraitsOf } from '../gfx/pack';
 import { loadClub, setSquad } from '../club/club';
 import { portraitKey, spriteKey, texKey } from '../gfx/placeholders';
@@ -30,6 +30,7 @@ const PITCH_BOX = { x: 24, y: 96, w: 452, h: 540 };
 const CARD = { x: 500, y: 84, w: 756, h: 316 };
 const BENCH = { x: 500, y: 412, w: 756, h: 148 };
 const BAR = { x: 500, y: 572, w: 756, h: 136 };
+const FORMATIONS_PER_PAGE = 27;
 
 /** Formación en el descanso de un partido: estamina y técnica de cada jugador y vuelta al partido. */
 export interface Halftime {
@@ -293,9 +294,39 @@ export class FormationScene extends Phaser.Scene {
     toast(this, 'Colocados los mejores en cada puesto');
   }
 
-  /** Lista de formaciones sobre la ficha: al pasar el ratón se ve en el campo, al pulsar se elige. */
+  /**
+   * Lista de formaciones sobre la ficha: filtro por distribución, páginas de 27 y, en cada fila, un mini campo con la
+   * colocación (para distinguir las que tienen la misma distribución). Al pasar el ratón se ve en el campo grande y sus
+   * otros nombres (las formaciones de la wiki con la misma colocación están juntas); al pulsar se elige.
+   */
+  private formationFilter = 'all';
+  private formationPage = 0;
+
   private toggleFormationList(): void {
     if (this.formationList) return this.closeFormationList();
+    // la página donde está la formación elegida
+    const list = this.filteredFormations();
+    const at = list.findIndex((f) => f.id === this.home.formationId);
+    this.formationPage = at >= 0 ? Math.floor(at / FORMATIONS_PER_PAGE) : 0;
+    this.drawFormationList();
+  }
+
+  private filteredFormations(): Formation[] {
+    const all = [...FORMATIONS].sort((a, b) => a.name.localeCompare(b.name));
+    if (this.formationFilter === 'all') return all;
+    if (this.formationFilter === 'other') return all.filter((f) => !this.formationFilters().includes(f.layout));
+    return all.filter((f) => f.layout === this.formationFilter);
+  }
+
+  /** Distribuciones con al menos 4 formaciones (las demás van en "Otras"), de más a menos frecuentes. */
+  private formationFilters(): string[] {
+    const count = new Map<string, number>();
+    for (const f of FORMATIONS) count.set(f.layout, (count.get(f.layout) ?? 0) + 1);
+    return [...count.entries()].filter(([, n]) => n >= 4).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([l]) => l);
+  }
+
+  private drawFormationList(): void {
+    this.formationList?.destroy();
     const X = CARD.x;
     const Y = CARD.y;
     const Wd = CARD.w;
@@ -311,39 +342,84 @@ export class FormationScene extends Phaser.Scene {
     c.add([back, g, panelHit]);
     c.add(sectionTitle(this, X + 18, Y + 22, 'Formaciones'));
     c.add(label(this, X + Wd - 18, Y + 22, 'Pasa el ratón para verla en el campo · pulsa para elegirla · Esc cierra', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(1, 0.5));
+
+    // filtros por distribución
+    const filters = ['all', ...this.formationFilters(), 'other'];
+    let fx = X + 18;
+    for (const id of filters) {
+      const on = this.formationFilter === id;
+      const n = id === 'all' ? FORMATIONS.length : id === 'other' ? FORMATIONS.filter((f) => !filters.includes(f.layout)).length : FORMATIONS.filter((f) => f.layout === id).length;
+      const t = `${id === 'all' ? 'Todas' : id === 'other' ? 'Otras' : id} ${n}`;
+      const ch = chip(this, fx, Y + 52, t, on ? THEME.yellow : THEME.panelLight, { size: 12, h: 24, padX: 10, textColor: on ? THEME.ink : THEME.text });
+      const hit = this.add.zone(fx, Y + 40, ch.width, 24).setOrigin(0).setInteractive({ useHandCursor: true });
+      hit.on('pointerdown', () => {
+        this.formationFilter = id;
+        this.formationPage = 0;
+        this.drawFormationList();
+      });
+      c.add([ch, hit]);
+      fx += ch.width + 6;
+    }
+
+    const list = this.filteredFormations();
+    const pages = Math.max(1, Math.ceil(list.length / FORMATIONS_PER_PAGE));
+    this.formationPage = Math.min(this.formationPage, pages - 1);
+    const shown = list.slice(this.formationPage * FORMATIONS_PER_PAGE, (this.formationPage + 1) * FORMATIONS_PER_PAGE);
     const cols = 3;
-    const rows = Math.ceil(FORMATIONS.length / cols);
-    const cw = (Wd - 36 - (cols - 1) * 8) / cols;
-    const rh = Math.min(34, (Hd - 56) / rows);
-    FORMATIONS.forEach((f, i) => {
-      const cx = X + 18 + Math.floor(i / rows) * (cw + 8);
-      const cy = Y + 44 + (i % rows) * rh;
+    const rowsPer = FORMATIONS_PER_PAGE / cols;
+    const cw = (Wd - 36 - (cols - 1) * 10) / cols;
+    const rh = 40;
+    const top = Y + 74;
+    const also = label(this, X + 18, Y + Hd - 22, '', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(0, 0.5);
+    c.add(also);
+    shown.forEach((f, i) => {
+      const cx = X + 18 + Math.floor(i / rowsPer) * (cw + 10);
+      const cy = top + (i % rowsPer) * rh;
       const current = f.id === this.home.formationId;
-      const lines = ['DF', 'MF', 'FW'].map((pos) => f.slots.filter((s) => s.pos === pos).length).join('-');
       const bg = this.add.graphics();
       const draw = (hover: boolean) => {
         bg.clear();
-        if (current || hover) bg.fillStyle(current ? THEME.yellow : THEME.panelLight, current ? 0.9 : 1).fillRoundedRect(cx, cy + 2, cw, rh - 4, 8);
+        bg.fillStyle(current ? THEME.yellow : hover ? THEME.panelLight : 0x14223a, current ? 0.92 : hover ? 1 : 0.7).fillRoundedRect(cx, cy + 2, cw, rh - 4, 8);
       };
       draw(false);
-      const name = label(this, cx + 14, cy + rh / 2, f.name, 14, current ? THEME.ink : THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5);
-      fitWidth(name, cw - 70, 10);
-      const lay = label(this, cx + cw - 12, cy + rh / 2, lines, 12, current ? THEME.ink : '#9fb8d8', { fontStyle: 'bold' }).setOrigin(1, 0.5);
+      // mini campo, con la portería propia a la izquierda y el ataque hacia la derecha
+      const mw = 50;
+      const mh = 30;
+      const mx = cx + 6;
+      const my = cy + (rh - mh) / 2;
+      const m = this.add.graphics();
+      m.fillStyle(0x2f7d3e, 1).fillRoundedRect(mx, my, mw, mh, 4);
+      m.lineStyle(1, 0xffffff, 0.35).lineBetween(mx + mw / 2, my + 2, mx + mw / 2, my + mh - 2);
+      for (const s of f.slots) {
+        const col = s.pos === 'GK' ? 0xffffff : s.pos === 'DF' ? 0x4f9bff : s.pos === 'MF' ? 0xffb02e : 0xff5050;
+        m.fillStyle(col, 1).fillCircle(mx + 3 + (1 - s.y) * (mw - 6), my + 3 + s.x * (mh - 6), 2.1);
+      }
+      const name = label(this, cx + 64, cy + rh / 2, f.name, 14, current ? THEME.ink : THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5);
+      fitWidth(name, cw - 64 - 52, 10);
+      const lay = label(this, cx + cw - 10, cy + rh / 2, f.layout, 12, current ? THEME.ink : '#9fb8d8', { fontStyle: 'bold' }).setOrigin(1, 0.5);
       const hit = this.add.zone(cx, cy, cw, rh).setOrigin(0).setInteractive({ useHandCursor: true });
       hit.on('pointerover', () => {
         draw(true);
+        also.setText(f.also?.length ? `${f.name}: la misma colocación que ${f.also.join(', ')}` : '');
         this.layoutTokens(f.id);
       });
       hit.on('pointerout', () => {
         draw(false);
+        also.setText('');
         if (this.previewId === f.id) this.layoutTokens();
       });
       hit.on('pointerdown', () => {
         this.closeFormationList();
         this.setFormation(f.id);
       });
-      c.add([bg, name, lay, hit]);
+      c.add([bg, m, name, lay, hit]);
     });
+    if (pages > 1) {
+      const py = Y + Hd - 22;
+      c.add(new Button(this, X + Wd - 150, py, '◀', () => ((this.formationPage = (this.formationPage + pages - 1) % pages), this.drawFormationList()), { w: 44, h: 30, variant: 'secondary', size: 14 }));
+      c.add(label(this, X + Wd - 96, py, `${this.formationPage + 1} / ${pages}`, 13, THEME.text, { fontStyle: 'bold' }).setOrigin(0.5));
+      c.add(new Button(this, X + Wd - 42, py, '▶', () => ((this.formationPage = (this.formationPage + 1) % pages), this.drawFormationList()), { w: 44, h: 30, variant: 'secondary', size: 14 }));
+    }
   }
 
   private closeFormationList(): void {
@@ -354,8 +430,9 @@ export class FormationScene extends Phaser.Scene {
   }
 
   private cycleFormation(d: number): void {
-    const i = FORMATIONS.findIndex((f) => f.id === this.home.formationId);
-    const next = FORMATIONS[(i + d + FORMATIONS.length) % FORMATIONS.length];
+    const all = [...FORMATIONS].sort((a, b) => a.name.localeCompare(b.name));
+    const i = all.findIndex((f) => f.id === getFormation(this.home.formationId).id);
+    const next = all[(i + d + all.length) % all.length];
     this.home = { ...this.home, formationId: next.id };
     this.layoutTokens();
   }

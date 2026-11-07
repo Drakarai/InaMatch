@@ -26,7 +26,7 @@
    "gaiel": "ie3-tenkuu-no-shito"
   }
  },
- "formation": "f-blangel",
+ "formation": "f-little-gigant",
  "players": [
   {
    "id": "astaroth",
@@ -249,6 +249,70 @@
    "description": "Un jugador con poderes celestiales. Es todo un lobo solitario."
   },
   {
+   "id": "gaiel",
+   "name": "Gaiel",
+   "short": "Gaiel",
+   "number": 8,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 109,
+   "tp": 139,
+   "stats": {
+    "kick": 65,
+    "body": 61,
+    "control": 62,
+    "guard": 64,
+    "speed": 88,
+    "stamina": 50,
+    "guts": 59
+   },
+   "moves": [
+    "heaven-drive",
+    "the-ikaros",
+    "prima-donna",
+    "gungnir"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gyuel",
+   "description": "Es una jugadora amable y angelical, pero da miedo cuando se enfada."
+  },
+  {
+   "id": "thanatos",
+   "name": "Thanatos",
+   "short": "Thanatos",
+   "number": 7,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 134,
+   "tp": 104,
+   "stats": {
+    "kick": 73,
+    "body": 75,
+    "control": 46,
+    "guard": 46,
+    "speed": 70,
+    "stamina": 49,
+    "guts": 71
+   },
+   "moves": [
+    "dark-matter",
+    "barbarian-no-tate",
+    "tatsumaki-dokugiri",
+    "dark-phoenix"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Satanatos",
+   "description": "Un jugador del inframundo con un ego enorme. ¡Y a mucha honra!"
+  },
+  {
    "id": "sanctus",
    "name": "Sanctus",
    "short": "Sanctus",
@@ -311,70 +375,6 @@
    },
    "wiki": "Desuta",
    "description": "El cruel líder del Dark Team. Su plato favorito: la venganza. Bien fría."
-  },
-  {
-   "id": "thanatos",
-   "name": "Thanatos",
-   "short": "Thanatos",
-   "number": 7,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 134,
-   "tp": 104,
-   "stats": {
-    "kick": 73,
-    "body": 75,
-    "control": 46,
-    "guard": 46,
-    "speed": 70,
-    "stamina": 49,
-    "guts": 71
-   },
-   "moves": [
-    "dark-matter",
-    "barbarian-no-tate",
-    "tatsumaki-dokugiri",
-    "dark-phoenix"
-   ],
-   "look": {
-    "hair": "#e98aa8",
-    "skin": "#e8b888"
-   },
-   "wiki": "Satanatos",
-   "description": "Un jugador del inframundo con un ego enorme. ¡Y a mucha honra!"
-  },
-  {
-   "id": "gaiel",
-   "name": "Gaiel",
-   "short": "Gaiel",
-   "number": 8,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 109,
-   "tp": 139,
-   "stats": {
-    "kick": 65,
-    "body": 61,
-    "control": 62,
-    "guard": 64,
-    "speed": 88,
-    "stamina": 50,
-    "guts": 59
-   },
-   "moves": [
-    "heaven-drive",
-    "the-ikaros",
-    "prima-donna",
-    "gungnir"
-   ],
-   "look": {
-    "hair": "#8b5a2b",
-    "skin": "#9a6a44"
-   },
-   "wiki": "Gyuel",
-   "description": "Es una jugadora amable y angelical, pero da miedo cuando se enfada."
   }
  ]
 }

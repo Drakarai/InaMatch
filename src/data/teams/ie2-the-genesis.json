@@ -4,8 +4,17 @@
  "wiki": "The Genesis",
  "name": "Génesis",
  "short": "THE",
- "colors": {"shirt": "#f0eef0", "shorts": "#f0eef0", "gkShirt": "#5a3a9a", "accent": "#4a4a54", "sleeve": "#3a3a44", "socks": "#f0eef0", "gkShorts": "#3a2a5a", "gkSleeve": "#3a3a44"},
- "formation": "f-genesis",
+ "colors": {
+  "shirt": "#f0eef0",
+  "shorts": "#f0eef0",
+  "gkShirt": "#5a3a9a",
+  "accent": "#4a4a54",
+  "sleeve": "#3a3a44",
+  "socks": "#f0eef0",
+  "gkShorts": "#3a2a5a",
+  "gkSleeve": "#3a3a44"
+ },
+ "formation": "f-death-zone-2",
  "players": [
   {
    "id": "nelson-rockwell",
@@ -167,6 +176,38 @@
    "description": "Utiliza su flexibilidad para atacar por donde el rival no se lo espera."
   },
   {
+   "id": "ashton-malone",
+   "name": "Ark",
+   "short": "Ark",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 165,
+   "tp": 77,
+   "stats": {
+    "kick": 56,
+    "body": 60,
+    "control": 78,
+    "guard": 69,
+    "speed": 72,
+    "stamina": 62,
+    "guts": 70
+   },
+   "moves": [
+    "lightning-accel",
+    "psycho-shot",
+    "ryuusei-blade",
+    "southern-crosscut"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Akutsu Kiyoshi",
+   "description": "Puede intuir qué dirección tomará la pelota en un instante."
+  },
+  {
    "id": "isabelle-trick",
    "name": "Bellatrix",
    "short": "Bellatrix",
@@ -261,38 +302,6 @@
    },
    "wiki": "Kui Lulu",
    "description": "Parece que esté en la luna, pero sus movimientos son imprevisibles."
-  },
-  {
-   "id": "ashton-malone",
-   "name": "Ark",
-   "short": "Ark",
-   "number": 8,
-   "position": "MF",
-   "element": "wood",
-   "level": 99,
-   "fp": 165,
-   "tp": 77,
-   "stats": {
-    "kick": 56,
-    "body": 60,
-    "control": 78,
-    "guard": 69,
-    "speed": 72,
-    "stamina": 62,
-    "guts": 70
-   },
-   "moves": [
-    "lightning-accel",
-    "psycho-shot",
-    "ryuusei-blade",
-    "southern-crosscut"
-   ],
-   "look": {
-    "hair": "#8b5a2b",
-    "skin": "#b5835a"
-   },
-   "wiki": "Akutsu Kiyoshi",
-   "description": "Puede intuir qué dirección tomará la pelota en un instante."
   },
   {
    "id": "wilbur-watkins",

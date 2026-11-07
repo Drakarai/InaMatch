@@ -1258,9 +1258,18 @@ with open(os.path.join(ROOT, 'src', 'data', 'moves.json'), 'w', encoding='utf-8'
     kinds = ['shoot', 'dribble', 'block', 'catch']
     moves = sorted(moves_used.values(), key=lambda m: (kinds.index(m['kind']), -m['power'], m['name']))
     f.write('[\n' + ',\n'.join('  ' + json.dumps(m, ensure_ascii=False) for m in moves) + '\n]\n')
-with open(os.path.join(ROOT, 'src', 'data', 'formations.json'), 'w', encoding='utf-8') as f:
-    json.dump(sorted(formations.values(), key=lambda x: x['name']), f, ensure_ascii=False, indent=1)
-    f.write('\n')
+# formations.json lleva la posición de cada jugador, sacada a mano de las imágenes de la wiki (y las formaciones iguales
+# juntadas, con alias en formation-aliases.json): aquí solo se añaden las que falten, sin tocar las que ya están
+_fpath = os.path.join(ROOT, 'src', 'data', 'formations.json')
+_have = {f['id']: f for f in json.load(open(_fpath, encoding='utf-8'))} if os.path.exists(_fpath) else {}
+_alias = json.load(open(os.path.join(ROOT, 'src', 'data', 'formation-aliases.json'), encoding='utf-8')) \
+    if os.path.exists(os.path.join(ROOT, 'src', 'data', 'formation-aliases.json')) else {}
+for _f in formations.values():
+    if _f['id'] not in _have and _f['id'] not in _alias:
+        _have[_f['id']] = _f
+with open(_fpath, 'w', encoding='utf-8') as f:
+    _list = sorted(_have.values(), key=lambda x: ('slots' not in x, x['name'].lower()))
+    f.write('[\n' + ',\n'.join(' ' + json.dumps(x, ensure_ascii=False) for x in _list) + '\n]\n')
 
 for s, names in written.items():
     print(f'{s}: {len(names)} equipos -> {", ".join(names)}')

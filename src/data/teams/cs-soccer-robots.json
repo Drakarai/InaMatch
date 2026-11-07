@@ -4,7 +4,16 @@
  "wiki": "Soccer Robots",
  "name": "Futboloides",
  "short": "SOC",
- "colors": {"shirt": "#d4bab4", "shorts": "#a88c86", "gkShirt": "#5a4c4c", "accent": "#e83020", "sleeve": "#d4bab4", "socks": "#d4bab4", "gkShorts": "#3a3030", "gkSleeve": "#5a4c4c"},
+ "colors": {
+  "shirt": "#d4bab4",
+  "shorts": "#a88c86",
+  "gkShirt": "#5a4c4c",
+  "accent": "#e83020",
+  "sleeve": "#d4bab4",
+  "socks": "#d4bab4",
+  "gkShorts": "#3a3030",
+  "gkSleeve": "#5a4c4c"
+ },
  "formation": "f-soft-rime",
  "players": [
   {
@@ -132,35 +141,35 @@
    "description": "Un guarda del Museo del Fútbol que solo usa bombillas de bajo consumo."
   },
   {
-   "id": "fb-111x",
-   "name": "FB-111X",
-   "short": "FB-111X",
-   "number": 11,
+   "id": "fb-110x",
+   "name": "FB-110X",
+   "short": "FB-110X",
+   "number": 10,
    "position": "FW",
-   "element": "wood",
+   "element": "fire",
    "level": 99,
-   "fp": 91,
-   "tp": 110,
+   "fp": 81,
+   "tp": 113,
    "stats": {
-    "kick": 59,
-    "body": 59,
-    "control": 51,
-    "guard": 61,
-    "speed": 53,
-    "stamina": 75,
-    "guts": 55
+    "kick": 60,
+    "body": 53,
+    "control": 53,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 76,
+    "guts": 60
    },
    "moves": [
     "gear-drive",
-    "thief-eye",
-    "burning-summer"
+    "dash-train",
+    "rocket-head"
    ],
    "look": {
-    "hair": "#d9822b",
-    "skin": "#c08a5e"
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
    },
-   "wiki": "SR-111X",
-   "description": "Un guarda del Museo del Fútbol al que le falta un tornillo (literalmente)."
+   "wiki": "SR-110X",
+   "description": "Un guarda del Museo del Fútbol que no se siente parte del mundo robot."
   },
   {
    "id": "fb-105x",
@@ -287,37 +296,6 @@
    "description": "Un guarda del Museo del Fútbol que cree que es humano."
   },
   {
-   "id": "fb-110x",
-   "name": "FB-110X",
-   "short": "FB-110X",
-   "number": 10,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 81,
-   "tp": 113,
-   "stats": {
-    "kick": 60,
-    "body": 53,
-    "control": 53,
-    "guard": 56,
-    "speed": 52,
-    "stamina": 76,
-    "guts": 60
-   },
-   "moves": [
-    "gear-drive",
-    "dash-train",
-    "rocket-head"
-   ],
-   "look": {
-    "hair": "#3a2a1a",
-    "skin": "#f1c79b"
-   },
-   "wiki": "SR-110X",
-   "description": "Un guarda del Museo del Fútbol que no se siente parte del mundo robot."
-  },
-  {
    "id": "fb-109x",
    "name": "FB-109X",
    "short": "FB-109X",
@@ -347,6 +325,37 @@
    },
    "wiki": "SR-109X",
    "description": "Un guarda del Museo del Fútbol que solo quiere conocer a su creador."
+  },
+  {
+   "id": "fb-111x",
+   "name": "FB-111X",
+   "short": "FB-111X",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 91,
+   "tp": 110,
+   "stats": {
+    "kick": 59,
+    "body": 59,
+    "control": 51,
+    "guard": 61,
+    "speed": 53,
+    "stamina": 75,
+    "guts": 55
+   },
+   "moves": [
+    "gear-drive",
+    "thief-eye",
+    "burning-summer"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "SR-111X",
+   "description": "Un guarda del Museo del Fútbol al que le falta un tornillo (literalmente)."
   }
  ]
 }

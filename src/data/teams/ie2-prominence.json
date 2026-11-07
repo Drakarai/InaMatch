@@ -4,7 +4,16 @@
  "wiki": "Prominence",
  "name": "Prominence",
  "short": "PRO",
- "colors": {"shirt": "#d82a20", "shorts": "#26222a", "gkShirt": "#7a1a1a", "accent": "#f0ece4", "sleeve": "#d82a20", "socks": "#d82a20", "gkShorts": "#26222a", "gkSleeve": "#7a1a1a"},
+ "colors": {
+  "shirt": "#d82a20",
+  "shorts": "#26222a",
+  "gkShirt": "#7a1a1a",
+  "accent": "#f0ece4",
+  "sleeve": "#d82a20",
+  "socks": "#d82a20",
+  "gkShorts": "#26222a",
+  "gkSleeve": "#7a1a1a"
+ },
  "formation": "f-basic-2",
  "players": [
   {
@@ -135,36 +144,67 @@
    "description": "Es muy planificador, pero si piensa demasiado, le duele el estómago."
   },
   {
-   "id": "nigel-august",
-   "name": "Neppten",
-   "short": "Neppten",
-   "number": 11,
-   "position": "FW",
-   "element": "wood",
+   "id": "brenda-firequest",
+   "name": "Lean",
+   "short": "Lean",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
    "level": 99,
-   "fp": 180,
-   "tp": 93,
+   "fp": 217,
+   "tp": 97,
    "stats": {
-    "kick": 60,
-    "body": 65,
-    "control": 61,
+    "kick": 55,
+    "body": 72,
+    "control": 60,
     "guard": 63,
-    "speed": 61,
-    "stamina": 67,
-    "guts": 60
+    "speed": 69,
+    "stamina": 61,
+    "guts": 52
    },
    "moves": [
-    "ganymede-proton",
-    "flame-veil",
-    "twin-boost-f",
+    "astro-break",
+    "southern-crosscut",
+    "prima-donna",
     "atomic-flare"
    ],
    "look": {
-    "hair": "#1d1410",
-    "skin": "#b5835a"
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
    },
-   "wiki": "Netsuha Natsuhiko",
-   "description": "Joven de ojos oscuros. Nadie sabe lo que esconde en su corazón."
+   "wiki": "Hasuike An",
+   "description": "Odia que otros la superen. Quiere ser la mejor del mundo."
+  },
+  {
+   "id": "claude-beacons",
+   "name": "Torch",
+   "short": "Torch",
+   "number": 10,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 187,
+   "tp": 96,
+   "stats": {
+    "kick": 69,
+    "body": 71,
+    "control": 64,
+    "guard": 64,
+    "speed": 66,
+    "stamina": 70,
+    "guts": 63
+   },
+   "moves": [
+    "atomic-flare",
+    "flame-veil",
+    "fire-blizzard-fire"
+   ],
+   "look": {
+    "hair": "#3a6fb5",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Nagumo Haruya",
+   "description": "Capitán de Prominence. Es muy presuntuoso y siempre va al ataque."
   },
   {
    "id": "sam-bournes",
@@ -262,36 +302,36 @@
    "description": "Amigo de la infancia de Torch. Se entrenó para ser más fuerte."
   },
   {
-   "id": "brenda-firequest",
-   "name": "Lean",
-   "short": "Lean",
-   "number": 7,
-   "position": "MF",
-   "element": "fire",
+   "id": "nigel-august",
+   "name": "Neppten",
+   "short": "Neppten",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
    "level": 99,
-   "fp": 217,
-   "tp": 97,
+   "fp": 180,
+   "tp": 93,
    "stats": {
-    "kick": 55,
-    "body": 72,
-    "control": 60,
+    "kick": 60,
+    "body": 65,
+    "control": 61,
     "guard": 63,
-    "speed": 69,
-    "stamina": 61,
-    "guts": 52
+    "speed": 61,
+    "stamina": 67,
+    "guts": 60
    },
    "moves": [
-    "astro-break",
-    "southern-crosscut",
-    "prima-donna",
+    "ganymede-proton",
+    "flame-veil",
+    "twin-boost-f",
     "atomic-flare"
    ],
    "look": {
-    "hair": "#3a2a1a",
-    "skin": "#f1c79b"
+    "hair": "#1d1410",
+    "skin": "#b5835a"
    },
-   "wiki": "Hasuike An",
-   "description": "Odia que otros la superen. Quiere ser la mejor del mundo."
+   "wiki": "Netsuha Natsuhiko",
+   "description": "Joven de ojos oscuros. Nadie sabe lo que esconde en su corazón."
   },
   {
    "id": "jim-flareson",
@@ -323,37 +363,6 @@
    },
    "wiki": "Saiden Jou",
    "description": "Su mirada penetrante asusta a los rivales. Entrena cada día sin falta."
-  },
-  {
-   "id": "claude-beacons",
-   "name": "Torch",
-   "short": "Torch",
-   "number": 10,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 187,
-   "tp": 96,
-   "stats": {
-    "kick": 69,
-    "body": 71,
-    "control": 64,
-    "guard": 64,
-    "speed": 66,
-    "stamina": 70,
-    "guts": 63
-   },
-   "moves": [
-    "atomic-flare",
-    "flame-veil",
-    "fire-blizzard-fire"
-   ],
-   "look": {
-    "hair": "#3a6fb5",
-    "skin": "#c08a5e"
-   },
-   "wiki": "Nagumo Haruya",
-   "description": "Capitán de Prominence. Es muy presuntuoso y siempre va al ataque."
   }
  ]
 }

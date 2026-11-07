@@ -149,35 +149,36 @@
    "description": "No hay ola que se resista a este chaval tan enrollado."
   },
   {
-   "id": "xavier-foster",
-   "name": "Xavier Foster",
-   "short": "Xavier",
-   "number": 18,
+   "id": "axel-blaze",
+   "name": "Axel Blaze",
+   "short": "Axel",
+   "number": 10,
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 147,
-   "tp": 125,
+   "fp": 157,
+   "tp": 132,
    "stats": {
-    "kick": 69,
-    "body": 75,
-    "control": 58,
-    "guard": 67,
-    "speed": 57,
-    "stamina": 55,
+    "kick": 77,
+    "body": 64,
+    "control": 66,
+    "guard": 58,
+    "speed": 55,
+    "stamina": 69,
     "guts": 56
    },
    "moves": [
-    "ryuusei-blade",
-    "extend-zone",
-    "round-spark"
+    "bakunetsu-screw",
+    "screwdriver",
+    "spark-edge-dribble",
+    "fire-tornado-dd"
    ],
    "look": {
-    "hair": "#1d1410",
-    "skin": "#f1c79b"
+    "hair": "#5a3a7a",
+    "skin": "#9a6a44"
    },
-   "wiki": "Kiyama Hiroto",
-   "description": "Antiguo rival del Raimon. Dispara con la potencia de un cometa."
+   "wiki": "Gouenji Shuuya",
+   "description": "Un delantero genial que oculta su genio bajo una máscara de frialdad."
   },
   {
    "id": "caleb-stonewall",
@@ -244,6 +245,68 @@
    "description": "Un estratega de tomo y lomo. De sus botas sale fútbol de muchos quilates."
   },
   {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 132,
+   "stats": {
+    "kick": 68,
+    "body": 61,
+    "control": 62,
+    "guard": 61,
+    "speed": 61,
+    "stamina": 42,
+    "guts": 56
+   },
+   "moves": [
+    "koutei-penguin-7",
+    "deep-jungle",
+    "koutei-penguin-3gou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Brazo derecho de Jude en el campo. Conocido por su potente disparo."
+  },
+  {
+   "id": "xavier-foster",
+   "name": "Xavier Foster",
+   "short": "Xavier",
+   "number": 18,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 147,
+   "tp": 125,
+   "stats": {
+    "kick": 69,
+    "body": 75,
+    "control": 58,
+    "guard": 67,
+    "speed": 57,
+    "stamina": 55,
+    "guts": 56
+   },
+   "moves": [
+    "ryuusei-blade",
+    "extend-zone",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kiyama Hiroto",
+   "description": "Antiguo rival del Raimon. Dispara con la potencia de un cometa."
+  },
+  {
    "id": "kevin-dragonfly",
    "name": "Kevin Dragonfly",
    "short": "Kevin",
@@ -305,69 +368,6 @@
    },
    "wiki": "Fubuki Shirou",
    "description": "Un portento llegado de las nieves del norte. Apacible, pero ojito con él."
-  },
-  {
-   "id": "axel-blaze",
-   "name": "Axel Blaze",
-   "short": "Axel",
-   "number": 10,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 157,
-   "tp": 132,
-   "stats": {
-    "kick": 77,
-    "body": 64,
-    "control": 66,
-    "guard": 58,
-    "speed": 55,
-    "stamina": 69,
-    "guts": 56
-   },
-   "moves": [
-    "bakunetsu-screw",
-    "screwdriver",
-    "spark-edge-dribble",
-    "fire-tornado-dd"
-   ],
-   "look": {
-    "hair": "#5a3a7a",
-    "skin": "#9a6a44"
-   },
-   "wiki": "Gouenji Shuuya",
-   "description": "Un delantero genial que oculta su genio bajo una máscara de frialdad."
-  },
-  {
-   "id": "david-samford",
-   "name": "David Samford",
-   "short": "David",
-   "number": 16,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 124,
-   "tp": 132,
-   "stats": {
-    "kick": 68,
-    "body": 61,
-    "control": 62,
-    "guard": 61,
-    "speed": 61,
-    "stamina": 42,
-    "guts": 56
-   },
-   "moves": [
-    "koutei-penguin-7",
-    "deep-jungle",
-    "koutei-penguin-3gou"
-   ],
-   "look": {
-    "hair": "#c0302a",
-    "skin": "#9a6a44"
-   },
-   "wiki": "Sakuma Jirou",
-   "description": "Brazo derecho de Jude en el campo. Conocido por su potente disparo."
   }
  ]
 }

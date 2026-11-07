@@ -10,7 +10,7 @@
   "gkShirt": "#3a8a3a",
   "accent": "#1a1a1a"
  },
- "formation": "f-4-3-3",
+ "formation": "diamond",
  "players": [
   {
    "id": "wryn-twincrest",
@@ -269,6 +269,38 @@
    "description": "Se mueve como una mariposa y deslumbra a los fans con jugadas elegantes bajo la atenta mirada de Orphion."
   },
   {
+   "id": "corin-cainver",
+   "name": "Corin Cainver",
+   "short": "Corin",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 85,
+   "tp": 97,
+   "stats": {
+    "kick": 75,
+    "body": 46,
+    "control": 66,
+    "guard": 41,
+    "speed": 59,
+    "stamina": 43,
+    "guts": 67
+   },
+   "moves": [
+    "grenade-shot",
+    "la-flamme",
+    "dokonjou-bat",
+    "honoo-no-kazamidori"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kama Touya",
+   "description": "Un delantero incansable que no perdona ni a los rivales lesionados y persigue cada gol con un empuje inquebrantable."
+  },
+  {
    "id": "merrick-seawell",
    "name": "Merrick Seawell",
    "short": "Merrick",
@@ -331,38 +363,6 @@
    },
    "wiki": "Ikkaku Ooji",
    "description": "Más fuerte de lo que parece, confía en su físico mientras una alergia al polen le obliga a llevar mascarilla todo el año."
-  },
-  {
-   "id": "corin-cainver",
-   "name": "Corin Cainver",
-   "short": "Corin",
-   "number": 11,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 85,
-   "tp": 97,
-   "stats": {
-    "kick": 75,
-    "body": 46,
-    "control": 66,
-    "guard": 41,
-    "speed": 59,
-    "stamina": 43,
-    "guts": 67
-   },
-   "moves": [
-    "grenade-shot",
-    "la-flamme",
-    "dokonjou-bat",
-    "honoo-no-kazamidori"
-   ],
-   "look": {
-    "hair": "#8b5a2b",
-    "skin": "#9a6a44"
-   },
-   "wiki": "Kama Touya",
-   "description": "Un delantero incansable que no perdona ni a los rivales lesionados y persigue cada gol con un empuje inquebrantable."
   },
   {
    "id": "galad-worden",

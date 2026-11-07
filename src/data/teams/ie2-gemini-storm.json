@@ -4,8 +4,17 @@
  "wiki": "Gemini Storm",
  "name": "Tormenta de Géminis",
  "short": "GEM",
- "colors": {"shirt": "#6e6460", "shorts": "#4a4240", "gkShirt": "#2a3450", "accent": "#e07020", "sleeve": "#e8e0d0", "socks": "#6e6460", "gkShorts": "#2a3450", "gkSleeve": "#2a3450"},
- "formation": "f-gemini",
+ "colors": {
+  "shirt": "#6e6460",
+  "shorts": "#4a4240",
+  "gkShirt": "#2a3450",
+  "accent": "#e07020",
+  "sleeve": "#e8e0d0",
+  "socks": "#6e6460",
+  "gkShorts": "#2a3450",
+  "gkSleeve": "#2a3450"
+ },
+ "formation": "f-basic-2",
  "players": [
   {
    "id": "gordon-star",
@@ -166,6 +175,38 @@
    "description": "Hace que el equipo rival lo pase mal y les quita las ganas de jugar."
   },
   {
+   "id": "izzy-jupiter",
+   "name": "Io",
+   "short": "Io",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 165,
+   "tp": 76,
+   "stats": {
+    "kick": 52,
+    "body": 60,
+    "control": 66,
+    "guard": 69,
+    "speed": 73,
+    "stamina": 67,
+    "guts": 63
+   },
+   "moves": [
+    "warp-drive",
+    "gravitation",
+    "dynamite-shoot",
+    "ryuusei-blade"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#b5835a"
+   },
+   "wiki": "Io Shuntarou",
+   "description": "Le gustan los animales fieros. Pero le dan miedo los tábanos."
+  },
+  {
    "id": "jordan-greenway",
    "name": "Janus",
    "short": "Janus",
@@ -260,38 +301,6 @@
    },
    "wiki": "Omotsuki Sora",
    "description": "Como no abre su corazón a nadie, le odian hasta sus compañeros."
-  },
-  {
-   "id": "izzy-jupiter",
-   "name": "Io",
-   "short": "Io",
-   "number": 8,
-   "position": "MF",
-   "element": "fire",
-   "level": 99,
-   "fp": 165,
-   "tp": 76,
-   "stats": {
-    "kick": 52,
-    "body": 60,
-    "control": 66,
-    "guard": 69,
-    "speed": 73,
-    "stamina": 67,
-    "guts": 63
-   },
-   "moves": [
-    "warp-drive",
-    "gravitation",
-    "dynamite-shoot",
-    "ryuusei-blade"
-   ],
-   "look": {
-    "hair": "#3a2a1a",
-    "skin": "#b5835a"
-   },
-   "wiki": "Io Shuntarou",
-   "description": "Le gustan los animales fieros. Pero le dan miedo los tábanos."
   },
   {
    "id": "rhona-countdown",

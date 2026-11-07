@@ -4,8 +4,17 @@
  "wiki": "Inazuma KFC",
  "name": "Inazuma Kids FC",
  "short": "INA",
- "colors": {"shirt": "#d01010", "shorts": "#4e4a40", "gkShirt": "#1e5a7a", "accent": "#f0c010", "sleeve": "#f0c010", "socks": "#c01010", "gkShorts": "#3a3a3e", "gkSleeve": "#e0a020"},
- "formation": "f-death-zone",
+ "colors": {
+  "shirt": "#d01010",
+  "shorts": "#4e4a40",
+  "gkShirt": "#1e5a7a",
+  "accent": "#f0c010",
+  "sleeve": "#f0c010",
+  "socks": "#c01010",
+  "gkShorts": "#3a3a3e",
+  "gkSleeve": "#e0a020"
+ },
+ "formation": "f-basic-2",
  "players": [
   {
    "id": "herman-muller",

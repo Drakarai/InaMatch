@@ -232,66 +232,6 @@
    "description": "Era delantero, pero volvió de Italia convertido en centrocampista."
   },
   {
-   "id": "bailong",
-   "name": "Bailong",
-   "short": "Bailong",
-   "number": 12,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 157,
-   "tp": 137,
-   "stats": {
-    "kick": 83,
-    "body": 79,
-    "control": 68,
-    "guard": 46,
-    "speed": 64,
-    "stamina": 56,
-    "guts": 64
-   },
-   "moves": [
-    "white-hurricane",
-    "tenchi-raimei"
-   ],
-   "look": {
-    "hair": "#efe6c4",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Hakuryuu",
-   "description": "Rival de Victor, intentó convertirse en el jugador definitivo en el pasado."
-  },
-  {
-   "id": "zanark-avalonic",
-   "name": "Zanark Avalonic",
-   "short": "Zanark",
-   "number": 11,
-   "position": "FW",
-   "element": "earth",
-   "level": 99,
-   "fp": 166,
-   "tp": 128,
-   "stats": {
-    "kick": 78,
-    "body": 69,
-    "control": 66,
-    "guard": 45,
-    "speed": 57,
-    "stamina": 79,
-    "guts": 61
-   },
-   "moves": [
-    "disaster-break",
-    "great-max-na-ore"
-   ],
-   "look": {
-    "hair": "#c0302a",
-    "skin": "#c08a5e"
-   },
-   "wiki": "Zanark Avalonic",
-   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
-  },
-  {
    "id": "sol-daystar",
    "name": "Sol Daystar",
    "short": "Sol",
@@ -350,6 +290,66 @@
    },
    "wiki": "Fei Rune",
    "description": "Viajó 200 años desde el futuro para ayudar a Arion a proteger el fútbol."
+  },
+  {
+   "id": "bailong",
+   "name": "Bailong",
+   "short": "Bailong",
+   "number": 12,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 157,
+   "tp": 137,
+   "stats": {
+    "kick": 83,
+    "body": 79,
+    "control": 68,
+    "guard": 46,
+    "speed": 64,
+    "stamina": 56,
+    "guts": 64
+   },
+   "moves": [
+    "white-hurricane",
+    "tenchi-raimei"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hakuryuu",
+   "description": "Rival de Victor, intentó convertirse en el jugador definitivo en el pasado."
+  },
+  {
+   "id": "zanark-avalonic",
+   "name": "Zanark Avalonic",
+   "short": "Zanark",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 128,
+   "stats": {
+    "kick": 78,
+    "body": 69,
+    "control": 66,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 79,
+    "guts": 61
+   },
+   "moves": [
+    "disaster-break",
+    "great-max-na-ore"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanark Avalonic",
+   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
   },
   {
    "id": "victor-blade",

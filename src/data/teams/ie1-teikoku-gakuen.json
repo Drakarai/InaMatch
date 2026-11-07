@@ -4,8 +4,14 @@
  "wiki": "Teikoku Gakuen",
  "name": "Royal Academy",
  "short": "TEI",
- "colors": {"shirt": "#36584a", "shorts": "#7a6438", "gkShirt": "#f08a2a", "accent": "#b0202a", "sleeve": "#36584a"},
- "formation": "f-death-zone",
+ "colors": {
+  "shirt": "#36584a",
+  "shorts": "#7a6438",
+  "gkShirt": "#f08a2a",
+  "accent": "#b0202a",
+  "sleeve": "#36584a"
+ },
+ "formation": "f-basic-2",
  "players": [
   {
    "id": "joseph-king",
@@ -168,6 +174,38 @@
    "description": "Es corpulento, aunque rapidísimo. Deja atrás al rival en un pispás."
   },
   {
+   "id": "john-bloom",
+   "name": "John Bloom",
+   "short": "John",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 153,
+   "stats": {
+    "kick": 61,
+    "body": 71,
+    "control": 67,
+    "guard": 70,
+    "speed": 71,
+    "stamina": 54,
+    "guts": 62
+   },
+   "moves": [
+    "killer-slide",
+    "judge-through",
+    "hyakuretsu-shot",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sakiyama Shuuji",
+   "description": "El juego duro es lo suyo. Corre que se las pela por todo el campo."
+  },
+  {
    "id": "jude-sharp",
    "name": "Jude Sharp",
    "short": "Jude",
@@ -262,38 +300,6 @@
    },
    "wiki": "Henmi Wataru",
    "description": "Tiene a su equipo en alta estima y desprecia a todos los demás."
-  },
-  {
-   "id": "john-bloom",
-   "name": "John Bloom",
-   "short": "John",
-   "number": 7,
-   "position": "MF",
-   "element": "fire",
-   "level": 99,
-   "fp": 195,
-   "tp": 153,
-   "stats": {
-    "kick": 61,
-    "body": 71,
-    "control": 67,
-    "guard": 70,
-    "speed": 71,
-    "stamina": 54,
-    "guts": 62
-   },
-   "moves": [
-    "killer-slide",
-    "judge-through",
-    "hyakuretsu-shot",
-    "freeze-shot"
-   ],
-   "look": {
-    "hair": "#d9822b",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Sakiyama Shuuji",
-   "description": "El juego duro es lo suyo. Corre que se las pela por todo el campo."
   },
   {
    "id": "daniel-hatch",

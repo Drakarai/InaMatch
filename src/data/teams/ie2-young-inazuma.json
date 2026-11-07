@@ -4,7 +4,16 @@
  "wiki": "Young Inazuma",
  "name": "Jóvenes Inazuma",
  "short": "YOU",
- "colors": {"shirt": "#1a1a1e", "shorts": "#e8e4e4", "gkShirt": "#8a1e14", "accent": "#e8e4e4", "sleeve": "#e8e4e4", "socks": "#1a1a1e", "gkShorts": "#1a1a1e", "gkSleeve": "#1a1a1e"},
+ "colors": {
+  "shirt": "#1a1a1e",
+  "shorts": "#e8e4e4",
+  "gkShirt": "#8a1e14",
+  "accent": "#e8e4e4",
+  "sleeve": "#e8e4e4",
+  "socks": "#1a1a1e",
+  "gkShorts": "#1a1a1e",
+  "gkSleeve": "#1a1a1e"
+ },
  "formation": "f-basic-2",
  "players": [
   {
@@ -133,6 +142,70 @@
    "description": "Hombre simpático y atento a quien toda la barriada profesa cariño."
   },
   {
+   "id": "josh-nathaniel",
+   "name": "Josh Nathaniel",
+   "short": "Josh",
+   "number": 6,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 209,
+   "tp": 172,
+   "stats": {
+    "kick": 64,
+    "body": 73,
+    "control": 73,
+    "guard": 75,
+    "speed": 71,
+    "stamina": 66,
+    "guts": 65
+   },
+   "moves": [
+    "zigzag-spark",
+    "judge-through",
+    "kumo-no-ito",
+    "oouchiwa"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#e8b888"
+   },
+   "wiki": "Nakama You",
+   "description": "Oficinista de una empresa normal. \"En lo normal está lo bueno\" dice."
+  },
+  {
+   "id": "edward-gladstone",
+   "name": "Edward Gladstone",
+   "short": "Edward",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 187,
+   "tp": 177,
+   "stats": {
+    "kick": 68,
+    "body": 66,
+    "control": 68,
+    "guard": 60,
+    "speed": 72,
+    "stamina": 63,
+    "guts": 69
+   },
+   "moves": [
+    "dragon-cannon",
+    "hitori-one-two",
+    "fake-bomber",
+    "sabaki-no-tettsui"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#b5835a"
+   },
+   "wiki": "Ikari Gengorou",
+   "description": "A la mínima está diciendo: \"¡Habráse visto!\" La gente le evita."
+  },
+  {
    "id": "tyler-thomas",
    "name": "Tyler Thomas",
    "short": "Tyler",
@@ -227,70 +300,6 @@
    },
    "wiki": "Batora Manabu",
    "description": "Mayordomo de la casa Raimon. Ha cuidado a Nelly desde que nació."
-  },
-  {
-   "id": "josh-nathaniel",
-   "name": "Josh Nathaniel",
-   "short": "Josh",
-   "number": 6,
-   "position": "MF",
-   "element": "wood",
-   "level": 99,
-   "fp": 209,
-   "tp": 172,
-   "stats": {
-    "kick": 64,
-    "body": 73,
-    "control": 73,
-    "guard": 75,
-    "speed": 71,
-    "stamina": 66,
-    "guts": 65
-   },
-   "moves": [
-    "zigzag-spark",
-    "judge-through",
-    "kumo-no-ito",
-    "oouchiwa"
-   ],
-   "look": {
-    "hair": "#6b3e1f",
-    "skin": "#e8b888"
-   },
-   "wiki": "Nakama You",
-   "description": "Oficinista de una empresa normal. \"En lo normal está lo bueno\" dice."
-  },
-  {
-   "id": "edward-gladstone",
-   "name": "Edward Gladstone",
-   "short": "Edward",
-   "number": 7,
-   "position": "MF",
-   "element": "fire",
-   "level": 99,
-   "fp": 187,
-   "tp": 177,
-   "stats": {
-    "kick": 68,
-    "body": 66,
-    "control": 68,
-    "guard": 60,
-    "speed": 72,
-    "stamina": 63,
-    "guts": 69
-   },
-   "moves": [
-    "dragon-cannon",
-    "hitori-one-two",
-    "fake-bomber",
-    "sabaki-no-tettsui"
-   ],
-   "look": {
-    "hair": "#d9822b",
-    "skin": "#b5835a"
-   },
-   "wiki": "Ikari Gengorou",
-   "description": "A la mínima está diciendo: \"¡Habráse visto!\" La gente le evita."
   },
   {
    "id": "joseph-yosemite",

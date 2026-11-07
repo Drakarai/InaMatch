@@ -4,8 +4,14 @@
  "wiki": "NEW Teikoku Gakuen",
  "name": "Royal Academy NEW",
  "short": "NTG",
- "colors": {"shirt": "#36584a", "shorts": "#7a6438", "gkShirt": "#f08a2a", "accent": "#b0202a", "sleeve": "#36584a"},
- "formation": "f-death-zone",
+ "colors": {
+  "shirt": "#36584a",
+  "shorts": "#7a6438",
+  "gkShirt": "#f08a2a",
+  "accent": "#b0202a",
+  "sleeve": "#36584a"
+ },
+ "formation": "f-basic-2",
  "players": [
   {
    "id": "joseph-king",
@@ -135,6 +141,68 @@
    "description": "Nadie sabe de dónde ha salido. Ni Jude tiene idea de qué pretende."
   },
   {
+   "id": "john-bloom",
+   "name": "John Bloom",
+   "short": "John",
+   "number": 7,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 195,
+   "tp": 153,
+   "stats": {
+    "kick": 61,
+    "body": 71,
+    "control": 67,
+    "guard": 70,
+    "speed": 71,
+    "stamina": 54,
+    "guts": 62
+   },
+   "moves": [
+    "judge-through",
+    "hyakuretsu-shot",
+    "judge-through-2"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Sakiyama Shuuji",
+   "description": "El juego duro es lo suyo. Corre que se las pela por todo el campo."
+  },
+  {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 193,
+   "tp": 193,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 78,
+    "guard": 66,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 71
+   },
+   "moves": [
+    "judge-through",
+    "koutei-penguin-2gou",
+    "koutei-penguin-1gou"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Se echa el equipo a sus espaldas. Sus técnicas conjuntas son letales."
+  },
+  {
    "id": "jude-sharp",
    "name": "Jude Sharp",
    "short": "Jude",
@@ -165,38 +233,6 @@
    },
    "wiki": "Kidou Yuuto",
    "description": "De sus botas sale fútbol de muchos quilates. El mejor en su posición."
-  },
-  {
-   "id": "cliff-tomlinson",
-   "name": "Cliff Tomlinson",
-   "short": "Cliff",
-   "number": 13,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 149,
-   "tp": 157,
-   "stats": {
-    "kick": 53,
-    "body": 60,
-    "control": 52,
-    "guard": 61,
-    "speed": 54,
-    "stamina": 52,
-    "guts": 53
-   },
-   "moves": [
-    "grenade-shot",
-    "killer-slide",
-    "judge-through",
-    "twin-boost"
-   ],
-   "look": {
-    "hair": "#8b5a2b",
-    "skin": "#b5835a"
-   },
-   "wiki": "Ena Kazuki",
-   "description": "No es titular porque las lesiones no le respetan, pero tiene madera."
   },
   {
    "id": "alan-master",
@@ -263,35 +299,36 @@
    "description": "Tiene a su equipo en alta estima y desprecia a todos los demás."
   },
   {
-   "id": "john-bloom",
-   "name": "John Bloom",
-   "short": "John",
-   "number": 7,
-   "position": "MF",
-   "element": "fire",
+   "id": "cliff-tomlinson",
+   "name": "Cliff Tomlinson",
+   "short": "Cliff",
+   "number": 13,
+   "position": "FW",
+   "element": "wind",
    "level": 99,
-   "fp": 195,
-   "tp": 153,
+   "fp": 149,
+   "tp": 157,
    "stats": {
-    "kick": 61,
-    "body": 71,
-    "control": 67,
-    "guard": 70,
-    "speed": 71,
-    "stamina": 54,
-    "guts": 62
+    "kick": 53,
+    "body": 60,
+    "control": 52,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 52,
+    "guts": 53
    },
    "moves": [
+    "grenade-shot",
+    "killer-slide",
     "judge-through",
-    "hyakuretsu-shot",
-    "judge-through-2"
+    "twin-boost"
    ],
    "look": {
-    "hair": "#d9822b",
-    "skin": "#f1c79b"
+    "hair": "#8b5a2b",
+    "skin": "#b5835a"
    },
-   "wiki": "Sakiyama Shuuji",
-   "description": "El juego duro es lo suyo. Corre que se las pela por todo el campo."
+   "wiki": "Ena Kazuki",
+   "description": "No es titular porque las lesiones no le respetan, pero tiene madera."
   },
   {
    "id": "daniel-hatch",
@@ -322,37 +359,6 @@
    },
    "wiki": "Jimon Daiki",
    "description": "Delantero estrella de la Royal. Sus largas piernas son su mejor arma."
-  },
-  {
-   "id": "david-samford",
-   "name": "David Samford",
-   "short": "David",
-   "number": 11,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 193,
-   "tp": 193,
-   "stats": {
-    "kick": 70,
-    "body": 60,
-    "control": 78,
-    "guard": 66,
-    "speed": 66,
-    "stamina": 67,
-    "guts": 71
-   },
-   "moves": [
-    "judge-through",
-    "koutei-penguin-2gou",
-    "koutei-penguin-1gou"
-   ],
-   "look": {
-    "hair": "#c0302a",
-    "skin": "#9a6a44"
-   },
-   "wiki": "Sakuma Jirou",
-   "description": "Se echa el equipo a sus espaldas. Sus técnicas conjuntas son letales."
   },
   {
    "id": "derek-swing",

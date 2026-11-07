@@ -4,7 +4,16 @@
  "wiki": "Diamond Dust",
  "name": "Polvo de Diamantes",
  "short": "DIA",
- "colors": {"shirt": "#f0ece4", "shorts": "#1e2e5a", "gkShirt": "#2a2a30", "accent": "#2a7ac0", "sleeve": "#2a7ac0", "socks": "#2a4a8a", "gkShorts": "#2a2a30", "gkSleeve": "#2a2a30"},
+ "colors": {
+  "shirt": "#f0ece4",
+  "shorts": "#1e2e5a",
+  "gkShirt": "#2a2a30",
+  "accent": "#2a7ac0",
+  "sleeve": "#2a7ac0",
+  "socks": "#2a4a8a",
+  "gkShorts": "#2a2a30",
+  "gkSleeve": "#2a2a30"
+ },
  "formation": "f-basic-2",
  "players": [
   {
@@ -135,6 +144,69 @@
    "description": "Jugador de sumo despiadado que empuja al rival para robar el balón."
   },
   {
+   "id": "bryce-whitingale",
+   "name": "Gazelle",
+   "short": "Gazelle",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 189,
+   "tp": 96,
+   "stats": {
+    "kick": 78,
+    "body": 65,
+    "control": 76,
+    "guard": 74,
+    "speed": 66,
+    "stamina": 67,
+    "guts": 68
+   },
+   "moves": [
+    "northern-impact",
+    "water-veil",
+    "fire-blizzard"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Suzuno Fuusuke",
+   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple."
+  },
+  {
+   "id": "dawson-foxx",
+   "name": "Droll",
+   "short": "Droll",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 198,
+   "tp": 84,
+   "stats": {
+    "kick": 62,
+    "body": 68,
+    "control": 62,
+    "guard": 59,
+    "speed": 69,
+    "stamina": 62,
+    "guts": 61
+   },
+   "moves": [
+    "water-veil",
+    "quick-draw",
+    "shippuu-dash",
+    "universe-blast"
+   ],
+   "look": {
+    "hair": "#1d1410",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Kadomichi Tooru",
+   "description": "Lleva máscara porque enseguida se le ve en la cara lo que piensa."
+  },
+  {
    "id": "ving-rice",
    "name": "Rhine",
    "short": "Rhine",
@@ -165,38 +237,6 @@
    },
    "wiki": "Kurione Yuki",
    "description": "No soporta que nadie la moleste, pero cuando sonríe está muy guapa."
-  },
-  {
-   "id": "denzel-freezer",
-   "name": "Frost",
-   "short": "Frost",
-   "number": 11,
-   "position": "FW",
-   "element": "earth",
-   "level": 99,
-   "fp": 182,
-   "tp": 81,
-   "stats": {
-    "kick": 60,
-    "body": 64,
-    "control": 62,
-    "guard": 56,
-    "speed": 68,
-    "stamina": 68,
-    "guts": 63
-   },
-   "moves": [
-    "astro-break",
-    "divine-arrow",
-    "water-veil",
-    "supernova"
-   ],
-   "look": {
-    "hair": "#efe6c4",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Mikoori Rei",
-   "description": "Tiene el corazón de hielo y hasta sus compañeros le temen."
   },
   {
    "id": "lucy-hailstone",
@@ -262,36 +302,36 @@
    "description": "Tiene complejo de cara aniñada y se maquilla para dar miedo."
   },
   {
-   "id": "dawson-foxx",
-   "name": "Droll",
-   "short": "Droll",
-   "number": 7,
-   "position": "MF",
-   "element": "wind",
+   "id": "denzel-freezer",
+   "name": "Frost",
+   "short": "Frost",
+   "number": 11,
+   "position": "FW",
+   "element": "earth",
    "level": 99,
-   "fp": 198,
-   "tp": 84,
+   "fp": 182,
+   "tp": 81,
    "stats": {
-    "kick": 62,
-    "body": 68,
+    "kick": 60,
+    "body": 64,
     "control": 62,
-    "guard": 59,
-    "speed": 69,
-    "stamina": 62,
-    "guts": 61
+    "guard": 56,
+    "speed": 68,
+    "stamina": 68,
+    "guts": 63
    },
    "moves": [
+    "astro-break",
+    "divine-arrow",
     "water-veil",
-    "quick-draw",
-    "shippuu-dash",
-    "universe-blast"
+    "supernova"
    ],
    "look": {
-    "hair": "#1d1410",
+    "hair": "#efe6c4",
     "skin": "#f1c79b"
    },
-   "wiki": "Kadomichi Tooru",
-   "description": "Lleva máscara porque enseguida se le ve en la cara lo que piensa."
+   "wiki": "Mikoori Rei",
+   "description": "Tiene el corazón de hielo y hasta sus compañeros le temen."
   },
   {
    "id": "bernie-white",
@@ -324,37 +364,6 @@
    },
    "wiki": "Tsumujino Touji",
    "description": "Es capaz de prever los movimientos del rival y nunca baja la guardia."
-  },
-  {
-   "id": "bryce-whitingale",
-   "name": "Gazelle",
-   "short": "Gazelle",
-   "number": 10,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 189,
-   "tp": 96,
-   "stats": {
-    "kick": 78,
-    "body": 65,
-    "control": 76,
-    "guard": 74,
-    "speed": 66,
-    "stamina": 67,
-    "guts": 68
-   },
-   "moves": [
-    "northern-impact",
-    "water-veil",
-    "fire-blizzard"
-   ],
-   "look": {
-    "hair": "#6b3e1f",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Suzuno Fuusuke",
-   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple."
   }
  ]
 }

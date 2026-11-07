@@ -4,7 +4,15 @@
  "wiki": "Sengoku Igajima",
  "name": "Instituto Shuriken",
  "short": "SEN",
- "colors": {"shirt": "#4e3a5c", "shorts": "#4e3a5c", "gkShirt": "#6a9a96", "accent": "#9ab4bc", "sleeve": "#4e3a5c", "socks": "#a8a49c", "gkShorts": "#5e8a86"},
+ "colors": {
+  "shirt": "#4e3a5c",
+  "shorts": "#4e3a5c",
+  "gkShirt": "#6a9a96",
+  "accent": "#9ab4bc",
+  "sleeve": "#4e3a5c",
+  "socks": "#a8a49c",
+  "gkShorts": "#5e8a86"
+ },
  "formation": "f-kakuyoku-no-jin",
  "players": [
   {

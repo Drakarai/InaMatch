@@ -118,4 +118,8 @@ export interface Formation {
   id: string;
   name: string;
   slots: FormationSlot[]; // 11 huecos, el primero siempre el portero
+  /** Distribución por puestos (defensas-medios-delanteros). */
+  layout: string;
+  /** Otros nombres de la wiki con la misma colocación (formaciones juntadas). */
+  also?: string[];
 }

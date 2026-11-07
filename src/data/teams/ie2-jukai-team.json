@@ -4,7 +4,16 @@
  "wiki": "Jukai Team",
  "name": "Mar de Árboles",
  "short": "JUK",
- "colors": {"shirt": "#a8d888", "shorts": "#a8d888", "gkShirt": "#4a5a3a", "accent": "#1e2a1e", "sleeve": "#a8d888", "socks": "#a8d888", "gkShorts": "#4a5a3a", "gkSleeve": "#4a5a3a"},
+ "colors": {
+  "shirt": "#a8d888",
+  "shorts": "#a8d888",
+  "gkShirt": "#4a5a3a",
+  "accent": "#1e2a1e",
+  "sleeve": "#a8d888",
+  "socks": "#a8d888",
+  "gkShorts": "#4a5a3a",
+  "gkSleeve": "#4a5a3a"
+ },
  "formation": "f-basic-2",
  "players": [
   {
@@ -155,33 +164,33 @@
    "description": "Su cara da miedo, pero es el romántico del equipo."
   },
   {
-   "id": "scaber-enoki",
-   "name": "Scaber Enoki",
-   "short": "Scaber",
-   "number": 11,
+   "id": "roy-daring",
+   "name": "Roy Daring",
+   "short": "Roy",
+   "number": 10,
    "position": "FW",
-   "element": "fire",
+   "element": "wood",
    "level": 99,
-   "fp": 191,
+   "fp": 217,
    "tp": 197,
    "stats": {
     "kick": 79,
-    "body": 76,
-    "control": 69,
-    "guard": 76,
-    "speed": 74,
-    "stamina": 76,
-    "guts": 78
+    "body": 68,
+    "control": 79,
+    "guard": 70,
+    "speed": 70,
+    "stamina": 70,
+    "guts": 69
    },
    "moves": [
-    "shine-drive"
+    "bunshin-shoot"
    ],
    "look": {
-    "hair": "#d9822b",
-    "skin": "#9a6a44"
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
    },
-   "wiki": "Manda Sontoku",
-   "description": "El más fuerte del equipo. Ahora come muchas setas y no tiene fuerzas."
+   "wiki": "Shiki Yuuji",
+   "description": "El guapo del equipo. Aunque donde vive eso no tiene importancia."
   },
   {
    "id": "garjan-cypress",
@@ -273,6 +282,35 @@
    "description": "El teniente del equipo. Admira profundamente al capitán."
   },
   {
+   "id": "scaber-enoki",
+   "name": "Scaber Enoki",
+   "short": "Scaber",
+   "number": 11,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 191,
+   "tp": 197,
+   "stats": {
+    "kick": 79,
+    "body": 76,
+    "control": 69,
+    "guard": 76,
+    "speed": 74,
+    "stamina": 76,
+    "guts": 78
+   },
+   "moves": [
+    "shine-drive"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Manda Sontoku",
+   "description": "El más fuerte del equipo. Ahora come muchas setas y no tiene fuerzas."
+  },
+  {
    "id": "chris-ticker",
    "name": "Chris Ticker",
    "short": "Chris",
@@ -300,35 +338,6 @@
    },
    "wiki": "Biku Suguru",
    "description": "El que pasa lista del equipo. Lleva un reloj digital en los ojos."
-  },
-  {
-   "id": "roy-daring",
-   "name": "Roy Daring",
-   "short": "Roy",
-   "number": 10,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 217,
-   "tp": 197,
-   "stats": {
-    "kick": 79,
-    "body": 68,
-    "control": 79,
-    "guard": 70,
-    "speed": 70,
-    "stamina": 70,
-    "guts": 69
-   },
-   "moves": [
-    "bunshin-shoot"
-   ],
-   "look": {
-    "hair": "#3a2a1a",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Shiki Yuuji",
-   "description": "El guapo del equipo. Aunque donde vive eso no tiene importancia."
   }
  ]
 }

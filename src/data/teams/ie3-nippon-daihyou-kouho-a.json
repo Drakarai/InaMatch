@@ -207,6 +207,69 @@
    "description": "Tiene un buen corazón y siempre cuida de sus amigos."
   },
   {
+   "id": "david-samford",
+   "name": "David Samford",
+   "short": "David",
+   "number": 16,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 124,
+   "tp": 126,
+   "stats": {
+    "kick": 70,
+    "body": 60,
+    "control": 61,
+    "guard": 53,
+    "speed": 58,
+    "stamina": 70,
+    "guts": 67
+   },
+   "moves": [
+    "reppuu-dash",
+    "koutei-penguin-2gou",
+    "space-penguin"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Sakuma Jirou",
+   "description": "Delantero con un tiro imparable. Suele ser la mano derecha de Jude."
+  },
+  {
+   "id": "kevin-dragonfly",
+   "name": "Kevin Dragonfly",
+   "short": "Kevin",
+   "number": 17,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 122,
+   "tp": 124,
+   "stats": {
+    "kick": 79,
+    "body": 60,
+    "control": 49,
+    "guard": 53,
+    "speed": 51,
+    "stamina": 64,
+    "guts": 70
+   },
+   "moves": [
+    "dragon-crash",
+    "wyvern-crash",
+    "wyvern-blizzard",
+    "dragon-slayer"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Someoka Ryuugo",
+   "description": "Su afán de superación impresiona, pero su cara... ¡todavía más!"
+  },
+  {
    "id": "xavier-foster",
    "name": "Xavier Foster",
    "short": "Xavier",
@@ -300,69 +363,6 @@
    },
    "wiki": "Fubuki Shirou",
    "description": "La estrella del Instituto Alpino. Como defensa es invencible."
-  },
-  {
-   "id": "david-samford",
-   "name": "David Samford",
-   "short": "David",
-   "number": 16,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 124,
-   "tp": 126,
-   "stats": {
-    "kick": 70,
-    "body": 60,
-    "control": 61,
-    "guard": 53,
-    "speed": 58,
-    "stamina": 70,
-    "guts": 67
-   },
-   "moves": [
-    "reppuu-dash",
-    "koutei-penguin-2gou",
-    "space-penguin"
-   ],
-   "look": {
-    "hair": "#c0302a",
-    "skin": "#9a6a44"
-   },
-   "wiki": "Sakuma Jirou",
-   "description": "Delantero con un tiro imparable. Suele ser la mano derecha de Jude."
-  },
-  {
-   "id": "kevin-dragonfly",
-   "name": "Kevin Dragonfly",
-   "short": "Kevin",
-   "number": 17,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 122,
-   "tp": 124,
-   "stats": {
-    "kick": 79,
-    "body": 60,
-    "control": 49,
-    "guard": 53,
-    "speed": 51,
-    "stamina": 64,
-    "guts": 70
-   },
-   "moves": [
-    "dragon-crash",
-    "wyvern-crash",
-    "wyvern-blizzard",
-    "dragon-slayer"
-   ],
-   "look": {
-    "hair": "#c9ccd6",
-    "skin": "#c08a5e"
-   },
-   "wiki": "Someoka Ryuugo",
-   "description": "Su afán de superación impresiona, pero su cara... ¡todavía más!"
   },
   {
    "id": "marvin-murdock",

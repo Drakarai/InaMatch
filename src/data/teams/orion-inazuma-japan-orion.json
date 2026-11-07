@@ -10,7 +10,7 @@
   "gkShirt": "#e8892b",
   "accent": "#8a1a3a"
  },
- "formation": "f-2-3-5",
+ "formation": "freedom",
  "players": [
   {
    "id": "mark-evans",
@@ -109,6 +109,36 @@
    "description": "Su elegante juego de pies pone a los rivales en su lugar. Es como un viento huracanado que barre el campo."
   },
   {
+   "id": "elliot-ember",
+   "name": "Elliot Ember",
+   "short": "Elliot",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 190,
+   "tp": 216,
+   "stats": {
+    "kick": 63,
+    "body": 74,
+    "control": 66,
+    "guard": 76,
+    "speed": 84,
+    "stamina": 72,
+    "guts": 67
+   },
+   "moves": [
+    "overhead-penguin",
+    "perfect-penguin"
+   ],
+   "look": {
+    "hair": "#c9ccd6",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Haizaki Ryouhei",
+   "description": "La sonrisa demente de este jugador pone los vellos de punta. Agobia al rival con un estilo de juego hiperagresivo."
+  },
+  {
    "id": "caleb-stonewall",
    "name": "Caleb Stonewall",
    "short": "Caleb",
@@ -205,68 +235,6 @@
    "description": "Aunque parece indiferente, es muy observador y atento. Apoya a su equipo a ambos lados del campo."
   },
   {
-   "id": "shawn-froste",
-   "name": "Shawn Froste",
-   "short": "Shawn",
-   "number": 4,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 147,
-   "tp": 133,
-   "stats": {
-    "kick": 75,
-    "body": 63,
-    "control": 68,
-    "guard": 75,
-    "speed": 63,
-    "stamina": 53,
-    "guts": 52
-   },
-   "moves": [
-    "white-double-impact",
-    "ice-ground",
-    "aurora-dribble",
-    "freeze-shot"
-   ],
-   "look": {
-    "hair": "#6b3e1f",
-    "skin": "#b5835a"
-   },
-   "wiki": "Fubuki Shirou",
-   "description": "Anteriormente conocido como el \"Cazador de Osos\". Su temperamento tranquilo oculta un estilo de juego poderoso."
-  },
-  {
-   "id": "sonny-wright",
-   "name": "Sonny Wright",
-   "short": "Sonny",
-   "number": 8,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 190,
-   "tp": 216,
-   "stats": {
-    "kick": 63,
-    "body": 74,
-    "control": 66,
-    "guard": 76,
-    "speed": 84,
-    "stamina": 72,
-    "guts": 67
-   },
-   "moves": [
-    "inabikari-dash",
-    "shining-bird"
-   ],
-   "look": {
-    "hair": "#1d1410",
-    "skin": "#c08a5e"
-   },
-   "wiki": "Inamori Asuto",
-   "description": "Un fanático del fútbol, tan brillante y enérgico como el propio sol, que siempre hace que el ambiente se caldee."
-  },
-  {
    "id": "xavier-schiller",
    "name": "Xavier Schiller",
    "short": "Schiller",
@@ -329,12 +297,44 @@
    "description": "Bajo su fría apariencia, en el interior de este chico arde una intensa pasión por el fútbol."
   },
   {
-   "id": "elliot-ember",
-   "name": "Elliot Ember",
-   "short": "Elliot",
-   "number": 11,
+   "id": "shawn-froste",
+   "name": "Shawn Froste",
+   "short": "Shawn",
+   "number": 4,
    "position": "FW",
-   "element": "wood",
+   "element": "wind",
+   "level": 99,
+   "fp": 147,
+   "tp": 133,
+   "stats": {
+    "kick": 75,
+    "body": 63,
+    "control": 68,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 53,
+    "guts": 52
+   },
+   "moves": [
+    "white-double-impact",
+    "ice-ground",
+    "aurora-dribble",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "Anteriormente conocido como el \"Cazador de Osos\". Su temperamento tranquilo oculta un estilo de juego poderoso."
+  },
+  {
+   "id": "sonny-wright",
+   "name": "Sonny Wright",
+   "short": "Sonny",
+   "number": 8,
+   "position": "FW",
+   "element": "fire",
    "level": 99,
    "fp": 190,
    "tp": 216,
@@ -348,15 +348,15 @@
     "guts": 67
    },
    "moves": [
-    "overhead-penguin",
-    "perfect-penguin"
+    "inabikari-dash",
+    "shining-bird"
    ],
    "look": {
-    "hair": "#c9ccd6",
-    "skin": "#9a6a44"
+    "hair": "#1d1410",
+    "skin": "#c08a5e"
    },
-   "wiki": "Haizaki Ryouhei",
-   "description": "La sonrisa demente de este jugador pone los vellos de punta. Agobia al rival con un estilo de juego hiperagresivo."
+   "wiki": "Inamori Asuto",
+   "description": "Un fanático del fútbol, tan brillante y enérgico como el propio sol, que siempre hace que el ambiente se caldee."
   },
   {
    "id": "adriano-donati",

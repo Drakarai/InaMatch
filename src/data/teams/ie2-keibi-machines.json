@@ -4,7 +4,16 @@
  "wiki": "Keibi Machines",
  "name": "Robots Guardias",
  "short": "KEI",
- "colors": {"shirt": "#c8b4b0", "shorts": "#c8b4b0", "gkShirt": "#4a3e40", "accent": "#2a2a34", "sleeve": "#c8b4b0", "socks": "#4a4048", "gkShorts": "#4a3e40", "gkSleeve": "#4a3e40"},
+ "colors": {
+  "shirt": "#c8b4b0",
+  "shorts": "#c8b4b0",
+  "gkShirt": "#4a3e40",
+  "accent": "#2a2a34",
+  "sleeve": "#c8b4b0",
+  "socks": "#4a4048",
+  "gkShorts": "#4a3e40",
+  "gkSleeve": "#4a3e40"
+ },
  "formation": "f-basic-2",
  "players": [
   {
@@ -154,33 +163,31 @@
    "description": "Robot guardia 5 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
-   "id": "robot-l",
-   "name": "Robot L",
-   "short": "L",
-   "number": 11,
+   "id": "robot-f",
+   "name": "Robot F",
+   "short": "F",
+   "number": 10,
    "position": "FW",
-   "element": "wood",
+   "element": "fire",
    "level": 99,
-   "fp": 198,
-   "tp": 157,
+   "fp": 215,
+   "tp": 160,
    "stats": {
-    "kick": 68,
-    "body": 53,
-    "control": 58,
-    "guard": 55,
-    "speed": 52,
-    "stamina": 70,
-    "guts": 68
+    "kick": 63,
+    "body": 59,
+    "control": 55,
+    "guard": 58,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 62
    },
-   "moves": [
-    "security-shot"
-   ],
+   "moves": [],
    "look": {
-    "hair": "#4c8a3c",
-    "skin": "#f1c79b"
+    "hair": "#e98aa8",
+    "skin": "#b5835a"
    },
-   "wiki": "Robo L",
-   "description": "Robot guardia 11 del laboratorio de los Mensajeros de las Estrellas."
+   "wiki": "Robo F",
+   "description": "Robot guardia 10 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
    "id": "robot-o",
@@ -270,6 +277,35 @@
    "description": "Robot guardia 8 del laboratorio de los Mensajeros de las Estrellas."
   },
   {
+   "id": "robot-l",
+   "name": "Robot L",
+   "short": "L",
+   "number": 11,
+   "position": "FW",
+   "element": "wood",
+   "level": 99,
+   "fp": 198,
+   "tp": 157,
+   "stats": {
+    "kick": 68,
+    "body": 53,
+    "control": 58,
+    "guard": 55,
+    "speed": 52,
+    "stamina": 70,
+    "guts": 68
+   },
+   "moves": [
+    "security-shot"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Robo L",
+   "description": "Robot guardia 11 del laboratorio de los Mensajeros de las Estrellas."
+  },
+  {
    "id": "robot-k",
    "name": "Robot K",
    "short": "K",
@@ -297,33 +333,6 @@
    },
    "wiki": "Robo K",
    "description": "Robot guardia 9 del laboratorio de los Mensajeros de las Estrellas."
-  },
-  {
-   "id": "robot-f",
-   "name": "Robot F",
-   "short": "F",
-   "number": 10,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 215,
-   "tp": 160,
-   "stats": {
-    "kick": 63,
-    "body": 59,
-    "control": 55,
-    "guard": 58,
-    "speed": 62,
-    "stamina": 69,
-    "guts": 62
-   },
-   "moves": [],
-   "look": {
-    "hair": "#e98aa8",
-    "skin": "#b5835a"
-   },
-   "wiki": "Robo F",
-   "description": "Robot guardia 10 del laboratorio de los Mensajeros de las Estrellas."
   }
  ]
 }

@@ -10,7 +10,7 @@
   "gkShirt": "#3a8a3a",
   "accent": "#f2f2f2"
  },
- "formation": "f-3-4-3",
+ "formation": "hexa",
  "players": [
   {
    "id": "sandra-fischer",
@@ -269,38 +269,6 @@
    "description": "Centrocampista de visión aguda. Amable pero muy irónico, si la situación lo requiere."
   },
   {
-   "id": "adriano-donati",
-   "name": "Adriano Donati",
-   "short": "Adriano",
-   "number": 9,
-   "position": "FW",
-   "element": "fire",
-   "level": 99,
-   "fp": 178,
-   "tp": 184,
-   "stats": {
-    "kick": 60,
-    "body": 70,
-    "control": 63,
-    "guard": 72,
-    "speed": 72,
-    "stamina": 69,
-    "guts": 60
-   },
-   "moves": [
-    "fire-lemonade",
-    "grenade-shot",
-    "dokonjou-bat",
-    "rocket-head"
-   ],
-   "look": {
-    "hair": "#4c8a3c",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Goujin Tetsunosuke",
-   "description": "Lidera la delantera con valor. Osado al jugar, pero nunca defrauda en los momentos difíciles."
-  },
-  {
    "id": "sonny-wright",
    "name": "Sonny Wright",
    "short": "Sonny",
@@ -361,6 +329,38 @@
    },
    "wiki": "Kozoumaru Sasuke",
    "description": "Ares : Es el único chico de ciudad del equipo. Es algo pasota pero guay, y siempre busca seguir mejorando."
+  },
+  {
+   "id": "adriano-donati",
+   "name": "Adriano Donati",
+   "short": "Adriano",
+   "number": 9,
+   "position": "FW",
+   "element": "fire",
+   "level": 99,
+   "fp": 178,
+   "tp": 184,
+   "stats": {
+    "kick": 60,
+    "body": 70,
+    "control": 63,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 69,
+    "guts": 60
+   },
+   "moves": [
+    "fire-lemonade",
+    "grenade-shot",
+    "dokonjou-bat",
+    "rocket-head"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Goujin Tetsunosuke",
+   "description": "Lidera la delantera con valor. Osado al jugar, pero nunca defrauda en los momentos difíciles."
   },
   {
    "id": "rolland-bowlby",

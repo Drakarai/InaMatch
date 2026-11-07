@@ -4,7 +4,16 @@
  "wiki": "Epsilon Kai",
  "name": "Épsilon Plus",
  "short": "EPK",
- "colors": {"shirt": "#b81e3a", "shorts": "#3a3a44", "gkShirt": "#28262c", "accent": "#2a8aa0", "sleeve": "#3a3a44", "socks": "#b81e3a", "gkShorts": "#28262c", "gkSleeve": "#28262c"},
+ "colors": {
+  "shirt": "#b81e3a",
+  "shorts": "#3a3a44",
+  "gkShirt": "#28262c",
+  "accent": "#2a8aa0",
+  "sleeve": "#3a3a44",
+  "socks": "#b81e3a",
+  "gkShorts": "#28262c",
+  "gkSleeve": "#28262c"
+ },
  "formation": "f-epsilon",
  "players": [
   {
@@ -159,35 +168,35 @@
    "description": "Lo va rompiendo todo porque no puede controlar su enorme cuerpo."
   },
   {
-   "id": "dave-quagmire",
-   "name": "Dvalin",
-   "short": "Dvalin",
-   "number": 11,
+   "id": "carrie-mccuring",
+   "name": "Mercury",
+   "short": "Mercury",
+   "number": 9,
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 195,
-   "tp": 72,
+   "fp": 149,
+   "tp": 76,
    "stats": {
-    "kick": 80,
-    "body": 70,
-    "control": 57,
-    "guard": 60,
-    "speed": 60,
-    "stamina": 69,
-    "guts": 54
+    "kick": 70,
+    "body": 58,
+    "control": 61,
+    "guard": 52,
+    "speed": 71,
+    "stamina": 53,
+    "guts": 53
    },
    "moves": [
-    "wormhole",
-    "drill-smasher",
-    "gungnir"
+    "meteor-shower",
+    "gaia-break",
+    "asteroid-belt"
    ],
    "look": {
-    "hair": "#3a6fb5",
-    "skin": "#b5835a"
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
    },
-   "wiki": "Saginuma Osamu",
-   "description": "Odia que las cosas no salgan tal y como las había planeado."
+   "wiki": "Sumeragi Maki",
+   "description": "Es muy dulce, pero se enfada de golpe si no consigue lo que quiere."
   },
   {
    "id": "mads-hatter",
@@ -309,35 +318,35 @@
    "description": "Provoca al rival a propósito para que caiga de cabeza en su trampa."
   },
   {
-   "id": "carrie-mccuring",
-   "name": "Mercury",
-   "short": "Mercury",
-   "number": 9,
+   "id": "dave-quagmire",
+   "name": "Dvalin",
+   "short": "Dvalin",
+   "number": 11,
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 149,
-   "tp": 76,
+   "fp": 195,
+   "tp": 72,
    "stats": {
-    "kick": 70,
-    "body": 58,
-    "control": 61,
-    "guard": 52,
-    "speed": 71,
-    "stamina": 53,
-    "guts": 53
+    "kick": 80,
+    "body": 70,
+    "control": 57,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 69,
+    "guts": 54
    },
    "moves": [
-    "meteor-shower",
-    "gaia-break",
-    "asteroid-belt"
+    "wormhole",
+    "drill-smasher",
+    "gungnir"
    ],
    "look": {
-    "hair": "#3a2a1a",
-    "skin": "#9a6a44"
+    "hair": "#3a6fb5",
+    "skin": "#b5835a"
    },
-   "wiki": "Sumeragi Maki",
-   "description": "Es muy dulce, pero se enfada de golpe si no consigue lo que quiere."
+   "wiki": "Saginuma Osamu",
+   "description": "Odia que las cosas no salgan tal y como las había planeado."
   },
   {
    "id": "dave-quagmire-desarm-cc",

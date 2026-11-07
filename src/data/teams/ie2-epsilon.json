@@ -4,7 +4,16 @@
  "wiki": "Epsilon",
  "name": "Épsilon",
  "short": "EPS",
- "colors": {"shirt": "#b81e3a", "shorts": "#3a3a44", "gkShirt": "#28262c", "accent": "#2a8aa0", "sleeve": "#3a3a44", "socks": "#b81e3a", "gkShorts": "#28262c", "gkSleeve": "#28262c"},
+ "colors": {
+  "shirt": "#b81e3a",
+  "shorts": "#3a3a44",
+  "gkShirt": "#28262c",
+  "accent": "#2a8aa0",
+  "sleeve": "#3a3a44",
+  "socks": "#b81e3a",
+  "gkShorts": "#28262c",
+  "gkSleeve": "#28262c"
+ },
  "formation": "f-epsilon",
  "players": [
   {
@@ -168,36 +177,36 @@
    "description": "Lo va rompiendo todo porque no puede controlar su enorme cuerpo."
   },
   {
-   "id": "zeke-valanche",
-   "name": "Zell",
-   "short": "Zell",
-   "number": 11,
+   "id": "ronny-metcalf",
+   "name": "Metron",
+   "short": "Metron",
+   "number": 10,
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 180,
+   "fp": 149,
    "tp": 72,
    "stats": {
-    "kick": 69,
-    "body": 64,
-    "control": 52,
-    "guard": 75,
-    "speed": 63,
-    "stamina": 68,
-    "guts": 60
+    "kick": 70,
+    "body": 60,
+    "control": 71,
+    "guard": 63,
+    "speed": 67,
+    "stamina": 65,
+    "guts": 64
    },
    "moves": [
-    "ganymede-proton",
     "gaia-break",
-    "wormhole",
-    "jikuu-no-kabe"
+    "warp-drive",
+    "cross-drive",
+    "astro-break"
    ],
    "look": {
-    "hair": "#8b5a2b",
-    "skin": "#f1c79b"
+    "hair": "#5a3a7a",
+    "skin": "#b5835a"
    },
-   "wiki": "Segata Ryuuichirou",
-   "description": "Confía plenamente en su destreza y culpa a los demás si algo sale mal."
+   "wiki": "Mutou Satoshi",
+   "description": "Provoca al rival a propósito para que caiga de cabeza en su trampa."
   },
   {
    "id": "mads-hatter",
@@ -295,38 +304,6 @@
    "description": "Puede comunicarse con las plantas, pero nunca escucha a los del equipo."
   },
   {
-   "id": "ronny-metcalf",
-   "name": "Metron",
-   "short": "Metron",
-   "number": 10,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 149,
-   "tp": 72,
-   "stats": {
-    "kick": 70,
-    "body": 60,
-    "control": 71,
-    "guard": 63,
-    "speed": 67,
-    "stamina": 65,
-    "guts": 64
-   },
-   "moves": [
-    "gaia-break",
-    "warp-drive",
-    "cross-drive",
-    "astro-break"
-   ],
-   "look": {
-    "hair": "#5a3a7a",
-    "skin": "#b5835a"
-   },
-   "wiki": "Mutou Satoshi",
-   "description": "Provoca al rival a propósito para que caiga de cabeza en su trampa."
-  },
-  {
    "id": "carrie-mccuring",
    "name": "Mercury",
    "short": "Mercury",
@@ -357,6 +334,38 @@
    },
    "wiki": "Sumeragi Maki",
    "description": "Es muy dulce, pero se enfada de golpe si no consigue lo que quiere."
+  },
+  {
+   "id": "zeke-valanche",
+   "name": "Zell",
+   "short": "Zell",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 180,
+   "tp": 72,
+   "stats": {
+    "kick": 69,
+    "body": 64,
+    "control": 52,
+    "guard": 75,
+    "speed": 63,
+    "stamina": 68,
+    "guts": 60
+   },
+   "moves": [
+    "ganymede-proton",
+    "gaia-break",
+    "wormhole",
+    "jikuu-no-kabe"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Segata Ryuuichirou",
+   "description": "Confía plenamente en su destreza y culpa a los demás si algo sale mal."
   }
  ]
 }

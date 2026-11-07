@@ -147,6 +147,37 @@
    "description": "Hijo de granjeros que se levanta muy pronto para cuidar el ganado."
   },
   {
+   "id": "ethan-whitering",
+   "name": "Ethan Whitering",
+   "short": "Ethan",
+   "number": 12,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 133,
+   "tp": 128,
+   "stats": {
+    "kick": 52,
+    "body": 79,
+    "control": 60,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 71,
+    "guts": 55
+   },
+   "moves": [
+    "meteor-shower",
+    "beast-fang",
+    "twin-boost-f"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Atsuishi Shigeto",
+   "description": "Amigo de la infancia de Torch. Se entrenó para ser más fuerte."
+  },
+  {
    "id": "henry-house",
    "name": "Henry House",
    "short": "Henry",
@@ -240,37 +271,6 @@
    },
    "wiki": "Saginuma Osamu",
    "description": "Futbolista que presume de su técnica Lanza de Odín. Antes se hacía llamar Dvalin."
-  },
-  {
-   "id": "ethan-whitering",
-   "name": "Ethan Whitering",
-   "short": "Ethan",
-   "number": 12,
-   "position": "MF",
-   "element": "wood",
-   "level": 99,
-   "fp": 133,
-   "tp": 128,
-   "stats": {
-    "kick": 52,
-    "body": 79,
-    "control": 60,
-    "guard": 60,
-    "speed": 62,
-    "stamina": 71,
-    "guts": 55
-   },
-   "moves": [
-    "meteor-shower",
-    "beast-fang",
-    "twin-boost-f"
-   ],
-   "look": {
-    "hair": "#3a2a1a",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Atsuishi Shigeto",
-   "description": "Amigo de la infancia de Torch. Se entrenó para ser más fuerte."
   },
   {
    "id": "daniel-hatch",

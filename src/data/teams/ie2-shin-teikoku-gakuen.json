@@ -4,8 +4,17 @@
  "wiki": "Shin Teikoku Gakuen",
  "name": "Royal Academy Redux",
  "short": "STG",
- "colors": {"shirt": "#1e3a2e", "shorts": "#2e2420", "gkShirt": "#d8801e", "accent": "#c0302a", "sleeve": "#1e3a2e", "socks": "#1e3a2e", "gkShorts": "#2e2420", "gkSleeve": "#d8801e"},
- "formation": "f-death-zone",
+ "colors": {
+  "shirt": "#1e3a2e",
+  "shorts": "#2e2420",
+  "gkShirt": "#d8801e",
+  "accent": "#c0302a",
+  "sleeve": "#1e3a2e",
+  "socks": "#1e3a2e",
+  "gkShorts": "#2e2420",
+  "gkSleeve": "#d8801e"
+ },
+ "formation": "f-basic-2",
  "players": [
   {
    "id": "joseph-king",

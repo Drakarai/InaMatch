@@ -10,7 +10,7 @@
   "gkShirt": "#5a5a5a",
   "accent": "#5a3a8a"
  },
- "formation": "f-4-4-2",
+ "formation": "box",
  "players": [
   {
    "id": "billy-dash",

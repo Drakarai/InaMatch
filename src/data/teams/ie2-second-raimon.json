@@ -10,7 +10,7 @@
   "gkShirt": "#e8892b",
   "accent": "#d9a400"
  },
- "formation": "f-basic",
+ "formation": "f-basic-ie3",
  "players": [
   {
    "id": "mark-evans",
@@ -267,6 +267,38 @@
    "description": "Centrocampista excepcional. Le llaman \"El mago del campo\"."
   },
   {
+   "id": "shawn-froste-fubuki-cc",
+   "name": "Shawn Froste",
+   "short": "Froste",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 136,
+   "stats": {
+    "kick": 72,
+    "body": 71,
+    "control": 68,
+    "guard": 64,
+    "speed": 68,
+    "stamina": 69,
+    "guts": 53
+   },
+   "moves": [
+    "eternal-blizzard",
+    "shippuu-dash",
+    "aurora-dribble",
+    "freeze-shot"
+   ],
+   "look": {
+    "hair": "#6b3e1f",
+    "skin": "#b5835a"
+   },
+   "wiki": "Fubuki Shirou",
+   "description": "El Delantero estrella de las tierras del norte. Suele ser muy tranquilo."
+  },
+  {
    "id": "axel-blaze",
    "name": "Axel Blaze",
    "short": "Axel",
@@ -329,38 +361,6 @@
    },
    "wiki": "Urabe Rica",
    "description": "Una delantera de Osaka que avasalla a cualquiera."
-  },
-  {
-   "id": "shawn-froste-fubuki-cc",
-   "name": "Shawn Froste",
-   "short": "Froste",
-   "number": 9,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 187,
-   "tp": 136,
-   "stats": {
-    "kick": 72,
-    "body": 71,
-    "control": 68,
-    "guard": 64,
-    "speed": 68,
-    "stamina": 69,
-    "guts": 53
-   },
-   "moves": [
-    "eternal-blizzard",
-    "shippuu-dash",
-    "aurora-dribble",
-    "freeze-shot"
-   ],
-   "look": {
-    "hair": "#6b3e1f",
-    "skin": "#b5835a"
-   },
-   "wiki": "Fubuki Shirou",
-   "description": "El Delantero estrella de las tierras del norte. Suele ser muy tranquilo."
   },
   {
    "id": "darren-lachance",

@@ -4,8 +4,14 @@
  "wiki": "Ichibangai Sally's",
  "name": "Sallys",
  "short": "ISS",
- "colors": {"shirt": "#e0a020", "shorts": "#2e6a3a", "gkShirt": "#ee7a7a", "accent": "#2e6a3a", "sleeve": "#e0a020"},
- "formation": "f-death-zone",
+ "colors": {
+  "shirt": "#e0a020",
+  "shorts": "#2e6a3a",
+  "gkShirt": "#ee7a7a",
+  "accent": "#2e6a3a",
+  "sleeve": "#e0a020"
+ },
+ "formation": "f-basic-2",
  "players": [
   {
    "id": "suzanne-yuma",

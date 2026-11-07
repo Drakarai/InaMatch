@@ -16,7 +16,7 @@
   "gkLongSleeve": true,
   "gkGloves": "#f0f0f0"
  },
- "formation": "f-4-4-2",
+ "formation": "f-shining-go",
  "players": [
   {
    "id": "albion-lumina",
@@ -143,37 +143,6 @@
    "description": "Tenaz defensa que no ceja en su tarea, incluso cuando lo han rebasado."
   },
   {
-   "id": "chandler-blanc",
-   "name": "Chandler Blanc",
-   "short": "Chandler",
-   "number": 5,
-   "position": "DF",
-   "element": "wood",
-   "level": 99,
-   "fp": 75,
-   "tp": 181,
-   "stats": {
-    "kick": 59,
-    "body": 64,
-    "control": 66,
-    "guard": 49,
-    "speed": 60,
-    "stamina": 46,
-    "guts": 55
-   },
-   "moves": [
-    "sprint-warp",
-    "crazy-sunlight",
-    "round-spark"
-   ],
-   "look": {
-    "hair": "#e98aa8",
-    "skin": "#e8b888"
-   },
-   "wiki": "Fujiki Tatsuhiko",
-   "description": "Poco dado a mostrar sus emociones, cuando se enfada es imparable."
-  },
-  {
    "id": "beacon-noor",
    "name": "Beacon Noor",
    "short": "Beacon",
@@ -235,69 +204,6 @@
    },
    "wiki": "Seidou Dan",
    "description": "Aunque no lo aparenta, es capaz de chutar con una fuerza increíble."
-  },
-  {
-   "id": "brighton-spark",
-   "name": "Brighton Spark",
-   "short": "Brighton",
-   "number": 8,
-   "position": "MF",
-   "element": "wood",
-   "level": 99,
-   "fp": 120,
-   "tp": 159,
-   "stats": {
-    "kick": 52,
-    "body": 50,
-    "control": 50,
-    "guard": 73,
-    "speed": 60,
-    "stamina": 51,
-    "guts": 53
-   },
-   "moves": [
-    "fortissimo",
-    "white-blade",
-    "olympus-harmony"
-   ],
-   "look": {
-    "hair": "#8b5a2b",
-    "skin": "#c08a5e"
-   },
-   "wiki": "Ginzamiya Akira",
-   "description": "Aunque le gusta estar en segundo plano, su lucidez es inestimable."
-  },
-  {
-   "id": "laban-lux",
-   "name": "Laban Lux",
-   "short": "Laban",
-   "number": 9,
-   "position": "MF",
-   "element": "wind",
-   "level": 99,
-   "fp": 127,
-   "tp": 152,
-   "stats": {
-    "kick": 53,
-    "body": 49,
-    "control": 52,
-    "guard": 64,
-    "speed": 63,
-    "stamina": 57,
-    "guts": 53
-   },
-   "moves": [
-    "fuujin-no-mai",
-    "white-blade",
-    "crazy-sunlight",
-    "thousand-arrow"
-   ],
-   "look": {
-    "hair": "#4c8a3c",
-    "skin": "#b5835a"
-   },
-   "wiki": "Sasayama Taki",
-   "description": "Neutraliza cualquier ataque usando sus propias técnicas corporales."
   },
   {
    "id": "bailong",
@@ -362,6 +268,100 @@
    },
    "wiki": "Hoda Mitsuhiro",
    "description": "Fantástico delantero que siempre lleva el gol entre ceja y ceja."
+  },
+  {
+   "id": "chandler-blanc",
+   "name": "Chandler Blanc",
+   "short": "Chandler",
+   "number": 5,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 75,
+   "tp": 181,
+   "stats": {
+    "kick": 59,
+    "body": 64,
+    "control": 66,
+    "guard": 49,
+    "speed": 60,
+    "stamina": 46,
+    "guts": 55
+   },
+   "moves": [
+    "sprint-warp",
+    "crazy-sunlight",
+    "round-spark"
+   ],
+   "look": {
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
+   },
+   "wiki": "Fujiki Tatsuhiko",
+   "description": "Poco dado a mostrar sus emociones, cuando se enfada es imparable."
+  },
+  {
+   "id": "laban-lux",
+   "name": "Laban Lux",
+   "short": "Laban",
+   "number": 9,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 127,
+   "tp": 152,
+   "stats": {
+    "kick": 53,
+    "body": 49,
+    "control": 52,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 57,
+    "guts": 53
+   },
+   "moves": [
+    "fuujin-no-mai",
+    "white-blade",
+    "crazy-sunlight",
+    "thousand-arrow"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Sasayama Taki",
+   "description": "Neutraliza cualquier ataque usando sus propias técnicas corporales."
+  },
+  {
+   "id": "brighton-spark",
+   "name": "Brighton Spark",
+   "short": "Brighton",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 120,
+   "tp": 159,
+   "stats": {
+    "kick": 52,
+    "body": 50,
+    "control": 50,
+    "guard": 73,
+    "speed": 60,
+    "stamina": 51,
+    "guts": 53
+   },
+   "moves": [
+    "fortissimo",
+    "white-blade",
+    "olympus-harmony"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Ginzamiya Akira",
+   "description": "Aunque le gusta estar en segundo plano, su lucidez es inestimable."
   }
  ]
 }

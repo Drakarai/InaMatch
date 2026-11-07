@@ -157,7 +157,11 @@ De dónde sale cada cosa:
 - **Nombre europeo, atributos a nivel 99 y descripción:** la página de cada jugador, en la pestaña del juego de la
   temporada (si falta, la del juego más cercano; 4 jugadores sin datos llevan atributos estimados por su posición).
 - **Técnicas:** potencia y coste de IE3 de `Module:WazaData` (o de IE2 si no salen en IE3), con el nombre en español del catálogo.
-- **Formaciones:** nombre y distribución (F-D Lion 4-4-2, F-Kingdom 4-3-3…); el juego coloca a los jugadores a partir de la distribución.
+- **Formaciones:** la posición exacta de cada jugador, sacada de las imágenes de formación de la wiki (`Module:FormationData`): los
+  cuadros de colores de GO, Chrono Stone y Galaxy, los sprites de IE (en la versión de IE3/VR, vista desde arriba) y los esquemas
+  de ataque de Victory Road. Cada equipo usa la de su juego (varias cambian entre GO y Chrono Stone: F-Raimon, F-Shining…).
+  Las que coinciden en todos los puestos están juntas en una (F-Basic 2 = F-Death Zone = F-Gemini…; los ids antiguos siguen
+  valiendo, en `src/data/formation-aliases.json`). Los equipos sin formación en la wiki llevan una genérica (F-4-4-2…).
 - **Nombre del equipo en español:** el enlace con la [wiki española](https://inazuma.fandom.com/es/). Los que no lo
   tienen, o se llaman distinto en los juegos (Polvo de Diamantes, Servicio Secreto, Equipo D, Os Reis…), están en
   `NAME_ES` dentro del script.

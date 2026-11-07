@@ -179,6 +179,38 @@
    "description": "Jugador del inframundo que usa sus poderes para percibir el lado oscuro de las cosas."
   },
   {
+   "id": "arachne",
+   "name": "Arachne",
+   "short": "Arachne",
+   "number": 8,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 114,
+   "tp": 132,
+   "stats": {
+    "kick": 68,
+    "body": 74,
+    "control": 51,
+    "guard": 46,
+    "speed": 61,
+    "stamina": 53,
+    "guts": 72
+   },
+   "moves": [
+    "devil-ball",
+    "good-smell",
+    "demon-cut",
+    "grand-fire"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Arachnes",
+   "description": "Jugadora del inframundo que usa sus técnicas arácnidas para aterrar a sus rivales."
+  },
+  {
    "id": "jezebeth",
    "name": "Jezebeth",
    "short": "Jezebeth",
@@ -271,38 +303,6 @@
    },
    "wiki": "Glahsya",
    "description": "Combina poderes mágicos, una mente brillante y una crueldad sin límites."
-  },
-  {
-   "id": "arachne",
-   "name": "Arachne",
-   "short": "Arachne",
-   "number": 8,
-   "position": "MF",
-   "element": "fire",
-   "level": 99,
-   "fp": 114,
-   "tp": 132,
-   "stats": {
-    "kick": 68,
-    "body": 74,
-    "control": 51,
-    "guard": 46,
-    "speed": 61,
-    "stamina": 53,
-    "guts": 72
-   },
-   "moves": [
-    "devil-ball",
-    "good-smell",
-    "demon-cut",
-    "grand-fire"
-   ],
-   "look": {
-    "hair": "#efe6c4",
-    "skin": "#f1c79b"
-   },
-   "wiki": "Arachnes",
-   "description": "Jugadora del inframundo que usa sus técnicas arácnidas para aterrar a sus rivales."
   },
   {
    "id": "thanatos",

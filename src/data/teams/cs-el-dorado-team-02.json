@@ -209,35 +209,35 @@
    "description": "Por su genialidad y su impecable estrategia, es apodado el Virtuoso."
   },
   {
-   "id": "zanark-avalonic",
-   "name": "Zanark Avalonic",
-   "short": "Zanark",
-   "number": 99,
+   "id": "gamma",
+   "name": "Gamma",
+   "short": "Gamma",
+   "number": 10,
    "position": "FW",
-   "element": "earth",
+   "element": "wood",
    "level": 99,
-   "fp": 166,
-   "tp": 128,
+   "fp": 147,
+   "tp": 133,
    "stats": {
-    "kick": 78,
-    "body": 69,
-    "control": 66,
-    "guard": 45,
-    "speed": 57,
-    "stamina": 79,
-    "guts": 61
+    "kick": 72,
+    "body": 83,
+    "control": 64,
+    "guard": 52,
+    "speed": 75,
+    "stamina": 53,
+    "guts": 56
    },
    "moves": [
-    "disaster-break",
-    "bungee-thrust",
-    "screwdriver"
+    "gamma-strike",
+    "all-delete",
+    "omega-attack"
    ],
    "look": {
-    "hair": "#c0302a",
-    "skin": "#c08a5e"
+    "hair": "#e98aa8",
+    "skin": "#e8b888"
    },
-   "wiki": "Zanark Avalonic",
-   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
+   "wiki": "Gamma",
+   "description": "El capitán del Protocolo Omega 3.0 tiene una fe ciega en sus habilidades."
   },
   {
    "id": "aitor-cazador",
@@ -269,6 +269,37 @@
    },
    "wiki": "Kariya Masaki",
    "description": "Un defensa con un equilibrio superior que a veces parece algo borde."
+  },
+  {
+   "id": "zanark-avalonic",
+   "name": "Zanark Avalonic",
+   "short": "Zanark",
+   "number": 99,
+   "position": "FW",
+   "element": "earth",
+   "level": 99,
+   "fp": 166,
+   "tp": 128,
+   "stats": {
+    "kick": 78,
+    "body": 69,
+    "control": 66,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 79,
+    "guts": 61
+   },
+   "moves": [
+    "disaster-break",
+    "bungee-thrust",
+    "screwdriver"
+   ],
+   "look": {
+    "hair": "#c0302a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Zanark Avalonic",
+   "description": "Un fugitivo de la prisión CONTRA. Es inestable y muy peligroso."
   },
   {
    "id": "alpha",
@@ -332,37 +363,6 @@
    },
    "wiki": "Beta",
    "description": "La capitana del Protocolo Omega 2.0 es risueña pero tiene un lado oscuro."
-  },
-  {
-   "id": "gamma",
-   "name": "Gamma",
-   "short": "Gamma",
-   "number": 10,
-   "position": "FW",
-   "element": "wood",
-   "level": 99,
-   "fp": 147,
-   "tp": 133,
-   "stats": {
-    "kick": 72,
-    "body": 83,
-    "control": 64,
-    "guard": 52,
-    "speed": 75,
-    "stamina": 53,
-    "guts": 56
-   },
-   "moves": [
-    "gamma-strike",
-    "all-delete",
-    "omega-attack"
-   ],
-   "look": {
-    "hair": "#e98aa8",
-    "skin": "#e8b888"
-   },
-   "wiki": "Gamma",
-   "description": "El capitán del Protocolo Omega 3.0 tiene una fe ciega en sus habilidades."
   },
   {
    "id": "mecha-mark",

@@ -5,10 +5,18 @@
  "name": "Colegio Ultramegahiedra",
  "short": "AOB",
  "colors": {
-  "shirt": "#f2f2f2",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#f2f2f2"
+  "shirt": "#2a50c0",
+  "shorts": "#e8eef0",
+  "gkShirt": "#f0f0f0",
+  "accent": "#1e2230",
+  "sleeve": "#1e2230",
+  "socks": "#2a50c0",
+  "gkShorts": "#1e2230",
+  "gkSleeve": "#f0f0f0",
+  "vstripes": "#1a2a6a",
+  "num": "#e8e8f0",
+  "gkLongSleeve": true,
+  "gkGloves": "#1e2230"
  },
  "formation": "f-blue-leaf",
  "players": [

@@ -5,10 +5,17 @@
  "name": "Instituto Alpino (GO)",
  "short": "HAK",
  "colors": {
-  "shirt": "#4a6a2a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#4a6a2a"
+  "shirt": "#eef2e2",
+  "shorts": "#2a3478",
+  "gkShirt": "#8a8e8a",
+  "accent": "#2a3478",
+  "sleeve": "#eef2e2",
+  "socks": "#eef2e2",
+  "gkShorts": "#f2f2f2",
+  "gkSleeve": "#f2f2f2",
+  "longSleeve": true,
+  "collar": "#8aa4d8",
+  "gkGloves": "#1e6a7a"
  },
  "formation": "f-soft-rime",
  "players": [

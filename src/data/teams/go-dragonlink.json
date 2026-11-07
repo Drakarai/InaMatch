@@ -5,10 +5,16 @@
  "name": "Dragon Link",
  "short": "DRA",
  "colors": {
-  "shirt": "#5a3a8a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#5a3a8a"
+  "shirt": "#3c3658",
+  "shorts": "#f0ece0",
+  "gkShirt": "#38c0b4",
+  "accent": "#8a80c8",
+  "sleeve": "#f0ece0",
+  "socks": "#f0ece0",
+  "gkShorts": "#1e7494",
+  "gkSleeve": "#38c0b4",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-thousand",
  "players": [

@@ -5,10 +5,15 @@
  "name": "Colegio de Empollones",
  "short": "EIT",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#8a1a3a"
+  "shirt": "#26b6c6",
+  "shorts": "#28348e",
+  "gkShirt": "#d01e22",
+  "accent": "#28348e",
+  "sleeve": "#26b6c6",
+  "socks": "#f0f0f0",
+  "gkShorts": "#28348e",
+  "gkSleeve": "#d01e22",
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-basic",
  "players": [

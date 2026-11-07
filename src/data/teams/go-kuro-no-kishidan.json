@@ -5,10 +5,17 @@
  "name": "Orden de los Caballeros Templarios",
  "short": "KUR",
  "colors": {
-  "shirt": "#f2c230",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#f2c230"
+  "shirt": "#2a2a2e",
+  "shorts": "#2a2a2e",
+  "gkShirt": "#f0e8dc",
+  "accent": "#f2d020",
+  "sleeve": "#2a2a2e",
+  "socks": "#f2d020",
+  "gkShorts": "#8a1a2a",
+  "gkSleeve": "#f0e8dc",
+  "gkLongSleeve": true,
+  "gkGloves": "#2a9a9a",
+  "stripe": "#2a2a2e"
  },
  "formation": "f-dark-knights",
  "players": [

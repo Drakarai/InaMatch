@@ -5,10 +5,16 @@
  "name": "Equipo Zero",
  "short": "ZER",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#5a5a5a",
-  "accent": "#8a1a3a"
+  "shirt": "#f6d070",
+  "shorts": "#f4f0e4",
+  "gkShirt": "#1e2228",
+  "accent": "#1e3c6a",
+  "sleeve": "#f4f0e4",
+  "socks": "#f0c860",
+  "gkShorts": "#2ab0b8",
+  "gkSleeve": "#1e2228",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-zero",
  "players": [

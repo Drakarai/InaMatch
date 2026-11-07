@@ -5,10 +5,17 @@
  "name": "Academia Militar Mar de Luna",
  "short": "GAS",
  "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#2a8a3a"
+  "shirt": "#2a3c4c",
+  "shorts": "#2a3c4c",
+  "gkShirt": "#c81e1e",
+  "accent": "#c8b878",
+  "sleeve": "#2a3c4c",
+  "socks": "#f0f0f0",
+  "gkShorts": "#1e2a20",
+  "gkSleeve": "#c81e1e",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "vstripes": "#c8b878"
  },
  "formation": "f-4-3-3",
  "players": [

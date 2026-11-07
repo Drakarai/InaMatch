@@ -5,10 +5,17 @@
  "name": "Inazuma Kids FC (GO)",
  "short": "IKG",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#c8202f"
+  "shirt": "#d82a24",
+  "shorts": "#5c5852",
+  "gkShirt": "#2a4aa8",
+  "accent": "#f2c230",
+  "sleeve": "#d82a24",
+  "socks": "#d82a24",
+  "gkShorts": "#1e1e1e",
+  "gkSleeve": "#2a4aa8",
+  "collar": "#4a4a4a",
+  "gkLongSleeve": true,
+  "gkGloves": "#7a7a7a"
  },
  "formation": "f-kid-s-heart",
  "players": [

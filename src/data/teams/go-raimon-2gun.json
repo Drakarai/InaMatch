@@ -5,10 +5,17 @@
  "name": "Equipo B del Instituto Raimon (GO)",
  "short": "RAI",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#c87aa8"
+  "shirt": "#eef0f2",
+  "shorts": "#f2b830",
+  "gkShirt": "#2a8a3a",
+  "accent": "#2456b8",
+  "sleeve": "#eef0f2",
+  "socks": "#eef0f2",
+  "gkShorts": "#2a8a3a",
+  "gkSleeve": "#1e3c5c",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "stripe": "#eef0f2"
  },
  "formation": "f-basic",
  "players": [

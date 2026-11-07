@@ -5,10 +5,16 @@
  "name": "Edad Dorada",
  "short": "AKI",
  "colors": {
-  "shirt": "#3a8ac0",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#3a8ac0"
+  "shirt": "#1aa88e",
+  "shorts": "#a8ec6a",
+  "gkShirt": "#d4d4d8",
+  "accent": "#a8ec6a",
+  "sleeve": "#1aa88e",
+  "socks": "#1aa88e",
+  "gkShorts": "#f07a8a",
+  "gkSleeve": "#d4d4d8",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-basic",
  "players": [

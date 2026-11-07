@@ -5,10 +5,16 @@
  "name": "Instituto Espejismo",
  "short": "GEN",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#1a1a1a"
+  "shirt": "#4a2e7a",
+  "shorts": "#8a2234",
+  "gkShirt": "#b8bcc6",
+  "accent": "#e8b830",
+  "sleeve": "#4a2e7a",
+  "socks": "#4a2e7a",
+  "gkShorts": "#2a2a2a",
+  "gkSleeve": "#b8bcc6",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-phantom",
  "players": [

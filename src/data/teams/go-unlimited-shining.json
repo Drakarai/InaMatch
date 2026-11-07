@@ -5,10 +5,16 @@
  "name": "Luz Eterna",
  "short": "UNL",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#c8202f"
+  "shirt": "#f6d070",
+  "shorts": "#f4f0e4",
+  "gkShirt": "#1e2228",
+  "accent": "#1e3c6a",
+  "sleeve": "#f4f0e4",
+  "socks": "#f0c860",
+  "gkShorts": "#2ab0b8",
+  "gkSleeve": "#1e2228",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-4-4-2",
  "players": [

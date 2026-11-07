@@ -5,10 +5,16 @@
  "name": "Academia Cala Pirata",
  "short": "KAI",
  "colors": {
-  "shirt": "#2a5fc0",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#2a5fc0"
+  "shirt": "#f2ead6",
+  "shorts": "#1e2e5a",
+  "gkShirt": "#1e1e22",
+  "accent": "#b81e24",
+  "sleeve": "#f2ead6",
+  "socks": "#f2ead6",
+  "gkShorts": "#f2ead6",
+  "gkSleeve": "#f2ead6",
+  "gkLongSleeve": true,
+  "gkGloves": "#2a5ac0"
  },
  "formation": "f-marine-snow",
  "players": [

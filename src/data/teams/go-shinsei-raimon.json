@@ -14,7 +14,8 @@
   "gkShorts": "#1e3c5c",
   "gkSleeve": "#e8782a",
   "gkLongSleeve": true,
-  "gkGloves": "#f0f0f0"
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#e8782a"
  },
  "formation": "f-raimon",
  "players": [

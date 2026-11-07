@@ -5,10 +5,16 @@
  "name": "Oscuridad Ancestral",
  "short": "ANC",
  "colors": {
-  "shirt": "#c87aa8",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#c87aa8"
+  "shirt": "#26242a",
+  "shorts": "#26242a",
+  "gkShirt": "#a8205a",
+  "accent": "#6a6670",
+  "sleeve": "#9a82c8",
+  "socks": "#26242a",
+  "gkShorts": "#a8205a",
+  "gkSleeve": "#a8205a",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-ancient",
  "players": [

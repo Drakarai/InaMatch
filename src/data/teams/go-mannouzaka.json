@@ -5,10 +5,17 @@
  "name": "Colegio Poderosa Fe",
  "short": "MAN",
  "colors": {
-  "shirt": "#8a1a3a",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#8a1a3a"
+  "shirt": "#2a3478",
+  "shorts": "#2a3478",
+  "gkShirt": "#3a4048",
+  "accent": "#b81e2a",
+  "sleeve": "#2a3478",
+  "socks": "#b81e2a",
+  "gkShorts": "#3a4048",
+  "gkSleeve": "#3a4048",
+  "gkLongSleeve": true,
+  "gkGloves": "#8ad040",
+  "stripe": "#2a3478"
  },
  "formation": "f-omni",
  "players": [

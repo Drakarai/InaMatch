@@ -5,10 +5,20 @@
  "name": "Instituto Zeus (Ares)",
  "short": "ZEU",
  "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#5a5a5a",
-  "accent": "#2a8a3a"
+  "shirt": "#f4f2ee",
+  "shorts": "#f4f2ee",
+  "gkShirt": "#5e5e64",
+  "accent": "#4a2a22",
+  "sleeve": "#f4f2ee",
+  "socks": "#f4f2ee",
+  "stripe": "#4a2a22",
+  "collar": "#4a2a22",
+  "num": "#c8865a",
+  "gkShorts": "#5e5e64",
+  "gkSleeve": "#1e1e22",
+  "gkLongSleeve": true,
+  "gkGloves": "#c8c8cc",
+  "gkSocks": "#5e5e64"
  },
  "formation": "f-4-4-2",
  "players": [

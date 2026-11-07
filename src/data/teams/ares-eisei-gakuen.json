@@ -5,10 +5,19 @@
  "name": "Academia Alia",
  "short": "EIS",
  "colors": {
-  "shirt": "#1a1a1a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#e8892b",
-  "accent": "#1a1a1a"
+  "shirt": "#f4f4f4",
+  "shorts": "#242a52",
+  "gkShirt": "#f4f4f4",
+  "accent": "#242a52",
+  "sleeve": "#242a52",
+  "socks": "#242a52",
+  "gkShorts": "#f4f4f4",
+  "gkSleeve": "#c8241e",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#242a52",
+  "collar": "#242a52",
+  "num": "#242a52"
  },
  "formation": "f-2-3-5",
  "players": [

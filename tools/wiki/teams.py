@@ -261,6 +261,10 @@ STYLE = {
     'Hakuren (Ares)': ('#f2eedc', '#2e4466', '#4a5226', '#2e4466', '#f2eedc', '#f2eedc', '#d8d0b0', '#4a5226', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#4a5226', 'collar': '#2e4466', 'num': '#2e4466', 'stripe': '#2e4466'}),
     # Kirkwood (Ares): camiseta roja con cuello negro, pantalón blanco roto y medias rojas; portero verde lima
     'Kidokawa Seishuu (Ares)': ('#d01e26', '#f0eae0', '#b8d078', '#1e1e22', '#d01e26', '#d01e26', '#4a5a62', '#b8d078', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#b8d078', 'collar': '#1e1e22', 'num': '#f4f4f4', 'stripe': '#1e1e22'}),
+    # Academia Alia (Eisei): camiseta blanca con mangas y cuello azul marino, pantalón y medias azul marino; portero blanco con manga larga roja
+    'Eisei Gakuen': ('#f4f4f4', '#242a52', '#f4f4f4', '#242a52', '#242a52', '#242a52', '#f4f4f4', '#c8241e', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#242a52', 'collar': '#242a52', 'num': '#242a52'}),
+    # Zeus (Ares): túnica blanca con cuello y detalles marrón oscuro, medias blancas; portero gris con manga larga negra
+    'Zeus (Ares)': ('#f4f2ee', '#f4f2ee', '#5e5e64', '#4a2a22', '#f4f2ee', '#f4f2ee', '#5e5e64', '#1e1e22', {'stripe': '#4a2a22', 'collar': '#4a2a22', 'num': '#c8865a', 'gkLongSleeve': True, 'gkGloves': '#c8c8cc', 'gkSocks': '#5e5e64'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

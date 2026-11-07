@@ -211,8 +211,8 @@ STYLE = {
     'Protocol Omega': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
     # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
     'Protocol Omega 2.0': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
-    # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
-    'Protocol Omega 3.0': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
+    # Protocolo Omega 3.0 (con Mixi Max): camiseta morada de manga larga con el pecho turquesa y cuello blanco, pantalón morado y medias blancas; portero azul noche con mangas magenta; los suplentes, con la del Protocolo Omega
+    'Protocol Omega 3.0': ('#2aa8b0', '#4a1e7a', '#1e2040', '#f0e8f0', '#4a1e7a', '#eeeeee', '#c0205a', '#c0205a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#4a6aa8', 'gkSocks': '#eeeeee', 'collar': '#f0e8f0', 'num': '#f0e8f0', 'kitFrom': {'romeo-cs-lugic': 'cs-protocol-omega', 'papa-cs-galling': 'cs-protocol-omega', 'quebec-cs-bahamus': 'cs-protocol-omega', 'sierra-cs-dhanna': 'cs-protocol-omega', 'gamma-cs-gamma': 'cs-protocol-omega'}}),
     # Protocolo Omega: mono azul noche con mangas largas grises y cuello blanco rosado, medias blancas; portero magenta con mangas largas oscuras
     'El Dorado Team 02': ('#1e1e3e', '#1e1e3e', '#c0408a', '#f0e2e8', '#5a6270', '#e8e6ee', '#c0408a', '#26203a', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#3a6ab0', 'gkSocks': '#e8e6ee', 'collar': '#f0e2e8'}),
     # Chrono Storm: la equipación amarilla y azul del Raimon; portero negro con mangas largas blancas

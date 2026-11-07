@@ -5,19 +5,27 @@
  "name": "Protocolo Omega 3.0",
  "short": "PO3",
  "colors": {
-  "shirt": "#1e1e3e",
-  "shorts": "#1e1e3e",
-  "gkShirt": "#c0408a",
-  "accent": "#f0e2e8",
-  "sleeve": "#5a6270",
-  "socks": "#e8e6ee",
-  "gkShorts": "#c0408a",
-  "gkSleeve": "#26203a",
+  "shirt": "#2aa8b0",
+  "shorts": "#4a1e7a",
+  "gkShirt": "#1e2040",
+  "accent": "#f0e8f0",
+  "sleeve": "#4a1e7a",
+  "socks": "#eeeeee",
+  "gkShorts": "#c0205a",
+  "gkSleeve": "#c0205a",
   "longSleeve": true,
   "gkLongSleeve": true,
-  "gkGloves": "#3a6ab0",
-  "gkSocks": "#e8e6ee",
-  "collar": "#f0e2e8"
+  "gkGloves": "#4a6aa8",
+  "gkSocks": "#eeeeee",
+  "collar": "#f0e8f0",
+  "num": "#f0e8f0",
+  "kitFrom": {
+   "romeo-cs-lugic": "cs-protocol-omega",
+   "papa-cs-galling": "cs-protocol-omega",
+   "quebec-cs-bahamus": "cs-protocol-omega",
+   "sierra-cs-dhanna": "cs-protocol-omega",
+   "gamma-cs-gamma": "cs-protocol-omega"
+  }
  },
  "formation": "f-gamma",
  "players": [

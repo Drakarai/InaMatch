@@ -812,6 +812,13 @@ import chars_scouts_ie2_05  # noqa: E402,F401
 import chars_scouts_ie2_06  # noqa: E402,F401
 import chars_scouts_ie2_07  # noqa: E402,F401
 
+import chars_scouts_ie3_01  # noqa: E402,F401
+import chars_scouts_ie3_02  # noqa: E402,F401
+import chars_scouts_ie3_03  # noqa: E402,F401
+import chars_scouts_ie3_04  # noqa: E402,F401
+import chars_scouts_ie3_05  # noqa: E402,F401
+import chars_scouts_ie3_06  # noqa: E402,F401
+
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):
     """Cambia los pinchos de detrás (los de 'sol': todos iguales, en abanico y con brillo) por pelo revuelto irregular,

@@ -235,6 +235,10 @@ STYLE = {
     'Mach Tiger': ('#f4c21e', '#e0401e', '#1e9a5a', '#e0401e', '#e0401e', '#e0401e', '#1e4a6a', '#1e4a6a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e4a6a', 'collar': '#e0401e', 'num': '#e0401e'}),
     # Los Cimitarras: camiseta verde con cuello blanco, pantalón blanco y medias verdes; portero negro de manga larga con pantalón gris
     'Shamshir': ('#2a8a3e', '#f4f2ee', '#1e2a22', '#f4f2ee', '#2a8a3e', '#2a8a3e', '#5a5a5e', '#1e2a22', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e2a22', 'collar': '#f4f2ee', 'num': '#f0c8d0', 'stripe': '#f4f2ee'}),
+    # Storm Wolves: camiseta, pantalón y medias blancos con cuello gris y detalles negros; portero amarillo de manga larga
+    'Storm Wolf': ('#f4f2f2', '#f4f2f2', '#f2c41e', '#1e1e22', '#f4f2f2', '#f4f2f2', '#f2c41e', '#f2c41e', {'gkLongSleeve': True, 'gkGloves': '#7a7a80', 'gkSocks': '#f2c41e', 'collar': '#6a6a70', 'num': '#1e1e22', 'stripe': '#1e1e22'}),
+    # Inside Silver: camiseta blanca con cuello celeste, pantalón y medias celestes; el portero igual
+    'Inside Silver': ('#f6f2f4', '#8ee0ee', '#f6f2f4', '#8ee0ee', '#f6f2f4', '#8ee0ee', '#8ee0ee', '#f6f2f4', {'gkGloves': '#a8acb4', 'collar': '#8ee0ee', 'num': '#3a7ab8'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

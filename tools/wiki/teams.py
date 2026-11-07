@@ -151,6 +151,12 @@ STYLE = {
     'Southern Claw': ('#f07a1a', '#8c8a8e', '#c8501e', '#1a1a1a', '#f07a1a', '#8c8a8e', '#c8501e', '#b8b8bc', {'gkLongSleeve': True, 'gkGloves': '#c8501e', 'zig': '#8c8a8e', 'collar': '#1a1a1a', 'num': '#1a1a1a'}),
     # Colmillos del Norte: camiseta blanca con mangas celestes, pantalón blanco, medias celestes; portero blanco de manga larga con pantalón azul
     'Northern Fang': ('#f4f2ee', '#f4f2ee', '#f4f2ee', '#a88a2a', '#7ad8e8', '#7ad8e8', '#2a6ac0', '#f4f2ee', {'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'collar': '#7ad8e8', 'num': '#2a8ab0', 'stripe': '#a88a2a'}),
+    # Ancient Dark: camiseta negra con mangas lilas, pantalón y medias negros; portero granate de manga larga
+    'Ancient Dark': ('#26242a', '#26242a', '#a8205a', '#6a6670', '#9a82c8', '#26242a', '#a8205a', '#a8205a', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
+    # Zero: pecho amarillo con mangas y hombros blancos, pantalón blanco y medias amarillas; portero negro de manga larga con pantalón verde agua
+    'Zero': ('#f6d070', '#f4f0e4', '#1e2228', '#1e3c6a', '#f4f0e4', '#f0c860', '#2ab0b8', '#1e2228', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
+    # Unlimited Shining: la equipación del Zero
+    'Unlimited Shining': ('#f6d070', '#f4f0e4', '#1e2228', '#1e3c6a', '#f4f0e4', '#f0c860', '#2ab0b8', '#1e2228', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

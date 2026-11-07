@@ -5,10 +5,22 @@
  "name": "Gir",
  "short": "GIR",
  "colors": {
-  "shirt": "#f2c230",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#f2c230"
+  "shirt": "#f2ecd8",
+  "shorts": "#f2ecd8",
+  "gkShirt": "#f2ecd8",
+  "accent": "#c8a830",
+  "sleeve": "#2a3a8a",
+  "socks": "#1e3a34",
+  "gkShorts": "#f2ecd8",
+  "gkSleeve": "#6a1e78",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "longPants": true,
+  "gkLongPants": true,
+  "pants": "#1e3a34",
+  "collar": "#c8a830",
+  "num": "#c8a830"
  },
  "formation": "f-giru",
  "players": [

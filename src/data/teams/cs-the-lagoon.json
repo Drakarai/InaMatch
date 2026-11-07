@@ -5,10 +5,21 @@
  "name": "Ragnah",
  "short": "THE",
  "colors": {
-  "shirt": "#e86a1a",
-  "shorts": "#f2f2f2",
-  "gkShirt": "#3a8a3a",
-  "accent": "#e86a1a"
+  "shirt": "#b8e04a",
+  "shorts": "#b8e04a",
+  "gkShirt": "#8a3aa8",
+  "accent": "#1e3a34",
+  "sleeve": "#1e3a34",
+  "socks": "#1e3a34",
+  "gkShorts": "#8a3aa8",
+  "gkSleeve": "#1e3a34",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "longPants": true,
+  "gkLongPants": true,
+  "pants": "#1e3a34",
+  "collar": "#f2f2f2",
+  "num": "#1e3a34"
  },
  "formation": "f-lagoon",
  "players": [

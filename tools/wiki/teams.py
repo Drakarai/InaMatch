@@ -199,6 +199,10 @@ STYLE = {
     'Tsukigami no Ichizoku': ('#d42a2a', '#c82626', '#1e1e22', '#a8a8b0', '#1e1e22', '#1e1e22', '#1e1e22', '#6a6878', {'gkLongSleeve': True, 'gkGloves': '#c81e1e', 'gkSocks': '#6a6878', 'collar': '#1e1e22'}),
     # Nosfanáticos: casaca negra con detalles rojos y mangas largas azul marino, pantalón largo azul marino; portero con bata blanca
     'Vamptym': ('#1e1e24', '#1e1e24', '#e8e4e0', '#c81e2a', '#26304e', '#1e1e24', '#e8e4e0', '#e8e4e0', {'longSleeve': True, 'longPants': True, 'pants': '#26304e', 'gkLongSleeve': True, 'gkGloves': '#3a3a44', 'gkSocks': '#1e1e24', 'collar': '#c81e2a'}),
+    # Gir: túnica blanca crema con cuello dorado y mangas largas azules, mallas verde muy oscuro; portero con mangas moradas
+    'Giru': ('#f2ecd8', '#f2ecd8', '#f2ecd8', '#c8a830', '#2a3a8a', '#1e3a34', '#f2ecd8', '#6a1e78', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'longPants': True, 'gkLongPants': True, 'pants': '#1e3a34', 'collar': '#c8a830', 'num': '#c8a830'}),
+    # Ragnah: blusón verde lima con mangas verde oscuro, mallas verde oscuro; portero morado de manga larga
+    'The Lagoon': ('#b8e04a', '#b8e04a', '#8a3aa8', '#1e3a34', '#1e3a34', '#1e3a34', '#8a3aa8', '#1e3a34', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'longPants': True, 'gkLongPants': True, 'pants': '#1e3a34', 'collar': '#f2f2f2', 'num': '#1e3a34'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

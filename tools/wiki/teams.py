@@ -223,8 +223,8 @@ STYLE = {
     'Tenmas': ('#e0262a', '#f4f4f4', '#f0a030', '#f4f4f4', '#f4f4f4', '#e0262a', '#2a7a6a', '#f0a030', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e1e22', 'collar': '#f4f4f4'}),
     # Gar: chaleco rojo sobre camiseta blanca, pantalón negro y medias blancas; portero con chaleco azul y manga larga negra
     'Garu': ('#c8281e', '#1e2a28', '#3a8ac8', '#f4f4f4', '#f4f4f4', '#f0f0f0', '#1e2a28', '#1e2a28', {'gkLongSleeve': True, 'gkGloves': '#2a5ac0', 'collar': '#f4f4f4', 'stripe': '#f4f4f4'}),
-    # Inazuma Legend Japan: camiseta azul con mangas blancas y cuello rojo, pantalón blanco y medias azul marino; portero naranja de manga larga
-    'Inazuma Legend Japan': ('#1e4ec0', '#f4f2ee', '#f0a030', '#1e4ec0', '#f4f4f4', '#1e2a3a', '#2a7a6a', '#f0a030', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#1e1e22', 'collar': '#d02a2a', 'stripe': '#1e4ec0', 'num': '#f4f4f4'}),
+    # Inazuma Legend Japan: camiseta azul con hombros y mangas blancos y cuello rojo, pantalón blanco y medias gris oscuro; portero negro con mangas largas blancas
+    'Inazuma Legend Japan': ('#1e4ec0', '#f4f2ee', '#2a2a2e', '#1e4ec0', '#f4f4f4', '#2e3438', '#2a2a2e', '#f2f2f2', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#2a2a2e', 'collar': '#d02a2a', 'stripe': '#1e4ec0', 'num': '#f4f4f4'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

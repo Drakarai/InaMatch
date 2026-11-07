@@ -1,3 +1,128 @@
-"""Instituto Raimon (Chrono Stones) (cs-team-raimon): sus modelos 3D de Inazuma Eleven GO 2: Chrono Stone como referencia (busto de frente, perfil y espalda)."""
-from chars import CHARS, L, OUTC, blob, ell, outline, pal, strand  # noqa: F401
-from heads import quad  # noqa: F401
+"""Raimon de Chrono Stone (cs-team-raimon): sus modelos 3D de Inazuma Eleven GO 2: Chrono Stone como referencia. Los
+jugadores del Raimon de GO llevan su dibujo de GO; aquí están Gorouta y las versiones con Mixi Max (Amemiya con Zhuge
+Liang, Hakuryuu, y Fei con Big y con Tyranno), que en este equipo son jugadores aparte con otro aspecto."""
+from chars import CHARS, L, OUTC, ell, outline, pal, strand
+
+
+def fringe(pts, c='mid'):
+    return L(outline(pts), c, 'f')
+
+
+# Gorota (Gorouta): carota redonda y mofletuda con coloretes, ojos pequeños de cejas finas en ángulo; pelo negro como una
+# boina plana encima de la cabeza con dos pelillos de punta, y los lados y la nuca rapados en gris
+_FACE = [(6, 60), (8, 38), (30, 30), (70, 30), (92, 38), (94, 60), (92, 90), (76, 110), (50, 116), (24, 110), (8, 90)]
+CHARS['gorota'] = {
+    'body': 'corpulento', 'pal': pal('#1e1a1e', '#fcdcc0', iris='#1e1414', buzz='#6a6a7a', blush='#f08a80'),
+    'face': {'eyes': 'dot', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 98, 'hairline': False, 'big_ears': 3, 'ear_out': 8,
+             'face_front': outline(_FACE)},
+    'front': [L(outline([(10, 50), (12, 30), (88, 30), (90, 50), (80, 44), (20, 44)]), 'buzz'),
+              L(outline([(-2, 30), (6, 16), (26, 6), (50, 4), (74, 6), (94, 16), (102, 30), (80, 34), (62, 32), (50, 42, 1), (38, 32), (20, 34)]), 'mid', 'f'),
+              L(outline([(56, 8), (88, 16), (98, 28), (78, 30)]), 'shade', 'f', False),
+              L([(48, 6), (44, -6), (36, -12)], 'mid', 'f', False, False, 1.6), L([(52, 6), (56, -8), (64, -12)], 'mid', 'f', False, False, 1.6),
+              L(ell(26, 92, 6, 4.4), 'blush', 'f', False), L(ell(74, 92, 6, 4.4), 'blush', 'f', False)],
+    'side': [L(outline([(52, 40), (56, 60), (48, 86), (36, 98), (16, 94), (6, 70), (8, 40)]), 'buzz'),
+             L(outline([(0, 34), (6, 18), (30, 6), (60, 4), (84, 10), (100, 26), (82, 32), (60, 30), (34, 36)]), 'mid', 'f'),
+             L([(50, 6), (48, -8), (40, -12)], 'mid', 'f', False, False, 1.6),
+             L(ell(84, 90, 5, 4), 'blush', 'f', False)],
+    'back': [L(outline([(10, 34), (90, 34), (92, 70), (76, 96), (24, 96), (8, 70)]), 'buzz'),
+             L(outline([(-2, 32), (6, 18), (26, 8), (50, 6), (74, 8), (94, 18), (102, 32), (80, 40), (50, 42), (20, 40)]), 'mid', 'f'),
+             L([(48, 8), (44, -6), (36, -12)], 'mid', 'f', False, False, 1.6), L([(52, 8), (56, -8), (64, -12)], 'mid', 'f', False, False, 1.6)],
+}
+
+# Amemiya Taiyou con Mixi Max (Zhuge Liang): melena lila muy abundante de puntas, que le cae en mechones largos por delante
+# de los hombros, flequillo a mechones por la frente y ojos azules
+CHARS['cs-team-raimon:sol-daystar-cs-amemiya-mm'] = {
+    'body': 'normal', 'pal': pal('#a890c0', '#fce4c0', iris='#3a8aa8'),
+    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'smile', 'mouth_y': 96, 'hairline': False},
+    'front': [L(outline([(14, 124), (0, 116, 1), (2, 92), (-12, 76, 1), (2, 62), (-12, 44, 1), (4, 34), (-2, 10, 1), (18, 10), (20, -12, 1), (36, 0), (46, -20, 1),
+                         (56, -2), (70, -16, 1), (74, 2), (94, 0, 1), (90, 20), (110, 30, 1), (96, 44), (112, 62, 1), (98, 74), (108, 94, 1), (98, 100), (100, 120, 1),
+                         (86, 124), (84, 76), (16, 76)])),
+              L(outline([(60, 0), (88, 12), (100, 44), (96, 112), (86, 110), (80, 50)]), 'shade', 'b', False),
+              L(outline([(8, 76), (18, 74), (24, 110), (14, 130, 1), (6, 106)]), 'mid', 'f', ln=True),
+              L(outline([(92, 76), (82, 74), (76, 110), (86, 130, 1), (94, 106)]), 'mid', 'f', ln=True),
+              fringe([(12, 74), (14, 44), (26, 24), (50, 16), (74, 24), (86, 44), (88, 74), (80, 58), (74, 70, 1), (68, 50), (58, 66, 1), (54, 48), (48, 80, 1),
+                      (42, 50), (34, 66, 1), (28, 52), (20, 68, 1)])],
+    'side': [L(outline([(54, 62), (60, 50), (82, 50), (94, 36), (88, 14), (96, -4, 1), (72, 2), (60, -18, 1), (44, 0), (20, -10, 1), (18, 10), (-6, 12, 1), (4, 30),
+                        (-14, 46, 1), (2, 58), (-10, 80, 1), (8, 82), (0, 110, 1), (18, 104), (24, 128, 1), (36, 108), (44, 90)])),
+             L(outline([(2, 40), (26, 46), (30, 100), (10, 100)]), 'shade', 'b', False),
+             L(outline([(62, 62), (74, 66), (72, 104), (62, 124, 1), (58, 96)]), 'mid', 'f', ln=True),
+             fringe([(66, 4), (90, 18), (96, 42), (94, 62, 1), (86, 48), (80, 58, 1), (76, 40), (66, 30)])],
+    'back': [L(outline([(14, 120), (-2, 116, 1), (2, 92), (-14, 76, 1), (2, 62), (-14, 44, 1), (4, 34), (-2, 10, 1), (18, 10), (20, -12, 1), (36, 0), (46, -20, 1),
+                        (56, -2), (70, -16, 1), (74, 2), (94, 0, 1), (90, 20), (112, 30, 1), (96, 44), (114, 62, 1), (98, 76), (110, 96, 1), (100, 116), (84, 112),
+                        (70, 126, 1), (60, 108), (50, 124, 1), (40, 108), (28, 124, 1)])),
+             L(outline([(56, 0), (88, 12), (100, 44), (98, 110), (70, 116), (68, 50)]), 'shade', 'b', False),
+             strand([(30, 40), (36, 70), (30, 100)], 'deep', 'b', 1.0), strand([(70, 40), (64, 70), (70, 100)], 'deep', 'b', 1.0)],
+}
+
+# Hakuryuu con Mixi Max: pelo verde azulado de puntas con un moño blanco en lo alto, un mechón curvo como un cuerno a cada
+# lado, rizos en espiral junto a las orejas y ojos ámbar
+CHARS['cs-team-raimon:bailong-cs-hakuryuu-mm'] = {
+    'body': 'normal', 'pal': pal('#3a7a84', '#fcdcc0', iris='#c8901e', bun=(246, 240, 230, 255), bun_d=(206, 196, 186, 255)),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'line', 'mouth_y': 98, 'hairline': False},
+    'front': [L(outline([(16, 76), (4, 68, 1), (10, 54), (-4, 42, 1), (10, 34), (4, 14), (24, 4), (50, 2), (76, 4), (96, 14), (90, 34), (104, 42, 1), (90, 54),
+                         (96, 68, 1), (84, 76), (82, 56), (18, 56)])),
+              L(outline([(60, 4), (86, 14), (94, 44), (88, 70), (78, 44)]), 'shade', 'b', False),
+              L(outline([(30, 6), (34, -14), (44, -24), (52, -12), (60, -26), (68, -10), (70, 8), (50, 14)]), 'bun', 'f', ln=True),
+              L(outline([(52, -10), (60, -22), (66, -8), (60, 6)]), 'bun_d', 'f', False),
+              L(outline([(80, 10), (96, 2), (110, -8, 1), (102, 8), (88, 18)]), 'mid', 'f', ln=True),
+              L(outline([(20, 10), (4, 2), (-10, -8, 1), (-2, 8), (12, 18)]), 'mid', 'f', ln=True),
+              fringe([(14, 64), (16, 40), (30, 24), (50, 18), (70, 24), (84, 40), (86, 64), (78, 50), (72, 62, 1), (66, 46), (58, 58, 1), (52, 44), (46, 60, 1),
+                      (40, 44), (32, 58, 1), (24, 48)]),
+              L(ell(12, 82, 3.6, 3.6) + [ell(12, 82, 3.6, 3.6)[0]], OUTC, 'f', False, False, 1.6),
+              L(ell(88, 82, 3.6, 3.6) + [ell(88, 82, 3.6, 3.6)[0]], OUTC, 'f', False, False, 1.6)],
+    'side': [L(outline([(54, 60), (60, 48), (82, 48), (92, 34), (86, 12), (66, 2), (42, 0), (20, 6), (-6, -2, 1), (8, 18), (-14, 30, 1), (4, 40), (-12, 54, 1), (6, 60),
+                        (2, 76, 1), (18, 72), (22, 88, 1), (34, 76), (44, 70)])),
+             L(outline([(2, 34), (24, 40), (26, 70), (8, 64)]), 'shade', 'b', False),
+             L(outline([(36, 4), (34, -16), (46, -26), (56, -10), (58, 6)]), 'bun', 'f', ln=True),
+             fringe([(68, 4), (90, 18), (96, 42), (92, 58, 1), (86, 46), (78, 34)]),
+             L(ell(58, 82, 4, 4) + [ell(58, 82, 4, 4)[0]], OUTC, 'f', False, False, 1.6)],
+    'back': [L(outline([(16, 86), (2, 82, 1), (8, 68), (-6, 54, 1), (8, 44), (4, 14), (24, 4), (50, 2), (76, 4), (96, 14), (92, 44), (106, 54, 1), (92, 68), (98, 82, 1),
+                        (84, 86), (66, 96, 1), (56, 86), (44, 96, 1), (34, 86)])),
+             L(outline([(56, 4), (86, 14), (94, 50), (88, 82), (62, 90)]), 'shade', 'b', False),
+             L(outline([(30, 8), (34, -14), (44, -24), (52, -12), (60, -26), (68, -10), (70, 10), (50, 16)]), 'bun', 'f', ln=True),
+             L(outline([(80, 12), (96, 2), (110, -8, 1), (102, 10), (88, 20)]), 'mid', 'f', ln=True),
+             L(outline([(20, 12), (4, 2), (-10, -8, 1), (-2, 10), (12, 20)]), 'mid', 'f', ln=True)],
+}
+
+# Fei Rune con Mixi Max (Big): piel morena, pelo rosa claro abultado con dos cuernos curvos hacia arriba a los lados y una
+# coleta larga que ondea hacia los lados; ojos rojos afilados
+CHARS['cs-team-raimon:fei-rune-cs-fei-mmbig'] = {
+    'body': 'normal', 'pal': pal('#f4c0c8', '#b47a50', iris='#d01e1e', shade='#d898a4', deep='#b87884'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 98, 'hairline': False},
+    'front': [L(outline([(16, 70), (8, 40), (-6, 30), (-10, -6, 1), (10, 10), (30, 0), (50, -6), (70, 0), (90, 10), (110, -6, 1), (106, 30), (92, 40), (86, 70),
+                         (80, 56), (20, 56)])),
+              L(outline([(14, 80), (-10, 90), (-40, 96, 1), (-14, 82), (10, 72)]), 'mid', 'b'),
+              L(outline([(86, 80), (110, 90), (140, 96, 1), (114, 82), (90, 72)]), 'mid', 'b'),
+              L(outline([(62, 0), (90, 12), (104, 0), (100, 30), (88, 64), (80, 40)]), 'shade', 'b', False),
+              fringe([(14, 66), (16, 42), (30, 24), (50, 18), (70, 24), (84, 42), (86, 66), (78, 54), (72, 64, 1), (66, 48), (58, 60, 1), (52, 46), (46, 62, 1),
+                      (40, 46), (32, 60, 1), (24, 50)])],
+    'side': [L(outline([(54, 60), (60, 48), (82, 48), (92, 34), (86, 12), (90, -14, 1), (72, 2), (48, -4), (22, 2), (6, 20), (2, 44), (8, 64), (24, 74), (44, 68)])),
+             L(outline([(16, 64), (-10, 70), (-50, 86, 1), (-14, 60), (8, 52)]), 'mid', 'b'),
+             L(outline([(4, 30), (24, 36), (26, 64), (8, 58)]), 'shade', 'b', False),
+             fringe([(68, 4), (90, 18), (96, 42), (92, 58, 1), (86, 46), (78, 34)])],
+    'back': [L(outline([(16, 84), (8, 50), (-6, 30), (-10, -6, 1), (10, 10), (30, 0), (50, -6), (70, 0), (90, 10), (110, -6, 1), (106, 30), (92, 50), (84, 84), (50, 92)])),
+             L(outline([(40, 76), (10, 86), (-40, 100, 1), (-6, 80), (30, 70), (50, 66), (70, 70), (106, 80), (140, 100, 1), (90, 86), (60, 76)]), 'mid', 'f'),
+             L(outline([(56, 0), (90, 12), (104, 0), (100, 34), (88, 76), (62, 84)]), 'shade', 'b', False)],
+}
+
+# Fei Rune con Mixi Max (Tyranno): piel morena, pelo azul intenso de pinchos altísimos hacia arriba y mechón en pico por la
+# frente; ojos turquesa afilados
+CHARS['cs-team-raimon:fei-rune-cs-fei-mmtyranno'] = {
+    'body': 'normal', 'pal': pal('#2a78d8', '#b47a50', iris='#20b0c0'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 98, 'hairline': False},
+    'front': [L(outline([(16, 72), (2, 62, 1), (8, 48), (-10, 30, 1), (8, 22), (4, -14, 1), (24, 4), (30, -34, 1), (44, -2), (56, -38, 1), (62, -2), (80, -30, 1),
+                         (80, 4), (100, -8, 1), (92, 22), (110, 30, 1), (94, 48), (100, 62, 1), (86, 72), (84, 54), (16, 54)])),
+              L(outline([(60, -6), (86, 6), (96, 40), (90, 66), (78, 44)]), 'shade', 'b', False),
+              L(outline([(48, -10), (58, -30), (56, 6)]), 'light', 'b', False),
+              fringe([(14, 64), (16, 40), (30, 24), (50, 18), (70, 24), (84, 40), (86, 64), (78, 50), (70, 60, 1), (64, 44), (56, 56, 1), (50, 40), (44, 64, 1),
+                      (40, 44), (32, 58, 1), (24, 48)])],
+    'side': [L(outline([(56, 58), (62, 46), (82, 46), (92, 32), (88, 10), (100, -10, 1), (76, -2), (70, -34, 1), (52, -6), (32, -34, 1), (26, 0), (-6, -16, 1), (8, 16),
+                        (-20, 26, 1), (2, 40), (-18, 56, 1), (4, 62), (-4, 82, 1), (14, 76), (18, 92, 1), (30, 78), (44, 70)])),
+             L(outline([(2, 34), (24, 40), (26, 70), (8, 64)]), 'shade', 'b', False),
+             fringe([(70, 4), (92, 18), (96, 40), (92, 58, 1), (86, 44), (78, 32)])],
+    'back': [L(outline([(16, 86), (2, 90, 1), (8, 70), (-10, 56, 1), (6, 44), (-8, 24, 1), (12, 20), (6, -14, 1), (26, 4), (32, -34, 1), (46, -2), (58, -38, 1), (64, -2),
+                        (82, -30, 1), (82, 4), (102, -8, 1), (92, 24), (110, 32, 1), (94, 50), (106, 70, 1), (92, 72), (96, 90, 1), (80, 86), (64, 98, 1), (54, 86),
+                        (42, 98, 1), (32, 86)])),
+             L(outline([(56, -4), (86, 8), (94, 50), (88, 84), (62, 90)]), 'shade', 'b', False),
+             strand([(30, 20), (40, 50), (34, 76)], 'deep', 'b', 1.0), strand([(70, 20), (60, 50), (66, 76)], 'deep', 'b', 1.0)],
+}

@@ -1,3 +1,107 @@
-"""Chrono Storm (cs-chrono-storm): sus modelos 3D de Inazuma Eleven GO 2: Chrono Stone como referencia (busto de frente, perfil y espalda)."""
-from chars import CHARS, L, OUTC, blob, ell, outline, pal, strand  # noqa: F401
-from heads import quad  # noqa: F401
+"""Chrono Storm (cs-chrono-storm): sus modelos 3D de Inazuma Eleven GO 2: Chrono Stone como referencia (busto de frente,
+perfil y espalda). Los del Raimon de GO (Tenma, Shindou, Kirino, Shinsuke, Nishiki, Tsurugi), Amemiya y Hakuryuu llevan su
+dibujo de GO: en Chrono Stone su aspecto normal es el mismo (los otros modelos de la enciclopedia son sus Mixi Max)."""
+from chars import CHARS, L, OUTC, ell, outline, pal, strand
+
+BONE = (240, 232, 206, 255)
+BONE_D = (200, 186, 150, 255)
+
+
+def fringe(pts, c='mid'):
+    return L(outline(pts), c, 'f')
+
+
+# Sor (Torb): niño de la Edad de Piedra de piel morena, pelo verde oscuro alborotado de puntas que le cae hasta los hombros
+# y una calavera de animal de color hueso puesta como diadema; sonrisa enorme con un diente mellado
+CHARS['sor'] = {
+    'body': 'normal', 'pal': pal('#1e5a44', '#c08a5a', iris='#1e1414'),
+    'face': {'eyes': 'round', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 98, 'hairline': False},
+    'front': [L(outline([(16, 96), (-8, 92, 1), (4, 78), (-14, 64, 1), (2, 56), (-6, 38, 1), (8, 34), (6, 14), (28, -2), (34, -18, 1), (46, -4), (62, -22, 1),
+                         (66, -4), (86, 6), (94, 30), (106, 40, 1), (96, 54), (110, 64, 1), (96, 76), (104, 92, 1), (84, 94), (82, 66), (18, 66)])),
+              L(outline([(62, -2), (86, 10), (96, 40), (92, 84), (80, 56)]), 'shade', 'b', False),
+              fringe([(12, 66), (14, 46), (26, 40), (50, 38), (74, 40), (86, 46), (88, 66), (80, 56), (74, 66, 1), (66, 52), (58, 64, 1), (52, 50), (44, 64, 1),
+                      (36, 52), (28, 66, 1), (20, 56)]),
+              L(outline([(10, 42), (12, 20), (30, 10), (50, 8), (70, 10), (88, 20), (90, 42), (70, 46), (50, 44), (30, 46)]), BONE, 'f', ln=True),
+              L(outline([(20, 24), (40, 22), (40, 34), (22, 36)]), OUTC, 'f', False), L(outline([(60, 22), (80, 24), (78, 36), (60, 34)]), OUTC, 'f', False),
+              L(outline([(62, 12), (88, 22), (88, 40), (72, 42)]), BONE_D, 'f', False)],
+    'side': [L(outline([(54, 64), (60, 50), (80, 50), (92, 36), (88, 18), (96, 0, 1), (74, 2), (60, -18, 1), (46, 0), (24, -10, 1), (20, 8), (0, 6, 1), (6, 24),
+                        (-14, 36, 1), (2, 46), (-16, 62, 1), (2, 66), (-10, 86, 1), (8, 84), (6, 104, 1), (20, 90), (30, 104, 1), (38, 86), (46, 76)])),
+             L(outline([(0, 40), (22, 46), (24, 84), (6, 80)]), 'shade', 'b', False),
+             L(outline([(14, 40), (14, 20), (40, 10), (70, 10), (92, 20), (94, 40), (60, 44), (30, 46)]), BONE, 'f', ln=True),
+             L(outline([(70, 22), (86, 24), (84, 34), (70, 34)]), OUTC, 'f', False),
+             L([(40, 26), (48, 34)], (90, 110, 40, 255), 'f', False, False, 2.0), L([(48, 26), (40, 34)], (90, 110, 40, 255), 'f', False, False, 2.0)],
+    'back': [L(outline([(14, 96), (-8, 94, 1), (4, 80), (-14, 64, 1), (2, 56), (-6, 38, 1), (8, 34), (6, 14), (28, -2), (34, -18, 1), (46, -4), (62, -22, 1),
+                        (66, -4), (86, 6), (94, 30), (106, 40, 1), (96, 56), (110, 66, 1), (96, 80), (106, 96, 1), (84, 96), (70, 106, 1), (60, 96), (50, 108, 1),
+                        (40, 96), (30, 106, 1)])),
+             L(outline([(56, -2), (86, 10), (96, 40), (94, 92), (66, 100)]), 'shade', 'b', False),
+             L(outline([(10, 42), (12, 22), (50, 12), (88, 22), (90, 42), (50, 46)]), BONE_D, 'f', ln=True),
+             strand([(30, 50), (36, 70), (30, 90)], 'deep', 'b', 1.0), strand([(70, 50), (64, 70), (70, 90)], 'deep', 'b', 1.0)],
+}
+
+# Goldie Lemmon (Nanobana Kinako): melena castaña lisa hasta media espalda, con flequillo recto a mechones, dos mechones
+# redondeados delante de las orejas y una diadema naranja; ojos grandes castaños
+CHARS['goldie-lemmon'] = {
+    'body': 'chica', 'pal': pal('#8a6630', '#fcdcc0', iris='#6a3a1a', band='#f0a030', band_d='#c87a1a'),
+    'face': {'eyes': 'big', 'brows': False, 'mouth': 'smile', 'mouth_y': 96, 'hairline': False},
+    'front': [L(outline([(8, 150, 1), (0, 110), (2, 60), (6, 28), (22, 6), (50, 0), (78, 6), (94, 28), (98, 60), (100, 110), (92, 150, 1), (84, 120), (84, 70),
+                         (16, 70), (16, 120)])),
+              L(outline([(62, 4), (86, 16), (96, 50), (98, 120), (90, 144), (84, 80)]), 'shade', 'b', False),
+              fringe([(12, 70), (12, 44), (24, 24), (50, 18), (76, 24), (88, 44), (88, 70), (82, 56), (76, 60), (70, 52), (60, 58), (50, 52), (40, 58), (30, 52),
+                      (24, 60), (18, 56)]),
+              L(outline([(4, 60), (14, 56), (22, 66), (20, 84), (10, 90), (2, 80)]), 'mid', 'f', ln=True),
+              L(outline([(96, 60), (86, 56), (78, 66), (80, 84), (90, 90), (98, 80)]), 'mid', 'f', ln=True),
+              L(outline([(6, 34), (20, 12), (50, 2), (80, 12), (94, 34), (88, 34), (76, 18), (50, 10), (24, 18), (12, 34)]), 'band', 'f', ln=True)],
+    'side': [L(outline([(54, 64), (60, 52), (80, 52), (92, 38), (88, 14), (66, 0), (36, 0), (12, 14), (2, 40), (-2, 90), (-2, 140), (6, 152, 1), (26, 140), (40, 126),
+                        (46, 100), (48, 76)])),
+             L(outline([(2, 40), (26, 46), (36, 120), (8, 140)]), 'shade', 'b', False),
+             L(outline([(52, 54), (66, 52), (70, 66), (64, 86), (54, 88), (50, 72)]), 'mid', 'f', ln=True),
+             fringe([(66, 4), (90, 18), (96, 40), (94, 58, 1), (86, 50), (78, 40)]),
+             L(outline([(44, 2), (60, 2), (74, 30), (66, 34), (52, 10), (40, 8)]), 'band', 'f', ln=True)],
+    'back': [L(outline([(8, 150, 1), (0, 110), (2, 60), (6, 28), (22, 6), (50, 0), (78, 6), (94, 28), (98, 60), (100, 110), (92, 150, 1), (70, 156), (50, 152),
+                        (30, 156)])),
+             L(outline([(56, 4), (86, 16), (96, 50), (98, 140), (66, 150), (66, 60)]), 'shade', 'b', False),
+             L(outline([(2, 56), (12, 54), (14, 82), (4, 84)]), 'mid', 'f', ln=True), L(outline([(98, 56), (88, 54), (86, 82), (96, 84)]), 'mid', 'f', ln=True),
+             L(outline([(6, 34), (20, 12), (50, 2), (80, 12), (94, 34), (88, 34), (76, 18), (50, 10), (24, 18), (12, 34)]), 'band_d', 'f', ln=True)],
+}
+
+# Zanark Avalonic en Chrono Storm (sin la gorguera de su equipo Zan, que lleva el dibujo base de chars_cs_zan.py): piel morena, pelo verde azulado muy oscuro de pinchos largos hacia arriba y hacia atrás, con mechones de
+# punta por la frente; ojos rojos afilados y sonrisa de lado
+CHARS['cs-chrono-storm:zanark-avalonic'] = {
+    'body': 'delgado', 'pal': pal('#1e4a50', '#b47a50', iris='#c81e1e'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 98, 'hairline': False},
+    'front': [L(outline([(14, 74), (2, 66, 1), (8, 54), (-8, 40, 1), (8, 30), (0, 6, 1), (20, 12), (22, -16, 1), (38, 2), (44, -30, 1), (54, -2), (68, -26, 1),
+                         (70, 2), (90, -8, 1), (86, 18), (104, 22, 1), (94, 38), (106, 52, 1), (94, 60), (98, 74, 1), (86, 74), (84, 56), (16, 56)])),
+              L(outline([(60, -4), (86, 10), (96, 44), (90, 68), (78, 44)]), 'shade', 'b', False),
+              L(outline([(42, -4), (52, -20), (50, 8)]), 'light', 'b', False),
+              fringe([(14, 66), (16, 44), (28, 30), (50, 24), (72, 30), (86, 44), (88, 66), (80, 52), (74, 64, 1), (68, 48), (60, 60, 1), (54, 46), (48, 64, 1),
+                      (42, 48), (34, 60, 1), (28, 48), (22, 62, 1)])],
+    'side': [L(outline([(56, 60), (62, 46), (82, 46), (92, 32), (86, 12), (96, -8, 1), (72, 0), (66, -26, 1), (48, -4), (24, -22, 1), (22, 4), (-10, -4, 1), (6, 20),
+                        (-20, 30, 1), (2, 42), (-18, 56, 1), (4, 62), (-6, 80, 1), (14, 76), (16, 92, 1), (30, 78), (44, 72)])),
+             L(outline([(2, 34), (24, 40), (26, 70), (8, 64)]), 'shade', 'b', False),
+             fringe([(70, 4), (92, 18), (96, 40), (94, 60, 1), (86, 46), (80, 56, 1), (76, 38), (66, 28)])],
+    'back': [L(outline([(16, 86), (2, 90, 1), (8, 70), (-8, 56, 1), (6, 44), (-6, 26, 1), (12, 22), (8, -4, 1), (26, 8), (34, -24, 1), (46, 0), (60, -28, 1),
+                        (64, 0), (86, -10, 1), (84, 16), (106, 22, 1), (92, 40), (108, 56, 1), (92, 66), (98, 90, 1), (82, 86), (66, 98, 1), (56, 86), (44, 98, 1),
+                        (34, 86)])),
+             L(outline([(56, 0), (86, 14), (94, 50), (88, 84), (62, 90)]), 'shade', 'b', False),
+             strand([(30, 30), (40, 50), (34, 76)], 'deep', 'b', 1.0), strand([(70, 30), (60, 50), (66, 76)], 'deep', 'b', 1.0)],
+}
+
+# Fei Rune: pelo verde menta con dos mechones grandes abiertos hacia arriba a los lados, flequillo en pico entre los ojos
+# y mechones lisos hasta la mandíbula; ojos turquesa grandes
+CHARS['fei-rune'] = {
+    'body': 'normal', 'pal': pal('#9ce8b8', '#fce4c4', iris='#20a8b0', shade='#7cc098', deep='#5a9a74'),
+    'face': {'eyes': 'big', 'brows': False, 'mouth': 'smile', 'mouth_y': 96, 'hairline': False},
+    'front': [L(outline([(14, 92), (8, 70), (4, 40), (-8, 24), (-14, 0, 1), (6, 10), (24, 4), (50, 0), (76, 4), (94, 10), (114, 0, 1), (108, 24), (96, 40), (92, 70),
+                         (86, 92), (80, 66), (20, 66)])),
+              L(outline([(62, 4), (90, 12), (104, 6), (96, 34), (90, 80), (80, 50)]), 'shade', 'b', False),
+              L(outline([(-6, 8), (8, 14), (12, 30), (2, 26)]), 'light', 'b', False),
+              fringe([(10, 80), (12, 44), (26, 22), (50, 14), (74, 22), (88, 44), (90, 80), (82, 66), (78, 52), (70, 60, 1), (64, 44), (50, 76, 1), (36, 44),
+                      (30, 60, 1), (22, 52), (18, 66)])],
+    'side': [L(outline([(54, 66), (58, 52), (82, 54), (94, 40), (90, 16), (72, 2), (44, -4), (16, 2), (-12, -14, 1), (0, 14), (2, 40), (8, 66), (14, 86), (28, 96, 1),
+                        (36, 84), (46, 80)])),
+             L(outline([(4, 30), (26, 38), (30, 80), (12, 74)]), 'shade', 'b', False),
+             fringe([(62, 2), (90, 16), (96, 42), (94, 72, 1), (86, 54), (80, 62, 1), (76, 42), (64, 30)])],
+    'back': [L(outline([(16, 92), (8, 70), (4, 40), (-8, 24), (-14, 0, 1), (6, 10), (24, 4), (50, 0), (76, 4), (94, 10), (114, 0, 1), (108, 24), (96, 40), (92, 70),
+                        (84, 92), (66, 98, 1), (56, 90), (44, 98, 1), (32, 90)])),
+             L(outline([(56, 2), (90, 12), (104, 6), (96, 36), (90, 86), (64, 92)]), 'shade', 'b', False)],
+}

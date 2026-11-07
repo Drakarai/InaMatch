@@ -1,3 +1,108 @@
-"""Protocolo Omega 3.0 (cs-protocol-omega-3-0): sus modelos 3D de Inazuma Eleven GO 2: Chrono Stone como referencia (busto de frente, perfil y espalda)."""
+"""Protocolo Omega 3.0 (cs-protocol-omega-3-0): sus modelos 3D de Inazuma Eleven GO 2: Chrono Stone como referencia (busto de
+frente, perfil y espalda). Las variantes con Mixi Max (romeo-cs-lugic...) tienen el mismo modelo y usan el dibujo base."""
 from chars import CHARS, L, OUTC, blob, ell, outline, pal, strand  # noqa: F401
+from chars_cs_protocol_omega import fringe, po
 from heads import quad  # noqa: F401
+
+# Romeo (Lugic, portero): piel morena y un pelo verde azulado oscuro enorme y esponjoso, abierto a los lados en mechones
+# redondeados, con un moñito arriba a un lado; ojos castaños
+CHARS['romeo'] = po({
+    'body': 'normal', 'pal': pal('#1e6a80', '#b47c50', iris='#6a4a1e', shade='#164e60'),
+    'face': {'eyes': 'big', 'brows': False, 'mouth': 'line', 'mouth_y': 100, 'hairline': False},
+    'front': [L(ell(30, -8, 12, 11)),
+              L(outline([(16, 84), (-6, 82), (-16, 66), (-6, 54), (-18, 40), (-4, 26), (4, 6), (24, -4), (50, -8), (76, -4), (96, 6), (104, 26), (118, 40), (106, 54),
+                         (116, 66), (106, 82), (84, 84), (80, 60), (20, 60)])),
+              L(outline([(60, -4), (90, 8), (110, 46), (104, 78), (84, 70), (80, 30)]), 'shade', 'b', False),
+              strand([(-10, 40), (14, 44)], 'shade', 'b', 1.0), strand([(110, 40), (86, 44)], 'shade', 'b', 1.0),
+              fringe([(12, 72), (14, 44), (28, 26), (50, 20), (72, 26), (86, 44), (88, 72), (80, 58), (72, 70, 1), (66, 50), (56, 62, 1), (50, 46), (44, 62, 1),
+                      (34, 50), (28, 70, 1), (20, 58)])],
+    'side': [L(ell(66, -6, 11, 10)),
+             L(outline([(56, 60), (62, 48), (84, 46), (94, 30), (88, 6), (64, -6), (34, -4), (14, 4), (-6, 0, 1), (4, 18), (-16, 26, 1), (0, 40), (-18, 52, 1), (0, 60),
+                        (-12, 76, 1), (10, 78), (8, 94, 1), (24, 86), (40, 82), (50, 70)])),
+             L(outline([(2, 34), (24, 40), (28, 76), (8, 70)]), 'shade', 'b', False),
+             fringe([(64, 2), (90, 16), (96, 42), (92, 66, 1), (82, 50), (74, 34)])],
+    'back': [L(ell(30, -6, 12, 11)),
+             L(outline([(16, 92), (-6, 88), (-16, 70), (-6, 56), (-18, 40), (-4, 26), (4, 6), (24, -4), (50, -8), (76, -4), (96, 6), (104, 26), (118, 40), (106, 56),
+                        (116, 70), (106, 88), (84, 92), (50, 98)])),
+             L(outline([(56, -4), (92, 10), (110, 50), (104, 88), (64, 94)]), 'shade', 'b', False),
+             strand([(-8, 40), (50, 50), (108, 40)], 'deep', 'b', 1.0), strand([(-8, 70), (50, 78), (108, 70)], 'deep', 'b', 1.0)],
+})
+
+# Papa (Galling): piel morena anaranjada y pelo rojo vivo revuelto de puntas cortas en todas direcciones, que le cae por la
+# frente; ojos azules entrecerrados y sonrisa ancha de pillo
+CHARS['papa'] = po({
+    'body': 'normal', 'pal': pal('#c81e1e', '#d48c52', iris='#2a6ad8', shade='#9a1414'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 100, 'hairline': False},
+    'front': [L(outline([(16, 70), (2, 66, 1), (8, 56), (-6, 46, 1), (6, 38), (-2, 22, 1), (12, 18), (10, 2, 1), (24, 6), (30, -8, 1), (42, 0), (50, -12, 1), (58, 0),
+                         (70, -8, 1), (76, 6), (90, 2, 1), (88, 18), (102, 22, 1), (94, 38), (106, 46, 1), (92, 56), (98, 66, 1), (84, 70), (82, 56), (18, 56)])),
+              L(outline([(58, 0), (84, 12), (94, 40), (86, 64), (76, 36)]), 'shade', 'b', False),
+              fringe([(12, 64), (14, 42), (26, 28), (50, 22), (74, 28), (86, 42), (88, 64), (80, 54), (76, 66, 1), (70, 52), (62, 64, 1), (56, 50), (50, 62, 1),
+                      (44, 50), (36, 64, 1), (30, 50), (22, 64, 1)])],
+    'side': [L(outline([(56, 56), (64, 46), (80, 46), (92, 32), (86, 10), (98, 4, 1), (74, 0), (70, -12, 1), (56, -2), (44, -14, 1), (36, 0), (14, -4, 1), (18, 14),
+                        (-2, 18, 1), (10, 30), (-6, 40, 1), (10, 46), (6, 62, 1), (20, 58), (22, 72), (32, 70), (46, 62)])),
+             L(outline([(8, 30), (24, 36), (24, 60), (10, 54)]), 'shade', 'b', False),
+             fringe([(66, 4), (90, 16), (96, 40), (90, 58, 1), (82, 44), (76, 54, 1), (70, 36)])],
+    'back': [L(outline([(16, 84), (14, 70), (2, 66, 1), (8, 56), (-6, 46, 1), (6, 38), (-2, 22, 1), (12, 18), (10, 2, 1), (24, 6), (30, -8, 1), (42, 0), (50, -12, 1),
+                        (58, 0), (70, -8, 1), (76, 6), (90, 2, 1), (88, 18), (102, 22, 1), (94, 38), (106, 46, 1), (92, 56), (98, 66, 1), (86, 70), (84, 84), (50, 92)])),
+             L(outline([(56, 2), (84, 14), (94, 46), (86, 80), (62, 88)]), 'shade', 'b', False),
+             L(outline([(20, 56), (80, 56), (78, 82), (50, 90), (22, 82)]), 'shade', 'b', False)],
+})
+
+# Quebec (Bahamus): melena rubio arena larga y abultada, con mechones anchos que le tapan los ojos y caen por los lados
+# hasta los hombros, abiertos hacia fuera en las puntas; ojos amarillos que asoman entre el pelo
+CHARS['quebec'] = po({
+    'body': 'normal', 'pal': pal('#e8d0a0', '#f8dcb4', iris='#d8a01e', shade='#c0a070'),
+    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'line', 'mouth_y': 100, 'hairline': False},
+    'front': [L(outline([(12, 110), (-10, 104, 1), (-4, 80), (-12, 60), (-4, 30), (12, 6), (40, -6), (70, -4), (94, 10), (108, 36), (106, 64), (114, 86), (98, 110),
+                         (84, 100), (82, 60), (18, 60), (16, 100)])),
+              L(outline([(60, -2), (90, 12), (104, 50), (100, 100), (86, 92), (80, 50)]), 'shade', 'b', False),
+              fringe([(8, 82), (6, 46), (20, 20), (46, 8), (74, 14), (92, 36), (94, 80), (84, 70), (80, 82, 1), (72, 62), (62, 76), (56, 90, 1), (50, 70), (40, 80),
+                      (34, 94, 1), (28, 72), (18, 86, 1)]),
+              strand([(30, 16), (26, 50), (34, 80)], 'shade', 'f', 1.2), strand([(56, 10), (54, 50), (60, 76)], 'shade', 'f', 1.2),
+              strand([(78, 18), (84, 50), (86, 72)], 'shade', 'f', 1.2)],
+    'side': [L(outline([(60, 56), (78, 52), (92, 36), (90, 12), (70, -4), (40, -6), (14, 8), (0, 40), (-8, 80), (-14, 110, 1), (8, 100), (20, 112, 1), (32, 96),
+                        (46, 84), (54, 70)])),
+             L(outline([(0, 40), (24, 46), (32, 92), (6, 98)]), 'shade', 'b', False),
+             fringe([(66, 2), (92, 18), (98, 44), (96, 76, 1), (88, 60), (82, 96, 1), (76, 62), (70, 40)])],
+    'back': [L(outline([(10, 112), (-10, 104, 1), (-6, 80), (-12, 50), (-2, 20), (20, 2), (50, -6), (80, 2), (102, 20), (112, 50), (106, 80), (110, 104, 1), (90, 112),
+                        (50, 118)])),
+             L(outline([(56, -2), (94, 14), (108, 60), (102, 106), (62, 112)]), 'shade', 'b', False),
+             strand([(30, 10), (16, 60), (14, 104)], 'shade', 'b', 1.2), strand([(70, 10), (84, 60), (86, 104)], 'shade', 'b', 1.2)],
+})
+
+# Sierra (Dhanna): melena negra larga y lisa con flequillo recto a la altura de los ojos y mechones laterales hasta el
+# pecho (corte hime); ojos dorados
+CHARS['sierra'] = po({
+    'body': 'chica', 'pal': pal('#16181c', '#fae4c4', iris='#d8a01e', shade='#0c0d10', light='#4a4c54'),
+    'face': {'eyes': 'sharp', 'brows': False, 'mouth': 'smile', 'mouth_y': 98, 'hairline': False},
+    'front': [L(outline([(6, 120), (4, 60), (8, 24), (24, 4), (50, -2), (76, 4), (92, 24), (96, 60), (94, 120), (80, 118), (80, 70), (20, 70), (20, 118)])),
+              L(outline([(60, 2), (86, 14), (94, 50), (92, 116), (82, 112), (80, 50)]), 'shade', 'b', False),
+              L(outline([(10, 66), (12, 36), (26, 18), (50, 12), (74, 18), (88, 36), (90, 66), (10, 66)]), 'mid', 'f'),
+              L(outline([(28, 22), (60, 16), (40, 28)]), 'light', 'f', False),
+              L(outline([(12, 66), (20, 66), (22, 116), (8, 116)]), 'mid', 'f', ln=True), L(outline([(88, 66), (80, 66), (78, 116), (92, 116)]), 'mid', 'f', ln=True)],
+    'side': [L(outline([(54, 66), (58, 62), (84, 62), (94, 40), (86, 12), (60, -2), (30, 0), (10, 16), (2, 50), (0, 120), (30, 120), (40, 90), (48, 74)])),
+             L(outline([(4, 40), (26, 44), (34, 118), (6, 118)]), 'shade', 'b', False),
+             fringe([(62, 4), (88, 14), (96, 40), (96, 64), (70, 64), (68, 30)])],
+    'back': [L(outline([(4, 120), (2, 60), (8, 24), (24, 4), (50, -2), (76, 4), (92, 24), (98, 60), (96, 120)])),
+             L(outline([(56, 2), (88, 16), (98, 60), (96, 118), (60, 118)]), 'shade', 'b', False)],
+})
+
+# Gamma: pelo plateado con sombras malva peinado hacia arriba en pinchos altos como una llama, con dos mechones que caen
+# por la frente; ojos azul grisáceo y media sonrisa
+CHARS['gamma'] = po({
+    'body': 'normal', 'pal': pal('#dcd8dc', '#fcdcc0', iris='#5a7aa8', shade='#a08890', deep='#7a6070'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'smile', 'mouth_y': 98, 'hairline': False},
+    'front': [L(outline([(16, 66), (10, 40), (12, 20), (8, -6, 1), (22, 8), (26, -24, 1), (38, 0), (46, -36, 1), (54, -2), (66, -30, 1), (70, 2), (86, -12, 1), (88, 20),
+                         (90, 40), (84, 66), (78, 52), (22, 52)])),
+              L(outline([(58, -10), (80, 2), (90, 40), (84, 62), (72, 30)]), 'shade', 'b', False),
+              strand([(30, -10), (36, 30)], 'shade', 'b', 1.2), strand([(64, -16), (60, 30)], 'shade', 'b', 1.2),
+              fringe([(14, 58), (16, 38), (30, 26), (50, 22), (70, 26), (84, 38), (86, 58), (76, 46), (60, 40), (54, 62, 1), (48, 40), (40, 56, 1), (32, 44), (22, 52)])],
+    'side': [L(outline([(54, 56), (62, 46), (82, 46), (92, 30), (88, 10), (98, -6, 1), (74, 0), (62, -28, 1), (50, -2), (30, -24, 1), (28, 2), (2, -6, 1), (12, 16),
+                        (-12, 22, 1), (6, 34), (-10, 46, 1), (10, 50), (4, 68, 1), (22, 66), (26, 80, 1), (36, 70), (46, 64)])),
+             L(outline([(6, 32), (24, 38), (24, 64), (8, 56)]), 'shade', 'b', False),
+             fringe([(68, 4), (90, 18), (94, 40), (90, 54, 1), (82, 42), (72, 30)])],
+    'back': [L(outline([(16, 84), (10, 50), (10, 20), (6, -6, 1), (22, 6), (28, -24, 1), (40, 0), (50, -34, 1), (58, 0), (70, -26, 1), (74, 4), (92, -8, 1), (90, 20),
+                        (92, 50), (84, 84), (50, 92)]), 'shade'),
+             L(outline([(10, 20), (6, -6, 1), (22, 6), (28, -24, 1), (40, 0), (50, -34, 1), (58, 0), (70, -26, 1), (74, 4), (92, -8, 1), (90, 20), (70, 30), (50, 20),
+                        (30, 30)]), 'mid', 'b', False)],
+})

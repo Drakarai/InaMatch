@@ -257,6 +257,10 @@ STYLE = {
     'Sandorius Eleven': ('#e8c428', '#6a6250', '#a8241a', '#2a2a2a', '#5e5a4c', '#e8c428', '#6a6250', '#5e5a4c', {'longSleeve': True, 'gkLongSleeve': True, 'longPants': True, 'gkLongPants': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#a8241a', 'collar': '#3a3630', 'num': '#1e1e1e'}),
     # Barcelona Orb: camiseta morada con franjas blancas en el pecho, pantalón blanco y medias moradas; portero marrón oscuro de manga larga
     'Barcelona Orb': ('#7a2a8c', '#f4f2f2', '#4a2a26', '#f4f2f2', '#7a2a8c', '#7a2a8c', '#f4f2f2', '#4a2a26', {'gkLongSleeve': True, 'gkGloves': '#f4f4f4', 'gkSocks': '#5a5a60', 'collar': '#f4f2f2', 'num': '#f4f2f2', 'stripe': '#f4f2f2'}),
+    # Alpino (Ares): camiseta blanco roto de manga larga con cuello azul marino, pantalón azul marino y medias blancas; portero verde oliva
+    'Hakuren (Ares)': ('#f2eedc', '#2e4466', '#4a5226', '#2e4466', '#f2eedc', '#f2eedc', '#d8d0b0', '#4a5226', {'longSleeve': True, 'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#4a5226', 'collar': '#2e4466', 'num': '#2e4466', 'stripe': '#2e4466'}),
+    # Kirkwood (Ares): camiseta roja con cuello negro, pantalón blanco roto y medias rojas; portero verde lima
+    'Kidokawa Seishuu (Ares)': ('#d01e26', '#f0eae0', '#b8d078', '#1e1e22', '#d01e26', '#d01e26', '#4a5a62', '#b8d078', {'gkLongSleeve': True, 'gkGloves': '#f0f0f0', 'gkSocks': '#b8d078', 'collar': '#1e1e22', 'num': '#f4f4f4', 'stripe': '#1e1e22'}),
     'Inazuma Japan': ('#1e6ec8', '#dccdb8', '#e8892b', '#1e6ec8', '#1e6ec8', '#1e6ec8', None, None,
                       {'stripe': '#f0c020', 'collar': '#d02a2a', 'num': '#e8b8a0'}),
     # Big Waves (Australia): camiseta amarilla con mangas y cuello verdes, pantalón verde y medias amarillas; el portero verde lima de manga larga con pantalón azul marino

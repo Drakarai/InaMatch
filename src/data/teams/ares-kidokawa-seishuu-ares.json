@@ -5,10 +5,20 @@
  "name": "Instituto Kirkwood (Ares)",
  "short": "KSA",
  "colors": {
-  "shirt": "#2a8a3a",
-  "shorts": "#1a1a1a",
-  "gkShirt": "#3a8a3a",
-  "accent": "#2a8a3a"
+  "shirt": "#d01e26",
+  "shorts": "#f0eae0",
+  "gkShirt": "#b8d078",
+  "accent": "#1e1e22",
+  "sleeve": "#d01e26",
+  "socks": "#d01e26",
+  "gkShorts": "#4a5a62",
+  "gkSleeve": "#b8d078",
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#b8d078",
+  "collar": "#1e1e22",
+  "num": "#f4f4f4",
+  "stripe": "#1e1e22"
  },
  "formation": "f-4-3-3",
  "players": [

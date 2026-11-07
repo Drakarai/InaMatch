@@ -5,10 +5,21 @@
  "name": "Instituto Alpino (Ares)",
  "short": "HAK",
  "colors": {
-  "shirt": "#c8202f",
-  "shorts": "#2a3a5a",
-  "gkShirt": "#e8892b",
-  "accent": "#c8202f"
+  "shirt": "#f2eedc",
+  "shorts": "#2e4466",
+  "gkShirt": "#4a5226",
+  "accent": "#2e4466",
+  "sleeve": "#f2eedc",
+  "socks": "#f2eedc",
+  "gkShorts": "#d8d0b0",
+  "gkSleeve": "#4a5226",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#4a5226",
+  "collar": "#2e4466",
+  "num": "#2e4466",
+  "stripe": "#2e4466"
  },
  "formation": "f-3-4-3",
  "players": [

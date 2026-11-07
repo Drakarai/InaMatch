@@ -27,20 +27,20 @@ def star(cx, cy, r, c='star', z='f'):
 # Oogosho Yakata (portero): cabeza enorme y redonda de piel parda, como un muñeco, con tres conos dorados a rayas en lo alto
 # (el grande en medio), ojos redondos azules, nariz rojiza y una sonrisa enorme de dientes
 _OOG_FACE = [(4, 60), (14, 40), (50, 28), (86, 40), (96, 60), (100, 84), (92, 106), (72, 120), (50, 122), (28, 120), (8, 106), (0, 84)]
-_OOG_HORNS_F = [L(outline([(12, 48), (14, 20, 1), (32, 40)]), 'horn', 'b', ln=True), L(outline([(88, 48), (86, 20, 1), (68, 40)]), 'horn', 'b', ln=True),
-                L(outline([(34, 38), (50, -2, 1), (66, 38)]), 'horn', 'b', ln=True),
-                L(outline([(30, 36), (70, 36), (68, 44), (32, 44)]), 'horn_d', 'b', ln=True),
-                L([(40, 22), (60, 22)], 'horn_d', 'b', False, False, 1.4), L([(44, 12), (56, 12)], 'horn_d', 'b', False, False, 1.4),
-                L([(15, 34), (24, 38)], 'horn_d', 'b', False, False, 1.2), L([(85, 34), (76, 38)], 'horn_d', 'b', False, False, 1.2)]
+_OOG_HORNS_F = [L(outline([(12, 48), (14, 20, 1), (32, 40)]), 'horn', 'f', ln=True), L(outline([(88, 48), (86, 20, 1), (68, 40)]), 'horn', 'f', ln=True),
+                L(outline([(34, 38), (50, -2, 1), (66, 38)]), 'horn', 'f', ln=True),
+                L(outline([(30, 36), (70, 36), (68, 44), (32, 44)]), 'horn_d', 'f', ln=True),
+                L([(40, 22), (60, 22)], 'horn_d', 'f', False, False, 1.4), L([(44, 12), (56, 12)], 'horn_d', 'f', False, False, 1.4),
+                L([(15, 34), (24, 38)], 'horn_d', 'f', False, False, 1.2), L([(85, 34), (76, 38)], 'horn_d', 'f', False, False, 1.2)]
 CHARS['trice-topper'] = {
     'body': 'corpulento', 'pal': pal('#9a6434', '#b0763e', iris='#2a5ab0', skin_d='#8e5a2c', horn='#e6c872', horn_d='#b4924a', nose='#c8603a'),
     'face': {'eyes': 'round', 'brows': 'angry', 'mouth': 'none', 'hairline': False, 'face_front': blob(_OOG_FACE), 'big_ears': 2, 'ear_out': 8,
              'nose': (50, 82, 3.6), 'eye_sep': 13},
     'front': _OOG_HORNS_F + [L(outline([(28, 90), (72, 90), (70, 98), (50, 102), (30, 98)]), WHITE, 'f', ln=True),
                              L(quad((30, 94), (50, 98), (70, 94)), OUTC, 'f', False, False, 1.0)],
-    'side': [L(outline([(36, 40), (40, 8, 1), (56, 34)]), 'horn', 'b', ln=True), L(outline([(54, 30), (64, -6, 1), (80, 30)]), 'horn', 'b', ln=True),
-             L(outline([(12, 50), (10, 24, 1), (28, 40)]), 'horn', 'b', ln=True),
-             L(outline([(34, 36), (82, 28), (82, 34), (36, 42)]), 'horn_d', 'b', ln=True),
+    'side': [L(outline([(36, 40), (40, 8, 1), (56, 34)]), 'horn', 'f', ln=True), L(outline([(54, 30), (64, -6, 1), (80, 30)]), 'horn', 'f', ln=True),
+             L(outline([(12, 50), (10, 24, 1), (28, 40)]), 'horn', 'f', ln=True),
+             L(outline([(34, 36), (82, 28), (82, 34), (36, 42)]), 'horn_d', 'f', ln=True),
              L(blob([(46, 118), (16, 108), (2, 80), (4, 50), (22, 30), (54, 24), (80, 32), (96, 54), (100, 80), (96, 102), (80, 116)]), 'skin', 'b'),
              L(outline([(84, 92), (98, 90), (96, 100), (86, 100)]), WHITE, 'f', ln=True)],
     'back': [L(blob([(4, 70), (12, 42), (50, 28), (88, 42), (96, 70), (90, 100), (70, 116), (30, 116), (10, 100)]), 'skin'),
@@ -52,17 +52,17 @@ CHARS['trice-topper']['face']['face_side'] = blob([(46, 118), (16, 108), (2, 80)
 # Nikaidou Shuugo (entrenador de Kirkwood): adulto de piel morena, pelo azul marino abundante peinado con raya y un
 # flequillo en diagonal, barba de pocos días y mirada seria
 CHARS['seth-nichols'] = {
-    'body': 'delgado', 'pal': pal('#2c3052', '#c48c5c', iris='#3a2418', shade='#1e2240', stub='#a07040'),
+    'body': 'delgado', 'pal': pal('#2c3052', '#c48c5c', iris='#3a2418', shade='#1e2240', stub='#b6845a'),
     'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'line', 'mouth_y': 98, 'hairline': False, 'nose': (50, 86, 2)},
     'front': [L(outline([(10, 78), (2, 40), (8, 14), (30, -2), (56, -6), (80, 2), (96, 22), (98, 52), (90, 78), (84, 60), (18, 60)])),
               L(outline([(60, -2), (84, 8), (96, 36), (92, 66), (82, 46)]), 'shade', 'b', False),
               fringe([(8, 64), (10, 36), (24, 16), (50, 8), (74, 14), (90, 30), (92, 64), (84, 52), (80, 62, 1), (72, 44), (58, 38), (46, 50), (36, 66, 1),
                       (32, 48), (22, 54), (16, 66, 1)]),
-              L(outline([(28, 98), (36, 106), (50, 110), (64, 106), (72, 98), (68, 110), (50, 118), (32, 110)]), 'stub', 'f', False)],
+              L(outline([(38, 104), (50, 108), (62, 104), (60, 112), (50, 116), (40, 112)]), 'stub', 'f', False)],
     'side': [L(outline([(52, 62), (56, 50), (80, 48), (94, 34), (98, 14), (80, -4), (54, -8), (28, -4), (8, 10), (0, 36), (2, 64), (14, 84), (30, 86), (44, 72)])),
              L(outline([(2, 36), (24, 42), (28, 80), (8, 76)]), 'shade', 'b', False),
              fringe([(70, 2), (94, 18), (100, 40), (92, 58, 1), (84, 44), (76, 34)]),
-             L(outline([(70, 96), (90, 100), (86, 112), (70, 108)]), 'stub', 'f', False)],
+             L(outline([(78, 102), (90, 104), (86, 112), (78, 110)]), 'stub', 'f', False)],
     'back': [L(outline([(10, 82), (2, 40), (8, 14), (30, -2), (56, -6), (80, 2), (96, 22), (100, 52), (92, 82), (70, 90), (30, 90)])),
              L(outline([(56, -2), (84, 8), (98, 40), (92, 80), (64, 88)]), 'shade', 'b', False)],
 }
@@ -78,11 +78,11 @@ CHARS['lynn-tambelle'] = {
                             fringe([(12, 58), (14, 36), (28, 20), (50, 14), (72, 20), (86, 36), (88, 58), (80, 56), (72, 60), (64, 56), (56, 60), (48, 56),
                                     (40, 60), (32, 56), (24, 60), (18, 56)]),
                             L(ell(10, 46, 5, 5), 'band', 'f', ln=True), L(ell(90, 46, 5, 5), 'band', 'f', ln=True)],
-    'side': [L(outline([(28, 46), (16, 62), (10, 92), (14, 122, 1), (24, 98), (30, 66), (38, 52)])),
+    'side': [L(outline([(24, 44), (8, 56), (-4, 90), (0, 122, 1), (12, 98), (20, 66), (30, 50)])),
              L(outline([(52, 60), (56, 50), (80, 48), (92, 34), (86, 12), (64, 0), (36, 0), (14, 12), (6, 36), (8, 56), (20, 62), (38, 62)])),
              L(outline([(8, 30), (28, 34), (30, 56), (12, 54)]), 'shade', 'b', False),
              fringe([(62, 4), (88, 16), (94, 40), (92, 52, 1), (84, 46), (76, 38)]),
-             L(ell(32, 48, 5, 5), 'band', 'f', ln=True)],
+             L(ell(22, 46, 5, 5), 'band', 'f', ln=True)],
     'back': _SUZU_TAILS + [L(outline([(12, 62), (8, 30), (20, 8), (50, -2), (80, 8), (92, 30), (88, 62), (50, 68)])),
                            L(outline([(56, 2), (82, 12), (92, 40), (86, 60), (62, 66)]), 'shade', 'b', False),
                            strand([(50, 0), (50, 64)], 'deep', 'b', 1.0),

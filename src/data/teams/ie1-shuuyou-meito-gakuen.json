@@ -107,7 +107,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Karisawa Sou",
-   "description": "Él mismo se hace disfraces de personajes de dibujos animados."
+   "description": "Él mismo se hace disfraces de personajes de dibujos animados.",
+   "captain": true
   },
   {
    "id": "light-nobel",

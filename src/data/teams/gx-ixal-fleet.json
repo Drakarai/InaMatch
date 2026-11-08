@@ -33,16 +33,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 167,
+   "fp": 170,
    "tp": 148,
    "stats": {
-    "kick": 65,
-    "body": 85,
-    "control": 54,
-    "guard": 97,
-    "speed": 51,
+    "kick": 51,
+    "body": 84,
+    "control": 46,
+    "guard": 96,
+    "speed": 48,
     "stamina": 81,
-    "guts": 55
+    "guts": 57
    },
    "moves": [
     "shoot-eater",
@@ -65,15 +65,15 @@
    "element": "wind",
    "level": 99,
    "fp": 143,
-   "tp": 125,
+   "tp": 127,
    "stats": {
-    "kick": 71,
-    "body": 63,
-    "control": 60,
-    "guard": 67,
-    "speed": 69,
-    "stamina": 57,
-    "guts": 60
+    "kick": 58,
+    "body": 62,
+    "control": 53,
+    "guard": 74,
+    "speed": 67,
+    "stamina": 59,
+    "guts": 61
    },
    "moves": [
     "judgment-ray",
@@ -96,15 +96,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 180,
-   "tp": 147,
+   "fp": 182,
+   "tp": 141,
    "stats": {
-    "kick": 67,
-    "body": 74,
-    "control": 67,
-    "guard": 80,
-    "speed": 56,
-    "stamina": 53,
+    "kick": 56,
+    "body": 73,
+    "control": 58,
+    "guard": 85,
+    "speed": 54,
+    "stamina": 55,
     "guts": 71
    },
    "moves": [
@@ -127,16 +127,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 180,
-   "tp": 121,
+   "fp": 182,
+   "tp": 124,
    "stats": {
-    "kick": 74,
-    "body": 71,
-    "control": 62,
-    "guard": 68,
-    "speed": 50,
-    "stamina": 68,
-    "guts": 57
+    "kick": 60,
+    "body": 70,
+    "control": 55,
+    "guard": 76,
+    "speed": 48,
+    "stamina": 72,
+    "guts": 58
    },
    "moves": [
     "judgment-ray",
@@ -159,15 +159,15 @@
    "element": "wind",
    "level": 99,
    "fp": 125,
-   "tp": 129,
+   "tp": 130,
    "stats": {
-    "kick": 63,
-    "body": 60,
-    "control": 59,
-    "guard": 64,
-    "speed": 74,
-    "stamina": 52,
-    "guts": 60
+    "kick": 54,
+    "body": 59,
+    "control": 52,
+    "guard": 72,
+    "speed": 72,
+    "stamina": 53,
+    "guts": 61
    },
    "moves": [
     "judgment-ray",
@@ -189,15 +189,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 122,
-   "tp": 121,
+   "fp": 121,
+   "tp": 124,
    "stats": {
-    "kick": 72,
-    "body": 62,
-    "control": 51,
-    "guard": 63,
-    "speed": 65,
-    "stamina": 51,
+    "kick": 59,
+    "body": 61,
+    "control": 47,
+    "guard": 71,
+    "speed": 63,
+    "stamina": 52,
     "guts": 54
    },
    "moves": [
@@ -221,16 +221,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 170,
-   "tp": 117,
+   "fp": 165,
+   "tp": 123,
    "stats": {
-    "kick": 68,
-    "body": 60,
-    "control": 69,
-    "guard": 61,
-    "speed": 51,
-    "stamina": 72,
-    "guts": 70
+    "kick": 63,
+    "body": 61,
+    "control": 76,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 68,
+    "guts": 69
    },
    "moves": [
     "shiny-feather",
@@ -252,16 +252,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 155,
-   "tp": 110,
+   "fp": 150,
+   "tp": 118,
    "stats": {
-    "kick": 69,
+    "kick": 63,
     "body": 63,
-    "control": 66,
-    "guard": 58,
-    "speed": 47,
-    "stamina": 73,
-    "guts": 63
+    "control": 74,
+    "guard": 54,
+    "speed": 48,
+    "stamina": 69,
+    "guts": 61
    },
    "moves": [
     "shiny-feather",
@@ -284,14 +284,14 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 115,
-   "tp": 144,
+   "fp": 117,
+   "tp": 151,
    "stats": {
-    "kick": 68,
+    "kick": 80,
     "body": 64,
-    "control": 65,
-    "guard": 64,
-    "speed": 60,
+    "control": 63,
+    "guard": 57,
+    "speed": 61,
     "stamina": 64,
     "guts": 70
    },
@@ -315,16 +315,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 157,
-   "tp": 144,
+   "fp": 160,
+   "tp": 152,
    "stats": {
-    "kick": 77,
-    "body": 89,
-    "control": 53,
-    "guard": 51,
+    "kick": 89,
+    "body": 91,
+    "control": 54,
+    "guard": 47,
     "speed": 57,
     "stamina": 75,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "stargazer",
@@ -336,7 +336,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Bitway Ozrock",
-   "description": "Organizó el Gran Celesta Galaxy con el fin de dominar toda la galaxia."
+   "description": "Organizó el Gran Celesta Galaxy con el fin de dominar toda la galaxia.",
+   "captain": true
   },
   {
    "id": "loge-colles",
@@ -346,15 +347,15 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 142,
-   "tp": 123,
+   "fp": 144,
+   "tp": 118,
    "stats": {
-    "kick": 64,
+    "kick": 77,
     "body": 58,
-    "control": 54,
-    "guard": 69,
-    "speed": 59,
-    "stamina": 58,
+    "control": 55,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 57,
     "guts": 71
    },
    "moves": [

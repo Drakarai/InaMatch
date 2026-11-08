@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 165,
-   "tp": 155,
+   "fp": 169,
+   "tp": 152,
    "stats": {
-    "kick": 62,
+    "kick": 49,
     "body": 58,
-    "control": 64,
+    "control": 52,
     "guard": 53,
-    "speed": 63,
-    "stamina": 70,
-    "guts": 66
+    "speed": 59,
+    "stamina": 71,
+    "guts": 69
    },
    "moves": [
     "twin-mixer",
@@ -61,14 +61,14 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 169,
-   "tp": 152,
+   "fp": 170,
+   "tp": 145,
    "stats": {
-    "kick": 58,
-    "body": 51,
-    "control": 84,
-    "guard": 66,
-    "speed": 78,
+    "kick": 51,
+    "body": 50,
+    "control": 71,
+    "guard": 74,
+    "speed": 76,
     "stamina": 44,
     "guts": 62
    },
@@ -92,16 +92,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 166,
-   "tp": 156,
+   "fp": 167,
+   "tp": 148,
    "stats": {
-    "kick": 52,
-    "body": 74,
-    "control": 70,
-    "guard": 52,
-    "speed": 70,
-    "stamina": 48,
-    "guts": 59
+    "kick": 48,
+    "body": 73,
+    "control": 60,
+    "guard": 63,
+    "speed": 68,
+    "stamina": 49,
+    "guts": 60
    },
    "moves": [
     "the-mist",
@@ -124,16 +124,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 164,
-   "tp": 153,
+   "fp": 165,
+   "tp": 146,
    "stats": {
-    "kick": 51,
-    "body": 50,
-    "control": 49,
-    "guard": 61,
-    "speed": 54,
-    "stamina": 50,
-    "guts": 52
+    "kick": 48,
+    "body": 49,
+    "control": 45,
+    "guard": 70,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 53
    },
    "moves": [
     "britannia-cross",
@@ -156,16 +156,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 166,
-   "tp": 159,
+   "fp": 167,
+   "tp": 149,
    "stats": {
-    "kick": 65,
-    "body": 56,
-    "control": 76,
-    "guard": 51,
-    "speed": 62,
-    "stamina": 51,
-    "guts": 49
+    "kick": 55,
+    "body": 55,
+    "control": 65,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 50
    },
    "moves": [
     "viva-banri-no-choujou",
@@ -187,16 +187,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 105,
-   "tp": 167,
+   "fp": 102,
+   "tp": 154,
    "stats": {
     "kick": 53,
-    "body": 49,
-    "control": 50,
+    "body": 50,
+    "control": 60,
     "guard": 43,
-    "speed": 60,
-    "stamina": 52,
-    "guts": 52
+    "speed": 61,
+    "stamina": 50,
+    "guts": 50
    },
    "moves": [
     "the-mist",
@@ -219,16 +219,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 174,
-   "tp": 114,
+   "fp": 169,
+   "tp": 121,
    "stats": {
-    "kick": 59,
-    "body": 53,
-    "control": 76,
-    "guard": 51,
-    "speed": 63,
-    "stamina": 65,
-    "guts": 56
+    "kick": 57,
+    "body": 54,
+    "control": 82,
+    "guard": 49,
+    "speed": 65,
+    "stamina": 61,
+    "guts": 54
    },
    "moves": [
     "presto-turn",
@@ -251,16 +251,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 120,
-   "tp": 156,
+   "fp": 117,
+   "tp": 147,
    "stats": {
     "kick": 53,
-    "body": 56,
-    "control": 66,
+    "body": 57,
+    "control": 73,
     "guard": 46,
-    "speed": 54,
-    "stamina": 60,
-    "guts": 56
+    "speed": 55,
+    "stamina": 57,
+    "guts": 55
    },
    "moves": [
     "melody-wave",
@@ -281,16 +281,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 129,
-   "tp": 157,
+   "fp": 125,
+   "tp": 148,
    "stats": {
-    "kick": 48,
-    "body": 66,
-    "control": 65,
-    "guard": 47,
+    "kick": 50,
+    "body": 67,
+    "control": 73,
+    "guard": 46,
     "speed": 49,
-    "stamina": 54,
-    "guts": 61
+    "stamina": 52,
+    "guts": 59
    },
    "moves": [
     "killer-whale",
@@ -312,16 +312,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 166,
-   "tp": 143,
+   "fp": 170,
+   "tp": 150,
    "stats": {
-    "kick": 54,
-    "body": 50,
+    "kick": 68,
+    "body": 49,
     "control": 57,
-    "guard": 51,
+    "guard": 47,
     "speed": 79,
     "stamina": 65,
-    "guts": 61
+    "guts": 60
    },
    "moves": [
     "panther-blizzard",
@@ -343,16 +343,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 170,
-   "tp": 144,
+   "fp": 173,
+   "tp": 151,
    "stats": {
-    "kick": 57,
-    "body": 51,
-    "control": 51,
-    "guard": 52,
+    "kick": 70,
+    "body": 50,
+    "control": 53,
+    "guard": 49,
     "speed": 49,
-    "stamina": 71,
-    "guts": 56
+    "stamina": 70,
+    "guts": 55
    },
    "moves": [
     "panther-blizzard",
@@ -364,7 +364,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shaza Sabaki",
-   "description": "Da miedo verlo correr. Sus rivales se apartan para que no los arrolle."
+   "description": "Da miedo verlo correr. Sus rivales se apartan para que no los arrolle.",
+   "captain": true
   }
  ]
 }

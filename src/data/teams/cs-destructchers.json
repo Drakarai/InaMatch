@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 112,
-   "tp": 116,
+   "fp": 116,
+   "tp": 128,
    "stats": {
     "kick": 38,
-    "body": 68,
-    "control": 50,
-    "guard": 81,
-    "speed": 54,
-    "stamina": 52,
-    "guts": 47
+    "body": 67,
+    "control": 45,
+    "guard": 80,
+    "speed": 51,
+    "stamina": 54,
+    "guts": 49
    },
    "moves": [
     "shining-hole",
@@ -62,15 +62,15 @@
    "element": "wood",
    "level": 99,
    "fp": 120,
-   "tp": 101,
+   "tp": 111,
    "stats": {
-    "kick": 52,
-    "body": 62,
-    "control": 45,
-    "guard": 75,
-    "speed": 70,
-    "stamina": 53,
-    "guts": 48
+    "kick": 48,
+    "body": 61,
+    "control": 43,
+    "guard": 80,
+    "speed": 68,
+    "stamina": 54,
+    "guts": 49
    },
    "moves": [
     "magical-flower",
@@ -93,15 +93,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 106,
-   "tp": 129,
+   "fp": 104,
+   "tp": 130,
    "stats": {
-    "kick": 50,
-    "body": 63,
-    "control": 48,
-    "guard": 70,
-    "speed": 72,
-    "stamina": 64,
+    "kick": 48,
+    "body": 62,
+    "control": 45,
+    "guard": 77,
+    "speed": 70,
+    "stamina": 66,
     "guts": 66
    },
    "moves": [
@@ -124,15 +124,15 @@
    "element": "fire",
    "level": 99,
    "fp": 120,
-   "tp": 108,
+   "tp": 115,
    "stats": {
-    "kick": 55,
-    "body": 71,
-    "control": 49,
-    "guard": 72,
-    "speed": 71,
-    "stamina": 60,
-    "guts": 50
+    "kick": 50,
+    "body": 70,
+    "control": 45,
+    "guard": 79,
+    "speed": 69,
+    "stamina": 62,
+    "guts": 51
    },
    "moves": [
     "magical-flower",
@@ -155,16 +155,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 96,
-   "tp": 85,
+   "fp": 93,
+   "tp": 102,
    "stats": {
-    "kick": 36,
+    "kick": 43,
     "body": 68,
-    "control": 69,
-    "guard": 67,
-    "speed": 62,
-    "stamina": 50,
-    "guts": 44
+    "control": 76,
+    "guard": 60,
+    "speed": 64,
+    "stamina": 48,
+    "guts": 42
    },
    "moves": [
     "all-delete",
@@ -187,16 +187,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 136,
-   "tp": 103,
+   "fp": 132,
+   "tp": 114,
    "stats": {
-    "kick": 59,
-    "body": 56,
-    "control": 71,
-    "guard": 63,
-    "speed": 66,
-    "stamina": 77,
-    "guts": 47
+    "kick": 57,
+    "body": 57,
+    "control": 78,
+    "guard": 58,
+    "speed": 68,
+    "stamina": 73,
+    "guts": 46
    },
    "moves": [
     "all-delete",
@@ -218,16 +218,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 141,
-   "tp": 120,
+   "fp": 137,
+   "tp": 124,
    "stats": {
-    "kick": 63,
+    "kick": 60,
     "body": 66,
-    "control": 70,
-    "guard": 66,
-    "speed": 64,
-    "stamina": 65,
-    "guts": 52
+    "control": 77,
+    "guard": 60,
+    "speed": 66,
+    "stamina": 62,
+    "guts": 50
    },
    "moves": [
     "all-delete",
@@ -250,16 +250,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 78,
-   "tp": 107,
+   "fp": 75,
+   "tp": 116,
    "stats": {
-    "kick": 62,
-    "body": 64,
-    "control": 69,
-    "guard": 68,
-    "speed": 67,
-    "stamina": 53,
-    "guts": 61
+    "kick": 59,
+    "body": 65,
+    "control": 76,
+    "guard": 61,
+    "speed": 69,
+    "stamina": 51,
+    "guts": 60
    },
    "moves": [
     "all-delete",
@@ -281,16 +281,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 170,
-   "tp": 103,
+   "fp": 165,
+   "tp": 114,
    "stats": {
-    "kick": 70,
-    "body": 72,
-    "control": 73,
-    "guard": 61,
-    "speed": 68,
-    "stamina": 69,
-    "guts": 48
+    "kick": 64,
+    "body": 73,
+    "control": 79,
+    "guard": 56,
+    "speed": 71,
+    "stamina": 65,
+    "guts": 46
    },
    "moves": [
     "all-delete",
@@ -313,16 +313,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 157,
-   "tp": 130,
+   "fp": 160,
+   "tp": 129,
    "stats": {
-    "kick": 76,
+    "kick": 87,
     "body": 67,
-    "control": 71,
-    "guard": 52,
-    "speed": 63,
-    "stamina": 50,
-    "guts": 55
+    "control": 67,
+    "guard": 48,
+    "speed": 64,
+    "stamina": 49,
+    "guts": 54
    },
    "moves": [
     "dimension-storm",
@@ -334,7 +334,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Asta",
-   "description": "El chico que apareció con Flora. Crea duplicados muy fuertes."
+   "description": "El chico que apareció con Flora. Crea duplicados muy fuertes.",
+   "captain": true
   },
   {
    "id": "gentian",
@@ -344,16 +345,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 134,
-   "tp": 114,
+   "fp": 136,
+   "tp": 104,
    "stats": {
-    "kick": 72,
+    "kick": 84,
     "body": 64,
-    "control": 68,
-    "guard": 43,
-    "speed": 60,
+    "control": 65,
+    "guard": 42,
+    "speed": 61,
     "stamina": 60,
-    "guts": 60
+    "guts": 59
    },
    "moves": [
     "floral-despair",
@@ -376,15 +377,15 @@
    "element": "wind",
    "level": 99,
    "fp": 69,
-   "tp": 125,
+   "tp": 121,
    "stats": {
-    "kick": 70,
+    "kick": 82,
     "body": 56,
-    "control": 66,
-    "guard": 59,
+    "control": 63,
+    "guard": 53,
     "speed": 74,
-    "stamina": 42,
-    "guts": 52
+    "stamina": 41,
+    "guts": 51
    },
    "moves": [
     "magical-flower",
@@ -407,15 +408,15 @@
    "element": "wind",
    "level": 99,
    "fp": 69,
-   "tp": 125,
+   "tp": 121,
    "stats": {
-    "kick": 70,
+    "kick": 82,
     "body": 56,
-    "control": 66,
-    "guard": 59,
+    "control": 63,
+    "guard": 53,
     "speed": 74,
-    "stamina": 42,
-    "guts": 52
+    "stamina": 41,
+    "guts": 51
    },
    "moves": [
     "chaos-meteor",
@@ -437,14 +438,14 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 124,
+   "fp": 125,
    "tp": 133,
    "stats": {
-    "kick": 74,
+    "kick": 85,
     "body": 66,
-    "control": 64,
-    "guard": 62,
-    "speed": 65,
+    "control": 62,
+    "guard": 55,
+    "speed": 66,
     "stamina": 52,
     "guts": 65
    },

@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 193,
-   "tp": 180,
+   "fp": 142,
+   "tp": 93,
    "stats": {
-    "kick": 78,
-    "body": 76,
-    "control": 74,
+    "kick": 48,
+    "body": 70,
+    "control": 51,
     "guard": 89,
-    "speed": 61,
-    "stamina": 77,
-    "guts": 76
+    "speed": 82,
+    "stamina": 61,
+    "guts": 51
    },
    "moves": [
     "boukyaku-no-sonata",
@@ -62,15 +62,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 179,
-   "tp": 99,
+   "fp": 197,
+   "tp": 136,
    "stats": {
-    "kick": 42,
-    "body": 69,
-    "control": 45,
-    "guard": 73,
-    "speed": 46,
-    "stamina": 69,
+    "kick": 44,
+    "body": 72,
+    "control": 42,
+    "guard": 77,
+    "speed": 59,
+    "stamina": 74,
     "guts": 45
    },
    "moves": [
@@ -94,16 +94,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "horn-train",
@@ -126,16 +126,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "elephant-press",
@@ -158,15 +158,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 179,
-   "tp": 99,
+   "fp": 197,
+   "tp": 136,
    "stats": {
-    "kick": 42,
-    "body": 69,
-    "control": 45,
-    "guard": 73,
-    "speed": 46,
-    "stamina": 69,
+    "kick": 44,
+    "body": 72,
+    "control": 42,
+    "guard": 77,
+    "speed": 59,
+    "stamina": 74,
     "guts": 45
    },
    "moves": [
@@ -190,16 +190,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "scissors-bomb",
@@ -222,16 +222,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "the-stamp",
@@ -254,16 +254,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "the-stamp",
@@ -286,16 +286,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "the-stamp",
@@ -318,16 +318,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "requiem-dust",
@@ -340,7 +340,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Onaxon Ims",
-   "description": "Un organizador de juego que lee el campo como un libro abierto y golpea con una precisión incansable y despiadada."
+   "description": "Un organizador de juego que lee el campo como un libro abierto y golpea con una precisión incansable y despiadada.",
+   "captain": true
   },
   {
    "id": "tango",
@@ -350,16 +351,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 250,
-   "tp": 216,
+   "fp": 176,
+   "tp": 141,
    "stats": {
-    "kick": 15,
-    "body": 99,
-    "control": 15,
-    "guard": 99,
-    "speed": 99,
-    "stamina": 99,
-    "guts": 28
+    "kick": 50,
+    "body": 68,
+    "control": 45,
+    "guard": 66,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "requiem-dust",
@@ -382,16 +383,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 85,
-   "tp": 97,
+   "fp": 88,
+   "tp": 108,
    "stats": {
-    "kick": 75,
-    "body": 46,
-    "control": 66,
-    "guard": 41,
-    "speed": 59,
-    "stamina": 43,
-    "guts": 67
+    "kick": 84,
+    "body": 47,
+    "control": 67,
+    "guard": 46,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "requiem-dust",
@@ -414,16 +415,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 111,
+   "tp": 117,
    "stats": {
-    "kick": 54,
-    "body": 62,
-    "control": 51,
-    "guard": 59,
-    "speed": 53,
-    "stamina": 61,
-    "guts": 53
+    "kick": 76,
+    "body": 51,
+    "control": 63,
+    "guard": 52,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 58
    },
    "moves": [
     "requiem-dust",
@@ -446,16 +447,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "boukyaku-no-sonata",
@@ -478,16 +479,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "horn-train",

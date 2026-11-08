@@ -301,7 +301,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Mark Krueger",
-   "description": "Esta estrella estadounidense forma un gran dúo centrocampista con Erik."
+   "description": "Esta estrella estadounidense forma un gran dúo centrocampista con Erik.",
+   "captain": true
   },
   {
    "id": "dylan-keats",

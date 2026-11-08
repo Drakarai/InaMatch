@@ -26,16 +26,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 84,
-   "tp": 181,
+   "fp": 88,
+   "tp": 167,
    "stats": {
-    "kick": 57,
+    "kick": 47,
     "body": 48,
-    "control": 52,
-    "guard": 60,
-    "speed": 46,
-    "stamina": 50,
-    "guts": 53
+    "control": 46,
+    "guard": 59,
+    "speed": 44,
+    "stamina": 52,
+    "guts": 55
    },
    "moves": [
     "serpent-fang",
@@ -58,15 +58,15 @@
    "element": "wood",
    "level": 99,
    "fp": 123,
-   "tp": 169,
+   "tp": 157,
    "stats": {
-    "kick": 53,
-    "body": 48,
-    "control": 53,
-    "guard": 56,
-    "speed": 56,
-    "stamina": 60,
-    "guts": 55
+    "kick": 49,
+    "body": 47,
+    "control": 48,
+    "guard": 66,
+    "speed": 54,
+    "stamina": 62,
+    "guts": 56
    },
    "moves": [
     "presto-turn",
@@ -89,14 +89,14 @@
    "element": "earth",
    "level": 99,
    "fp": 125,
-   "tp": 165,
+   "tp": 154,
    "stats": {
-    "kick": 51,
-    "body": 48,
-    "control": 45,
-    "guard": 59,
-    "speed": 49,
-    "stamina": 67,
+    "kick": 48,
+    "body": 47,
+    "control": 43,
+    "guard": 69,
+    "speed": 47,
+    "stamina": 70,
     "guts": 53
    },
    "moves": [
@@ -119,16 +119,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 195,
-   "tp": 147,
+   "fp": 197,
+   "tp": 141,
    "stats": {
-    "kick": 66,
-    "body": 51,
-    "control": 64,
-    "guard": 44,
-    "speed": 88,
-    "stamina": 56,
-    "guts": 50
+    "kick": 56,
+    "body": 50,
+    "control": 56,
+    "guard": 57,
+    "speed": 86,
+    "stamina": 58,
+    "guts": 51
    },
    "moves": [
     "zeroyon",
@@ -150,16 +150,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 163,
-   "tp": 143,
+   "fp": 159,
+   "tp": 139,
    "stats": {
-    "kick": 56,
+    "kick": 55,
     "body": 75,
-    "control": 61,
-    "guard": 55,
-    "speed": 75,
-    "stamina": 70,
-    "guts": 57
+    "control": 70,
+    "guard": 52,
+    "speed": 78,
+    "stamina": 67,
+    "guts": 55
    },
    "moves": [
     "sprint-warp",
@@ -181,16 +181,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 127,
-   "tp": 152,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 73,
-    "body": 50,
-    "control": 44,
-    "guard": 56,
-    "speed": 63,
-    "stamina": 57,
-    "guts": 53
+    "kick": 66,
+    "body": 51,
+    "control": 55,
+    "guard": 53,
+    "speed": 65,
+    "stamina": 54,
+    "guts": 52
    },
    "moves": [
     "bound-flame",
@@ -213,16 +213,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 165,
-   "tp": 139,
+   "fp": 168,
+   "tp": 144,
    "stats": {
-    "kick": 81,
-    "body": 81,
-    "control": 68,
-    "guard": 52,
+    "kick": 92,
+    "body": 83,
+    "control": 65,
+    "guard": 49,
     "speed": 49,
     "stamina": 52,
-    "guts": 57
+    "guts": 56
    },
    "moves": [
     "white-hurricane",
@@ -235,7 +235,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Hakuryuu",
-   "description": "Confía mucho en su talento, por eso destaca incluso entre los imperiales."
+   "description": "Confía mucho en su talento, por eso destaca incluso entre los imperiales.",
+   "captain": true
   },
   {
    "id": "filbert-weissman",
@@ -245,16 +246,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 119,
-   "tp": 148,
+   "fp": 120,
+   "tp": 157,
    "stats": {
-    "kick": 57,
-    "body": 50,
-    "control": 49,
-    "guard": 53,
+    "kick": 70,
+    "body": 49,
+    "control": 51,
+    "guard": 49,
     "speed": 53,
     "stamina": 59,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "ballista-shot",
@@ -277,15 +278,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 75,
-   "tp": 181,
+   "fp": 72,
+   "tp": 165,
    "stats": {
-    "kick": 59,
-    "body": 64,
-    "control": 66,
-    "guard": 49,
-    "speed": 60,
-    "stamina": 46,
+    "kick": 52,
+    "body": 63,
+    "control": 57,
+    "guard": 61,
+    "speed": 58,
+    "stamina": 47,
     "guts": 55
    },
    "moves": [
@@ -308,16 +309,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 127,
-   "tp": 152,
+   "fp": 123,
+   "tp": 145,
    "stats": {
     "kick": 53,
-    "body": 49,
-    "control": 52,
-    "guard": 64,
-    "speed": 63,
-    "stamina": 57,
-    "guts": 53
+    "body": 50,
+    "control": 62,
+    "guard": 58,
+    "speed": 65,
+    "stamina": 54,
+    "guts": 51
    },
    "moves": [
     "fuujin-no-mai",
@@ -340,16 +341,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 120,
-   "tp": 159,
+   "fp": 117,
+   "tp": 149,
    "stats": {
-    "kick": 52,
-    "body": 50,
-    "control": 50,
-    "guard": 73,
-    "speed": 60,
-    "stamina": 51,
-    "guts": 53
+    "kick": 53,
+    "body": 51,
+    "control": 60,
+    "guard": 65,
+    "speed": 61,
+    "stamina": 49,
+    "guts": 52
    },
    "moves": [
     "fortissimo",

@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 165,
-   "tp": 155,
+   "fp": 169,
+   "tp": 152,
    "stats": {
-    "kick": 63,
+    "kick": 50,
     "body": 60,
-    "control": 53,
+    "control": 46,
     "guard": 31,
-    "speed": 56,
-    "stamina": 58,
-    "guts": 58
+    "speed": 52,
+    "stamina": 60,
+    "guts": 61
    },
    "moves": [
     "burning-catch",
@@ -58,16 +58,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 171,
-   "tp": 156,
+   "fp": 172,
+   "tp": 148,
    "stats": {
-    "kick": 53,
-    "body": 55,
-    "control": 47,
-    "guard": 66,
-    "speed": 52,
-    "stamina": 71,
-    "guts": 60
+    "kick": 49,
+    "body": 54,
+    "control": 44,
+    "guard": 74,
+    "speed": 51,
+    "stamina": 75,
+    "guts": 61
    },
    "moves": [
     "elephant-press",
@@ -88,15 +88,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 167,
-   "tp": 157,
+   "fp": 168,
+   "tp": 149,
    "stats": {
-    "kick": 71,
-    "body": 62,
-    "control": 61,
-    "guard": 41,
-    "speed": 66,
-    "stamina": 61,
+    "kick": 58,
+    "body": 60,
+    "control": 54,
+    "guard": 55,
+    "speed": 64,
+    "stamina": 63,
     "guts": 55
    },
    "moves": [
@@ -118,16 +118,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 172,
-   "tp": 124,
+   "fp": 174,
+   "tp": 126,
    "stats": {
-    "kick": 63,
-    "body": 45,
-    "control": 67,
-    "guard": 52,
-    "speed": 59,
-    "stamina": 76,
-    "guts": 55
+    "kick": 54,
+    "body": 44,
+    "control": 59,
+    "guard": 63,
+    "speed": 57,
+    "stamina": 81,
+    "guts": 56
    },
    "moves": [
     "dash-train",
@@ -148,15 +148,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 164,
-   "tp": 157,
+   "fp": 165,
+   "tp": 149,
    "stats": {
-    "kick": 55,
-    "body": 56,
-    "control": 79,
-    "guard": 35,
-    "speed": 76,
-    "stamina": 52,
+    "kick": 50,
+    "body": 55,
+    "control": 68,
+    "guard": 50,
+    "speed": 74,
+    "stamina": 53,
     "guts": 57
    },
    "moves": [
@@ -178,16 +178,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 194,
-   "tp": 152,
+   "fp": 189,
+   "tp": 145,
    "stats": {
-    "kick": 49,
-    "body": 59,
-    "control": 39,
-    "guard": 68,
-    "speed": 55,
-    "stamina": 67,
-    "guts": 61
+    "kick": 51,
+    "body": 60,
+    "control": 51,
+    "guard": 61,
+    "speed": 56,
+    "stamina": 64,
+    "guts": 60
    },
    "moves": [
     "burning-summer",
@@ -208,16 +208,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 162,
-   "tp": 164,
+   "fp": 157,
+   "tp": 153,
    "stats": {
-    "kick": 51,
+    "kick": 52,
     "body": 68,
-    "control": 53,
-    "guard": 69,
+    "control": 62,
+    "guard": 62,
     "speed": 50,
-    "stamina": 60,
-    "guts": 63
+    "stamina": 57,
+    "guts": 61
    },
    "moves": [
     "naminori-pierrot",
@@ -228,7 +228,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Terasaka Tokio",
-   "description": "Vive con 16 gatos y, quizá por eso, se le han puesto las orejas de felino..."
+   "description": "Vive con 16 gatos y, quizá por eso, se le han puesto las orejas de felino...",
+   "captain": true
   },
   {
    "id": "keeley-hall",
@@ -238,16 +239,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 192,
-   "tp": 113,
+   "fp": 187,
+   "tp": 120,
    "stats": {
-    "kick": 61,
-    "body": 49,
-    "control": 39,
-    "guard": 66,
-    "speed": 52,
-    "stamina": 74,
-    "guts": 63
+    "kick": 58,
+    "body": 50,
+    "control": 51,
+    "guard": 60,
+    "speed": 53,
+    "stamina": 70,
+    "guts": 62
    },
    "moves": [
     "soyokaze-step",
@@ -269,16 +270,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 191,
-   "tp": 117,
+   "fp": 185,
+   "tp": 123,
    "stats": {
     "kick": 54,
-    "body": 64,
-    "control": 54,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 55,
-    "guts": 57
+    "body": 65,
+    "control": 64,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 52,
+    "guts": 55
    },
    "moves": [
     "naminori-pierrot",
@@ -299,16 +300,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 181,
-   "tp": 143,
+   "fp": 185,
+   "tp": 149,
    "stats": {
-    "kick": 37,
-    "body": 51,
-    "control": 54,
-    "guard": 50,
+    "kick": 52,
+    "body": 49,
+    "control": 55,
+    "guard": 47,
     "speed": 81,
-    "stamina": 55,
-    "guts": 56
+    "stamina": 54,
+    "guts": 55
    },
    "moves": [
     "head-bazooka",
@@ -329,16 +330,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 186,
-   "tp": 127,
+   "fp": 190,
+   "tp": 125,
    "stats": {
-    "kick": 60,
+    "kick": 73,
     "body": 68,
-    "control": 47,
-    "guard": 54,
-    "speed": 51,
+    "control": 50,
+    "guard": 50,
+    "speed": 52,
     "stamina": 57,
-    "guts": 60
+    "guts": 59
    },
    "moves": [
     "perfect-course",
@@ -360,16 +361,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 174,
-   "tp": 163,
+   "fp": 177,
+   "tp": 156,
    "stats": {
-    "kick": 49,
+    "kick": 43,
     "body": 54,
-    "control": 79,
+    "control": 60,
     "guard": 21,
-    "speed": 82,
-    "stamina": 66,
-    "guts": 54
+    "speed": 74,
+    "stamina": 68,
+    "guts": 56
    },
    "moves": [
     "rapid-whip",
@@ -391,16 +392,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 167,
-   "tp": 155,
+   "fp": 168,
+   "tp": 147,
    "stats": {
-    "kick": 56,
-    "body": 49,
-    "control": 51,
-    "guard": 61,
-    "speed": 53,
-    "stamina": 68,
-    "guts": 60
+    "kick": 51,
+    "body": 48,
+    "control": 47,
+    "guard": 70,
+    "speed": 51,
+    "stamina": 71,
+    "guts": 61
    },
    "moves": [
     "spiral-draw",
@@ -421,16 +422,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 163,
-   "tp": 159,
+   "fp": 159,
+   "tp": 149,
    "stats": {
-    "kick": 55,
+    "kick": 54,
     "body": 71,
-    "control": 47,
-    "guard": 60,
-    "speed": 58,
-    "stamina": 65,
-    "guts": 63
+    "control": 57,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 61,
+    "guts": 62
    },
    "moves": [
     "boomerang-feint",
@@ -451,16 +452,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 186,
-   "tp": 146,
+   "fp": 190,
+   "tp": 156,
    "stats": {
-    "kick": 48,
-    "body": 53,
-    "control": 49,
-    "guard": 60,
+    "kick": 62,
+    "body": 51,
+    "control": 51,
+    "guard": 53,
     "speed": 63,
-    "stamina": 61,
-    "guts": 63
+    "stamina": 60,
+    "guts": 62
    },
    "moves": [
     "perfect-course",
@@ -481,15 +482,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 179,
-   "tp": 153,
+   "fp": 180,
+   "tp": 146,
    "stats": {
-    "kick": 72,
-    "body": 50,
-    "control": 72,
-    "guard": 38,
-    "speed": 68,
-    "stamina": 61,
+    "kick": 59,
+    "body": 49,
+    "control": 62,
+    "guard": 53,
+    "speed": 66,
+    "stamina": 63,
     "guts": 54
    },
    "moves": [

@@ -300,7 +300,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Harano Tooru",
-   "description": "Mozo salvaje que caza pájaros y se los come como si fueran pollo frito."
+   "description": "Mozo salvaje que caza pájaros y se los come como si fueran pollo frito.",
+   "captain": true
   },
   {
    "id": "daniel-dawson",

@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 193,
-   "tp": 180,
+   "fp": 142,
+   "tp": 93,
    "stats": {
-    "kick": 78,
-    "body": 76,
-    "control": 74,
+    "kick": 48,
+    "body": 70,
+    "control": 51,
     "guard": 89,
-    "speed": 61,
-    "stamina": 77,
-    "guts": 76
+    "speed": 82,
+    "stamina": 61,
+    "guts": 51
    },
    "moves": [
     "hyouketsu-no-mai",
@@ -61,16 +61,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 135,
-   "tp": 172,
+   "fp": 181,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 61,
-    "control": 72,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 57,
-    "guts": 65
+    "kick": 48,
+    "body": 70,
+    "control": 47,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 70,
+    "guts": 53
    },
    "moves": [
     "dancing-turtle",
@@ -92,16 +92,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "oraora-shikofumi",
@@ -124,16 +124,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "murakumo-trap",
@@ -156,16 +156,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "second-life-hoop",
@@ -188,16 +188,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 204,
-   "tp": 133,
+   "fp": 129,
+   "tp": 154,
    "stats": {
-    "kick": 77,
-    "body": 72,
-    "control": 63,
-    "guard": 75,
-    "speed": 77,
-    "stamina": 77,
-    "guts": 58
+    "kick": 63,
+    "body": 57,
+    "control": 68,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 67
    },
    "moves": [
     "bunshin-feint",
@@ -219,16 +219,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 246,
-   "tp": 142,
+   "fp": 135,
+   "tp": 159,
    "stats": {
-    "kick": 83,
-    "body": 78,
+    "kick": 63,
+    "body": 59,
     "control": 69,
-    "guard": 79,
-    "speed": 98,
-    "stamina": 90,
-    "guts": 60
+    "guard": 58,
+    "speed": 57,
+    "stamina": 57,
+    "guts": 68
    },
    "moves": [],
    "look": {
@@ -236,7 +236,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sasanami Unmei",
-   "description": "Principio del Episodio 1 : Se inscribió en la Secundaria South Cirrus por la ausencia de fútbol, un deporte que parece detestar intensamente."
+   "description": "Principio del Episodio 1 : Se inscribió en la Secundaria South Cirrus por la ausencia de fútbol, un deporte que parece detestar intensamente.",
+   "captain": true
   },
   {
    "id": "thierry-reyes",
@@ -246,16 +247,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 204,
-   "tp": 133,
+   "fp": 129,
+   "tp": 154,
    "stats": {
-    "kick": 77,
-    "body": 72,
-    "control": 63,
-    "guard": 75,
-    "speed": 77,
-    "stamina": 77,
-    "guts": 58
+    "kick": 63,
+    "body": 57,
+    "control": 68,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 67
    },
    "moves": [
     "tenkuu-thunder",
@@ -278,15 +279,15 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 178,
-   "tp": 184,
+   "fp": 121,
+   "tp": 132,
    "stats": {
-    "kick": 60,
-    "body": 70,
-    "control": 63,
-    "guard": 72,
-    "speed": 72,
-    "stamina": 69,
+    "kick": 78,
+    "body": 53,
+    "control": 66,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 53,
     "guts": 60
    },
    "moves": [
@@ -310,16 +311,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 132,
-   "tp": 173,
+   "fp": 105,
+   "tp": 129,
    "stats": {
-    "kick": 84,
-    "body": 62,
-    "control": 77,
-    "guard": 63,
-    "speed": 84,
-    "stamina": 56,
-    "guts": 77
+    "kick": 87,
+    "body": 51,
+    "control": 70,
+    "guard": 53,
+    "speed": 57,
+    "stamina": 48,
+    "guts": 64
    },
    "moves": [
     "gou-no-issen",
@@ -341,16 +342,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "elegant-blade",
@@ -373,16 +374,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "answer-boost",
@@ -405,16 +406,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "yamabiko-step",
@@ -437,16 +438,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "hayabusa-gaeshi",
@@ -469,16 +470,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "matrix-eye",
@@ -501,16 +502,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "dokkan-train",

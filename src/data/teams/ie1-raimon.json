@@ -42,7 +42,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Endou Mamoru",
-   "description": "Enérgico capitán del Raimon. Nadie vive el fútbol como él."
+   "description": "Enérgico capitán del Raimon. Nadie vive el fútbol como él.",
+   "captain": true
   },
   {
    "id": "nathan-swift",

@@ -32,16 +32,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 142,
-   "tp": 140,
+   "fp": 146,
+   "tp": 143,
    "stats": {
-    "kick": 71,
+    "kick": 53,
     "body": 78,
-    "control": 56,
+    "control": 48,
     "guard": 68,
-    "speed": 67,
-    "stamina": 54,
-    "guts": 65
+    "speed": 62,
+    "stamina": 56,
+    "guts": 67
    },
    "moves": [
     "volcano-head",
@@ -53,7 +53,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Alvega Gordon",
-   "description": "Capitán de Los Magmavís. Cambió sus alas por unos poderosos brazos."
+   "description": "Capitán de Los Magmavís. Cambió sus alas por unos poderosos brazos.",
+   "captain": true
   },
   {
    "id": "mayon",
@@ -63,15 +64,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 106,
-   "tp": 140,
+   "fp": 104,
+   "tp": 137,
    "stats": {
-    "kick": 72,
-    "body": 73,
-    "control": 56,
-    "guard": 64,
-    "speed": 63,
-    "stamina": 58,
+    "kick": 59,
+    "body": 72,
+    "control": 51,
+    "guard": 72,
+    "speed": 61,
+    "stamina": 60,
     "guts": 56
    },
    "moves": [
@@ -96,14 +97,14 @@
    "element": "fire",
    "level": 99,
    "fp": 120,
-   "tp": 115,
+   "tp": 120,
    "stats": {
-    "kick": 55,
-    "body": 68,
-    "control": 54,
-    "guard": 63,
-    "speed": 65,
-    "stamina": 50,
+    "kick": 50,
+    "body": 67,
+    "control": 49,
+    "guard": 71,
+    "speed": 63,
+    "stamina": 51,
     "guts": 55
    },
    "moves": [
@@ -127,16 +128,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 96,
-   "tp": 135,
+   "fp": 93,
+   "tp": 134,
    "stats": {
-    "kick": 47,
-    "body": 68,
-    "control": 62,
-    "guard": 46,
-    "speed": 72,
-    "stamina": 61,
-    "guts": 45
+    "kick": 49,
+    "body": 69,
+    "control": 71,
+    "guard": 45,
+    "speed": 74,
+    "stamina": 58,
+    "guts": 43
    },
    "moves": [
     "magma-carpet",
@@ -158,16 +159,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 150,
-   "tp": 99,
+   "fp": 145,
+   "tp": 111,
    "stats": {
     "kick": 54,
     "body": 74,
-    "control": 67,
-    "guard": 54,
-    "speed": 57,
-    "stamina": 64,
-    "guts": 61
+    "control": 75,
+    "guard": 51,
+    "speed": 59,
+    "stamina": 60,
+    "guts": 60
    },
    "moves": [
     "magma-carpet",
@@ -189,16 +190,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 122,
-   "tp": 120,
+   "fp": 118,
+   "tp": 124,
    "stats": {
     "kick": 53,
     "body": 71,
-    "control": 63,
-    "guard": 58,
-    "speed": 60,
-    "stamina": 69,
-    "guts": 46
+    "control": 71,
+    "guard": 54,
+    "speed": 61,
+    "stamina": 65,
+    "guts": 45
    },
    "moves": [
     "magma-carpet",
@@ -221,16 +222,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 165,
-   "tp": 110,
+   "fp": 160,
+   "tp": 118,
    "stats": {
-    "kick": 67,
+    "kick": 62,
     "body": 65,
-    "control": 66,
-    "guard": 47,
-    "speed": 64,
-    "stamina": 77,
-    "guts": 35
+    "control": 74,
+    "guard": 46,
+    "speed": 66,
+    "stamina": 73,
+    "guts": 33
    },
    "moves": [
     "magma-carpet",
@@ -253,14 +254,14 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 114,
-   "tp": 125,
+   "fp": 115,
+   "tp": 122,
    "stats": {
-    "kick": 63,
+    "kick": 76,
     "body": 72,
-    "control": 53,
-    "guard": 58,
-    "speed": 70,
+    "control": 54,
+    "guard": 52,
+    "speed": 71,
     "stamina": 51,
     "guts": 63
    },
@@ -285,16 +286,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 129,
-   "tp": 123,
+   "fp": 130,
+   "tp": 118,
    "stats": {
-    "kick": 66,
-    "body": 72,
-    "control": 62,
-    "guard": 52,
-    "speed": 69,
-    "stamina": 45,
-    "guts": 52
+    "kick": 78,
+    "body": 73,
+    "control": 61,
+    "guard": 48,
+    "speed": 70,
+    "stamina": 44,
+    "guts": 51
    },
    "moves": [
     "kazangan",
@@ -316,14 +317,14 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 109,
-   "tp": 128,
+   "fp": 110,
+   "tp": 126,
    "stats": {
-    "kick": 62,
+    "kick": 75,
     "body": 66,
-    "control": 46,
-    "guard": 51,
-    "speed": 61,
+    "control": 50,
+    "guard": 47,
+    "speed": 62,
     "stamina": 53,
     "guts": 68
    },
@@ -348,16 +349,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 137,
-   "tp": 130,
+   "fp": 139,
+   "tp": 129,
    "stats": {
-    "kick": 67,
-    "body": 80,
-    "control": 65,
-    "guard": 68,
-    "speed": 59,
-    "stamina": 67,
-    "guts": 40
+    "kick": 79,
+    "body": 82,
+    "control": 63,
+    "guard": 59,
+    "speed": 60,
+    "stamina": 66,
+    "guts": 38
    },
    "moves": [
     "kazangan",
@@ -380,16 +381,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "rolling-kick",

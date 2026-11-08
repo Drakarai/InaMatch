@@ -140,7 +140,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Tsunami Jousuke",
-   "description": "Surfista del campo. La gente le adora por su carácter entusiasta."
+   "description": "Surfista del campo. La gente le adora por su carácter entusiasta.",
+   "captain": true
   },
   {
    "id": "hector-redding",

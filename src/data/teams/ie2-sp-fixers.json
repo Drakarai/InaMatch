@@ -401,7 +401,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Zaizen Touko",
-   "description": "Con sus indicaciones, los casos se resuelven tres veces más rápido."
+   "description": "Con sus indicaciones, los casos se resuelven tres veces más rápido.",
+   "captain": true
   },
   {
    "id": "ian-sights",

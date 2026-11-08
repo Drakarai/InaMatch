@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 162,
-   "tp": 158,
+   "fp": 138,
+   "tp": 88,
    "stats": {
-    "kick": 69,
+    "kick": 47,
     "body": 69,
-    "control": 67,
+    "control": 50,
     "guard": 75,
-    "speed": 56,
-    "stamina": 68,
-    "guts": 69
+    "speed": 81,
+    "stamina": 60,
+    "guts": 50
    },
    "moves": [
     "gravity-desert",
@@ -59,16 +59,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "the-matrix",
@@ -91,16 +91,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "mega-quake",
@@ -123,16 +123,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "overglow",
@@ -155,16 +155,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "the-matrix",
@@ -187,16 +187,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "spinning-cut",
@@ -219,16 +219,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "overglow",
@@ -251,16 +251,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "overglow",
@@ -283,16 +283,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 204,
-   "tp": 133,
+   "fp": 129,
+   "tp": 154,
    "stats": {
-    "kick": 77,
-    "body": 72,
-    "control": 63,
-    "guard": 75,
-    "speed": 77,
-    "stamina": 77,
-    "guts": 58
+    "kick": 63,
+    "body": 57,
+    "control": 68,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 67
    },
    "moves": [
     "overglow",
@@ -305,7 +305,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shinano Masashi",
-   "description": "Estratega con una amplia gama de enfoques y un poder de persuasión inusual."
+   "description": "Estratega con una amplia gama de enfoques y un poder de persuasión inusual.",
+   "captain": true
   },
   {
    "id": "erdem-barath",
@@ -315,16 +316,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "shine-drive",
@@ -347,15 +348,15 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 178,
-   "tp": 184,
+   "fp": 121,
+   "tp": 132,
    "stats": {
-    "kick": 60,
-    "body": 70,
-    "control": 63,
-    "guard": 72,
-    "speed": 72,
-    "stamina": 69,
+    "kick": 78,
+    "body": 53,
+    "control": 66,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 53,
     "guts": 60
    },
    "moves": [
@@ -379,16 +380,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "cross-drive",
@@ -411,16 +412,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "overglow",
@@ -443,16 +444,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 162,
-   "tp": 158,
+   "fp": 138,
+   "tp": 88,
    "stats": {
-    "kick": 69,
+    "kick": 47,
     "body": 69,
-    "control": 67,
+    "control": 50,
     "guard": 75,
-    "speed": 56,
-    "stamina": 68,
-    "guts": 69
+    "speed": 81,
+    "stamina": 60,
+    "guts": 50
    },
    "moves": [
     "rocket-kobushi",
@@ -475,16 +476,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "the-matrix",
@@ -507,16 +508,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "phantom-shoot",

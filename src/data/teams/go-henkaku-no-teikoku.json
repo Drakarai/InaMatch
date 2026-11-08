@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 117,
-   "tp": 174,
+   "fp": 121,
+   "tp": 163,
    "stats": {
-    "kick": 55,
+    "kick": 46,
     "body": 53,
-    "control": 55,
-    "guard": 69,
-    "speed": 53,
-    "stamina": 47,
-    "guts": 52
+    "control": 47,
+    "guard": 68,
+    "speed": 50,
+    "stamina": 49,
+    "guts": 54
    },
    "moves": [
     "power-spike",
@@ -58,14 +58,14 @@
    "element": "wind",
    "level": 99,
    "fp": 123,
-   "tp": 113,
+   "tp": 119,
    "stats": {
     "kick": 45,
-    "body": 70,
-    "control": 45,
-    "guard": 63,
-    "speed": 53,
-    "stamina": 57,
+    "body": 68,
+    "control": 42,
+    "guard": 72,
+    "speed": 51,
+    "stamina": 59,
     "guts": 69
    },
    "moves": [
@@ -89,15 +89,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 184,
-   "tp": 121,
+   "fp": 185,
+   "tp": 124,
    "stats": {
-    "kick": 63,
-    "body": 34,
-    "control": 59,
-    "guard": 60,
-    "speed": 53,
-    "stamina": 76,
+    "kick": 54,
+    "body": 33,
+    "control": 52,
+    "guard": 69,
+    "speed": 52,
+    "stamina": 80,
     "guts": 53
    },
    "moves": [
@@ -120,15 +120,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 104,
-   "tp": 157,
+   "fp": 103,
+   "tp": 149,
    "stats": {
-    "kick": 55,
-    "body": 65,
-    "control": 65,
-    "guard": 47,
-    "speed": 74,
-    "stamina": 54,
+    "kick": 50,
+    "body": 64,
+    "control": 57,
+    "guard": 59,
+    "speed": 71,
+    "stamina": 56,
     "guts": 59
    },
    "moves": [
@@ -151,15 +151,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 166,
-   "tp": 155,
+   "fp": 167,
+   "tp": 147,
    "stats": {
-    "kick": 83,
-    "body": 50,
-    "control": 56,
-    "guard": 36,
-    "speed": 51,
-    "stamina": 55,
+    "kick": 64,
+    "body": 49,
+    "control": 50,
+    "guard": 51,
+    "speed": 50,
+    "stamina": 56,
     "guts": 58
    },
    "moves": [
@@ -181,16 +181,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 110,
-   "tp": 156,
+   "fp": 107,
+   "tp": 147,
    "stats": {
     "kick": 53,
-    "body": 65,
-    "control": 50,
-    "guard": 58,
-    "speed": 54,
-    "stamina": 53,
-    "guts": 61
+    "body": 66,
+    "control": 60,
+    "guard": 54,
+    "speed": 55,
+    "stamina": 50,
+    "guts": 59
    },
    "moves": [
     "dash-train",
@@ -213,16 +213,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 112,
-   "tp": 154,
+   "fp": 108,
+   "tp": 146,
    "stats": {
     "kick": 53,
-    "body": 90,
-    "control": 43,
-    "guard": 62,
+    "body": 89,
+    "control": 54,
+    "guard": 57,
     "speed": 49,
-    "stamina": 51,
-    "guts": 55
+    "stamina": 49,
+    "guts": 54
    },
    "moves": [
     "britannia-cross",
@@ -244,16 +244,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 151,
-   "tp": 146,
+   "fp": 147,
+   "tp": 141,
    "stats": {
-    "kick": 50,
-    "body": 50,
-    "control": 45,
+    "kick": 51,
+    "body": 51,
+    "control": 55,
     "guard": 44,
-    "speed": 76,
-    "stamina": 58,
-    "guts": 57
+    "speed": 79,
+    "stamina": 55,
+    "guts": 55
    },
    "moves": [
     "britannia-cross",
@@ -275,16 +275,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 109,
-   "tp": 144,
+   "fp": 110,
+   "tp": 151,
    "stats": {
-    "kick": 67,
+    "kick": 79,
     "body": 64,
-    "control": 47,
-    "guard": 62,
-    "speed": 60,
+    "control": 50,
+    "guard": 55,
+    "speed": 61,
     "stamina": 53,
-    "guts": 59
+    "guts": 58
    },
    "moves": [
     "koutei-penguin-7",
@@ -307,16 +307,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 104,
-   "tp": 144,
+   "fp": 105,
+   "tp": 151,
    "stats": {
-    "kick": 60,
-    "body": 75,
-    "control": 64,
-    "guard": 63,
+    "kick": 73,
+    "body": 76,
+    "control": 62,
+    "guard": 56,
     "speed": 49,
     "stamina": 50,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "koutei-penguin-7",
@@ -327,7 +327,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Mikado Haruma",
-   "description": "No necesita gritos ni fuerza para intimidar. Con la mirada le basta."
+   "description": "No necesita gritos ni fuerza para intimidar. Con la mirada le basta.",
+   "captain": true
   },
   {
    "id": "wenceslas-wales",
@@ -337,16 +338,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 170,
-   "tp": 142,
+   "fp": 173,
+   "tp": 149,
    "stats": {
-    "kick": 45,
+    "kick": 59,
     "body": 64,
     "control": 58,
-    "guard": 47,
+    "guard": 45,
     "speed": 55,
     "stamina": 60,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "death-sword",
@@ -368,16 +369,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 115,
-   "tp": 163,
+   "fp": 112,
+   "tp": 152,
    "stats": {
-    "kick": 50,
+    "kick": 51,
     "body": 66,
-    "control": 65,
-    "guard": 59,
-    "speed": 56,
-    "stamina": 60,
-    "guts": 61
+    "control": 73,
+    "guard": 55,
+    "speed": 58,
+    "stamina": 57,
+    "guts": 59
    },
    "moves": [
     "britannia-cross",
@@ -399,16 +400,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 158,
-   "tp": 159,
+   "fp": 162,
+   "tp": 154,
    "stats": {
-    "kick": 57,
+    "kick": 47,
     "body": 51,
-    "control": 53,
-    "guard": 49,
-    "speed": 52,
-    "stamina": 60,
-    "guts": 57
+    "control": 46,
+    "guard": 48,
+    "speed": 49,
+    "stamina": 62,
+    "guts": 60
    },
    "moves": [
     "rapid-whip",
@@ -429,15 +430,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 182,
-   "tp": 157,
+   "fp": 184,
+   "tp": 149,
    "stats": {
     "kick": 46,
-    "body": 66,
-    "control": 70,
-    "guard": 46,
-    "speed": 67,
-    "stamina": 53,
+    "body": 64,
+    "control": 60,
+    "guard": 58,
+    "speed": 65,
+    "stamina": 54,
     "guts": 53
    },
    "moves": [
@@ -461,14 +462,14 @@
    "element": "wood",
    "level": 99,
    "fp": 143,
-   "tp": 209,
+   "tp": 184,
    "stats": {
-    "kick": 42,
-    "body": 48,
-    "control": 59,
-    "guard": 33,
-    "speed": 89,
-    "stamina": 53,
+    "kick": 43,
+    "body": 47,
+    "control": 53,
+    "guard": 49,
+    "speed": 86,
+    "stamina": 54,
     "guts": 53
    },
    "moves": [
@@ -490,16 +491,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 122,
-   "tp": 117,
+   "fp": 118,
+   "tp": 123,
    "stats": {
-    "kick": 45,
-    "body": 48,
-    "control": 48,
-    "guard": 58,
-    "speed": 56,
-    "stamina": 60,
-    "guts": 64
+    "kick": 48,
+    "body": 49,
+    "control": 59,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 57,
+    "guts": 62
    },
    "moves": [
     "britannia-cross",

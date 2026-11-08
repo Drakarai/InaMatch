@@ -165,7 +165,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kazemaru Ichirouta",
-   "description": "Defensa veloz como un torbellino. Conoce a Mark desde hace tiempo."
+   "description": "Defensa veloz como un torbellino. Conoce a Mark desde hace tiempo.",
+   "captain": true
   },
   {
    "id": "sam-kincaid",
@@ -356,16 +357,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [],
    "look": {

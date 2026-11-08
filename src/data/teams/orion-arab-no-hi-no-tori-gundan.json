@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 131,
+   "tp": 80,
    "stats": {
     "kick": 45,
-    "body": 60,
-    "control": 40,
-    "guard": 80,
-    "speed": 45,
-    "stamina": 60,
-    "guts": 60
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "dynamic-corona",
@@ -52,7 +52,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Falcon Ali",
-   "description": "Un portero potentísimo cuyos rugidos encienden al equipo desde atrás."
+   "description": "Un portero potentísimo cuyos rugidos encienden al equipo desde atrás.",
+   "captain": true
   },
   {
    "id": "osprey-al-bahar",
@@ -62,15 +63,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 179,
-   "tp": 99,
+   "fp": 197,
+   "tp": 136,
    "stats": {
-    "kick": 42,
-    "body": 69,
-    "control": 45,
-    "guard": 73,
-    "speed": 46,
-    "stamina": 69,
+    "kick": 44,
+    "body": 72,
+    "control": 42,
+    "guard": 77,
+    "speed": 59,
+    "stamina": 74,
     "guts": 45
    },
    "moves": [
@@ -94,16 +95,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "red-hot-chili-meteor",
@@ -126,15 +127,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 179,
-   "tp": 99,
+   "fp": 197,
+   "tp": 136,
    "stats": {
-    "kick": 42,
-    "body": 69,
-    "control": 45,
-    "guard": 73,
-    "speed": 46,
-    "stamina": 69,
+    "kick": 44,
+    "body": 72,
+    "control": 42,
+    "guard": 77,
+    "speed": 59,
+    "stamina": 74,
     "guts": 45
    },
    "moves": [
@@ -158,16 +159,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "round-spark",
@@ -190,16 +191,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "liar-shot",
@@ -222,16 +223,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "flame-veil",
@@ -254,16 +255,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "red-hot-chili-meteor",
@@ -286,16 +287,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "red-hot-chili-meteor",
@@ -318,16 +319,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 111,
+   "tp": 123,
    "stats": {
-    "kick": 75,
-    "body": 55,
-    "control": 60,
-    "guard": 40,
-    "speed": 65,
-    "stamina": 60,
-    "guts": 60
+    "kick": 81,
+    "body": 51,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 61
    },
    "moves": [
     "red-hot-chili-meteor",
@@ -350,16 +351,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 120,
-   "tp": 151,
+   "fp": 101,
+   "tp": 123,
    "stats": {
-    "kick": 78,
-    "body": 58,
-    "control": 74,
-    "guard": 50,
-    "speed": 78,
-    "stamina": 53,
-    "guts": 74
+    "kick": 85,
+    "body": 50,
+    "control": 69,
+    "guard": 49,
+    "speed": 56,
+    "stamina": 47,
+    "guts": 63
    },
    "moves": [
     "burning-summer",
@@ -382,16 +383,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "red-hot-chili-meteor",
@@ -414,16 +415,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "dynamic-corona",
@@ -446,16 +447,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "dynamic-corona",
@@ -478,16 +479,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "red-hot-chili-meteor",

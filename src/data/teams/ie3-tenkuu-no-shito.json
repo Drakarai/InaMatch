@@ -371,7 +371,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sein",
-   "description": "El orgulloso líder del Sky Team. Dirige al equipo con la cabeza serena."
+   "description": "El orgulloso líder del Sky Team. Dirige al equipo con la cabeza serena.",
+   "captain": true
   }
  ]
 }

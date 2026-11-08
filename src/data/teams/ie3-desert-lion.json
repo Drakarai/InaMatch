@@ -113,7 +113,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Bjorn Kyle",
-   "description": "Un jugador que deja huella. Es incansable y tira del resto del equipo como capitán."
+   "description": "Un jugador que deja huella. Es incansable y tira del resto del equipo como capitán.",
+   "captain": true
   },
   {
    "id": "jamila-wali",

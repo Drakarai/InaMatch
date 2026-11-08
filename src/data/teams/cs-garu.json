@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 117,
-   "tp": 116,
+   "fp": 121,
+   "tp": 128,
    "stats": {
-    "kick": 50,
+    "kick": 44,
     "body": 72,
-    "control": 60,
-    "guard": 76,
-    "speed": 58,
-    "stamina": 57,
-    "guts": 54
+    "control": 50,
+    "guard": 75,
+    "speed": 55,
+    "stamina": 59,
+    "guts": 56
    },
    "moves": [
     "rejection",
@@ -61,15 +61,15 @@
    "element": "earth",
    "level": 99,
    "fp": 135,
-   "tp": 105,
+   "tp": 113,
    "stats": {
-    "kick": 55,
-    "body": 58,
-    "control": 56,
-    "guard": 66,
-    "speed": 61,
-    "stamina": 66,
-    "guts": 52
+    "kick": 50,
+    "body": 57,
+    "control": 51,
+    "guard": 74,
+    "speed": 59,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "shinkuuma",
@@ -92,14 +92,14 @@
    "element": "wind",
    "level": 99,
    "fp": 148,
-   "tp": 101,
+   "tp": 111,
    "stats": {
-    "kick": 58,
-    "body": 53,
-    "control": 60,
-    "guard": 68,
-    "speed": 60,
-    "stamina": 67,
+    "kick": 52,
+    "body": 52,
+    "control": 53,
+    "guard": 76,
+    "speed": 58,
+    "stamina": 70,
     "guts": 58
    },
    "moves": [
@@ -122,15 +122,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 101,
-   "tp": 117,
+   "fp": 99,
+   "tp": 121,
    "stats": {
-    "kick": 56,
-    "body": 58,
-    "control": 61,
-    "guard": 67,
-    "speed": 61,
-    "stamina": 59,
+    "kick": 51,
+    "body": 56,
+    "control": 54,
+    "guard": 74,
+    "speed": 59,
+    "stamina": 61,
     "guts": 68
    },
    "moves": [
@@ -153,16 +153,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 136,
-   "tp": 103,
+   "fp": 132,
+   "tp": 114,
    "stats": {
-    "kick": 60,
+    "kick": 57,
     "body": 67,
-    "control": 71,
-    "guard": 64,
-    "speed": 60,
-    "stamina": 61,
-    "guts": 58
+    "control": 78,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 56
    },
    "moves": [
     "soyokaze-step",
@@ -184,16 +184,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 91,
-   "tp": 111,
+   "fp": 88,
+   "tp": 119,
    "stats": {
-    "kick": 51,
-    "body": 61,
-    "control": 60,
-    "guard": 59,
-    "speed": 59,
-    "stamina": 62,
-    "guts": 61
+    "kick": 52,
+    "body": 62,
+    "control": 69,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 59,
+    "guts": 60
    },
    "moves": [
     "decoy-release",
@@ -216,16 +216,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 78,
-   "tp": 74,
+   "fp": 75,
+   "tp": 95,
    "stats": {
-    "kick": 50,
-    "body": 54,
-    "control": 66,
-    "guard": 60,
-    "speed": 79,
-    "stamina": 56,
-    "guts": 61
+    "kick": 51,
+    "body": 55,
+    "control": 74,
+    "guard": 55,
+    "speed": 82,
+    "stamina": 53,
+    "guts": 59
    },
    "moves": [
     "decoy-release",
@@ -247,16 +247,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 144,
-   "tp": 88,
+   "fp": 140,
+   "tp": 104,
    "stats": {
-    "kick": 66,
+    "kick": 61,
     "body": 66,
-    "control": 67,
-    "guard": 66,
-    "speed": 55,
-    "stamina": 61,
-    "guts": 53
+    "control": 75,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 58,
+    "guts": 51
    },
    "moves": [
     "decoy-release",
@@ -278,16 +278,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 110,
-   "tp": 111,
+   "fp": 107,
+   "tp": 119,
    "stats": {
-    "kick": 56,
-    "body": 64,
-    "control": 59,
-    "guard": 60,
-    "speed": 59,
-    "stamina": 58,
-    "guts": 64
+    "kick": 55,
+    "body": 65,
+    "control": 67,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 55,
+    "guts": 62
    },
    "moves": [
     "decoy-release",
@@ -310,14 +310,14 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 180,
-   "tp": 127,
+   "fp": 184,
+   "tp": 125,
    "stats": {
-    "kick": 66,
+    "kick": 78,
     "body": 57,
     "control": 57,
-    "guard": 48,
-    "speed": 63,
+    "guard": 46,
+    "speed": 64,
     "stamina": 56,
     "guts": 64
    },
@@ -332,7 +332,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Fei Rune",
-   "description": "Viajó 200 años desde el futuro para ayudar a Arion a proteger el fútbol."
+   "description": "Viajó 200 años desde el futuro para ayudar a Arion a proteger el fútbol.",
+   "captain": true
   },
   {
    "id": "dekih",
@@ -342,16 +343,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 114,
-   "tp": 125,
+   "fp": 115,
+   "tp": 122,
    "stats": {
-    "kick": 68,
+    "kick": 80,
     "body": 62,
-    "control": 62,
-    "guard": 61,
-    "speed": 65,
+    "control": 61,
+    "guard": 54,
+    "speed": 66,
     "stamina": 52,
-    "guts": 61
+    "guts": 60
    },
    "moves": [
     "spring-arrow",
@@ -373,15 +374,15 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 147,
+   "fp": 149,
    "tp": 132,
    "stats": {
-    "kick": 79,
+    "kick": 91,
     "body": 64,
-    "control": 66,
-    "guard": 63,
-    "speed": 70,
-    "stamina": 58,
+    "control": 63,
+    "guard": 56,
+    "speed": 71,
+    "stamina": 57,
     "guts": 70
    },
    "moves": [
@@ -405,16 +406,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 112,
-   "tp": 110,
+   "fp": 116,
+   "tp": 124,
    "stats": {
-    "kick": 56,
+    "kick": 46,
     "body": 69,
-    "control": 56,
-    "guard": 67,
-    "speed": 56,
-    "stamina": 62,
-    "guts": 52
+    "control": 48,
+    "guard": 66,
+    "speed": 53,
+    "stamina": 63,
+    "guts": 54
    },
    "moves": [
     "rejection",
@@ -436,16 +437,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 79,
-   "tp": 95,
+   "fp": 77,
+   "tp": 106,
    "stats": {
-    "kick": 54,
-    "body": 67,
-    "control": 56,
-    "guard": 59,
-    "speed": 56,
-    "stamina": 47,
-    "guts": 64
+    "kick": 49,
+    "body": 65,
+    "control": 51,
+    "guard": 69,
+    "speed": 54,
+    "stamina": 48,
+    "guts": 65
    },
    "moves": [
     "magical-flower",
@@ -468,16 +469,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 66,
-   "tp": 104,
+   "fp": 63,
+   "tp": 115,
    "stats": {
     "kick": 54,
-    "body": 60,
-    "control": 57,
-    "guard": 59,
-    "speed": 67,
-    "stamina": 53,
-    "guts": 51
+    "body": 61,
+    "control": 66,
+    "guard": 55,
+    "speed": 69,
+    "stamina": 51,
+    "guts": 49
    },
    "moves": [
     "decoy-release",
@@ -501,15 +502,15 @@
    "element": "wind",
    "level": 99,
    "fp": 69,
-   "tp": 123,
+   "tp": 118,
    "stats": {
-    "kick": 62,
+    "kick": 75,
     "body": 57,
     "control": 57,
-    "guard": 54,
-    "speed": 60,
-    "stamina": 50,
-    "guts": 57
+    "guard": 50,
+    "speed": 61,
+    "stamina": 49,
+    "guts": 56
    },
    "moves": [
     "spring-arrow",

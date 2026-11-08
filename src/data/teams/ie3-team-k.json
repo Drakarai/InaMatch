@@ -400,7 +400,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Demonio Strada",
-   "description": "Con la ayuda de Mr. D, sus poderes han superado a los del \"original\"."
+   "description": "Con la ayuda de Mr. D, sus poderes han superado a los del \"original\".",
+   "captain": true
   },
   {
    "id": "grigio-quarzo",

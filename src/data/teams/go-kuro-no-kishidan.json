@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 86,
-   "tp": 174,
+   "fp": 89,
+   "tp": 163,
    "stats": {
-    "kick": 56,
+    "kick": 47,
     "body": 57,
-    "control": 52,
-    "guard": 56,
-    "speed": 45,
-    "stamina": 40,
-    "guts": 59
+    "control": 46,
+    "guard": 55,
+    "speed": 43,
+    "stamina": 43,
+    "guts": 62
    },
    "moves": [
     "rapid-whip",
@@ -58,16 +58,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 167,
-   "tp": 121,
+   "fp": 168,
+   "tp": 124,
    "stats": {
-    "kick": 64,
-    "body": 38,
-    "control": 64,
-    "guard": 48,
-    "speed": 55,
-    "stamina": 76,
-    "guts": 53
+    "kick": 55,
+    "body": 37,
+    "control": 56,
+    "guard": 60,
+    "speed": 54,
+    "stamina": 80,
+    "guts": 54
    },
    "moves": [
     "head-bazooka",
@@ -89,16 +89,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 119,
-   "tp": 157,
+   "fp": 118,
+   "tp": 149,
    "stats": {
-    "kick": 52,
-    "body": 52,
-    "control": 45,
-    "guard": 58,
-    "speed": 48,
-    "stamina": 65,
-    "guts": 59
+    "kick": 49,
+    "body": 51,
+    "control": 43,
+    "guard": 68,
+    "speed": 46,
+    "stamina": 67,
+    "guts": 60
    },
    "moves": [
     "burning-summer",
@@ -120,15 +120,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 117,
-   "tp": 153,
+   "fp": 116,
+   "tp": 146,
    "stats": {
-    "kick": 54,
-    "body": 55,
-    "control": 52,
-    "guard": 53,
-    "speed": 55,
-    "stamina": 61,
+    "kick": 49,
+    "body": 54,
+    "control": 47,
+    "guard": 64,
+    "speed": 54,
+    "stamina": 64,
     "guts": 60
    },
    "moves": [
@@ -151,15 +151,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 115,
-   "tp": 159,
+   "fp": 114,
+   "tp": 149,
    "stats": {
-    "kick": 56,
-    "body": 49,
-    "control": 70,
-    "guard": 53,
-    "speed": 61,
-    "stamina": 55,
+    "kick": 50,
+    "body": 47,
+    "control": 61,
+    "guard": 64,
+    "speed": 59,
+    "stamina": 56,
     "guts": 55
    },
    "moves": [
@@ -182,16 +182,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 110,
-   "tp": 183,
+   "fp": 107,
+   "tp": 165,
    "stats": {
-    "kick": 48,
+    "kick": 50,
     "body": 74,
-    "control": 57,
-    "guard": 58,
+    "control": 66,
+    "guard": 54,
     "speed": 51,
-    "stamina": 65,
-    "guts": 60
+    "stamina": 61,
+    "guts": 58
    },
    "moves": [
     "burning-summer",
@@ -213,16 +213,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 107,
-   "tp": 175,
+   "fp": 103,
+   "tp": 160,
    "stats": {
-    "kick": 50,
-    "body": 57,
-    "control": 57,
-    "guard": 48,
-    "speed": 64,
-    "stamina": 53,
-    "guts": 55
+    "kick": 51,
+    "body": 58,
+    "control": 66,
+    "guard": 47,
+    "speed": 66,
+    "stamina": 50,
+    "guts": 54
    },
    "moves": [
     "perfect-course",
@@ -244,16 +244,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 124,
-   "tp": 152,
+   "fp": 120,
+   "tp": 145,
    "stats": {
-    "kick": 60,
-    "body": 52,
-    "control": 48,
-    "guard": 61,
-    "speed": 62,
-    "stamina": 57,
-    "guts": 53
+    "kick": 58,
+    "body": 53,
+    "control": 58,
+    "guard": 56,
+    "speed": 64,
+    "stamina": 54,
+    "guts": 51
    },
    "moves": [
     "sonic-shot",
@@ -275,16 +275,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 115,
-   "tp": 143,
+   "fp": 117,
+   "tp": 149,
    "stats": {
-    "kick": 56,
-    "body": 56,
-    "control": 61,
-    "guard": 49,
+    "kick": 69,
+    "body": 55,
+    "control": 60,
+    "guard": 46,
     "speed": 54,
-    "stamina": 62,
-    "guts": 56
+    "stamina": 61,
+    "guts": 55
    },
    "moves": [
     "presto-turn",
@@ -306,14 +306,14 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 166,
-   "tp": 164,
+   "fp": 170,
+   "tp": 183,
    "stats": {
-    "kick": 58,
-    "body": 51,
-    "control": 50,
-    "guard": 63,
-    "speed": 52,
+    "kick": 71,
+    "body": 49,
+    "control": 52,
+    "guard": 56,
+    "speed": 53,
     "stamina": 65,
     "guts": 63
    },
@@ -328,7 +328,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Tsurugi Kyousuke",
-   "description": "Un siniestro delantero capaz de derrotar él solo a un equipo entero."
+   "description": "Un siniestro delantero capaz de derrotar él solo a un equipo entero.",
+   "captain": true
   },
   {
    "id": "flam-berger",
@@ -338,16 +339,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 109,
-   "tp": 145,
+   "fp": 110,
+   "tp": 154,
    "stats": {
-    "kick": 73,
-    "body": 56,
-    "control": 50,
-    "guard": 60,
+    "kick": 85,
+    "body": 55,
+    "control": 52,
+    "guard": 54,
     "speed": 56,
     "stamina": 55,
-    "guts": 57
+    "guts": 56
    },
    "moves": [
     "death-sword",
@@ -368,16 +369,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 109,
-   "tp": 157,
+   "fp": 112,
+   "tp": 152,
    "stats": {
-    "kick": 56,
+    "kick": 46,
     "body": 50,
-    "control": 56,
+    "control": 48,
     "guard": 31,
-    "speed": 54,
-    "stamina": 58,
-    "guts": 54
+    "speed": 51,
+    "stamina": 59,
+    "guts": 56
    },
    "moves": [
     "burning-catch",
@@ -399,16 +400,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 117,
-   "tp": 144,
+   "fp": 118,
+   "tp": 151,
    "stats": {
-    "kick": 43,
-    "body": 52,
+    "kick": 58,
+    "body": 51,
     "control": 57,
-    "guard": 66,
-    "speed": 61,
+    "guard": 58,
+    "speed": 62,
     "stamina": 57,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "bound-flame",
@@ -431,16 +432,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 122,
-   "tp": 153,
+   "fp": 118,
+   "tp": 146,
    "stats": {
-    "kick": 69,
+    "kick": 63,
     "body": 58,
-    "control": 59,
-    "guard": 46,
-    "speed": 56,
-    "stamina": 59,
-    "guts": 58
+    "control": 68,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 56,
+    "guts": 56
    },
    "moves": [
     "burning-summer",
@@ -461,15 +462,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 117,
-   "tp": 157,
+   "fp": 116,
+   "tp": 149,
    "stats": {
-    "kick": 55,
-    "body": 54,
-    "control": 50,
-    "guard": 57,
-    "speed": 49,
-    "stamina": 62,
+    "kick": 50,
+    "body": 53,
+    "control": 46,
+    "guard": 67,
+    "speed": 47,
+    "stamina": 65,
     "guts": 59
    },
    "moves": [
@@ -492,16 +493,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 95,
-   "tp": 163,
+   "fp": 92,
+   "tp": 152,
    "stats": {
     "kick": 55,
     "body": 74,
-    "control": 52,
-    "guard": 59,
-    "speed": 48,
-    "stamina": 52,
-    "guts": 62
+    "control": 62,
+    "guard": 55,
+    "speed": 49,
+    "stamina": 50,
+    "guts": 61
    },
    "moves": [
     "mad-juggler",

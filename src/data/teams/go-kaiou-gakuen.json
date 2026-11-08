@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 84,
-   "tp": 174,
+   "fp": 88,
+   "tp": 163,
    "stats": {
-    "kick": 50,
+    "kick": 44,
     "body": 61,
-    "control": 55,
+    "control": 47,
     "guard": 68,
-    "speed": 51,
-    "stamina": 43,
-    "guts": 60
+    "speed": 49,
+    "stamina": 46,
+    "guts": 63
    },
    "moves": [
     "hydro-anchor",
@@ -59,15 +59,15 @@
    "element": "fire",
    "level": 99,
    "fp": 120,
-   "tp": 155,
+   "tp": 147,
    "stats": {
-    "kick": 76,
-    "body": 54,
-    "control": 67,
-    "guard": 36,
-    "speed": 60,
-    "stamina": 63,
-    "guts": 49
+    "kick": 61,
+    "body": 53,
+    "control": 59,
+    "guard": 51,
+    "speed": 58,
+    "stamina": 65,
+    "guts": 50
    },
    "moves": [
     "killer-whale",
@@ -89,16 +89,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 169,
-   "tp": 153,
+   "fp": 170,
+   "tp": 146,
    "stats": {
-    "kick": 75,
-    "body": 48,
-    "control": 62,
-    "guard": 33,
-    "speed": 55,
-    "stamina": 61,
-    "guts": 53
+    "kick": 61,
+    "body": 47,
+    "control": 55,
+    "guard": 49,
+    "speed": 54,
+    "stamina": 63,
+    "guts": 54
    },
    "moves": [
     "killer-whale",
@@ -120,16 +120,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 106,
-   "tp": 147,
+   "fp": 104,
+   "tp": 141,
    "stats": {
-    "kick": 58,
-    "body": 71,
-    "control": 65,
-    "guard": 49,
-    "speed": 57,
-    "stamina": 55,
-    "guts": 58
+    "kick": 51,
+    "body": 69,
+    "control": 57,
+    "guard": 61,
+    "speed": 55,
+    "stamina": 56,
+    "guts": 59
    },
    "moves": [
     "killer-whale",
@@ -151,16 +151,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 174,
-   "tp": 159,
+   "fp": 169,
+   "tp": 149,
    "stats": {
-    "kick": 50,
-    "body": 53,
-    "control": 54,
-    "guard": 66,
-    "speed": 61,
-    "stamina": 51,
-    "guts": 52
+    "kick": 51,
+    "body": 54,
+    "control": 64,
+    "guard": 60,
+    "speed": 62,
+    "stamina": 49,
+    "guts": 50
    },
    "moves": [
     "naminori-pierrot",
@@ -182,16 +182,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 110,
-   "tp": 178,
+   "fp": 107,
+   "tp": 161,
    "stats": {
-    "kick": 48,
-    "body": 66,
-    "control": 47,
-    "guard": 55,
-    "speed": 74,
-    "stamina": 57,
-    "guts": 62
+    "kick": 50,
+    "body": 67,
+    "control": 58,
+    "guard": 52,
+    "speed": 77,
+    "stamina": 54,
+    "guts": 61
    },
    "moves": [
     "fuujin-no-mai",
@@ -213,16 +213,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 179,
-   "tp": 118,
+   "fp": 174,
+   "tp": 123,
    "stats": {
     "kick": 55,
-    "body": 56,
-    "control": 55,
-    "guard": 66,
-    "speed": 72,
-    "stamina": 64,
-    "guts": 56
+    "body": 57,
+    "control": 64,
+    "guard": 60,
+    "speed": 74,
+    "stamina": 61,
+    "guts": 54
    },
    "moves": [
     "fuujin-no-mai",
@@ -245,16 +245,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 108,
-   "tp": 171,
+   "fp": 105,
+   "tp": 157,
    "stats": {
     "kick": 55,
     "body": 63,
-    "control": 57,
-    "guard": 57,
-    "speed": 65,
-    "stamina": 60,
-    "guts": 62
+    "control": 66,
+    "guard": 53,
+    "speed": 67,
+    "stamina": 57,
+    "guts": 61
    },
    "moves": [
     "sonic-shot",
@@ -277,16 +277,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 155,
-   "tp": 138,
+   "fp": 150,
+   "tp": 136,
    "stats": {
-    "kick": 49,
-    "body": 55,
-    "control": 48,
-    "guard": 52,
-    "speed": 78,
-    "stamina": 55,
-    "guts": 57
+    "kick": 51,
+    "body": 56,
+    "control": 58,
+    "guard": 50,
+    "speed": 81,
+    "stamina": 53,
+    "guts": 55
    },
    "moves": [
     "flying-fish",
@@ -308,16 +308,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 120,
-   "tp": 143,
+   "fp": 122,
+   "tp": 149,
    "stats": {
-    "kick": 65,
+    "kick": 77,
     "body": 62,
-    "control": 52,
-    "guard": 47,
+    "control": 54,
+    "guard": 45,
     "speed": 57,
     "stamina": 58,
-    "guts": 53
+    "guts": 52
    },
    "moves": [
     "flying-fish",
@@ -330,7 +330,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Namikawa Rensuke",
-   "description": "Un jugador clave en la Cala Pirata, fuerte, técnico y con entusiasmo."
+   "description": "Un jugador clave en la Cala Pirata, fuerte, técnico y con entusiasmo.",
+   "captain": true
   },
   {
    "id": "calico-corsair",
@@ -340,16 +341,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 104,
-   "tp": 145,
+   "fp": 105,
+   "tp": 153,
    "stats": {
-    "kick": 38,
+    "kick": 52,
     "body": 62,
-    "control": 61,
-    "guard": 56,
+    "control": 60,
+    "guard": 51,
     "speed": 56,
     "stamina": 56,
-    "guts": 60
+    "guts": 59
    },
    "moves": [
     "flying-fish",
@@ -372,15 +373,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 146,
-   "tp": 133,
+   "fp": 147,
+   "tp": 132,
    "stats": {
-    "kick": 54,
-    "body": 58,
-    "control": 61,
-    "guard": 40,
-    "speed": 85,
-    "stamina": 47,
+    "kick": 50,
+    "body": 56,
+    "control": 54,
+    "guard": 54,
+    "speed": 83,
+    "stamina": 48,
     "guts": 55
    },
    "moves": [
@@ -402,16 +403,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 86,
-   "tp": 159,
+   "fp": 89,
+   "tp": 154,
    "stats": {
-    "kick": 50,
+    "kick": 44,
     "body": 55,
-    "control": 53,
+    "control": 46,
     "guard": 53,
-    "speed": 54,
-    "stamina": 46,
-    "guts": 59
+    "speed": 51,
+    "stamina": 48,
+    "guts": 61
    },
    "moves": [
     "bat-attack",
@@ -433,15 +434,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 119,
-   "tp": 159,
+   "fp": 118,
+   "tp": 149,
    "stats": {
-    "kick": 48,
-    "body": 49,
-    "control": 61,
-    "guard": 59,
-    "speed": 61,
-    "stamina": 59,
+    "kick": 46,
+    "body": 48,
+    "control": 54,
+    "guard": 68,
+    "speed": 59,
+    "stamina": 61,
     "guts": 54
    },
    "moves": [
@@ -464,16 +465,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 164,
-   "tp": 157,
+   "fp": 165,
+   "tp": 149,
    "stats": {
-    "kick": 54,
-    "body": 50,
-    "control": 50,
-    "guard": 55,
-    "speed": 46,
-    "stamina": 63,
-    "guts": 59
+    "kick": 50,
+    "body": 49,
+    "control": 46,
+    "guard": 66,
+    "speed": 44,
+    "stamina": 65,
+    "guts": 60
    },
    "moves": [
     "sargasso",
@@ -496,13 +497,13 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 181,
-   "tp": 128,
+   "fp": 185,
+   "tp": 126,
    "stats": {
-    "kick": 64,
-    "body": 48,
-    "control": 61,
-    "guard": 63,
+    "kick": 76,
+    "body": 46,
+    "control": 60,
+    "guard": 56,
     "speed": 50,
     "stamina": 79,
     "guts": 66

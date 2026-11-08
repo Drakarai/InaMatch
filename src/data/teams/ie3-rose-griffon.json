@@ -81,7 +81,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Pierre Godin",
-   "description": "Su lema es: juega siempre con estilo y elegancia, sin importar quién sea tu rival."
+   "description": "Su lema es: juega siempre con estilo y elegancia, sin importar quién sea tu rival.",
+   "captain": true
   },
   {
    "id": "micha-l-aron",
@@ -407,15 +408,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 179,
-   "tp": 99,
+   "fp": 197,
+   "tp": 136,
    "stats": {
-    "kick": 42,
-    "body": 69,
-    "control": 45,
-    "guard": 73,
-    "speed": 46,
-    "stamina": 69,
+    "kick": 44,
+    "body": 72,
+    "control": 42,
+    "guard": 77,
+    "speed": 59,
+    "stamina": 74,
     "guts": 45
    },
    "moves": [

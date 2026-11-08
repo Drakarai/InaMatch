@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "makiwari-chop",
@@ -61,16 +61,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "volcano-cut",
@@ -93,16 +93,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "quick-draw",
@@ -125,16 +125,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "naminori-pierrot",
@@ -157,16 +157,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "shikofumi",
@@ -189,16 +189,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "coil-turn",
@@ -221,16 +221,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "mogura-feint",
@@ -253,16 +253,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "gorimuchuu",
@@ -285,16 +285,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "quick-draw",
@@ -317,16 +317,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 111,
+   "tp": 117,
    "stats": {
-    "kick": 54,
-    "body": 62,
-    "control": 51,
-    "guard": 59,
-    "speed": 53,
-    "stamina": 61,
-    "guts": 53
+    "kick": 76,
+    "body": 51,
+    "control": 63,
+    "guard": 52,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 58
    },
    "moves": [
     "dash-train",
@@ -349,16 +349,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 111,
+   "tp": 117,
    "stats": {
-    "kick": 54,
-    "body": 62,
-    "control": 51,
-    "guard": 59,
-    "speed": 53,
-    "stamina": 61,
-    "guts": 53
+    "kick": 76,
+    "body": 51,
+    "control": 63,
+    "guard": 52,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 58
    },
    "moves": [
     "hitori-one-two",
@@ -371,7 +371,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Yomogi Kenta",
-   "description": "Nunca se le ve sin un mochi de artemisa en la mano: jura que es el secreto de sus músculos."
+   "description": "Nunca se le ve sin un mochi de artemisa en la mano: jura que es el secreto de sus músculos.",
+   "captain": true
   },
   {
    "id": "asher-norwood",
@@ -381,16 +382,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 111,
+   "tp": 117,
    "stats": {
-    "kick": 54,
-    "body": 62,
-    "control": 51,
-    "guard": 59,
-    "speed": 53,
-    "stamina": 61,
-    "guts": 53
+    "kick": 76,
+    "body": 51,
+    "control": 63,
+    "guard": 52,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 58
    },
    "moves": [
     "back-tornado",
@@ -413,16 +414,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "thief-eye",
@@ -445,16 +446,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 60,
-   "tp": 123,
+   "fp": 118,
+   "tp": 139,
    "stats": {
-    "kick": 99,
-    "body": 15,
-    "control": 99,
-    "guard": 15,
-    "speed": 15,
-    "stamina": 15,
-    "guts": 93
+    "kick": 59,
+    "body": 53,
+    "control": 64,
+    "guard": 54,
+    "speed": 51,
+    "stamina": 53,
+    "guts": 64
    },
    "moves": [
     "volcano-cut",
@@ -477,16 +478,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "acrobat-keep",
@@ -509,16 +510,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "makiwari-chop",

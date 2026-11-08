@@ -50,7 +50,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Tachimukai Yuuki",
-   "description": "Su habilidad como portero es casi tan destacable como la de su ídolo Mark."
+   "description": "Su habilidad como portero es casi tan destacable como la de su ídolo Mark.",
+   "captain": true
   },
   {
    "id": "drancis-fake",

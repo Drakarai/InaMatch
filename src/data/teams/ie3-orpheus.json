@@ -272,7 +272,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Nakata Hidetoshi",
-   "description": "Este chico es una leyenda en todo el mundo."
+   "description": "Este chico es una leyenda en todo el mundo.",
+   "captain": true
   },
   {
    "id": "giorgio-giannini",

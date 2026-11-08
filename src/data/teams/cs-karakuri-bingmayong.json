@@ -31,16 +31,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 88,
-   "tp": 96,
+   "fp": 91,
+   "tp": 116,
    "stats": {
-    "kick": 34,
-    "body": 68,
-    "control": 50,
-    "guard": 60,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 47
+    "kick": 37,
+    "body": 67,
+    "control": 45,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 66,
+    "guts": 49
    },
    "moves": [
     "beam-kobushi",
@@ -52,7 +52,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Bingmayong no Ichi",
-   "description": "Pertenece al Ejercito de Terracota. Le preocupa su excesiva fragilidad."
+   "description": "Pertenece al Ejercito de Terracota. Le preocupa su excesiva fragilidad.",
+   "captain": true
   },
   {
    "id": "guan-yu",
@@ -63,15 +64,15 @@
    "element": "wood",
    "level": 99,
    "fp": 158,
-   "tp": 119,
+   "tp": 122,
    "stats": {
-    "kick": 66,
-    "body": 69,
-    "control": 64,
-    "guard": 75,
-    "speed": 65,
-    "stamina": 64,
-    "guts": 50
+    "kick": 56,
+    "body": 68,
+    "control": 56,
+    "guard": 80,
+    "speed": 63,
+    "stamina": 67,
+    "guts": 51
    },
    "moves": [
     "viva-banri-no-choujou",
@@ -93,16 +94,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 83,
-   "tp": 77,
+   "fp": 81,
+   "tp": 94,
    "stats": {
-    "kick": 42,
-    "body": 64,
-    "control": 49,
-    "guard": 55,
-    "speed": 61,
-    "stamina": 59,
-    "guts": 44
+    "kick": 44,
+    "body": 63,
+    "control": 45,
+    "guard": 66,
+    "speed": 59,
+    "stamina": 61,
+    "guts": 45
    },
    "moves": [
     "blitz-bridge",
@@ -124,16 +125,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 93,
-   "tp": 84,
+   "fp": 91,
+   "tp": 99,
    "stats": {
     "kick": 44,
-    "body": 67,
-    "control": 50,
-    "guard": 59,
-    "speed": 57,
-    "stamina": 62,
-    "guts": 45
+    "body": 65,
+    "control": 46,
+    "guard": 69,
+    "speed": 55,
+    "stamina": 64,
+    "guts": 46
    },
    "moves": [
     "blitz-bridge",
@@ -156,16 +157,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 107,
-   "tp": 70,
+   "fp": 103,
+   "tp": 92,
    "stats": {
-    "kick": 47,
+    "kick": 49,
     "body": 54,
-    "control": 55,
-    "guard": 59,
-    "speed": 46,
-    "stamina": 69,
-    "guts": 44
+    "control": 64,
+    "guard": 55,
+    "speed": 47,
+    "stamina": 65,
+    "guts": 42
    },
    "moves": [
     "transmove",
@@ -186,16 +187,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 102,
-   "tp": 74,
+   "fp": 98,
+   "tp": 95,
    "stats": {
-    "kick": 46,
-    "body": 61,
-    "control": 53,
-    "guard": 57,
-    "speed": 47,
-    "stamina": 65,
-    "guts": 45
+    "kick": 49,
+    "body": 62,
+    "control": 63,
+    "guard": 53,
+    "speed": 48,
+    "stamina": 62,
+    "guts": 43
    },
    "moves": [
     "transmove",
@@ -217,16 +218,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 86,
-   "tp": 74,
+   "fp": 83,
+   "tp": 95,
    "stats": {
-    "kick": 51,
+    "kick": 52,
     "body": 62,
-    "control": 52,
-    "guard": 56,
-    "speed": 60,
-    "stamina": 67,
-    "guts": 47
+    "control": 62,
+    "guard": 53,
+    "speed": 61,
+    "stamina": 63,
+    "guts": 45
    },
    "moves": [
     "transmove",
@@ -248,16 +249,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 96,
-   "tp": 81,
+   "fp": 93,
+   "tp": 100,
    "stats": {
-    "kick": 50,
-    "body": 69,
-    "control": 67,
-    "guard": 55,
-    "speed": 56,
-    "stamina": 69,
-    "guts": 53
+    "kick": 51,
+    "body": 70,
+    "control": 74,
+    "guard": 52,
+    "speed": 58,
+    "stamina": 65,
+    "guts": 52
    },
    "moves": [
     "transmove",
@@ -278,16 +279,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 91,
-   "tp": 77,
+   "fp": 88,
+   "tp": 97,
    "stats": {
-    "kick": 60,
-    "body": 57,
-    "control": 60,
-    "guard": 52,
-    "speed": 55,
-    "stamina": 58,
-    "guts": 45
+    "kick": 57,
+    "body": 58,
+    "control": 69,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 55,
+    "guts": 43
    },
    "moves": [
     "transmove",
@@ -309,16 +310,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 91,
-   "tp": 77,
+   "fp": 88,
+   "tp": 97,
    "stats": {
-    "kick": 64,
+    "kick": 60,
     "body": 63,
-    "control": 59,
-    "guard": 50,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 46
+    "control": 67,
+    "guard": 48,
+    "speed": 58,
+    "stamina": 58,
+    "guts": 44
    },
    "moves": [
     "transmove",
@@ -340,16 +341,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 208,
-   "tp": 118,
+   "fp": 213,
+   "tp": 110,
    "stats": {
-    "kick": 84,
-    "body": 61,
-    "control": 61,
-    "guard": 59,
-    "speed": 48,
-    "stamina": 63,
-    "guts": 52
+    "kick": 95,
+    "body": 60,
+    "control": 60,
+    "guard": 53,
+    "speed": 49,
+    "stamina": 62,
+    "guts": 51
    },
    "moves": [
     "atomic-flare",
@@ -372,16 +373,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 88,
-   "tp": 91,
+   "fp": 86,
+   "tp": 103,
    "stats": {
-    "kick": 46,
-    "body": 59,
-    "control": 48,
-    "guard": 56,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 52
+    "kick": 45,
+    "body": 58,
+    "control": 45,
+    "guard": 66,
+    "speed": 49,
+    "stamina": 56,
+    "guts": 53
    },
    "moves": [
     "blitz-bridge",
@@ -404,15 +405,15 @@
    "element": "earth",
    "level": 99,
    "fp": 96,
-   "tp": 114,
+   "tp": 103,
    "stats": {
-    "kick": 61,
+    "kick": 74,
     "body": 66,
-    "control": 53,
-    "guard": 54,
+    "control": 54,
+    "guard": 50,
     "speed": 52,
-    "stamina": 63,
-    "guts": 44
+    "stamina": 62,
+    "guts": 42
    },
    "moves": [
     "gear-drive",

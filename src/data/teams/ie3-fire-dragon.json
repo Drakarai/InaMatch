@@ -239,7 +239,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Choi Chang-soo",
-   "description": "Un organizador de juego nato que detesta perder contra Jude."
+   "description": "Un organizador de juego nato que detesta perder contra Jude.",
+   "captain": true
   },
   {
    "id": "eunyeong-kim",

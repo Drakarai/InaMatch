@@ -25,16 +25,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 161,
-   "tp": 173,
+   "fp": 165,
+   "tp": 162,
    "stats": {
-    "kick": 65,
+    "kick": 51,
     "body": 48,
-    "control": 50,
+    "control": 45,
     "guard": 26,
-    "speed": 48,
-    "stamina": 64,
-    "guts": 56
+    "speed": 46,
+    "stamina": 66,
+    "guts": 58
    },
    "moves": [
     "moonsault-stamp",
@@ -55,16 +55,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 166,
-   "tp": 171,
+   "fp": 167,
+   "tp": 158,
    "stats": {
-    "kick": 52,
-    "body": 54,
-    "control": 49,
-    "guard": 66,
-    "speed": 51,
-    "stamina": 61,
-    "guts": 58
+    "kick": 48,
+    "body": 53,
+    "control": 45,
+    "guard": 74,
+    "speed": 49,
+    "stamina": 63,
+    "guts": 59
    },
    "moves": [
     "thief-eye",
@@ -85,16 +85,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 104,
-   "tp": 155,
+   "fp": 103,
+   "tp": 147,
    "stats": {
-    "kick": 52,
-    "body": 67,
-    "control": 60,
-    "guard": 53,
-    "speed": 52,
-    "stamina": 61,
-    "guts": 58
+    "kick": 49,
+    "body": 66,
+    "control": 53,
+    "guard": 64,
+    "speed": 50,
+    "stamina": 64,
+    "guts": 59
    },
    "moves": [
     "thief-eye",
@@ -115,15 +115,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 109,
-   "tp": 155,
+   "fp": 108,
+   "tp": 147,
    "stats": {
-    "kick": 53,
-    "body": 68,
-    "control": 65,
-    "guard": 45,
-    "speed": 59,
-    "stamina": 55,
+    "kick": 49,
+    "body": 67,
+    "control": 57,
+    "guard": 58,
+    "speed": 57,
+    "stamina": 57,
     "guts": 59
    },
    "moves": [
@@ -145,16 +145,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 167,
-   "tp": 143,
+   "fp": 168,
+   "tp": 139,
    "stats": {
-    "kick": 55,
-    "body": 52,
-    "control": 71,
-    "guard": 54,
-    "speed": 57,
-    "stamina": 55,
-    "guts": 53
+    "kick": 50,
+    "body": 51,
+    "control": 61,
+    "guard": 65,
+    "speed": 55,
+    "stamina": 57,
+    "guts": 54
    },
    "moves": [
     "thief-eye",
@@ -175,16 +175,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 172,
-   "tp": 143,
+   "fp": 167,
+   "tp": 139,
    "stats": {
     "kick": 53,
-    "body": 55,
-    "control": 62,
-    "guard": 54,
-    "speed": 48,
-    "stamina": 52,
-    "guts": 58
+    "body": 56,
+    "control": 71,
+    "guard": 51,
+    "speed": 49,
+    "stamina": 50,
+    "guts": 56
    },
    "moves": [
     "future-eye",
@@ -205,16 +205,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 182,
-   "tp": 175,
+   "fp": 177,
+   "tp": 160,
    "stats": {
-    "kick": 58,
-    "body": 40,
-    "control": 53,
-    "guard": 57,
-    "speed": 56,
-    "stamina": 80,
-    "guts": 55
+    "kick": 56,
+    "body": 41,
+    "control": 62,
+    "guard": 53,
+    "speed": 58,
+    "stamina": 75,
+    "guts": 54
    },
    "moves": [
     "future-eye",
@@ -235,16 +235,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 108,
-   "tp": 181,
+   "fp": 105,
+   "tp": 163,
    "stats": {
-    "kick": 48,
+    "kick": 50,
     "body": 67,
-    "control": 54,
-    "guard": 57,
-    "speed": 58,
-    "stamina": 60,
-    "guts": 61
+    "control": 63,
+    "guard": 53,
+    "speed": 59,
+    "stamina": 57,
+    "guts": 59
    },
    "moves": [
     "future-eye",
@@ -266,16 +266,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 108,
-   "tp": 190,
+   "fp": 105,
+   "tp": 169,
    "stats": {
     "kick": 55,
     "body": 74,
-    "control": 43,
-    "guard": 63,
-    "speed": 58,
-    "stamina": 57,
-    "guts": 55
+    "control": 54,
+    "guard": 57,
+    "speed": 59,
+    "stamina": 54,
+    "guts": 54
    },
    "moves": [
     "future-eye",
@@ -287,7 +287,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Saewatari Yuuichirou",
-   "description": "De un solo vistazo percibe la posición de todos los jugadores en el campo."
+   "description": "De un solo vistazo percibe la posición de todos los jugadores en el campo.",
+   "captain": true
   },
   {
    "id": "moe-sart",
@@ -297,16 +298,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 119,
-   "tp": 160,
+   "fp": 120,
+   "tp": 178,
    "stats": {
-    "kick": 60,
-    "body": 54,
-    "control": 46,
-    "guard": 59,
-    "speed": 41,
+    "kick": 73,
+    "body": 52,
+    "control": 50,
+    "guard": 53,
+    "speed": 42,
     "stamina": 50,
-    "guts": 62
+    "guts": 61
    },
    "moves": [
     "perfect-course",
@@ -327,16 +328,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 102,
-   "tp": 156,
+   "fp": 103,
+   "tp": 172,
    "stats": {
-    "kick": 47,
+    "kick": 60,
     "body": 61,
-    "control": 50,
-    "guard": 65,
-    "speed": 51,
-    "stamina": 52,
-    "guts": 61
+    "control": 52,
+    "guard": 57,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 60
    },
    "moves": [
     "perfect-course",
@@ -357,16 +358,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 147,
-   "tp": 174,
+   "fp": 151,
+   "tp": 163,
    "stats": {
-    "kick": 56,
+    "kick": 47,
     "body": 53,
-    "control": 54,
+    "control": 47,
     "guard": 35,
-    "speed": 55,
-    "stamina": 60,
-    "guts": 59
+    "speed": 52,
+    "stamina": 61,
+    "guts": 61
    },
    "moves": [
     "moonsault-stamp",
@@ -387,15 +388,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 106,
-   "tp": 203,
+   "fp": 104,
+   "tp": 179,
    "stats": {
-    "kick": 58,
-    "body": 59,
-    "control": 58,
-    "guard": 52,
-    "speed": 57,
-    "stamina": 58,
+    "kick": 52,
+    "body": 58,
+    "control": 51,
+    "guard": 63,
+    "speed": 55,
+    "stamina": 60,
     "guts": 60
    },
    "moves": [
@@ -417,16 +418,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 170,
-   "tp": 165,
+   "fp": 165,
+   "tp": 153,
    "stats": {
-    "kick": 69,
-    "body": 56,
-    "control": 57,
-    "guard": 48,
-    "speed": 50,
-    "stamina": 62,
-    "guts": 58
+    "kick": 63,
+    "body": 57,
+    "control": 66,
+    "guard": 47,
+    "speed": 51,
+    "stamina": 59,
+    "guts": 56
    },
    "moves": [
     "future-eye",
@@ -448,16 +449,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 170,
-   "tp": 170,
+   "fp": 165,
+   "tp": 156,
    "stats": {
     "kick": 54,
     "body": 54,
-    "control": 62,
-    "guard": 52,
-    "speed": 48,
-    "stamina": 53,
-    "guts": 62
+    "control": 70,
+    "guard": 49,
+    "speed": 49,
+    "stamina": 51,
+    "guts": 61
    },
    "moves": [
     "future-eye",
@@ -478,16 +479,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 168,
-   "tp": 146,
+   "fp": 172,
+   "tp": 156,
    "stats": {
-    "kick": 37,
-    "body": 54,
-    "control": 64,
-    "guard": 64,
-    "speed": 58,
+    "kick": 52,
+    "body": 53,
+    "control": 62,
+    "guard": 56,
+    "speed": 59,
     "stamina": 59,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "perfect-course",

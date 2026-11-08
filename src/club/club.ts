@@ -211,7 +211,7 @@ export function clubTeam(save: ClubSave): TeamData {
     used.add(id);
     const { base, extra } = movesFor(save, card);
     const moves = [...base, ...extra].filter((m) => m && MOVES[m]);
-    return [{ ...card.player, id, number: i + 1, origin: card.origin, originId: card.player.id, moves }];
+    return [{ ...card.player, id, number: i + 1, origin: card.origin, originId: card.player.id, moves, captain: undefined }];
   });
   return {
     id: 'club',

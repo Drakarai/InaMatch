@@ -45,7 +45,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kakita Taishou",
-   "description": "No solo tiene calidad como jugador, también enseña muy bien."
+   "description": "No solo tiene calidad como jugador, también enseña muy bien.",
+   "captain": true
   },
   {
    "id": "parry-waxon",

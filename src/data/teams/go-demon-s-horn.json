@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 165,
-   "tp": 161,
+   "fp": 169,
+   "tp": 155,
    "stats": {
-    "kick": 62,
+    "kick": 49,
     "body": 62,
-    "control": 70,
-    "guard": 68,
-    "speed": 49,
-    "stamina": 58,
-    "guts": 67
+    "control": 55,
+    "guard": 67,
+    "speed": 47,
+    "stamina": 60,
+    "guts": 70
    },
    "moves": [
     "fence-of-gaia",
@@ -61,13 +61,13 @@
    "element": "wind",
    "level": 99,
    "fp": 120,
-   "tp": 156,
+   "tp": 148,
    "stats": {
-    "kick": 53,
-    "body": 62,
-    "control": 63,
-    "guard": 51,
-    "speed": 77,
+    "kick": 49,
+    "body": 60,
+    "control": 55,
+    "guard": 63,
+    "speed": 75,
     "stamina": 44,
     "guts": 54
    },
@@ -90,14 +90,14 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 169,
-   "tp": 152,
+   "fp": 170,
+   "tp": 145,
    "stats": {
-    "kick": 58,
-    "body": 51,
-    "control": 84,
-    "guard": 66,
-    "speed": 78,
+    "kick": 51,
+    "body": 50,
+    "control": 71,
+    "guard": 74,
+    "speed": 76,
     "stamina": 44,
     "guts": 62
    },
@@ -121,16 +121,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 164,
-   "tp": 153,
+   "fp": 165,
+   "tp": 146,
    "stats": {
-    "kick": 51,
-    "body": 50,
-    "control": 49,
-    "guard": 61,
-    "speed": 54,
-    "stamina": 50,
-    "guts": 52
+    "kick": 48,
+    "body": 49,
+    "control": 45,
+    "guard": 70,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 53
    },
    "moves": [
     "britannia-cross",
@@ -154,15 +154,15 @@
    "element": "wood",
    "level": 99,
    "fp": 123,
-   "tp": 155,
+   "tp": 147,
    "stats": {
-    "kick": 51,
-    "body": 50,
-    "control": 70,
-    "guard": 52,
-    "speed": 76,
-    "stamina": 53,
-    "guts": 60
+    "kick": 48,
+    "body": 49,
+    "control": 61,
+    "guard": 63,
+    "speed": 73,
+    "stamina": 55,
+    "guts": 61
    },
    "moves": [
     "presto-turn",
@@ -184,16 +184,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 153,
-   "tp": 163,
+   "fp": 149,
+   "tp": 152,
    "stats": {
     "kick": 54,
-    "body": 49,
-    "control": 64,
+    "body": 50,
+    "control": 72,
     "guard": 44,
-    "speed": 68,
-    "stamina": 50,
-    "guts": 52
+    "speed": 70,
+    "stamina": 47,
+    "guts": 51
    },
    "moves": [
     "claymore",
@@ -215,16 +215,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 174,
-   "tp": 159,
+   "fp": 169,
+   "tp": 149,
    "stats": {
-    "kick": 49,
-    "body": 51,
-    "control": 66,
-    "guard": 52,
-    "speed": 53,
-    "stamina": 49,
-    "guts": 61
+    "kick": 50,
+    "body": 52,
+    "control": 73,
+    "guard": 49,
+    "speed": 54,
+    "stamina": 47,
+    "guts": 59
    },
    "moves": [
     "twin-mixer",
@@ -247,16 +247,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 120,
-   "tp": 156,
+   "fp": 117,
+   "tp": 147,
    "stats": {
     "kick": 53,
-    "body": 56,
-    "control": 66,
+    "body": 57,
+    "control": 73,
     "guard": 46,
-    "speed": 54,
-    "stamina": 60,
-    "guts": 56
+    "speed": 55,
+    "stamina": 57,
+    "guts": 55
    },
    "moves": [
     "melody-wave",
@@ -277,16 +277,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 156,
-   "tp": 168,
+   "fp": 152,
+   "tp": 155,
    "stats": {
-    "kick": 57,
-    "body": 62,
-    "control": 50,
+    "kick": 56,
+    "body": 63,
+    "control": 60,
     "guard": 44,
-    "speed": 68,
-    "stamina": 76,
-    "guts": 56
+    "speed": 71,
+    "stamina": 72,
+    "guts": 54
    },
    "moves": [
     "britannia-cross",
@@ -308,15 +308,15 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 166,
-   "tp": 143,
+   "fp": 170,
+   "tp": 149,
    "stats": {
-    "kick": 54,
+    "kick": 67,
     "body": 59,
-    "control": 52,
-    "guard": 63,
-    "speed": 45,
-    "stamina": 56,
+    "control": 54,
+    "guard": 56,
+    "speed": 46,
+    "stamina": 55,
     "guts": 70
    },
    "moves": [
@@ -340,16 +340,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 170,
-   "tp": 144,
+   "fp": 173,
+   "tp": 151,
    "stats": {
-    "kick": 57,
-    "body": 51,
-    "control": 51,
-    "guard": 52,
+    "kick": 70,
+    "body": 50,
+    "control": 53,
+    "guard": 49,
     "speed": 49,
-    "stamina": 71,
-    "guts": 56
+    "stamina": 70,
+    "guts": 55
    },
    "moves": [
     "panther-blizzard",
@@ -371,16 +371,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 170,
-   "tp": 126,
+   "fp": 173,
+   "tp": 123,
    "stats": {
-    "kick": 58,
-    "body": 57,
-    "control": 68,
-    "guard": 45,
+    "kick": 71,
+    "body": 56,
+    "control": 65,
+    "guard": 44,
     "speed": 58,
     "stamina": 66,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "eternal-blizzard",
@@ -392,7 +392,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Teruyami Muu",
-   "description": "Tiene un aire misterioso. Viaja la tira, pero nunca le cuenta a nadie porqué."
+   "description": "Tiene un aire misterioso. Viaja la tira, pero nunca le cuenta a nadie porqué.",
+   "captain": true
   },
   {
    "id": "brutus-nastion",
@@ -402,16 +403,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 165,
-   "tp": 155,
+   "fp": 169,
+   "tp": 152,
    "stats": {
-    "kick": 62,
+    "kick": 49,
     "body": 58,
-    "control": 64,
+    "control": 52,
     "guard": 53,
-    "speed": 63,
-    "stamina": 70,
-    "guts": 66
+    "speed": 59,
+    "stamina": 71,
+    "guts": 69
    },
    "moves": [
     "twin-mixer",
@@ -434,16 +435,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 166,
-   "tp": 159,
+   "fp": 167,
+   "tp": 149,
    "stats": {
-    "kick": 65,
-    "body": 56,
-    "control": 76,
-    "guard": 51,
-    "speed": 62,
-    "stamina": 51,
-    "guts": 49
+    "kick": 55,
+    "body": 55,
+    "control": 65,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 50
    },
    "moves": [
     "viva-banri-no-choujou",
@@ -465,16 +466,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 164,
-   "tp": 159,
+   "fp": 165,
+   "tp": 149,
    "stats": {
-    "kick": 61,
-    "body": 62,
-    "control": 61,
-    "guard": 56,
-    "speed": 53,
-    "stamina": 74,
-    "guts": 57
+    "kick": 53,
+    "body": 60,
+    "control": 54,
+    "guard": 66,
+    "speed": 52,
+    "stamina": 78,
+    "guts": 58
    },
    "moves": [
     "dash-train",
@@ -497,16 +498,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 105,
-   "tp": 167,
+   "fp": 102,
+   "tp": 154,
    "stats": {
     "kick": 53,
-    "body": 49,
-    "control": 50,
+    "body": 50,
+    "control": 60,
     "guard": 43,
-    "speed": 60,
-    "stamina": 52,
-    "guts": 52
+    "speed": 61,
+    "stamina": 50,
+    "guts": 50
    },
    "moves": [
     "the-mist",

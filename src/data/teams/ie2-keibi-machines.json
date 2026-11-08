@@ -44,7 +44,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Robo S",
-   "description": "Robot guardia 1 del laboratorio de los Mensajeros de las Estrellas."
+   "description": "Robot guardia 1 del laboratorio de los Mensajeros de las Estrellas.",
+   "captain": true
   },
   {
    "id": "robot-p",

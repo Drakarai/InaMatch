@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 123,
-   "tp": 99,
+   "fp": 126,
+   "tp": 117,
    "stats": {
-    "kick": 50,
+    "kick": 44,
     "body": 66,
-    "control": 51,
-    "guard": 64,
-    "speed": 55,
-    "stamina": 62,
-    "guts": 56
+    "control": 45,
+    "guard": 63,
+    "speed": 52,
+    "stamina": 63,
+    "guts": 58
    },
    "moves": [
     "crocodile-fang",
@@ -59,15 +59,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 110,
-   "tp": 91,
+   "fp": 109,
+   "tp": 103,
    "stats": {
-    "kick": 55,
-    "body": 58,
-    "control": 55,
-    "guard": 59,
-    "speed": 45,
-    "stamina": 57,
+    "kick": 50,
+    "body": 56,
+    "control": 50,
+    "guard": 69,
+    "speed": 43,
+    "stamina": 59,
     "guts": 66
    },
    "moves": [
@@ -91,14 +91,14 @@
    "element": "wood",
    "level": 99,
    "fp": 135,
-   "tp": 95,
+   "tp": 106,
    "stats": {
-    "kick": 60,
-    "body": 47,
-    "control": 56,
-    "guard": 62,
-    "speed": 47,
-    "stamina": 69,
+    "kick": 52,
+    "body": 46,
+    "control": 51,
+    "guard": 71,
+    "speed": 45,
+    "stamina": 73,
     "guts": 56
    },
    "moves": [
@@ -122,15 +122,15 @@
    "element": "wind",
    "level": 99,
    "fp": 125,
-   "tp": 105,
+   "tp": 113,
    "stats": {
-    "kick": 58,
-    "body": 59,
-    "control": 59,
-    "guard": 60,
-    "speed": 62,
+    "kick": 52,
+    "body": 58,
+    "control": 52,
+    "guard": 69,
+    "speed": 60,
     "stamina": 44,
-    "guts": 50
+    "guts": 51
    },
    "moves": [
     "willy-willy",
@@ -152,16 +152,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 115,
-   "tp": 101,
+   "fp": 114,
+   "tp": 111,
    "stats": {
-    "kick": 46,
-    "body": 58,
-    "control": 48,
-    "guard": 63,
-    "speed": 70,
-    "stamina": 48,
-    "guts": 60
+    "kick": 45,
+    "body": 56,
+    "control": 45,
+    "guard": 71,
+    "speed": 68,
+    "stamina": 49,
+    "guts": 61
    },
    "moves": [
     "willy-willy",
@@ -183,16 +183,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 150,
-   "tp": 95,
+   "fp": 145,
+   "tp": 108,
    "stats": {
-    "kick": 63,
-    "body": 57,
-    "control": 63,
-    "guard": 52,
-    "speed": 56,
-    "stamina": 53,
-    "guts": 64
+    "kick": 60,
+    "body": 58,
+    "control": 71,
+    "guard": 50,
+    "speed": 58,
+    "stamina": 51,
+    "guts": 62
    },
    "moves": [
     "kangaroo-kick",
@@ -214,16 +214,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "kangaroo-kick",
@@ -245,16 +245,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 160,
-   "tp": 106,
+   "fp": 155,
+   "tp": 115,
    "stats": {
-    "kick": 67,
-    "body": 69,
-    "control": 66,
-    "guard": 60,
-    "speed": 55,
-    "stamina": 58,
-    "guts": 58
+    "kick": 62,
+    "body": 70,
+    "control": 74,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 55,
+    "guts": 56
    },
    "moves": [
     "kangaroo-kick",
@@ -266,7 +266,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Cole LaRuze",
-   "description": "Capitán del Big Waves y reconocido surfista profesional."
+   "description": "Capitán del Big Waves y reconocido surfista profesional.",
+   "captain": true
   },
   {
    "id": "amanda-ray",
@@ -276,16 +277,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 105,
-   "tp": 147,
+   "fp": 102,
+   "tp": 142,
    "stats": {
-    "kick": 65,
-    "body": 54,
-    "control": 61,
-    "guard": 62,
-    "speed": 64,
-    "stamina": 44,
-    "guts": 68
+    "kick": 61,
+    "body": 55,
+    "control": 69,
+    "guard": 57,
+    "speed": 66,
+    "stamina": 42,
+    "guts": 66
    },
    "moves": [
     "kangaroo-kick",
@@ -307,15 +308,15 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 134,
-   "tp": 122,
+   "fp": 136,
+   "tp": 116,
    "stats": {
-    "kick": 63,
-    "body": 49,
+    "kick": 76,
+    "body": 48,
     "control": 58,
-    "guard": 44,
+    "guard": 43,
     "speed": 51,
-    "stamina": 66,
+    "stamina": 65,
     "guts": 63
    },
    "moves": [
@@ -338,14 +339,14 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 124,
-   "tp": 120,
+   "fp": 125,
+   "tp": 113,
    "stats": {
-    "kick": 61,
+    "kick": 74,
     "body": 56,
     "control": 57,
-    "guard": 63,
-    "speed": 64,
+    "guard": 56,
+    "speed": 65,
     "stamina": 59,
     "guts": 65
    },
@@ -369,16 +370,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "megalodon",

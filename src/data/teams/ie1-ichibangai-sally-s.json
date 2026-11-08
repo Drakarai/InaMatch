@@ -331,7 +331,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Kisaragi Sarina",
-   "description": "Dueña de la taberna. Se dice que su hija juega al fútbol."
+   "description": "Dueña de la taberna. Se dice que su hija juega al fútbol.",
+   "captain": true
   },
   {
    "id": "eddie-prentice",

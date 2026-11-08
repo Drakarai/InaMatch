@@ -31,16 +31,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 158,
-   "tp": 123,
+   "fp": 162,
+   "tp": 132,
    "stats": {
-    "kick": 99,
+    "kick": 67,
     "body": 60,
-    "control": 75,
-    "guard": 57,
-    "speed": 55,
-    "stamina": 55,
-    "guts": 30
+    "control": 58,
+    "guard": 56,
+    "speed": 52,
+    "stamina": 57,
+    "guts": 32
    },
    "moves": [
     "drill-smasher",
@@ -61,15 +61,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 167,
-   "tp": 136,
+   "fp": 168,
+   "tp": 134,
    "stats": {
-    "kick": 88,
-    "body": 76,
-    "control": 65,
-    "guard": 81,
-    "speed": 47,
-    "stamina": 74,
+    "kick": 67,
+    "body": 74,
+    "control": 57,
+    "guard": 85,
+    "speed": 45,
+    "stamina": 78,
     "guts": 49
    },
    "moves": [
@@ -94,15 +94,15 @@
    "element": "wind",
    "level": 99,
    "fp": 135,
-   "tp": 121,
+   "tp": 124,
    "stats": {
     "kick": 44,
-    "body": 50,
-    "control": 47,
-    "guard": 62,
-    "speed": 57,
-    "stamina": 57,
-    "guts": 40
+    "body": 49,
+    "control": 44,
+    "guard": 71,
+    "speed": 55,
+    "stamina": 59,
+    "guts": 41
    },
    "moves": [
     "photon-flash",
@@ -125,15 +125,15 @@
    "element": "earth",
    "level": 99,
    "fp": 163,
-   "tp": 153,
+   "tp": 146,
    "stats": {
-    "kick": 80,
-    "body": 43,
-    "control": 54,
-    "guard": 34,
-    "speed": 50,
-    "stamina": 53,
-    "guts": 50
+    "kick": 63,
+    "body": 42,
+    "control": 49,
+    "guard": 50,
+    "speed": 48,
+    "stamina": 54,
+    "guts": 51
    },
    "moves": [
     "elephant-press",
@@ -155,16 +155,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 91,
-   "tp": 92,
+   "fp": 88,
+   "tp": 107,
    "stats": {
-    "kick": 47,
-    "body": 61,
-    "control": 53,
-    "guard": 56,
-    "speed": 61,
-    "stamina": 49,
-    "guts": 60
+    "kick": 49,
+    "body": 62,
+    "control": 63,
+    "guard": 53,
+    "speed": 62,
+    "stamina": 47,
+    "guts": 58
    },
    "moves": [
     "bungee-thrust",
@@ -186,16 +186,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 165,
-   "tp": 124,
+   "fp": 160,
+   "tp": 127,
    "stats": {
-    "kick": 70,
+    "kick": 64,
     "body": 68,
-    "control": 65,
-    "guard": 60,
-    "speed": 55,
-    "stamina": 69,
-    "guts": 55
+    "control": 73,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 53
    },
    "moves": [
     "nobori-ryuu",
@@ -217,16 +217,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 105,
-   "tp": 104,
+   "fp": 102,
+   "tp": 115,
    "stats": {
-    "kick": 60,
+    "kick": 57,
     "body": 63,
-    "control": 63,
-    "guard": 60,
-    "speed": 55,
-    "stamina": 55,
-    "guts": 50
+    "control": 71,
+    "guard": 55,
+    "speed": 56,
+    "stamina": 52,
+    "guts": 48
    },
    "moves": [
     "kumo-no-ito",
@@ -248,16 +248,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 179,
-   "tp": 135,
+   "fp": 174,
+   "tp": 134,
    "stats": {
-    "kick": 73,
-    "body": 72,
-    "control": 73,
-    "guard": 63,
-    "speed": 60,
-    "stamina": 65,
-    "guts": 60
+    "kick": 65,
+    "body": 73,
+    "control": 80,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 58
    },
    "moves": [
     "judge-through-3",
@@ -279,16 +279,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 122,
-   "tp": 135,
+   "fp": 118,
+   "tp": 134,
    "stats": {
-    "kick": 59,
-    "body": 53,
-    "control": 67,
-    "guard": 61,
-    "speed": 62,
-    "stamina": 49,
-    "guts": 50
+    "kick": 57,
+    "body": 54,
+    "control": 75,
+    "guard": 56,
+    "speed": 64,
+    "stamina": 47,
+    "guts": 48
    },
    "moves": [
     "devil-ball",
@@ -310,16 +310,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 137,
-   "tp": 120,
+   "fp": 139,
+   "tp": 113,
    "stats": {
-    "kick": 70,
-    "body": 30,
-    "control": 49,
-    "guard": 58,
+    "kick": 82,
+    "body": 26,
+    "control": 51,
+    "guard": 52,
     "speed": 57,
-    "stamina": 69,
-    "guts": 52
+    "stamina": 68,
+    "guts": 51
    },
    "moves": [
     "elephant-press",
@@ -341,16 +341,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 180,
-   "tp": 128,
+   "fp": 184,
+   "tp": 126,
    "stats": {
-    "kick": 78,
-    "body": 74,
-    "control": 65,
-    "guard": 45,
-    "speed": 55,
-    "stamina": 79,
-    "guts": 61
+    "kick": 90,
+    "body": 75,
+    "control": 63,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 78,
+    "guts": 60
    },
    "moves": [
     "disaster-break",
@@ -361,7 +361,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Zanark Avalonic",
-   "description": "Fugado de la prisión CONTRA. Odia seguir las normas y simplemente hace lo que le da la gana."
+   "description": "Fugado de la prisión CONTRA. Odia seguir las normas y simplemente hace lo que le da la gana.",
+   "captain": true
   },
   {
    "id": "bash-lancer",
@@ -371,16 +372,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 175,
-   "tp": 140,
+   "fp": 178,
+   "tp": 145,
    "stats": {
-    "kick": 85,
+    "kick": 96,
     "body": 63,
-    "control": 68,
-    "guard": 62,
-    "speed": 65,
+    "control": 65,
+    "guard": 55,
+    "speed": 66,
     "stamina": 60,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "death-spear",
@@ -402,16 +403,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 193,
-   "tp": 149,
+   "fp": 197,
+   "tp": 159,
    "stats": {
-    "kick": 81,
-    "body": 43,
-    "control": 61,
-    "guard": 77,
-    "speed": 77,
+    "kick": 93,
+    "body": 41,
+    "control": 60,
+    "guard": 65,
+    "speed": 78,
     "stamina": 75,
-    "guts": 49
+    "guts": 48
    },
    "moves": [
     "the-typhoon",
@@ -433,16 +434,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 157,
-   "tp": 135,
+   "fp": 160,
+   "tp": 138,
    "stats": {
-    "kick": 76,
+    "kick": 87,
     "body": 67,
-    "control": 62,
-    "guard": 61,
+    "control": 61,
+    "guard": 54,
     "speed": 52,
-    "stamina": 66,
-    "guts": 52
+    "stamina": 65,
+    "guts": 51
    },
    "moves": [
     "dark-matter",
@@ -464,16 +465,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 158,
-   "tp": 140,
+   "fp": 162,
+   "tp": 143,
    "stats": {
-    "kick": 52,
-    "body": 63,
-    "control": 55,
-    "guard": 82,
+    "kick": 45,
+    "body": 62,
+    "control": 47,
+    "guard": 81,
     "speed": 36,
-    "stamina": 63,
-    "guts": 61
+    "stamina": 64,
+    "guts": 63
    },
    "moves": [
     "needle-hammer",
@@ -495,15 +496,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 185,
-   "tp": 125,
+   "fp": 187,
+   "tp": 127,
    "stats": {
-    "kick": 56,
-    "body": 70,
-    "control": 65,
-    "guard": 76,
-    "speed": 61,
-    "stamina": 58,
+    "kick": 51,
+    "body": 68,
+    "control": 57,
+    "guard": 82,
+    "speed": 59,
+    "stamina": 60,
     "guts": 75
    },
    "moves": [

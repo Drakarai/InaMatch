@@ -83,7 +83,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Teles Torrue",
-   "description": "Orgulloso de su impenetrable defensa, dirige al equipo desde detrás. Es uno de los mejores defensas."
+   "description": "Orgulloso de su impenetrable defensa, dirige al equipo desde detrás. Es uno de los mejores defensas.",
+   "captain": true
   },
   {
    "id": "julio-acosta",

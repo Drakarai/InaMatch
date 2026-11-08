@@ -32,16 +32,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 147,
-   "tp": 138,
+   "fp": 151,
+   "tp": 141,
    "stats": {
-    "kick": 54,
+    "kick": 46,
     "body": 60,
-    "control": 68,
+    "control": 54,
     "guard": 68,
-    "speed": 58,
-    "stamina": 67,
-    "guts": 59
+    "speed": 55,
+    "stamina": 68,
+    "guts": 62
    },
    "moves": [
     "rebound-layer",
@@ -53,7 +53,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Argo Burgess",
-   "description": "Guardián de Falam Orbius. Es un portero asombroso."
+   "description": "Guardián de Falam Orbius. Es un portero asombroso.",
+   "captain": true
   },
   {
    "id": "xenon-reith",
@@ -64,15 +65,15 @@
    "element": "wind",
    "level": 99,
    "fp": 143,
-   "tp": 115,
+   "tp": 120,
    "stats": {
-    "kick": 67,
-    "body": 71,
-    "control": 62,
-    "guard": 66,
-    "speed": 69,
-    "stamina": 60,
-    "guts": 46
+    "kick": 56,
+    "body": 70,
+    "control": 55,
+    "guard": 74,
+    "speed": 67,
+    "stamina": 62,
+    "guts": 47
    },
    "moves": [
     "stealth-walk",
@@ -94,16 +95,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 213,
-   "tp": 121,
+   "fp": 216,
+   "tp": 124,
    "stats": {
-    "kick": 63,
-    "body": 63,
-    "control": 61,
-    "guard": 85,
-    "speed": 52,
-    "stamina": 89,
-    "guts": 60
+    "kick": 54,
+    "body": 62,
+    "control": 54,
+    "guard": 88,
+    "speed": 51,
+    "stamina": 94,
+    "guts": 61
    },
    "moves": [
     "rock-hammer",
@@ -125,15 +126,15 @@
    "element": "fire",
    "level": 99,
    "fp": 135,
-   "tp": 112,
+   "tp": 118,
    "stats": {
-    "kick": 60,
-    "body": 55,
-    "control": 60,
-    "guard": 64,
-    "speed": 62,
-    "stamina": 64,
-    "guts": 41
+    "kick": 52,
+    "body": 54,
+    "control": 53,
+    "guard": 72,
+    "speed": 60,
+    "stamina": 66,
+    "guts": 42
    },
    "moves": [
     "stealth-walk",
@@ -155,16 +156,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 150,
-   "tp": 175,
+   "fp": 145,
+   "tp": 160,
    "stats": {
-    "kick": 66,
-    "body": 64,
-    "control": 83,
-    "guard": 63,
-    "speed": 61,
-    "stamina": 61,
-    "guts": 73
+    "kick": 61,
+    "body": 65,
+    "control": 88,
+    "guard": 58,
+    "speed": 62,
+    "stamina": 58,
+    "guts": 71
    },
    "moves": [
     "hologram-lock",
@@ -186,16 +187,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 204,
-   "tp": 133,
+   "fp": 129,
+   "tp": 154,
    "stats": {
-    "kick": 77,
-    "body": 72,
-    "control": 63,
-    "guard": 75,
-    "speed": 77,
-    "stamina": 77,
-    "guts": 58
+    "kick": 63,
+    "body": 57,
+    "control": 68,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 55,
+    "guts": 67
    },
    "moves": [
     "jackknife",
@@ -216,16 +217,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 110,
-   "tp": 139,
+   "fp": 107,
+   "tp": 137,
    "stats": {
-    "kick": 63,
+    "kick": 60,
     "body": 63,
-    "control": 63,
-    "guard": 60,
+    "control": 71,
+    "guard": 55,
     "speed": 49,
-    "stamina": 70,
-    "guts": 67
+    "stamina": 66,
+    "guts": 65
    },
    "moves": [
     "hologram-lock",
@@ -247,14 +248,14 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 162,
-   "tp": 135,
+   "fp": 165,
+   "tp": 138,
    "stats": {
-    "kick": 75,
+    "kick": 87,
     "body": 66,
-    "control": 69,
-    "guard": 73,
-    "speed": 60,
+    "control": 65,
+    "guard": 62,
+    "speed": 61,
     "stamina": 55,
     "guts": 69
    },
@@ -277,15 +278,15 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 175,
-   "tp": 130,
+   "fp": 178,
+   "tp": 129,
    "stats": {
-    "kick": 74,
+    "kick": 85,
     "body": 63,
-    "control": 68,
-    "guard": 61,
+    "control": 65,
+    "guard": 54,
     "speed": 58,
-    "stamina": 67,
+    "stamina": 66,
     "guts": 68
    },
    "moves": [
@@ -307,16 +308,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 147,
-   "tp": 138,
+   "fp": 149,
+   "tp": 141,
    "stats": {
-    "kick": 72,
-    "body": 72,
-    "control": 60,
-    "guard": 69,
-    "speed": 69,
+    "kick": 84,
+    "body": 73,
+    "control": 59,
+    "guard": 60,
+    "speed": 70,
     "stamina": 47,
-    "guts": 58
+    "guts": 57
    },
    "moves": [
     "kazanrai",
@@ -337,16 +338,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 157,
-   "tp": 130,
+   "fp": 160,
+   "tp": 129,
    "stats": {
-    "kick": 68,
-    "body": 69,
-    "control": 61,
-    "guard": 67,
+    "kick": 80,
+    "body": 70,
+    "control": 60,
+    "guard": 58,
     "speed": 58,
     "stamina": 69,
-    "guts": 59
+    "guts": 58
    },
    "moves": [
     "injection",
@@ -368,16 +369,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 152,
-   "tp": 139,
+   "fp": 154,
+   "tp": 143,
    "stats": {
-    "kick": 71,
-    "body": 78,
-    "control": 68,
-    "guard": 71,
-    "speed": 53,
-    "stamina": 42,
-    "guts": 58
+    "kick": 83,
+    "body": 79,
+    "control": 65,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 41,
+    "guts": 57
    },
    "moves": [
     "koutei-penguin-2gou",

@@ -377,7 +377,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Mack Ronijo",
-   "description": "Dicen que es el jugador perfecto por su dinamismo y determinación."
+   "description": "Dicen que es el jugador perfecto por su dinamismo y determinación.",
+   "captain": true
   },
   {
    "id": "coruja-cerezo",

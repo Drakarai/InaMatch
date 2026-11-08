@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 117,
-   "tp": 96,
+   "fp": 121,
+   "tp": 116,
    "stats": {
-    "kick": 43,
+    "kick": 41,
     "body": 65,
-    "control": 50,
-    "guard": 60,
-    "speed": 52,
-    "stamina": 62,
-    "guts": 54
+    "control": 45,
+    "guard": 59,
+    "speed": 49,
+    "stamina": 63,
+    "guts": 57
    },
    "moves": [
     "dai-bakuhatsu-harite",
@@ -60,14 +60,14 @@
    "element": "fire",
    "level": 99,
    "fp": 120,
-   "tp": 97,
+   "tp": 108,
    "stats": {
-    "kick": 47,
-    "body": 59,
-    "control": 49,
-    "guard": 60,
-    "speed": 57,
-    "stamina": 58,
+    "kick": 46,
+    "body": 58,
+    "control": 45,
+    "guard": 69,
+    "speed": 55,
+    "stamina": 60,
     "guts": 54
    },
    "moves": [
@@ -91,16 +91,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 115,
-   "tp": 91,
+   "fp": 114,
+   "tp": 103,
    "stats": {
-    "kick": 48,
-    "body": 58,
-    "control": 51,
-    "guard": 59,
-    "speed": 56,
-    "stamina": 63,
-    "guts": 52
+    "kick": 47,
+    "body": 56,
+    "control": 47,
+    "guard": 69,
+    "speed": 54,
+    "stamina": 65,
+    "guts": 53
    },
    "moves": [
     "jibashiri-kaen",
@@ -123,14 +123,14 @@
    "element": "fire",
    "level": 99,
    "fp": 138,
-   "tp": 84,
+   "tp": 99,
    "stats": {
-    "kick": 52,
-    "body": 48,
-    "control": 55,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 69,
+    "kick": 48,
+    "body": 47,
+    "control": 50,
+    "guard": 71,
+    "speed": 49,
+    "stamina": 73,
     "guts": 54
    },
    "moves": [
@@ -152,15 +152,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 88,
+   "fp": 106,
+   "tp": 102,
    "stats": {
-    "kick": 38,
-    "body": 56,
-    "control": 45,
-    "guard": 58,
-    "speed": 55,
-    "stamina": 46,
+    "kick": 41,
+    "body": 55,
+    "control": 43,
+    "guard": 68,
+    "speed": 53,
+    "stamina": 47,
     "guts": 59
    },
    "moves": [
@@ -183,16 +183,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "doukasen",
@@ -214,16 +214,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 126,
-   "tp": 88,
+   "fp": 122,
+   "tp": 104,
    "stats": {
-    "kick": 59,
-    "body": 56,
-    "control": 59,
+    "kick": 57,
+    "body": 57,
+    "control": 67,
     "guard": 43,
-    "speed": 51,
-    "stamina": 64,
-    "guts": 53
+    "speed": 52,
+    "stamina": 60,
+    "guts": 51
    },
    "moves": [
     "doukasen",
@@ -245,16 +245,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 88,
-   "tp": 116,
+   "fp": 85,
+   "tp": 122,
    "stats": {
-    "kick": 46,
-    "body": 47,
-    "control": 57,
-    "guard": 58,
-    "speed": 50,
-    "stamina": 64,
-    "guts": 45
+    "kick": 49,
+    "body": 48,
+    "control": 66,
+    "guard": 54,
+    "speed": 51,
+    "stamina": 60,
+    "guts": 43
    },
    "moves": [
     "doukasen",
@@ -277,12 +277,12 @@
    "element": "earth",
    "level": 99,
    "fp": 91,
-   "tp": 134,
+   "tp": 136,
    "stats": {
-    "kick": 63,
+    "kick": 76,
     "body": 62,
-    "control": 60,
-    "guard": 54,
+    "control": 59,
+    "guard": 50,
     "speed": 58,
     "stamina": 55,
     "guts": 64
@@ -307,16 +307,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 134,
-   "tp": 122,
+   "fp": 136,
+   "tp": 116,
    "stats": {
-    "kick": 66,
+    "kick": 78,
     "body": 71,
     "control": 57,
-    "guard": 63,
-    "speed": 54,
-    "stamina": 50,
-    "guts": 48
+    "guard": 56,
+    "speed": 55,
+    "stamina": 49,
+    "guts": 47
    },
    "moves": [
     "rapid-fire",
@@ -328,7 +328,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Lee Choon-yoon",
-   "description": "Capitán de los Dragones de Fuego. Por su rapidez lo llaman el viento coreano."
+   "description": "Capitán de los Dragones de Fuego. Por su rapidez lo llaman el viento coreano.",
+   "captain": true
   },
   {
    "id": "joo-won",
@@ -338,16 +339,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 147,
-   "tp": 117,
+   "fp": 149,
+   "tp": 109,
    "stats": {
-    "kick": 67,
+    "kick": 79,
     "body": 63,
-    "control": 61,
-    "guard": 48,
-    "speed": 65,
-    "stamina": 58,
-    "guts": 54
+    "control": 60,
+    "guard": 46,
+    "speed": 66,
+    "stamina": 57,
+    "guts": 53
    },
    "moves": [
     "rapid-fire",
@@ -369,16 +370,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 136,
-   "tp": 113,
+   "fp": 132,
+   "tp": 120,
    "stats": {
-    "kick": 56,
-    "body": 56,
-    "control": 69,
-    "guard": 62,
-    "speed": 56,
-    "stamina": 67,
-    "guts": 55
+    "kick": 55,
+    "body": 57,
+    "control": 76,
+    "guard": 57,
+    "speed": 58,
+    "stamina": 63,
+    "guts": 53
    },
    "moves": [
     "naraku-otoshi",

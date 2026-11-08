@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 142,
-   "tp": 131,
+   "fp": 146,
+   "tp": 137,
    "stats": {
-    "kick": 67,
+    "kick": 51,
     "body": 78,
-    "control": 72,
-    "guard": 87,
-    "speed": 52,
-    "stamina": 57,
-    "guts": 41
+    "control": 56,
+    "guard": 86,
+    "speed": 49,
+    "stamina": 59,
+    "guts": 43
    },
    "moves": [
     "burai-hand",
@@ -60,15 +60,15 @@
    "element": "wind",
    "level": 99,
    "fp": 130,
-   "tp": 119,
+   "tp": 122,
    "stats": {
-    "kick": 48,
-    "body": 64,
-    "control": 54,
-    "guard": 76,
-    "speed": 74,
-    "stamina": 57,
-    "guts": 50
+    "kick": 47,
+    "body": 63,
+    "control": 49,
+    "guard": 82,
+    "speed": 72,
+    "stamina": 59,
+    "guts": 51
    },
    "moves": [
     "air-bullet",
@@ -90,15 +90,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 93,
-   "tp": 148,
+   "fp": 91,
+   "tp": 142,
    "stats": {
-    "kick": 63,
-    "body": 63,
-    "control": 55,
-    "guard": 73,
-    "speed": 78,
-    "stamina": 54,
+    "kick": 54,
+    "body": 62,
+    "control": 50,
+    "guard": 79,
+    "speed": 76,
+    "stamina": 56,
     "guts": 55
    },
    "moves": [
@@ -122,16 +122,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 144,
-   "tp": 120,
+   "fp": 140,
+   "tp": 124,
    "stats": {
-    "kick": 50,
-    "body": 52,
-    "control": 76,
-    "guard": 69,
-    "speed": 59,
-    "stamina": 60,
-    "guts": 56
+    "kick": 51,
+    "body": 53,
+    "control": 82,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 57,
+    "guts": 55
    },
    "moves": [
     "spark-edge-dribble",
@@ -153,16 +153,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 114,
-   "tp": 147,
+   "fp": 110,
+   "tp": 142,
    "stats": {
-    "kick": 59,
-    "body": 61,
-    "control": 77,
-    "guard": 66,
-    "speed": 73,
-    "stamina": 58,
-    "guts": 54
+    "kick": 57,
+    "body": 62,
+    "control": 83,
+    "guard": 60,
+    "speed": 76,
+    "stamina": 55,
+    "guts": 52
    },
    "moves": [
     "spark-edge-dribble",
@@ -185,16 +185,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 165,
-   "tp": 103,
+   "fp": 160,
+   "tp": 114,
    "stats": {
-    "kick": 61,
-    "body": 48,
-    "control": 80,
-    "guard": 67,
-    "speed": 54,
-    "stamina": 77,
-    "guts": 46
+    "kick": 58,
+    "body": 49,
+    "control": 86,
+    "guard": 60,
+    "speed": 55,
+    "stamina": 73,
+    "guts": 45
    },
    "moves": [
     "endless-summer",
@@ -216,16 +216,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 136,
-   "tp": 99,
+   "fp": 132,
+   "tp": 111,
    "stats": {
-    "kick": 62,
-    "body": 57,
-    "control": 75,
-    "guard": 64,
-    "speed": 63,
-    "stamina": 64,
-    "guts": 44
+    "kick": 59,
+    "body": 58,
+    "control": 81,
+    "guard": 58,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 42
    },
    "moves": [
     "southern-crosscut",
@@ -247,16 +247,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 136,
+   "fp": 132,
    "tp": 131,
    "stats": {
-    "kick": 65,
-    "body": 60,
-    "control": 76,
-    "guard": 66,
-    "speed": 68,
-    "stamina": 55,
-    "guts": 47
+    "kick": 61,
+    "body": 61,
+    "control": 82,
+    "guard": 60,
+    "speed": 71,
+    "stamina": 52,
+    "guts": 46
    },
    "moves": [
     "southern-crosscut",
@@ -279,16 +279,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 99,
+   "fp": 100,
    "tp": 132,
    "stats": {
-    "kick": 75,
-    "body": 61,
-    "control": 76,
-    "guard": 61,
+    "kick": 87,
+    "body": 60,
+    "control": 70,
+    "guard": 54,
     "speed": 67,
     "stamina": 48,
-    "guts": 47
+    "guts": 45
    },
    "moves": [
     "inazuma-break",
@@ -311,16 +311,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 162,
+   "fp": 165,
    "tp": 132,
    "stats": {
-    "kick": 88,
+    "kick": 99,
     "body": 68,
-    "control": 79,
-    "guard": 49,
-    "speed": 64,
+    "control": 72,
+    "guard": 46,
+    "speed": 65,
     "stamina": 60,
-    "guts": 52
+    "guts": 51
    },
    "moves": [
     "beast-lord",
@@ -333,7 +333,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Garshah Wolfein",
-   "description": "Este guerrero parece salvaje, pero descendiente del gran clan Vulpeen."
+   "description": "Este guerrero parece salvaje, pero descendiente del gran clan Vulpeen.",
+   "captain": true
   },
   {
    "id": "luke-kayon",
@@ -343,16 +344,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 147,
-   "tp": 128,
+   "fp": 149,
+   "tp": 126,
    "stats": {
-    "kick": 81,
-    "body": 70,
-    "control": 80,
-    "guard": 65,
-    "speed": 60,
+    "kick": 92,
+    "body": 71,
+    "control": 73,
+    "guard": 57,
+    "speed": 61,
     "stamina": 56,
-    "guts": 36
+    "guts": 34
    },
    "moves": [
     "death-drop",
@@ -375,16 +376,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 162,
+   "fp": 165,
    "tp": 132,
    "stats": {
-    "kick": 88,
+    "kick": 99,
     "body": 68,
-    "control": 79,
-    "guard": 49,
-    "speed": 64,
+    "control": 72,
+    "guard": 46,
+    "speed": 65,
     "stamina": 60,
-    "guts": 52
+    "guts": 51
    },
    "moves": [
     "beast-lord",

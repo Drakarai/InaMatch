@@ -346,7 +346,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Saginuma Osamu",
-   "description": "Odia que las cosas no salgan tal y como las había planeado."
+   "description": "Odia que las cosas no salgan tal y como las había planeado.",
+   "captain": true
   },
   {
    "id": "dave-quagmire-desarm-cc",

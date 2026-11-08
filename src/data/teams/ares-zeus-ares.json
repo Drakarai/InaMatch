@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 178,
-   "tp": 169,
+   "fp": 140,
+   "tp": 91,
    "stats": {
-    "kick": 60,
+    "kick": 46,
     "body": 69,
-    "control": 59,
-    "guard": 35,
-    "speed": 78,
-    "stamina": 72,
-    "guts": 69
+    "control": 49,
+    "guard": 34,
+    "speed": 86,
+    "stamina": 61,
+    "guts": 50
    },
    "moves": [
     "tsunami-wall",
@@ -63,14 +63,14 @@
    "element": "wood",
    "level": 99,
    "fp": 148,
-   "tp": 121,
+   "tp": 124,
    "stats": {
-    "kick": 52,
-    "body": 52,
-    "control": 61,
-    "guard": 67,
-    "speed": 67,
-    "stamina": 53,
+    "kick": 48,
+    "body": 51,
+    "control": 54,
+    "guard": 74,
+    "speed": 65,
+    "stamina": 55,
     "guts": 63
    },
    "moves": [
@@ -94,16 +94,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "sabaki-no-tettsui",
@@ -127,15 +127,15 @@
    "element": "earth",
    "level": 99,
    "fp": 163,
-   "tp": 112,
+   "tp": 118,
    "stats": {
-    "kick": 69,
-    "body": 61,
-    "control": 60,
-    "guard": 66,
-    "speed": 39,
-    "stamina": 68,
-    "guts": 50
+    "kick": 57,
+    "body": 60,
+    "control": 53,
+    "guard": 74,
+    "speed": 38,
+    "stamina": 72,
+    "guts": 51
    },
    "moves": [
     "sabaki-no-tettsui",
@@ -159,14 +159,14 @@
    "element": "wind",
    "level": 99,
    "fp": 163,
-   "tp": 97,
+   "tp": 108,
    "stats": {
-    "kick": 46,
-    "body": 47,
-    "control": 42,
-    "guard": 67,
-    "speed": 45,
-    "stamina": 62,
+    "kick": 45,
+    "body": 46,
+    "control": 40,
+    "guard": 74,
+    "speed": 43,
+    "stamina": 64,
     "guts": 63
    },
    "moves": [
@@ -190,16 +190,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 126,
-   "tp": 120,
+   "fp": 122,
+   "tp": 124,
    "stats": {
-    "kick": 51,
-    "body": 49,
-    "control": 60,
-    "guard": 52,
-    "speed": 67,
-    "stamina": 47,
-    "guts": 55
+    "kick": 52,
+    "body": 50,
+    "control": 69,
+    "guard": 50,
+    "speed": 69,
+    "stamina": 45,
+    "guts": 53
    },
    "moves": [
     "heaven-s-time",
@@ -222,16 +222,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 131,
-   "tp": 85,
+   "fp": 127,
+   "tp": 102,
    "stats": {
-    "kick": 56,
-    "body": 53,
-    "control": 59,
-    "guard": 58,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 53
+    "kick": 55,
+    "body": 54,
+    "control": 67,
+    "guard": 54,
+    "speed": 60,
+    "stamina": 60,
+    "guts": 51
    },
    "moves": [
     "heaven-s-time",
@@ -254,16 +254,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 150,
-   "tp": 113,
+   "fp": 145,
+   "tp": 120,
    "stats": {
-    "kick": 60,
-    "body": 57,
-    "control": 65,
-    "guard": 54,
-    "speed": 56,
-    "stamina": 55,
-    "guts": 74
+    "kick": 57,
+    "body": 58,
+    "control": 73,
+    "guard": 51,
+    "speed": 58,
+    "stamina": 52,
+    "guts": 72
    },
    "moves": [
     "dash-storm",
@@ -286,16 +286,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 179,
-   "tp": 142,
+   "fp": 174,
+   "tp": 138,
    "stats": {
-    "kick": 80,
-    "body": 72,
-    "control": 73,
-    "guard": 65,
-    "speed": 63,
-    "stamina": 52,
-    "guts": 64
+    "kick": 70,
+    "body": 73,
+    "control": 80,
+    "guard": 59,
+    "speed": 65,
+    "stamina": 49,
+    "guts": 62
    },
    "moves": [
     "god-knows-impact",
@@ -308,7 +308,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Afuro Terumi",
-   "description": "Cautiva a sus rivales con su gracia artística y juega con el aura de un ser divino."
+   "description": "Cautiva a sus rivales con su gracia artística y juega con el aura de un ser divino.",
+   "captain": true
   },
   {
    "id": "jonas-demetrius",
@@ -318,16 +319,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 124,
-   "tp": 122,
+   "fp": 125,
+   "tp": 116,
    "stats": {
-    "kick": 66,
-    "body": 60,
+    "kick": 78,
+    "body": 59,
     "control": 58,
-    "guard": 48,
-    "speed": 49,
+    "guard": 46,
+    "speed": 50,
     "stamina": 48,
-    "guts": 54
+    "guts": 53
    },
    "moves": [
     "reflect-buster",
@@ -350,16 +351,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 91,
-   "tp": 108,
+   "fp": 90,
+   "tp": 111,
    "stats": {
-    "kick": 78,
-    "body": 46,
-    "control": 70,
-    "guard": 50,
-    "speed": 59,
-    "stamina": 45,
-    "guts": 67
+    "kick": 85,
+    "body": 47,
+    "control": 68,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "tenkuu-no-yaiba",
@@ -382,16 +383,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 111,
+   "tp": 117,
    "stats": {
-    "kick": 54,
-    "body": 62,
-    "control": 51,
-    "guard": 59,
-    "speed": 53,
-    "stamina": 61,
-    "guts": 53
+    "kick": 76,
+    "body": 51,
+    "control": 63,
+    "guard": 52,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 58
    },
    "moves": [
     "maboroshi-dribble",
@@ -414,16 +415,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "dash-accel",

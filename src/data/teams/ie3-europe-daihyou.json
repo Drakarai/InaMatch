@@ -342,7 +342,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Fidio Aldena",
-   "description": "¡El delantero estrella conocido como el \"Meteoro Blanco\" italiano!"
+   "description": "¡El delantero estrella conocido como el \"Meteoro Blanco\" italiano!",
+   "captain": true
   },
   {
    "id": "samuel-mayo",

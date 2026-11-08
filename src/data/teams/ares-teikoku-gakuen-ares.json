@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 153,
-   "tp": 138,
+   "fp": 156,
+   "tp": 141,
    "stats": {
-    "kick": 49,
+    "kick": 43,
     "body": 53,
-    "control": 51,
-    "guard": 70,
-    "speed": 51,
-    "stamina": 65,
-    "guts": 55
+    "control": 45,
+    "guard": 69,
+    "speed": 48,
+    "stamina": 66,
+    "guts": 57
    },
    "moves": [
     "full-power-shield",
@@ -61,16 +61,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "earthquake",
@@ -93,16 +93,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "cyclone",
@@ -125,16 +125,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 102,
-   "tp": 119,
+   "fp": 101,
+   "tp": 122,
    "stats": {
-    "kick": 50,
-    "body": 86,
-    "control": 59,
-    "guard": 67,
-    "speed": 62,
-    "stamina": 64,
-    "guts": 60
+    "kick": 48,
+    "body": 85,
+    "control": 52,
+    "guard": 74,
+    "speed": 60,
+    "stamina": 66,
+    "guts": 61
    },
    "moves": [
     "killer-slide",
@@ -158,14 +158,14 @@
    "element": "wind",
    "level": 99,
    "fp": 130,
-   "tp": 121,
+   "tp": 124,
    "stats": {
-    "kick": 54,
-    "body": 47,
-    "control": 69,
-    "guard": 67,
-    "speed": 89,
-    "stamina": 59,
+    "kick": 49,
+    "body": 46,
+    "control": 60,
+    "guard": 74,
+    "speed": 86,
+    "stamina": 61,
     "guts": 67
    },
    "moves": [
@@ -189,16 +189,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "killer-slide",
@@ -221,16 +221,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "killer-slide",
@@ -253,16 +253,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "killer-slide",
@@ -285,16 +285,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "bunshin-feint",
@@ -317,16 +317,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "hyakuretsu-shot",
@@ -349,16 +349,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 124,
+   "fp": 125,
    "tp": 132,
    "stats": {
-    "kick": 68,
-    "body": 61,
-    "control": 62,
-    "guard": 61,
-    "speed": 61,
-    "stamina": 42,
-    "guts": 56
+    "kick": 80,
+    "body": 60,
+    "control": 61,
+    "guard": 54,
+    "speed": 62,
+    "stamina": 41,
+    "guts": 55
    },
    "moves": [
     "koutei-penguin-2gou",
@@ -371,7 +371,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Sakuma Jirou",
-   "description": "Un delantero con un arsenal de disparos letales. La siempre fiable mano derecha de Jude."
+   "description": "Un delantero con un arsenal de disparos letales. La siempre fiable mano derecha de Jude.",
+   "captain": true
   },
   {
    "id": "grotley-bogwash",
@@ -381,16 +382,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "kogarashi",
@@ -413,16 +414,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 160,
-   "tp": 146,
+   "fp": 155,
+   "tp": 141,
    "stats": {
-    "kick": 87,
+    "kick": 74,
     "body": 82,
-    "control": 58,
-    "guard": 68,
-    "speed": 53,
-    "stamina": 43,
-    "guts": 60
+    "control": 66,
+    "guard": 61,
+    "speed": 54,
+    "stamina": 41,
+    "guts": 58
    },
    "moves": [
     "killer-slide",
@@ -445,16 +446,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "killer-slide",
@@ -477,16 +478,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 179,
-   "tp": 135,
+   "fp": 174,
+   "tp": 134,
    "stats": {
-    "kick": 73,
-    "body": 72,
-    "control": 73,
-    "guard": 63,
-    "speed": 60,
-    "stamina": 65,
-    "guts": 60
+    "kick": 65,
+    "body": 73,
+    "control": 80,
+    "guard": 58,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 58
    },
    "moves": [
     "killer-slide",

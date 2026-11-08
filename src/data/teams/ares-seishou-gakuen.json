@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 162,
-   "tp": 158,
+   "fp": 138,
+   "tp": 88,
    "stats": {
-    "kick": 69,
+    "kick": 47,
     "body": 69,
-    "control": 67,
+    "control": 50,
     "guard": 75,
-    "speed": 56,
-    "stamina": 68,
-    "guts": 69
+    "speed": 81,
+    "stamina": 60,
+    "guts": 50
    },
    "moves": [
     "moja-catch",
@@ -61,16 +61,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 181,
+   "tp": 139,
    "stats": {
-    "kick": 50,
-    "body": 70,
-    "control": 50,
-    "guard": 70,
-    "speed": 55,
-    "stamina": 60,
-    "guts": 60
+    "kick": 45,
+    "body": 72,
+    "control": 44,
+    "guard": 77,
+    "speed": 61,
+    "stamina": 72,
+    "guts": 51
    },
    "moves": [
     "spinning-cut",
@@ -93,16 +93,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "angel-ray",
@@ -125,16 +125,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "killer-slide",
@@ -157,16 +157,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 135,
-   "tp": 172,
+   "fp": 181,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 61,
-    "control": 72,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 57,
-    "guts": 65
+    "kick": 48,
+    "body": 70,
+    "control": 47,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 70,
+    "guts": 53
    },
    "moves": [
     "zone-of-pentagram",
@@ -177,7 +177,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Mizukamiya Seiryuu",
-   "description": "Todo un estratega que siempre mantiene la calma. Es el pegamento que mantiene unido al equipo."
+   "description": "Todo un estratega que siempre mantiene la calma. Es el pegamento que mantiene unido al equipo.",
+   "captain": true
   },
   {
    "id": "jimmy-nigh",
@@ -187,16 +188,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "judge-through",
@@ -219,16 +220,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "zone-of-pentagram",
@@ -251,16 +252,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "angel-ray",
@@ -283,16 +284,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "death-zone",
@@ -315,16 +316,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "death-zone",
@@ -347,16 +348,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 190,
-   "tp": 216,
+   "fp": 125,
+   "tp": 141,
    "stats": {
-    "kick": 63,
-    "body": 74,
-    "control": 66,
-    "guard": 76,
-    "speed": 84,
-    "stamina": 72,
-    "guts": 67
+    "kick": 80,
+    "body": 54,
+    "control": 67,
+    "guard": 57,
+    "speed": 57,
+    "stamina": 54,
+    "guts": 61
    },
    "moves": [
     "overhead-penguin",
@@ -377,16 +378,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "zone-of-pentagram",
@@ -409,16 +410,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 91,
-   "tp": 108,
+   "fp": 90,
+   "tp": 111,
    "stats": {
-    "kick": 78,
-    "body": 46,
-    "control": 70,
-    "guard": 50,
-    "speed": 59,
-    "stamina": 45,
-    "guts": 67
+    "kick": 85,
+    "body": 47,
+    "control": 68,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "reflect-buster",
@@ -441,16 +442,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 178,
-   "tp": 169,
+   "fp": 140,
+   "tp": 91,
    "stats": {
-    "kick": 60,
+    "kick": 46,
     "body": 69,
-    "control": 59,
-    "guard": 35,
-    "speed": 78,
-    "stamina": 72,
-    "guts": 69
+    "control": 49,
+    "guard": 34,
+    "speed": 86,
+    "stamina": 61,
+    "guts": 50
    },
    "moves": [
     "volcano-cut",
@@ -473,16 +474,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "quick-draw",
@@ -505,16 +506,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 184,
-   "tp": 142,
+   "fp": 179,
+   "tp": 138,
    "stats": {
-    "kick": 73,
+    "kick": 65,
     "body": 74,
-    "control": 76,
-    "guard": 63,
-    "speed": 56,
-    "stamina": 64,
-    "guts": 64
+    "control": 82,
+    "guard": 58,
+    "speed": 58,
+    "stamina": 60,
+    "guts": 62
    },
    "moves": [
     "illusion-ball",

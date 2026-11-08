@@ -45,7 +45,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Hibiki Seigou",
-   "description": "Tiene un bar de fideos, pero antaño fue la piedra angular del Inazuma."
+   "description": "Tiene un bar de fideos, pero antaño fue la piedra angular del Inazuma.",
+   "captain": true
   },
   {
    "id": "charles-island",
@@ -372,16 +373,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [],
    "look": {

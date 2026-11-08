@@ -47,7 +47,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Endou Mamoru",
-   "description": "El enérgico capitán del Raimon. ¡Es famoso por no rendirse jamás!"
+   "description": "El enérgico capitán del Raimon. ¡Es famoso por no rendirse jamás!",
+   "captain": true
   },
   {
    "id": "nathan-swift",

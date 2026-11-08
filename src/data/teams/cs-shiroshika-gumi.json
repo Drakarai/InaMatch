@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 112,
-   "tp": 107,
+   "fp": 116,
+   "tp": 122,
    "stats": {
-    "kick": 52,
+    "kick": 45,
     "body": 54,
-    "control": 54,
-    "guard": 66,
-    "speed": 42,
-    "stamina": 72,
-    "guts": 65
+    "control": 46,
+    "guard": 65,
+    "speed": 41,
+    "stamina": 73,
+    "guts": 67
    },
    "moves": [
     "abare-guruma",
@@ -60,14 +60,14 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 93,
-   "tp": 88,
+   "fp": 91,
+   "tp": 102,
    "stats": {
-    "kick": 54,
-    "body": 65,
-    "control": 50,
-    "guard": 56,
-    "speed": 57,
+    "kick": 49,
+    "body": 64,
+    "control": 46,
+    "guard": 66,
+    "speed": 55,
     "stamina": 38,
     "guts": 66
    },
@@ -93,14 +93,14 @@
    "element": "earth",
    "level": 99,
    "fp": 125,
-   "tp": 73,
+   "tp": 92,
    "stats": {
-    "kick": 63,
-    "body": 54,
-    "control": 58,
-    "guard": 60,
-    "speed": 50,
-    "stamina": 63,
+    "kick": 54,
+    "body": 53,
+    "control": 51,
+    "guard": 69,
+    "speed": 48,
+    "stamina": 66,
     "guts": 54
    },
    "moves": [
@@ -124,13 +124,13 @@
    "element": "fire",
    "level": 99,
    "fp": 135,
-   "tp": 60,
+   "tp": 80,
    "stats": {
-    "kick": 55,
-    "body": 76,
-    "control": 55,
-    "guard": 48,
-    "speed": 56,
+    "kick": 50,
+    "body": 74,
+    "control": 50,
+    "guard": 60,
+    "speed": 54,
     "stamina": 39,
     "guts": 62
    },
@@ -155,16 +155,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 120,
-   "tp": 74,
+   "fp": 117,
+   "tp": 95,
    "stats": {
-    "kick": 57,
+    "kick": 56,
     "body": 66,
-    "control": 56,
-    "guard": 58,
-    "speed": 55,
-    "stamina": 65,
-    "guts": 55
+    "control": 65,
+    "guard": 54,
+    "speed": 56,
+    "stamina": 62,
+    "guts": 53
    },
    "moves": [
     "tsubame-gaeshi",
@@ -186,16 +186,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 86,
-   "tp": 103,
+   "fp": 83,
+   "tp": 114,
    "stats": {
     "kick": 54,
     "body": 68,
-    "control": 55,
-    "guard": 59,
-    "speed": 59,
-    "stamina": 43,
-    "guts": 53
+    "control": 64,
+    "guard": 55,
+    "speed": 60,
+    "stamina": 41,
+    "guts": 51
    },
    "moves": [
     "tsubame-gaeshi",
@@ -218,16 +218,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 96,
-   "tp": 88,
+   "fp": 93,
+   "tp": 104,
    "stats": {
     "kick": 53,
-    "body": 54,
-    "control": 57,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 56,
-    "guts": 63
+    "body": 55,
+    "control": 66,
+    "guard": 50,
+    "speed": 58,
+    "stamina": 53,
+    "guts": 61
    },
    "moves": [
     "tsubame-gaeshi",
@@ -248,16 +248,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 131,
-   "tp": 99,
+   "fp": 127,
+   "tp": 111,
    "stats": {
-    "kick": 59,
-    "body": 57,
-    "control": 60,
-    "guard": 60,
-    "speed": 31,
-    "stamina": 59,
-    "guts": 65
+    "kick": 57,
+    "body": 58,
+    "control": 69,
+    "guard": 55,
+    "speed": 30,
+    "stamina": 56,
+    "guts": 63
    },
    "moves": [
     "tsubame-gaeshi",
@@ -279,16 +279,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 83,
-   "tp": 81,
+   "fp": 80,
+   "tp": 100,
    "stats": {
-    "kick": 56,
-    "body": 56,
-    "control": 56,
-    "guard": 52,
-    "speed": 64,
-    "stamina": 50,
-    "guts": 59
+    "kick": 55,
+    "body": 57,
+    "control": 65,
+    "guard": 50,
+    "speed": 66,
+    "stamina": 48,
+    "guts": 57
    },
    "moves": [
     "tsubame-gaeshi",
@@ -311,16 +311,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 119,
-   "tp": 118,
+   "fp": 120,
+   "tp": 110,
    "stats": {
-    "kick": 60,
+    "kick": 73,
     "body": 69,
-    "control": 62,
-    "guard": 65,
+    "control": 61,
+    "guard": 57,
     "speed": 58,
-    "stamina": 50,
-    "guts": 40
+    "stamina": 49,
+    "guts": 38
    },
    "moves": [
     "hinawa-bullet",
@@ -333,7 +333,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Inaba Taian",
-   "description": "El líder del Ciervo Blanco es un tipo cruel, capaz de robarle a un niño."
+   "description": "El líder del Ciervo Blanco es un tipo cruel, capaz de robarle a un niño.",
+   "captain": true
   },
   {
    "id": "korin-maebayashi",
@@ -343,14 +344,14 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 119,
-   "tp": 123,
+   "fp": 120,
+   "tp": 118,
    "stats": {
-    "kick": 59,
-    "body": 61,
-    "control": 60,
-    "guard": 55,
-    "speed": 64,
+    "kick": 72,
+    "body": 60,
+    "control": 59,
+    "guard": 51,
+    "speed": 65,
     "stamina": 55,
     "guts": 64
    },
@@ -374,16 +375,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 112,
-   "tp": 92,
+   "fp": 116,
+   "tp": 113,
    "stats": {
-    "kick": 45,
+    "kick": 42,
     "body": 57,
-    "control": 50,
+    "control": 45,
     "guard": 56,
-    "speed": 48,
-    "stamina": 49,
-    "guts": 58
+    "speed": 46,
+    "stamina": 51,
+    "guts": 61
    },
    "moves": [
     "abare-guruma",
@@ -406,15 +407,15 @@
    "element": "fire",
    "level": 99,
    "fp": 130,
-   "tp": 60,
+   "tp": 83,
    "stats": {
-    "kick": 50,
-    "body": 52,
-    "control": 48,
-    "guard": 55,
-    "speed": 49,
-    "stamina": 66,
-    "guts": 60
+    "kick": 48,
+    "body": 51,
+    "control": 45,
+    "guard": 66,
+    "speed": 47,
+    "stamina": 69,
+    "guts": 61
    },
    "moves": [
     "tsubame-gaeshi",
@@ -436,16 +437,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 78,
-   "tp": 81,
+   "fp": 75,
+   "tp": 100,
    "stats": {
     "kick": 53,
-    "body": 57,
-    "control": 55,
-    "guard": 53,
-    "speed": 60,
-    "stamina": 50,
-    "guts": 69
+    "body": 58,
+    "control": 64,
+    "guard": 50,
+    "speed": 61,
+    "stamina": 48,
+    "guts": 67
    },
    "moves": [
     "shippuu-dash",
@@ -468,15 +469,15 @@
    "element": "fire",
    "level": 99,
    "fp": 101,
-   "tp": 111,
+   "tp": 99,
    "stats": {
-    "kick": 57,
-    "body": 48,
-    "control": 54,
-    "guard": 61,
+    "kick": 70,
+    "body": 46,
+    "control": 55,
+    "guard": 54,
     "speed": 57,
     "stamina": 47,
-    "guts": 61
+    "guts": 60
    },
    "moves": [
     "hinawa-bullet",
@@ -498,16 +499,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 109,
-   "tp": 114,
+   "fp": 110,
+   "tp": 104,
    "stats": {
-    "kick": 57,
-    "body": 46,
-    "control": 55,
-    "guard": 39,
-    "speed": 59,
-    "stamina": 63,
-    "guts": 55
+    "kick": 70,
+    "body": 44,
+    "control": 56,
+    "guard": 40,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 54
    },
    "moves": [
     "hinawa-bullet",

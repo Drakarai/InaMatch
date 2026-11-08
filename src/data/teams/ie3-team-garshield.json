@@ -117,7 +117,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Lubbock Henktacker",
-   "description": "Este jugador orondo y astuto siempre lleva una sonrisa audaz en la cara."
+   "description": "Este jugador orondo y astuto siempre lleva una sonrisa audaz en la cara.",
+   "captain": true
   },
   {
    "id": "buddy-plains",

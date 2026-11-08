@@ -338,7 +338,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Edgar Valtinas",
-   "description": "Un líder callado, pero fuerte. Es tan hábil como popular."
+   "description": "Un líder callado, pero fuerte. Es tan hábil como popular.",
+   "captain": true
   },
   {
    "id": "phillip-owen",

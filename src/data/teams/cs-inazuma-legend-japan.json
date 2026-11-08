@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 123,
+   "fp": 126,
    "tp": 148,
    "stats": {
-    "kick": 78,
-    "body": 74,
-    "control": 50,
-    "guard": 85,
-    "speed": 52,
-    "stamina": 72,
-    "guts": 69
+    "kick": 56,
+    "body": 73,
+    "control": 45,
+    "guard": 84,
+    "speed": 49,
+    "stamina": 73,
+    "guts": 72
    },
    "moves": [
     "god-hand",
@@ -51,7 +51,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Endou Mamoru",
-   "description": "El enérgico capitán del Raimon, famoso por no rendirse jamás."
+   "description": "El enérgico capitán del Raimon, famoso por no rendirse jamás.",
+   "captain": true
   },
   {
    "id": "nathan-swift",
@@ -61,15 +62,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 112,
+   "fp": 106,
+   "tp": 118,
    "stats": {
-    "kick": 54,
-    "body": 52,
-    "control": 61,
-    "guard": 67,
-    "speed": 89,
-    "stamina": 59,
+    "kick": 49,
+    "body": 51,
+    "control": 54,
+    "guard": 74,
+    "speed": 86,
+    "stamina": 61,
     "guts": 63
    },
    "moves": [
@@ -92,15 +93,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 171,
-   "tp": 115,
+   "fp": 172,
+   "tp": 120,
    "stats": {
-    "kick": 47,
-    "body": 52,
-    "control": 44,
-    "guard": 77,
-    "speed": 34,
-    "stamina": 56,
+    "kick": 46,
+    "body": 51,
+    "control": 42,
+    "guard": 82,
+    "speed": 32,
+    "stamina": 58,
     "guts": 67
    },
    "moves": [
@@ -124,16 +125,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 167,
-   "tp": 119,
+   "fp": 168,
+   "tp": 122,
    "stats": {
-    "kick": 89,
-    "body": 49,
-    "control": 62,
-    "guard": 66,
-    "speed": 61,
-    "stamina": 59,
-    "guts": 45
+    "kick": 68,
+    "body": 47,
+    "control": 55,
+    "guard": 74,
+    "speed": 59,
+    "stamina": 61,
+    "guts": 46
    },
    "moves": [
     "the-typhoon",
@@ -156,16 +157,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 157,
+   "fp": 160,
    "tp": 132,
    "stats": {
-    "kick": 77,
+    "kick": 89,
     "body": 64,
-    "control": 66,
-    "guard": 58,
-    "speed": 55,
+    "control": 63,
+    "guard": 52,
+    "speed": 56,
     "stamina": 69,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "bakunetsu-screw",
@@ -188,16 +189,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 165,
-   "tp": 124,
+   "fp": 160,
+   "tp": 127,
    "stats": {
-    "kick": 70,
+    "kick": 64,
     "body": 67,
-    "control": 70,
-    "guard": 63,
-    "speed": 57,
-    "stamina": 62,
-    "guts": 50
+    "control": 77,
+    "guard": 58,
+    "speed": 59,
+    "stamina": 59,
+    "guts": 48
    },
    "moves": [
     "killer-slide",
@@ -220,16 +221,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 155,
-   "tp": 124,
+   "fp": 150,
+   "tp": 127,
    "stats": {
-    "kick": 72,
+    "kick": 65,
     "body": 71,
-    "control": 67,
-    "guard": 63,
-    "speed": 56,
-    "stamina": 58,
-    "guts": 61
+    "control": 75,
+    "guard": 58,
+    "speed": 58,
+    "stamina": 55,
+    "guts": 60
    },
    "moves": [
     "illusion-ball",
@@ -252,16 +253,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 124,
+   "fp": 125,
    "tp": 132,
    "stats": {
-    "kick": 68,
-    "body": 61,
-    "control": 62,
-    "guard": 61,
-    "speed": 61,
-    "stamina": 42,
-    "guts": 56
+    "kick": 80,
+    "body": 60,
+    "control": 61,
+    "guard": 54,
+    "speed": 62,
+    "stamina": 41,
+    "guts": 55
    },
    "moves": [
     "koutei-penguin-7",
@@ -283,16 +284,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 147,
-   "tp": 125,
+   "fp": 149,
+   "tp": 122,
    "stats": {
-    "kick": 69,
-    "body": 75,
+    "kick": 81,
+    "body": 76,
     "control": 58,
-    "guard": 67,
+    "guard": 58,
     "speed": 57,
     "stamina": 55,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "ryuusei-blade",
@@ -314,16 +315,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 162,
-   "tp": 122,
+   "fp": 165,
+   "tp": 116,
    "stats": {
-    "kick": 68,
+    "kick": 80,
     "body": 58,
-    "control": 43,
-    "guard": 45,
-    "speed": 49,
+    "control": 48,
+    "guard": 44,
+    "speed": 50,
     "stamina": 73,
-    "guts": 52
+    "guts": 51
    },
    "moves": [
     "denrai-houtou",
@@ -345,16 +346,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 147,
+   "fp": 149,
    "tp": 133,
    "stats": {
-    "kick": 75,
+    "kick": 87,
     "body": 63,
-    "control": 68,
-    "guard": 75,
-    "speed": 63,
+    "control": 65,
+    "guard": 64,
+    "speed": 64,
     "stamina": 53,
-    "guts": 52
+    "guts": 51
    },
    "moves": [
     "eternal-blizzard",

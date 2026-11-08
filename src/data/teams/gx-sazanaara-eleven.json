@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 107,
-   "tp": 138,
+   "fp": 111,
+   "tp": 141,
    "stats": {
-    "kick": 41,
+    "kick": 40,
     "body": 75,
-    "control": 55,
+    "control": 47,
     "guard": 68,
-    "speed": 70,
-    "stamina": 63,
-    "guts": 51
+    "speed": 64,
+    "stamina": 64,
+    "guts": 53
    },
    "moves": [
     "aqua-breath",
@@ -61,15 +61,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 110,
-   "tp": 115,
+   "fp": 109,
+   "tp": 120,
    "stats": {
-    "kick": 40,
-    "body": 60,
-    "control": 50,
-    "guard": 64,
-    "speed": 67,
-    "stamina": 53,
+    "kick": 43,
+    "body": 59,
+    "control": 46,
+    "guard": 72,
+    "speed": 65,
+    "stamina": 55,
     "guts": 59
    },
    "moves": [
@@ -93,15 +93,15 @@
    "element": "earth",
    "level": 99,
    "fp": 143,
-   "tp": 119,
+   "tp": 122,
    "stats": {
-    "kick": 50,
-    "body": 62,
-    "control": 48,
-    "guard": 66,
-    "speed": 65,
-    "stamina": 62,
-    "guts": 46
+    "kick": 48,
+    "body": 61,
+    "control": 45,
+    "guard": 74,
+    "speed": 63,
+    "stamina": 64,
+    "guts": 47
    },
    "moves": [
     "waterfall",
@@ -124,16 +124,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 114,
-   "tp": 167,
+   "fp": 110,
+   "tp": 154,
    "stats": {
-    "kick": 55,
-    "body": 64,
-    "control": 75,
-    "guard": 58,
-    "speed": 87,
-    "stamina": 49,
-    "guts": 70
+    "kick": 54,
+    "body": 65,
+    "control": 81,
+    "guard": 54,
+    "speed": 90,
+    "stamina": 47,
+    "guts": 68
    },
    "moves": [
     "liquid-flow",
@@ -155,16 +155,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 122,
-   "tp": 159,
+   "fp": 118,
+   "tp": 149,
    "stats": {
-    "kick": 50,
-    "body": 56,
-    "control": 69,
-    "guard": 62,
-    "speed": 66,
-    "stamina": 59,
-    "guts": 69
+    "kick": 51,
+    "body": 57,
+    "control": 76,
+    "guard": 57,
+    "speed": 68,
+    "stamina": 56,
+    "guts": 67
    },
    "moves": [
     "liquid-flow",
@@ -176,7 +176,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Powai Pichori",
-   "description": "Capitana de Los Naiadi. Decide su jugada viendo el pensamiento del rival."
+   "description": "Capitana de Los Naiadi. Decide su jugada viendo el pensamiento del rival.",
+   "captain": true
   },
   {
    "id": "puddel",
@@ -186,16 +187,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 100,
-   "tp": 135,
+   "fp": 97,
+   "tp": 134,
    "stats": {
-    "kick": 68,
-    "body": 60,
-    "control": 67,
-    "guard": 60,
-    "speed": 67,
-    "stamina": 52,
-    "guts": 58
+    "kick": 63,
+    "body": 61,
+    "control": 75,
+    "guard": 55,
+    "speed": 69,
+    "stamina": 49,
+    "guts": 56
    },
    "moves": [
     "liquid-flow",
@@ -217,16 +218,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 91,
+   "fp": 88,
    "tp": 131,
    "stats": {
-    "kick": 62,
-    "body": 57,
-    "control": 62,
-    "guard": 61,
-    "speed": 62,
-    "stamina": 52,
-    "guts": 51
+    "kick": 59,
+    "body": 58,
+    "control": 71,
+    "guard": 56,
+    "speed": 64,
+    "stamina": 49,
+    "guts": 49
    },
    "moves": [
     "liquid-flow",
@@ -248,16 +249,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 100,
-   "tp": 143,
+   "fp": 97,
+   "tp": 139,
    "stats": {
-    "kick": 57,
-    "body": 60,
-    "control": 65,
-    "guard": 59,
-    "speed": 67,
-    "stamina": 49,
-    "guts": 70
+    "kick": 56,
+    "body": 61,
+    "control": 73,
+    "guard": 55,
+    "speed": 69,
+    "stamina": 47,
+    "guts": 69
    },
    "moves": [
     "liquid-flow",
@@ -280,14 +281,14 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 119,
-   "tp": 123,
+   "fp": 120,
+   "tp": 118,
    "stats": {
-    "kick": 63,
+    "kick": 76,
     "body": 56,
-    "control": 66,
-    "guard": 58,
-    "speed": 69,
+    "control": 63,
+    "guard": 52,
+    "speed": 70,
     "stamina": 60,
     "guts": 64
    },
@@ -312,16 +313,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 134,
-   "tp": 124,
+   "fp": 136,
+   "tp": 120,
    "stats": {
-    "kick": 67,
-    "body": 60,
-    "control": 64,
-    "guard": 54,
-    "speed": 63,
-    "stamina": 66,
-    "guts": 55
+    "kick": 79,
+    "body": 59,
+    "control": 62,
+    "guard": 50,
+    "speed": 64,
+    "stamina": 65,
+    "guts": 54
    },
    "moves": [
     "bubble-boil",
@@ -343,16 +344,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 166,
-   "tp": 118,
+   "fp": 170,
+   "tp": 110,
    "stats": {
-    "kick": 68,
-    "body": 54,
-    "control": 61,
-    "guard": 45,
-    "speed": 55,
-    "stamina": 71,
-    "guts": 52
+    "kick": 80,
+    "body": 53,
+    "control": 60,
+    "guard": 44,
+    "speed": 56,
+    "stamina": 70,
+    "guts": 51
    },
    "moves": [
     "bubble-boil",
@@ -375,16 +376,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "maboroshi-dribble",

@@ -91,7 +91,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Windy Fasta",
-   "description": "Es un viejo amigo de Hector. Es rápido como el viento a la hora de marcar al adversario."
+   "description": "Es un viejo amigo de Hector. Es rápido como el viento a la hora de marcar al adversario.",
+   "captain": true
   },
   {
    "id": "jimi-gaines",

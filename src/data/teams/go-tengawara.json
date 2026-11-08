@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 103,
-   "tp": 178,
+   "fp": 107,
+   "tp": 165,
    "stats": {
-    "kick": 49,
+    "kick": 43,
     "body": 46,
-    "control": 51,
-    "guard": 78,
-    "speed": 49,
-    "stamina": 43,
-    "guts": 55
+    "control": 45,
+    "guard": 77,
+    "speed": 47,
+    "stamina": 46,
+    "guts": 57
    },
    "moves": [
     "rapid-whip",
@@ -60,16 +60,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 122,
-   "tp": 159,
+   "fp": 121,
+   "tp": 149,
    "stats": {
-    "kick": 51,
-    "body": 52,
-    "control": 65,
-    "guard": 65,
-    "speed": 58,
-    "stamina": 55,
-    "guts": 54
+    "kick": 48,
+    "body": 51,
+    "control": 57,
+    "guard": 73,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 55
    },
    "moves": [
     "elephant-press",
@@ -91,15 +91,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 104,
-   "tp": 177,
+   "fp": 103,
+   "tp": 162,
    "stats": {
-    "kick": 54,
-    "body": 76,
-    "control": 64,
-    "guard": 50,
-    "speed": 60,
-    "stamina": 56,
+    "kick": 50,
+    "body": 75,
+    "control": 56,
+    "guard": 61,
+    "speed": 58,
+    "stamina": 58,
     "guts": 59
    },
    "moves": [
@@ -122,16 +122,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 171,
-   "tp": 153,
+   "fp": 172,
+   "tp": 146,
    "stats": {
-    "kick": 56,
-    "body": 52,
-    "control": 50,
-    "guard": 69,
-    "speed": 51,
-    "stamina": 61,
-    "guts": 64
+    "kick": 50,
+    "body": 51,
+    "control": 46,
+    "guard": 76,
+    "speed": 49,
+    "stamina": 63,
+    "guts": 65
    },
    "moves": [
     "mad-juggler",
@@ -153,16 +153,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 153,
-   "tp": 177,
+   "fp": 149,
+   "tp": 161,
    "stats": {
-    "kick": 52,
-    "body": 57,
-    "control": 47,
+    "kick": 53,
+    "body": 58,
+    "control": 57,
     "guard": 43,
-    "speed": 74,
-    "stamina": 58,
-    "guts": 58
+    "speed": 77,
+    "stamina": 56,
+    "guts": 56
    },
    "moves": [
     "mad-juggler",
@@ -183,16 +183,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 126,
-   "tp": 152,
+   "fp": 122,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 51,
-    "control": 47,
-    "guard": 51,
-    "speed": 72,
-    "stamina": 61,
-    "guts": 53
+    "kick": 62,
+    "body": 52,
+    "control": 58,
+    "guard": 49,
+    "speed": 75,
+    "stamina": 58,
+    "guts": 52
    },
    "moves": [
     "mad-juggler",
@@ -215,16 +215,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 108,
-   "tp": 178,
+   "fp": 105,
+   "tp": 161,
    "stats": {
     "kick": 53,
     "body": 71,
-    "control": 56,
-    "guard": 58,
-    "speed": 53,
-    "stamina": 55,
-    "guts": 60
+    "control": 65,
+    "guard": 54,
+    "speed": 54,
+    "stamina": 52,
+    "guts": 58
    },
    "moves": [
     "mad-juggler",
@@ -246,16 +246,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 175,
-   "tp": 118,
+   "fp": 170,
+   "tp": 123,
    "stats": {
     "kick": 53,
     "body": 66,
-    "control": 68,
-    "guard": 62,
-    "speed": 58,
-    "stamina": 55,
-    "guts": 58
+    "control": 75,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 56
    },
    "moves": [
     "head-bazooka",
@@ -277,14 +277,14 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 105,
-   "tp": 150,
+   "fp": 106,
+   "tp": 161,
    "stats": {
-    "kick": 63,
+    "kick": 76,
     "body": 61,
-    "control": 63,
-    "guard": 70,
-    "speed": 47,
+    "control": 61,
+    "guard": 60,
+    "speed": 48,
     "stamina": 46,
     "guts": 64
    },
@@ -298,7 +298,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Kita Ichiban",
-   "description": "Destaca por su educación y su saber estar, pero no soporta los abusos."
+   "description": "Destaca por su educación y su saber estar, pero no soporta los abusos.",
+   "captain": true
   },
   {
    "id": "harkness-torchwood",
@@ -308,16 +309,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 114,
-   "tp": 127,
+   "fp": 115,
+   "tp": 124,
    "stats": {
-    "kick": 63,
-    "body": 55,
-    "control": 61,
-    "guard": 47,
-    "speed": 58,
+    "kick": 75,
+    "body": 54,
+    "control": 60,
+    "guard": 45,
+    "speed": 59,
     "stamina": 65,
-    "guts": 54
+    "guts": 53
    },
    "moves": [
     "head-bazooka",
@@ -340,15 +341,15 @@
    "element": "fire",
    "level": 99,
    "fp": 101,
-   "tp": 133,
+   "tp": 134,
    "stats": {
-    "kick": 35,
-    "body": 52,
-    "control": 65,
-    "guard": 47,
+    "kick": 50,
+    "body": 50,
+    "control": 63,
+    "guard": 45,
     "speed": 72,
-    "stamina": 52,
-    "guts": 52
+    "stamina": 51,
+    "guts": 51
    },
    "moves": [
     "head-bazooka",
@@ -370,16 +371,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 161,
-   "tp": 154,
+   "fp": 165,
+   "tp": 151,
    "stats": {
-    "kick": 57,
+    "kick": 47,
     "body": 55,
-    "control": 56,
-    "guard": 38,
-    "speed": 53,
-    "stamina": 58,
-    "guts": 59
+    "control": 48,
+    "guard": 37,
+    "speed": 50,
+    "stamina": 59,
+    "guts": 61
    },
    "moves": [
     "rapid-whip",
@@ -401,15 +402,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 187,
-   "tp": 121,
+   "fp": 189,
+   "tp": 124,
    "stats": {
-    "kick": 64,
-    "body": 40,
-    "control": 60,
-    "guard": 57,
-    "speed": 54,
-    "stamina": 70,
+    "kick": 55,
+    "body": 39,
+    "control": 53,
+    "guard": 67,
+    "speed": 52,
+    "stamina": 73,
     "guts": 53
    },
    "moves": [
@@ -431,15 +432,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 169,
-   "tp": 152,
+   "fp": 170,
+   "tp": 145,
    "stats": {
-    "kick": 54,
-    "body": 58,
-    "control": 52,
-    "guard": 53,
-    "speed": 53,
-    "stamina": 54,
+    "kick": 50,
+    "body": 57,
+    "control": 47,
+    "guard": 64,
+    "speed": 52,
+    "stamina": 56,
     "guts": 59
    },
    "moves": [
@@ -462,16 +463,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 151,
-   "tp": 159,
+   "fp": 147,
+   "tp": 149,
    "stats": {
-    "kick": 49,
-    "body": 59,
-    "control": 52,
-    "guard": 47,
-    "speed": 66,
-    "stamina": 49,
-    "guts": 56
+    "kick": 50,
+    "body": 60,
+    "control": 62,
+    "guard": 46,
+    "speed": 68,
+    "stamina": 47,
+    "guts": 54
    },
    "moves": [
     "mad-juggler",
@@ -493,16 +494,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 170,
-   "tp": 141,
+   "fp": 173,
+   "tp": 148,
    "stats": {
-    "kick": 55,
-    "body": 57,
-    "control": 54,
-    "guard": 50,
-    "speed": 58,
-    "stamina": 53,
-    "guts": 54
+    "kick": 68,
+    "body": 56,
+    "control": 55,
+    "guard": 47,
+    "speed": 59,
+    "stamina": 52,
+    "guts": 53
    },
    "moves": [
     "head-bazooka",

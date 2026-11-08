@@ -270,7 +270,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Saginuma Osamu",
-   "description": "Futbolista que presume de su técnica Lanza de Odín. Antes se hacía llamar Dvalin."
+   "description": "Futbolista que presume de su técnica Lanza de Odín. Antes se hacía llamar Dvalin.",
+   "captain": true
   },
   {
    "id": "daniel-hatch",

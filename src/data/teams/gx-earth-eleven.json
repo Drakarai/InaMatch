@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 158,
+   "fp": 162,
    "tp": 148,
    "stats": {
-    "kick": 45,
-    "body": 86,
-    "control": 45,
-    "guard": 78,
-    "speed": 61,
+    "kick": 42,
+    "body": 85,
+    "control": 42,
+    "guard": 77,
+    "speed": 57,
     "stamina": 78,
-    "guts": 61
+    "guts": 63
    },
    "moves": [
     "gekirin-dunk",
@@ -59,16 +59,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 79,
-   "tp": 224,
+   "fp": 77,
+   "tp": 194,
    "stats": {
-    "kick": 34,
-    "body": 63,
-    "control": 56,
-    "guard": 88,
-    "speed": 72,
-    "stamina": 50,
-    "guts": 44
+    "kick": 40,
+    "body": 62,
+    "control": 51,
+    "guard": 90,
+    "speed": 70,
+    "stamina": 51,
+    "guts": 45
    },
    "moves": [
     "hitori-one-two",
@@ -91,16 +91,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 203,
-   "tp": 136,
+   "fp": 206,
+   "tp": 134,
    "stats": {
-    "kick": 36,
-    "body": 86,
-    "control": 50,
-    "guard": 75,
-    "speed": 46,
-    "stamina": 63,
-    "guts": 47
+    "kick": 40,
+    "body": 85,
+    "control": 46,
+    "guard": 80,
+    "speed": 44,
+    "stamina": 65,
+    "guts": 48
    },
    "moves": [
     "boomerang-feint",
@@ -122,15 +122,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 110,
-   "tp": 156,
+   "fp": 109,
+   "tp": 148,
    "stats": {
-    "kick": 36,
-    "body": 82,
-    "control": 59,
-    "guard": 70,
-    "speed": 63,
-    "stamina": 50,
+    "kick": 40,
+    "body": 81,
+    "control": 52,
+    "guard": 77,
+    "speed": 61,
+    "stamina": 51,
     "guts": 66
    },
    "moves": [
@@ -155,15 +155,15 @@
    "element": "fire",
    "level": 99,
    "fp": 135,
-   "tp": 84,
+   "tp": 99,
    "stats": {
-    "kick": 46,
-    "body": 45,
-    "control": 50,
-    "guard": 79,
-    "speed": 67,
-    "stamina": 76,
-    "guts": 45
+    "kick": 45,
+    "body": 44,
+    "control": 46,
+    "guard": 84,
+    "speed": 65,
+    "stamina": 81,
+    "guts": 46
    },
    "moves": [
     "footwork-draw",
@@ -184,16 +184,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 176,
-   "tp": 180,
+   "fp": 125,
+   "tp": 183,
    "stats": {
-    "kick": 56,
-    "body": 55,
-    "control": 80,
-    "guard": 53,
-    "speed": 88,
-    "stamina": 69,
-    "guts": 70
+    "kick": 59,
+    "body": 51,
+    "control": 71,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 72
    },
    "moves": [
     "oraora-menchi",
@@ -215,16 +215,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 176,
-   "tp": 180,
+   "fp": 125,
+   "tp": 183,
    "stats": {
-    "kick": 56,
-    "body": 55,
-    "control": 80,
-    "guard": 53,
-    "speed": 88,
-    "stamina": 69,
-    "guts": 70
+    "kick": 59,
+    "body": 51,
+    "control": 71,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 72
    },
    "moves": [
     "beautiful-hoop",
@@ -247,16 +247,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 179,
-   "tp": 146,
+   "fp": 174,
+   "tp": 141,
    "stats": {
-    "kick": 69,
-    "body": 57,
-    "control": 79,
-    "guard": 62,
-    "speed": 60,
-    "stamina": 67,
-    "guts": 64
+    "kick": 63,
+    "body": 58,
+    "control": 85,
+    "guard": 57,
+    "speed": 61,
+    "stamina": 63,
+    "guts": 62
    },
    "moves": [
     "mach-wind",
@@ -271,7 +271,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Matsukaze Tenma",
-   "description": "Un chico sencillo y puro como la brisa. Nunca se rinde ante los problemas."
+   "description": "Un chico sencillo y puro como la brisa. Nunca se rinde ante los problemas.",
+   "captain": true
   },
   {
    "id": "riccardo-di-rigo",
@@ -281,16 +282,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 189,
-   "tp": 149,
+   "fp": 184,
+   "tp": 143,
    "stats": {
-    "kick": 68,
-    "body": 84,
-    "control": 66,
-    "guard": 66,
-    "speed": 59,
-    "stamina": 65,
-    "guts": 56
+    "kick": 63,
+    "body": 83,
+    "control": 74,
+    "guard": 60,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 55
    },
    "moves": [
     "olympus-harmony",
@@ -314,16 +315,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 180,
-   "tp": 134,
+   "fp": 184,
+   "tp": 136,
    "stats": {
-    "kick": 83,
-    "body": 72,
-    "control": 64,
-    "guard": 61,
-    "speed": 63,
-    "stamina": 62,
-    "guts": 59
+    "kick": 94,
+    "body": 73,
+    "control": 62,
+    "guard": 54,
+    "speed": 64,
+    "stamina": 61,
+    "guts": 58
    },
    "moves": [
     "bicycle-sword",
@@ -348,16 +349,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 157,
-   "tp": 124,
+   "fp": 160,
+   "tp": 120,
    "stats": {
-    "kick": 71,
+    "kick": 83,
     "body": 57,
-    "control": 54,
-    "guard": 54,
-    "speed": 77,
-    "stamina": 63,
-    "guts": 55
+    "control": 55,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 62,
+    "guts": 54
    },
    "moves": [
     "dark-tornado",
@@ -379,16 +380,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 176,
-   "tp": 180,
+   "fp": 125,
+   "tp": 183,
    "stats": {
-    "kick": 56,
-    "body": 55,
-    "control": 80,
-    "guard": 53,
-    "speed": 88,
-    "stamina": 69,
-    "guts": 70
+    "kick": 59,
+    "body": 51,
+    "control": 71,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 72
    },
    "moves": [
     "oraora-menchi",
@@ -411,14 +412,14 @@
    "element": "fire",
    "level": 99,
    "fp": 96,
-   "tp": 135,
+   "tp": 138,
    "stats": {
-    "kick": 70,
-    "body": 60,
-    "control": 65,
-    "guard": 67,
+    "kick": 82,
+    "body": 59,
+    "control": 63,
+    "guard": 58,
     "speed": 67,
-    "stamina": 58,
+    "stamina": 57,
     "guts": 62
    },
    "moves": [
@@ -444,16 +445,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 157,
-   "tp": 124,
+   "fp": 160,
+   "tp": 120,
    "stats": {
-    "kick": 71,
+    "kick": 83,
     "body": 57,
-    "control": 54,
-    "guard": 54,
-    "speed": 77,
-    "stamina": 63,
-    "guts": 55
+    "control": 55,
+    "guard": 50,
+    "speed": 78,
+    "stamina": 62,
+    "guts": 54
    },
    "moves": [
     "parkour-attack",
@@ -475,16 +476,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 195,
-   "tp": 134,
+   "fp": 199,
+   "tp": 136,
    "stats": {
-    "kick": 79,
+    "kick": 91,
     "body": 72,
-    "control": 54,
-    "guard": 65,
+    "control": 55,
+    "guard": 57,
     "speed": 52,
-    "stamina": 79,
-    "guts": 60
+    "stamina": 78,
+    "guts": 59
    },
    "moves": [
     "kabuki-break",
@@ -506,16 +507,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 117,
-   "tp": 140,
+   "fp": 121,
+   "tp": 143,
    "stats": {
-    "kick": 47,
+    "kick": 43,
     "body": 60,
-    "control": 56,
-    "guard": 67,
-    "speed": 61,
-    "stamina": 62,
-    "guts": 51
+    "control": 48,
+    "guard": 66,
+    "speed": 57,
+    "stamina": 63,
+    "guts": 53
    },
    "moves": [
     "burning-catch",

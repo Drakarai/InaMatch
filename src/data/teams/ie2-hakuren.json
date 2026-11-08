@@ -110,7 +110,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Oshiya Manbe",
-   "description": "Le gustan tanto las vieiras que las come incluso durante los partidos."
+   "description": "Le gustan tanto las vieiras que las come incluso durante los partidos.",
+   "captain": true
   },
   {
    "id": "spike-gleeson",

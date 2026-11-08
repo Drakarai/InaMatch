@@ -112,7 +112,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Jake Fana",
-   "description": "Piensa que la producción de diamantes sintéticos es un negocio con futuro."
+   "description": "Piensa que la producción de diamantes sintéticos es un negocio con futuro.",
+   "captain": true
   },
   {
    "id": "masego-molelo",

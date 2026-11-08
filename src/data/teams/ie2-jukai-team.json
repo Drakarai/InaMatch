@@ -44,7 +44,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Bunkou Susumu",
-   "description": "El capitán del equipo. Es un maestro de las técnicas de supervivencia."
+   "description": "El capitán del equipo. Es un maestro de las técnicas de supervivencia.",
+   "captain": true
   },
   {
    "id": "harry-boufante",

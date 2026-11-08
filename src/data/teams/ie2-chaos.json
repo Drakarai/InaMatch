@@ -43,7 +43,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ooiwa Kurando",
-   "description": "Lleva máscara para que nadie le vea en la cara que tiene ideas malvadas."
+   "description": "Lleva máscara para que nadie le vea en la cara que tiene ideas malvadas.",
+   "captain": true
   },
   {
    "id": "bonnie-sparks",

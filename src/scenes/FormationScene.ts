@@ -273,6 +273,7 @@ export class FormationScene extends Phaser.Scene {
     const pos = text(this, 25, -25, p.position, 10, '#ffffff', { fontStyle: 'bold', strokeThickness: 2 }).setOrigin(0.5);
     const elem = this.add.graphics().fillStyle(ELEMENT_COLOR[p.element]).fillCircle(-20, -24, 6).lineStyle(1.5, 0xffffff).strokeCircle(-20, -24, 6);
     c.add([g, sprite, nameBand, lbl, posChip, pos, elem]);
+    if (p.captain) c.add(captainBadge(this, -bw / 2 - 2, 32, 8));
     if (this.halftime) {
       // en el descanso, la estamina de cada uno debajo del nombre, para decidir los cambios
       const { fp } = this.bars(p);
@@ -516,6 +517,7 @@ export class FormationScene extends Phaser.Scene {
     const ov = display(this, W - 24, 56, String(playerOverall(p)), 44, THEME.yellowCss, { strokeThickness: 0 }).setOrigin(1, 0.5);
     const ovL = label(this, W - 24, 84, 'MEDIA', 9, THEME.muted, { fontStyle: 'bold' }).setOrigin(1, 0.5);
     this.info.add([g, number, portrait, name, tags, posT, elT, lvT, fp, tp, ov, ovL]);
+    if (p.captain) this.info.add(captainBadge(this, 132, 30, 13));
 
     // atributos en barras
     const sx = 430;
@@ -643,6 +645,7 @@ export class FormationScene extends Phaser.Scene {
       fitWidth(name, 250, 15);
       const info = label(this, bar.x + 76, cy + 14, `${p.position}  ·  ${ELEMENT_LABEL[p.element]}  ·  media ${playerOverall(p)}`, 15, THEME.muted, { fontStyle: 'bold' }).setOrigin(0, 0.5);
       c.add([g, portrait, name, info, new Button(this, bar.x + bar.w - 66, cy, 'Ficha', () => this.showSheet(p), { w: 108, h: 50, variant: 'accent', size: 18, icon: 'ⓘ' })]);
+      if (p.captain) c.add(captainBadge(this, bar.x + 64, cy - 20, 10));
       return;
     }
     const starters = players.slice(0, 11);
@@ -705,6 +708,7 @@ export class FormationScene extends Phaser.Scene {
     const ovL = label(this, W - 20, 146, 'MEDIA', 12, THEME.muted, { fontStyle: 'bold' }).setOrigin(1, 0.5);
     const close = new Button(this, W - 38, 34, '✕', () => this.closeSheet(), { w: 56, h: 52, variant: 'secondary', size: 22 });
     c.add([g, block, number, portrait, name, tags, posT, elT, lvT, fp, tp, ov, ovL, close]);
+    if (p.captain) c.add(captainBadge(this, 124, 30, 13));
 
     // atributos
     c.add(sectionTitle(this, 16, 180, 'Atributos'));
@@ -870,4 +874,12 @@ export class FormationScene extends Phaser.Scene {
     }
     this.scene.start('match', { home: this.home, away: this.away });
   }
+}
+
+/** Brazalete de capitán: una "C" en un círculo amarillo. */
+function captainBadge(scene: Phaser.Scene, x: number, y: number, r: number): Phaser.GameObjects.Container {
+  const b = scene.add.container(x, y);
+  const g = scene.add.graphics().fillStyle(THEME.yellow).fillCircle(0, 0, r).lineStyle(Math.max(1.5, r / 6), 0x000000, 0.6).strokeCircle(0, 0, r);
+  b.add([g, text(scene, 0, 0, 'C', Math.round(r * 1.25), THEME.ink, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5)]);
+  return b;
 }

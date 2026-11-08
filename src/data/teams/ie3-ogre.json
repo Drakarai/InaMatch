@@ -329,7 +329,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Baddap Sleed",
-   "description": "El soldado más fuerte del Equipo Ogro. Sonríe al machacar a sus rivales."
+   "description": "El soldado más fuerte del Equipo Ogro. Sonríe al machacar a sus rivales.",
+   "captain": true
   },
   {
    "id": "mystral-callous",

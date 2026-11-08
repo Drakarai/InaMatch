@@ -334,7 +334,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Idemae You",
-   "description": "Ayuda en el bar de sus padres repartiendo comida a domicilio."
+   "description": "Ayuda en el bar de sus padres repartiendo comida a domicilio.",
+   "captain": true
   },
   {
    "id": "greg-bernard",

@@ -236,7 +236,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Midorikawa Ryuuji",
-   "description": "Es tan cruel que cree que los que pierden son despreciables."
+   "description": "Es tan cruel que cree que los que pierden son despreciables.",
+   "captain": true
   },
   {
    "id": "pat-box",

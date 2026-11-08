@@ -45,7 +45,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sugimori Takeshi",
-   "description": "Líder del Brain que se deshizo de sus dudas con un lavado de cerebro."
+   "description": "Líder del Brain que se deshizo de sus dudas con un lavado de cerebro.",
+   "captain": true
   },
   {
    "id": "harry-leading",

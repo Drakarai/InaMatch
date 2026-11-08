@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 165,
-   "tp": 158,
+   "fp": 169,
+   "tp": 153,
    "stats": {
-    "kick": 56,
+    "kick": 46,
     "body": 64,
-    "control": 66,
+    "control": 53,
     "guard": 29,
-    "speed": 59,
-    "stamina": 61,
-    "guts": 57
+    "speed": 55,
+    "stamina": 63,
+    "guts": 60
    },
    "moves": [
     "rapid-whip",
@@ -60,16 +60,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 164,
-   "tp": 120,
+   "fp": 165,
+   "tp": 123,
    "stats": {
-    "kick": 60,
-    "body": 62,
-    "control": 57,
-    "guard": 56,
-    "speed": 58,
-    "stamina": 55,
-    "guts": 60
+    "kick": 52,
+    "body": 60,
+    "control": 51,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 56,
+    "guts": 61
    },
    "moves": [
     "fuujin-no-mai",
@@ -91,15 +91,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 171,
-   "tp": 117,
+   "fp": 172,
+   "tp": 121,
    "stats": {
-    "kick": 55,
-    "body": 58,
-    "control": 55,
-    "guard": 51,
-    "speed": 57,
-    "stamina": 62,
+    "kick": 50,
+    "body": 57,
+    "control": 49,
+    "guard": 62,
+    "speed": 55,
+    "stamina": 64,
     "guts": 60
    },
    "moves": [
@@ -122,15 +122,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 117,
-   "tp": 156,
+   "fp": 116,
+   "tp": 148,
    "stats": {
-    "kick": 56,
-    "body": 59,
-    "control": 55,
-    "guard": 51,
-    "speed": 60,
-    "stamina": 63,
+    "kick": 50,
+    "body": 58,
+    "control": 49,
+    "guard": 63,
+    "speed": 58,
+    "stamina": 65,
     "guts": 59
    },
    "moves": [
@@ -153,16 +153,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 156,
+   "fp": 125,
+   "tp": 147,
    "stats": {
     "kick": 55,
-    "body": 62,
-    "control": 51,
-    "guard": 61,
-    "speed": 52,
-    "stamina": 60,
-    "guts": 63
+    "body": 63,
+    "control": 61,
+    "guard": 56,
+    "speed": 53,
+    "stamina": 57,
+    "guts": 62
    },
    "moves": [
     "sargasso",
@@ -183,16 +183,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 191,
-   "tp": 163,
+   "fp": 185,
+   "tp": 152,
    "stats": {
-    "kick": 50,
+    "kick": 51,
     "body": 69,
-    "control": 51,
-    "guard": 49,
-    "speed": 74,
-    "stamina": 57,
-    "guts": 58
+    "control": 61,
+    "guard": 48,
+    "speed": 77,
+    "stamina": 54,
+    "guts": 56
    },
    "moves": [
     "naminori-pierrot",
@@ -214,16 +214,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 114,
-   "tp": 160,
+   "fp": 110,
+   "tp": 150,
    "stats": {
-    "kick": 55,
+    "kick": 54,
     "body": 79,
-    "control": 47,
-    "guard": 58,
-    "speed": 65,
-    "stamina": 58,
-    "guts": 62
+    "control": 57,
+    "guard": 54,
+    "speed": 67,
+    "stamina": 56,
+    "guts": 60
    },
    "moves": [
     "naminori-pierrot",
@@ -245,16 +245,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 163,
-   "tp": 141,
+   "fp": 166,
+   "tp": 147,
    "stats": {
-    "kick": 60,
+    "kick": 72,
     "body": 59,
-    "control": 61,
-    "guard": 53,
-    "speed": 58,
+    "control": 60,
+    "guard": 49,
+    "speed": 59,
     "stamina": 58,
-    "guts": 58
+    "guts": 57
    },
    "moves": [
     "sonic-shot",
@@ -275,16 +275,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 168,
-   "tp": 143,
+   "fp": 172,
+   "tp": 149,
    "stats": {
-    "kick": 57,
-    "body": 61,
-    "control": 63,
-    "guard": 53,
+    "kick": 70,
+    "body": 60,
+    "control": 62,
+    "guard": 49,
     "speed": 57,
-    "stamina": 58,
-    "guts": 60
+    "stamina": 57,
+    "guts": 59
    },
    "moves": [
     "flying-fish",
@@ -306,16 +306,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 165,
-   "tp": 125,
+   "fp": 168,
+   "tp": 121,
    "stats": {
-    "kick": 54,
-    "body": 70,
-    "control": 66,
-    "guard": 48,
+    "kick": 67,
+    "body": 71,
+    "control": 63,
+    "guard": 46,
     "speed": 56,
     "stamina": 57,
-    "guts": 57
+    "guts": 56
    },
    "moves": [
     "sonic-shot",
@@ -337,15 +337,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 171,
-   "tp": 157,
+   "fp": 172,
+   "tp": 149,
    "stats": {
-    "kick": 56,
-    "body": 58,
-    "control": 56,
-    "guard": 54,
-    "speed": 59,
-    "stamina": 60,
+    "kick": 50,
+    "body": 57,
+    "control": 50,
+    "guard": 65,
+    "speed": 57,
+    "stamina": 62,
     "guts": 59
    },
    "moves": [
@@ -368,16 +368,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 124,
-   "tp": 152,
+   "fp": 120,
+   "tp": 145,
    "stats": {
     "kick": 53,
-    "body": 65,
-    "control": 50,
-    "guard": 63,
-    "speed": 66,
-    "stamina": 60,
-    "guts": 58
+    "body": 66,
+    "control": 60,
+    "guard": 57,
+    "speed": 68,
+    "stamina": 57,
+    "guts": 56
    },
    "moves": [
     "flying-fish",
@@ -399,15 +399,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 104,
-   "tp": 165,
+   "fp": 103,
+   "tp": 154,
    "stats": {
-    "kick": 52,
-    "body": 80,
-    "control": 67,
-    "guard": 49,
-    "speed": 60,
-    "stamina": 61,
+    "kick": 49,
+    "body": 78,
+    "control": 59,
+    "guard": 61,
+    "speed": 58,
+    "stamina": 63,
     "guts": 59
    },
    "moves": [
@@ -421,7 +421,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Sougetsu Nozomi",
-   "description": "Tiene la resistencia y la fragilidad de una chica, ¡pero es muy masculino!"
+   "description": "Tiene la resistencia y la fragilidad de una chica, ¡pero es muy masculino!",
+   "captain": true
   },
   {
    "id": "matt-durer",
@@ -431,16 +432,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 116,
-   "tp": 174,
+   "fp": 119,
+   "tp": 163,
    "stats": {
-    "kick": 48,
+    "kick": 43,
     "body": 60,
-    "control": 60,
-    "guard": 58,
-    "speed": 58,
-    "stamina": 48,
-    "guts": 61
+    "control": 50,
+    "guard": 57,
+    "speed": 54,
+    "stamina": 51,
+    "guts": 63
    },
    "moves": [
     "moonsault-stamp",
@@ -462,16 +463,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 171,
-   "tp": 152,
+   "fp": 172,
+   "tp": 145,
    "stats": {
-    "kick": 54,
-    "body": 59,
-    "control": 51,
-    "guard": 56,
-    "speed": 57,
-    "stamina": 65,
-    "guts": 60
+    "kick": 49,
+    "body": 58,
+    "control": 47,
+    "guard": 66,
+    "speed": 55,
+    "stamina": 68,
+    "guts": 61
    },
    "moves": [
     "spiral-draw",
@@ -492,16 +493,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 127,
-   "tp": 159,
+   "fp": 123,
+   "tp": 149,
    "stats": {
-    "kick": 57,
-    "body": 60,
-    "control": 34,
-    "guard": 55,
-    "speed": 61,
-    "stamina": 58,
-    "guts": 85
+    "kick": 56,
+    "body": 61,
+    "control": 47,
+    "guard": 52,
+    "speed": 62,
+    "stamina": 56,
+    "guts": 83
    },
    "moves": [
     "naminori-pierrot",

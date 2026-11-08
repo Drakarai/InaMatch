@@ -235,7 +235,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kidou Yuuto",
-   "description": "De sus botas sale fútbol de muchos quilates. El mejor en su posición."
+   "description": "De sus botas sale fútbol de muchos quilates. El mejor en su posición.",
+   "captain": true
   },
   {
    "id": "alan-master",

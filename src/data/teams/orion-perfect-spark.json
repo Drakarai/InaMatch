@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 193,
-   "tp": 180,
+   "fp": 142,
+   "tp": 93,
    "stats": {
-    "kick": 78,
-    "body": 76,
-    "control": 74,
+    "kick": 48,
+    "body": 70,
+    "control": 51,
     "guard": 89,
-    "speed": 61,
-    "stamina": 77,
-    "guts": 76
+    "speed": 82,
+    "stamina": 61,
+    "guts": 51
    },
    "moves": [
     "tsuumande-goran",
@@ -62,16 +62,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "bunshin-defense",
@@ -94,16 +94,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "aurora-dribble",
@@ -126,16 +126,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "triple-dash",
@@ -158,16 +158,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "boost-glider",
@@ -190,16 +190,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 121,
+   "tp": 171,
    "stats": {
     "kick": 60,
-    "body": 55,
-    "control": 65,
-    "guard": 50,
-    "speed": 65,
-    "stamina": 60,
-    "guts": 60
+    "body": 52,
+    "control": 69,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 71
    },
    "moves": [
     "boost-glider",
@@ -222,16 +222,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "mega-quake",
@@ -254,16 +254,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 121,
+   "tp": 171,
    "stats": {
     "kick": 60,
-    "body": 55,
-    "control": 65,
-    "guard": 50,
-    "speed": 65,
-    "stamina": 60,
-    "guts": 60
+    "body": 52,
+    "control": 69,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 71
    },
    "moves": [
     "aurora-dribble",
@@ -286,15 +286,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 204,
-   "tp": 195,
+   "fp": 129,
+   "tp": 192,
    "stats": {
-    "kick": 61,
-    "body": 58,
-    "control": 86,
-    "guard": 66,
-    "speed": 98,
-    "stamina": 77,
+    "kick": 60,
+    "body": 52,
+    "control": 72,
+    "guard": 54,
+    "speed": 57,
+    "stamina": 55,
     "guts": 74
    },
    "moves": [
@@ -306,7 +306,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Froy Girikanan",
-   "description": "El capitán del equipo de Rusia, que puede ajustarse libremente a jugar en cualquier posición, así como el hijo del presidente de la Fundación Orión. Cuando Ichihoshi vivía en Rusia, eran mejores amigos en el mismo equipo."
+   "description": "El capitán del equipo de Rusia, que puede ajustarse libremente a jugar en cualquier posición, así como el hijo del presidente de la Fundación Orión. Cuando Ichihoshi vivía en Rusia, eran mejores amigos en el mismo equipo.",
+   "captain": true
   },
   {
    "id": "anton-kolosalyov",
@@ -316,16 +317,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 85,
-   "tp": 97,
+   "fp": 88,
+   "tp": 108,
    "stats": {
-    "kick": 75,
-    "body": 46,
-    "control": 66,
-    "guard": 41,
-    "speed": 59,
-    "stamina": 43,
-    "guts": 67
+    "kick": 84,
+    "body": 47,
+    "control": 67,
+    "guard": 46,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "dragon-ground",
@@ -348,16 +349,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 120,
-   "tp": 120,
+   "fp": 111,
+   "tp": 123,
    "stats": {
-    "kick": 75,
-    "body": 55,
-    "control": 60,
-    "guard": 40,
-    "speed": 65,
-    "stamina": 60,
-    "guts": 60
+    "kick": 81,
+    "body": 51,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 61
    },
    "moves": [
     "panther-blizzard",
@@ -380,16 +381,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 149,
-   "tp": 129,
+   "fp": 111,
+   "tp": 117,
    "stats": {
-    "kick": 54,
-    "body": 62,
-    "control": 51,
-    "guard": 59,
-    "speed": 53,
-    "stamina": 61,
-    "guts": 53
+    "kick": 76,
+    "body": 51,
+    "control": 63,
+    "guard": 52,
+    "speed": 51,
+    "stamina": 50,
+    "guts": 58
    },
    "moves": [
     "sparkle-wave",
@@ -412,16 +413,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "sparkle-wave",
@@ -444,16 +445,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "inabikari-dash",
@@ -476,16 +477,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "innocent-drive",
@@ -508,16 +509,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 176,
-   "tp": 180,
+   "fp": 125,
+   "tp": 183,
    "stats": {
-    "kick": 56,
-    "body": 55,
-    "control": 80,
-    "guard": 53,
-    "speed": 88,
-    "stamina": 69,
-    "guts": 70
+    "kick": 59,
+    "body": 51,
+    "control": 71,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 72
    },
    "moves": [
     "doublehead-eagle",

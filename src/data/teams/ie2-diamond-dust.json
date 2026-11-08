@@ -172,7 +172,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Suzuno Fuusuke",
-   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple."
+   "description": "Capitán del Polvo de Diamantes. Tiene mucho temple.",
+   "captain": true
   },
   {
    "id": "dawson-foxx",

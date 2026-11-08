@@ -364,7 +364,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kiyama Hiroto",
-   "description": "El más fuerte de la Academia Alius, jugaba en el equipo Gaia. Sus disparos son como cometas."
+   "description": "El más fuerte de la Academia Alius, jugaba en el equipo Gaia. Sus disparos son como cometas.",
+   "captain": true
   }
  ]
 }

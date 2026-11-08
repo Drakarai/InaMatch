@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 250,
-   "tp": 237,
+   "fp": 150,
+   "tp": 107,
    "stats": {
-    "kick": 99,
-    "body": 84,
-    "control": 90,
+    "kick": 51,
+    "body": 71,
+    "control": 53,
     "guard": 75,
     "speed": 89,
-    "stamina": 96,
-    "guts": 91
+    "stamina": 64,
+    "guts": 53
    },
    "moves": [
     "ouke-no-tate",
@@ -61,16 +61,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "spinning-cut",
@@ -93,16 +93,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "shooting-cut",
@@ -125,16 +125,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "spinning-cut",
@@ -157,16 +157,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "spinning-cut",
@@ -189,16 +189,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "super-scan-df",
@@ -221,16 +221,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "tenkuu-no-yaiba",
@@ -253,16 +253,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "sky-walk",
@@ -285,16 +285,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "tenkuu-no-yaiba",
@@ -317,16 +317,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 190,
-   "tp": 216,
+   "fp": 125,
+   "tp": 141,
    "stats": {
-    "kick": 63,
-    "body": 74,
-    "control": 66,
-    "guard": 76,
-    "speed": 84,
-    "stamina": 72,
-    "guts": 67
+    "kick": 80,
+    "body": 54,
+    "control": 67,
+    "guard": 57,
+    "speed": 57,
+    "stamina": 54,
+    "guts": 61
    },
    "moves": [
     "king-s-lance",
@@ -337,7 +337,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nosaka Yuuma",
-   "description": ": Jugador polifacético con un liderazgo excepcional. Posee una gran destreza y tácticas muy ingeniosas."
+   "description": ": Jugador polifacético con un liderazgo excepcional. Posee una gran destreza y tácticas muy ingeniosas.",
+   "captain": true
   },
   {
    "id": "leif-bolt",
@@ -347,16 +348,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "fire-tornado",
@@ -379,15 +380,15 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 204,
-   "tp": 195,
+   "fp": 129,
+   "tp": 192,
    "stats": {
-    "kick": 61,
-    "body": 58,
-    "control": 86,
-    "guard": 66,
-    "speed": 98,
-    "stamina": 77,
+    "kick": 60,
+    "body": 52,
+    "control": 72,
+    "guard": 54,
+    "speed": 57,
+    "stamina": 55,
     "guts": 74
    },
    "moves": [
@@ -409,16 +410,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "southern-crosscut",
@@ -441,16 +442,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 178,
-   "tp": 169,
+   "fp": 140,
+   "tp": 91,
    "stats": {
-    "kick": 60,
+    "kick": 46,
     "body": 69,
-    "control": 59,
-    "guard": 35,
-    "speed": 78,
-    "stamina": 72,
-    "guts": 69
+    "control": 49,
+    "guard": 34,
+    "speed": 86,
+    "stamina": 61,
+    "guts": 50
    },
    "moves": [
     "shoot-pocket",
@@ -473,16 +474,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "angel-ray",
@@ -505,16 +506,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "sky-walk",
@@ -537,16 +538,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "maboroshi-dribble",

@@ -29,16 +29,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 116,
-   "tp": 124,
+   "fp": 131,
+   "tp": 80,
    "stats": {
-    "kick": 51,
-    "body": 53,
-    "control": 51,
-    "guard": 62,
-    "speed": 51,
-    "stamina": 54,
-    "guts": 54
+    "kick": 45,
+    "body": 67,
+    "control": 48,
+    "guard": 61,
+    "speed": 80,
+    "stamina": 58,
+    "guts": 48
    },
    "moves": [
     "shoot-pocket",
@@ -61,15 +61,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 179,
-   "tp": 99,
+   "fp": 197,
+   "tp": 136,
    "stats": {
-    "kick": 42,
-    "body": 69,
-    "control": 45,
-    "guard": 73,
-    "speed": 46,
-    "stamina": 69,
+    "kick": 44,
+    "body": 72,
+    "control": 42,
+    "guard": 77,
+    "speed": 59,
+    "stamina": 74,
     "guts": 45
    },
    "moves": [
@@ -93,15 +93,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 179,
-   "tp": 99,
+   "fp": 197,
+   "tp": 136,
    "stats": {
-    "kick": 42,
-    "body": 69,
-    "control": 45,
-    "guard": 73,
-    "speed": 46,
-    "stamina": 69,
+    "kick": 44,
+    "body": 72,
+    "control": 42,
+    "guard": 77,
+    "speed": 59,
+    "stamina": 74,
     "guts": 45
    },
    "moves": [
@@ -125,16 +125,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "super-scan-df",
@@ -157,16 +157,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 118,
-   "tp": 123,
+   "fp": 175,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 53,
-    "control": 58,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 63
+    "kick": 47,
+    "body": 67,
+    "control": 44,
+    "guard": 70,
+    "speed": 61,
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "super-scan-df",
@@ -189,16 +189,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "psycho-shot",
@@ -221,16 +221,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "super-scan-of",
@@ -253,16 +253,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 93,
-   "tp": 161,
+   "fp": 113,
+   "tp": 171,
    "stats": {
-    "kick": 45,
-    "body": 47,
+    "kick": 58,
+    "body": 48,
     "control": 69,
-    "guard": 44,
-    "speed": 56,
-    "stamina": 45,
-    "guts": 68
+    "guard": 47,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 71
    },
    "moves": [
     "u-boat",
@@ -285,16 +285,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "super-scan-df",
@@ -317,16 +317,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 91,
-   "tp": 108,
+   "fp": 90,
+   "tp": 111,
    "stats": {
-    "kick": 78,
-    "body": 46,
-    "control": 70,
-    "guard": 50,
-    "speed": 59,
-    "stamina": 45,
-    "guts": 67
+    "kick": 85,
+    "body": 47,
+    "control": 68,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "psycho-shot",
@@ -349,16 +349,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "patriot-shoot",
@@ -371,7 +371,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Shimozuru Arata",
-   "description": "Era tranquilo hasta que le lavaron el cerebro. Se ha vuelto agresivo."
+   "description": "Era tranquilo hasta que le lavaron el cerebro. Se ha vuelto agresivo.",
+   "captain": true
   },
   {
    "id": "des-pott",
@@ -381,16 +382,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "super-scan-of",
@@ -413,16 +414,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 149,
-   "tp": 109,
+   "fp": 121,
+   "tp": 139,
    "stats": {
-    "kick": 61,
-    "body": 67,
-    "control": 52,
-    "guard": 61,
-    "speed": 56,
-    "stamina": 61,
-    "guts": 53
+    "kick": 60,
+    "body": 55,
+    "control": 66,
+    "guard": 52,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 65
    },
    "moves": [
     "super-scan-of",

@@ -34,6 +34,8 @@ export interface PlayerData {
   originId?: string;
   /** Página del jugador en la wiki inglesa: identifica al personaje entre equipos. */
   wiki?: string;
+  /** Capitán de su equipo (la tabla de miembros de la wiki, tools/wiki/restats.py). */
+  captain?: boolean;
   /** Colores del sprite provisional (se ignoran si hay sprite en el pack). */
   look?: { hair?: string; skin?: string };
 }

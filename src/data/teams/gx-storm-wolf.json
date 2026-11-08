@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 142,
-   "tp": 114,
+   "fp": 146,
+   "tp": 126,
    "stats": {
-    "kick": 73,
+    "kick": 54,
     "body": 75,
-    "control": 58,
-    "guard": 66,
-    "speed": 61,
-    "stamina": 58,
-    "guts": 62
+    "control": 49,
+    "guard": 65,
+    "speed": 57,
+    "stamina": 60,
+    "guts": 65
    },
    "moves": [
     "twist-reach",
@@ -62,15 +62,15 @@
    "element": "wind",
    "level": 99,
    "fp": 153,
-   "tp": 105,
+   "tp": 113,
    "stats": {
-    "kick": 67,
-    "body": 71,
-    "control": 60,
-    "guard": 64,
-    "speed": 69,
+    "kick": 56,
+    "body": 70,
+    "control": 53,
+    "guard": 72,
+    "speed": 67,
     "stamina": 44,
-    "guts": 57
+    "guts": 58
    },
    "moves": [
     "rolling-cutter",
@@ -93,15 +93,15 @@
    "element": "fire",
    "level": 99,
    "fp": 138,
-   "tp": 119,
+   "tp": 122,
    "stats": {
-    "kick": 71,
-    "body": 68,
-    "control": 64,
-    "guard": 66,
-    "speed": 63,
-    "stamina": 53,
-    "guts": 64
+    "kick": 58,
+    "body": 67,
+    "control": 56,
+    "guard": 74,
+    "speed": 61,
+    "stamina": 55,
+    "guts": 65
    },
    "moves": [
     "rolling-cutter",
@@ -124,14 +124,14 @@
    "element": "wood",
    "level": 99,
    "fp": 120,
-   "tp": 125,
+   "tp": 127,
    "stats": {
-    "kick": 58,
-    "body": 58,
-    "control": 56,
-    "guard": 68,
-    "speed": 66,
-    "stamina": 48,
+    "kick": 52,
+    "body": 56,
+    "control": 51,
+    "guard": 76,
+    "speed": 64,
+    "stamina": 49,
     "guts": 66
    },
    "moves": [
@@ -155,14 +155,14 @@
    "element": "earth",
    "level": 99,
    "fp": 163,
-   "tp": 97,
+   "tp": 108,
    "stats": {
-    "kick": 74,
-    "body": 51,
-    "control": 66,
-    "guard": 63,
-    "speed": 44,
-    "stamina": 67,
+    "kick": 60,
+    "body": 50,
+    "control": 57,
+    "guard": 71,
+    "speed": 42,
+    "stamina": 70,
     "guts": 53
    },
    "moves": [
@@ -185,16 +185,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 120,
-   "tp": 128,
+   "fp": 117,
+   "tp": 130,
    "stats": {
-    "kick": 60,
+    "kick": 57,
     "body": 67,
-    "control": 63,
-    "guard": 59,
-    "speed": 60,
-    "stamina": 53,
-    "guts": 58
+    "control": 71,
+    "guard": 55,
+    "speed": 61,
+    "stamina": 51,
+    "guts": 56
    },
    "moves": [
     "silk-road",
@@ -217,16 +217,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 136,
-   "tp": 99,
+   "fp": 132,
+   "tp": 111,
    "stats": {
-    "kick": 67,
+    "kick": 62,
     "body": 63,
-    "control": 62,
-    "guard": 55,
+    "control": 71,
+    "guard": 52,
     "speed": 49,
-    "stamina": 73,
-    "guts": 65
+    "stamina": 69,
+    "guts": 63
    },
    "moves": [
     "silk-road",
@@ -248,16 +248,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 131,
-   "tp": 106,
+   "fp": 127,
+   "tp": 115,
    "stats": {
-    "kick": 69,
+    "kick": 63,
     "body": 71,
-    "control": 65,
-    "guard": 56,
-    "speed": 50,
-    "stamina": 65,
-    "guts": 59
+    "control": 73,
+    "guard": 53,
+    "speed": 51,
+    "stamina": 62,
+    "guts": 57
    },
    "moves": [
     "silk-road",
@@ -280,16 +280,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 134,
-   "tp": 122,
+   "fp": 136,
+   "tp": 116,
    "stats": {
-    "kick": 63,
+    "kick": 76,
     "body": 62,
-    "control": 61,
-    "guard": 54,
+    "control": 60,
+    "guard": 50,
     "speed": 58,
     "stamina": 60,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "gold-fever",
@@ -312,16 +312,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 147,
-   "tp": 127,
+   "fp": 149,
+   "tp": 125,
    "stats": {
-    "kick": 69,
-    "body": 75,
-    "control": 64,
-    "guard": 62,
+    "kick": 81,
+    "body": 76,
+    "control": 62,
+    "guard": 55,
     "speed": 58,
     "stamina": 69,
-    "guts": 52
+    "guts": 51
    },
    "moves": [
     "gold-fever",
@@ -333,7 +333,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Dmitri Sobirov",
-   "description": "Capitán del Storm Wolves. Es más de hechos que palabras."
+   "description": "Capitán del Storm Wolves. Es más de hechos que palabras.",
+   "captain": true
   },
   {
    "id": "zafar",
@@ -343,16 +344,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 137,
-   "tp": 130,
+   "fp": 139,
+   "tp": 129,
    "stats": {
-    "kick": 66,
+    "kick": 78,
     "body": 69,
-    "control": 53,
-    "guard": 68,
+    "control": 54,
+    "guard": 59,
     "speed": 68,
     "stamina": 52,
-    "guts": 51
+    "guts": 50
    },
    "moves": [
     "gold-fever",
@@ -375,16 +376,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 85,
-   "tp": 97,
+   "fp": 88,
+   "tp": 108,
    "stats": {
-    "kick": 75,
-    "body": 46,
-    "control": 66,
-    "guard": 41,
-    "speed": 59,
-    "stamina": 43,
-    "guts": 67
+    "kick": 84,
+    "body": 47,
+    "control": 67,
+    "guard": 46,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "spinning-shoot",

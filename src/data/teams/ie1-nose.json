@@ -171,7 +171,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Torii Ryouta",
-   "description": "Agobia a los rivales como un gallo cuando picotea el piso."
+   "description": "Agobia a los rivales como un gallo cuando picotea el piso.",
+   "captain": true
   },
   {
    "id": "cham-lion",

@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 172,
-   "tp": 178,
+   "fp": 176,
+   "tp": 165,
    "stats": {
-    "kick": 54,
+    "kick": 46,
     "body": 46,
-    "control": 51,
+    "control": 45,
     "guard": 72,
-    "speed": 43,
-    "stamina": 60,
-    "guts": 54
+    "speed": 42,
+    "stamina": 62,
+    "guts": 56
    },
    "moves": [
     "counterdrive-gk",
@@ -57,16 +57,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 62,
-   "tp": 171,
+   "fp": 60,
+   "tp": 158,
    "stats": {
-    "kick": 52,
-    "body": 67,
-    "control": 70,
-    "guard": 49,
-    "speed": 63,
-    "stamina": 57,
-    "guts": 58
+    "kick": 49,
+    "body": 65,
+    "control": 60,
+    "guard": 61,
+    "speed": 61,
+    "stamina": 59,
+    "guts": 59
    },
    "moves": [
     "big-scissors",
@@ -88,15 +88,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 182,
-   "tp": 120,
+   "fp": 184,
+   "tp": 123,
    "stats": {
-    "kick": 64,
-    "body": 39,
-    "control": 67,
-    "guard": 47,
-    "speed": 62,
-    "stamina": 73,
+    "kick": 55,
+    "body": 38,
+    "control": 59,
+    "guard": 59,
+    "speed": 60,
+    "stamina": 77,
     "guts": 55
    },
    "moves": [
@@ -120,15 +120,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 164,
-   "tp": 152,
+   "fp": 165,
+   "tp": 145,
    "stats": {
-    "kick": 58,
-    "body": 55,
-    "control": 69,
-    "guard": 62,
-    "speed": 58,
-    "stamina": 55,
+    "kick": 52,
+    "body": 54,
+    "control": 60,
+    "guard": 71,
+    "speed": 56,
+    "stamina": 56,
     "guts": 55
    },
    "moves": [
@@ -152,15 +152,15 @@
    "element": "wood",
    "level": 99,
    "fp": 138,
-   "tp": 120,
+   "tp": 123,
    "stats": {
-    "kick": 54,
-    "body": 61,
-    "control": 53,
-    "guard": 61,
-    "speed": 48,
-    "stamina": 59,
-    "guts": 59
+    "kick": 49,
+    "body": 60,
+    "control": 48,
+    "guard": 70,
+    "speed": 46,
+    "stamina": 61,
+    "guts": 60
    },
    "moves": [
     "big-scissors",
@@ -182,16 +182,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 170,
-   "tp": 157,
+   "fp": 165,
+   "tp": 148,
    "stats": {
     "kick": 53,
-    "body": 66,
-    "control": 33,
-    "guard": 76,
-    "speed": 51,
-    "stamina": 57,
-    "guts": 62
+    "body": 67,
+    "control": 46,
+    "guard": 67,
+    "speed": 52,
+    "stamina": 54,
+    "guts": 60
    },
    "moves": [
     "illusion-ball",
@@ -213,16 +213,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 114,
-   "tp": 172,
+   "fp": 110,
+   "tp": 158,
    "stats": {
     "kick": 53,
     "body": 82,
-    "control": 48,
-    "guard": 58,
-    "speed": 60,
-    "stamina": 57,
-    "guts": 60
+    "control": 58,
+    "guard": 54,
+    "speed": 62,
+    "stamina": 54,
+    "guts": 58
    },
    "moves": [
     "illusion-ball",
@@ -244,16 +244,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 108,
-   "tp": 161,
+   "fp": 105,
+   "tp": 151,
    "stats": {
-    "kick": 56,
+    "kick": 55,
     "body": 85,
-    "control": 50,
-    "guard": 57,
-    "speed": 59,
-    "stamina": 57,
-    "guts": 61
+    "control": 60,
+    "guard": 53,
+    "speed": 60,
+    "stamina": 54,
+    "guts": 60
    },
    "moves": [
     "illusion-ball",
@@ -275,16 +275,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 168,
-   "tp": 127,
+   "fp": 172,
+   "tp": 125,
    "stats": {
-    "kick": 52,
+    "kick": 66,
     "body": 60,
     "control": 56,
-    "guard": 47,
+    "guard": 45,
     "speed": 55,
     "stamina": 64,
-    "guts": 52
+    "guts": 51
    },
    "moves": [
     "sidewinder",
@@ -306,16 +306,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 104,
-   "tp": 151,
+   "fp": 105,
+   "tp": 163,
    "stats": {
-    "kick": 47,
-    "body": 72,
-    "control": 53,
-    "guard": 61,
-    "speed": 56,
+    "kick": 60,
+    "body": 73,
+    "control": 54,
+    "guard": 54,
+    "speed": 57,
     "stamina": 56,
-    "guts": 58
+    "guts": 57
    },
    "moves": [
     "triangle-zz",
@@ -337,16 +337,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 152,
-   "tp": 150,
+   "fp": 154,
+   "tp": 162,
    "stats": {
-    "kick": 53,
-    "body": 75,
-    "control": 51,
-    "guard": 64,
+    "kick": 66,
+    "body": 76,
+    "control": 53,
+    "guard": 56,
     "speed": 65,
-    "stamina": 57,
-    "guts": 62
+    "stamina": 56,
+    "guts": 61
    },
    "moves": [
     "triangle-zz",
@@ -368,16 +368,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 124,
-   "tp": 157,
+   "fp": 120,
+   "tp": 148,
    "stats": {
     "kick": 52,
-    "body": 49,
-    "control": 44,
-    "guard": 64,
-    "speed": 70,
-    "stamina": 61,
-    "guts": 58
+    "body": 50,
+    "control": 55,
+    "guard": 58,
+    "speed": 72,
+    "stamina": 58,
+    "guts": 56
    },
    "moves": [
     "triangle-zz",
@@ -390,7 +390,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Kishibe Taiga",
-   "description": "Un gran jugador, que se entrena mucho y puede llegar a ser profesional."
+   "description": "Un gran jugador, que se entrena mucho y puede llegar a ser profesional.",
+   "captain": true
   },
   {
    "id": "maxwell-mahogany",
@@ -400,16 +401,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 160,
-   "tp": 154,
+   "fp": 163,
+   "tp": 151,
    "stats": {
-    "kick": 59,
+    "kick": 48,
     "body": 53,
-    "control": 54,
-    "guard": 49,
-    "speed": 56,
-    "stamina": 70,
-    "guts": 56
+    "control": 46,
+    "guard": 48,
+    "speed": 52,
+    "stamina": 71,
+    "guts": 59
    },
    "moves": [
     "burning-catch",
@@ -431,16 +432,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 147,
-   "tp": 143,
+   "fp": 149,
+   "tp": 150,
    "stats": {
-    "kick": 37,
-    "body": 53,
+    "kick": 52,
+    "body": 51,
     "control": 56,
-    "guard": 46,
+    "guard": 45,
     "speed": 72,
-    "stamina": 57,
-    "guts": 56
+    "stamina": 56,
+    "guts": 55
    },
    "moves": [
     "sonic-shot",
@@ -462,15 +463,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 167,
-   "tp": 120,
+   "fp": 168,
+   "tp": 123,
    "stats": {
-    "kick": 50,
-    "body": 50,
-    "control": 43,
-    "guard": 74,
-    "speed": 48,
-    "stamina": 65,
+    "kick": 48,
+    "body": 49,
+    "control": 41,
+    "guard": 80,
+    "speed": 46,
+    "stamina": 67,
     "guts": 58
    },
    "moves": [
@@ -494,16 +495,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 120,
-   "tp": 117,
+   "fp": 117,
+   "tp": 123,
    "stats": {
     "kick": 53,
-    "body": 51,
-    "control": 56,
-    "guard": 64,
-    "speed": 52,
-    "stamina": 49,
-    "guts": 56
+    "body": 52,
+    "control": 65,
+    "guard": 59,
+    "speed": 53,
+    "stamina": 47,
+    "guts": 55
    },
    "moves": [
     "illusion-ball",

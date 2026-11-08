@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "wood",
    "level": 99,
-   "fp": 193,
-   "tp": 180,
+   "fp": 142,
+   "tp": 93,
    "stats": {
-    "kick": 78,
-    "body": 76,
-    "control": 74,
+    "kick": 48,
+    "body": 70,
+    "control": 51,
     "guard": 89,
-    "speed": 61,
-    "stamina": 77,
-    "guts": 76
+    "speed": 82,
+    "stamina": 61,
+    "guts": 51
    },
    "moves": [
     "outer-world",
@@ -62,16 +62,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 135,
-   "tp": 172,
+   "fp": 181,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 61,
-    "control": 72,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 57,
-    "guts": 65
+    "kick": 48,
+    "body": 70,
+    "control": 47,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 70,
+    "guts": 53
    },
    "moves": [
     "deep-diver",
@@ -94,16 +94,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "niagara-falls",
@@ -126,16 +126,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "fake-ball",
@@ -158,16 +158,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "niagara-falls",
@@ -190,16 +190,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "spinning-shoot",
@@ -222,16 +222,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 176,
-   "tp": 180,
+   "fp": 125,
+   "tp": 183,
    "stats": {
-    "kick": 56,
-    "body": 55,
-    "control": 80,
-    "guard": 53,
-    "speed": 88,
-    "stamina": 69,
-    "guts": 70
+    "kick": 59,
+    "body": 51,
+    "control": 71,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 72
    },
    "moves": [
     "niagara-falls",
@@ -244,7 +244,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Yamanouchi Touyou",
-   "description": "Tiene una habilidad innata para para liderar. Mantiene a raya a los estudiantes de intercambio más rebeldes."
+   "description": "Tiene una habilidad innata para para liderar. Mantiene a raya a los estudiantes de intercambio más rebeldes.",
+   "captain": true
   },
   {
    "id": "ming-chow",
@@ -254,16 +255,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "grenade-shot",
@@ -286,16 +287,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "bound-flame",
@@ -318,16 +319,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 120,
-   "tp": 151,
+   "fp": 101,
+   "tp": 123,
    "stats": {
-    "kick": 78,
-    "body": 58,
-    "control": 74,
-    "guard": 50,
-    "speed": 78,
-    "stamina": 53,
-    "guts": 74
+    "kick": 85,
+    "body": 50,
+    "control": 69,
+    "guard": 49,
+    "speed": 56,
+    "stamina": 47,
+    "guts": 63
    },
    "moves": [
     "cheat-blaster",
@@ -350,16 +351,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "niagara-falls",
@@ -382,16 +383,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 161,
-   "tp": 151,
+   "fp": 115,
+   "tp": 123,
    "stats": {
-    "kick": 57,
-    "body": 66,
-    "control": 55,
-    "guard": 63,
-    "speed": 59,
-    "stamina": 64,
-    "guts": 56
+    "kick": 77,
+    "body": 52,
+    "control": 64,
+    "guard": 53,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 59
    },
    "moves": [
     "presto-turn",
@@ -414,16 +415,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 163,
-   "tp": 118,
+   "fp": 123,
+   "tp": 145,
    "stats": {
-    "kick": 67,
-    "body": 70,
-    "control": 52,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 57
+    "kick": 61,
+    "body": 56,
+    "control": 66,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "dog-run",
@@ -446,16 +447,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "quick-draw",
@@ -478,16 +479,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 162,
-   "tp": 158,
+   "fp": 138,
+   "tp": 88,
    "stats": {
-    "kick": 69,
+    "kick": 47,
     "body": 69,
-    "control": 67,
+    "control": 50,
     "guard": 75,
-    "speed": 56,
-    "stamina": 68,
-    "guts": 69
+    "speed": 81,
+    "stamina": 60,
+    "guts": 50
    },
    "moves": [
     "sand-cutter",
@@ -510,16 +511,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 129,
-   "tp": 172,
+   "fp": 179,
+   "tp": 145,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 67,
-    "guard": 62,
-    "speed": 70,
-    "stamina": 56,
-    "guts": 65
+    "kick": 48,
+    "body": 68,
+    "control": 46,
+    "guard": 73,
+    "speed": 62,
+    "stamina": 69,
+    "guts": 53
    },
    "moves": [
     "quick-draw",

@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 145,
-   "tp": 150,
+   "fp": 149,
+   "tp": 148,
    "stats": {
-    "kick": 48,
+    "kick": 43,
     "body": 60,
-    "control": 52,
-    "guard": 65,
-    "speed": 46,
-    "stamina": 44,
-    "guts": 52
+    "control": 46,
+    "guard": 64,
+    "speed": 45,
+    "stamina": 46,
+    "guts": 55
    },
    "moves": [
     "fence-of-gaia",
@@ -48,7 +48,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Hyoudou Tsukasa",
-   "description": "El estratega de la Mar de Luna, capaz de idear un plan para cada situación."
+   "description": "El estratega de la Mar de Luna, capaz de idear un plan para cada situación.",
+   "captain": true
   },
   {
    "id": "gene-ghiskhan",
@@ -58,16 +59,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 171,
-   "tp": 152,
+   "fp": 172,
+   "tp": 145,
    "stats": {
-    "kick": 52,
-    "body": 49,
-    "control": 47,
-    "guard": 74,
-    "speed": 50,
-    "stamina": 67,
-    "guts": 58
+    "kick": 49,
+    "body": 47,
+    "control": 43,
+    "guard": 80,
+    "speed": 48,
+    "stamina": 70,
+    "guts": 59
    },
    "moves": [
     "twin-mixer",
@@ -90,14 +91,14 @@
    "element": "fire",
    "level": 99,
    "fp": 120,
-   "tp": 119,
+   "tp": 122,
    "stats": {
-    "kick": 52,
-    "body": 48,
-    "control": 47,
-    "guard": 70,
-    "speed": 50,
-    "stamina": 63,
+    "kick": 49,
+    "body": 47,
+    "control": 44,
+    "guard": 77,
+    "speed": 48,
+    "stamina": 66,
     "guts": 59
    },
    "moves": [
@@ -122,14 +123,14 @@
    "element": "wind",
    "level": 99,
    "fp": 143,
-   "tp": 171,
+   "tp": 158,
    "stats": {
-    "kick": 60,
-    "body": 71,
-    "control": 62,
-    "guard": 45,
-    "speed": 53,
-    "stamina": 70,
+    "kick": 52,
+    "body": 69,
+    "control": 55,
+    "guard": 58,
+    "speed": 51,
+    "stamina": 74,
     "guts": 58
    },
    "moves": [
@@ -151,16 +152,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 102,
-   "tp": 135,
+   "fp": 101,
+   "tp": 133,
    "stats": {
-    "kick": 49,
-    "body": 52,
-    "control": 66,
-    "guard": 46,
-    "speed": 77,
-    "stamina": 64,
-    "guts": 54
+    "kick": 47,
+    "body": 51,
+    "control": 58,
+    "guard": 58,
+    "speed": 75,
+    "stamina": 67,
+    "guts": 55
    },
    "moves": [
     "twin-mixer",
@@ -182,16 +183,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 112,
-   "tp": 172,
+   "fp": 108,
+   "tp": 158,
    "stats": {
     "kick": 54,
     "body": 71,
-    "control": 44,
-    "guard": 66,
-    "speed": 56,
-    "stamina": 50,
-    "guts": 60
+    "control": 55,
+    "guard": 60,
+    "speed": 57,
+    "stamina": 47,
+    "guts": 58
    },
    "moves": [
     "claymore",
@@ -213,16 +214,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 175,
-   "tp": 154,
+   "fp": 170,
+   "tp": 146,
    "stats": {
     "kick": 54,
-    "body": 54,
-    "control": 48,
-    "guard": 72,
-    "speed": 61,
-    "stamina": 50,
-    "guts": 56
+    "body": 55,
+    "control": 59,
+    "guard": 64,
+    "speed": 63,
+    "stamina": 47,
+    "guts": 55
    },
    "moves": [
     "claymore",
@@ -244,16 +245,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 170,
-   "tp": 156,
+   "fp": 165,
+   "tp": 147,
    "stats": {
     "kick": 53,
     "body": 61,
-    "control": 53,
-    "guard": 67,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 51
+    "control": 62,
+    "guard": 61,
+    "speed": 59,
+    "stamina": 49,
+    "guts": 49
    },
    "moves": [
     "claymore",
@@ -275,16 +276,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 145,
-   "tp": 144,
+   "fp": 148,
+   "tp": 151,
    "stats": {
-    "kick": 58,
+    "kick": 71,
     "body": 55,
-    "control": 53,
-    "guard": 46,
+    "control": 54,
+    "guard": 45,
     "speed": 73,
-    "stamina": 52,
-    "guts": 51
+    "stamina": 51,
+    "guts": 50
    },
    "moves": [
     "rocket-head",
@@ -307,16 +308,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 150,
-   "tp": 139,
+   "fp": 153,
+   "tp": 144,
    "stats": {
-    "kick": 51,
+    "kick": 64,
     "body": 63,
     "control": 56,
-    "guard": 65,
-    "speed": 50,
-    "stamina": 47,
-    "guts": 58
+    "guard": 57,
+    "speed": 51,
+    "stamina": 46,
+    "guts": 57
    },
    "moves": [
     "sonic-shot",
@@ -338,16 +339,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 147,
-   "tp": 148,
+   "fp": 149,
+   "tp": 157,
    "stats": {
-    "kick": 50,
-    "body": 52,
-    "control": 70,
-    "guard": 47,
+    "kick": 64,
+    "body": 50,
+    "control": 66,
+    "guard": 45,
     "speed": 82,
-    "stamina": 58,
-    "guts": 54
+    "stamina": 57,
+    "guts": 53
    },
    "moves": [
     "rocket-head",
@@ -370,16 +371,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 98,
-   "tp": 171,
+   "fp": 102,
+   "tp": 161,
    "stats": {
-    "kick": 62,
-    "body": 74,
-    "control": 69,
+    "kick": 49,
+    "body": 73,
+    "control": 55,
     "guard": 39,
-    "speed": 57,
-    "stamina": 52,
-    "guts": 57
+    "speed": 53,
+    "stamina": 54,
+    "guts": 60
    },
    "moves": [
     "power-spike",
@@ -401,15 +402,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 107,
-   "tp": 216,
+   "fp": 106,
+   "tp": 188,
    "stats": {
-    "kick": 58,
-    "body": 60,
-    "control": 59,
-    "guard": 61,
-    "speed": 55,
-    "stamina": 59,
+    "kick": 51,
+    "body": 59,
+    "control": 53,
+    "guard": 70,
+    "speed": 54,
+    "stamina": 61,
     "guts": 61
    },
    "moves": [
@@ -432,14 +433,14 @@
    "element": "wood",
    "level": 99,
    "fp": 163,
-   "tp": 193,
+   "tp": 173,
    "stats": {
-    "kick": 60,
-    "body": 52,
-    "control": 51,
-    "guard": 73,
-    "speed": 56,
-    "stamina": 50,
+    "kick": 52,
+    "body": 51,
+    "control": 47,
+    "guard": 79,
+    "speed": 54,
+    "stamina": 51,
     "guts": 60
    },
    "moves": [
@@ -461,16 +462,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 188,
-   "tp": 128,
+   "fp": 192,
+   "tp": 126,
    "stats": {
-    "kick": 63,
-    "body": 40,
-    "control": 54,
-    "guard": 54,
+    "kick": 75,
+    "body": 37,
+    "control": 55,
+    "guard": 50,
     "speed": 52,
     "stamina": 72,
-    "guts": 55
+    "guts": 54
    },
    "moves": [
     "head-bazooka",
@@ -492,16 +493,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 181,
+   "fp": 185,
    "tp": 130,
    "stats": {
-    "kick": 54,
+    "kick": 68,
     "body": 65,
-    "control": 41,
-    "guard": 53,
+    "control": 46,
+    "guard": 49,
     "speed": 51,
     "stamina": 57,
-    "guts": 62
+    "guts": 61
    },
    "moves": [
     "sonic-shot",

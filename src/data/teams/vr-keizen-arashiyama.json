@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 178,
-   "tp": 169,
+   "fp": 140,
+   "tp": 91,
    "stats": {
-    "kick": 60,
+    "kick": 46,
     "body": 69,
-    "control": 59,
-    "guard": 35,
-    "speed": 78,
-    "stamina": 72,
-    "guts": 69
+    "control": 49,
+    "guard": 34,
+    "speed": 86,
+    "stamina": 61,
+    "guts": 50
    },
    "moves": [
     "meikyou-shisui",
@@ -60,16 +60,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "dash-train",
@@ -92,16 +92,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "blackmail",
@@ -124,16 +124,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 51,
+    "kick": 45,
     "body": 73,
-    "control": 54,
-    "guard": 81,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 80,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "blackmail",
@@ -155,16 +155,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "blackmail",
@@ -187,16 +187,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "presto-turn",
@@ -219,16 +219,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "quick-draw",
@@ -241,7 +241,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Ikue Magoichi",
-   "description": "Viene de una familia de cuentacuentos. Une al equipo con su encanto y agudeza mental."
+   "description": "Viene de una familia de cuentacuentos. Une al equipo con su encanto y agudeza mental.",
+   "captain": true
   },
   {
    "id": "rohan-snatchett",
@@ -251,16 +252,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "tsubame-gaeshi",
@@ -283,16 +284,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 91,
-   "tp": 108,
+   "fp": 90,
+   "tp": 111,
    "stats": {
-    "kick": 78,
-    "body": 46,
-    "control": 70,
-    "guard": 50,
-    "speed": 59,
-    "stamina": 45,
-    "guts": 67
+    "kick": 85,
+    "body": 47,
+    "control": 68,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "spinning-transam",
@@ -315,16 +316,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 120,
-   "tp": 151,
+   "fp": 101,
+   "tp": 123,
    "stats": {
-    "kick": 78,
-    "body": 58,
-    "control": 74,
-    "guard": 50,
-    "speed": 78,
-    "stamina": 53,
-    "guts": 74
+    "kick": 85,
+    "body": 50,
+    "control": 69,
+    "guard": 49,
+    "speed": 56,
+    "stamina": 47,
+    "guts": 63
    },
    "moves": [
     "blackmail",
@@ -346,16 +347,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 91,
-   "tp": 108,
+   "fp": 90,
+   "tp": 111,
    "stats": {
-    "kick": 78,
-    "body": 46,
-    "control": 70,
-    "guard": 50,
-    "speed": 59,
-    "stamina": 45,
-    "guts": 67
+    "kick": 85,
+    "body": 47,
+    "control": 68,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "hitori-one-two",
@@ -378,16 +379,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "elephant-press",
@@ -410,16 +411,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "blackmail",
@@ -442,16 +443,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 91,
-   "tp": 108,
+   "fp": 90,
+   "tp": 111,
    "stats": {
-    "kick": 78,
-    "body": 46,
-    "control": 70,
-    "guard": 50,
-    "speed": 59,
-    "stamina": 45,
-    "guts": 67
+    "kick": 85,
+    "body": 47,
+    "control": 68,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "blackmail",
@@ -474,16 +475,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "onryou",
@@ -506,16 +507,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 178,
-   "tp": 169,
+   "fp": 140,
+   "tp": 91,
    "stats": {
-    "kick": 60,
+    "kick": 46,
     "body": 69,
-    "control": 59,
-    "guard": 35,
-    "speed": 78,
-    "stamina": 72,
-    "guts": 69
+    "control": 49,
+    "guard": 34,
+    "speed": 86,
+    "stamina": 61,
+    "guts": 50
    },
    "moves": [
     "rocket-kobushi",

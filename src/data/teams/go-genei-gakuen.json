@@ -26,16 +26,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 116,
-   "tp": 154,
+   "fp": 119,
+   "tp": 151,
    "stats": {
-    "kick": 62,
+    "kick": 49,
     "body": 53,
-    "control": 54,
+    "control": 47,
     "guard": 49,
-    "speed": 49,
-    "stamina": 73,
-    "guts": 52
+    "speed": 47,
+    "stamina": 74,
+    "guts": 54
    },
    "moves": [
     "kage-tsukami",
@@ -56,16 +56,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 107,
-   "tp": 176,
+   "fp": 106,
+   "tp": 161,
    "stats": {
-    "kick": 51,
-    "body": 74,
-    "control": 63,
-    "guard": 62,
-    "speed": 54,
-    "stamina": 57,
-    "guts": 53
+    "kick": 48,
+    "body": 73,
+    "control": 55,
+    "guard": 71,
+    "speed": 52,
+    "stamina": 59,
+    "guts": 54
    },
    "moves": [
     "dimension-cut",
@@ -87,15 +87,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 106,
-   "tp": 176,
+   "fp": 104,
+   "tp": 161,
    "stats": {
-    "kick": 53,
-    "body": 79,
-    "control": 59,
-    "guard": 57,
-    "speed": 55,
-    "stamina": 57,
+    "kick": 49,
+    "body": 77,
+    "control": 53,
+    "guard": 67,
+    "speed": 54,
+    "stamina": 59,
     "guts": 54
    },
    "moves": [
@@ -118,16 +118,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 208,
-   "tp": 123,
+   "fp": 211,
+   "tp": 125,
    "stats": {
-    "kick": 67,
-    "body": 40,
-    "control": 65,
-    "guard": 48,
-    "speed": 52,
-    "stamina": 73,
-    "guts": 55
+    "kick": 56,
+    "body": 39,
+    "control": 57,
+    "guard": 60,
+    "speed": 50,
+    "stamina": 77,
+    "guts": 56
    },
    "moves": [
     "dimension-cut",
@@ -149,16 +149,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 107,
-   "tp": 116,
+   "fp": 106,
+   "tp": 121,
    "stats": {
-    "kick": 56,
-    "body": 71,
-    "control": 65,
-    "guard": 49,
-    "speed": 50,
-    "stamina": 57,
-    "guts": 59
+    "kick": 51,
+    "body": 70,
+    "control": 57,
+    "guard": 61,
+    "speed": 48,
+    "stamina": 59,
+    "guts": 60
    },
    "moves": [
     "dimension-cut",
@@ -180,16 +180,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 108,
-   "tp": 156,
+   "fp": 105,
+   "tp": 147,
    "stats": {
-    "kick": 61,
+    "kick": 58,
     "body": 78,
-    "control": 62,
-    "guard": 68,
-    "speed": 57,
-    "stamina": 50,
-    "guts": 61
+    "control": 70,
+    "guard": 61,
+    "speed": 59,
+    "stamina": 47,
+    "guts": 59
    },
    "moves": [
     "trick-ball",
@@ -212,16 +212,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 108,
-   "tp": 197,
+   "fp": 105,
+   "tp": 174,
    "stats": {
-    "kick": 48,
+    "kick": 50,
     "body": 84,
-    "control": 48,
-    "guard": 54,
-    "speed": 53,
-    "stamina": 50,
-    "guts": 58
+    "control": 59,
+    "guard": 51,
+    "speed": 54,
+    "stamina": 48,
+    "guts": 56
    },
    "moves": [
     "trick-ball",
@@ -243,16 +243,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 112,
-   "tp": 168,
+   "fp": 108,
+   "tp": 155,
    "stats": {
-    "kick": 50,
+    "kick": 51,
     "body": 77,
-    "control": 45,
-    "guard": 59,
-    "speed": 53,
-    "stamina": 56,
-    "guts": 56
+    "control": 56,
+    "guard": 55,
+    "speed": 54,
+    "stamina": 53,
+    "guts": 55
    },
    "moves": [
     "trick-ball",
@@ -274,16 +274,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 110,
-   "tp": 134,
+   "fp": 112,
+   "tp": 136,
    "stats": {
-    "kick": 36,
-    "body": 52,
-    "control": 55,
-    "guard": 47,
+    "kick": 51,
+    "body": 51,
+    "control": 56,
+    "guard": 45,
     "speed": 70,
-    "stamina": 58,
-    "guts": 50
+    "stamina": 57,
+    "guts": 49
    },
    "moves": [
     "trick-ball",
@@ -305,16 +305,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 112,
-   "tp": 132,
+   "fp": 113,
+   "tp": 133,
    "stats": {
-    "kick": 33,
-    "body": 52,
+    "kick": 48,
+    "body": 50,
     "control": 57,
-    "guard": 49,
-    "speed": 67,
-    "stamina": 58,
-    "guts": 63
+    "guard": 47,
+    "speed": 68,
+    "stamina": 57,
+    "guts": 62
    },
    "moves": [
     "trick-ball",
@@ -337,16 +337,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 147,
-   "tp": 145,
+   "fp": 149,
+   "tp": 153,
    "stats": {
-    "kick": 36,
-    "body": 52,
-    "control": 54,
-    "guard": 51,
-    "speed": 70,
-    "stamina": 57,
-    "guts": 55
+    "kick": 51,
+    "body": 51,
+    "control": 55,
+    "guard": 47,
+    "speed": 71,
+    "stamina": 56,
+    "guts": 54
    },
    "moves": [
     "illusion-ball",
@@ -369,16 +369,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 112,
-   "tp": 185,
+   "fp": 108,
+   "tp": 166,
    "stats": {
-    "kick": 62,
+    "kick": 59,
     "body": 76,
-    "control": 41,
-    "guard": 58,
-    "speed": 52,
-    "stamina": 50,
-    "guts": 57
+    "control": 53,
+    "guard": 54,
+    "speed": 53,
+    "stamina": 48,
+    "guts": 55
    },
    "moves": [
     "maboroshi-shot",
@@ -391,7 +391,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Mahoro Tadashi",
-   "description": "Un delantero impasible, que disfruta sorprendiendo a los rivales."
+   "description": "Un delantero impasible, que disfruta sorprendiendo a los rivales.",
+   "captain": true
   },
   {
    "id": "pen-teller",
@@ -401,16 +402,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 117,
-   "tp": 150,
+   "fp": 121,
+   "tp": 148,
    "stats": {
-    "kick": 50,
+    "kick": 44,
     "body": 48,
-    "control": 55,
-    "guard": 64,
-    "speed": 52,
-    "stamina": 42,
-    "guts": 51
+    "control": 47,
+    "guard": 63,
+    "speed": 49,
+    "stamina": 45,
+    "guts": 54
    },
    "moves": [
     "bat-attack",
@@ -432,14 +433,14 @@
    "element": "earth",
    "level": 99,
    "fp": 163,
-   "tp": 116,
+   "tp": 121,
    "stats": {
-    "kick": 52,
-    "body": 48,
-    "control": 47,
-    "guard": 59,
-    "speed": 51,
-    "stamina": 66,
+    "kick": 48,
+    "body": 47,
+    "control": 43,
+    "guard": 69,
+    "speed": 49,
+    "stamina": 69,
     "guts": 53
    },
    "moves": [
@@ -462,16 +463,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 170,
-   "tp": 157,
+   "fp": 165,
+   "tp": 148,
    "stats": {
     "kick": 53,
-    "body": 51,
-    "control": 52,
-    "guard": 65,
-    "speed": 56,
-    "stamina": 57,
-    "guts": 59
+    "body": 52,
+    "control": 62,
+    "guard": 59,
+    "speed": 58,
+    "stamina": 54,
+    "guts": 57
    },
    "moves": [
     "perfect-course",
@@ -493,16 +494,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 181,
-   "tp": 128,
+   "fp": 185,
+   "tp": 126,
    "stats": {
-    "kick": 51,
-    "body": 39,
-    "control": 51,
-    "guard": 60,
+    "kick": 65,
+    "body": 36,
+    "control": 53,
+    "guard": 54,
     "speed": 46,
-    "stamina": 69,
-    "guts": 53
+    "stamina": 68,
+    "guts": 52
    },
    "moves": [
     "rocket-head",

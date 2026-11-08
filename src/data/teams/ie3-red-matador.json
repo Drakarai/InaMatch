@@ -176,7 +176,8 @@
     "skin": "#b5835a"
    },
    "wiki": "Querardo Naval",
-   "description": "Se crió en una finca con toros y sabe torear, pero no le gusta herir a los animales."
+   "description": "Se crió en una finca con toros y sabe torear, pero no le gusta herir a los animales.",
+   "captain": true
   },
   {
    "id": "juan-nadal",

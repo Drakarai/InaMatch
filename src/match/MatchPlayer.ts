@@ -62,7 +62,7 @@ export class MatchPlayer {
       this.sprite.setScale(SPRITE_HEIGHT / this.sprite.height);
     }
     this.tag = scene.add
-      .text(0, 0, data.short, {
+      .text(0, 0, data.captain ? `Ⓒ ${data.short}` : data.short, {
         fontFamily: FONT,
         fontSize: '12px',
         color: '#ffffff',

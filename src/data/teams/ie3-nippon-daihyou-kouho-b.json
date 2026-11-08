@@ -270,7 +270,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kidou Yuuto",
-   "description": "Un genio organizando el juego. El equipo lo sigue como a un líder."
+   "description": "Un genio organizando el juego. El equipo lo sigue como a un líder.",
+   "captain": true
   },
   {
    "id": "austin-hobbes",

@@ -204,7 +204,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Nagumo Haruya",
-   "description": "Capitán de Prominence. Es muy presuntuoso y siempre va al ataque."
+   "description": "Capitán de Prominence. Es muy presuntuoso y siempre va al ataque.",
+   "captain": true
   },
   {
    "id": "sam-bournes",

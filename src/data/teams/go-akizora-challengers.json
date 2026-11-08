@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 165,
-   "tp": 169,
+   "fp": 169,
+   "tp": 160,
    "stats": {
-    "kick": 50,
-    "body": 47,
-    "control": 54,
+    "kick": 44,
+    "body": 48,
+    "control": 47,
     "guard": 52,
-    "speed": 49,
-    "stamina": 53,
-    "guts": 52
+    "speed": 47,
+    "stamina": 55,
+    "guts": 54
    },
    "moves": [
     "rapid-whip",
@@ -58,16 +58,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 119,
-   "tp": 153,
+   "fp": 118,
+   "tp": 146,
    "stats": {
-    "kick": 49,
-    "body": 53,
-    "control": 64,
-    "guard": 55,
-    "speed": 66,
-    "stamina": 56,
-    "guts": 53
+    "kick": 47,
+    "body": 52,
+    "control": 56,
+    "guard": 66,
+    "speed": 64,
+    "stamina": 58,
+    "guts": 54
    },
    "moves": [
     "senpuujin",
@@ -79,7 +79,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kogure Yuuya",
-   "description": "Un bromista empedernido. Parece poca cosa, pero tiene mucha fuerza."
+   "description": "Un bromista empedernido. Parece poca cosa, pero tiene mucha fuerza.",
+   "captain": true
   },
   {
    "id": "filbert-chestnut",
@@ -89,15 +90,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 184,
-   "tp": 168,
+   "fp": 185,
+   "tp": 156,
    "stats": {
-    "kick": 49,
-    "body": 51,
-    "control": 49,
-    "guard": 55,
-    "speed": 45,
-    "stamina": 53,
+    "kick": 47,
+    "body": 50,
+    "control": 45,
+    "guard": 66,
+    "speed": 43,
+    "stamina": 54,
     "guts": 53
    },
    "moves": [
@@ -119,15 +120,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 187,
-   "tp": 167,
+   "fp": 189,
+   "tp": 155,
    "stats": {
-    "kick": 50,
-    "body": 51,
-    "control": 51,
-    "guard": 50,
-    "speed": 47,
-    "stamina": 50,
+    "kick": 48,
+    "body": 50,
+    "control": 47,
+    "guard": 61,
+    "speed": 46,
+    "stamina": 52,
     "guts": 53
    },
    "moves": [
@@ -149,16 +150,16 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 107,
-   "tp": 172,
+   "fp": 106,
+   "tp": 158,
    "stats": {
-    "kick": 56,
-    "body": 69,
-    "control": 61,
-    "guard": 41,
-    "speed": 74,
-    "stamina": 52,
-    "guts": 54
+    "kick": 51,
+    "body": 68,
+    "control": 54,
+    "guard": 55,
+    "speed": 72,
+    "stamina": 53,
+    "guts": 55
    },
    "moves": [
     "the-mist",
@@ -180,16 +181,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 174,
-   "tp": 171,
+   "fp": 169,
+   "tp": 157,
    "stats": {
-    "kick": 48,
-    "body": 52,
-    "control": 42,
-    "guard": 60,
+    "kick": 50,
+    "body": 53,
+    "control": 53,
+    "guard": 55,
     "speed": 43,
-    "stamina": 50,
-    "guts": 58
+    "stamina": 47,
+    "guts": 56
    },
    "moves": [
     "spiral-draw",
@@ -210,16 +211,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 112,
-   "tp": 170,
+   "fp": 108,
+   "tp": 156,
    "stats": {
-    "kick": 50,
-    "body": 66,
-    "control": 43,
-    "guard": 58,
-    "speed": 51,
-    "stamina": 50,
-    "guts": 55
+    "kick": 51,
+    "body": 67,
+    "control": 54,
+    "guard": 54,
+    "speed": 52,
+    "stamina": 48,
+    "guts": 54
    },
    "moves": [
     "fuujin-no-mai",
@@ -241,16 +242,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 174,
-   "tp": 167,
+   "fp": 169,
+   "tp": 154,
    "stats": {
-    "kick": 49,
-    "body": 51,
-    "control": 50,
-    "guard": 58,
-    "speed": 57,
-    "stamina": 53,
-    "guts": 52
+    "kick": 50,
+    "body": 52,
+    "control": 60,
+    "guard": 54,
+    "speed": 58,
+    "stamina": 50,
+    "guts": 50
    },
    "moves": [
     "soyokaze-step",
@@ -273,16 +274,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 184,
-   "tp": 161,
+   "fp": 179,
+   "tp": 151,
    "stats": {
-    "kick": 74,
-    "body": 34,
-    "control": 47,
-    "guard": 52,
-    "speed": 53,
-    "stamina": 72,
-    "guts": 53
+    "kick": 66,
+    "body": 36,
+    "control": 58,
+    "guard": 49,
+    "speed": 54,
+    "stamina": 68,
+    "guts": 51
    },
    "moves": [
     "mad-juggler",
@@ -304,16 +305,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 180,
-   "tp": 147,
+   "fp": 184,
+   "tp": 157,
    "stats": {
-    "kick": 74,
-    "body": 50,
-    "control": 48,
-    "guard": 53,
-    "speed": 51,
-    "stamina": 51,
-    "guts": 55
+    "kick": 85,
+    "body": 49,
+    "control": 51,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 54
    },
    "moves": [
     "koutei-penguin-2gou",
@@ -335,16 +336,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 134,
-   "tp": 142,
+   "fp": 136,
+   "tp": 149,
    "stats": {
-    "kick": 42,
+    "kick": 56,
     "body": 62,
-    "control": 45,
-    "guard": 48,
+    "control": 49,
+    "guard": 46,
     "speed": 48,
-    "stamina": 55,
-    "guts": 83
+    "stamina": 54,
+    "guts": 84
    },
    "moves": [
     "illusion-ball",

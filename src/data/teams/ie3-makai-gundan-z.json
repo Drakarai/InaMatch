@@ -366,7 +366,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Desuta",
-   "description": "El cruel líder del Dark Team. Su plato favorito: la venganza. Bien fría."
+   "description": "El cruel líder del Dark Team. Su plato favorito: la venganza. Bien fría.",
+   "captain": true
   }
  ]
 }

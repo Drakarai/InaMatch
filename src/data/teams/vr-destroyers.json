@@ -30,16 +30,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 193,
-   "tp": 180,
+   "fp": 142,
+   "tp": 93,
    "stats": {
-    "kick": 78,
-    "body": 76,
-    "control": 74,
-    "guard": 48,
-    "speed": 78,
-    "stamina": 77,
-    "guts": 76
+    "kick": 48,
+    "body": 70,
+    "control": 51,
+    "guard": 47,
+    "speed": 86,
+    "stamina": 61,
+    "guts": 51
    },
    "moves": [
     "rejection",
@@ -61,16 +61,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 51,
+    "kick": 45,
     "body": 73,
-    "control": 54,
-    "guard": 81,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 80,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "grand-sweeper",
@@ -93,16 +93,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "asterisk-rock",
@@ -125,16 +125,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "blitz-bridge",
@@ -157,16 +157,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "plasma-ball",
@@ -189,16 +189,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "love-arrow",
@@ -221,16 +221,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 176,
-   "tp": 180,
+   "fp": 125,
+   "tp": 183,
    "stats": {
-    "kick": 56,
-    "body": 55,
-    "control": 80,
-    "guard": 53,
-    "speed": 88,
-    "stamina": 69,
-    "guts": 70
+    "kick": 59,
+    "body": 51,
+    "control": 71,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 72
    },
    "moves": [
     "grand-sweeper",
@@ -253,16 +253,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 176,
-   "tp": 180,
+   "fp": 125,
+   "tp": 183,
    "stats": {
-    "kick": 56,
-    "body": 55,
-    "control": 80,
-    "guard": 53,
-    "speed": 88,
-    "stamina": 69,
-    "guts": 70
+    "kick": 59,
+    "body": 51,
+    "control": 71,
+    "guard": 50,
+    "speed": 56,
+    "stamina": 54,
+    "guts": 72
    },
    "moves": [
     "magnet-draw",
@@ -285,16 +285,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 120,
-   "tp": 151,
+   "fp": 101,
+   "tp": 123,
    "stats": {
-    "kick": 78,
-    "body": 58,
-    "control": 74,
-    "guard": 50,
-    "speed": 78,
-    "stamina": 53,
-    "guts": 74
+    "kick": 85,
+    "body": 50,
+    "control": 69,
+    "guard": 49,
+    "speed": 56,
+    "stamina": 47,
+    "guts": 63
    },
    "moves": [
     "disaster-break",
@@ -317,16 +317,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 132,
-   "tp": 173,
+   "fp": 105,
+   "tp": 129,
    "stats": {
-    "kick": 84,
-    "body": 62,
-    "control": 77,
-    "guard": 63,
-    "speed": 84,
-    "stamina": 56,
-    "guts": 77
+    "kick": 87,
+    "body": 51,
+    "control": 70,
+    "guard": 53,
+    "speed": 57,
+    "stamina": 48,
+    "guts": 64
    },
    "moves": [
     "dimension-storm",
@@ -339,7 +339,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kinis Elvim",
-   "description": "Amigo de la infancia y antiguo rival de Vic, un talento natural que brilla en el campo."
+   "description": "Amigo de la infancia y antiguo rival de Vic, un talento natural que brilla en el campo.",
+   "captain": true
   },
   {
    "id": "vector-vernam",
@@ -349,15 +350,15 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 178,
-   "tp": 184,
+   "fp": 121,
+   "tp": 132,
    "stats": {
-    "kick": 60,
-    "body": 70,
-    "control": 63,
-    "guard": 72,
-    "speed": 72,
-    "stamina": 69,
+    "kick": 78,
+    "body": 53,
+    "control": 66,
+    "guard": 56,
+    "speed": 55,
+    "stamina": 53,
     "guts": 60
    },
    "moves": [
@@ -381,16 +382,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "storm-zone",
@@ -413,16 +414,16 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 190,
-   "tp": 172,
+   "fp": 201,
+   "tp": 145,
    "stats": {
-    "kick": 42,
+    "kick": 44,
     "body": 73,
-    "control": 54,
-    "guard": 73,
-    "speed": 70,
-    "stamina": 72,
-    "guts": 50
+    "control": 44,
+    "guard": 77,
+    "speed": 62,
+    "stamina": 75,
+    "guts": 47
    },
    "moves": [
     "all-delete",
@@ -445,16 +446,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 107,
-   "tp": 171,
+   "fp": 115,
+   "tp": 177,
    "stats": {
-    "kick": 45,
-    "body": 47,
-    "control": 74,
-    "guard": 53,
-    "speed": 56,
-    "stamina": 49,
-    "guts": 70
+    "kick": 58,
+    "body": 48,
+    "control": 70,
+    "guard": 50,
+    "speed": 52,
+    "stamina": 51,
+    "guts": 72
    },
    "moves": [
     "screwdriver",
@@ -477,16 +478,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 91,
-   "tp": 108,
+   "fp": 90,
+   "tp": 111,
    "stats": {
-    "kick": 78,
-    "body": 46,
-    "control": 70,
-    "guard": 50,
-    "speed": 59,
-    "stamina": 45,
-    "guts": 67
+    "kick": 85,
+    "body": 47,
+    "control": 68,
+    "guard": 49,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "decoy-release",
@@ -509,16 +510,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 193,
-   "tp": 180,
+   "fp": 142,
+   "tp": 93,
    "stats": {
-    "kick": 78,
-    "body": 76,
-    "control": 74,
-    "guard": 48,
-    "speed": 78,
-    "stamina": 77,
-    "guts": 76
+    "kick": 48,
+    "body": 70,
+    "control": 51,
+    "guard": 47,
+    "speed": 86,
+    "stamina": 61,
+    "guts": 51
    },
    "moves": [
     "rejection",

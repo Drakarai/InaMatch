@@ -303,7 +303,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Jonas Pollack",
-   "description": "Le gustaría diseñar un cohete que pueda viajar hasta Marte."
+   "description": "Le gustaría diseñar un cohete que pueda viajar hasta Marte.",
+   "captain": true
   },
   {
    "id": "maximilian-m-ller",

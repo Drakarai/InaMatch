@@ -31,16 +31,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 147,
-   "tp": 123,
+   "fp": 151,
+   "tp": 132,
    "stats": {
-    "kick": 71,
+    "kick": 53,
     "body": 75,
-    "control": 61,
-    "guard": 81,
-    "speed": 46,
-    "stamina": 54,
-    "guts": 57
+    "control": 51,
+    "guard": 80,
+    "speed": 45,
+    "stamina": 56,
+    "guts": 60
    },
    "moves": [
     "reverse-world",
@@ -63,14 +63,14 @@
    "element": "earth",
    "level": 99,
    "fp": 143,
-   "tp": 112,
+   "tp": 118,
    "stats": {
-    "kick": 54,
-    "body": 64,
-    "control": 49,
-    "guard": 72,
-    "speed": 53,
-    "stamina": 66,
+    "kick": 49,
+    "body": 63,
+    "control": 45,
+    "guard": 79,
+    "speed": 51,
+    "stamina": 69,
     "guts": 67
    },
    "moves": [
@@ -95,15 +95,15 @@
    "element": "wood",
    "level": 99,
    "fp": 135,
-   "tp": 119,
+   "tp": 122,
    "stats": {
-    "kick": 52,
-    "body": 67,
-    "control": 56,
-    "guard": 70,
-    "speed": 67,
-    "stamina": 58,
-    "guts": 64
+    "kick": 48,
+    "body": 66,
+    "control": 51,
+    "guard": 77,
+    "speed": 65,
+    "stamina": 60,
+    "guts": 65
    },
    "moves": [
     "grand-sweeper",
@@ -126,15 +126,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 101,
-   "tp": 125,
+   "fp": 99,
+   "tp": 127,
    "stats": {
-    "kick": 52,
-    "body": 62,
-    "control": 54,
-    "guard": 67,
-    "speed": 78,
-    "stamina": 56,
+    "kick": 48,
+    "body": 61,
+    "control": 49,
+    "guard": 74,
+    "speed": 76,
+    "stamina": 58,
     "guts": 63
    },
    "moves": [
@@ -157,16 +157,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 122,
-   "tp": 143,
+   "fp": 118,
+   "tp": 139,
    "stats": {
-    "kick": 67,
+    "kick": 62,
     "body": 67,
-    "control": 79,
-    "guard": 66,
-    "speed": 64,
-    "stamina": 59,
-    "guts": 63
+    "control": 85,
+    "guard": 60,
+    "speed": 66,
+    "stamina": 56,
+    "guts": 61
    },
    "moves": [
     "storm-zone",
@@ -189,16 +189,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 170,
-   "tp": 99,
+   "fp": 165,
+   "tp": 111,
    "stats": {
-    "kick": 63,
+    "kick": 60,
     "body": 71,
-    "control": 67,
-    "guard": 69,
-    "speed": 59,
-    "stamina": 73,
-    "guts": 53
+    "control": 75,
+    "guard": 62,
+    "speed": 60,
+    "stamina": 69,
+    "guts": 51
    },
    "moves": [
     "storm-zone",
@@ -221,16 +221,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 119,
-   "tp": 143,
+   "fp": 115,
+   "tp": 139,
    "stats": {
-    "kick": 68,
+    "kick": 63,
     "body": 63,
-    "control": 81,
-    "guard": 61,
-    "speed": 69,
-    "stamina": 59,
-    "guts": 70
+    "control": 87,
+    "guard": 56,
+    "speed": 72,
+    "stamina": 56,
+    "guts": 69
    },
    "moves": [
     "dead-future",
@@ -253,16 +253,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 136,
-   "tp": 106,
+   "fp": 132,
+   "tp": 115,
    "stats": {
-    "kick": 70,
-    "body": 57,
-    "control": 70,
-    "guard": 66,
-    "speed": 51,
-    "stamina": 64,
-    "guts": 55
+    "kick": 64,
+    "body": 58,
+    "control": 77,
+    "guard": 60,
+    "speed": 52,
+    "stamina": 60,
+    "guts": 53
    },
    "moves": [
     "dead-future",
@@ -285,16 +285,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 119,
-   "tp": 124,
+   "fp": 115,
+   "tp": 127,
    "stats": {
-    "kick": 61,
-    "body": 65,
-    "control": 61,
-    "guard": 59,
-    "speed": 57,
-    "stamina": 58,
-    "guts": 64
+    "kick": 58,
+    "body": 66,
+    "control": 69,
+    "guard": 55,
+    "speed": 59,
+    "stamina": 55,
+    "guts": 62
    },
    "moves": [
     "storm-zone",
@@ -317,16 +317,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 147,
-   "tp": 134,
+   "fp": 149,
+   "tp": 136,
    "stats": {
-    "kick": 77,
-    "body": 69,
-    "control": 71,
-    "guard": 65,
-    "speed": 59,
-    "stamina": 62,
-    "guts": 56
+    "kick": 89,
+    "body": 70,
+    "control": 67,
+    "guard": 57,
+    "speed": 60,
+    "stamina": 61,
+    "guts": 55
    },
    "moves": [
     "shellbit-burst",
@@ -339,7 +339,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Saryuu Evan",
-   "description": "El líder de Nu-Gen. Su objetivo es dominar el mundo entero."
+   "description": "El líder de Nu-Gen. Su objetivo es dominar el mundo entero.",
+   "captain": true
   },
   {
    "id": "kyon-canis",
@@ -349,14 +350,14 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 147,
-   "tp": 127,
+   "fp": 149,
+   "tp": 125,
    "stats": {
-    "kick": 71,
+    "kick": 83,
     "body": 62,
-    "control": 65,
-    "guard": 55,
-    "speed": 65,
+    "control": 63,
+    "guard": 51,
+    "speed": 66,
     "stamina": 55,
     "guts": 64
    },
@@ -382,15 +383,15 @@
    "element": "wood",
    "level": 99,
    "fp": 125,
-   "tp": 101,
+   "tp": 111,
    "stats": {
-    "kick": 50,
-    "body": 67,
-    "control": 86,
-    "guard": 48,
-    "speed": 61,
-    "stamina": 45,
-    "guts": 46
+    "kick": 48,
+    "body": 65,
+    "control": 72,
+    "guard": 60,
+    "speed": 59,
+    "stamina": 46,
+    "guts": 47
    },
    "moves": [
     "storm-zone",
@@ -412,16 +413,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 158,
-   "tp": 114,
+   "fp": 162,
+   "tp": 126,
    "stats": {
-    "kick": 58,
+    "kick": 48,
     "body": 52,
-    "control": 60,
-    "guard": 75,
-    "speed": 54,
-    "stamina": 65,
-    "guts": 54
+    "control": 50,
+    "guard": 74,
+    "speed": 51,
+    "stamina": 66,
+    "guts": 56
    },
    "moves": [
     "reverse-world",
@@ -444,15 +445,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 109,
-   "tp": 132,
+   "fp": 108,
+   "tp": 131,
    "stats": {
-    "kick": 56,
-    "body": 60,
-    "control": 60,
-    "guard": 59,
-    "speed": 62,
-    "stamina": 58,
+    "kick": 51,
+    "body": 59,
+    "control": 53,
+    "guard": 69,
+    "speed": 60,
+    "stamina": 60,
     "guts": 66
    },
    "moves": [
@@ -476,16 +477,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 105,
-   "tp": 116,
+   "fp": 102,
+   "tp": 122,
    "stats": {
-    "kick": 57,
-    "body": 61,
-    "control": 59,
-    "guard": 59,
-    "speed": 62,
-    "stamina": 52,
-    "guts": 60
+    "kick": 56,
+    "body": 62,
+    "control": 67,
+    "guard": 55,
+    "speed": 64,
+    "stamina": 49,
+    "guts": 58
    },
    "moves": [
     "storm-zone",
@@ -508,16 +509,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 134,
-   "tp": 114,
+   "fp": 136,
+   "tp": 104,
    "stats": {
-    "kick": 67,
-    "body": 60,
-    "control": 64,
-    "guard": 46,
+    "kick": 79,
+    "body": 59,
+    "control": 62,
+    "guard": 45,
     "speed": 47,
     "stamina": 64,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "gigaton-head",

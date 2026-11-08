@@ -393,7 +393,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Fudou Akio",
-   "description": "Dicen que ni siquiera un demonio jugaría de una forma tan violenta."
+   "description": "Dicen que ni siquiera un demonio jugaría de una forma tan violenta.",
+   "captain": true
   },
   {
    "id": "jimbo-cellar",

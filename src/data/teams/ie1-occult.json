@@ -364,7 +364,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Yuukoku Hiroyuki",
-   "description": "Su \"don\" le permite contactar con espíritus de futbolistas."
+   "description": "Su \"don\" le permite contactar con espíritus de futbolistas.",
+   "captain": true
   },
   {
    "id": "rob-crombie",

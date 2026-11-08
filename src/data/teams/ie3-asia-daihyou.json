@@ -406,7 +406,8 @@
     "skin": "#e8b888"
    },
    "wiki": "Afuro Terumi",
-   "description": "Embelesa a rivales con un toque de balón cercano al arte más bello."
+   "description": "Embelesa a rivales con un toque de balón cercano al arte más bello.",
+   "captain": true
   },
   {
    "id": "changsu-choi",

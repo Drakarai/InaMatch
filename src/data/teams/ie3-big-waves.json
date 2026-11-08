@@ -303,7 +303,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Niese Dolphin",
-   "description": "Este joven de la costa es la punta de lanza y capitán del equipo australiano."
+   "description": "Este joven de la costa es la punta de lanza y capitán del equipo australiano.",
+   "captain": true
   },
   {
    "id": "hamilton-reith",

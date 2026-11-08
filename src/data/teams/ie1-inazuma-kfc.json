@@ -366,7 +366,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Kisaragi Mako",
-   "description": "Es la líder de la panda del barrio. Su madre regenta una taberna."
+   "description": "Es la líder de la panda del barrio. Su madre regenta una taberna.",
+   "captain": true
   },
   {
    "id": "michael-riverside",

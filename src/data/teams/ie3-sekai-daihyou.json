@@ -60,7 +60,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Rococo Ulpa",
-   "description": "Procede de una remota región llamada Costail y tiene un potencial enorme."
+   "description": "Procede de una remota región llamada Costail y tiene un potencial enorme.",
+   "captain": true
   },
   {
    "id": "bilal-kalil",

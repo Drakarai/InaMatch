@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 75,
-   "tp": 150,
+   "fp": 79,
+   "tp": 148,
    "stats": {
-    "kick": 51,
+    "kick": 44,
     "body": 50,
-    "control": 56,
-    "guard": 56,
-    "speed": 58,
-    "stamina": 49,
-    "guts": 61
+    "control": 48,
+    "guard": 55,
+    "speed": 55,
+    "stamina": 51,
+    "guts": 63
    },
    "moves": [
     "rapid-whip",
@@ -58,15 +58,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 114,
-   "tp": 172,
+   "fp": 113,
+   "tp": 158,
    "stats": {
-    "kick": 51,
-    "body": 65,
-    "control": 64,
-    "guard": 56,
-    "speed": 55,
-    "stamina": 53,
+    "kick": 48,
+    "body": 64,
+    "control": 56,
+    "guard": 66,
+    "speed": 53,
+    "stamina": 54,
     "guts": 60
    },
    "moves": [
@@ -89,15 +89,15 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 164,
-   "tp": 159,
+   "fp": 165,
+   "tp": 149,
    "stats": {
-    "kick": 54,
-    "body": 55,
-    "control": 64,
-    "guard": 52,
-    "speed": 59,
-    "stamina": 53,
+    "kick": 50,
+    "body": 54,
+    "control": 56,
+    "guard": 63,
+    "speed": 57,
+    "stamina": 54,
     "guts": 55
    },
    "moves": [
@@ -121,15 +121,15 @@
    "element": "wood",
    "level": 99,
    "fp": 120,
-   "tp": 155,
+   "tp": 147,
    "stats": {
-    "kick": 50,
-    "body": 55,
-    "control": 52,
-    "guard": 56,
-    "speed": 54,
-    "stamina": 59,
-    "guts": 57
+    "kick": 47,
+    "body": 54,
+    "control": 47,
+    "guard": 66,
+    "speed": 53,
+    "stamina": 61,
+    "guts": 58
    },
    "moves": [
     "the-mist",
@@ -151,14 +151,14 @@
    "element": "wind",
    "level": 99,
    "fp": 143,
-   "tp": 163,
+   "tp": 152,
    "stats": {
-    "kick": 50,
-    "body": 56,
-    "control": 66,
-    "guard": 31,
-    "speed": 78,
-    "stamina": 58,
+    "kick": 48,
+    "body": 55,
+    "control": 58,
+    "guard": 47,
+    "speed": 76,
+    "stamina": 60,
     "guts": 55
    },
    "moves": [
@@ -181,16 +181,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 172,
-   "tp": 157,
+   "fp": 167,
+   "tp": 148,
    "stats": {
     "kick": 53,
-    "body": 51,
-    "control": 53,
-    "guard": 72,
-    "speed": 60,
-    "stamina": 50,
-    "guts": 58
+    "body": 52,
+    "control": 63,
+    "guard": 64,
+    "speed": 62,
+    "stamina": 47,
+    "guts": 56
    },
    "moves": [
     "thief-eye",
@@ -212,16 +212,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 112,
-   "tp": 159,
+   "fp": 108,
+   "tp": 149,
    "stats": {
     "kick": 53,
     "body": 70,
-    "control": 54,
-    "guard": 56,
-    "speed": 48,
-    "stamina": 55,
-    "guts": 62
+    "control": 63,
+    "guard": 53,
+    "speed": 49,
+    "stamina": 52,
+    "guts": 60
    },
    "moves": [
     "soyokaze-step",
@@ -242,16 +242,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 174,
-   "tp": 152,
+   "fp": 169,
+   "tp": 145,
    "stats": {
-    "kick": 50,
-    "body": 52,
-    "control": 39,
-    "guard": 67,
-    "speed": 47,
-    "stamina": 63,
-    "guts": 60
+    "kick": 51,
+    "body": 53,
+    "control": 51,
+    "guard": 60,
+    "speed": 48,
+    "stamina": 60,
+    "guts": 58
    },
    "moves": [
     "boomerang-feint",
@@ -273,16 +273,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 114,
-   "tp": 174,
+   "fp": 110,
+   "tp": 159,
    "stats": {
-    "kick": 57,
+    "kick": 56,
     "body": 67,
-    "control": 46,
-    "guard": 61,
-    "speed": 58,
-    "stamina": 57,
-    "guts": 58
+    "control": 57,
+    "guard": 56,
+    "speed": 59,
+    "stamina": 54,
+    "guts": 56
    },
    "moves": [
     "fuujin-no-mai",
@@ -294,7 +294,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Ichino Nanasuke",
-   "description": "Este chico tranquilo y responsable aporta sobre todo una visión estratégica."
+   "description": "Este chico tranquilo y responsable aporta sobre todo una visión estratégica.",
+   "captain": true
   },
   {
    "id": "jagur-meister",
@@ -304,16 +305,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 206,
-   "tp": 117,
+   "fp": 211,
+   "tp": 109,
    "stats": {
-    "kick": 51,
-    "body": 45,
-    "control": 52,
-    "guard": 62,
-    "speed": 47,
-    "stamina": 66,
-    "guts": 58
+    "kick": 64,
+    "body": 43,
+    "control": 54,
+    "guard": 55,
+    "speed": 48,
+    "stamina": 65,
+    "guts": 57
    },
    "moves": [
     "head-bazooka",
@@ -335,16 +336,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 122,
-   "tp": 145,
+   "fp": 124,
+   "tp": 153,
    "stats": {
-    "kick": 62,
-    "body": 79,
+    "kick": 75,
+    "body": 81,
     "control": 58,
-    "guard": 60,
-    "speed": 57,
+    "guard": 54,
+    "speed": 58,
     "stamina": 56,
-    "guts": 59
+    "guts": 58
    },
    "moves": [
     "bound-flame",
@@ -366,16 +367,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 158,
-   "tp": 157,
+   "fp": 162,
+   "tp": 152,
    "stats": {
-    "kick": 55,
+    "kick": 46,
     "body": 52,
-    "control": 58,
+    "control": 49,
     "guard": 57,
-    "speed": 55,
-    "stamina": 62,
-    "guts": 57
+    "speed": 52,
+    "stamina": 63,
+    "guts": 60
    },
    "moves": [
     "god-hand",
@@ -396,15 +397,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 164,
-   "tp": 152,
+   "fp": 165,
+   "tp": 145,
    "stats": {
-    "kick": 51,
-    "body": 54,
-    "control": 53,
-    "guard": 63,
-    "speed": 52,
-    "stamina": 58,
+    "kick": 48,
+    "body": 53,
+    "control": 48,
+    "guard": 71,
+    "speed": 50,
+    "stamina": 60,
     "guts": 53
    },
    "moves": [
@@ -426,16 +427,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 174,
-   "tp": 157,
+   "fp": 169,
+   "tp": 148,
    "stats": {
     "kick": 53,
     "body": 61,
-    "control": 61,
-    "guard": 52,
-    "speed": 49,
-    "stamina": 54,
-    "guts": 56
+    "control": 69,
+    "guard": 50,
+    "speed": 50,
+    "stamina": 52,
+    "guts": 55
    },
    "moves": [
     "soyokaze-step",

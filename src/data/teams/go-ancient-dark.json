@@ -26,16 +26,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 84,
-   "tp": 205,
+   "fp": 88,
+   "tp": 182,
    "stats": {
-    "kick": 66,
+    "kick": 51,
     "body": 49,
-    "control": 63,
+    "control": 52,
     "guard": 54,
-    "speed": 46,
-    "stamina": 48,
-    "guts": 51
+    "speed": 45,
+    "stamina": 50,
+    "guts": 54
    },
    "moves": [
     "kill-bridge",
@@ -57,14 +57,14 @@
    "element": "wood",
    "level": 99,
    "fp": 123,
-   "tp": 165,
+   "tp": 154,
    "stats": {
-    "kick": 52,
-    "body": 49,
-    "control": 48,
-    "guard": 57,
-    "speed": 50,
-    "stamina": 64,
+    "kick": 48,
+    "body": 47,
+    "control": 45,
+    "guard": 67,
+    "speed": 48,
+    "stamina": 66,
     "guts": 53
    },
    "moves": [
@@ -87,16 +87,16 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 161,
-   "tp": 160,
+   "fp": 162,
+   "tp": 150,
    "stats": {
-    "kick": 60,
-    "body": 37,
-    "control": 63,
-    "guard": 46,
-    "speed": 54,
-    "stamina": 76,
-    "guts": 50
+    "kick": 53,
+    "body": 36,
+    "control": 55,
+    "guard": 58,
+    "speed": 53,
+    "stamina": 81,
+    "guts": 51
    },
    "moves": [
     "vanishing-cut",
@@ -119,14 +119,14 @@
    "element": "fire",
    "level": 99,
    "fp": 120,
-   "tp": 172,
+   "tp": 158,
    "stats": {
-    "kick": 56,
-    "body": 52,
-    "control": 66,
-    "guard": 49,
-    "speed": 62,
-    "stamina": 55,
+    "kick": 51,
+    "body": 51,
+    "control": 58,
+    "guard": 61,
+    "speed": 60,
+    "stamina": 56,
     "guts": 49
    },
    "moves": [
@@ -151,14 +151,14 @@
    "element": "wood",
    "level": 99,
    "fp": 60,
-   "tp": 184,
+   "tp": 167,
    "stats": {
-    "kick": 64,
-    "body": 63,
-    "control": 64,
-    "guard": 44,
-    "speed": 53,
-    "stamina": 54,
+    "kick": 55,
+    "body": 62,
+    "control": 56,
+    "guard": 57,
+    "speed": 51,
+    "stamina": 56,
     "guts": 55
    },
    "moves": [
@@ -181,16 +181,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 194,
-   "tp": 152,
+   "fp": 189,
+   "tp": 145,
    "stats": {
-    "kick": 64,
-    "body": 47,
-    "control": 45,
+    "kick": 60,
+    "body": 48,
+    "control": 55,
     "guard": 46,
-    "speed": 56,
-    "stamina": 65,
-    "guts": 51
+    "speed": 58,
+    "stamina": 62,
+    "guts": 49
    },
    "moves": [
     "maboroshi-shot",
@@ -212,16 +212,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 175,
-   "tp": 152,
+   "fp": 170,
+   "tp": 145,
    "stats": {
-    "kick": 66,
-    "body": 55,
-    "control": 51,
+    "kick": 61,
+    "body": 56,
+    "control": 61,
     "guard": 46,
-    "speed": 57,
-    "stamina": 60,
-    "guts": 53
+    "speed": 59,
+    "stamina": 57,
+    "guts": 51
    },
    "moves": [
     "sprint-warp",
@@ -243,16 +243,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 126,
-   "tp": 171,
+   "fp": 122,
+   "tp": 157,
    "stats": {
-    "kick": 49,
-    "body": 52,
-    "control": 56,
-    "guard": 62,
-    "speed": 54,
-    "stamina": 57,
-    "guts": 53
+    "kick": 50,
+    "body": 53,
+    "control": 65,
+    "guard": 57,
+    "speed": 55,
+    "stamina": 54,
+    "guts": 51
    },
    "moves": [
     "thousand-arrow",
@@ -275,16 +275,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 122,
-   "tp": 165,
+   "fp": 118,
+   "tp": 153,
    "stats": {
-    "kick": 65,
-    "body": 49,
-    "control": 46,
-    "guard": 50,
-    "speed": 62,
-    "stamina": 62,
-    "guts": 53
+    "kick": 61,
+    "body": 50,
+    "control": 57,
+    "guard": 48,
+    "speed": 64,
+    "stamina": 59,
+    "guts": 51
    },
    "moves": [
     "maboroshi-shot",
@@ -306,16 +306,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 163,
-   "tp": 140,
+   "fp": 166,
+   "tp": 145,
    "stats": {
-    "kick": 80,
+    "kick": 91,
     "body": 70,
-    "control": 74,
-    "guard": 68,
-    "speed": 42,
+    "control": 69,
+    "guard": 59,
+    "speed": 43,
     "stamina": 59,
-    "guts": 57
+    "guts": 56
    },
    "moves": [
     "black-ash",
@@ -328,7 +328,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shuu",
-   "description": "Un chico que vive en la isla del Santuario. Tiene un pasado misterioso."
+   "description": "Un chico que vive en la isla del Santuario. Tiene un pasado misterioso.",
+   "captain": true
   },
   {
    "id": "yang",
@@ -339,15 +340,15 @@
    "element": "earth",
    "level": 99,
    "fp": 60,
-   "tp": 148,
+   "tp": 157,
    "stats": {
-    "kick": 50,
-    "body": 75,
-    "control": 48,
-    "guard": 65,
+    "kick": 64,
+    "body": 76,
+    "control": 51,
+    "guard": 57,
     "speed": 53,
     "stamina": 50,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "death-drop",

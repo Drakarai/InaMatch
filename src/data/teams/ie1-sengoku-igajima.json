@@ -365,7 +365,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Kirigakure Saiji",
-   "description": "Magnífico ninja. A veces se olvida del reglamento y usa las manos."
+   "description": "Magnífico ninja. A veces se olvida del reglamento y usa las manos.",
+   "captain": true
   },
   {
    "id": "john-reynolds",

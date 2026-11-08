@@ -32,16 +32,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 147,
-   "tp": 134,
+   "fp": 151,
+   "tp": 139,
    "stats": {
-    "kick": 67,
-    "body": 71,
-    "control": 48,
-    "guard": 67,
-    "speed": 42,
-    "stamina": 71,
-    "guts": 38
+    "kick": 51,
+    "body": 70,
+    "control": 43,
+    "guard": 66,
+    "speed": 41,
+    "stamina": 72,
+    "guts": 40
    },
    "moves": [
     "sand-knock",
@@ -64,14 +64,14 @@
    "element": "fire",
    "level": 99,
    "fp": 135,
-   "tp": 101,
+   "tp": 111,
    "stats": {
-    "kick": 46,
-    "body": 60,
-    "control": 50,
-    "guard": 63,
-    "speed": 66,
-    "stamina": 67,
+    "kick": 45,
+    "body": 59,
+    "control": 46,
+    "guard": 71,
+    "speed": 64,
+    "stamina": 70,
     "guts": 62
    },
    "moves": [
@@ -96,14 +96,14 @@
    "element": "earth",
    "level": 99,
    "fp": 143,
-   "tp": 97,
+   "tp": 108,
    "stats": {
-    "kick": 60,
-    "body": 51,
-    "control": 56,
-    "guard": 66,
-    "speed": 43,
-    "stamina": 76,
+    "kick": 52,
+    "body": 50,
+    "control": 51,
+    "guard": 74,
+    "speed": 42,
+    "stamina": 80,
     "guts": 58
    },
    "moves": [
@@ -127,14 +127,14 @@
    "element": "earth",
    "level": 99,
    "fp": 138,
-   "tp": 105,
+   "tp": 113,
    "stats": {
-    "kick": 69,
-    "body": 58,
-    "control": 48,
-    "guard": 64,
-    "speed": 49,
-    "stamina": 66,
+    "kick": 57,
+    "body": 56,
+    "control": 45,
+    "guard": 72,
+    "speed": 47,
+    "stamina": 69,
     "guts": 72
    },
    "moves": [
@@ -159,15 +159,15 @@
    "element": "fire",
    "level": 99,
    "fp": 130,
-   "tp": 101,
+   "tp": 111,
    "stats": {
-    "kick": 75,
-    "body": 65,
-    "control": 61,
-    "guard": 60,
-    "speed": 42,
-    "stamina": 65,
-    "guts": 44
+    "kick": 61,
+    "body": 64,
+    "control": 54,
+    "guard": 69,
+    "speed": 41,
+    "stamina": 68,
+    "guts": 45
    },
    "moves": [
     "dig-up",
@@ -190,14 +190,14 @@
    "element": "wood",
    "level": 99,
    "fp": 120,
-   "tp": 121,
+   "tp": 124,
    "stats": {
-    "kick": 47,
-    "body": 50,
-    "control": 44,
-    "guard": 58,
-    "speed": 77,
-    "stamina": 66,
+    "kick": 46,
+    "body": 49,
+    "control": 42,
+    "guard": 68,
+    "speed": 75,
+    "stamina": 69,
     "guts": 62
    },
    "moves": [
@@ -220,16 +220,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 150,
-   "tp": 110,
+   "fp": 145,
+   "tp": 118,
    "stats": {
-    "kick": 65,
-    "body": 64,
-    "control": 65,
-    "guard": 58,
-    "speed": 54,
-    "stamina": 77,
-    "guts": 56
+    "kick": 61,
+    "body": 65,
+    "control": 73,
+    "guard": 54,
+    "speed": 55,
+    "stamina": 73,
+    "guts": 55
    },
    "moves": [
     "dig-through",
@@ -242,7 +242,8 @@
     "skin": "#9a6a44"
    },
    "wiki": "Kazerma Worg",
-   "description": "Capitán de Los Sílice. Cree que se debería jugar limpio siempre."
+   "description": "Capitán de Los Sílice. Cree que se debería jugar limpio siempre.",
+   "captain": true
   },
   {
    "id": "k-al",
@@ -252,16 +253,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 142,
-   "tp": 123,
+   "fp": 144,
+   "tp": 118,
    "stats": {
-    "kick": 66,
+    "kick": 78,
     "body": 68,
-    "control": 64,
-    "guard": 46,
+    "control": 62,
+    "guard": 45,
     "speed": 57,
-    "stamina": 71,
-    "guts": 50
+    "stamina": 70,
+    "guts": 49
    },
    "moves": [
     "dust-javelin",
@@ -284,16 +285,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 152,
-   "tp": 122,
+   "fp": 154,
+   "tp": 116,
    "stats": {
-    "kick": 67,
+    "kick": 79,
     "body": 58,
     "control": 58,
-    "guard": 53,
-    "speed": 59,
+    "guard": 49,
+    "speed": 60,
     "stamina": 72,
-    "guts": 51
+    "guts": 50
    },
    "moves": [
     "dust-javelin",
@@ -316,16 +317,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 124,
-   "tp": 128,
+   "fp": 125,
+   "tp": 126,
    "stats": {
-    "kick": 64,
+    "kick": 77,
     "body": 57,
-    "control": 60,
-    "guard": 65,
-    "speed": 61,
+    "control": 59,
+    "guard": 57,
+    "speed": 62,
     "stamina": 73,
-    "guts": 59
+    "guts": 58
    },
    "moves": [
     "dust-javelin",
@@ -348,16 +349,16 @@
    "position": "FW",
    "element": "earth",
    "level": 99,
-   "fp": 134,
-   "tp": 124,
+   "fp": 136,
+   "tp": 120,
    "stats": {
-    "kick": 62,
+    "kick": 75,
     "body": 64,
     "control": 57,
-    "guard": 71,
+    "guard": 61,
     "speed": 58,
     "stamina": 75,
-    "guts": 50
+    "guts": 49
    },
    "moves": [
     "dust-javelin",
@@ -380,16 +381,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 85,
-   "tp": 97,
+   "fp": 88,
+   "tp": 108,
    "stats": {
-    "kick": 75,
-    "body": 46,
-    "control": 66,
-    "guard": 41,
-    "speed": 59,
-    "stamina": 43,
-    "guts": 67
+    "kick": 84,
+    "body": 47,
+    "control": 67,
+    "guard": 46,
+    "speed": 52,
+    "stamina": 44,
+    "guts": 61
    },
    "moves": [
     "spinning-shoot",

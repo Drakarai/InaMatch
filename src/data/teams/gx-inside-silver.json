@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 128,
-   "tp": 114,
+   "fp": 132,
+   "tp": 126,
    "stats": {
-    "kick": 74,
+    "kick": 55,
     "body": 57,
-    "control": 67,
-    "guard": 66,
-    "speed": 58,
-    "stamina": 63,
-    "guts": 59
+    "control": 54,
+    "guard": 65,
+    "speed": 55,
+    "stamina": 64,
+    "guts": 62
    },
    "moves": [
     "shoot-pocket",
@@ -60,15 +60,15 @@
    "element": "fire",
    "level": 99,
    "fp": 138,
-   "tp": 108,
+   "tp": 115,
    "stats": {
-    "kick": 67,
-    "body": 59,
-    "control": 62,
-    "guard": 64,
-    "speed": 52,
-    "stamina": 51,
-    "guts": 51
+    "kick": 56,
+    "body": 58,
+    "control": 55,
+    "guard": 72,
+    "speed": 51,
+    "stamina": 52,
+    "guts": 52
    },
    "moves": [
     "thief-eye",
@@ -90,16 +90,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 110,
-   "tp": 129,
+   "fp": 109,
+   "tp": 130,
    "stats": {
-    "kick": 61,
-    "body": 73,
-    "control": 65,
-    "guard": 62,
-    "speed": 53,
-    "stamina": 51,
-    "guts": 57
+    "kick": 53,
+    "body": 72,
+    "control": 57,
+    "guard": 71,
+    "speed": 52,
+    "stamina": 52,
+    "guts": 58
    },
    "moves": [
     "fractal-house",
@@ -122,15 +122,15 @@
    "element": "wind",
    "level": 99,
    "fp": 148,
-   "tp": 101,
+   "tp": 111,
    "stats": {
-    "kick": 79,
-    "body": 55,
-    "control": 53,
-    "guard": 60,
-    "speed": 62,
-    "stamina": 60,
-    "guts": 60
+    "kick": 62,
+    "body": 54,
+    "control": 48,
+    "guard": 69,
+    "speed": 60,
+    "stamina": 62,
+    "guts": 61
    },
    "moves": [
     "coil-upper",
@@ -153,15 +153,15 @@
    "element": "wind",
    "level": 99,
    "fp": 130,
-   "tp": 115,
+   "tp": 120,
    "stats": {
-    "kick": 58,
-    "body": 61,
-    "control": 54,
-    "guard": 63,
-    "speed": 63,
-    "stamina": 58,
-    "guts": 52
+    "kick": 52,
+    "body": 60,
+    "control": 49,
+    "guard": 71,
+    "speed": 61,
+    "stamina": 60,
+    "guts": 53
    },
    "moves": [
     "wonder-trap",
@@ -183,16 +183,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 160,
-   "tp": 95,
+   "fp": 155,
+   "tp": 108,
    "stats": {
-    "kick": 63,
+    "kick": 60,
     "body": 62,
-    "control": 63,
-    "guard": 57,
-    "speed": 60,
-    "stamina": 64,
-    "guts": 44
+    "control": 71,
+    "guard": 53,
+    "speed": 61,
+    "stamina": 60,
+    "guts": 42
    },
    "moves": [
     "transmove",
@@ -214,16 +214,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 126,
-   "tp": 120,
+   "fp": 122,
+   "tp": 124,
    "stats": {
-    "kick": 65,
-    "body": 57,
-    "control": 65,
-    "guard": 56,
-    "speed": 59,
-    "stamina": 55,
-    "guts": 55
+    "kick": 61,
+    "body": 58,
+    "control": 73,
+    "guard": 53,
+    "speed": 60,
+    "stamina": 52,
+    "guts": 53
    },
    "moves": [
     "future-eye",
@@ -245,16 +245,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 165,
-   "tp": 92,
+   "fp": 160,
+   "tp": 107,
    "stats": {
     "kick": 54,
-    "body": 57,
-    "control": 66,
-    "guard": 59,
-    "speed": 66,
-    "stamina": 53,
-    "guts": 51
+    "body": 58,
+    "control": 74,
+    "guard": 55,
+    "speed": 68,
+    "stamina": 51,
+    "guts": 49
    },
    "moves": [
     "linear-drive",
@@ -276,16 +276,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 124,
-   "tp": 127,
+   "fp": 125,
+   "tp": 125,
    "stats": {
-    "kick": 66,
+    "kick": 78,
     "body": 68,
-    "control": 41,
-    "guard": 71,
-    "speed": 60,
-    "stamina": 63,
-    "guts": 54
+    "control": 46,
+    "guard": 61,
+    "speed": 61,
+    "stamina": 62,
+    "guts": 53
    },
    "moves": [
     "bouncer-rabbit",
@@ -308,16 +308,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 114,
-   "tp": 130,
+   "fp": 115,
+   "tp": 129,
    "stats": {
-    "kick": 64,
+    "kick": 77,
     "body": 66,
-    "control": 50,
-    "guard": 69,
-    "speed": 55,
-    "stamina": 66,
-    "guts": 44
+    "control": 52,
+    "guard": 60,
+    "speed": 56,
+    "stamina": 65,
+    "guts": 43
    },
    "moves": [
     "spinning-transam",
@@ -330,7 +330,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Gin Narn",
-   "description": "Alien que participaba en el FFI V2. Sustituía a Domitri Sobirov."
+   "description": "Alien que participaba en el FFI V2. Sustituía a Domitri Sobirov.",
+   "captain": true
   },
   {
    "id": "zane-gin",
@@ -340,16 +341,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 142,
-   "tp": 122,
+   "fp": 144,
+   "tp": 116,
    "stats": {
-    "kick": 63,
+    "kick": 76,
     "body": 62,
     "control": 58,
-    "guard": 54,
-    "speed": 63,
+    "guard": 50,
+    "speed": 64,
     "stamina": 64,
-    "guts": 54
+    "guts": 53
    },
    "moves": [
     "perfect-course",

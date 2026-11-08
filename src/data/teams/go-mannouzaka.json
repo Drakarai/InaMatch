@@ -28,16 +28,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 117,
-   "tp": 174,
+   "fp": 121,
+   "tp": 163,
    "stats": {
-    "kick": 47,
+    "kick": 43,
     "body": 61,
-    "control": 55,
-    "guard": 59,
-    "speed": 56,
-    "stamina": 46,
-    "guts": 54
+    "control": 47,
+    "guard": 58,
+    "speed": 53,
+    "stamina": 49,
+    "guts": 56
    },
    "moves": [
     "bat-attack",
@@ -60,14 +60,14 @@
    "element": "wind",
    "level": 99,
    "fp": 158,
-   "tp": 120,
+   "tp": 123,
    "stats": {
-    "kick": 62,
-    "body": 42,
-    "control": 62,
-    "guard": 59,
-    "speed": 57,
-    "stamina": 74,
+    "kick": 53,
+    "body": 41,
+    "control": 55,
+    "guard": 69,
+    "speed": 55,
+    "stamina": 78,
     "guts": 62
    },
    "moves": [
@@ -89,15 +89,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 187,
-   "tp": 121,
+   "fp": 189,
+   "tp": 124,
    "stats": {
-    "kick": 60,
+    "kick": 53,
     "body": 35,
-    "control": 57,
-    "guard": 58,
-    "speed": 54,
-    "stamina": 76,
+    "control": 51,
+    "guard": 68,
+    "speed": 53,
+    "stamina": 81,
     "guts": 64
    },
    "moves": [
@@ -120,15 +120,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 189,
-   "tp": 107,
+   "fp": 190,
+   "tp": 114,
    "stats": {
-    "kick": 55,
-    "body": 56,
-    "control": 70,
-    "guard": 54,
-    "speed": 57,
-    "stamina": 63,
+    "kick": 50,
+    "body": 55,
+    "control": 60,
+    "guard": 65,
+    "speed": 55,
+    "stamina": 66,
     "guts": 55
    },
    "moves": [
@@ -151,16 +151,16 @@
    "position": "DF",
    "element": "fire",
    "level": 99,
-   "fp": 164,
-   "tp": 152,
+   "fp": 165,
+   "tp": 145,
    "stats": {
-    "kick": 56,
-    "body": 60,
-    "control": 70,
-    "guard": 55,
-    "speed": 56,
-    "stamina": 51,
-    "guts": 53
+    "kick": 51,
+    "body": 59,
+    "control": 61,
+    "guard": 65,
+    "speed": 54,
+    "stamina": 53,
+    "guts": 54
    },
    "moves": [
     "thief-eye",
@@ -182,16 +182,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 124,
-   "tp": 116,
+   "fp": 120,
+   "tp": 122,
    "stats": {
-    "kick": 67,
+    "kick": 62,
     "body": 70,
-    "control": 50,
-    "guard": 72,
-    "speed": 59,
-    "stamina": 48,
-    "guts": 53
+    "control": 60,
+    "guard": 64,
+    "speed": 60,
+    "stamina": 46,
+    "guts": 51
    },
    "moves": [
     "boomerang-feint",
@@ -213,16 +213,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 177,
-   "tp": 159,
+   "fp": 172,
+   "tp": 149,
    "stats": {
-    "kick": 48,
+    "kick": 50,
     "body": 74,
-    "control": 62,
-    "guard": 63,
-    "speed": 57,
-    "stamina": 53,
-    "guts": 58
+    "control": 70,
+    "guard": 58,
+    "speed": 59,
+    "stamina": 51,
+    "guts": 56
    },
    "moves": [
     "boomerang-feint",
@@ -244,16 +244,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 129,
-   "tp": 113,
+   "fp": 125,
+   "tp": 120,
    "stats": {
     "kick": 53,
-    "body": 52,
-    "control": 78,
-    "guard": 60,
-    "speed": 58,
-    "stamina": 52,
-    "guts": 64
+    "body": 53,
+    "control": 84,
+    "guard": 56,
+    "speed": 59,
+    "stamina": 50,
+    "guts": 62
    },
    "moves": [
     "boomerang-feint",
@@ -275,16 +275,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 115,
-   "tp": 125,
+   "fp": 117,
+   "tp": 122,
    "stats": {
-    "kick": 48,
+    "kick": 62,
     "body": 62,
-    "control": 70,
-    "guard": 64,
+    "control": 66,
+    "guard": 56,
     "speed": 54,
-    "stamina": 52,
-    "guts": 55
+    "stamina": 51,
+    "guts": 54
    },
    "moves": [
     "bound-flame",
@@ -307,16 +307,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 162,
-   "tp": 142,
+   "fp": 165,
+   "tp": 149,
    "stats": {
-    "kick": 52,
+    "kick": 65,
     "body": 67,
-    "control": 79,
-    "guard": 48,
-    "speed": 60,
-    "stamina": 62,
-    "guts": 62
+    "control": 72,
+    "guard": 46,
+    "speed": 61,
+    "stamina": 61,
+    "guts": 61
    },
    "moves": [
     "bound-flame",
@@ -338,14 +338,14 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 122,
-   "tp": 147,
+   "fp": 124,
+   "tp": 157,
    "stats": {
-    "kick": 73,
+    "kick": 85,
     "body": 63,
     "control": 58,
-    "guard": 49,
-    "speed": 50,
+    "guard": 47,
+    "speed": 51,
     "stamina": 50,
     "guts": 66
    },
@@ -359,7 +359,8 @@
     "skin": "#c08a5e"
    },
    "wiki": "Isozaki Kenma",
-   "description": "Los disparos de este poderoso delantero son como hojas afiladas."
+   "description": "Los disparos de este poderoso delantero son como hojas afiladas.",
+   "captain": true
   },
   {
    "id": "apex-paradiso",
@@ -369,16 +370,16 @@
    "position": "GK",
    "element": "fire",
    "level": 99,
-   "fp": 158,
-   "tp": 118,
+   "fp": 162,
+   "tp": 129,
    "stats": {
-    "kick": 59,
+    "kick": 48,
     "body": 56,
-    "control": 54,
-    "guard": 48,
-    "speed": 56,
-    "stamina": 56,
-    "guts": 58
+    "control": 46,
+    "guard": 47,
+    "speed": 52,
+    "stamina": 58,
+    "guts": 61
    },
    "moves": [
     "burning-catch",
@@ -400,16 +401,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 186,
-   "tp": 144,
+   "fp": 190,
+   "tp": 151,
    "stats": {
-    "kick": 45,
-    "body": 53,
-    "control": 61,
-    "guard": 67,
-    "speed": 65,
-    "stamina": 56,
-    "guts": 56
+    "kick": 59,
+    "body": 52,
+    "control": 60,
+    "guard": 59,
+    "speed": 66,
+    "stamina": 55,
+    "guts": 55
    },
    "moves": [
     "bound-flame",
@@ -430,16 +431,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 177,
-   "tp": 159,
+   "fp": 172,
+   "tp": 149,
    "stats": {
     "kick": 53,
-    "body": 54,
-    "control": 54,
-    "guard": 64,
-    "speed": 50,
-    "stamina": 53,
-    "guts": 55
+    "body": 55,
+    "control": 63,
+    "guard": 59,
+    "speed": 51,
+    "stamina": 51,
+    "guts": 54
    },
    "moves": [
     "boomerang-feint",
@@ -460,16 +461,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 172,
-   "tp": 159,
+   "fp": 167,
+   "tp": 149,
    "stats": {
     "kick": 55,
-    "body": 58,
-    "control": 56,
-    "guard": 62,
-    "speed": 72,
-    "stamina": 62,
-    "guts": 53
+    "body": 59,
+    "control": 65,
+    "guard": 57,
+    "speed": 75,
+    "stamina": 59,
+    "guts": 51
    },
    "moves": [
     "boomerang-feint",
@@ -492,15 +493,15 @@
    "element": "wood",
    "level": 99,
    "fp": 163,
-   "tp": 117,
+   "tp": 121,
    "stats": {
-    "kick": 52,
-    "body": 61,
-    "control": 70,
-    "guard": 54,
-    "speed": 58,
-    "stamina": 58,
-    "guts": 50
+    "kick": 49,
+    "body": 60,
+    "control": 61,
+    "guard": 65,
+    "speed": 56,
+    "stamina": 60,
+    "guts": 51
    },
    "moves": [
     "thief-eye",

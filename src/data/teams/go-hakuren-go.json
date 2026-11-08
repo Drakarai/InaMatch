@@ -27,16 +27,16 @@
    "position": "GK",
    "element": "wind",
    "level": 99,
-   "fp": 119,
-   "tp": 159,
+   "fp": 123,
+   "tp": 154,
    "stats": {
-    "kick": 55,
+    "kick": 46,
     "body": 49,
-    "control": 55,
-    "guard": 59,
-    "speed": 46,
-    "stamina": 42,
-    "guts": 54
+    "control": 47,
+    "guard": 58,
+    "speed": 44,
+    "stamina": 45,
+    "guts": 56
    },
    "moves": [
     "crystal-barrier",
@@ -47,7 +47,8 @@
     "skin": "#f1c79b"
    },
    "wiki": "Shirosaki Katsuya",
-   "description": "Asegura la portería como un muro. La victoria lo es todo para él."
+   "description": "Asegura la portería como un muro. La victoria lo es todo para él.",
+   "captain": true
   },
   {
    "id": "sascha-kotch",
@@ -57,15 +58,15 @@
    "position": "DF",
    "element": "wind",
    "level": 99,
-   "fp": 164,
-   "tp": 156,
+   "fp": 165,
+   "tp": 148,
    "stats": {
-    "kick": 51,
-    "body": 63,
-    "control": 50,
-    "guard": 56,
-    "speed": 51,
-    "stamina": 56,
+    "kick": 48,
+    "body": 62,
+    "control": 46,
+    "guard": 66,
+    "speed": 50,
+    "stamina": 58,
     "guts": 54
    },
    "moves": [
@@ -88,15 +89,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 146,
-   "tp": 145,
+   "fp": 147,
+   "tp": 140,
    "stats": {
-    "kick": 56,
-    "body": 62,
-    "control": 55,
-    "guard": 44,
-    "speed": 52,
-    "stamina": 57,
+    "kick": 51,
+    "body": 60,
+    "control": 50,
+    "guard": 57,
+    "speed": 51,
+    "stamina": 59,
     "guts": 53
    },
    "moves": [
@@ -119,15 +120,15 @@
    "position": "DF",
    "element": "wood",
    "level": 99,
-   "fp": 164,
-   "tp": 157,
+   "fp": 165,
+   "tp": 149,
    "stats": {
-    "kick": 53,
-    "body": 49,
-    "control": 52,
-    "guard": 68,
-    "speed": 55,
-    "stamina": 60,
+    "kick": 49,
+    "body": 48,
+    "control": 47,
+    "guard": 76,
+    "speed": 54,
+    "stamina": 62,
     "guts": 60
    },
    "moves": [
@@ -151,14 +152,14 @@
    "element": "wind",
    "level": 99,
    "fp": 120,
-   "tp": 155,
+   "tp": 147,
    "stats": {
-    "kick": 56,
-    "body": 51,
-    "control": 72,
-    "guard": 62,
-    "speed": 63,
-    "stamina": 56,
+    "kick": 51,
+    "body": 50,
+    "control": 62,
+    "guard": 71,
+    "speed": 61,
+    "stamina": 58,
     "guts": 53
    },
    "moves": [
@@ -181,16 +182,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 108,
-   "tp": 167,
+   "fp": 105,
+   "tp": 154,
    "stats": {
-    "kick": 42,
+    "kick": 46,
     "body": 67,
-    "control": 54,
-    "guard": 58,
-    "speed": 63,
-    "stamina": 56,
-    "guts": 68
+    "control": 63,
+    "guard": 54,
+    "speed": 65,
+    "stamina": 53,
+    "guts": 66
    },
    "moves": [
     "white-blade",
@@ -212,16 +213,16 @@
    "position": "MF",
    "element": "fire",
    "level": 99,
-   "fp": 179,
-   "tp": 153,
+   "fp": 174,
+   "tp": 146,
    "stats": {
-    "kick": 55,
+    "kick": 54,
     "body": 58,
-    "control": 60,
-    "guard": 62,
-    "speed": 64,
-    "stamina": 55,
-    "guts": 55
+    "control": 69,
+    "guard": 57,
+    "speed": 66,
+    "stamina": 53,
+    "guts": 54
    },
    "moves": [
     "white-blade",
@@ -242,16 +243,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 112,
-   "tp": 147,
+   "fp": 108,
+   "tp": 142,
    "stats": {
-    "kick": 48,
+    "kick": 50,
     "body": 74,
-    "control": 46,
-    "guard": 57,
-    "speed": 58,
-    "stamina": 56,
-    "guts": 60
+    "control": 57,
+    "guard": 53,
+    "speed": 60,
+    "stamina": 53,
+    "guts": 58
    },
    "moves": [
     "white-blade",
@@ -274,16 +275,16 @@
    "position": "MF",
    "element": "wood",
    "level": 99,
-   "fp": 150,
-   "tp": 134,
+   "fp": 145,
+   "tp": 133,
    "stats": {
-    "kick": 49,
-    "body": 52,
-    "control": 59,
-    "guard": 51,
-    "speed": 75,
-    "stamina": 55,
-    "guts": 52
+    "kick": 50,
+    "body": 53,
+    "control": 67,
+    "guard": 49,
+    "speed": 78,
+    "stamina": 52,
+    "guts": 51
    },
    "moves": [
     "white-blade",
@@ -305,16 +306,16 @@
    "position": "MF",
    "element": "earth",
    "level": 99,
-   "fp": 117,
-   "tp": 161,
+   "fp": 113,
+   "tp": 151,
    "stats": {
-    "kick": 49,
+    "kick": 51,
     "body": 54,
-    "control": 50,
+    "control": 60,
     "guard": 46,
-    "speed": 66,
-    "stamina": 55,
-    "guts": 58
+    "speed": 68,
+    "stamina": 53,
+    "guts": 56
    },
    "moves": [
     "white-blade",
@@ -336,16 +337,16 @@
    "position": "FW",
    "element": "wind",
    "level": 99,
-   "fp": 183,
-   "tp": 142,
+   "fp": 187,
+   "tp": 149,
    "stats": {
-    "kick": 64,
-    "body": 52,
-    "control": 50,
-    "guard": 48,
-    "speed": 51,
+    "kick": 76,
+    "body": 51,
+    "control": 52,
+    "guard": 46,
+    "speed": 52,
     "stamina": 50,
-    "guts": 54
+    "guts": 53
    },
    "moves": [
     "panther-blizzard",
@@ -367,16 +368,16 @@
    "position": "FW",
    "element": "wood",
    "level": 99,
-   "fp": 162,
-   "tp": 144,
+   "fp": 165,
+   "tp": 151,
    "stats": {
-    "kick": 59,
-    "body": 54,
-    "control": 55,
-    "guard": 51,
+    "kick": 72,
+    "body": 52,
+    "control": 56,
+    "guard": 48,
     "speed": 65,
     "stamina": 59,
-    "guts": 56
+    "guts": 55
    },
    "moves": [
     "eternal-blizzard",
@@ -398,16 +399,16 @@
    "position": "GK",
    "element": "earth",
    "level": 99,
-   "fp": 165,
-   "tp": 155,
+   "fp": 169,
+   "tp": 152,
    "stats": {
-    "kick": 56,
+    "kick": 47,
     "body": 46,
-    "control": 51,
+    "control": 45,
     "guard": 38,
-    "speed": 49,
-    "stamina": 62,
-    "guts": 59
+    "speed": 47,
+    "stamina": 64,
+    "guts": 61
    },
    "moves": [
     "boomerang-feint",
@@ -428,15 +429,15 @@
    "position": "DF",
    "element": "earth",
    "level": 99,
-   "fp": 166,
-   "tp": 156,
+   "fp": 167,
+   "tp": 148,
    "stats": {
-    "kick": 50,
-    "body": 48,
-    "control": 64,
-    "guard": 55,
-    "speed": 58,
-    "stamina": 60,
+    "kick": 48,
+    "body": 47,
+    "control": 56,
+    "guard": 66,
+    "speed": 56,
+    "stamina": 62,
     "guts": 53
    },
    "moves": [
@@ -459,16 +460,16 @@
    "position": "MF",
    "element": "wind",
    "level": 99,
-   "fp": 114,
-   "tp": 156,
+   "fp": 110,
+   "tp": 147,
    "stats": {
     "kick": 53,
-    "body": 69,
-    "control": 51,
-    "guard": 59,
-    "speed": 52,
-    "stamina": 53,
-    "guts": 61
+    "body": 70,
+    "control": 61,
+    "guard": 55,
+    "speed": 53,
+    "stamina": 51,
+    "guts": 60
    },
    "moves": [
     "the-mist",
@@ -489,16 +490,16 @@
    "position": "FW",
    "element": "fire",
    "level": 99,
-   "fp": 166,
-   "tp": 128,
+   "fp": 170,
+   "tp": 126,
    "stats": {
-    "kick": 72,
-    "body": 39,
-    "control": 50,
-    "guard": 58,
+    "kick": 84,
+    "body": 36,
+    "control": 52,
+    "guard": 53,
     "speed": 58,
     "stamina": 64,
-    "guts": 58
+    "guts": 57
    },
    "moves": [
     "mad-juggler",

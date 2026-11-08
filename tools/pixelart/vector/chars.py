@@ -832,6 +832,10 @@ import chars_scouts_go_09  # noqa: E402,F401
 import chars_scouts_cs_01  # noqa: E402,F401
 import chars_scouts_cs_02  # noqa: E402,F401
 import chars_scouts_cs_03  # noqa: E402,F401
+import chars_scouts_gx_01  # noqa: E402,F401
+import chars_scouts_gx_02  # noqa: E402,F401
+import chars_scouts_gx_03  # noqa: E402,F401
+import chars_scouts_gx_04  # noqa: E402,F401
 
 
 def desun(cid, seed, amp=20, n=9, rx=48, ry=42, lo=70, nape=92, sweep=-0.4, views=('front', 'side', 'back')):

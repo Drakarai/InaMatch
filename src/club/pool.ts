@@ -3,7 +3,9 @@ import type { PlayerData, Position } from '../data/types';
 
 /**
  * Todos los jugadores que se pueden fichar: los de los equipos y los ojeadores (src/data/scouts.json, que se
- * carga aparte porque son miles). Cada personaje sale una vez, en su mejor versión.
+ * carga aparte porque son miles). Cada personaje sale una vez por cada dibujo de partido distinto
+ * (src/data/variants.json): Mark Evans una vez, en su mejor versión, aunque cambie de técnicas según el equipo;
+ * Fubuki normal y Fubuki con Atsuya, o los adultos del Inazuma Japón Legendario, aparte.
  */
 
 export type Rarity = 1 | 2 | 3 | 4;
@@ -41,28 +43,36 @@ export function rarityOf(fame: number): Rarity {
 export async function loadPool(): Promise<Card[]> {
   if (cache) return cache;
   const scouts = ((await import('../data/scouts.json')).default ?? {}) as ScoutsFile;
+  const variants = ((await import('../data/variants.json')).default ?? {}) as Record<string, string>;
   const versions = new Map<string, { origin: string; season: string; player: PlayerData }[]>();
   const teamsOf = new Map<string, Set<string>>();
   const add = (wiki: string, origin: string, season: string, player: PlayerData) => {
     if (!versions.has(wiki)) versions.set(wiki, []);
     versions.get(wiki)!.push({ origin, season, player });
   };
+  const inTeams = new Set<string>();
   for (const team of TEAMS) {
     if (team.id === 'club') continue;
     for (const p of team.players) {
       const wiki = p.wiki ?? `${team.id}:${p.id}`;
-      add(wiki, team.id, team.season ?? 'otros', p);
+      // una carta por personaje y dibujo de partido
+      const variant = variants[`${team.id}:${p.id}`];
+      add(variant ? `${wiki}#${variant}` : wiki, team.id, team.season ?? 'otros', p);
+      inTeams.add(wiki);
       if (!teamsOf.has(wiki)) teamsOf.set(wiki, new Set());
       teamsOf.get(wiki)!.add(team.id);
     }
   }
   for (const [season, players] of Object.entries(scouts)) {
-    for (const p of players) add(p.wiki ?? `scouts-${season}:${p.id}`, `scouts-${season}`, season, p);
+    for (const p of players) {
+      const wiki = p.wiki ?? `scouts-${season}:${p.id}`;
+      if (!inTeams.has(wiki)) add(wiki, `scouts-${season}`, season, p); // si sale en algún equipo, ya está su carta
+    }
   }
   const cards: Card[] = [];
-  for (const [wiki, list] of versions) {
+  for (const [group, list] of versions) {
     const best = list.reduce((a, b) => (total(b.player) > total(a.player) ? b : a));
-    const fame = teamsOf.get(wiki)?.size ?? 0;
+    const fame = teamsOf.get(group.split('#')[0])?.size ?? 0;
     cards.push({ key: `${best.origin}:${best.player.id}`, origin: best.origin, player: best.player, season: best.season, rarity: rarityOf(fame), fame });
   }
   cache = cards;

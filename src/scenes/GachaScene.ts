@@ -4,13 +4,15 @@ import { music } from '../audio/music';
 import { loadClub, NOTEBOOK_COST, onClubChange, pull, pullNotebooks, PULL_COST, TEN_NOTEBOOK_COST, TEN_PULL_COST, type NotebookResult, type PullResult } from '../club/club';
 import { drawNotebook } from '../ui/notebook';
 import { RARITY } from '../club/pool';
-import { GAME_H, GAME_W } from '../config';
+import { GAME_H, GAME_W, PORTRAIT } from '../config';
+import { CLUB_HEADER_H, clubMobileHeader } from '../ui/clubMobile';
 import { drawCard, loadCardPortraits } from '../ui/card';
 import { THEME, cardPanel, chip, coinChip, fitCamera, glow, pt, sectionTitle, stadiumBackdrop, topBar } from '../ui/theme';
 import { Button, display, label, text, wait } from '../ui/widgets';
 
 type Mode = 'players' | 'notebooks';
-const STAGE = { x: 820, y: 330 };
+// en el móvil (vertical) el balón va arriba, centrado, y los botones abajo
+const STAGE = PORTRAIT ? { x: 270, y: 350 } : { x: 820, y: 330 };
 
 /**
  * Fichajes: tiradas de 1 o de 10 para conseguir jugadores (o cuadernos de supertécnicas) para "Mi club". Cada
@@ -41,6 +43,7 @@ export class GachaScene extends Phaser.Scene {
     const nb = this.mode === 'notebooks';
     stadiumBackdrop(this, nb ? 0x7a5aa8 : THEME.yellow, nb ? THEME.cyan : THEME.orange);
     this.drawRays();
+    if (PORTRAIT) return this.createMobile();
     topBar(this, {
       title: nb ? 'Cuadernos' : 'Fichajes',
       subtitle: nb ? 'Cuadernos de supertécnicas para Mi club' : 'Consigue jugadores para Mi club',
@@ -109,6 +112,50 @@ export class GachaScene extends Phaser.Scene {
     kb?.on('keydown-ZERO', () => this.roll(10));
   }
 
+  /** Fichajes en el móvil (vertical): cabecera, pestañas grandes, el balón y los dos botones de tirada abajo. */
+  private createMobile(): void {
+    const nb = this.mode === 'notebooks';
+    clubMobileHeader(this, { title: nb ? 'Cuadernos' : 'Fichajes', subtitle: nb ? 'Supertécnicas para Mi club' : 'Jugadores para Mi club', onBack: () => !this.busy && this.back(), accent: nb ? 0x7a5aa8 : THEME.yellow });
+    this.coinsLabel = coinChip(this, GAME_W - 12, CLUB_HEADER_H / 2, 0).setDepth(101);
+    const off = onClubChange(() => this.drawCoins());
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, off);
+    const tw = (GAME_W - 32) / 2;
+    (['players', 'notebooks'] as const).forEach((m, i) => {
+      new Button(this, 12 + tw / 2 + i * (tw + 8), CLUB_HEADER_H + 46, m === 'players' ? 'Jugadores' : 'Cuadernos', () => m !== this.mode && !this.busy && this.scene.restart({ mode: m, from: this.from }), {
+        w: tw,
+        h: 64,
+        variant: m === this.mode ? 'primary' : 'secondary',
+        size: 20,
+      })
+        .setSelected(m === this.mode)
+        .setDepth(101);
+    });
+    this.stage = this.add.container(0, 0);
+    this.idle();
+    // probabilidades: cuatro chapas en fila
+    const rates: [1 | 2 | 3 | 4, number][] = [
+      [4, 2],
+      [3, 10],
+      [2, 28],
+      [1, 60],
+    ];
+    const g = this.add.graphics();
+    cardPanel(g, 12, 650, GAME_W - 24, 112, { accent: nb ? 0x7a5aa8 : THEME.yellow });
+    const cw = (GAME_W - 40) / 4;
+    rates.forEach(([r, pct], i) => {
+      const x = 20 + i * cw + cw / 2;
+      text(this, x, 678, '★'.repeat(r), r === 4 ? 15 : 17, RARITY[r].css, { strokeThickness: 0 }).setOrigin(0.5);
+      label(this, x, 706, `${pct} %`, 22, THEME.text, { fontStyle: 'bold' }).setOrigin(0.5);
+    });
+    label(this, GAME_W / 2, 742, nb ? 'La rareza depende de la potencia de la técnica' : 'Los repetidos devuelven monedas · 10 tiradas: al menos un ★★★', 15, THEME.muted, { fontStyle: 'italic' }).setOrigin(0.5);
+    const [one, ten] = nb ? [NOTEBOOK_COST, TEN_NOTEBOOK_COST] : [PULL_COST, TEN_PULL_COST];
+    this.buttons = [
+      new Button(this, GAME_W / 2, 812, 'Una tirada', () => this.roll(1), { w: GAME_W - 40, h: 72, variant: 'primary', size: 24, sub: `${one} ●` }),
+      new Button(this, GAME_W / 2, 898, 'Diez tiradas', () => this.roll(10), { w: GAME_W - 40, h: 72, color: THEME.orange, size: 24, sub: `${ten} ●  (ahorras ${one * 10 - ten})` }),
+    ];
+    this.drawCoins();
+  }
+
   private back(): void {
     this.scene.start(this.from === 'menu' ? 'menu' : 'club');
   }
@@ -117,7 +164,8 @@ export class GachaScene extends Phaser.Scene {
     const coins = loadClub()?.coins ?? 0;
     const x = this.coinsLabel?.x ?? GAME_W - 24;
     this.coinsLabel?.destroy();
-    this.coinsLabel = coinChip(this, x, 32, coins).setDepth(101);
+    this.coinsLabel = coinChip(this, x, PORTRAIT ? CLUB_HEADER_H / 2 : 32, coins).setDepth(101);
+    if (PORTRAIT) this.coinsLabel.setScale(1.15);
     const nb = this.mode === 'notebooks';
     this.buttons[0]?.setEnabled(coins >= (nb ? NOTEBOOK_COST : PULL_COST));
     this.buttons[1]?.setEnabled(coins >= (nb ? TEN_NOTEBOOK_COST : TEN_PULL_COST));
@@ -147,8 +195,14 @@ export class GachaScene extends Phaser.Scene {
     this.tweens.add({ targets: ball.halo, angle: -360, duration: 9000, repeat: -1 });
     this.tweens.add({ targets: ball.halo, alpha: 0.55, duration: 1100, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
     this.tweens.add({ targets: ball.sparks, angle: 360, duration: 5000, repeat: -1 });
-    this.stage.add(display(this, STAGE.x, STAGE.y + 150, '¡Haz una tirada!', 34, '#ffffff').setOrigin(0.5));
-    this.stage.add(label(this, STAGE.x, STAGE.y + 182, this.mode === 'notebooks' ? 'Los cuadernos se ponen a un jugador desde Mi club → Editar' : 'Los nuevos jugadores van a tu colección de Mi club', 12, THEME.muted, { fontStyle: 'italic' }).setOrigin(0.5));
+    this.stage.add(display(this, STAGE.x, STAGE.y + 150, '¡Haz una tirada!', PORTRAIT ? 38 : 34, '#ffffff').setOrigin(0.5));
+    this.stage.add(
+      label(this, STAGE.x, STAGE.y + (PORTRAIT ? 194 : 182), this.mode === 'notebooks' ? 'Los cuadernos se ponen a un jugador desde Mi club → Editar' : 'Los nuevos jugadores van a tu colección de Mi club', PORTRAIT ? 17 : 12, THEME.muted, {
+        fontStyle: 'italic',
+        align: 'center',
+        wordWrap: PORTRAIT ? { width: GAME_W - 60 } : undefined,
+      }).setOrigin(0.5),
+    );
   }
 
   /**
@@ -354,16 +408,23 @@ export class GachaScene extends Phaser.Scene {
     this.tweens.killTweensOf(this.stage.list);
     this.stage.removeAll(true);
     const one = items.length === 1;
-    const w = one ? 200 : 126;
-    const h = one ? 270 : 168;
+    // en el móvil: las 10 en dos filas de 5 encima de los botones
+    const w = one ? 200 : PORTRAIT ? 100 : 126;
+    const h = one ? 270 : PORTRAIT ? 136 : 168;
     items.forEach((it, i) => {
-      const x = one ? STAGE.x : 540 + (i % 5) * 140;
-      const y = one ? STAGE.y - 10 : 210 + Math.floor(i / 5) * 212;
+      const x = one ? STAGE.x : PORTRAIT ? 58 + (i % 5) * 106 : 540 + (i % 5) * 140;
+      const y = one ? STAGE.y - 10 : PORTRAIT ? 256 + Math.floor(i / 5) * 196 : 210 + Math.floor(i / 5) * 212;
       const card = draw(it, x, y, w, h);
       card.setScale(0, 1);
       this.stage.add(card);
       const tag = tagOf(it);
-      const t = chip(this, x, y + h / 2 + 16, tag.text, tag.isNew ? THEME.green : THEME.panelLight, { size: one ? 12 : 10, h: one ? 22 : 18, padX: 8, textColor: tag.isNew ? THEME.ink : THEME.muted });
+      const big = one || PORTRAIT;
+      const t = chip(this, x, y + h / 2 + 16, PORTRAIT && !one ? tag.text.replace('Ya tenías · ahora ', '').replace('Repetido · ', '') : tag.text, tag.isNew ? THEME.green : THEME.panelLight, {
+        size: big ? (PORTRAIT ? 14 : 12) : 10,
+        h: big ? (PORTRAIT ? 26 : 22) : 18,
+        padX: 8,
+        textColor: tag.isNew ? THEME.ink : THEME.muted,
+      });
       t.setX(x - t.width / 2).setAlpha(0);
       this.stage.add(t);
       this.time.delayedCall(i * 160, () => {
@@ -374,7 +435,7 @@ export class GachaScene extends Phaser.Scene {
       });
     });
     const best = Math.max(...items.map(rarityOf));
-    const summary = label(this, STAGE.x, GAME_H - 40, best >= 4 ? '¡¡UNA ESTRELLA!!' : best >= 3 ? '¡Un jugador conocido!' : 'Sigue probando suerte', 15, best >= 4 ? THEME.yellowCss : best >= 3 ? '#8fc6ff' : THEME.muted, { fontStyle: 'italic bold' })
+    const summary = label(this, STAGE.x, PORTRAIT ? 616 : GAME_H - 40, best >= 4 ? '¡¡UNA ESTRELLA!!' : best >= 3 ? '¡Un jugador conocido!' : 'Sigue probando suerte', PORTRAIT ? 22 : 15, best >= 4 ? THEME.yellowCss : best >= 3 ? '#8fc6ff' : THEME.muted, { fontStyle: 'italic bold' })
       .setOrigin(0.5)
       .setAlpha(0);
     this.stage.add(summary);

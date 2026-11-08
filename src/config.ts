@@ -1,7 +1,14 @@
 // Medidas y constantes globales.
 
-export const GAME_W = 1280;
-export const GAME_H = 720;
+/**
+ * Versión de móvil: con la pantalla en vertical el juego se monta en 540x960 y cada escena usa su diseño vertical
+ * (como una DS abierta: arriba el marcador, abajo el campo táctil). Se decide al cargar; si se gira el móvil, main.ts
+ * recarga la página con el otro diseño.
+ */
+export const PORTRAIT = typeof window !== 'undefined' && window.innerHeight > window.innerWidth;
+
+export const GAME_W = PORTRAIT ? 540 : 1280;
+export const GAME_H = PORTRAIT ? 960 : 720;
 
 /**
  * Resolución de dibujado: el lienzo se crea al tamaño real con el que se va a ver (pantalla y densidad de
@@ -26,10 +33,10 @@ export function setRes(r: number): void {
 /** Evento global (game.events) que se emite cuando cambia la resolución de dibujado. */
 export const RES_EVENT = 'inamatch-res';
 
-/** Zona de la izquierda: el campo (la "pantalla táctil" de la DS). */
-export const FIELD_VIEW = { x: 0, y: 0, w: 820, h: 720 };
-/** Zona de la derecha: marcador y duelos (la "pantalla superior"). */
-export const PANEL = { x: 820, y: 0, w: GAME_W - 820, h: 720 };
+/** Zona del campo (la "pantalla táctil" de la DS): a la izquierda; en vertical, abajo. */
+export const FIELD_VIEW = PORTRAIT ? { x: 0, y: 350, w: GAME_W, h: GAME_H - 350 } : { x: 0, y: 0, w: 820, h: 720 };
+/** Zona del marcador y los duelos (la "pantalla superior"): a la derecha; en vertical, arriba. */
+export const PANEL = PORTRAIT ? { x: 0, y: 0, w: GAME_W, h: 350 } : { x: 820, y: 0, w: GAME_W - 820, h: 720 };
 
 /** Rectángulo del terreno de juego en coordenadas del mundo. */
 export const PITCH = { x: 90, y: 110, w: 900, h: 1500 };

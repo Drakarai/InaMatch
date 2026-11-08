@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { sfx } from '../audio/sfx';
-import { COLORS, DISPLAY, FONT } from '../config';
+import { COLORS, DISPLAY, FONT, PORTRAIT } from '../config';
 import { THEME, inkOn, slant } from './theme';
 
 export function text(
@@ -106,7 +106,8 @@ export class Button extends Phaser.GameObjects.Container {
       this.add(hint);
     }
     this.draw(false);
-    this.setSize(this.bw, this.bh);
+    // en el móvil el área táctil es algo mayor que el botón (al menos 48 de alto), centrada en él
+    this.setSize(PORTRAIT ? Math.max(this.bw, 48) : this.bw, PORTRAIT ? Math.max(this.bh, 48) : this.bh);
     this.setInteractive({ useHandCursor: true })
       .on('pointerover', () => {
         if (!this.enabled) return;

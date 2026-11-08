@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { rewardMatch } from '../club/club';
-import { DISPLAY, FIELD_VIEW, FONT, GAME_SPEED, RES, RES_EVENT, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
+import { DISPLAY, FIELD_VIEW, FONT, GAME_SPEED, PORTRAIT, RES, RES_EVENT, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { music, playFanfare } from '../audio/music';
 import { sfx } from '../audio/sfx';
 import { getTeam, moveFx } from '../data';
@@ -79,6 +79,8 @@ export interface GoalEntry {
   minute: number;
 }
 
+/** Zoom de la cámara del campo (en el móvil se aleja para que quepa más campo a lo ancho). */
+const FIELD_ZOOM = PORTRAIT ? 0.8 : 1;
 const CX = PITCH.x + PITCH.w / 2;
 const PICKUP_RADIUS = 16;
 const DUEL_RADIUS = 24;
@@ -169,8 +171,9 @@ export class MatchScene extends Phaser.Scene {
 
   create(): void {
     music.play('match');
-    // el campo ocupa la parte izquierda del lienzo, ampliado a la resolución real (RES)
-    const fit = () => this.cameras.main.setViewport(FIELD_VIEW.x * RES, FIELD_VIEW.y * RES, FIELD_VIEW.w * RES, FIELD_VIEW.h * RES).setZoom(RES);
+    // el campo ocupa la parte izquierda del lienzo (en el móvil, la de abajo), ampliado a la resolución real (RES);
+    // en el móvil, algo más alejado para ver más campo en la pantalla estrecha
+    const fit = () => this.cameras.main.setViewport(FIELD_VIEW.x * RES, FIELD_VIEW.y * RES, FIELD_VIEW.w * RES, FIELD_VIEW.h * RES).setZoom(RES * FIELD_ZOOM);
     fit();
     this.events.on(RES_EVENT, fit);
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => this.events.off(RES_EVENT, fit));
@@ -1473,7 +1476,7 @@ export class MatchScene extends Phaser.Scene {
   }
 
   private onPointerDown(pointer: Phaser.Input.Pointer): void {
-    if (!this.canSteer() || pointer.x > FIELD_VIEW.w * RES) return;
+    if (!this.canSteer() || pointer.x < FIELD_VIEW.x * RES || pointer.x > (FIELD_VIEW.x + FIELD_VIEW.w) * RES || pointer.y < FIELD_VIEW.y * RES || pointer.y > (FIELD_VIEW.y + FIELD_VIEW.h) * RES) return;
     const w = this.worldPoint(pointer);
     const owner = this.ball.owner;
     const humanHasBall = owner?.side === 0;

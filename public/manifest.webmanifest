@@ -1,0 +1,10 @@
+{
+  "name": "InaMatch",
+  "short_name": "InaMatch",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#070d18",
+  "theme_color": "#0a1120",
+  "icons": [{ "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

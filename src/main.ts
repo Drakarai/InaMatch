@@ -9,7 +9,7 @@ import '@fontsource/barlow-semi-condensed/latin-700-italic.css';
 import '@fontsource/barlow-semi-condensed/latin-ext-700-italic.css';
 import '@fontsource/bebas-neue/latin-400.css';
 import '@fontsource/bebas-neue/latin-ext-400.css';
-import { GAME_H, GAME_W, RES, RES_EVENT, computeRes, setRes } from './config';
+import { GAME_H, GAME_W, PORTRAIT, RES, RES_EVENT, computeRes, setRes } from './config';
 import { BootScene } from './scenes/BootScene';
 import { FormationScene } from './scenes/FormationScene';
 import { HudScene } from './scenes/HudScene';
@@ -44,6 +44,11 @@ function walk(list: Phaser.GameObjects.GameObject[], fn: (o: Phaser.GameObjects.
 function watchResize(game: Phaser.Game): void {
   let timer = 0;
   const apply = () => {
+    // al girar el móvil cambia el diseño entero (vertical u horizontal): se recarga la página con el otro
+    if (window.innerHeight > window.innerWidth !== PORTRAIT) {
+      window.location.reload();
+      return;
+    }
     const next = computeRes();
     if (Math.abs(next - RES) < 0.01) return;
     setRes(next);

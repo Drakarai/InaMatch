@@ -6,7 +6,8 @@ import { ELEMENT_COLOR } from '../data/elements';
 import type { MoveKind } from '../data/types';
 import { KIND_LABEL } from '../ui/notebook';
 import { cardByKey, RARITY, type Card, type Rarity } from '../club/pool';
-import { GAME_H, GAME_W } from '../config';
+import { GAME_H, GAME_W, PORTRAIT } from '../config';
+import { CLUB_HEADER_H, TouchScroller, clubMobileHeader } from '../ui/clubMobile';
 import { getTeam, MOVES } from '../data';
 import { getFormation } from '../data/formations';
 import type { Position } from '../data/types';
@@ -90,6 +91,7 @@ export class ClubScene extends Phaser.Scene {
   }
 
   private redraw(): void {
+    if (PORTRAIT) return this.mRedraw();
     this.drawHeader();
     this.drawSquad();
     this.drawCollection();
@@ -189,6 +191,7 @@ export class ClubScene extends Phaser.Scene {
       setSquad(this.save, squad);
       return;
     }
+    if (PORTRAIT) return this.mRedraw();
     this.drawSquad();
   }
 
@@ -305,6 +308,7 @@ export class ClubScene extends Phaser.Scene {
   // ---------------------------------------------------------------- ficha
 
   private showInfo(card: Card): void {
+    if (PORTRAIT) return; // en el móvil la ficha se abre al tocar (mOpenInfo)
     const c = this.infoBox;
     c.removeAll(true);
     const g = this.add.graphics();
@@ -362,6 +366,7 @@ export class ClubScene extends Phaser.Scene {
   }
 
   private drawCrests(): void {
+    if (PORTRAIT) return this.mDrawCrests();
     this.crestBox?.destroy();
     const c = this.add.container(0, 0).setDepth(300);
     this.crestBox = c;
@@ -433,6 +438,7 @@ export class ClubScene extends Phaser.Scene {
   }
 
   private drawEditor(card: Card, message = ''): void {
+    if (PORTRAIT) return this.mDrawEditor(card, message);
     this.editor?.destroy();
     const c = this.add.container(0, 0).setDepth(300);
     this.editor = c;
@@ -525,5 +531,470 @@ export class ClubScene extends Phaser.Scene {
     this.save = loadClub()!;
     if (ok && moveId) this.editSlot = Math.min(slots.length - 1, slot + 1);
     this.drawEditor(card, ok ? '' : 'No te quedan cuadernos de esa técnica');
+  }
+
+  // =================================================== versión de móvil (vertical)
+  // Cabecera con volver y monedas; cuatro botones grandes; pestañas Plantilla / Colección con listas de scroll
+  // táctil; la ficha, el escudo y el editor de técnicas, a pantalla completa.
+
+  private mTab: 'squad' | 'coll' = 'squad';
+  /** Jugador de la colección que se va a poner en la plantilla (tocando luego un hueco). */
+  private mPending: Card | null = null;
+  private mBody?: Phaser.GameObjects.Container;
+  private mScroll: Record<string, number> = {};
+  private mSheet?: Phaser.GameObjects.Container;
+
+  private mRedraw(): void {
+    const keep = this.mBody ? this.mCurrentScroll() : undefined;
+    if (keep !== undefined) this.mScroll[this.mTab] = keep;
+    this.header.removeAll(true);
+    this.mBody?.destroy();
+    const body = this.add.container(0, 0);
+    this.mBody = body;
+    let rating = 0;
+    try {
+      rating = teamRating(getTeam('club'));
+    } catch {
+      // aún sin equipo
+    }
+    this.header.add(
+      clubMobileHeader(this, {
+        title: this.save.name,
+        subtitle: `Media ${rating} · ${this.save.owned.length} jugadores`,
+        onBack: () => this.scene.start('menu'),
+        icon: 'emblem:club',
+        coins: this.save.coins,
+      }),
+    );
+    // acciones
+    const acts: [string, () => void, Partial<{ variant: 'primary'; color: number }>][] = [
+      ['¡A jugar!', () => this.play(), { variant: 'primary' }],
+      ['Fichajes', () => this.scene.start('gacha', { from: 'club' }), { color: THEME.orange }],
+      ['Cuadernos', () => this.scene.start('gacha', { mode: 'notebooks', from: 'club' }), { color: 0x7a5aa8 }],
+      ['Escudo', () => this.openCrests(), { color: 0x2f7bff }],
+    ];
+    const aw = (GAME_W - 24 - 3 * 8) / 4;
+    acts.forEach(([t, fn, o], i) => body.add(new Button(this, 12 + aw / 2 + i * (aw + 8), CLUB_HEADER_H + 44, t, fn, { w: aw, h: 64, size: 18, ...o })));
+    // pestañas
+    const tabY = CLUB_HEADER_H + 90;
+    const tabs: ['squad' | 'coll', string][] = [
+      ['squad', 'Plantilla'],
+      ['coll', `Colección (${this.save.owned.length})`],
+    ];
+    tabs.forEach(([id, t], i) => {
+      const x = 12 + i * ((GAME_W - 24) / 2);
+      const w = (GAME_W - 24) / 2;
+      const on = this.mTab === id;
+      const g = this.add.graphics();
+      g.fillStyle(on ? THEME.yellow : THEME.panelLight, on ? 1 : 0.9).fillRoundedRect(x + 2, tabY, w - 4, 56, { tl: 14, tr: 14, bl: 0, br: 0 });
+      body.add(g);
+      body.add(label(this, x + w / 2, tabY + 28, t, 20, on ? THEME.ink : THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5));
+      const z = this.add.zone(x, tabY, w, 56).setOrigin(0).setInteractive({ useHandCursor: true });
+      z.on('pointerup', () => {
+        if (this.mTab === id) return;
+        this.mScroll[this.mTab] = this.mCurrentScroll();
+        this.mTab = id;
+        this.mRedraw();
+      });
+      body.add(z);
+    });
+    const top = tabY + 56;
+    const g = this.add.graphics();
+    g.fillStyle(THEME.panel, 0.94).fillRect(12, top, GAME_W - 24, GAME_H - top - 84);
+    g.lineStyle(2, THEME.yellow, 0.9).lineBetween(12, top, GAME_W - 12, top);
+    body.add(g);
+    if (this.mTab === 'squad') this.mDrawSquad(body, top);
+    else this.mDrawColl(body, top);
+  }
+
+  private mScroller?: TouchScroller;
+
+  private mCurrentScroll(): number {
+    return this.mScroller?.scroll ?? 0;
+  }
+
+  private mDrawSquad(body: Phaser.GameObjects.Container, top: number): void {
+    const f = getFormation(this.save.formation);
+    const club = getTeam('club');
+    const ROW = 62;
+    const sc = new TouchScroller(this, 12, top + 4, GAME_W - 24, GAME_H - top - 92, body);
+    this.mScroller = sc;
+    const W = GAME_W - 24;
+    let y = 6;
+    sc.content.add(label(this, 14, y + 14, `${f.name} · titulares`, 16, THEME.muted, { fontStyle: 'italic bold' }).setOrigin(0, 0.5));
+    y += 32;
+    this.save.squad.forEach((key, i) => {
+      if (i === 11) {
+        sc.content.add(label(this, 14, y + 16, 'BANQUILLO', 16, THEME.muted, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+        y += 34;
+      }
+      const card = cardByKey(key);
+      const slotPos = i < 11 ? f.slots[i].pos : null;
+      const on = this.selected === i;
+      const wrong = !!card && !!slotPos && card.player.position !== slotPos;
+      const row = this.add.graphics();
+      row.fillStyle(on ? THEME.yellow : i < 11 ? 0x1a2942 : 0x141f33, on ? 0.95 : 0.9).fillRoundedRect(6, y, W - 12, ROW - 6, 10);
+      if (this.mPending && !on) row.lineStyle(2, THEME.cyan, 0.7).strokeRoundedRect(6, y, W - 12, ROW - 6, 10);
+      else if (wrong && !on) row.lineStyle(2, THEME.coral, 0.8).strokeRoundedRect(6, y, W - 12, ROW - 6, 10);
+      sc.content.add(row);
+      const cy = y + (ROW - 6) / 2;
+      sc.content.add(label(this, 32, cy, slotPos ?? `B${i - 10}`, 15, on ? THEME.ink : THEME.muted, { fontStyle: 'bold' }).setOrigin(0.5));
+      if (!card) {
+        sc.content.add(label(this, 110, cy, '— hueco vacío —', 18, on ? THEME.ink : THEME.muted, { fontStyle: 'italic' }).setOrigin(0, 0.5));
+      } else {
+        const p = card.player;
+        row.fillStyle(POS_COLOR[p.position]).fillRoundedRect(54, cy - 13, 40, 26, 6);
+        sc.content.add(label(this, 74, cy, p.position, 15, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5));
+        sc.content.add(this.add.image(126, cy, portraitKey(this, cardPlayer(card), club)).setDisplaySize(46, 46));
+        sc.content.add(fitWidth(label(this, 156, cy - 9, p.name, 19, on ? THEME.ink : THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5), W - 250, 12));
+        sc.content.add(text(this, 156, cy + 13, '★'.repeat(card.rarity), 14, on ? THEME.ink : RARITY[card.rarity].css, { strokeThickness: 0 }).setOrigin(0, 0.5));
+        sc.content.add(label(this, W - 74, cy, String(cardOverall(p)), 22, on ? THEME.ink : wrong ? THEME.coralCss : THEME.text, { fontStyle: 'bold' }).setOrigin(1, 0.5));
+        // ficha
+        const ig = this.add.graphics();
+        ig.fillStyle(on ? 0x0b1a2e : THEME.panelLight, on ? 0.25 : 1).fillRoundedRect(W - 62, cy - 22, 44, 44, 10);
+        sc.content.add(ig);
+        sc.content.add(label(this, W - 40, cy, 'i', 22, on ? THEME.ink : THEME.cyanCss, { fontStyle: 'bold' }).setOrigin(0.5));
+        sc.addItem({ x: 12 + W - 70, y: y, w: 64, h: ROW - 6, onTap: () => this.mOpenInfo(card) });
+      }
+      sc.addItem({ x: 12, y, w: W - 76, h: ROW - 6, onTap: () => this.mTapSlot(i) });
+      y += ROW;
+    });
+    sc.setTotal(y + 10);
+    sc.setOffset(this.mScroll.squad ?? 0);
+    // pie
+    const fy = GAME_H - 46;
+    if (this.mPending) {
+      body.add(fitWidth(label(this, 20, fy, `Toca un hueco para ${this.mPending.player.name}`, 18, THEME.cyanCss, { fontStyle: 'italic bold' }).setOrigin(0, 0.5), 340, 12));
+      body.add(new Button(this, GAME_W - 90, fy, 'Cancelar', () => ((this.mPending = null), this.mRedraw()), { w: 156, h: 64, variant: 'secondary', size: 18 }));
+    } else if (this.selected !== null) {
+      const card = cardByKey(this.save.squad[this.selected]);
+      body.add(label(this, 20, fy, 'Toca otro hueco para cambiarlos', 16, THEME.cyanCss, { fontStyle: 'italic bold', wordWrap: { width: 190 } }).setOrigin(0, 0.5));
+      body.add(new Button(this, GAME_W - 186, fy, 'Elegir ▶', () => ((this.mTab = 'coll'), this.mRedraw()), { w: 150, h: 64, variant: 'accent', size: 18 }));
+      body.add(new Button(this, GAME_W - 52, fy, '✕', () => ((this.selected = null), this.mRedraw()), { w: 80, h: 64, variant: 'secondary', size: 20 }));
+      void card;
+    } else {
+      const gk = cardByKey(this.save.squad[0]);
+      const wrongCount = this.save.squad.slice(0, 11).filter((k, i) => cardByKey(k) && cardByKey(k)!.player.position !== f.slots[i].pos).length;
+      const warn = !gk || gk.player.position !== 'GK' ? '⚠ Sin portero' : wrongCount ? `⚠ ${wrongCount} fuera de su puesto` : 'Todos en su puesto ✓';
+      body.add(label(this, 20, fy, warn, 18, warn.startsWith('⚠') ? THEME.coralCss : THEME.muted, { fontStyle: 'italic bold' }).setOrigin(0, 0.5));
+      body.add(
+        new Button(this, GAME_W - 100, fy, 'Auto-alinear', () => {
+          const next = autoSquad(this.save);
+          if (next.join() === this.save.squad.join()) return toast(this, 'Ya tienes a los mejores alineados', THEME.panelLight);
+          this.selected = null;
+          setSquad(this.save, next);
+          toast(this, 'Plantilla reorganizada');
+        }, { w: 180, h: 64, variant: 'accent', size: 18 }),
+      );
+    }
+  }
+
+  private mTapSlot(i: number): void {
+    if (this.mPending) {
+      const card = this.mPending;
+      this.mPending = null;
+      const squad = [...this.save.squad];
+      const already = squad.indexOf(card.key);
+      if (already >= 0) [squad[already], squad[i]] = [squad[i], squad[already]];
+      else squad[i] = card.key;
+      this.selected = null;
+      setSquad(this.save, squad);
+      return;
+    }
+    this.pickSlot(i);
+  }
+
+  private mDrawColl(body: Phaser.GameObjects.Container, top: number): void {
+    // filtros: demarcación y rareza (chapas grandes)
+    const W = GAME_W - 24;
+    const fw = (W - 16) / FILTERS.length;
+    FILTERS.forEach((f, i) => {
+      const x = 20 + i * fw;
+      const on = this.filter === f;
+      const g = this.add.graphics();
+      g.fillStyle(on ? THEME.yellow : f === 'ALL' ? THEME.panelLight : POS_COLOR[f], on ? 1 : 0.6).fillRoundedRect(x + 3, top + 10, fw - 6, 50, 12);
+      body.add(g);
+      body.add(label(this, x + fw / 2, top + 35, f === 'ALL' ? 'Todos' : f, 18, on ? THEME.ink : '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5));
+      const z = this.add.zone(x, top + 6, fw, 58).setOrigin(0).setInteractive({ useHandCursor: true });
+      z.on('pointerup', () => ((this.filter = f), (this.mScroll.coll = 0), this.mRedraw()));
+      body.add(z);
+    });
+    ([0, 1, 2, 3, 4] as const).forEach((r, i) => {
+      const x = 20 + i * fw;
+      const on = this.rarityFilter === r;
+      const g = this.add.graphics();
+      g.fillStyle(on ? THEME.yellow : THEME.panelLight, on ? 1 : 0.9).fillRoundedRect(x + 3, top + 68, fw - 6, 46, 12);
+      if (r) g.lineStyle(2, RARITY[r].color, 0.8).strokeRoundedRect(x + 3, top + 68, fw - 6, 46, 12);
+      body.add(g);
+      body.add(text(this, x + fw / 2, top + 91, r ? '★'.repeat(r) : 'Todas', r ? 15 : 17, on ? THEME.ink : r ? RARITY[r].css : '#ffffff', { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5));
+      const z = this.add.zone(x, top + 64, fw, 54).setOrigin(0).setInteractive({ useHandCursor: true });
+      z.on('pointerup', () => ((this.rarityFilter = r), (this.mScroll.coll = 0), this.mRedraw()));
+      body.add(z);
+    });
+    const all = this.collection();
+    const gy = top + 124;
+    const sc = new TouchScroller(this, 12, gy, W, GAME_H - gy - 88, body);
+    this.mScroller = sc;
+    const cols = 3;
+    const cw = W / cols;
+    const CH = 222;
+    const inSquad = new Set(this.save.squad);
+    const drawCards = () => {
+      sc.content.removeAll(true);
+      all.forEach((card, i) => {
+        const x = 12 + (i % cols) * cw + cw / 2;
+        const y = Math.floor(i / cols) * CH + CH / 2 + 4;
+        const cc = drawCard(this, x, y, card, cw - 14, CH - 18);
+        if (inSquad.has(card.key)) {
+          const idx = this.save.squad.indexOf(card.key);
+          const tag = chip(this, 0, -CH / 2 + 22, idx < 11 ? 'TITULAR' : 'BANQUILLO', idx < 11 ? THEME.yellow : THEME.panelLight, { size: 12, h: 20, padX: 8 });
+          tag.setX(-tag.width / 2);
+          cc.add(tag);
+        }
+        sc.content.add(cc);
+      });
+    };
+    all.forEach((card, i) => {
+      const x = 12 + (i % cols) * cw;
+      const y = Math.floor(i / cols) * CH;
+      sc.addItem({ x, y, w: cw, h: CH, onTap: () => this.mTapCard(card) });
+    });
+    drawCards();
+    sc.setTotal(Math.ceil(all.length / cols) * CH + 10);
+    sc.setOffset(this.mScroll.coll ?? 0);
+    const missing = all.filter((card) => !this.textures.exists(`portrait:${card.origin}:${card.player.id}`));
+    if (missing.length) loadCardPortraits(this, missing, () => this.scene.isActive() && this.mBody === body && drawCards());
+    if (!all.length) body.add(label(this, GAME_W / 2, gy + 120, 'Ningún jugador con esos filtros', 20, THEME.muted, { fontStyle: 'italic' }).setOrigin(0.5));
+    // pie
+    const fy = GAME_H - 46;
+    if (this.selected !== null) {
+      const f = getFormation(this.save.formation);
+      const slot = this.selected < 11 ? f.slots[this.selected].pos : `B${this.selected - 10}`;
+      body.add(label(this, 20, fy, `Elige quién va al hueco ${slot}`, 18, THEME.cyanCss, { fontStyle: 'italic bold' }).setOrigin(0, 0.5));
+      body.add(new Button(this, GAME_W - 90, fy, 'Cancelar', () => ((this.selected = null), (this.mTab = 'squad'), this.mRedraw()), { w: 156, h: 64, variant: 'secondary', size: 18 }));
+    } else {
+      body.add(label(this, 20, fy, 'Toca un jugador para ver su ficha', 18, THEME.muted, { fontStyle: 'italic' }).setOrigin(0, 0.5));
+    }
+  }
+
+  private mTapCard(card: Card): void {
+    if (this.selected !== null) {
+      this.mTab = 'squad';
+      this.pickCard(card);
+      this.mRedraw();
+      return;
+    }
+    this.mOpenInfo(card);
+  }
+
+  /** Hoja a pantalla completa con un fondo que tapa y bloquea lo de debajo. */
+  private mSheetBase(accent: number, title: string, subtitle?: string): Phaser.GameObjects.Container {
+    const c = this.add.container(0, 0).setDepth(300);
+    c.add(this.add.rectangle(0, 0, GAME_W, GAME_H, 0x000000, 0.78).setOrigin(0).setInteractive());
+    const g = this.add.graphics();
+    cardPanel(g, 8, 8, GAME_W - 16, GAME_H - 16, { accent, alpha: 0.99 });
+    c.add(g);
+    c.add(fitWidth(display(this, 28, 46, title, 32, '#ffffff').setOrigin(0, 0.5), GAME_W - 56, 18));
+    if (subtitle) c.add(label(this, 30, 80, subtitle, 16, THEME.muted, { fontStyle: 'italic', wordWrap: { width: GAME_W - 60 } }).setOrigin(0, 0.5));
+    return c;
+  }
+
+  private mOpenInfo(card: Card): void {
+    this.mSheet?.destroy();
+    const p = card.player;
+    let origin = 'Ojeador';
+    if (!card.origin.startsWith('scouts')) {
+      try {
+        origin = getTeam(card.origin).name;
+      } catch {
+        // equipo que ya no está
+      }
+    }
+    const c = this.mSheetBase(RARITY[card.rarity].color, p.name, `${RARITY[card.rarity].name} ${'★'.repeat(card.rarity)} · ${origin}`);
+    this.mSheet = c;
+    // carta grande y datos principales
+    c.add(drawCard(this, 120, 220, card, 180, 230));
+    const info: [string, string][] = [
+      ['Demarcación', p.position],
+      ['Media', String(cardOverall(p))],
+      ['FP', String(p.fp)],
+      ['TP', String(p.tp)],
+    ];
+    info.forEach(([k, v], i) => {
+      const y = 132 + i * 48;
+      c.add(label(this, 236, y, k, 16, THEME.muted).setOrigin(0, 0.5));
+      c.add(label(this, GAME_W - 32, y, v, 24, THEME.text, { fontStyle: 'bold' }).setOrigin(1, 0.5));
+    });
+    // estadísticas, en dos columnas
+    STAT_LABEL.forEach(([k, lbl], i) => {
+      const x = 30 + (i % 2) * 248;
+      const y = 362 + Math.floor(i / 2) * 40;
+      const v = p.stats[k];
+      const bar = this.add.graphics();
+      bar.fillStyle(0x000000, 0.45).fillRoundedRect(x + 84, y - 5, 110, 10, 5);
+      bar.fillStyle(v >= 75 ? THEME.yellow : THEME.glow).fillRoundedRect(x + 84, y - 5, Math.max(8, (110 * v) / 99), 10, 5);
+      c.add(bar);
+      c.add(label(this, x, y, lbl, 16, THEME.muted).setOrigin(0, 0.5));
+      c.add(label(this, x + 232, y, String(v), 18, THEME.text, { fontStyle: 'bold' }).setOrigin(1, 0.5));
+    });
+    // supertécnicas
+    const { base, extra } = movesFor(this.save, card);
+    const moves = [...base, ...extra].filter(Boolean).map((id) => MOVES[id]).filter(Boolean);
+    c.add(label(this, 30, 534, 'SUPERTÉCNICAS', 15, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    if (!moves.length) c.add(label(this, 30, 566, 'Ninguna', 18, THEME.muted, { fontStyle: 'italic' }).setOrigin(0, 0.5));
+    moves.forEach((m, i) => {
+      const x = 30 + (i % 2) * 248;
+      const y = 566 + Math.floor(i / 2) * 36;
+      const g = this.add.graphics().fillStyle(ELEMENT_COLOR[m.element]).fillRoundedRect(x, y - 12, 6, 24, 3);
+      c.add(g);
+      c.add(fitWidth(label(this, x + 14, y, m.name, 17, THEME.text, { fontStyle: 'bold' }).setOrigin(0, 0.5), 220, 12));
+    });
+    if (p.description) c.add(label(this, 30, 690, p.description, 16, THEME.muted, { fontStyle: 'italic', wordWrap: { width: GAME_W - 60 } }).setOrigin(0, 0));
+    // botones
+    const close = () => (this.mSheet?.destroy(), (this.mSheet = undefined));
+    const by = GAME_H - 54;
+    const owned = this.save.owned.includes(card.key);
+    const inSquad = this.save.squad.includes(card.key);
+    if (owned) {
+      c.add(
+        new Button(this, 30 + 117, by - 76, inSquad ? 'Mover de sitio' : 'A la plantilla', () => {
+          close();
+          this.selected = null;
+          this.mPending = card;
+          this.mTab = 'squad';
+          this.mRedraw();
+        }, { w: 234, h: 64, variant: 'accent', size: 18 }),
+      );
+      c.add(new Button(this, GAME_W - 30 - 117, by - 76, 'Técnicas ✎', () => (close(), this.openEditor(card)), { w: 234, h: 64, color: 0x7a5aa8, size: 18 }));
+    }
+    c.add(new Button(this, GAME_W / 2, by, 'Cerrar', close, { w: GAME_W - 60, h: 64, variant: 'primary', size: 20 }));
+  }
+
+  private mDrawCrests(): void {
+    const keep = this.crestBox ? this.mCrestScroll?.scroll ?? 0 : 0;
+    this.crestBox?.destroy();
+    const owned = this.save.crests ?? [];
+    const c = this.mSheetBase(0x2f7bff, 'Escudo del club', `${owned.length} de ${CRESTS.length} escudos · uno nuevo por victoria`);
+    this.crestBox = c;
+    const top = 104;
+    const sc = new TouchScroller(this, 16, top, GAME_W - 32, GAME_H - top - 100, c);
+    this.mCrestScroll = sc;
+    const cols = 3;
+    const cw = (GAME_W - 32) / cols;
+    const ch = 168;
+    const cells = owned.map((id, i) => {
+      const x = 16 + (i % cols) * cw + cw / 2;
+      const y = Math.floor(i / cols) * ch + ch / 2;
+      const on = id === this.save.crest;
+      const cell = this.add.graphics();
+      cell.fillStyle(on ? THEME.yellow : 0x1a2942, on ? 0.95 : 0.85).fillRoundedRect(x - cw / 2 + 6, y - ch / 2 + 6, cw - 12, ch - 12, 14);
+      sc.content.add(cell);
+      sc.content.add(fitWidth(label(this, x, y + 58, crestById(id)?.name ?? id, 14, on ? THEME.ink : THEME.text, { fontStyle: 'bold', align: 'center' }).setOrigin(0.5), cw - 22, 10));
+      sc.addItem({
+        x: x - cw / 2,
+        y: y - ch / 2,
+        w: cw,
+        h: ch,
+        onTap: () => {
+          setCrest(this.save, id);
+          this.save = loadClub()!;
+          applyClubCrest(this, id, () => {
+            if (this.crestBox === c) this.mDrawCrests();
+          });
+        },
+      });
+      return { id, x, y };
+    });
+    sc.setTotal(Math.ceil(owned.length / cols) * ch + 10);
+    sc.setOffset(keep);
+    loadCrests(this, owned, () => {
+      if (this.crestBox !== c) return;
+      for (const { id, x, y } of cells) if (this.textures.exists(crestKey(id))) sc.content.add(this.add.image(x, y - 14, crestKey(id)).setDisplaySize(104, 104));
+    });
+    c.add(
+      new Button(this, GAME_W / 2, GAME_H - 54, 'Hecho', () => {
+        this.closeCrests();
+        this.mRedraw();
+      }, { w: GAME_W - 60, h: 64, variant: 'primary', size: 20 }),
+    );
+  }
+
+  private mCrestScroll?: TouchScroller;
+  private mEditScroll?: TouchScroller;
+
+  private mDrawEditor(card: Card, message = ''): void {
+    const keep = this.editor ? this.mEditScroll?.scroll ?? 0 : 0;
+    this.editor?.destroy();
+    const c = this.mSheetBase(0x7a5aa8, `Técnicas de ${card.player.name}`, message || 'Toca un hueco y luego una técnica. Las suyas no gastan cuaderno.');
+    this.editor = c;
+    if (message) (c.list[c.list.length - 1] as Phaser.GameObjects.Text).setColor(THEME.coralCss);
+    const { base, extra } = movesFor(this.save, card);
+    const slots = [...base, ...extra];
+    const W = GAME_W - 40;
+    let y = 108;
+    slots.forEach((id, i) => {
+      if (i === 0) c.add(label(this, 24, y + 8, 'BASE', 15, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+      if (i === BASE_SLOTS) {
+        y += 6;
+        c.add(label(this, 24, y + 8, 'EXTRA', 15, '#c7a6ff', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+      }
+      if (i === 0 || i === BASE_SLOTS) y += 20;
+      const on = i === this.editSlot;
+      const m = id ? MOVES[id] : undefined;
+      const row = this.add.graphics();
+      row.fillStyle(on ? THEME.yellow : 0x1a2942, 0.95).fillRoundedRect(20, y, W - 70, 54, 10);
+      if (m) row.fillStyle(ELEMENT_COLOR[m.element]).fillRoundedRect(28, y + 8, 6, 38, 3);
+      c.add(row);
+      const ink = on ? THEME.ink : THEME.text;
+      c.add(fitWidth(label(this, 44, m ? y + 17 : y + 27, m ? m.name : '— vacío —', 18, ink, { fontStyle: 'italic bold' }).setOrigin(0, 0.5), W - 130, 12));
+      if (m) c.add(label(this, 44, y + 39, `${KIND_LABEL[m.kind]} · potencia ${m.power} · TP ${m.tp}`, 14, on ? THEME.ink : THEME.muted).setOrigin(0, 0.5));
+      const hit = this.add.zone(20, y, W - 70, 54).setOrigin(0).setInteractive({ useHandCursor: true });
+      hit.on('pointerup', () => ((this.editSlot = i), this.mDrawEditor(card)));
+      c.add(hit);
+      if (m) c.add(new Button(this, W - 6, y + 27, '✕', () => this.assign(card, i, ''), { w: 58, h: 54, variant: 'danger', size: 20 }));
+      y += 60;
+    });
+    // tipo
+    const own = new Set(card.player.moves);
+    const kinds: ('ALL' | MoveKind)[] = ['ALL', 'shoot', 'dribble', 'block', 'catch'];
+    const kw = W / kinds.length;
+    y += 8;
+    kinds.forEach((k, i) => {
+      const on = k === this.editKind;
+      c.add(
+        new Button(this, 20 + kw / 2 + i * kw, y + 26, k === 'ALL' ? 'Todas' : KIND_LABEL[k], () => ((this.editKind = k), (this.editPage = 0), this.mDrawEditor(card)), {
+          w: kw - 6,
+          h: 52,
+          size: 14,
+          variant: on ? 'primary' : 'secondary',
+        }),
+      );
+    });
+    y += 62;
+    const all = Object.values(MOVES)
+      .filter((m) => own.has(m.id) || freeNotebooks(this.save, m.id) > 0 || slots.includes(m.id))
+      .filter((m) => this.editKind === 'ALL' || m.kind === this.editKind)
+      .sort((a, b) => Number(own.has(b.id)) - Number(own.has(a.id)) || b.power - a.power);
+    const sc = new TouchScroller(this, 20, y, W, GAME_H - y - 98, c);
+    this.mEditScroll = sc;
+    if (!all.length) sc.content.add(label(this, W / 2 + 20, 70, 'No tienes cuadernos de este tipo.\nConsíguelos en Cuadernos.', 18, THEME.muted, { align: 'center' }).setOrigin(0.5));
+    const RH = 64;
+    all.forEach((m, i) => {
+      const ry = i * RH;
+      const r = notebookRarity(m);
+      const row = this.add.graphics();
+      row.fillStyle(0x0e1626, 0.95).fillRoundedRect(20, ry, W - 8, RH - 8, 10);
+      row.lineStyle(2, RARITY[r].color, 0.9).strokeRoundedRect(20, ry, W - 8, RH - 8, 10);
+      row.fillStyle(ELEMENT_COLOR[m.element]).fillRoundedRect(28, ry + 10, 6, RH - 28, 3);
+      sc.content.add(row);
+      sc.content.add(fitWidth(label(this, 44, ry + 19, m.name, 18, THEME.text, { fontStyle: 'bold' }).setOrigin(0, 0.5), W - 140, 12));
+      sc.content.add(label(this, 44, ry + 41, `${KIND_LABEL[m.kind]} · ${m.power} · TP ${m.tp}  ${'★'.repeat(r)}`, 14, RARITY[r].css).setOrigin(0, 0.5));
+      const tag = own.has(m.id) ? 'suya' : slots.includes(m.id) ? 'puesta' : `×${freeNotebooks(this.save, m.id)}`;
+      sc.content.add(label(this, W, ry + 28, tag, 18, own.has(m.id) ? '#7dff9a' : THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(1, 0.5));
+      sc.addItem({ x: 20, y: ry, w: W, h: RH - 4, onTap: () => this.assign(card, this.editSlot, m.id) });
+    });
+    sc.setTotal(all.length * RH + 6);
+    sc.setOffset(keep);
+    c.add(new Button(this, GAME_W / 2, GAME_H - 54, 'Hecho', () => this.closeEditor(), { w: GAME_W - 60, h: 64, variant: 'primary', size: 20 }));
   }
 }

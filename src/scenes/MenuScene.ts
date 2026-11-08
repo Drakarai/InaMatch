@@ -1,8 +1,8 @@
 import Phaser from 'phaser';
 import { music } from '../audio/music';
 import { THEME, cardPanel, chip, coinChip, dim, fitCamera, glow, inkOn, pt, starRow, topBar } from '../ui/theme';
-import { soundButton } from '../ui/soundPanel';
-import { FONT, GAME_H, GAME_W, hex } from '../config';
+import { soundButton, soundPanel } from '../ui/soundPanel';
+import { FONT, GAME_H, GAME_W, PORTRAIT, hex } from '../config';
 import { TEAMS } from '../data';
 import { getFormation } from '../data/formations';
 import { SEASONS, getSeason, seasonOf } from '../data/seasons';
@@ -44,6 +44,8 @@ export class MenuScene extends Phaser.Scene {
   private sides!: Record<Side, Phaser.GameObjects.Container>;
   private shelf!: Phaser.GameObjects.Container;
   private ctaRow!: Phaser.GameObjects.Container;
+  /** Móvil: página de la cuadrícula de escudos. */
+  private page = 0;
 
   constructor() {
     super('menu');
@@ -58,7 +60,12 @@ export class MenuScene extends Phaser.Scene {
     const saved = this.registry.get('menuSelection') as Selection | undefined;
     this.sel = saved && TEAMS.some((t) => t.id === saved.home) && TEAMS.some((t) => t.id === saved.away) && saved.home !== saved.away ? { ...saved } : this.defaults();
     this.shelfSeason = seasonOf(teamById(this.sel[this.sel.focus]));
+    this.page = this.pageOf(this.sel[this.sel.focus]);
 
+    if (PORTRAIT) {
+      this.createPortrait();
+      return;
+    }
     this.bg = this.add.graphics();
     this.drawBackground();
     this.sides = { home: this.add.container(0, 0), away: this.add.container(0, 0) };
@@ -388,6 +395,10 @@ export class MenuScene extends Phaser.Scene {
   }
 
   private refresh(): void {
+    if (PORTRAIT) {
+      this.refreshPortrait();
+      return;
+    }
     this.drawBackground();
     this.renderSide('home');
     this.renderSide('away');
@@ -399,6 +410,7 @@ export class MenuScene extends Phaser.Scene {
     if (this.sel.focus === side) return;
     this.sel.focus = side;
     this.shelfSeason = seasonOf(teamById(this.sel[side]));
+    this.page = this.pageOf(this.sel[side]);
     this.refresh();
   }
 
@@ -427,6 +439,7 @@ export class MenuScene extends Phaser.Scene {
     this.sel[side] = next.id;
     this.sel.focus = side;
     this.shelfSeason = seasonOf(team);
+    this.page = this.pageOf(next.id);
     this.refresh();
   }
 
@@ -437,6 +450,7 @@ export class MenuScene extends Phaser.Scene {
     this.shelfSeason = seasons[(i + dir + seasons.length) % seasons.length].id;
     const list = teamsOf(this.shelfSeason).filter((t) => t.id !== this.sel[this.other(this.sel.focus)]);
     if (list.length) this.sel[this.sel.focus] = list[0].id;
+    this.page = 0;
     this.refresh();
   }
 
@@ -452,6 +466,7 @@ export class MenuScene extends Phaser.Scene {
     this.sel.away = pick.id;
     this.sel.focus = 'away';
     this.shelfSeason = seasonOf(pick);
+    this.page = this.pageOf(pick.id);
     this.refresh();
   }
 
@@ -465,7 +480,7 @@ export class MenuScene extends Phaser.Scene {
     const away = teamById(this.sel.away);
     // los sprites dibujados de los dos equipos se piden ahora (no se cargan al arrancar)
     const wait = this.add
-      .text(GAME_W / 2, GAME_H - 30, 'Cargando jugadores…', { fontFamily: FONT, fontSize: '15px', color: '#ffffff', backgroundColor: '#0b1a2ecc', padding: { x: 10, y: 4 } })
+      .text(GAME_W / 2, PORTRAIT ? GAME_H - 96 : GAME_H - 30, 'Cargando jugadores…', { fontFamily: FONT, fontSize: PORTRAIT ? '18px' : '15px', color: '#ffffff', backgroundColor: '#0b1a2ecc', padding: { x: 10, y: 4 } })
       .setOrigin(0.5)
       .setDepth(700);
     ensureSprites(this.textures, [home, away])
@@ -475,4 +490,321 @@ export class MenuScene extends Phaser.Scene {
         this.scene.start('formation', { home: defaultLineup(home), away: defaultLineup(away) });
       });
   }
+
+  // =================================================================== móvil (vertical, 540x960)
+  //
+  // Arriba la barra (InaMatch, monedas, sonido) y los botones de Mi club y Fichajes; luego las dos tarjetas TÚ y
+  // RIVAL lado a lado con el VS en medio; debajo, la estantería: una pestaña por juego (solo el logo) y una
+  // cuadrícula de escudos por páginas (flechas o deslizar); y abajo del todo, el botón grande de jugar.
+
+  private pageOf(teamId: string): number {
+    const list = teamsOf(this.shelfSeason);
+    const i = list.findIndex((t) => t.id === teamId);
+    return i < 0 ? 0 : Math.floor(i / P_GRID.per);
+  }
+
+  private createPortrait(): void {
+    this.bg = this.add.graphics();
+    this.sides = { home: this.add.container(0, 0), away: this.add.container(0, 0) };
+    this.ctaRow = this.add.container(0, 0);
+    this.shelf = this.add.container(0, 0);
+    this.drawBackgroundP();
+    this.renderSideP('home');
+    this.renderSideP('away');
+    const vsG = this.add.graphics().setDepth(5);
+    vsG.fillStyle(THEME.night, 0.95).fillCircle(GAME_W / 2, P_CARD.y + 100, 27).lineStyle(2, THEME.yellow, 0.9).strokeCircle(GAME_W / 2, P_CARD.y + 100, 27);
+    const vs = display(this, GAME_W / 2, P_CARD.y + 102, 'VS', 32, THEME.yellowCss, { strokeThickness: 5 }).setOrigin(0.5).setDepth(5);
+    this.tweens.add({ targets: vs, scale: 1.06, duration: 800, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
+    this.renderCtaP();
+    this.renderShelfP();
+    this.bindKeys();
+    this.drawTopBarP();
+    // deslizar sobre la cuadrícula cambia de página
+    let down: { x: number; y: number } | null = null;
+    this.input.on('pointerdown', (p: Phaser.Input.Pointer) => {
+      const w = this.cameras.main.getWorldPoint(p.x, p.y);
+      down = w.y > P_GRID.top - 10 && w.y < P_GRID.top + P_GRID.rows * P_GRID.cellH + 10 ? { x: w.x, y: w.y } : null;
+      this.swipeStart = { x: w.x, y: w.y };
+    });
+    this.input.on('pointerup', (p: Phaser.Input.Pointer) => {
+      if (!down) return;
+      const w = this.cameras.main.getWorldPoint(p.x, p.y);
+      const dx = w.x - down.x;
+      down = null;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(w.y - this.swipeStart.y)) this.turnPage(dx < 0 ? 1 : -1);
+    });
+  }
+
+  private swipeStart = { x: 0, y: 0 };
+
+  private refreshPortrait(): void {
+    this.drawBackgroundP();
+    this.renderSideP('home');
+    this.renderSideP('away');
+    this.renderCtaP();
+    this.renderShelfP();
+  }
+
+  private drawBackgroundP(): void {
+    const g = this.bg.clear();
+    const home = teamById(this.sel.home);
+    const away = teamById(this.sel.away);
+    g.fillGradientStyle(THEME.deep, THEME.deep, THEME.night, THEME.night, 1, 1, 1, 1).fillRect(0, 0, GAME_W, GAME_H);
+    const bottom = P_CARD.y + P_CARD.h + 20;
+    g.fillStyle(dim(home.colors.shirt, 0.8)).fillPoints([pt(0, 0), pt(300, 0), pt(240, bottom), pt(0, bottom)], true);
+    g.fillStyle(dim(away.colors.shirt, 0.8)).fillPoints([pt(300, 0), pt(GAME_W, 0), pt(GAME_W, bottom), pt(240, bottom)], true);
+    glow(g, 90, 160, 300, hex(home.colors.accent), 0.16);
+    glow(g, GAME_W - 90, 160, 300, hex(away.colors.accent), 0.16);
+    g.lineStyle(1, 0xffffff, 0.025);
+    for (let gx = 0; gx <= GAME_W; gx += 40) g.lineBetween(gx, 0, gx, bottom);
+    for (let gy = 0; gy <= bottom; gy += 40) g.lineBetween(0, gy, GAME_W, gy);
+    g.lineStyle(2, THEME.yellow, 0.5).lineBetween(300, 0, 240, bottom);
+    g.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0, 0, 0.5, 0.5).fillRect(0, bottom - 90, GAME_W, 90);
+  }
+
+  private drawTopBarP(): void {
+    topBar(this, { title: 'InaMatch', subtitle: 'Elige los equipos y ¡a jugar!' });
+    const save = loadClub();
+    // botón de sonido propio, con área táctil grande (el panel se abre centrado)
+    let panel: Phaser.GameObjects.Container | null = null;
+    const sx = GAME_W - 34;
+    const g = this.add.graphics().setDepth(199);
+    g.fillStyle(THEME.night, 0.92).fillCircle(sx, 32, 22).lineStyle(2, THEME.yellow).strokeCircle(sx, 32, 22);
+    text(this, sx, 32, '♪', 22, '#ffffff').setOrigin(0.5).setDepth(199);
+    this.add
+      .zone(sx - 30, 2, 60, 60)
+      .setOrigin(0)
+      .setDepth(199)
+      .setInteractive({ useHandCursor: true })
+      .on('pointerdown', () => {
+        if (panel?.active) {
+          panel.destroy();
+          panel = null;
+        } else panel = soundPanel(this, (GAME_W - 320) / 2, 120, () => (panel = null)).setDepth(300);
+      });
+    if (!save) return;
+    coinChip(this, GAME_W - 66, 32, save.coins).setDepth(101);
+    const bw = (GAME_W - 48) / 2;
+    new Button(this, 16 + bw / 2, 104, 'Mi club', () => this.scene.start('club'), { w: bw, h: 56, color: THEME.orange, size: 20, icon: '⚡' }).setDepth(101);
+    new Button(this, GAME_W - 16 - bw / 2, 104, 'Fichajes', () => this.scene.start('gacha', { from: 'menu' }), { w: bw, h: 56, variant: 'secondary', size: 20 }).setDepth(101);
+  }
+
+  private renderSideP(side: Side): void {
+    const c = this.sides[side];
+    this.tweens.killTweensOf(c.list);
+    c.removeAll(true);
+    const team = teamById(this.sel[side]);
+    const s = SIDE[side];
+    const choosing = this.sel.focus === side;
+    const x0 = side === 'home' ? 12 : GAME_W - 12 - P_CARD.w;
+    const y0 = P_CARD.y;
+    const W = P_CARD.w;
+    const cx = x0 + W / 2;
+    const accent = hex(team.colors.accent);
+
+    const g = this.add.graphics();
+    cardPanel(g, x0, y0, W, P_CARD.h, { accent: s.color, fill: dim(team.colors.shirt, 0.78), alpha: 0.96, radius: 16 });
+    if (choosing) g.lineStyle(3, THEME.cyan, 0.95).strokeRoundedRect(x0, y0, W, P_CARD.h, 16);
+    const ey = y0 + 100;
+    glow(g, cx, ey, 78, accent, 0.5, 8);
+    g.fillStyle(0x000000, 0.3).fillCircle(cx, ey, 60);
+    g.lineStyle(choosing ? 3 : 2, choosing ? THEME.cyan : 0xffffff, choosing ? 0.9 : 0.25).strokeCircle(cx, ey, 60);
+    c.add(g);
+    // pulsar en la tarjeta la elige para la estantería (detrás de todo lo demás)
+    const hit = this.add.zone(x0, y0, W, P_CARD.h).setOrigin(0).setInteractive({ useHandCursor: !choosing });
+    hit.on('pointerdown', () => this.setFocus(side));
+    c.add(hit);
+    c.add(this.add.image(cx, ey, texKey.emblem(team.id)).setDisplaySize(96, 96));
+
+    c.add(chip(this, x0 + 12, y0 + 22, s.label, s.color, { size: 14, h: 26, padX: 12, textColor: '#ffffff' }));
+    if (choosing) {
+      const tag = chip(this, 0, y0 + 22, 'ELIGIENDO', THEME.cyan, { size: 11, h: 20, padX: 7 });
+      tag.setX(x0 + W - 12 - tag.width);
+      c.add(tag);
+    }
+
+    // flechas grandes a los lados del escudo: equipo anterior / siguiente del mismo juego
+    for (const dir of [-1, 1]) {
+      const ax = cx + dir * 84;
+      const arrow = this.add.graphics();
+      arrow.fillStyle(0xffffff, 0.85).fillPoints([pt(ax + dir * 9, ey), pt(ax - dir * 7, ey - 15), pt(ax - dir * 7, ey + 15)], true);
+      const zone = this.add.zone(ax - 22, ey - 40, 44, 80).setOrigin(0).setInteractive({ useHandCursor: true });
+      zone.on('pointerdown', () => this.cycle(side, dir));
+      c.add([arrow, zone]);
+    }
+
+    const name = display(this, cx, y0 + 184, team.name, 26, '#ffffff').setOrigin(0.5);
+    fitWidth(name, W - 20, 15);
+    c.add(name);
+    const list = teamsOf(seasonOf(team));
+    const season = getSeason(seasonOf(team));
+    const icon = season.icon && this.textures.exists(`series:${season.icon}`) ? `series:${season.icon}` : undefined;
+    const sc = chip(this, 0, y0 + 214, `${season.short}  ·  ${list.indexOf(team) + 1}/${list.length}`, THEME.panelLight, { size: 13, h: 24, textColor: THEME.text, icon });
+    sc.setX(cx - sc.width / 2);
+    c.add(sc);
+
+    const rating = teamRating(team);
+    const rt = display(this, x0 + 16, y0 + 254, String(rating), 44, THEME.yellowCss, { strokeThickness: 0, shadow: { offsetX: 0, offsetY: 3, color: '#000', blur: 0, fill: true } }).setOrigin(0, 0.5);
+    c.add(rt);
+    c.add(starRow(this, x0 + 24 + rt.width, y0 + 246, ratingStars(rating), 8));
+    const f = getFormation(team.formation);
+    const layout = ['DF', 'MF', 'FW'].map((pos) => f.slots.filter((sl) => sl.pos === pos).length).join('-');
+    c.add(label(this, x0 + 26 + rt.width, y0 + 266, layout, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5));
+    const lines = lineRatings(team);
+    const cols = [
+      ['ATQ', lines.att, '#ffb27a'],
+      ['MED', lines.mid, '#8fe8b4'],
+      ['DEF', lines.def, '#9fc9ff'],
+    ] as const;
+    cols.forEach(([cap, v, css], i) => {
+      const lx = x0 + 16 + i * ((W - 32) / 3) + (W - 32) / 6;
+      c.add(label(this, lx, y0 + 296, String(v), 18, css, { fontStyle: 'bold' }).setOrigin(0.5));
+      c.add(label(this, lx, y0 + 315, cap, 11, THEME.muted, { fontStyle: 'bold' }).setOrigin(0.5));
+    });
+  }
+
+  /** Fila bajo las tarjetas: cambiar lados y rival al azar. */
+  private renderCtaP(): void {
+    const c = this.ctaRow;
+    c.removeAll(true);
+    const y = P_CARD.y + P_CARD.h + 40;
+    const bw = (GAME_W - 48) / 2;
+    c.add(new Button(this, 16 + bw / 2, y, 'Cambiar lados', () => this.swap(), { w: bw, h: 52, variant: 'secondary', size: 18, icon: '⇄' }));
+    c.add(new Button(this, GAME_W - 16 - bw / 2, y, 'Rival al azar', () => this.randomRival(), { w: bw, h: 52, variant: 'secondary', size: 18, icon: '⚄' }));
+    // el botón de jugar, fijo abajo
+    const cy = GAME_H - 46;
+    const sh = this.add.graphics();
+    sh.fillGradientStyle(THEME.night, THEME.night, THEME.night, THEME.night, 0, 0, 0.95, 0.95).fillRect(0, cy - 60, GAME_W, 106);
+    c.add(sh);
+    c.add(new Button(this, GAME_W / 2, cy, '¡A la formación!', () => this.next(), { w: GAME_W - 32, h: 68, variant: 'primary', size: 26 }));
+  }
+
+  private turnPage(dir: number): void {
+    const pages = Math.max(1, Math.ceil(teamsOf(this.shelfSeason).length / P_GRID.per));
+    const next = Phaser.Math.Clamp(this.page + dir, 0, pages - 1);
+    if (next === this.page) return;
+    this.page = next;
+    this.renderShelfP();
+  }
+
+  /** Estantería del móvil: pestañas con el logo de cada juego y cuadrícula de escudos por páginas. */
+  private renderShelfP(): void {
+    const c = this.shelf;
+    this.tweens.killTweensOf(c.list);
+    c.removeAll(true);
+    const top = P_SHELF.y;
+    const g = this.add.graphics();
+    cardPanel(g, 8, top, GAME_W - 16, P_SHELF.h, { plain: true, alpha: 0.92, radius: 16 });
+    c.add(g);
+
+    // pestañas: solo el logo de cada juego, todas en una fila
+    const seasons = seasonsWithTeams();
+    const tabH = 50;
+    const tabW = Math.min(64, (GAME_W - 32) / seasons.length);
+    const tx0 = GAME_W / 2 - (tabW * seasons.length) / 2;
+    const ty = top + 12 + tabH / 2;
+    seasons.forEach((s, i) => {
+      const on = s.id === this.shelfSeason;
+      const x = tx0 + i * tabW;
+      const color = on ? THEME.yellow : s.id === 'club' ? THEME.orange : THEME.panelLight;
+      const tab = this.add.graphics();
+      tab.fillStyle(color, 1).fillRoundedRect(x + 2, ty - tabH / 2, tabW - 4, tabH, 10);
+      if (!on) tab.lineStyle(1, 0xffffff, 0.12).strokeRoundedRect(x + 2, ty - tabH / 2, tabW - 4, tabH, 10);
+      c.add(tab);
+      const isz = Math.min(34, tabW - 14);
+      if (s.icon && this.textures.exists(`series:${s.icon}`)) {
+        const img = this.add.image(x + tabW / 2, ty, `series:${s.icon}`).setDisplaySize(isz, isz * 1.08);
+        if (on) img.setTint(0x0b1a2e);
+        c.add(img);
+      } else if (s.id === 'club') c.add(this.add.image(x + tabW / 2, ty, texKey.emblem('club')).setDisplaySize(isz, isz));
+      else c.add(label(this, x + tabW / 2, ty, s.short, 13, inkOn(color), { fontStyle: 'bold' }).setOrigin(0.5));
+      const zone = this.add.zone(x, ty - tabH / 2 - 4, tabW, tabH + 8).setOrigin(0).setInteractive({ useHandCursor: true });
+      zone.on('pointerdown', () => {
+        if (this.shelfSeason === s.id) return;
+        this.shelfSeason = s.id;
+        this.page = this.pageOf(this.sel[this.sel.focus]);
+        this.renderShelfP();
+      });
+      c.add(zone);
+    });
+
+    // nombre del juego y para qué lado se elige
+    const season = getSeason(this.shelfSeason);
+    const teams = teamsOf(this.shelfSeason);
+    const who = SIDE[this.sel.focus];
+    const hy = ty + tabH / 2 + 22;
+    const title = label(this, 22, hy, season.name, 19, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0, 0.5);
+    fitWidth(title, GAME_W - 210, 14);
+    c.add(title);
+    const tag = chip(this, 0, hy, `Elige ${who.label === 'TÚ' ? 'el tuyo' : 'el RIVAL'}`, who.color, { size: 14, h: 28, padX: 12, textColor: '#ffffff' });
+    tag.setX(GAME_W - 22 - tag.width);
+    c.add(tag);
+
+    // cuadrícula de la página
+    const pages = Math.max(1, Math.ceil(teams.length / P_GRID.per));
+    this.page = Phaser.Math.Clamp(this.page, 0, pages - 1);
+    const slice = teams.slice(this.page * P_GRID.per, (this.page + 1) * P_GRID.per);
+    const gw = GAME_W - 104; // deja sitio a las flechas
+    const cellW = gw / P_GRID.cols;
+    const size = 62;
+    slice.forEach((team, i) => {
+      const col = i % P_GRID.cols;
+      const row = Math.floor(i / P_GRID.cols);
+      const x = 52 + cellW * (col + 0.5);
+      const y = P_GRID.top + P_GRID.cellH * (row + 0.5) - 6;
+      const mark = team.id === this.sel.home ? SIDE.home : team.id === this.sel.away ? SIDE.away : null;
+      const ring = this.add.graphics();
+      if (mark) ring.fillStyle(mark.color, 0.3).fillCircle(x, y, size / 2 + 6).lineStyle(3, mark.color).strokeCircle(x, y, size / 2 + 6);
+      c.add(ring);
+      const img = this.add.image(x, y, texKey.emblem(team.id)).setDisplaySize(size, size);
+      c.add(img);
+      const nm = label(this, x, y + size / 2 + 10, team.name, 12, mark ? mark.css : THEME.muted, { fontStyle: 'bold' }).setOrigin(0.5);
+      fitWidth(nm, cellW - 4, 9);
+      if (nm.width > cellW - 4) nm.setText(team.name.slice(0, 11) + '…');
+      c.add(nm);
+      if (mark) {
+        const t = chip(this, x, y - size / 2 - 2, mark.label, mark.color, { size: 10, h: 16, padX: 6, textColor: '#ffffff' });
+        t.setX(x - t.width / 2);
+        c.add(t);
+      }
+      // se elige al soltar, si no se ha deslizado (para poder pasar página arrastrando)
+      const zone = this.add.zone(x - cellW / 2, y - P_GRID.cellH / 2, cellW, P_GRID.cellH).setOrigin(0).setInteractive({ useHandCursor: true });
+      zone.on('pointerup', (p: Phaser.Input.Pointer) => {
+        const w = this.cameras.main.getWorldPoint(p.x, p.y);
+        if (Math.abs(w.x - this.swipeStart.x) < 20 && Math.abs(w.y - this.swipeStart.y) < 20) this.choose(team);
+      });
+      c.add(zone);
+    });
+
+    // flechas de página y puntos
+    const midY = P_GRID.top + (P_GRID.rows * P_GRID.cellH) / 2 - 6;
+    for (const dir of [-1, 1]) {
+      const ax = dir < 0 ? 28 : GAME_W - 28;
+      const can = dir < 0 ? this.page > 0 : this.page < pages - 1;
+      const a = this.add.graphics();
+      a.fillStyle(can ? THEME.panelLight : THEME.panel, 1).fillRoundedRect(ax - 20, midY - 40, 40, 80, 12);
+      a.fillStyle(can ? 0xffffff : 0x55606f, can ? 0.95 : 0.6).fillPoints([pt(ax + dir * 8, midY), pt(ax - dir * 6, midY - 13), pt(ax - dir * 6, midY + 13)], true);
+      c.add(a);
+      if (can) {
+        const z = this.add.zone(ax - 26, midY - 50, 52, 100).setOrigin(0).setInteractive({ useHandCursor: true });
+        z.on('pointerdown', () => this.turnPage(dir));
+        c.add(z);
+      }
+    }
+    if (pages > 1) {
+      const dy = P_SHELF.y + P_SHELF.h - 16;
+      const dots = this.add.graphics();
+      for (let i = 0; i < pages; i++) {
+        const dx = GAME_W / 2 + (i - (pages - 1) / 2) * 20;
+        dots.fillStyle(i === this.page ? THEME.yellow : 0xffffff, i === this.page ? 1 : 0.25).fillCircle(dx, dy, i === this.page ? 6 : 4.5);
+      }
+      c.add(dots);
+    }
+    c.add(label(this, GAME_W - 22, P_SHELF.y + P_SHELF.h - 16, `${teams.length} equipos`, 13, THEME.muted).setOrigin(1, 0.5));
+  }
 }
+
+// medidas del diseño de móvil
+const P_CARD = { y: 140, w: 252, h: 330 };
+const P_SHELF = { y: 540, h: 316 };
+const P_GRID = { top: 652, cols: 4, rows: 2, cellH: 92, per: 8 };

@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { DISPLAY, FONT, GAME_H, GAME_W, RES, RES_EVENT, hex } from '../config';
+import { DISPLAY, FONT, GAME_H, GAME_W, PORTRAIT, RES, RES_EVENT, hex } from '../config';
 import type { Position, TeamData } from '../data/types';
 import { Button } from './widgets';
 
@@ -245,7 +245,9 @@ export function topBar(scene: Phaser.Scene, o: TopBarOptions): Phaser.GameObject
     draw(false);
     const lbl = scene.add.text(26, 0, o.back.label, { fontFamily: FONT, fontSize: '13px', fontStyle: 'bold', color: THEME.muted }).setOrigin(0, 0.5);
     b.add([bg, lbl]);
-    const zone = scene.add.zone(-18, -18, 36 + 10 + lbl.width, 36).setOrigin(0).setInteractive({ useHandCursor: true });
+    // en el móvil el área táctil es más grande que el botón (toda la altura de la barra)
+    const pad = PORTRAIT ? 10 : 0;
+    const zone = scene.add.zone(-18 - pad, -18 - pad, 36 + 10 + lbl.width + pad * 2, 36 + pad * 2).setOrigin(0).setInteractive({ useHandCursor: true });
     zone.on('pointerover', () => (draw(true), lbl.setColor(THEME.text)));
     zone.on('pointerout', () => (draw(false), lbl.setColor(THEME.muted)));
     zone.on('pointerdown', o.back.onClick);
@@ -267,8 +269,17 @@ export function topBar(scene: Phaser.Scene, o: TopBarOptions): Phaser.GameObject
     .setOrigin(0, 0.5)
     .setLetterSpacing(1);
   c.add(title);
+  // en el móvil (540 de ancho) el título y el subtítulo dejan sitio a la derecha para monedas y botones
+  const room = PORTRAIT ? GAME_W - x - 170 : Infinity;
+  while (title.width > room && parseInt(String(title.style.fontSize), 10) > 18) title.setFontSize(parseInt(String(title.style.fontSize), 10) - 1);
   if (o.subtitle) {
-    c.add(scene.add.text(x + 1, TOP_BAR_H / 2 + 13, o.subtitle, { fontFamily: FONT, fontSize: '13px', fontStyle: 'italic', color: THEME.muted }).setOrigin(0, 0.5));
+    const sub = scene.add.text(x + 1, TOP_BAR_H / 2 + 13, o.subtitle, { fontFamily: FONT, fontSize: '13px', fontStyle: 'italic', color: THEME.muted }).setOrigin(0, 0.5);
+    if (sub.width > room) {
+      // recorta con puntos suspensivos
+      let t = o.subtitle;
+      while (t.length > 4 && sub.width > room) sub.setText((t = t.slice(0, -1)) + '…');
+    }
+    c.add(sub);
   }
   return c;
 }
@@ -306,8 +317,9 @@ export interface ConfirmOptions {
 
 /** Diálogo de confirmación sobre un fondo oscuro. Se cierra solo al elegir. */
 export function confirmDialog(scene: Phaser.Scene, o: ConfirmOptions, depth = 500): Phaser.GameObjects.Container {
-  const W = 420;
-  const H = o.body ? 190 : 150;
+  // en el móvil: casi todo el ancho, letra y botones más grandes
+  const W = PORTRAIT ? GAME_W - 40 : 420;
+  const H = PORTRAIT ? (o.body ? 250 : 190) : o.body ? 190 : 150;
   const x = GAME_W / 2 - W / 2;
   const y = GAME_H / 2 - H / 2;
   const c = scene.add.container(0, 0).setDepth(depth);
@@ -316,30 +328,41 @@ export function confirmDialog(scene: Phaser.Scene, o: ConfirmOptions, depth = 50
   const g = scene.add.graphics();
   cardPanel(g, x, y, W, H, { accent: o.danger ? THEME.coral : THEME.yellow, alpha: 0.98 });
   c.add(g);
-  c.add(scene.add.text(x + 24, y + 30, o.title, { fontFamily: FONT, fontSize: '20px', fontStyle: 'italic bold', color: THEME.text }).setOrigin(0, 0.5));
-  if (o.body) c.add(scene.add.text(x + 24, y + 58, o.body, { fontFamily: FONT, fontSize: '14px', color: THEME.muted, wordWrap: { width: W - 48 }, lineSpacing: 3 }));
+  c.add(scene.add.text(x + 24, y + (PORTRAIT ? 36 : 30), o.title, { fontFamily: FONT, fontSize: PORTRAIT ? '24px' : '20px', fontStyle: 'italic bold', color: THEME.text, wordWrap: PORTRAIT ? { width: W - 48 } : undefined }).setOrigin(0, 0.5));
+  if (o.body) c.add(scene.add.text(x + 24, y + (PORTRAIT ? 66 : 58), o.body, { fontFamily: FONT, fontSize: PORTRAIT ? '18px' : '14px', color: THEME.muted, wordWrap: { width: W - 48 }, lineSpacing: 3 }));
   const close = (fn?: () => void) => {
     c.destroy();
     fn?.();
   };
-  c.add(new Button(scene, x + W - 92, y + H - 38, o.ok ?? 'Sí', () => close(o.onOk), { w: 140, h: 42, variant: o.danger ? 'danger' : 'primary' }));
-  c.add(new Button(scene, x + W - 250, y + H - 38, o.cancel ?? 'Cancelar', () => close(o.onCancel), { w: 140, h: 42, variant: 'secondary' }));
+  if (PORTRAIT) {
+    const bw = (W - 60) / 2;
+    c.add(new Button(scene, x + W - 20 - bw / 2, y + H - 48, o.ok ?? 'Sí', () => close(o.onOk), { w: bw, h: 60, size: 20, variant: o.danger ? 'danger' : 'primary' }));
+    c.add(new Button(scene, x + 20 + bw / 2, y + H - 48, o.cancel ?? 'Cancelar', () => close(o.onCancel), { w: bw, h: 60, size: 20, variant: 'secondary' }));
+  } else {
+    c.add(new Button(scene, x + W - 92, y + H - 38, o.ok ?? 'Sí', () => close(o.onOk), { w: 140, h: 42, variant: o.danger ? 'danger' : 'primary' }));
+    c.add(new Button(scene, x + W - 250, y + H - 38, o.cancel ?? 'Cancelar', () => close(o.onCancel), { w: 140, h: 42, variant: 'secondary' }));
+  }
   scene.input.keyboard?.once('keydown-ESC', () => c.active && close(o.onCancel));
   return c;
 }
 
 /** Aviso breve abajo en el centro, que se va solo. */
 export function toast(scene: Phaser.Scene, message: string, color = THEME.yellow, ms = 1800): void {
-  const t = scene.add.text(0, 0, message, { fontFamily: FONT, fontSize: '15px', fontStyle: 'bold', color: inkOn(color) }).setOrigin(0.5);
+  // en el móvil: letra más grande, en varias líneas si hace falta y por encima de los botones de abajo
+  const t = scene.add
+    .text(0, 0, message, { fontFamily: FONT, fontSize: PORTRAIT ? '18px' : '15px', fontStyle: 'bold', color: inkOn(color), align: 'center', wordWrap: PORTRAIT ? { width: GAME_W - 80 } : undefined })
+    .setOrigin(0.5);
   const w = t.width + 36;
-  const c = scene.add.container(GAME_W / 2, GAME_H - 46).setDepth(600).setAlpha(0);
-  const g = scene.add.graphics().fillStyle(color).fillRoundedRect(-w / 2, -18, w, 36, 18);
+  const h = Math.max(36, t.height + 16);
+  const y0 = PORTRAIT ? GAME_H - 130 : GAME_H - 46;
+  const c = scene.add.container(GAME_W / 2, y0).setDepth(600).setAlpha(0);
+  const g = scene.add.graphics().fillStyle(color).fillRoundedRect(-w / 2, -h / 2, w, h, Math.min(18, h / 2));
   c.add([g, t]);
-  scene.tweens.add({ targets: c, alpha: 1, y: GAME_H - 56, duration: 180 });
+  scene.tweens.add({ targets: c, alpha: 1, y: y0 - 10, duration: 180 });
   scene.time.delayedCall(ms, () => scene.tweens.add({ targets: c, alpha: 0, duration: 250, onComplete: () => c.destroy() }));
 }
 
-/** Amplía la cámara principal de la escena para que el juego (1280x720) llene el lienzo a resolución real. */
+/** Amplía la cámara principal de la escena para que el juego (1280x720, o 540x960 en el móvil) llene el lienzo a resolución real. */
 export function fitCamera(scene: Phaser.Scene): void {
   const fit = () => scene.cameras.main.setZoom(RES).centerOn(GAME_W / 2, GAME_H / 2);
   fit();

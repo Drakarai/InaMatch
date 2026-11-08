@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { COLORS, FIELD_VIEW, FONT, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PANEL, PITCH, hex } from '../config';
+import { COLORS, FIELD_VIEW, FONT, GAME_H, GAME_W, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PANEL, PITCH, PORTRAIT, hex } from '../config';
 import { ELEMENT_COLOR, elementMultiplier } from '../data/elements';
 import type { MoveData } from '../data/types';
 import {
@@ -45,6 +45,12 @@ export interface DuelInfo {
 
 const PROMPT_SECONDS = 7;
 
+/** Origen del campo en pantalla (en el ordenador, la esquina de arriba a la izquierda; en el móvil, debajo del marcador). */
+const FX = FIELD_VIEW.x;
+const FY = FIELD_VIEW.y;
+/** Tamaño del retrato en las filas del panel de duelo. */
+const ROW_PORTRAIT = PORTRAIT ? 62 : 72;
+
 /** Un lado del enfrentamiento de técnicas de un duelo. */
 export interface ClashSide {
   player: MatchPlayer;
@@ -83,6 +89,20 @@ export class HudScene extends Phaser.Scene {
   private lastScore = '';
   private overlay: Phaser.GameObjects.Container | null = null;
   private soundBox: Phaser.GameObjects.Container | null = null;
+  /** Caja del radar en pantalla. */
+  private radarBox = { x: PANEL.x + 40, y: 508, w: PANEL.w - 80, h: 186 };
+  // en el móvil (pantalla de arriba): radar y ficha del jugador, que se cambian por las dos filas del duelo
+  private normalGroup: Phaser.GameObjects.GameObject[] = [];
+  private duelGroup: Phaser.GameObjects.GameObject[] = [];
+  private focusCard: {
+    portrait: Phaser.GameObjects.Image;
+    name: Phaser.GameObjects.Text;
+    pos: Phaser.GameObjects.Text;
+    fp: StatBar;
+    tp: StatBar;
+    moves: Phaser.GameObjects.Text;
+    elem: Phaser.GameObjects.Graphics;
+  } | null = null;
 
   constructor() {
     super('hud');
@@ -98,22 +118,34 @@ export class HudScene extends Phaser.Scene {
     this.scorers = [];
     this.scoreTexts = [];
     this.rows = [];
+    this.normalGroup = [];
+    this.duelGroup = [];
+    this.focusCard = null;
   }
 
   create(): void {
     fitCamera(this);
-    this.buildScoreboard();
-    this.buildPlayerPanel();
-    this.buildRadar();
-    this.toastText = display(this, FIELD_VIEW.w / 2, 70, '', 32, '#ffffff').setOrigin(0.5).setDepth(50);
-    new Button(this, FIELD_VIEW.w - 42, 34, 'II', () => this.match.togglePause(), { w: 54, h: 40, size: 18, color: THEME.panelLight });
+    if (PORTRAIT) {
+      // móvil: como una DS abierta, el marcador, el radar y los duelos en la pantalla de arriba
+      this.buildScoreboardPortrait();
+      this.buildPlayerPanelPortrait();
+    } else {
+      this.buildScoreboard();
+      this.buildPlayerPanel();
+      this.buildRadar();
+    }
+    this.toastText = display(this, FX + FIELD_VIEW.w / 2, FY + (PORTRAIT ? 64 : 70), '', PORTRAIT ? 34 : 32, '#ffffff').setOrigin(0.5).setDepth(50);
+    if (PORTRAIT) new Button(this, FX + FIELD_VIEW.w - 44, FY + 40, 'II', () => this.match.togglePause(), { w: 68, h: 58, size: 26, color: THEME.panelLight }).setDepth(30);
+    else new Button(this, FIELD_VIEW.w - 42, 34, 'II', () => this.match.togglePause(), { w: 54, h: 40, size: 18, color: THEME.panelLight });
     this.input.keyboard?.on('keydown-ESC', () => this.match.togglePause());
-    // la portería no siempre se ve: botón (y tecla T) para tirar a distancia
-    this.shootButton = new Button(this, FIELD_VIEW.w / 2, FIELD_VIEW.h - 40, 'Tirar  (T)', () => this.match.requestShot(), {
-      w: 200,
-      h: 48,
-      color: COLORS.uiRed,
-    }).setDepth(30);
+    // la portería no siempre se ve: botón (y tecla T) para tirar a distancia; en el móvil, grande y abajo, a mano del pulgar
+    this.shootButton = PORTRAIT
+      ? new Button(this, FX + FIELD_VIEW.w / 2, FY + FIELD_VIEW.h - 56, 'Tirar', () => this.match.requestShot(), { w: 300, h: 76, size: 28, color: COLORS.uiRed }).setDepth(30)
+      : new Button(this, FIELD_VIEW.w / 2, FIELD_VIEW.h - 40, 'Tirar  (T)', () => this.match.requestShot(), {
+          w: 200,
+          h: 48,
+          color: COLORS.uiRed,
+        }).setDepth(30);
     this.input.keyboard?.on('keydown-T', () => this.match.requestShot());
     this.match.onHudReady();
   }
@@ -165,18 +197,55 @@ export class HudScene extends Phaser.Scene {
     );
   }
 
+  /** Marcador del móvil: arriba del todo, en la "pantalla superior" (más bajo que el del ordenador). */
+  private buildScoreboardPortrait(): void {
+    const w = PANEL.w;
+    const [home, away] = this.match.teams;
+    const g = this.add.graphics();
+    g.fillStyle(THEME.night).fillRect(0, 0, w, PANEL.h);
+    const split = [pt(w * 0.56, 0), pt(w * 0.5, 70), pt(w * 0.54, 76), pt(w * 0.46, 142)];
+    g.fillStyle(dim(home.colors.shirt)).fillPoints([pt(0, 0), ...split, pt(0, 142)], true);
+    g.fillStyle(dim(away.colors.shirt)).fillPoints([pt(w, 0), ...split, pt(w, 142)], true);
+    g.lineStyle(10, THEME.yellow, 0.25).strokePoints(split, false);
+    g.lineStyle(3, 0xfff6c8).strokePoints(split, false);
+    g.fillGradientStyle(0x000000, 0x000000, 0x000000, 0x000000, 0, 0, 0.65, 0.65).fillRect(0, 94, w, 48);
+    g.fillStyle(THEME.yellow).fillRect(0, 142, w, 3);
+    g.fillStyle(0x000000, 0.75).fillPoints(slant(w / 2 - 76, 6, 152, 46, 12), true);
+    g.lineStyle(2, THEME.yellow).strokePoints(slant(w / 2 - 76, 6, 152, 46, 12), true);
+    this.halfText = text(this, w / 2, 17, '1ª PARTE', 12, '#ffd23f', { fontStyle: 'bold' }).setOrigin(0.5);
+    this.clockText = text(this, w / 2, 37, '00:00', 26, '#ffffff', { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5);
+    this.add.image(50, 52, texKey.emblem(home.id)).setDisplaySize(70, 70);
+    this.add.image(w - 50, 52, texKey.emblem(away.id)).setDisplaySize(70, 70);
+    this.scoreTexts = [-1, 1].map((d) => display(this, w / 2 + d * 54, 75, '0', 50, '#ffffff').setOrigin(0.5));
+    text(this, w / 2, 75, '-', 28, '#ffd23f', { fontStyle: 'bold', strokeThickness: 5 }).setOrigin(0.5);
+    for (const [i, team] of [home, away].entries()) {
+      const bx = i === 0 ? 12 : w / 2 + 6;
+      const bw = w / 2 - 18;
+      g.fillStyle(0xffffff).fillPoints(slant(bx, 100, bw, 24, 8), true);
+      g.fillStyle(hex(team.colors.accent)).fillPoints(slant(bx - 1, 122, bw - 6, 3, 1), true);
+      fitWidth(text(this, bx + bw / 2, 112, team.name, 16, THEME.ink, { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5), bw - 26, 11);
+    }
+    this.scorers = [text(this, 14, 127, '', 12, '#e3e9f2', { fontStyle: 'italic' }), text(this, w / 2 + 10, 127, '', 12, '#e3e9f2', { fontStyle: 'italic' })];
+    text(this, w / 2, 161, 'TENSIÓN', 11, THEME.muted, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
+    this.tension = this.add.graphics();
+    this.firedLabels = [0, 1].map((i) =>
+      text(this, i === 0 ? w / 4 : (3 * w) / 4, 161, '¡FIRED UP!', 13, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0.5).setVisible(false),
+    );
+  }
+
   private drawTension(): void {
     const { x, w } = PANEL;
     const g = this.tension.clear();
+    const ty = PORTRAIT ? 154 : 210;
     for (const side of [0, 1] as const) {
       const bw = w / 2 - 54;
       const bx = side === 0 ? x + 16 : x + w / 2 + 38;
       const fired = this.match.firedLeft(side);
-      g.fillStyle(0x000000, 0.6).fillPoints(slant(bx, 210, bw, 14, 5), true);
+      g.fillStyle(0x000000, 0.6).fillPoints(slant(bx, ty, bw, 14, 5), true);
       const ratio = fired > 0 ? fired / FIRED_UP_SECONDS : this.match.tension[side] / 100;
       const blink = Math.floor(this.time.now / 150) % 2 === 0;
       const color = fired > 0 ? (blink ? 0xff3b2f : THEME.yellow) : 0xff8a1f;
-      if (ratio > 0) g.fillStyle(color).fillPoints(slant(bx + 1, 211, Math.max(8, (bw - 2) * ratio), 12, 4), true);
+      if (ratio > 0) g.fillStyle(color).fillPoints(slant(bx + 1, ty + 1, Math.max(8, (bw - 2) * ratio), 12, 4), true);
       this.firedLabels[side].setVisible(fired > 0);
     }
   }
@@ -206,6 +275,53 @@ export class HudScene extends Phaser.Scene {
     this.infoMoves = text(this, x + 26, 378, '', 13, '#ffffff', { lineSpacing: 2 });
   }
 
+  /**
+   * Parte de abajo de la pantalla de arriba en el móvil: en juego, el radar (el campo entero con los puntos de los
+   * jugadores, como en la DS) y la ficha del jugador activo; en un duelo, los dos enfrentados con su poder, FP y TP.
+   */
+  private buildPlayerPanelPortrait(): void {
+    const w = PANEL.w;
+    const top = 176;
+    const h = PANEL.h - top - 8;
+    // duelo: dos filas a todo lo ancho
+    const dg = this.add.graphics();
+    themePanel(dg, 8, top, w - 16, h);
+    this.duelGroup.push(dg);
+    for (let i = 0; i < 2; i++) {
+      const c = this.add.container(20, top + 12 + i * 82);
+      const band = this.add.graphics();
+      const portrait = this.add.image(0, 0, '__WHITE').setOrigin(0).setDisplaySize(ROW_PORTRAIT, ROW_PORTRAIT);
+      const name = text(this, 80, 1, '', 17, '#ffffff', { fontStyle: 'italic bold' });
+      const fp = new StatBar(this, 76, 38, 'FP', COLORS.fp, 200);
+      const tp = new StatBar(this, 76, 58, 'TP', COLORS.tp, 200);
+      const ball = this.add.image(w - 80, 40, 'ball').setScale(1.5);
+      const power = text(this, w - 44, 12, '', 17, '#ffd23f', { fontStyle: 'italic bold' }).setOrigin(1, 0.5);
+      const support = text(this, w - 44, 62, '', 13, '#9fffb0', { fontStyle: 'italic bold' }).setOrigin(1, 0.5);
+      const elem = this.add.graphics();
+      c.add([band, portrait, name, fp, tp, ball, power, support, elem]);
+      this.rows.push({ container: c, portrait, name, fp, tp, ball, power, support, elem });
+      this.duelGroup.push(c);
+    }
+    // en juego: radar a la izquierda y ficha del jugador activo a la derecha
+    const rw = 304;
+    const rg = this.add.graphics();
+    themePanel(rg, 8, top, rw, h);
+    this.radarBox = { x: 24, y: top + 14, w: rw - 32, h: h - 28 };
+    this.radar = this.add.graphics();
+    const fg = this.add.graphics();
+    themePanel(fg, rw + 16, top, w - rw - 24, h);
+    const fx = rw + 28;
+    const portrait = this.add.image(fx, top + 12, '__WHITE').setOrigin(0).setDisplaySize(56, 56);
+    const elem = this.add.graphics();
+    const name = text(this, fx + 64, top + 14, '', 16, '#ffffff', { fontStyle: 'italic bold' });
+    const pos = text(this, fx + 64, top + 38, '', 13, '#ffd23f', { fontStyle: 'bold', strokeThickness: 0 });
+    const fp = new StatBar(this, fx, top + 84, 'FP', COLORS.fp, 108);
+    const tp = new StatBar(this, fx, top + 104, 'TP', COLORS.tp, 108);
+    const moves = text(this, fx, top + 118, '', 13, '#ffffff', { strokeThickness: 0, lineSpacing: 1 });
+    this.focusCard = { portrait, name, pos, fp, tp, moves, elem };
+    this.normalGroup.push(rg, this.radar, fg, portrait, elem, name, pos, fp, tp, moves);
+  }
+
   showDuel(a: MatchPlayer, b: MatchPlayer, info: DuelInfo = {}): void {
     this.duelPair = [a, b];
     this.duelInfo = info;
@@ -219,17 +335,17 @@ export class HudScene extends Phaser.Scene {
   private refreshPlayerPanel(): void {
     const pair = this.duelPair;
     const focus = this.match.focusPlayer();
-    const shown: (MatchPlayer | null)[] = pair ? [...pair] : [focus, null];
+    const shown: (MatchPlayer | null)[] = pair ? [...pair] : PORTRAIT ? [null, null] : [focus, null];
     shown.forEach((p, i) => {
       const row = this.rows[i];
       row.container.setVisible(!!p);
       if (!p) return;
       const key = portraitKey(this, p.data, p.team);
-      if (row.portrait.texture.key !== key) row.portrait.setTexture(key).setDisplaySize(72, 72);
+      if (row.portrait.texture.key !== key) row.portrait.setTexture(key).setDisplaySize(ROW_PORTRAIT, ROW_PORTRAIT);
       const band = row.container.list[0] as Phaser.GameObjects.Graphics;
       const sideColor = p.side === 0 ? THEME.home : THEME.away;
-      band.clear().fillStyle(sideColor).fillPoints(slant(-4, -4, 82, 80, 12), true);
-      band.fillStyle(sideColor, 0.85).fillPoints(slant(80, -2, PANEL.w - 112, 26, 8), true);
+      band.clear().fillStyle(sideColor).fillPoints(slant(-4, -4, ROW_PORTRAIT + 10, ROW_PORTRAIT + 8, 12), true);
+      band.fillStyle(sideColor, 0.85).fillPoints(slant(ROW_PORTRAIT + 8, -2, PANEL.w - (PORTRAIT ? 104 : 112), 26, 8), true);
       row.name.setText(`${p.data.number}  ${p.data.name}`);
       row.fp.set(p.fp, p.maxFp);
       row.tp.set(p.tp, p.maxTp);
@@ -239,12 +355,39 @@ export class HudScene extends Phaser.Scene {
       // afinidad del jugador en la esquina del retrato; flecha si gana la afinidad al rival
       const rival = pair ? pair[1 - i] : null;
       const favoured = rival ? elementMultiplier(p.data.element, rival.data.element) > 1 : false;
-      row.elem.clear().fillStyle(ELEMENT_COLOR[p.data.element]).fillCircle(66, 66, 9).lineStyle(2, 0xffffff).strokeCircle(66, 66, 9);
-      if (favoured) row.elem.fillStyle(0xffe28a).fillTriangle(60, 52, 72, 52, 66, 44);
+      const e = ROW_PORTRAIT - 6;
+      row.elem.clear().fillStyle(ELEMENT_COLOR[p.data.element]).fillCircle(e, e, 9).lineStyle(2, 0xffffff).strokeCircle(e, e, 9);
+      if (favoured) row.elem.fillStyle(0xffe28a).fillTriangle(e - 6, e - 14, e + 6, e - 14, e, e - 22);
       const support = pair ? (this.duelInfo.support?.[i] ?? 0) : 0;
       const affinity = pair ? (this.duelInfo.affinity?.[i] ?? 0) : 0;
       row.support.setText(affinity > 0 ? `¡Bonus de afinidad x${affinity}!` : support > 0 ? `¡Apoyo x${support}!` : '');
     });
+    if (PORTRAIT) {
+      for (const o of this.duelGroup) (o as unknown as Phaser.GameObjects.Components.Visible).setVisible(!!pair);
+      for (const o of this.normalGroup) (o as unknown as Phaser.GameObjects.Components.Visible).setVisible(!pair);
+      const card = this.focusCard;
+      if (!pair && card) {
+        const on = !!focus;
+        for (const o of [card.portrait, card.elem, card.name, card.pos, card.fp, card.tp, card.moves]) o.setVisible(on);
+        if (focus) {
+          const key = portraitKey(this, focus.data, focus.team);
+          if (card.portrait.texture.key !== key) card.portrait.setTexture(key).setDisplaySize(56, 56);
+          const ex = card.portrait.x + 50;
+          const ey = card.portrait.y + 50;
+          card.elem.clear().fillStyle(ELEMENT_COLOR[focus.data.element]).fillCircle(ex, ey, 8).lineStyle(2, 0xffffff).strokeCircle(ex, ey, 8);
+          card.name.setText(focus.data.short);
+          fitWidth(card.name.setFontSize(16), PANEL.w - card.name.x - 18, 11);
+          card.pos.setText(`${focus.data.number} · ${focus.data.position}`);
+          card.fp.set(focus.fp, focus.maxFp);
+          card.tp.set(focus.tp, focus.maxTp);
+          const list = focus.moves.slice(0, 2).map((m) => `• ${m.name}`);
+          if (focus.moves.length > 2) list.push(`  y ${focus.moves.length - 2} más`);
+          card.moves.setText(list.length ? list.join('\n') : '—');
+          card.moves.setFontSize(focus.moves.length > 2 ? 12 : 13);
+        }
+      }
+      return;
+    }
     const showInfo = !pair && !!focus;
     this.infoTitle.setVisible(showInfo);
     this.infoMoves.setVisible(showInfo);
@@ -266,8 +409,9 @@ export class HudScene extends Phaser.Scene {
 
   private drawRadar(): void {
     const r = this.radar.clear();
+    if (PORTRAIT && this.duelPair) return;
     // el campo se dibuja girado: la portería rival queda a la derecha
-    const box = { x: PANEL.x + 40, y: 508, w: PANEL.w - 80, h: 186 };
+    const box = this.radarBox;
     const sx = box.w / PITCH.h;
     const sy = box.h / PITCH.w;
     const toRadar = (wx: number, wy: number) => ({
@@ -277,7 +421,7 @@ export class HudScene extends Phaser.Scene {
     for (let i = 0; i < 8; i++) r.fillStyle(i % 2 ? 0x1f6b3a : 0x247a43).fillRect(box.x + (i * box.w) / 8, box.y, box.w / 8, box.h);
     r.lineStyle(1, 0xffffff, 0.55).strokeRect(box.x, box.y, box.w, box.h);
     r.lineBetween(box.x + box.w / 2, box.y, box.x + box.w / 2, box.y + box.h);
-    r.strokeCircle(box.x + box.w / 2, box.y + box.h / 2, 18);
+    r.strokeCircle(box.x + box.w / 2, box.y + box.h / 2, PORTRAIT ? 14 : 18);
     const goalH = GOAL_W * sy;
     r.fillStyle(0xffffff).fillRect(box.x - 4, box.y + box.h / 2 - goalH / 2, 4, goalH).fillRect(box.x + box.w, box.y + box.h / 2 - goalH / 2, 4, goalH);
     // vista de la cámara
@@ -325,7 +469,7 @@ export class HudScene extends Phaser.Scene {
     this.drawTension();
     const canShoot = this.match.canShoot();
     this.shootButton.setVisible(canShoot);
-    if (canShoot) this.shootButton.setCaption(this.match.shotIsLong() ? 'Tiro largo  (T)' : 'Tirar  (T)');
+    if (canShoot) this.shootButton.setCaption(PORTRAIT ? (this.match.shotIsLong() ? 'Tiro largo' : 'Tirar') : this.match.shotIsLong() ? 'Tiro largo  (T)' : 'Tirar  (T)');
   }
 
   // ------------------------------------------------------------ comandos
@@ -340,15 +484,22 @@ export class HudScene extends Phaser.Scene {
     setup: (c: Phaser.GameObjects.Container, cy: number, finish: (value: T) => void) => Record<string, T>,
   ): Promise<T> {
     return new Promise((resolve) => {
-      const c = this.add.container(0, 0).setDepth(40);
-      const cy = FIELD_VIEW.h - 46;
+      const c = this.add.container(FX, FY).setDepth(40);
+      // en el móvil, los mandos van abajo, a mano del pulgar, como los botones táctiles de la DS
+      const cy = PORTRAIT ? FIELD_VIEW.h - 56 : FIELD_VIEW.h - 46;
       const g = this.add.graphics();
-      g.fillGradientStyle(THEME.night, THEME.night, THEME.night, THEME.night, 0, 0, 0.85, 0.85).fillRect(0, cy - 80, FIELD_VIEW.w, 136);
-      g.fillStyle(THEME.yellow).fillPoints(slant(FIELD_VIEW.w / 2 - 150, cy - 46, 300, 30, 10), true);
+      const titleText = text(this, FIELD_VIEW.w / 2, cy - 31, title, PORTRAIT ? 22 : 18, THEME.ink, { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5);
+      if (!PORTRAIT) {
+        g.fillGradientStyle(THEME.night, THEME.night, THEME.night, THEME.night, 0, 0, 0.85, 0.85).fillRect(0, cy - 80, FIELD_VIEW.w, 136);
+        g.fillStyle(THEME.yellow).fillPoints(slant(FIELD_VIEW.w / 2 - 150, cy - 46, 300, 30, 10), true);
+      }
       c.add(g);
-      c.add(text(this, FIELD_VIEW.w / 2, cy - 31, title, 18, THEME.ink, { fontStyle: 'italic bold', strokeThickness: 0 }).setOrigin(0.5));
+      c.add(titleText);
       const timer = this.add.graphics();
       c.add(timer);
+      // barra de la cuenta atrás (en el móvil se coloca encima de los botones, cuando ya se sabe cuántos hay)
+      let timerY = cy - 13;
+      let timerW = 280;
 
       let done = false;
       const finish = (value: T) => {
@@ -360,6 +511,17 @@ export class HudScene extends Phaser.Scene {
         resolve(value);
       };
       const keys = setup(c, cy, finish);
+      if (PORTRAIT) {
+        // fondo y título encima del montón de botones
+        const top = Math.min(cy - 40, (c.getData('top') as number | undefined) ?? Infinity, ...c.list.filter((o): o is Button => o instanceof Button).map((b) => b.y - b.height / 2));
+        const W = FIELD_VIEW.w;
+        g.fillGradientStyle(THEME.night, THEME.night, THEME.night, THEME.night, 0, 0, 0.92, 0.92).fillRect(0, top - 96, W, 40);
+        g.fillStyle(THEME.night, 0.92).fillRect(0, top - 56, W, FIELD_VIEW.h - top + 56);
+        g.fillStyle(THEME.yellow).fillPoints(slant(W / 2 - 170, top - 62, 340, 36, 12), true);
+        titleText.setY(top - 44);
+        timerY = top - 18;
+        timerW = W - 60;
+      }
       const onKey = (ev: KeyboardEvent) => {
         if (ev.key in keys) finish(keys[ev.key]);
       };
@@ -371,8 +533,8 @@ export class HudScene extends Phaser.Scene {
         loop: true,
         callback: () => {
           const left = 1 - (this.time.now - start) / (PROMPT_SECONDS * 1000);
-          timer.clear().fillStyle(0x000000, 0.6).fillRect(FIELD_VIEW.w / 2 - 140, cy - 13, 280, 5);
-          timer.fillStyle(left < 0.3 ? 0xff5a4a : 0xffffff).fillRect(FIELD_VIEW.w / 2 - 140, cy - 13, 280 * Math.max(0, left), 5);
+          timer.clear().fillStyle(0x000000, 0.6).fillRect(FIELD_VIEW.w / 2 - timerW / 2, timerY, timerW, PORTRAIT ? 7 : 5);
+          timer.fillStyle(left < 0.3 ? 0xff5a4a : 0xffffff).fillRect(FIELD_VIEW.w / 2 - timerW / 2, timerY, timerW * Math.max(0, left), PORTRAIT ? 7 : 5);
           if (left <= 0) finish(fallback);
         },
       });
@@ -384,12 +546,13 @@ export class HudScene extends Phaser.Scene {
     const [a, b] = BASIC_OPTIONS[situation];
     // un tiro solo se bloquea con supertécnica: la única opción básica es dejarlo pasar
     const blockMode = situation === 'block';
-    const basicA: Choice = { type: 'basic', id: blockMode ? 'letpass' : a };
-    const basicB: Choice = { type: 'basic', id: b };
+    const basicA: Extract<Choice, { type: 'basic' }> = { type: 'basic', id: blockMode ? 'letpass' : a };
+    const basicB: Extract<Choice, { type: 'basic' }> = { type: 'basic', id: b };
     return this.commandBar<Choice>(PROMPT_TITLE[situation], basicA, (c, cy, finish) => {
       // rojo al atacar, azul al defender, como los botones de IE3
       const defensive = situation === 'defend' || situation === 'keep' || situation === 'block';
       const color = defensive ? 0x2f6fc4 : 0xd8344a;
+      if (PORTRAIT) return this.promptPortrait(c, cy, finish, situation, player, basicA, basicB, color);
       c.add(new Button(this, 130, cy + 10, `1 · ${BASIC_LABEL[basicA.id as BasicId]}`, () => finish(basicA), { w: 230, h: 50, color }));
       const keys: Record<string, Choice> = { '1': basicA };
       if (!blockMode) {
@@ -417,9 +580,61 @@ export class HudScene extends Phaser.Scene {
     });
   }
 
+  /**
+   * Mandos de un duelo en el móvil: abajo las dos acciones básicas, grandes y lado a lado, y encima las supertécnicas
+   * en botones a todo lo ancho, como el menú táctil de los duelos de Inazuma Eleven en DS.
+   */
+  private promptPortrait(
+    c: Phaser.GameObjects.Container,
+    cy: number,
+    finish: (value: Choice) => void,
+    situation: Situation,
+    player: MatchPlayer,
+    basicA: Extract<Choice, { type: 'basic' }>,
+    basicB: Extract<Choice, { type: 'basic' }>,
+    color: number,
+  ): Record<string, Choice> {
+    const W = FIELD_VIEW.w;
+    const blockMode = situation === 'block';
+    const keys: Record<string, Choice> = { '1': basicA };
+    if (blockMode) c.add(new Button(this, W / 2, cy, BASIC_LABEL[basicA.id as BasicId], () => finish(basicA), { w: W - 40, h: 72, size: 22, color }));
+    else {
+      const bw = (W - 52) / 2;
+      c.add(new Button(this, 20 + bw / 2, cy, BASIC_LABEL[basicA.id as BasicId], () => finish(basicA), { w: bw, h: 72, size: 22, color }));
+      c.add(new Button(this, W - 20 - bw / 2, cy, BASIC_LABEL[basicB.id as BasicId], () => finish(basicB), { w: bw, h: 72, size: 22, color }));
+      keys['2'] = basicB;
+    }
+    const kind = SITUATION_MOVE_KIND[situation];
+    const moves = blockMode ? shotBlockMoves(player.moves) : player.moves.filter((m) => m.kind === kind);
+    moves.forEach((move, i) => {
+      const ok = move.tp <= player.tp;
+      const choice: Choice = { type: 'move', move };
+      const btn = new Button(this, W / 2, cy - 82 - i * 72, move.name, () => finish(choice), { w: W - 40, h: 64, size: 22, color: ELEMENT_COLOR[move.element], sub: `TP ${move.tp}` });
+      btn.setEnabled(ok);
+      c.add(btn);
+      if (ok) keys[String(i + 3)] = choice;
+    });
+    if (moves.length === 0) {
+      c.add(text(this, W / 2, cy - 66, 'Sin supertécnicas', 18, '#9fb8d8').setOrigin(0.5));
+      c.setData('top', cy - 88);
+    }
+    return keys;
+  }
+
   /** Tiro desde lejos: solo las supertécnicas de tiro largo, o cancelar (null). */
   promptLongShot(moves: MoveData[]): Promise<Choice | null> {
     return this.commandBar<Choice | null>('¡Tiro largo!', null, (c, cy, finish) => {
+      if (PORTRAIT) {
+        const W = FIELD_VIEW.w;
+        c.add(new Button(this, W / 2, cy, 'Cancelar', () => finish(null), { w: W - 40, h: 68, size: 22, color: THEME.panelLight }));
+        const k: Record<string, Choice | null> = { '1': null };
+        moves.forEach((move, i) => {
+          const choice: Choice = { type: 'move', move };
+          c.add(new Button(this, W / 2, cy - 80 - i * 72, move.name, () => finish(choice), { w: W - 40, h: 64, size: 22, color: ELEMENT_COLOR[move.element], sub: `TP ${move.tp}` }));
+          k[String(i + 2)] = choice;
+        });
+        return k;
+      }
       c.add(new Button(this, 130, cy + 10, '1 · Cancelar', () => finish(null), { w: 230, h: 50, color: THEME.panelLight }));
       const keys: Record<string, Choice | null> = { '1': null };
       moves.forEach((move, i) => {
@@ -445,9 +660,10 @@ export class HudScene extends Phaser.Scene {
       const keys: Record<string, number> = {};
       SHOT_POWER_LEVELS.forEach((level, i) => {
         const ok = i === 0 || level.fp <= fpAvailable;
-        const btn = new Button(this, FIELD_VIEW.w / 2 + (i - 1) * 260, cy + 10, `${i + 1} · ${level.label}`, () => finish(i), {
-          w: 240,
-          h: 50,
+        const btn = new Button(this, FIELD_VIEW.w / 2 + (i - 1) * (PORTRAIT ? 172 : 260), PORTRAIT ? cy : cy + 10, PORTRAIT ? level.label : `${i + 1} · ${level.label}`, () => finish(i), {
+          w: PORTRAIT ? 162 : 240,
+          h: PORTRAIT ? 80 : 50,
+          size: PORTRAIT ? 20 : undefined,
           color: [0x4f7fb8, 0xe0862c, 0xd8344a][i],
           sub: level.fp ? `FP +${level.fp}` : undefined,
         });
@@ -461,7 +677,7 @@ export class HudScene extends Phaser.Scene {
 
   /** Enseña el choque de potencias del duelo ("54 VS 37") sobre el campo. */
   showClash(left: number, right: number, leftWins: boolean, leftSide: 0 | 1): void {
-    const c = this.add.container(FIELD_VIEW.w / 2, 150).setDepth(45);
+    const c = this.add.container(FX + FIELD_VIEW.w / 2, FY + (PORTRAIT ? 140 : 150)).setDepth(45);
     const colorOf = (side: 0 | 1) => (side === 0 ? '#7fc4ff' : '#ff8a8a');
     const rightSide: 0 | 1 = leftSide === 0 ? 1 : 0;
     const g = this.add.graphics();
@@ -490,8 +706,12 @@ export class HudScene extends Phaser.Scene {
       const H = FIELD_VIEW.h;
       const CX = W / 2;
       const CY = H / 2 - 20;
-      const c = this.add.container(0, 0).setDepth(60);
-      const maskShape = this.make.graphics({}, false).fillStyle(0xffffff).fillRect(0, 0, W, H);
+      const c = this.add.container(FX, FY).setDepth(60);
+      const maskShape = this.make.graphics({}, false).fillStyle(0xffffff).fillRect(FX, FY, W, H);
+      // en el móvil (pantalla estrecha) los dos van en diagonal, uno arriba a la izquierda y otro abajo a la derecha, y algo más pequeños
+      const FS = PORTRAIT ? 0.72 : 1;
+      const DY = PORTRAIT ? 150 : 70;
+      const DX = PORTRAIT ? 150 : 160;
       c.setMask(maskShape.createGeometryMask());
       const shade = this.add.rectangle(W / 2, H / 2, W, H, 0x000000, 0).setInteractive();
       c.add(shade);
@@ -542,7 +762,7 @@ export class HudScene extends Phaser.Scene {
 
       // jugadores: retrato grande con aura, nombre y técnica
       const fighter = (s: ClashSide, dir: -1 | 1, col: number, col2: number) => {
-        const k = this.add.container(dir < 0 ? -300 : W + 300, CY + dir * 70);
+        const k = this.add.container(dir < 0 ? -300 : W + 300, CY + dir * DY).setScale(FS);
         const aura = this.add.graphics();
         for (let i = 0; i < 14; i++) {
           const a = (i / 14) * Math.PI * 2;
@@ -661,8 +881,8 @@ export class HudScene extends Phaser.Scene {
       // 1) entra todo
       this.tweens.add({ targets: shade, fillAlpha: 0.55, duration: 160 });
       this.tweens.add({ targets: state, appear: 1, duration: 220 });
-      this.tweens.add({ targets: L.k, x: 160, duration: 340, ease: 'Back.Out' });
-      this.tweens.add({ targets: R.k, x: W - 160, duration: 340, ease: 'Back.Out' });
+      this.tweens.add({ targets: L.k, x: DX, duration: 340, ease: 'Back.Out' });
+      this.tweens.add({ targets: R.k, x: W - DX, duration: 340, ease: 'Back.Out' });
       this.tweens.add({ targets: [L.aura, R.aura], scale: 1, duration: 420, ease: 'Back.Out' });
       this.tweens.add({ targets: [L.aura, R.aura], angle: 360, duration: 6000 });
       // 2) disparan y forcejean
@@ -710,9 +930,9 @@ export class HudScene extends Phaser.Scene {
           c.add(shards);
           this.tweens.add({ targets: loserK.k, x: loserK.k.x + toward * 300, y: loserK.k.y + 140, angle: toward * 30, alpha: 0, duration: 420, ease: 'Quad.In' });
           // la ganadora al centro, en grande
-          this.tweens.add({ targets: winnerK.k, x: CX, y: CY, scale: 1.18, duration: 340, ease: 'Back.Out' });
+          this.tweens.add({ targets: winnerK.k, x: CX, y: CY, scale: 1.18 * FS, duration: 340, ease: 'Back.Out' });
           const [wc] = winIsLeft ? [lc] : [rc];
-          const wins = display(this, CX, 96, '¡GANA!', 66, '#ffffff', { fontStyle: 'italic bold', stroke: Phaser.Display.Color.IntegerToColor(dim(wc, 0.2)).rgba, strokeThickness: 10 })
+          const wins = display(this, CX, PORTRAIT ? 70 : 96, '¡GANA!', 66, '#ffffff', { fontStyle: 'italic bold', stroke: Phaser.Display.Color.IntegerToColor(dim(wc, 0.2)).rgba, strokeThickness: 10 })
             .setOrigin(0.5)
             .setAngle(-4)
             .setScale(2.4)
@@ -732,9 +952,9 @@ export class HudScene extends Phaser.Scene {
       const H = FIELD_VIEW.h;
       // el color y las partículas son los del efecto de la técnica (llamas, copos, pétalos...)
       const [color, color2] = fxColors(fx, move.element);
-      const c = this.add.container(0, 0).setDepth(60);
+      const c = this.add.container(FX, FY).setDepth(60);
       // que la animación no se salga del campo y tape el marcador
-      const maskShape = this.make.graphics({}, false).fillStyle(0xffffff).fillRect(0, 0, W, H);
+      const maskShape = this.make.graphics({}, false).fillStyle(0xffffff).fillRect(FX, FY, W, H);
       c.setMask(maskShape.createGeometryMask());
       const shade = this.add.rectangle(W / 2, H / 2, W, H, 0x000000, 0).setInteractive();
       const burst = this.add.graphics({ x: W / 2, y: H / 2 });
@@ -754,7 +974,7 @@ export class HudScene extends Phaser.Scene {
       ]);
       band.lineStyle(4, color).lineBetween(0, H / 2 + 40, W, H / 2 - 30).lineBetween(0, H / 2 + 140, W, H / 2 + 70);
       band.setAlpha(0);
-      const portrait = this.add.image(-200, H / 2 - 70, portraitKey(this, player.data, player.team)).setDisplaySize(230, 230);
+      const portrait = this.add.image(-200, H / 2 - (PORTRAIT ? 110 : 70), portraitKey(this, player.data, player.team)).setDisplaySize(PORTRAIT ? 210 : 230, PORTRAIT ? 210 : 230);
       const name = this.add
         .text(W + 400, H / 2 + 62, move.name, {
           fontFamily: FONT,
@@ -766,6 +986,7 @@ export class HudScene extends Phaser.Scene {
         })
         .setOrigin(0.5)
         .setAngle(-4);
+      if (PORTRAIT) fitWidth(name, W - 40, 24);
       const who = text(this, W - 30, H / 2 + 104, `${player.data.short} · TP -${move.tp}`, 18, '#ffe28a').setOrigin(1, 0.5).setAngle(-4).setAlpha(0);
       const part = fxParticle(fx);
       const shower = this.add.particles(0, 0, part.key, {
@@ -804,8 +1025,8 @@ export class HudScene extends Phaser.Scene {
       this.tweens.add({ targets: shade, fillAlpha: 0.7, duration: 150 });
       this.tweens.add({ targets: [burst, band], alpha: 1, duration: 200 });
       this.tweens.add({ targets: burst, angle: 40, duration: 1700 });
-      this.tweens.add({ targets: portrait, x: 190, duration: 260, ease: 'Back.Out' });
-      this.tweens.add({ targets: name, x: W / 2 + 60, duration: 300, delay: 120, ease: 'Back.Out' });
+      this.tweens.add({ targets: portrait, x: PORTRAIT ? 150 : 190, duration: 260, ease: 'Back.Out' });
+      this.tweens.add({ targets: name, x: PORTRAIT ? W / 2 : W / 2 + 60, duration: 300, delay: 120, ease: 'Back.Out' });
       this.tweens.add({ targets: who, alpha: 1, duration: 200, delay: 350 });
       this.cameras.main.flash(120, 255, 255, 255);
       this.time.delayedCall(1600, end);
@@ -822,15 +1043,20 @@ export class HudScene extends Phaser.Scene {
 
   banner(main: string, sub = '', color = '#ffd23f', ms = 1800): Promise<void> {
     return new Promise((resolve) => {
-      const c = this.add.container(FIELD_VIEW.w / 2, FIELD_VIEW.h / 2).setDepth(70);
+      const c = this.add.container(FX + FIELD_VIEW.w / 2, FY + FIELD_VIEW.h / 2).setDepth(70);
       const g = this.add.graphics();
       const half = FIELD_VIEW.w / 2;
       g.fillStyle(THEME.night, 0.85).fillPoints([pt(-half, -60), pt(half, -86), pt(half, 60), pt(-half, 86)], true);
       g.fillStyle(THEME.yellow).fillPoints([pt(-half, -60), pt(half, -86), pt(half, -80), pt(-half, -54)], true);
       g.fillStyle(THEME.yellow).fillPoints([pt(-half, 80), pt(half, 54), pt(half, 60), pt(-half, 86)], true);
       const t = display(this, 0, sub ? -14 : 0, main, 92, color, { strokeThickness: 12 }).setOrigin(0.5).setAngle(-2);
+      if (PORTRAIT) fitWidth(t, FIELD_VIEW.w - 30, 48);
       c.add([g, t]);
-      if (sub) c.add(text(this, 0, 44, sub, 22, '#ffffff', { fontStyle: 'italic' }).setOrigin(0.5).setAngle(-2));
+      if (sub) {
+        const st = text(this, 0, 44, sub, 22, '#ffffff', { fontStyle: 'italic' }).setOrigin(0.5).setAngle(-2);
+        if (PORTRAIT) fitWidth(st, FIELD_VIEW.w - 30, 14);
+        c.add(st);
+      }
       t.setScale(2.2);
       this.tweens.add({ targets: t, scale: 1, duration: 300, ease: 'Back.Out' });
       this.time.delayedCall(ms, () => {
@@ -842,6 +1068,10 @@ export class HudScene extends Phaser.Scene {
   /** Menú de pausa: reanudar, controles, reiniciar o abandonar, y cómo va de estamina y técnica tu equipo. */
   showPause(o: { onResume: () => void; onRestart: () => void; onQuit: () => void }): void {
     this.hidePause();
+    if (PORTRAIT) {
+      this.showPausePortrait(o);
+      return;
+    }
     const W = FIELD_VIEW.w;
     const H = FIELD_VIEW.h;
     const c = this.add.container(0, 0).setDepth(80);
@@ -911,12 +1141,93 @@ export class HudScene extends Phaser.Scene {
     c.add(help);
   }
 
+  /** Pausa en el móvil: a toda la pantalla, botones grandes arriba y el estado de los once abajo. */
+  private showPausePortrait(o: { onResume: () => void; onRestart: () => void; onQuit: () => void }): void {
+    const W = GAME_W;
+    const H = GAME_H;
+    const c = this.add.container(0, 0).setDepth(80);
+    this.overlay = c;
+    c.add(this.add.rectangle(W / 2, H / 2, W, H, THEME.night, 0.94).setInteractive());
+    const [home, away] = this.match.teams;
+    c.add(display(this, 24, 20, 'PAUSA', 58));
+    c.add(fitWidth(label(this, 26, 92, `${home.short}  ${this.match.score[0]} - ${this.match.score[1]}  ${away.short}   ·   ${this.clockText.text}  ${this.halfText.text}`, 18, THEME.text, { fontStyle: 'italic bold' }), W - 52, 12));
+    const ask = (title: string, body: string, onOk: () => void) => confirmDialog(this, { title, body, ok: 'Sí, adelante', danger: true, onOk }, 90);
+    const bw = W - 64;
+    c.add(new Button(this, W / 2, 162, 'Reanudar', o.onResume, { w: bw, h: 66, variant: 'primary', size: 24 }));
+    const half = (bw - 12) / 2;
+    c.add(new Button(this, 32 + half / 2, 240, 'Controles', () => help.setVisible(!help.visible), { w: half, h: 60, size: 20, variant: 'secondary' }));
+    c.add(
+      new Button(this, W - 32 - half / 2, 240, 'Sonido', () => {
+        if (this.soundBox?.active) this.soundBox.destroy();
+        else c.add((this.soundBox = soundPanel(this, W / 2 - 160, 280)));
+      }, { w: half, h: 60, size: 20, variant: 'secondary' }),
+    );
+    c.add(new Button(this, 32 + half / 2, 312, 'Reiniciar', () => ask('¿Reiniciar el partido?', 'Se vuelve a empezar desde el saque inicial con las mismas alineaciones.', o.onRestart), { w: half, h: 60, size: 20, variant: 'secondary' }));
+    c.add(new Button(this, W - 32 - half / 2, 312, 'Abandonar', () => ask('¿Abandonar el partido?', 'Vuelves al menú. Este partido no cuenta ni da monedas.', o.onQuit), { w: half, h: 60, size: 20, variant: 'danger' }));
+
+    // estado del equipo: estamina (naranja) y técnica (verde) de los once
+    const px = 16;
+    const py = 372;
+    const pw = W - 32;
+    const g = this.add.graphics();
+    cardPanel(g, px, py, pw, H - py - 16);
+    c.add(g);
+    c.add(sectionTitle(this, px + 16, py + 24, 'Tu equipo'));
+    const fpX = px + 196;
+    const tpX = px + 340;
+    const barW = 88;
+    c.add(label(this, fpX, py + 24, 'FP  estamina', 13, '#ffb15a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    c.add(label(this, tpX, py + 24, 'TP  técnica', 13, '#7dff9a', { fontStyle: 'bold' }).setOrigin(0, 0.5));
+    const players = this.match.allPlayers().filter((p) => p.side === 0);
+    const rowH = Math.min(46, (H - py - 76) / Math.max(1, players.length));
+    players.forEach((p, i) => {
+      const y = py + 58 + i * rowH;
+      c.add(this.add.image(px + 30, y + 6, portraitKey(this, p.data, p.team)).setDisplaySize(36, 36));
+      c.add(fitWidth(label(this, px + 54, y - 4, `${p.data.number} ${p.data.short}`, 16, THEME.text, { fontStyle: 'italic bold' }), fpX - px - 62, 11));
+      c.add(label(this, px + 54, y + 15, isExhausted(p.fp) ? `${p.data.position} · AGOTADO` : p.data.position, 12, isExhausted(p.fp) ? THEME.coralCss : THEME.muted, { fontStyle: 'bold' }));
+      const bars = this.add.graphics();
+      const bar = (x: number, v: number, max: number, color: number) => {
+        const r = Phaser.Math.Clamp(v / max, 0, 1);
+        bars.fillStyle(0x000000, 0.6).fillRoundedRect(x, y + 1, barW, 12, 6);
+        if (r > 0) bars.fillStyle(r < 0.25 ? 0xe2463b : color).fillRoundedRect(x + 1, y + 2, Math.max(8, (barW - 2) * r), 10, 5);
+        c.add(label(this, x + barW + 6, y + 7, String(Math.round(v)), 14, THEME.text, { fontStyle: 'bold' }).setOrigin(0, 0.5));
+      };
+      bar(fpX, p.fp, p.maxFp, COLORS.fp);
+      bar(tpX, p.tp, p.maxTp, COLORS.tp);
+      c.add(bars);
+    });
+
+    // controles (se muestran con el botón, encima de la lista)
+    const help = this.add.container(0, 0).setVisible(false);
+    const hg = this.add.graphics();
+    cardPanel(hg, px, py, pw, H - py - 16, { accent: THEME.cyan, alpha: 0.99 });
+    help.add(hg);
+    help.add(this.add.zone(px, py, pw, H - py - 16).setOrigin(0).setInteractive());
+    help.add(sectionTitle(this, px + 16, py + 24, 'Controles', THEME.cyan));
+    help.add(
+      label(
+        this,
+        px + 18,
+        py + 50,
+        'Con balón\n· Arrastra desde tu jugador: regate\n· Toca a un compañero: pase\n· Toca un hueco: pase al espacio\n· Toca la portería o el botón Tirar: tiro\n\nSin balón\n· Arrastra a cualquiera de los tuyos\n· Toca el campo: manda allí al activo\n\nDuelos\n· Toca una supertécnica o una acción\n· Si no eliges a tiempo, se hace la primera',
+        18,
+        THEME.text,
+        { lineSpacing: 5, wordWrap: { width: pw - 36 } },
+      ),
+    );
+    c.add(help);
+  }
+
   hidePause(): void {
     this.overlay?.destroy();
     this.overlay = null;
   }
 
   showResult(onRematch: () => void, onMenu: () => void, reward: MatchReward | null = null): void {
+    if (PORTRAIT) {
+      this.showResultPortrait(onRematch, onMenu, reward);
+      return;
+    }
     const [home, away] = this.match.teams;
     const [a, b] = this.match.score;
     const W = FIELD_VIEW.w;
@@ -954,6 +1265,108 @@ export class HudScene extends Phaser.Scene {
     if (reward) this.showReward(c, reward, W);
     c.add(new Button(this, W / 2 - 125, 620, 'Revancha', onRematch, { w: 230, h: 56, variant: 'primary', size: 20 }));
     c.add(new Button(this, W / 2 + 125, 620, 'Menú', onMenu, { w: 230, h: 56, variant: 'secondary', size: 20 }));
+  }
+
+  /** Final del partido en el móvil: a toda la pantalla, el marcador arriba, el veredicto, los premios y los botones abajo. */
+  private showResultPortrait(onRematch: () => void, onMenu: () => void, reward: MatchReward | null): void {
+    const [home, away] = this.match.teams;
+    const [a, b] = this.match.score;
+    const W = GAME_W;
+    const H = GAME_H;
+    const c = this.add.container(0, 0).setDepth(90);
+    c.add(this.add.rectangle(W / 2, H / 2, W, H, THEME.night, 0.94).setInteractive());
+    const g = this.add.graphics();
+    const won = a > b;
+    const lost = a < b;
+    glow(g, W / 2, 260, 320, won ? THEME.green : lost ? THEME.coral : THEME.yellow, 0.14);
+    const cx = 20;
+    const cy = 110;
+    const cw = W - 40;
+    const ch = 290;
+    cardPanel(g, cx, cy, cw, ch, { plain: true, alpha: 0.96, radius: 20 });
+    g.fillStyle(dim(home.colors.shirt, 0.6)).fillPoints([pt(cx + 16, cy + 16), pt(cx + cw / 2 + 16, cy + 16), pt(cx + cw / 2 - 16, cy + ch - 16), pt(cx + 16, cy + ch - 16)], true);
+    g.fillStyle(dim(away.colors.shirt, 0.6)).fillPoints([pt(cx + cw / 2 + 16, cy + 16), pt(cx + cw - 16, cy + 16), pt(cx + cw - 16, cy + ch - 16), pt(cx + cw / 2 - 16, cy + ch - 16)], true);
+    g.lineStyle(3, THEME.yellow).lineBetween(cx + cw / 2 + 16, cy + 16, cx + cw / 2 - 16, cy + ch - 16);
+    c.add(g);
+    c.add(fitWidth(display(this, W / 2, 60, 'FINAL DEL PARTIDO', 46).setOrigin(0.5), W - 40, 28));
+    const ex = 128;
+    c.add(this.add.image(W / 2 - ex, cy + 74, texKey.emblem(home.id)).setDisplaySize(96, 96));
+    c.add(this.add.image(W / 2 + ex, cy + 74, texKey.emblem(away.id)).setDisplaySize(96, 96));
+    c.add(display(this, W / 2, cy + 82, `${a}-${b}`, 76, '#ffffff').setOrigin(0.5));
+    const wrap = { align: 'center', wordWrap: { width: 200 }, fontStyle: 'italic bold', strokeThickness: 0 };
+    c.add(fitWidth(label(this, W / 2 - ex, cy + 134, home.name, 18, THEME.text, wrap).setOrigin(0.5, 0), 210, 12));
+    c.add(fitWidth(label(this, W / 2 + ex, cy + 134, away.name, 18, THEME.text, wrap).setOrigin(0.5, 0), 210, 12));
+    const goals = this.match.goals;
+    for (const side of [0, 1] as const) {
+      const list = goals.filter((gl) => gl.side === side).map((gl) => `${gl.name} ${gl.minute}'`);
+      if (list.length) c.add(label(this, W / 2 + (side ? ex : -ex), cy + 190, list.join('\n'), 13, THEME.muted, { align: 'center', wordWrap: { width: 200 } }).setOrigin(0.5, 0));
+    }
+    const verdict = won ? '¡VICTORIA!' : lost ? 'DERROTA...' : 'EMPATE';
+    c.add(display(this, W / 2, 452, verdict, 60, won ? '#7dff9a' : lost ? '#ff8a8a' : '#ffffff', { strokeThickness: 8 }).setOrigin(0.5));
+    if (reward) this.showRewardPortrait(c, reward, W);
+    const bw = (W - 52) / 2;
+    c.add(new Button(this, 20 + bw / 2, H - 60, 'Revancha', onRematch, { w: bw, h: 72, variant: 'primary', size: 24 }));
+    c.add(new Button(this, W - 20 - bw / 2, H - 60, 'Menú', onMenu, { w: bw, h: 72, variant: 'secondary', size: 24 }));
+  }
+
+  /** Premios en el móvil: las monedas (y el cuaderno) en filas, y debajo el escudo y la formación nuevos lado a lado. */
+  private showRewardPortrait(c: Phaser.GameObjects.Container, reward: MatchReward, W: number): void {
+    const lines = [reward.rankS ? `+${reward.coins} monedas (${RANK_S.coins} del rango S)` : `+${reward.coins} monedas para Mi club`];
+    if (reward.notebook) lines.push(`Cuaderno de regalo: ${reward.notebook.name}`);
+    lines.forEach((ln, i) => {
+      const ch = chip(this, 0, 512 + i * 38, ln, i === 0 ? THEME.yellow : 0x7a5aa8, { size: 17, h: 32, padX: 14 });
+      ch.setX(W / 2 - ch.width / 2);
+      c.add(ch);
+    });
+    if (reward.rankS) {
+      const stamp = this.add.container(W - 70, 444).setAngle(-12);
+      const g = this.add.graphics();
+      g.fillStyle(0x000000, 0.35).fillCircle(4, 6, 42);
+      g.fillStyle(THEME.yellow).fillCircle(0, 0, 42);
+      g.lineStyle(4, 0xffffff).strokeCircle(0, 0, 34);
+      stamp.add(g);
+      stamp.add(display(this, 0, -4, 'S', 48, '#0b1a2e', { strokeThickness: 0 }).setOrigin(0.5));
+      stamp.add(label(this, 0, 26, 'RANGO', 10, '#0b1a2e', { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5));
+      c.add(stamp);
+      stamp.setScale(2.4).setAlpha(0);
+      this.tweens.add({ targets: stamp, scale: 1, alpha: 1, duration: 420, ease: 'Back.Out', delay: 300 });
+    }
+    const top = 512 + lines.length * 38 + 30;
+    const crest = reward.crest ? crestById(reward.crest) : undefined;
+    const form = reward.formation ? getFormation(reward.formation) : undefined;
+    const slots = [crest, form].filter(Boolean).length;
+    const colX = (i: number) => (slots === 2 ? W / 2 + (i === 0 ? -130 : 130) : W / 2);
+    if (crest) {
+      const box = this.add.container(colX(0), top + 90);
+      c.add(box);
+      box.add(label(this, 0, -84, '¡ESCUDO NUEVO!', 16, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5));
+      box.add(fitWidth(label(this, 0, 70, crest.name, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), 230, 10));
+      loadCrests(this, [crest.id], () => {
+        if (!box.active || !this.textures.exists(crestKey(crest.id))) return;
+        const img = this.add.image(0, -6, crestKey(crest.id)).setDisplaySize(110, 110);
+        box.add(img);
+        img.setScale(0).setAngle(-30);
+        this.tweens.add({ targets: img, scale: 110 / img.width, angle: 0, duration: 500, ease: 'Back.Out' });
+      });
+    }
+    if (form) {
+      const box = this.add.container(colX(crest ? 1 : 0), top + 90);
+      c.add(box);
+      box.add(label(this, 0, -84, '¡FORMACIÓN NUEVA!', 16, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5));
+      const pw = 80;
+      const ph = 110;
+      const g = this.add.graphics();
+      g.fillStyle(0x2f7d3e, 1).fillRoundedRect(-pw / 2, -ph / 2 - 6, pw, ph, 6);
+      g.lineStyle(1, 0xffffff, 0.4).strokeRoundedRect(-pw / 2, -ph / 2 - 6, pw, ph, 6).lineBetween(-pw / 2 + 3, -6, pw / 2 - 3, -6);
+      for (const sl of form.slots) {
+        const col = sl.pos === 'GK' ? 0xffffff : sl.pos === 'DF' ? 0x4f9bff : sl.pos === 'MF' ? 0xffb02e : 0xff5050;
+        g.fillStyle(col, 1).fillCircle(-pw / 2 + 6 + sl.x * (pw - 12), -ph / 2 - 6 + 6 + sl.y * (ph - 12), 4);
+      }
+      box.add(g);
+      box.add(fitWidth(label(this, 0, 70, `${form.name} · ${form.layout}`, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), 230, 10));
+      box.setScale(0.2).setAlpha(0);
+      this.tweens.add({ targets: box, scale: 1, alpha: 1, duration: 450, ease: 'Back.Out', delay: 450 });
+    }
   }
 
   /** Premios del partido: monedas, el escudo nuevo (si se ha ganado) y el rango S (5-0). */

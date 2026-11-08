@@ -42,7 +42,9 @@
    },
    "moves": [
     "star-reflection",
-    "god-hand-v"
+    "god-hand-v",
+    "atlantis-wall",
+    "nobori-ryuu"
    ],
    "look": {
     "hair": "#1d1410",
@@ -73,7 +75,8 @@
    "moves": [
     "crazy-sunlight",
     "fuujin-no-mai",
-    "acrobat-keep"
+    "acrobat-keep",
+    "atlantis-wall"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -103,7 +106,9 @@
    },
    "moves": [
     "crazy-sunlight",
-    "thief-eye"
+    "thief-eye",
+    "trick-ball",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -134,7 +139,8 @@
    "moves": [
     "crazy-sunlight",
     "ice-ground",
-    "round-spark"
+    "round-spark",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -165,7 +171,8 @@
    "moves": [
     "melody-wave",
     "zeroyon",
-    "rocket-head"
+    "rocket-head",
+    "big-scissors"
    ],
    "look": {
     "hair": "#1d1410",
@@ -196,7 +203,8 @@
    "moves": [
     "ryuusei-blade",
     "endless-summer",
-    "fire-tornado"
+    "fire-tornado",
+    "britannia-cross"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -227,7 +235,8 @@
    "moves": [
     "melody-wave",
     "fortissimo",
-    "deep-mist"
+    "deep-mist",
+    "trick-ball"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -258,7 +267,8 @@
    "moves": [
     "melody-wave",
     "presto-turn",
-    "the-mist"
+    "the-mist",
+    "sidewinder"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -289,7 +299,8 @@
    "moves": [
     "ryuusei-blade",
     "presto-turn",
-    "panther-blizzard"
+    "panther-blizzard",
+    "sargasso"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -320,7 +331,8 @@
    "moves": [
     "ryuusei-blade",
     "presto-turn",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "atomic-flare"
    ],
    "look": {
     "hair": "#c0302a",
@@ -352,7 +364,8 @@
    "moves": [
     "sidewinder",
     "boomerang-feint",
-    "denrai-houtou"
+    "denrai-houtou",
+    "the-wall"
    ],
    "look": {
     "hair": "#1d1410",
@@ -414,7 +427,9 @@
    },
    "moves": [
     "god-hand",
-    "star-reflection"
+    "star-reflection",
+    "the-mist",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -445,7 +460,8 @@
    "moves": [
     "koutei-penguin-7",
     "zeroyon",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "olympus-harmony"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -475,7 +491,9 @@
    },
    "moves": [
     "sargasso",
-    "senpuujin"
+    "senpuujin",
+    "white-blade",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -506,7 +524,8 @@
    "moves": [
     "bound-flame",
     "burning-summer",
-    "dash-train"
+    "dash-train",
+    "viva-banri-no-choujou"
    ],
    "look": {
     "hair": "#d9822b",

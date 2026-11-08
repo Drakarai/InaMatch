@@ -42,7 +42,8 @@
    "moves": [
     "gekirin-dunk",
     "wild-dunk",
-    "rising-slash"
+    "rising-slash",
+    "the-tower"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -105,7 +106,8 @@
    "moves": [
     "boomerang-feint",
     "winning-logic",
-    "trace-press"
+    "trace-press",
+    "gold-fever"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -167,7 +169,9 @@
    },
    "moves": [
     "footwork-draw",
-    "dead-straight"
+    "dead-straight",
+    "rolling-cutter",
+    "magma-carpet"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -198,7 +202,8 @@
    "moves": [
     "oraora-menchi",
     "iron-wall",
-    "kyoubou-head"
+    "kyoubou-head",
+    "endless-summer"
    ],
    "look": {
     "hair": "#1d1410",
@@ -259,11 +264,9 @@
     "guts": 62
    },
    "moves": [
-    "mach-wind",
     "kazaana-drive",
     "z-slash",
     "arashi-tatsumaki-hurricane",
-    "soyokaze-step",
     "wonder-trap"
    ],
    "look": {
@@ -297,8 +300,7 @@
     "olympus-harmony",
     "einsatz",
     "diffuse-chord",
-    "fortissimo",
-    "presto-turn"
+    "fortissimo"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -330,9 +332,7 @@
     "bicycle-sword",
     "devil-burst",
     "fire-tornado-dd",
-    "the-earth",
-    "death-sword",
-    "death-drop"
+    "the-earth"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -363,7 +363,8 @@
    "moves": [
     "dark-tornado",
     "parkour-attack",
-    "black-dawn"
+    "black-dawn",
+    "air-ride"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -394,7 +395,8 @@
    "moves": [
     "oraora-menchi",
     "kyoubou-head",
-    "endless-summer"
+    "endless-summer",
+    "iron-wall"
    ],
    "look": {
     "hair": "#1d1410",
@@ -426,9 +428,7 @@
     "bicycle-sword",
     "devil-burst",
     "fire-tornado-dd",
-    "great-blaster",
-    "death-sword",
-    "death-drop"
+    "great-blaster"
    ],
    "look": {
     "hair": "#c0302a",
@@ -459,7 +459,8 @@
    "moves": [
     "parkour-attack",
     "air-ride",
-    "heaven-drive"
+    "heaven-drive",
+    "dark-tornado"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -490,7 +491,8 @@
    "moves": [
     "kabuki-break",
     "storm-zone",
-    "great-max-na-ore"
+    "great-max-na-ore",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#c0302a",
@@ -519,7 +521,6 @@
     "guts": 53
    },
    "moves": [
-    "burning-catch",
     "buttobi-punch",
     "mugen-the-hand",
     "ginga-rocket",

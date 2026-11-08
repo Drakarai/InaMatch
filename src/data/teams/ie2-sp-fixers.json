@@ -235,7 +235,8 @@
    "moves": [
     "magic",
     "patriot-shoot",
-    "aikidou"
+    "aikidou",
+    "spinning-cut"
    ],
    "look": {
     "hair": "#d9822b",
@@ -266,7 +267,8 @@
    "moves": [
     "aikidou",
     "super-scan-of",
-    "revolution-v"
+    "revolution-v",
+    "cyclone"
    ],
    "look": {
     "hair": "#c9ccd6",

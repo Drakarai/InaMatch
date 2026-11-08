@@ -52,7 +52,8 @@
    "moves": [
     "capoeira-snatch",
     "bakuretsu-punch",
-    "power-charge"
+    "power-charge",
+    "mogura-shuffle"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -116,7 +117,8 @@
    "moves": [
     "kage-nui",
     "toumei-feint",
-    "double-cyclone"
+    "double-cyclone",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#1d1410",
@@ -147,7 +149,8 @@
    "moves": [
     "heavy-baby",
     "reppuu-dash",
-    "liar-shot"
+    "liar-shot",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -241,7 +244,9 @@
    },
    "moves": [
     "gaia-break",
-    "air-ride"
+    "air-ride",
+    "angel-ball",
+    "go-to-heaven"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -336,7 +341,8 @@
    "moves": [
     "double-jaw",
     "air-ride",
-    "dragon-crash"
+    "dragon-crash",
+    "demon-cut"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -399,7 +405,8 @@
    "moves": [
     "liar-shot",
     "hellfire",
-    "reppuu-dash"
+    "reppuu-dash",
+    "twin-boost"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -462,7 +469,8 @@
    "moves": [
     "maboroshi-dribble",
     "rainbow-loop",
-    "flame-dance"
+    "flame-dance",
+    "zigzag-flame"
    ],
    "look": {
     "hair": "#6b3e1f",

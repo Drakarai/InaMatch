@@ -85,7 +85,8 @@
    "moves": [
     "mirage-shoot",
     "scissors-bomb",
-    "desert-storm"
+    "desert-storm",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -116,7 +117,8 @@
    "moves": [
     "sneaking-raid",
     "stone-prison",
-    "koutei-penguin-x"
+    "koutei-penguin-x",
+    "judge-through-2"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -147,7 +149,8 @@
    "moves": [
     "heavy-baby",
     "reppuu-dash",
-    "liar-shot"
+    "liar-shot",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -178,7 +181,8 @@
    "moves": [
     "zigzag-flame",
     "iron-wall",
-    "ignite-steal"
+    "ignite-steal",
+    "liar-shot"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -209,7 +213,8 @@
    "moves": [
     "kage-nui",
     "toumei-feint",
-    "double-cyclone"
+    "double-cyclone",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#1d1410",
@@ -240,7 +245,8 @@
    "moves": [
     "naraku-otoshi",
     "dragon-cannon",
-    "dragon-ground"
+    "dragon-ground",
+    "jibashiri-kaen"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -271,7 +277,8 @@
    "moves": [
     "megalodon",
     "tsunami-boost",
-    "mirage-shoot"
+    "mirage-shoot",
+    "oouchiwa"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -302,7 +309,8 @@
    "moves": [
     "gran-fenrir",
     "the-ikaros",
-    "tri-pegasus"
+    "tri-pegasus",
+    "unicorn-boost"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -333,7 +341,8 @@
    "moves": [
     "strike-samba",
     "super-el-stico",
-    "spinning-shoot"
+    "spinning-shoot",
+    "sabaki-no-tettsui"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -364,7 +373,8 @@
    "moves": [
     "odin-sword",
     "hitori-one-two",
-    "divine-arrow"
+    "divine-arrow",
+    "bunshin-defense"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -395,7 +405,8 @@
    "moves": [
     "excalibur",
     "paladin-strike",
-    "ultra-moon"
+    "ultra-moon",
+    "demon-cut"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -426,7 +437,8 @@
    "moves": [
     "slingshot",
     "bunshin-feint",
-    "u-boat"
+    "u-boat",
+    "senpuujin"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -457,7 +469,8 @@
    "moves": [
     "rose-splash",
     "photon-flash",
-    "tri-pegasus"
+    "tri-pegasus",
+    "scissors-bomb"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -488,7 +501,8 @@
    "moves": [
     "god-knows",
     "heaven-s-time",
-    "chaos-break"
+    "chaos-break",
+    "god-knows-impact"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -519,7 +533,8 @@
    "moves": [
     "colosseo-guard",
     "earthquake",
-    "gigant-wall"
+    "gigant-wall",
+    "big-card"
    ],
    "look": {
     "hair": "#4c8a3c",

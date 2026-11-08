@@ -47,7 +47,8 @@
    "moves": [
     "big-spider",
     "killer-blade",
-    "meteor-shower"
+    "meteor-shower",
+    "power-charge"
    ],
    "look": {
     "hair": "#c0302a",
@@ -110,7 +111,8 @@
    "moves": [
     "judge-through-3",
     "demon-cut",
-    "heaven-s-time"
+    "heaven-s-time",
+    "ignite-steal"
    ],
    "look": {
     "hair": "#c0302a",
@@ -142,7 +144,8 @@
    "moves": [
     "judge-through-2",
     "roadroller-tackle",
-    "big-spider"
+    "big-spider",
+    "harvest"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -269,7 +272,8 @@
    "moves": [
     "gravitation",
     "judge-through-2",
-    "jikuu-no-kabe"
+    "jikuu-no-kabe",
+    "dual-pass"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -332,7 +336,8 @@
    "moves": [
     "dokugiri-no-jutsu",
     "dark-tornado",
-    "heavy-baby"
+    "heavy-baby",
+    "back-tornado"
    ],
    "look": {
     "hair": "#c0302a",

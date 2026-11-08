@@ -43,7 +43,8 @@
    "moves": [
     "rapid-whip",
     "counterdrive-gk",
-    "shoot-break"
+    "shoot-break",
+    "the-wall"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -74,7 +75,8 @@
    "moves": [
     "elephant-press",
     "dash-train",
-    "viva-banri-no-choujou"
+    "viva-banri-no-choujou",
+    "boomerang-feint"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -105,7 +107,8 @@
    "moves": [
     "sargasso",
     "presto-turn",
-    "dimension-cut"
+    "dimension-cut",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -136,7 +139,8 @@
    "moves": [
     "mad-juggler",
     "killer-whale",
-    "round-spark"
+    "round-spark",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -166,7 +170,9 @@
    },
    "moves": [
     "mad-juggler",
-    "endless-summer"
+    "endless-summer",
+    "rocket-head",
+    "big-scissors"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -229,7 +235,8 @@
    "moves": [
     "mad-juggler",
     "kattobi-defense",
-    "sky-walk"
+    "sky-walk",
+    "denrai-houtou"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -260,7 +267,8 @@
    "moves": [
     "head-bazooka",
     "mad-juggler",
-    "burning-summer"
+    "burning-summer",
+    "spiral-draw"
    ],
    "look": {
     "hair": "#c0302a",
@@ -291,7 +299,8 @@
    "moves": [
     "head-bazooka",
     "mad-juggler",
-    "triangle-zz"
+    "triangle-zz",
+    "the-mist"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -323,7 +332,8 @@
    "moves": [
     "head-bazooka",
     "mad-juggler",
-    "trick-ball"
+    "trick-ball",
+    "sidewinder"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -354,7 +364,8 @@
    "moves": [
     "head-bazooka",
     "burning-summer",
-    "ryuusei-blade"
+    "ryuusei-blade",
+    "big-scissors"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -385,7 +396,8 @@
    "moves": [
     "rapid-whip",
     "burning-catch",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "spiral-draw"
    ],
    "look": {
     "hair": "#d9822b",
@@ -415,7 +427,9 @@
    },
    "moves": [
     "thief-eye",
-    "elephant-press"
+    "elephant-press",
+    "claymore",
+    "sidewinder"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -446,7 +460,8 @@
    "moves": [
     "thief-eye",
     "spiral-draw",
-    "thousand-arrow"
+    "thousand-arrow",
+    "presto-turn"
    ],
    "look": {
     "hair": "#d9822b",
@@ -477,7 +492,8 @@
    "moves": [
     "mad-juggler",
     "viva-banri-no-choujou",
-    "dimension-cut"
+    "dimension-cut",
+    "claymore"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -508,7 +524,8 @@
    "moves": [
     "head-bazooka",
     "mad-juggler",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "rocket-head"
    ],
    "look": {
     "hair": "#5a3a7a",

@@ -138,7 +138,8 @@
    "moves": [
     "blackmail",
     "vanishing-cut",
-    "harvest"
+    "harvest",
+    "divine-arrow"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -330,7 +331,8 @@
    "moves": [
     "blackmail",
     "maboroshi-shot",
-    "killer-fields"
+    "killer-fields",
+    "divine-arrow"
    ],
    "look": {
     "hair": "#c0302a",

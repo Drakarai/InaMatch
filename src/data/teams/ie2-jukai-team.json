@@ -37,7 +37,9 @@
    },
    "moves": [
     "gigant-wall",
-    "wild-claw"
+    "wild-claw",
+    "gravitation",
+    "toumei-feint"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -67,7 +69,10 @@
     "guts": 79
    },
    "moves": [
-    "honoo-no-kazamidori"
+    "honoo-no-kazamidori",
+    "frozen-steal",
+    "double-cyclone",
+    "heaven-s-time"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -96,7 +101,10 @@
     "guts": 72
    },
    "moves": [
-    "the-wall"
+    "the-wall",
+    "ice-ground",
+    "ribbon-shower",
+    "back-tornado"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -126,7 +134,9 @@
    },
    "moves": [
     "cyclone",
-    "kumo-no-ito"
+    "kumo-no-ito",
+    "maboroshi-dribble",
+    "kung-fu-head"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -155,7 +165,10 @@
     "guts": 79
    },
    "moves": [
-    "sabaki-no-tettsui"
+    "sabaki-no-tettsui",
+    "volcano-cut",
+    "reppuu-dash",
+    "tsuutenkaku-shoot"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -184,7 +197,10 @@
     "guts": 69
    },
    "moves": [
-    "bunshin-shoot"
+    "bunshin-shoot",
+    "dual-strike",
+    "southern-crosscut",
+    "asteroid-belt"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -213,7 +229,10 @@
     "guts": 79
    },
    "moves": [
-    "tatsumaki-dokugiri"
+    "tatsumaki-dokugiri",
+    "meteor-shower",
+    "dokonjou-bat",
+    "flame-dance"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -243,7 +262,9 @@
    },
    "moves": [
     "dokugiri-no-jutsu",
-    "kumo-no-ito"
+    "kumo-no-ito",
+    "illusion-ball",
+    "hyakuretsu-shot"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -273,7 +294,9 @@
    },
    "moves": [
     "dragon-ground",
-    "gorimuchuu"
+    "gorimuchuu",
+    "prima-donna",
+    "gravitation"
    ],
    "look": {
     "hair": "#c0302a",
@@ -302,7 +325,10 @@
     "guts": 78
    },
    "moves": [
-    "shine-drive"
+    "shine-drive",
+    "dokonjou-bat",
+    "judge-through",
+    "flame-dance"
    ],
    "look": {
     "hair": "#d9822b",
@@ -331,7 +357,10 @@
     "guts": 69
    },
    "moves": [
-    "hawk-shot"
+    "hawk-shot",
+    "inazuma-otoshi",
+    "kamaitachi",
+    "cyclone"
    ],
    "look": {
     "hair": "#efe6c4",

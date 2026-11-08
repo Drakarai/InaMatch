@@ -140,7 +140,9 @@
    },
    "moves": [
     "overhead-penguin",
-    "perfect-penguin"
+    "perfect-penguin",
+    "devil-ball",
+    "fake-ball"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -266,7 +268,9 @@
    },
    "moves": [
     "the-explosion",
-    "zigzag-strike"
+    "zigzag-strike",
+    "devil-ball",
+    "fake-ball"
    ],
    "look": {
     "hair": "#1d1410",
@@ -360,7 +364,9 @@
    },
    "moves": [
     "inabikari-dash",
-    "shining-bird"
+    "shining-bird",
+    "bison-horn",
+    "red-hot-chili-meteor"
    ],
    "look": {
     "hair": "#1d1410",
@@ -454,7 +460,9 @@
    },
    "moves": [
     "blue-stardust",
-    "planet-break"
+    "planet-break",
+    "southern-crosscut",
+    "spiral-draw"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -484,7 +492,9 @@
    },
    "moves": [
     "king-s-lance",
-    "sky-walk"
+    "sky-walk",
+    "hellfire",
+    "shooting-star"
    ],
    "look": {
     "hair": "#d9822b",

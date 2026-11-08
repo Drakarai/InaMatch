@@ -44,7 +44,8 @@
    "moves": [
     "twist-reach",
     "star-reflection",
-    "capoeira-snatch"
+    "capoeira-snatch",
+    "good-smell"
    ],
    "look": {
     "hair": "#d9822b",
@@ -75,7 +76,8 @@
    "moves": [
     "rolling-cutter",
     "twist-reach",
-    "spinning-cut"
+    "spinning-cut",
+    "zeroyon"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -106,7 +108,8 @@
    "moves": [
     "rolling-cutter",
     "abisegeri",
-    "gungnir"
+    "gungnir",
+    "footwork-draw"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -137,7 +140,8 @@
    "moves": [
     "rolling-cutter",
     "silk-road",
-    "hunter-s-net"
+    "hunter-s-net",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#c0302a",
@@ -168,7 +172,8 @@
    "moves": [
     "rolling-cutter",
     "elephant-press",
-    "claymore"
+    "claymore",
+    "gold-fever"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -231,7 +236,8 @@
    "moves": [
     "silk-road",
     "rolling-cutter",
-    "gold-fever"
+    "gold-fever",
+    "dig-through"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -326,7 +332,8 @@
    "moves": [
     "gold-fever",
     "silk-road",
-    "disaster-break"
+    "disaster-break",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#5a3a7a",

@@ -299,7 +299,9 @@
    },
    "moves": [
     "diamond-ray",
-    "diamond-edge"
+    "diamond-edge",
+    "super-el-stico",
+    "ninin-sankyaku"
    ],
    "look": {
     "hair": "#5a3a7a",

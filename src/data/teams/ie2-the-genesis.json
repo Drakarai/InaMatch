@@ -134,7 +134,8 @@
    "moves": [
     "planet-shield",
     "super-armadillo",
-    "gravitation"
+    "gravitation",
+    "harvest"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -325,7 +326,8 @@
    "moves": [
     "astro-break",
     "ganymede-proton",
-    "supernova"
+    "supernova",
+    "sabaki-no-tettsui"
    ],
    "look": {
     "hair": "#e98aa8",

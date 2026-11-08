@@ -43,7 +43,8 @@
    "moves": [
     "storm-rider",
     "horn-train",
-    "counterstrike"
+    "counterstrike",
+    "dog-run"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -106,7 +107,8 @@
    "moves": [
     "mirage-shoot",
     "scissors-bomb",
-    "desert-storm"
+    "desert-storm",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -362,7 +364,8 @@
    "moves": [
     "mirage-shoot",
     "wild-claw",
-    "astro-break"
+    "astro-break",
+    "warp-drive"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -521,7 +524,8 @@
    "moves": [
     "mirage-shoot",
     "dynamite-shoot",
-    "heavy-baby"
+    "heavy-baby",
+    "mogura-shuffle"
    ],
    "look": {
     "hair": "#4c8a3c",

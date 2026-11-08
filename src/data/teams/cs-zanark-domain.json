@@ -45,7 +45,8 @@
    "moves": [
     "sand-cutter",
     "wormhole",
-    "kill-bridge"
+    "kill-bridge",
+    "sargasso"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -76,7 +77,8 @@
    "moves": [
     "screwdriver",
     "tiger-drive",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "magnet-draw"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -107,7 +109,8 @@
    "moves": [
     "screwdriver",
     "atomic-flare",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "spark-edge-dribble"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -138,7 +141,8 @@
    "moves": [
     "screwdriver",
     "the-wall",
-    "asterisk-rock"
+    "asterisk-rock",
+    "mogura-feint"
    ],
    "look": {
     "hair": "#d9822b",
@@ -168,7 +172,9 @@
    },
    "moves": [
     "bungee-thrust",
-    "zigzag-spark"
+    "zigzag-spark",
+    "screwdriver",
+    "spinning-cut"
    ],
    "look": {
     "hair": "#d9822b",
@@ -198,7 +204,9 @@
    },
    "moves": [
     "bungee-thrust",
-    "magnet-draw"
+    "magnet-draw",
+    "melody-wave",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -293,7 +301,8 @@
    "moves": [
     "ogre-blade",
     "shinkuuma",
-    "white-hurricane"
+    "white-hurricane",
+    "fuujin-no-mai"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -324,7 +333,8 @@
    "moves": [
     "disaster-break",
     "bungee-thrust",
-    "screwdriver"
+    "screwdriver",
+    "great-max-na-ore"
    ],
    "look": {
     "hair": "#c0302a",
@@ -388,7 +398,8 @@
    "moves": [
     "sand-cutter",
     "bat-attack",
-    "kage-tsukami"
+    "kage-tsukami",
+    "coil-upper"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -451,7 +462,8 @@
    "moves": [
     "bungee-thrust",
     "senpuujin",
-    "plasma-ball"
+    "plasma-ball",
+    "liquid-flow"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -482,7 +494,8 @@
    "moves": [
     "ogre-blade",
     "bound-flame",
-    "screwdriver"
+    "screwdriver",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -513,7 +526,8 @@
    "moves": [
     "ogre-blade",
     "bungee-thrust",
-    "maboroshi-shot"
+    "maboroshi-shot",
+    "magnet-draw"
    ],
    "look": {
     "hair": "#3a6fb5",

@@ -42,7 +42,8 @@
    "moves": [
     "capoeira-snatch",
     "bakuretsu-punch",
-    "power-charge"
+    "power-charge",
+    "mogura-shuffle"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -105,7 +106,8 @@
    "moves": [
     "rolling-slide",
     "heat-tackle",
-    "full-power-shield"
+    "full-power-shield",
+    "zigzag-flame"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -137,7 +139,8 @@
    "moves": [
     "heavy-baby",
     "reppuu-dash",
-    "liar-shot"
+    "liar-shot",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -296,7 +299,8 @@
    "moves": [
     "liar-shot",
     "lightning-accel",
-    "senpuujin"
+    "senpuujin",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -359,7 +363,8 @@
    "moves": [
     "liar-shot",
     "hellfire",
-    "reppuu-dash"
+    "reppuu-dash",
+    "twin-boost"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -454,7 +459,8 @@
    "moves": [
     "sneaking-raid",
     "rolling-slide",
-    "naraku-otoshi"
+    "naraku-otoshi",
+    "megalodon"
    ],
    "look": {
     "hair": "#4c8a3c",

@@ -231,7 +231,8 @@
    "moves": [
     "meteor-shower",
     "photon-flash",
-    "blade-attack"
+    "blade-attack",
+    "heat-tackle"
    ],
    "look": {
     "hair": "#efe6c4",

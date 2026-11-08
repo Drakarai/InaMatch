@@ -35,7 +35,8 @@
    "moves": [
     "power-shield",
     "full-power-shield",
-    "beast-fang"
+    "beast-fang",
+    "blade-attack"
    ],
    "look": {
     "hair": "#c0302a",
@@ -162,7 +163,8 @@
    "moves": [
     "judge-through",
     "hyakuretsu-shot",
-    "judge-through-2"
+    "judge-through-2",
+    "killer-slide"
    ],
    "look": {
     "hair": "#d9822b",
@@ -193,7 +195,8 @@
    "moves": [
     "judge-through",
     "koutei-penguin-2gou",
-    "koutei-penguin-1gou"
+    "koutei-penguin-1gou",
+    "killer-slide"
    ],
    "look": {
     "hair": "#c0302a",
@@ -352,7 +355,9 @@
    },
    "moves": [
     "hyakuretsu-shot",
-    "kamaitachi"
+    "kamaitachi",
+    "death-zone",
+    "killer-slide"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -383,7 +388,8 @@
    "moves": [
     "killer-slide",
     "bunshin-feint",
-    "death-zone"
+    "death-zone",
+    "freeze-shot"
    ],
    "look": {
     "hair": "#4c8a3c",

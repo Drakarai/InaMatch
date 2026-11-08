@@ -46,7 +46,8 @@
    "moves": [
     "volcano-head",
     "volcanic-fly",
-    "beam-kobushi"
+    "beam-kobushi",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -142,7 +143,8 @@
    "moves": [
     "magma-carpet",
     "volcanic-fly",
-    "tsubame-gaeshi"
+    "tsubame-gaeshi",
+    "gold-fever"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -173,7 +175,8 @@
    "moves": [
     "magma-carpet",
     "volcanic-fly",
-    "rolling-cutter"
+    "rolling-cutter",
+    "endless-summer"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -300,7 +303,8 @@
    "moves": [
     "kazangan",
     "rocket-head",
-    "death-drop"
+    "death-drop",
+    "magma-carpet"
    ],
    "look": {
     "hair": "#6b3e1f",

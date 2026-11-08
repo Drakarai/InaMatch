@@ -363,7 +363,9 @@
    },
    "moves": [
     "the-explosion",
-    "zigzag-strike"
+    "zigzag-strike",
+    "southern-crosscut",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#1d1410",

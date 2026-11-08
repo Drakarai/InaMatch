@@ -43,7 +43,8 @@
    "moves": [
     "high-voltage",
     "needle-hammer",
-    "electrap"
+    "electrap",
+    "kill-bridge"
    ],
    "look": {
     "hair": "#1d1410",
@@ -74,7 +75,8 @@
    "moves": [
     "demon-cut",
     "mad-express",
-    "volcano-cut"
+    "volcano-cut",
+    "judge-through-2"
    ],
    "look": {
     "hair": "#d9822b",
@@ -137,7 +139,8 @@
    "moves": [
     "power-charge",
     "volcano-cut",
-    "electrap"
+    "electrap",
+    "echo-ball"
    ],
    "look": {
     "hair": "#d9822b",
@@ -168,7 +171,8 @@
    "moves": [
     "volcano-cut",
     "power-charge",
-    "illusion-ball"
+    "illusion-ball",
+    "tkachev-bomber"
    ],
    "look": {
     "hair": "#c0302a",
@@ -231,7 +235,8 @@
    "moves": [
     "sigma-zone",
     "scissors-bomb",
-    "power-charge"
+    "power-charge",
+    "lightning-accel"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -323,7 +328,12 @@
     "stamina": 72,
     "guts": 65
    },
-   "moves": [],
+   "moves": [
+    "death-spear",
+    "death-break",
+    "claymore",
+    "demon-cut"
+   ],
    "look": {
     "hair": "#efe6c4",
     "skin": "#9a6a44"

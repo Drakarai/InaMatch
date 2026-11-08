@@ -38,7 +38,8 @@
    "moves": [
     "kaenhousha",
     "makiwari-chop",
-    "bunshin-block"
+    "bunshin-block",
+    "good-smell"
    ],
    "look": {
     "hair": "#c0302a",
@@ -326,7 +327,8 @@
    "moves": [
     "kung-fu-attack",
     "tatsumaki-senpuu",
-    "dual-strike"
+    "dual-strike",
+    "flame-dance"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -389,7 +391,8 @@
    "moves": [
     "dragon-cannon",
     "reppuu-dash",
-    "eagle-buster"
+    "eagle-buster",
+    "cyclone"
    ],
    "look": {
     "hair": "#1d1410",

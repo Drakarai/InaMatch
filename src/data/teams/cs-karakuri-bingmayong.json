@@ -45,7 +45,8 @@
    "moves": [
     "beam-kobushi",
     "blitz-bridge",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "gorimuchuu"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -77,7 +78,8 @@
    "moves": [
     "viva-banri-no-choujou",
     "dimension-cut",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "storm-zone"
    ],
    "look": {
     "hair": "#c0302a",
@@ -108,7 +110,8 @@
    "moves": [
     "blitz-bridge",
     "beam-kobushi",
-    "spiral-draw"
+    "spiral-draw",
+    "zeroyon"
    ],
    "look": {
     "hair": "#c0302a",
@@ -170,7 +173,9 @@
    },
    "moves": [
     "transmove",
-    "kattobi-defense"
+    "kattobi-defense",
+    "boomerang-feint",
+    "sidewinder"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -201,7 +206,8 @@
    "moves": [
     "transmove",
     "blitz-bridge",
-    "kattobi-defense"
+    "kattobi-defense",
+    "claymore"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -232,7 +238,8 @@
    "moves": [
     "transmove",
     "spiral-draw",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "plasma-ball"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -262,7 +269,9 @@
    },
    "moves": [
     "transmove",
-    "zigzag-spark"
+    "zigzag-spark",
+    "fortissimo",
+    "coil-upper"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -293,7 +302,8 @@
    "moves": [
     "transmove",
     "blitz-bridge",
-    "gear-drive"
+    "gear-drive",
+    "burning-summer"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -324,7 +334,8 @@
    "moves": [
     "transmove",
     "twin-mixer",
-    "spark-edge-dribble"
+    "spark-edge-dribble",
+    "love-arrow"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -387,7 +398,8 @@
    "moves": [
     "blitz-bridge",
     "burning-summer",
-    "deep-mist"
+    "deep-mist",
+    "dokonjou-bat"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -418,7 +430,8 @@
    "moves": [
     "gear-drive",
     "transmove",
-    "kiku-ichimonji"
+    "kiku-ichimonji",
+    "magical-flower"
    ],
    "look": {
     "hair": "#5a3a7a",

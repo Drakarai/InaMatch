@@ -44,7 +44,8 @@
    "moves": [
     "shining-hole",
     "excellent-breast",
-    "destiny-cloud"
+    "destiny-cloud",
+    "okehazama-wall"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -106,7 +107,9 @@
    },
    "moves": [
     "magical-flower",
-    "claymore"
+    "claymore",
+    "okehazama-wall",
+    "tiger-drive"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -201,7 +204,8 @@
    "moves": [
     "all-delete",
     "power-spike",
-    "power-shield"
+    "power-shield",
+    "zigzag-spark"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -264,7 +268,8 @@
    "moves": [
     "all-delete",
     "magical-flower",
-    "joker-rains"
+    "joker-rains",
+    "kuroshio-ride"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -327,7 +332,8 @@
    "moves": [
     "dimension-storm",
     "asterisk-rock",
-    "sunshine-storm"
+    "sunshine-storm",
+    "britannia-cross"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -359,7 +365,8 @@
    "moves": [
     "floral-despair",
     "magical-flower",
-    "magnet-draw"
+    "magnet-draw",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -390,7 +397,8 @@
    "moves": [
     "magical-flower",
     "floral-despair",
-    "air-bullet"
+    "air-bullet",
+    "chaos-meteor"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -421,7 +429,8 @@
    "moves": [
     "chaos-meteor",
     "floral-despair",
-    "air-bullet"
+    "air-bullet",
+    "magical-flower"
    ],
    "look": {
     "hair": "#8b5a2b",

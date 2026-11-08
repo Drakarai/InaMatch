@@ -331,7 +331,8 @@
    "moves": [
     "excalibur",
     "paladin-strike",
-    "ultra-moon"
+    "ultra-moon",
+    "demon-cut"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -491,7 +492,8 @@
    "moves": [
     "ultra-moon",
     "kage-nui",
-    "power-charge"
+    "power-charge",
+    "echo-ball"
    ],
    "look": {
     "hair": "#6b3e1f",

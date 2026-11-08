@@ -37,7 +37,9 @@
    },
    "moves": [
     "shoot-pocket",
-    "double-rocket"
+    "double-rocket",
+    "super-scan-df",
+    "rocket-kobushi"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -67,7 +69,9 @@
    },
    "moves": [
     "spinning-cut",
-    "triple-boost"
+    "triple-boost",
+    "cyclone",
+    "dash-accel"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -98,7 +102,8 @@
    "moves": [
     "kage-nui",
     "kagome-kagome",
-    "dual-strike"
+    "dual-strike",
+    "zanzou"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -128,7 +133,9 @@
    },
    "moves": [
     "dokonjou-bat",
-    "monkey-turn"
+    "monkey-turn",
+    "block-circus",
+    "tamanori-pierrot"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -158,7 +165,9 @@
    },
    "moves": [
     "dark-phoenix",
-    "bunshin-feint"
+    "bunshin-feint",
+    "honoo-no-kazamidori",
+    "bunshin-defense"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -189,7 +198,9 @@
    },
    "moves": [
     "double-grenade",
-    "judge-through-2"
+    "judge-through-2",
+    "gorimuchuu",
+    "fake-ball"
    ],
    "look": {
     "hair": "#1d1410",
@@ -219,7 +230,9 @@
    },
    "moves": [
     "revolution-v",
-    "mogura-shuffle"
+    "mogura-shuffle",
+    "zigzag-spark",
+    "cyclone"
    ],
    "look": {
     "hair": "#1d1410",
@@ -249,7 +262,9 @@
    },
    "moves": [
     "kung-fu-attack",
-    "shooting-star"
+    "shooting-star",
+    "tatsumaki-senpuu",
+    "bunshin-feint"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -279,7 +294,9 @@
    },
    "moves": [
     "revolution-v",
-    "dash-storm"
+    "dash-storm",
+    "illusion-ball",
+    "quick-draw"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -309,7 +326,9 @@
    },
    "moves": [
     "dragon-crash",
-    "wyvern-crash"
+    "wyvern-crash",
+    "nobori-ryuu",
+    "dragon-tornado"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -340,7 +359,8 @@
    "moves": [
     "dark-tornado",
     "death-zone",
-    "kage-nui"
+    "kage-nui",
+    "card-buster"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -368,7 +388,12 @@
     "stamina": 50,
     "guts": 71
    },
-   "moves": [],
+   "moves": [
+    "maboroshi-dribble",
+    "bunshin-feint",
+    "astro-break",
+    "kage-nui"
+   ],
    "look": {
     "hair": "#efe6c4",
     "skin": "#9a6a44"

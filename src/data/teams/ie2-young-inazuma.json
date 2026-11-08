@@ -38,7 +38,8 @@
    "moves": [
     "god-hand",
     "bakuretsu-punch",
-    "god-hand-triple"
+    "god-hand-triple",
+    "majin-the-hand"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -70,7 +71,8 @@
    "moves": [
     "cyclone",
     "double-cyclone",
-    "dual-storm"
+    "dual-storm",
+    "zigzag-spark"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -133,7 +135,8 @@
    "moves": [
     "dragon-crash",
     "the-wall",
-    "wyvern-crash"
+    "wyvern-crash",
+    "cyclone"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -356,7 +359,8 @@
    "moves": [
     "inazuma-1gou",
     "heat-tackle",
-    "dragon-ground"
+    "dragon-ground",
+    "the-wall"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -384,7 +388,12 @@
     "stamina": 58,
     "guts": 48
    },
-   "moves": [],
+   "moves": [
+    "goal-zurashi",
+    "dokonjou-catch",
+    "earthquake",
+    "mogura-feint"
+   ],
    "look": {
     "hair": "#4c8a3c",
     "skin": "#9a6a44"

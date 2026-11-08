@@ -39,7 +39,9 @@
    },
    "moves": [
     "kage-tsukami",
-    "serpent-fang"
+    "serpent-fang",
+    "the-wall",
+    "claymore"
    ],
    "look": {
     "hair": "#d9822b",
@@ -70,7 +72,8 @@
    "moves": [
     "dimension-cut",
     "deep-mist",
-    "illusion-ball"
+    "illusion-ball",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -101,7 +104,8 @@
    "moves": [
     "dimension-cut",
     "boomerang-feint",
-    "the-wall"
+    "the-wall",
+    "rocket-head"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -132,7 +136,8 @@
    "moves": [
     "dimension-cut",
     "fuujin-no-mai",
-    "trick-ball"
+    "trick-ball",
+    "atlantis-wall"
    ],
    "look": {
     "hair": "#c0302a",
@@ -163,7 +168,8 @@
    "moves": [
     "dimension-cut",
     "sidewinder",
-    "trick-ball"
+    "trick-ball",
+    "elephant-press"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -226,7 +232,8 @@
    "moves": [
     "trick-ball",
     "dimension-cut",
-    "thousand-arrow"
+    "thousand-arrow",
+    "white-blade"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -257,7 +264,8 @@
    "moves": [
     "trick-ball",
     "the-mist",
-    "white-blade"
+    "white-blade",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -288,7 +296,8 @@
    "moves": [
     "trick-ball",
     "rocket-head",
-    "ryuusei-blade"
+    "ryuusei-blade",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -415,7 +424,9 @@
    },
    "moves": [
     "bat-attack",
-    "kage-tsukami"
+    "kage-tsukami",
+    "ice-ground",
+    "zeroyon"
    ],
    "look": {
     "hair": "#d9822b",
@@ -446,7 +457,8 @@
    "moves": [
     "boomerang-feint",
     "the-mist",
-    "trick-ball"
+    "trick-ball",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -477,7 +489,8 @@
    "moves": [
     "perfect-course",
     "presto-turn",
-    "spiral-draw"
+    "spiral-draw",
+    "boomerang-feint"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -508,7 +521,8 @@
    "moves": [
     "rocket-head",
     "naminori-pierrot",
-    "maboroshi-shot"
+    "maboroshi-shot",
+    "big-scissors"
    ],
    "look": {
     "hair": "#8b5a2b",

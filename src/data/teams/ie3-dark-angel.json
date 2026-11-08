@@ -50,7 +50,8 @@
    "moves": [
     "the-end",
     "judge-through-3",
-    "big-spider"
+    "big-spider",
+    "ignite-steal"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -113,7 +114,8 @@
    "moves": [
     "go-to-hell",
     "tatsumaki-dokugiri",
-    "gravitation"
+    "gravitation",
+    "reflect-buster"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -144,7 +146,8 @@
    "moves": [
     "go-to-heaven",
     "angel-ball",
-    "illusion-ball"
+    "illusion-ball",
+    "shooting-star"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -207,7 +210,8 @@
    "moves": [
     "devil-ball",
     "demon-cut",
-    "judge-through-2"
+    "judge-through-2",
+    "god-knows"
    ],
    "look": {
     "hair": "#efe6c4",

@@ -43,7 +43,8 @@
    "moves": [
     "abare-guruma",
     "buttobi-punch",
-    "kage-tsukami"
+    "kage-tsukami",
+    "the-wall"
    ],
    "look": {
     "hair": "#d9822b",
@@ -106,7 +107,8 @@
    "moves": [
     "okehazama-wall",
     "mogura-feint",
-    "gear-drive"
+    "gear-drive",
+    "the-wall"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -169,7 +171,8 @@
    "moves": [
     "tsubame-gaeshi",
     "the-mist",
-    "ichiyajou"
+    "ichiyajou",
+    "claymore"
    ],
    "look": {
     "hair": "#c0302a",
@@ -231,7 +234,9 @@
    },
    "moves": [
     "tsubame-gaeshi",
-    "setsuna-boost"
+    "setsuna-boost",
+    "olympus-harmony",
+    "dimension-cut"
    ],
    "look": {
     "hair": "#c0302a",
@@ -262,7 +267,8 @@
    "moves": [
     "tsubame-gaeshi",
     "dash-train",
-    "burning-summer"
+    "burning-summer",
+    "sidewinder"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -358,7 +364,8 @@
    "moves": [
     "hinawa-bullet",
     "denrai-houtou",
-    "kiku-ichimonji"
+    "kiku-ichimonji",
+    "storm-zone"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -389,7 +396,8 @@
    "moves": [
     "abare-guruma",
     "gorimuchuu",
-    "white-hurricane"
+    "white-hurricane",
+    "gyro-saving"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -420,7 +428,8 @@
    "moves": [
     "tsubame-gaeshi",
     "ichiyajou",
-    "okehazama-wall"
+    "okehazama-wall",
+    "rocket-head"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -451,7 +460,8 @@
    "moves": [
     "shippuu-dash",
     "senpuujin",
-    "shinkuuma"
+    "shinkuuma",
+    "liquid-flow"
    ],
    "look": {
     "hair": "#c0302a",
@@ -482,7 +492,8 @@
    "moves": [
     "hinawa-bullet",
     "gorimuchuu",
-    "tsubame-gaeshi"
+    "tsubame-gaeshi",
+    "rocket-head"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -513,7 +524,8 @@
    "moves": [
     "hinawa-bullet",
     "shippuu-dash",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "plasma-ball"
    ],
    "look": {
     "hair": "#4c8a3c",

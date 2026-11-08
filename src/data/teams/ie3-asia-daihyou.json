@@ -52,7 +52,8 @@
    "moves": [
     "storm-rider",
     "horn-train",
-    "counterstrike"
+    "counterstrike",
+    "dog-run"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -83,7 +84,8 @@
    "moves": [
     "whale-guard",
     "kangaroo-kick",
-    "barbarian-no-tate"
+    "barbarian-no-tate",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -146,7 +148,8 @@
    "moves": [
     "mirage-shoot",
     "scissors-bomb",
-    "desert-storm"
+    "desert-storm",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -305,7 +308,8 @@
    "moves": [
     "megalodon",
     "tsunami-boost",
-    "mirage-shoot"
+    "mirage-shoot",
+    "oouchiwa"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -368,7 +372,8 @@
    "moves": [
     "megalodon",
     "moonsault",
-    "suisei-shoot"
+    "suisei-shoot",
+    "kumo-no-ito"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -399,7 +404,8 @@
    "moves": [
     "god-knows",
     "heaven-s-time",
-    "chaos-break"
+    "chaos-break",
+    "god-knows-impact"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -431,7 +437,8 @@
    "moves": [
     "naraku-otoshi",
     "dragon-cannon",
-    "dragon-ground"
+    "dragon-ground",
+    "jibashiri-kaen"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -462,7 +469,8 @@
    "moves": [
     "great-barrier-reef",
     "tsunami-wall",
-    "kangaroo-kick"
+    "kangaroo-kick",
+    "desert-storm"
    ],
    "look": {
     "hair": "#d9822b",
@@ -493,7 +501,8 @@
    "moves": [
     "flame-veil",
     "atomic-flare",
-    "fire-blizzard-fire"
+    "fire-blizzard-fire",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -524,7 +533,8 @@
    "moves": [
     "water-veil",
     "northern-impact",
-    "fire-blizzard"
+    "fire-blizzard",
+    "vanishing-cut"
    ],
    "look": {
     "hair": "#6b3e1f",

@@ -43,7 +43,8 @@
    "moves": [
     "great-barrier-reef",
     "tsunami-wall",
-    "kangaroo-kick"
+    "kangaroo-kick",
+    "desert-storm"
    ],
    "look": {
     "hair": "#d9822b",
@@ -170,7 +171,8 @@
    "moves": [
     "whale-guard",
     "kangaroo-kick",
-    "barbarian-no-tate"
+    "barbarian-no-tate",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -233,7 +235,8 @@
    "moves": [
     "kangaroo-kick",
     "kumo-no-ito",
-    "tsunami-boost"
+    "tsunami-boost",
+    "naraku-otoshi"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -296,7 +299,8 @@
    "moves": [
     "megalodon",
     "tsunami-boost",
-    "mirage-shoot"
+    "mirage-shoot",
+    "oouchiwa"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -328,7 +332,8 @@
    "moves": [
     "megalodon",
     "moonsault",
-    "suisei-shoot"
+    "suisei-shoot",
+    "kumo-no-ito"
    ],
    "look": {
     "hair": "#efe6c4",

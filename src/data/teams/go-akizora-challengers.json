@@ -41,7 +41,8 @@
    "moves": [
     "rapid-whip",
     "elephant-press",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "boomerang-feint"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -72,7 +73,8 @@
    "moves": [
     "senpuujin",
     "the-mist",
-    "trick-ball"
+    "trick-ball",
+    "kung-fu-head"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -103,7 +105,9 @@
    },
    "moves": [
     "twin-mixer",
-    "trick-ball"
+    "trick-ball",
+    "big-scissors",
+    "rocket-head"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -133,7 +137,9 @@
    },
    "moves": [
     "denrai-houtou",
-    "dimension-cut"
+    "dimension-cut",
+    "atlantis-wall",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -164,7 +170,8 @@
    "moves": [
     "the-mist",
     "hunter-s-net",
-    "sky-walk"
+    "sky-walk",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -194,7 +201,9 @@
    },
    "moves": [
     "spiral-draw",
-    "illusion-ball"
+    "illusion-ball",
+    "zeroyon",
+    "flying-fish"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -225,7 +234,8 @@
    "moves": [
     "fuujin-no-mai",
     "sonic-shot",
-    "senpuujin"
+    "senpuujin",
+    "white-blade"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -288,7 +298,8 @@
    "moves": [
     "mad-juggler",
     "dash-train",
-    "twin-mixer"
+    "twin-mixer",
+    "burning-summer"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -319,7 +330,8 @@
    "moves": [
     "koutei-penguin-2gou",
     "elephant-press",
-    "melody-wave"
+    "melody-wave",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -350,7 +362,8 @@
    "moves": [
     "illusion-ball",
     "maboroshi-shot",
-    "dimension-cut"
+    "dimension-cut",
+    "dark-tornado"
    ],
    "look": {
     "hair": "#3a6fb5",

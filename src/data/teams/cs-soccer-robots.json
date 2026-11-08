@@ -38,7 +38,8 @@
    "moves": [
     "beam-kobushi",
     "buttobi-punch",
-    "star-reflection"
+    "star-reflection",
+    "the-wall"
    ],
    "look": {
     "hair": "#1d1410",
@@ -70,7 +71,8 @@
    "moves": [
     "blitz-bridge",
     "dash-train",
-    "boomerang-feint"
+    "boomerang-feint",
+    "rocket-head"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -101,7 +103,8 @@
    "moves": [
     "blitz-bridge",
     "transmove",
-    "magnet-draw"
+    "magnet-draw",
+    "perfect-course"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -132,7 +135,8 @@
    "moves": [
     "blitz-bridge",
     "dash-train",
-    "zeroyon"
+    "zeroyon",
+    "sparkle-wave"
    ],
    "look": {
     "hair": "#1d1410",
@@ -163,7 +167,8 @@
    "moves": [
     "gear-drive",
     "dash-train",
-    "rocket-head"
+    "rocket-head",
+    "burning-summer"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -194,7 +199,8 @@
    "moves": [
     "blitz-bridge",
     "transmove",
-    "the-stamp"
+    "the-stamp",
+    "sidewinder"
    ],
    "look": {
     "hair": "#d9822b",
@@ -225,7 +231,8 @@
    "moves": [
     "transmove",
     "future-eye",
-    "rocket-head"
+    "rocket-head",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -256,7 +263,8 @@
    "moves": [
     "transmove",
     "perfect-course",
-    "presto-turn"
+    "presto-turn",
+    "coil-upper"
    ],
    "look": {
     "hair": "#d9822b",
@@ -287,7 +295,8 @@
    "moves": [
     "transmove",
     "blitz-bridge",
-    "sonic-shot"
+    "sonic-shot",
+    "spinning-upper"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -318,7 +327,8 @@
    "moves": [
     "gear-drive",
     "future-eye",
-    "sparkle-wave"
+    "sparkle-wave",
+    "viva-banri-no-choujou"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -349,7 +359,8 @@
    "moves": [
     "gear-drive",
     "thief-eye",
-    "burning-summer"
+    "burning-summer",
+    "bouncer-rabbit"
    ],
    "look": {
     "hair": "#d9822b",

@@ -40,7 +40,9 @@
    },
    "moves": [
     "power-spike",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "thief-eye",
+    "future-eye"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -103,7 +105,8 @@
    "moves": [
     "sargasso",
     "twin-mixer",
-    "the-wall"
+    "the-wall",
+    "claymore"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -134,7 +137,8 @@
    "moves": [
     "sargasso",
     "koutei-penguin-7",
-    "presto-turn"
+    "presto-turn",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -164,7 +168,9 @@
    },
    "moves": [
     "britannia-cross",
-    "twin-mixer"
+    "twin-mixer",
+    "elephant-press",
+    "go-to-hell"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -227,7 +233,8 @@
    "moves": [
     "britannia-cross",
     "sargasso",
-    "endless-summer"
+    "endless-summer",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -258,7 +265,8 @@
    "moves": [
     "britannia-cross",
     "kattobi-defense",
-    "rocket-head"
+    "rocket-head",
+    "endless-summer"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -320,7 +328,9 @@
    },
    "moves": [
     "koutei-penguin-7",
-    "acrobat-keep"
+    "acrobat-keep",
+    "ballista-shot",
+    "elephant-press"
    ],
    "look": {
     "hair": "#1d1410",
@@ -352,7 +362,8 @@
    "moves": [
     "death-sword",
     "bound-flame",
-    "hunter-s-net"
+    "hunter-s-net",
+    "burning-summer"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -383,7 +394,8 @@
    "moves": [
     "britannia-cross",
     "perfect-course",
-    "dimension-cut"
+    "dimension-cut",
+    "trick-ball"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -413,7 +425,9 @@
    },
    "moves": [
     "rapid-whip",
-    "power-spike"
+    "power-spike",
+    "viva-banri-no-choujou",
+    "boomerang-feint"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -444,7 +458,8 @@
    "moves": [
     "koutei-penguin-7",
     "britannia-cross",
-    "eternal-blizzard"
+    "eternal-blizzard",
+    "senpuujin"
    ],
    "look": {
     "hair": "#1d1410",
@@ -474,7 +489,9 @@
    },
    "moves": [
     "the-mist",
-    "trick-ball"
+    "trick-ball",
+    "hunter-s-net",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#d9822b",
@@ -505,7 +522,8 @@
    "moves": [
     "britannia-cross",
     "zeroyon",
-    "sky-walk"
+    "sky-walk",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#5a3a7a",

@@ -333,7 +333,9 @@
    },
    "moves": [
     "hissatsu-kumagoroshi-baku",
-    "hissatsu-kumagoroshi-zan"
+    "hissatsu-kumagoroshi-zan",
+    "fire-tornado",
+    "judge-through"
    ],
    "look": {
     "hair": "#e98aa8",

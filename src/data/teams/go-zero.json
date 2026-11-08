@@ -40,7 +40,8 @@
    "moves": [
     "serpent-fang",
     "hunter-s-net",
-    "crystal-barrier"
+    "crystal-barrier",
+    "nobori-ryuu"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -71,7 +72,8 @@
    "moves": [
     "claymore",
     "atlantis-wall",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -102,7 +104,8 @@
    "moves": [
     "presto-turn",
     "crazy-sunlight",
-    "the-wall"
+    "the-wall",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#d9822b",
@@ -133,7 +136,8 @@
    "moves": [
     "zeroyon",
     "crazy-sunlight",
-    "air-bullet"
+    "air-bullet",
+    "death-drop"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -164,7 +168,8 @@
    "moves": [
     "dimension-cut",
     "claymore",
-    "vanishing-cut"
+    "vanishing-cut",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -195,7 +200,8 @@
    "moves": [
     "maboroshi-shot",
     "claymore",
-    "thousand-arrow"
+    "thousand-arrow",
+    "trick-ball"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -226,7 +232,8 @@
    "moves": [
     "maboroshi-shot",
     "melody-wave",
-    "ballista-shot"
+    "ballista-shot",
+    "nobori-ryuu"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -354,7 +361,8 @@
    "moves": [
     "fuurinkazan-destroyer",
     "fuujin-no-mai",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "koutei-penguin-7"
    ],
    "look": {
     "hair": "#d9822b",
@@ -417,7 +425,8 @@
    "moves": [
     "hunter-s-net",
     "deep-mist",
-    "shippuu-dash"
+    "shippuu-dash",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#1d1410",
@@ -448,7 +457,8 @@
    "moves": [
     "fuurinkazan-destroyer",
     "nobori-ryuu",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "sky-walk"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -479,7 +489,8 @@
    "moves": [
     "death-drop",
     "acrobat-keep",
-    "round-spark"
+    "round-spark",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -510,7 +521,8 @@
    "moves": [
     "dimension-cut",
     "future-eye",
-    "vanishing-cut"
+    "vanishing-cut",
+    "killer-slide"
    ],
    "look": {
     "hair": "#1d1410",

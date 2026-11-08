@@ -43,7 +43,8 @@
    "moves": [
     "killer-elbow",
     "rapid-whip",
-    "gigant-wall"
+    "gigant-wall",
+    "the-tower"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -106,7 +107,8 @@
    "moves": [
     "death-scythe-middle",
     "trick-ball",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -170,7 +172,8 @@
    "moves": [
     "death-scythe-low",
     "fuusen-gum",
-    "buttobi-jump"
+    "buttobi-jump",
+    "elephant-press"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -201,7 +204,8 @@
    "moves": [
     "death-scythe-low",
     "death-scythe-middle",
-    "bound-flame"
+    "bound-flame",
+    "bungee-thrust"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -232,7 +236,8 @@
    "moves": [
     "death-scythe-low",
     "death-scythe-middle",
-    "ivory-crash"
+    "ivory-crash",
+    "kangaroo-kick"
    ],
    "look": {
     "hair": "#3a6fb5",

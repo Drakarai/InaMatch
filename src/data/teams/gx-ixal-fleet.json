@@ -47,7 +47,8 @@
    "moves": [
     "shoot-eater",
     "judgment-ray",
-    "gravity-point"
+    "gravity-point",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -110,7 +111,8 @@
    "moves": [
     "judgment-ray",
     "melody-wave",
-    "grand-sweeper"
+    "grand-sweeper",
+    "death-drop"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -141,7 +143,8 @@
    "moves": [
     "judgment-ray",
     "footwork-draw",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "hologram-lock"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -172,7 +175,8 @@
    "moves": [
     "judgment-ray",
     "spinning-upper",
-    "kodai-no-tsubasa"
+    "kodai-no-tsubasa",
+    "dead-straight"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -235,7 +239,8 @@
    "moves": [
     "shiny-feather",
     "footwork-draw",
-    "britannia-cross"
+    "britannia-cross",
+    "fire-tornado"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -298,7 +303,8 @@
    "moves": [
     "magic-amp",
     "fuujin-no-mai",
-    "heaven-drive"
+    "heaven-drive",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#d9822b",
@@ -329,7 +335,8 @@
    "moves": [
     "stargazer",
     "shiny-feather",
-    "judgment-ray"
+    "judgment-ray",
+    "bubble-boil"
    ],
    "look": {
     "hair": "#1d1410",
@@ -361,7 +368,8 @@
    "moves": [
     "magic-amp",
     "bungee-thrust",
-    "dark-matter"
+    "dark-matter",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#6b3e1f",

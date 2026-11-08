@@ -41,7 +41,8 @@
    "moves": [
     "shoot-break",
     "fence-of-gaia",
-    "god-hand-v"
+    "god-hand-v",
+    "atlantis-wall"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -72,7 +73,8 @@
    "moves": [
     "air-bullet",
     "britannia-cross",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#c0302a",
@@ -232,7 +234,8 @@
    "moves": [
     "ballista-shot",
     "acrobat-keep",
-    "air-bullet"
+    "air-bullet",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#c0302a",
@@ -263,7 +266,8 @@
    "moves": [
     "fire-tornado",
     "melody-wave",
-    "air-bullet"
+    "air-bullet",
+    "death-drop"
    ],
    "look": {
     "hair": "#1d1410",
@@ -294,7 +298,8 @@
    "moves": [
     "mad-juggler",
     "senpuujin",
-    "ballista-shot"
+    "ballista-shot",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -325,7 +330,8 @@
    "moves": [
     "air-bullet",
     "acrobat-keep",
-    "senpuujin"
+    "senpuujin",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -356,7 +362,8 @@
    "moves": [
     "crazy-sunlight",
     "nobori-ryuu",
-    "deep-mist"
+    "deep-mist",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -387,7 +394,8 @@
    "moves": [
     "air-bullet",
     "white-blade",
-    "atlantis-wall"
+    "atlantis-wall",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -450,7 +458,8 @@
    "moves": [
     "god-hand",
     "ballista-shot",
-    "shoot-break"
+    "shoot-break",
+    "senpuujin"
    ],
    "look": {
     "hair": "#1d1410",
@@ -481,7 +490,8 @@
    "moves": [
     "perfect-course",
     "hunter-s-net",
-    "sprint-warp"
+    "sprint-warp",
+    "trick-ball"
    ],
    "look": {
     "hair": "#c0302a",
@@ -512,7 +522,8 @@
    "moves": [
     "spiral-draw",
     "round-spark",
-    "sprint-warp"
+    "sprint-warp",
+    "panther-blizzard"
    ],
    "look": {
     "hair": "#e98aa8",

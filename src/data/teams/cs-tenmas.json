@@ -42,7 +42,8 @@
    "moves": [
     "god-hand",
     "inazuma-break",
-    "god-hand-w"
+    "god-hand-w",
+    "majin-the-hand"
    ],
    "look": {
     "hair": "#d9822b",
@@ -73,7 +74,8 @@
    "moves": [
     "fractal-house",
     "sparkle-wave",
-    "dimension-cut"
+    "dimension-cut",
+    "storm-zone"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -136,7 +138,8 @@
    "moves": [
     "fractal-house",
     "naminori-pierrot",
-    "the-typhoon"
+    "the-typhoon",
+    "coil-upper"
    ],
    "look": {
     "hair": "#d9822b",
@@ -200,9 +203,7 @@
     "aggressive-beat",
     "wonder-trap",
     "kazaana-drive",
-    "god-wind",
-    "soyokaze-step",
-    "mach-wind"
+    "god-wind"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -266,7 +267,8 @@
    "moves": [
     "illusion-ball",
     "senpuujin",
-    "southern-crosscut"
+    "southern-crosscut",
+    "spring-arrow"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -361,7 +363,8 @@
    "moves": [
     "head-bazooka",
     "bouncer-rabbit",
-    "disaster-break"
+    "disaster-break",
+    "melody-wave"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -424,7 +427,8 @@
    "moves": [
     "illusion-ball",
     "wonder-trap",
-    "hunter-s-net"
+    "hunter-s-net",
+    "presto-turn"
    ],
    "look": {
     "hair": "#d9822b",

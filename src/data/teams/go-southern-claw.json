@@ -43,7 +43,8 @@
    "moves": [
     "fence-of-gaia",
     "ballista-shot",
-    "serpent-fang"
+    "serpent-fang",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -73,7 +74,9 @@
    },
    "moves": [
     "zeroyon",
-    "deep-mist"
+    "deep-mist",
+    "killer-whale",
+    "flying-fish"
    ],
    "look": {
     "hair": "#c0302a",
@@ -104,7 +107,8 @@
    "moves": [
     "presto-turn",
     "the-mist",
-    "ice-ground"
+    "ice-ground",
+    "perfect-course"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -199,7 +203,8 @@
    "moves": [
     "claymore",
     "melody-wave",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -230,7 +235,9 @@
    },
    "moves": [
     "claymore",
-    "ryuusei-blade"
+    "ryuusei-blade",
+    "britannia-cross",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#1d1410",
@@ -293,7 +300,8 @@
    "moves": [
     "britannia-cross",
     "maboroshi-shot",
-    "melody-wave"
+    "melody-wave",
+    "elephant-press"
    ],
    "look": {
     "hair": "#3a2a1a",

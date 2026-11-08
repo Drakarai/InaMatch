@@ -73,7 +73,8 @@
    "moves": [
     "thief-eye",
     "asterisk-rock",
-    "skytree-fall"
+    "skytree-fall",
+    "bungee-thrust"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -104,7 +105,8 @@
    "moves": [
     "fractal-house",
     "screwdriver",
-    "grand-sweeper"
+    "grand-sweeper",
+    "bungee-thrust"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -135,7 +137,8 @@
    "moves": [
     "coil-upper",
     "spinning-cut",
-    "winning-logic"
+    "winning-logic",
+    "ribbon-shower"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -166,7 +169,8 @@
    "moves": [
     "wonder-trap",
     "magnet-draw",
-    "dimension-cut"
+    "dimension-cut",
+    "zeroyon"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -197,7 +201,8 @@
    "moves": [
     "transmove",
     "spinning-upper",
-    "hologram-lock"
+    "hologram-lock",
+    "mermaid-smash"
    ],
    "look": {
     "hair": "#1d1410",
@@ -228,7 +233,8 @@
    "moves": [
     "future-eye",
     "asoko-ni-ufo",
-    "decoy-release"
+    "decoy-release",
+    "oil-rush"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -259,7 +265,8 @@
    "moves": [
     "linear-drive",
     "muei-souha",
-    "storm-zone"
+    "storm-zone",
+    "oil-rush"
    ],
    "look": {
     "hair": "#d9822b",

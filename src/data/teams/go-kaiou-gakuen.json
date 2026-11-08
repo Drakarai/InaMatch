@@ -41,7 +41,8 @@
    "moves": [
     "hydro-anchor",
     "rapid-whip",
-    "crystal-barrier"
+    "crystal-barrier",
+    "ice-ground"
    ],
    "look": {
     "hair": "#d9822b",
@@ -72,7 +73,8 @@
    "moves": [
     "killer-whale",
     "sargasso",
-    "big-scissors"
+    "big-scissors",
+    "burning-summer"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -103,7 +105,8 @@
    "moves": [
     "killer-whale",
     "naminori-pierrot",
-    "dimension-cut"
+    "dimension-cut",
+    "denrai-houtou"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -134,7 +137,8 @@
    "moves": [
     "killer-whale",
     "fuujin-no-mai",
-    "head-bazooka"
+    "head-bazooka",
+    "big-scissors"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -165,7 +169,8 @@
    "moves": [
     "naminori-pierrot",
     "sargasso",
-    "twin-mixer"
+    "twin-mixer",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -196,7 +201,8 @@
    "moves": [
     "fuujin-no-mai",
     "flying-fish",
-    "naminori-pierrot"
+    "naminori-pierrot",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -291,7 +297,8 @@
    "moves": [
     "flying-fish",
     "head-bazooka",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "burning-summer"
    ],
    "look": {
     "hair": "#1d1410",
@@ -386,7 +393,9 @@
    },
    "moves": [
     "killer-whale",
-    "endless-summer"
+    "endless-summer",
+    "ice-ground",
+    "flying-fish"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -417,7 +426,8 @@
    "moves": [
     "bat-attack",
     "hydro-anchor",
-    "crystal-barrier"
+    "crystal-barrier",
+    "big-scissors"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -448,7 +458,8 @@
    "moves": [
     "sargasso",
     "mad-juggler",
-    "killer-whale"
+    "killer-whale",
+    "flying-fish"
    ],
    "look": {
     "hair": "#5a3a7a",

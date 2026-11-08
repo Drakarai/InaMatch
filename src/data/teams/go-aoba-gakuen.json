@@ -43,7 +43,8 @@
    "moves": [
     "rapid-whip",
     "crystal-barrier",
-    "star-reflection"
+    "star-reflection",
+    "ice-ground"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -74,7 +75,8 @@
    "moves": [
     "fuujin-no-mai",
     "spiral-draw",
-    "killer-whale"
+    "killer-whale",
+    "flying-fish"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -105,7 +107,8 @@
    "moves": [
     "zeroyon",
     "spiral-draw",
-    "senpuujin"
+    "senpuujin",
+    "flying-fish"
    ],
    "look": {
     "hair": "#c0302a",
@@ -136,7 +139,8 @@
    "moves": [
     "white-blade",
     "ice-ground",
-    "air-bullet"
+    "air-bullet",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -166,7 +170,9 @@
    },
    "moves": [
     "sargasso",
-    "killer-whale"
+    "killer-whale",
+    "zeroyon",
+    "shippuu-dash"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -197,7 +203,8 @@
    "moves": [
     "naminori-pierrot",
     "zeroyon",
-    "spiral-draw"
+    "spiral-draw",
+    "flying-fish"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -228,7 +235,8 @@
    "moves": [
     "naminori-pierrot",
     "koutei-penguin-7",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "air-bullet"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -258,7 +266,9 @@
    },
    "moves": [
     "sonic-shot",
-    "eternal-blizzard"
+    "eternal-blizzard",
+    "zeroyon",
+    "ice-ground"
    ],
    "look": {
     "hair": "#1d1410",
@@ -289,7 +299,8 @@
    "moves": [
     "flying-fish",
     "eternal-blizzard",
-    "shippuu-dash"
+    "shippuu-dash",
+    "ice-ground"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -320,7 +331,8 @@
    "moves": [
     "sonic-shot",
     "flying-fish",
-    "killer-whale"
+    "killer-whale",
+    "zeroyon"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -351,7 +363,8 @@
    "moves": [
     "buttobi-jump",
     "sargasso",
-    "killer-whale"
+    "killer-whale",
+    "zeroyon"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -382,7 +395,8 @@
    "moves": [
     "flying-fish",
     "white-blade",
-    "shippuu-dash"
+    "shippuu-dash",
+    "killer-whale"
    ],
    "look": {
     "hair": "#c0302a",
@@ -446,7 +460,8 @@
    "moves": [
     "moonsault-stamp",
     "sargasso",
-    "hydro-anchor"
+    "hydro-anchor",
+    "zeroyon"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -476,7 +491,9 @@
    },
    "moves": [
     "spiral-draw",
-    "ice-ground"
+    "ice-ground",
+    "zeroyon",
+    "flying-fish"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -507,7 +524,8 @@
    "moves": [
     "naminori-pierrot",
     "koutei-penguin-7",
-    "zeroyon"
+    "zeroyon",
+    "killer-whale"
    ],
    "look": {
     "hair": "#8b5a2b",

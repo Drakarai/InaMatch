@@ -299,7 +299,9 @@
    },
    "moves": [
     "tenkuu-hayabusadan",
-    "tenhou-chiretsu"
+    "tenhou-chiretsu",
+    "air-ride",
+    "dash-storm"
    ],
    "look": {
     "hair": "#c9ccd6",

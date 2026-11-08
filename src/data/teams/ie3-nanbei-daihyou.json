@@ -148,7 +148,8 @@
    "moves": [
     "zigzag-flame",
     "iron-wall",
-    "ignite-steal"
+    "ignite-steal",
+    "liar-shot"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -339,7 +340,8 @@
    "moves": [
     "hellfire",
     "condor-dive",
-    "eagle-buster"
+    "eagle-buster",
+    "reppuu-dash"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -370,7 +372,8 @@
    "moves": [
     "strike-samba",
     "super-el-stico",
-    "spinning-shoot"
+    "spinning-shoot",
+    "sabaki-no-tettsui"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -466,7 +469,8 @@
    "moves": [
     "double-tornado",
     "super-el-stico",
-    "southern-crosscut"
+    "southern-crosscut",
+    "demon-cut"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -497,7 +501,8 @@
    "moves": [
     "rolling-slide",
     "zigzag-spark",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "tsunami-boost"
    ],
    "look": {
     "hair": "#e98aa8",

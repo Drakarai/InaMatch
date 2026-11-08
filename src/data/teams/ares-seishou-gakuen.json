@@ -170,7 +170,9 @@
    },
    "moves": [
     "zone-of-pentagram",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "go-to-heaven",
+    "water-veil"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -361,7 +363,9 @@
    },
    "moves": [
     "overhead-penguin",
-    "perfect-penguin"
+    "perfect-penguin",
+    "southern-crosscut",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#c9ccd6",

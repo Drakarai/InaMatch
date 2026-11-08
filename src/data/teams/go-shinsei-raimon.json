@@ -41,7 +41,8 @@
    "moves": [
     "burning-catch",
     "fence-of-gaia",
-    "burai-hand"
+    "burai-hand",
+    "big-scissors"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -72,7 +73,8 @@
    "moves": [
     "dash-train",
     "head-bazooka",
-    "big-scissors"
+    "big-scissors",
+    "burning-summer"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -103,7 +105,8 @@
    "moves": [
     "the-mist",
     "deep-mist",
-    "melody-wave"
+    "melody-wave",
+    "la-flamme"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -134,7 +137,8 @@
    "moves": [
     "viva-banri-no-choujou",
     "elephant-press",
-    "atlantis-wall"
+    "atlantis-wall",
+    "claymore"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -197,7 +201,8 @@
    "moves": [
     "naminori-pierrot",
     "flying-fish",
-    "killer-whale"
+    "killer-whale",
+    "shippuu-dash"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -228,7 +233,8 @@
    "moves": [
     "zeroyon",
     "fuujin-no-mai",
-    "senpuujin"
+    "senpuujin",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -420,7 +426,8 @@
    "moves": [
     "thief-eye",
     "presto-turn",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "trick-ball"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -451,7 +458,8 @@
    "moves": [
     "fuujin-no-mai",
     "white-blade",
-    "air-bullet"
+    "air-bullet",
+    "koutei-penguin-7"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -482,7 +490,8 @@
    "moves": [
     "acrobat-keep",
     "denrai-houtou",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "ichiyajou"
    ],
    "look": {
     "hair": "#1d1410",

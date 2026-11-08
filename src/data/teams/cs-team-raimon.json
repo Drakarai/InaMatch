@@ -105,7 +105,8 @@
    "moves": [
     "ichiyajou",
     "gorimuchuu",
-    "fuurinkazan-destroyer"
+    "fuurinkazan-destroyer",
+    "screwdriver"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -136,7 +137,8 @@
    "moves": [
     "elephant-press",
     "acrobat-keep",
-    "deep-jungle"
+    "deep-jungle",
+    "kodai-no-tsubasa"
    ],
    "look": {
     "hair": "#1d1410",
@@ -200,9 +202,7 @@
     "aggressive-beat",
     "wonder-trap",
     "kazaana-drive",
-    "god-wind",
-    "soyokaze-step",
-    "mach-wind"
+    "god-wind"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -266,7 +266,8 @@
    "moves": [
     "acrobat-keep",
     "denrai-houtou",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "ichiyajou"
    ],
    "look": {
     "hair": "#1d1410",
@@ -360,7 +361,9 @@
    },
    "moves": [
     "atomic-flare",
-    "tenchi-raimei"
+    "tenchi-raimei",
+    "spark-edge-dribble",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#c0302a",
@@ -390,7 +393,9 @@
    },
    "moves": [
     "white-hurricane",
-    "tenchi-raimei"
+    "tenchi-raimei",
+    "sprint-warp",
+    "air-bullet"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -420,7 +425,9 @@
    },
    "moves": [
     "bouncer-rabbit",
-    "ouja-no-kiba"
+    "ouja-no-kiba",
+    "sky-walk",
+    "air-bullet"
    ],
    "look": {
     "hair": "#1d1410",
@@ -450,7 +457,9 @@
    },
    "moves": [
     "bouncer-rabbit",
-    "kodai-no-kiba"
+    "kodai-no-kiba",
+    "sky-walk",
+    "air-bullet"
    ],
    "look": {
     "hair": "#1d1410",
@@ -481,7 +490,8 @@
    "moves": [
     "atomic-flare",
     "spark-edge-dribble",
-    "sunshine-storm"
+    "sunshine-storm",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#c0302a",

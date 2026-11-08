@@ -299,7 +299,9 @@
    },
    "moves": [
     "innocent-drive",
-    "doublehead-eagle"
+    "doublehead-eagle",
+    "air-ride",
+    "dash-storm"
    ],
    "look": {
     "hair": "#6b3e1f",

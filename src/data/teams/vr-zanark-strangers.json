@@ -44,7 +44,9 @@
    },
    "moves": [
     "drill-smasher",
-    "god-hand-x"
+    "god-hand-x",
+    "quick-draw",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -107,7 +109,8 @@
    "moves": [
     "photon-flash",
     "sigma-zone",
-    "claymore"
+    "claymore",
+    "zanzou"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -138,7 +141,8 @@
    "moves": [
     "elephant-press",
     "britannia-cross",
-    "go-to-hell"
+    "go-to-hell",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -169,7 +173,8 @@
    "moves": [
     "bungee-thrust",
     "screwdriver",
-    "spinning-cut"
+    "spinning-cut",
+    "zigzag-spark"
    ],
    "look": {
     "hair": "#d9822b",
@@ -200,7 +205,8 @@
    "moves": [
     "nobori-ryuu",
     "ichiyajou",
-    "fuurinkazan-destroyer"
+    "fuurinkazan-destroyer",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#1d1410",
@@ -231,7 +237,8 @@
    "moves": [
     "kumo-no-ito",
     "bungee-thrust",
-    "naraku-otoshi"
+    "naraku-otoshi",
+    "kodai-no-kiba"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -262,7 +269,8 @@
    "moves": [
     "judge-through-3",
     "jibashiri-kaen",
-    "koutei-penguin-1gou"
+    "koutei-penguin-1gou",
+    "judge-through"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -293,7 +301,8 @@
    "moves": [
     "devil-ball",
     "meteor-shower",
-    "demon-cut"
+    "demon-cut",
+    "grand-fire"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -324,7 +333,8 @@
    "moves": [
     "elephant-press",
     "heat-tackle",
-    "iron-wall"
+    "iron-wall",
+    "head-bazooka"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -354,7 +364,9 @@
    },
    "moves": [
     "disaster-break",
-    "judge-through-3"
+    "judge-through-3",
+    "great-max-na-ore",
+    "screwdriver"
    ],
    "look": {
     "hair": "#c0302a",
@@ -386,7 +398,8 @@
    "moves": [
     "death-spear",
     "claymore",
-    "death-break"
+    "death-break",
+    "asteroid-belt"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -417,7 +430,8 @@
    "moves": [
     "the-typhoon",
     "dash-storm",
-    "great-max-na-ore"
+    "great-max-na-ore",
+    "frozen-steal"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -448,7 +462,8 @@
    "moves": [
     "dark-matter",
     "devil-ball",
-    "gaia-break"
+    "gaia-break",
+    "gravitation"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -479,7 +494,8 @@
    "moves": [
     "needle-hammer",
     "electrap",
-    "kill-bridge"
+    "kill-bridge",
+    "high-voltage"
    ],
    "look": {
     "hair": "#1d1410",
@@ -510,7 +526,8 @@
    "moves": [
     "hunter-s-net",
     "southern-crosscut",
-    "grand-sweeper"
+    "grand-sweeper",
+    "astro-break"
    ],
    "look": {
     "hair": "#4c8a3c",

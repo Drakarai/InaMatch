@@ -40,7 +40,8 @@
    "moves": [
     "serpent-fang",
     "hunter-s-net",
-    "crystal-barrier"
+    "crystal-barrier",
+    "nobori-ryuu"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -71,7 +72,8 @@
    "moves": [
     "presto-turn",
     "crazy-sunlight",
-    "the-wall"
+    "the-wall",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#d9822b",
@@ -102,7 +104,8 @@
    "moves": [
     "claymore",
     "atlantis-wall",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -133,7 +136,8 @@
    "moves": [
     "zeroyon",
     "crazy-sunlight",
-    "air-bullet"
+    "air-bullet",
+    "death-drop"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -164,7 +168,8 @@
    "moves": [
     "sprint-warp",
     "mach-wind",
-    "the-mist"
+    "the-mist",
+    "zeroyon"
    ],
    "look": {
     "hair": "#d9822b",
@@ -292,7 +297,8 @@
    "moves": [
     "sprint-warp",
     "crazy-sunlight",
-    "round-spark"
+    "round-spark",
+    "dimension-cut"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -355,7 +361,8 @@
    "moves": [
     "fortissimo",
     "white-blade",
-    "olympus-harmony"
+    "olympus-harmony",
+    "deep-mist"
    ],
    "look": {
     "hair": "#8b5a2b",

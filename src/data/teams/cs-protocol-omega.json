@@ -43,7 +43,8 @@
    "moves": [
     "doon-shout",
     "gyro-saving",
-    "power-shield"
+    "power-shield",
+    "the-wall"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -106,7 +107,8 @@
    "moves": [
     "coil-upper",
     "shoot-pocket",
-    "blitz-bridge"
+    "blitz-bridge",
+    "presto-turn"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -201,7 +203,8 @@
    "moves": [
     "spinning-upper",
     "linear-drive",
-    "sidewinder"
+    "sidewinder",
+    "wonder-trap"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -264,7 +267,8 @@
    "moves": [
     "spinning-upper",
     "coil-upper",
-    "love-arrow"
+    "love-arrow",
+    "burning-summer"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -295,7 +299,8 @@
    "moves": [
     "double-shot",
     "spinning-upper",
-    "omega-attack"
+    "omega-attack",
+    "air-bullet"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -327,7 +332,8 @@
    "moves": [
     "gauss-shot",
     "plasma-ball",
-    "white-blade"
+    "white-blade",
+    "air-bullet"
    ],
    "look": {
     "hair": "#1d1410",
@@ -390,7 +396,8 @@
    "moves": [
     "gauss-shot",
     "plasma-ball",
-    "spring-arrow"
+    "spring-arrow",
+    "melody-wave"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -452,7 +459,9 @@
    },
    "moves": [
     "coil-upper",
-    "spinning-upper"
+    "spinning-upper",
+    "twin-mixer",
+    "rocket-head"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -483,7 +492,8 @@
    "moves": [
     "spinning-upper",
     "coil-upper",
-    "double-shot"
+    "double-shot",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#3a2a1a",

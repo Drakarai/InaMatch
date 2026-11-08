@@ -136,7 +136,8 @@
    "moves": [
     "tsunami-boost",
     "whale-guard",
-    "the-typhoon"
+    "the-typhoon",
+    "sargasso"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -231,7 +232,8 @@
    "moves": [
     "super-shikofumi",
     "rock-wall-dam",
-    "thunder-beast"
+    "thunder-beast",
+    "dash-storm"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -390,7 +392,8 @@
    "moves": [
     "judge-through",
     "hawk-shot",
-    "shinkuuma"
+    "shinkuuma",
+    "desert-storm"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -453,7 +456,8 @@
    "moves": [
     "reppuu-dash",
     "koutei-penguin-2gou",
-    "space-penguin"
+    "space-penguin",
+    "killer-slide"
    ],
    "look": {
     "hair": "#c0302a",

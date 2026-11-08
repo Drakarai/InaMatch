@@ -45,7 +45,8 @@
    "moves": [
     "gravity-point",
     "coil-upper",
-    "god-hand-w"
+    "god-hand-w",
+    "gorimuchuu"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -76,7 +77,8 @@
    "moves": [
     "atlantis-wall",
     "transmove",
-    "air-bullet"
+    "air-bullet",
+    "sidewinder"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -107,7 +109,8 @@
    "moves": [
     "crazy-sunlight",
     "bungee-thrust",
-    "atlantis-wall"
+    "atlantis-wall",
+    "dokonjou-bat"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -138,7 +141,8 @@
    "moves": [
     "atlantis-wall",
     "claymore",
-    "asterisk-rock"
+    "asterisk-rock",
+    "tiger-drive"
    ],
    "look": {
     "hair": "#d9822b",
@@ -169,7 +173,8 @@
    "moves": [
     "olympus-harmony",
     "dimension-cut",
-    "bouncer-rabbit"
+    "bouncer-rabbit",
+    "storm-zone"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -200,7 +205,8 @@
    "moves": [
     "white-blade",
     "shinkuuma",
-    "kuroshio-ride"
+    "kuroshio-ride",
+    "devil-burst"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -263,7 +269,8 @@
    "moves": [
     "sky-walk",
     "deep-mist",
-    "maboroshi-shot"
+    "maboroshi-shot",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#4c8a3c",

@@ -41,7 +41,8 @@
    "moves": [
     "shoot-break",
     "thousand-arrow",
-    "gravity-point"
+    "gravity-point",
+    "big-scissors"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -73,7 +74,8 @@
    "moves": [
     "vanishing-cut",
     "fuujin-no-mai",
-    "air-bullet"
+    "air-bullet",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -136,7 +138,8 @@
    "moves": [
     "sprint-warp",
     "ballista-shot",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -199,7 +202,8 @@
    "moves": [
     "nobori-ryuu",
     "ballista-shot",
-    "round-spark"
+    "round-spark",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -230,7 +234,8 @@
    "moves": [
     "sprint-warp",
     "vanishing-cut",
-    "joker-rains"
+    "joker-rains",
+    "olympus-harmony"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -261,7 +266,8 @@
    "moves": [
     "thousand-arrow",
     "sprint-warp",
-    "round-spark"
+    "round-spark",
+    "triangle-zz"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -292,7 +298,8 @@
    "moves": [
     "sprint-warp",
     "ballista-shot",
-    "thousand-arrow"
+    "thousand-arrow",
+    "the-wall"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -323,7 +330,8 @@
    "moves": [
     "thousand-arrow",
     "ballista-shot",
-    "sprint-warp"
+    "sprint-warp",
+    "the-wall"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -354,7 +362,8 @@
    "moves": [
     "thousand-arrow",
     "ballista-shot",
-    "sprint-warp"
+    "sprint-warp",
+    "the-wall"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -385,7 +394,8 @@
    "moves": [
     "god-hand",
     "thousand-arrow",
-    "shoot-break"
+    "shoot-break",
+    "big-scissors"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -416,7 +426,8 @@
    "moves": [
     "nobori-ryuu",
     "triangle-zz",
-    "sprint-warp"
+    "sprint-warp",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#c0302a",
@@ -447,7 +458,8 @@
    "moves": [
     "ryuusei-blade",
     "thousand-arrow",
-    "round-spark"
+    "round-spark",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -478,7 +490,8 @@
    "moves": [
     "sprint-warp",
     "ballista-shot",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -509,7 +522,8 @@
    "moves": [
     "presto-turn",
     "ryuusei-blade",
-    "vanishing-cut"
+    "vanishing-cut",
+    "deep-mist"
    ],
    "look": {
     "hair": "#6b3e1f",

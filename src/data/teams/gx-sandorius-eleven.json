@@ -46,7 +46,8 @@
    "moves": [
     "sand-knock",
     "dig-up",
-    "fence-of-gaia"
+    "fence-of-gaia",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#1d1410",
@@ -109,7 +110,8 @@
    "moves": [
     "dig-up",
     "sand-knock",
-    "atlantis-wall"
+    "atlantis-wall",
+    "dig-through"
    ],
    "look": {
     "hair": "#1d1410",
@@ -172,7 +174,8 @@
    "moves": [
     "dig-up",
     "oraora-menchi",
-    "rolling-cutter"
+    "rolling-cutter",
+    "oil-rush"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -203,7 +206,8 @@
    "moves": [
     "dig-up",
     "dig-through",
-    "konoha-roll"
+    "konoha-roll",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#1d1410",

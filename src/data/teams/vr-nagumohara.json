@@ -44,7 +44,8 @@
    "moves": [
     "hyouketsu-no-mai",
     "god-fingers",
-    "crystal-barrier"
+    "crystal-barrier",
+    "spinning-cut"
    ],
    "look": {
     "hair": "#1d1410",
@@ -75,7 +76,8 @@
    "moves": [
     "dancing-turtle",
     "kaijin-the-quake",
-    "dash-storm"
+    "dash-storm",
+    "divine-arrow"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -202,7 +204,8 @@
    "moves": [
     "bunshin-feint",
     "block-circus",
-    "mogura-feint"
+    "mogura-feint",
+    "astro-break"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -230,7 +233,12 @@
     "stamina": 57,
     "guts": 68
    },
-   "moves": [],
+   "moves": [
+    "trick-ball",
+    "maboroshi-dribble",
+    "astro-break",
+    "bunshin-defense"
+   ],
    "look": {
     "hair": "#d9822b",
     "skin": "#f1c79b"
@@ -325,7 +333,8 @@
    "moves": [
     "gou-no-issen",
     "shunrai",
-    "cyclone"
+    "cyclone",
+    "general-flag"
    ],
    "look": {
     "hair": "#c0302a",

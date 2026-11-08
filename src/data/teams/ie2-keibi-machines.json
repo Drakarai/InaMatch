@@ -37,7 +37,9 @@
    },
    "moves": [
     "rocket-kobushi",
-    "safety-protect"
+    "safety-protect",
+    "earthquake",
+    "mogura-feint"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -67,7 +69,10 @@
     "guts": 66
    },
    "moves": [
-    "super-scan-of"
+    "super-scan-of",
+    "photon-flash",
+    "giant-spin",
+    "abisegeri"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -96,7 +101,10 @@
     "guts": 66
    },
    "moves": [
-    "profile-zone"
+    "profile-zone",
+    "kage-nui",
+    "bunshin-feint",
+    "astro-break"
    ],
    "look": {
     "hair": "#1d1410",
@@ -125,7 +133,10 @@
     "guts": 60
    },
    "moves": [
-    "super-scan-of"
+    "super-scan-of",
+    "blade-attack",
+    "ice-ground",
+    "spinning-shoot"
    ],
    "look": {
     "hair": "#d9822b",
@@ -154,7 +165,10 @@
     "guts": 61
    },
    "moves": [
-    "profile-zone"
+    "profile-zone",
+    "heavy-baby",
+    "toumei-feint",
+    "kung-fu-attack"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -182,7 +196,12 @@
     "stamina": 69,
     "guts": 62
    },
-   "moves": [],
+   "moves": [
+    "shine-drive",
+    "dokonjou-bat",
+    "judge-through",
+    "flame-dance"
+   ],
    "look": {
     "hair": "#e98aa8",
     "skin": "#b5835a"
@@ -210,7 +229,10 @@
     "guts": 64
    },
    "moves": [
-    "super-scan-of"
+    "super-scan-of",
+    "fuusen-gum",
+    "abisegeri",
+    "photon-flash"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -239,7 +261,10 @@
     "guts": 61
    },
    "moves": [
-    "super-scan-of"
+    "super-scan-of",
+    "illusion-ball",
+    "hyakuretsu-shot",
+    "killer-slide"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -268,7 +293,10 @@
     "guts": 65
    },
    "moves": [
-    "super-scan-of"
+    "super-scan-of",
+    "zigzag-spark",
+    "spiral-shot",
+    "blade-attack"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -297,7 +325,10 @@
     "guts": 68
    },
    "moves": [
-    "security-shot"
+    "security-shot",
+    "dark-tornado",
+    "maboroshi-dribble",
+    "good-smell"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -326,7 +357,10 @@
     "guts": 71
    },
    "moves": [
-    "toumei-feint"
+    "toumei-feint",
+    "kung-fu-attack",
+    "reflect-buster",
+    "shikofumi"
    ],
    "look": {
     "hair": "#6b3e1f",

@@ -43,7 +43,9 @@
    },
    "moves": [
     "mugen-no-kabe",
-    "drill-smasher"
+    "drill-smasher",
+    "blade-attack",
+    "full-power-shield"
    ],
    "look": {
     "hair": "#c0302a",
@@ -74,7 +76,8 @@
    "moves": [
     "harvest",
     "earthquake",
-    "boost-glider"
+    "boost-glider",
+    "planet-shield"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -105,7 +108,8 @@
    "moves": [
     "killer-slide",
     "double-cyclone",
-    "mad-express"
+    "mad-express",
+    "horn-train"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -168,7 +172,8 @@
    "moves": [
     "meteor-shower",
     "beast-fang",
-    "twin-boost-f"
+    "twin-boost-f",
+    "gaia-break"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -231,7 +236,8 @@
    "moves": [
     "killer-slide",
     "illusion-ball",
-    "echo-ball"
+    "echo-ball",
+    "dynamite-shoot"
    ],
    "look": {
     "hair": "#d9822b",
@@ -294,7 +300,9 @@
    },
    "moves": [
     "killer-slide",
-    "double-cyclone"
+    "double-cyclone",
+    "hyakuretsu-shot",
+    "death-zone"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -325,7 +333,8 @@
    "moves": [
     "gungnir",
     "fire-tornado",
-    "bakunetsu-storm"
+    "bakunetsu-storm",
+    "super-scan-of"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -356,7 +365,8 @@
    "moves": [
     "zanzou",
     "bunshin-defense",
-    "honoo-no-kazamidori"
+    "honoo-no-kazamidori",
+    "tsuchi-daruma"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -419,7 +429,8 @@
    "moves": [
     "ganymede-proton",
     "sabaki-no-tettsui",
-    "supernova"
+    "supernova",
+    "astro-break"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -514,7 +525,8 @@
    "moves": [
     "warp-drive",
     "reflect-buster",
-    "divine-arrow"
+    "divine-arrow",
+    "horn-train"
    ],
    "look": {
     "hair": "#5a3a7a",

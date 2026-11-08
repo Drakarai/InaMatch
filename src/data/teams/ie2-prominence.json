@@ -134,7 +134,8 @@
    "moves": [
     "heavy-baby",
     "ignite-steal",
-    "doppelganger"
+    "doppelganger",
+    "bunshin-feint"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -197,7 +198,8 @@
    "moves": [
     "atomic-flare",
     "flame-veil",
-    "fire-blizzard-fire"
+    "fire-blizzard-fire",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -293,7 +295,8 @@
    "moves": [
     "gaia-break",
     "meteor-shower",
-    "twin-boost-f"
+    "twin-boost-f",
+    "beast-fang"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -356,7 +359,8 @@
    "moves": [
     "astro-break",
     "honoo-no-kazamidori",
-    "atomic-flare"
+    "atomic-flare",
+    "flame-veil"
    ],
    "look": {
     "hair": "#d9822b",

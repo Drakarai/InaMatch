@@ -42,7 +42,8 @@
    "moves": [
     "dai-bakuhatsu-harite",
     "power-spike",
-    "sand-cutter"
+    "sand-cutter",
+    "footwork-draw"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -105,7 +106,8 @@
    "moves": [
     "jibashiri-kaen",
     "killer-slide",
-    "burning-summer"
+    "burning-summer",
+    "kyoubou-head"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -135,7 +137,9 @@
    },
    "moves": [
     "jibashiri-kaen",
-    "big-scissors"
+    "big-scissors",
+    "bungee-thrust",
+    "oil-rush"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -166,7 +170,8 @@
    "moves": [
     "jibashiri-kaen",
     "doukasen",
-    "burning-summer"
+    "burning-summer",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -197,7 +202,8 @@
    "moves": [
     "doukasen",
     "mad-juggler",
-    "bungee-thrust"
+    "bungee-thrust",
+    "abisegeri"
    ],
    "look": {
     "hair": "#d9822b",
@@ -228,7 +234,8 @@
    "moves": [
     "doukasen",
     "jibashiri-kaen",
-    "rapid-fire"
+    "rapid-fire",
+    "fuusen-gum"
    ],
    "look": {
     "hair": "#c0302a",
@@ -259,7 +266,8 @@
    "moves": [
     "doukasen",
     "fuusen-gum",
-    "the-stamp"
+    "the-stamp",
+    "kyoubou-head"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -290,7 +298,8 @@
    "moves": [
     "rapid-fire",
     "bound-flame",
-    "floral-despair"
+    "floral-despair",
+    "desert-drift"
    ],
    "look": {
     "hair": "#1d1410",
@@ -321,7 +330,8 @@
    "moves": [
     "rapid-fire",
     "mad-juggler",
-    "dark-tornado"
+    "dark-tornado",
+    "killer-slide"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -353,7 +363,8 @@
    "moves": [
     "rapid-fire",
     "sonic-shot",
-    "bound-flame"
+    "bound-flame",
+    "zeroyon"
    ],
    "look": {
     "hair": "#4c8a3c",

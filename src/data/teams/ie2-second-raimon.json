@@ -99,7 +99,8 @@
    "moves": [
     "tsunami-boost",
     "spinning-cut",
-    "whale-guard"
+    "whale-guard",
+    "kuroshio-ride"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -162,7 +163,8 @@
    "moves": [
     "kung-fu-head",
     "reppuu-dash",
-    "dragon-cannon"
+    "dragon-cannon",
+    "senpuujin"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -481,7 +483,8 @@
    "moves": [
     "noroi",
     "super-scan-of",
-    "god-break"
+    "god-break",
+    "divine-arrow"
    ],
    "look": {
     "hair": "#d9822b",

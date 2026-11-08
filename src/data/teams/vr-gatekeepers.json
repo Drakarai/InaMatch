@@ -43,7 +43,8 @@
    "moves": [
     "safety-protect",
     "star-reflection",
-    "dry-blow"
+    "dry-blow",
+    "spinning-cut"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -74,7 +75,8 @@
    "moves": [
     "screwdriver",
     "asterisk-rock",
-    "reppuu-dash"
+    "reppuu-dash",
+    "shine-drive"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -105,7 +107,8 @@
    "moves": [
     "air-bullet",
     "go-to-heaven",
-    "white-blade"
+    "white-blade",
+    "divine-arrow"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -136,7 +139,8 @@
    "moves": [
     "blitz-bridge",
     "decoy-release",
-    "screwdriver"
+    "screwdriver",
+    "shine-drive"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -199,7 +203,8 @@
    "moves": [
     "reppuu-dash",
     "rapid-fire",
-    "screwdriver"
+    "screwdriver",
+    "spark-edge-dribble"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -230,7 +235,8 @@
    "moves": [
     "death-scythe-low",
     "security-shot",
-    "quick-draw"
+    "quick-draw",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#c0302a",
@@ -261,7 +267,8 @@
    "moves": [
     "decoy-release",
     "gear-drive",
-    "all-delete"
+    "all-delete",
+    "gravitation"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -292,7 +299,8 @@
    "moves": [
     "hellfire",
     "rapid-fire",
-    "oraora-menchi"
+    "oraora-menchi",
+    "flame-dance"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -323,7 +331,8 @@
    "moves": [
     "white-blade",
     "security-shot",
-    "plasma-ball"
+    "plasma-ball",
+    "sargasso"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -355,7 +364,8 @@
    "moves": [
     "sonic-shot",
     "gear-drive",
-    "plasma-ball"
+    "plasma-ball",
+    "spinning-upper"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -386,7 +396,8 @@
    "moves": [
     "quick-draw",
     "profile-zone",
-    "death-scythe-low"
+    "death-scythe-low",
+    "freeze-shot"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -417,7 +428,8 @@
    "moves": [
     "profile-zone",
     "gravitation",
-    "blitz-bridge"
+    "blitz-bridge",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -448,7 +460,8 @@
    "moves": [
     "melody-wave",
     "quick-draw",
-    "dimension-storm"
+    "dimension-storm",
+    "trick-ball"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -478,7 +491,9 @@
    },
    "moves": [
     "white-blade",
-    "gear-drive"
+    "gear-drive",
+    "rainbow-loop",
+    "the-wall"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -508,7 +523,9 @@
    },
    "moves": [
     "sand-knock",
-    "safety-protect"
+    "safety-protect",
+    "earthquake",
+    "gorimuchuu"
    ],
    "look": {
     "hair": "#6b3e1f",

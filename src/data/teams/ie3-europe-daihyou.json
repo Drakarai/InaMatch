@@ -52,7 +52,8 @@
    "moves": [
     "colosseo-guard",
     "earthquake",
-    "gigant-wall"
+    "gigant-wall",
+    "big-card"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -147,7 +148,8 @@
    "moves": [
     "block-circus",
     "moonsault",
-    "echo-ball"
+    "echo-ball",
+    "power-charge"
    ],
    "look": {
     "hair": "#1d1410",
@@ -210,7 +212,8 @@
    "moves": [
     "sneaking-raid",
     "stone-prison",
-    "koutei-penguin-x"
+    "koutei-penguin-x",
+    "judge-through-2"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -241,7 +244,8 @@
    "moves": [
     "rose-splash",
     "photon-flash",
-    "tri-pegasus"
+    "tri-pegasus",
+    "scissors-bomb"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -304,7 +308,8 @@
    "moves": [
     "slingshot",
     "bunshin-feint",
-    "u-boat"
+    "u-boat",
+    "senpuujin"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -335,7 +340,8 @@
    "moves": [
     "odin-sword",
     "hitori-one-two",
-    "divine-arrow"
+    "divine-arrow",
+    "bunshin-defense"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -399,7 +405,8 @@
    "moves": [
     "excalibur",
     "paladin-strike",
-    "ultra-moon"
+    "ultra-moon",
+    "demon-cut"
    ],
    "look": {
     "hair": "#6b3e1f",

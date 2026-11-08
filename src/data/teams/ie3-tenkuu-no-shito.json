@@ -77,7 +77,8 @@
    "moves": [
     "go-to-heaven",
     "angel-ball",
-    "illusion-ball"
+    "illusion-ball",
+    "shooting-star"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -204,7 +205,8 @@
    "moves": [
     "angel-ball",
     "excalibur",
-    "ultra-moon"
+    "ultra-moon",
+    "barbarian-no-tate"
    ],
    "look": {
     "hair": "#d9822b",

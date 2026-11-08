@@ -51,7 +51,8 @@
    "moves": [
     "gyro-saving",
     "wormhole",
-    "kill-bridge"
+    "kill-bridge",
+    "sargasso"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -114,7 +115,8 @@
    "moves": [
     "coil-upper",
     "burning-summer",
-    "magnet-draw"
+    "magnet-draw",
+    "perfect-course"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -145,7 +147,8 @@
    "moves": [
     "magnet-draw",
     "burning-summer",
-    "screwdriver"
+    "screwdriver",
+    "rocket-head"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -176,7 +179,8 @@
    "moves": [
     "linear-drive",
     "magnet-draw",
-    "plasma-ball"
+    "plasma-ball",
+    "claymore"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -207,7 +211,8 @@
    "moves": [
     "spinning-upper",
     "linear-drive",
-    "sidewinder"
+    "sidewinder",
+    "wonder-trap"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -238,7 +243,8 @@
    "moves": [
     "spinning-upper",
     "twin-mixer",
-    "love-arrow"
+    "love-arrow",
+    "burning-summer"
    ],
    "look": {
     "hair": "#1d1410",
@@ -301,7 +307,8 @@
    "moves": [
     "gauss-shot",
     "plasma-ball",
-    "white-blade"
+    "white-blade",
+    "air-bullet"
    ],
    "look": {
     "hair": "#1d1410",
@@ -332,7 +339,8 @@
    "moves": [
     "gamma-strike",
     "all-delete",
-    "omega-attack"
+    "omega-attack",
+    "deep-jungle"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -364,7 +372,8 @@
    "moves": [
     "gauss-shot",
     "plasma-ball",
-    "spring-arrow"
+    "spring-arrow",
+    "melody-wave"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -395,7 +404,8 @@
    "moves": [
     "gyro-saving",
     "wormhole",
-    "kill-bridge"
+    "kill-bridge",
+    "sargasso"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -426,7 +436,8 @@
    "moves": [
     "magnet-draw",
     "burning-summer",
-    "screwdriver"
+    "screwdriver",
+    "rocket-head"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -457,7 +468,8 @@
    "moves": [
     "linear-drive",
     "magnet-draw",
-    "plasma-ball"
+    "plasma-ball",
+    "claymore"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -520,7 +532,8 @@
    "moves": [
     "gamma-strike",
     "all-delete",
-    "omega-attack"
+    "omega-attack",
+    "deep-jungle"
    ],
    "look": {
     "hair": "#e98aa8",

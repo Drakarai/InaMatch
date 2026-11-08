@@ -38,7 +38,8 @@
    "moves": [
     "ganymede-proton",
     "gaia-break",
-    "wormhole"
+    "wormhole",
+    "jikuu-no-kabe"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -68,7 +69,9 @@
    },
    "moves": [
     "heavy-baby",
-    "warp-drive"
+    "warp-drive",
+    "asteroid-belt",
+    "kamaitachi"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -98,7 +101,9 @@
    },
    "moves": [
     "photon-flash",
-    "warp-drive"
+    "warp-drive",
+    "black-hole",
+    "drill-smasher"
    ],
    "look": {
     "hair": "#c0302a",
@@ -128,7 +133,9 @@
    },
    "moves": [
     "heavy-baby",
-    "asteroid-belt"
+    "asteroid-belt",
+    "dokugiri-no-jutsu",
+    "judge-through"
    ],
    "look": {
     "hair": "#d9822b",
@@ -158,7 +165,9 @@
    },
    "moves": [
     "heavy-baby",
-    "gravitation"
+    "gravitation",
+    "earthquake",
+    "planet-shield"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -189,7 +198,8 @@
    "moves": [
     "meteor-shower",
     "gaia-break",
-    "asteroid-belt"
+    "asteroid-belt",
+    "rose-splash"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -219,7 +229,9 @@
    },
    "moves": [
     "meteor-shower",
-    "photon-flash"
+    "photon-flash",
+    "blade-attack",
+    "heat-tackle"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -249,7 +261,9 @@
    },
    "moves": [
     "meteor-shower",
-    "astro-break"
+    "astro-break",
+    "southern-crosscut",
+    "good-smell"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -278,7 +292,10 @@
     "guts": 68
    },
    "moves": [
-    "meteor-shower"
+    "meteor-shower",
+    "photon-flash",
+    "kurukuru-head",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -308,7 +325,9 @@
    },
    "moves": [
     "meteor-shower",
-    "gaia-break"
+    "gaia-break",
+    "warp-drive",
+    "cross-drive"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -339,7 +358,8 @@
    "moves": [
     "wormhole",
     "drill-smasher",
-    "gungnir"
+    "gungnir",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#3a6fb5",

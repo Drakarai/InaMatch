@@ -42,7 +42,8 @@
    "moves": [
     "crocodile-fang",
     "shoot-pocket",
-    "hydro-anchor"
+    "hydro-anchor",
+    "the-tower"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -73,7 +74,8 @@
    "moves": [
     "willy-willy",
     "the-mist",
-    "kage-tsukami"
+    "kage-tsukami",
+    "bungee-thrust"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -104,7 +106,8 @@
    "moves": [
     "willy-willy",
     "rapid-whip",
-    "claymore"
+    "claymore",
+    "the-mist"
    ],
    "look": {
     "hair": "#d9822b",
@@ -135,7 +138,8 @@
    "moves": [
     "willy-willy",
     "shippuu-dash",
-    "air-ride"
+    "air-ride",
+    "winning-logic"
    ],
    "look": {
     "hair": "#c0302a",
@@ -166,7 +170,8 @@
    "moves": [
     "willy-willy",
     "presto-turn",
-    "strike-samba"
+    "strike-samba",
+    "rolling-cutter"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -197,7 +202,8 @@
    "moves": [
     "kangaroo-kick",
     "megalodon",
-    "willy-willy"
+    "willy-willy",
+    "mushroom-hop"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -228,7 +234,8 @@
    "moves": [
     "kangaroo-kick",
     "kumo-no-ito",
-    "melody-wave"
+    "melody-wave",
+    "gold-fever"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -259,7 +266,8 @@
    "moves": [
     "kangaroo-kick",
     "megalodon",
-    "zigzag-spark"
+    "zigzag-spark",
+    "jibashiri-kaen"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -291,7 +299,8 @@
    "moves": [
     "kangaroo-kick",
     "good-smell",
-    "sky-walk"
+    "sky-walk",
+    "dark-tornado"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -322,7 +331,8 @@
    "moves": [
     "megalodon",
     "abisegeri",
-    "death-drop"
+    "death-drop",
+    "desert-drift"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -353,7 +363,8 @@
    "moves": [
     "megalodon",
     "flying-fish",
-    "the-typhoon"
+    "the-typhoon",
+    "white-blade"
    ],
    "look": {
     "hair": "#e98aa8",

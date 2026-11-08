@@ -41,7 +41,9 @@
    },
    "moves": [
     "rapid-whip",
-    "power-spike"
+    "power-spike",
+    "dash-train",
+    "mad-juggler"
    ],
    "look": {
     "hair": "#c0302a",
@@ -72,7 +74,8 @@
    "moves": [
     "head-bazooka",
     "dash-train",
-    "kattobi-defense"
+    "kattobi-defense",
+    "presto-turn"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -103,7 +106,8 @@
    "moves": [
     "burning-summer",
     "elephant-press",
-    "twin-mixer"
+    "twin-mixer",
+    "sidewinder"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -134,7 +138,8 @@
    "moves": [
     "thief-eye",
     "killer-whale",
-    "illusion-ball"
+    "illusion-ball",
+    "perfect-course"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -165,7 +170,8 @@
    "moves": [
     "burning-summer",
     "hunter-s-net",
-    "the-wall"
+    "the-wall",
+    "flying-fish"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -196,7 +202,8 @@
    "moves": [
     "burning-summer",
     "presto-turn",
-    "sidewinder"
+    "sidewinder",
+    "viva-banri-no-choujou"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -227,7 +234,8 @@
    "moves": [
     "perfect-course",
     "future-eye",
-    "shippuu-dash"
+    "shippuu-dash",
+    "the-mist"
    ],
    "look": {
     "hair": "#1d1410",
@@ -258,7 +266,8 @@
    "moves": [
     "sonic-shot",
     "burning-summer",
-    "the-mist"
+    "the-mist",
+    "zeroyon"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -289,7 +298,8 @@
    "moves": [
     "presto-turn",
     "claymore",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -352,7 +362,9 @@
    },
    "moves": [
     "death-sword",
-    "extend-zone"
+    "extend-zone",
+    "britannia-cross",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -383,7 +395,8 @@
    "moves": [
     "burning-catch",
     "rapid-whip",
-    "ice-ground"
+    "ice-ground",
+    "shippuu-dash"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -445,7 +458,9 @@
    },
    "moves": [
     "burning-summer",
-    "rocket-head"
+    "rocket-head",
+    "illusion-ball",
+    "the-mist"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -476,7 +491,8 @@
    "moves": [
     "mad-juggler",
     "viva-banri-no-choujou",
-    "senpuujin"
+    "senpuujin",
+    "denrai-houtou"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -507,7 +523,8 @@
    "moves": [
     "mad-juggler",
     "zeroyon",
-    "fire-tornado"
+    "fire-tornado",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#1d1410",

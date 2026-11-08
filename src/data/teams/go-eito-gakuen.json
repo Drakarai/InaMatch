@@ -38,7 +38,9 @@
    },
    "moves": [
     "moonsault-stamp",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "dash-train",
+    "mad-juggler"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -68,7 +70,9 @@
    },
    "moves": [
     "thief-eye",
-    "spiral-draw"
+    "spiral-draw",
+    "future-eye",
+    "perfect-course"
    ],
    "look": {
     "hair": "#1d1410",
@@ -98,7 +102,9 @@
    },
    "moves": [
     "thief-eye",
-    "boomerang-feint"
+    "boomerang-feint",
+    "viva-banri-no-choujou",
+    "sidewinder"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -128,7 +134,9 @@
    },
    "moves": [
     "thief-eye",
-    "future-eye"
+    "future-eye",
+    "the-mist",
+    "perfect-course"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -158,7 +166,9 @@
    },
    "moves": [
     "thief-eye",
-    "perfect-course"
+    "perfect-course",
+    "killer-whale",
+    "shippuu-dash"
    ],
    "look": {
     "hair": "#c0302a",
@@ -188,7 +198,9 @@
    },
    "moves": [
     "future-eye",
-    "thief-eye"
+    "thief-eye",
+    "illusion-ball",
+    "perfect-course"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -218,7 +230,9 @@
    },
    "moves": [
     "future-eye",
-    "perfect-course"
+    "perfect-course",
+    "presto-turn",
+    "the-mist"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -249,7 +263,8 @@
    "moves": [
     "future-eye",
     "perfect-course",
-    "britannia-cross"
+    "britannia-cross",
+    "killer-whale"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -280,7 +295,8 @@
    "moves": [
     "future-eye",
     "perfect-course",
-    "dimension-cut"
+    "dimension-cut",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -311,7 +327,9 @@
    },
    "moves": [
     "perfect-course",
-    "thief-eye"
+    "thief-eye",
+    "fortissimo",
+    "presto-turn"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -341,7 +359,9 @@
    },
    "moves": [
     "perfect-course",
-    "ballista-shot"
+    "ballista-shot",
+    "trick-ball",
+    "deep-mist"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -371,7 +391,9 @@
    },
    "moves": [
     "moonsault-stamp",
-    "denrai-houtou"
+    "denrai-houtou",
+    "bat-attack",
+    "thief-eye"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -401,7 +423,9 @@
    },
    "moves": [
     "thief-eye",
-    "hunter-s-net"
+    "hunter-s-net",
+    "presto-turn",
+    "perfect-course"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -432,7 +456,8 @@
    "moves": [
     "future-eye",
     "thief-eye",
-    "trick-ball"
+    "trick-ball",
+    "sidewinder"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -462,7 +487,9 @@
    },
    "moves": [
     "future-eye",
-    "buttobi-jump"
+    "buttobi-jump",
+    "zeroyon",
+    "killer-whale"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -493,7 +520,8 @@
    "moves": [
     "perfect-course",
     "head-bazooka",
-    "sargasso"
+    "sargasso",
+    "claymore"
    ],
    "look": {
     "hair": "#e98aa8",

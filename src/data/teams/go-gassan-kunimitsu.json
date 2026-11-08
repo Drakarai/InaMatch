@@ -41,7 +41,8 @@
    "moves": [
     "fence-of-gaia",
     "power-spike",
-    "burai-hand"
+    "burai-hand",
+    "the-wall"
    ],
    "look": {
     "hair": "#c0302a",
@@ -73,7 +74,8 @@
    "moves": [
     "twin-mixer",
     "elephant-press",
-    "the-wall"
+    "the-wall",
+    "claymore"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -135,7 +137,9 @@
    },
    "moves": [
     "twin-mixer",
-    "senpuujin"
+    "senpuujin",
+    "zeroyon",
+    "flying-fish"
    ],
    "look": {
     "hair": "#c0302a",
@@ -166,7 +170,8 @@
    "moves": [
     "twin-mixer",
     "illusion-ball",
-    "dimension-cut"
+    "dimension-cut",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -197,7 +202,8 @@
    "moves": [
     "claymore",
     "sargasso",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#d9822b",
@@ -228,7 +234,8 @@
    "moves": [
     "claymore",
     "rocket-head",
-    "hunter-s-net"
+    "hunter-s-net",
+    "burning-summer"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -259,7 +266,8 @@
    "moves": [
     "claymore",
     "rocket-head",
-    "sprint-warp"
+    "sprint-warp",
+    "elephant-press"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -322,7 +330,8 @@
    "moves": [
     "sonic-shot",
     "claymore",
-    "eternal-blizzard"
+    "eternal-blizzard",
+    "ice-ground"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -385,7 +394,8 @@
    "moves": [
     "power-spike",
     "killer-whale",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "shippuu-dash"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -415,7 +425,9 @@
    },
    "moves": [
     "fortissimo",
-    "presto-turn"
+    "presto-turn",
+    "the-mist",
+    "thief-eye"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -445,7 +457,9 @@
    },
    "moves": [
     "kattobi-defense",
-    "big-scissors"
+    "big-scissors",
+    "trick-ball",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#c0302a",
@@ -476,7 +490,8 @@
    "moves": [
     "head-bazooka",
     "dash-train",
-    "fire-tornado"
+    "fire-tornado",
+    "burning-summer"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -507,7 +522,8 @@
    "moves": [
     "sonic-shot",
     "thief-eye",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "flying-fish"
    ],
    "look": {
     "hair": "#8b5a2b",

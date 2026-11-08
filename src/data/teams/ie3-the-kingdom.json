@@ -107,7 +107,8 @@
    "moves": [
     "dual-storm",
     "tkachev-bomber",
-    "harvest"
+    "harvest",
+    "heaven-s-time"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -202,7 +203,8 @@
    "moves": [
     "rolling-slide",
     "zigzag-spark",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "tsunami-boost"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -297,7 +299,8 @@
    "moves": [
     "strike-samba",
     "super-el-stico",
-    "spinning-shoot"
+    "spinning-shoot",
+    "sabaki-no-tettsui"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -393,7 +396,8 @@
    "moves": [
     "double-tornado",
     "super-el-stico",
-    "southern-crosscut"
+    "southern-crosscut",
+    "demon-cut"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -520,7 +524,8 @@
    "moves": [
     "double-tornado",
     "ninin-sankyaku",
-    "heat-tackle"
+    "heat-tackle",
+    "profile-zone"
    ],
    "look": {
     "hair": "#1d1410",

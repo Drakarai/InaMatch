@@ -40,7 +40,9 @@
    },
    "moves": [
     "counterdrive-gk",
-    "fence-of-gaia"
+    "fence-of-gaia",
+    "the-wall",
+    "claymore"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -71,7 +73,8 @@
    "moves": [
     "big-scissors",
     "naminori-pierrot",
-    "the-mist"
+    "the-mist",
+    "perfect-course"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -134,7 +137,8 @@
    "moves": [
     "big-scissors",
     "death-drop",
-    "sprint-warp"
+    "sprint-warp",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -165,7 +169,8 @@
    "moves": [
     "big-scissors",
     "naminori-pierrot",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -196,7 +201,8 @@
    "moves": [
     "illusion-ball",
     "fortissimo",
-    "round-spark"
+    "round-spark",
+    "ice-ground"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -227,7 +233,8 @@
    "moves": [
     "illusion-ball",
     "soyokaze-step",
-    "the-mist"
+    "the-mist",
+    "flying-fish"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -258,7 +265,8 @@
    "moves": [
     "illusion-ball",
     "bound-flame",
-    "dash-train"
+    "dash-train",
+    "burning-summer"
    ],
    "look": {
     "hair": "#1d1410",
@@ -289,7 +297,8 @@
    "moves": [
     "sidewinder",
     "claymore",
-    "denrai-houtou"
+    "denrai-houtou",
+    "the-wall"
    ],
    "look": {
     "hair": "#c0302a",
@@ -320,7 +329,8 @@
    "moves": [
     "triangle-zz",
     "rocket-head",
-    "round-spark"
+    "round-spark",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#d9822b",
@@ -351,7 +361,8 @@
    "moves": [
     "triangle-zz",
     "buttobi-jump",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "the-wall"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -415,7 +426,8 @@
    "moves": [
     "burning-catch",
     "twin-mixer",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "burning-summer"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -446,7 +458,8 @@
    "moves": [
     "sonic-shot",
     "zeroyon",
-    "flying-fish"
+    "flying-fish",
+    "ice-ground"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -509,7 +522,8 @@
    "moves": [
     "illusion-ball",
     "flying-fish",
-    "hydro-anchor"
+    "hydro-anchor",
+    "presto-turn"
    ],
    "look": {
     "hair": "#4c8a3c",

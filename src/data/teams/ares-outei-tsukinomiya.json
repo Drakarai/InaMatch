@@ -330,7 +330,9 @@
    },
    "moves": [
     "king-s-lance",
-    "sky-walk"
+    "sky-walk",
+    "atomic-flare",
+    "ignite-steal"
    ],
    "look": {
     "hair": "#d9822b",
@@ -393,7 +395,9 @@
    },
    "moves": [
     "blue-stardust",
-    "planet-break"
+    "planet-break",
+    "southern-crosscut",
+    "spiral-draw"
    ],
    "look": {
     "hair": "#c9ccd6",

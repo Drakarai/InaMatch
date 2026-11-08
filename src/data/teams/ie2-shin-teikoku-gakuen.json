@@ -38,7 +38,8 @@
    "moves": [
     "beast-fang",
     "power-shield",
-    "full-power-shield"
+    "full-power-shield",
+    "blade-attack"
    ],
    "look": {
     "hair": "#c0302a",
@@ -133,7 +134,8 @@
    "moves": [
     "horn-train",
     "tarzan-kick",
-    "mega-quake"
+    "mega-quake",
+    "killer-slide"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -324,7 +326,8 @@
    "moves": [
     "hyakuretsu-shot",
     "judge-through",
-    "death-zone"
+    "death-zone",
+    "good-smell"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -355,7 +358,8 @@
    "moves": [
     "koutei-penguin-1gou",
     "judge-through",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "killer-slide"
    ],
    "look": {
     "hair": "#c0302a",
@@ -386,7 +390,8 @@
    "moves": [
     "triple-boost",
     "judge-through-2",
-    "killer-slide"
+    "killer-slide",
+    "judge-through"
    ],
    "look": {
     "hair": "#3a6fb5",

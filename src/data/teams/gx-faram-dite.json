@@ -46,7 +46,8 @@
    "moves": [
     "rebound-layer",
     "shoot-pocket",
-    "reverse-world"
+    "reverse-world",
+    "good-smell"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -78,7 +79,8 @@
    "moves": [
     "stealth-walk",
     "hologram-lock",
-    "spinning-cut"
+    "spinning-cut",
+    "dead-straight"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -108,7 +110,9 @@
    },
    "moves": [
     "rock-hammer",
-    "desert-drift"
+    "desert-drift",
+    "willy-willy",
+    "dust-javelin"
    ],
    "look": {
     "hair": "#c0302a",
@@ -139,7 +143,8 @@
    "moves": [
     "stealth-walk",
     "hologram-lock",
-    "asterisk-rock"
+    "asterisk-rock",
+    "devil-burst"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -170,7 +175,8 @@
    "moves": [
     "hologram-lock",
     "injection",
-    "magical-flower"
+    "magical-flower",
+    "lightning-accel"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -200,7 +206,9 @@
    },
    "moves": [
     "jackknife",
-    "god-wind"
+    "god-wind",
+    "liquid-flow",
+    "shinkuuma"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -231,7 +239,8 @@
    "moves": [
     "hologram-lock",
     "injection",
-    "mochimochi-kinako-mochi"
+    "mochimochi-kinako-mochi",
+    "atlas-sword"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -261,7 +270,9 @@
    },
    "moves": [
     "scream-of-eden",
-    "illusion-ball"
+    "illusion-ball",
+    "dark-tornado",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#1d1410",
@@ -291,7 +302,9 @@
    },
    "moves": [
     "scream-of-eden",
-    "death-scythe-low"
+    "death-scythe-low",
+    "ganymede-proton",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -321,7 +334,9 @@
    },
    "moves": [
     "kazanrai",
-    "jibashiri-kaen"
+    "jibashiri-kaen",
+    "kazangan",
+    "lightning-accel"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -352,7 +367,8 @@
    "moves": [
     "injection",
     "hologram-lock",
-    "ogre-blade"
+    "ogre-blade",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#d9822b",
@@ -381,9 +397,7 @@
     "guts": 57
    },
    "moves": [
-    "koutei-penguin-2gou",
     "koutei-penguin-3gou",
-    "koutei-penguin-7",
     "last-death-zone",
     "illusion-ball",
     "killer-slide"

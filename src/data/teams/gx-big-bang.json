@@ -47,7 +47,8 @@
    "moves": [
     "castle-gate",
     "gigant-wall",
-    "burai-hand"
+    "burai-hand",
+    "judgment-ray"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -110,7 +111,8 @@
    "moves": [
     "phalanx",
     "oraora-menchi",
-    "sneaking-raid"
+    "sneaking-raid",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -205,7 +207,8 @@
    "moves": [
     "phalanx",
     "air-ride",
-    "waterfall"
+    "waterfall",
+    "the-typhoon"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -268,7 +271,8 @@
    "moves": [
     "atlas-sword",
     "magnet-draw",
-    "storm-zone"
+    "storm-zone",
+    "devil-burst"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -331,7 +335,8 @@
    "moves": [
     "atlas-sword",
     "devil-burst",
-    "black-ash"
+    "black-ash",
+    "storm-zone"
    ],
    "look": {
     "hair": "#c9ccd6",

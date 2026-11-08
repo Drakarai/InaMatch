@@ -106,7 +106,8 @@
    "moves": [
     "welcome-back",
     "flame-dance",
-    "super-el-stico"
+    "super-el-stico",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -169,7 +170,8 @@
    "moves": [
     "welcome-back",
     "matador-feint",
-    "slingshot"
+    "slingshot",
+    "stone-prison"
    ],
    "look": {
     "hair": "#1d1410",
@@ -265,7 +267,8 @@
    "moves": [
     "slingshot",
     "bunshin-feint",
-    "u-boat"
+    "u-boat",
+    "senpuujin"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -360,7 +363,8 @@
    "moves": [
     "slingshot",
     "matador-feint",
-    "twin-boost"
+    "twin-boost",
+    "asteroid-belt"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -423,7 +427,8 @@
    "moves": [
     "fire-tornado",
     "slingshot",
-    "super-el-stico"
+    "super-el-stico",
+    "double-cyclone"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -518,7 +523,8 @@
    "moves": [
     "welcome-back",
     "slingshot",
-    "super-el-stico"
+    "super-el-stico",
+    "hellfire"
    ],
    "look": {
     "hair": "#3a6fb5",

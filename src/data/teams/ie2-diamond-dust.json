@@ -70,7 +70,8 @@
    "moves": [
     "frozen-steal",
     "super-scan-df",
-    "ice-block"
+    "ice-block",
+    "oouchiwa"
    ],
    "look": {
     "hair": "#d9822b",
@@ -165,7 +166,8 @@
    "moves": [
     "northern-impact",
     "water-veil",
-    "fire-blizzard"
+    "fire-blizzard",
+    "vanishing-cut"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -261,7 +263,8 @@
    "moves": [
     "frozen-steal",
     "aurora-dribble",
-    "northern-impact"
+    "northern-impact",
+    "aikidou"
    ],
    "look": {
     "hair": "#6b3e1f",

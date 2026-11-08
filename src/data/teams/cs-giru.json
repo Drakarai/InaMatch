@@ -78,7 +78,8 @@
    "moves": [
     "senpuujin",
     "the-mist",
-    "dimension-cut"
+    "dimension-cut",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#1d1410",
@@ -109,7 +110,8 @@
    "moves": [
     "big-scissors",
     "dash-train",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "bungee-thrust"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -140,7 +142,8 @@
    "moves": [
     "magical-flower",
     "deep-mist",
-    "dimension-cut"
+    "dimension-cut",
+    "storm-zone"
    ],
    "look": {
     "hair": "#d9822b",
@@ -171,7 +174,8 @@
    "moves": [
     "decoy-release",
     "elephant-press",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -202,7 +206,8 @@
    "moves": [
     "decoy-release",
     "fractal-house",
-    "acrobat-keep"
+    "acrobat-keep",
+    "denrai-houtou"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -394,7 +399,8 @@
    "moves": [
     "rejection",
     "hanafubuki",
-    "power-spike"
+    "power-spike",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -425,7 +431,8 @@
    "moves": [
     "magical-flower",
     "the-tower",
-    "shinkuuma"
+    "shinkuuma",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -520,7 +527,8 @@
    "moves": [
     "spring-arrow",
     "sidewinder",
-    "acrobat-keep"
+    "acrobat-keep",
+    "magical-flower"
    ],
    "look": {
     "hair": "#8b5a2b",

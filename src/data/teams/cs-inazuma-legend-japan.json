@@ -44,7 +44,8 @@
    "moves": [
     "god-hand",
     "gigaton-head",
-    "god-hand-v"
+    "god-hand-v",
+    "majin-the-hand"
    ],
    "look": {
     "hair": "#d9822b",
@@ -76,7 +77,8 @@
    "moves": [
     "shippuu-dash",
     "air-bullet",
-    "kazaana-drive"
+    "kazaana-drive",
+    "bunshin-defense"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -267,7 +269,8 @@
    "moves": [
     "koutei-penguin-7",
     "deep-jungle",
-    "koutei-penguin-3gou"
+    "koutei-penguin-3gou",
+    "bunshin-feint"
    ],
    "look": {
     "hair": "#c0302a",
@@ -298,7 +301,8 @@
    "moves": [
     "ryuusei-blade",
     "extend-zone",
-    "round-spark"
+    "round-spark",
+    "photon-flash"
    ],
    "look": {
     "hair": "#1d1410",
@@ -329,7 +333,8 @@
    "moves": [
     "denrai-houtou",
     "nobori-ryuu",
-    "dragon-blaster"
+    "dragon-blaster",
+    "dragon-crash"
    ],
    "look": {
     "hair": "#c9ccd6",

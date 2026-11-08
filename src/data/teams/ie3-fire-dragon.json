@@ -43,7 +43,8 @@
    "moves": [
     "dai-bakuhatsu-harite",
     "kaenhousha",
-    "burnout"
+    "burnout",
+    "asteroid-belt"
    ],
    "look": {
     "hair": "#1d1410",
@@ -170,7 +171,8 @@
    "moves": [
     "jibashiri-kaen",
     "dokonjou-bat",
-    "dokonjou-catch"
+    "dokonjou-catch",
+    "kage-nui"
    ],
    "look": {
     "hair": "#1d1410",
@@ -201,7 +203,8 @@
    "moves": [
     "jibashiri-kaen",
     "flame-veil",
-    "heat-tackle"
+    "heat-tackle",
+    "kung-fu-attack"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -232,7 +235,8 @@
    "moves": [
     "naraku-otoshi",
     "dragon-cannon",
-    "dragon-ground"
+    "dragon-ground",
+    "jibashiri-kaen"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -264,7 +268,8 @@
    "moves": [
     "naraku-otoshi",
     "flame-veil",
-    "jigoku-guruma"
+    "jigoku-guruma",
+    "kung-fu-attack"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -295,7 +300,8 @@
    "moves": [
     "flame-veil",
     "atomic-flare",
-    "fire-blizzard-fire"
+    "fire-blizzard-fire",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -326,7 +332,8 @@
    "moves": [
     "water-veil",
     "northern-impact",
-    "fire-blizzard"
+    "fire-blizzard",
+    "vanishing-cut"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -357,7 +364,8 @@
    "moves": [
     "flame-veil",
     "tatsumaki-senpuu",
-    "eagle-buster"
+    "eagle-buster",
+    "reflect-buster"
    ],
    "look": {
     "hair": "#c0302a",
@@ -388,7 +396,8 @@
    "moves": [
     "god-knows",
     "heaven-s-time",
-    "chaos-break"
+    "chaos-break",
+    "god-knows-impact"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -419,7 +428,8 @@
    "moves": [
     "dai-bakuhatsu-harite",
     "bakuretsu-punch",
-    "burnout"
+    "burnout",
+    "senpuujin"
    ],
    "look": {
     "hair": "#3a2a1a",

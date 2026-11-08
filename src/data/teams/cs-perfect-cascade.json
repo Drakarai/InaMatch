@@ -169,7 +169,8 @@
    "moves": [
     "muei-souha",
     "souhi-yuuseidan",
-    "muei-ranbu"
+    "muei-ranbu",
+    "southern-crosscut"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -296,7 +297,8 @@
    "moves": [
     "muei-souha",
     "souhi-yuuseidan",
-    "extend-zone"
+    "extend-zone",
+    "kuroshio-ride"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -424,7 +426,8 @@
    "moves": [
     "twin-mixer",
     "dokonjou-bat",
-    "mad-juggler"
+    "mad-juggler",
+    "ichiyajou"
    ],
    "look": {
     "hair": "#e98aa8",

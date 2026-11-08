@@ -300,7 +300,9 @@
    },
    "moves": [
     "inabikari-dash",
-    "shining-bird"
+    "shining-bird",
+    "fire-tornado",
+    "la-flamme"
    ],
    "look": {
     "hair": "#1d1410",

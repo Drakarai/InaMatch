@@ -42,7 +42,8 @@
    "moves": [
     "bat-attack",
     "crystal-barrier",
-    "kill-bridge"
+    "kill-bridge",
+    "ice-ground"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -72,7 +73,9 @@
    },
    "moves": [
     "elephant-press",
-    "killer-whale"
+    "killer-whale",
+    "zeroyon",
+    "flying-fish"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -103,7 +106,8 @@
    "moves": [
     "elephant-press",
     "dash-train",
-    "the-wall"
+    "the-wall",
+    "claymore"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -134,7 +138,8 @@
    "moves": [
     "elephant-press",
     "hunter-s-net",
-    "trick-ball"
+    "trick-ball",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#c0302a",
@@ -165,7 +170,8 @@
    "moves": [
     "thief-eye",
     "boomerang-feint",
-    "deep-mist"
+    "deep-mist",
+    "head-bazooka"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -196,7 +202,8 @@
    "moves": [
     "boomerang-feint",
     "head-bazooka",
-    "acrobat-keep"
+    "acrobat-keep",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -227,7 +234,8 @@
    "moves": [
     "boomerang-feint",
     "the-mist",
-    "round-spark"
+    "round-spark",
+    "flying-fish"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -258,7 +266,8 @@
    "moves": [
     "boomerang-feint",
     "bound-flame",
-    "air-bullet"
+    "air-bullet",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -321,7 +330,8 @@
    "moves": [
     "bound-flame",
     "boomerang-feint",
-    "maboroshi-shot"
+    "maboroshi-shot",
+    "the-mist"
    ],
    "look": {
     "hair": "#c0302a",
@@ -352,7 +362,8 @@
    "moves": [
     "bound-flame",
     "boomerang-feint",
-    "thousand-arrow"
+    "thousand-arrow",
+    "big-scissors"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -384,7 +395,8 @@
    "moves": [
     "burning-catch",
     "burning-summer",
-    "fence-of-gaia"
+    "fence-of-gaia",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#c0302a",
@@ -414,7 +426,9 @@
    },
    "moves": [
     "bound-flame",
-    "burning-summer"
+    "burning-summer",
+    "flying-fish",
+    "ice-ground"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -444,7 +458,9 @@
    },
    "moves": [
     "boomerang-feint",
-    "acrobat-keep"
+    "acrobat-keep",
+    "maboroshi-shot",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#d9822b",
@@ -475,7 +491,8 @@
    "moves": [
     "boomerang-feint",
     "spiral-draw",
-    "sprint-warp"
+    "sprint-warp",
+    "rocket-head"
    ],
    "look": {
     "hair": "#1d1410",
@@ -506,7 +523,8 @@
    "moves": [
     "thief-eye",
     "boomerang-feint",
-    "big-scissors"
+    "big-scissors",
+    "perfect-course"
    ],
    "look": {
     "hair": "#efe6c4",

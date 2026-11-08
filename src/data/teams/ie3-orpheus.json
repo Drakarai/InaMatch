@@ -44,7 +44,8 @@
    "moves": [
     "colosseo-guard",
     "earthquake",
-    "gigant-wall"
+    "gigant-wall",
+    "big-card"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -75,7 +76,8 @@
    "moves": [
     "shippuu-dash",
     "barbarian-no-tate",
-    "dash-storm"
+    "dash-storm",
+    "desert-storm"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -170,7 +172,8 @@
    "moves": [
     "block-circus",
     "moonsault",
-    "echo-ball"
+    "echo-ball",
+    "power-charge"
    ],
    "look": {
     "hair": "#1d1410",
@@ -265,7 +268,8 @@
    "moves": [
     "brave-shot",
     "block-circus",
-    "super-el-stico"
+    "super-el-stico",
+    "triple-dash"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -329,7 +333,8 @@
    "moves": [
     "odin-sword",
     "hitori-one-two",
-    "divine-arrow"
+    "divine-arrow",
+    "bunshin-defense"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -488,7 +493,8 @@
    "moves": [
     "hitori-one-two",
     "rainbow-loop",
-    "block-circus"
+    "block-circus",
+    "zanzou"
    ],
    "look": {
     "hair": "#c9ccd6",

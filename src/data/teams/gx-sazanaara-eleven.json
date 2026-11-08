@@ -44,7 +44,8 @@
    "moves": [
     "aqua-breath",
     "waterfall",
-    "rising-slash"
+    "rising-slash",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -75,7 +76,8 @@
    "moves": [
     "waterfall",
     "ice-ground",
-    "winning-logic"
+    "winning-logic",
+    "asoko-ni-ufo"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -138,7 +140,8 @@
    "moves": [
     "liquid-flow",
     "waterfall",
-    "bubble-boil"
+    "bubble-boil",
+    "jackknife"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -169,7 +172,8 @@
    "moves": [
     "liquid-flow",
     "waterfall",
-    "jackknife"
+    "jackknife",
+    "megalodon"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -201,7 +205,8 @@
    "moves": [
     "liquid-flow",
     "bubble-boil",
-    "ribbon-shower"
+    "ribbon-shower",
+    "good-smell"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -232,7 +237,8 @@
    "moves": [
     "liquid-flow",
     "bubble-boil",
-    "shinkuuma"
+    "shinkuuma",
+    "jackknife"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -327,7 +333,8 @@
    "moves": [
     "bubble-boil",
     "liquid-flow",
-    "panther-blizzard"
+    "panther-blizzard",
+    "senpuujin"
    ],
    "look": {
     "hair": "#6b3e1f",

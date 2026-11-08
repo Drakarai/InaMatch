@@ -140,7 +140,8 @@
    "moves": [
     "kage-nui",
     "toumei-feint",
-    "double-cyclone"
+    "double-cyclone",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#1d1410",
@@ -171,7 +172,8 @@
    "moves": [
     "maboroshi-dribble",
     "rainbow-loop",
-    "flame-dance"
+    "flame-dance",
+    "zigzag-flame"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -266,7 +268,8 @@
    "moves": [
     "double-grenade",
     "fake-bomber",
-    "jumping-thunder"
+    "jumping-thunder",
+    "naraku-otoshi"
    ],
    "look": {
     "hair": "#d9822b",
@@ -296,7 +299,9 @@
    },
    "moves": [
     "gaia-break",
-    "air-ride"
+    "air-ride",
+    "angel-ball",
+    "go-to-heaven"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -359,7 +364,8 @@
    "moves": [
     "double-jaw",
     "air-ride",
-    "dragon-crash"
+    "dragon-crash",
+    "demon-cut"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -390,7 +396,8 @@
    "moves": [
     "majin-the-hand-wood",
     "god-hand-x",
-    "mugen-the-hand"
+    "mugen-the-hand",
+    "asteroid-belt"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -421,7 +428,8 @@
    "moves": [
     "senpuujin",
     "spinning-shoot",
-    "capoeira-snatch"
+    "capoeira-snatch",
+    "zigzag-flame"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -516,7 +524,8 @@
    "moves": [
     "tsunami-boost",
     "volcano-cut",
-    "water-veil"
+    "water-veil",
+    "twin-boost"
    ],
    "look": {
     "hair": "#5a3a7a",

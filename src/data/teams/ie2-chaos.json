@@ -36,7 +36,10 @@
     "guts": 60
    },
    "moves": [
-    "burnout"
+    "burnout",
+    "nekketsu-punch",
+    "fake-bomber",
+    "ignite-steal"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -66,7 +69,10 @@
     "guts": 71
    },
    "moves": [
-    "ignite-steal"
+    "ignite-steal",
+    "super-scan-df",
+    "super-scan-of",
+    "zigzag-flame"
    ],
    "look": {
     "hair": "#d9822b",
@@ -95,7 +101,10 @@
     "guts": 68
    },
    "moves": [
-    "frozen-steal"
+    "frozen-steal",
+    "photon-flash",
+    "water-veil",
+    "wormhole"
    ],
    "look": {
     "hair": "#c0302a",
@@ -124,7 +133,10 @@
     "guts": 63
    },
    "moves": [
-    "frozen-steal"
+    "frozen-steal",
+    "planet-shield",
+    "roadroller-tackle",
+    "shikofumi"
    ],
    "look": {
     "hair": "#d9822b",
@@ -155,7 +167,8 @@
    "moves": [
     "atomic-flare",
     "flame-veil",
-    "ignite-steal"
+    "ignite-steal",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#1d1410",
@@ -184,7 +197,10 @@
     "guts": 61
    },
    "moves": [
-    "water-veil"
+    "water-veil",
+    "shippuu-dash",
+    "universe-blast",
+    "quick-draw"
    ],
    "look": {
     "hair": "#1d1410",
@@ -214,7 +230,9 @@
    },
    "moves": [
     "northern-impact",
-    "water-veil"
+    "water-veil",
+    "lightning-accel",
+    "jumping-thunder"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -243,7 +261,10 @@
     "guts": 65
    },
    "moves": [
-    "ignite-steal"
+    "ignite-steal",
+    "super-armadillo",
+    "fake-bomber",
+    "jibashiri-kaen"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -273,7 +294,9 @@
    },
    "moves": [
     "gaia-break",
-    "meteor-shower"
+    "meteor-shower",
+    "twin-boost-f",
+    "beast-fang"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -303,7 +326,9 @@
    },
    "moves": [
     "fire-blizzard",
-    "water-veil"
+    "water-veil",
+    "northern-impact",
+    "vanishing-cut"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -333,7 +358,9 @@
    },
    "moves": [
     "fire-blizzard-fire",
-    "flame-veil"
+    "flame-veil",
+    "atomic-flare",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#3a6fb5",

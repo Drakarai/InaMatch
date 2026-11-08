@@ -42,7 +42,8 @@
    "moves": [
     "burai-hand",
     "twin-mixer",
-    "kill-bridge"
+    "kill-bridge",
+    "gorimuchuu"
    ],
    "look": {
     "hair": "#1d1410",
@@ -73,7 +74,8 @@
    "moves": [
     "air-bullet",
     "spark-edge-dribble",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "sparkle-wave"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -136,7 +138,8 @@
    "moves": [
     "spark-edge-dribble",
     "the-tower",
-    "southern-crosscut"
+    "southern-crosscut",
+    "spring-arrow"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -199,7 +202,8 @@
    "moves": [
     "endless-summer",
     "big-scissors",
-    "claymore"
+    "claymore",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -230,7 +234,8 @@
    "moves": [
     "southern-crosscut",
     "wonder-trap",
-    "olympus-harmony"
+    "olympus-harmony",
+    "spring-arrow"
    ],
    "look": {
     "hair": "#3a6fb5",

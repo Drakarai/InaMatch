@@ -38,7 +38,8 @@
    "moves": [
     "chabudai-gaeshi",
     "tsunami-wall",
-    "wild-claw"
+    "wild-claw",
+    "flame-dance"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -133,7 +134,8 @@
    "moves": [
     "tsunami-boost",
     "spinning-cut",
-    "whale-guard"
+    "whale-guard",
+    "kuroshio-ride"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -261,7 +263,8 @@
    "moves": [
     "fuusen-gum",
     "flame-dance",
-    "armadillo-circus"
+    "armadillo-circus",
+    "dokonjou-bat"
    ],
    "look": {
     "hair": "#c0302a",

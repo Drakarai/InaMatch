@@ -44,7 +44,8 @@
    "moves": [
     "reverse-world",
     "excellent-breast",
-    "rebound-layer"
+    "rebound-layer",
+    "spinning-cut"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -107,7 +108,8 @@
    "moves": [
     "fractal-house",
     "dual-storm",
-    "deep-jungle"
+    "deep-jungle",
+    "meteor-shower"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -138,7 +140,8 @@
    "moves": [
     "magical-flower",
     "dual-storm",
-    "sky-walk"
+    "sky-walk",
+    "butterfly-dream"
    ],
    "look": {
     "hair": "#d9822b",
@@ -201,7 +204,8 @@
    "moves": [
     "storm-zone",
     "extreme-rabbit",
-    "shellbit-burst"
+    "shellbit-burst",
+    "matador-feint"
    ],
    "look": {
     "hair": "#d9822b",
@@ -296,7 +300,8 @@
    "moves": [
     "dinosaur-break",
     "grand-sweeper",
-    "scissors-bomb"
+    "scissors-bomb",
+    "ou-no-tsurugi"
    ],
    "look": {
     "hair": "#d9822b",
@@ -327,7 +332,8 @@
    "moves": [
     "great-blaster",
     "panther-blizzard",
-    "kazaana-drive"
+    "kazaana-drive",
+    "air-bullet"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -358,7 +364,8 @@
    "moves": [
     "extreme-rabbit",
     "kazaana-drive",
-    "shellbit-burst"
+    "shellbit-burst",
+    "frozen-steal"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -390,7 +397,8 @@
    "moves": [
     "sky-walk",
     "fractal-house",
-    "magical-flower"
+    "magical-flower",
+    "megaton-head"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -453,7 +461,8 @@
    "moves": [
     "deep-mist",
     "sky-walk",
-    "extreme-rabbit"
+    "extreme-rabbit",
+    "ninin-sankyaku"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -484,7 +493,8 @@
    "moves": [
     "great-blaster",
     "air-bullet",
-    "plasma-ball"
+    "plasma-ball",
+    "sky-walk"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -515,7 +525,8 @@
    "moves": [
     "reverse-world",
     "sand-cutter",
-    "excellent-breast"
+    "excellent-breast",
+    "super-shikofumi"
    ],
    "look": {
     "hair": "#c0302a",

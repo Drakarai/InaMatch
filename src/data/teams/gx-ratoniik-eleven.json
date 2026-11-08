@@ -43,7 +43,9 @@
    },
    "moves": [
     "big-mouth",
-    "tentacle-hold"
+    "tentacle-hold",
+    "wormhole",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -138,7 +140,8 @@
    "moves": [
     "mushroom-hop",
     "linear-drive",
-    "sneaking-raid"
+    "sneaking-raid",
+    "ivory-crash"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -201,7 +204,8 @@
    "moves": [
     "mushroom-hop",
     "tentacle-hold",
-    "good-smell"
+    "good-smell",
+    "liquid-flow"
    ],
    "look": {
     "hair": "#d9822b",
@@ -232,7 +236,8 @@
    "moves": [
     "gigant-vine",
     "mushroom-hop",
-    "tentacle-hold"
+    "tentacle-hold",
+    "jackknife"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -391,7 +396,9 @@
    },
    "moves": [
     "transmove",
-    "dragon-crash"
+    "dragon-crash",
+    "bouncer-rabbit",
+    "killer-slide"
    ],
    "look": {
     "hair": "#e98aa8",

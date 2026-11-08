@@ -38,7 +38,8 @@
    "moves": [
     "black-hole",
     "earthquake",
-    "drill-smasher"
+    "drill-smasher",
+    "judge-through"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -101,7 +102,8 @@
    "moves": [
     "gravitation",
     "super-shikofumi",
-    "warp-drive"
+    "warp-drive",
+    "dokonjou-bat"
    ],
    "look": {
     "hair": "#d9822b",

@@ -44,7 +44,8 @@
    "moves": [
     "rejection",
     "reverse-world",
-    "destiny-cloud"
+    "destiny-cloud",
+    "earthquake"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -524,7 +525,8 @@
    "moves": [
     "rejection",
     "destiny-cloud",
-    "reverse-world"
+    "reverse-world",
+    "flame-dance"
    ],
    "look": {
     "hair": "#1d1410",

@@ -43,7 +43,8 @@
    "moves": [
     "fence-of-gaia",
     "ballista-shot",
-    "serpent-fang"
+    "serpent-fang",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -73,7 +74,9 @@
    },
    "moves": [
     "zeroyon",
-    "deep-mist"
+    "deep-mist",
+    "killer-whale",
+    "flying-fish"
    ],
    "look": {
     "hair": "#c0302a",
@@ -104,7 +107,8 @@
    "moves": [
     "the-mist",
     "claymore",
-    "vanishing-cut"
+    "vanishing-cut",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -167,7 +171,8 @@
    "moves": [
     "presto-turn",
     "the-mist",
-    "ice-ground"
+    "ice-ground",
+    "perfect-course"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -198,7 +203,8 @@
    "moves": [
     "claymore",
     "melody-wave",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -260,7 +266,9 @@
    },
    "moves": [
     "melody-wave",
-    "vanishing-cut"
+    "vanishing-cut",
+    "nobori-ryuu",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -291,7 +299,8 @@
    "moves": [
     "britannia-cross",
     "maboroshi-shot",
-    "melody-wave"
+    "melody-wave",
+    "elephant-press"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -354,7 +363,8 @@
    "moves": [
     "panther-blizzard",
     "endless-summer",
-    "extend-zone"
+    "extend-zone",
+    "the-wall"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -385,7 +395,8 @@
    "moves": [
     "eternal-blizzard",
     "dimension-cut",
-    "extend-zone"
+    "extend-zone",
+    "fuujin-no-mai"
    ],
    "look": {
     "hair": "#d9822b",
@@ -449,7 +460,8 @@
    "moves": [
     "viva-banri-no-choujou",
     "rocket-head",
-    "ryuusei-blade"
+    "ryuusei-blade",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#6b3e1f",

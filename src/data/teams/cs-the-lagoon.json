@@ -45,7 +45,8 @@
    "moves": [
     "reverse-world",
     "twin-mixer",
-    "burai-hand"
+    "burai-hand",
+    "gorimuchuu"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -140,7 +141,8 @@
    "moves": [
     "grand-sweeper",
     "senpuujin",
-    "zeroyon"
+    "zeroyon",
+    "sparkle-wave"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -396,7 +398,8 @@
    "moves": [
     "storm-zone",
     "transmove",
-    "spring-arrow"
+    "spring-arrow",
+    "magnet-draw"
    ],
    "look": {
     "hair": "#5a3a7a",

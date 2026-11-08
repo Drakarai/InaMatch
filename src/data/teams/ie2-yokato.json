@@ -75,7 +75,8 @@
    "moves": [
     "block-circus",
     "coil-turn",
-    "oouchiwa"
+    "oouchiwa",
+    "back-tornado"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -330,7 +331,8 @@
    "moves": [
     "shikofumi",
     "oouchiwa",
-    "super-shikofumi"
+    "super-shikofumi",
+    "kurukuru-head"
    ],
    "look": {
     "hair": "#d9822b",
@@ -361,7 +363,8 @@
    "moves": [
     "rainbow-loop",
     "ninin-sankyaku",
-    "dynamite-shoot"
+    "dynamite-shoot",
+    "good-smell"
    ],
    "look": {
     "hair": "#e98aa8",

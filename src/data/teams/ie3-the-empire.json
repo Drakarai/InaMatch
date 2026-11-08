@@ -76,7 +76,8 @@
    "moves": [
     "zigzag-flame",
     "iron-wall",
-    "ignite-steal"
+    "ignite-steal",
+    "liar-shot"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -332,7 +333,8 @@
    "moves": [
     "hellfire",
     "condor-dive",
-    "eagle-buster"
+    "eagle-buster",
+    "reppuu-dash"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -363,7 +365,8 @@
    "moves": [
     "hellfire",
     "oouchiwa",
-    "eagle-buster"
+    "eagle-buster",
+    "barbarian-no-tate"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -522,7 +525,8 @@
    "moves": [
     "kurukuru-head",
     "eagle-buster",
-    "dual-strike"
+    "dual-strike",
+    "mogura-shuffle"
    ],
    "look": {
     "hair": "#6b3e1f",

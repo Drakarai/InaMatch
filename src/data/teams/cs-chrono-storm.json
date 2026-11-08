@@ -40,7 +40,9 @@
    },
    "moves": [
     "buttobi-punch",
-    "taikoku-ouka"
+    "taikoku-ouka",
+    "kattobi-defense",
+    "sky-walk"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -70,7 +72,9 @@
    },
    "moves": [
     "the-mist",
-    "la-flamme"
+    "la-flamme",
+    "southern-crosscut",
+    "deep-mist"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -100,7 +104,9 @@
    },
    "moves": [
     "deep-jungle",
-    "kodai-no-tsubasa"
+    "kodai-no-tsubasa",
+    "acrobat-keep",
+    "elephant-press"
    ],
    "look": {
     "hair": "#1d1410",
@@ -131,7 +137,8 @@
    "moves": [
     "kirakira-illusion",
     "mochimochi-kinako-mochi",
-    "fire-tornado-tc"
+    "fire-tornado-tc",
+    "sky-walk"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -162,7 +169,8 @@
    "moves": [
     "mach-wind",
     "ou-no-tsurugi",
-    "saikyou-eleven-hadou"
+    "saikyou-eleven-hadou",
+    "aggressive-beat"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -193,7 +201,9 @@
    },
    "moves": [
     "fortissimo",
-    "setsuna-boost"
+    "setsuna-boost",
+    "presto-turn",
+    "olympus-harmony"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -223,7 +233,9 @@
    },
    "moves": [
     "acrobat-keep",
-    "kuroshio-ride"
+    "kuroshio-ride",
+    "denrai-houtou",
+    "ichiyajou"
    ],
    "look": {
     "hair": "#1d1410",
@@ -253,7 +265,9 @@
    },
    "moves": [
     "atomic-flare",
-    "tenchi-raimei"
+    "tenchi-raimei",
+    "spark-edge-dribble",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#c0302a",
@@ -283,7 +297,9 @@
    },
    "moves": [
     "bouncer-rabbit",
-    "ouja-no-kiba"
+    "ouja-no-kiba",
+    "sky-walk",
+    "air-bullet"
    ],
    "look": {
     "hair": "#1d1410",
@@ -313,7 +329,9 @@
    },
    "moves": [
     "white-hurricane",
-    "tenchi-raimei"
+    "tenchi-raimei",
+    "sprint-warp",
+    "air-bullet"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -343,7 +361,9 @@
    },
    "moves": [
     "disaster-break",
-    "great-max-na-ore"
+    "great-max-na-ore",
+    "bungee-thrust",
+    "screwdriver"
    ],
    "look": {
     "hair": "#c0302a",
@@ -373,7 +393,9 @@
    },
    "moves": [
     "death-sword",
-    "kiku-ichimonji"
+    "kiku-ichimonji",
+    "death-drop",
+    "fire-tornado-dd"
    ],
    "look": {
     "hair": "#4c8a3c",

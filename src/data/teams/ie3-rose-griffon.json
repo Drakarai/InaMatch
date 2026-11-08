@@ -42,7 +42,8 @@
    "moves": [
     "stinger",
     "galatyn",
-    "god-catch"
+    "god-catch",
+    "asteroid-belt"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -170,7 +171,8 @@
    "moves": [
     "lightning-accel",
     "tiger-drive",
-    "zigzag-flame"
+    "zigzag-flame",
+    "flame-dance"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -233,7 +235,8 @@
    "moves": [
     "eiffel-drive",
     "photon-flash",
-    "tri-pegasus"
+    "tri-pegasus",
+    "dash-storm"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -296,7 +299,8 @@
    "moves": [
     "rose-splash",
     "photon-flash",
-    "tri-pegasus"
+    "tri-pegasus",
+    "scissors-bomb"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -327,7 +331,8 @@
    "moves": [
     "illusion-ball",
     "eiffel-drive",
-    "double-jaw"
+    "double-jaw",
+    "sabaki-no-tettsui"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -454,7 +459,8 @@
    "moves": [
     "fake-bomber",
     "illusion-ball",
-    "demon-cut"
+    "demon-cut",
+    "tkachev-bomber"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -485,7 +491,8 @@
    "moves": [
     "illusion-ball",
     "moonsault",
-    "heaven-s-time"
+    "heaven-s-time",
+    "tsunami-boost"
    ],
    "look": {
     "hair": "#5a3a7a",

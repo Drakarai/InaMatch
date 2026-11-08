@@ -41,7 +41,9 @@
    },
    "moves": [
     "rapid-whip",
-    "fence-of-gaia"
+    "fence-of-gaia",
+    "ice-ground",
+    "zeroyon"
    ],
    "look": {
     "hair": "#1d1410",
@@ -72,7 +74,8 @@
    "moves": [
     "presto-turn",
     "hunter-s-net",
-    "senpuujin"
+    "senpuujin",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -103,7 +106,8 @@
    "moves": [
     "burning-summer",
     "dash-train",
-    "round-spark"
+    "round-spark",
+    "twin-mixer"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -133,7 +137,9 @@
    },
    "moves": [
     "the-mist",
-    "sky-walk"
+    "sky-walk",
+    "hunter-s-net",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -164,7 +170,8 @@
    "moves": [
     "spiral-draw",
     "ryuusei-blade",
-    "star-reflection"
+    "star-reflection",
+    "ice-ground"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -195,7 +202,8 @@
    "moves": [
     "thief-eye",
     "presto-turn",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "trick-ball"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -225,7 +233,9 @@
    },
    "moves": [
     "soyokaze-step",
-    "acrobat-keep"
+    "acrobat-keep",
+    "sidewinder",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -256,7 +266,8 @@
    "moves": [
     "boomerang-feint",
     "buttobi-jump",
-    "sky-walk"
+    "sky-walk",
+    "elephant-press"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -287,7 +298,8 @@
    "moves": [
     "fuujin-no-mai",
     "white-blade",
-    "air-bullet"
+    "air-bullet",
+    "koutei-penguin-7"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -319,7 +331,8 @@
    "moves": [
     "head-bazooka",
     "dash-train",
-    "triangle-zz"
+    "triangle-zz",
+    "burning-summer"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -350,7 +363,8 @@
    "moves": [
     "bound-flame",
     "britannia-cross",
-    "ryuusei-blade"
+    "ryuusei-blade",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -380,7 +394,9 @@
    },
    "moves": [
     "god-hand",
-    "rapid-whip"
+    "rapid-whip",
+    "viva-banri-no-choujou",
+    "boomerang-feint"
    ],
    "look": {
     "hair": "#d9822b",
@@ -410,7 +426,9 @@
    },
    "moves": [
     "elephant-press",
-    "the-wall"
+    "the-wall",
+    "trick-ball",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -440,7 +458,9 @@
    },
    "moves": [
     "soyokaze-step",
-    "eternal-blizzard"
+    "eternal-blizzard",
+    "zeroyon",
+    "killer-whale"
    ],
    "look": {
     "hair": "#efe6c4",

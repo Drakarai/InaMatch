@@ -103,7 +103,8 @@
    "moves": [
     "maboroshi-dribble",
     "suisei-shoot",
-    "block-circus"
+    "block-circus",
+    "tamanori-pierrot"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -391,7 +392,8 @@
    "moves": [
     "quick-draw",
     "illusion-ball",
-    "dash-storm"
+    "dash-storm",
+    "spiral-shot"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -422,7 +424,8 @@
    "moves": [
     "shippuu-dash",
     "megane-crash",
-    "sigma-zone"
+    "sigma-zone",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#c9ccd6",

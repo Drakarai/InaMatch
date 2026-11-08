@@ -76,7 +76,8 @@
    "moves": [
     "unbalance-pisa",
     "rolling-slide",
-    "air-bullet"
+    "air-bullet",
+    "dash-storm"
    ],
    "look": {
     "hair": "#3a2a1a",

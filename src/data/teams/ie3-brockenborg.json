@@ -42,7 +42,8 @@
    "moves": [
     "shootrap",
     "sneaking-raid",
-    "stinger"
+    "stinger",
+    "echo-ball"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -73,7 +74,8 @@
    "moves": [
     "sneaking-raid",
     "stone-prison",
-    "koutei-penguin-x"
+    "koutei-penguin-x",
+    "judge-through-2"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -264,7 +266,8 @@
    "moves": [
     "shippuu-dash",
     "lightning-accel",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "sabaki-no-tettsui"
    ],
    "look": {
     "hair": "#d9822b",
@@ -328,7 +331,8 @@
    "moves": [
     "u-boat",
     "dark-tornado",
-    "gladius-arch"
+    "gladius-arch",
+    "double-cyclone"
    ],
    "look": {
     "hair": "#c0302a",
@@ -359,7 +363,8 @@
    "moves": [
     "u-boat",
     "divine-arrow",
-    "cross-drive"
+    "cross-drive",
+    "sabaki-no-tettsui"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -454,7 +459,8 @@
    "moves": [
     "ganymede-proton",
     "sneaking-raid",
-    "koutei-penguin-1gou"
+    "koutei-penguin-1gou",
+    "matador-feint"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -517,7 +523,8 @@
    "moves": [
     "sneaking-raid",
     "power-charge",
-    "zigzag-flame"
+    "zigzag-flame",
+    "aurora-dribble"
    ],
    "look": {
     "hair": "#4c8a3c",

@@ -40,7 +40,9 @@
    },
    "moves": [
     "crystal-barrier",
-    "star-reflection"
+    "star-reflection",
+    "ice-ground",
+    "zeroyon"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -72,7 +74,8 @@
    "moves": [
     "ice-ground",
     "sargasso",
-    "atlantis-wall"
+    "atlantis-wall",
+    "zeroyon"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -103,7 +106,8 @@
    "moves": [
     "ice-ground",
     "fuujin-no-mai",
-    "eternal-blizzard"
+    "eternal-blizzard",
+    "atlantis-wall"
    ],
    "look": {
     "hair": "#1d1410",
@@ -134,7 +138,8 @@
    "moves": [
     "ice-ground",
     "killer-whale",
-    "claymore"
+    "claymore",
+    "perfect-course"
    ],
    "look": {
     "hair": "#c0302a",
@@ -165,7 +170,8 @@
    "moves": [
     "ice-ground",
     "illusion-ball",
-    "koutei-penguin-2gou"
+    "koutei-penguin-2gou",
+    "senpuujin"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -196,7 +202,8 @@
    "moves": [
     "white-blade",
     "ice-ground",
-    "shippuu-dash"
+    "shippuu-dash",
+    "rocket-head"
    ],
    "look": {
     "hair": "#1d1410",
@@ -226,7 +233,9 @@
    },
    "moves": [
     "white-blade",
-    "koutei-penguin-7"
+    "koutei-penguin-7",
+    "britannia-cross",
+    "crazy-sunlight"
    ],
    "look": {
     "hair": "#d9822b",
@@ -289,7 +298,8 @@
    "moves": [
     "white-blade",
     "flying-fish",
-    "killer-whale"
+    "killer-whale",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -320,7 +330,8 @@
    "moves": [
     "white-blade",
     "buttobi-jump",
-    "senpuujin"
+    "senpuujin",
+    "nobori-ryuu"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -351,7 +362,8 @@
    "moves": [
     "panther-blizzard",
     "white-blade",
-    "sprint-warp"
+    "sprint-warp",
+    "eternal-blizzard"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -382,7 +394,8 @@
    "moves": [
     "eternal-blizzard",
     "ice-ground",
-    "sprint-warp"
+    "sprint-warp",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -412,7 +425,9 @@
    },
    "moves": [
     "boomerang-feint",
-    "crystal-barrier"
+    "crystal-barrier",
+    "fence-of-gaia",
+    "the-wall"
    ],
    "look": {
     "hair": "#1d1410",
@@ -443,7 +458,8 @@
    "moves": [
     "white-blade",
     "the-mist",
-    "spiral-draw"
+    "spiral-draw",
+    "denrai-houtou"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -473,7 +489,9 @@
    },
    "moves": [
     "the-mist",
-    "white-blade"
+    "white-blade",
+    "zeroyon",
+    "flying-fish"
    ],
    "look": {
     "hair": "#3a6fb5",

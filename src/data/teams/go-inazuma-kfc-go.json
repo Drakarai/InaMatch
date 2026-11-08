@@ -41,7 +41,9 @@
    },
    "moves": [
     "burning-catch",
-    "god-hand"
+    "god-hand",
+    "dash-train",
+    "mad-juggler"
    ],
    "look": {
     "hair": "#1d1410",
@@ -71,7 +73,9 @@
    },
    "moves": [
     "elephant-press",
-    "the-wall"
+    "the-wall",
+    "claymore",
+    "denrai-houtou"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -101,7 +105,9 @@
    },
    "moves": [
     "hunter-s-net",
-    "shippuu-dash"
+    "shippuu-dash",
+    "the-mist",
+    "perfect-course"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -131,7 +137,9 @@
    },
    "moves": [
     "dash-train",
-    "elephant-press"
+    "elephant-press",
+    "zeroyon",
+    "flying-fish"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -161,7 +169,9 @@
    },
    "moves": [
     "spiral-draw",
-    "illusion-ball"
+    "illusion-ball",
+    "the-mist",
+    "perfect-course"
    ],
    "look": {
     "hair": "#c0302a",
@@ -191,7 +201,9 @@
    },
    "moves": [
     "burning-summer",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "rocket-head",
+    "big-scissors"
    ],
    "look": {
     "hair": "#c0302a",
@@ -221,7 +233,9 @@
    },
    "moves": [
     "naminori-pierrot",
-    "sprint-warp"
+    "sprint-warp",
+    "maboroshi-shot",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -253,7 +267,8 @@
    "moves": [
     "soyokaze-step",
     "boomerang-feint",
-    "acrobat-keep"
+    "acrobat-keep",
+    "sidewinder"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -283,7 +298,9 @@
    },
    "moves": [
     "naminori-pierrot",
-    "white-blade"
+    "white-blade",
+    "flying-fish",
+    "killer-whale"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -313,7 +330,9 @@
    },
    "moves": [
     "head-bazooka",
-    "ryuusei-blade"
+    "ryuusei-blade",
+    "endless-summer",
+    "big-scissors"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -344,7 +363,8 @@
    "moves": [
     "perfect-course",
     "bound-flame",
-    "death-drop"
+    "death-drop",
+    "burning-summer"
    ],
    "look": {
     "hair": "#1d1410",
@@ -375,7 +395,8 @@
    "moves": [
     "rapid-whip",
     "bat-attack",
-    "star-reflection"
+    "star-reflection",
+    "the-mist"
    ],
    "look": {
     "hair": "#d9822b",
@@ -405,7 +426,9 @@
    },
    "moves": [
     "spiral-draw",
-    "the-wall"
+    "the-wall",
+    "boomerang-feint",
+    "sidewinder"
    ],
    "look": {
     "hair": "#c0302a",
@@ -435,7 +458,9 @@
    },
    "moves": [
     "boomerang-feint",
-    "the-mist"
+    "the-mist",
+    "claymore",
+    "sidewinder"
    ],
    "look": {
     "hair": "#c0302a",
@@ -465,7 +490,9 @@
    },
    "moves": [
     "perfect-course",
-    "buttobi-jump"
+    "buttobi-jump",
+    "illusion-ball",
+    "the-mist"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -495,7 +522,9 @@
    },
    "moves": [
     "thief-eye",
-    "olympus-harmony"
+    "olympus-harmony",
+    "killer-whale",
+    "flying-fish"
    ],
    "look": {
     "hair": "#d9822b",

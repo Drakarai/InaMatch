@@ -75,7 +75,8 @@
    "moves": [
     "the-mist",
     "claymore",
-    "vanishing-cut"
+    "vanishing-cut",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -170,7 +171,8 @@
    "moves": [
     "viva-banri-no-choujou",
     "rocket-head",
-    "ryuusei-blade"
+    "ryuusei-blade",
+    "hunter-s-net"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -264,7 +266,9 @@
    },
    "moves": [
     "melody-wave",
-    "vanishing-cut"
+    "vanishing-cut",
+    "nobori-ryuu",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -295,7 +299,8 @@
    "moves": [
     "killer-whale",
     "claymore",
-    "trick-ball"
+    "trick-ball",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -326,7 +331,8 @@
    "moves": [
     "panther-blizzard",
     "ryuusei-blade",
-    "extend-zone"
+    "extend-zone",
+    "fuujin-no-mai"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -357,7 +363,8 @@
    "moves": [
     "panther-blizzard",
     "endless-summer",
-    "extend-zone"
+    "extend-zone",
+    "the-wall"
    ],
    "look": {
     "hair": "#e98aa8",

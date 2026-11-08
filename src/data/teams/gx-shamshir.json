@@ -44,7 +44,8 @@
    "moves": [
     "dry-blow",
     "doon-shout",
-    "gigant-wall"
+    "gigant-wall",
+    "footwork-draw"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -107,7 +108,8 @@
    "moves": [
     "desert-storm",
     "dry-blow",
-    "footwork-draw"
+    "footwork-draw",
+    "magma-carpet"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -138,7 +140,8 @@
    "moves": [
     "desert-storm",
     "desert-drift",
-    "twin-mixer"
+    "twin-mixer",
+    "gold-fever"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -169,7 +172,8 @@
    "moves": [
     "desert-storm",
     "senpuujin",
-    "presto-turn"
+    "presto-turn",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -200,7 +204,8 @@
    "moves": [
     "desert-drift",
     "oil-rush",
-    "big-scissors"
+    "big-scissors",
+    "silk-road"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -231,7 +236,8 @@
    "moves": [
     "desert-drift",
     "desert-storm",
-    "oil-rush"
+    "oil-rush",
+    "kangaroo-kick"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -262,7 +268,8 @@
    "moves": [
     "desert-drift",
     "dragon-s-tail",
-    "hunter-s-net"
+    "hunter-s-net",
+    "kangaroo-kick"
    ],
    "look": {
     "hair": "#1d1410",
@@ -325,7 +332,8 @@
    "moves": [
     "oil-rush",
     "bungee-thrust",
-    "thousand-arrow"
+    "thousand-arrow",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -357,7 +365,8 @@
    "moves": [
     "oil-rush",
     "zeroyon",
-    "parkour-attack"
+    "parkour-attack",
+    "the-tower"
    ],
    "look": {
     "hair": "#efe6c4",

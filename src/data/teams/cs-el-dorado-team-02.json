@@ -43,7 +43,8 @@
    "moves": [
     "gyro-saving",
     "wormhole",
-    "kill-bridge"
+    "kill-bridge",
+    "sargasso"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -74,7 +75,8 @@
    "moves": [
     "viva-banri-no-choujou",
     "elephant-press",
-    "atlantis-wall"
+    "atlantis-wall",
+    "mogura-feint"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -105,7 +107,8 @@
    "moves": [
     "coil-upper",
     "burning-summer",
-    "magnet-draw"
+    "magnet-draw",
+    "perfect-course"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -136,7 +139,8 @@
    "moves": [
     "magnet-draw",
     "burning-summer",
-    "screwdriver"
+    "screwdriver",
+    "rocket-head"
    ],
    "look": {
     "hair": "#c9ccd6",
@@ -167,7 +171,8 @@
    "moves": [
     "spinning-upper",
     "twin-mixer",
-    "love-arrow"
+    "love-arrow",
+    "burning-summer"
    ],
    "look": {
     "hair": "#1d1410",
@@ -231,7 +236,8 @@
    "moves": [
     "gamma-strike",
     "all-delete",
-    "omega-attack"
+    "omega-attack",
+    "deep-jungle"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -262,7 +268,8 @@
    "moves": [
     "hunter-s-net",
     "claymore",
-    "dimension-cut"
+    "dimension-cut",
+    "illusion-ball"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -293,7 +300,8 @@
    "moves": [
     "disaster-break",
     "bungee-thrust",
-    "screwdriver"
+    "screwdriver",
+    "great-max-na-ore"
    ],
    "look": {
     "hair": "#c0302a",
@@ -356,7 +364,8 @@
    "moves": [
     "double-shot",
     "spinning-upper",
-    "omega-attack"
+    "omega-attack",
+    "air-bullet"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -387,7 +396,8 @@
    "moves": [
     "god-hand",
     "penguin-the-hand",
-    "god-hand-v"
+    "god-hand-v",
+    "okehazama-wall"
    ],
    "look": {
     "hair": "#1d1410",
@@ -418,7 +428,8 @@
    "moves": [
     "gauss-shot",
     "plasma-ball",
-    "spring-arrow"
+    "spring-arrow",
+    "melody-wave"
    ],
    "look": {
     "hair": "#3a6fb5",

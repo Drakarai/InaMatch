@@ -47,7 +47,8 @@
    "moves": [
     "sacrifice",
     "star-reflection",
-    "aqua-breath"
+    "aqua-breath",
+    "the-tower"
    ],
    "look": {
     "hair": "#1d1410",
@@ -78,7 +79,8 @@
    "moves": [
     "fatal-lift",
     "zeroyon",
-    "desert-storm"
+    "desert-storm",
+    "dead-straight"
    ],
    "look": {
     "hair": "#efe6c4",
@@ -237,7 +239,8 @@
    "moves": [
     "psychic-bow",
     "ganymede-proton",
-    "storm-zone"
+    "storm-zone",
+    "tentacle-hold"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -300,7 +303,8 @@
    "moves": [
     "psychic-bow",
     "shinkuuma",
-    "round-spark"
+    "round-spark",
+    "kazangan"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -331,7 +335,8 @@
    "moves": [
     "psychic-bow",
     "konoha-roll",
-    "jackknife"
+    "jackknife",
+    "gigant-vine"
    ],
    "look": {
     "hair": "#d9822b",

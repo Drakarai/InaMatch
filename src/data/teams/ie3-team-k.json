@@ -172,7 +172,8 @@
    "moves": [
     "killer-slide",
     "kamaitachi",
-    "demon-cut"
+    "demon-cut",
+    "megalodon"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -235,7 +236,8 @@
    "moves": [
     "judge-through",
     "bunshin-defense",
-    "heavy-baby"
+    "heavy-baby",
+    "echo-ball"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -329,7 +331,9 @@
    },
    "moves": [
     "meteor-shower",
-    "death-zone"
+    "death-zone",
+    "divine-arrow",
+    "double-cyclone"
    ],
    "look": {
     "hair": "#efe6c4",

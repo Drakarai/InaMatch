@@ -42,7 +42,8 @@
    "moves": [
     "flash-upper",
     "rocket-kobushi",
-    "gunshot"
+    "gunshot",
+    "nekketsu-punch"
    ],
    "look": {
     "hair": "#d9822b",
@@ -169,7 +170,8 @@
    "moves": [
     "the-ikaros",
     "volcano-cut",
-    "back-tornado"
+    "back-tornado",
+    "killer-slide"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -232,7 +234,8 @@
    "moves": [
     "illusion-ball",
     "flame-dance",
-    "pegasus-shot"
+    "pegasus-shot",
+    "spinning-shoot"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -263,7 +266,8 @@
    "moves": [
     "zigzag-spark",
     "freeze-shot",
-    "pegasus-shot"
+    "pegasus-shot",
+    "dog-run"
    ],
    "look": {
     "hair": "#c0302a",
@@ -294,7 +298,8 @@
    "moves": [
     "gran-fenrir",
     "the-ikaros",
-    "tri-pegasus"
+    "tri-pegasus",
+    "unicorn-boost"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -326,7 +331,8 @@
    "moves": [
     "unicorn-boost",
     "fuusen-gum",
-    "revolution-v"
+    "revolution-v",
+    "gran-fenrir"
    ],
    "look": {
     "hair": "#3a6fb5",
@@ -421,7 +427,8 @@
    "moves": [
     "tkachev-bomber",
     "blade-attack",
-    "power-charge"
+    "power-charge",
+    "patriot-shoot"
    ],
    "look": {
     "hair": "#1d1410",
@@ -452,7 +459,8 @@
    "moves": [
     "fuusen-gum",
     "blade-attack",
-    "mugen-no-kabe"
+    "mugen-no-kabe",
+    "fake-ball"
    ],
    "look": {
     "hair": "#5a3a7a",

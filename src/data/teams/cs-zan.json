@@ -78,7 +78,8 @@
    "moves": [
     "twin-mixer",
     "burning-summer",
-    "crazy-sunlight"
+    "crazy-sunlight",
+    "rocket-head"
    ],
    "look": {
     "hair": "#1d1410",
@@ -109,7 +110,8 @@
    "moves": [
     "killer-slide",
     "mad-juggler",
-    "hunter-s-net"
+    "hunter-s-net",
+    "perfect-course"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -140,7 +142,8 @@
    "moves": [
     "elephant-press",
     "big-scissors",
-    "shinkuuma"
+    "shinkuuma",
+    "mogura-feint"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -171,7 +174,8 @@
    "moves": [
     "decoy-release",
     "claymore",
-    "nobori-ryuu"
+    "nobori-ryuu",
+    "buttobi-jump"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -202,7 +206,8 @@
    "moves": [
     "decoy-release",
     "shippuu-dash",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "god-wind"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -361,7 +366,8 @@
    "moves": [
     "disaster-break",
     "bungee-thrust",
-    "screwdriver"
+    "screwdriver",
+    "great-max-na-ore"
    ],
    "look": {
     "hair": "#c0302a",
@@ -457,7 +463,8 @@
    "moves": [
     "shippuu-dash",
     "decoy-release",
-    "fuujin-no-mai"
+    "fuujin-no-mai",
+    "god-wind"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -488,7 +495,8 @@
    "moves": [
     "fire-tornado",
     "bakunetsu-screw",
-    "fire-tornado-dd"
+    "fire-tornado-dd",
+    "britannia-cross"
    ],
    "look": {
     "hair": "#8b5a2b",

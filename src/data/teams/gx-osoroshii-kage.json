@@ -37,7 +37,9 @@
    },
    "moves": [
     "wormhole",
-    "gyro-saving"
+    "gyro-saving",
+    "the-tower",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -67,7 +69,9 @@
    },
    "moves": [
     "death-scythe-middle",
-    "rolling-cutter"
+    "rolling-cutter",
+    "asoko-ni-ufo",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -97,7 +101,9 @@
    },
    "moves": [
     "blitz-bridge",
-    "sneaking-raid"
+    "sneaking-raid",
+    "asoko-ni-ufo",
+    "ganymede-proton"
    ],
    "look": {
     "hair": "#1d1410",
@@ -127,7 +133,9 @@
    },
    "moves": [
     "willy-willy",
-    "dig-up"
+    "dig-up",
+    "dig-through",
+    "dust-javelin"
    ],
    "look": {
     "hair": "#1d1410",
@@ -157,7 +165,9 @@
    },
    "moves": [
     "spinning-cut",
-    "winning-logic"
+    "winning-logic",
+    "ribbon-shower",
+    "dead-straight"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -187,7 +197,9 @@
    },
    "moves": [
     "desert-drift",
-    "magma-carpet"
+    "magma-carpet",
+    "gold-fever",
+    "elephant-press"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -217,7 +229,9 @@
    },
    "moves": [
     "bungee-thrust",
-    "dig-through"
+    "dig-through",
+    "gold-fever",
+    "elephant-press"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -247,7 +261,9 @@
    },
    "moves": [
     "air-ride",
-    "asoko-ni-ufo"
+    "asoko-ni-ufo",
+    "bubble-boil",
+    "shinkuuma"
    ],
    "look": {
     "hair": "#c0302a",
@@ -277,7 +293,9 @@
    },
    "moves": [
     "trick-ball",
-    "liquid-flow"
+    "liquid-flow",
+    "megalodon",
+    "desert-storm"
    ],
    "look": {
     "hair": "#1d1410",
@@ -307,7 +325,9 @@
    },
    "moves": [
     "bicycle-sword",
-    "souhi-yuuseidan"
+    "souhi-yuuseidan",
+    "atlas-sword",
+    "kattobi-defense"
    ],
    "look": {
     "hair": "#8b5a2b",
@@ -337,7 +357,9 @@
    },
    "moves": [
     "spring-arrow",
-    "double-shot"
+    "double-shot",
+    "storm-zone",
+    "sneaking-raid"
    ],
    "look": {
     "hair": "#3a2a1a",

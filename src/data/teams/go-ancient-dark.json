@@ -39,7 +39,9 @@
    },
    "moves": [
     "kill-bridge",
-    "counterdrive-gk"
+    "counterdrive-gk",
+    "big-scissors",
+    "burning-summer"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -70,7 +72,8 @@
    "moves": [
     "vanishing-cut",
     "elephant-press",
-    "big-scissors"
+    "big-scissors",
+    "trick-ball"
    ],
    "look": {
     "hair": "#1d1410",
@@ -101,7 +104,8 @@
    "moves": [
     "vanishing-cut",
     "mad-juggler",
-    "twin-mixer"
+    "twin-mixer",
+    "flying-fish"
    ],
    "look": {
     "hair": "#d9822b",
@@ -164,7 +168,8 @@
    "moves": [
     "dimension-cut",
     "claymore",
-    "vanishing-cut"
+    "vanishing-cut",
+    "maboroshi-shot"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -195,7 +200,8 @@
    "moves": [
     "maboroshi-shot",
     "melody-wave",
-    "ballista-shot"
+    "ballista-shot",
+    "nobori-ryuu"
    ],
    "look": {
     "hair": "#3a2a1a",
@@ -226,7 +232,8 @@
    "moves": [
     "sprint-warp",
     "viva-banri-no-choujou",
-    "air-bullet"
+    "air-bullet",
+    "white-blade"
    ],
    "look": {
     "hair": "#e98aa8",
@@ -289,7 +296,8 @@
    "moves": [
     "maboroshi-shot",
     "claymore",
-    "thousand-arrow"
+    "thousand-arrow",
+    "trick-ball"
    ],
    "look": {
     "hair": "#e98aa8",

@@ -74,7 +74,8 @@
    "moves": [
     "shinkuuma",
     "boomerang-feint",
-    "okehazama-wall"
+    "okehazama-wall",
+    "sidewinder"
    ],
    "look": {
     "hair": "#1d1410",
@@ -105,7 +106,8 @@
    "moves": [
     "sargasso",
     "senpuujin",
-    "air-bullet"
+    "air-bullet",
+    "kazaana-drive"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -136,7 +138,8 @@
    "moves": [
     "magical-flower",
     "the-stamp",
-    "mochimochi-kinako-mochi"
+    "mochimochi-kinako-mochi",
+    "dokonjou-bat"
    ],
    "look": {
     "hair": "#6b3e1f",
@@ -167,7 +170,8 @@
    "moves": [
     "soyokaze-step",
     "odin-sword",
-    "olympus-harmony"
+    "olympus-harmony",
+    "magnet-draw"
    ],
    "look": {
     "hair": "#1d1410",
@@ -230,7 +234,8 @@
    "moves": [
     "decoy-release",
     "rocket-head",
-    "endless-summer"
+    "endless-summer",
+    "asterisk-rock"
    ],
    "look": {
     "hair": "#5a3a7a",
@@ -261,7 +266,8 @@
    "moves": [
     "decoy-release",
     "fractal-house",
-    "ballista-shot"
+    "ballista-shot",
+    "acrobat-keep"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -357,7 +363,8 @@
    "moves": [
     "spring-arrow",
     "linear-drive",
-    "joker-rains"
+    "joker-rains",
+    "magnet-draw"
    ],
    "look": {
     "hair": "#4c8a3c",
@@ -420,7 +427,8 @@
    "moves": [
     "rejection",
     "beam-kobushi",
-    "fence-of-gaia"
+    "fence-of-gaia",
+    "okehazama-wall"
    ],
    "look": {
     "hair": "#6b3e1f",

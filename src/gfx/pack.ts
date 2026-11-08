@@ -1,5 +1,7 @@
 import Phaser from "phaser";
 import { texKey } from "./placeholders";
+import type { TeamData } from "../data/types";
+import { loadLooks } from "../data/looks";
 
 // Paquete de imágenes: basta con dejarlas en src/assets/pack/ con el id del jugador o del equipo como
 // nombre (sprites/mark-evans.png, emblems/ie3-desert-lion.png, portraits/<equipo>/<jugador>.webp...).
@@ -54,8 +56,8 @@ export const seriesPack: PackEntry[] = Object.entries(seriesFiles).map(
 );
 
 // Sprites de partido dibujados (tools/pixelart/vector): vsprites/<equipo>/<jugador>/<vista>.png
-// Van en módulos aparte por temporada (vsprites/*.ts), que se cargan al arrancar: así sus imágenes, que Vite mete en el
-// JS, no engordan el archivo principal (Cloudflare Pages no admite archivos de más de 25 MB).
+// No se cargan al arrancar: van en trozos pequeños (uno por equipo y uno por ojeador, ver vite-vsprites.ts) y se piden
+// antes de cada partido solo los de los jugadores que van a salir (ensureSprites).
 
 /** Vistas de cada sprite dibujado: front, back, side0 (de perfil a la derecha), side1 y side2 (pasos). */
 export const VSPRITE_VIEWS = ['front', 'back', 'side0', 'side1', 'side2'] as const;
@@ -64,63 +66,43 @@ export type VspriteView = (typeof VSPRITE_VIEWS)[number];
 export const VSPRITE_REF = 78;
 export const vspriteKey = (team: string, player: string, view: VspriteView) => `vsprite:${team}:${player}:${view}`;
 
-/** Todos los sprites dibujados (cada temporada en su propio archivo JS). */
-export async function loadVspritePack(): Promise<PackEntry[]> {
-  const mods = await Promise.all([import('./vsprites/ie'), import('./vsprites/go'), import('./vsprites/cs'), import('./vsprites/other')]);
-  return mods.flatMap(({ files }) =>
-    Object.entries(files).flatMap(([path, url]) => {
-      const m = path.match(/vsprites\/([^/]+)\/([^/]+)\/([^/]+)\.png$/);
-      return m ? [{ key: vspriteKey(m[1], m[2], m[3] as VspriteView), url, folder: 'vsprites' }] : [];
-    }),
-  );
-}
-
-// Los de los ojeadores (miles, que solo se fichan para Mi club) van aparte, uno por temporada, y solo se cargan los de los
-// jugadores que tiene el club (loadScoutSprites).
-const SCOUT_SPRITES: Record<string, () => Promise<{ files: Record<string, string> }>> = {
-  ie1: () => import('./vsprites/scouts-ie1'),
-  ie2: () => import('./vsprites/scouts-ie2'),
-  ie3: () => import('./vsprites/scouts-ie3'),
-  go: () => import('./vsprites/scouts-go'),
-  cs: () => import('./vsprites/scouts-cs'),
-  gx: () => import('./vsprites/scouts-gx'),
-  vr: () => import('./vsprites/scouts-vr'),
-  ares: () => import('./vsprites/scouts-other'),
-  orion: () => import('./vsprites/scouts-other'),
-};
-
-/** Carga los sprites dibujados de los ojeadores de estas claves de carta ('scouts-<temporada>:<id>'); el resto, nada. */
-export async function loadScoutSprites(textures: Phaser.Textures.TextureManager, keys: string[]): Promise<void> {
-  const bySeason = new Map<string, string[]>();
-  for (const key of keys) {
-    const m = key.match(/^scouts-([^:]+):(.+)$/);
-    if (!m || !SCOUT_SPRITES[m[1]] || textures.exists(vspriteKey(`scouts-${m[1]}`, m[2], 'front'))) continue;
-    bySeason.set(m[1], [...(bySeason.get(m[1]) ?? []), m[2]]);
-  }
-  const jobs: Promise<void>[] = [];
-  for (const [season, ids] of bySeason) {
-    const { files } = await SCOUT_SPRITES[season]();
-    for (const id of ids) {
-      for (const view of VSPRITE_VIEWS) {
-        const url = files[`../../assets/pack/vsprites/scouts-${season}/${id}/${view}.png`];
-        const key = vspriteKey(`scouts-${season}`, id, view);
-        if (!url || textures.exists(key)) continue;
-        jobs.push(new Promise<void>((resolve) => {
-          const img = new Image();
-          img.onload = () => {
-            if (!textures.exists(key)) textures.addImage(key, img)?.setFilter(Phaser.Textures.FilterMode.NEAREST);
-            resolve();
-          };
-          img.onerror = () => resolve();
-          img.src = url;
-        }));
-      }
+/** Carga (si no estaban) los sprites dibujados de los jugadores de estos equipos (los de Mi club, los de su equipo de origen). */
+export async function ensureSprites(textures: Phaser.Textures.TextureManager, teams: TeamData[]): Promise<void> {
+  const [{ sets }] = await Promise.all([import('virtual:vsprite-index'), loadLooks().catch(() => {})]);
+  const wanted = new Map<string, Set<string>>(); // trozo -> '<equipo>/<jugador>'
+  for (const team of teams) {
+    for (const p of team.players) {
+      const vteam = p.origin ?? team.id;
+      const vid = p.originId ?? p.id;
+      if (textures.exists(vspriteKey(vteam, vid, 'front'))) continue;
+      const set = vteam.startsWith('scouts-') ? `${vteam}/${vid}` : vteam;
+      if (!sets[set]) continue;
+      if (!wanted.has(set)) wanted.set(set, new Set());
+      wanted.get(set)!.add(`${vteam}/${vid}`);
     }
   }
+  const mods = await Promise.all([...wanted.keys()].map((set) => sets[set]().catch(() => ({ files: {} as Record<string, string> }))));
+  const jobs: Promise<void>[] = [];
+  [...wanted.values()].forEach((players, i) => {
+    for (const [path, url] of Object.entries(mods[i].files)) {
+      const [vteam, vid, view] = path.split('/');
+      const key = vspriteKey(vteam, vid, view as VspriteView);
+      if (!players.has(`${vteam}/${vid}`) || textures.exists(key)) continue;
+      jobs.push(new Promise<void>((resolve) => {
+        const img = new Image();
+        img.onload = () => {
+          if (!textures.exists(key)) textures.addImage(key, img)?.setFilter(Phaser.Textures.FilterMode.NEAREST);
+          resolve();
+        };
+        img.onerror = () => resolve();
+        img.src = url;
+      }));
+    }
+  });
   await Promise.all(jobs);
 }
 
-/** Lo que se carga al arrancar: sprites completos y escudos (los dibujados, aparte: loadVspritePack). */
+/** Lo que se carga al arrancar: sprites completos y escudos (los dibujados, aparte: ensureSprites antes de cada partido). */
 export const bootPack = [
   ...entries.filter((e) => e.folder !== "portraits"),
   ...seriesPack,

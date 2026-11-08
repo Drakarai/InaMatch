@@ -2,7 +2,7 @@ import Phaser from 'phaser';
 import { music } from '../audio/music';
 import { THEME, cardPanel, chip, coinChip, dim, fitCamera, glow, inkOn, pt, starRow, topBar } from '../ui/theme';
 import { soundButton } from '../ui/soundPanel';
-import { GAME_H, GAME_W, hex } from '../config';
+import { FONT, GAME_H, GAME_W, hex } from '../config';
 import { TEAMS } from '../data';
 import { getFormation } from '../data/formations';
 import { SEASONS, getSeason, seasonOf } from '../data/seasons';
@@ -12,6 +12,7 @@ import { lineRatings, playerOverall, ratingStars, teamRating } from '../engine/r
 import { Button, display, fitWidth, label, meter, text } from '../ui/widgets';
 import { loadClub } from '../club/club';
 import { makeEmblem, texKey } from '../gfx/placeholders';
+import { ensureSprites } from '../gfx/pack';
 
 type Side = 'home' | 'away';
 
@@ -49,6 +50,7 @@ export class MenuScene extends Phaser.Scene {
   }
 
   create(): void {
+    this.starting = false;
     fitCamera(this);
     music.play('menu');
     const club = TEAMS.find((t) => t.id === 'club');
@@ -453,10 +455,24 @@ export class MenuScene extends Phaser.Scene {
     this.refresh();
   }
 
+  private starting = false;
+
   private next(): void {
+    if (this.starting) return;
+    this.starting = true;
     this.registry.set('menuSelection', { ...this.sel });
     const home = teamById(this.sel.home);
     const away = teamById(this.sel.away);
-    this.scene.start('formation', { home: defaultLineup(home), away: defaultLineup(away) });
+    // los sprites dibujados de los dos equipos se piden ahora (no se cargan al arrancar)
+    const wait = this.add
+      .text(GAME_W / 2, GAME_H - 30, 'Cargando jugadores…', { fontFamily: FONT, fontSize: '15px', color: '#ffffff', backgroundColor: '#0b1a2ecc', padding: { x: 10, y: 4 } })
+      .setOrigin(0.5)
+      .setDepth(700);
+    ensureSprites(this.textures, [home, away])
+      .catch((err) => console.warn('[pack] no se pudieron cargar los sprites dibujados', err))
+      .then(() => {
+        wait.destroy();
+        this.scene.start('formation', { home: defaultLineup(home), away: defaultLineup(away) });
+      });
   }
 }

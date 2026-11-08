@@ -2,9 +2,9 @@ import Phaser from 'phaser';
 import { audio } from '../audio/engine';
 import { TEAMS } from '../data';
 import { makeFxTextures } from '../gfx/fx';
-import { bootPack, loadScoutSprites, loadVspritePack } from '../gfx/pack';
+import { bootPack } from '../gfx/pack';
 import { makeBall, makeEmblem } from '../gfx/placeholders';
-import { ensureClub, loadClub, onClubChange } from '../club/club';
+import { ensureClub } from '../club/club';
 import { applyClubCrest } from '../club/crests';
 import { fitCamera } from '../ui/theme';
 
@@ -33,22 +33,8 @@ export class BootScene extends Phaser.Scene {
     audio.init(this.game);
     // "Mi club": la primera vez se reparte la plantilla inicial (hace falta la lista de ojeadores)
     const loading = this.add.text(640, 360, '', {}).setVisible(false); // la pantalla de carga es la de index.html
-    loadVspritePack()
-      .then((pack) => new Promise<void>((resolve) => {
-        // los sprites dibujados: cada temporada en su archivo JS, que se pide ahora
-        for (const { key, url } of pack) this.load.image(key, url);
-        this.load.once(Phaser.Loader.Events.COMPLETE, () => resolve());
-        this.load.start();
-      }))
-      .catch((err) => console.warn('[pack] no se pudieron cargar los sprites dibujados', err))
-      .then(() => ensureClub())
-      .then(async (save) => {
-        // sprites de los ojeadores fichados (y de los que se fichen después)
-        await loadScoutSprites(this.textures, save.owned);
-        const textures = this.textures;
-        onClubChange(() => void loadScoutSprites(textures, loadClub()?.owned ?? []));
-        return save;
-      })
+    // los sprites dibujados de los jugadores no se cargan aquí: los de cada partido, antes de empezar (ensureSprites)
+    ensureClub()
       .then((save) => new Promise<void>((resolve) => applyClubCrest(this, save.crest, resolve)))
       .catch((err) => console.warn('[club] no se pudo preparar el club', err))
       .then(() => {

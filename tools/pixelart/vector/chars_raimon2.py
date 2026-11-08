@@ -166,3 +166,20 @@ CHARS['eugene-conwell'] = {
              L([(78, 86), (84, 88)], 'mark', 'f', False, False, 1.2)],
     'back': [L(blob(BOB_B))] + bob_shade('back'),
 }
+
+
+# Formas especiales del Raimon de IE2 (su id lleva la forma): Fubuki con Atsuya fuera (el pelo más claro y erizado hacia
+# arriba, ojos naranjas y ceño fruncido) y Kogure "en serio" (ceño fruncido y boca recta)
+import copy as _copy  # noqa: E402
+
+_atsuya = _copy.deepcopy(CHARS['shawn-froste'])
+_atsuya['pal'] = pal('#d4dcf4', '#f8dcc0', iris='#e8781e', tips='#9a8aa8', scarf='#f0e4d8', scarf_d='#c8b0a4')
+_atsuya['face'] = {**_atsuya['face'], 'eyes': 'sharp', 'brows': 'angry', 'mouth': 'line'}
+for _v in ('front', 'back'):
+    _atsuya[_v] = _atsuya[_v] + [spk((30, 10), (42, 6), (26, -14), 4), spk((58, 6), (70, 10), (76, -14), 4, light_left=False), spk((44, 6), (56, 6), (50, -18), 4)]
+_atsuya['side'] = _atsuya['side'] + [spk((40, 6), (56, 4), (44, -16), 4), spk((60, 6), (74, 12), (82, -8), 4, light_left=False)]
+CHARS['ie2-second-raimon:shawn-froste-fubuki-cc'] = _atsuya
+
+_maji = _copy.deepcopy(CHARS['scott-banyan'])
+_maji['face'] = {**_maji['face'], 'brows': 'angry', 'mouth': 'frown'}
+CHARS['ie2-second-raimon:scott-banyan-kogure-cc'] = _maji

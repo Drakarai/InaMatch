@@ -10,13 +10,29 @@ from heads import quad
 
 DARK = (24, 20, 24, 255)
 
-# Rocky Black (portero): corpulento, morro de jabalí: nariz grande roja, colmillos y pelo castaño corto con dos mechones curvos
+# Rocky Black (Shuri Iwao, portero): hombre-jabalí corpulento: cara de pelo pardo con patillas peludas, dos orejas de jabalí
+# puntiagudas con el interior rosado y la punta enroscada, un mechón castaño en lo alto, un morro grande rojizo, colmillos
+# blancos hacia arriba, ojos verdes amarillentos y ceño fruncido
 CHARS['rocky-black'] = {
-    'body': 'corpulento', 'pal': pal('#5a3424', '#a8683a', nose='#c84a2a', tusk='#f4ece0'),
-    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'grin', 'mouth_y': 96, 'face_front': WIDE_FACE, 'big_ears': 1, 'nose': (50, 84, 6.4), 'nose_side': (94, 82, 6), 'hairline': (54, 46)},
-    'front': cap_hair('front') + [L(quad((26, 16), (16, 0), (4, 6)), 'shade', 'b', False, False, 3), L(quad((74, 16), (84, 0), (96, 6)), 'shade', 'b', False, False, 3),
-                                  L([(30, 96), (34, 104), (36, 96)], 'tusk', 'f', ln=True), L([(70, 96), (66, 104), (64, 96)], 'tusk', 'f', ln=True)],
-    'side': cap_hair('side'), 'back': cap_hair('back') + [L(quad((26, 16), (16, 0), (4, 6)), 'shade', 'b', False, False, 3), L(quad((74, 16), (84, 0), (96, 6)), 'shade', 'b', False, False, 3)],
+    'body': 'corpulento', 'pal': pal('#6a4630', '#b07a4e', iris='#a8b030', nose='#a8482a', nose_d='#7a3018', tusk='#f4ece0', ear='#c88a6a', ear_in='#e8a090'),
+    'face': {'eyes': 'sharp', 'brows': 'angry', 'mouth': 'frown', 'mouth_y': 100, 'face_front': WIDE_FACE, 'ears': False, 'hairline': False},
+    'front': [L(blob([(2, 40), (-14, 18), (-12, 4), (4, 10), (22, 28)], 5), 'ear', 'b'), L(blob([(98, 40), (114, 18), (112, 4), (96, 10), (78, 28)], 5), 'ear', 'b'),
+              L(blob([(4, 34), (-6, 16), (6, 14), (18, 28)], 4), 'ear_in', 'b', False), L(blob([(96, 34), (106, 16), (94, 14), (82, 28)], 4), 'ear_in', 'b', False),
+              L(blob([(14, 48), (30, 26), (50, 20), (70, 26), (86, 48), (70, 40), (50, 36), (30, 40)], 5), 'mid', 'f'),
+              L(blob([(38, 26), (46, 4), (54, 14), (62, 2), (64, 22), (56, 30), (44, 30)], 4), 'mid', 'f'),
+              L(blob([(6, 70), (2, 88), (10, 100), (18, 90), (16, 74)], 4), 'shade', 'f'), L(blob([(94, 70), (98, 88), (90, 100), (82, 90), (84, 74)], 4), 'shade', 'f'),
+              L(blob([(34, 80), (50, 76), (66, 80), (68, 94), (50, 98), (32, 94)], 6), 'nose', 'f'),
+              L(ell(43, 88, 3, 2.4), 'nose_d', 'f', False), L(ell(57, 88, 3, 2.4), 'nose_d', 'f', False),
+              L([(30, 104), (32, 94), (38, 104)], 'tusk', 'f', ln=True), L([(70, 104), (68, 94), (62, 104)], 'tusk', 'f', ln=True)],
+    'side': [L(blob([(40, 36), (30, 10), (36, 0), (48, 10), (52, 32)], 5), 'ear', 'b'), L(blob([(40, 30), (36, 10), (46, 14), (48, 28)], 4), 'ear_in', 'b', False),
+             L(blob([(46, 92), (16, 88), (4, 62), (10, 30), (30, 14), (60, 12), (78, 24), (66, 36), (54, 48), (50, 70)], 6)),
+             L(blob([(56, 22), (62, 2), (70, 18), (68, 30)], 4), 'mid', 'f'),
+             L(blob([(84, 78), (104, 74), (110, 86), (104, 96), (86, 96)], 5), 'nose', 'f'), L(ell(104, 84, 2.4, 2.6), 'nose_d', 'f', False),
+             L([(84, 104), (88, 94), (92, 104)], 'tusk', 'f', ln=True)],
+    'back': [L(blob([(2, 40), (-14, 18), (-12, 4), (4, 10), (22, 28)], 5), 'ear', 'b'), L(blob([(98, 40), (114, 18), (112, 4), (96, 10), (78, 28)], 5), 'ear', 'b'),
+             L(blob([(12, 78), (10, 40), (26, 16), (50, 10), (74, 16), (90, 40), (88, 78), (50, 90)], 6)),
+             L(blob([(38, 18), (46, 0), (54, 10), (62, -2), (64, 18)], 4), 'mid', 'f'),
+             L(blob([(56, 16), (86, 36), (86, 74), (64, 86)], 6), 'shade', 'b', False)],
 }
 # Chad Taylor: pelo castaño oscuro despeinado con una cinta rosa y unas gafas de buceo amarillas con tubo puestas
 CHARS['chad-taylor'] = {

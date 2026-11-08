@@ -1,0 +1,204 @@
+{
+ "_": "Fotos de perfil puestas a mano (revisadas una a una frente a su sprite): equipo -> jugador -> archivo de la wiki inglesa y recorte opcional (x0, y0, x1, y1 en fracciones). tools/wiki/portrait_forms.py las aplica al final.",
+ "ares-eisei-gakuen": {
+  "bryce-whitingale": {
+   "file": "(EG) Suzuno Fuusuke sprite.png"
+  },
+  "claude-beacons": {
+   "file": "(EG) Nagumo Haruya sprite.png"
+  },
+  "zeke-valanche": {
+   "file": "(EG) Segata Ryuuichirou sprite.png"
+  },
+  "xavier-foster": {
+   "file": "(EG) Kiyama Tatsuya sprite.png"
+  }
+ },
+ "ares-minodouzan": {
+  "jack-wallside": {
+   "file": "(M) Kabeyama Heigorou sprite.png"
+  }
+ },
+ "ares-outei-tsukinomiya": {
+  "lucas-star": {
+   "file": "(OT) Ichihoshi Hikaru sprite.png"
+  }
+ },
+ "ares-seishou-gakuen": {
+  "jude-sharp": {
+   "file": "(SG) Kidou Yuuto sprite.png"
+  }
+ },
+ "cs-el-dorado-team-02": {
+  "riccardo-di-rigo": {
+   "file": "(PO) Shindou Takuto sprite (VR).png"
+  },
+  "aitor-cazador": {
+   "file": "(PO) Kariya Masaki sprite (VR).png"
+  },
+  "zanark-avalonic": {
+   "file": "(PO) Zanark Avalonic sprite (VR).png"
+  }
+ },
+ "cs-tenmas": {
+  "arion-sherwind": {
+   "file": "(T) Matsukaze Tenma sprite (VR).png"
+  }
+ },
+ "cs-the-lagoon": {
+  "mehr": {
+   "file": "(TL) Meia sprite (VR).png"
+  },
+  "ghiris": {
+   "file": "(TL) Giris sprite (VR).png"
+  }
+ },
+ "cs-zan": {
+  "zanark-avalonic": {
+   "file": "(Z) Zanark Avalonic sprite (VR).png"
+  }
+ },
+ "cs-zanark-domain": {
+  "eka": {
+   "file": "(ZD) Shuten sprite (VR).png"
+  },
+  "sata": {
+   "file": "(ZD) Vanna sprite (VR).png"
+  }
+ },
+ "go-gassan-kunimitsu": {
+  "doug-mcarthur": {
+   "file": "(GK) Minamisawa 3D (1).png",
+   "crop": [
+    0.2,
+    0.0,
+    0.8,
+    0.3
+   ]
+  }
+ },
+ "go-kuro-no-kishidan": {
+  "victor-blade": {
+   "file": "(KK) Tsurugi Kyousuke sprite (VR).png"
+  }
+ },
+ "gx-earth-eleven": {
+  "maneuver-gibbs": {
+   "file": "(EE) Fake Tsurugi sprite (VR).png"
+  }
+ },
+ "gx-faram-dite": {
+  "ray-dark": {
+   "file": "(FD) Kuroiwa Ryuusei sprite (VR).png"
+  }
+ },
+ "gx-ratoniik-eleven": {
+  "banda-crix-junior": {
+   "file": "(RE) Banda Koroegyu sprite (VR).png"
+  }
+ },
+ "ie1-kidokawa-seishuu": {
+  "axel-blaze": {
+   "file": "(KS) Gouenji Shuuya sprite (VR).png"
+  }
+ },
+ "ie2-second-raimon": {
+  "shawn-froste-fubuki-cc": {
+   "file": "(SR) Fubuki Shirou sprite (Atsuya) (VR).png"
+  },
+  "shawn-froste": {
+   "file": "(SR) Fubuki Shirou sprite (unmerged) (VR).png"
+  },
+  "scott-banyan-kogure-cc": {
+   "file": "(SR) Kogure Yuuya sprite (Maji) (VR).png"
+  }
+ },
+ "ie2-sp-fixers": {
+  "victoria-vanguard": {
+   "file": "(SPF) Zaizen Touko sprite (VR).png"
+  }
+ },
+ "orion-inazuma-japan-orion": {
+  "mark-evans": {
+   "file": "(IJ (O)) Endou Mamoru sprite.png"
+  },
+  "billy-miller": {
+   "file": "(IJ (O)) Sakanoue Noboru sprite.png"
+  },
+  "nathan-swift": {
+   "file": "(IJ (O)) Kazemaru Ichirouta sprite.png"
+  },
+  "elliot-ember": {
+   "file": "(IJ (O)) Haizaki Ryouhei sprite.png"
+  },
+  "caleb-stonewall": {
+   "file": "(IJ (O)) Fudou Akio sprite.png"
+  },
+  "jude-sharp": {
+   "file": "(IJ (O)) Kidou Yuuto sprite.png"
+  },
+  "valentin-eisner": {
+   "file": "(IJ (O)) Hiura Kirina sprite.png"
+  },
+  "xavier-schiller": {
+   "file": "(IJ (O)) Kira Hiroto sprite.png"
+  },
+  "axel-blaze": {
+   "file": "(IJ (O)) Gouenji Shuuya sprite.png"
+  },
+  "shawn-froste": {
+   "file": "(IJ (O)) Fubuki Shirou sprite.png"
+  },
+  "sonny-wright": {
+   "file": "(IJ (O)) Inamori Asuto sprite.png"
+  },
+  "adriano-donati": {
+   "file": "(IJ (O)) Goujin Tetsunosuke sprite.png"
+  },
+  "lucas-star": {
+   "file": "(IJ (O)) Ichihoshi Mitsuru sprite.png"
+  },
+  "lucas-star-ok-hikaru": {
+   "file": "(IJ (O)) Ichihoshi Hikaru sprite.png"
+  },
+  "heath-moore": {
+   "file": "(IJ (O)) Nosaka Yuuma sprite.png"
+  },
+  "xavier-foster": {
+   "file": "(IJ (O)) Kiyama Tatsuya sprite.png"
+  },
+  "byron-love": {
+   "file": "(IJ (O)) Afuro Terumi sprite.png"
+  },
+  "cliff-parker": {
+   "file": "(IJ (O)) Iwato Takashi sprite.png"
+  }
+ },
+ "orion-muteki-no-giant": {
+  "salvador-castell": {
+   "file": "(MG) Alonso Fibiano sprite.png"
+  },
+  "sergi-hern-ndez": {
+   "file": "(MG) Clario Orvan sprite.png"
+  },
+  "leo-segarra": {
+   "file": "(MG) Luther Fandam sprite.png"
+  },
+  "joan-asensi": {
+   "file": "(MG) Bergamo Regult sprite.png"
+  }
+ },
+ "orion-shining-satans": {
+  "beryl": {
+   "file": "(SS) Satan Gaul sprite.png"
+  }
+ },
+ "orion-star-unicorn": {
+  "bobby-shearer": {
+   "file": "(SU) Domon Asuka sprite.png"
+  },
+  "erik-eagle": {
+   "file": "(SU) Ichinose Kazuya sprite.png"
+  }
+ }
+}

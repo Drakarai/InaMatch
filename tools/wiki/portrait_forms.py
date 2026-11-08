@@ -125,6 +125,12 @@ def main():
     os.makedirs(CACHE, exist_ok=True)
     teams = [json.load(open(f, encoding='utf-8')) for f in sorted(glob.glob(os.path.join(SP.ROOT, 'src', 'data', 'teams', '*.json'))) if not f.endswith('club.json')]
     plan = forms(entries(), teams)
+    # las puestas a mano mandan sobre la forma automática
+    over_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'portraits_overrides.json')
+    over = {k: v for k, v in json.load(open(over_path, encoding='utf-8')).items() if not k.startswith('_')} if os.path.exists(over_path) else {}
+    for tid, ps in over.items():
+        for pid, rule in ps.items():
+            plan.setdefault(tid, {})[pid] = ('manual', pid, rule['file'][:-4] if rule['file'].endswith('.png') else rule['file'], rule.get('crop'))
     files = sorted({v[2] + '.png' for r in plan.values() for v in r.values()})
     urls = {}
     for i in range(0, len(files), 45):
@@ -148,11 +154,15 @@ def main():
     looks = json.load(open(looks_path))
     changed = []
     for tid, r in plan.items():
-        for pid, (g, k, f) in r.items():
+        for pid, (g, k, f, *crop) in r.items():
             img = imgs.get(f + '.png')
             if img is None:
                 continue
-            if max(img.size) < 120:  # sprites de DS de cuerpo entero (Chaos, Fire Dragon...): peor que la foto que haya
+            if crop and crop[0]:
+                W, H = img.size
+                x0, y0, x1, y1 = crop[0]
+                img = img.crop((int(x0 * W), int(y0 * H), int(x1 * W), int(y1 * H)))
+            elif max(img.size) < 120:  # sprites de DS de cuerpo entero (Chaos, Fire Dragon...): peor que la foto que haya
                 continue
             if max(img.size) < SP.PORTRAIT:  # retratos pequeños: se amplían
                 s = SP.PORTRAIT / max(img.size)

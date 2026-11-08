@@ -1322,8 +1322,12 @@ for season, game, order, name, rows, fkey, page in rosters:
     raw_teams.append((season, game, name, fkey, page, players))
 
 # ojeadores: un "equipo" por temporada (scouts-ie1...), sin formación
+# fichas que no son jugadores fichables: el avatar del jugador de Victory Road
+SCOUTS_REMOVED = {'Avatar'}
 scouts = {}
 for page_title, (season, game, order, key) in sorted(scout_rows.items()):
+    if page_title in SCOUTS_REMOVED:
+        continue
     p = build_player(key, 0, 'Scouts', season, order, set())
     if p['position'] and (p['stats'] or p.get('_raw')):
         scouts.setdefault(season, []).append(p)

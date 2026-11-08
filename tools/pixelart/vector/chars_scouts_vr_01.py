@@ -421,13 +421,6 @@ C('avan-floane', 'normal', P(VIO, '#f8dcc4', iris='#3a8ac8'),
   [L(outline([(52, 60), (40, 48), (24, 30), (10, 8, 1), (40, 12), (70, 8), (94, 0, 1), (86, 30), (86, 46), (66, 48)]), 'mid')],
   [L(outline([(16, 80), (14, 40), (4, 14, 1), (26, 22), (40, 10), (60, 10), (74, 22), (96, 14, 1), (86, 40), (84, 80), (50, 86)]), 'mid')])
 
-# Avatar: el jugador sin cara definida (no tiene retrato); pelo castaño corto de protagonista y gesto decidido
-C('avatar', 'normal', P('#6a4a2a', '#f8dcc4', iris='#5a3a1e'),
-  F(eyes='normal', brows=True, mouth='smile', mouth_y=93, hairline=hl(5, 64, 50, 58, seed=22)),
-  dome('front', top=2, w=47, cy=44, n=8, amp=7, sb=70, seed=22),
-  dome('side', top=2, w=47, cy=44, n=8, amp=7, nape=86, fr=52, seed=22),
-  dome('back', top=2, w=47, cy=44, n=8, amp=7, nape=86, seed=22))
-
 # Ayla Bordaire: melena azul petróleo hasta los hombros con flequillo de mechones y horquillas grises; un visor grande gris
 # con cristal amarillo de rejilla tapándole los ojos
 VIS, VISG = _c('#8a8a90'), _c('#c8b04a')

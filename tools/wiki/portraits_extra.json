@@ -46,12 +46,12 @@
   ]
  },
  "SR-102X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 3": {
@@ -64,12 +64,12 @@
   ]
  },
  "SR-103X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 4": {
@@ -82,12 +82,12 @@
   ]
  },
  "SR-104X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 5": {
@@ -100,12 +100,12 @@
   ]
  },
  "SR-105X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 6": {
@@ -118,12 +118,12 @@
   ]
  },
  "SR-106X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 7": {
@@ -136,12 +136,12 @@
   ]
  },
  "SR-107X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 8": {
@@ -154,12 +154,12 @@
   ]
  },
  "SR-108X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 9": {
@@ -172,12 +172,12 @@
   ]
  },
  "SR-109X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 10": {
@@ -190,12 +190,12 @@
   ]
  },
  "SR-110X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  },
  "Osoroshii Kage 11": {
@@ -208,12 +208,12 @@
   ]
  },
  "SR-111X": {
-  "file": "(SR) Robo 1 3D (1).png",
+  "file": "(SR) Robo 3D (1).png",
   "crop": [
-   0.2,
+   0.12,
    0,
-   0.8,
-   0.4
+   0.88,
+   0.33
   ]
  }
 }

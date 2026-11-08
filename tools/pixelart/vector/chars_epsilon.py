@@ -255,6 +255,24 @@ E['carrie-mccuring'] = {
              L(blob([(58, 12), (88, 36), (86, 74), (66, 84)], 6), 'shade', 'b', False)] + bun(6, 18) + bun(94, 18),
 }
 
-for _t in ('ie2-epsilon', 'ie2-epsilon-kai'):
-    for _pid, _spec in E.items():
-        CHARS[f'{_t}:{_pid}'] = _spec
+# Épsilon Plus (Épsilon Kai): misma gente, pero en su forma de Épsilon Kai (los sprites "(EK)" de la wiki) todos llevan los
+# ojos rojos encendidos y el gesto más fiero (Zel y Metron enseñan los dientes, Desarm frunce el ceño)
+import copy  # noqa: E402
+
+RED_EYES = (232, 30, 34, 255)
+EK_FACE = {'zeke-valanche': {'mouth': 'grin', 'brows': 'angry'}, 'ronny-metcalf': {'mouth': 'grin', 'brows': 'angry'},
+           'dave-quagmire': {'brows': 'angry'}, 'carrie-mccuring': {'eyes': 'sharp'}, 'mads-hatter': {'mouth': 'grin'},
+           'karen-ripton': {'eyes': 'sharp'}}
+EK = {}
+for _pid, _spec in E.items():
+    _k = copy.deepcopy(_spec)
+    _k['pal']['iris'] = RED_EYES
+    if _k['face'].get('eyes') in ('big', 'normal'):
+        _k['face']['eyes'] = 'sharp'
+    _k['face'].update(EK_FACE.get(_pid.replace('-desarm-cc', ''), {}))
+    EK[_pid] = _k
+
+for _pid, _spec in E.items():
+    CHARS[f'ie2-epsilon:{_pid}'] = _spec
+for _pid, _spec in EK.items():
+    CHARS[f'ie2-epsilon-kai:{_pid}'] = _spec

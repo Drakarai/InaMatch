@@ -29,6 +29,9 @@ const MOVE_KIND_LABEL = { shoot: 'Tiro', dribble: 'Regate', block: 'Bloqueo', ca
 /** Diseño vertical (móvil, 540x960): campo arriba a lo ancho, banquillo debajo y la barra de acciones fija abajo. */
 const MOB = { pitch: { x: 12, y: 128, w: 516, h: 460 }, bench: { x: 12, y: 598, w: 516, h: 118 }, bar: { x: 12, y: 724, w: 516, h: 228 } };
 const PITCH_BOX = PORTRAIT ? MOB.pitch : { x: 24, y: 96, w: 452, h: 540 };
+// rango de alturas de los puestos de todas las formaciones (src/data/formations.json), para que ninguna se salga del campo
+const SLOT_Y_MIN = 0.19;
+const SLOT_Y_MAX = 0.98;
 const CARD = { x: 500, y: 84, w: 756, h: 316 };
 const BENCH = { x: 500, y: 412, w: 756, h: 148 };
 const BAR = { x: 500, y: 572, w: 756, h: 136 };
@@ -172,8 +175,10 @@ export class FormationScene extends Phaser.Scene {
     this.pitchHint = label(this, x + w - 10, y - 2, '', PORTRAIT ? 15 : 11, THEME.muted, { fontStyle: 'italic bold' }).setOrigin(1, 0.5).setDepth(2);
   }
 
+  /** Altura de un puesto en el campo: las formaciones de la wiki van de y≈0,19 (delanteros muy adelantados) a 0,98 (portero). */
   private slotY(sy: number): number {
-    return PITCH_BOX.y + 30 + ((sy - 0.3) / 0.68) * (PITCH_BOX.h - 80);
+    const t = Phaser.Math.Clamp((sy - SLOT_Y_MIN) / (SLOT_Y_MAX - SLOT_Y_MIN), 0, 1);
+    return PITCH_BOX.y + 34 + t * (PITCH_BOX.h - 84);
   }
 
   /**

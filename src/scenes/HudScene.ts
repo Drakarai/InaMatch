@@ -1,4 +1,6 @@
 import Phaser from 'phaser';
+import { getUniform } from '../club/uniforms';
+import { kitIcon } from '../ui/kitIcon';
 import { COLORS, FIELD_VIEW, FONT, GAME_H, GAME_W, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PANEL, PITCH, PORTRAIT, hex } from '../config';
 import { ELEMENT_COLOR, elementMultiplier } from '../data/elements';
 import type { MoveData } from '../data/types';
@@ -1334,13 +1336,27 @@ export class HudScene extends Phaser.Scene {
     const top = 512 + lines.length * 38 + 30;
     const crest = reward.crest ? crestById(reward.crest) : undefined;
     const form = reward.formation ? getFormation(reward.formation) : undefined;
-    const slots = [crest, form].filter(Boolean).length;
-    const colX = (i: number) => (slots === 2 ? W / 2 + (i === 0 ? -130 : 130) : W / 2);
+    const unif = getUniform(reward.uniform);
+    const items = [crest && 'crest', unif && 'uniform', form && 'form'].filter(Boolean) as string[];
+    const step = items.length === 3 ? 178 : 260;
+    const colX = (kind: string) => W / 2 + (items.indexOf(kind) - (items.length - 1) / 2) * step;
+    const nameW = items.length === 3 ? 168 : 230;
+    if (unif) {
+      const box = this.add.container(colX('uniform'), top + 90);
+      c.add(box);
+      box.add(fitWidth(label(this, 0, -84, '¡UNIFORME NUEVO!', 16, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5), nameW, 10));
+      // placa clara detrás: los uniformes oscuros no se verían sobre el fondo
+      box.add(this.add.graphics().fillStyle(0x9fb6d4, 0.9).fillRoundedRect(-82, -66, 164, 120, 14));
+      box.add(kitIcon(this, 0, -6, unif.colors, 110));
+      box.add(fitWidth(label(this, 0, 70, unif.name, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), nameW, 10));
+      box.setScale(0.2).setAlpha(0);
+      this.tweens.add({ targets: box, scale: 1, alpha: 1, duration: 450, ease: 'Back.Out', delay: 350 });
+    }
     if (crest) {
-      const box = this.add.container(colX(0), top + 90);
+      const box = this.add.container(colX('crest'), top + 90);
       c.add(box);
       box.add(label(this, 0, -84, '¡ESCUDO NUEVO!', 16, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5));
-      box.add(fitWidth(label(this, 0, 70, crest.name, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), 230, 10));
+      box.add(fitWidth(label(this, 0, 70, crest.name, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), nameW, 10));
       loadCrests(this, [crest.id], () => {
         if (!box.active || !this.textures.exists(crestKey(crest.id))) return;
         const img = this.add.image(0, -6, crestKey(crest.id)).setDisplaySize(110, 110);
@@ -1350,7 +1366,7 @@ export class HudScene extends Phaser.Scene {
       });
     }
     if (form) {
-      const box = this.add.container(colX(crest ? 1 : 0), top + 90);
+      const box = this.add.container(colX('form'), top + 90);
       c.add(box);
       box.add(label(this, 0, -84, '¡FORMACIÓN NUEVA!', 16, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5));
       const pw = 80;
@@ -1363,7 +1379,7 @@ export class HudScene extends Phaser.Scene {
         g.fillStyle(col, 1).fillCircle(-pw / 2 + 6 + sl.x * (pw - 12), -ph / 2 - 6 + 6 + sl.y * (ph - 12), 4);
       }
       box.add(g);
-      box.add(fitWidth(label(this, 0, 70, `${form.name} · ${form.layout}`, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), 230, 10));
+      box.add(fitWidth(label(this, 0, 70, `${form.name} · ${form.layout}`, 15, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), nameW, 10));
       box.setScale(0.2).setAlpha(0);
       this.tweens.add({ targets: box, scale: 1, alpha: 1, duration: 450, ease: 'Back.Out', delay: 450 });
     }
@@ -1414,6 +1430,18 @@ export class HudScene extends Phaser.Scene {
       box.add(fitWidth(label(this, 0, 50, `${form.name} · ${form.layout}`, 12, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), 150, 9));
       box.setScale(0.2).setAlpha(0);
       this.tweens.add({ targets: box, scale: 1, alpha: 1, duration: 450, ease: 'Back.Out', delay: 450 });
+    }
+    const unif = getUniform(reward.uniform);
+    if (unif) {
+      // el uniforme nuevo, debajo de la formación
+      const box = this.add.container(W - 82, 644);
+      c.add(box);
+      box.add(label(this, 0, -58, '¡UNIFORME NUEVO!', 13, THEME.yellowCss, { fontStyle: 'bold' }).setOrigin(0.5));
+      box.add(this.add.graphics().fillStyle(0x9fb6d4, 0.9).fillRoundedRect(-56, -44, 112, 80, 10));
+      box.add(kitIcon(this, 0, -4, unif.colors, 74));
+      box.add(fitWidth(label(this, 0, 50, unif.name, 12, THEME.text, { fontStyle: 'italic bold' }).setOrigin(0.5), 150, 9));
+      box.setScale(0.2).setAlpha(0);
+      this.tweens.add({ targets: box, scale: 1, alpha: 1, duration: 450, ease: 'Back.Out', delay: 350 });
     }
     const crest = reward.crest ? crestById(reward.crest) : undefined;
     if (crest) {

@@ -46,6 +46,8 @@ export interface TeamData {
   season?: string;
   name: string;
   short: string;
+  /** Uniforme que lleva (Mi club; id de src/data/uniforms.json): sus jugadores salen repintados con él. */
+  uniform?: string;
   colors: {
     shirt: string;
     shorts: string;

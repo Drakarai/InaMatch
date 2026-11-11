@@ -2,6 +2,7 @@ import Phaser from "phaser";
 import { texKey } from "./placeholders";
 import type { TeamData } from "../data/types";
 import { loadLooks } from "../data/looks";
+import { getUniform, makeUniformSprites } from "../club/uniforms";
 
 // Paquete de imágenes: basta con dejarlas en src/assets/pack/ con el id del jugador o del equipo como
 // nombre (sprites/mark-evans.png, emblems/ie3-desert-lion.png, portraits/<equipo>/<jugador>.webp...).
@@ -68,20 +69,34 @@ export const vspriteKey = (team: string, player: string, view: VspriteView) => `
 
 /** Carga (si no estaban) los sprites dibujados de los jugadores de estos equipos (los de Mi club, los de su equipo de origen). */
 export async function ensureSprites(textures: Phaser.Textures.TextureManager, teams: TeamData[]): Promise<void> {
-  const [{ sets }] = await Promise.all([import('virtual:vsprite-index'), loadLooks().catch(() => {})]);
+  const [{ sets, masks }] = await Promise.all([import('virtual:vsprite-index'), loadLooks().catch(() => {})]);
   const wanted = new Map<string, Set<string>>(); // trozo -> '<equipo>/<jugador>'
+  const setOf = (vteam: string, vid: string) => (vteam.startsWith('scouts-') ? `${vteam}/${vid}` : vteam);
   for (const team of teams) {
     for (const p of team.players) {
       const vteam = p.origin ?? team.id;
       const vid = p.originId ?? p.id;
-      if (textures.exists(vspriteKey(vteam, vid, 'front'))) continue;
-      const set = vteam.startsWith('scouts-') ? `${vteam}/${vid}` : vteam;
+      const set = setOf(vteam, vid);
       if (!sets[set]) continue;
+      // con uniforme hacen falta las imágenes aunque ya estén las texturas (para repintarlas)
+      if (textures.exists(vspriteKey(vteam, vid, 'front')) && !team.uniform) continue;
       if (!wanted.has(set)) wanted.set(set, new Set());
       wanted.get(set)!.add(`${vteam}/${vid}`);
     }
   }
-  const mods = await Promise.all([...wanted.keys()].map((set) => sets[set]().catch(() => ({ files: {} as Record<string, string> }))));
+  const empty = { files: {} as Record<string, string> };
+  const mods = await Promise.all([...wanted.keys()].map((set) => sets[set]().catch(() => empty)));
+  // Mi club con uniforme: sus jugadores, repintados con sus mapas de equipación
+  for (const team of teams) {
+    const uniform = getUniform(team.uniform);
+    if (!uniform) continue;
+    const own = [...new Set(team.players.map((p) => setOf(p.origin ?? team.id, p.originId ?? p.id)))].filter((s) => wanted.has(s));
+    const keys = [...wanted.keys()];
+    const files = Object.assign({}, ...own.map((s) => mods[keys.indexOf(s)].files)) as Record<string, string>;
+    const maskMods = await Promise.all(own.map((s) => (masks[s] ? masks[s]().catch(() => empty) : Promise.resolve(empty))));
+    const maskFiles = Object.assign({}, ...maskMods.map((m) => m.files)) as Record<string, string>;
+    await makeUniformSprites(textures, team, uniform, files, maskFiles, (t, id, v) => vspriteKey(t, id, v as VspriteView));
+  }
   const jobs: Promise<void>[] = [];
   [...wanted.values()].forEach((players, i) => {
     for (const [path, url] of Object.entries(mods[i].files)) {

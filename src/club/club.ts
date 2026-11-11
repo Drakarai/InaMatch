@@ -5,6 +5,7 @@ import { byPosition, cardByKey, cardForStaleKey, loadPool, RARITY, type Card, ty
 import { FORMATIONS, formationId, getFormation } from '../data/formations';
 import { playerOverall } from '../engine/rating';
 import crestList from '../data/crests.json';
+import { getUniform, START_UNIFORMS, UNIFORMS } from './uniforms';
 
 /**
  * "Mi club": el equipo propio, con los jugadores que se consiguen en el gacha.
@@ -33,6 +34,9 @@ export interface ClubSave {
   crest?: string;
   /** Formaciones conseguidas (id de src/data/formations.json): se pueden usar con cualquier equipo. */
   formations?: string[];
+  /** Uniformes conseguidos (id de src/data/uniforms.json) y el que lleva el club. */
+  uniforms?: string[];
+  uniform?: string;
 }
 
 export const BASE_SLOTS = 4;
@@ -123,6 +127,27 @@ function withStartCrests(save: ClubSave): ClubSave {
   return { ...save, crests, crest };
 }
 
+/** Los uniformes iniciales (también a las partidas de antes de que hubiera uniformes). */
+function withStartUniforms(save: ClubSave): ClubSave {
+  const owned = new Set((save.uniforms ?? []).filter((id) => getUniform(id)));
+  START_UNIFORMS.forEach((id) => owned.add(id));
+  const uniform = save.uniform && owned.has(save.uniform) ? save.uniform : START_UNIFORMS[0];
+  return { ...save, uniforms: [...owned], uniform };
+}
+
+/** Uniforme al azar que aún no se tiene. */
+function newUniform(owned: string[]): string | undefined {
+  const left = UNIFORMS.map((u) => u.id).filter((id) => !owned.includes(id));
+  return left.length ? pickOne(left) : undefined;
+}
+
+/** Cambia el uniforme del club (uno de los conseguidos). */
+export function setUniform(save: ClubSave, id: string): void {
+  if (!(save.uniforms ?? []).includes(id)) return;
+  saveClub({ ...save, uniform: id });
+  upsertTeam(clubTeam(loadClub()!));
+}
+
 /** Formaciones que se pueden ganar: las de la wiki (no las genéricas por distribución). */
 const PRIZE_FORMATIONS = (): string[] => FORMATIONS.filter((f) => !f.generic).map((f) => f.id);
 
@@ -179,7 +204,7 @@ export async function ensureClub(): Promise<ClubSave> {
   let save = loadClub();
   if (save) {
     // jugadores cuyo equipo de origen ya no está: el mismo personaje en otro equipo, si sale en alguno
-    save = withStartFormations(withStartCrests(save));
+    save = withStartUniforms(withStartFormations(withStartCrests(save)));
     const remap = (k: string) => (cardByKey(k) ? k : (cardForStaleKey(k)?.key ?? k));
     save.squad = save.squad.map(remap);
     save.owned = [...new Set(save.owned.map(remap))];
@@ -194,7 +219,7 @@ export async function ensureClub(): Promise<ClubSave> {
     }
   } else {
     const squad = starterSquad(pool);
-    save = withStartFormations(withStartCrests({ v: 1, name: 'Mi club', coins: START_COINS, owned: [...squad], squad, formation: START_FORMATION, pulls: 0 }));
+    save = withStartUniforms(withStartFormations(withStartCrests({ v: 1, name: 'Mi club', coins: START_COINS, owned: [...squad], squad, formation: START_FORMATION, pulls: 0 })));
     saveClub(save);
   }
   upsertTeam(clubTeam(save));
@@ -218,7 +243,8 @@ export function clubTeam(save: ClubSave): TeamData {
     season: 'club',
     name: save.name,
     short: 'MIC',
-    colors: { shirt: '#ffd23f', shorts: '#0b1a2e', gkShirt: '#2f7bff', accent: '#ffd23f' },
+    colors: getUniform(save.uniform)?.colors ?? { shirt: '#ffd23f', shorts: '#0b1a2e', gkShirt: '#2f7bff', accent: '#ffd23f' },
+    uniform: getUniform(save.uniform)?.id,
     formation: save.formation,
     players,
   };
@@ -274,6 +300,8 @@ export interface MatchReward {
   coins: number;
   /** Escudo nuevo ganado con la victoria. */
   crest?: string;
+  /** Uniforme nuevo ganado con la victoria. */
+  uniform?: string;
   /** Formación nueva ganada con la victoria. */
   formation?: string;
   rankS: boolean;
@@ -281,7 +309,7 @@ export interface MatchReward {
   notebook?: MoveData;
 }
 
-/** Premio por terminar un partido: monedas según el resultado y los goles; si se gana, un escudo; con 5-0, el rango S. */
+/** Premio por terminar un partido: monedas según el resultado y los goles; si se gana, un escudo, un uniforme y una formación; con 5-0, el rango S. */
 export function rewardMatch(goalsFor: number, goalsAgainst: number, withClub: boolean): MatchReward | null {
   const save = loadClub();
   if (!save) return null;
@@ -295,6 +323,11 @@ export function rewardMatch(goalsFor: number, goalsAgainst: number, withClub: bo
     if (crest) {
       next.crests = [...(save.crests ?? []), crest];
       reward.crest = crest;
+    } else coins += CREST_FULL_COINS;
+    const uniform = newUniform(save.uniforms ?? []);
+    if (uniform) {
+      next.uniforms = [...(save.uniforms ?? []), uniform];
+      reward.uniform = uniform;
     } else coins += CREST_FULL_COINS;
     const have = new Set((save.formations ?? []).map(formationId));
     const left = PRIZE_FORMATIONS().filter((id) => !have.has(id));

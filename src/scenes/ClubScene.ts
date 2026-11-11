@@ -1,6 +1,8 @@
 import Phaser from 'phaser';
 import { music } from '../audio/music';
-import { autoSquad, BASE_SLOTS, cardOverall, freeNotebooks, loadClub, movesFor, notebookRarity, onClubChange, setCrest, setMoves, setSquad, type ClubSave } from '../club/club';
+import { autoSquad, BASE_SLOTS, cardOverall, freeNotebooks, loadClub, movesFor, notebookRarity, onClubChange, setCrest, setMoves, setSquad, setUniform, type ClubSave } from '../club/club';
+import { getUniform, UNIFORMS } from '../club/uniforms';
+import { kitIcon } from '../ui/kitIcon';
 import { applyClubCrest, crestById, crestKey, CRESTS, loadCrests } from '../club/crests';
 import { ELEMENT_COLOR } from '../data/elements';
 import type { MoveKind } from '../data/types';
@@ -22,6 +24,7 @@ const COLL = { x: 512, y: 84, w: 744, h: 426 };
 const INFO = { x: 512, y: 522, w: 744, h: 186 };
 const PER_PAGE = 10;
 const CREST_PER_PAGE = 24;
+const UNIFORM_PER_PAGE = 24;
 const ROW_H = 31;
 const FILTERS: ('ALL' | Position)[] = ['ALL', 'GK', 'DF', 'MF', 'FW'];
 const STAT_LABEL: [keyof Card['player']['stats'], string][] = [
@@ -69,7 +72,7 @@ export class ClubScene extends Phaser.Scene {
       this.redraw();
     });
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, off);
-    this.input.keyboard?.on('keydown-ESC', () => (this.crestBox ? this.closeCrests() : this.editor ? this.closeEditor() : this.scene.start('menu')));
+    this.input.keyboard?.on('keydown-ESC', () => (this.uniformBox ? this.closeUniforms() : this.crestBox ? this.closeCrests() : this.editor ? this.closeEditor() : this.scene.start('menu')));
     const keys = [...this.save.squad, ...this.collection().slice(0, PER_PAGE).map((c) => c.key)];
     loadCardPortraits(this, keys.map((k) => cardByKey(k)).filter((c): c is Card => !!c), () => this.redraw());
     this.redraw();
@@ -111,6 +114,7 @@ export class ClubScene extends Phaser.Scene {
     c.add(new Button(this, GAME_W - 200, 32, '¡A jugar!', () => this.play(), { w: 130, h: 38, variant: 'primary', size: 16 }));
     c.add(new Button(this, GAME_W - 340, 32, 'Fichajes', () => this.scene.start('gacha', { from: 'club' }), { w: 120, h: 38, color: THEME.orange, size: 15 }));
     c.add(new Button(this, GAME_W - 610, 32, 'Escudo', () => this.openCrests(), { w: 110, h: 38, color: 0x2f7bff, size: 15 }));
+    c.add(new Button(this, GAME_W - 735, 32, 'Uniforme', () => this.openUniforms(), { w: 124, h: 38, color: 0x1f9a6a, size: 15 }));
     c.add(new Button(this, GAME_W - 480, 32, 'Cuadernos', () => this.scene.start('gacha', { mode: 'notebooks', from: 'club' }), { w: 130, h: 38, color: 0x7a5aa8, size: 15 }));
   }
 
@@ -416,6 +420,111 @@ export class ClubScene extends Phaser.Scene {
     }
   }
 
+  // ---------------------------------------------------- uniforme del club
+
+  private uniformBox?: Phaser.GameObjects.Container;
+  private uniformPage = 0;
+  private mUniformScroll?: TouchScroller;
+
+  /** Los uniformes conseguidos (los dos básicos al empezar y uno por victoria): el que se pulse es el que lleva el club. */
+  private openUniforms(): void {
+    const owned = this.ownedUniforms();
+    this.uniformPage = Math.max(0, Math.floor(owned.indexOf(this.save.uniform ?? '') / UNIFORM_PER_PAGE));
+    this.drawUniforms();
+  }
+
+  private closeUniforms(): void {
+    this.uniformBox?.destroy();
+    this.uniformBox = undefined;
+  }
+
+  /** En el orden de la lista del juego. */
+  private ownedUniforms(): string[] {
+    const have = new Set(this.save.uniforms ?? []);
+    return UNIFORMS.filter((u) => have.has(u.id)).map((u) => u.id);
+  }
+
+  private pickUniform(id: string): void {
+    setUniform(this.save, id);
+    this.save = loadClub()!;
+    this.drawUniforms();
+  }
+
+  private drawUniforms(): void {
+    if (PORTRAIT) return this.mDrawUniforms();
+    this.uniformBox?.destroy();
+    const c = this.add.container(0, 0).setDepth(300);
+    this.uniformBox = c;
+    c.add(this.add.rectangle(0, 0, GAME_W, GAME_H, 0x000000, 0.72).setOrigin(0).setInteractive());
+    const g = this.add.graphics();
+    cardPanel(g, 40, 40, GAME_W - 80, GAME_H - 80, { accent: 0x1f9a6a, alpha: 0.98 });
+    c.add(g);
+    const owned = this.ownedUniforms();
+    c.add(display(this, 64, 74, 'Uniforme del club', 30, '#ffffff').setOrigin(0, 0.5));
+    c.add(label(this, 66, 104, `${owned.length} de ${UNIFORMS.length} uniformes de Victory Road. Ganas uno nuevo con cada victoria.`, 13, THEME.muted, { fontStyle: 'italic' }).setOrigin(0, 0.5));
+    c.add(new Button(this, GAME_W - 130, 74, 'Hecho', () => this.closeUniforms(), { w: 140, h: 42, variant: 'primary', hint: 'Esc' }));
+    const pages = Math.max(1, Math.ceil(owned.length / UNIFORM_PER_PAGE));
+    this.uniformPage = Math.min(this.uniformPage, pages - 1);
+    const list = owned.slice(this.uniformPage * UNIFORM_PER_PAGE, (this.uniformPage + 1) * UNIFORM_PER_PAGE);
+    const cols = 8;
+    const cw = (GAME_W - 160) / cols;
+    const ch = 160;
+    list.forEach((id, i) => {
+      const u = getUniform(id)!;
+      const x = 80 + (i % cols) * cw + cw / 2;
+      const y = 140 + Math.floor(i / cols) * ch + ch / 2;
+      const on = id === this.save.uniform;
+      const cell = this.add.graphics();
+      cell.fillStyle(on ? THEME.yellow : 0x1a2942, on ? 0.95 : 0.85).fillRoundedRect(x - cw / 2 + 6, y - ch / 2 + 6, cw - 12, ch - 12, 12);
+      c.add(cell);
+      c.add(kitIcon(this, x, y - 12, u.colors, 96));
+      c.add(fitWidth(label(this, x, y + 56, u.name, 11, on ? THEME.ink : THEME.text, { fontStyle: 'bold', align: 'center' }).setOrigin(0.5), cw - 20, 8));
+      const hit = this.add.zone(x - cw / 2 + 6, y - ch / 2 + 6, cw - 12, ch - 12).setOrigin(0).setInteractive({ useHandCursor: true });
+      hit.on('pointerdown', () => this.pickUniform(id));
+      c.add(hit);
+    });
+    if (pages > 1) {
+      const py = GAME_H - 66;
+      c.add(new Button(this, GAME_W / 2 - 120, py, '◀', () => ((this.uniformPage = (this.uniformPage + pages - 1) % pages), this.drawUniforms()), { w: 60, h: 38, variant: 'secondary' }));
+      c.add(label(this, GAME_W / 2, py, `${this.uniformPage + 1} / ${pages}`, 15, THEME.text, { fontStyle: 'bold' }).setOrigin(0.5));
+      c.add(new Button(this, GAME_W / 2 + 120, py, '▶', () => ((this.uniformPage = (this.uniformPage + 1) % pages), this.drawUniforms()), { w: 60, h: 38, variant: 'secondary' }));
+    }
+  }
+
+  private mDrawUniforms(): void {
+    const keep = this.uniformBox ? this.mUniformScroll?.scroll ?? 0 : 0;
+    this.uniformBox?.destroy();
+    const owned = this.ownedUniforms();
+    const c = this.mSheetBase(0x1f9a6a, 'Uniforme del club', `${owned.length} de ${UNIFORMS.length} uniformes · uno nuevo por victoria`);
+    this.uniformBox = c;
+    const top = 104;
+    const sc = new TouchScroller(this, 16, top, GAME_W - 32, GAME_H - top - 100, c);
+    this.mUniformScroll = sc;
+    const cols = 3;
+    const cw = (GAME_W - 32) / cols;
+    const ch = 168;
+    owned.forEach((id, i) => {
+      const u = getUniform(id)!;
+      const x = 16 + (i % cols) * cw + cw / 2;
+      const y = Math.floor(i / cols) * ch + ch / 2;
+      const on = id === this.save.uniform;
+      const cell = this.add.graphics();
+      cell.fillStyle(on ? THEME.yellow : 0x1a2942, on ? 0.95 : 0.85).fillRoundedRect(x - cw / 2 + 6, y - ch / 2 + 6, cw - 12, ch - 12, 14);
+      sc.content.add(cell);
+      sc.content.add(kitIcon(this, x, y - 14, u.colors, 100));
+      sc.content.add(fitWidth(label(this, x, y + 58, u.name, 14, on ? THEME.ink : THEME.text, { fontStyle: 'bold', align: 'center' }).setOrigin(0.5), cw - 22, 10));
+      sc.addItem({ x: x - cw / 2, y: y - ch / 2, w: cw, h: ch, onTap: () => this.pickUniform(id) });
+    });
+    sc.setTotal(Math.ceil(owned.length / cols) * ch + 10);
+    sc.setOffset(keep);
+    c.add(
+      new Button(this, GAME_W / 2, GAME_H - 54, 'Hecho', () => {
+        this.closeUniforms();
+        this.mRedraw();
+      }, { w: GAME_W - 60, h: 64, variant: 'primary', size: 20 }),
+    );
+  }
+
   // ---------------------------------------------------- editor de técnicas
 
   private editor?: Phaser.GameObjects.Container;
@@ -572,9 +681,10 @@ export class ClubScene extends Phaser.Scene {
       ['Fichajes', () => this.scene.start('gacha', { from: 'club' }), { color: THEME.orange }],
       ['Cuadernos', () => this.scene.start('gacha', { mode: 'notebooks', from: 'club' }), { color: 0x7a5aa8 }],
       ['Escudo', () => this.openCrests(), { color: 0x2f7bff }],
+      ['Uniforme', () => this.openUniforms(), { color: 0x1f9a6a }],
     ];
-    const aw = (GAME_W - 24 - 3 * 8) / 4;
-    acts.forEach(([t, fn, o], i) => body.add(new Button(this, 12 + aw / 2 + i * (aw + 8), CLUB_HEADER_H + 44, t, fn, { w: aw, h: 64, size: 18, ...o })));
+    const aw = (GAME_W - 24 - 4 * 6) / 5;
+    acts.forEach(([t, fn, o], i) => body.add(new Button(this, 12 + aw / 2 + i * (aw + 6), CLUB_HEADER_H + 44, t, fn, { w: aw, h: 64, size: 15, ...o })));
     // pestañas
     const tabY = CLUB_HEADER_H + 90;
     const tabs: ['squad' | 'coll', string][] = [

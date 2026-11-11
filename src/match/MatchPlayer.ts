@@ -5,6 +5,7 @@ import type { MoveData, PlayerData, TeamData } from '../data/types';
 import { EXHAUSTED_SPEED, isExhausted, type Fighter } from '../engine/rules';
 import { spriteKey } from '../gfx/placeholders';
 import { VSPRITE_REF, vspriteKey, type VspriteView } from '../gfx/pack';
+import { uniformTeam } from '../club/uniforms';
 
 export type Side = 0 | 1; // 0 = jugador humano (ataca hacia arriba), 1 = CPU (ataca hacia abajo)
 
@@ -52,8 +53,10 @@ export class MatchPlayer {
     const ringColor = side === 0 ? 0x4fa3ff : 0xff5a6a;
     this.ring = scene.add.ellipse(0, 0, 30, 11).setStrokeStyle(2, ringColor, 0.9);
     this.sprite = scene.add.image(0, 0, spriteKey(scene, data, team));
-    const vteam = data.origin ?? team.id;
     const vid = data.originId ?? data.id;
+    // Mi club con uniforme: el sprite repintado (src/club/uniforms.ts), si se pudo hacer
+    const dressed = team.uniform ? uniformTeam(data.origin ?? team.id, team.uniform) : null;
+    const vteam = dressed && scene.textures.exists(vspriteKey(dressed, vid, 'front')) ? dressed : (data.origin ?? team.id);
     if (scene.textures.exists(vspriteKey(vteam, vid, 'front'))) {
       this.views = (v) => vspriteKey(vteam, vid, v);
       // los dibujados guardan la altura real de cada uno: misma escala para todos (64 px = cuerpo normal)

@@ -3,6 +3,7 @@ import { MOVES, TEAMS, validateTeams } from '.';
 import scouts from './scouts.json';
 import type { PlayerData } from './types';
 import { rarityOf } from '../club/pool';
+import { START_UNIFORMS, UNIFORMS, getUniform, uniformKit } from '../club/uniforms';
 
 describe('datos', () => {
   it('los equipos son válidos (portero primero, técnicas que existen, ids únicos)', () => {
@@ -30,5 +31,18 @@ describe('datos', () => {
     expect(rarityOf(1)).toBe(2);
     expect(rarityOf(3)).toBe(3);
     expect(rarityOf(9)).toBe(4);
+  });
+
+  it('los uniformes de Victory Road tienen colores válidos y los iniciales existen', () => {
+    expect(UNIFORMS.length).toBe(177);
+    expect(new Set(UNIFORMS.map((u) => u.id)).size).toBe(UNIFORMS.length);
+    for (const id of START_UNIFORMS) expect(getUniform(id), id).toBeDefined();
+    for (const u of UNIFORMS) {
+      for (const gk of [false, true]) {
+        for (const c of Object.values(uniformKit(u.colors, gk))) {
+          expect(c.every((v) => Number.isInteger(v) && v >= 0 && v <= 255), u.id).toBe(true);
+        }
+      }
+    }
   });
 });

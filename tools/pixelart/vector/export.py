@@ -3,6 +3,7 @@
 Escribe src/assets/pack/vsprites/<equipo>/<jugador>/{front,back,side0,side1,side2}.png:
 - front/back: de frente y de espaldas; side0: de perfil mirando a la derecha; side1/side2: pasos de carrera.
 - Todos con la misma escala (REF_PX de alto para el cuerpo normal): los altos miden más que los bajitos.
+- Después de exportar, masks.py con los mismos equipos rehace sus mapas de equipación (para los uniformes de Mi club).
 
 Uso (desde la raíz del repo): python3 -I tools/pixelart/vector/export.py [ids de equipo...]
 """

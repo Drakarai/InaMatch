@@ -1,0 +1,375 @@
+{
+ "id": "gx-resistance-japan",
+ "season": "gx",
+ "wiki": "Resistance Japan",
+ "name": "Resistencia Japón",
+ "short": "RJP",
+ "colors": {
+  "shirt": "#b52a2e",
+  "sleeve": "#f2f2f2",
+  "shorts": "#1c1c1c",
+  "socks": "#1c1c1c",
+  "accent": "#8cd43a",
+  "gkShirt": "#4b1f8f",
+  "gkSleeve": "#4b1f8f",
+  "gkLongSleeve": true,
+  "gkShorts": "#f2f2f2",
+  "gkGloves": "#1c1c1c"
+ },
+ "formation": "f-coup-d-etat",
+ "players": [
+  {
+   "id": "quentin-cinquedea",
+   "name": "Quentin Cinquedea",
+   "short": "Quentin",
+   "number": 1,
+   "position": "GK",
+   "element": "fire",
+   "level": 99,
+   "fp": 114,
+   "tp": 161,
+   "stats": {
+    "kick": 51,
+    "body": 62,
+    "control": 48,
+    "guard": 74,
+    "speed": 47,
+    "stamina": 53,
+    "guts": 51
+   },
+   "moves": [
+    "shoot-break",
+    "thousand-arrow",
+    "gravity-point",
+    "big-scissors"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Senguuji Yamato",
+   "description": "Hijo de Gyan Cinquedea. Lidera su equipo con carisma y habilidad."
+  },
+  {
+   "id": "aim-quintet",
+   "name": "Aimé Quintet",
+   "short": "Aimé",
+   "number": 2,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 118,
+   "tp": 121,
+   "stats": {
+    "kick": 53,
+    "body": 54,
+    "control": 50,
+    "guard": 62,
+    "speed": 56,
+    "stamina": 57,
+    "guts": 62
+   },
+   "moves": [
+    "vanishing-cut",
+    "fuujin-no-mai",
+    "air-bullet",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Gomaki Tetsurou",
+   "description": "Un famoso especialista en la defensa que ha sido bendecido con un físico poderoso y astucia."
+  },
+  {
+   "id": "iggie-loo",
+   "name": "Iggie Loo",
+   "short": "Iggie",
+   "number": 4,
+   "position": "DF",
+   "element": "wind",
+   "level": 99,
+   "fp": 120,
+   "tp": 147,
+   "stats": {
+    "kick": 51,
+    "body": 50,
+    "control": 62,
+    "guard": 71,
+    "speed": 61,
+    "stamina": 58,
+    "guts": 53
+   },
+   "moves": [
+    "ice-ground",
+    "illusion-ball",
+    "koutei-penguin-2gou",
+    "senpuujin"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Makari Ginjirou",
+   "description": "Su ciudad natal es famosa por la granja familiar de lirios y bulbos, que siempre tienen un precio superior."
+  },
+  {
+   "id": "harrold-houdini",
+   "name": "Harrold Houdini",
+   "short": "Harrold",
+   "number": 3,
+   "position": "DF",
+   "element": "wood",
+   "level": 99,
+   "fp": 108,
+   "tp": 166,
+   "stats": {
+    "kick": 59,
+    "body": 76,
+    "control": 53,
+    "guard": 54,
+    "speed": 53,
+    "stamina": 48,
+    "guts": 55
+   },
+   "moves": [
+    "maboroshi-shot",
+    "illusion-ball",
+    "dimension-cut",
+    "extend-zone"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Mahoro Tadashi",
+   "description": "Un delantero impasible, que disfruta sorprendiendo a los rivales."
+  },
+  {
+   "id": "cronus-fourseasons",
+   "name": "Cronus Fourseasons",
+   "short": "Cronus",
+   "number": 5,
+   "position": "MF",
+   "element": "fire",
+   "level": 99,
+   "fp": 170,
+   "tp": 146,
+   "stats": {
+    "kick": 65,
+    "body": 73,
+    "control": 60,
+    "guard": 49,
+    "speed": 66,
+    "stamina": 50,
+    "guts": 67
+   },
+   "moves": [
+    "ballista-shot",
+    "round-spark",
+    "air-bullet",
+    "fire-tornado-dd"
+   ],
+   "look": {
+    "hair": "#4c8a3c",
+    "skin": "#b5835a"
+   },
+   "wiki": "Kurosaki Makoto",
+   "description": "Jugador perfecto en cuerpo y mente, bendecido por el dios del fútbol."
+  },
+  {
+   "id": "bay-laurel",
+   "name": "Bay Laurel",
+   "short": "Bay",
+   "number": 6,
+   "position": "MF",
+   "element": "earth",
+   "level": 99,
+   "fp": 120,
+   "tp": 148,
+   "stats": {
+    "kick": 52,
+    "body": 50,
+    "control": 55,
+    "guard": 58,
+    "speed": 72,
+    "stamina": 58,
+    "guts": 56
+   },
+   "moves": [
+    "triangle-zz",
+    "britannia-cross",
+    "acrobat-keep",
+    "ballista-shot"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Kishibe Taiga",
+   "description": "Un gran jugador, que se entrena mucho y puede llegar a ser profesional."
+  },
+  {
+   "id": "njord-snio",
+   "name": "Njord Snio",
+   "short": "Njord",
+   "number": 7,
+   "position": "MF",
+   "element": "wind",
+   "level": 99,
+   "fp": 187,
+   "tp": 149,
+   "stats": {
+    "kick": 76,
+    "body": 51,
+    "control": 52,
+    "guard": 46,
+    "speed": 52,
+    "stamina": 50,
+    "guts": 53
+   },
+   "moves": [
+    "panther-blizzard",
+    "white-blade",
+    "sprint-warp",
+    "eternal-blizzard"
+   ],
+   "look": {
+    "hair": "#3a2a1a",
+    "skin": "#c08a5e"
+   },
+   "wiki": "Yukimura Hyouga",
+   "description": "El delantero más destacado del norte, descubierto por Shawn Froste."
+  },
+  {
+   "id": "jimmy-kyrk",
+   "name": "Jimmy Kyrk",
+   "short": "Jimmy",
+   "number": 8,
+   "position": "MF",
+   "element": "wood",
+   "level": 99,
+   "fp": 106,
+   "tp": 161,
+   "stats": {
+    "kick": 76,
+    "body": 61,
+    "control": 61,
+    "guard": 60,
+    "speed": 48,
+    "stamina": 46,
+    "guts": 64
+   },
+   "moves": [
+    "head-bazooka",
+    "mad-juggler",
+    "triangle-zz",
+    "the-mist"
+   ],
+   "look": {
+    "hair": "#8b5a2b",
+    "skin": "#e8b888"
+   },
+   "wiki": "Kita Ichiban",
+   "description": "Destaca por su educación y su saber estar, pero no soporta los abusos."
+  },
+  {
+   "id": "doug-mcarthur",
+   "name": "Doug McArthur",
+   "short": "Doug",
+   "number": 9,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 153,
+   "tp": 144,
+   "stats": {
+    "kick": 64,
+    "body": 63,
+    "control": 56,
+    "guard": 57,
+    "speed": 51,
+    "stamina": 46,
+    "guts": 57
+   },
+   "moves": [
+    "sonic-shot",
+    "claymore",
+    "eternal-blizzard",
+    "ice-ground"
+   ],
+   "look": {
+    "hair": "#5a3a7a",
+    "skin": "#e8b888"
+   },
+   "wiki": "Minamisawa Atsushi",
+   "description": "Un delantero con mucha técnica, aunque a veces es un poco apático."
+  },
+  {
+   "id": "bailong",
+   "name": "Bailong",
+   "short": "Bailong",
+   "number": 10,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 168,
+   "tp": 144,
+   "stats": {
+    "kick": 92,
+    "body": 83,
+    "control": 65,
+    "guard": 49,
+    "speed": 49,
+    "stamina": 52,
+    "guts": 56
+   },
+   "moves": [
+    "white-hurricane",
+    "sprint-warp",
+    "air-bullet",
+    "zero-magnum"
+   ],
+   "look": {
+    "hair": "#efe6c4",
+    "skin": "#f1c79b"
+   },
+   "wiki": "Hakuryuu",
+   "description": "Confía mucho en su talento, por eso destaca incluso entre los imperiales.",
+   "captain": true
+  },
+  {
+   "id": "davy-jones",
+   "name": "Davy Jones",
+   "short": "Davy",
+   "number": 11,
+   "position": "FW",
+   "element": "wind",
+   "level": 99,
+   "fp": 122,
+   "tp": 149,
+   "stats": {
+    "kick": 77,
+    "body": 62,
+    "control": 54,
+    "guard": 45,
+    "speed": 57,
+    "stamina": 58,
+    "guts": 52
+   },
+   "moves": [
+    "flying-fish",
+    "fuujin-no-mai",
+    "air-bullet",
+    "koutei-penguin-2gou"
+   ],
+   "look": {
+    "hair": "#d9822b",
+    "skin": "#9a6a44"
+   },
+   "wiki": "Namikawa Rensuke",
+   "description": "Un jugador clave en la Cala Pirata, fuerte, técnico y con entusiasmo."
+  }
+ ]
+}

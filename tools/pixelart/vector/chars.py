@@ -908,3 +908,4 @@ def _wilbur_mane():
 
 
 _wilbur_mane()
+import chars_combined  # noqa: E402,F401

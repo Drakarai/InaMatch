@@ -408,42 +408,10 @@
    "description": "Chica tímida con un gran poder. Viene de un futuro aciago."
   },
   {
-   "id": "flora-cs-fran-mm",
-   "name": "Flora",
-   "short": "Flora",
-   "number": 13,
-   "position": "FW",
-   "element": "wind",
-   "level": 99,
-   "fp": 69,
-   "tp": 121,
-   "stats": {
-    "kick": 82,
-    "body": 56,
-    "control": 63,
-    "guard": 53,
-    "speed": 74,
-    "stamina": 41,
-    "guts": 51
-   },
-   "moves": [
-    "chaos-meteor",
-    "floral-despair",
-    "air-bullet",
-    "magical-flower"
-   ],
-   "look": {
-    "hair": "#8b5a2b",
-    "skin": "#b5835a"
-   },
-   "wiki": "Fran",
-   "description": "Chica tímida con un gran poder. Viene de un futuro aciago."
-  },
-  {
    "id": "sterne",
    "name": "Sterne",
    "short": "Sterne",
-   "number": 14,
+   "number": 13,
    "position": "FW",
    "element": "wood",
    "level": 99,

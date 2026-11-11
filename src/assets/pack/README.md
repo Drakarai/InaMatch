@@ -2307,52 +2307,6 @@ Escudo: `emblems/ie2-young-inazuma.png`
 | 11 · Constant Builder (FW) | `constant-builder.png` |
 | 12 · David Evans (GK) | `david-evans.png` |
 
-### Ases Africanos
-
-Escudo: `emblems/ie3-africa-daihyou.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Zolani Baloi (GK) | `zolani-baloi.png` |
-| 2 · Zephyr Vitesse (DF) | `zephyr-vitesse.png` |
-| 3 · Jimi Gaines (DF) | `jimi-gaines.png` |
-| 4 · Masego Molelo (DF) | `masego-molelo.png` |
-| 5 · Cassius Tobler (DF) | `cassius-tobler.png` |
-| 6 · Quint Hampton (MF) | `quint-hampton.png` |
-| 7 · Maximino Cruz (MF) | `maximino-cruz.png` |
-| 8 · Adam Marunga (MF) | `adam-marunga.png` |
-| 9 · Anton Nortje (MF) | `anton-nortje.png` |
-| 10 · Drago Hill (FW) | `drago-hill.png` |
-| 11 · Melisizwe Zamani (FW) | `melisizwe-zamani.png` |
-| 12 · Herschel De Villiers (FW) | `herschel-de-villiers.png` |
-| 13 · Hector Helio (GK) | `hector-helio.png` |
-| 14 · Ian Ferrum (DF) | `ian-ferrum.png` |
-| 15 · Yasir Haddad (MF) | `yasir-haddad.png` |
-| 16 · Reggie Ines (MF) | `reggie-ines.png` |
-
-### Ases Asiáticos
-
-Escudo: `emblems/ie3-asia-daihyou.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Nasir Mustafa (GK) | `nasir-mustafa.png` |
-| 2 · Sayid Armand (MF) | `sayid-armand.png` |
-| 3 · Yusuf Massoud (MF) | `yusuf-massoud.png` |
-| 4 · Ken Crackham (DF) | `ken-crackham.png` |
-| 5 · Kjell Snapper (DF) | `kjell-snapper.png` |
-| 6 · Bilal Kalil (DF) | `bilal-kalil.png` |
-| 7 · Dolph Hensen (MF) | `dolph-hensen.png` |
-| 8 · Zack Abdulla (FW) | `zack-abdulla.png` |
-| 9 · Byron Love (MF) | `byron-love.png` |
-| 10 · Changsu Choi (MF) | `changsu-choi.png` |
-| 11 · Hamilton Reith (FW) | `hamilton-reith.png` |
-| 12 · Gene Whalon (GK) | `gene-whalon.png` |
-| 13 · Umi Hwang (DF) | `umi-hwang.png` |
-| 14 · Claude Beacons (FW) | `claude-beacons.png` |
-| 15 · Bryce Whitingale (FW) | `bryce-whitingale.png` |
-| 16 · Dooyoon Hong (DF) | `dooyoon-hong.png` |
-
 ### Big Waves
 
 Escudo: `emblems/ie3-big-waves.png`
@@ -2439,29 +2393,6 @@ Escudo: `emblems/ie3-desert-lion.png`
 | 14 · Khalfan Jibril (DF) | `khalfan-jibril.png` |
 | 15 · Rajab Ismail (MF) | `rajab-ismail.png` |
 | 16 · Adel Siddique (FW) | `adel-siddique.png` |
-
-### Ases Europeos
-
-Escudo: `emblems/ie3-europe-daihyou.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Gigi Blasi (GK) | `gigi-blasi.png` |
-| 2 · Pierre Godin (DF) | `pierre-godin.png` |
-| 3 · Lance Rawton (DF) | `lance-rawton.png` |
-| 4 · Marco Maserati (DF) | `marco-maserati.png` |
-| 5 · Lukas Schmidt (DF) | `lukas-schmidt.png` |
-| 6 · Alexander Hausen (DF) | `alexander-hausen.png` |
-| 7 · Paolo Bianchi (FW) | `paolo-bianchi.png` |
-| 8 · Julien Rousseau (MF) | `julien-rousseau.png` |
-| 9 · Samuel Mayo (FW) | `samuel-mayo.png` |
-| 10 · Edgar Partinus (FW) | `edgar-partinus.png` |
-| 11 · Phillip Owen (FW) | `phillip-owen.png` |
-| 12 · Roland Pérec (MF) | `roland-p-rec.png` |
-| 13 · Fermín Sánchez (GK) | `ferm-n-s-nchez.png` |
-| 14 · Raffaele Generani (FW) | `raffaele-generani.png` |
-| 15 · Miguel Pereira (MF) | `miguel-pereira.png` |
-| 16 · Jonas Polk (MF) | `jonas-polk.png` |
 
 ### Dragones de Fuego
 
@@ -2572,29 +2503,6 @@ Escudo: `emblems/ie3-makai-gundan-z.png`
 | 9 · Jezebeth (MF) | `jezebeth.png` |
 | 10 · Thanatos (FW) | `thanatos.png` |
 | 11 · Destra (FW) | `destra.png` |
-
-### Ases Sudamericanos
-
-Escudo: `emblems/ie3-nanbei-daihyou.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Jorge Ortega (GK) | `jorge-ortega.png` |
-| 2 · Julio Acosta (DF) | `julio-acosta.png` |
-| 3 · Ramón Martínez (DF) | `ram-n-mart-nez.png` |
-| 4 · Pablo Castillo (MF) | `pablo-castillo.png` |
-| 5 · Roberto Torres (MF) | `roberto-torres.png` |
-| 6 · Thiago Torres (DF) | `thiago-torres.png` |
-| 7 · Leone Badigo (FW) | `leone-badigo.png` |
-| 8 · Sergio Pérez (MF) | `sergio-p-rez.png` |
-| 9 · Mac Robingo (FW) | `mac-robingo.png` |
-| 10 · Coruja Cerezo (MF) | `coruja-cerezo.png` |
-| 11 · Gato Carvalho (FW) | `gato-carvalho.png` |
-| 12 · Leonardo Almeida (MF) | `leonardo-almeida.png` |
-| 13 · Presa Passos (MF) | `presa-passos.png` |
-| 14 · Formiga Clemens (DF) | `formiga-clemens.png` |
-| 15 · Carlos Lagarto (DF) | `carlos-lagarto.png` |
-| 16 · Falcão Da Silva (GK) | `falc-o-da-silva.png` |
 
 ### Neo Japón
 
@@ -2744,29 +2652,6 @@ Escudo: `emblems/ie3-rose-griffon.png`
 | 14 · Jean Gutain (DF) | `jean-gutain.png` |
 | 15 · Claude Moreau (MF) | `claude-moreau.png` |
 | 16 · Michel Morland (FW) | `michel-morland.png` |
-
-### Ases Internacionales
-
-Escudo: `emblems/ie3-sekai-daihyou.png`
-
-| Jugador | Archivo |
-|---|---|
-| 1 · Hector Helio (GK) | `hector-helio.png` |
-| 2 · Bilal Kalil (DF) | `bilal-kalil.png` |
-| 3 · Alexander Hausen (DF) | `alexander-hausen.png` |
-| 4 · Masego Molelo (DF) | `masego-molelo.png` |
-| 5 · Thiago Torres (DF) | `thiago-torres.png` |
-| 6 · Changsu Choi (MF) | `changsu-choi.png` |
-| 7 · Dolph Hensen (MF) | `dolph-hensen.png` |
-| 8 · Mac Robingo (FW) | `mac-robingo.png` |
-| 9 · Paolo Bianchi (FW) | `paolo-bianchi.png` |
-| 10 · Mark Krueger (MF) | `mark-krueger.png` |
-| 11 · Edgar Partinus (FW) | `edgar-partinus.png` |
-| 12 · Miguel Pereira (MF) | `miguel-pereira.png` |
-| 13 · Julien Rousseau (MF) | `julien-rousseau.png` |
-| 14 · Byron Love (MF) | `byron-love.png` |
-| 15 · Gigi Blasi (GK) | `gigi-blasi.png` |
-| 16 · Jimi Gaines (DF) | `jimi-gaines.png` |
 
 ### Zoolan Team
 

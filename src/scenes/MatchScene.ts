@@ -73,6 +73,8 @@ interface Ball {
   kicker: MatchPlayer | null;
   kickedAt: number;
   pass: { receiver: MatchPlayer | null; tried: Set<MatchPlayer> } | null;
+  /** Compañeros en fuera de juego cuando se dio el último pase: si uno la toca, se pita. */
+  offside: Set<MatchPlayer> | null;
 }
 
 export interface GoalEntry {
@@ -106,6 +108,8 @@ const STUN_ROBBED = 2.0; // atacante al que le roban
 const CARRIER_GRAB_RADIUS = 48;
 
 const rng = Math.random;
+/** Saques en los que no se pita fuera de juego. */
+const NO_OFFSIDE_RESTARTS = new Set(['Saque de banda', 'Córner', 'Saque de puerta']);
 
 export class MatchScene extends Phaser.Scene {
   teams!: [TeamData, TeamData];
@@ -129,7 +133,7 @@ export class MatchScene extends Phaser.Scene {
   private duelCooldownUntil = 0;
   private holdUntil = 0; // el portero con el balón en las manos
   /** Jugador que saca en una jugada a balón parado y segundos reales que lleva esperando. */
-  private setPiece: { taker: MatchPlayer; waited: number } | null = null;
+  private setPiece: { taker: MatchPlayer; waited: number; label: string } | null = null;
   private cpuThinkAt = 0;
   private cpuPossessionSince = 0;
   /** Desde cuándo el que lleva el balón no tiene recorrido que seguir. */
@@ -207,6 +211,7 @@ export class MatchScene extends Phaser.Scene {
       kicker: null,
       kickedAt: -1,
       pass: null,
+      offside: null,
     };
 
     this.pathGfx = this.add.graphics().setDepth(9000);
@@ -438,9 +443,9 @@ export class MatchScene extends Phaser.Scene {
   }
 
   /** El juego se para hasta que el lanzador saque: el humano, cuando quiera; la CPU, tras un momento. */
-  private startSetPiece(taker: MatchPlayer): void {
+  private startSetPiece(taker: MatchPlayer, label = 'Saque'): void {
     if (this.state === 'over') return;
-    this.setPiece = { taker, waited: 0 };
+    this.setPiece = { taker, waited: 0, label };
     taker.stunnedUntil = 0;
     taker.path = [];
     taker.manual = false;
@@ -485,6 +490,7 @@ export class MatchScene extends Phaser.Scene {
     b.owner = p;
     b.lastTouch = p.side;
     b.pass = null;
+    b.offside = null;
     b.speed = 0;
     b.travel = 0;
     b.height = 0;
@@ -565,6 +571,14 @@ export class MatchScene extends Phaser.Scene {
       const y = owner.y - 34;
       m.fillTriangle(owner.x - 8, y - 10, owner.x + 8, y - 10, owner.x, y);
       m.strokeTriangle(owner.x - 8, y - 10, owner.x + 8, y - 10, owner.x, y);
+    }
+    // línea del fuera de juego cuando ataca el humano
+    if (owner?.side === 0 && (this.state === 'play' || this.state === 'setpiece')) {
+      const line = this.offsideLine(0);
+      if (line > 0) {
+        const y = PITCH.y + PITCH.h / 2 + line * this.attackDir(0);
+        m.lineStyle(2, 0xffd23f, 0.35).lineBetween(PITCH.x, y, PITCH.x + PITCH.w, y);
+      }
     }
     if (focus !== owner) {
       m.lineStyle(2, 0xffffff, 0.9).strokeEllipse(focus.x, focus.y + 21, 38, 14);
@@ -757,9 +771,13 @@ export class MatchScene extends Phaser.Scene {
   // ---------------------------------------------------------------- balón
 
   private kick(from: MatchPlayer, to: Vec, receiver: MatchPlayer | null, speed = PASS_SPEED): void {
+    // en los saques de banda, de esquina y de puerta no hay fuera de juego
+    const noOffside = this.setPiece?.taker === from && NO_OFFSIDE_RESTARTS.has(this.setPiece.label);
     if (this.setPiece?.taker === from) this.endSetPiece();
     sfx.kick();
     const b = this.ball;
+    const offside = noOffside ? [] : this.players[from.side].filter((m) => m !== from && this.isOffsidePos(m, from));
+    b.offside = offside.length ? new Set(offside) : null;
     const d = this.dist(b, to) || 1;
     b.owner = null;
     b.dirX = (to.x - b.x) / d;
@@ -807,6 +825,10 @@ export class MatchScene extends Phaser.Scene {
         if (rng() > chance) continue;
         this.floatText(p.x, p.y - 40, '¡Interceptado!', '#ffb0b0');
       }
+      if (b.offside?.has(p)) {
+        void this.callOffside(p);
+        break;
+      }
       this.giveBall(p);
       if (p.isGK && this.inOwnBox(p)) this.holdUntil = this.now + (p.side === 0 ? 4 : 1.2);
       break;
@@ -840,6 +862,43 @@ export class MatchScene extends Phaser.Scene {
     }
   }
 
+  /** Avance hacia la portería rival (cuanto más alto, más adelantado). */
+  private progress(p: Vec, side: Side): number {
+    return (p.y - (PITCH.y + PITCH.h / 2)) * this.attackDir(side);
+  }
+
+  /** Línea del último defensa: el penúltimo rival contando desde su portería (normalmente, el último defensa). */
+  private offsideLine(side: Side): number {
+    const depths = this.opponents(side)
+      .map((o) => this.progress(o, side))
+      .sort((a, b) => b - a);
+    return depths[1] ?? depths[0] ?? 0;
+  }
+
+  /**
+   * ¿Está `mate` en fuera de juego si `passer` le pasa ahora? En campo rival, por delante del balón y más
+   * adelantado que el último defensa. Un pase hacia atrás nunca es fuera de juego.
+   */
+  private isOffsidePos(mate: MatchPlayer, passer: MatchPlayer): boolean {
+    const side = mate.side;
+    const m = this.progress(mate, side);
+    return m > 0 && m > this.progress(passer, side) + 4 && m > this.offsideLine(side) + 4;
+  }
+
+  private async callOffside(p: MatchPlayer): Promise<void> {
+    const b = this.ball;
+    b.offside = null;
+    b.pass = null;
+    b.speed = 0;
+    this.state = 'event';
+    sfx.whistle();
+    this.floatText(p.x, p.y - 46, '¡Fuera de juego!', '#ffd23f');
+    const def: Side = p.side === 0 ? 1 : 0;
+    await this.hud.banner('¡Fuera de juego!', `Tiro libre para ${this.teams[def].name}`, '#ffd23f', 1000);
+    if (this.state !== 'event') return;
+    this.restartWith(def, this.clampToPitch({ x: p.x, y: p.y }, 10), 'Fuera de juego');
+  }
+
   private restartWith(side: Side, spot: Vec, label: string, who?: MatchPlayer): void {
     const taker = who ?? this.closest(this.players[side].filter((p) => !p.isGK), spot)!;
     taker.setPos(spot.x, spot.y);
@@ -857,7 +916,7 @@ export class MatchScene extends Phaser.Scene {
     this.holdUntil = 0;
     this.hud.toast(label);
     sfx.whistle();
-    this.startSetPiece(taker);
+    this.startSetPiece(taker, label);
   }
 
   // --------------------------------------------------------- CPU con balón
@@ -920,6 +979,7 @@ export class MatchScene extends Phaser.Scene {
     const opps = this.opponents(from.side);
     for (const mate of this.players[from.side]) {
       if (mate === from || mate.isGK || mate.isStunned(this.now)) continue;
+      if (this.isOffsidePos(mate, from)) continue;
       const d = this.dist(from, mate);
       if (d < 70 || d > (long ? 650 : 430)) continue;
       const free = Math.min(...opps.map((o) => this.dist(o, mate)));

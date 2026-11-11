@@ -18,6 +18,7 @@ import {
   resolveDuel,
   resolveKeeper,
   resolveShot,
+  SHOT_POWER_LEVELS,
   shotPower,
   supportMultiplier,
   usableMoves,
@@ -202,6 +203,25 @@ describe('apoyo, faltas y potencia', () => {
   it('el poder de base se puede enseñar antes de elegir', () => {
     expect(basePower(fighter(30), 'attack')).toBeGreaterThan(0);
     expect(basePower(fighter(30), 'attack', 1.2)).toBeGreaterThan(basePower(fighter(30), 'attack'));
+  });
+});
+
+describe('potencia de las supertécnicas', () => {
+  it('el tiro básico vale lo mismo que un tiro al máximo; las potencias menores le restan', () => {
+    const max = shotPower(fighter(50), basic('shot'), 200, fixed(0.5), SHOT_POWER_LEVELS[2].mul);
+    const normal = shotPower(fighter(50), basic('shot'), 200, fixed(0.5), SHOT_POWER_LEVELS[0].mul);
+    expect(max).toBeCloseTo(shotPower(fighter(50), basic('shot'), 200, fixed(0.5)));
+    expect(normal).toBeLessThan(max);
+  });
+
+  it('cualquier supertécnica suma poder a la mejor acción básica', () => {
+    const weakShot: MoveData = { id: 'weak', name: 'Flojo', kind: 'shoot', element: 'wind', power: 5, tp: 5 };
+    const weakCatch: MoveData = { id: 'weak-c', name: 'Flojo', kind: 'catch', element: 'wind', power: 5, tp: 5 };
+    for (const v of [20, 50, 99]) {
+      expect(choicePower(fighter(v), { type: 'move', move: weakShot })).toBeGreaterThan(choicePower(fighter(v), basic('shot')));
+      const best = Math.max(choicePower(fighter(v), basic('catch')), choicePower(fighter(v), basic('punch')));
+      expect(choicePower(fighter(v), { type: 'move', move: weakCatch })).toBeGreaterThan(best);
+    }
   });
 });
 

@@ -14,6 +14,7 @@ import {
   HALFTIME_RECOVERY,
   SAVE_FP_COST,
   SHOT_FP_COST,
+  MAX_SUPPORTERS,
   SHOT_POWER_LEVELS,
   TENSION_GAIN,
   basePower,
@@ -35,7 +36,8 @@ import { texKey } from '../gfx/placeholders';
 import { MatchPlayer, type Side, type Vec } from '../match/MatchPlayer';
 import type { HudScene } from './HudScene';
 
-type State = 'play' | 'shot' | 'event' | 'paused' | 'over';
+/** 'setpiece': juego parado (saque, falta...) esperando a que el lanzador pase o tire. */
+type State = 'play' | 'shot' | 'event' | 'setpiece' | 'paused' | 'over';
 
 /** Tiro en vuelo: el balón viaja en tiempo real y los defensas pueden cruzarse en su trayectoria. */
 interface ShotFlight {
@@ -126,6 +128,8 @@ export class MatchScene extends Phaser.Scene {
   private now = 0; // tiempo de juego (solo avanza en 'play')
   private duelCooldownUntil = 0;
   private holdUntil = 0; // el portero con el balón en las manos
+  /** Jugador que saca en una jugada a balón parado y segundos reales que lleva esperando. */
+  private setPiece: { taker: MatchPlayer; waited: number } | null = null;
   private cpuThinkAt = 0;
   private cpuPossessionSince = 0;
   /** Desde cuándo el que lleva el balón no tiene recorrido que seguir. */
@@ -325,7 +329,7 @@ export class MatchScene extends Phaser.Scene {
       return;
     }
     // solo se pausa en juego: en duelos y animaciones hay que elegir antes
-    if (this.state !== 'play' && this.state !== 'shot') return;
+    if (this.state !== 'play' && this.state !== 'shot' && this.state !== 'setpiece') return;
     this.stateBeforePause = this.state;
     this.state = 'paused';
     this.tweens.pauseAll();
@@ -430,7 +434,50 @@ export class MatchScene extends Phaser.Scene {
     sfx.whistle();
     void this.hud
       .banner(first ? (this.half === 1 ? '¡A jugar!' : '2ª parte') : '¡Saque!', first ? `${this.teams[0].name} vs ${this.teams[1].name}` : '', '#ffffff', 1100)
-      .then(() => this.resumePlay());
+      .then(() => this.startSetPiece(kicker));
+  }
+
+  /** El juego se para hasta que el lanzador saque: el humano, cuando quiera; la CPU, tras un momento. */
+  private startSetPiece(taker: MatchPlayer): void {
+    if (this.state === 'over') return;
+    this.setPiece = { taker, waited: 0 };
+    taker.stunnedUntil = 0;
+    taker.path = [];
+    taker.manual = false;
+    if (this.state === 'paused') this.stateBeforePause = 'setpiece';
+    else this.state = 'setpiece';
+    if (taker.side === 0) this.hud.toast(taker.isGK ? 'Toca a un compañero para sacar' : 'Toca a un compañero o un punto para sacar');
+  }
+
+  /** Termina la jugada a balón parado (el lanzador ya ha pasado o tirado). */
+  private endSetPiece(): void {
+    if (!this.setPiece) return;
+    this.setPiece = null;
+    if (this.state === 'setpiece') this.state = 'play';
+    else if (this.state === 'paused' && this.stateBeforePause === 'setpiece') this.stateBeforePause = 'play';
+  }
+
+  private setPieceLogic(dt: number): void {
+    const sp = this.setPiece;
+    if (!sp || this.ball.owner !== sp.taker) {
+      this.endSetPiece();
+      return;
+    }
+    if (sp.taker.side === 0) return; // el humano tiene todo el tiempo del mundo
+    sp.waited += dt;
+    if (sp.waited < 1.2) return;
+    const owner = sp.taker;
+    const goal = this.goalOf(0);
+    const dGoal = this.dist(owner, goal);
+    if (!owner.isGK && Math.abs(owner.x - CX) < 300 && dGoal <= SHOT_RANGE && rng() < 0.6) {
+      this.endSetPiece();
+      void this.shoot(owner);
+      return;
+    }
+    const option = this.bestPassOption(owner, owner.isGK);
+    this.endSetPiece();
+    if (option) this.kick(owner, { x: option.x, y: option.y }, option, owner.isGK ? PASS_SPEED * 1.1 : PASS_SPEED);
+    else this.kick(owner, this.toWorld(owner.side, 0.5, 0.55), null, PASS_SPEED * 1.2);
   }
 
   private giveBall(p: MatchPlayer): void {
@@ -466,6 +513,8 @@ export class MatchScene extends Phaser.Scene {
         this.passHintUpdate();
         this.keeperHoldLogic();
       }
+    } else if (this.state === 'setpiece') {
+      this.setPieceLogic(dt);
     } else if (this.state === 'shot' && this.flight) {
       const sdt = dt * this.flight.slow;
       this.now += sdt;
@@ -708,6 +757,7 @@ export class MatchScene extends Phaser.Scene {
   // ---------------------------------------------------------------- balón
 
   private kick(from: MatchPlayer, to: Vec, receiver: MatchPlayer | null, speed = PASS_SPEED): void {
+    if (this.setPiece?.taker === from) this.endSetPiece();
     sfx.kick();
     const b = this.ball;
     const d = this.dist(b, to) || 1;
@@ -804,8 +854,10 @@ export class MatchScene extends Phaser.Scene {
     }
     this.giveBall(taker);
     this.duelCooldownUntil = this.now + 1.2;
-    if (taker.isGK) this.holdUntil = this.now + (side === 0 ? 4 : 1);
+    this.holdUntil = 0;
     this.hud.toast(label);
+    sfx.whistle();
+    this.startSetPiece(taker);
   }
 
   // --------------------------------------------------------- CPU con balón
@@ -984,19 +1036,24 @@ export class MatchScene extends Phaser.Scene {
 
     if (isFoul(defChoice, !result.attackerWins, rng)) {
       // la entrada en plancha se lleva el balón... y al jugador: falta
-      att.stunnedUntil = this.now + 0.8;
       att.path = [];
       this.floatText(def.x, def.y - 46, '¡Falta!', '#ff6a5a');
       await this.hud.banner('¡Falta!', `Tiro libre para ${this.teams[att.side].name}`, '#ff5a4a', 1000);
       this.restartWith(att.side, { x: att.x, y: att.y }, 'Tiro libre', att);
     } else if (result.attackerWins) {
       def.stunnedUntil = this.now + STUN_BEATEN;
+      // los compañeros que le ayudaban caen con él
+      for (const h of defHelpers.slice(0, MAX_SUPPORTERS)) h.stunnedUntil = this.now + STUN_BEATEN;
       this.push(def, att, 26);
       this.floatText(att.x, att.y - 46, `${choiceLabel(attChoice)}: ¡superado!`, colorOf(att));
       this.addTension(att.side, TENSION_GAIN.duelWon);
     } else {
       att.stunnedUntil = this.now + STUN_ROBBED;
       att.path = [];
+      for (const h of attHelpers.slice(0, MAX_SUPPORTERS)) {
+        h.stunnedUntil = this.now + STUN_ROBBED;
+        h.path = [];
+      }
       this.push(att, def, 22);
       this.giveBall(def);
       def.path = [];
@@ -1128,7 +1185,8 @@ export class MatchScene extends Phaser.Scene {
     await this.playMoves([shooter, shotChoice, goal]);
     // la potencia se calcula con la estamina de antes del tiro; luego se paga
     const shotFp = SHOT_FP_COST + SHOT_POWER_LEVELS[level].fp;
-    const power = shotPower(shooter.fighter(), shotChoice, distance, rng, SHOT_POWER_LEVELS[level].mul * this.sideMul(shooter.side));
+    const levelMul = shotChoice.type === 'basic' ? SHOT_POWER_LEVELS[level].mul : 1;
+    const power = shotPower(shooter.fighter(), shotChoice, distance, rng, levelMul * this.sideMul(shooter.side));
     shooter.fp = Math.max(0, shooter.fp - shotFp);
 
     // 2) el balón sale volando en tiempo real: los defensas pueden cruzarse en su camino
@@ -1269,6 +1327,10 @@ export class MatchScene extends Phaser.Scene {
     }
     this.addTension(defSide, TENSION_GAIN.save);
     this.breakMove(shooter, shotChoice, this.ball);
+    // el portero gana el duelo: el que tiró se queda aturdido
+    shooter.stunnedUntil = this.now + STUN_ROBBED;
+    shooter.path = [];
+    shooter.manual = false;
     if (result.outcome === 'caught') {
       this.giveBall(keeper);
       this.holdUntil = this.now + (keeper.side === 0 ? 4 : 1.2);
@@ -1306,7 +1368,7 @@ export class MatchScene extends Phaser.Scene {
 
   /** El humano puede mover a sus jugadores en juego y mientras vuela un tiro rival. */
   private canSteer(): boolean {
-    return this.state === 'play' || (this.state === 'shot' && this.flight?.defSide === 0);
+    return this.state === 'play' || this.state === 'setpiece' || (this.state === 'shot' && this.flight?.defSide === 0);
   }
 
   private endShot(): void {
@@ -1480,6 +1542,8 @@ export class MatchScene extends Phaser.Scene {
     const w = this.worldPoint(pointer);
     const owner = this.ball.owner;
     const humanHasBall = owner?.side === 0;
+    // a balón parado solo se puede sacar: pasar o tirar con el lanzador
+    if (this.state === 'setpiece' && (!humanHasBall || this.setPiece?.taker !== owner)) return;
 
     const hit = this.humanAt(w);
     if (hit) {
@@ -1504,6 +1568,7 @@ export class MatchScene extends Phaser.Scene {
       this.kick(owner, this.clampToPitch(w), mate);
       return;
     }
+    if (this.state === 'setpiece') return;
     // sin balón: el jugador activo corre al punto
     const active = this.focusPlayer();
     active.path = [this.clampToPitch(w, -20)];
@@ -1514,7 +1579,7 @@ export class MatchScene extends Phaser.Scene {
     const d = this.drawing;
     if (!d || !pointer.isDown) return;
     if (Phaser.Math.Distance.Between(pointer.x, pointer.y, d.startScreen.x, d.startScreen.y) > 10 * RES) d.tapCandidate = false;
-    if (d.tapCandidate) return;
+    if (d.tapCandidate || this.state === 'setpiece') return;
     const w = this.worldPoint(pointer);
     if (Phaser.Math.Distance.Between(d.last.x, d.last.y, w.x, w.y) <= 12) return;
     if (!d.started) {
@@ -1547,7 +1612,7 @@ export class MatchScene extends Phaser.Scene {
 
   canShoot(): boolean {
     const owner = this.ball.owner;
-    if (this.state !== 'play' || !owner || owner.side !== 0 || owner.isGK) return false;
+    if ((this.state !== 'play' && this.state !== 'setpiece') || !owner || owner.side !== 0 || owner.isGK) return false;
     return this.dist(owner, this.goalOf(1)) <= SHOT_RANGE || this.longShots(owner).length > 0;
   }
 
@@ -1564,7 +1629,7 @@ export class MatchScene extends Phaser.Scene {
 
   requestShot(): void {
     const owner = this.ball.owner;
-    if (this.state !== 'play' || !owner || owner.side !== 0 || owner.isGK) return;
+    if ((this.state !== 'play' && this.state !== 'setpiece') || !owner || owner.side !== 0 || owner.isGK) return;
     void this.tryShoot(owner);
   }
 

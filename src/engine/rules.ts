@@ -87,11 +87,15 @@ export const TENSION_GAIN = { duelWon: 14, shotBlocked: 18, save: 20, conceded: 
 
 /** Niveles de "¡Regula la potencia!" (GO): más TP, más fuerza. */
 /** "¡Regula la potencia!": cuanto más fuerte, más estamina (FP) extra cuesta el tiro. */
+/** El tiro básico vale lo que vale "al máximo"; las potencias menores le restan fuerza. */
 export const SHOT_POWER_LEVELS = [
-  { label: 'Normal', fp: 0, mul: 1 },
-  { label: 'Fuerte', fp: 10, mul: 1.15 },
-  { label: 'Máxima', fp: 20, mul: 1.3 },
+  { label: 'Normal', fp: 0, mul: 0.77 },
+  { label: 'Fuerte', fp: 10, mul: 0.885 },
+  { label: 'Máxima', fp: 20, mul: 1 },
 ] as const;
+
+/** Cuánto de la potencia de una supertécnica se suma a la acción básica de base. */
+export const MOVE_POWER_BONUS = 0.5;
 
 /** `sameElement` son cuántos de esos compañeros comparten afinidad con el jugador del duelo. */
 export function supportMultiplier(supporters: number, sameElement = 0): number {
@@ -126,7 +130,8 @@ function basicPower(id: BasicId, s: Stats): number {
     case 'slide':
       return s.guard * 0.6 + s.body * 0.5 + s.speed * 0.5;
     case 'shot':
-      return s.kick * 1.3;
+      // tiro al máximo: es la base de cualquier tiro
+      return s.kick * 1.69;
     case 'chip':
       return s.kick * 0.6 + s.control * 0.8;
     case 'catch':
@@ -140,16 +145,17 @@ function basicPower(id: BasicId, s: Stats): number {
   }
 }
 
-function moveStat(kind: MoveKind, s: Stats): number {
+/** Acción básica (la mejor) sobre la que se apoya una supertécnica de este tipo. */
+function moveBase(kind: MoveKind, s: Stats): number {
   switch (kind) {
     case 'shoot':
-      return s.kick;
+      return basicPower('shot', s);
     case 'dribble':
-      return s.control;
+      return Math.max(basicPower('dribble', s), basicPower('feint', s));
     case 'block':
-      return (s.guard + s.body) / 2;
+      return Math.max(basicPower('tackle', s), basicPower('slide', s), basicPower('shotblock', s));
     case 'catch':
-      return s.guard;
+      return Math.max(basicPower('catch', s), basicPower('punch', s));
   }
 }
 
@@ -159,7 +165,8 @@ export function choicePower(f: Fighter, c: Choice): number {
   if (c.type === 'basic') {
     raw = basicPower(c.id, f.stats);
   } else {
-    raw = c.move.power + moveStat(c.move.kind, f.stats) * 0.8;
+    // una supertécnica nunca es peor que la mejor acción básica: le suma su poder
+    raw = moveBase(c.move.kind, f.stats) + c.move.power * MOVE_POWER_BONUS;
     // STAB: técnica de la misma afinidad que el jugador
     if (hasStab(f.element, c.move.element)) raw *= SAME_ELEMENT_BONUS;
   }

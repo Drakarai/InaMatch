@@ -1397,7 +1397,8 @@ export class MatchScene extends Phaser.Scene {
       this.floatText(keeper.x, keeper.y - 46, '¡Parada!', '#ffffff');
     } else {
       this.floatText(keeper.x, keeper.y - 46, '¡Despejada!', '#ffffff');
-      this.looseBall(keeper, 140);
+      // el despeje manda el balón hacia delante, lejos de la portería (más con una supertécnica)
+      this.looseBall(keeper, keepChoice.type === 'move' ? 200 : 140);
     }
     this.endShot();
   }

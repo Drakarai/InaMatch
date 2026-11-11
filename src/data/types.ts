@@ -101,6 +101,8 @@ export interface MoveData {
   wiki?: string;
   /** Tiro largo: el único tiro que se puede hacer desde lejos de la portería. */
   long?: boolean;
+  /** Parada de despeje (de puños, "P" en la wiki): si para el tiro, el balón sale despejado en vez de atraparlo. */
+  punch?: boolean;
   /**
    * Sirve para cortar un tiro rival en vuelo: técnica defensiva de bloqueo de tiro (El muro, La montaña...) o tiro de
    * contra (Contra, Remate tarzán...). Sin una de estas, solo el portero puede parar un tiro.

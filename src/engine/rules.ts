@@ -288,6 +288,11 @@ export function resolveBlock(
   return { blocked, blockPower: Math.round(b), remaining: blocked ? 0 : power - b * 0.5 };
 }
 
+/** ¿Esta parada despeja el balón (puños básicos o supertécnica de despeje) en vez de atraparlo? */
+export function isPunch(c: Choice): boolean {
+  return c.type === 'basic' ? c.id === 'punch' : !!c.move.punch;
+}
+
 /** El portero contra un tiro que llega con fuerza `power`. */
 export function resolveKeeper(
   power: number,
@@ -307,7 +312,7 @@ export function resolveKeeper(
   }
   let outcome: ShotOutcome;
   if (s > k) outcome = 'goal';
-  else outcome = keepChoice.type === 'basic' && keepChoice.id === 'punch' ? 'punched' : 'caught';
+  else outcome = isPunch(keepChoice) ? 'punched' : 'caught';
   return { outcome, shotPower: Math.round(s), keeperPower: Math.round(k) };
 }
 

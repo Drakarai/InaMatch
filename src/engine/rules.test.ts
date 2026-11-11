@@ -225,6 +225,17 @@ describe('potencia de las supertécnicas', () => {
   });
 });
 
+describe('despejes', () => {
+  it('una supertécnica de despeje despeja el balón en vez de atraparlo', () => {
+    const punch: MoveData = { id: 'p', name: 'Despeje', kind: 'catch', element: 'fire', power: 60, tp: 20, punch: true };
+    const hand: MoveData = { id: 'h', name: 'Mano', kind: 'catch', element: 'fire', power: 60, tp: 20 };
+    expect(resolveKeeper(30, fighter(40), basic('shot'), fighter(40), { type: 'move', move: punch }, fixed(0.5)).outcome).toBe('punched');
+    expect(resolveKeeper(30, fighter(40), basic('shot'), fighter(40), { type: 'move', move: hand }, fixed(0.5)).outcome).toBe('caught');
+    expect(Object.values(MOVES_DATA).filter((m) => m.punch).every((m) => m.kind === 'catch')).toBe(true);
+    expect(MOVES_DATA['bakuretsu-punch']?.punch).toBe(true);
+  });
+});
+
 describe('bloqueos de tiro', () => {
   it('un tiro flojo lo bloquea un defensa fuerte', () => {
     const power = shotPower(fighter(20), basic('shot'), 600, fixed(0.5));

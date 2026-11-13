@@ -39,23 +39,18 @@ export function vsprites(): Plugin {
         const isMask = id.startsWith('\0' + MASK);
         const rel = id.slice(1 + (isMask ? MASK : SET).length);
         const [team, only] = rel.split('/');
-        const lines: string[] = [];
         const entries: string[] = [];
         for (const p of only ? [only] : ls(path.join(dir, team))) {
           for (const f of ls(path.join(dir, team, p)).filter((f) => f.endsWith('.png') && f.startsWith('mask-') === isMask)) {
             const key = JSON.stringify(`${team}/${p}/${f.slice(isMask ? 5 : 0, -4)}`);
-            if (isMask) {
-              // los mapas son diminutos: van tal cual en base64, sin pasar por los recursos de Vite (son miles)
-              const data = fs.readFileSync(path.join(dir, team, p, f)).toString('base64');
-              entries.push(`  ${key}: "data:image/png;base64,${data}"`);
-              continue;
-            }
-            const v = `u${lines.length}`;
-            lines.push(`import ${v} from ${JSON.stringify(path.join(dir, team, p, f) + '?url')};`);
-            entries.push(`  ${key}: ${v}`);
+            // los sprites y los mapas son diminutos (menos de 4 KB): van tal cual en base64. Antes cada sprite era un
+            // módulo aparte (import ...png?url) y Vite acababa metiéndolo igual en base64, pero con 27.000 módulos la
+            // compilación necesitaba 4 GB de memoria
+            const data = fs.readFileSync(path.join(dir, team, p, f)).toString('base64');
+            entries.push(`  ${key}: "data:image/png;base64,${data}"`);
           }
         }
-        return `${lines.join('\n')}\nexport const files = {\n${entries.join(',\n')}\n};\n`;
+        return `export const files = {\n${entries.join(',\n')}\n};\n`;
       }
       return null;
     },

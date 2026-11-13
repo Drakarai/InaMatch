@@ -3,12 +3,14 @@ import { texKey } from "./placeholders";
 import type { TeamData } from "../data/types";
 import { loadLooks } from "../data/looks";
 import { getUniform, makeUniformSprites } from "../club/uniforms";
+import portraitIndex from "virtual:portrait-index";
+import type { VspriteSet } from "virtual:vsprite-index";
 
 // Paquete de imágenes: basta con dejarlas en src/assets/pack/ con el id del jugador o del equipo como
 // nombre (sprites/mark-evans.png, emblems/ie3-desert-lion.png, portraits/<equipo>/<jugador>.webp...).
 // Vite las mete en el juego al compilar; lo que falte se dibuja por código.
 const packFiles = import.meta.glob<string>(
-  "../assets/pack/{sprites,portraits,emblems}/**/*.{png,webp,gif,jpg,jpeg}",
+  "../assets/pack/{sprites,emblems}/**/*.{png,webp,gif,jpg,jpeg}",
   {
     eager: true,
     query: "?url",
@@ -22,23 +24,21 @@ export interface PackEntry {
   folder: string;
 }
 
-const entries: PackEntry[] = Object.entries(packFiles).flatMap(
-  ([path, url]) => {
-    const m = path.match(
-      /\/(sprites|portraits|emblems)\/(?:([^/]+)\/)?([^/]+)\.\w+$/,
-    );
+const entries: PackEntry[] = [
+  ...Object.entries(packFiles).flatMap(([path, url]) => {
+    const m = path.match(/\/(sprites|emblems)\/(?:([^/]+)\/)?([^/]+)\.\w+$/);
     if (!m) return [];
     const [, folder, team, name] = m;
     const id = name.toLowerCase();
-    const key =
-      folder === "emblems"
-        ? texKey.emblem(id)
-        : folder === "sprites"
-          ? texKey.sprite(id, team)
-          : texKey.portrait(id, team);
+    const key = folder === "emblems" ? texKey.emblem(id) : texKey.sprite(id, team);
     return [{ key, url, folder }];
-  },
-);
+  }),
+  // los retratos, sin un módulo por imagen (vite-portraits.ts)
+  ...Object.entries(portraitIndex).map(([path, url]) => {
+    const [team, id] = path.split("/");
+    return { key: texKey.portrait(id, team), url, folder: "portraits" };
+  }),
+];
 
 // Logos de cada juego de la saga, de la enciclopedia oficial (zukan.inazuma.jp): series/<id>.png
 const seriesFiles = import.meta.glob<string>("../assets/pack/series/*.png", {
@@ -67,6 +67,33 @@ export type VspriteView = (typeof VSPRITE_VIEWS)[number];
 export const VSPRITE_REF = 78;
 export const vspriteKey = (team: string, player: string, view: VspriteView) => `vsprite:${team}:${player}:${view}`;
 
+type SetFiles = { files: Record<string, string> };
+const unpacked = new Map<string, Promise<SetFiles>>();
+
+/**
+ * Las imágenes de un trozo de sprites (o de mapas): en desarrollo vienen en base64; en la web publicada, en un archivo
+ * con todas seguidas que se baja una vez y se parte en imágenes (cada una con su url de objeto).
+ */
+function unpackSet(id: string, load: () => Promise<VspriteSet>): Promise<SetFiles> {
+  let p = unpacked.get(id);
+  if (!p) {
+    p = load().then(async (m) => {
+      if (m.files) return { files: m.files };
+      if (!m.pack || !m.index) return { files: {} };
+      const res = await fetch(m.pack);
+      if (!res.ok) throw new Error(`no se pudo bajar ${m.pack}`);
+      const buf = await res.arrayBuffer();
+      const files: Record<string, string> = {};
+      for (const [key, [off, len]] of Object.entries(m.index)) files[key] = URL.createObjectURL(new Blob([buf.slice(off, off + len)], { type: 'image/png' }));
+      return { files };
+    });
+    // si falla (sin conexión), que se pueda volver a intentar
+    p.catch(() => unpacked.delete(id));
+    unpacked.set(id, p);
+  }
+  return p;
+}
+
 /** Carga (si no estaban) los sprites dibujados de los jugadores de estos equipos (los de Mi club, los de su equipo de origen). */
 export async function ensureSprites(textures: Phaser.Textures.TextureManager, teams: TeamData[]): Promise<void> {
   const { sets, masks } = await import('virtual:vsprite-index');
@@ -90,7 +117,7 @@ export async function ensureSprites(textures: Phaser.Textures.TextureManager, te
   }
   if (missing) await loadLooks().catch(() => {});
   const empty = { files: {} as Record<string, string> };
-  const mods = await Promise.all([...wanted.keys()].map((set) => sets[set]().catch(() => empty)));
+  const mods = await Promise.all([...wanted.keys()].map((set) => unpackSet(`s:${set}`, sets[set]).catch(() => empty)));
   // Mi club con uniforme: sus jugadores, repintados con sus mapas de equipación
   for (const team of teams) {
     const uniform = getUniform(team.uniform);
@@ -98,7 +125,7 @@ export async function ensureSprites(textures: Phaser.Textures.TextureManager, te
     const own = [...new Set(team.players.map((p) => setOf(p.origin ?? team.id, p.originId ?? p.id)))].filter((s) => wanted.has(s));
     const keys = [...wanted.keys()];
     const files = Object.assign({}, ...own.map((s) => mods[keys.indexOf(s)].files)) as Record<string, string>;
-    const maskMods = await Promise.all(own.map((s) => (masks[s] ? masks[s]().catch(() => empty) : Promise.resolve(empty))));
+    const maskMods = await Promise.all(own.map((s) => (masks[s] ? unpackSet(`m:${s.split("/")[0]}`, masks[s]).catch(() => empty) : Promise.resolve(empty))));
     const maskFiles = Object.assign({}, ...maskMods.map((m) => m.files)) as Record<string, string>;
     await makeUniformSprites(textures, team, uniform, files, maskFiles, (t, id, v) => vspriteKey(t, id, v as VspriteView));
   }

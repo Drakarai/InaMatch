@@ -1,3 +1,4 @@
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Plugin } from 'vite';
@@ -17,8 +18,14 @@ export function vsprites(): Plugin {
   const SET = 'virtual:vsprite-set/';
   const MASK = 'virtual:vsprite-mask/';
   const ls = (d: string) => (fs.existsSync(d) ? fs.readdirSync(d).filter((f) => !f.startsWith('.')).sort() : []);
+  let serve = false;
+  let single = false;
   return {
     name: 'vsprites',
+    configResolved(c) {
+      serve = c.command === 'serve';
+      single = c.mode === 'single';
+    },
     resolveId(id) {
       if (id === INDEX || id.startsWith(SET) || id.startsWith(MASK)) return '\0' + id;
       return null;
@@ -39,18 +46,34 @@ export function vsprites(): Plugin {
         const isMask = id.startsWith('\0' + MASK);
         const rel = id.slice(1 + (isMask ? MASK : SET).length);
         const [team, only] = rel.split('/');
-        const entries: string[] = [];
+        const files: { key: string; file: string }[] = [];
         for (const p of only ? [only] : ls(path.join(dir, team))) {
           for (const f of ls(path.join(dir, team, p)).filter((f) => f.endsWith('.png') && f.startsWith('mask-') === isMask)) {
-            const key = JSON.stringify(`${team}/${p}/${f.slice(isMask ? 5 : 0, -4)}`);
-            // los sprites y los mapas son diminutos (menos de 4 KB): van tal cual en base64. Antes cada sprite era un
-            // módulo aparte (import ...png?url) y Vite acababa metiéndolo igual en base64, pero con 27.000 módulos la
-            // compilación necesitaba 4 GB de memoria
-            const data = fs.readFileSync(path.join(dir, team, p, f)).toString('base64');
-            entries.push(`  ${key}: "data:image/png;base64,${data}"`);
+            files.push({ key: `${team}/${p}/${f.slice(isMask ? 5 : 0, -4)}`, file: path.join(dir, team, p, f) });
           }
         }
-        return `export const files = {\n${entries.join(',\n')}\n};\n`;
+        if (serve || single) {
+          // en desarrollo (y en el HTML único): cada imagen, tal cual en base64
+          const entries = files.map(({ key, file }) => `  ${JSON.stringify(key)}: "data:image/png;base64,${fs.readFileSync(file).toString('base64')}"`);
+          return `export const files = {\n${entries.join(',\n')}\n};\n`;
+        }
+        // al compilar: todas las imágenes del trozo, seguidas, en un solo archivo binario (el juego lo baja y lo separa,
+        // ver unpackSet en src/gfx/pack.ts). Así no van en el código como texto: antes eran ~300 MB de base64 que la
+        // compilación tenía que tener en memoria
+        const bufs: Buffer[] = [];
+        const index: Record<string, [number, number]> = {};
+        let off = 0;
+        for (const { key, file } of files) {
+          const b = fs.readFileSync(file);
+          index[key] = [off, b.length];
+          off += b.length;
+          bufs.push(b);
+        }
+        const source = Buffer.concat(bufs);
+        const hash = crypto.createHash('md5').update(source).digest('hex').slice(0, 8);
+        const fileName = `assets/vs/${isMask ? 'm-' : ''}${rel.replace(/\//g, '__')}-${hash}.bin`;
+        this.emitFile({ type: 'asset', fileName, source });
+        return `export const pack = ${JSON.stringify('./' + fileName)};\nexport const index = JSON.parse(${JSON.stringify(JSON.stringify(index))});\n`;
       }
       return null;
     },

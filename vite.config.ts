@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import { viteSingleFile } from 'vite-plugin-singlefile';
 import { vsprites } from './vite-vsprites';
+import { portraits } from './vite-portraits';
 
 // `npm run build:single` genera un único HTML que se abre con doble clic, sin servidor.
 // Sin servidor no se puede leer public/assets/pack, así que usa los gráficos provisionales.
@@ -8,13 +9,16 @@ export default defineConfig(({ mode }) =>
   mode === 'single'
     ? {
         base: './',
-        plugins: [vsprites(), viteSingleFile()],
+        plugins: [vsprites(), portraits(), viteSingleFile()],
         build: { outDir: 'dist-single', copyPublicDir: false, chunkSizeWarningLimit: 2000 },
       }
     : {
         // base relativa: funciona igual en la raíz de un dominio que en una subcarpeta
         base: './',
-        plugins: [vsprites()],
+        plugins: [vsprites(), portraits()],
+        // los JSON grandes (rasgos, ojeadores, historias, equipos) van como JSON.parse('...'): un solo texto en vez de
+        // un objeto de JavaScript con miles de nodos que analizar (mucha menos memoria al compilar y carga más rápida)
+        json: { stringify: true },
         build: {
           chunkSizeWarningLimit: 2000,
           rollupOptions: {

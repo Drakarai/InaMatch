@@ -2,7 +2,8 @@ import Phaser from 'phaser';
 import { FONT, GAME_SPEED } from '../config';
 import { movesOf } from '../data';
 import type { MoveData, PlayerData, TeamData } from '../data/types';
-import { EXHAUSTED_SPEED, isExhausted, type Fighter } from '../engine/rules';
+import { EXHAUSTED_SPEED, isExhausted, scaleStats, type Fighter } from '../engine/rules';
+import { difficulty } from '../settings';
 import { spriteKey } from '../gfx/placeholders';
 import { VSPRITE_REF, vspriteKey, type VspriteView } from '../gfx/pack';
 import { uniformTeam } from '../club/uniforms';
@@ -111,7 +112,10 @@ export class MatchPlayer {
   }
 
   fighter(): Fighter {
-    return { stats: this.data.stats, element: this.data.element, fp: this.fp, maxFp: this.maxFp };
+    // la CPU (lado 1) juega más fuerte o más floja según la dificultad elegida
+    const power = this.side === 1 ? difficulty().power : 1;
+    const stats = power === 1 ? this.data.stats : scaleStats(this.data.stats, power);
+    return { stats, element: this.data.element, fp: this.fp, maxFp: this.maxFp };
   }
 
   /** Se mueve hacia `target`; devuelve true si ha llegado. */

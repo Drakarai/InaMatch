@@ -69,7 +69,8 @@ export const vspriteKey = (team: string, player: string, view: VspriteView) => `
 
 /** Carga (si no estaban) los sprites dibujados de los jugadores de estos equipos (los de Mi club, los de su equipo de origen). */
 export async function ensureSprites(textures: Phaser.Textures.TextureManager, teams: TeamData[]): Promise<void> {
-  const [{ sets, masks }] = await Promise.all([import('virtual:vsprite-index'), loadLooks().catch(() => {})]);
+  const { sets, masks } = await import('virtual:vsprite-index');
+  let missing = false; // algún jugador sin sprite dibujado: necesita los rasgos (looks.json, 3 MB) para el de reserva
   const wanted = new Map<string, Set<string>>(); // trozo -> '<equipo>/<jugador>'
   const setOf = (vteam: string, vid: string) => (vteam.startsWith('scouts-') ? `${vteam}/${vid}` : vteam);
   for (const team of teams) {
@@ -77,13 +78,17 @@ export async function ensureSprites(textures: Phaser.Textures.TextureManager, te
       const vteam = p.origin ?? team.id;
       const vid = p.originId ?? p.id;
       const set = setOf(vteam, vid);
-      if (!sets[set]) continue;
+      if (!sets[set]) {
+        missing = true;
+        continue;
+      }
       // con uniforme hacen falta las imágenes aunque ya estén las texturas (para repintarlas)
       if (textures.exists(vspriteKey(vteam, vid, 'front')) && !team.uniform) continue;
       if (!wanted.has(set)) wanted.set(set, new Set());
       wanted.get(set)!.add(`${vteam}/${vid}`);
     }
   }
+  if (missing) await loadLooks().catch(() => {});
   const empty = { files: {} as Record<string, string> };
   const mods = await Promise.all([...wanted.keys()].map((set) => sets[set]().catch(() => empty)));
   // Mi club con uniforme: sus jugadores, repintados con sus mapas de equipación

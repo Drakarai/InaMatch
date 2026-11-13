@@ -23,17 +23,24 @@ export function soundPanel(scene: Phaser.Scene, x: number, y: number, onClose?: 
   });
   c.add(close);
 
-  const row = (label: string, y0: number, on: keyof AudioSettings, vol: keyof AudioSettings) => {
-    c.add(text(scene, 18, y0, label, 15, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0, 0.5));
+  soundRows(scene, c, 74);
+  c.add(text(scene, W / 2, H - 22, 'Se guarda para la próxima vez', 11, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 }).setOrigin(0.5));
+  return c;
+}
+
+/** Las filas de música y efectos (interruptor y volumen), desde `y0` (52 de alto cada una), dentro de un contenedor. */
+export function soundRows(scene: Phaser.Scene, c: Phaser.GameObjects.Container, y0: number): void {
+  const row = (label: string, y: number, on: keyof AudioSettings, vol: keyof AudioSettings) => {
+    c.add(text(scene, 18, y, label, 15, '#ffffff', { fontStyle: 'italic bold' }).setOrigin(0, 0.5));
     // interruptor
     const sw = scene.add.graphics();
-    const swLabel = text(scene, 136, y0, '', 12, THEME.ink, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
+    const swLabel = text(scene, 136, y, '', 12, THEME.ink, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5);
     const drawSw = () => {
       const enabled = audio.settings[on] as boolean;
-      sw.clear().fillStyle(enabled ? THEME.yellow : 0x3a4658).fillPoints(slant(108, y0 - 12, 58, 24, 7), true);
+      sw.clear().fillStyle(enabled ? THEME.yellow : 0x3a4658).fillPoints(slant(108, y - 12, 58, 24, 7), true);
       swLabel.setText(enabled ? 'SÍ' : 'NO').setColor(enabled ? THEME.ink : '#c9d3e0');
     };
-    const swHit = scene.add.zone(108, y0 - 12, 58, 24).setOrigin(0).setInteractive({ useHandCursor: true });
+    const swHit = scene.add.zone(108, y - 12, 58, 24).setOrigin(0).setInteractive({ useHandCursor: true });
     swHit.on('pointerdown', () => audio.set({ [on]: !audio.settings[on] }));
     // volumen
     const bx = 182;
@@ -42,11 +49,11 @@ export function soundPanel(scene: Phaser.Scene, x: number, y: number, onClose?: 
     const drawBar = () => {
       const v = audio.settings[vol] as number;
       const enabled = audio.settings[on] as boolean;
-      bar.clear().fillStyle(0x000000, 0.6).fillRect(bx, y0 - 4, bw, 8);
-      bar.fillStyle(enabled ? 0x7fb2ff : 0x55606f).fillRect(bx, y0 - 4, bw * v, 8);
-      bar.fillStyle(0xffffff).fillCircle(bx + bw * v, y0, 8);
+      bar.clear().fillStyle(0x000000, 0.6).fillRect(bx, y - 4, bw, 8);
+      bar.fillStyle(enabled ? 0x7fb2ff : 0x55606f).fillRect(bx, y - 4, bw * v, 8);
+      bar.fillStyle(0xffffff).fillCircle(bx + bw * v, y, 8);
     };
-    const barHit = scene.add.zone(bx - 8, y0 - 14, bw + 16, 28).setOrigin(0).setInteractive({ useHandCursor: true, draggable: true });
+    const barHit = scene.add.zone(bx - 8, y - 14, bw + 16, 28).setOrigin(0).setInteractive({ useHandCursor: true, draggable: true });
     const setFrom = (p: Phaser.Input.Pointer) => {
       const local = c.getLocalPoint(p.worldX, p.worldY);
       audio.set({ [vol]: Phaser.Math.Clamp((local.x - bx) / bw, 0, 1), [on]: true });
@@ -59,13 +66,11 @@ export function soundPanel(scene: Phaser.Scene, x: number, y: number, onClose?: 
       drawBar();
     };
   };
-  const redraws = [row('Música', 74, 'music', 'musicVolume'), row('Efectos', 126, 'sfx', 'sfxVolume')];
-  c.add(text(scene, W / 2, H - 22, 'Se guarda para la próxima vez', 11, THEME.muted, { fontStyle: 'italic', strokeThickness: 0 }).setOrigin(0.5));
+  const redraws = [row('Música', y0, 'music', 'musicVolume'), row('Efectos', y0 + 52, 'sfx', 'sfxVolume')];
   const redraw = () => redraws.forEach((r) => r());
   redraw();
   const off = audio.onChange(redraw);
   c.once(Phaser.GameObjects.Events.DESTROY, off);
-  return c;
 }
 
 /** Botón redondo con una nota musical que abre y cierra el panel de sonido. */

@@ -15,7 +15,32 @@ npm install
 npm run dev      # abre http://localhost:5173
 ```
 
-Otros comandos: `npm test` (tests de las reglas y los datos), `npm run build` (genera `dist/`) y `npm run typecheck`.
+Otros comandos: `npm test` (tests de las reglas, los datos, el torneo, la copia de la partida, los ajustes y la
+enciclopedia), `npm run build` (genera `dist/`) y `npm run typecheck`.
+
+## Pantalla de inicio y modos
+
+Seis modos, en dos columnas (ratón, toque o flechas e Intro):
+- **Historia**: la ruta de cada equipo, capítulo a capítulo, con diálogos.
+- **Partido**: dos equipos cualesquiera de la saga (el menú de abajo).
+- **Torneo**: **copa** de 8 equipos (cuartos, semifinales y final; los empates se deciden en penaltis) o **liga** de 6
+  (todos contra todos a una vuelta: 3 puntos la victoria y 1 el empate). Se elige el equipo propio (Mi club también) y
+  de dónde salen los rivales: toda la saga, su misma temporada, equipos de su nivel o los mejores. El jugador juega
+  sus partidos y el resto se simula con la media de cada equipo. En un torneo no hay revancha y abandonar un partido
+  cuenta como 0-3. El torneo en curso se guarda; al acabar da monedas para Mi club (campeón 800, finalista o 2.º 300 y
+  el resto 100).
+- **Mi club** y **Fichajes**: el equipo propio y el gacha.
+- **Enciclopedia**: todos los jugadores que se pueden fichar (con su ficha: equipo, juego, atributos, técnicas y
+  descripción), todas las supertécnicas (por tipo y potencia, con los cuadernos conseguidos) y todos los uniformes.
+  Lo conseguido en Mi club sale marcado y se puede filtrar por temporada, demarcación y conseguidos.
+
+Arriba a la derecha, **⚙ Ajustes**:
+- **Sonido**: música y efectos.
+- **Dificultad de la CPU**: Fácil, Normal o Difícil. Cambia lo fuerte que es la CPU en duelos, tiros y paradas
+  (×0,88 / ×1 / ×1,12 en sus atributos), cuántas supertécnicas usa, lo rápido que presiona y piensa y cuánto tira.
+  Normal es el juego de siempre.
+- **Tu partida**: todo se guarda en el navegador. **Guardar copia** descarga un archivo `.json` con la partida (Mi club,
+  historia, torneo y ajustes) y **Cargar copia** la recupera en este navegador o en otro.
 
 ## Menú
 
@@ -105,7 +130,11 @@ src/
   data/            equipos (teams/*.json), supertécnicas (moves.json), formaciones y elementos
   engine/          reglas puras (duelos, tiros, IA de comandos) + tests
   match/           entidad jugador del partido
-  scenes/          Boot, Menú, Formación, Partido y HUD (marcador, duelos, radar, animaciones)
+  scenes/          Inicio, Historia, Torneo, Enciclopedia, Menú, Mi club, Fichajes, Formación, Partido y HUD
+  tournament/      copa y liga: cuadro, calendario, simulación y clasificación (puro, con tests)
+  codex/           filtros y páginas de la enciclopedia (puro, con tests)
+  settings.ts      ajustes guardados (dificultad de la CPU)
+  save.ts          copia de seguridad de la partida (exportar e importar)
   ui/              botones, barras y el tema visual (theme.ts: colores, formas inclinadas, fondos)
   gfx/             gráficos provisionales generados por código
   audio/           música y efectos de sonido, generados con Web Audio (sin archivos)
@@ -170,7 +199,7 @@ De dónde sale cada cosa:
 - **Titulares:** portero y las líneas de la formación por orden de dorsal. Si faltan jugadores de una posición, entra el que mejor encaja por atributos.
 
 **Escudos:** `python3 -I tools/wiki/emblems.py` baja el de cada equipo de la wiki (el rehecho para Victory Road si lo hay;
-si no, el de los juegos de DS) a `src/assets/pack/emblems/`. Ya están 193 de 198 (las versiones NEW llevan el del equipo original). Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
+si no, el de los juegos de DS) a `src/assets/pack/emblems/` (en WebP). Ya están 193 de 198 (las versiones NEW llevan el del equipo original). Las imágenes de la wiki están en `static.wikia.nocookie.net`; sin escudo, el juego dibuja
 uno provisional con las siglas.
 
 Lo que no viene en la wiki se pone a mano en el script: los colores de los equipos más conocidos (el resto lleva colores

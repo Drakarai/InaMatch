@@ -371,6 +371,13 @@ export function blockPreview(f: Fighter, moves: MoveData[], tp: number, mul = 1)
  * Decisión de la CPU: usa supertécnica con cierta probabilidad si tiene TP,
  * y si no, una de las dos opciones básicas.
  */
+/** Atributos multiplicados por un factor (la dificultad de la CPU); la estamina no cambia. */
+export function scaleStats(stats: Stats, k: number): Stats {
+  const out = { ...stats };
+  for (const key of Object.keys(out) as (keyof Stats)[]) if (key !== 'stamina') out[key] = Math.round(out[key] * k);
+  return out;
+}
+
 export function cpuChoice(moves: MoveData[], situation: Situation, tp: number, rng: Rng, moveChance = 0.6): Choice {
   const usable = usableMoves(moves, situation, tp);
   // un tiro solo se corta con supertécnica: si tiene, la usa siempre; si no, lo deja pasar

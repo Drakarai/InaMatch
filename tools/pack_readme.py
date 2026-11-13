@@ -10,7 +10,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 rows = []
 for f in sorted(glob.glob(os.path.join(ROOT, 'src', 'data', 'teams', '*.json'))):
     t = json.load(open(f, encoding='utf-8'))
-    rows.append(f"\n### {t['name']}\n\nEscudo: `emblems/{t['id']}.png`\n\n| Jugador | Archivo |\n|---|---|")
+    rows.append(f"\n### {t['name']}\n\nEscudo: `emblems/{t['id']}.webp`\n\n| Jugador | Archivo |\n|---|---|")
     for p in sorted(t['players'], key=lambda p: p['number']):
         rows.append(f"| {p['number']} · {p['name']} ({p['position']}) | `{p['id']}.png` |")
 
@@ -24,7 +24,7 @@ src/assets/pack/
   sprites/     muñeco en el campo        → sprites/mark-evans.png
   portraits/   retrato (ficha y duelos)  → portraits/mark-evans.png (todos sus equipos)
                                            portraits/ie3-inazuma-japan/mark-evans.webp (solo ese equipo)
-  emblems/     escudo del equipo         → emblems/ie3-inazuma-japan.png
+  emblems/     escudo del equipo         → emblems/ie3-inazuma-japan.webp
 ```
 
 - Formatos: `.png` (recomendado), `.webp`, `.gif` o `.jpg`.

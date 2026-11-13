@@ -15,6 +15,22 @@ export default defineConfig(({ mode }) =>
         // base relativa: funciona igual en la raíz de un dominio que en una subcarpeta
         base: './',
         plugins: [vsprites()],
-        build: { chunkSizeWarningLimit: 2000 },
+        build: {
+          chunkSizeWarningLimit: 2000,
+          rollupOptions: {
+            output: {
+              // Phaser y los datos casi nunca cambian: van aparte para que el navegador los guarde entre versiones
+              // y no los vuelva a bajar cada vez que cambia el código del juego
+              manualChunks(id) {
+                if (id.includes('node_modules/phaser')) return 'phaser';
+                if (/src\/data\/teams\/[^/]+\.json$/.test(id)) return 'teams';
+                if (/src\/data\/(moves|movefx|formations|formation-aliases|uniforms|crests)\.json$/.test(id)) return 'data';
+                // listas de imágenes del paquete (miles de rutas): solo cambian cuando se añaden imágenes
+                if (/src\/gfx\/pack\.ts$|src\/club\/crests\.ts$/.test(id)) return 'assets';
+                return undefined;
+              },
+            },
+          },
+        },
       },
 );

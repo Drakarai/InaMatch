@@ -4,6 +4,7 @@ import { sfx } from '../audio/sfx';
 import { DISPLAY, GAME_H, GAME_W, PORTRAIT } from '../config';
 import type { TeamData } from '../data/types';
 import { ensureSprites, VSPRITE_REF, vspriteKey } from '../gfx/pack';
+import { settingsButton } from '../ui/settingsPanel';
 import { soundButton } from '../ui/soundPanel';
 import { THEME, boltLogo, fitCamera, glow, pt } from '../ui/theme';
 import { label } from '../ui/widgets';
@@ -23,9 +24,13 @@ const HEROES: { team: string; id: string }[] = [
 const MODES = [
   { id: 'story', label: 'HISTORIA', sub: 'La ruta de cada equipo, partido a partido' },
   { id: 'menu', label: 'PARTIDO', sub: 'Elige dos equipos de toda la saga' },
+  { id: 'tournament', label: 'TORNEO', sub: 'Copa o liga contra equipos de la saga' },
   { id: 'club', label: 'MI CLUB', sub: 'Tu equipo, tus fichajes y tus uniformes' },
   { id: 'gacha', label: 'FICHAJES', sub: 'Consigue jugadores y cuadernos de técnicas' },
+  { id: 'codex', label: 'ENCICLOPEDIA', sub: 'Jugadores, técnicas y uniformes' },
 ] as const;
+/** Los modos van en dos columnas: el i-ésimo, en la fila i/2 y la columna i%2. */
+const COLS = 2;
 type ModeId = (typeof MODES)[number]['id'];
 
 /**
@@ -48,6 +53,8 @@ export class TitleScene extends Phaser.Scene {
 
   create(): void {
     fitCamera(this);
+    // fuera de la historia y del torneo: que un partido normal no vuelva a ellos
+    for (const k of ['storyMatch', 'tourneyMatch']) this.registry.remove(k);
     this.started = false;
     this.leaving = false;
     this.items = [];
@@ -66,13 +73,16 @@ export class TitleScene extends Phaser.Scene {
     this.footer();
     this.pressStart();
     soundButton(this, GAME_W - 30, 32, GAME_W - 350, 76);
+    settingsButton(this, GAME_W - 78, 32);
 
     this.time.delayedCall(200, () => this.input.once('pointerup', () => this.start()));
     const kb = this.input.keyboard;
     kb?.on('keydown-ENTER', () => (this.started ? this.go(MODES[this.sel].id) : this.start()));
     kb?.on('keydown-SPACE', () => (this.started ? this.go(MODES[this.sel].id) : this.start()));
-    kb?.on('keydown-UP', () => this.move(-1));
-    kb?.on('keydown-DOWN', () => this.move(1));
+    kb?.on('keydown-UP', () => this.move(-COLS));
+    kb?.on('keydown-DOWN', () => this.move(COLS));
+    kb?.on('keydown-LEFT', () => this.move(-1));
+    kb?.on('keydown-RIGHT', () => this.move(1));
 
     // telón negro para entrar y salir
     this.curtain = this.add.rectangle(0, 0, GAME_W, GAME_H, 0x000000, 1).setOrigin(0).setDepth(1000);
@@ -274,7 +284,7 @@ export class TitleScene extends Phaser.Scene {
   // ------------------------------------------------------------------- menú
 
   private get menuY(): number {
-    return PORTRAIT ? 400 : 258;
+    return PORTRAIT ? 404 : 262;
   }
 
   private pressStart(): void {
@@ -298,15 +308,17 @@ export class TitleScene extends Phaser.Scene {
     music.play('menu');
     const p = this.prompt;
     if (p) this.tweens.add({ targets: p, alpha: 0, scale: 0.9, duration: 180, onComplete: () => p.destroy() });
-    const w = PORTRAIT ? 440 : 460;
-    const h = PORTRAIT ? 78 : 66;
-    const gap = PORTRAIT ? 14 : 10;
+    const w = PORTRAIT ? 250 : 396;
+    const h = PORTRAIT ? 86 : 66;
+    const gap = PORTRAIT ? 12 : 10;
+    const colGap = PORTRAIT ? 10 : 18;
     MODES.forEach((m, i) => {
-      const y = this.menuY + i * (h + gap);
-      const box = this.add.container(GAME_W / 2, y).setDepth(30);
+      const y = this.menuY + Math.floor(i / COLS) * (h + gap);
+      const bx = GAME_W / 2 + ((i % COLS) - (COLS - 1) / 2) * (w + colGap);
+      const box = this.add.container(bx, y).setDepth(30);
       const g = this.add.graphics();
-      const title = label(this, -w / 2 + 34, -9, m.label, PORTRAIT ? 26 : 24, '#ffffff', { fontFamily: DISPLAY }).setOrigin(0, 0.5).setLetterSpacing(3);
-      const sub = label(this, -w / 2 + 36, 17, m.sub, PORTRAIT ? 13 : 12, '#c9d6ec', { fontStyle: 'italic' }).setOrigin(0, 0.5);
+      const title = label(this, -w / 2 + 30, PORTRAIT ? -16 : -9, m.label, PORTRAIT ? 25 : 24, '#ffffff', { fontFamily: DISPLAY }).setOrigin(0, 0.5).setLetterSpacing(3);
+      const sub = label(this, -w / 2 + 32, PORTRAIT ? 14 : 17, m.sub, PORTRAIT ? 12 : 12, '#c9d6ec', { fontStyle: 'italic', wordWrap: PORTRAIT ? { width: w - 52 } : undefined }).setOrigin(0, PORTRAIT ? 0.3 : 0.5);
       const arrow = label(this, w / 2 - 30, 0, '▶', 20, '#0b1a2e').setOrigin(0.5);
       box.add([g, title, sub, arrow]);
       const draw = (on: boolean) => {
@@ -331,8 +343,8 @@ export class TitleScene extends Phaser.Scene {
       hit.on('pointerup', () => this.go(m.id));
       box.add(hit);
       this.items.push({ box, draw });
-      box.setAlpha(0).setX(GAME_W / 2 + (i % 2 ? 60 : -60));
-      this.tweens.add({ targets: box, alpha: 1, x: GAME_W / 2, duration: 320, ease: 'Cubic.Out', delay: 60 + i * 80 });
+      box.setAlpha(0).setX(bx + (i % COLS ? 60 : -60));
+      this.tweens.add({ targets: box, alpha: 1, x: bx, duration: 320, ease: 'Cubic.Out', delay: 60 + i * 60 });
     });
   }
 

@@ -2,7 +2,7 @@
 
 Busca los archivos "<equipo> emblem*.png" y prefiere el rehecho para Victory Road ("X emblem (VR).png");
 si no lo hay, el de los juegos de DS ("X emblem.png"), el de Strikers (S) o el de las cartas (SD). Los guarda en
-src/assets/pack/emblems/<id del equipo>.png a 160 px (los de pixel art se amplían sin suavizar),
+src/assets/pack/emblems/<id del equipo>.webp a 160 px (los de pixel art se amplían sin suavizar),
 que el juego carga solo.
 
 Uso (desde la raíz del repo, después de tools/wiki/teams.py): python3 -I tools/wiki/emblems.py [ids de equipo...]
@@ -121,7 +121,7 @@ def main():
         except OSError as err:
             sys.exit(f'no se pudo bajar {chosen["url"]}: {err}\n'
                      '(las imágenes de la wiki están en static.wikia.nocookie.net: tiene que estar permitido en la red)')
-        image.save(os.path.join(OUT, team['id'] + '.png'), optimize=True)
+        image.convert('RGBA').save(os.path.join(OUT, team['id'] + '.webp'), 'WEBP', quality=90, method=6)
         print(f"{team['id']}: {chosen['name']}", file=sys.stderr)
         time.sleep(0.3)
     if missing:

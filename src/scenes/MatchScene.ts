@@ -1,5 +1,7 @@
 import Phaser from 'phaser';
 import { STORY_REGISTRY, STORY_RESULT, type StoryMatch } from '../story/story';
+import { cpuMoveChance, difficulty } from '../settings';
+import { TOURNEY_REGISTRY, TOURNEY_RESULT, type TourneyMatchResult } from '../tournament/tournament';
 import { rewardMatch } from '../club/club';
 import { DISPLAY, FIELD_VIEW, FONT, GAME_SPEED, PORTRAIT, RES, RES_EVENT, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { music, playFanfare } from '../audio/music';
@@ -342,7 +344,12 @@ export class MatchScene extends Phaser.Scene {
     this.hud.showPause({
       onResume: () => this.togglePause(),
       onRestart: () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
-      onQuit: () => (this.registry.get(STORY_REGISTRY) ? this.toStory(false) : this.scene.start('menu')),
+      onQuit: () =>
+        this.registry.get(TOURNEY_REGISTRY)
+          ? this.toTourney({ goalsFor: 0, goalsAgainst: 3, quit: true })
+          : this.registry.get(STORY_REGISTRY)
+            ? this.toStory(false)
+            : this.scene.start('menu'),
     });
   }
 
@@ -715,7 +722,7 @@ export class MatchScene extends Phaser.Scene {
         } else if (p === chaser) {
           target = owner ? { x: owner.x, y: owner.y } : { x: b.x, y: b.y };
           // la CPU presiona algo más despacio para que se pueda escapar regateando
-          sp *= side === 0 ? 0.95 : 0.88;
+          sp *= side === 0 ? 0.95 : difficulty().press;
         } else if (p === cover && owner) {
           const goal = this.goalOf(side);
           const t = 90 / Math.max(90, this.dist(owner, goal));
@@ -926,7 +933,7 @@ export class MatchScene extends Phaser.Scene {
     const owner = this.ball.owner;
     if (!owner || owner.side !== 1 || owner.isGK) return;
     if (this.now < this.cpuThinkAt) return;
-    this.cpuThinkAt = this.now + 0.3;
+    this.cpuThinkAt = this.now + difficulty().think;
 
     const goal = this.goalOf(0);
     const dGoal = this.dist(owner, goal);
@@ -939,7 +946,7 @@ export class MatchScene extends Phaser.Scene {
       central && dGoal < 280
         ? 1
         : central && dGoal <= SHOT_RANGE
-          ? 0.35 + (hasShotMove ? 0.15 : 0) + (pressure < 70 ? 0.2 : 0)
+          ? 0.35 + (hasShotMove ? 0.15 : 0) + (pressure < 70 ? 0.2 : 0) + difficulty().shotBias
           : dGoal > SHOT_RANGE && this.longShots(owner).length
             ? 0.08
             : 0;
@@ -1081,7 +1088,7 @@ export class MatchScene extends Phaser.Scene {
     const humanSituation = att.side === 0 ? 'attack' : 'defend';
     const cpuSituation = att.side === 0 ? 'defend' : 'attack';
     const humanChoice = await this.hud.prompt(humanSituation, human);
-    const cpuPick = cpuChoice(cpu.moves, cpuSituation, cpu.tp, rng, 0.45);
+    const cpuPick = cpuChoice(cpu.moves, cpuSituation, cpu.tp, rng, cpuMoveChance(0.45));
     const attChoice = att.side === 0 ? humanChoice : cpuPick;
     const defChoice = att.side === 0 ? cpuPick : humanChoice;
     this.duelRing.clear();
@@ -1239,7 +1246,7 @@ export class MatchScene extends Phaser.Scene {
       if (shotChoice.type === 'basic') level = await this.hud.promptPower(shooter.fp - SHOT_FP_COST);
     } else {
       const longMoves = this.longShots(shooter);
-      shotChoice = long && longMoves.length ? { type: 'move', move: longMoves[Math.floor(rng() * longMoves.length)] } : cpuChoice(shooter.moves, 'shoot', shooter.tp, rng, 0.75);
+      shotChoice = long && longMoves.length ? { type: 'move', move: longMoves[Math.floor(rng() * longMoves.length)] } : cpuChoice(shooter.moves, 'shoot', shooter.tp, rng, cpuMoveChance(0.75));
       if (shotChoice.type === 'basic') level = SHOT_POWER_LEVELS.reduce((best, l, i) => (l.fp <= shooter.fp - SHOT_FP_COST && rng() < 0.5 ? i : best), 0);
     }
     this.shotCone.clear();
@@ -1331,7 +1338,7 @@ export class MatchScene extends Phaser.Scene {
     this.hud.showDuel(shooter, blocker, {
       power: [Math.round(f.power), blockPreview(blocker.fighter(), blocker.moves, blocker.tp, this.sideMul(blocker.side) * elementMultiplier(blocker.data.element, shooter.data.element))],
     });
-    const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, 0.5);
+    const blockChoice: Choice = blocker.side === 0 ? await this.hud.prompt('block', blocker) : cpuChoice(blocker.moves, 'block', blocker.tp, rng, cpuMoveChance(0.5));
     this.payMoves([blocker, blockChoice]);
     const block = resolveBlock(f.power, shooter.fighter(), shotChoice, blocker.fighter(), blockChoice, rng, this.sideMul(blocker.side));
     // la supertécnica de bloqueo se ve siempre, aunque solo le quite potencia al tiro
@@ -1365,7 +1372,7 @@ export class MatchScene extends Phaser.Scene {
     this.hud.showDuel(shooter, keeper, {
       power: [Math.round(f.power), basePower(keeper.fighter(), 'keep', this.sideMul(keeper.side) * elementMultiplier(keeper.data.element, shooter.data.element))],
     });
-    const keepChoice: Choice = keeper.side === 0 ? await this.hud.prompt('keep', keeper) : cpuChoice(keeper.moves, 'keep', keeper.tp, rng, 0.7);
+    const keepChoice: Choice = keeper.side === 0 ? await this.hud.prompt('keep', keeper) : cpuChoice(keeper.moves, 'keep', keeper.tp, rng, cpuMoveChance(0.7));
     const result = resolveKeeper(f.power, shooter.fighter(), shotChoice, keeper.fighter(), keepChoice, rng, this.sideMul(keeper.side));
     const keepShown = keepChoice.type === 'move' && (result.outcome !== 'goal' || shotChoice.type !== 'move');
     if (keepShown) await this.showMove(keeper, keepChoice, this.ball);
@@ -1541,12 +1548,25 @@ export class MatchScene extends Phaser.Scene {
     const [a, b] = this.score;
     const reward = rewardMatch(a, b, this.teams[0].id === 'club');
     const story = this.registry.get(STORY_REGISTRY) as StoryMatch | undefined;
+    // en un torneo no hay revancha: el resultado cuenta
+    if (this.registry.get(TOURNEY_REGISTRY)) {
+      this.hud.showResult(() => {}, () => this.toTourney({ goalsFor: a, goalsAgainst: b }), reward, ['', 'Continuar']);
+      return;
+    }
     this.hud.showResult(
       () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
       () => (story ? this.toStory(a > b) : this.scene.start('menu')),
       reward,
       story ? (a > b ? ['Repetir', 'Continuar'] : ['Reintentar', 'Historia']) : undefined,
     );
+  }
+
+  /** Vuelve al torneo con el resultado del partido. */
+  private toTourney(result: TourneyMatchResult): void {
+    this.registry.set(TOURNEY_RESULT, result);
+    this.registry.remove(TOURNEY_REGISTRY);
+    this.scene.stop('hud');
+    this.scene.start('tournament');
   }
 
   /** Vuelve al modo historia con el resultado del partido. */

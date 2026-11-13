@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { STORY_REGISTRY, type StoryMatch } from '../story/story';
+import { TOURNEY_REGISTRY } from '../tournament/tournament';
 import { music } from '../audio/music';
 import { COLORS, GAME_H, GAME_W, PORTRAIT, hex } from '../config';
 import { getTeam, movesOf } from '../data';
@@ -879,14 +880,17 @@ export class FormationScene extends Phaser.Scene {
   /** Fuera de la formación: al menú de equipos o, en un partido de la historia, a su ruta. */
   private leave(): void {
     const story = this.registry.get(STORY_REGISTRY) as StoryMatch | undefined;
-    if (story) {
+    if (this.registry.get(TOURNEY_REGISTRY)) {
+      this.registry.remove(TOURNEY_REGISTRY);
+      this.scene.start('tournament');
+    } else if (story) {
       this.registry.remove(STORY_REGISTRY);
       this.scene.start('story', { team: story.team });
     } else this.scene.start('menu');
   }
 
   private backLabel(): string {
-    return this.registry.get(STORY_REGISTRY) ? 'Historia' : 'Menú';
+    return this.registry.get(TOURNEY_REGISTRY) ? 'Torneo' : this.registry.get(STORY_REGISTRY) ? 'Historia' : 'Menú';
   }
 }
 

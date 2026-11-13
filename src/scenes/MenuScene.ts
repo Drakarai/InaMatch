@@ -487,6 +487,8 @@ export class MenuScene extends Phaser.Scene {
       .catch((err) => console.warn('[pack] no se pudieron cargar los sprites dibujados', err))
       .then(() => {
         wait.destroy();
+        // partido normal: que no vuelva a la historia ni al torneo
+        for (const k of ['storyMatch', 'tourneyMatch']) this.registry.remove(k);
         this.scene.start('formation', { home: defaultLineup(home), away: defaultLineup(away) });
       });
   }

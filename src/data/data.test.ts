@@ -45,4 +45,11 @@ describe('datos', () => {
       }
     }
   });
+
+  it('cada equipo tiene su escudo', () => {
+    const files = Object.keys(import.meta.glob('../assets/pack/emblems/*.webp'));
+    const have = new Set(files.map((f) => f.split('/').pop()!.replace('.webp', '')));
+    const missing = TEAMS.filter((t) => t.id !== 'club' && !have.has(t.id)).map((t) => t.id);
+    expect(missing).toEqual([]);
+  });
 });

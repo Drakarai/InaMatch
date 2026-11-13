@@ -8,13 +8,17 @@
   "shirt": "#b52a2e",
   "sleeve": "#f2f2f2",
   "shorts": "#1c1c1c",
-  "socks": "#1c1c1c",
+  "socks": "#b52a2e",
   "accent": "#8cd43a",
   "gkShirt": "#4b1f8f",
   "gkSleeve": "#4b1f8f",
   "gkLongSleeve": true,
   "gkShorts": "#f2f2f2",
-  "gkGloves": "#1c1c1c"
+  "gkGloves": "#1c1c1c",
+  "stripe": "#1c1c1c",
+  "collar": "#1c1c1c",
+  "num": "#f2f2f2",
+  "gkSocks": "#1c1c1c"
  },
  "formation": "f-coup-d-etat",
  "players": [

@@ -19,7 +19,9 @@
   "gkSocks": "#f0f0f0",
   "collar": "#e0b030",
   "num": "#e0b030",
-  "stripe": "#e0b030"
+  "stripe": "#e0b030",
+  "longPants": true,
+  "pants": "#c81e24"
  },
  "formation": "f-domain",
  "players": [

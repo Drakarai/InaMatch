@@ -5,10 +5,18 @@
  "name": "Instituto Raimon",
  "short": "RAI",
  "colors": {
-  "shirt": "#f2c230",
-  "shorts": "#2a5fc0",
-  "gkShirt": "#e8892b",
-  "accent": "#d9a400"
+  "shirt": "#f8e44a",
+  "shorts": "#0a3f6e",
+  "gkShirt": "#0a5a58",
+  "accent": "#0a6496",
+  "sleeve": "#0a6496",
+  "socks": "#f6f2ea",
+  "stripe": "#0a9088",
+  "num": "#0a5a8a",
+  "gkSleeve": "#f89410",
+  "gkLongSleeve": true,
+  "gkShorts": "#0a5a58",
+  "gkGloves": "#f4f4f0"
  },
  "formation": "f-basic-ie3",
  "players": [

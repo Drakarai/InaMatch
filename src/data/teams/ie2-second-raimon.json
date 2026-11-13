@@ -4,12 +4,7 @@
  "wiki": "Second Raimon",
  "name": "Raimon II",
  "short": "RAI",
- "colors": {
-  "shirt": "#f2c230",
-  "shorts": "#2a5fc0",
-  "gkShirt": "#e8892b",
-  "accent": "#d9a400"
- },
+ "colors": {"shirt":"#f2c230","shorts":"#2a5fc0","gkShirt":"#1f7a6e","accent":"#d9a400","gkSleeve":"#f08a1e","gkLongSleeve":true,"gkShorts":"#1f6a60"},
  "formation": "f-basic-ie3",
  "players": [
   {

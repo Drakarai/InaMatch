@@ -12,7 +12,13 @@
   "sleeve": "#1e2440",
   "socks": "#e8e4e4",
   "gkShorts": "#7a7a80",
-  "gkSleeve": "#7a7a80"
+  "gkSleeve": "#7a7a80",
+  "longSleeve": true,
+  "gkLongSleeve": true,
+  "gkLongPants": true,
+  "gkGloves": "#2a2a2e",
+  "gloves": "#ececf0",
+  "boots": "#d8d8dc"
  },
  "formation": "f-little-gigant",
  "players": [

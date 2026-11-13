@@ -5,14 +5,20 @@
  "name": "Prominence",
  "short": "PRO",
  "colors": {
-  "shirt": "#d82a20",
+  "shirt": "#f2eeea",
   "shorts": "#26222a",
-  "gkShirt": "#7a1a1a",
+  "gkShirt": "#3a3a40",
   "accent": "#f0ece4",
   "sleeve": "#d82a20",
   "socks": "#d82a20",
-  "gkShorts": "#26222a",
-  "gkSleeve": "#7a1a1a"
+  "gkShorts": "#c8282a",
+  "gkSleeve": "#3a3a40",
+  "longSleeve": true,
+  "num": "#d82a20",
+  "collar": "#d82a20",
+  "gkLongSleeve": true,
+  "gkSocks": "#f0ece4",
+  "gkGloves": "#3a3a40"
  },
  "formation": "f-basic-2",
  "players": [

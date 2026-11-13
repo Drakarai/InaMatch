@@ -4,13 +4,7 @@
  "wiki": "NEW Teikoku Gakuen",
  "name": "Royal Academy NEW",
  "short": "NTG",
- "colors": {
-  "shirt": "#36584a",
-  "shorts": "#7a6438",
-  "gkShirt": "#f08a2a",
-  "accent": "#b0202a",
-  "sleeve": "#36584a"
- },
+ "colors": {"shirt":"#36584a","shorts":"#7a6438","gkShirt":"#f08a2a","accent":"#b0202a","sleeve":"#36584a","gkLongSleeve":true,"gkSleeve":"#f08a2a","gkShorts":"#3e3a32","gkSocks":"#6a4a8a","gkGloves":"#6a4a8a"},
  "formation": "f-basic-2",
  "players": [
   {

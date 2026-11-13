@@ -14,9 +14,10 @@
   "gkShorts": "#24242a",
   "gkSleeve": "#24242a",
   "gkLongSleeve": true,
-  "stripe": "#f4c020",
-  "collar": "#f4c020",
-  "num": "#24242a"
+  "stripe": "#24242a",
+  "collar": "#24242a",
+  "num": "#24242a",
+  "gkSocks": "#7ac0ec"
  },
  "formation": "f-matador",
  "players": [

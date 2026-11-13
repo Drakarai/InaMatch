@@ -17,7 +17,9 @@
   "gkGloves": "#e8c040",
   "collar": "#d02424",
   "num": "#d02424",
-  "stripe": "#2a9a3e"
+  "stripe": "#2a9a3e",
+  "gkSocks": "#2a4a82",
+  "boots": "#7a7a7a"
  },
  "formation": "f-basic",
  "players": [

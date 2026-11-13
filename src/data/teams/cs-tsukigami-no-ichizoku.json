@@ -16,7 +16,9 @@
   "gkLongSleeve": true,
   "gkGloves": "#c81e1e",
   "gkSocks": "#6a6878",
-  "collar": "#1e1e22"
+  "collar": "#1e1e22",
+  "gkLongPants": true,
+  "pants": "#6a6878"
  },
  "formation": "f-mangetsu",
  "players": [

@@ -33,6 +33,13 @@ export interface UniformColors {
   gkLongSleeve?: boolean;
   gkLongPants?: boolean;
   suit?: boolean;
+  /** Pantalón del portero (si no es el del equipo), rayas del portero, rayas horizontales, guantes de los de campo y botas. */
+  gkPants?: string;
+  gkVstripes?: string;
+  hstripes?: string;
+  gkHstripes?: string;
+  gloves?: string;
+  boots?: string;
 }
 
 export interface Uniform {
@@ -50,7 +57,7 @@ export const getUniform = (id: string | undefined): Uniform | undefined => (id ?
 export const START_UNIFORMS = ['simple', 'normal'];
 
 /** Papeles de la equipación, en el orden de ROLES de masks.py (el papel i va como R = 16 * (i + 1)). */
-const ROLES = ['shirt', 'sleeve', 'shorts', 'sock', 'stripe', 'collar', 'num', 'zig', 'vstripes', 'pants', 'hand'] as const;
+const ROLES = ['shirt', 'sleeve', 'shorts', 'sock', 'stripe', 'collar', 'num', 'zig', 'vstripes', 'pants', 'hand', 'hstripes'] as const;
 type Role = (typeof ROLES)[number];
 type RGB = [number, number, number];
 
@@ -66,7 +73,7 @@ export function uniformKit(c: UniformColors, gk: boolean): Record<Role, RGB> {
   if (gk && c.gkSocks) sock = hex(c.gkSocks);
   const accent = hex(c.accent);
   const longPants = !!c.suit && !gk ? true : gk ? !!c.gkLongPants : !!c.longPants;
-  const pants = c.pants ? hex(c.pants) : shorts;
+  const pants = gk && c.gkPants ? hex(c.gkPants) : c.pants ? hex(c.pants) : shorts;
   const pick = (k: 'collar' | 'num' | 'stripe') => (c[k] && !(gk && k === 'collar') ? hex(c[k]!) : null);
   const collar = pick('collar') ?? (c.sleeve ? accent : sleeve);
   const num = pick('num') ?? (c.sleeve ? accent : sleeve);
@@ -81,9 +88,10 @@ export function uniformKit(c: UniformColors, gk: boolean): Record<Role, RGB> {
     collar,
     num,
     zig: c.zig && !gk ? hex(c.zig) : shirt,
-    vstripes: c.vstripes && !gk ? hex(c.vstripes) : shirt,
+    vstripes: gk ? (c.gkVstripes ? hex(c.gkVstripes) : shirt) : c.vstripes ? hex(c.vstripes) : shirt,
+    hstripes: gk ? (c.gkHstripes ? hex(c.gkHstripes) : shirt) : c.hstripes ? hex(c.hstripes) : shirt,
     pants: longPants ? pants : shorts,
-    hand: gk ? (c.gkGloves ? hex(c.gkGloves) : [246, 246, 246]) : [246, 246, 246],
+    hand: gk ? (c.gkGloves ? hex(c.gkGloves) : [246, 246, 246]) : c.gloves ? hex(c.gloves) : [246, 246, 246],
   };
 }
 

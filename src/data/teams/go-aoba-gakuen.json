@@ -17,7 +17,8 @@
   "num": "#e8e8f0",
   "gkLongSleeve": true,
   "gkGloves": "#1e2230",
-  "gkSocks": "#f0f0f0"
+  "gkSocks": "#f0f0f0",
+  "boots": "#c01818"
  },
  "formation": "f-blue-leaf",
  "players": [

@@ -17,7 +17,10 @@
   "gkGloves": "#2a2a2e",
   "collar": "#5a2a8a",
   "stripe": "#e8c840",
-  "num": "#5a2a8a"
+  "num": "#5a2a8a",
+  "longPants": true,
+  "gkLongPants": true,
+  "pants": "#1e1e22"
  },
  "formation": "f-shika-no-tsuno",
  "players": [

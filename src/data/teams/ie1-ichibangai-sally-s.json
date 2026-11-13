@@ -5,11 +5,19 @@
  "name": "Sallys",
  "short": "ISS",
  "colors": {
-  "shirt": "#e0a020",
+  "shirt": "#e0a010",
   "shorts": "#2e6a3a",
-  "gkShirt": "#ee7a7a",
+  "gkShirt": "#ec7878",
   "accent": "#2e6a3a",
-  "sleeve": "#e0a020"
+  "sleeve": "#e0a020",
+  "socks": "#e0a010",
+  "stripe": "#2e6a3a",
+  "num": "#5a3a2a",
+  "collar": "#2e6a3a",
+  "gkLongSleeve": true,
+  "gkShorts": "#3c4a48",
+  "gkSocks": "#ec7878",
+  "gkGloves": "#ece8d8"
  },
  "formation": "f-basic-2",
  "players": [

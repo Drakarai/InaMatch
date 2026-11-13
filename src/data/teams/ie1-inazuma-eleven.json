@@ -5,14 +5,20 @@
  "name": "Inazuma Eleven",
  "short": "INE",
  "colors": {
-  "shirt": "#382a4a",
+  "shirt": "#3a2852",
   "shorts": "#141218",
-  "gkShirt": "#2e2240",
+  "gkShirt": "#33224e",
   "accent": "#c8a030",
   "sleeve": "#141218",
   "socks": "#e0d4b8",
-  "gkShorts": "#2e2240",
-  "gkSleeve": "#2e2240"
+  "gkShorts": "#33224e",
+  "gkSleeve": "#33224e",
+  "stripe": "#3a2852",
+  "num": "#c8a030",
+  "collar": "#c8a030",
+  "gkLongSleeve": true,
+  "gkLongPants": true,
+  "gkGloves": "#c0845a"
  },
  "formation": "f-basic-2",
  "players": [

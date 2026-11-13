@@ -19,7 +19,8 @@
   "wings": "#c8e8c0",
   "stripe": "#d0a040",
   "collar": "#26262a",
-  "num": "#26262a"
+  "num": "#26262a",
+  "gkVstripes": "#3a9a8a"
  },
  "formation": "f-pantheon",
  "players": [

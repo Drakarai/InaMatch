@@ -17,7 +17,8 @@
   "wings": "#2e2e34",
   "stripe": "#c81e2a",
   "collar": "#ece8e8",
-  "num": "#e8b0b8"
+  "num": "#e8b0b8",
+  "gkSocks": "#c81e2a"
  },
  "formation": "f-pandemonium",
  "players": [

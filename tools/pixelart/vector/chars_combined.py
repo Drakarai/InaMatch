@@ -48,6 +48,8 @@ FROM = {
 
 for key, src in FROM.items():
     pid = key.split(':', 1)[1]
+    if key in CHARS:  # ya tiene dibujo propio (p. ej. de la revisión de diseños)
+        continue
     for k in (f'{src}:{pid}', f"{src.split('-')[0]}:{pid}"):
         if k in CHARS:
             CHARS[key] = CHARS[k]

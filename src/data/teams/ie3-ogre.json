@@ -17,7 +17,8 @@
   "gkGloves": "#2ab0d0",
   "stripe": "#5a2aa0",
   "collar": "#f2f2f2",
-  "num": "#f2f2f2"
+  "num": "#f2f2f2",
+  "gkSocks": "#f2f2f2"
  },
  "formation": "f-three-top",
  "players": [

@@ -7,16 +7,17 @@
  "colors": {
   "shirt": "#e0262a",
   "shorts": "#f4f4f4",
-  "gkShirt": "#f0a030",
+  "gkShirt": "#94949c",
   "accent": "#f4f4f4",
-  "sleeve": "#f4f4f4",
+  "sleeve": "#e0262a",
   "socks": "#e0262a",
-  "gkShorts": "#2a7a6a",
-  "gkSleeve": "#f0a030",
+  "gkShorts": "#1c1c1e",
+  "gkSleeve": "#94949c",
   "gkLongSleeve": true,
-  "gkGloves": "#f0f0f0",
-  "gkSocks": "#1e1e22",
-  "collar": "#f4f4f4"
+  "gkGloves": "#f4f4f4",
+  "gkSocks": "#f6dc1e",
+  "collar": "#f4f4f4",
+  "stripe": "#e0262a"
  },
  "formation": "f-raimon",
  "players": [

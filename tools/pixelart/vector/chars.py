@@ -908,4 +908,35 @@ def _wilbur_mane():
 
 
 _wilbur_mane()
+import chars_fix_ie1  # noqa: E402,F401
+import chars_fix_ie2a  # noqa: E402,F401
+import chars_fix_ie2b  # noqa: E402,F401
+import chars_fix_ie3a  # noqa: E402,F401
+import chars_fix_ie3b  # noqa: E402,F401
+import chars_fix_goa  # noqa: E402,F401
+import chars_fix_gob  # noqa: E402,F401
+import chars_fix_csa  # noqa: E402,F401
+import chars_fix_csb  # noqa: E402,F401
+import chars_fix_gxa  # noqa: E402,F401
+import chars_fix_gxb  # noqa: E402,F401
+import chars_fix_ares  # noqa: E402,F401
+import chars_fix_orion  # noqa: E402,F401
+import chars_fix_vra  # noqa: E402,F401
+import chars_fix_vrb  # noqa: E402,F401
+import chars_fix_sc_ie1a  # noqa: E402,F401
+import chars_fix_sc_ie1b  # noqa: E402,F401
+import chars_fix_sc_ie1c  # noqa: E402,F401
+import chars_fix_sc_ie1d  # noqa: E402,F401
+import chars_fix_sc_ie2a  # noqa: E402,F401
+import chars_fix_sc_ie2b  # noqa: E402,F401
+import chars_fix_sc_ie3a  # noqa: E402,F401
+import chars_fix_sc_ie3b  # noqa: E402,F401
+import chars_fix_sc_goa  # noqa: E402,F401
+import chars_fix_sc_gob  # noqa: E402,F401
+import chars_fix_sc_goc  # noqa: E402,F401
+import chars_fix_sc_cs  # noqa: E402,F401
+import chars_fix_sc_gx  # noqa: E402,F401
+import chars_fix_sc_vra  # noqa: E402,F401
+import chars_fix_sc_vrb  # noqa: E402,F401
+import chars_fix_sc_vrc  # noqa: E402,F401
 import chars_combined  # noqa: E402,F401

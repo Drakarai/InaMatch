@@ -11,7 +11,13 @@
   "accent": "#6a4a3a",
   "sleeve": "#8a7e74",
   "socks": "#a09888",
-  "gkShorts": "#5a5238"
+  "gkShorts": "#5e4c30",
+  "stripe": "#e8dcc0",
+  "num": "#6a4a3a",
+  "collar": "#8a7e74",
+  "gkSleeve": "#5e4c30",
+  "gkLongSleeve": true,
+  "gkGloves": "#e2d4b4"
  },
  "formation": "f-grid442",
  "players": [

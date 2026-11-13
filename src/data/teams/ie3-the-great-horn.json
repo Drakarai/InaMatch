@@ -16,7 +16,8 @@
   "gkLongSleeve": true,
   "stripe": "#e8b020",
   "collar": "#e8b020",
-  "num": "#e8b020"
+  "num": "#e8b020",
+  "gkSocks": "#b81e1e"
  },
  "formation": "f-neo",
  "players": [

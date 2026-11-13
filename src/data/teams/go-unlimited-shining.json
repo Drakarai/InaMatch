@@ -14,7 +14,9 @@
   "gkShorts": "#2ab0b8",
   "gkSleeve": "#1e2228",
   "gkLongSleeve": true,
-  "gkGloves": "#f0f0f0"
+  "gkGloves": "#f0f0f0",
+  "gkSocks": "#1e2228",
+  "boots": "#10507e"
  },
  "formation": "f-shining-go",
  "players": [

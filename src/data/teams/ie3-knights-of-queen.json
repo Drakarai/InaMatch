@@ -17,7 +17,8 @@
   "gkLongSleeve": true,
   "stripe": "#1e3a8a",
   "collar": "#1e3a8a",
-  "num": "#1e3a8a"
+  "num": "#1e3a8a",
+  "gkSocks": "#f0ece8"
  },
  "formation": "f-little-gigant",
  "players": [

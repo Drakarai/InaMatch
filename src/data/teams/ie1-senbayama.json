@@ -5,12 +5,18 @@
  "name": "Instituto Farm",
  "short": "SNB",
  "colors": {
-  "shirt": "#9a8010",
+  "shirt": "#a08c10",
   "shorts": "#3a2c20",
-  "gkShirt": "#4e6e80",
+  "gkShirt": "#4e7488",
   "accent": "#f0e8cc",
-  "sleeve": "#9a8010",
-  "socks": "#9a8010"
+  "sleeve": "#a08c10",
+  "socks": "#a08c10",
+  "stripe": "#3a2c20",
+  "num": "#f0e8cc",
+  "collar": "#f0e8cc",
+  "gkLongSleeve": true,
+  "gkShorts": "#2e2418",
+  "gkSocks": "#4e7488"
  },
  "formation": "f-mugen-no-kabe",
  "players": [

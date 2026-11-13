@@ -8,11 +8,15 @@
   "shirt": "#e8152a",
   "sleeve": "#f5f5f5",
   "shorts": "#e8152a",
-  "socks": "#f5f5f5",
+  "socks": "#26262a",
   "accent": "#f2c21a",
   "gkShirt": "#1f9a3a",
   "gkSleeve": "#f2c21a",
-  "gkShorts": "#1f9a3a"
+  "gkShorts": "#1f9a3a",
+  "collar": "#f5f5f5",
+  "gkLongSleeve": true,
+  "gkSocks": "#26262a",
+  "gkGloves": "#f0f0f0"
  },
  "formation": "f-milky-way",
  "players": [

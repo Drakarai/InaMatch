@@ -13,7 +13,10 @@
   "socks": "#f0f0f0",
   "gkShorts": "#28348e",
   "gkSleeve": "#d01e22",
-  "gkGloves": "#f0f0f0"
+  "gkGloves": "#f0f0f0",
+  "stripe": "#26b6c6",
+  "gkLongSleeve": true,
+  "boots": "#4a9060"
  },
  "formation": "f-basic",
  "players": [

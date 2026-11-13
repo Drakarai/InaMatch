@@ -15,7 +15,8 @@
   "gkSleeve": "#c03018",
   "longSleeve": true,
   "gkLongSleeve": true,
-  "gkGloves": "#f0f0f0"
+  "gkGloves": "#f0f0f0",
+  "boots": "#607888"
  },
  "formation": "f-neo-death-zone",
  "players": [

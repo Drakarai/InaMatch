@@ -5,14 +5,19 @@
  "name": "Instituto Umbrella",
  "short": "KAS",
  "colors": {
-  "shirt": "#94bccc",
-  "shorts": "#2e5a80",
+  "shirt": "#96c0cc",
+  "shorts": "#2c5a7e",
   "gkShirt": "#5a7a34",
   "accent": "#2e4a6a",
   "sleeve": "#e8dcc0",
   "socks": "#f2f2f2",
-  "gkShorts": "#3a4a40",
-  "gkSleeve": "#e8dcc0"
+  "gkShorts": "#384440",
+  "gkSleeve": "#e8dcc0",
+  "stripe": "#f2f2f2",
+  "num": "#2e4a6a",
+  "collar": "#96c0cc",
+  "gkLongSleeve": true,
+  "gkGloves": "#e8dcc0"
  },
  "formation": "f-basic-2",
  "players": [

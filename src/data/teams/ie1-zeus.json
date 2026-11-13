@@ -12,7 +12,13 @@
   "sleeve": "#f2f2f2",
   "socks": "#6a6078",
   "gkShorts": "#8a7e94",
-  "gkSleeve": "#1e2a4a"
+  "gkSleeve": "#1e2a4a",
+  "stripe": "#6a6078",
+  "num": "#1e5a6a",
+  "collar": "#1e5a6a",
+  "gkLongSleeve": true,
+  "gkSocks": "#1e2a4a",
+  "gkGloves": "#9aa2a6"
  },
  "formation": "f-heaven-s-gate",
  "players": [

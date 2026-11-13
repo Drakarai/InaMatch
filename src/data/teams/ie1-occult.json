@@ -7,10 +7,14 @@
  "colors": {
   "shirt": "#4a4a7e",
   "shorts": "#a2a2aa",
-  "gkShirt": "#a81c1c",
+  "gkShirt": "#9c0c0c",
   "accent": "#3a3a68",
   "sleeve": "#4a4a7e",
-  "socks": "#4a4a52"
+  "socks": "#4a4a52",
+  "gkLongSleeve": true,
+  "gkShorts": "#42424e",
+  "gkSocks": "#4a4a52",
+  "stripe": "#4a4a52"
  },
  "formation": "f-ghost-dance",
  "players": [

@@ -16,7 +16,8 @@
   "gkLongSleeve": true,
   "gkGloves": "#f0f0f0",
   "gkSocks": "#585860",
-  "collar": "#f0e8e0"
+  "collar": "#f0e8e0",
+  "stripe": "#e0281e"
  },
  "formation": "f-burning-soul",
  "players": [

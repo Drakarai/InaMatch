@@ -16,7 +16,11 @@
   "gkSleeve": "#f2f2f2",
   "gkLongSleeve": true,
   "gkShorts": "#1c1c22",
-  "gkGloves": "#c0183a"
+  "gkGloves": "#c0183a",
+  "longSleeve": true,
+  "gkLongPants": true,
+  "collar": "#1c1c22",
+  "num": "#f2f2f2"
  },
  "formation": "f-galaxy",
  "players": [

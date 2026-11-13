@@ -15,7 +15,8 @@
   "gkSleeve": "#c81e1e",
   "gkLongSleeve": true,
   "gkGloves": "#f0f0f0",
-  "vstripes": "#c8b878"
+  "vstripes": "#9c9268",
+  "stripe": "#f0f0f0"
  },
  "formation": "f-moonlight",
  "players": [

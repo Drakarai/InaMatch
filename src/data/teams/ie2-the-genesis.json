@@ -4,16 +4,7 @@
  "wiki": "The Genesis",
  "name": "Génesis",
  "short": "THE",
- "colors": {
-  "shirt": "#f0eef0",
-  "shorts": "#f0eef0",
-  "gkShirt": "#5a3a9a",
-  "accent": "#4a4a54",
-  "sleeve": "#3a3a44",
-  "socks": "#f0eef0",
-  "gkShorts": "#3a2a5a",
-  "gkSleeve": "#3a3a44"
- },
+ "colors": {"shirt":"#f0eef0","shorts":"#f0eef0","gkShirt":"#5a3a9a","accent":"#4a4a54","sleeve":"#3a3a44","socks":"#f0eef0","gkShorts":"#5a3a9a","gkSleeve":"#5a3a9a","longSleeve":true,"gkLongSleeve":true,"gkSocks":"#4a2e7a"},
  "formation": "f-death-zone-2",
  "players": [
   {

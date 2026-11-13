@@ -11,7 +11,13 @@
   "accent": "#2a2a2e",
   "sleeve": "#c00c0c",
   "socks": "#c00c0c",
-  "gkShorts": "#4a5a68"
+  "gkShorts": "#4a5a68",
+  "stripe": "#c00c0c",
+  "num": "#2a2a2e",
+  "collar": "#2a2a2e",
+  "gkLongSleeve": true,
+  "gkSocks": "#b8c87e",
+  "gkSleeve": "#b8c87e"
  },
  "formation": "f-mukata-march",
  "players": [

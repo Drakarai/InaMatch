@@ -17,7 +17,8 @@
   "gkGloves": "#d81e2a",
   "stripe": "#f0c020",
   "collar": "#f2f2f2",
-  "num": "#f0c020"
+  "num": "#f0c020",
+  "gkSocks": "#1e2a5a"
  },
  "formation": "f-little-gigant",
  "players": [

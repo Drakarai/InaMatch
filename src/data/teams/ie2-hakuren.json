@@ -4,16 +4,7 @@
  "wiki": "Hakuren",
  "name": "Instituto Alpino",
  "short": "HAK",
- "colors": {
-  "shirt": "#f4f0dc",
-  "shorts": "#2e4466",
-  "gkShirt": "#4a5226",
-  "accent": "#2e4466",
-  "sleeve": "#f4f0dc",
-  "socks": "#f4f0dc",
-  "gkShorts": "#d8d0b0",
-  "gkSleeve": "#4a5226"
- },
+ "colors": {"shirt":"#f4f0dc","shorts":"#2e4466","gkShirt":"#4a5226","accent":"#2e4466","sleeve":"#f4f0dc","socks":"#f4f0dc","gkShorts":"#d8d0b0","gkSleeve":"#4a5226","longSleeve":true,"gkLongSleeve":true,"gkSocks":"#4a5226","gkGloves":"#b8b0a0"},
  "formation": "f-basic-2",
  "players": [
   {

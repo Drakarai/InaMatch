@@ -7,13 +7,18 @@
  "colors": {
   "shirt": "#1e6ec8",
   "shorts": "#dccdb8",
-  "gkShirt": "#e8892b",
+  "gkShirt": "#eea032",
   "accent": "#1e6ec8",
   "sleeve": "#1e6ec8",
   "socks": "#1e6ec8",
   "stripe": "#f0c020",
   "collar": "#d02a2a",
-  "num": "#e8b8a0"
+  "num": "#e8b8a0",
+  "gkShorts": "#1e6a5c",
+  "gkSleeve": "#eea032",
+  "gkLongSleeve": true,
+  "gkSocks": "#38383e",
+  "gkGloves": "#e4e4e4"
  },
  "formation": "f-basic-ie3",
  "players": [

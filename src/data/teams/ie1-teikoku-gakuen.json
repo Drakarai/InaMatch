@@ -9,7 +9,13 @@
   "shorts": "#7a6438",
   "gkShirt": "#f08a2a",
   "accent": "#b0202a",
-  "sleeve": "#36584a"
+  "sleeve": "#36584a",
+  "stripe": "#f2f2f2",
+  "num": "#b0202a",
+  "gkLongSleeve": true,
+  "gkShorts": "#4a4636",
+  "gkSocks": "#7a6a9a",
+  "gkGloves": "#7a6aa8"
  },
  "formation": "f-basic-2",
  "players": [

@@ -14,9 +14,10 @@
   "gkShorts": "#3a4848",
   "gkSleeve": "#3a4848",
   "gkLongSleeve": true,
-  "stripe": "#c81e2a",
+  "stripe": "#24242a",
   "collar": "#e8b020",
-  "num": "#24242a"
+  "num": "#24242a",
+  "gkSocks": "#e8b820"
  },
  "formation": "f-grid442",
  "players": [

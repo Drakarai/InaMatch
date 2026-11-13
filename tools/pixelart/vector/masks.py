@@ -8,7 +8,7 @@ Cómo: se vuelve a dibujar el jugador con una equipación "en clave" (cada papel
 B/R dice cuál es) y se compara con el sprite ya exportado: solo se marcan los píxeles que en el sprite tienen de verdad
 el color de ese papel de su equipación (así no se pinta nada que no sea ropa).
 
-Uso (desde la raíz del repo): python3 -I tools/pixelart/vector/masks.py [ids de equipo...] [--jobs=4]
+Uso (desde la raíz del repo): python3 -I tools/pixelart/vector/masks.py [ids de equipo...] [--ids=a,b] [--jobs=4]
 """
 import os
 import sys
@@ -23,7 +23,7 @@ import body as B  # noqa: E402
 import json  # noqa: E402
 
 # papeles de la equipación (el índice va en el mapa; src/club/uniforms.ts tiene la misma lista)
-ROLES = ['shirt', 'sleeve', 'shorts', 'sock', 'stripe', 'collar', 'num', 'zig', 'vstripes', 'pants', 'hand']
+ROLES = ['shirt', 'sleeve', 'shorts', 'sock', 'stripe', 'collar', 'num', 'zig', 'vstripes', 'pants', 'hand', 'hstripes']
 SHADE = {'shirt_d': ('shirt', 0.84), 'sleeve_d': ('sleeve', 0.75), 'shorts_d': ('shorts', 0.72), 'sock_d': ('sock', 0.78)}
 
 
@@ -36,7 +36,7 @@ def resolved(kit):
     """Color con el que se dibuja cada papel en esta equipación (los que faltan caen en otro, como en body.py)."""
     out = {'shirt': kit['shirt'], 'sleeve': kit['sleeve'], 'shorts': kit['shorts'], 'sock': kit['sock'], 'stripe': kit['stripe'],
            'collar': kit.get('collar', kit['sleeve']), 'num': kit.get('num', kit['sleeve']), 'pants': kit.get('pants', kit['shorts'])}
-    for k in ('zig', 'vstripes', 'hand'):
+    for k in ('zig', 'vstripes', 'hand', 'hstripes'):
         if k in kit:
             out[k] = kit[k]
     return out
@@ -123,7 +123,7 @@ def job(args):
     return n
 
 
-def jobs_for(only):
+def jobs_for(only, ids=None):
     out = []
     for tid in E.TEAMS + E.SCOUTS:
         if only and tid not in only:
@@ -131,6 +131,8 @@ def jobs_for(only):
         scouts = tid in E.SCOUTS
         team = E.load_team(tid)
         for p in team['players']:
+            if ids and p['id'] not in ids:
+                continue
             base = (f"{tid}:{p['id']}" if f"{tid}:{p['id']}" in E.C.CHARS else None) if scouts else E.key_for(tid, p['id'])
             if base is None:
                 continue
@@ -143,7 +145,8 @@ def jobs_for(only):
 def main():
     only = [a for a in sys.argv[1:] if not a.startswith('--')]
     n = next((int(a[7:]) for a in sys.argv[1:] if a.startswith('--jobs=')), os.cpu_count() or 1)
-    todo = jobs_for(only)
+    ids = next((set(a[6:].split(',')) for a in sys.argv[1:] if a.startswith('--ids=')), None)  # --ids=a,b: solo esos jugadores
+    todo = jobs_for(only, ids)
     done = 0
     with Pool(n) as pool:
         for i, k in enumerate(pool.imap_unordered(job, todo, chunksize=4)):

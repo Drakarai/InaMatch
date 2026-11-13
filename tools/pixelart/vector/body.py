@@ -143,6 +143,18 @@ def body_front(d, t, back=False, num='10'):
             ld.polygon([P(x - sw / 7, top - 2), P(x + sw / 7, top - 2), P(x + sw / 7, waist + 4), P(x - sw / 7, waist + 4)], fill=KIT['vstripes'])
         layer.putalpha(ImageChops.multiply(layer.split()[3], clip))
         d._image.alpha_composite(layer)
+    if KIT.get('hstripes'):  # rayas horizontales (Barcelona Orb, Oumihara...): franjas del otro color recortadas a la camiseta
+        from PIL import ImageChops
+        clip = Image.new('L', (CW * SS, CH * SS), 0)
+        ImageDraw.Draw(clip).polygon([P(*q) for q in torso], fill=255)
+        layer = Image.new('RGBA', (CW * SS, CH * SS))
+        ld = ImageDraw.Draw(layer)
+        h = (waist - top) / 7
+        for k in (1, 3, 5):
+            y = top + k * h
+            ld.polygon([P(cx - sw - 4, y), P(cx + sw + 4, y), P(cx + sw + 4, y + h), P(cx - sw - 4, y + h)], fill=KIT['hstripes'])
+        layer.putalpha(ImageChops.multiply(layer.split()[3], clip))
+        d._image.alpha_composite(layer)
     d.polygon([P(cx + sw * 0.45, top + 3), P(cx + sw - 2, top + 6), P(cx + ww - 2, waist), P(cx + ww * 0.45, waist)], fill=KIT['shirt_d'])
     # mangas raglán: del cuello al sobaco
     for s in (-1, 1):
@@ -220,6 +232,11 @@ def body_side(d, t, step=0):
         for k in (-1, 1):
             x = cx + k * depth / 4
             d.polygon([P(x - depth / 9, top + 2), P(x + depth / 9, top + 2), P(x + depth / 9, waist), P(x - depth / 9, waist)], fill=KIT['vstripes'])
+    if KIT.get('hstripes'):
+        h = (waist - top) / 7
+        for k in (1, 3, 5):
+            y = top + k * h
+            d.polygon([P(cx - depth / 2 + 1, y), P(cx + depth / 2 - 1, y), P(cx + depth / 2 - 1, y + h), P(cx - depth / 2 + 1, y + h)], fill=KIT['hstripes'])
     if KIT.get('sash'):  # la tela cruzada: de perfil, una franja que baja del hombro por el costado
         shape(d, blob_pts([(cx - depth / 2 + 1, top + 2), (cx + 4, top - 1), (cx + depth / 2 - 1, waist - 4), (cx + depth / 2 - 6, waist + 4),
                            (cx - 2, waist)]), KIT['sash'], 1.3)
@@ -387,6 +404,15 @@ def kit_for(colors, gk=False):
         k['hand'] = hexc(colors['gkGloves']) if colors.get('gkGloves') else (246, 246, 246, 255)
     if colors.get('vstripes') and not gk:
         k['vstripes'] = hexc(colors['vstripes'])
+    # el portero con sus propias rayas, pantalón, y los de campo con guantes o botas de color
+    if gk and colors.get('gkVstripes'):
+        k['vstripes'] = hexc(colors['gkVstripes'])
+    if colors.get('hstripes') and not gk:
+        k['hstripes'] = hexc(colors['hstripes'])
+    if gk and colors.get('gkHstripes'):
+        k['hstripes'] = hexc(colors['gkHstripes'])
+    if not gk and colors.get('gloves'):
+        k['hand'] = hexc(colors['gloves'])
     if colors.get('wings'):
         k['wings'] = hexc(colors['wings'])
     if colors.get('zig') and not gk:
@@ -399,9 +425,14 @@ def kit_for(colors, gk=False):
     k['longPants'] = suit or (not gk and bool(colors.get('longPants'))) or (gk and bool(colors.get('gkLongPants')))
     if colors.get('pants'):
         k['pants'] = hexc(colors['pants'])
+    if gk and colors.get('gkPants'):
+        k['pants'] = hexc(colors['gkPants'])
     k['suit'] = suit
     if suit:
         k['boot'], k['boot_l'] = (24, 22, 26, 255), (70, 70, 80, 255)
+    if colors.get('boots'):
+        k['boot'] = hexc(colors['boots'])
+        k['boot_l'] = tone(k['boot'], 1.35)
     return k
 
 

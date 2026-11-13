@@ -4,16 +4,7 @@
  "wiki": "Diamond Dust",
  "name": "Polvo de Diamantes",
  "short": "DIA",
- "colors": {
-  "shirt": "#f0ece4",
-  "shorts": "#1e2e5a",
-  "gkShirt": "#2a2a30",
-  "accent": "#2a7ac0",
-  "sleeve": "#2a7ac0",
-  "socks": "#2a4a8a",
-  "gkShorts": "#2a2a30",
-  "gkSleeve": "#2a2a30"
- },
+ "colors": {"shirt":"#f0ece4","shorts":"#1e2e5a","gkShirt":"#2a2a30","accent":"#2a7ac0","sleeve":"#2a7ac0","socks":"#2a4a8a","gkShorts":"#ece6da","gkSleeve":"#2a2a30","gkLongSleeve":true,"gkSocks":"#2a2a30"},
  "formation": "f-basic-2",
  "players": [
   {

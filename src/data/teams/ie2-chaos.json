@@ -11,8 +11,11 @@
   "accent": "#2a9aa8",
   "sleeve": "#d02a2a",
   "socks": "#1e2e5a",
-  "gkShorts": "#2a2a30",
-  "gkSleeve": "#2a2a30"
+  "gkShorts": "#3a3a40",
+  "gkSleeve": "#2a2a30",
+  "zig": "#2a7ac0",
+  "gkLongSleeve": true,
+  "gkSocks": "#f0ece4"
  },
  "formation": "f-basic-2",
  "players": [

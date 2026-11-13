@@ -18,7 +18,8 @@
   "gkGloves": "#f0f0f0",
   "gkSocks": "#9a2e2a",
   "collar": "#1e1e26",
-  "num": "#f0dcdc"
+  "num": "#f0dcdc",
+  "stripe": "#e8e8ee"
  },
  "formation": "f-predator",
  "players": [

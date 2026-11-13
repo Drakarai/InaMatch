@@ -72,7 +72,7 @@ export class ClubScene extends Phaser.Scene {
       this.redraw();
     });
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, off);
-    this.input.keyboard?.on('keydown-ESC', () => (this.uniformBox ? this.closeUniforms() : this.crestBox ? this.closeCrests() : this.editor ? this.closeEditor() : this.scene.start('menu')));
+    this.input.keyboard?.on('keydown-ESC', () => (this.uniformBox ? this.closeUniforms() : this.crestBox ? this.closeCrests() : this.editor ? this.closeEditor() : this.scene.start('title')));
     const keys = [...this.save.squad, ...this.collection().slice(0, PER_PAGE).map((c) => c.key)];
     loadCardPortraits(this, keys.map((k) => cardByKey(k)).filter((c): c is Card => !!c), () => this.redraw());
     this.redraw();
@@ -109,7 +109,7 @@ export class ClubScene extends Phaser.Scene {
     } catch {
       // aún sin equipo
     }
-    c.add(topBar(this, { title: this.save.name, subtitle: `Media ${rating}  ·  ${this.save.owned.length} jugadores  ·  ${this.save.pulls} tiradas`, back: { label: 'Menú', onClick: () => this.scene.start('menu') }, icon: 'emblem:club' }));
+    c.add(topBar(this, { title: this.save.name, subtitle: `Media ${rating}  ·  ${this.save.owned.length} jugadores  ·  ${this.save.pulls} tiradas`, back: { label: 'Inicio', onClick: () => this.scene.start('title') }, icon: 'emblem:club' }));
     c.add(coinChip(this, GAME_W - 24, 32, this.save.coins));
     c.add(new Button(this, GAME_W - 200, 32, '¡A jugar!', () => this.play(), { w: 130, h: 38, variant: 'primary', size: 16 }));
     c.add(new Button(this, GAME_W - 340, 32, 'Fichajes', () => this.scene.start('gacha', { from: 'club' }), { w: 120, h: 38, color: THEME.orange, size: 15 }));
@@ -670,7 +670,7 @@ export class ClubScene extends Phaser.Scene {
       clubMobileHeader(this, {
         title: this.save.name,
         subtitle: `Media ${rating} · ${this.save.owned.length} jugadores`,
-        onBack: () => this.scene.start('menu'),
+        onBack: () => this.scene.start('title'),
         icon: 'emblem:club',
         coins: this.save.coins,
       }),

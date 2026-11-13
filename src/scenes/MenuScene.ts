@@ -111,7 +111,7 @@ export class MenuScene extends Phaser.Scene {
   }
 
   private drawTopBar(): void {
-    topBar(this, { title: 'InaMatch', subtitle: 'Elige los equipos y ¡a jugar!' });
+    topBar(this, { title: 'InaMatch', subtitle: 'Elige los equipos y ¡a jugar!', back: { label: 'Inicio', onClick: () => this.scene.start('title') } });
     const save = loadClub();
     soundButton(this, GAME_W - 30, 32, GAME_W - 350, 76);
     if (!save) return;
@@ -563,7 +563,7 @@ export class MenuScene extends Phaser.Scene {
   }
 
   private drawTopBarP(): void {
-    topBar(this, { title: 'InaMatch', subtitle: 'Elige los equipos y ¡a jugar!' });
+    topBar(this, { title: 'InaMatch', subtitle: 'Elige los equipos y ¡a jugar!', back: { label: 'Inicio', onClick: () => this.scene.start('title') } });
     const save = loadClub();
     // botón de sonido propio, con área táctil grande (el panel se abre centrado)
     let panel: Phaser.GameObjects.Container | null = null;

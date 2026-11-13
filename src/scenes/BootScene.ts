@@ -40,7 +40,7 @@ export class BootScene extends Phaser.Scene {
       .then(() => {
         loading.destroy();
         document.getElementById('splash')?.classList.add('done');
-        this.scene.start('menu');
+        this.scene.start('title');
       });
   }
 }

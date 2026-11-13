@@ -25,13 +25,13 @@ export class GachaScene extends Phaser.Scene {
   private busy = false;
   private mode: Mode = 'players';
   /** De dónde se vino (para el botón de volver). */
-  private from: 'menu' | 'club' = 'club';
+  private from: 'menu' | 'club' | 'title' = 'club';
 
   constructor() {
     super('gacha');
   }
 
-  init(data: { mode?: Mode; from?: 'menu' | 'club' }): void {
+  init(data: { mode?: Mode; from?: 'menu' | 'club' | 'title' }): void {
     this.mode = data?.mode ?? 'players';
     this.from = data?.from ?? 'club';
   }
@@ -47,7 +47,7 @@ export class GachaScene extends Phaser.Scene {
     topBar(this, {
       title: nb ? 'Cuadernos' : 'Fichajes',
       subtitle: nb ? 'Cuadernos de supertécnicas para Mi club' : 'Consigue jugadores para Mi club',
-      back: { label: this.from === 'menu' ? 'Menú' : 'Mi club', onClick: () => this.back() },
+      back: { label: this.from === 'menu' ? 'Menú' : this.from === 'title' ? 'Inicio' : 'Mi club', onClick: () => this.back() },
       accent: nb ? 0x7a5aa8 : THEME.yellow,
     });
     // pestañas: jugadores o cuadernos
@@ -157,7 +157,7 @@ export class GachaScene extends Phaser.Scene {
   }
 
   private back(): void {
-    this.scene.start(this.from === 'menu' ? 'menu' : 'club');
+    this.scene.start(this.from === 'club' ? 'club' : this.from);
   }
 
   private drawCoins(): void {

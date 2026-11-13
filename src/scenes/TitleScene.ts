@@ -228,12 +228,6 @@ export class TitleScene extends Phaser.Scene {
     const bs = size / 44;
     boltLogo(bolt, -title.width / 2 - 30 * bs, -24 * bs, bs);
     c.add(bolt);
-    // lema entre dos líneas
-    const tag = label(this, 0, size * 0.66, 'EL FÚTBOL DE LAS SUPERTÉCNICAS', PORTRAIT ? 15 : 17, '#e8f0ff', { fontStyle: 'bold' }).setOrigin(0.5).setLetterSpacing(PORTRAIT ? 3 : 5);
-    const lines = this.add.graphics();
-    const lw = PORTRAIT ? 40 : 90;
-    lines.lineStyle(2, THEME.yellow, 0.9).lineBetween(-tag.width / 2 - 16 - lw, tag.y, -tag.width / 2 - 16, tag.y).lineBetween(tag.width / 2 + 16, tag.y, tag.width / 2 + 16 + lw, tag.y);
-    c.add([lines, tag]);
     c.setScale(1.6).setAlpha(0);
     this.tweens.add({ targets: c, scale: 1, alpha: 1, duration: 650, ease: 'Cubic.Out', delay: 150 });
     this.tweens.add({ targets: halo, alpha: 0.4, duration: 1800, yoyo: true, repeat: -1, ease: 'Sine.InOut' });

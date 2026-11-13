@@ -21,6 +21,7 @@ const HEROES: { team: string; id: string }[] = [
 ];
 
 const MODES = [
+  { id: 'story', label: 'HISTORIA', sub: 'La ruta de cada equipo, partido a partido' },
   { id: 'menu', label: 'PARTIDO', sub: 'Elige dos equipos de toda la saga' },
   { id: 'club', label: 'MI CLUB', sub: 'Tu equipo, tus fichajes y tus uniformes' },
   { id: 'gacha', label: 'FICHAJES', sub: 'Consigue jugadores y cuadernos de técnicas' },

@@ -1,0 +1,2745 @@
+{
+ "orion-inazuma-japan-orion": {
+  "title": "La marca de Orión",
+  "summary": "Inazuma Japón se lanza al Fútbol Frontier Internacional y descubre que la Fundación Orión manipula el torneo desde las sombras. ¡Solo el fútbol limpio puede vencerla!",
+  "main": true,
+  "intro": [
+   {
+    "text": "Seis meses después del Fútbol Frontier, se anuncia la selección japonesa para el Fútbol Frontier Internacional: el nuevo Inazuma Japón."
+   },
+   {
+    "who": "orion-inazuma-japan-orion/mark-evans",
+    "text": "¡Axel, Jude, Nathan... y caras nuevas como Sonny, Elliot y Heath! ¡Con este equipo vamos a por el mundo entero!"
+   },
+   {
+    "name": "Mister Yi",
+    "text": "Jo, jo, jo. Yo seré vuestro entrenador. Tranquilos, sé lo que hago... casi siempre."
+   },
+   {
+    "who": "orion-inazuma-japan-orion/lucas-star",
+    "text": "Encantado. Me llamo Philip Star, aunque podéis llamarme Phil. Vengo de la liga juvenil rusa."
+   },
+   {
+    "who": "orion-inazuma-japan-orion/sonny-wright",
+    "text": "Phil parece majo. ¡Juntos llegaremos a lo más alto!"
+   },
+   {
+    "text": "Pero tras el torneo acecha la Fundación Orión, que quiere controlar el fútbol mundial con sus Discípulos de Orión..."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "orion-red-bison",
+    "title": "La embestida coreana",
+    "before": [
+     {
+      "text": "Primera ronda de la fase asiática: Inazuma Japón contra el Bisonte Rojo de Corea del Sur."
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "El Bisonte Rojo respeta el fútbol. Jugaremos duro, pero limpio. ¿Verdad, Baek?"
+     },
+     {
+      "who": "orion-red-bison/baek-bull-wo",
+      "text": "Lo que tú digas, capitán... Ese tal Axel Blaze no acabará el partido."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/axel-blaze",
+      "text": "Que intenten pararme. El Tornado de fuego no se apaga tan fácilmente."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star",
+      "text": "(En voz baja) Lo siento, chicos... pero Japón va a perder hoy."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/xavier-schiller",
+      "text": "Axel ha caído por una entrada sucia. Tranquilos: con el gran Xavier en el campo, los goles están asegurados."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/elliot-ember",
+      "text": "Tch. No te flipes, Xavier. Aquí el único delantero que importa soy yo."
+     },
+     {
+      "text": "Japón gana, pero Axel acaba en el hospital... y esa noche se descubre la marca de Orión en la pierna de Phil."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-shining-satans",
+    "title": "La hipnosis del sol",
+    "before": [
+     {
+      "name": "Mister Yi",
+      "text": "Nuestro próximo rival es Australia: los Demonios Brillantes. Juegan con hipnosis. No os fiéis de vuestros ojos."
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "Jejeje... Mirad nuestras manos. Más cerca... El balón ya no existe. ¡Trance temporal!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/jude-sharp",
+      "text": "Phil es un espía de Orión. Elliot, Xavier: os necesito para un plan... un poco brusco."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "¿Qué está pasando en este equipo? ¡Esto no es fútbol!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Ya no te funciona, Beryl! Con las Megamanos mágicas veo el balón aunque cierre los ojos."
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "¿Qué? ¡No, no, no! ¡Nadie rompe mi hipnosis! ...Jejeje. Qué divertido eres, portero."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "Phil, ¿estás bien? Da igual lo que hayas hecho: eres mi compañero."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-eternal-dancers",
+    "title": "La resistencia infinita",
+    "before": [
+     {
+      "text": "Tercera ronda: Uzbekistán. Los Bailarines Eternos presumen de un aguante físico que parece no tener fin."
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Nosotros nunca nos cansamos. Correremos hasta que vuestras piernas digan basta."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/heath-moore",
+      "text": "Mark no puede jugar, así que hoy el brazalete es mío. Tranquilos: ninguna resistencia es infinita. Solo hay que saber dónde se rompe."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/adriano-donati",
+      "text": "Mister, ¡déjeme salir! ¡Con mi Granizado de fuego los derrito!"
+     },
+     {
+      "name": "Mister Yi",
+      "text": "Todavía no, Adriano. Eres nuestra arma secreta. Muy, muy secreta."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/heath-moore",
+      "text": "Lo veis: cuando un equipo depende de una sola virtud, basta con una buena táctica para desmontarlo."
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "¡Árbitro, esa jugada es peligrosa! ¿Cómo que gol? ...Uf. Por primera vez en mi vida, estoy agotado."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-arab-no-hi-no-tori-gundan",
+    "title": "Las alas del fénix",
+    "before": [
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Somos el Ejército del Fénix Árabe. ¡Dominamos el cielo con cada cabezazo!"
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/anqa-qushchi",
+      "text": "¡Arded con más fuerza, chicos! ¡Que el fénix renazca en el campo!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star",
+      "text": "Si fallo esta vez, Orión me echará... y no podré salvar a mi hermano Lucas."
+     },
+     {
+      "name": "Mister Yi",
+      "text": "Phil... Ha llegado la hora de que sepas la verdad sobre ti mismo."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Su Pájaro ardiente quemaba, pero mis Megamanos mágicas han apagado las llamas!"
+     },
+     {
+      "text": "Mister Yi revela la verdad: Phil murió en un accidente hace años. El chico que jugaba con ellos era su hermano Lucas."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star-ok-hikaru",
+      "text": "Soy... Lucas Star. Perdonadme por todo. A partir de hoy jugaré de verdad con vosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-soccer-zatsugidan",
+    "title": "La final del kung-fu",
+    "before": [
+     {
+      "text": "Final de la fase asiática contra China. Pero justo antes del partido, Mister Yi desaparece por una \"urgencia médica\"..."
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jackie-tan",
+      "text": "La Tropa Acrobática del Fútbol iluminará el mundo. ¡Las estrellas de China somos nosotros!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jimmy-wongfu",
+      "text": "¿Japón sin entrenador? Qué lástima me dais. Prepárate, portero. ¡Águila implacable!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Sin entrenador también sabemos jugar! ¡Que vengan con todas sus supertácticas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/adriano-donati",
+      "text": "¡Por fin he jugado! ¡Y he marcado! ¡El arma secreta de Japón ha sido revelada!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jimmy-wongfu",
+      "text": "Habéis superado incluso la Gran Muralla China. Os felicito de corazón. Ganad el mundial... por nosotros también."
+     },
+     {
+      "text": "¡Inazuma Japón es campeón de Asia y viaja a Rusia para la fase mundial!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-muteki-no-giant",
+    "title": "Revancha ante la Armada",
+    "before": [
+     {
+      "text": "Fase de grupos en Rusia. El primer rival es España: los Gigantes Invencibles, que ya humillaron a Mark en un amistoso."
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "No subestiméis a Japón. Jugaremos con toda nuestra fuerza, como merecen."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "Desde aquella derrota no he dejado de entrenar. ¡Hoy veremos si me he hecho más fuerte!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/shawn-froste",
+      "text": "Su fuerza física es tremenda... Pero el hielo también sabe empujar."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star-ok-hikaru",
+      "text": "Lo encontré: su fuerza es también su debilidad. No saben esquivar a quien se mueve como Sonny."
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Hacía mucho que no sonreía en un partido... Buen partido, Japón. Nos habéis analizado mejor que nosotros a vosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-navy-invader",
+    "title": "Operación Z",
+    "before": [
+     {
+      "text": "Navy Invader, el equipo militar de Orión, ha destrozado a Star Unicorn para quitarle su plaza como representante de EE. UU."
+     },
+     {
+      "who": "orion-navy-invader/ren-gad",
+      "text": "¡Soldados! Ejecutad la Operación Z. Que no quede ni un japonés en pie."
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "...Órdenes recibidas, señor."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "Hoy mi padre ha venido a verme jugar por primera vez. ¡Y vamos a vengar a Star Unicorn!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/byron-love",
+      "text": "Sus minas no eran más que pequeños tornados. Una vez descubiertos... ¡Omnisabiduría divina!"
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "Ellos juegan... sonriendo. ¿Cuándo dejamos nosotros de hacerlo?"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-perfect-spark",
+    "title": "El hermano del presidente",
+    "before": [
+     {
+      "text": "Último partido de grupo: Rusia. Las Chispas Perfectas, dirigidas en la sombra por Ivan Allegrov, presidente de Orión."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Hermano, te lo pido: déjame vencer a Japón jugando libremente."
+     },
+     {
+      "name": "Ivan Allegrov",
+      "text": "Claro, Alex... (Pero Rusia ganará, cueste lo que cueste.)"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star-ok-hikaru",
+      "text": "Alex era mi mejor amigo en el centro de Orión. Hoy por fin jugaremos en serio."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Esto no es fútbol. Si mi hermano quiere trampas, que no cuente conmigo. Me voy."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "Ese jugador nuevo... ¿usaba mi Ave goleadora? ¿Quién es en realidad?"
+     },
+     {
+      "text": "El partido termina envuelto en juego sucio, pero Japón logra pasar a la fase eliminatoria."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-ol-de-samba",
+    "title": "La samba de la luz",
+    "before": [
+     {
+      "text": "Cuartos de final contra Brasil, la gran favorita. Todos los jugadores de Olé de Samba son Discípulos de Orión."
+     },
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡Vamos lá! Nadie nos ha marcado en todo el torneo. ¡Bailad al ritmo de nuestra Samba letal!"
+     },
+     {
+      "who": "orion-ol-de-samba/rio",
+      "text": "(Las órdenes de Orión... No quiero jugar así, pero no tengo elección.)"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/heath-moore",
+      "text": "Cuidado, Sonny. Que no te engañe su alegría: Orión los obliga a jugar sucio."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "Japón nos ha recordado por qué amábamos el fútbol. ¡Se acabó el juego sucio! ¡Olé!"
+     },
+     {
+      "name": "Ivan Allegrov",
+      "text": "Juego limpio... Qué hermoso es. Debí dejar que todos jugaran así desde el principio."
+     },
+     {
+      "text": "Pero entonces aparece Yekaterina Stronov, la verdadera mente maestra de Orión, furiosa por la victoria japonesa."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-guardians-of-queen",
+    "title": "Los guardianes de la bruja",
+    "before": [
+     {
+      "name": "Mister Yi",
+      "text": "Italia obedece a Yekaterina, la \"Reina\". Ella me expulsó del fútbol hace diez años. Para vencerla, perfeccionad el Último recurso."
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Somos fieles a nuestra reina. Estas cintas multiplican nuestra fuerza... aunque nos cuesten caro."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "¡Esas cintas os están haciendo daño! ¡Quitáoslas!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/axel-blaze",
+      "text": "Siento haberos hecho esperar. A partir de aquí, respondo yo en el campo."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/axel-blaze",
+      "text": "Este gol es mi respuesta a todos los que me esperaban. ¡Tornado de fuego!"
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Gracias, Japón. Nos habéis liberado... Ya no seremos guardianes de nadie."
+     },
+     {
+      "text": "¡Inazuma Japón se clasifica para la gran final del Fútbol Frontier Internacional!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-perfect-spark",
+    "title": "La final del mundo",
+    "before": [
+     {
+      "text": "La final: revancha contra unas Chispas Perfectas renovadas, con Alex de vuelta como capitán."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Esta vez jugaremos sin trampas, Lucas. Solo fútbol. ¡Que gane el mejor!"
+     },
+     {
+      "who": "orion-perfect-spark/yuri",
+      "text": "Esa música clásica en el estadio... me nubla la mente..."
+     },
+     {
+      "name": "Yekaterina Stronov",
+      "text": "Bailad para mí, Chispas Perfectas. Aplastad a Japón."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡DESPERTAD! ¡El fútbol que de verdad queréis jugar está aquí, delante de vosotros!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Lo hemos conseguido! ¡Inazuma Japón es campeón del mundo!"
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Ha sido el mejor partido de mi vida. Gracias, Japón."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star-ok-hikaru",
+      "text": "Phil... ¿lo has visto? Lo hemos logrado, hermano."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-shadow-of-orion",
+    "title": "El Equipo de Mister Yi",
+    "before": [
+     {
+      "text": "Yekaterina cierra el estadio bajo una cúpula y revela su plan del \"Mundo Perfecto\". Su equipo personal entra en escena."
+     },
+     {
+      "name": "Yekaterina Stronov",
+      "text": "Contemplad el Eclipse de Orión. Ellos traerán la paz perfecta a este mundo imperfecto."
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Vuestro fútbol lleno de emociones es débil. No necesito sentir nada para venceros. Sombra de Orión."
+     },
+     {
+      "name": "Ray Dark",
+      "text": "Inazuma Japón... Veamos si vuestro fútbol puede superar al mío una vez más."
+     },
+     {
+      "name": "Mister Yi",
+      "text": "Jugadores de todo el mundo, uníos. ¡El Equipo de Mister Yi sale al campo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "¡Lo hemos hecho todos juntos! ¡Amanecer detonante!"
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Jugáis... como si os conocierais de siempre. ¿Esto es el fútbol de verdad?"
+     },
+     {
+      "text": "El techo del estadio se derrumba, pero los jugadores del Eclipse de Orión ayudan a proteger al público."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Yekaterina es detenida y la Fundación Orión empieza una nueva etapa, dedicada de verdad a ayudar a los niños a través del fútbol."
+   },
+   {
+    "who": "orion-inazuma-japan-orion/sonny-wright",
+    "text": "Papá, mamá... He jugado al fútbol con el mundo entero. ¡Y ha sido increíble!"
+   },
+   {
+    "who": "orion-inazuma-japan-orion/heath-moore",
+    "text": "Hemos demostrado que el fútbol no se puede controlar. Pertenece a quienes lo aman."
+   },
+   {
+    "who": "orion-inazuma-japan-orion/mark-evans",
+    "text": "¡Juguemos otra vez! ¡Todos juntos, con todo el mundo!"
+   },
+   {
+    "name": "Mister Yi",
+    "text": "Jo, jo, jo. Os lo dije: sabía lo que hacía. Casi siempre."
+   }
+  ]
+ },
+ "orion-red-bison": {
+  "title": "La estampida roja",
+  "summary": "Tras su derrota ante Japón, Seok Tel-bull quiere limpiar el nombre del Bisonte Rojo: una gira para demostrar que la fuerza bruta también puede ser noble.",
+  "intro": [
+   {
+    "text": "Corea del Sur cayó ante Inazuma Japón en la primera ronda del Fútbol Frontier Internacional. Y lo peor no fue perder."
+   },
+   {
+    "who": "orion-red-bison/seok-tel-bull",
+    "text": "Esa entrada contra Axel Blaze nos ha manchado a todos. El Bisonte Rojo no es un equipo de tramposos."
+   },
+   {
+    "who": "orion-red-bison/baek-bull-wo",
+    "text": "Yo solo hice lo necesario para ganar, capitán."
+   },
+   {
+    "who": "orion-red-bison/seok-tel-bull",
+    "text": "Entonces aprenderemos a ganar de otra forma. Haremos una gira. Fuerza, sí. Trampas, nunca más."
+   },
+   {
+    "who": "orion-red-bison/an-min-su",
+    "text": "A mí solo me importa ganar, Seok. Si crees que se puede sin trampas... demuéstramelo con resultados."
+   },
+   {
+    "who": "orion-red-bison/lee-san-bull",
+    "text": "Sin mis espejitos en las botas... Bah, ¡pues a embestir! ¡Que el mundo conozca el auténtico Cuerno de Bisonte!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-fire-dragon-go",
+    "title": "Herederos del dragón",
+    "before": [
+     {
+      "text": "Primera parada: un amistoso contra los jóvenes Dragones de Fuego, la futura generación del fútbol coreano."
+     },
+     {
+      "who": "gx-fire-dragon-go/do-hyeon-nam",
+      "text": "Siempre os hemos admirado. ¡Enseñadnos cómo juega un bisonte de verdad!"
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Mirad bien, chicos. Esta vez vamos a darles un buen ejemplo."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-red-bison/baek-bull-wo",
+      "text": "Hemos ganado sin una sola falta. Qué raro se siente..."
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Raro, pero bien, ¿a que sí? Acostúmbrate, Baek."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-eternal-dancers",
+    "title": "Fuerza contra aguante",
+    "before": [
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Vuestra fuerza es temible, pero nuestras piernas nunca se cansan. ¡A ver quién aguanta más!"
+     },
+     {
+      "who": "orion-red-bison/han-bull-dang",
+      "text": "¡Ja! Una buena Embestida y se os acabará el baile."
+     },
+     {
+      "who": "orion-red-bison/an-min-su",
+      "text": "No corráis como locos. Pensad cada carga, o nos agotaremos antes que ellos."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Habéis dosificado vuestra fuerza... Sois más listos de lo que parecéis."
+     },
+     {
+      "who": "orion-red-bison/lee-san-bull",
+      "text": "¿Eso es un cumplido? ¡Me lo quedo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-red-matador",
+    "title": "El toro y el torero",
+    "before": [
+     {
+      "text": "En España les espera un rival con mucha historia: Los Rojos, expertos en esquivar cualquier embestida."
+     },
+     {
+      "who": "ie3-red-matador/isaac-c-sar",
+      "text": "¿Un equipo de bisontes? ¡Olé! Aquí sabemos torear a los más bravos."
+     },
+     {
+      "who": "orion-red-bison/baek-bull-wo",
+      "text": "Grr... Si me esquivan otra vez, juro que..."
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Baek. Ni se te ocurra. Si no puedes atropellarlos, supéralos con la cabeza."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-red-bison/baek-bull-wo",
+      "text": "He hecho un regate en vez de una entrada... ¡y ha funcionado!"
+     },
+     {
+      "who": "ie3-red-matador/isaac-c-sar",
+      "text": "Un toro que piensa... Eso sí que no lo habíamos visto nunca."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-muteki-no-giant",
+    "title": "Choque de gigantes",
+    "before": [
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Dicen que el Bisonte Rojo es el equipo más físico de Asia. Nosotros lo somos de Europa."
+     },
+     {
+      "who": "orion-red-bison/shin-bull-kot",
+      "text": "Pues que choquen los cuernos. ¡Piroquinesis a toda potencia!"
+     },
+     {
+      "who": "orion-red-bison/park",
+      "text": "Tranquilos, con esta cara ningún delantero se atreve a chutar... Y si se atreve, ahí está mi Muro de fuego. Creo."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Fuertes, rápidos y limpios. Me alegro de haberme equivocado con vosotros."
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Poco a poco, el mundo nos está viendo de otra manera."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-fire-dragon",
+    "title": "La leyenda coreana",
+    "before": [
+     {
+      "text": "De vuelta en casa, los legendarios Dragones de Fuego retan al Bisonte Rojo para ver si merece su escudo."
+     },
+     {
+      "who": "ie3-fire-dragon/byron-love",
+      "text": "Hace tiempo jugué con este equipo. Corea siempre ha tenido orgullo. ¿Lo tenéis vosotros?"
+     },
+     {
+      "who": "ie3-fire-dragon/claude-beacons",
+      "text": "¡Ja! Aquí el único fuego que cuenta es el mío. ¡A ver cuánto aguantan vuestros cuernos!"
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Llevamos el rojo en la sangre. ¡No vamos a retroceder!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-fire-dragon/jeongsu-cho",
+      "text": "Ese último Cuerno de Bisonte... ha sido digno de Corea."
+     },
+     {
+      "who": "orion-red-bison/an-min-su",
+      "text": "Sin una sola trampa... y seguimos ganando. Está bien, Seok, lo admito. Queda un rival: el que nos enseñó todo esto."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-inazuma-japan-orion",
+    "title": "La revancha honesta",
+    "before": [
+     {
+      "text": "Seok pide un último partido a Inazuma Japón. Esta vez, Axel Blaze está en el campo."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/axel-blaze",
+      "text": "Me dijeron que queríais jugar limpio. Entonces no me guardaré nada."
+     },
+     {
+      "who": "orion-red-bison/baek-bull-wo",
+      "text": "Axel... Lo de aquel partido... Lo siento. Hoy te lo demostraré con fútbol."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Así me gusta! ¡Venga, bisontes, embestid con todo lo que tengáis!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/axel-blaze",
+      "text": "Una carga brutal y sin una sola trampa. Así sí da gusto jugar contra vosotros."
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Hoy por fin jugamos como un equipo del que puedo estar orgulloso."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Bisonte Rojo vuelve a Corea con la cabeza bien alta y un nuevo lema: fuerza sin trampas."
+   },
+   {
+    "who": "orion-red-bison/baek-bull-wo",
+    "text": "Capitán... Gracias por no rendirte conmigo."
+   },
+   {
+    "who": "orion-red-bison/seok-tel-bull",
+    "text": "Un bisonte nunca abandona a su manada."
+   },
+   {
+    "who": "orion-red-bison/lee-san-bull",
+    "text": "¡Y la próxima vez, el Fútbol Frontier Internacional es nuestro!"
+   }
+  ]
+ },
+ "orion-shining-satans": {
+  "title": "El sol del inframundo",
+  "summary": "Los Demonios Brillantes de Australia viajan a las tinieblas del fútbol para descubrir si su hipnosis puede vencer a maldiciones, vampiros y demonios auténticos.",
+  "intro": [
+   {
+    "text": "Australia, la tierra de las antípodas. Allí los Demonios Brillantes perfeccionaron una hipnosis capaz de hacer invisible el balón."
+   },
+   {
+    "who": "orion-shining-satans/beryl",
+    "text": "Japón rompió nuestro truco cerrando los ojos. ¡Qué humillación para el Sol de Satán! ...Jejeje. Aunque fue divertido."
+   },
+   {
+    "who": "orion-shining-satans/grant-grimoire",
+    "text": "Una ilusión sin fútbol detrás no vale nada, Beryl. Viajaremos a lo más oscuro del fútbol y saldremos más fuertes."
+   },
+   {
+    "who": "orion-shining-satans/serge",
+    "text": "Si el señor Beryl lo desea, le seguiré hasta lo más oscuro. Sin dudarlo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Mente contra mente",
+    "before": [
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Nosotros controlamos la mente con ciencia. Vuestra hipnosis de feria no nos afectará."
+     },
+     {
+      "who": "orion-shining-satans/ian-qubus",
+      "text": "Ya veremos. Mirad mis manos... más de cerca..."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/francis-tell",
+      "text": "¿Dónde está el balón? ¡Mis datos no lo encuentran!"
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "Un buen comienzo. Pero esto ha sido demasiado fácil."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "Maldición contra ilusión",
+    "before": [
+     {
+      "text": "En un instituto lleno de leyendas, el Instituto Occult les espera con sus maldiciones."
+     },
+     {
+      "who": "ie1-occult/phil-noir",
+      "text": "Vuestros trucos de manos no son nada frente a una auténtica maldición. ¡Muajaja!"
+     },
+     {
+      "who": "orion-shining-satans/dante-dusias",
+      "text": "Una maldición también es una ilusión... Solo hay que saber mirarla."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Nos habéis hipnotizado... ¿o nos hemos maldecido a nosotros mismos?"
+     },
+     {
+      "who": "orion-shining-satans/aster-roth",
+      "text": "Ni lo uno ni lo otro: ¡habéis perdido!"
+     }
+    ]
+   },
+   {
+    "opponent": "go-demon-s-horn",
+    "title": "Cuernos del infierno",
+    "before": [
+     {
+      "who": "go-demon-s-horn/damien-blackloch",
+      "text": "¿Os hacéis llamar demonios? Nosotros llevamos los cuernos de verdad."
+     },
+     {
+      "who": "orion-shining-satans/beel-zebub",
+      "text": "Oigo voces que vienen del inframundo... Dicen que hoy perdéis vosotros."
+     },
+     {
+      "who": "orion-shining-satans/grant-grimoire",
+      "text": "Hoy nada de hipnosis en la primera parte. Quiero ver vuestro fútbol desnudo."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-shining-satans/aster-roth",
+      "text": "¡Ganamos sin trucos durante media parte! ¡Así llegaremos a lo más alto del mundo!"
+     },
+     {
+      "who": "orion-shining-satans/grant-grimoire",
+      "text": "La ilusión funciona mejor cuando el rival ya teme vuestro fútbol."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-big-waves",
+    "title": "El orgullo de Australia",
+    "before": [
+     {
+      "text": "De vuelta en casa, los legendarios Big Waves quieren saber si los Demonios Brillantes merecen representar a Australia."
+     },
+     {
+      "who": "ie3-big-waves/hank-tennyson",
+      "text": "Nosotros surfeamos olas gigantes. Vuestra hipnosis no nos tirará de la tabla."
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "Respeto a los Big Waves. Por eso no me contendré. ¡Trance temporal!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-big-waves/gene-whalon",
+      "text": "El balón desapareció justo en la orilla... Australia está en buenas manos."
+     },
+     {
+      "who": "orion-shining-satans/pazuza-ross",
+      "text": "Y con mi Guillotina solar detrás, nadie nos marcará."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-vamptym",
+    "title": "El sol contra la noche",
+    "before": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Los demonios del sol... Qué apetecibles. La noche es nuestra, criaturas brillantes."
+     },
+     {
+      "who": "orion-shining-satans/lu-jiver",
+      "text": "Lu Jiver detecta vampiros. Lu Jiver aplicará luz solar. Lu Jiver no fallará."
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "No os confiéis. Ellos tampoco son lo que parecen."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Esa luz... ¡Me ciega! ¡Retirada, a la sombra!"
+     },
+     {
+      "who": "orion-shining-satans/grant-grimoire",
+      "text": "Ya estamos cerca. Queda el último señor de las tinieblas."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-makai-gundan-z",
+    "title": "El reino de los demonios",
+    "before": [
+     {
+      "text": "En lo más profundo, el Dark Team, el auténtico ejército demoníaco, reta a los Demonios Brillantes."
+     },
+     {
+      "who": "ie3-makai-gundan-z/thanatos",
+      "text": "¿Unos chicos que juegan a ser demonios? Os enseñaremos qué es el infierno de verdad."
+     },
+     {
+      "who": "ie3-makai-gundan-z/astaroth",
+      "text": "Vuestra hipnosis no funciona con quien no tiene alma que engañar."
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "Entonces solo nos queda una cosa: ¡el fútbol que hemos forjado en este viaje!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "¡Caída a los infiernos! ...Y esta vez han caído ellos."
+     },
+     {
+      "who": "ie3-makai-gundan-z/astaroth",
+      "text": "¡¿Cómo?! ¡Ha atravesado mi defensa! ...El sol ha llegado hasta el inframundo. Increíble."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Demonios Brillantes regresan a Australia más fuertes que nunca."
+   },
+   {
+    "who": "orion-shining-satans/grant-grimoire",
+    "text": "La hipnosis es un arma, pero vuestro fútbol es lo que de verdad brilla."
+   },
+   {
+    "who": "orion-shining-satans/beryl",
+    "text": "La próxima vez, Japón no podrá vencernos ni con los ojos cerrados."
+   },
+   {
+    "who": "orion-shining-satans/serge",
+    "text": "Tal como predijo el señor Beryl. El Sol de Satán vuelve a brillar."
+   }
+  ]
+ },
+ "orion-eternal-dancers": {
+  "title": "El baile que nunca termina",
+  "summary": "Los Bailarines Eternos de Uzbekistán descubrieron que su aguante no basta. Recorren el mundo para unir resistencia y táctica en un baile perfecto.",
+  "intro": [
+   {
+    "text": "Uzbekistán. Los Bailarines Eternos son famosos por su resistencia física casi infinita."
+   },
+   {
+    "who": "orion-eternal-dancers/samba-sokolov",
+    "text": "Contra Japón, nos agotamos como cualquier otro equipo. Su táctica nos superó."
+   },
+   {
+    "who": "orion-eternal-dancers/ballet-burkhanov",
+    "text": "¡Tranquilos, tranquilos! ...Yo el primero. El aguante es nuestro ritmo, pero nos falta coreografía. Aprenderemos a pensar mientras bailamos."
+   },
+   {
+    "who": "orion-eternal-dancers/polkan-ismailov",
+    "text": "¡Y las Tres Estrellas de la Furia estaremos listas para arrasar!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "El ritmo de la selva",
+    "before": [
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "¡Uh, uh! ¿Mucho aguante? ¡En la selva corremos todo el día!"
+     },
+     {
+      "who": "orion-eternal-dancers/tango",
+      "text": "Pues corramos juntos. Pero nosotros, con un plan."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/leonard-o-shea",
+      "text": "Nos han cansado a nosotros... ¡a los reyes de la selva!"
+     },
+     {
+      "who": "orion-eternal-dancers/ballet-burkhanov",
+      "text": "Bien. Habéis guardado energía para el final. Esa es la clave."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-red-bison",
+    "title": "La embestida",
+    "before": [
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Nuestras embestidas desgastan a cualquiera. ¿Cuánto aguantaréis?"
+     },
+     {
+      "who": "orion-eternal-dancers/jazzar-belikov",
+      "text": "¡Más que vosotros! Las Tres Estrellas de la Furia no se cansan nunca."
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "No caigáis en su juego. Dejad que choquen contra el aire."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-eternal-dancers/limbo-zakharov",
+      "text": "Ellos se han agotado embistiendo, ¡y nosotros seguimos frescos!"
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Bailáis alrededor de nuestros cuernos... Impresionante."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-arab-no-hi-no-tori-gundan",
+    "title": "Danza bajo el cielo",
+    "before": [
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Nosotros jugamos por el aire. ¿Sabéis bailar volando?"
+     },
+     {
+      "who": "orion-eternal-dancers/cancan-popov",
+      "text": "¡Patín aéreo! Claro que sabemos."
+     },
+     {
+      "who": "orion-eternal-dancers/ballet-burkhanov",
+      "text": "¡C-cubrid los rebotes! ¡Ay, que no se me olvide nada! El que llegue primero a cada balón ganará el partido."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Hemos ganado cada segunda jugada. El aguante, bien usado, es un arma."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/condor",
+      "text": "Nos habéis quitado el cielo a fuerza de correr..."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-perfect-spark",
+    "title": "Música para bailar",
+    "before": [
+     {
+      "text": "En Rusia, las Chispas Perfectas, un equipo con nombres de música, aceptan el reto."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Todos nuestros jugadores pueden ocupar cualquier posición. Vuestra coreografía tendrá que improvisar."
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Un buen bailarín sabe adaptarse a cualquier canción."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-perfect-spark/yuri",
+      "text": "Habéis cambiado de ritmo en mitad del partido. Eso no lo esperábamos."
+     },
+     {
+      "who": "orion-eternal-dancers/tango",
+      "text": "Lo hemos ensayado mil veces. ¡Polvo de réquiem para el final!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-desert-lion",
+    "title": "El duelo del desierto",
+    "before": [
+     {
+      "text": "En Oriente Medio les esperan los Leones del Desierto, maestros del aguante bajo un sol abrasador."
+     },
+     {
+      "who": "ie3-desert-lion/zack-abdulla",
+      "text": "Nadie aguanta más que un león del desierto. Ni siquiera un bailarín eterno."
+     },
+     {
+      "who": "orion-eternal-dancers/tango",
+      "text": "Entonces este será el baile más largo de nuestras vidas."
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "¡Compañeros, que la música no pare hasta el pitido final!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/nasir-mustafa",
+      "text": "Ellos seguían bailando... cuando nosotros ya no podíamos más."
+     },
+     {
+      "who": "orion-eternal-dancers/ballet-burkhanov",
+      "text": "Ya estáis listos. Es hora de volver a por el equipo que nos venció."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-inazuma-japan-orion",
+    "title": "El rival que nos enseñó",
+    "before": [
+     {
+      "text": "Por fin, la revancha contra Inazuma Japón, el equipo que les ganó con táctica."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/heath-moore",
+      "text": "Así que habéis aprendido a organizaros. Me encantará comprobarlo."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Esta vez estoy en la portería! ¡Venga, bailarines, a ver ese ritmo!"
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Heath Moore, tu táctica nos desmontó. Hoy te enseñaremos nuestra nueva danza."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/heath-moore",
+      "text": "Aguante y estrategia juntos... Habéis tapado vuestra debilidad. Bravo."
+     },
+     {
+      "who": "orion-eternal-dancers/polkan-ismailov",
+      "text": "¡Y las Tres Estrellas de la Furia aún tienen cuerda para otro partido!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Bailarines Eternos vuelven a Uzbekistán con un estilo nuevo: aguante infinito y una coreografía perfecta."
+   },
+   {
+    "who": "orion-eternal-dancers/ballet-burkhanov",
+    "text": "Ahora sí sois dignos de vuestro nombre."
+   },
+   {
+    "who": "orion-eternal-dancers/samba-sokolov",
+    "text": "Nuestro baile no termina aquí. ¡Nos vemos en el próximo mundial!"
+   }
+  ]
+ },
+ "orion-arab-no-hi-no-tori-gundan": {
+  "title": "El vuelo del fénix",
+  "summary": "El Ejército del Fénix Árabe, rey del juego aéreo, emprende un vuelo desde el desierto hasta el cielo para enfrentarse a ángeles y llamas legendarias.",
+  "intro": [
+   {
+    "text": "Arabia Saudí. El Ejército del Fénix Árabe domina el juego aéreo con pases altos y cabezazos imparables."
+   },
+   {
+    "who": "orion-arab-no-hi-no-tori-gundan/anqa-qushchi",
+    "text": "Japón nos dejó sin marcar ni un gol. Pero el fénix siempre renace de sus cenizas."
+   },
+   {
+    "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+    "text": "Volaremos más alto que nunca. Hasta el mismísimo cielo, si hace falta."
+   },
+   {
+    "who": "orion-arab-no-hi-no-tori-gundan/perry-al-surah",
+    "text": "¡Y mi Pájaro ardiente iluminará todo el camino!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-shamshir",
+    "title": "Arena y acero",
+    "before": [
+     {
+      "who": "gx-shamshir/sultan",
+      "text": "Nuestras cimitarras cortan cualquier balón que vuele por el desierto."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/condor",
+      "text": "Entonces volaremos más alto que vuestras espadas."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Nuestro juego aéreo ha brillado. ¡El primer vuelo, superado!"
+     },
+     {
+      "who": "gx-shamshir/sultan",
+      "text": "Ni siquiera llegábamos a rozar el balón..."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-eternal-dancers",
+    "title": "Piernas de hierro",
+    "before": [
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Podéis volar todo lo que queráis. Nosotros estaremos esperando cada balón al caer."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/anqa-qushchi",
+      "text": "Pues no dejéis que caiga. ¡Pases de cabeza sin parar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/hawke-al-bazzar",
+      "text": "¡Diez cabezazos seguidos sin tocar el suelo! ¡Récord!"
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Ni con aguante infinito se puede alcanzar a un pájaro."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-shining-satans",
+    "title": "El sol cegador",
+    "before": [
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "Volar hacia el sol tiene su peligro. Mirad nuestras manos... y perded el balón de vista."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/griffon-al-qahir",
+      "text": "¿Hipnosis? ¡Mi Luz cegadora también sabe deslumbrar!"
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Si no veis el balón, escuchad a vuestros compañeros. ¡Volad juntos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "Se pasaban el balón a ciegas... y no fallaban."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/anqa-qushchi",
+      "text": "Un ejército confía en sus alas. Seguimos subiendo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-desert-lion",
+    "title": "Leones y aves",
+    "before": [
+     {
+      "text": "En las dunas de Oriente Medio les esperan los Leones del Desierto, sus vecinos y eternos rivales."
+     },
+     {
+      "who": "ie3-desert-lion/zack-abdulla",
+      "text": "En el desierto mandan los leones. Los pájaros solo pasan de largo."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/condor",
+      "text": "Pues hoy este cóndor va a cazar. ¡Ataque cóndor!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/talal-hamad",
+      "text": "El cielo del desierto ya tiene dueño..."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "La arena queda atrás. Ahora toca subir de verdad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-tenkuu-no-shito",
+    "title": "Las puertas del cielo",
+    "before": [
+     {
+      "text": "Más allá de las nubes, el Sky Team, un equipo de ángeles, custodia el cielo."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Simples mortales con plumas. El cielo no es lugar para vosotros."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/perry-al-surah",
+      "text": "¡El fénix es un ave del cielo! ¡Pájaro ardiente!"
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Que nadie dude. ¡Vamos a ganarnos un sitio entre las nubes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-tenkuu-no-shito/anorel",
+      "text": "Esas alas de fuego... han atravesado las puertas del cielo."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/anqa-qushchi",
+      "text": "Solo queda un rival: la llama más ardiente de todas."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-prominence",
+    "title": "El duelo de las llamas",
+    "before": [
+     {
+      "text": "El último reto: Prominence, el equipo de fuego cuya Llamarada atómica es legendaria."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¿Un fénix? ¡Ja! Ningún pájaro arde más que Prominence. ¡Os reduciremos a cenizas!"
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/perry-al-surah",
+      "text": "Yo también sé usar la Llamarada atómica. ¡Hoy arderá el campo entero!"
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/anqa-qushchi",
+      "text": "¡Arded con más fuerza que nunca, chicos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/grant-cook",
+      "text": "Nuestro fuego... ha sido devorado por un fénix."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Renacimos de las cenizas. Y ahora volamos más alto que nadie."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Ejército del Fénix Árabe regresa a casa tras un viaje que lo llevó del desierto al cielo."
+   },
+   {
+    "who": "orion-arab-no-hi-no-tori-gundan/anqa-qushchi",
+    "text": "Estoy orgullosa de vosotros. El fénix ha renacido más fuerte."
+   },
+   {
+    "who": "orion-arab-no-hi-no-tori-gundan/condor",
+    "text": "Japón, la próxima vez os marcaremos. ¡Lo juro por mis alas!"
+   },
+   {
+    "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+    "text": "¡Ejército del Fénix, levantad el vuelo!"
+   }
+  ]
+ },
+ "orion-soccer-zatsugidan": {
+  "title": "El circo del kung-fu",
+  "summary": "La Tropa Acrobática del Fútbol, nacida de chicos de la calle y de Shanghái, recorre Asia con su fútbol de acrobacias y kung-fu hasta retar a su antiguo maestro.",
+  "intro": [
+   {
+    "text": "China. La Tropa Acrobática del Fútbol une a dos grupos muy distintos: los chicos de la calle y los Gatos Estrella de Shanghái."
+   },
+   {
+    "who": "orion-soccer-zatsugidan/jackie-tan",
+    "text": "Perdimos la final de Asia contra Japón. Pero las estrellas de China aún no han terminado de brillar."
+   },
+   {
+    "who": "orion-soccer-zatsugidan/lucy-wongfu",
+    "text": "He organizado una gira. Si entrenáis con las mismas ganas con las que pedís postre, quizá hasta ganemos algo."
+   },
+   {
+    "who": "orion-soccer-zatsugidan/wilson-ip",
+    "text": "¡GOOONG! ¡Arriba esos ánimos! ¡El equilibrio lo es todo, en el kung-fu y en el fútbol! ¡Y yo tocaré el gong en cada supertécnica!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "Guerreros de terracota",
+    "before": [
+     {
+      "text": "En una antigua tumba, un ejército de guerreros de terracota cobra vida para defender su tierra."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "¿Quién se atreve a jugar ante el gran ejército del emperador?"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jimmy-wongfu",
+      "text": "¡Nosotros! ¡Y saltaremos por encima de todos vosotros!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "Ni la piedra puede seguir esas volteretas..."
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jackie-tan",
+      "text": "Buen calentamiento. ¡Seguimos!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-rojiura-backkicks",
+    "title": "Volver al callejón",
+    "before": [
+     {
+      "who": "vr-rojiura-backkicks/cobb-hightail",
+      "text": "Dicen que algunos de vosotros salisteis de los callejones. Veamos si aún sabéis jugar en la calle."
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jet-long",
+      "text": "¡Claro que sí! ¡En la calle aprendimos nuestro Tiro pirueta!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/cindy-fong",
+      "text": "Cuidado con los charcos, que no quiero mancharme el uniforme... Pero no olvidéis de dónde venimos. ¡Todos juntos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-rojiura-backkicks/cobb-hightail",
+      "text": "Fútbol de calle con alma de circo. Así da gusto perder."
+     },
+     {
+      "who": "orion-soccer-zatsugidan/lucy-wongfu",
+      "text": "Los dos grupos jugando como uno solo... No está mal. Para variar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Acróbatas contra ninjas",
+    "before": [
+     {
+      "who": "ie1-sengoku-igajima/galen-thunderbird",
+      "text": "Las técnicas ninja son las más ágiles del mundo. ¡No podréis seguirnos!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/david-liang",
+      "text": "¿Ágiles? ¡Mirad esta Voltereta circense!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jackie-tan",
+      "text": "Rápidos como el viento, firmes como una montaña. ¡Vamos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-sengoku-igajima/morgan-sanders",
+      "text": "Han desaparecido delante de mis ojos... ¡Son mejores ninjas que nosotros!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/stephen-chang",
+      "text": "¡Un Cabezazo kung-fu de los buenos para terminar!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "El rugido del tigre",
+    "before": [
+     {
+      "text": "En Tailandia, los Muay Tigers desafían a la Tropa a un duelo de artes marciales sobre el césped."
+     },
+     {
+      "who": "gx-mach-tiger/thanakorn-jaa",
+      "text": "El muay thai contra el kung-fu. ¡Que gane el estilo más fuerte!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jimmy-wongfu",
+      "text": "Hoy no somos acróbatas. ¡Somos maestros!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-mach-tiger/udom",
+      "text": "Ese Colapso del Cielo y la Tierra... ha sido imparable."
+     },
+     {
+      "who": "orion-soccer-zatsugidan/wilson-ip",
+      "text": "¡GONG, GONG! ¡Estáis listos! ¡Ha llegado el momento de enfrentaros a él!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-inazuma-japan-orion",
+    "title": "El alumno supera al maestro",
+    "before": [
+     {
+      "text": "El último rival es Inazuma Japón, entrenado por Mister Yi, el \"Oyabun\" que una vez los entrenó a todos."
+     },
+     {
+      "name": "Mister Yi",
+      "text": "Jo, jo, jo. Mis queridos discípulos. ¿Habéis venido a darle una lección a vuestro viejo maestro?"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jackie-tan",
+      "text": "Oyabun, esta vez no habrá emergencias médicas. ¡Queremos ganarte cara a cara!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Me encanta! ¡Sacad la Gran Muralla China y todas vuestras supertácticas!"
+     },
+     {
+      "who": "orion-soccer-zatsugidan/bruce-lau",
+      "text": "Mis Abanicos del Dragón no dejarán pasar ni un solo balón."
+     }
+    ],
+    "after": [
+     {
+      "name": "Mister Yi",
+      "text": "Jo, jo... Me habéis superado. No podría estar más orgulloso."
+     },
+     {
+      "who": "orion-soccer-zatsugidan/jimmy-wongfu",
+      "text": "¡Lo hemos hecho! ¡Las estrellas de China brillan por fin!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Tropa Acrobática del Fútbol vuelve a China entre aplausos, convertida en el espectáculo más querido de Asia."
+   },
+   {
+    "who": "orion-soccer-zatsugidan/lucy-wongfu",
+    "text": "Los chicos de la calle y los de Shanghái... Ya nadie podrá separarnos."
+   },
+   {
+    "who": "orion-soccer-zatsugidan/jackie-tan",
+    "text": "Este circo no ha hecho más que empezar. ¡El mundo será nuestro escenario!"
+   }
+  ]
+ },
+ "orion-muteki-no-giant": {
+  "title": "La Armada Invencible",
+  "summary": "Los Gigantes Invencibles de España, favoritos que cayeron en la fase de grupos, zarpan para recuperar su fama de armada imbatible y medirse con los auténticos gigantes.",
+  "intro": [
+   {
+    "text": "España llegó al Fútbol Frontier Internacional como gran favorita. Pero los Gigantes Invencibles no pasaron de la fase de grupos."
+   },
+   {
+    "who": "orion-muteki-no-giant/sergi-hern-ndez",
+    "text": "Nos confiamos en nuestra fuerza física. Los rivales que sabían esquivarnos nos pusieron en evidencia."
+   },
+   {
+    "who": "orion-muteki-no-giant/pepe-ballester",
+    "text": "Un gigante que no se adapta acaba cayendo. Saldremos de gira y volveremos a ser invencibles."
+   },
+   {
+    "who": "orion-muteki-no-giant/leo-segarra",
+    "text": "¡Pues que se preparen! La Armada Invencible vuelve a zarpar."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-red-matador",
+    "title": "Duelo en casa",
+    "before": [
+     {
+      "text": "Antes de salir de España, Los Rojos, la anterior selección española, quieren ponerlos a prueba."
+     },
+     {
+      "who": "ie3-red-matador/isaac-c-sar",
+      "text": "¿Los nuevos invencibles? Veamos si sabéis algo más que empujar."
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Hoy no empujaremos. Hoy analizaremos cada movimiento."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-red-matador/ferm-n-s-nchez",
+      "text": "Han cambiado de plan tres veces en un partido... Así se juega."
+     },
+     {
+      "who": "orion-muteki-no-giant/pepe-ballester",
+      "text": "Bien. Fuerza y cabeza. Ese es el camino."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-perfect-spark",
+    "title": "La deuda rusa",
+    "before": [
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "En el torneo os ganamos jugando en cualquier posición. ¿Habéis encontrado la solución?"
+     },
+     {
+      "who": "orion-muteki-no-giant/joan-asensi",
+      "text": "Ya lo verás. ¡Torbellino gemelo!"
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Cerrad los espacios. Si cambian de puesto, cambiamos con ellos."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Os habéis adaptado a cada cambio. Ya no sois tan previsibles."
+     },
+     {
+      "who": "orion-muteki-no-giant/leo-segarra",
+      "text": "¡Deuda saldada, rusos!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-star-unicorn",
+    "title": "Los unicornios americanos",
+    "before": [
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "Jugamos contra vosotros en Rusia. Esta vez Star Unicorn no se va a dejar arrollar."
+     },
+     {
+      "who": "orion-star-unicorn/dylan-keats",
+      "text": "¡Oh, yeah! ¡Somos rápidos, man! ¡Demasiado rápidos para unos gigantes!"
+     },
+     {
+      "who": "orion-muteki-no-giant/salvador-castell",
+      "text": "Que corran lo que quieran. Mi Muralla gigante no se mueve."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "Habéis aprendido a cerrar los huecos que usábamos..."
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Los que nos esquivan ya no nos dan miedo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "Batalla de imperios",
+    "before": [
+     {
+      "text": "En Inglaterra, los Knights of Queen defienden su castillo con su legendaria disciplina."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "La Armada Invencible ya fue derrotada en el pasado. ¿Lo habéis olvidado?"
+     },
+     {
+      "who": "orion-muteki-no-giant/pepe-ballester",
+      "text": "La historia la escribimos hoy. ¡Búnker, todos atrás y luego al ataque!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Ni nuestra muralla ha resistido. Bien jugado, España."
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Ya solo queda un rival. El más grande de todos... aunque se llamen pequeños."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "Gigantes contra Pequeños Gigantes",
+    "before": [
+     {
+      "text": "El reto final: Los Pequeños Gigantes, el legendario equipo que conquistó el mundo con el gran Hector Helio en la portería."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Ser gigante no es cuestión de tamaño. Es cuestión de corazón."
+     },
+     {
+      "who": "ie3-little-gigant/drago-hill",
+      "text": "¿Invencibles? Nosotros sí que no hemos perdido nunca."
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Entonces hoy descubriremos quiénes son los gigantes de verdad. ¡Rayo de diamantes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Fuerza, análisis y corazón. Ahora sí sois una armada invencible."
+     },
+     {
+      "who": "orion-muteki-no-giant/pepe-ballester",
+      "text": "Chicos... estoy orgulloso de vosotros."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Gigantes Invencibles regresan a España convertidos en un equipo completo, fuerte y flexible a la vez."
+   },
+   {
+    "who": "orion-muteki-no-giant/sergi-hern-ndez",
+    "text": "La próxima vez que juguemos un mundial, nadie nos sacará del camino."
+   },
+   {
+    "who": "orion-muteki-no-giant/leo-segarra",
+    "text": "¡La Armada Invencible ha vuelto, y esta vez de verdad!"
+   }
+  ]
+ },
+ "orion-navy-invader": {
+  "title": "Rompiendo filas",
+  "summary": "Los soldados de Navy Invader, entrenados por Orión para obedecer, desertan del ejército y buscan recuperar el fútbol callejero que una vez les hizo felices.",
+  "intro": [
+   {
+    "text": "Navy Invader: chicos de familias humildes que solo soñaban con jugar al fútbol en la calle."
+   },
+   {
+    "text": "Bahart Descom los reclutó para Orión y los convirtió en soldados que solo saben obedecer órdenes."
+   },
+   {
+    "who": "orion-navy-invader/yoga",
+    "text": "Después de perder contra Japón, algo cambió. Ellos jugaban sonriendo. Nosotros ya no sabíamos cómo."
+   },
+   {
+    "who": "orion-navy-invader/hellion",
+    "text": "Capitán... ¿y si dejamos de obedecer? ¿Y si volvemos a jugar como antes?"
+   },
+   {
+    "who": "orion-navy-invader/ren-gad",
+    "text": "¡Soldados! ¿Quién os ha dado permiso para pensar? ¡Formad filas!"
+   },
+   {
+    "who": "orion-navy-invader/yoga",
+    "text": "Lo sentimos, señor. A partir de hoy, rompemos filas."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-gassan-kunimitsu",
+    "title": "Espejo militar",
+    "before": [
+     {
+      "text": "Su primer rival es un reflejo de lo que fueron: la Academia Militar Mar de Luna."
+     },
+     {
+      "who": "go-gassan-kunimitsu/alessandro-il-grande",
+      "text": "Disciplina, estrategia, obediencia. Así se gana una guerra... y un partido."
+     },
+     {
+      "who": "orion-navy-invader/cobra",
+      "text": "Ja. Ese camino lo conocemos de memoria. Y solo lleva a olvidar cómo se sonríe."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-navy-invader/moai",
+      "text": "Hemos ganado sin señales de mano. ¡Hablando entre nosotros, como compañeros!"
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "Sin órdenes también podemos jugar. Sigamos."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-rojiura-backkicks",
+    "title": "De vuelta a la calle",
+    "before": [
+     {
+      "text": "Llegan a un barrio donde se juega en los callejones, como hacían ellos de pequeños."
+     },
+     {
+      "who": "vr-rojiura-backkicks/cobb-hightail",
+      "text": "¿Unos soldados en nuestro callejón? Aquí no hay reglas, solo diversión."
+     },
+     {
+      "who": "orion-navy-invader/hunter",
+      "text": "Diversión... Hacía años que no oía esa palabra."
+     },
+     {
+      "who": "orion-navy-invader/switch",
+      "text": "¡Pues recordémosla! ¡Como cuando jugábamos con una pelota vieja!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-navy-invader/hellion",
+      "text": "Me he reído durante el partido. ¡Me he reído de verdad!"
+     },
+     {
+      "who": "vr-rojiura-backkicks/cobb-hightail",
+      "text": "Ahora sí parecéis futbolistas, no soldados."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-star-unicorn",
+    "title": "Una disculpa con balón",
+    "before": [
+     {
+      "text": "Navy Invader busca a Star Unicorn, el equipo al que lesionaron para robarle su plaza."
+     },
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "Después de lo que nos hicisteis, ¿os atrevéis a pedirnos un partido?"
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "No venimos a pedir perdón con palabras. Venimos a pedirlo jugando limpio."
+     },
+     {
+      "who": "orion-star-unicorn/erik-eagle",
+      "text": "Mark, dales una oportunidad. Como dicen en América: ¡a la tercera oportunidad va la vencida! ...¿O era la segunda?"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "Ni una sola falta... Disculpa aceptada, Navy Invader."
+     },
+     {
+      "who": "orion-navy-invader/bigman",
+      "text": "Gracias. Esto pesaba más que cualquier entrenamiento."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "Soldados del futuro",
+    "before": [
+     {
+      "text": "Desde el futuro aparece Protocolo Omega 3.0: un equipo que también vive para cumplir órdenes."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Desertores. Patético. Miradme bien: así es un soldado perfecto. Sin órdenes, no sois nada."
+     },
+     {
+      "who": "orion-navy-invader/ren-gad",
+      "text": "(Desde la grada) Ellos tienen razón. Volved conmigo y os perdonaré."
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "No, señor. Hoy jugamos por nosotros mismos."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/romeo",
+      "text": "Jugaban sin órdenes... y aun así estaban perfectamente coordinados."
+     },
+     {
+      "who": "orion-navy-invader/ren-gad",
+      "text": "Ese fútbol... Es el que vi en aquel callejón cuando os encontré."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-inazuma-japan-orion",
+    "title": "La revancha limpia",
+    "before": [
+     {
+      "text": "Por fin, Navy Invader pide una revancha a Inazuma Japón. Sin minas, sin trampas, sin Operación Z."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "¡Claro que jugamos! Esta vez quiero ver vuestro verdadero fútbol."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/byron-love",
+      "text": "Sin minas que descubrir, solo queda el fútbol. Bien. Os mostraré el vuelo de un dios."
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "Japón, gracias a vosotros recordamos por qué amábamos este deporte. ¡A por ellos, equipo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "¡Qué partidazo! ¡Así da gusto jugar contra vosotros!"
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "Hoy no hemos sido soldados. Hemos sido futbolistas."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Navy Invader deja atrás los uniformes de camuflaje y vuelve a jugar al fútbol en las calles, ahora enseñando a otros niños."
+   },
+   {
+    "who": "orion-navy-invader/ren-gad",
+    "text": "Os convertí en soldados. Perdonadme. Desde hoy seré solo vuestro entrenador... si me aceptáis."
+   },
+   {
+    "who": "orion-navy-invader/yoga",
+    "text": "Bienvenido al equipo, entrenador. Pero aquí ya no se dan órdenes: se juega."
+   }
+  ]
+ },
+ "orion-perfect-spark": {
+  "title": "La sinfonía perfecta",
+  "summary": "Libres por fin de las órdenes de Orión, Alex Allegrov y las Chispas Perfectas recorren el mundo para componer su propia música: un fútbol libre y honesto.",
+  "intro": [
+   {
+    "text": "Rusia. Las Chispas Perfectas pueden jugar en cualquier posición, pero durante el torneo tuvieron que obedecer a la Fundación Orión."
+   },
+   {
+    "who": "orion-perfect-spark/alexander-allegrov",
+    "text": "Mi hermano nos obligó a hacer trampas. Mi madre nos hipnotizó con su música. Nunca más."
+   },
+   {
+    "who": "orion-perfect-spark/yuri",
+    "text": "¿Sin las órdenes del señor Ivan? Yo... lo intentaré, capitán. Compongamos nuestra propia sinfonía."
+   },
+   {
+    "who": "orion-perfect-spark/dmitri",
+    "text": "...Iré donde vaya el capitán."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-perfect-cascade",
+    "title": "Perfección sin alma",
+    "before": [
+     {
+      "text": "Primer rival: Cascada Perfecta, un equipo frío y exacto venido del futuro."
+     },
+     {
+      "who": "cs-perfect-cascade/vee-wai",
+      "text": "Calculamos cada pase con perfección. Vuestras emociones son un error."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Una partitura perfecta sin sentimiento no es música. Os lo demostraremos."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-perfect-spark/marat-stakatov",
+      "text": "Su cálculo no esperaba nuestra improvisación. ¡Onda chispeante!"
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Así suena nuestra primera nota en libertad."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-eternal-dancers",
+    "title": "Ritmo y melodía",
+    "before": [
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "Vosotros tenéis la música; nosotros, el baile. ¿Hacemos un dúo?"
+     },
+     {
+      "who": "orion-perfect-spark/yuri",
+      "text": "Un dúo, sí. ¡Pero el solo final será nuestro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-eternal-dancers/tango",
+      "text": "Cambiaban de posición como quien cambia de compás. Precioso."
+     },
+     {
+      "who": "orion-perfect-spark/gregory-fortin",
+      "text": "Mi Mano Aplastante ha marcado el ritmo atrás. ¡Seguimos!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-guardians-of-queen",
+    "title": "Antiguos compañeros de Orión",
+    "before": [
+     {
+      "text": "En Italia esperan los Guardianes de la Reina, que también sufrieron el control de Yekaterina Stronov."
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Nosotros llevamos las cintas de la reina. Vosotros, su música. Somos parecidos."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Por eso quiero jugar contra vosotros. Para que veamos juntos que somos libres."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Sin cintas y sin hipnosis... Ha sido el partido más sincero de mi vida."
+     },
+     {
+      "who": "orion-perfect-spark/martemeli-prestov-ok-lus",
+      "text": "Ya no tengo que fingir ser otra persona. Por fin juego como yo mismo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "La lira de Orfeo",
+    "before": [
+     {
+      "text": "Orfeo, el legendario equipo italiano que lleva el nombre del gran músico de la mitología, acepta el reto."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "¡Paolo Bianchi! Su Espada de Odín, su visión de juego, cómo dirige al equipo... ¡Perdón, ya me estoy enrollando otra vez!"
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Orfeo encantaba a todos con su música. Veamos si la vuestra es igual de poderosa."
+     },
+     {
+      "who": "orion-perfect-spark/oleg-animatov",
+      "text": "Hasta ahora siempre había tocado la partitura de otro. Hoy toco la mía. ¡Uno para todos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/hidetoshi-nakata",
+      "text": "Una orquesta donde todos pueden tocar cualquier instrumento... Impresionante."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Ya solo falta el gran final. Contra el equipo que nos despertó."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-inazuma-japan-orion",
+    "title": "La gran final",
+    "before": [
+     {
+      "text": "Alex pide jugar otra vez la final del mundial contra Inazuma Japón, esta vez sin música, sin trampas y sin Orión."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star-ok-hikaru",
+      "text": "Alex, mi mejor amigo... Juguemos como cuando éramos niños en el centro de entrenamiento."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Esta vez no tendré que gritaros para despertaros! ¡Venid con todo!"
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Lucas, Mark... Esta es nuestra sinfonía. ¡Chut vitral!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-inazuma-japan-orion/lucas-star-ok-hikaru",
+      "text": "Ha sido precioso, Alex. Phil también lo habría disfrutado."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Gracias, Lucas. La música de las Chispas Perfectas ya es solo nuestra."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Las Chispas Perfectas regresan a Moscú. La Fundación Orión empieza una nueva etapa, y Alex promete ayudar a su hermano a reconstruirla."
+   },
+   {
+    "who": "orion-perfect-spark/alexander-allegrov",
+    "text": "El fútbol no debe tener dueños. Solo jugadores que lo aman."
+   },
+   {
+    "who": "orion-perfect-spark/yuri",
+    "text": "Y nuestra sinfonía seguirá sonando en cada estadio del mundo."
+   }
+  ]
+ },
+ "orion-guardians-of-queen": {
+  "title": "Caballeros sin reina",
+  "summary": "Los Guardianes de la Reina se quitan las cintas de Yekaterina y, como los caballeros de su leyenda, emprenden una gesta para ganarse su honor sin trucos.",
+  "intro": [
+   {
+    "text": "Italia. Los Guardianes de la Reina obedecían ciegamente a Yekaterina Stronov, la \"Bruja de Orión\"."
+   },
+   {
+    "text": "Sus cintas multiplicaban la fuerza de sus músculos... a costa de lesionarlos."
+   },
+   {
+    "who": "orion-guardians-of-queen/orlando",
+    "text": "Ya no tenemos reina. Hemos quitado las cintas. Ahora debemos descubrir cuánto valemos de verdad."
+   },
+   {
+    "who": "orion-guardians-of-queen/dardinello-foscari",
+    "text": "Mis piernas aún recuerdan el dolor. Pero quiero jugar. Libre."
+   },
+   {
+    "who": "orion-guardians-of-queen/clorinda-luzzago",
+    "text": "Como los caballeros de nuestra leyenda: una gesta para recuperar el honor."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kuro-no-kishidan",
+    "title": "La orden oscura",
+    "before": [
+     {
+      "who": "go-kuro-no-kishidan/victor-blade",
+      "text": "¿Caballeros sin señor? Nosotros también servimos a alguien. No sois diferentes."
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Lo éramos. Ya no. Un caballero debe elegir su propia causa."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-kuro-no-kishidan/lance-speares",
+      "text": "Tch. Pensaba que sin cintas no seríais nada. Me equivocaba."
+     },
+     {
+      "who": "orion-guardians-of-queen/brandimarte-ruffo",
+      "text": "¡Nuestra fuerza es nuestra! ¡Espada de Odín!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-shadow-of-orion",
+    "title": "Las sombras de la reina",
+    "before": [
+     {
+      "text": "Yekaterina no perdona a los traidores. Su equipo personal, el Eclipse de Orión, viene a buscarlos."
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Guardianes desertores. La Reina ordena que volváis a poneros las cintas."
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Dile a tu reina que mis compañeros no volverán a romperse por ella. Ni por nadie."
+     },
+     {
+      "who": "orion-guardians-of-queen/dodone-barberini",
+      "text": "¡Carruaje Insano! ¡Esta vez mis piernas no se romperán!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "¿Cómo es posible? Sin las cintas deberíais ser débiles..."
+     },
+     {
+      "who": "orion-guardians-of-queen/clorinda-luzzago",
+      "text": "La Boca de la verdad lo ha dicho: la fuerza nace de la libertad."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-ol-de-samba",
+    "title": "Discípulos liberados",
+    "before": [
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡Olá, amigos! Nosotros también fuimos Discípulos de Orión. ¡Juguemos con alegría!"
+     },
+     {
+      "who": "orion-guardians-of-queen/fantaghir-petrucci",
+      "text": "Con alegría... Eso no lo hemos probado nunca. ¡Vamos allá!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-ol-de-samba/rio",
+      "text": "Habéis sonreído al marcar. ¡Eso es samba!"
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Hay muchos caminos para salir de las sombras de Orión."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "Los caballeros de la reina",
+    "before": [
+     {
+      "text": "En Inglaterra, otros caballeros de nombre parecido les esperan: los Knights of Queen."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Nosotros servimos a nuestra reina con honor. ¿Y vosotros?"
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Nosotros servimos al fútbol. Y lucharemos con el mismo honor."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Un duelo digno de caballeros. Habéis ganado mi respeto."
+     },
+     {
+      "who": "orion-guardians-of-queen/bellona-orsini",
+      "text": "Solo nos queda un desafío: el orgullo de Italia."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "El orgullo de Italia",
+    "before": [
+     {
+      "text": "El último reto: Orfeo, la legendaria selección italiana. Solo venciéndola serán dignos de vestir la camiseta de su país."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Sé que Orión os obligó. Pero Italia necesita ver vuestro verdadero fútbol. ¡Mostrádnoslo!"
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "No lo negaré. Por eso estamos aquí. ¡Último recurso: Dragón!"
+     },
+     {
+      "who": "orion-guardians-of-queen/clorinda-luzzago",
+      "text": "Proteged la portería como protegíamos a la reina. ¡Pero esta vez por nosotros!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Italia está orgullosa de vosotros, Guardianes."
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Ya no somos guardianes de una reina. Somos los guardianes de nuestro propio fútbol."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los antiguos Guardianes de la Reina vuelven a Italia con sus piernas sanas y su honor recuperado."
+   },
+   {
+    "who": "orion-guardians-of-queen/dardinello-foscari",
+    "text": "Sin cintas me siento más ligero que nunca."
+   },
+   {
+    "who": "orion-guardians-of-queen/orlando",
+    "text": "Nuestra gesta termina aquí... pero nuestra leyenda acaba de empezar."
+   }
+  ]
+ },
+ "orion-ol-de-samba": {
+  "title": "Carnaval del juego limpio",
+  "summary": "Los chicos de Olé de Samba, que pasaron de una fábrica a ser la élite de Orión, recorren el mundo para contagiar la alegría del fútbol limpio.",
+  "intro": [
+   {
+    "text": "Brasil. Los chicos de Olé de Samba trabajaban juntos en una fábrica cuando descubrieron el fútbol."
+   },
+   {
+    "text": "Después se convirtieron en Discípulos de Orión, la élite personal de Ivan Allegrov. Hasta que Japón les recordó lo que era jugar."
+   },
+   {
+    "who": "orion-ol-de-samba/alegre",
+    "text": "¡Se acabó el juego sucio! ¡Ahora toca carnaval por todo el mundo! ¡Vamos lá!"
+   },
+   {
+    "who": "orion-ol-de-samba/cristiano-dabola",
+    "text": "Jugaremos con alegría, como en los descansos de la fábrica. ¡Que bailen los estadios!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-nagumohara-shopkeepers",
+    "title": "El carnaval del barrio",
+    "before": [
+     {
+      "text": "Primera parada: un barrio comercial de Japón, donde los vendedores juegan al fútbol después de cerrar las tiendas."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/marlin-sharkey",
+      "text": "¡Unos trabajadores como nosotros! ¡Esto va a ser una fiesta!"
+     },
+     {
+      "who": "orion-ol-de-samba/paulo",
+      "text": "¡Igual que en la fábrica! ¡Samba!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara-shopkeepers/terra-hillcroft",
+      "text": "Bah, no ha estado mal. Podéis volver... siempre que no me asustéis a la gata."
+     },
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡Obrigado! Así es el fútbol que queremos."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-guardians-of-queen",
+    "title": "Hermanos de Orión",
+    "before": [
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Vosotros también fuisteis Discípulos de Orión. ¿De verdad se puede jugar sin miedo?"
+     },
+     {
+      "who": "orion-ol-de-samba/rio",
+      "text": "¡Claro! Os lo enseñamos. ¡Golpe de samba!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Contagiáis la alegría hasta a quien acaba de perder."
+     },
+     {
+      "who": "orion-ol-de-samba/belo",
+      "text": "¡Eso es el carnaval, amigo!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-perfect-spark",
+    "title": "Samba en la nieve",
+    "before": [
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Mi hermano os trató como herramientas. Lo siento. Hoy juguemos solo por el fútbol."
+     },
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "Ivan también nos dio un sitio en el mundo. Pero ahora elegimos nosotros. ¡Olé!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-perfect-spark/yuri",
+      "text": "Hasta la nieve de Moscú se ha puesto a bailar."
+     },
+     {
+      "who": "orion-ol-de-samba/gon-alo",
+      "text": "¡Mi Parada de espaguetis no ha dejado pasar nada! ¡Esta noche, croquetas brasileñas para todos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "Pequeños gigantes, gran alegría",
+    "before": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Nosotros también somos un equipo de amigos que se divierte jugando. ¡Será un gran partido!"
+     },
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡Entonces juguemos con todo el corazón! ¡Tiro capoeira!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/drago-hill",
+      "text": "¡Qué ritmo! Hasta el delantero estrella del equipo, o sea yo, ha acabado bailando."
+     },
+     {
+      "who": "orion-ol-de-samba/cristiano-dabola",
+      "text": "Ya estáis listos para el último partido: los reyes del fútbol brasileño."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "Los reyes de la samba",
+    "before": [
+     {
+      "text": "De vuelta en Brasil, Os Reis, la legendaria selección brasileña, quiere saber si Olé de Samba merece llevar la camiseta verdeamarela."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "Brasil es alegría, pero también honor. Os escondisteis tras las trampas de Orión."
+     },
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "Es verdad. Por eso queremos demostrar quiénes somos de verdad. ¡Samba letal!"
+     },
+     {
+      "who": "ie3-the-kingdom/falc-o-da-silva",
+      "text": "Entonces venid. ¡Que empiece el carnaval!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "Eso es fútbol brasileño. Ahora sí sois nuestros herederos."
+     },
+     {
+      "who": "orion-ol-de-samba/rio",
+      "text": "¡Lo hemos logrado! ¡Brasil vuelve a sonreír!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Olé de Samba regresa a su antigua fábrica, que ahora es una escuela de fútbol gratuita para los niños del barrio."
+   },
+   {
+    "who": "orion-ol-de-samba/alegre",
+    "text": "Ivan nos dio el fútbol. Ahora nosotros se lo damos a otros, pero con alegría."
+   },
+   {
+    "who": "orion-ol-de-samba/cristiano-dabola",
+    "text": "¡Que nunca se apague la música! ¡Olé!"
+   }
+  ]
+ },
+ "orion-star-unicorn": {
+  "title": "El regreso del unicornio",
+  "summary": "Star Unicorn fue apartado del mundial por Navy Invader. Mark Krueger, Dylan Keats y Erik Eagle recorren el mundo para reconquistar el honor de Estados Unidos.",
+  "intro": [
+   {
+    "text": "Estados Unidos. Star Unicorn era el representante oficial, hasta que Navy Invader llegó en helicópteros y les arrebató su plaza."
+   },
+   {
+    "who": "orion-star-unicorn/mark-krueger",
+    "text": "Muchos acabamos lesionados. Pero ya estamos recuperados. Ha llegado la hora de volver."
+   },
+   {
+    "who": "orion-star-unicorn/dylan-keats",
+    "text": "¡Yeah! ¡El unicornio vuelve a galopar, man!"
+   },
+   {
+    "who": "orion-star-unicorn/erik-eagle",
+    "text": "Y esta vez yo también estaré con vosotros hasta el final."
+   },
+   {
+    "who": "orion-star-unicorn/bobby-shearer",
+    "text": "Igual que en los viejos tiempos en el Raimon. ¡Vamos allá!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-unicorn",
+    "title": "El unicornio del pasado",
+    "before": [
+     {
+      "text": "Para empezar, se enfrentan a una versión de sí mismos: el Unicorn de su primer Fútbol Frontier Internacional."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "Así éramos antes. ¿Habéis mejorado de verdad?"
+     },
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "Tú lo sabrás muy pronto. ¡Gran lobo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-star-unicorn/dylan-keats",
+      "text": "¡Oh, yeah! ¡Nos hemos ganado a nosotros mismos! ¡Qué raro y qué genial, man!"
+     },
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "Hemos crecido. Ahora toca saldar una cuenta pendiente."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-navy-invader",
+    "title": "Revancha contra la marina",
+    "before": [
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "Os hicimos mucho daño. Hoy jugaremos limpio, os lo prometo."
+     },
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "No busco venganza. Solo quiero demostrar que Estados Unidos somos nosotros."
+     },
+     {
+      "who": "orion-star-unicorn/gabriel-jax",
+      "text": "¡Y lo demostraremos a base de goles! ¡Remate en V!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "Merecíais estar en el mundial. Lo sentimos de verdad."
+     },
+     {
+      "who": "orion-star-unicorn/erik-eagle",
+      "text": "Disculpas aceptadas. Como dicen en América: ¡amigo que juega limpio, amigo para siempre! ...Creo que era así."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-muteki-no-giant",
+    "title": "El partido pendiente",
+    "before": [
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "En Rusia os ganamos con nuestra fuerza. ¿Lo intentáis otra vez?"
+     },
+     {
+      "who": "orion-star-unicorn/erik-eagle",
+      "text": "Esta vez esquivaremos cada choque. ¡Tiro giratorio!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Rápidos como el viento... No había forma de atraparos."
+     },
+     {
+      "who": "orion-star-unicorn/billy-dash",
+      "text": "¡Yeehaw! Mis Golpes de luz han parado todo lo demás, compañeros."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "Viejos rivales de Italia",
+    "before": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Mark, Dylan, cuánto tiempo. Os echaba de menos en el campo."
+     },
+     {
+      "who": "orion-star-unicorn/dylan-keats",
+      "text": "¡Nosotros también a ti! ¡Pero hoy no te dejaremos ganar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Habéis vuelto más fuertes que nunca. Me alegro."
+     },
+     {
+      "who": "orion-star-unicorn/mark-krueger",
+      "text": "Solo nos queda un rival. Mis viejos amigos de Japón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "Reencuentro con Inazuma Japón",
+    "before": [
+     {
+      "text": "El último reto: el legendario Inazuma Japón de Mark Evans, los viejos amigos de Erik y Bobby."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Erik! ¡Bobby! ¡Qué ganas tenía de jugar contra vosotros otra vez!"
+     },
+     {
+      "who": "orion-star-unicorn/erik-eagle",
+      "text": "Mark, prepárate. ¡Esta vez el Fénix volará más alto que nunca!"
+     },
+     {
+      "who": "ie3-inazuma-japan/axel-blaze",
+      "text": "Si queréis ganar, tendréis que superar mi Tornado de fuego."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Qué partidazo! ¡Así es el fútbol de verdad!"
+     },
+     {
+      "who": "orion-star-unicorn/bobby-shearer",
+      "text": "Ganar a nuestros viejos amigos... ¡Qué emoción!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Star Unicorn regresa a Estados Unidos y recupera su lugar como el auténtico representante de su país."
+   },
+   {
+    "who": "orion-star-unicorn/mark-krueger",
+    "text": "Nos quitaron una plaza, pero nunca nos quitaron el fútbol."
+   },
+   {
+    "who": "orion-star-unicorn/dylan-keats",
+    "text": "¡El próximo mundial es nuestro, you know! ¡Yeah!"
+   },
+   {
+    "who": "orion-star-unicorn/erik-eagle",
+    "text": "Y allí nos veremos otra vez, Mark Evans."
+   }
+  ]
+ },
+ "orion-shadow-of-orion": {
+  "title": "La sombra del cazador",
+  "summary": "El Eclipse de Orión, el equipo personal de Yekaterina Stronov dirigido por Ray Dark, persigue a quienes desafiaron a Orión... hasta descubrir el fútbol con alma.",
+  "intro": [
+   {
+    "text": "Moscú, en la sombra. Yekaterina Stronov ha creado su equipo definitivo: el Eclipse de Orión."
+   },
+   {
+    "name": "Yekaterina Stronov",
+    "text": "Los equipos que traicionaron a Orión deben ser castigados. Solo así nacerá mi \"Mundo Perfecto\"."
+   },
+   {
+    "name": "Ray Dark",
+    "text": "Mis jugadores no conocen la duda ni el miedo. Serán la sombra que cubra el fútbol mundial."
+   },
+   {
+    "who": "orion-shadow-of-orion/jade-beor",
+    "text": "El fútbol con emociones es débil. Lo demostraremos, partido a partido."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-team-k",
+    "title": "Las viejas creaciones",
+    "before": [
+     {
+      "text": "Ray Dark pone a prueba al Eclipse contra el Equipo D, una de sus antiguas creaciones."
+     },
+     {
+      "name": "Ray Dark",
+      "text": "Os presento a mi pasado. Superadlo."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "El comandante ya tiene nuevos juguetes... Veamos de qué son capaces."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-shadow-of-orion/betelgeuse",
+      "text": "Demasiado fácil. Ni siquiera hemos tenido que usar el Cruce explosivo."
+     },
+     {
+      "name": "Ray Dark",
+      "text": "Bien. Ahora, a por los traidores."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-ol-de-samba",
+    "title": "Castigar a los traidores",
+    "before": [
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "Ya no somos Discípulos de Orión. ¡Jugamos con alegría!"
+     },
+     {
+      "who": "orion-shadow-of-orion/rigel",
+      "text": "La alegría es un error de cálculo. ¡Cometa legendario!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-ol-de-samba/rio",
+      "text": "Jugáis tan bien... pero no parecéis disfrutar nada."
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "¿Disfrutar? ...¿Qué significa eso?"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-guardians-of-queen",
+    "title": "Los guardianes rebeldes",
+    "before": [
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Nos quitamos las cintas de la reina. No volveremos a obedecer."
+     },
+     {
+      "who": "orion-shadow-of-orion/procyon",
+      "text": "Entonces caeréis. Mi Escudo sombrío no deja pasar a los débiles."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Sois fuertes... pero jugáis como si estuvierais solos."
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Otra vez esa palabra... Solos. ¿Por qué me molesta tanto?"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-perfect-spark",
+    "title": "El hijo de la reina",
+    "before": [
+     {
+      "text": "Las Chispas Perfectas de Alex Allegrov, el hijo menor de Yekaterina, se interponen en su camino."
+     },
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Madre, detén esto. El fútbol no es un arma."
+     },
+     {
+      "name": "Yekaterina Stronov",
+      "text": "Alex, aún eres un niño. Eclipse de Orión, enseñadle cómo es el mundo de verdad."
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Orden recibida. Sombra de Orión."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-perfect-spark/alexander-allegrov",
+      "text": "Jade, ¿por qué juegas al fútbol? ¿De verdad es solo por órdenes?"
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Yo... no lo sé. Nunca me lo había preguntado."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-inazuma-japan-orion",
+    "title": "El eclipse y el amanecer",
+    "before": [
+     {
+      "text": "El último objetivo: Inazuma Japón, el equipo que lo empezó todo."
+     },
+     {
+      "name": "Ray Dark",
+      "text": "Inazuma Japón... Una vez más os interponéis en mi camino. Veamos si vuestro fútbol supera al mío."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Jade! ¡No sé quién te ha dicho que el fútbol es débil, pero te voy a demostrar lo contrario!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/sonny-wright",
+      "text": "¡Todos juntos! ¡Este es nuestro fútbol!"
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Sois... los únicos que todavía no entiendo."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "Jugáis como si os conocierais de siempre... Esto es lo que me faltaba."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Has jugado genial, Jade! ¿Volvemos a jugar otro día?"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Cuando el techo del estadio empieza a derrumbarse, el Eclipse de Orión no duda: corre a proteger al público."
+   },
+   {
+    "who": "orion-shadow-of-orion/jade-beor",
+    "text": "No lo hemos hecho por órdenes. Lo hemos hecho porque queríamos."
+   },
+   {
+    "name": "Ray Dark",
+    "text": "Hmph. Parece que ese fútbol vuestro ha vuelto a ganar."
+   },
+   {
+    "who": "orion-shadow-of-orion/procyon",
+    "text": "Capitana... ¿y si la próxima vez jugamos solo por diversión?"
+   },
+   {
+    "who": "orion-shadow-of-orion/jade-beor",
+    "text": "Sí. Me gustaría mucho."
+   }
+  ]
+ }
+}

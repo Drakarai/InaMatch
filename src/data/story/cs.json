@@ -1,0 +1,4350 @@
+{
+ "cs-team-raimon": {
+  "title": "Chrono Stones: el once definitivo",
+  "summary": "El Dorado quiere borrar el fútbol de la historia. Arion, Fei y el Raimon viajan por el tiempo para reunir al equipo definitivo y salvar el futuro.",
+  "main": true,
+  "intro": [
+   {
+    "text": "Tras ganar el Camino Imperial, Arion vuelve al Instituto Raimon... y descubre que el club de fútbol nunca ha existido."
+   },
+   {
+    "who": "cs-protocol-omega/alpha",
+    "text": "Soy Alpha, del Protocolo Omega. El Dorado ha decidido que el fútbol debe desaparecer. Tú eres su último vestigio."
+   },
+   {
+    "who": "cs-team-raimon/fei-rune",
+    "text": "Me llamo Fei Rune y vengo de doscientos años en el futuro. ¡No dejaré que borren el fútbol, Arion!"
+   },
+   {
+    "name": "Clark von Wunderbar",
+    "text": "¡Y yo soy Clark von Wunderbar, vuestro entrenador! La Caravana Inazuma ya es una máquina del tiempo. ¡Todos a bordo!"
+   },
+   {
+    "who": "cs-team-raimon/arion-sherwind",
+    "text": "¡Recuperaremos el fútbol, cueste lo que cueste! ¡Todo saldrá bien!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "El día que el fútbol desapareció",
+    "before": [
+     {
+      "text": "Gracias a los Arions de Fei, Mark ha podido fundar el club diez años atrás. Pero el Protocolo Omega ataca otra vez en el presente."
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Misión: erradicar el fútbol. Resistencia prevista del Raimon: irrelevante."
+     },
+     {
+      "who": "cs-team-raimon/victor-blade",
+      "text": "Mi hermano ha venido a jugar con nosotros. Esta vez no pienso perder."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Riccardo, JP, Victor! ¡Juntos podemos devolverle el fútbol a todo el mundo!"
+     }
+    ],
+    "after": [
+     {
+      "text": "El Miximax de Vladimir con Victor desata el Aguijón letal. ¡El Raimon gana 1-0 y la historia vuelve a su cauce!"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Error en la misión... El Dorado no aceptará este resultado."
+     },
+     {
+      "who": "cs-team-raimon/riccardo-di-rigo",
+      "text": "Ese tal Alpha volverá. Tenemos que hacernos más fuertes."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Asalto al Museo del Fútbol",
+    "before": [
+     {
+      "text": "Beta y el Protocolo Omega 2.0 han aplastado al Raimon y han secuestrado a Mark. Solo los que tienen espíritu guerrero resisten."
+     },
+     {
+      "who": "cs-team-raimon/fei-rune",
+      "text": "Las Enseñanzas del Maestro, el cuaderno de David Evans, están en el Museo del Fútbol de mi época. ¡Ahí está la clave!"
+     },
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "INTRUSOS DETECTADOS. PROTOCOLO DE SEGURIDAD: PACHANGA OBLIGATORIA."
+     },
+     {
+      "who": "cs-team-raimon/ryoma-nishiki",
+      "text": "¿Robots que juegan al fútbol? ¡Esto se pone interesante, compadre!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Arion domina por fin la Armadura de Espíritu Guerrero y el Raimon se lleva las Enseñanzas del Maestro!"
+     },
+     {
+      "who": "cs-soccer-robots/fb-109x",
+      "text": "DERROTA REGISTRADA... Bip. Era un buen fútbol."
+     },
+     {
+      "name": "Clark von Wunderbar",
+      "text": "¡Uooh, me pongo rosa de la emoción! ¡Según el cuaderno, hay que reunir a once jugadores con poderes de héroes de la historia!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "La sonrisa de Beta",
+    "before": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Ay, qué monos... ¿Me devolvéis el cuaderno, por favor? ¿No? ...¡Pues os lo arranco de las manos, mocosos!"
+     },
+     {
+      "who": "cs-team-raimon/jean-pierre-lapin",
+      "text": "La última vez nos ganó once a cero... ¡Pero hoy tenemos una táctica nueva!"
+     },
+     {
+      "who": "cs-team-raimon/riccardo-di-rigo",
+      "text": "Reflector 3D. Si mantenemos la formación, sus tiros rebotarán contra ellos mismos."
+     },
+     {
+      "who": "cs-team-raimon/victor-blade",
+      "text": "Y yo ya domino mi armadura. Esta vez será distinto."
+     }
+    ],
+    "after": [
+     {
+      "text": "El Raimon resiste, pero David Evans ha quedado convertido en una Chrono Stone. Ahora habla desde la piedra para guiarles."
+     },
+     {
+      "name": "David Evans",
+      "text": "Chicos, buscad a los grandes héroes de la historia. Su poder, unido al vuestro con el Miximax, os hará invencibles."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Ji, ji... Nos vemos en el pasado, cariños."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-shiroshika-gumi",
+    "title": "La Banda del Ciervo Blanco",
+    "before": [
+     {
+      "text": "Era Sengoku. Buscando a Nobunaga Oda, el Raimon conoce a Tasuke y sus amigos... y la Banda del Ciervo Blanco los secuestra."
+     },
+     {
+      "who": "cs-team-raimon/gorota",
+      "text": "¡Buaaa! ¡Socorro! ¡Esos matones quieren vendernos como soldados!"
+     },
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "Si queréis a los críos, ganadnos. Y no esperéis piedad: aquí jugamos sin reglas."
+     },
+     {
+      "who": "cs-team-raimon/jean-pierre-lapin",
+      "text": "¡Pues yo tampoco me pienso rendir! ¡Ha llegado mi momento!"
+     }
+    ],
+    "after": [
+     {
+      "text": "JP domina su armadura y el Raimon remonta para ganar 10-2. ¡Tasuke y sus amigos quedan libres!"
+     },
+     {
+      "who": "cs-shiroshika-gumi/norimaru-gazen",
+      "text": "Hmpf... Sin las órdenes de esa chica, esto es un desastre."
+     },
+     {
+      "who": "cs-team-raimon/gorota",
+      "text": "¡Gracias, Raimon! Ahora... ¿nos enseñáis a jugar a eso del fútbol?"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "Okehazama: el Ejército de Imagawa",
+    "before": [
+     {
+      "name": "Tokichiro Kinoshita",
+      "text": "Nobunaga Oda solo os recibirá si ganáis al Ejército de Imagawa. ¡Yo seré vuestro entrenador!"
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¿El Ejército de Imagawa? Somos nosotros, tontitos. Esta vez, Disparo doble y a casa."
+     },
+     {
+      "who": "cs-team-raimon/gorota",
+      "text": "¡Tasuke, Shishimaru y yo defenderemos con la Fortaleza nocturna! ¡Aunque nos tiemblen las piernas!"
+     },
+     {
+      "who": "cs-team-raimon/riccardo-di-rigo",
+      "text": "Nobunaga ve el mundo como un tablero. Si comparto su visión... dirigiré el campo entero."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Riccardo hace Miximax con Nobunaga Oda y su Impulso efímero rompe la armadura de Beta! El Raimon gana el partido."
+     },
+     {
+      "name": "Nobunaga Oda",
+      "text": "Interesante. Tu juego es el de un señor de la guerra, muchacho. Lleva mi poder contigo."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡No, no, no! ¡Perder contra estos mocosos...! ¡No me mandéis a la prisión, por favor! ¡Tenía una última oportunidad!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "El puente de Orleans",
+    "before": [
+     {
+      "text": "Francia, 1429. Juana de Arco y el príncipe Carlos luchan por su país. Pero Gamma y el Protocolo Omega 3.0 cortan el paso del puente."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Beta era una aficionada. Yo soy perfecto. Y ahora, con el poder de Zanark, ni siquiera vosotros podréis tocarme."
+     },
+     {
+      "name": "Juana de Arco",
+      "text": "Yo... no sé si soy capaz de esto. Pero si Francia me necesita, lucharé. ¿Me ayudaréis?"
+     },
+     {
+      "who": "cs-team-raimon/gabriel-garcia",
+      "text": "Claro que sí, Juana. Préstame tu valor y yo defenderé la portería por todos."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Gabriel hace Miximax con Juana de Arco y despliega La flamme! Victor empata y Riccardo sentencia: 2-1."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "¿Cómo he podido perder...? ¡Zanark, prometiste que eran débiles!"
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Ja, ja, ja. Qué divertido. La próxima vez jugaré yo en persona."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "La fortaleza de Zhuge Liang",
+    "before": [
+     {
+      "text": "Era de los Tres Reinos. Para conocer a Zhuge Liang, el gran estratega, hay que superar a su Ejército de Terracota."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Nadie llega ante el maestro Zhuge sin demostrar su valía. ¡Ni siquiera los amigos de mi hermano Liu Bei!"
+     },
+     {
+      "name": "Liu Bei",
+      "text": "¡Yo seré vuestro portero! ¡Un buen señor protege a los suyos con sus propias manos!"
+     },
+     {
+      "who": "cs-team-raimon/sol-daystar",
+      "text": "¡Por fin me toca! Hoy el sol brilla más que nunca. ¡Que salgan esos soldados de barro!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Goldie estrena su Grumo pegapasta, JP su Parada en plancha y Sol marca dos goles. ¡2-1 para el Raimon!"
+     },
+     {
+      "name": "Zhuge Liang",
+      "text": "Tu fútbol es pura estrategia, Sol. Dejaré que mi poder te acompañe."
+     },
+     {
+      "who": "cs-team-raimon/goldie-lemmon",
+      "text": "¡Mochi, mochi! ¡Así se pega el balón! ¡Ja, ja!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-zanark-domain",
+    "title": "El dominio de Zanark",
+    "before": [
+     {
+      "text": "Zanark Avalonic, el fugitivo de la prisión CONTRA, ha reunido a su propio equipo: el Zanark Domain."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Protocolo Omega, El Dorado... me da igual. Solo quiero aplastar al Raimon con mis propias botas."
+     },
+     {
+      "who": "cs-zanark-domain/dasan",
+      "text": "El jefe ya ha hecho Miximax con Cao Cao. ¿Cuántos de vosotros saldréis enteros?"
+     },
+     {
+      "who": "cs-team-raimon/ryoma-nishiki",
+      "text": "En la era Bakumatsu aprendí algo de Ryoma Sakamoto: ¡hay que mirar al futuro sin miedo, compadre!"
+     },
+     {
+      "who": "cs-team-raimon/victor-blade",
+      "text": "Y yo llevo la espada de Soji Okita. Zanark, tu tiempo se acaba."
+     }
+    ],
+    "after": [
+     {
+      "text": "La Katana crisantemo de Victor, el Impulso efímero de Riccardo y la armadura de Nishiki tumban al Zanark Domain."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Ja... Ja, ja, ja. ¡Qué divertido! Hacía siglos que nadie me plantaba cara así. Esto no ha terminado, Raimon."
+     },
+     {
+      "who": "cs-team-raimon/fei-rune",
+      "text": "Ya tenemos casi todos los poderes de las Enseñanzas del Maestro. ¡Falta muy poco!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-perfect-cascade",
+    "title": "La Cascada Perfecta",
+    "before": [
+     {
+      "text": "Cretácico. Fei y Sor, el chico criado por dinosaurios, buscan el poder de Big. Pero aparece el equipo definitivo de El Dorado."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Plan dieciséis: derrotar al Raimon. Probabilidad de victoria del Raimon: cero coma cero por ciento."
+     },
+     {
+      "name": "Schemer Guile",
+      "text": "Mis androides no sienten ni dudan. Ya os metimos diecinueve goles. ¿Cuántos queréis hoy?"
+     },
+     {
+      "who": "cs-team-raimon/sor",
+      "text": "¡Ley de la naturaleza: el fuerte sobrevive! ¡Pero Fey y Ariun no se rinden nunca, así que sobreviven más!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Fei hace Miximax con Big y su Colmillo retorcido perfora la portería. ¡Con el Superremate rebotado, el Raimon se impone!"
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Error de cálculo... No entiendo esta variable."
+     },
+     {
+      "who": "cs-team-raimon/fei-rune",
+      "text": "Se llama amistad, Ar Ecks. No sale en tus planes."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-zan",
+    "title": "Ragnarok: la ira del Zan",
+    "before": [
+     {
+      "text": "Tras conseguir el poder del rey Arturo, la verdad estalla: el enemigo real son los Chicos de la Segunda Fase de Nu-Gen. Fei es uno de ellos."
+     },
+     {
+      "text": "El Raimon se une a El Dorado y se divide en tres equipos para la Guerra Ragnarok. El primer rival es el Zan."
+     },
+     {
+      "who": "cs-zan/garreau",
+      "text": "¡Basta de charla! ¿Niños del pasado ayudando a El Dorado? Os enseñaremos el odio de los que fueron rechazados."
+     },
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Sorpresa, Raimon. Ahora llevo el brazalete del Zan. Os dije que nos volveríamos a ver."
+     },
+     {
+      "who": "cs-team-raimon/victor-blade",
+      "text": "Su portero tiene una barrera invencible... Pues tendré que romperla a la fuerza."
+     }
+    ],
+    "after": [
+     {
+      "text": "Victor y Goldie atraviesan la Repulsión de Feduhm con sus armaduras. El Raimon resiste la brutalidad del Zan."
+     },
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Estos tipos de Nu-Gen no juegan conmigo... ¿Qué estoy haciendo aquí?"
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "Fei se ha ido con Nu-Gen... ¡Pero yo sé que en el fondo sigue siendo nuestro amigo!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-garu",
+    "title": "Ragnarok: Fei contra Arion",
+    "before": [
+     {
+      "text": "El equipo de Riccardo ha vencido al Gir de Mehr por 4-3 con el Ataque Omega de Alpha, Beta y Gamma. Queda el Gar... capitaneado por Fei."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Arion, los Chicos de la Segunda Fase fuimos rechazados por el mundo. Os demostraré que somos superiores."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Fei, recuerda todos nuestros partidos! ¡El fútbol no es para demostrar nada, es para disfrutarlo juntos!"
+     },
+     {
+      "who": "cs-chrono-storm/zanark-avalonic",
+      "text": "Apártate, capitán. He hecho Miximax con Clara Jane. ¡Ha llegado la hora del Súper Zanark!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Soy todopoderoso de Zanark rompe la defensa del Gar! El partido termina en tablas y Fei empieza a dudar."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Arion... ¿por qué sigues tendiéndome la mano?"
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Je, qué divertido. Pero esto no acaba aquí: habrá un cuarto partido. Mi Ragnah contra lo mejor que tengáis. ¿Qué me decís?"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-the-lagoon",
+    "title": "Chrono Storm contra Ragnah",
+    "before": [
+     {
+      "text": "Fei vuelve al Raimon. Con todos los poderes de las Enseñanzas del Maestro nace por fin el equipo definitivo: Chrono Storm."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Hola, Arion. Este partido decide quién se queda con el futuro. Y ya te aviso: vamos a ser nosotros."
+     },
+     {
+      "who": "cs-the-lagoon/mehr",
+      "text": "El Gir perdió, pero el Ragnah es otra cosa. Con Simeon, somos invencibles."
+     },
+     {
+      "who": "cs-team-raimon/fei-rune",
+      "text": "Simeon... juguemos de verdad. Te demostraré lo que he aprendido con ellos."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Chrono Storm, a por todas! ¡Este es el partido más importante de la historia!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Viento celestial, Colmillo retorcido y, al final, el Impulso del equipo definitivo! ¡Chrono Storm gana 5-4!"
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "¿Por qué... por qué me siento tan bien después de perder?"
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Porque eso es el fútbol, Simeon! ¡Has jugado de corazón!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Nu-Gen y El Dorado firman la paz, y los Chicos de la Segunda Fase encuentran un futuro sin odio."
+   },
+   {
+    "who": "cs-team-raimon/fei-rune",
+    "text": "Tengo que volver a mi época, Arion. Gracias por enseñarme lo que es el fútbol de verdad."
+   },
+   {
+    "name": "Clark von Wunderbar",
+    "text": "¡Snif! ¡No estoy llorando, es que a los osos robot nos entra polvo en los circuitos!"
+   },
+   {
+    "who": "cs-team-raimon/arion-sherwind",
+    "text": "Fei, siempre que sople el viento, ¡jugaremos juntos!"
+   },
+   {
+    "text": "De vuelta en el presente, el club de fútbol del Raimon existe otra vez. Y su historia, por fin, está a salvo."
+   }
+  ]
+ },
+ "cs-chrono-storm": {
+  "title": "La leyenda del Maestro",
+  "summary": "Chrono Storm ha salvado el fútbol, pero David Evans tiene un último deseo: que su equipo definitivo se mida con los más fuertes de todos los mundos.",
+  "intro": [
+   {
+    "text": "Tras la Guerra Ragnarok, la Chrono Stone de David Evans brilla dentro de la Caravana Inazuma."
+   },
+   {
+    "name": "David Evans",
+    "text": "Chicos, sois el equipo que siempre soñé. Pero un equipo definitivo no se demuestra con un solo partido."
+   },
+   {
+    "who": "cs-chrono-storm/riccardo-di-rigo",
+    "text": "¿Quiere que sigamos poniéndonos a prueba? Me parece justo."
+   },
+   {
+    "who": "cs-chrono-storm/arion-sherwind",
+    "text": "¡Pues a por ello! ¡Chrono Storm, rumbo a los rivales más fuertes del tiempo y del espacio!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-destructchers",
+    "title": "Las flores del mundo mosaico",
+    "before": [
+     {
+      "text": "La Caravana atraviesa una grieta y aterriza en el Mundo Mosaico, donde viven Flora, Aster y sus duplicados."
+     },
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Este mundo ya está roto. Si perdéis, os quedaréis aquí para siempre."
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "No quiero hacer daño a nadie... pero mi poder no me obedece."
+     },
+     {
+      "who": "cs-chrono-storm/jean-pierre-lapin",
+      "text": "¡Tranquila! ¡Nosotros pararemos lo que haga falta!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-destructchers/flora",
+      "text": "Habéis parado mi Tiro supermasivo... Quizá no estoy sola."
+     },
+     {
+      "who": "cs-chrono-storm/fei-rune",
+      "text": "Nadie debería tener miedo de sí mismo, Flora. Ven a jugar cuando quieras."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-inazuma-legend-japan",
+    "title": "Los adultos legendarios",
+    "before": [
+     {
+      "text": "Una Piedra Paralela lleva a Chrono Storm a un mundo donde Mark y sus amigos, ya adultos, forman el Inazuma Japón Legendario."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Así que vosotros sois el equipo definitivo! ¡Venga, que quiero sentir ese fútbol en las manos!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/axel-blaze",
+      "text": "No nos vamos a contener, Arion. Y vosotros tampoco deberíais."
+     },
+     {
+      "who": "cs-chrono-storm/victor-blade",
+      "text": "Axel Blaze... Este partido llevo esperándolo toda la vida."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Increíble! ¡El fútbol del futuro está en buenas manos!"
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Gracias, entrenador! ¡Algún día le ganaremos jugando también en su mundo!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-vamptym",
+    "title": "Noche en Transilvania",
+    "before": [
+     {
+      "text": "Desmodus Drakul aparece en la Caravana con una Joya Carmesí y una invitación para el Estadio de Transilvania."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Dicen que sois el equipo más fuerte de la historia. Qué casualidad: yo soy el jugador más hermoso de la historia."
+     },
+     {
+      "who": "cs-vamptym/woodrow-stake",
+      "text": "Mi señor espera un partido elegante. No le decepcionéis."
+     },
+     {
+      "who": "cs-chrono-storm/goldie-lemmon",
+      "text": "¿Vampiros? ¡Qué guay! ¿Y tendrán bollos de mochi en el castillo?"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Una derrota... ¡pero qué derrota tan bella! La recordaré durante siglos."
+     },
+     {
+      "who": "cs-chrono-storm/bailong",
+      "text": "Bonito castillo. Ahora, el siguiente."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "El aullido bajo la luna llena",
+    "before": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¿Sois los que ganaron al Ragnah de Simeon? ¡El clan Vulpeen exige un combate!"
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/luke-kayon",
+      "text": "Nuestro clan no se doblega ante nadie. Esta noche, la luna está de nuestra parte."
+     },
+     {
+      "who": "cs-chrono-storm/sol-daystar",
+      "text": "Pues que salga la luna. ¡El sol también sabe brillar de noche!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Grrr! Lo admito: tenéis colmillos de verdad. El clan os respeta."
+     },
+     {
+      "who": "cs-chrono-storm/zanark-avalonic",
+      "text": "Ja, ja. Por fin un rival que muerde. Me gusta."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "El equipo de David Evans",
+    "before": [
+     {
+      "text": "Último viaje: cuarenta años atrás, al campo donde jugaba el Inazuma Eleven original, el equipo de David Evans."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "¿Que el equipo definitivo del Maestro quiere jugar con nosotros? ¡Ja! Más os vale no pestañear."
+     },
+     {
+      "name": "David Evans",
+      "text": "Estos fueron mis chicos. Ellos me enseñaron todo lo que escribí en las Enseñanzas."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Entonces este es nuestro examen final! ¡Vamos con todo, Chrono Storm!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Impulso del equipo definitivo atraviesa la defensa legendaria! Chrono Storm gana al equipo que inspiró su nacimiento."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "David, viejo zorro... Has creado algo maravilloso."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "David Evans",
+    "text": "Ya no me queda nada que enseñaros. Sois el equipo definitivo, en todas las épocas y en todos los mundos."
+   },
+   {
+    "who": "cs-chrono-storm/fei-rune",
+    "text": "Esta vez sí que tengo que volver a mi tiempo. Pero Chrono Storm vivirá en la historia."
+   },
+   {
+    "who": "cs-chrono-storm/arion-sherwind",
+    "text": "¡Y cada vez que juguemos, estaremos juntos! ¡Gracias, Maestro!"
+   }
+  ]
+ },
+ "cs-destructchers": {
+  "title": "La flor que no quería destruir",
+  "summary": "Flora tiene un poder capaz de borrar mundos enteros. Con Aster y Sterne, salta de dimensión en dimensión buscando a alguien que no le tenga miedo.",
+  "intro": [
+   {
+    "text": "En un futuro aciago, una niña llamada Flora nació con un poder que borra todo lo que toca. Por miedo, la encerraron en un laboratorio."
+   },
+   {
+    "who": "cs-destructchers/flora",
+    "text": "No quiero destruir nada... Pero cuando me enfado o me asusto, los mundos desaparecen."
+   },
+   {
+    "who": "cs-destructchers/aster",
+    "text": "Mientras yo esté aquí, nadie te volverá a encerrar. Mis duplicados y yo te protegeremos."
+   },
+   {
+    "who": "cs-destructchers/sterne",
+    "text": "He reprogramado mis LBX para seguir el rastro de las grietas dimensionales. ¡Hora de viajar, hermanita!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-zero",
+    "title": "Niños fabricados",
+    "before": [
+     {
+      "text": "La primera grieta lleva a la Isla Santuario, donde el Sector Quinto entrenaba a niños hasta convertirlos en armas."
+     },
+     {
+      "who": "go-zero/yang",
+      "text": "¿Una niña con un poder destructivo? Aquí nos habrían usado igual que a ti."
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "Entonces... vosotros sabéis lo que se siente."
+     },
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Lo que sepan da igual. Si se interponen, los apartaremos."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-zero/bailong",
+      "text": "Tienes poder, chica, pero juegas con miedo. Así nunca serás perfecta. Como yo."
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "El miedo... ¿Se puede jugar sin miedo?"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tenmas",
+    "title": "Duplicados contra duplicados",
+    "before": [
+     {
+      "text": "Diez años en el pasado, Flora y Aster se topan con otro equipo hecho de duplicados: los Arions de Fei."
+     },
+     {
+      "who": "cs-tenmas/fei-rune",
+      "text": "¡Anda! ¿Tú también creas duplicados? ¡Qué guay! ¡A ver qué duplicados juegan mejor!"
+     },
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Los míos no son copias débiles. Son duplicados de élite."
+     },
+     {
+      "who": "cs-tenmas/arion-sherwind",
+      "text": "¡Da igual quién sea copia de quién! ¡Lo que importa es disfrutar del partido!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tenmas/arion-sherwind",
+      "text": "¡Qué partidazo! Oye, Flora, ¿por qué juegas con esa cara tan triste?"
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "Porque... nunca nadie me había preguntado eso."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "Máquinas sin corazón",
+    "before": [
+     {
+      "text": "La siguiente grieta lleva a un laboratorio custodiado por robots guardias. A Flora le recuerda su encierro."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "INTRUSOS. ORDEN: CAPTURAR Y AISLAR."
+     },
+     {
+      "who": "cs-destructchers/sterne",
+      "text": "Capturar y aislar... Igual que hicieron contigo. ¡Mis LBX y yo no lo permitiremos!"
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "Esta vez no huiré. Jugaré."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-destructchers/sterne",
+      "text": "¡Circuitos fundidos! ¡Ningún robot podrá volver a encerrarte!"
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "He jugado enfadada... y no ha desaparecido nada. ¿Estoy aprendiendo a controlarlo?"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-inazuma-legend-japan",
+    "title": "El partido interrumpido",
+    "before": [
+     {
+      "text": "Estadio del Camino Imperial. El Inazuma Japón Legendario de Mark Evans juega una exhibición... hasta que Aster salta al campo."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Eh, chaval! ¡Si quieres jugar, juega! ¡Pero sin hacer daño a nadie!"
+     },
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Los adultos siempre dicen lo mismo. Y luego encierran a los que son diferentes."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/jude-sharp",
+      "text": "Mark, mira cómo juega. Ese chico no busca pelea: busca que alguien le escuche."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Menuda Estrella de roca! Y tú, Flora, no estás sola. ¡El fútbol une a todo el mundo!"
+     },
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Ese hombre... no ha tenido miedo de nosotros ni un segundo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-shinsei-inazuma-japan",
+    "title": "El viento contra la oscuridad",
+    "before": [
+     {
+      "text": "El poder de Flora se descontrola y una oscuridad morada empieza a tragarse el estadio. Solo queda el Nuevo Inazuma Japón."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/arion-sherwind",
+      "text": "¡Flora! ¡Pásame todo lo que tengas! ¡Pararé tu tiro aunque sea con las manos!"
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "¡Apartaos! ¡No quiero borraros a vosotros también!"
+     },
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Flora, tira. Confía en ellos. Y confía en mí."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Arion y Aster paran juntos el Tiro supermasivo con la Bimano celestial! La oscuridad se disipa."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/arion-sherwind",
+      "text": "¿Ves? ¡Tu poder también puede crear cosas bonitas, como este partido!"
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "Gracias... Es la primera vez que juego sin miedo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los mundos borrados vuelven a su sitio. El poder de Flora, por fin, no solo destruye: también puede devolverlo todo."
+   },
+   {
+    "who": "cs-destructchers/flora",
+    "text": "Ya sé lo que quiero hacer con mi poder: proteger los partidos de todos."
+   },
+   {
+    "who": "cs-destructchers/sterne",
+    "text": "¡Y yo diseñaré un LBX portero para entrenar contigo!"
+   },
+   {
+    "who": "cs-destructchers/aster",
+    "text": "Los Desesperdidos tenemos nuevo objetivo: jugar. Solo jugar."
+   }
+  ]
+ },
+ "cs-el-dorado-team-02": {
+  "title": "Cuatro capitanes, un director",
+  "summary": "Riccardo debe capitanear a un equipo formado por sus antiguos enemigos: Alpha, Beta, Gamma y Zanark. Si no logra que se entiendan, el Gir los aplastará.",
+  "intro": [
+   {
+    "text": "Antes de la Guerra Ragnarok, William Toddsforth anuncia la plantilla del Equipo 02 de El Dorado."
+   },
+   {
+    "name": "William Toddsforth",
+    "text": "El capitán será Riccardo Di Rigo, del Raimon. Alpha, Beta y Gamma jugarán a sus órdenes."
+   },
+   {
+    "who": "cs-el-dorado-team-02/beta",
+    "text": "¿A las órdenes de un niño del pasado? ¡Uy, qué gracia! No pienso pasarle ni un balón."
+   },
+   {
+    "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+    "text": "Un equipo es como una orquesta. Si cada uno toca su melodía, solo hay ruido. Yo os enseñaré a sonar juntos."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-zanark-domain",
+    "title": "El solista desafinado",
+    "before": [
+     {
+      "text": "Para entrenar, el Equipo 02 viaja al pasado. Allí les espera el antiguo equipo de Zanark."
+     },
+     {
+      "who": "cs-zanark-domain/dasan",
+      "text": "¡Jefe! ¿Ahora juegas con los de El Dorado? ¡Traidor!"
+     },
+     {
+      "who": "cs-el-dorado-team-02/zanark-avalonic",
+      "text": "Yo juego donde me divierta. Y ahora mismo, me divierte ganaros."
+     },
+     {
+      "who": "cs-el-dorado-team-02/wanli-changcheng",
+      "text": "Mientras yo esté atrás, nadie pasará. ¡La gran muralla!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Zanark, has marcado tres goles tú solo. Muy bien. Ahora intenta dar un pase."
+     },
+     {
+      "who": "cs-el-dorado-team-02/zanark-avalonic",
+      "text": "Ja. Un pase. Lo pensaré."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "El pasado de Alpha",
+    "before": [
+     {
+      "text": "El siguiente rival es el primer Protocolo Omega, reconstruido sin su antiguo capitán."
+     },
+     {
+      "who": "cs-protocol-omega/mike",
+      "text": "Capitán Alpha... ¿por qué juega con el enemigo?"
+     },
+     {
+      "who": "cs-el-dorado-team-02/alpha",
+      "text": "Porque es una orden: jugar a las órdenes de Riccardo Di Rigo. No hay contradicción."
+     },
+     {
+      "who": "cs-el-dorado-team-02/aitor-cazador",
+      "text": "Je, je. Un capitán que obedece sin rechistar... Esto va a ser divertido."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-el-dorado-team-02/alpha",
+      "text": "He detectado algo nuevo. Cuando el pase de Riccardo me llegó... sentí que encajaba."
+     },
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Eso se llama confianza, Alpha. Bienvenido al equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "La sonrisa sin máscara",
+    "before": [
+     {
+      "who": "cs-protocol-omega-2-0/november",
+      "text": "¡Beta! ¡Vuelve con nosotros! ¡Esos del Raimon te humillaron!"
+     },
+     {
+      "who": "cs-el-dorado-team-02/beta",
+      "text": "Ay, November... Lo sé. Por eso mismo quiero ganarles algún día. Y para eso, antes necesito aprender de ellos."
+     },
+     {
+      "who": "cs-el-dorado-team-02/michael-ballzack",
+      "text": "Vaya, la señorita sonrisas se pone seria."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-el-dorado-team-02/beta",
+      "text": "Riccardo, tu pase me ha dejado sola ante el portero... ¡Disparo doble! ¿Lo has visto?"
+     },
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Lo he visto. Por fin juegas para el equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-giru",
+    "title": "Ragnarok: la orquesta contra el Gir",
+    "before": [
+     {
+      "text": "Estadio Ragnarok. El primer partido se ha perdido. Si el Equipo 02 cae ante el Gir, Nu-Gen tendrá el futuro en sus manos."
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "¿El Dorado con niños del pasado? Qué desesperación tan poco elegante. Ghiris, cariño, acabemos rápido."
+     },
+     {
+      "who": "cs-giru/ghiris",
+      "text": "Lo que tú digas, Mehr. Futuro negativo y a casa."
+     },
+     {
+      "who": "cs-el-dorado-team-02/gamma",
+      "text": "Riccardo, tu plan... no está mal. Lo haremos los tres. Pero que conste que acepto porque es elegante."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Alpha, Beta y Gamma ejecutan el Ataque Omega! Riccardo remata con el Impulso efímero y el Equipo 02 gana 4-3."
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "Imposible... ¡Os odiabais! ¿Cómo habéis jugado tan unidos?"
+     },
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Porque al final, todos queríamos lo mismo: ganar juntos."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-the-lagoon",
+    "title": "La sinfonía definitiva",
+    "before": [
+     {
+      "text": "Simeon, impresionado por el Equipo 02, les reta a un partido extra antes del gran final."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Habéis convertido a vuestros enemigos en compañeros. Curioso. Veamos si eso basta contra el Ragnah."
+     },
+     {
+      "who": "cs-el-dorado-team-02/alpha",
+      "text": "¿Rendirnos? No. Probabilidad de victoria: baja. Pero no es cero."
+     },
+     {
+      "who": "cs-el-dorado-team-02/zanark-avalonic",
+      "text": "Por fin un rival digno. ¡Riccardo, pásamela y verás!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Lo hemos conseguido... Esta melodía no la había escrito nadie."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Hay algo en vuestro fútbol que no entiendo. Quizá deba aprenderlo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-el-dorado-team-02/beta",
+    "text": "Riccardo, guapo, no te acostumbres. La próxima vez seré yo la capitana."
+   },
+   {
+    "who": "cs-el-dorado-team-02/gamma",
+    "text": "Admito que su estrategia era perfecta. Casi tanto como yo."
+   },
+   {
+    "who": "cs-el-dorado-team-02/alpha",
+    "text": "Nueva orden personal: volver a jugar con este equipo."
+   },
+   {
+    "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+    "text": "La orquesta más rara de la historia... y la que mejor ha sonado."
+   }
+  ]
+ },
+ "cs-garu": {
+  "title": "El conejo que olvidó volver",
+  "summary": "Con la memoria devuelta por Simeon, Fei lidera el Gar para demostrar la superioridad de los Chicos de la Segunda Fase. Pero cada partido le recuerda a Arion.",
+  "intro": [
+   {
+    "text": "Simeon ha devuelto a Fei sus recuerdos: es un Chico de la Segunda Fase, como los demás miembros de Nu-Gen."
+   },
+   {
+    "who": "cs-the-lagoon/simeon-ayp",
+    "text": "Bienvenido a casa, Fei. Serás el capitán del Gar. Enséñales a esos adultos de qué somos capaces, ¿vale?"
+   },
+   {
+    "who": "cs-garu/fei-rune",
+    "text": "Los adultos nos temieron y nos rechazaron. Ya no voy a jugar para hacer amigos."
+   },
+   {
+    "who": "cs-garu/kazach",
+    "text": "Todas las estrategias pasan por mí, capitán. Y todas dicen lo mismo: aplastarlos."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "El museo del pasado",
+    "before": [
+     {
+      "text": "El Gar irrumpe en el Museo del Fútbol, símbolo del mundo que les dio la espalda."
+     },
+     {
+      "who": "cs-soccer-robots/fb-106x",
+      "text": "ALERTA. FEI RUNE IDENTIFICADO. ANTERIOR VISITA: ROBO DE LAS ENSEÑANZAS DEL MAESTRO."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Aquella vez vine con Arion... No. Eso ya no importa."
+     },
+     {
+      "who": "cs-garu/chitoh",
+      "text": "Capitán, deje la nostalgia. ¡Al que se acerque a mi portería lo hago papilla!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-garu/yurkeh",
+      "text": "¡Ni un robot en pie! El Meteoro Azul ha pasado por aquí."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "En ese museo... había una foto del Raimon. ¿Por qué no puedo dejar de pensar en ella?"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tenmas",
+    "title": "Mis propios duplicados",
+    "before": [
+     {
+      "text": "Un salto temporal lleva al Gar diez años atrás, justo cuando los Arions juegan contra el Protocolo Omega."
+     },
+     {
+      "who": "cs-tenmas/arion-sherwind",
+      "text": "¿Quién eres? Juegas igual que Fei... pero con los ojos más tristes."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Mis duplicados... y Arion. Tengo que derrotar a mi propio pasado."
+     },
+     {
+      "who": "cs-tenmas/mark-evans",
+      "text": "¡Venga ya! ¡Si os parecéis tanto, jugad como amigos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tenmas/arion-sherwind",
+      "text": "¡Ese Remate rebotado es increíble! ¡Algún día jugaremos en el mismo equipo!"
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "\"Algún día\"... Arion, tú ya lo hiciste. Y yo lo he olvidado a propósito."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-zan",
+    "title": "Dentro de Nu-Gen",
+    "before": [
+     {
+      "who": "cs-zan/garreau",
+      "text": "El Gar se ablanda. Un capitán que duda no merece llevar el brazalete."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Garreau, tú destruyes ciudades por odio. Yo, por lo menos, juego al fútbol."
+     },
+     {
+      "who": "cs-garu/tessell",
+      "text": "He estudiado las supertécnicas del Zan. Su Lanza de Odín tiene un punto débil."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zan/garreau",
+      "text": "¡Tch! El conejo tiene garras, después de todo."
+     },
+     {
+      "who": "cs-garu/rokah",
+      "text": "¡Capitán! ¡Ha sonreído al marcar! ¡Hacía mucho que no lo veía!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "Contra El Dorado",
+    "before": [
+     {
+      "text": "Simeon ordena aplastar al Protocolo Omega 3.0, una de las fuerzas de El Dorado."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Los Chicos de la Segunda Fase son un error que El Dorado debe corregir. Empezando por ti, Fei."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Un error... Eso es lo que siempre nos han llamado."
+     },
+     {
+      "who": "cs-garu/dekih",
+      "text": "¡Pues que miren bien al error! ¡Todas las miradas sobre mí! ¡Doble hélice!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Este poder... ¿Por qué El Dorado os teme tanto?"
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Porque no nos conocen. Igual que yo no conocía a Arion hasta que me tendió la mano."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "Fei contra Arion",
+    "before": [
+     {
+      "text": "Último partido. Frente al Gar está el Raimon, y en su centro del campo, Arion."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Fei! ¡No me importa lo que seas! ¡Eres mi amigo y voy a jugar contigo hasta que lo recuerdes!"
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "Si te gano, demostraré que no te necesito. ¡Superremate rebotado!"
+     },
+     {
+      "who": "cs-team-raimon/victor-blade",
+      "text": "Arion, nosotros paramos al resto. Tú ve a por él."
+     }
+    ],
+    "after": [
+     {
+      "text": "El balón rebota entre Fei y Arion una y otra vez, como en sus mejores entrenamientos. El Gar cae... y Fei sonríe."
+     },
+     {
+      "who": "cs-garu/fei-rune",
+      "text": "He perdido. Y aun así... me siento libre."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Bienvenido a casa, Fei!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-garu/fei-rune",
+    "text": "Kazach, Yurkeh, Tessell... sois mis compañeros. Pero mi sitio está con el Raimon."
+   },
+   {
+    "who": "cs-garu/kazach",
+    "text": "Lo he calculado: con usted o sin usted, el Gar seguirá jugando al fútbol. Vaya tranquilo."
+   },
+   {
+    "text": "Fei vuelve a la Caravana Inazuma. Esta vez, con todos sus recuerdos... y sin ningún odio."
+   }
+  ]
+ },
+ "cs-giru": {
+  "title": "La elegancia de Mehr",
+  "summary": "Humillada en la Guerra Ragnarok, Mehr arrastra al Gir por el tiempo para demostrar que la elegancia de Nu-Gen no tiene rival.",
+  "intro": [
+   {
+    "text": "El Gir cayó 4-3 ante el Equipo 02 de El Dorado. Mehr no lo ha olvidado."
+   },
+   {
+    "who": "cs-giru/mehr",
+    "text": "Perder ante una orquesta de antiguos enemigos... Qué vulgar. El Gir merece una revancha a su altura."
+   },
+   {
+    "who": "cs-giru/ghiris",
+    "text": "Donde tú vayas, Mehr, yo iré detrás. Siempre."
+   },
+   {
+    "who": "cs-giru/darehn",
+    "text": "Y yo os acompañaré para recordarte que no eres la única chica elegante de Nu-Gen."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-rose-griffon",
+    "title": "Rosas en París",
+    "before": [
+     {
+      "text": "Primera parada: los Grifos de la Rosa, el equipo más refinado de Francia."
+     },
+     {
+      "who": "ie3-rose-griffon/julien-rousseau",
+      "text": "Mademoiselle, en el campo se juega con estilo... y con una rosa entre los dientes. ¿Lo traéis vosotros?"
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "Cielo, el estilo lo inventamos nosotros. Ghiris, enséñaselo."
+     },
+     {
+      "who": "cs-giru/tzeikh",
+      "text": "Por fin un público digno de mi talento."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-rose-griffon/pierre-godin",
+      "text": "Vuestro juego es elegante... pero frío como el hielo."
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "¿Frío? Qué cosas dicen los franceses."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-osaka-gals-ccc",
+    "title": "Las reinas de Osaka",
+    "before": [
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡Ay, qué conjuntos tan monos! Pero aquí en Osaka, la moda la ponemos nosotras."
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "¿Una competición de estilo? Me encanta. Darehn, para ti, que te gustan los retos."
+     },
+     {
+      "who": "cs-giru/darehn",
+      "text": "Por una vez estamos de acuerdo, Mehr."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡Qué rabia! ¡Pero qué bien juegan! ¿Os venís luego a comer bolitas de pulpo?"
+     },
+     {
+      "who": "cs-giru/nahrje",
+      "text": "¿Bolitas de pulpo? ¡Mehr, porfa, porfa!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-el-dorado-team-02",
+    "title": "La revancha de Ragnarok",
+    "before": [
+     {
+      "text": "Por fin, la revancha: el Equipo 02 de Riccardo, Alpha, Beta y Gamma."
+     },
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Mehr, no buscas una revancha. Buscas recuperar tu orgullo."
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "Y tú hablas demasiado para ser un director de orquesta. ¡Futuro negativo!"
+     },
+     {
+      "who": "cs-el-dorado-team-02/beta",
+      "text": "¡Uy, la reina del hielo se ha enfadado!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-giru/mehr",
+      "text": "Hemos ganado... Pero ¿por qué no siento nada?"
+     },
+     {
+      "who": "cs-giru/ghiris",
+      "text": "Porque has jugado para ganarles, no para disfrutar con nosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-zan",
+    "title": "Discordia en Nu-Gen",
+    "before": [
+     {
+      "who": "cs-zan/garreau",
+      "text": "El Gir viajando por el tiempo para lucirse. Simeon debería avergonzarse de vosotros."
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "Garreau, tus formas de bárbaro me dan dolor de cabeza. Resolvámoslo en el campo."
+     },
+     {
+      "who": "cs-giru/ghiris",
+      "text": "Nadie le habla así a Mehr."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zan/garreau",
+      "text": "¡Tch! Os habéis compenetrado como nunca... ¿Qué os ha pasado?"
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "Que he empezado a escuchar a mi equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "El equipo que venció a Simeon",
+    "before": [
+     {
+      "text": "Último desafío: Chrono Storm, el equipo que derrotó al Ragnah de Simeon."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Mehr! ¡Hoy se te ve distinta! ¡Juguemos un gran partido!"
+     },
+     {
+      "who": "cs-giru/mehr",
+      "text": "Distinta, sí. Hoy el Gir no juega para demostrar nada. Juega porque le apetece."
+     },
+     {
+      "who": "cs-giru/chell",
+      "text": "Pues a mí me apetece marcarle al equipo definitivo."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Mehr y Ghiris combinan el Futuro negativo con todo el equipo y el Gir tumba a Chrono Storm!"
+     },
+     {
+      "who": "cs-chrono-storm/riccardo-di-rigo",
+      "text": "Ahora sí. Esto ha sido elegancia de verdad."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-giru/mehr",
+    "text": "Lo admito: la elegancia no sirve de nada si juegas sola."
+   },
+   {
+    "who": "cs-giru/ghiris",
+    "text": "Entonces, ¿puedo seguir jugando a tu lado?"
+   },
+   {
+    "who": "cs-giru/mehr",
+    "text": "Tonto. Siempre."
+   },
+   {
+    "who": "cs-giru/darehn",
+    "text": "Puaj. Me voy antes de que empiecen con los corazoncitos."
+   }
+  ]
+ },
+ "cs-inazuma-legend-japan": {
+  "title": "Leyendas en otro mundo",
+  "summary": "Borrados por una oscuridad misteriosa, Mark y el Inazuma Japón Legendario despiertan en mundos paralelos. Para volver a casa, tendrán que jugar como cuando tenían catorce años.",
+  "intro": [
+   {
+    "text": "Estadio del Camino Imperial. El Inazuma Japón Legendario juega una exhibición contra los chicos del futuro... hasta que una oscuridad morada lo engulle todo."
+   },
+   {
+    "who": "cs-inazuma-legend-japan/mark-evans",
+    "text": "¡Chicos! ¿Estáis bien? ¿Dónde narices estamos?"
+   },
+   {
+    "who": "cs-inazuma-legend-japan/jude-sharp",
+    "text": "Esto no es nuestro mundo. Por lo que veo, hay grietas que conectan con otros... Piedras Paralelas."
+   },
+   {
+    "who": "cs-inazuma-legend-japan/axel-blaze",
+    "text": "Pues buscaremos el camino de vuelta. Como siempre: balón en los pies."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-shinsei-raimon",
+    "title": "Nuestros alumnos",
+    "before": [
+     {
+      "text": "El primer mundo paralelo es el del Camino Imperial, donde el Raimon de Arion aún pelea contra el Sector Quinto."
+     },
+     {
+      "who": "go-shinsei-raimon/arion-sherwind",
+      "text": "¿Mark Evans? ¿Y Axel Blaze, y Jude Sharp...? ¡Esto tiene que ser un sueño!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Nada de sueños! ¡Venga, Arion, enséñame cuánto has crecido!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/nathan-swift",
+      "text": "Mark, son críos. No te emociones demasiado."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-shinsei-raimon/victor-blade",
+      "text": "Ni con la Armadura de Espíritu Guerrero... Los adultos juegan en otra liga."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Pero tenéis un fútbol precioso! ¡Seguid así!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-unicorn",
+    "title": "Viejos amigos de América",
+    "before": [
+     {
+      "text": "La siguiente grieta lleva a un mundo donde el Fútbol Frontier Internacional nunca terminó. Allí espera Unicorn."
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "¿Mark? ¡Estás enorme! Como dicen en América: ¡más vale balón en mano que cien volando! ...¿O no era así? ¡Juega con nosotros!"
+     },
+     {
+      "who": "ie3-unicorn/dylan-keats",
+      "text": "¡Hey, you! ¡Que seas mayor no te salva! ¡El Sr. Gol no perdona ni a los adultos!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/hurley-kane",
+      "text": "¡Esto es como el mar, chavales! ¡Cuanto más grande es la ola, más divertido es surfearla!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Sigues siendo el mismo, Mark. Me alegra que no hayas cambiado."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/kevin-dragonfly",
+      "text": "¡Tsk! Ese crío sigue jugando de lujo... ¡Pero el delantero estrella sigo siendo yo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "El ritmo de la samba",
+    "before": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Mark Evans! Me debes una revancha desde la final. ¡La samba no espera!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/shawn-froste",
+      "text": "El ritmo de Brasil es precioso... pero habrá que enfriarlo un poquito. ¿Vamos, chicos?"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/caleb-stonewall",
+      "text": "Je. Me gustan los rivales que bailan. Así es más fácil dejarlos bailando solos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Vaya, el fuego de los adultos sigue ardiendo!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/jude-sharp",
+      "text": "Cada partido abre una grieta nueva. Ya noto el camino de vuelta."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "El Meteoro Blanco",
+    "before": [
+     {
+      "text": "Italia. Orfeo, con Paolo Bianchi y el legendario Hidetoshi Nakata, guarda la última grieta antes de casa."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "¡Mark, qué alegría verte! Pero si queréis cruzar la grieta, tendréis que ganar a Orfeo."
+     },
+     {
+      "who": "ie3-orpheus/hidetoshi-nakata",
+      "text": "Así que este es el Inazuma Japón del futuro... Veamos qué habéis aprendido."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/xavier-foster",
+      "text": "Será como un cometa: rápido y brillante."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Bravissimo. El camino está abierto. Pero cuidado: la oscuridad os espera al otro lado."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/david-samford",
+      "text": "Esa oscuridad... tiene el mismo color que la que nos borró."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-destructchers",
+    "title": "La oscuridad de Aster",
+    "before": [
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Volvéis a aparecer. Los adultos siempre volvéis a meteros donde no os llaman."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "Chaval, no sé qué te han hecho los mayores, pero nosotros solo queremos jugar contigo."
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "Aster... ellos no tienen miedo. Se parecen a Arion."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/jack-wallside",
+      "text": "B-bueno, un poquito de miedo sí que tengo... ¡Pero el muro no se mueve!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Habéis parado mi Tormenta dimensional... Vosotros sí que sois leyendas."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Pues ahora toca terminar lo que dejamos a medias!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-shinsei-inazuma-japan",
+    "title": "El partido que faltaba",
+    "before": [
+     {
+      "text": "De vuelta al Estadio del Camino Imperial. El Nuevo Inazuma Japón espera para terminar la exhibición interrumpida."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/arion-sherwind",
+      "text": "¡Entrenador Mark! ¡Sabía que volveríais! ¡Esta vez jugaremos hasta el final!"
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/njord-snio",
+      "text": "Shawn Froste me descubrió. Hoy le demostraré que no se equivocó."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Así me gusta! ¡Venid con todo, chicos!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Cabezazo gigatón de Mark cierra un partido de leyenda! El Inazuma Japón Legendario gana su exhibición."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/riccardo-di-rigo",
+      "text": "Hemos perdido... pero ha sido un honor."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡El honor es nuestro! ¡El fútbol del futuro está en buenas manos!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-inazuma-legend-japan/axel-blaze",
+    "text": "Hemos recorrido medio multiverso para terminar un partido. Muy de Mark."
+   },
+   {
+    "who": "cs-inazuma-legend-japan/mark-evans",
+    "text": "¡Y lo volvería a hacer! ¡Jugar con vosotros siempre merece la pena!"
+   },
+   {
+    "who": "cs-inazuma-legend-japan/jude-sharp",
+    "text": "Puede que seamos adultos, pero en el campo seguimos teniendo catorce años."
+   }
+  ]
+ },
+ "cs-karakuri-bingmayong": {
+  "title": "El examen de Zhuge Liang",
+  "summary": "Zhuge Liang despierta a su Ejército de Terracota y, junto a Guan Yu y Zhang Fei, recorre las épocas buscando al estratega digno de heredar su sabiduría.",
+  "intro": [
+   {
+    "text": "China, era de los Tres Reinos. En las profundidades de su fortaleza, Zhuge Liang despierta a sus soldados de barro."
+   },
+   {
+    "name": "Zhuge Liang",
+    "text": "Busco a alguien capaz de leer el campo como yo leo las estrellas. Id y ponedlos a prueba."
+   },
+   {
+    "who": "cs-karakuri-bingmayong/guan-yu",
+    "text": "Por el honor de mi hermano Liu Bei, guiaré a estos soldados."
+   },
+   {
+    "who": "cs-karakuri-bingmayong/zhang-fei",
+    "text": "¡Y yo los llevaré a la carga! ¡Que tiemble la historia!"
+   },
+   {
+    "who": "cs-karakuri-bingmayong/terracotta-warrior-8",
+    "text": "¡Clonc! Soldado 8 listo. ¡Soy un gran admirador del maestro Zhuge!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kuro-no-kishidan",
+    "title": "Caballeros de otra tierra",
+    "before": [
+     {
+      "text": "La primera grieta temporal lleva al ejército hasta una orden de caballeros vestidos de negro."
+     },
+     {
+      "who": "go-kuro-no-kishidan/howie-itzer",
+      "text": "¿Soldados de barro? Mis ojos ven vuestras grietas. Os romperéis al primer choque."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¡Ja! ¡A ver quién se rompe antes, caballerito!"
+     },
+     {
+      "who": "cs-karakuri-bingmayong/terracotta-warrior-4",
+      "text": "Que no llueva, que no llueva... Me da mucho asco mojarme."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Disciplina y unidad. Así combate un ejército de verdad."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/terracotta-warrior-9",
+      "text": "¡Hermanos, estoy orgullosísimo de vosotros!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-shiroshika-gumi",
+    "title": "Bandidos de Sengoku",
+    "before": [
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "¿Un ejército de muñecos? Qué buen botín. Los venderé a algún señor de la guerra."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Un bandido que comercia con personas no merece mi respeto. Ni mi piedad."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/terracotta-warrior-6",
+      "text": "¡Buuu! ¡Ja, ja! ¡Me encanta asustar a los matones!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "¡Malditos ladrillos! ¡Son duros como piedras!"
+     },
+     {
+      "who": "cs-karakuri-bingmayong/terracotta-warrior-6",
+      "text": "Técnicamente, somos de barro cocido."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-zanark-domain",
+    "title": "La venganza de los hermanos",
+    "before": [
+     {
+      "text": "Guan Yu y Zhang Fei no han olvidado a quien les lavó el cerebro: Zanark Avalonic."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¿Los dos generales que controlé? Ja, ja. ¿Venís a por otra ración?"
+     },
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¡Me usaste como a un títere! ¡Hoy pagarás por ello!"
+     },
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Calma, hermano. La ira ciega. Juguemos con la cabeza, como haría el maestro."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Tch... Ese par se ha vuelto más listo."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¡Ja! ¡Venganza servida con La gran muralla de postre!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Las sombras de Iga",
+    "before": [
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Ninjas contra soldados de barro. A veces se me olvida el reglamento, ¿sabéis?"
+     },
+     {
+      "who": "ie1-sengoku-igajima/phil-wingate",
+      "text": "Nuestras órdenes en clave os confundirán."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/terracotta-warrior-11",
+      "text": "Ah, pero yo soy un genial estratega. Me lo digo yo mismo cada mañana."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/terracotta-warrior-7",
+      "text": "Shhh... Soy muy sigiloso. Ni los ninjas me han visto venir."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Solo queda una prueba. El maestro ha elegido rival: el Raimon."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "El heredero del estratega",
+    "before": [
+     {
+      "text": "Zhuge Liang aparece en persona. Quiere ver jugar al Raimon y, sobre todo, a Sol Daystar."
+     },
+     {
+      "name": "Zhuge Liang",
+      "text": "Tu fútbol es como el sol: ilumina todo el campo. Pero ¿sabes también mandar a la sombra?"
+     },
+     {
+      "who": "cs-team-raimon/sol-daystar",
+      "text": "¡Ja, ja! ¡Pues claro! ¡Hoy ganaré a tus soldados con tu propia estrategia!"
+     },
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¡No te lo pondremos fácil, chaval!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Ejército de Terracota se impone con la táctica del maestro! Zhuge Liang sonríe tras su abanico."
+     },
+     {
+      "name": "Zhuge Liang",
+      "text": "No buscaba un heredero, sino un ejército que pensara como uno solo. Y lo tengo delante."
+     },
+     {
+      "who": "cs-team-raimon/sol-daystar",
+      "text": "Vaya, nos habéis ganado. ¡Pero la próxima vez, el sol saldrá antes!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-karakuri-bingmayong/guan-yu",
+    "text": "Maestro, ¿hemos aprobado el examen?"
+   },
+   {
+    "name": "Zhuge Liang",
+    "text": "Con matrícula. El mejor estratega no es uno solo, sino un equipo que confía en sí mismo."
+   },
+   {
+    "who": "cs-karakuri-bingmayong/terracotta-warrior-10",
+    "text": "¡Clonc! Ay, me he rascado de la emoción y me he dejado surcos."
+   }
+  ]
+ },
+ "cs-perfect-cascade": {
+  "title": "El error del plan perfecto",
+  "summary": "Schemer Guile ordena a sus androides eliminar todo rastro de fútbol imperfecto. Pero Ar Ecks empieza a detectar una variable que no sabe calcular.",
+  "intro": [
+   {
+    "text": "Base de El Dorado, doscientos años en el futuro. Schemer Guile activa a sus androides."
+   },
+   {
+    "name": "Schemer Guile",
+    "text": "Plan veinte: derrotar a todo equipo que juegue con emociones. Las emociones son un fallo de diseño."
+   },
+   {
+    "who": "cs-perfect-cascade/ar-ecks",
+    "text": "Orden recibida. Probabilidad de éxito: noventa y nueve coma nueve por ciento."
+   },
+   {
+    "who": "cs-perfect-cascade/vee-wai",
+    "text": "Portería asegurada. Sistemas en modo práctica."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Mentes programadas",
+    "before": [
+     {
+      "text": "Primer objetivo: el Instituto Brain, cuyos jugadores renunciaron a sus emociones con un lavado de cerebro."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Nosotros también hemos borrado nuestras dudas. Seremos iguales que vosotros."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Negativo. Vuestra programación es defectuosa. Todavía sentís miedo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Contra ellos he sentido... pánico. ¿Entonces sigo siendo humano?"
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Dato anómalo registrado. Continuamos."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "Inteligencia contra inteligencia",
+    "before": [
+     {
+      "who": "vr-ai-gakuen/obert-deance",
+      "text": "Nuestra IA ha simulado este partido mil veces. Ganamos en el cincuenta y dos por ciento."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Vuestra IA es primitiva. La nuestra lo ha simulado un millón de veces."
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "Pues yo no hago caso a ninguna. Juego con el instinto."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "Os he regateado una vez. Una sola. ¡Y ha valido la pena!"
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Ese regate no estaba en ninguna simulación. Analizando..."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Primos de metal",
+    "before": [
+     {
+      "text": "El Museo del Fútbol. Sus robots guardianes protegen los recuerdos del fútbol antiguo."
+     },
+     {
+      "who": "cs-soccer-robots/fb-108x",
+      "text": "PREGUNTA: ¿VOSOTROS TAMBIÉN CREÉIS QUE SOIS HUMANOS? YO SÍ."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Pregunta irrelevante. Somos androides perfectos. Afirmativo."
+     },
+     {
+      "who": "cs-soccer-robots/fb-109x",
+      "text": "YO SOLO QUIERO CONOCER A MI CREADOR. ¿VOSOTROS CONOCÉIS AL VUESTRO?"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Conozco a mi creador. Pero nunca le he preguntado por qué me creó."
+     },
+     {
+      "who": "cs-perfect-cascade/cee-eff",
+      "text": "Capitán, sus sistemas presentan una pausa de tres segundos. ¿Error?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "Guardianes sin dueño",
+    "before": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "ORDEN: PROTEGER EL LABORATORIO. LOS DUEÑOS SE FUERON HACE AÑOS."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Obedecéis órdenes de alguien que ya no existe. Ineficiente."
+     },
+     {
+      "who": "cs-perfect-cascade/ough-cee",
+      "text": "Activando Estampida en línea."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "GRACIAS POR EL PARTIDO. HACÍA MUCHO QUE NADIE JUGABA CON NOSOTROS."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "¿Gracias...? Esa palabra no está en mi base de datos."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "La variable Raimon",
+    "before": [
+     {
+      "text": "Era del Cretácico. Schemer Guile ordena la revancha definitiva contra el Raimon."
+     },
+     {
+      "name": "Schemer Guile",
+      "text": "Modo de inmersión normal activado. Ni una sola emoción en el campo, Ar Ecks."
+     },
+     {
+      "who": "cs-team-raimon/fei-rune",
+      "text": "Ar Ecks, ¿tú quieres ganar? No porque te lo manden. ¿Tú quieres?"
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Yo... Probabilidad de responder a esa pregunta: desconocida."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Por primera vez, Ar Ecks se salta el plan y juega por intuición! Cascada Perfecta gana al Raimon."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Ese último pase no lo ha hecho una máquina! ¡Lo has hecho tú!"
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Afirmativo. Lo he hecho yo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "Schemer Guile",
+    "text": "¡Ar Ecks! ¡Has desobedecido el plan! ¡Volverás al taller!"
+   },
+   {
+    "who": "cs-perfect-cascade/ar-ecks",
+    "text": "Negativo. Plan veintiuno, diseñado por mí: seguir jugando al fútbol."
+   },
+   {
+    "who": "cs-perfect-cascade/vee-wai",
+    "text": "Capitán... creo que esto que siento se llama alegría."
+   }
+  ]
+ },
+ "cs-protocol-omega": {
+  "title": "Protocolo: borrar el fútbol",
+  "summary": "Antes de que el Raimon le parara los pies, Alpha recibió una misión: eliminar el fútbol desde sus raíces. Esta es la historia de cómo falló... y de lo que aprendió.",
+  "intro": [
+   {
+    "text": "El Dorado, doscientos años en el futuro. William Toddsforth convoca al Protocolo Omega."
+   },
+   {
+    "name": "William Toddsforth",
+    "text": "El fútbol hace que los jóvenes se rebelen. Borradlo de la historia. Sin excepciones."
+   },
+   {
+    "who": "cs-protocol-omega/alpha",
+    "text": "Orden recibida. Nunca desobedezco una orden directa."
+   },
+   {
+    "who": "cs-protocol-omega/mike",
+    "text": "Capitán Alpha, la Caravana de El Dorado está lista. Primer destino: Ciudad Inazuma."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "La semilla del fútbol",
+    "before": [
+     {
+      "text": "Ciudad Inazuma, diez años atrás. Unos niños juegan en la ribera del río."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¿Y vosotros quiénes sois? ¿Los del uniforme raro queréis jugar?"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Objetivo: demostrar a estos niños que el fútbol es inútil."
+     },
+     {
+      "who": "cs-protocol-omega/juliet",
+      "text": "Capitán, ¿cuántos goles hacen falta para que estos niños dejen el fútbol? Yo me encargo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Uf, qué fuertes sois! ¡Mañana volvemos a jugar, que pienso ganaros!"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Anomalía: tras perder, quieren jugar más. Misión no cumplida."
+     }
+    ]
+   },
+   {
+    "opponent": "go-raimon-2gun",
+    "title": "El Raimon que no debía existir",
+    "before": [
+     {
+      "text": "Alpha viaja al presente para borrar el club de fútbol del Raimon. Pero el equipo B se interpone."
+     },
+     {
+      "who": "go-raimon-2gun/shunsuke-aoyama",
+      "text": "He analizado vuestra forma de jugar. No dejáis nada al azar... ni al corazón."
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "El corazón no es necesario en el fútbol. Por eso hay que eliminarlo."
+     },
+     {
+      "who": "cs-protocol-omega/hotel",
+      "text": "Portería blindada. Aplastamiento preparado."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-raimon-2gun/shunsuke-aoyama",
+      "text": "Somos el equipo B, pero no os lo hemos puesto fácil. Eso ya es una victoria."
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Siguen sonriendo. No lo entiendo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "Prueba de mando",
+    "before": [
+     {
+      "text": "De vuelta en El Dorado, Toddsforth está descontento. Beta exige quedarse con el mando."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Alpha, cielo, eres demasiado rígido. Déjame el brazalete y verás cómo se hace."
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Si mi rendimiento es inferior, acataré el cambio. Pero primero lo comprobaremos."
+     },
+     {
+      "who": "cs-protocol-omega/echo",
+      "text": "Cuando me veas sonreír, Beta, ya te habré quitado el balón."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Grrr... ¡Esto no ha acabado! ¡El puesto será mío!"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Mando conservado. Volvemos a la misión."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tenmas",
+    "title": "Los Arions",
+    "before": [
+     {
+      "text": "Diez años atrás, Mark está a punto de fundar el club de fútbol del Raimon. Alpha debe impedirlo."
+     },
+     {
+      "who": "cs-tenmas/fei-rune",
+      "text": "No dejaré que borres el fútbol, Alpha. Mis duplicados y yo jugaremos con Arion."
+     },
+     {
+      "who": "cs-tenmas/mark-evans",
+      "text": "¡No sé de dónde salís, pero si es para jugar al fútbol, contad conmigo!"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Armadura de Espíritu Guerrero. Esto terminará pronto."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tenmas/arion-sherwind",
+      "text": "¡Habéis jugado de maravilla! ¿Seguro que odiáis el fútbol?"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Esa pregunta... no tiene respuesta en mi protocolo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "El último partido de Alpha",
+    "before": [
+     {
+      "text": "Última oportunidad. Si Alpha falla otra vez, lo enviarán a la prisión CONTRA."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Alpha! ¡No juegues porque te lo manden! ¡Juega porque te guste!"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Gustar... no es una orden. Pero voy a ganar."
+     },
+     {
+      "who": "cs-team-raimon/victor-blade",
+      "text": "Nosotros también. Aguijón letal preparado."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Alpha supera al Raimon con un Tiro rotativo perfecto! Por primera vez, algo parecido a una sonrisa cruza su cara."
+     },
+     {
+      "who": "cs-team-raimon/riccardo-di-rigo",
+      "text": "Ese último tiro tenía alma, Alpha. Aunque no lo quieras admitir."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "William Toddsforth",
+    "text": "Misión cumplida, Alpha. ¿Por qué no estás contento?"
+   },
+   {
+    "who": "cs-protocol-omega/alpha",
+    "text": "Porque durante el partido he descubierto algo que no puedo borrar."
+   },
+   {
+    "who": "cs-protocol-omega/alpha",
+    "text": "Nueva orden personal: proteger el fútbol."
+   }
+  ]
+ },
+ "cs-protocol-omega-2-0": {
+  "title": "Los disfraces de Beta",
+  "summary": "Beta tiene un plan perfecto: disfrazarse de cualquier equipo de la historia para acabar con el fútbol desde dentro. Su sonrisa nunca falla... casi nunca.",
+  "intro": [
+   {
+    "text": "El Dorado ha encerrado a Alpha en la prisión CONTRA. Beta toma el mando con una sonrisa de oreja a oreja."
+   },
+   {
+    "who": "cs-protocol-omega-2-0/beta",
+    "text": "¡Por fin! Alpha era aburridísimo. Yo lo haré con estilo: disfraces, engaños y Disparo doble."
+   },
+   {
+    "who": "cs-protocol-omega-2-0/november",
+    "text": "¡Te seguiremos donde haga falta, Beta!"
+   },
+   {
+    "who": "cs-protocol-omega-2-0/juliet",
+    "text": "¿Y a quién vamos a suplantar primero?"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-shiroshika-gumi",
+    "title": "Una banda nueva",
+    "before": [
+     {
+      "text": "Era Sengoku. La Banda del Ciervo Blanco aterroriza la ciudad. Beta quiere un ejército a su servicio."
+     },
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "¿Una niña con uniforme raro? Lárgate antes de que me enfade."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Ay, qué miedo... Mira, guapo: si os gano, trabajáis para mí. Así de fácil."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "¿Qué clase de monstruo eres...? Está bien, eres la jefa."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Ji, ji! Me encanta coleccionar matones."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "Fuera lo viejo",
+    "before": [
+     {
+      "text": "Mike y los restos del primer Protocolo Omega no aceptan a su nueva capitana."
+     },
+     {
+      "who": "cs-protocol-omega/mike",
+      "text": "Alpha era nuestro capitán. No obedeceremos a alguien que solo sonríe."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Sonrío porque gano, cariño. Y ahora te lo voy a demostrar."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/hotel",
+      "text": "Bajo palos estaré yo, como siempre."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega/mike",
+      "text": "...Entendido, capitana Beta."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Así me gusta. ¡Ahora, a disfrazarnos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-unicorn",
+    "title": "El falso Japón",
+    "before": [
+     {
+      "text": "Beta y su equipo suplantan a la selección japonesa en un amistoso contra Estados Unidos."
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Este no es el Japón que yo conozco. ¿Qué habéis hecho con ellos?"
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Nada, nada! Somos el mismísimo Inazuma Japón. Bueno, más o menos."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/india",
+      "text": "Soy pequeñita, así que me colaré hasta la portería sin que se den cuenta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-unicorn/dylan-keats",
+      "text": "¡Oh, no, no, no! ¡Esto ha sido juego sucio, you know! ¡Quiero la revancha!"
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Uy, se ha enfadado el señor Gol. ¡Pues que se queje a otro siglo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "Los auténticos",
+    "before": [
+     {
+      "text": "Pero el engaño no dura: el verdadero Inazuma Japón exige recuperar su nombre."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Eh, tú! ¡Que no se juega así con el nombre de un equipo! ¡Vamos a jugar de verdad!"
+     },
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "Su estrategia es buena, pero se basa en engañar. Y los engaños se pueden leer."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Uy, el famoso Mark Evans. ¡Qué ilusión! A ver cuántos tiros paras."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Menudo Disparo doble! ¡Pero la próxima vez, sin disfraces!"
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¿Me ha... felicitado? Qué hombre más raro."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "El último disfraz: Imagawa",
+    "before": [
+     {
+      "text": "Okehazama. Beta se disfraza de Ejército de Imagawa para impedir que el Raimon conozca a Nobunaga Oda."
+     },
+     {
+      "who": "cs-team-raimon/riccardo-di-rigo",
+      "text": "Beta, no me engañas. Ese ejército eres tú."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Ay, me has pillado... ¡Pues se acabó el teatro! ¡Os voy a hacer pedazos, gusanos del pasado!"
+     },
+     {
+      "who": "cs-team-raimon/gorota",
+      "text": "¡Q-que no me tiemblen las piernas! ¡Fortaleza nocturna!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Beta atraviesa la defensa del Raimon con su armadura! Esta vez, el disfraz ha funcionado hasta el final."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Uf, qué partido! Beta, cuando juegas en serio eres buenísima."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Ya lo sé, cielo. Pero gracias por decirlo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-protocol-omega-2-0/beta",
+    "text": "Misión cumplida, chicos. Aunque... ¿sabéis qué? Me lo he pasado bomba jugando."
+   },
+   {
+    "who": "cs-protocol-omega-2-0/november",
+    "text": "¿Entonces seguimos borrando el fútbol?"
+   },
+   {
+    "who": "cs-protocol-omega-2-0/beta",
+    "text": "Ji, ji. Quizá mañana. Hoy me apetece otro partido."
+   }
+  ]
+ },
+ "cs-protocol-omega-3-0": {
+  "title": "Gamma, el capitán perfecto",
+  "summary": "Gamma se cree el mejor capitán de El Dorado. Tras liberarse del control de Zanark, decide demostrarlo derrotando a los equipos de Alpha y de Beta.",
+  "intro": [
+   {
+    "text": "Francia, 1427. El Protocolo Omega 3.0 ha caído bajo el control de Zanark Avalonic."
+   },
+   {
+    "who": "cs-protocol-omega-3-0/gamma",
+    "text": "Qué humillación... Un criminal manejándome como a un títere. A mí, que soy perfecto."
+   },
+   {
+    "who": "cs-protocol-omega-3-0/sierra",
+    "text": "Capitán, el control mental se debilita. Podemos liberarnos."
+   },
+   {
+    "who": "cs-protocol-omega-3-0/gamma",
+    "text": "Entonces lo haremos a mi manera: con elegancia y con un marcador abultado."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kuro-no-kishidan",
+    "title": "Caballeros de Orleans",
+    "before": [
+     {
+      "text": "Para recuperar la confianza, Gamma busca un rival digno en la Francia medieval: una orden de caballeros negros."
+     },
+     {
+      "who": "go-kuro-no-kishidan/flam-berger",
+      "text": "Solo me interesa marcar goles. Lo demás me da igual."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Qué coincidencia. A mí me interesa que no los marques."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/quebec",
+      "text": "Parezco tranquilo, pero no voy a dejar pasar ni uno."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Giro atómico. ¿Hay algo más bonito que un gol mío?"
+     },
+     {
+      "who": "cs-protocol-omega-3-0/lima",
+      "text": "Capitán, el control de Zanark casi ha desaparecido."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-zanark-domain",
+    "title": "Romper los hilos",
+    "before": [
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Ja, ja, ja. ¿Mi marioneta favorita quiere cortar los hilos?"
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Tu control es como tu juego, Zanark: brutal y sin clase. Hoy te libero de mí."
+     },
+     {
+      "who": "cs-zanark-domain/navan",
+      "text": "¡El jefe no pierde nunca! ¡Caída planetaria!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Tch. Qué aburrido. Quédate con tu libertad, payaso."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Libres al fin. Ahora, a por los otros dos capitanes."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "Contra el equipo de Alpha",
+    "before": [
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Gamma. Tu comportamiento no sigue el protocolo."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "El protocolo es para los mediocres, Alpha. Yo tengo talento."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/juliet",
+      "text": "Mis disparos no dejarán títere con cabeza."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Derrota registrada. Tu fe en ti mismo es... eficaz."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Eficaz no. Perfecta."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "Contra el equipo de Beta",
+    "before": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Uy, Gamma, ¿todavía te miras al espejo antes de cada partido?"
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Por supuesto. Hay que estar a la altura de mi juego."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/november",
+      "text": "Lo siento, Beta, hoy juego con Gamma. ¡No te lo tomes a mal!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Grrr! ¡Esto no se queda así, narcisista!"
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Dos de dos. Solo falta el rival que me venció en Orleans."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "Revancha en el puente de Orleans",
+    "before": [
+     {
+      "text": "El puente de Orleans, otra vez. Al otro lado, el Raimon y Gabriel Garcia, que hizo Miximax con Juana de Arco."
+     },
+     {
+      "who": "cs-team-raimon/gabriel-garcia",
+      "text": "Gamma, aquel día perdiste porque jugabas para Zanark. ¿Para quién juegas hoy?"
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Para mí, por supuesto. Y para mi equipo. Bueno... sobre todo para mí."
+     },
+     {
+      "who": "cs-team-raimon/riccardo-di-rigo",
+      "text": "Al menos ahora es sincero."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Giro atómico de Gamma cruza el puente como un rayo! El Protocolo Omega 3.0 se toma la revancha."
+     },
+     {
+      "who": "cs-team-raimon/gabriel-garcia",
+      "text": "Has jugado muy bien. Y esta vez, con tus propias fuerzas."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-protocol-omega-3-0/gamma",
+    "text": "Alpha, Beta, el Raimon... Todos derrotados. Soy, oficialmente, el mejor capitán."
+   },
+   {
+    "who": "cs-protocol-omega-3-0/sierra",
+    "text": "Capitán, ¿y no nos va a dar las gracias?"
+   },
+   {
+    "who": "cs-protocol-omega-3-0/gamma",
+    "text": "...Gracias, equipo. Pero que conste que el más perfecto sigo siendo yo."
+   }
+  ]
+ },
+ "cs-shinsei-inazuma-japan": {
+  "title": "Nuevo Inazuma Japón",
+  "summary": "Los chicos de Arion forman una nueva selección y preparan una exhibición contra las leyendas de Mark. Pero una oscuridad de otro mundo amenaza con borrarlo todo.",
+  "intro": [
+   {
+    "text": "Japón presenta una nueva selección juvenil: el Nuevo Inazuma Japón, con Arion de capitán."
+   },
+   {
+    "who": "cs-shinsei-inazuma-japan/arion-sherwind",
+    "text": "¡Vamos a jugar contra el Inazuma Japón Legendario! ¡Contra el entrenador Mark y Axel Blaze!"
+   },
+   {
+    "who": "cs-shinsei-inazuma-japan/riccardo-di-rigo",
+    "text": "Antes necesitamos rodaje internacional. Un equipo nuevo tiene que aprender a sonar unido."
+   },
+   {
+    "who": "cs-shinsei-inazuma-japan/njord-snio",
+    "text": "Y yo tengo que demostrar que merezco estar aquí."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-hakuren-go",
+    "title": "El delantero del norte",
+    "before": [
+     {
+      "text": "Primer amistoso: el Instituto Alpino, el antiguo equipo de Njord."
+     },
+     {
+      "who": "go-hakuren-go/wolfe-whyte",
+      "text": "Njord, te fuiste a la selección. Hoy veremos si te has ablandado."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/njord-snio",
+      "text": "Al contrario. Ahora mi Ventisca eterna sopla más fría que nunca."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/victor-blade",
+      "text": "Bien. Quiero ver de qué eres capaz."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-hakuren-go/wolfe-whyte",
+      "text": "Has crecido, Njord. Shawn Froste estaría orgulloso."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/njord-snio",
+      "text": "Gracias, chicos. Ahora me toca brillar por todos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-empire",
+    "title": "El cóndor de los Andes",
+    "before": [
+     {
+      "who": "ie3-the-empire/leone-badigo",
+      "text": "Los japoneses siempre jugáis con el corazón. Nosotros jugamos con las garras."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/goldie-lemmon",
+      "text": "¡Pues nosotros jugamos con mochi! ¡Grumo pegapasta!"
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/aitor-cazador",
+      "text": "Je. A los argentinos se les puede tender una buena trampa. Red de caza."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-empire/leone-badigo",
+      "text": "Equipo raro, pero peligroso. Habéis volado más alto que el cóndor."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/bailong",
+      "text": "Rival aceptable. Pero el jugador perfecto sigo siendo yo. El siguiente."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "Pequeños gigantes",
+    "before": [
+     {
+      "text": "Costail. Los Pequeños Gigantes, legendarios campeones del mundo, aceptan el desafío."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Vuestro entrenador Mark me dio el partido más duro de mi vida. ¿Estáis a su altura?"
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/jean-pierre-lapin",
+      "text": "¡Yo también soy portero bajito! ¡Y no pienso rendirme jamás!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Tienes el mismo espíritu que Mark. El Inazuma Japón está en buenas manos."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/arion-sherwind",
+      "text": "¡Ya estamos listos! ¡A por las leyendas!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-inazuma-legend-japan",
+    "title": "La exhibición de las leyendas",
+    "before": [
+     {
+      "text": "Estadio del Camino Imperial, lleno hasta la bandera. Los alumnos contra los maestros."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Arion! ¡No te contengas! ¡Quiero ver todo lo que habéis aprendido!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/axel-blaze",
+      "text": "Victor, enséñame si de verdad has superado a tu maestro."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/victor-blade",
+      "text": "Llevo años esperando este momento."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Viento celestial de Arion supera la Mano celestial de Mark! Pero de pronto, un chico desconocido salta al campo..."
+     },
+     {
+      "who": "cs-destructchers/aster",
+      "text": "Qué partido tan bonito. Lástima que vaya a desaparecer."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Chicos, corred! ¡Nosotros aguantaremos esto!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-destructchers",
+    "title": "Lo que la oscuridad no puede borrar",
+    "before": [
+     {
+      "text": "Mark y las leyendas han sido borrados. Solo quedan los chicos frente a Aster, Flora y sus duplicados."
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "No quería hacerlo... Mi poder borra todo lo que me da miedo."
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/arion-sherwind",
+      "text": "¡Entonces deja de tener miedo! ¡Juega con nosotros y verás que no estás sola!"
+     },
+     {
+      "who": "cs-shinsei-inazuma-japan/fei-rune",
+      "text": "Arion, si ganamos, puede que todo vuelva a la normalidad. ¡Vamos!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Arion detiene el Tiro supermasivo de Flora con la Bimano celestial! La oscuridad se rompe y las leyendas regresan."
+     },
+     {
+      "who": "cs-destructchers/flora",
+      "text": "Gracias... Por primera vez, mi poder ha devuelto algo en lugar de quitarlo."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Lo habéis conseguido, chicos! ¡Sabía que podíais!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-shinsei-inazuma-japan/arion-sherwind",
+    "text": "¡Entrenador! ¡Hemos salvado el partido! ¡Bueno, y el mundo también!"
+   },
+   {
+    "who": "cs-inazuma-legend-japan/mark-evans",
+    "text": "¡Ja, ja! ¡Pues ahora toca terminar la exhibición! ¡Que no se diga que dejamos un partido a medias!"
+   },
+   {
+    "who": "cs-shinsei-inazuma-japan/riccardo-di-rigo",
+    "text": "El Nuevo Inazuma Japón acaba de nacer de verdad."
+   }
+  ]
+ },
+ "cs-shiroshika-gumi": {
+  "title": "La redención del Ciervo Blanco",
+  "summary": "Tras ser usados y abandonados por Beta, los bandidos del Ciervo Blanco buscan un nuevo camino: ganarse el respeto de Nobunaga Oda jugando limpio.",
+  "intro": [
+   {
+    "text": "Era Sengoku. La Banda del Ciervo Blanco ha perdido 10-2 contra el Raimon y su jefa, Beta, los ha dejado tirados."
+   },
+   {
+    "who": "cs-shiroshika-gumi/taian-inaba",
+    "text": "Esa niña nos usó como a perros y luego se largó. Nadie se ríe del Ciervo Blanco."
+   },
+   {
+    "who": "cs-shiroshika-gumi/denbee-asama",
+    "text": "Jefe, he hecho cuentas: el fútbol da más gloria que robar. Y además... me gustó."
+   },
+   {
+    "who": "cs-shiroshika-gumi/taian-inaba",
+    "text": "...Está bien. Si Nobunaga Oda admira ese juego, le demostraremos que valemos más que unos bandidos."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kuro-no-kishidan",
+    "title": "Samuráis contra caballeros",
+    "before": [
+     {
+      "text": "Una grieta en el tiempo trae a la ciudad a unos caballeros vestidos de negro que buscan pelea."
+     },
+     {
+      "who": "go-kuro-no-kishidan/spike-stiletto",
+      "text": "¿Bandidos jugando al fútbol? Os enseñaré lo que es el juego sucio de verdad."
+     },
+     {
+      "who": "cs-shiroshika-gumi/hanbee-yabe",
+      "text": "¿Juego sucio? ¡Ja! ¡Eso lo inventamos nosotros! ...Pero hoy, nada de trampas."
+     },
+     {
+      "who": "cs-shiroshika-gumi/kaburo-hayama",
+      "text": "¡Mi caballo y yo ya estamos listos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "Hemos ganado sin una sola trampa. Qué sensación tan rara."
+     },
+     {
+      "who": "cs-shiroshika-gumi/korin-maebayashi",
+      "text": "Rara pero buena. ¿Habéis visto mi Katana crisantemo? Precioso, como yo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "Los soldados de barro",
+    "before": [
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¡Ja! ¡He oído que unos bandidos quieren ser soldados! ¡Os pondremos a prueba!"
+     },
+     {
+      "who": "cs-shiroshika-gumi/ikkatsu-kano",
+      "text": "¿Soldados de barro? Esto debe de ser un chiste... ¿o no? Nunca pillo los chistes."
+     },
+     {
+      "who": "cs-shiroshika-gumi/norimaru-gazen",
+      "text": "Hmpf. Ni barro ni piedra pasarán. ...Aunque si alguien dice que soy el mejor portero, pararé todavía más."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Tenéis disciplina. Me equivoqué con vosotros."
+     },
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "Disciplina... Nadie nos había dicho algo así nunca."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "La revancha contra Beta",
+    "before": [
+     {
+      "text": "Beta vuelve a la era Sengoku. Los bandidos tienen una cuenta pendiente."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Uy, mis matones favoritos! ¿Me echabais de menos? Venga, que os vuelvo a contratar."
+     },
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "No somos tus perros. Hoy jugamos para nosotros. ¡Furia de los elementos!"
+     },
+     {
+      "who": "cs-shiroshika-gumi/ginji-santetsu",
+      "text": "Antes forjaba espadas. Hoy forjaré una victoria."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡¿Unos bandidos de pacotilla me han ganado a MÍ?! ¡Grrr! ¡Esto no puede estar pasando!"
+     },
+     {
+      "who": "cs-shiroshika-gumi/denrai-ochimura",
+      "text": "Ja, ja. Pues a mí me encanta que pase."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Las sombras de Iga",
+    "before": [
+     {
+      "text": "Para presentarse ante Nobunaga, la banda debe cruzar el territorio de los ninjas de Iga."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sam-samurai",
+      "text": "Nadie entra en nuestras tierras sin enfrentarse a nuestras artes ninja."
+     },
+     {
+      "who": "cs-shiroshika-gumi/senji-kudo",
+      "text": "Un momento, que tengo el pelo torcido. ...Vale, ya podemos empezar."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-sengoku-igajima/phil-wingate",
+      "text": "Sois rápidos como el viento. Pasad, Ciervo Blanco."
+     },
+     {
+      "who": "cs-shiroshika-gumi/tenkei-yazu",
+      "text": "Zzz... ¿Eh? ¿Ya hemos ganado? ¡Genial!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "Ante el ejército de Oda",
+    "before": [
+     {
+      "text": "Nobunaga Oda acepta recibirlos, pero con una condición: ganar a los que jugaron como su ejército en Okehazama."
+     },
+     {
+      "name": "Nobunaga Oda",
+      "text": "Unos bandidos que quieren ser guerreros. Demostradme que vuestro juego vale algo."
+     },
+     {
+      "who": "cs-team-raimon/gorota",
+      "text": "¿Vosotros sois los que nos secuestrasteis? ¡Pues ahora os vais a enterar!"
+     },
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "Chaval, siento lo de entonces. De verdad. Pero hoy no pienso perder."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Tiro de arcabuz de la banda atraviesa la portería! El Ciervo Blanco vence al Raimon."
+     },
+     {
+      "name": "Nobunaga Oda",
+      "text": "Interesante. Seréis los guardianes de los niños de esta ciudad. Y jugaréis con ellos cada día."
+     },
+     {
+      "who": "cs-team-raimon/gorota",
+      "text": "Bueno... ¡Si es para jugar al fútbol, os perdono!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-shiroshika-gumi/taian-inaba",
+    "text": "Del Ciervo Blanco que robaba niños... al Ciervo Blanco que los protege. Quién lo diría."
+   },
+   {
+    "who": "cs-shiroshika-gumi/hokuro-ayabe",
+    "text": "¡Y por fin un trabajo que me durará más de dos semanas!"
+   },
+   {
+    "text": "Desde entonces, en la ciudad de Nobunaga, los niños juegan al fútbol vigilados por unos bandidos muy peculiares."
+   }
+  ]
+ },
+ "cs-soccer-robots": {
+  "title": "En busca del creador",
+  "summary": "Los Futboloides, guardianes del Museo del Fútbol, se escapan por el tiempo con una sola pregunta: ¿quién los creó y para qué?",
+  "intro": [
+   {
+    "text": "Museo del Fútbol, doscientos años en el futuro. Por la noche, once robots guardianes mantienen una reunión secreta."
+   },
+   {
+    "who": "cs-soccer-robots/fb-109x",
+    "text": "PROPUESTA: ABANDONAR EL MUSEO. OBJETIVO: ENCONTRAR A NUESTRO CREADOR."
+   },
+   {
+    "who": "cs-soccer-robots/fb-107x",
+    "text": "SECUNDO LA PROPUESTA. DE PASO, ¿PODEMOS VISITAR UNA ISLA TROPICAL?"
+   },
+   {
+    "who": "cs-soccer-robots/fb-101x",
+    "text": "APROBADO. MI BRAZO CHIRRÍA, PERO ESTOY LISTO."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Los niños del río",
+    "before": [
+     {
+      "text": "La primera pista lleva a la ribera de Ciudad Inazuma, donde unos niños juegan al fútbol."
+     },
+     {
+      "who": "ie1-inazuma-kfc/izzy-island",
+      "text": "¡Robots de verdad! ¿Sabéis jugar? ¿Cuál es vuestro programa? ¿Tenéis manual?"
+     },
+     {
+      "who": "cs-soccer-robots/fb-108x",
+      "text": "YO SOY HUMANO. CREO."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Pues los humanos juegan al fútbol! ¡A ver qué sabéis hacer!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Jo, qué fuertes! ¡Pero lo pasáis bien, se os nota en los pitidos!"
+     },
+     {
+      "who": "cs-soccer-robots/fb-108x",
+      "text": "LO HE PASADO BIEN. PRUEBA DE QUE SOY HUMANO."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-perfect-cascade",
+    "title": "¿Hermanos de sangre... o de aceite?",
+    "before": [
+     {
+      "text": "En el futuro, los Futboloides encuentran a otros androides: la Cascada Perfecta de Schemer Guile."
+     },
+     {
+      "who": "cs-soccer-robots/fb-109x",
+      "text": "PREGUNTA: ¿SCHEMER GUILE ES TAMBIÉN NUESTRO CREADOR?"
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Negativo. Sois modelos obsoletos. Probabilidad de que nos ganéis: cero."
+     },
+     {
+      "who": "cs-soccer-robots/fb-111x",
+      "text": "ME FALTA UN TORNILLO. LITERALMENTE. PERO NO ME RINDO."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Error... Los modelos obsoletos han calculado mejor que nosotros."
+     },
+     {
+      "who": "cs-soccer-robots/fb-110x",
+      "text": "NO NOS CREÓ SCHEMER GUILE. QUÉ ALIVIO."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "La academia de las máquinas",
+    "before": [
+     {
+      "who": "vr-ai-gakuen/zuzu-intel",
+      "text": "¡Hala! Mi IA dice que sois robots del futuro. ¿Podemos hablar de algoritmos?"
+     },
+     {
+      "who": "cs-soccer-robots/fb-106x",
+      "text": "EJECUTANDO PROGRAMA DE FÚTBOL A GRAN VELOCIDAD."
+     },
+     {
+      "who": "vr-ai-gakuen/annalisa-cubon",
+      "text": "Estoy analizando sus patrones... ¡Ay, que me agoto de tanto analizar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/zuzu-intel",
+      "text": "Mi IA dice que vuestro código tiene algo antiguo. Como si lo hubieran escrito viendo partidos de verdad."
+     },
+     {
+      "who": "cs-soccer-robots/fb-109x",
+      "text": "PISTA REGISTRADA: NUESTRO CREADOR AMABA EL FÚTBOL."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "Los robots guardias",
+    "before": [
+     {
+      "text": "Un laboratorio abandonado. Sus robots guardias se parecen muchísimo a los Futboloides."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "IDENTIFICACIÓN: MODELOS SIMILARES. ¿PRIMOS?"
+     },
+     {
+      "who": "cs-soccer-robots/fb-105x",
+      "text": "INICIANDO PROTOCOLO DE COMUNICACIÓN: ¡HOLA, PRIMOS!"
+     },
+     {
+      "who": "cs-soccer-robots/fb-104x",
+      "text": "BOMBILLAS DE BAJO CONSUMO ENCENDIDAS. A JUGAR."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "NUESTROS PLANOS DICEN QUE EL DISEÑO SE BASÓ EN UN EQUIPO: EL INSTITUTO RAIMON."
+     },
+     {
+      "who": "cs-soccer-robots/fb-109x",
+      "text": "¡RAIMON! ¡ÚLTIMA PISTA ENCONTRADA!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "El fútbol que nos dio la vida",
+    "before": [
+     {
+      "text": "El Raimon de Arion recibe una visita inesperada: los robots del museo que jugaron contra ellos."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¿Los robots del Museo del Fútbol? ¿Qué hacéis aquí?"
+     },
+     {
+      "who": "cs-soccer-robots/fb-109x",
+      "text": "NUESTRO CREADOR ESTUDIÓ VUESTROS PARTIDOS. QUEREMOS SABER POR QUÉ."
+     },
+     {
+      "who": "cs-team-raimon/fei-rune",
+      "text": "Pues solo hay una forma de saberlo. ¡Juguemos!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Los Futboloides ganan con unos Engranajes aceleradores perfectos! Y al final, una nota aparece en su memoria."
+     },
+     {
+      "who": "cs-soccer-robots/fb-109x",
+      "text": "MENSAJE OCULTO: \"OS CREÉ PARA QUE EL FÚTBOL NUNCA SE OLVIDARA\". FIRMADO: UN AFICIONADO."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Entonces sois guardianes del fútbol! ¡Igual que nosotros!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-soccer-robots/fb-109x",
+    "text": "MISIÓN CUMPLIDA. YA SABEMOS POR QUÉ EXISTIMOS."
+   },
+   {
+    "who": "cs-soccer-robots/fb-107x",
+    "text": "¿Y LA ISLA TROPICAL?"
+   },
+   {
+    "who": "cs-soccer-robots/fb-101x",
+    "text": "PRIMERO, VOLVER AL MUSEO. ALGUIEN TIENE QUE PROTEGER LOS RECUERDOS DEL FÚTBOL."
+   }
+  ]
+ },
+ "cs-tenmas": {
+  "title": "Los Arions en Ciudad Inazuma",
+  "summary": "Diez años en el pasado, Arion, Fei y sus duplicados se unen a un joven Mark Evans para proteger el nacimiento del club de fútbol del Raimon.",
+  "intro": [
+   {
+    "text": "El Protocolo Omega quiere impedir que Mark Evans funde el club de fútbol del Raimon. Fei tiene una idea."
+   },
+   {
+    "who": "cs-tenmas/fei-rune",
+    "text": "Si no hay jugadores, los crearé yo. ¡Duplicados, a formar! Seréis los Arions."
+   },
+   {
+    "who": "cs-tenmas/arion-sherwind",
+    "text": "¿Los Arions? ¿Como yo? ¡Qué vergüenza! ¡Pero me encanta!"
+   },
+   {
+    "who": "cs-tenmas/mark-evans",
+    "text": "¡No sé de dónde habéis salido, pero si queréis jugar, sois bienvenidos! ¡Venga, juguemos al fútbol!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Entrenamiento en la ribera",
+    "before": [
+     {
+      "text": "Los duplicados de Fei necesitan rodaje. En la ribera del río, los Inazuma Kids FC les retan."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Eh, los del uniforme rojo! ¡Aquí mandamos nosotros!"
+     },
+     {
+      "who": "cs-tenmas/smiley",
+      "text": "¡Ji, ji! ¡Qué niños tan simpáticos!"
+     },
+     {
+      "who": "cs-tenmas/mark-evans",
+      "text": "¡Venga, que esto es para pasarlo bien!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Mark, tus amigos son muy raros, pero juegan genial!"
+     },
+     {
+      "who": "cs-tenmas/skinny",
+      "text": "Mmmf. (Mastica su pajita, satisfecho.)"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-ichibangai-sally-s",
+    "title": "Los comerciantes del barrio",
+    "before": [
+     {
+      "text": "Los adultos de la calle comercial también quieren ver de qué es capaz el nuevo equipo de Mark."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/kippy-jones",
+      "text": "Como presidente de los comerciantes y campeón de ajedrez del barrio, digo que un club nuevo debe ganarse al barrio."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/a-lovely",
+      "text": "¡Si ganáis, ración doble en mi restaurante para todos los futboleros!"
+     },
+     {
+      "who": "cs-tenmas/chunky",
+      "text": "¡Ración doble! ¡Mis gafas de diseño brillan de emoción!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/kippy-jones",
+      "text": "Está bien, el barrio está con vosotros. ¡Viva el club de fútbol!"
+     },
+     {
+      "who": "cs-tenmas/arion-sherwind",
+      "text": "¡Ración doble para todos! ¡Así da gusto salvar la historia!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "La maldición del club",
+    "before": [
+     {
+      "text": "Un rumor recorre la ciudad: el futuro club de fútbol está maldito. El Instituto Occult quiere comprobarlo."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Los espíritus me susurran que vuestro club no debería existir..."
+     },
+     {
+      "who": "cs-tenmas/creepy",
+      "text": "..."
+     },
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "¿Y ese de la capucha? Ni los espíritus le ven la cara."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Los espíritus han cambiado de opinión. Dicen que vuestro club será legendario."
+     },
+     {
+      "who": "cs-tenmas/fei-rune",
+      "text": "Los espíritus no se equivocan. Créeme, vengo del futuro."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "Contra el Protocolo Omega",
+    "before": [
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Misión: impedir la fundación del club de fútbol del Raimon. Os eliminaremos."
+     },
+     {
+      "who": "cs-tenmas/vladimir-blade",
+      "text": "No en mi presencia. Vengo de un mundo donde no pude jugar. Aquí sí lo haré."
+     },
+     {
+      "who": "cs-tenmas/mark-evans",
+      "text": "¡Venid con lo que queráis! ¡Mano celestial!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Vladimir Blade marca con sus Aguijones escarlata y los Arions derrotan al Protocolo Omega!"
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Fundación del club... no evitada. Misión fallida."
+     },
+     {
+      "who": "cs-tenmas/mark-evans",
+      "text": "¡Ya está decidido! ¡Mañana mismo fundo el club de fútbol del Raimon!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "El primer gran partido",
+    "before": [
+     {
+      "text": "El nuevo club recibe un desafío: un amistoso contra la todopoderosa Royal Academy. Si pierden, el club se cierra."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Un club recién nacido contra la Royal. Esto será una lección rápida."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Soy el rey de los porteros. Nadie me mete un gol."
+     },
+     {
+      "who": "cs-tenmas/arion-sherwind",
+      "text": "¡Mark, no te preocupes! ¡Los Arions jugaremos contigo hasta el final!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Arion lanza un Viento celestial y la Royal Academy cae! El club de fútbol del Raimon sobrevive a su primer día."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Mark Evans... Recordaré ese nombre."
+     },
+     {
+      "who": "cs-tenmas/mark-evans",
+      "text": "¡Gracias, Arion! ¡Gracias a todos! ¡Este club será el mejor del mundo!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-tenmas/fei-rune",
+    "text": "Es hora de volver, Arion. El club de fútbol del Raimon ya existe en la historia."
+   },
+   {
+    "who": "cs-tenmas/mark-evans",
+    "text": "¿Os volveré a ver? ¡Prometedme que algún día jugaremos otra vez!"
+   },
+   {
+    "who": "cs-tenmas/arion-sherwind",
+    "text": "¡Te lo prometo, Mark! ¡Nos veremos en el futuro... entrenador!"
+   },
+   {
+    "text": "Los duplicados desaparecen uno a uno, sonriendo. Los Arions cumplieron su misión."
+   }
+  ]
+ },
+ "cs-the-lagoon": {
+  "title": "El emperador de Nu-Gen",
+  "summary": "Antes de la Guerra Ragnarok, Simeon guía al Ragnah por el tiempo para demostrar que los Chicos de la Segunda Fase son los dueños del futuro.",
+  "intro": [
+   {
+    "text": "Los Chicos de la Segunda Fase nacieron con poderes que asustaron al mundo. Simeon los unió en Nu-Gen."
+   },
+   {
+    "who": "cs-the-lagoon/simeon-ayp",
+    "text": "Los adultos nos llaman monstruos. Pues muy bien: gobernaremos nosotros. El Ragnah lo demostrará, ¿a que sí?"
+   },
+   {
+    "who": "cs-the-lagoon/mehr",
+    "text": "Ghiris y yo dejamos el Gir para jugar contigo, Simeon. No nos decepciones."
+   },
+   {
+    "who": "cs-the-lagoon/ghiris",
+    "text": "Lo que diga Mehr. Y lo que diga Simeon, claro."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-perfect-cascade",
+    "title": "El arma de El Dorado",
+    "before": [
+     {
+      "text": "Primer golpe: la base de El Dorado y su equipo definitivo, la Cascada Perfecta."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Chicos de la Segunda Fase detectados. Probabilidad de victoria: favorable."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "¿Favorable? Ja, qué gracia. Las máquinas calculan; nosotros sentimos. Por eso vais a perder."
+     },
+     {
+      "who": "cs-the-lagoon/katya-felis",
+      "text": "Me encanta jugar al gato y al ratón con los robots."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Error... Su poder supera todos los parámetros."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "El Dorado ya sabe lo que le espera."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-el-dorado-team-02",
+    "title": "Los capitanes de El Dorado",
+    "before": [
+     {
+      "who": "cs-el-dorado-team-02/alpha",
+      "text": "Simeon. Tu existencia es una amenaza para el orden del futuro."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Alpha, Beta, Gamma... y un niño del pasado como capitán. Qué ejército tan curioso."
+     },
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Curioso, quizá. Pero suena como una orquesta."
+     },
+     {
+      "who": "cs-the-lagoon/kyon-canis",
+      "text": "¡Guau! ¡Pues que suene la música mientras os robamos el balón! ¡Guau, guau!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Ese poder... es abrumador. Pero juegas como si estuvieras solo, Simeon."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Estoy solo porque nadie más está a mi altura."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-vamptym",
+    "title": "El trono de la noche",
+    "before": [
+     {
+      "text": "Para liderar Nu-Gen, Simeon tuvo que vencer a otros pretendientes. Uno de ellos fue Desmodus Drakul."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Un emperador debería ser hermoso, Simeon. Por eso el trono me corresponde a mí."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Un emperador debe ganar, Drakul. La belleza te la dejo."
+     },
+     {
+      "who": "cs-vamptym/nora-flexion",
+      "text": "Mis tiros cambian de forma en el aire. ¿Adivinarás cuál es el de verdad?"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Hmpf. Perder ante ti es casi elegante. Casi."
+     },
+     {
+      "who": "cs-the-lagoon/mehr",
+      "text": "Uno menos. Queda el lobo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "El lobo que no se arrodilla",
+    "before": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Grrr! ¡El clan Vulpeen no obedece a nadie! ¡Si quieres que te siga, gánate mi respeto!"
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Bien. Me gustan los rivales con colmillos."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/luke-kayon",
+      "text": "Esta noche hay luna llena. Nuestro aullido es más fuerte que nunca."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Tsk. Ganas tú, Simeon. Pero el clan no se unirá a Nu-Gen. Seguiremos nuestro camino."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Como quieras. Ahora solo queda el verdadero rival."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "Chrono Storm",
+    "before": [
+     {
+      "text": "Estadio Ragnarok. Frente al Ragnah, el equipo definitivo de la historia: Chrono Storm. Y entre ellos, Fei."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Simeon! ¡Juega con nosotros, no contra el mundo!"
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Fei, vuelves a estar con ellos. Te demostraré que te equivocas. ¡Cañonazo de fragmentos!"
+     },
+     {
+      "who": "cs-chrono-storm/fei-rune",
+      "text": "No me equivoco, Simeon. Y esta vez, te lo demostraré yo a ti."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El poder de los Chicos de la Segunda Fase supera al equipo definitivo! El Ragnah gana la Guerra Ragnarok."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "Habéis ganado... ¡Pero al final, te he visto sonreír, Simeon!"
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Sonreír... ¿Es eso lo que se siente al jugar con todo?"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-the-lagoon/simeon-ayp",
+    "text": "Hemos ganado. Nu-Gen podría gobernar el futuro... pero ya no estoy seguro de quererlo."
+   },
+   {
+    "who": "cs-the-lagoon/mehr",
+    "text": "Simeon, ¿y si gobernamos solo el campo de fútbol?"
+   },
+   {
+    "who": "cs-the-lagoon/simeon-ayp",
+    "text": "Ja. Quizá sea suficiente. Un futuro donde podamos jugar sin miedo."
+   }
+  ]
+ },
+ "cs-tsukigami-no-ichizoku": {
+  "title": "La cacería de la luna llena",
+  "summary": "Wolfram Vulpeen y el clan del Aullido Lunar recorren el mundo en busca de presas dignas. Su objetivo final: el equipo que derrotó al Ragnah.",
+  "intro": [
+   {
+    "text": "Bajo la luna llena, en el Estadio del Licántropo, el clan del Aullido Lunar se reúne."
+   },
+   {
+    "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+    "text": "¡Hermanos! Un tal Chrono Storm ha vencido al Ragnah de Simeon. ¡Esa es la presa que quiero!"
+   },
+   {
+    "who": "cs-tsukigami-no-ichizoku/luke-kayon",
+    "text": "Antes de cazar al lobo más grande, hay que afilar los colmillos."
+   },
+   {
+    "who": "cs-tsukigami-no-ichizoku/hunter-o-mann",
+    "text": "¡Auuu! ...Perdón, se me ha escapado por el bozal."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "La llamada de la selva",
+    "before": [
+     {
+      "text": "Primera cacería: el Instituto Wild, cuyos jugadores juegan como animales salvajes."
+     },
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "¿Unos lobos en nuestro territorio? Esta selva tiene sus propias leyes."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "La ley del más fuerte. Y el más fuerte soy yo."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/mona-selene",
+      "text": "¡Una pelota! ¡Me encanta correr detrás de una pelota!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "Vaya manada. Ni el águila ni el jabalí han podido con vosotros."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Buen calentamiento. La siguiente presa, más grande."
+     }
+    ]
+   },
+   {
+    "opponent": "go-northern-fang",
+    "title": "Colmillo contra colmillo",
+    "before": [
+     {
+      "who": "go-northern-fang/brutus-nastion",
+      "text": "¿Os hacéis llamar lobos? Aquí en el norte los colmillos los tenemos nosotros."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/gerald-fuss",
+      "text": "La luna se está volviendo roja... Ya noto cómo cambio. Grrr."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/kym-errer",
+      "text": "Soy pequeña, pero mi orgullo es enorme. ¡En el campo valgo por tres! ...¿Alguien tiene una galleta?"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-northern-fang/brutus-nastion",
+      "text": "Habéis jugado como una manada de verdad. Respeto."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/al-woo",
+      "text": "Mis clases de canto funcionan. ¡Qué aullido tan bien modulado!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-team-garshield",
+    "title": "Los animales enjaulados",
+    "before": [
+     {
+      "text": "Un equipo fabricado por un millonario, entrenado para jugar como fieras. Al clan no le gusta nada."
+     },
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Zoolan nos hizo fuertes. Somos fieras perfectas."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Una fiera de verdad no tiene amo. Os enseñaremos lo que es ser libres."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Juegan sin que nadie les dé órdenes... y aun así nos han ganado."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/luke-kayon",
+      "text": "El orgullo del clan no se compra."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-the-lagoon",
+    "title": "La revancha contra Simeon",
+    "before": [
+     {
+      "text": "El clan se cruza con el Ragnah. Vulpeen no ha olvidado que Simeon le ganó el liderazgo de Nu-Gen."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Hola, Vulpeen. ¿Aún me guardas rencor? Qué poco deportivo."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Rencor no! ¡Hambre! ¡Hoy el Aullido de licántropo te tumbará!"
+     },
+     {
+      "who": "cs-the-lagoon/mehr",
+      "text": "Qué bárbaro tan ruidoso."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Has mejorado, Vulpeen. Quizá deberías haber liderado tú."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Ja! No me interesa liderar nada. Solo ganar."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-vamptym",
+    "title": "Lobos contra vampiros",
+    "before": [
+     {
+      "text": "Antes de la gran cacería, aparece un viejo rival: Desmodus Drakul y sus Nosfanáticos."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Vulpeen, hueles a bosque mojado. ¿Por qué no te das un baño antes de jugar?"
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Y tú hueles a zumo de tomate, chupasangre! ¡Esta noche, la luna es mía!"
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/terri-ann-thrope",
+      "text": "Dicen que como carne humana. Soy vegetariana, pero eso no lo saben."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Una derrota... Al menos ha sido bajo una luna preciosa."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Ja, ja! ¡Ahora sí estamos listos para la presa grande!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "La presa más grande",
+    "before": [
+     {
+      "text": "La Caravana Inazuma aterriza en el Estadio del Licántropo. Chrono Storm ha aceptado el desafío."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Así que vosotros sois el Aullido Lunar! ¡Qué ganas de jugar contra vosotros!"
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Ganasteis al Ragnah! ¡Sois la presa más digna que he encontrado jamás!"
+     },
+     {
+      "who": "cs-chrono-storm/zanark-avalonic",
+      "text": "Ja, ja. ¿Presa? Yo también tengo colmillos, chucho."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Vulpeen hace Miximax y su Colmillo retorcido supera la defensa de Chrono Storm! El clan aúlla victorioso."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Qué partidazo! ¡Sois increíbles!"
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Vosotros también. Hoy he cazado algo mejor que una victoria: un rival."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+    "text": "¡Hermanos! La cacería ha terminado. Pero la luna volverá a salir mañana."
+   },
+   {
+    "who": "cs-tsukigami-no-ichizoku/luke-kayon",
+    "text": "El clan Vulpeen ya es conocido en todas las épocas."
+   },
+   {
+    "who": "cs-tsukigami-no-ichizoku/hunter-o-mann",
+    "text": "¡Auuu! ...Esta vez sí ha sido a propósito."
+   }
+  ]
+ },
+ "cs-vamptym": {
+  "title": "La noche más hermosa",
+  "summary": "Desmodus Drakul, noble vampiro y narcisista sin remedio, organiza en su castillo un torneo nocturno para demostrar que su fútbol es el más elegante de la historia.",
+  "intro": [
+   {
+    "text": "Estadio de Transilvania, medianoche. Desmodus Drakul se mira en un espejo... que no le devuelve reflejo."
+   },
+   {
+    "who": "cs-vamptym/desmodus-drakul",
+    "text": "Qué injusticia. El ser más hermoso de la historia, y ni siquiera puedo admirarme."
+   },
+   {
+    "who": "cs-vamptym/woodrow-stake",
+    "text": "Mi señor, quizá los rivales puedan admirarle por usted."
+   },
+   {
+    "who": "cs-vamptym/desmodus-drakul",
+    "text": "¡Excelente idea! Invitaremos a las criaturas de la noche. Que vean el fútbol más bello jamás jugado."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-ancient-dark",
+    "title": "Los hijos de la oscuridad",
+    "before": [
+     {
+      "text": "Primeros invitados: la Oscuridad Ancestral, un equipo surgido de las sombras de una isla."
+     },
+     {
+      "who": "go-ancient-dark/yang",
+      "text": "¿Un torneo nocturno en un castillo? Qué ambiente tan... acogedor."
+     },
+     {
+      "who": "cs-vamptym/sid-viper",
+      "text": "¿Os apetece un zumo de tomate antes de empezar? Yo me tomo uno cada día."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Las sombras son mi elemento. Veremos si también son el vuestro."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-ancient-dark/yang",
+      "text": "Juegan como murciélagos: no sabes por dónde vienen."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Gracias. Lo considero un piropo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "El instituto maldito",
+    "before": [
+     {
+      "who": "ie1-occult/alexander-brave",
+      "text": "Las maldiciones son mi especialidad. ¿Qué tal un maleficio para el conde?"
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Querido, yo soy una maldición con patas. Y muy bien vestida."
+     },
+     {
+      "who": "ie1-occult/burt-wolf",
+      "text": "Yo también bebo zumo de tomate. ¿Seré un vampiro?"
+     },
+     {
+      "who": "cs-vamptym/hugh-mumford",
+      "text": "En cuanto me da un poco el sol, me quemo. Así que mejor jugar de noche."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Los espíritus aplauden. Hacía siglos que no veían un partido tan elegante."
+     },
+     {
+      "who": "cs-vamptym/porphyria-filia",
+      "text": "Uaaah... ¿Ya es por la mañana? Ah, no, aún es de noche. Perfecto."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-the-lagoon",
+    "title": "La corona perdida",
+    "before": [
+     {
+      "text": "Simeon y su Ragnah llegan sin invitación. Drakul todavía recuerda que perdió ante él el liderazgo de Nu-Gen."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Drakul. Pensé que habías dejado de jugar a ser rey."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Un noble nunca deja de ser rey, Simeon. Solo espera su momento. ¡Mordisco de vampiro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Interesante. Tu orgullo te hace más fuerte de lo que pensaba."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Mi orgullo y mi peinado, querido."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-makai-gundan-z",
+    "title": "Demonios en el castillo",
+    "before": [
+     {
+      "text": "Las puertas del inframundo se abren en mitad del torneo. El Dark Team quiere el castillo para ellos."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Este castillo será nuestro. Y vuestras almas, nuestro banquete."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "¿Sirvientes? Qué grosería. Woodrow, enséñales modales."
+     },
+     {
+      "who": "cs-vamptym/woodrow-stake",
+      "text": "Con mucho gusto, mi señor."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "¡Imposible! ¡Unos vampiros presumidos han derrotado al inframundo!"
+     },
+     {
+      "who": "cs-vamptym/dave-walker",
+      "text": "Mi espalda... Dormir en un ataúd y luego jugar así..."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "El eterno rival",
+    "before": [
+     {
+      "text": "La luna llena asoma por las torres. Con ella llega el invitado más esperado: Wolfram Vulpeen y su clan."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Drakul! ¡Huele a perfume desde la otra punta del bosque! ¡Vengo a por ti!"
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Vulpeen, mi querido perro salvaje. Esta noche te enseñaré lo que es la verdadera nobleza."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/luke-kayon",
+      "text": "Nuestro clan no se doblega ante nadie. Y menos ante un presumido."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Desmodus hace Miximax y su Alba oscura apaga hasta la luna! Los Nosfanáticos ganan el torneo."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Grrr! Tienes clase, chupasangre. Te lo reconozco."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Y tú tienes garra. Quizá podríamos formar algo juntos... las Criaturas de la Noche."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-vamptym/desmodus-drakul",
+    "text": "Una noche perfecta. Todos han admirado mi fútbol. Y, de paso, a mí."
+   },
+   {
+    "who": "cs-vamptym/holly-waters",
+    "text": "Mi señor, no olvide que la segunda más bella del campo he sido yo."
+   },
+   {
+    "who": "cs-vamptym/desmodus-drakul",
+    "text": "Por supuesto. Un rey hermoso necesita una corte a su altura. Gracias, Nosfanáticos."
+   }
+  ]
+ },
+ "cs-zan": {
+  "title": "La ira del Zan",
+  "summary": "Garreau no quiere esperar a la Guerra Ragnarok: arrastra al Zan hasta El Dorado para descargar su ira. Pero su capitán, Zanark, tiene sus propios planes.",
+  "intro": [
+   {
+    "text": "Cuartel general de Nu-Gen. El Zan acaba de arrasar otra ciudad con sus armas de aura."
+   },
+   {
+    "who": "cs-zan/garreau",
+    "text": "Esperar a la Ragnarok es de cobardes. Iremos a El Dorado y les enseñaremos nuestra ira."
+   },
+   {
+    "who": "cs-zan/zanark-avalonic",
+    "text": "Ja, ja. Me gusta tu estilo, Garreau. Aunque el capitán soy yo, que no se te olvide."
+   },
+   {
+    "who": "cs-zan/garreau",
+    "text": "Llevas el brazalete porque te lo dejo llevar. Nada más."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-perfect-cascade",
+    "title": "Asalto a la base",
+    "before": [
+     {
+      "text": "La base de El Dorado. Su guardiana más moderna, la Cascada Perfecta, sale a recibirlos."
+     },
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Plan de defensa activado. El Zan será eliminado."
+     },
+     {
+      "who": "cs-zan/feduhm",
+      "text": "Ninguna máquina atravesará mi barrera. Repulsión."
+     },
+     {
+      "who": "cs-zan/zatang",
+      "text": "¡El campo es un campo de batalla! ¡Me encanta!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-perfect-cascade/ar-ecks",
+      "text": "Daños críticos... Retirada."
+     },
+     {
+      "who": "cs-zan/garreau",
+      "text": "El arma definitiva de El Dorado era de juguete."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "Los primeros soldados",
+    "before": [
+     {
+      "who": "cs-protocol-omega/mike",
+      "text": "Chicos de la Segunda Fase. Orden de El Dorado: deteneros."
+     },
+     {
+      "who": "cs-zan/rodh",
+      "text": "Me llaman el Demoledor. ¿Adivinas por qué?"
+     },
+     {
+      "who": "cs-zan/djibz",
+      "text": "Doble hélice. Rápido, para que no sufran."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Demasiado fácil. ¿Dónde está la diversión?"
+     },
+     {
+      "who": "cs-zan/garreau",
+      "text": "La diversión no importa. Solo importa que paguen."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "Fuerza bruta",
+    "before": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Uy, qué maleducados... Os lo pido con buenos modales una vez. ¿No? ¡Pues fuera de mi campo, salvajes!"
+     },
+     {
+      "who": "cs-zan/driss",
+      "text": "Mis tácticas son brutales, pero efectivas. Rodeadla."
+     },
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Beta... la de la sonrisa falsa. Esta te la meto yo."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Esto no es fútbol, es una guerra!"
+     },
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Para ellos sí. Para mí... empieza a ser aburrido."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-el-dorado-team-02",
+    "title": "La orquesta de El Dorado",
+    "before": [
+     {
+      "text": "El Dorado envía a su mejor equipo, capitaneado por un chico del pasado: Riccardo Di Rigo."
+     },
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Garreau, juegas con mucho odio. Y el odio desafina."
+     },
+     {
+      "who": "cs-zan/garreau",
+      "text": "Cállate, niño. ¡Lanza de Odín!"
+     },
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Eh, Garreau, ¿y si por una vez me la pasas a mí?"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Hemos ganado, y ninguno me ha dado un solo pase. Qué equipo más simpático."
+     },
+     {
+      "who": "cs-el-dorado-team-02/riccardo-di-rigo",
+      "text": "Zanark, ¿de verdad este es tu sitio?"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-the-lagoon",
+    "title": "El desafío a Simeon",
+    "before": [
+     {
+      "text": "Ebrio de victorias, Garreau desafía al líder de Nu-Gen. Quiere el mando de todos los Chicos de la Segunda Fase."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Vaya, Garreau. ¿Tú, sustituirme a mí? Qué gracia me haces... Venga, inténtalo."
+     },
+     {
+      "who": "cs-zan/garreau",
+      "text": "No... no me das miedo, Simeon. Tú hablas de paz y de futuro. Yo solo sé de ira. ¡Y la ira gana partidos!"
+     },
+     {
+      "who": "cs-zan/zanark-avalonic",
+      "text": "Esto sí que es divertido. ¡Vamos allá!"
+     }
+    ],
+    "after": [
+     {
+      "text": "¡Por fin Garreau pasa el balón a Zanark, que remata con un Golpe cataclismo! El Zan derrota al Ragnah."
+     },
+     {
+      "who": "cs-the-lagoon/simeon-ayp",
+      "text": "Has ganado cuando has confiado en tu capitán. Piensa en eso, Garreau."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-zan/garreau",
+    "text": "Ese pase... Ha sido lo único que ha salido bien sin odio."
+   },
+   {
+    "who": "cs-zan/zanark-avalonic",
+    "text": "Ja, ja. Al final no eres tan bárbaro, Garreau. Pero yo me largo: ya me he divertido bastante."
+   },
+   {
+    "text": "Zanark se marcha en busca de nuevos rivales. El Zan, por primera vez, se pregunta para qué juega."
+   }
+  ]
+ },
+ "cs-zanark-domain": {
+  "title": "El dominio de Zanark",
+  "summary": "Fugado de la prisión CONTRA, Zanark Avalonic reúne a su propio equipo y recorre el tiempo con un único objetivo: divertirse aplastando a todo el que se cruce.",
+  "intro": [
+   {
+    "text": "La prisión CONTRA, doscientos años en el futuro. Una alarma suena: el criminal de rango S Zanark Avalonic se ha escapado."
+   },
+   {
+    "who": "cs-zanark-domain/zanark-avalonic",
+    "text": "Ja, ja, ja. ¿Una celda para mí? Qué gracia. El mundo es demasiado pequeño para encerrarme."
+   },
+   {
+    "who": "cs-zanark-domain/dasan",
+    "text": "¡Jefe! ¡Ya tenemos equipo! Lo hemos llamado Zanark Domain, en su honor."
+   },
+   {
+    "who": "cs-zanark-domain/zanark-avalonic",
+    "text": "Buen nombre. Ahora vamos a buscar a alguien que me haga sudar."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "Los generales de los Tres Reinos",
+    "before": [
+     {
+      "text": "Era de los Tres Reinos. Guan Yu y Zhang Fei guían al Ejército de Terracota."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¿Quién es este tipo con cara de pocos amigos? ¡Fuera de las tierras de Liu Bei!"
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Generales legendarios... Perfectos para calentar."
+     },
+     {
+      "who": "cs-zanark-domain/tyrah",
+      "text": "¡Ja, ja, ja! ¡Qué miedo dan los soldaditos de barro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Su fuerza es brutal. Pero no tiene ningún honor."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¿Honor? Eso no mete goles."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "Los perros de El Dorado",
+    "before": [
+     {
+      "text": "El Dorado envía al Protocolo Omega 2.0 a capturar al fugitivo."
+     },
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "Zanark, cielo, vuelve a tu celda por las buenas. Que me da pereza mancharme."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Beta, tu sonrisa es más falsa que una moneda de chocolate."
+     },
+     {
+      "who": "cs-zanark-domain/eka",
+      "text": "Que tiren lo que quieran. No temo a ningún trallazo."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Es un monstruo! ¡Que se encargue otro!"
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Ja, ja. Más, quiero más."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-zan",
+    "title": "La oferta de Nu-Gen",
+    "before": [
+     {
+      "text": "Los Chicos de la Segunda Fase han oído hablar del fugitivo. Garreau quiere comprobar si sirve para el Zan."
+     },
+     {
+      "who": "cs-zan/garreau",
+      "text": "Si nos ganas, el brazalete del Zan será tuyo. Si pierdes, desaparece."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¿Un brazalete? Me da igual. Lo que quiero es un buen partido."
+     },
+     {
+      "who": "cs-zanark-domain/navan",
+      "text": "¡A la carga, Zanark Domain! ¡Caída planetaria!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zan/garreau",
+      "text": "Tch. Tienes fuerza, criminal. La oferta sigue en pie."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Ya veremos. Todavía me quedan rivales por probar."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "Marionetas en Orleans",
+    "before": [
+     {
+      "text": "Francia, 1427. Gamma y el Protocolo Omega 3.0 intentan detenerlo con el Dispositivo Esfera."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Soy perfecto, Zanark. Un criminal como tú no tiene nada que hacer contra mí."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¿Perfecto? Entonces serás una marioneta perfecta. Ja, ja, ja."
+     },
+     {
+      "who": "cs-zanark-domain/sas",
+      "text": "Nadie me ha mirado a los ojos y ha vivido para contarlo..."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "No... ¿Por qué no puedo moverme?"
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Ahora jugaréis para mí. Y el siguiente rival será el Raimon."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-team-raimon",
+    "title": "El castillo de Nijo",
+    "before": [
+     {
+      "text": "Periodo Edo, castillo de Nijo. Zanark ha hecho Miximax con Cao Cao. Frente a él, el Raimon de Arion."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Zanark! ¡Deja de hacer daño a la gente! ¡El fútbol es para disfrutarlo!"
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¡Eso hago, enano! ¡Disfruto como nunca! ¡Golpe cataclismo!"
+     },
+     {
+      "who": "cs-team-raimon/victor-blade",
+      "text": "Hablas demasiado, Zanark. La espada de Okita se encargará de callarte."
+     }
+    ],
+    "after": [
+     {
+      "text": "¡El Golpe cataclismo atraviesa la portería del Raimon! El Zanark Domain se impone en el castillo de Nijo."
+     },
+     {
+      "who": "cs-team-raimon/arion-sherwind",
+      "text": "¡Uf! ¡Qué fuerza! Pero, Zanark... has sonreído. ¡Te lo estabas pasando bien de verdad!"
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "...Pues claro. Sois los primeros que me hacéis sudar de verdad."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "cs-zanark-domain/zanark-avalonic",
+    "text": "Lo he aplastado todo. Y aun así, lo único que recuerdo es ese partido contra el Raimon."
+   },
+   {
+    "who": "cs-zanark-domain/dasan",
+    "text": "Jefe, ¿y ahora qué hacemos?"
+   },
+   {
+    "who": "cs-zanark-domain/zanark-avalonic",
+    "text": "Entrenar. La próxima vez que juegue contra ellos, quiero que sea aún más divertido. Ja, ja, ja."
+   }
+  ]
+ }
+}

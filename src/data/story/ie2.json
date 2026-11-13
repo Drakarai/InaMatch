@@ -1,0 +1,4861 @@
+{
+ "ie2-chaos": {
+  "title": "Proyecto Neo Génesis",
+  "summary": "Torch y Gazelle fusionan sus equipos para arrebatarle el título de Génesis a Xene. Antes, el fuego y el hielo tendrán que aprender a jugar juntos.",
+  "intro": [
+   {
+    "text": "Padre ha elegido a Gaia como el Génesis. En la Academia Alius, dos capitanes no lo aceptan."
+   },
+   {
+    "who": "ie2-chaos/claude-beacons",
+    "text": "¡Es injusto! ¡Prominence es mucho más fuerte que Gaia!"
+   },
+   {
+    "who": "ie2-chaos/bryce-whitingale",
+    "text": "Tus gritos no cambiarán nada, Torch. Pero juntos... quizá sí."
+   },
+   {
+    "who": "ie2-chaos/claude-beacons",
+    "text": "¿Juntar el fuego y el hielo? ...Vale. Pero el que manda en el ataque soy yo."
+   },
+   {
+    "who": "ie2-chaos/grant-cook",
+    "text": "Yo llevaré el brazalete. Alguien tiene que evitar que os peleéis en cada jugada."
+   },
+   {
+    "text": "Así nace el Caos: el proyecto Neo Génesis."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie2-hakuren",
+    "title": "Prueba de hielo",
+    "before": [
+     {
+      "text": "Primer ensayo del Caos: Hokkaido, donde el frío pone a prueba a los jugadores de Prominence."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "¿Fuego y hielo en el mismo equipo? Qué curioso... Me pregunto si os entendéis tan bien como Aiden y yo."
+     },
+     {
+      "who": "ie2-chaos/nigel-august",
+      "text": "¿Jugar con los del Polvo de Diamantes? Lo hago por Torch. Que no esperen que les pase el balón."
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Torch, que tus jugadores no se derritan con la nieve."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Ja! ¡Ganamos! ¡Gracias a mí, claro!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Has fallado tres pases que eran para mí. No ha sido casualidad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-oumihara",
+    "title": "Calor tropical",
+    "before": [
+     {
+      "text": "Okinawa. Ahora le toca sufrir al hielo: el sol abrasa el campo."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, qué colores tan raros! Bah, al mar le da igual de dónde vengan las olas. ¡Vamos a marcarnos un partido!"
+     },
+     {
+      "who": "ie2-oumihara/cadence-soundtown",
+      "text": "♪Dumba, dumba, dum...♪ ¡Si perdéis el ritmo, perdéis el partido!"
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Aquí juego en casa! ¡El calor es lo mío!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Uf... Tus jugadores no me han pasado ni un balón, Torch."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Los tuyos tampoco! ¡A ver si arreglamos esto!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon-kai",
+    "title": "Los rivales de primer rango",
+    "before": [
+     {
+      "text": "El Épsilon Plus se cruza en su camino. Dvalin quiere comprobar si el Caos es tan fuerte como dicen."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¡Fuego y hielo! ¡Qué combinación tan emocionante!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "No perderemos el tiempo contigo, Dvalin. Quítate de en medio."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Eso! ¡Por una vez estoy de acuerdo con Gazelle!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "Fuertes... pero jugáis como dos equipos distintos. ¡Eso tiene arreglo!"
+     },
+     {
+      "who": "ie2-chaos/grant-cook",
+      "text": "Hasta el rival nos lo nota. Capitanes, tenemos un problema."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "El campo de la Royal",
+    "before": [
+     {
+      "text": "Para ensayar la Ventisca de fuego, Torch y Gazelle eligen el campo de la Royal Academy."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "¿Aliens en nuestro campo? Muy bien. Os enseñaremos cómo juega un equipo de verdad."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "Gazelle, a la de tres. Tú pones el hielo, yo el fuego."
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Como falles, no vuelvo a pasarte un balón."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡La Ventisca de fuego ha funcionado! ¡Somos increíbles!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "...Ha estado bien. No lo repetiré dos veces."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Fuego, hielo y Raimon",
+    "before": [
+     {
+      "text": "Si aplastan al Raimon, Padre tendrá que darles el título. El partido se juega en el campo de la Royal."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Torch, Gazelle! ¡Juntos o separados, os pararé a los dos!"
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Prepárate para arder, Mark Evans!"
+     },
+     {
+      "who": "ie2-second-raimon/darren-lachance",
+      "text": "Si aprendo las Manos infinitas, ¡no entrará ni un balón más!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Torch, esta vez juguemos como un solo equipo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Lo hemos conseguido juntos! ¡Gazelle, chócala!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "...Toma. Pero solo esta vez."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Habéis hecho una fusión sin permiso de Padre. Si queréis el título, venid a por él."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "La corona del Génesis",
+    "before": [
+     {
+      "text": "Monte Fuji. El Caos, ahora unido de verdad, desafía al Génesis por el título."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Torch, Gazelle... Os habéis hecho más fuertes. Me alegro, de verdad."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Ahórrate las palabras bonitas, Xene! ¡Hoy el Génesis seremos nosotros!"
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "Una fusión improvisada contra el equipo perfecto. Qué ingenuos."
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Ingenuos o no, la Ventisca de fuego no la ha parado nadie."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Habéis ganado... El título es vuestro, si todavía lo queréis."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¿El título? Pues... la verdad es que ya me da un poco igual. ¡Lo mejor ha sido jugar así!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Fuego y hielo. Nadie creía que pudiéramos ser un equipo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Caos ya no necesita títulos. El fuego y el hielo han encontrado su equilibrio."
+   },
+   {
+    "who": "ie2-chaos/claude-beacons",
+    "text": "Oye, Gazelle... cuando todo esto acabe, ¿seguimos jugando juntos?"
+   },
+   {
+    "who": "ie2-chaos/bryce-whitingale",
+    "text": "Si dejas de gritar en cada jugada, me lo pensaré."
+   },
+   {
+    "text": "Años después, Torch y Gazelle volverían a jugar en el mismo equipo. Pero esa es otra historia."
+   }
+  ]
+ },
+ "ie2-dark-emperors": {
+  "title": "El reino de las sombras",
+  "summary": "Godric Wyles ofrece la piedra Alius a los jugadores lesionados del Raimon. Nathan, Kevin y los demás buscan venganza... y demostrar que ya no son débiles.",
+  "intro": [
+   {
+    "text": "Tras la caída de la Academia Alius, Godric Wyles se queda con la piedra Alius."
+   },
+   {
+    "who": "ie2-dark-emperors/godric-wyles",
+    "text": "Los que la Tormenta de Géminis lesionó. Los que se quedaron atrás. Yo os daré poder."
+   },
+   {
+    "who": "ie2-dark-emperors/nathan-swift",
+    "text": "Siempre fui el más rápido... y aun así no pude hacer nada. Nunca más."
+   },
+   {
+    "who": "ie2-dark-emperors/kevin-dragonfly",
+    "text": "Mark siguió adelante sin nosotros. Le enseñaremos que podemos ser más fuertes que él."
+   },
+   {
+    "who": "ie2-dark-emperors/shadow-cimmerian",
+    "text": "Nací de la oscuridad. Aquí me siento como en casa."
+   },
+   {
+    "text": "Así nacen los Emperadores Oscuros. En sus ojos brilla un tono morado."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Viejas cadenas",
+    "before": [
+     {
+      "text": "Primera parada: el Instituto Brain, el antiguo equipo de Thomas Feldt."
+     },
+     {
+      "who": "ie1-mikage-sennou/neil-turner",
+      "text": "¿Feldt? Volviste a dejarte controlar... Pensé que lo habías superado."
+     },
+     {
+      "who": "ie2-dark-emperors/thomas-feldt",
+      "text": "Esto no es un lavado de cerebro. Es poder. Y lo he elegido yo."
+     },
+     {
+      "who": "ie2-dark-emperors/godric-wyles",
+      "text": "Una buena prueba. Mostradles la diferencia entre la obediencia y la fuerza."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-dark-emperors/thomas-feldt",
+      "text": "¿Por qué me siento igual que antes... vacío?"
+     },
+     {
+      "who": "ie2-dark-emperors/nathan-swift",
+      "text": "No pienses, Feldt. Sigue adelante."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "El peinado de Malcolm",
+    "before": [
+     {
+      "text": "Kirkwood. Malcolm Night vuelve a su antiguo instituto con su nuevo uniforme."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¿Malcolm? ¿Qué te han hecho? ¡Ese no eres tú!"
+     },
+     {
+      "who": "ie2-dark-emperors/malcolm-night",
+      "text": "Erik y Bobby siguieron adelante sin mí. Con este poder, nadie volverá a dejarme atrás."
+     },
+     {
+      "who": "ie2-dark-emperors/tod-ironside",
+      "text": "¡Soy pequeño, pero ahora mi coraje tiene superpoderes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-dark-emperors/malcolm-night",
+      "text": "Hemos ganado. Pero los hermanos me miraban con pena..."
+     },
+     {
+      "who": "ie2-dark-emperors/godric-wyles",
+      "text": "La pena es para los débiles. Siguiente objetivo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "Cuentas pendientes",
+    "before": [
+     {
+      "text": "Godric les entrega la presa que más desean: la Tormenta de Géminis, los que los lesionaron."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Os recuerdo. Los terrícolas del Raimon que no aguantaron ni un partido. Sois... ¿diferentes?"
+     },
+     {
+      "who": "ie2-dark-emperors/steve-grim",
+      "text": "Antes no destacaba en nada. ¡Ahora destaco en todo!"
+     },
+     {
+      "who": "ie2-dark-emperors/nathan-swift",
+      "text": "Ese día no pude alcanzaros. Hoy, nadie me alcanzará a mí."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Esa luz en vuestros ojos... Yo también la tuve. Ya lo dice el refrán: quien siembra vientos recoge tempestades."
+     },
+     {
+      "who": "ie2-dark-emperors/kevin-dragonfly",
+      "text": "¡Cállate! ¡Hemos ganado! ¡Eso es lo único que importa!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon",
+    "title": "El poder de la piedra",
+    "before": [
+     {
+      "text": "Para probar su fuerza, Godric reta al Épsilon, el equipo de primer rango de Alius."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¿Terrícolas con piedra Alius? ¡Qué emocionante! ¡Tres minutos!"
+     },
+     {
+      "who": "ie2-dark-emperors/jim-wraith",
+      "text": "Nadie se fija nunca en mí... Hoy no podréis apartar la vista."
+     },
+     {
+      "who": "ie2-dark-emperors/godric-wyles",
+      "text": "Demostrad que la piedra en manos humanas es más fuerte que en manos de esos huérfanos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Ganáis, pero no os divertís. Qué pena me dais, de verdad."
+     },
+     {
+      "who": "ie2-dark-emperors/nathan-swift",
+      "text": "¿Divertirnos? ...¿Cuándo fue la última vez que me divertí jugando?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "Los falsos dioses",
+    "before": [
+     {
+      "text": "Godric quiere humillar al Zeus, los que bebían el «agua de los dioses» de Ray Dark."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Yo también creí que el poder prestado me haría un dios. Me equivoqué. Vosotros también os equivocáis."
+     },
+     {
+      "who": "ie2-dark-emperors/godric-wyles",
+      "text": "Palabras de un perdedor. Emperadores, aplastadlos."
+     },
+     {
+      "who": "ie2-dark-emperors/kevin-dragonfly",
+      "text": "¡Mi Remate dragón ahora tiene alas de verdad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Escuchadme: Mark os está esperando. No como rivales. Como amigos."
+     },
+     {
+      "who": "ie2-dark-emperors/nathan-swift",
+      "text": "Mark... ¿Nos sigue esperando?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Amigos en la oscuridad",
+    "before": [
+     {
+      "text": "Instituto Raimon. La niebla cubre el campo. Los Emperadores Oscuros desafían a sus antiguos compañeros."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Nathan! ¡Kevin! ¿Qué os ha pasado? ¡Ese no es vuestro fútbol!"
+     },
+     {
+      "who": "ie2-dark-emperors/nathan-swift",
+      "text": "Es el fútbol de los que no se rinden, Mark. Como tú nos enseñaste."
+     },
+     {
+      "who": "ie2-dark-emperors/godric-wyles",
+      "text": "Ganad, y la piedra Alius será vuestra para siempre."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Pues si queréis demostrar algo, demostrádmelo jugando! ¡Os pararé todo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-dark-emperors/nathan-swift",
+      "text": "Hemos ganado... y no siento nada. Mark, tú sonreías incluso al encajar."
+     },
+     {
+      "who": "ie2-dark-emperors/kevin-dragonfly",
+      "text": "Esto no es lo que queríamos. Queríamos volver a jugar a vuestro lado."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Pues volved! ¡El Raimon nunca dejó de ser vuestro equipo!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Nathan rompe su colgante de piedra Alius. Uno a uno, los demás hacen lo mismo."
+   },
+   {
+    "who": "ie2-dark-emperors/nathan-swift",
+    "text": "Ser rápido no sirve de nada si corres en la dirección equivocada."
+   },
+   {
+    "who": "ie2-dark-emperors/godric-wyles",
+    "text": "¡No! ¡Mi plan perfecto...!"
+   },
+   {
+    "text": "Godric Wyles es detenido. El tono morado desaparece de los ojos de los chicos."
+   },
+   {
+    "who": "ie2-dark-emperors/kevin-dragonfly",
+    "text": "Mark, ¿hay sitio en el banquillo para unos cuantos idiotas?"
+   },
+   {
+    "who": "ie2-second-raimon/mark-evans",
+    "text": "¡Hay sitio en el campo, Kevin! ¡Vamos a jugar al fútbol!"
+   }
+  ]
+ },
+ "ie2-diamond-dust": {
+  "title": "Escarcha eterna",
+  "summary": "Gazelle y el Polvo de Diamantes, fríos y calculadores, quieren demostrar que el hielo es invencible. Su cuenta pendiente: aquel empate contra el Raimon.",
+  "intro": [
+   {
+    "text": "El Polvo de Diamantes, equipo de rango supremo de Alius. Su capitán, Gazelle, nunca pierde la calma."
+   },
+   {
+    "who": "ie2-diamond-dust/bryce-whitingale",
+    "text": "El hielo no grita ni presume. Simplemente avanza y lo cubre todo."
+   },
+   {
+    "who": "ie2-diamond-dust/alan-downhill",
+    "text": "He calculado nuestras probabilidades de victoria: noventa y nueve coma nueve por ciento."
+   },
+   {
+    "who": "ie2-diamond-dust/lucy-hailstone",
+    "text": "Mi hermano siempre acierta. Haré lo que él diga."
+   },
+   {
+    "who": "ie2-diamond-dust/bryce-whitingale",
+    "text": "Empezaremos por donde el frío es más duro. Que Japón entero se congele."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie2-hakuren",
+    "title": "Duelo en la ventisca",
+    "before": [
+     {
+      "text": "Hokkaido. Gazelle quiere medir su hielo con el de la tierra de las nieves."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Aquí el frío es nuestro aliado. No vais a ganarnos en casa."
+     },
+     {
+      "who": "ie2-hakuren/sean-snowfield",
+      "text": "¡A-achís! P-perdón... He dibujado treinta libretas de copos de nieve, y ninguno es tan frío como vosotros."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Tu Ventisca eterna es bonita, Froste. Pero esto es Polvo de Diamantes."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Un frío digno. Pero no suficiente."
+     },
+     {
+      "who": "ie2-diamond-dust/ben-north",
+      "text": "Parezco frío, pero... ese chico de la nieve me ha caído bien."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-manyuuji",
+    "title": "Mente en calma",
+    "before": [
+     {
+      "text": "Kioto. Gazelle busca al único equipo de Japón que presume de más calma que él."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "El agua en calma refleja la luna. El hielo, no. Os falta algo, chicos de Alius."
+     },
+     {
+      "who": "ie2-manyuuji/ollie-gami",
+      "text": "Mis amuletos de papel dicen que hoy no será un día frío para vosotros."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Vuestra meditación contra mi temple. Veamos quién parpadea antes."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "He ganado... pero ese portero no ha perdido la calma ni un segundo."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "El hielo también se funde, joven. Cuando lo hace, se convierte en agua viva."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-prominence",
+    "title": "Fuego contra hielo",
+    "before": [
+     {
+      "text": "Torch, el eterno rival de Gazelle, se presenta con Prominence para reírse de él."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¿Paseando por templos, Gazelle? ¡Mientras, yo busco rivales de verdad!"
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Siempre tan ruidoso. Hoy apagaré tu llama."
+     },
+     {
+      "who": "ie2-prominence/brenda-firequest",
+      "text": "Odio que me superen. ¡Y menos alguien con cara de nevera!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¡Grrr! ¡Has tenido suerte!"
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "La suerte no existe. Existe la escarcha."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon-kai",
+    "title": "El cálculo imperfecto",
+    "before": [
+     {
+      "text": "El Épsilon Plus reta al Polvo de Diamantes. Arkew lo tiene todo calculado."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¡Gazelle, a ver si tu hielo me hace temblar!"
+     },
+     {
+      "who": "ie2-diamond-dust/alan-downhill",
+      "text": "Probabilidad de victoria: noventa y nueve por ciento. Los números no mienten."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "No te fíes, Arkew. Ese chico juega con algo que no aparece en tus cálculos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-diamond-dust/alan-downhill",
+      "text": "Mis cálculos han fallado tres veces en este partido. Inaceptable."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Eso se llama emoción, cerebrito! ¡Jua, ja, ja!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "Desafío al Génesis",
+    "before": [
+     {
+      "text": "Gazelle exige un partido para demostrar que el título de Génesis debería ser suyo."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Xene, Padre se equivocó contigo. Te lo demostraré con hechos."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Gazelle, siempre tan sereno. Me encanta jugar contra ti."
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "Otro aspirante al trono. Qué pesadez."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Enhorabuena, Gazelle. Pero dime... ¿por qué no pareces contento?"
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Porque hay un partido que todavía no he terminado."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "El empate que quema",
+    "before": [
+     {
+      "text": "El estadio del Fútbol Frontier. Aquel 2-2 contra el Raimon sigue clavado en el orgullo de Gazelle."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Venga, Gazelle! ¡Vamos a enseñaros lo que es divertirse jugando al fútbol!"
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Je... ¿Con quién crees que hablas? Esta vez no habrá empate."
+     },
+     {
+      "who": "ie2-second-raimon/shawn-froste",
+      "text": "Gazelle, el hielo no tiene por qué estar solo. A mí también me costó entenderlo."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Basta de palabras. ¡Polvo de Diamantes, congeladlos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Por fin... He vencido al Raimon."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Qué partidazo! ¡Gazelle, estabas sonriendo en el último gol! ¡Te he visto!"
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "...Habrá sido el frío. Nada más."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Polvo de Diamantes ha ganado todos sus partidos. Y, sin embargo, algo se ha derretido por dentro."
+   },
+   {
+    "who": "ie2-diamond-dust/bryce-whitingale",
+    "text": "El hielo es fuerte, pero sin nadie con quien compartir el partido, es solo frío."
+   },
+   {
+    "who": "ie2-diamond-dust/ben-north",
+    "text": "Capitán... ¿eso ha sido una broma? ¿El capitán ha hecho una broma?"
+   },
+   {
+    "who": "ie2-diamond-dust/bryce-whitingale",
+    "text": "No te acostumbres, Beluga."
+   },
+   {
+    "text": "Bryce Whitingale, el chico al que llamaban Gazelle, seguiría jugando con la cabeza fría y el corazón algo más cálido."
+   }
+  ]
+ },
+ "ie2-epsilon": {
+  "title": "El reto de los tres minutos",
+  "summary": "Dvalin presume de ganar cualquier partido en tres minutos. El Épsilon recorre Japón para demostrar que es el mejor equipo de primer rango de Alius.",
+  "intro": [
+   {
+    "text": "Tras desterrar a la Tormenta de Géminis, el Épsilon toma el relevo de la invasión."
+   },
+   {
+    "who": "ie2-epsilon/dave-quagmire",
+    "text": "¡Jua, ja, ja! Géminis era un equipo de segundo rango. Nosotros somos de primer rango. Tres minutos nos bastan."
+   },
+   {
+    "who": "ie2-epsilon/ronny-metcalf",
+    "text": "Yo provoco al rival y él solito cae en la trampa. Funciona siempre."
+   },
+   {
+    "who": "ie2-epsilon/karen-ripton",
+    "text": "Y yo busco su punto débil. Todo el mundo tiene uno."
+   },
+   {
+    "who": "ie2-epsilon/dave-quagmire",
+    "text": "Cuando hayamos aplastado a todos, Padre nos dará el título de Génesis. ¡En marcha!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "Calentamiento",
+    "before": [
+     {
+      "text": "Primera parada: el Instituto Kirkwood, que intenta reconstruirse tras la visita de Géminis."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¿Otra vez los aliens? ¡Esta vez estamos preparados!"
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Tres minutos. Ni uno más. Mercury, pon el cronómetro."
+     },
+     {
+      "who": "ie2-epsilon/carrie-mccuring",
+      "text": "¡Je, je! Me encanta aplastar a los enclenques."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/carrie-mccuring",
+      "text": "Dos minutos y cincuenta segundos. ¡Récord!"
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Excelente, Mercury. Siguiente objetivo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-yokato",
+    "title": "Fiesta interrumpida",
+    "before": [
+     {
+      "text": "En Fukuoka, el Instituto Fauxshore celebra su festival de verano."
+     },
+     {
+      "who": "ie2-yokato/dave-fate",
+      "text": "¡Eh, eh! ¡Que estamos de fiesta! ¿No podéis invadir otro día?"
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Mark Evans no huiría. ¡Yo tampoco! ¡Mano celestial!"
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¿Un portero que imita a Mark Evans? Divertido. Veamos cuántos segundos aguanta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Cuatro minutos... ¡Ese portero nos ha hecho pasar del límite! Jua, ja... qué rabia."
+     },
+     {
+      "who": "ie2-epsilon/zeke-valanche",
+      "text": "No es culpa mía. Los defensas han dejado huecos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-manyuuji",
+    "title": "El templo de Kioto",
+    "before": [
+     {
+      "text": "Kioto. El Claustro Sagrado se niega a jugar: para ellos el fútbol es meditación, no competición."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "No competimos. Marchaos en paz."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Entonces destruiremos el templo. ¿O preferís jugar tres minutos?"
+     },
+     {
+      "who": "ie2-manyuuji/tyke-wando",
+      "text": "Capitán... si es para proteger Kioto, mis artes marciales están listas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Habéis ganado el partido, pero no habéis entendido nada del fútbol."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¿Entender? Para ganar no hace falta entender nada. ¿O sí?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "El destierro",
+    "before": [
+     {
+      "text": "Por orden de Padre, el Épsilon debe ejecutar el destierro de la Tormenta de Géminis."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Dvalin... Danos otra oportunidad. Nos falta muy poco para vencer al Raimon."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Lo siento, Janus. En Alius, quien pierde desaparece. Demuéstrame que me equivoco... si puedes."
+     },
+     {
+      "who": "ie2-gemini-storm/dylan-bluemoon",
+      "text": "Por fin un rival que puede dejarme de piedra. ¡Vamos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Hemos dado todo lo que teníamos... Y no ha bastado."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Habéis luchado bien. Por eso no os olvidaré. Adiós, Géminis."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "Los antiguos reyes",
+    "before": [
+     {
+      "text": "Para ganarse el título de Génesis, Dvalin quiere tumbar al equipo que reinó cuarenta años en Japón: la Royal Academy."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Me llaman el rey de los porteros. Nadie me marca en tres minutos."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/david-samford",
+      "text": "Sin Jude ni Ray Dark seguimos siendo la Royal. ¡Al ataque!"
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¿Un rey? Me encantan los reyes. ¡Se ven tan bien cuando caen!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Diez minutos... Estos terrícolas nos están haciendo sudar. Y no sé por qué, me gusta."
+     },
+     {
+      "who": "ie2-epsilon/karen-ripton",
+      "text": "Capitán, está sonriendo. Nunca le había visto sonreír así."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Más de tres minutos",
+    "before": [
+     {
+      "text": "Por fin, el rival que venció a Géminis: el Raimon de Mark Evans."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Dvalin! ¡Esta vez no habrá tres minutos que valgan! ¡Vamos, Raimon!"
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¡Jua, ja, ja, ja! ¡Maravilloso! ¡Habéis venido a divertirme!"
+     },
+     {
+      "who": "ie2-second-raimon/scott-banyan",
+      "text": "Ji, ji... ¿Te sabes el truco del Campo torbellino? Pues ahora lo vas a probar."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¡Tres minutos, Raimon! ...O los que hagan falta. ¡Quiero sentir esto hasta el final!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¡Lo he conseguido! ¡Y no me importa nada el cronómetro!"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Ha sido un partidazo, Dvalin! ¿Lo ves? ¡El fútbol es mucho más divertido sin prisas!"
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Mark Evans... has despertado algo en mí. Emoción. ¡Jua, ja, ja!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie2-epsilon/dave-quagmire",
+    "text": "Ya no quiero ganar en tres minutos. Quiero partidos que duren para siempre."
+   },
+   {
+    "who": "ie2-epsilon/zeke-valanche",
+    "text": "Capitán, Padre no estará contento con este cambio de actitud."
+   },
+   {
+    "who": "ie2-epsilon/dave-quagmire",
+    "text": "Me da igual. Hoy he aprendido lo que es jugar de verdad."
+   },
+   {
+    "text": "Tiempo después, Dvalin vuelve a ser Dave Quagmire, y su pasión por el fútbol no tiene límite de tiempo."
+   }
+  ]
+ },
+ "ie2-epsilon-kai": {
+  "title": "Emoción sin límites",
+  "summary": "Potenciado por la piedra Alius, el Épsilon Plus vuelve con Dvalin de delantero. Ya no busca el título de Génesis: busca la emoción del partido perfecto.",
+  "intro": [
+   {
+    "text": "Tras empatar contra el Raimon, el Épsilon recibe una nueva dosis de la piedra Alius. Sus ojos brillan en rojo."
+   },
+   {
+    "who": "ie2-epsilon-kai/dave-quagmire",
+    "text": "¡Jua, ja, ja! Ahora juego de delantero. ¡Siento la Lanza de Odín vibrando en mis botas!"
+   },
+   {
+    "who": "ie2-epsilon-kai/zeke-valanche",
+    "text": "Y yo vuelvo a la portería. Si algo sale mal, será culpa de los demás."
+   },
+   {
+    "who": "ie2-epsilon-kai/carrie-mccuring",
+    "text": "Más poder, más emoción... ¡Me encanta!"
+   },
+   {
+    "who": "ie2-epsilon-kai/dave-quagmire",
+    "text": "Buscaremos los rivales más fuertes de Japón. ¡Quiero temblar de emoción en cada partido!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie2-yokato",
+    "title": "Nuevo poder",
+    "before": [
+     {
+      "text": "Fukuoka. El Épsilon Plus prueba su nueva fuerza contra el equipo que le hizo pasar de los tres minutos."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¿Otra vez vosotros? ¡Esta vez no pasaréis de mi Mano celestial!"
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja! ¡Así me gusta! Ya no juego en la portería, chico. Ahora soy yo quien chuta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Ese disparo... tengo que hacerme más fuerte. ¡Como Mark!"
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "Bien, bien. Pero aún no tiemblo. Necesito más."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-manyuuji",
+    "title": "El templo, otra vez",
+    "before": [
+     {
+      "text": "El Claustro Sagrado ha reconstruido su templo y ha entrenado sin descanso."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Hemos reconstruido el templo y templado el espíritu. Hoy jugaremos de igual a igual."
+     },
+     {
+      "who": "ie2-manyuuji/tyke-wando",
+      "text": "Esta vez, el comando secreto de Kioto no se dejará sorprender."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¡Así me gusta! ¡Que el partido sea largo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Seguís siendo fuertes... pero vuestro fútbol ha cambiado. Ahora disfrutáis jugando."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¿Tanto se me nota? Jua, ja..."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "Viejos compañeros",
+    "before": [
+     {
+      "text": "La Tormenta de Géminis, desterrada, sigue entrenando en secreto en el bosque del monte Fuji."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Dvalin. Nos echaste de Alius. Hoy te devolveremos el favor."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "Janus... Me alegra verte. De verdad. ¡Juguemos con todo!"
+     },
+     {
+      "who": "ie2-gemini-storm/dylan-bluemoon",
+      "text": "Vaya, vaya. Por fin un rival digno."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Has cambiado, Dvalin. Juegas... como Mark Evans."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¿Sí? Pues me lo tomo como un cumplido. ¡Jua, ja, ja!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon",
+    "title": "Frente al espejo",
+    "before": [
+     {
+      "text": "En la sala de entrenamiento de Alius, Padre ordena una prueba: el Épsilon Plus contra el Épsilon de antes."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¿Tú eres yo? Qué raro. ¡Te ganaré en tres minutos!"
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "Ese era yo... El que solo miraba el cronómetro. Te voy a enseñar lo que me perdía."
+     },
+     {
+      "who": "ie2-epsilon/carrie-mccuring",
+      "text": "¿Contra nosotros mismos? ¡Je, je! Esto va a ser rarísimo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Has pasado de los tres minutos... ¿y aun así sonríes?"
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "Claro. Porque lo bueno del fútbol no se mide con un reloj."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-chaos",
+    "title": "El desprecio de los capitanes",
+    "before": [
+     {
+      "text": "Torch y Gazelle aparecen con el Caos. Para ellos, el Épsilon no es más que un estorbo."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¿El Épsilon? Los que empataron contra el Raimon. Apartaos, que estorbáis."
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Un equipo de primer rango que juega por diversión... Qué vergüenza para Alius."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¿Vergüenza? ¡Ahora veréis lo que es un partido emocionante!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¿Cómo es posible? ¡Somos de rango supremo!"
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "El rango no chuta, Torch. Las ganas, sí."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "El partido justo",
+    "before": [
+     {
+      "text": "Okinawa. El Raimon por fin está completo: Axel Blaze ha vuelto."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Dvalin! ¡Juguemos un partido justo!"
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja, ja! ¡Esa es la clase de emoción que anhelo!"
+     },
+     {
+      "who": "ie2-second-raimon/axel-blaze",
+      "text": "Siento el retraso. Dvalin, si quieres emoción, tendrás que pasar por mi Tormenta de fuego."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Estoy temblando, Mark Evans! ¡Por fin tiemblo de verdad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "Lo he sentido. Hasta el último segundo. Gracias, Raimon."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Ha sido increíble! ¡Pero sin la piedra Alius sería todavía mejor, ya verás!"
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "Sin la piedra... Sí. Quizá tengas razón."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Dvalin entrega su fragmento de piedra Alius. El rojo desaparece de sus ojos."
+   },
+   {
+    "who": "ie2-epsilon-kai/dave-quagmire",
+    "text": "No necesito este brillo. La emoción ya la llevo dentro."
+   },
+   {
+    "who": "ie2-epsilon-kai/zeke-valanche",
+    "text": "Capitán... si perdemos sin la piedra, no me eche la culpa a mí."
+   },
+   {
+    "who": "ie2-epsilon-kai/dave-quagmire",
+    "text": "¡Jua, ja, ja! Si perdemos, ¡jugaremos otra vez! Así de sencillo."
+   }
+  ]
+ },
+ "ie2-gemini-storm": {
+  "title": "Operación Tormenta",
+  "summary": "Janus y la Tormenta de Géminis abren la invasión de Alius. Deben sembrar el miedo por Japón y demostrar a Padre que no merecen el destierro.",
+  "intro": [
+   {
+    "text": "Monte Fuji. En lo más profundo de la Academia Alius, la Tormenta de Géminis recibe su primera misión."
+   },
+   {
+    "name": "Astram Schiller",
+    "text": "Janus, demuestra a los terrícolas el poder de Alius. Que ningún instituto de Japón se atreva a desafiarnos."
+   },
+   {
+    "who": "ie2-gemini-storm/jordan-greenway",
+    "text": "Será un placer, Padre. Los perdedores son despreciables... y nosotros no perdemos jamás."
+   },
+   {
+    "who": "ie2-gemini-storm/dylan-bluemoon",
+    "text": "Por fin. A ver si en la Tierra hay alguien que me deje de piedra."
+   },
+   {
+    "who": "ie2-gemini-storm/pat-box",
+    "text": "Dicen que a quien se cruza conmigo le pasan desgracias. Pobres terrícolas..."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-kasamino",
+    "title": "Balones negros",
+    "before": [
+     {
+      "text": "Primer objetivo: el Instituto Umbrella, un equipo recién formado."
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "¿Extraterrestres? ¡Venga ya! Esto es una broma de la tele, ¿no?"
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Jugad contra nosotros o vuestro instituto será reducido a escombros. Vosotros elegís."
+     },
+     {
+      "who": "ie1-kasamino/joe-ingram",
+      "text": "Pues... ¿y si jugamos y nos lo tomamos con humor?"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Demasiado fácil. Ni siquiera hemos tenido que usar la Teleportación."
+     },
+     {
+      "who": "ie2-gemini-storm/gordon-star",
+      "text": "¡Ja, ja, ja! Yo afirmo poder parar meteoritos, ¡y estos no me han tirado ni uno!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "Un mensaje para Japón",
+    "before": [
+     {
+      "text": "La Tormenta de Géminis se presenta en el Instituto Kirkwood para dar ejemplo ante las cámaras."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¡Los hermanos Murdock no se arrodillan ante nadie! ¡Ni ante alienígenas!"
+     },
+     {
+      "who": "ie2-gemini-storm/rhona-countdown",
+      "text": "Qué ruidosos. Me encanta aprovechar el primer despiste de los ruidosos."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Que todo el país lo vea. Esto es lo que les espera a quienes se resisten."
+     }
+    ],
+    "after": [
+     {
+      "text": "Los noticiarios de todo Japón emiten el resultado. El miedo se extiende por el país."
+     },
+     {
+      "who": "ie2-gemini-storm/dylan-bluemoon",
+      "text": "Nada. Nadie me ha dejado de piedra todavía. Qué aburrimiento."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-hakuren",
+    "title": "El chico de la nieve",
+    "before": [
+     {
+      "text": "Hokkaido. Janus ha oído hablar de un delantero capaz de congelar el aire."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "No sé quiénes sois, pero no vais a tocar nuestro instituto."
+     },
+     {
+      "who": "ie2-hakuren/martin-ursus",
+      "text": "¡Yo le gané a un oso polar! ¡Un alien no me da ningún miedo!"
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Un oso polar? Qué terrícola tan curioso. Veamos si vuestra Ventisca eterna aguanta un Astro remate."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/dylan-bluemoon",
+      "text": "Ese Shawn Froste... Por un momento casi me deja de piedra. Casi."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Interesante. Este planeta tiene más talento del que creíamos. Habrá que acabar antes de que crezca."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-sp-fixers",
+    "title": "Asalto a la emisora",
+    "before": [
+     {
+      "text": "En Nara, la Tormenta de Géminis toma la emisora de televisión para lanzar su mensaje al mundo."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "¡Devolvedme a mi padre! ¡El Servicio Secreto os detendrá aquí y ahora!"
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "Formación defensiva, agentes. Que no se nos escape ni uno."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Adultos con corbata? Esto empieza a ser divertido."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "«Pueblo de la Tierra: aceptad nuestro dominio». ...¿Ha salido bien en pantalla?"
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "Esto no ha acabado. Buscaré a quien sea capaz de venceros."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "Los campeones de la Tierra",
+    "before": [
+     {
+      "text": "Ha llegado la hora del objetivo principal: el Instituto Raimon, campeón del Fútbol Frontier."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Habéis destrozado nuestro instituto! ¡Nunca os lo perdonaremos!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "No sé de dónde venís, pero aquí se juega limpio."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Los campeones de la Tierra... Si os aplastamos a vosotros, nadie volverá a resistirse."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Esto son los campeones? Qué decepción."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "Volveremos a vernos... ¡Y la próxima vez seremos más rápidos!"
+     },
+     {
+      "text": "Mark no se rinde. Reúne un nuevo equipo y sale de viaje por todo Japón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Duelo en Hokkaido",
+    "before": [
+     {
+      "text": "El Raimon ha vuelto con Shawn Froste en sus filas. Si Géminis pierde, Padre los desterrará."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡No nos ganaréis otra vez, Tormenta de Géminis! ¡Hemos entrenado en la nieve para esto!"
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Creo que los terrícolas tenéis un dicho para esto: «Perro ladrador, poco mordedor»."
+     },
+     {
+      "who": "ie2-second-raimon/shawn-froste",
+      "text": "Eres rápido, Janus. Pero el viento de Hokkaido lo es aún más."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Ni Épsilon ni nadie nos quitará el puesto. ¡Tormenta de Géminis, a por todas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Hemos... ganado? Hemos vencido al Raimon. ¡Padre tendrá que reconocerlo!"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Qué partidazo! Oye, Janus, ¿a que ha sido divertido? ¡Juguemos otra vez algún día!"
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Divertido? ...Hacía mucho tiempo que nadie me decía esa palabra."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie2-epsilon/dave-quagmire",
+    "text": "¡Jua, ja, ja! Bien hecho, Géminis. Pero Padre ya no necesita invasores. Necesita a los mejores."
+   },
+   {
+    "who": "ie2-gemini-storm/jordan-greenway",
+    "text": "Lo sé, Dvalin. Pero hoy he descubierto algo que la piedra Alius no puede darme."
+   },
+   {
+    "who": "ie2-gemini-storm/dylan-bluemoon",
+    "text": "Ese Mark Evans... Él sí que me ha dejado de piedra."
+   },
+   {
+    "text": "Cuando la Academia Alius cae, Janus vuelve a ser Jordan Greenway, un chico del orfanato Don Sol que adora el fútbol."
+   },
+   {
+    "who": "ie2-gemini-storm/jordan-greenway",
+    "text": "Mark, la próxima vez jugaremos en el mismo equipo. Te lo prometo."
+   }
+  ]
+ },
+ "ie2-hakuren": {
+  "title": "La leyenda del norte",
+  "summary": "¿Y si Shawn Froste se hubiera quedado en Hokkaido? El joven equipo del Instituto Alpino tendrá que defender sus tierras nevadas por su cuenta.",
+  "intro": [
+   {
+    "text": "Hokkaido. El club de fútbol del Instituto Alpino acaba de nacer y casi nadie lo toma en serio."
+   },
+   {
+    "who": "ie2-hakuren/milton-bindings",
+    "text": "Soy el capitán, aunque todos saben que la estrella es Shawn. ¿Alguien quiere vieiras?"
+   },
+   {
+    "who": "ie2-hakuren/shawn-froste",
+    "text": "No digas eso, Milton. Somos un equipo. Yo solo pongo los goles... y a veces, la defensa."
+   },
+   {
+    "who": "ie2-hakuren/martin-ursus",
+    "text": "¡Dicen que le gané a un oso polar! ¡Nadie nos va a echar de nuestra nieve!"
+   },
+   {
+    "text": "Pero los noticiarios hablan de alienígenas que destruyen institutos. Y vienen hacia el norte."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "Bestias del bosque",
+    "before": [
+     {
+      "text": "Para prepararse, el Alpino acepta un amistoso contra el Instituto Wild, un equipo que juega como los animales."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Coc-coc! ¡Os vamos a picotear el balón como gallos!"
+     },
+     {
+      "who": "ie2-hakuren/martin-ursus",
+      "text": "¿Animales? ¡Yo me peleé con un oso polar! ¡Esto es pan comido!"
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Tranquilos. Jugad como si corrierais por la nieve: ligeros y rápidos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Vaya! ¡En la nieve nos resbalábamos como pollitos!"
+     },
+     {
+      "who": "ie2-hakuren/milton-bindings",
+      "text": "¡Hemos ganado! ¡Esto hay que celebrarlo con vieiras!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-senbayama",
+    "title": "Fuerza de granja",
+    "before": [
+     {
+      "text": "Los chicos del Instituto Farm, curtidos en el campo, vienen al norte a medir su resistencia."
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "¡Nosotros nos levantamos antes que el sol! ¡Un poco de nieve no nos para!"
+     },
+     {
+      "who": "ie2-hakuren/sean-snowfield",
+      "text": "¿Sabíais que no hay dos copos de nieve iguales? Pues dos partidos tampoco."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Atentos. Son fuertes y aguantan mucho. Habrá que correr el doble."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Uf... Correr sobre nieve es peor que arar un campo entero."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Lo habéis hecho genial. Estamos preparados para lo que venga."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-oumihara",
+    "title": "El sur visita el norte",
+    "before": [
+     {
+      "text": "El Instituto Mary Times viaja desde Okinawa. ¡Es la primera vez que ven la nieve!"
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, qué frío, colega! ¡Pero la nieve es como espuma de ola! ¡Vamos a marcarnos un partido!"
+     },
+     {
+      "who": "ie2-oumihara/cadence-soundtown",
+      "text": "♪Brrr, brrr, dum...♪ Hasta el ritmo se me congela."
+     },
+     {
+      "who": "ie2-hakuren/milton-bindings",
+      "text": "¡Bienvenidos al norte! Aquí jugamos con gorro. ¿Queréis uno?"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Qué pasada! ¡Surfear en la nieve se os da mejor que a nosotros en el mar!"
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Volved cuando queráis. El fútbol calienta más que cualquier estufa."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-diamond-dust",
+    "title": "El rey del hielo",
+    "before": [
+     {
+      "text": "Un equipo de Alius aparece en medio de una ventisca: el Polvo de Diamantes."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Así que tú eres Shawn Froste. Dicen que tu Ventisca eterna congela el aire. Veámoslo."
+     },
+     {
+      "who": "ie2-second-raimon/shawn-froste-fubuki-cc",
+      "text": "¡Je! ¿Hielo contra hielo? Apártate, Shawn. ¡A este lo congelo yo solo!"
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "No, Aiden. Esta vez jugamos juntos. Todo el equipo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Vuestro frío tiene algo que el mío no tiene... Calor de equipo."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Aiden... hoy no me has quitado el balón ni una vez. Gracias."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "Defensa de Hokkaido",
+    "before": [
+     {
+      "text": "Por fin llega la Tormenta de Géminis. Esta vez no hay Raimon que venga a ayudar."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Un instituto con un solo jugador bueno. Lo destruiremos en un momento."
+     },
+     {
+      "who": "ie2-hakuren/adam-ropes",
+      "text": "Me gustan las vistas nocturnas de Sapporo. ¡No pienso dejar que las destruyáis!"
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Te equivocas, Janus. Aquí no hay un solo jugador. Somos once."
+     },
+     {
+      "who": "ie2-hakuren/milton-bindings",
+      "text": "¡Instituto Alpino! ¡A defender nuestra nieve!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Imposible... ¿Unos novatos del norte?"
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "No somos novatos. Somos el Instituto Alpino."
+     },
+     {
+      "text": "La noticia corre por todo Japón: unos chicos de Hokkaido han frenado la invasión."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Un autobús con un rayo pintado llega a Hokkaido. Es la Caravana Inazuma del Raimon."
+   },
+   {
+    "who": "ie2-second-raimon/mark-evans",
+    "text": "¡Hola! ¡Hemos oído que habéis vencido a la Tormenta de Géminis! ¡Queremos jugar con vosotros!"
+   },
+   {
+    "who": "ie2-hakuren/shawn-froste",
+    "text": "Gracias, Mark. Pero antes de irme con nadie, quería ganar aquí, con mis amigos."
+   },
+   {
+    "who": "ie2-hakuren/milton-bindings",
+    "text": "Ve, Shawn. Nosotros cuidaremos del norte. ¡Y de las vieiras!"
+   },
+   {
+    "who": "ie2-hakuren/shawn-froste",
+    "text": "Volveré. El Alpino será siempre mi equipo."
+   }
+  ]
+ },
+ "ie2-jukai-team": {
+  "title": "Supervivencia en el Mar de Árboles",
+  "summary": "Perdidos durante años en el bosque del monte Fuji, los soldados del Mar de Árboles creen seguir en plena misión. Para ellos, cada rival es una presa.",
+  "intro": [
+   {
+    "text": "Bosque del monte Fuji, el Mar de Árboles. Hace años, un grupo de futbolistas entró aquí en una prueba de supervivencia."
+   },
+   {
+    "who": "ie2-jukai-team/cam-mando",
+    "text": "La misión sigue en marcha, soldados. Hasta nueva orden, no se abandona el bosque."
+   },
+   {
+    "who": "ie2-jukai-team/chase-faithfull",
+    "text": "¡Mi capitán! ¡Siempre a su lado, mi capitán!"
+   },
+   {
+    "who": "ie2-jukai-team/aspen-blewit",
+    "text": "Yo siempre estuve en contra de esta expedición... Pero esos cristales rosas nos han hecho más fuertes."
+   },
+   {
+    "who": "ie2-jukai-team/chris-ticker",
+    "text": "Pasando lista: once soldados. Hora: las mismas de siempre. Mi reloj se paró hace años."
+   },
+   {
+    "who": "ie2-jukai-team/cam-mando",
+    "text": "¡Atención! ¡Hay movimiento en el perímetro! ¡Preparad la emboscada!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "Presa salvaje",
+    "before": [
+     {
+      "text": "El Instituto Wild entra en el bosque para entrenar en plena naturaleza."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Coc-coc! ¡Qué bosque más espeso! ¡Ideal para entrenar!"
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¡Que empiece el combate! ¡Vais a convertiros en nuestra presa!"
+     },
+     {
+      "who": "ie1-nose/cham-lion",
+      "text": "Yo también sé camuflarme... A ver quién caza a quién."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-jukai-team/scaber-enoki",
+      "text": "¡Presa capturada, mi comandante!"
+     },
+     {
+      "who": "ie2-jukai-team/todd-stuhl",
+      "text": "¿Podemos celebrarlo con setas salteadas?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Ninjas en la espesura",
+    "before": [
+     {
+      "text": "Los ninjas del Instituto Shuriken atraviesan el bosque saltando de rama en rama."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Nadie se esconde mejor que un ninja. Ni siquiera vosotros, soldaditos."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¿Enemigos invisibles? Interesante. ¡Unidad, modo camuflaje total!"
+     },
+     {
+      "who": "ie2-jukai-team/judas-deathcap",
+      "text": "Pinon, mi seta, dice que tiene miedo. Yo también un poquito."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Nos habéis encontrado... ¡a nosotros! Sois soldados de verdad."
+     },
+     {
+      "who": "ie2-jukai-team/chase-faithfull",
+      "text": "¡El capitán es el mejor rastreador del mundo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "Patrulla metálica",
+    "before": [
+     {
+      "text": "Unas máquinas de metal patrullan el borde del bosque. Buscan los cristales que lleva el equipo."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "FRAGMENTOS DE PIEDRA ALIUS LOCALIZADOS. DEVOLVEDLOS O... JUGAD."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¡Tanques enemigos! ¡Soldados, nadie entrega su equipo al enemigo!"
+     },
+     {
+      "who": "ie2-jukai-team/harry-boufante",
+      "text": "Cuidado con mi melena, latas con patas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "ERROR... PRESA NO CAPTURADA... BZZZT."
+     },
+     {
+      "who": "ie2-jukai-team/aspen-blewit",
+      "text": "¿Qué son esos cristales en realidad? Si unos robots los buscan, no pueden ser nada bueno."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-sp-fixers",
+    "title": "Agentes infiltrados",
+    "before": [
+     {
+      "text": "El Servicio Secreto investiga el bosque siguiendo el rastro de la Academia Alius."
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "Identifíquense. Por orden del Gobierno, este bosque está bajo vigilancia."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¿Gobierno? ¿Qué Gobierno? ¡Nosotros seguimos órdenes de nuestra misión!"
+     },
+     {
+      "who": "ie2-sp-fixers/linda-shadey",
+      "text": "Llevan años aquí... Ni siquiera saben qué día es. Habrá que jugar para que nos escuchen."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-sp-fixers/linda-shadey",
+      "text": "Escuchadme. La prueba de supervivencia terminó hace mucho. Podéis volver a casa."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¿Terminó? ...No. No hasta que encontremos la fuente de estos cristales."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "El origen del cristal",
+    "before": [
+     {
+      "text": "Siguiendo el brillo de los cristales, el equipo llega a una base oculta: el Laboratorio Mensajeros de las Estrellas."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "¿Quiénes sois? Lleváis fragmentos de piedra Alius... ¿Os los dio Padre?"
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "Los encontramos en el bosque. ¿Sois vosotros el enemigo de esta misión?"
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "¿Enemigos? Somos el Génesis. Y vosotros, unos intrusos con barro hasta las orejas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Increíble. Sin entrenamiento de Alius, solo con instinto de supervivencia..."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "Ese chico dice la verdad: los cristales no nos hacen falta. Lo que nos hace fuertes es el equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "La última presa",
+    "before": [
+     {
+      "text": "En lo más profundo del bosque, el equipo se topa con el Raimon. Para Mando, es la prueba final."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¡Todo el mundo a sus puestos! ¡Se ha localizado una nueva presa!"
+     },
+     {
+      "who": "ie2-jukai-team/harry-boufante",
+      "text": "¡Jo, jo! Los objetivos parecen estar bastante animados, ¿no?"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¿De-de dónde habéis salido? ¡Hace un momento no había nadie aquí!"
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¡Que empiece el combate! ¡No tenéis otra elección!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Qué equipo más increíble! ¡Nunca había visto a nadie aparecer así de la nada!"
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "Has luchado como un auténtico soldado, Mark Evans. Mi misión... ha terminado."
+     },
+     {
+      "who": "ie2-jukai-team/chris-ticker",
+      "text": "¡Mi reloj vuelve a funcionar, mi comandante! ¡Hora de volver a casa!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Tras años perdidos, el equipo del Mar de Árboles sale por fin del bosque."
+   },
+   {
+    "who": "ie2-jukai-team/cam-mando",
+    "text": "Soldados, misión cumplida. Dejad aquí los cristales. Ya no los necesitamos."
+   },
+   {
+    "who": "ie2-jukai-team/scaber-enoki",
+    "text": "Mi comandante, ahora que no como tantas setas... ¡me siento más fuerte que nunca!"
+   },
+   {
+    "who": "ie2-jukai-team/chase-faithfull",
+    "text": "¿Y ahora qué, mi capitán?"
+   },
+   {
+    "who": "ie2-jukai-team/cam-mando",
+    "text": "Ahora... jugaremos al fútbol como lo que somos: un equipo que sobrevive a todo."
+   }
+  ]
+ },
+ "ie2-keibi-machines": {
+  "title": "Protocolo de seguridad",
+  "summary": "Los Robots Guardias del laboratorio Mensajeros de las Estrellas detectan un robo de fragmentos de la piedra Alius y salen del laboratorio para recuperarlos.",
+  "intro": [
+   {
+    "text": "Monte Fuji. Laboratorio Mensajeros de las Estrellas. Cámara de la piedra Alius."
+   },
+   {
+    "who": "ie2-keibi-machines/robot-s",
+    "text": "BIIIP. ALERTA. FRAGMENTOS DE PIEDRA ALIUS DESAPARECIDOS. INICIANDO PROTOCOLO DE RECUPERACIÓN."
+   },
+   {
+    "who": "ie2-keibi-machines/robot-o",
+    "text": "ANALIZANDO... RASTRO DETECTADO FUERA DEL LABORATORIO. PROBABILIDAD DE ROBO: 98 %."
+   },
+   {
+    "who": "ie2-keibi-machines/robot-l",
+    "text": "MÉTODO DE NEGOCIACIÓN TERRÍCOLA: FÚTBOL. CARGANDO REGLAMENTO..."
+   },
+   {
+    "who": "ie2-keibi-machines/robot-s",
+    "text": "UNIDADES S A L: ¡EN MARCHA! BZZZT."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Prueba de sistemas",
+    "before": [
+     {
+      "text": "Los robots llegan al Instituto Brain, donde perciben una señal sospechosa de manipulación mental."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "ESCANEANDO... CEREBROS MANIPULADOS DETECTADOS. ¿SOIS ROBOTS COMO NOSOTROS?"
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "¡No somos robots! ...Aunque antes jugábamos como si lo fuéramos."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-k",
+      "text": "INICIANDO PARTIDO DE PRUEBA. CALIBRANDO PIERNAS."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "SEÑAL FALSA. AQUÍ NO HAY FRAGMENTOS. PERO SÍ BUENOS RIVALES. GUARDANDO DATOS."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "¿Unos robots nos acaban de felicitar? Qué día más raro."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Señal del futuro",
+    "before": [
+     {
+      "text": "Una señal metálica muy parecida a la suya los lleva hasta unos robots desconocidos."
+     },
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "SALUDOS. SOMOS LOS FUTBOLOIDES, GUARDIANES DEL MUSEO DEL FÚTBOL. ¿UNIDADES DE OTRA ÉPOCA?"
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "BIIIP. ¿HERMANOS DE CIRCUITO? IDENTIFICAOS... O JUGAD."
+     },
+     {
+      "who": "cs-soccer-robots/fb-108x",
+      "text": "YO CREO QUE SOY HUMANO. ¿VOSOTROS TAMBIÉN?"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "BUEN PARTIDO. NOS VAMOS. NO PREGUNTÉIS DE DÓNDE VENIMOS."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-o",
+      "text": "ERROR TEMPORAL... BORRANDO ÚLTIMOS DIEZ MINUTOS DE MEMORIA. ¿QUÉ HACÍAMOS?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-sp-fixers",
+    "title": "Seguridad contra seguridad",
+    "before": [
+     {
+      "text": "El Servicio Secreto intercepta a unos robots extraños que se pasean por la ciudad."
+     },
+     {
+      "who": "ie2-sp-fixers/ken-ironwall",
+      "text": "Alto ahí. Si yo estoy presente, aquí no se comete ningún delito."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "NOSOTROS TAMBIÉN SOMOS SEGURIDAD. PROPUESTA: PARTIDO. EL GANADOR SIGUE LA PISTA."
+     },
+     {
+      "who": "ie2-sp-fixers/ryan-tappin",
+      "text": "Hemos interceptado sus transmisiones... Solo dicen «bip». Muchos «bip»."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-sp-fixers/ken-ironwall",
+      "text": "Me han ganado unos robots... Vale, compartiremos la información. El rastro va al monte Fuji."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "COLABORACIÓN REGISTRADA. GRACIAS, HUMANOS CON CORBATA."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Datos incompletos",
+    "before": [
+     {
+      "text": "El Raimon se cruza con los robots en la falda del monte Fuji. Su base de datos los marca como sospechosos."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "BASE DE DATOS DEL RAIMON CARGADA AL CIEN POR CIEN. PROBABILIDAD DE VICTORIA: TOTAL."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "Tío, mira que es difícil hablar con robots. ¡A lo mejor entienden el idioma del fútbol!"
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "Si tienen todos nuestros datos, juguemos como nunca hemos jugado. Mark, sal de la portería."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "DATOS ACTUALIZADOS: EL RAIMON NO ROBA PIEDRAS. EL RAIMON SOLO QUIERE JUGAR. BIIIP."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Eh, los robots no juegan nada mal! ¿Habéis visto ese regate?"
+     },
+     {
+      "who": "ie2-keibi-machines/robot-o",
+      "text": "NUEVA PISTA: MOVIMIENTOS EN EL BOSQUE DEL MONTE FUJI. FIRMAS DE ENERGÍA ALIUS."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-jukai-team",
+    "title": "Los ladrones del bosque",
+    "before": [
+     {
+      "text": "En lo más profundo del bosque del monte Fuji aguardan unos soldados con trozos de cristal rosa colgados del cuello."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¡Todo el mundo a sus puestos! ¡Se ha localizado una nueva presa!"
+     },
+     {
+      "who": "ie2-jukai-team/scaber-enoki",
+      "text": "¡A la orden, mi comandante! ...Aunque estas presas son de metal."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "FRAGMENTOS DE PIEDRA ALIUS LOCALIZADOS. DEVOLVEDLOS O... JUGAD."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "¡Que empiece el combate! ¡Vais a convertiros en nuestra presa!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "Derrotados por chatarra... Está bien, soldados. Entregad los cristales."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "FRAGMENTOS RECUPERADOS. PROTOCOLO COMPLETADO. SENSACIÓN DESCONOCIDA DETECTADA: ¿ALEGRÍA?"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Robots Guardias regresan al laboratorio con los fragmentos de la piedra Alius."
+   },
+   {
+    "who": "ie2-keibi-machines/robot-s",
+    "text": "INFORME FINAL: EL FÚTBOL ES EL MEJOR MÉTODO DE NEGOCIACIÓN DEL PLANETA TIERRA."
+   },
+   {
+    "who": "ie2-keibi-machines/robot-l",
+    "text": "PROPUESTA: GUARDAR LA PIEDRA... Y SALIR A JUGAR LOS DOMINGOS."
+   },
+   {
+    "who": "ie2-keibi-machines/robot-s",
+    "text": "PROPUESTA APROBADA. BIIIP, BIIIP. ¡BZZZZZZ!"
+   }
+  ]
+ },
+ "ie2-manyuuji": {
+  "title": "El peregrinaje del Claustro",
+  "summary": "El Claustro Sagrado no compite: entrena el espíritu. Tras la visita del Épsilon, emprende un peregrinaje para encontrar la paz interior a través del fútbol.",
+  "intro": [
+   {
+    "text": "Kioto. El Instituto Claustro Sagrado está considerado el mejor equipo de Japón que jamás ha jugado el Fútbol Frontier."
+   },
+   {
+    "who": "ie2-manyuuji/crane-kik",
+    "text": "No competimos. Nuestro fútbol es meditación en movimiento."
+   },
+   {
+    "who": "ie2-manyuuji/tyke-wando",
+    "text": "Capitán, el Épsilon destrozó nuestro templo. ¿No deberíamos responder?"
+   },
+   {
+    "who": "ie2-manyuuji/crane-kik",
+    "text": "La ira no nos hará más fuertes, Tyke. Un peregrinaje, sí. Cada partido será una prueba para el espíritu."
+   },
+   {
+    "who": "ie2-manyuuji/scott-banyan",
+    "text": "¡Ji, ji, ji! ¿Un viaje? ¡Pienso cavar hoyos en todos los campos de Japón!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-occult",
+    "title": "La prueba de la maldición",
+    "before": [
+     {
+      "text": "Primera prueba: el Instituto Occult, famoso por sus maldiciones."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Los espíritus de futbolistas antiguos están de mi lado. Temblad, monjes."
+     },
+     {
+      "who": "ie2-manyuuji/ollie-gami",
+      "text": "Mis amuletos de papel contra vuestras maldiciones. Esto va a ser interesante."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "El miedo nace en la mente. Mantened la calma y el balón será vuestro."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "¿Los espíritus... se han dormido? ¡Nunca me había pasado!"
+     },
+     {
+      "who": "ie2-manyuuji/ollie-gami",
+      "text": "Mis amuletos funcionan. Bueno, o eso, o es que estaban aburridos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "La disciplina del ninja",
+    "before": [
+     {
+      "text": "Segunda prueba: los ninjas del Instituto Shuriken, maestros de la disciplina."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Monjes contra ninjas. ¡Qué combinación! A ver quién domina mejor el cuerpo."
+     },
+     {
+      "who": "ie2-manyuuji/tyke-wando",
+      "text": "Soy el sucesor de un comando secreto de Kioto. No me asustan las sombras."
+     },
+     {
+      "who": "ie2-manyuuji/scott-banyan",
+      "text": "¡Ji, ji! Ya he cavado un hoyo en el área. A ver qué ninja lo esquiva."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "¿Un hoyo? ¡Eso no aparece en ningún pergamino ninja!"
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Scott... Aunque esta vez ha sido útil. No lo repitas."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-makai-gundan-z",
+    "title": "Los demonios del rencor",
+    "before": [
+     {
+      "text": "Una niebla oscura cubre el camino. Aparece un equipo que dice venir del inframundo."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Tu templo, en ruinas... ¿Y no quieres venganza? Únete a nosotros, monje... o devoraremos tu alma."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "El rencor es un peso que no quiero cargar. Juguemos, pero no por venganza."
+     },
+     {
+      "who": "ie2-manyuuji/junior-fardream",
+      "text": "♪...♪ Mi flauta calmará esta oscuridad."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "¿Cómo podéis jugar sin odio? ¡No lo entiendo!"
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Porque el corazón tranquilo ve el balón con más claridad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-tenkuu-no-shito",
+    "title": "Los mensajeros del cielo",
+    "before": [
+     {
+      "text": "Al despejarse la niebla, un equipo luminoso desciende de lo alto."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Humanos que no temen a los demonios... Interesante. Veamos si resistís el juicio del cielo."
+     },
+     {
+      "who": "ie2-manyuuji/ian-telektual",
+      "text": "Me he leído todos los libros del templo, y esto no venía en ninguno."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Ni la oscuridad ni la luz. Solo el balón y el espíritu. ¡Vamos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "El equilibrio... Los humanos podéis alcanzarlo. Seguid vuestro camino."
+     },
+     {
+      "who": "ie2-manyuuji/tyke-wando",
+      "text": "Capitán, me siento más ligero que nunca."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon",
+    "title": "El reencuentro",
+    "before": [
+     {
+      "text": "El peregrinaje termina donde empezó: frente al Épsilon, en las ruinas del templo."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¿Los monjes que no compiten? ¡Os derrotaré en tres minutos!"
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Dvalin, no venimos a vengarnos. Venimos a enseñarte lo que es jugar con el corazón en paz."
+     },
+     {
+      "who": "ie2-manyuuji/scott-banyan",
+      "text": "Y yo vengo a enseñarte un hoyo nuevecito. ¡Ji, ji, ji!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Más de tres minutos... ¿Y sonreís? ¿Qué clase de monjes sois?"
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Unos que han aprendido mucho en el camino. Gracias por ser la última prueba."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Claustro Sagrado vuelve a Kioto y empieza a reconstruir su templo, piedra a piedra."
+   },
+   {
+    "who": "ie2-manyuuji/crane-kik",
+    "text": "Seguimos sin competir. Pero quizá algún día juguemos un torneo... solo para aprender."
+   },
+   {
+    "who": "ie2-manyuuji/scott-banyan",
+    "text": "Yo me voy con el Raimon. ¡Allí también hay campos donde cavar hoyos!"
+   },
+   {
+    "who": "ie2-manyuuji/crane-kik",
+    "text": "Ve, Scott. Y recuerda: el mejor truco es el que ayuda a tu equipo."
+   }
+  ]
+ },
+ "ie2-new-teikoku-gakuen": {
+  "title": "Una Royal sin sombras",
+  "summary": "Libres de Ray Dark, Jude Sharp y la Royal Academy renacen como Royal Academy NEW. Su misión: borrar el pasado oscuro y jugar el fútbol más limpio de Japón.",
+  "intro": [
+   {
+    "text": "Ray Dark ha desaparecido en el mar. En la Royal Academy, los jugadores se miran sin saber qué hacer."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/jude-sharp",
+    "text": "Durante años jugamos para él. Hoy empezamos a jugar para nosotros. Esta es la Royal Academy NEW."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/joseph-king",
+    "text": "Rey de los porteros, con o sin Ray Dark. Pero esta vez quiero sentirme orgulloso de cada parada."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/david-samford",
+    "text": "Jude, gracias por volver. Esta vez, ni técnicas prohibidas ni juego sucio."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/gus-martin",
+    "text": "..."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/daniel-hatch",
+    "text": "Por cierto, ¿alguien sabe de dónde ha salido Gus Martin? ¿Nadie? Vale."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "El laboratorio de Ray Dark",
+    "before": [
+     {
+      "text": "Primera parada: el Instituto Brain, donde Ray Dark experimentó con el control mental."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "¿La Royal? ¿Venís a reíros de nosotros? Ray Dark también nos utilizó."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "Venimos a jugar limpio. Para que ningún equipo vuelva a creer que necesita un amo."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/alan-master",
+      "text": "Con mis cascos marco el ritmo. Hoy suena una canción nueva."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Nunca había jugado así... sin miedo. Gracias, Royal."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "Así empieza todo. Un partido limpio cada vez."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-sp-fixers",
+    "title": "Bajo sospecha",
+    "before": [
+     {
+      "text": "El Servicio Secreto investiga a la Royal: ¿siguen trabajando para Ray Dark?"
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "Muchachos, tenemos órdenes de vigilaros. Vuestro antiguo entrenador tiene muchos cómplices."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "¡Pues que lo demuestren en el campo! ¡Nada dice más de alguien que su forma de jugar!"
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "Acepto. Mirad bien. No encontraréis ni una sola falta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "¡Ni una falta en todo el partido! Vale, os creo. ¡Sois de fiar!"
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "Archivaré el caso. Aunque sigo sin saber quién es el tal Gus Martin."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/gus-martin",
+      "text": "...Je."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-shin-teikoku-gakuen",
+    "title": "El reflejo oscuro",
+    "before": [
+     {
+      "text": "Corren rumores de que la Royal Academy Redux sigue entrenando en Ehime. La Royal NEW va a su encuentro."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "¿La Royal de verdad? Qué tierno. ¿Venís a darme una lección de buenos modales?"
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/david-samford",
+      "text": "Venimos a demostrar que no hace falta la piedra Alius para ser fuertes."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/joseph-king",
+      "text": "Mírame, Caleb. Este es el portero que soy sin trampas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Tch... Me habéis ganado con fútbol limpio. Qué fastidio."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "Caleb, eres un gran jugador. Cuando quieras jugar de verdad, aquí estaremos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "El rival que nos cambió",
+    "before": [
+     {
+      "text": "Ha llegado la hora de devolver la visita al equipo que les enseñó lo que es el fútbol de verdad: el Raimon."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Jude! ¿Vuelves con la Royal? ¡Genial! ¡Vamos a jugar al fútbol!"
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "Mark, tú me enseñaste a jugar con el corazón. Hoy te lo demostraré con la capa de la Royal."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/david-samford",
+      "text": "Esta vez nadie usará el Pingüino emperador n.º 1. Será el n.º 2... y lo haremos juntos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Qué partidazo, Jude! ¡Así da gusto perder!"
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "No pongas esa cara, Mark. La próxima seguro que nos ganas tú."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "El último rastro",
+    "before": [
+     {
+      "text": "Ray Dark patrocinó al Instituto Zeus con el «agua de los dioses». Allí la Royal busca cerrar el último capítulo."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Los dos fuimos marionetas de Ray Dark. Juguemos como lo que somos ahora: jugadores libres."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "Byron, este partido es para todos los que alguna vez creyeron que necesitaban trampas."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/daniel-hatch",
+      "text": "¡Mis piernas largas están listas para dioses! ¡A por ellos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Ha sido un honor. Ray Dark ya no tiene poder sobre ninguno de los dos."
+     },
+     {
+      "who": "ie2-new-teikoku-gakuen/jude-sharp",
+      "text": "Se acabó. La sombra de Ray Dark ya no está sobre la Royal."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Royal Academy NEW se convierte en el ejemplo de juego limpio de todo Japón."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/jude-sharp",
+    "text": "Cuarenta años de victorias no valen lo que un solo partido jugado con orgullo."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/joseph-king",
+    "text": "Rey de los porteros... y rey de la deportividad. Me gusta cómo suena."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/david-samford",
+    "text": "Jude, ¿y ahora qué? ¿Vuelves con Mark?"
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/jude-sharp",
+    "text": "Vuelvo a donde me necesiten. Pero la Royal será siempre mi casa."
+   },
+   {
+    "who": "ie2-new-teikoku-gakuen/gus-martin",
+    "text": "...Buen trabajo, equipo. ¿Qué? ¿Nunca me habíais oído hablar?"
+   }
+  ]
+ },
+ "ie2-osaka-gals-ccc": {
+  "title": "¡Que vuelva Sue!",
+  "summary": "Sue se ha ido con el Raimon detrás de Erik. Las chicas del Triple C de Osaka recorren Japón para demostrar que el estilo de Osaka no tiene rival.",
+  "intro": [
+   {
+    "text": "Osaka. El Triple C se ha quedado sin su delantera estrella: Suzette Hartland se ha ido con el Raimon."
+   },
+   {
+    "who": "ie2-osaka-gals-ccc/lily-willow",
+    "text": "¡Sue se ha fugado con un chico! Bueno, con un equipo entero... ¡Pero es lo mismo!"
+   },
+   {
+    "who": "ie2-osaka-gals-ccc/rose-pinkpetal",
+    "text": "¡Pues vamos tras ella! Y de paso demostramos que en Osaka también sabemos vestir bien."
+   },
+   {
+    "who": "ie2-osaka-gals-ccc/se-ora-hartland",
+    "text": "Mi hija tiene mucho carácter. Como su madre. ¡Me pongo los guantes y me voy con vosotras!"
+   },
+   {
+    "who": "ie2-osaka-gals-ccc/natalie-sunrise",
+    "text": "¿Podemos llevarnos bolitas de pulpo para el viaje? ¡Por favor!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "Las fans del Raimon",
+    "before": [
+     {
+      "text": "Primera parada: el Instituto Otaku, que sigue cada paso del Raimon por internet."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "¿Sue Hartland? ¡Sí, aparece en los vídeos de la Caravana Inazuma! ¡Os lo cuento si nos ganáis!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/hillary-bush",
+      "text": "¿Información a cambio de un partido? ¡Trato hecho! ¡Y ríete de mis chistes!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡Chicas, con estilo y con gracia! ¡Que se note que somos de Osaka!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "Vale, vale... La caravana iba hacia Fukuoka. ¡Qué técnicas tan bonitas!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/rose-pinkpetal",
+      "text": "¡Fukuoka! ¡Allá vamos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-yokato",
+    "title": "Fiesta en Fukuoka",
+    "before": [
+     {
+      "text": "En Fukuoka, el Instituto Fauxshore celebra un festival. Del Raimon, ni rastro."
+     },
+     {
+      "who": "ie2-yokato/dave-fate",
+      "text": "¡Bienvenidas! ¡Aquí no paramos de festejar! ¿Un partido entre fiesta y fiesta?"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/peony-cash",
+      "text": "Antes de jugar, ¿cuánto cuesta la entrada al festival? Seguro que nos hacen descuento."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡Osaka contra Fukuoka! ¡A ver quién se lo pasa mejor!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-yokato/dave-fate",
+      "text": "¡Qué marcha tenéis! El Raimon se fue hacia Okinawa, a buscar a un tal delantero de fuego."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/se-ora-hartland",
+      "text": "¡Okinawa! ¡Me llevo el bañador!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-oumihara",
+    "title": "Playa y balón",
+    "before": [
+     {
+      "text": "Las playas de Okinawa. El Mary Times las recibe a ritmo de guitarra."
+     },
+     {
+      "who": "ie2-oumihara/joston-easton",
+      "text": "¡Hola, chicas! ¿Habéis venido a disfrutar de la playa?"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/rose-pinkpetal",
+      "text": "¡Hemos venido a ganar! Y a por un poco de moreno, ya que estamos."
+     },
+     {
+      "who": "ie2-oumihara/cadence-soundtown",
+      "text": "♪Dumba, dumba, dum...♪ ¡A ver si seguís nuestro ritmo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, qué partidazo! El Raimon volvió a Tokio, colegas. ¡Mark tiene un partido muy gordo!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡A Tokio, chicas! Pero antes... ¡una parada en Kioto, que nos pilla de camino!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-manyuuji",
+    "title": "Rivalidad de Kansai",
+    "before": [
+     {
+      "text": "Kioto y Osaka, vecinas y rivales de toda la vida. El Claustro Sagrado acepta una «prueba de destreza»."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Las chicas de Osaka sois muy ruidosas. ¿Sabéis lo que es la calma?"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/hillary-bush",
+      "text": "¿Calma? ¡En Osaka la calma es contar un chiste y que se rían!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/daisy-fields",
+      "text": "Soy campeona de sumo. Mi portería es más estable que vuestro templo. Snif... qué emoción."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Qué energía... Quizá la calma no sea el único camino."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡Kioto, os queremos, pero Osaka es Osaka! ¡Rumbo a Tokio!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "El reencuentro",
+    "before": [
+     {
+      "text": "Tokio. Por fin, el Triple C encuentra a la Caravana Inazuma."
+     },
+     {
+      "who": "ie2-second-raimon/suzette-hartland",
+      "text": "¿Chicas? ¿Mamá? ¿Qué hacéis aquí? ¡Estoy ocupadísima salvando el mundo con mi Erik!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/se-ora-hartland",
+      "text": "¡Ni Erik ni nada, Sue! ¡Has dejado tirado a tu equipo! ¡Hoy te ganamos y te vienes a casa!"
+     },
+     {
+      "who": "ie2-second-raimon/erik-eagle",
+      "text": "Mark, como decimos en América: ¡esta es la gota que colma la... taza! ¿O era el plato?"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Ja, ja! ¡Venga, que empiece el partido! ¡Osaka contra el Raimon!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/suzette-hartland",
+      "text": "Me habéis ganado... ¡Qué orgullosa estoy de vosotras!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "Sue, si quieres seguir con el Raimon, vete. Pero vuelve a casa cuando acabe todo, ¿eh?"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/se-ora-hartland",
+      "text": "Y tráete a ese tal Erik a cenar. Que lo vea su suegra."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Triple C vuelve a Osaka con la cabeza bien alta y la maleta llena de recuerdos."
+   },
+   {
+    "who": "ie2-second-raimon/suzette-hartland",
+    "text": "¡Os prometo que volveré! ¡Y que traeré a Erik conmigo!"
+   },
+   {
+    "who": "ie2-second-raimon/erik-eagle",
+    "text": "¿S-se lo prometes a tu madre también?"
+   },
+   {
+    "who": "ie2-osaka-gals-ccc/lily-willow",
+    "text": "Las chicas de Osaka nunca pierden. Y, si lo hacen, ¡lo hacen con estilo!"
+   }
+  ]
+ },
+ "ie2-oumihara": {
+  "title": "Surfeando el Fútbol Frontier",
+  "summary": "El Mary Times se quedó sin jugar el Fútbol Frontier porque su entrenador se quedó bailando en las fiestas. Hurley y los suyos buscan su revancha.",
+  "intro": [
+   {
+    "text": "Okinawa. El Instituto Mary Times llegó a la final de la fase clasificatoria de Kyushu... y la perdió sin jugar."
+   },
+   {
+    "who": "ie2-oumihara/hurley-kane",
+    "text": "¡El entrenador se quedó bailando en las fiestas del pueblo y se le olvidó ir al partido! ¡Qué fuerte, colega!"
+   },
+   {
+    "who": "ie2-oumihara/cadence-soundtown",
+    "text": "♪Dumba, dumba, dum...♪ Nos descalificaron por no tener entrenador. Qué ritmo tan triste."
+   },
+   {
+    "who": "ie2-oumihara/tom-contented",
+    "text": "Bueno, para mí llegar una hora tarde no es retrasarse..."
+   },
+   {
+    "who": "ie2-oumihara/hurley-kane",
+    "text": "¡Pues vamos a jugar contra los mejores! ¡Que todo Japón vea lo que nos perdimos!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-big-waves",
+    "title": "El torneo de surf",
+    "before": [
+     {
+      "text": "Un torneo de fútbol playa reúne a surfistas de medio mundo. Allí están los australianos del Big Waves."
+     },
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "¿Surfistas japoneses? ¡Mola! A ver quién coge mejor la ola del balón."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, colega! ¡Mi Remate tsunami es la ola más grande de Okinawa!"
+     },
+     {
+      "who": "ie2-oumihara/dora-delight",
+      "text": "Aquí hay unas conchas preciosas... ¡Ay, perdón! ¡Ya me centro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "¡Buen rollo y buen fútbol! ¡Nos vemos en el mar, mates!"
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Toma ya! ¡Primera ola superada!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-yokato",
+    "title": "La final que nunca jugamos",
+    "before": [
+     {
+      "text": "Fukuoka. El Fauxshore fue el rival que habría jugado aquella final de Kyushu."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡Aquella final la ganamos sin jugar! Y eso no me gustó nada. ¡Juguémosla ahora!"
+     },
+     {
+      "who": "ie2-oumihara/cadence-soundtown",
+      "text": "♪Esta vez el entrenador está en el banquillo... ¡atado a la silla!♪"
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Esta es nuestra final, colegas! ¡A darlo todo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Habríais sido un rival tremendo en el Fútbol Frontier. ¡Qué pena!"
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Kyushu es nuestro! El mar es inmenso, colegas... ¡y aún quedan olas más grandes!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "Los reyes de Tokio",
+    "before": [
+     {
+      "text": "Tokio. La Royal Academy, cuarenta años campeona, acepta el reto del equipo de las olas."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "¿Un equipo que perdió sin jugar? Muy bien. Comprobemos si de verdad merecíais estar allí."
+     },
+     {
+      "who": "ie2-oumihara/spring-millpond",
+      "text": "Cuando agarro el balón, no lo suelto. Como un tiburón."
+     },
+     {
+      "who": "ie2-oumihara/cadence-soundtown",
+      "text": "♪Si os sabéis el ritmo, os podemos enseñar... pero no os lo vamos a contar♪"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Vuestro ritmo es impredecible. Habríais llegado lejos en el torneo."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Hemos tumbado a la Royal! ¡Esta ola no se acaba nunca!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "La ola de los dioses",
+    "before": [
+     {
+      "text": "Los dioses del Instituto Zeus, finalistas del Fútbol Frontier, aceptan el desafío."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Okinawa... Dicen que allí el mar tiene el color del cielo. Juguemos con esa belleza."
+     },
+     {
+      "who": "ie1-zeus/paul-siddon",
+      "text": "Me llaman Poseidón. Nadie mueve la red de mi portería. Ni siquiera las olas."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¿Poseidón? ¡Mi Remate tsunami ha venido a saludarte!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/paul-siddon",
+      "text": "Las olas han podido conmigo... Qué humillación tan refrescante."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Solo nos queda uno! ¡Los campeones!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Con más marcha que nunca",
+    "before": [
+     {
+      "text": "El Raimon, campeón del Fútbol Frontier, recibe al equipo de Okinawa."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, Mark! ¡Vamos a marcarnos un partido! ¡Hemos practicado y ahora tenemos más marcha que nunca!"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Hurley! ¡Qué ganas tenía! ¡Venga, a surfear con el balón!"
+     },
+     {
+      "who": "ie2-oumihara/cadence-soundtown",
+      "text": "♪Dumba, dumba, dum...♪ ¡Ya tenemos el ritmo y es hora de jugar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Qué partidazo! ¡Si hubierais jugado el torneo, a lo mejor no habríamos ganado nosotros!"
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ja, ja! ¡Eso me lo apunto, colega! ¡La próxima, los campeones somos nosotros!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Mary Times vuelve a Okinawa. Esta vez, con el orgullo de quien ha vencido a los mejores."
+   },
+   {
+    "who": "ie2-oumihara/hurley-kane",
+    "text": "¡Colegas, el año que viene jugamos el Fútbol Frontier sí o sí!"
+   },
+   {
+    "who": "ie2-oumihara/cadence-soundtown",
+    "text": "♪Y el entrenador vendrá con nosotros... aunque haya fiesta en el pueblo♪"
+   },
+   {
+    "who": "ie2-oumihara/tom-contented",
+    "text": "¿El año que viene? Ah, entonces aún tengo tiempo para llegar tarde."
+   }
+  ]
+ },
+ "ie2-prominence": {
+  "title": "La llama de Torch",
+  "summary": "Torch quiere demostrar que el fuego de Prominence es el más fuerte de Alius. Para ello, buscará al legendario «delantero de fuego» y lo derrotará.",
+  "intro": [
+   {
+    "text": "Prominence, uno de los equipos de rango supremo de Alius. Su capitán, Torch, arde de impaciencia."
+   },
+   {
+    "who": "ie2-prominence/claude-beacons",
+    "text": "Gaia, Polvo de Diamantes... ¡Todos sabrán que Prominence es el fuego que lo quema todo!"
+   },
+   {
+    "who": "ie2-prominence/ethan-whitering",
+    "text": "Torch, te conozco desde pequeños. Cuando pones esa cara, algo vas a liar."
+   },
+   {
+    "who": "ie2-prominence/brenda-firequest",
+    "text": "Me da igual lo que lie. Mientras ganemos, yo seré la mejor del mundo."
+   },
+   {
+    "who": "ie2-prominence/claude-beacons",
+    "text": "Dicen que en Japón hay un delantero de fuego. ¡Lo encontraré y le demostraré quién quema más!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie2-oumihara",
+    "title": "Rumores en Okinawa",
+    "before": [
+     {
+      "text": "El rumor del delantero de fuego lleva a Torch hasta las playas de Okinawa."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¿Alguno de vosotros es el delantero de fuego? ¿No? Qué decepción."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, colega! ¡Aquí no hay fuego, solo olas! ¡Pero un partido sí que te puedo dar!"
+     },
+     {
+      "who": "ie2-oumihara/spring-millpond",
+      "text": "Cuando agarro la pelota, ya no la suelto. Como un tiburón."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "Buen ritmo, pero ni rastro de fuego. Seguiremos buscando."
+     },
+     {
+      "who": "ie2-prominence/nigel-august",
+      "text": "Torch, no puedes ir preguntando a todo el mundo si es el delantero de fuego."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-diamond-dust",
+    "title": "El hielo enemigo",
+    "before": [
+     {
+      "text": "Gazelle se presenta para reírse de la búsqueda de Torch."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Persiguiendo leyendas, Torch... Qué impropio de un capitán de rango supremo."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¡Cállate, Gazelle! ¡Te voy a derretir con mi Llamarada atómica!"
+     },
+     {
+      "who": "ie2-diamond-dust/denzel-freezer",
+      "text": "Tengo el corazón de hielo. Tus llamas no me harán nada."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¡Ja! ¡El fuego derrite el hielo! ¡Siempre ha sido así!"
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Esta vez. Solo esta vez."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-shin-teikoku-gakuen",
+    "title": "El falso fuego",
+    "before": [
+     {
+      "text": "Torch descubre que Ray Dark usa fragmentos de piedra Alius para potenciar a la Royal Academy Redux."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¿Unos terrícolas jugando con nuestro poder? ¡Eso es un insulto para Alius!"
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Ni Alius ni nadie me dice cómo jugar. Si quieres pelea, la tendrás."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/david-samford",
+      "text": "Mi Pingüino emperador n.º 1 también quema... aunque me queme a mí."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "El poder prestado no arde de verdad. Tenlo en cuenta, Stonewall."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Tch. Mira quién habla, el alien de la piedra brillante."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon-kai",
+    "title": "El rango no lo es todo",
+    "before": [
+     {
+      "text": "El Épsilon Plus desafía a Prominence. Dvalin quiere sentir el calor de cerca."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¡Dicen que tus disparos queman! ¡Quiero comprobarlo!"
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¿Un equipo de primer rango retando a uno de rango supremo? ¡Qué valor!"
+     },
+     {
+      "who": "ie2-prominence/ben-blowton",
+      "text": "Saco mi potencia de las llamas. ¡Hoy estoy que ardo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Qué emoción! ¡Casi me chamusco las cejas!"
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "Bah. Esto no es nada. El delantero de fuego tiene que ser más fuerte."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "El dios del sol",
+    "before": [
+     {
+      "text": "Una pista apunta al Instituto Zeus, el equipo que se hacía llamar «los dioses»."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "¿Un delantero de fuego? No. Aquí solo hay dioses... aunque ya hemos aprendido a ser humildes."
+     },
+     {
+      "who": "ie1-zeus/apollo-light",
+      "text": "Me llamo como el dios del sol. ¡Veamos qué brilla más, tu fuego o mi luz!"
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¿El sol? Prominence es la llamarada del sol. ¡Somos más grandes que cualquier dios!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Tienes una llama enorme, pero no sabes para quién juegas. Busca a Axel Blaze. Él te lo enseñará."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "Axel Blaze... ¡Así que ese es el delantero de fuego!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Duelo de llamas",
+    "before": [
+     {
+      "text": "Por fin, frente a frente: Torch contra Axel Blaze, el verdadero delantero de fuego."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Muy bien, Torch! ¡Vamos a enseñaros lo que es divertirse jugando al fútbol!"
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "Ja... Sois muy poca cosa como para daros tantos aires, ¿no os parece?"
+     },
+     {
+      "who": "ie2-second-raimon/axel-blaze",
+      "text": "El fuego no sirve solo para quemar, Torch. También sirve para dar calor a tu equipo."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¡Calla y chuta! ¡Llamarada atómica contra Tornado de fuego!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "He ganado... pero ese Axel... su fuego llegaba a todos sus compañeros."
+     },
+     {
+      "who": "ie2-prominence/ethan-whitering",
+      "text": "Hoy nos has pasado más balones que nunca, Torch. ¿Te has dado cuenta?"
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "...Puede. A lo mejor el fuego de verdad se comparte."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie2-prominence/claude-beacons",
+    "text": "Prominence no necesita títulos. Somos la llama que nunca se apaga."
+   },
+   {
+    "who": "ie2-second-raimon/axel-blaze",
+    "text": "Cuando quieras, repetimos, Torch."
+   },
+   {
+    "who": "ie2-prominence/claude-beacons",
+    "text": "¡Pues claro! ¡Y la próxima vez te quemaré sin piedad!"
+   },
+   {
+    "text": "Tiempo después, Claude Beacons, el chico que se hacía llamar Torch, seguiría chutando con ese mismo fuego."
+   }
+  ]
+ },
+ "ie2-second-raimon": {
+  "title": "La invasión de la Academia Alius",
+  "summary": "Unos «alienígenas» destruyen el Raimon. Mark recorre Japón en la Caravana Inazuma reuniendo a los mejores jugadores para plantar cara a la Academia Alius.",
+  "main": true,
+  "intro": [
+   {
+    "text": "Una semana después de ganar el Fútbol Frontier, unos balones negros caen del cielo y reducen el Instituto Raimon a escombros."
+   },
+   {
+    "who": "ie2-gemini-storm/jordan-greenway",
+    "text": "Somos la Tormenta de Géminis, de la Academia Alius. Si ningún equipo terrícola nos vence al fútbol, vuestros institutos caerán uno tras otro."
+   },
+   {
+    "text": "En el Instituto Umbrella, el Raimon pierde 20-0. Steve, Max, Jim, Tim y Sam acaban lesionados."
+   },
+   {
+    "who": "ie2-second-raimon/mark-evans",
+    "text": "¡No pienso rendirme! Si nos retan al fútbol, ¡les ganaremos jugando al fútbol!"
+   },
+   {
+    "name": "Lina Schiller",
+    "text": "Lina Schiller. Desde hoy soy vuestra entrenadora. Buscaremos a los más fuertes de Japón, y mis órdenes no se discuten. Subid a la caravana."
+   },
+   {
+    "name": "Nelly Raimon",
+    "text": "Mi padre nos presta la caravana. Y que conste que no lo hago por vosotros, sino por el honor del Instituto Raimon."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie2-sp-fixers",
+    "title": "Agentes en Nara",
+    "before": [
+     {
+      "text": "En Nara, la Academia Alius ha secuestrado al primer ministro Stewart Vanguard."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "Soy Victoria Vanguard, la hija del primer ministro. Para rescatar a mi padre necesito jugadores de verdad, no críos."
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "La señorita Vanguard quiere comprobar vuestro nivel. El Servicio Secreto no os lo pondrá fácil."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¿Un partido contra adultos? ¡Genial! ¡Demostremos de qué es capaz el Raimon!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "No está mal, nada mal... Me uno a vosotros. ¡Y nada de llamarme «señorita»!"
+     },
+     {
+      "who": "ie2-second-raimon/axel-blaze",
+      "text": "Tiene carácter. Nos vendrá bien."
+     },
+     {
+      "text": "Pero esa tarde la Tormenta de Géminis vuelve a aplastarlos en la emisora de Nara. Axel, desconcentrado, abandona el equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-hakuren",
+    "title": "El delantero de las nieves",
+    "before": [
+     {
+      "text": "Rumbo a Hokkaido. Allí juega un chico del que todo el mundo habla."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Hola, soy Shawn Froste. ¿Así que buscáis a alguien que os ayude contra Alius?"
+     },
+     {
+      "who": "ie2-hakuren/milton-bindings",
+      "text": "¡Nuestro Shawn es imparable! Y nosotros, en la nieve, tampoco somos mancos."
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "Atentos. Dicen que juega de defensa y de delantero... y que en el campo se transforma."
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "A veces, cuando juego, es como si apareciera otra persona. Juguemos y lo veréis."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/shawn-froste-fubuki-cc",
+      "text": "¡Ja! ¡Nadie para mi Ventisca eterna! ...Aunque ese portero tuyo no está nada mal."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Shawn, únete a nosotros! ¡Juntos podemos con la Tormenta de Géminis!"
+     },
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "De acuerdo. Pero antes tenéis que aprender a correr por la nieve tan rápido como yo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "La revancha de Hokkaido",
+    "before": [
+     {
+      "text": "Tras días esquivando bolas de nieve para ganar velocidad, el Raimon espera a la Tormenta de Géminis en el Instituto Alpino."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Otra vez vosotros? Creo que los terrícolas tenéis un dicho para esto: «Menos pico y más pala»."
+     },
+     {
+      "who": "ie2-gemini-storm/dylan-bluemoon",
+      "text": "A ver si esta vez alguno de vosotros me deja de piedra."
+     },
+     {
+      "who": "ie1-raimon/kevin-dragonfly",
+      "text": "¡Esta vez mi Remate guiverno va a entrar, ya lo veréis!"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Ahora somos más rápidos que nunca! ¡Vamos, Raimon!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Imposible... ¿Perder contra humanos? Padre no nos lo perdonará..."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Patético, Janus. El Épsilon se encarga a partir de ahora. Vosotros quedáis desterrados."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¿Quién es ese? ¿Hay equipos todavía más fuertes que la Tormenta de Géminis?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-manyuuji",
+    "title": "La prueba del Claustro Sagrado",
+    "before": [
+     {
+      "text": "El Épsilon anuncia su próximo objetivo: el Instituto Claustro Sagrado, en Kioto. El Raimon llega antes que ellos."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Aquí no competimos. El fútbol sirve para pulir el cuerpo y el espíritu, no para ganar trofeos."
+     },
+     {
+      "name": "Lina Schiller",
+      "text": "Entonces no lo llamaremos partido. Será una prueba de destreza. Empezad."
+     },
+     {
+      "who": "ie2-manyuuji/scott-banyan",
+      "text": "¡Ji, ji, ji! Si pisáis donde no debéis, acabaréis en el fondo de un hoyo."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Vale, empecemos el parti...! ¡Esto, que diga! ¡La prueba de destreza!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Habéis superado la prueba. Scott, ve con ellos. Fuera aprenderás lo que aquí no quisiste aprender."
+     },
+     {
+      "who": "ie2-manyuuji/scott-banyan",
+      "text": "¿Yo? ¿Con estos? ...Bueno, vale. ¡Pero que conste que pienso gastaros bromas!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon",
+    "title": "Tres minutos",
+    "before": [
+     {
+      "text": "El Épsilon arrasa al Claustro Sagrado en unos minutos y se dispone a destruir el templo."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "El Raimon, los que vencieron a Géminis... Excelente. Os derrotaré en tres minutos."
+     },
+     {
+      "who": "ie2-epsilon/carrie-mccuring",
+      "text": "¡Je, je! Me encanta aplastar a los enclenques."
+     },
+     {
+      "who": "ie2-second-raimon/scott-banyan",
+      "text": "¿Tres minutos? Ji, ji... A ver si os da tiempo a salir de mi Campo torbellino."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Nadie va a destruir nada más! ¡A por ellos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¿Qué es esta sensación? ¿Emoción? ¡Jua, ja, ja! Os dejaré crecer, Raimon. Así será más divertido aplastaros."
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "Se retiran... pero no nos han enseñado ni la mitad de su poder."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-shin-teikoku-gakuen",
+    "title": "El submarino de Ray Dark",
+    "before": [
+     {
+      "text": "En Ehime, Ray Dark reaparece con un equipo potenciado por la piedra Alius: la Royal Academy Redux."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Así que tú eres Jude Sharp, el niño mimado de Ray Dark... Hoy verás quién es el mejor estratega."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/david-samford",
+      "text": "Jude... esta vez ganaremos nosotros. Tengo el Pingüino emperador n.º 1."
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "¡David, no! ¡Esa técnica destroza a quien la usa! ¡Ray Dark solo os está utilizando!"
+     },
+     {
+      "name": "Ray Dark",
+      "text": "Los peones existen para ser sacrificados, Jude. Tú deberías saberlo mejor que nadie."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "David, Joseph... se acabó. Ya no tenéis que demostrarle nada a ese hombre."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Tch. Esto no termina aquí, Sharp. Algún día estaré por encima de ti."
+     },
+     {
+      "text": "El submarino de Ray Dark se hunde en el mar. David y Joseph son trasladados al hospital."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-osaka-gals-ccc",
+    "title": "Corazones en Osaka",
+    "before": [
+     {
+      "text": "Siguiendo una pista del Épsilon, la caravana llega a un parque de atracciones de Osaka."
+     },
+     {
+      "who": "ie2-second-raimon/suzette-hartland",
+      "text": "¡Ay, qué chico más guapo! ¡Erik, cariño, tú te vienes conmigo!"
+     },
+     {
+      "who": "ie2-second-raimon/erik-eagle",
+      "text": "¿C-cariño? ¡Mark, ayúdame!"
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "Si queréis recuperar a vuestro chico, tendréis que ganarnos. ¡Y en Osaka no se pierde!"
+     },
+     {
+      "who": "ie2-second-raimon/william-glass",
+      "text": "¿Contra chicas? Esto está chupado. Voy limpiando las gafas para la foto de la victoria."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/suzette-hartland",
+      "text": "¡Uf, menudo partidazo! Vale, os cuento el secreto: entrenábamos en un sitio oculto bajo el parque."
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "¿Unas instalaciones secretas? Eso huele a Academia Alius."
+     },
+     {
+      "who": "ie2-second-raimon/suzette-hartland",
+      "text": "¡Y me apunto a vuestra caravana! Alguien tendrá que cuidar de mi Erik, ¿no?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-yokato",
+    "title": "El cuaderno del abuelo",
+    "before": [
+     {
+      "text": "En Fukuoka, el Instituto Fauxshore guarda un tesoro: el cuaderno de Ultrasupertécnicas de David Evans, el abuelo de Mark."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡Mark Evans! ¡Soy Darren LaChance, tu mayor admirador! He aprendido la Mano celestial viéndote jugar."
+     },
+     {
+      "who": "ie2-yokato/dave-fate",
+      "text": "¡En Fukuoka nos chiflan las fiestas! ¡Y un partido contra el Raimon es la mejor fiesta del año!"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Ja, ja! ¡Pues que empiece la fiesta! ¡Darren, enséñame lo que sabes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡He jugado contra mi ídolo! ¡Por favor, dejadme ir con vosotros!"
+     },
+     {
+      "text": "Pero el cielo se oscurece. Aparece el Génesis, el equipo más poderoso de Alius."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Hola, Mark. Sí, soy yo, Xavier... Aunque aquí me llaman Xene."
+     },
+     {
+      "text": "El Génesis aplasta al Raimon sin piedad. Shawn queda hundido y la caravana pone rumbo al sur."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-oumihara",
+    "title": "La ola de Okinawa",
+    "before": [
+     {
+      "text": "Corre un rumor: en Okinawa hay un «delantero de fuego». ¿Será Axel?"
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, Mark! ¿Un delantero de fuego? Ni idea, colega, aquí solo hay olas. ¡Vamos a marcarnos un partido!"
+     },
+     {
+      "who": "ie2-oumihara/cadence-soundtown",
+      "text": "♪Dumba, dumba, dum...♪ ¡Ya tenemos el ritmo! ¡Saquemos de centro y a chutar!"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Me encanta vuestra energía! ¡A surfear con el balón!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Qué pasada de partido! Mark, me apunto a vuestra caravana. ¡Esta ola no me la pierdo!"
+     },
+     {
+      "text": "Un chico pelirrojo, Torch, intenta colarse en el equipo, pero Xene lo desenmascara: es el capitán de Prominence."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "Tch. Raimon, la próxima vez que nos veamos, os haré arder."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon-kai",
+    "title": "El regreso de la llama",
+    "before": [
+     {
+      "text": "El Épsilon vuelve, más fuerte que nunca gracias a la piedra Alius: es el Épsilon Plus."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¡Estoy temblando de emoción, Mark Evans! Ahora juego de delantero. ¡Prepárate!"
+     },
+     {
+      "who": "ie2-epsilon-kai/zeke-valanche",
+      "text": "Esta vez la portería es mía. No pasará ni el aire."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Dvalin! ¡Juguemos un partido justo!"
+     },
+     {
+      "who": "ie2-second-raimon/axel-blaze",
+      "text": "Perdonad el retraso, Mark. Esta vez no volveré a irme."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/axel-blaze",
+      "text": "Alius vigilaba a mi hermana Julia para obligarme a unirme a ellos. Por eso me fui. Ya está a salvo."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja! ¡Así se juega! Esta emoción... por fin la entiendo."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡El Raimon vuelve a estar completo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-diamond-dust",
+    "title": "Hielo en el estadio",
+    "before": [
+     {
+      "text": "De vuelta en Tokio, el Polvo de Diamantes desafía al Raimon en el estadio del Fútbol Frontier."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Soy Gazelle. He venido a demostrar que el Polvo de Diamantes merece el título de Génesis."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Venga, Gazelle! ¡Vamos a enseñaros lo que es divertirse jugando al fútbol!"
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Mark, os debo una desde la final del Fútbol Frontier. Esta vez jugaré a vuestro lado."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "¿Esto es lo que llamáis divertirse? ...No lo acepto. El hielo no se derrite tan fácilmente."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Ya no necesito ningún poder prestado. Este es el fútbol que siempre quise jugar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-chaos",
+    "title": "Fuego y hielo",
+    "before": [
+     {
+      "text": "Torch y Gazelle unen Prominence y Polvo de Diamantes. Nace el Caos, con un objetivo: arrebatar el título al Génesis."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "Si os aplastamos, Padre tendrá que reconocer que somos los mejores. ¡Preparaos para arder!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "...Y para congelaros. Aunque no me guste nada compartir el campo contigo, Torch."
+     },
+     {
+      "who": "ie2-second-raimon/darren-lachance",
+      "text": "Mark, si tú juegas de líbero, yo defenderé la portería. ¡No os fallaré!"
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Confío en ti, Darren! ¡Todo el Raimon confía en ti!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/darren-lachance",
+      "text": "¡Lo conseguí! ¡Las Manos infinitas!"
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¿Perder por no ponernos de acuerdo? Gazelle, la próxima vez chutamos la Ventisca de fuego desde el principio."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Basta. Padre no autorizó esta fusión. Torch, Gazelle... volved a casa."
+     },
+     {
+      "text": "Xene se lleva al Caos. Por fin, el Raimon descubre dónde está la base de Alius: en el monte Fuji."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "La cámara de la piedra Alius",
+    "before": [
+     {
+      "text": "Tras cruzar el bosque del monte Fuji, el Raimon entra en el Laboratorio Mensajeros de las Estrellas."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "BIIIP, BIIIP... INTRUSOS DETECTADOS. BASE DE DATOS DEL RAIMON CARGADA AL CIEN POR CIEN."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "Tío, mira que es difícil hablar con robots. ¡A lo mejor entienden el idioma del fútbol!"
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "Tienen todos nuestros datos. Habrá que enseñarles algo que no hayan visto nunca."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "ERROR... TÉCNICA NO REGISTRADA... ACTIVANDO BLOQUEO TOTAL... ¡BZZZZZ!"
+     },
+     {
+      "text": "Las puertas se sellan. La entrenadora Lina las abre a la fuerza, aunque se quema las manos."
+     },
+     {
+      "name": "Lina Schiller",
+      "text": "Seguid adelante. Al otro lado están mi padre... y Xavier, mi hermano."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "El partido de Génesis",
+    "before": [
+     {
+      "name": "Astram Schiller",
+      "text": "Bienvenidos. Soy Astram Schiller, al que estos niños llaman Padre. El Génesis os mostrará el poder de la piedra Alius."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Mark... No sabes cuánto tiempo llevo esperando jugar contra ti. ¡Empecemos!"
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "¡Bah! Los terrícolas no tenéis nada que hacer contra el Génesis."
+     },
+     {
+      "who": "ie2-second-raimon/shawn-froste",
+      "text": "Ya no necesito ser dos personas. Hoy jugaré siendo yo mismo."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Xavier! ¡Te voy a enseñar lo divertido que es el fútbol de verdad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Hemos perdido... y aun así, me siento libre. Gracias por jugar con nosotros, Mark."
+     },
+     {
+      "text": "La verdad sale a la luz: no eran extraterrestres, sino niños del orfanato Don Sol potenciados con la piedra Alius."
+     },
+     {
+      "name": "Astram Schiller",
+      "text": "Estos niños nunca necesitaron ninguna piedra... Me equivoqué. Lo siento, hijos míos."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Academia Alius se disuelve. Astram Schiller se entrega y el primer ministro Vanguard vuelve a casa sano y salvo."
+   },
+   {
+    "who": "ie2-second-raimon/victoria-vanguard",
+    "text": "Mi padre está a salvo. Gracias, chicos. Ha sido un honor jugar en el Raimon."
+   },
+   {
+    "who": "ie2-the-genesis/xavier-foster",
+    "text": "Mark, cuando todo esto pase... ¿jugarás conmigo otra vez? Solo por diversión."
+   },
+   {
+    "who": "ie2-second-raimon/mark-evans",
+    "text": "¡Claro que sí, Xavier! ¡El fútbol es para disfrutarlo todos juntos!"
+   },
+   {
+    "text": "Pero entre los escombros del laboratorio, Godric Wyles recoge la piedra Alius... La sombra de los Emperadores Oscuros acecha."
+   }
+  ]
+ },
+ "ie2-shin-teikoku-gakuen": {
+  "title": "La venganza de Ray Dark",
+  "summary": "Caleb Stonewall y la Royal Academy Redux, al servicio de Ray Dark, buscan venganza contra Jude Sharp. Pero Caleb solo quiere demostrar que es el mejor.",
+  "intro": [
+   {
+    "text": "Ehime. En un submarino oculto en el mar, Ray Dark ha creado un nuevo equipo con la piedra Alius."
+   },
+   {
+    "name": "Ray Dark",
+    "text": "La Royal Academy Redux. Mi obra maestra. Con ella me vengaré de Jude Sharp y de todos los que me traicionaron."
+   },
+   {
+    "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+    "text": "Tus venganzas me dan igual, viejo. Yo solo quiero demostrar que soy mejor estratega que Sharp."
+   },
+   {
+    "who": "ie2-shin-teikoku-gakuen/david-samford",
+    "text": "Jude nos abandonó... Ray Dark me ha dado una técnica para superarle."
+   },
+   {
+    "who": "ie2-shin-teikoku-gakuen/joseph-king",
+    "text": "Y yo tengo un Escudo de fuerza total que ni Jude podrá atravesar."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie2-yokato",
+    "title": "El cuaderno codiciado",
+    "before": [
+     {
+      "text": "Primera misión: robar el cuaderno de Ultrasupertécnicas de David Evans, guardado en el Instituto Fauxshore."
+     },
+     {
+      "name": "Ray Dark",
+      "text": "David Evans... Hasta su recuerdo me estorba. Traedme ese cuaderno."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡Ese cuaderno es del abuelo de Mark! ¡No os lo vamos a dar!"
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Tranquilo, portero. Solo te lo quitaré si pierdes. Y vas a perder."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Lo he escondido donde nadie lo encontrará. ¡Ni ganando os lo daré!"
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Ja. Me gusta tu valor. Quédatelo; no necesito técnicas viejas para ganar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-sp-fixers",
+    "title": "Persecución en el puerto",
+    "before": [
+     {
+      "text": "El Servicio Secreto sigue la pista del submarino de Ray Dark."
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "Ray Dark, queda detenido. Y sus jugadores, retenidos para ser interrogados."
+     },
+     {
+      "who": "ie2-sp-fixers/holly-mirror",
+      "text": "He estudiado tu perfil, Stonewall. Eres impulsivo y quieres ganar a cualquier precio."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "¿Una perfiladora? Entonces sabrás que no pienso perder contra unos trajeados."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Ya podéis volver a vuestras oficinas. El submarino zarpa sin vosotros."
+     },
+     {
+      "who": "ie2-sp-fixers/holly-mirror",
+      "text": "Huye si quieres, Stonewall. Pero tu perfil dice que no eres un mal chico. Solo estás solo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "Socios de Alius",
+    "before": [
+     {
+      "text": "Ray Dark quiere más piedra Alius. Para conseguirla, la Redux debe vencer a un equipo de la academia."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Unos terrícolas con nuestro poder? Padre se ha vuelto muy generoso."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Lo que me da Alius me da igual. Lo que hago con ello es cosa mía."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/sue-sparrow",
+      "text": "Juego en la Redux, pero no por gusto. ...Aunque contra aliens, me apetece ganar."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Interesante. No dependéis tanto de la piedra como creía."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Claro que no. Dependo de mi cabeza."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "Contra la Royal original",
+    "before": [
+     {
+      "text": "Ray Dark quiere castigar a la Royal Academy original por haberse rebelado contra él."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ray Dark... Sigues jugando con la gente. Caleb, no eres más que otro de sus peones."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "¿Peón? Yo soy el rey de este tablero, Sharp. Te lo voy a demostrar."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/david-samford",
+      "text": "Jude... ahora estamos en bandos distintos. ¡Pingüino emperador n.º 1!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-shin-teikoku-gakuen/david-samford",
+      "text": "Me duele todo el cuerpo... Jude tenía razón sobre esta técnica."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Samford, descansa. El próximo partido lo ganamos sin esa técnica. Por mi cuenta."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Estratega contra estratega",
+    "before": [
+     {
+      "text": "El Raimon llega a Ehime. Jude Sharp juega ahora con la capa azul del Raimon."
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "Caleb. David y Joseph se están destrozando por ti. ¿Eso es lo que quieres?"
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Lo que quiero es ganarte, Sharp. Con o sin el viejo. Con o sin piedra."
+     },
+     {
+      "name": "Ray Dark",
+      "text": "¡Stonewall! ¡Usad las técnicas prohibidas! ¡Es una orden!"
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "...No. Este partido lo juego a mi manera."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Te he ganado, Sharp. Y sin técnicas prohibidas. ¿Lo has visto?"
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "Lo he visto. Eres un gran estratega, Caleb. No necesitas a Ray Dark."
+     },
+     {
+      "text": "El submarino de Ray Dark se hunde en el mar. Caleb salta al agua para sacar a David y Joseph."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie2-shin-teikoku-gakuen/david-samford",
+    "text": "Caleb... ¿por qué nos has salvado?"
+   },
+   {
+    "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+    "text": "Porque un estratega no abandona sus piezas. Esa es la diferencia entre el viejo y yo."
+   },
+   {
+    "who": "ie2-shin-teikoku-gakuen/joseph-king",
+    "text": "Gracias... capitán."
+   },
+   {
+    "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+    "text": "Tch. Ni se te ocurra llamarme así delante de Sharp."
+   },
+   {
+    "text": "Caleb Stonewall seguiría su camino solo... hasta que el fútbol volviera a cruzarlo con Jude Sharp."
+   }
+  ]
+ },
+ "ie2-sp-fixers": {
+  "title": "Misión: rescatar al primer ministro",
+  "summary": "La Academia Alius ha secuestrado al primer ministro Stewart Vanguard. Su hija Victoria lidera al Servicio Secreto para rescatarlo, cueste lo que cueste.",
+  "intro": [
+   {
+    "text": "Nara. El primer ministro Stewart Vanguard ha sido secuestrado por la Academia Alius."
+   },
+   {
+    "who": "ie2-sp-fixers/victoria-vanguard",
+    "text": "Mi padre es el primer ministro de Japón. ¡Y nadie toca a mi padre! Agentes, ¡nos vamos!"
+   },
+   {
+    "who": "ie2-sp-fixers/ian-smith",
+    "text": "Señorita Vanguard, el protocolo dice que los menores no dirigen operaciones."
+   },
+   {
+    "who": "ie2-sp-fixers/victoria-vanguard",
+    "text": "Pues el protocolo dice ahora otra cosa. ¡Y nada de «señorita»!"
+   },
+   {
+    "who": "ie2-sp-fixers/holly-mirror",
+    "text": "Ya tengo el perfil de los secuestradores: les encanta el fútbol. Habrá que hablar su idioma."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-kasamino",
+    "title": "La escena del crimen",
+    "before": [
+     {
+      "text": "Primera parada: el Instituto Umbrella, una de las primeras víctimas de los balones negros."
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "¿El Servicio Secreto? ¡Os contamos todo lo que vimos si jugáis con nosotros!"
+     },
+     {
+      "who": "ie1-kasamino/maxwell-claus",
+      "text": "Pero no piséis las rayas del campo, que da mala suerte."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "Trato hecho. Agentes, en formación. ¡Y nada de corbatas sueltas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "Los aliens se teletransportaban. Y hablaban de un tal «Padre»."
+     },
+     {
+      "who": "ie2-sp-fixers/ryan-tappin",
+      "text": "He interceptado una señal. Viene de un parque de atracciones de Osaka."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-osaka-gals-ccc",
+    "title": "Pistas en Osaka",
+    "before": [
+     {
+      "text": "Bajo el parque de atracciones de Osaka hay unas instalaciones de entrenamiento muy sospechosas."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¿Agentes secretos? ¡Qué emocionante! Si nos ganáis, os enseñamos dónde entrenamos."
+     },
+     {
+      "who": "ie2-sp-fixers/linda-shadey",
+      "text": "Las espías obtenemos información sin preguntar... Pero, bueno, un partido también vale."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "¡Venga, chicas! ¡Esto es Osaka, aquí todo se arregla jugando!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "Unos señores raros montaron ese gimnasio. Tenía el símbolo de una estrella."
+     },
+     {
+      "who": "ie2-sp-fixers/holly-mirror",
+      "text": "Una estrella... Mensajeros de las Estrellas. Ya sé dónde buscar: el monte Fuji."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "Las puertas del laboratorio",
+    "before": [
+     {
+      "text": "Monte Fuji. La entrada del Laboratorio Mensajeros de las Estrellas está vigilada por robots."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "BIIIP. INTRUSOS CON CORBATA DETECTADOS. INICIANDO PROTOCOLO DE EXPULSIÓN."
+     },
+     {
+      "who": "ie2-sp-fixers/ken-ironwall",
+      "text": "Si yo estoy presente, aquí no se comete ningún delito. Ni siquiera uno robótico."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "¡Torre perfecta! ¡A ver si vuestros datos registran eso!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "ERROR... ACCESO CONCEDIDO... BZZZT."
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "Estamos dentro. Que nadie se separe."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "Los guardianes del rehén",
+    "before": [
+     {
+      "text": "En un pasillo del laboratorio, la Tormenta de Géminis vigila la celda del primer ministro."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Otra vez vosotros? En Nara os aplastamos. ¿No aprendéis nunca?"
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "En Nara me pillasteis por sorpresa. Hoy he venido a por mi padre. ¡Apartaos!"
+     },
+     {
+      "who": "ie2-gemini-storm/rhona-countdown",
+      "text": "Me encanta aprovechar los despistes. Y vosotros estáis muy nerviosos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Hemos perdido... Padre nos desterrará."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "Si ese «Padre» os trata así, no es un padre de verdad. Pensadlo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon",
+    "title": "La cámara de la piedra",
+    "before": [
+     {
+      "text": "El primer ministro no está en la celda. Lo han trasladado a la cámara de la piedra Alius, custodiada por el Épsilon."
+     },
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¿Agentes del Gobierno? ¡Os derrotaré en tres minutos!"
+     },
+     {
+      "who": "ie2-sp-fixers/ian-smith",
+      "text": "Tres minutos es lo que tardo en ponerme la corbata. Adelante."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "Papá, aguanta. ¡Ya casi estamos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Diez minutos... y ni un gol nuestro. ¡Qué emoción tan rara!"
+     },
+     {
+      "text": "Al fondo de la sala, una puerta se abre. Al otro lado espera el Génesis."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "Frente a Padre",
+    "before": [
+     {
+      "text": "Astram Schiller, el líder de Alius, aguarda junto al primer ministro. Delante, el Génesis."
+     },
+     {
+      "name": "Astram Schiller",
+      "text": "Señorita Vanguard. Su padre rechazó mi proyecto. Ahora verá el poder que despreció."
+     },
+     {
+      "name": "Stewart Vanguard",
+      "text": "¡Tori! ¡No te arriesgues por mí! ¡Ese equipo es demasiado fuerte!"
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Lo siento. No tengo nada contra ti, pero no puedo perder."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "¡Pues yo tampoco! ¡Servicio Secreto, última misión! ¡Por mi padre!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Ganáis por algo que nosotros no tenemos... alguien a quien proteger de verdad."
+     },
+     {
+      "name": "Stewart Vanguard",
+      "text": "Tori... Estoy muy orgulloso de ti."
+     },
+     {
+      "who": "ie2-sp-fixers/victoria-vanguard",
+      "text": "¡Papá! ¡Misión cumplida!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El primer ministro Vanguard vuelve a casa sano y salvo. El Servicio Secreto recibe una medalla."
+   },
+   {
+    "who": "ie2-sp-fixers/ian-smith",
+    "text": "Señorita... digo, Victoria. Ha sido un honor servir a sus órdenes."
+   },
+   {
+    "who": "ie2-sp-fixers/victoria-vanguard",
+    "text": "¡El honor ha sido mío! Aunque ahora me apetece jugar al fútbol sin tener que rescatar a nadie."
+   },
+   {
+    "name": "Stewart Vanguard",
+    "text": "Entonces juega, hija. El fútbol es lo mejor que tiene este país."
+   }
+  ]
+ },
+ "ie2-the-genesis": {
+  "title": "El título de Génesis",
+  "summary": "Xene y el equipo Gaia deben demostrar que merecen ser el Génesis, el orgullo de Padre. Pero su verdadero deseo es volver a jugar contra Mark Evans.",
+  "intro": [
+   {
+    "text": "En el orfanato Don Sol, Astram Schiller crió a muchos niños como si fueran sus hijos. Gaia era su equipo favorito."
+   },
+   {
+    "name": "Astram Schiller",
+    "text": "Xene, el título de Génesis es vuestro. Demostrad que sois el equipo perfecto."
+   },
+   {
+    "who": "ie2-the-genesis/xavier-foster",
+    "text": "Sí, Padre. ...Aunque hay un rival al que de verdad quiero enfrentarme."
+   },
+   {
+    "who": "ie2-the-genesis/isabelle-trick",
+    "text": "¿Mark Evans otra vez? Céntrate, Xene. Somos guerreros, no amigos de los terrícolas."
+   },
+   {
+    "who": "ie2-the-genesis/wilbur-watkins",
+    "text": "Mis disparos mandan a los rivales por los aires. Que se preparen."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie2-yokato",
+    "title": "Primera aparición",
+    "before": [
+     {
+      "text": "Fukuoka. El Génesis se presenta ante el mundo en el campo del Instituto Fauxshore."
+     },
+     {
+      "who": "ie2-yokato/dave-fate",
+      "text": "¿Más aliens? ¡Hoy es día de fiesta! ¡Volved mañana!"
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Lo siento, no tardaremos mucho. Solo queremos que todos vean lo que es el Génesis."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Si Mark estuviera aquí, no se rendiría. ¡Y yo tampoco!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Tienes buen corazón, portero. Mark estaría orgulloso de ti."
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "Deja de hablar con ellos. Siguiente objetivo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-prominence",
+    "title": "La llama celosa",
+    "before": [
+     {
+      "text": "En la Academia Alius, Torch no acepta que Gaia haya recibido el título."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¡Ese título debería ser mío! ¡Te reto, Xene! ¡Prominence te hará arder!"
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Torch, tu fuego es impresionante. Pero tienes que aprender a controlarlo."
+     },
+     {
+      "who": "ie2-prominence/ethan-whitering",
+      "text": "Torch, cálmate un poco... Bueno, da igual. ¡Vamos con todo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¡Grrr! ¡Esto no se queda así!"
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Algún día lo entenderás, Torch. No se trata del título."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-diamond-dust",
+    "title": "El hielo silencioso",
+    "before": [
+     {
+      "text": "Gazelle tampoco está de acuerdo. Su desafío es frío y calculado."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Xene. Padre se ha equivocado contigo. Lo demostraré con hechos, no con gritos como Torch."
+     },
+     {
+      "who": "ie2-diamond-dust/denzel-freezer",
+      "text": "Tengo el corazón de hielo. No me afectará nada de lo que hagáis."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Gazelle, siempre tan sereno. Me gusta jugar contra ti."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "...Hoy has ganado. Pero el hielo nunca olvida."
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "Ya van dos. Nadie en Alius discute ya quién es el Génesis."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon-kai",
+    "title": "El que aprendió a sonreír",
+    "before": [
+     {
+      "text": "El Épsilon Plus pide un partido. Dvalin ya no quiere el título: solo quiere emoción."
+     },
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Jua, ja, ja! ¡Xene! ¡Hazme temblar como lo hizo Mark Evans!"
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "¿Mark te ha cambiado a ti también? Es increíble lo que consigue ese chico."
+     },
+     {
+      "who": "ie2-epsilon-kai/carrie-mccuring",
+      "text": "¡Je, je! Que empiece ya, que me aburro."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-epsilon-kai/dave-quagmire",
+      "text": "¡Qué partidazo! Xene, ¿por qué pones esa cara? Tú también te lo has pasado bien, ¿a que sí?"
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "...Sí. Supongo que sí."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-chaos",
+    "title": "Neo Génesis",
+    "before": [
+     {
+      "text": "Torch y Gazelle unen sus equipos en el Caos, el proyecto Neo Génesis, para arrebatarle el título a Gaia."
+     },
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "¡Fuego y hielo juntos! ¡Esta vez no tienes escapatoria, Xene!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "Nuestra Ventisca de fuego acabará con tu reinado."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Una fusión sin el permiso de Padre... Entonces os lo diré jugando: el Génesis somos nosotros."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-chaos/claude-beacons",
+      "text": "Grrr... Nos falta coordinación. ¡Gazelle, es culpa tuya!"
+     },
+     {
+      "who": "ie2-chaos/bryce-whitingale",
+      "text": "¿Mía? Si no fueras tan impaciente..."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Juntos seríais imparables. Algún día jugaremos los tres en el mismo equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "El partido que esperaba",
+    "before": [
+     {
+      "text": "Monte Fuji, Laboratorio Mensajeros de las Estrellas. El Raimon ha llegado hasta el final."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "Oye, Xavier, juguemos al fútbol. ¡Y esta vez, solo por diversión!"
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Mark... No sabes cuánto tiempo llevo esperando jugar contra ti. ¡Empecemos!"
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "¡Bah! ¡Qué estupidez! ¡Os mostraremos el poder del Génesis!"
+     },
+     {
+      "name": "Astram Schiller",
+      "text": "Xene, si hace falta, quítate el limitador. El Génesis no puede perder."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "He ganado, Padre... pero no con la fuerza de la piedra. He ganado disfrutando, como Mark."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Qué partidazo, Xavier! ¡La próxima vez te gano yo!"
+     },
+     {
+      "name": "Astram Schiller",
+      "text": "Mis hijos... sonreís. Hacía años que no os veía sonreír así."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Astram Schiller comprende su error. Renuncia a la piedra Alius y disuelve la academia."
+   },
+   {
+    "name": "Astram Schiller",
+    "text": "Os convertí en armas cuando solo erais niños que amaban el fútbol. Perdonadme."
+   },
+   {
+    "who": "ie2-the-genesis/xavier-foster",
+    "text": "Padre, nosotros seguimos siendo tu familia. Pero a partir de hoy jugaremos por nosotros."
+   },
+   {
+    "who": "ie2-the-genesis/isabelle-trick",
+    "text": "Xavier... Supongo que ya no hace falta llamarte Xene."
+   },
+   {
+    "who": "ie2-the-genesis/xavier-foster",
+    "text": "No. Soy Xavier Foster. Y algún día jugaré al lado de Mark Evans."
+   }
+  ]
+ },
+ "ie2-yokato": {
+  "title": "Tras las huellas del abuelo Evans",
+  "summary": "Darren LaChance y el Fauxshore encuentran una página perdida del cuaderno de David Evans y viajan para descubrir el secreto del legendario portero.",
+  "intro": [
+   {
+    "text": "Fukuoka. El Instituto Fauxshore, donde David Evans estudió de joven, guarda un secreto."
+   },
+   {
+    "who": "ie2-yokato/maurice-badgame",
+    "text": "¡Eh, mirad lo que he encontrado en el jardín! ¡Una página antigua del cuaderno de Ultrasupertécnicas!"
+   },
+   {
+    "who": "ie2-yokato/darren-lachance",
+    "text": "¡Es la letra del abuelo de Mark! Pone: «El portero definitivo nace donde empezó la leyenda»."
+   },
+   {
+    "who": "ie2-yokato/dave-fate",
+    "text": "¿Una aventura? ¡Eso es como una fiesta, pero con viaje! ¡Me apunto!"
+   },
+   {
+    "who": "ie2-yokato/darren-lachance",
+    "text": "¡Iremos a la ciudad Inazuma! ¡Quiero aprender a parar como Mark!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "El campo de la ribera",
+    "before": [
+     {
+      "text": "Ciudad Inazuma. En el campo junto al río, los niños del Inazuma Kids FC entrenan cada tarde."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¿Venís a ver a Mark? ¡Aquí entrenaba todos los días! ¡Jugad con nosotros!"
+     },
+     {
+      "who": "ie2-yokato/wiley-cracker",
+      "text": "¿Sabéis por qué el balón no va a la escuela? ¡Porque ya está muy redondito! ...¿No?"
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡Ja, ja! ¡Venga, un partido amistoso! ¡Nada de chistes malos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "Mark siempre dice que hay que parar con el corazón. ¡Y tú lo haces igual!"
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¿De verdad? ¡Gracias! ¡Me hace mucha ilusión!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-osaka-gals-ccc",
+    "title": "La pista de Osaka",
+    "before": [
+     {
+      "text": "Según la página, David Evans jugó una vez en Osaka. Las chicas del Triple C conocen la historia."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/se-ora-hartland",
+      "text": "¡Claro que sí! Mi abuela me contaba que un portero con la cinta naranja paraba hasta los suspiros."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "Pero las historias de Osaka hay que ganárselas. ¡Partido!"
+     },
+     {
+      "who": "ie2-yokato/dave-fate",
+      "text": "¡Kyushu contra Kansai! ¡La fiesta más grande del año!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-osaka-gals-ccc/se-ora-hartland",
+      "text": "Mi abuela decía que su secreto era no rendirse nunca. Nunca, nunca, nunca."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "No rendirse nunca... Como Mark."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-oumihara",
+    "title": "Rivales del sur",
+    "before": [
+     {
+      "text": "De vuelta a Kyushu, el Mary Times los reta. Fueron los rivales de aquella final que nunca se jugó."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Ey, Fauxshore! ¡Aquella final de Kyushu nos la debéis! ¡Vamos a marcarnos un partido!"
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Ganamos sin jugar, y eso no me gustó nada. ¡Hoy la jugamos de verdad!"
+     },
+     {
+      "who": "ie2-yokato/jonathan-luckyman",
+      "text": "¡Me he comido tres estofados! ¡Tengo energía para tres partidos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Qué partidazo, colega! ¡Ahora sí que sois campeones de Kyushu!"
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Siento que me falta muy poco... Necesito un último empujón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "Frente a mi ídolo",
+    "before": [
+     {
+      "text": "Instituto Raimon. Darren pide un partido al portero que más admira."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¿Tienes una página del cuaderno de mi abuelo? ¡Increíble! ¡Pues juguemos y descubrámoslo juntos!"
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡Mark Evans! ¡Soy tu mayor admirador! ¡Por favor, no te contengas!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Si quieres ser un gran portero, prepárate. No pienso tirar flojito."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Esas manos! Darren, ¡estás a punto de crear una técnica nueva!"
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "Pero aún no sé cuál... La página dice que nace «donde empezó la leyenda»."
+     },
+     {
+      "text": "Esa noche, Darren se duerme con el cuaderno entre las manos. Y sueña."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-young-inazuma",
+    "title": "Donde empezó la leyenda",
+    "before": [
+     {
+      "text": "En el sueño, Darren está en un campo antiguo. Frente a él, el legendario Inazuma Eleven de hace cuarenta años."
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "¡Ja, ja, ja! Así que tú eres el chico que lee mi cuaderno. ¡Bienvenido, portero!"
+     },
+     {
+      "who": "ie2-young-inazuma/seymour-hillman",
+      "text": "Hum. Un portero que quiere aprender del entrenador... Antes, demuéstranos lo que vales."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡Abuelo de Mark! ¡Digo, señor Evans! ¡Lo intentaré con todo mi corazón!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Eso es lo único que necesita un portero. ¡A jugar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Lo tienes, chaval. Tus manos han encontrado su propio camino. Llámalo... Manos infinitas."
+     },
+     {
+      "who": "ie2-yokato/darren-lachance",
+      "text": "¡Manos infinitas! ¡Gracias, señor Evans!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Cuida de mi nieto. Y no dejes nunca de divertirte."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Darren despierta. La página del cuaderno tiene ahora un dibujo nuevo: dos manos llenas de luz."
+   },
+   {
+    "who": "ie2-yokato/darren-lachance",
+    "text": "¡Chicos! ¡Ya sé cuál es mi técnica! ¡Las Manos infinitas!"
+   },
+   {
+    "who": "ie2-yokato/dave-fate",
+    "text": "¡Esto hay que celebrarlo con la fiesta más grande de Fukuoka!"
+   },
+   {
+    "who": "ie2-yokato/darren-lachance",
+    "text": "Mark, algún día jugaré a tu lado. ¡Y pararé todo lo que tú no puedas parar!"
+   }
+  ]
+ },
+ "ie2-young-inazuma": {
+  "title": "El partido de las leyendas",
+  "summary": "Los legendarios Jóvenes Inazuma nunca jugaron su gran final. Gracias al cuaderno de David Evans, despiertan en un campo fuera del tiempo para jugarla.",
+  "intro": [
+   {
+    "text": "Hace cuarenta años, el Inazuma Eleven era el mejor equipo de Japón. Su entrenador era David Evans."
+   },
+   {
+    "text": "Pero el día de la final, aquel autobús nunca llegó al estadio. La leyenda se quedó a medias."
+   },
+   {
+    "who": "ie2-young-inazuma/david-evans",
+    "text": "Chicos, alguien escribió en mi cuaderno: «El partido que no jugamos sigue esperándonos»."
+   },
+   {
+    "who": "ie2-young-inazuma/seymour-hillman",
+    "text": "Entrenador, ¿qué significa eso? ¿Dónde estamos?"
+   },
+   {
+    "who": "ie2-young-inazuma/david-evans",
+    "text": "¡Ja, ja, ja! ¡Ni idea! ¡Pero huele a hierba recién cortada! ¡Vamos a jugar al fútbol!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Los niños del futuro",
+    "before": [
+     {
+      "text": "Un campo junto al río. Unos niños con camisetas modernas los miran con los ojos muy abiertos."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¿Ese no es el señor Hillman de joven? ¡Mi madre tiene una foto vuestra en la taberna!"
+     },
+     {
+      "who": "ie2-young-inazuma/arthur-sweet",
+      "text": "¿Una foto nuestra en una taberna? ¡Qué honor! ¡Venga, un partidito con los peques!"
+     },
+     {
+      "who": "ie2-young-inazuma/seymour-hillman",
+      "text": "Con cuidado, que son pequeños. ...Pero que no se nos suban a la chepa."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Habéis jugado con nosotros! ¡Nadie se lo va a creer!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "¡Qué buenos chavales! El fútbol sigue vivo en esta ciudad. Me alegra el corazón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "La final que nunca se jugó",
+    "before": [
+     {
+      "text": "El campo cambia. Ahora es un estadio enorme. Enfrente, el uniforme de la Royal Academy."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "No sé cómo hemos llegado aquí, pero sé quiénes sois. El Inazuma Eleven. Será un honor."
+     },
+     {
+      "who": "ie2-young-inazuma/edward-gladstone",
+      "text": "¡Ya era hora, caramba! ¡Cuarenta años esperando esta final! ¡Y vosotros, mocosos, no os durmáis!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Chicos, este es el partido que no pudimos jugar. ¡Disfrutadlo por todos los que no pudieron!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Nunca había visto un fútbol tan alegre... Ahora entiendo por qué sois una leyenda."
+     },
+     {
+      "who": "ie2-young-inazuma/seymour-hillman",
+      "text": "Lo hemos conseguido, entrenador. Hemos ganado la final."
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "¡Ja, ja! ¡Pero el sueño no ha terminado! ¡Mirad!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "El nieto",
+    "before": [
+     {
+      "text": "Un nuevo campo. Un chico con una cinta naranja en la cabeza espera bajo los palos."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¿A-abuelo? ¿Eres tú? ¡Soy Mark! ¡Tu nieto! ¡He aprendido todas las técnicas de tu cuaderno!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "¿Mi nieto? ¡Ja, ja, ja! ¡Con esa cinta, no podías ser de otra familia! ¡Enséñame lo que sabes!"
+     },
+     {
+      "who": "ie2-young-inazuma/seymour-hillman",
+      "text": "Mark... Así que tú eres el chaval al que algún día entrenaré."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Abuelo, ha sido el mejor partido de mi vida!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Y no será el último. Tú sigue jugando, Mark. Yo te estaré mirando siempre."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-second-raimon",
+    "title": "Los defensores de la Tierra",
+    "before": [
+     {
+      "text": "El cielo se llena de estrellas. Aparece el Raimon que salvó la Tierra de la Academia Alius."
+     },
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Abuelo! ¡Mira mi nuevo equipo! ¡Hemos recorrido todo Japón para reunirlo!"
+     },
+     {
+      "who": "ie2-second-raimon/jude-sharp",
+      "text": "El legendario Inazuma Eleven... Estudiad cada jugada. Nunca volveremos a ver algo así."
+     },
+     {
+      "who": "ie2-young-inazuma/constant-builder",
+      "text": "¡Mi cuerpo está en plena forma! ¡Veamos qué tal os sienta el Súper relámpago!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "¡A ver cuál de los dos es el mejor Inazuma Eleven!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-second-raimon/mark-evans",
+      "text": "¡Sois increíbles! ¡Ahora sé de dónde sale todo lo que me enseñaste!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Y yo sé adónde ha llegado todo lo que soñé. Gracias, Mark."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "Frente al espejo del tiempo",
+    "before": [
+     {
+      "text": "El último campo es el de la ribera, al atardecer. Enfrente esperan unos adultos con canas: ellos mismos, cuarenta años después."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Je. ¿Os creéis que podéis ganar al legendario Inazuma Eleven?"
+     },
+     {
+      "who": "ie2-young-inazuma/seymour-hillman",
+      "text": "¿Ese de ahí... soy yo? ¿Con un bar de fideos? ¡Qué cosas!"
+     },
+     {
+      "who": "ie1-inazuma-eleven/arthur-sweet",
+      "text": "Nos costó mucho volver a jugar. Pero lo hicimos. ¡Demostradnos que la llama nunca se apagó!"
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Chicos, este es el último partido del sueño. ¡Jugadlo con todo lo que tenéis!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Habéis ganado... Hacía cuarenta años que no me sentía tan joven."
+     },
+     {
+      "who": "ie2-young-inazuma/seymour-hillman",
+      "text": "Prométeme una cosa, viejo: que nunca dejarás de jugar."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Prometido, chaval. Y usted, entrenador, tranquilo: cuidaré de su nieto."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El sol se pone sobre el campo de la ribera. Uno a uno, los jóvenes se desvanecen con una sonrisa."
+   },
+   {
+    "who": "ie2-young-inazuma/david-evans",
+    "text": "Ya no hay ningún partido pendiente. La leyenda está completa."
+   },
+   {
+    "who": "ie2-young-inazuma/seymour-hillman",
+    "text": "Entrenador... ¿volveremos a jugar algún día?"
+   },
+   {
+    "who": "ie2-young-inazuma/david-evans",
+    "text": "¡Ja, ja, ja! ¡Mientras alguien juegue al fútbol con el corazón, seguiremos jugando!"
+   },
+   {
+    "text": "En una casa de la ciudad Inazuma, Mark despierta con el cuaderno de su abuelo abierto sobre el pecho."
+   }
+  ]
+ }
+}

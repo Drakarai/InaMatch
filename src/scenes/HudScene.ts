@@ -1225,9 +1225,9 @@ export class HudScene extends Phaser.Scene {
     this.overlay = null;
   }
 
-  showResult(onRematch: () => void, onMenu: () => void, reward: MatchReward | null = null): void {
+  showResult(onRematch: () => void, onMenu: () => void, reward: MatchReward | null = null, labels: [string, string] = ['Revancha', 'Menú']): void {
     if (PORTRAIT) {
-      this.showResultPortrait(onRematch, onMenu, reward);
+      this.showResultPortrait(onRematch, onMenu, reward, labels);
       return;
     }
     const [home, away] = this.match.teams;
@@ -1265,12 +1265,12 @@ export class HudScene extends Phaser.Scene {
     const verdict = won ? '¡VICTORIA!' : lost ? 'DERROTA...' : 'EMPATE';
     c.add(display(this, W / 2, 500, verdict, 56, won ? '#7dff9a' : lost ? '#ff8a8a' : '#ffffff', { strokeThickness: 8 }).setOrigin(0.5));
     if (reward) this.showReward(c, reward, W);
-    c.add(new Button(this, W / 2 - 125, 620, 'Revancha', onRematch, { w: 230, h: 56, variant: 'primary', size: 20 }));
-    c.add(new Button(this, W / 2 + 125, 620, 'Menú', onMenu, { w: 230, h: 56, variant: 'secondary', size: 20 }));
+    c.add(new Button(this, W / 2 - 125, 620, labels[0], onRematch, { w: 230, h: 56, variant: 'primary', size: 20 }));
+    c.add(new Button(this, W / 2 + 125, 620, labels[1], onMenu, { w: 230, h: 56, variant: 'secondary', size: 20 }));
   }
 
   /** Final del partido en el móvil: a toda la pantalla, el marcador arriba, el veredicto, los premios y los botones abajo. */
-  private showResultPortrait(onRematch: () => void, onMenu: () => void, reward: MatchReward | null): void {
+  private showResultPortrait(onRematch: () => void, onMenu: () => void, reward: MatchReward | null, labels: [string, string] = ['Revancha', 'Menú']): void {
     const [home, away] = this.match.teams;
     const [a, b] = this.match.score;
     const W = GAME_W;
@@ -1307,8 +1307,8 @@ export class HudScene extends Phaser.Scene {
     c.add(display(this, W / 2, 452, verdict, 60, won ? '#7dff9a' : lost ? '#ff8a8a' : '#ffffff', { strokeThickness: 8 }).setOrigin(0.5));
     if (reward) this.showRewardPortrait(c, reward, W);
     const bw = (W - 52) / 2;
-    c.add(new Button(this, 20 + bw / 2, H - 60, 'Revancha', onRematch, { w: bw, h: 72, variant: 'primary', size: 24 }));
-    c.add(new Button(this, W - 20 - bw / 2, H - 60, 'Menú', onMenu, { w: bw, h: 72, variant: 'secondary', size: 24 }));
+    c.add(new Button(this, 20 + bw / 2, H - 60, labels[0], onRematch, { w: bw, h: 72, variant: 'primary', size: 24 }));
+    c.add(new Button(this, W - 20 - bw / 2, H - 60, labels[1], onMenu, { w: bw, h: 72, variant: 'secondary', size: 24 }));
   }
 
   /** Premios en el móvil: las monedas (y el cuaderno) en filas, y debajo el escudo y la formación nuevos lado a lado. */

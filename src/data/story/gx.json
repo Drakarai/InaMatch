@@ -1,0 +1,3922 @@
+{
+ "gx-earth-eleven": {
+  "title": "Earth Eleven: rumbo a la galaxia",
+  "summary": "Del Inazuma Japón de desconocidos al Grand Celesta Galaxy: once chicos que no sabían jugar deberán salvar la Tierra y la galaxia entera.",
+  "main": true,
+  "intro": [
+   {
+    "text": "Estadio Holy Road. Se anuncia la selección japonesa para el Fútbol Frontier Internacional Visión 2."
+   },
+   {
+    "name": "Astero Black",
+    "text": "Arion Sherwind, Riccardo Di Rigo, Victor Blade. Y ocho más. Esta es mi selección. No admito preguntas."
+   },
+   {
+    "who": "gx-earth-eleven/jean-pierre-lapin",
+    "text": "¿¡Cómo!? ¿Un jugador de baloncesto, una gimnasta, un pandillero...? ¿Y los del Raimon?"
+   },
+   {
+    "text": "Para colmo, quedan prohibidos los espíritus guerreros, las armaduras y los Mixi Max. Solo vale el fútbol de verdad."
+   },
+   {
+    "who": "gx-earth-eleven/riccardo-di-rigo",
+    "text": "Han perdido 10-1 contra la Royal Academy. Estos no saben ni pasarse el balón."
+   },
+   {
+    "who": "gx-earth-eleven/arion-sherwind",
+    "text": "¡Pues aprenderemos juntos! ¡Todo saldrá bien, este equipo puede llegar lejos, ya lo veréis!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-fire-dragon-go",
+    "title": "Once desconocidos",
+    "before": [
+     {
+      "text": "Primera ronda de las eliminatorias de Asia. Rival: los Dragones de Fuego de Corea."
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Arion, Victor: jugaremos solos. No podemos contar con los demás."
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "Tranquilo, Riccardo, haré lo que pueda. (...Jugar solo con tres, ¿eh? Qué interesante.)"
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Marcaré antes de que os deis cuenta. Mi Fuego rápido no lo para nadie."
+     },
+     {
+      "who": "gx-earth-eleven/zippy-lerner",
+      "text": "¡Que no se acerque a Falco! Según mis cálculos, hay un 87 % de probabilidades de que él me robara la cartera."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡2-1! ¿Lo veis? ¡Cuando le pasamos a Falco, su velocidad nos abrió el camino!"
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "Gracias por confiar en mí, Arion. (...Qué fácil es caerles bien a todos.)"
+     },
+     {
+      "text": "En el vestuario coreano solo quedan uniformes vacíos... y un extraño rastro de baba verde."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-big-waves-go",
+    "title": "Atrapados en la marea",
+    "before": [
+     {
+      "who": "gx-earth-eleven/keenan-sharpe",
+      "text": "Big Waves, de Australia. Golean siempre... pero nadie ha visto nunca un entrenamiento suyo. Curioso, ¿no?"
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "¿Ofensivos? Ya veréis. Nuestra táctica Succión os tragará como un remolino."
+     },
+     {
+      "who": "gx-earth-eleven/cerise-blossom",
+      "text": "¡Tranquilos, chicos! La número uno de este partido voy a ser yo, ¿vale?"
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Cerise, si vas por libre rompes todas las líneas de pase. Confía en el equipo."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/terry-archibald",
+      "text": "¡Parada mate! ¿Lo habéis visto? ¡Ni un Megalodón puede con este portero!"
+     },
+     {
+      "who": "gx-earth-eleven/cerise-blossom",
+      "text": "Cuando dejé de temer al fallo, volví a disfrutar. Gracias, Arion."
+     },
+     {
+      "who": "gx-earth-eleven/zippy-lerner",
+      "text": "El gol decisivo, mío. Todo calculado... incluso que su portero resbalara. Bueno, casi todo."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-shamshir",
+    "title": "Los Leones de Arabia",
+    "before": [
+     {
+      "who": "gx-shamshir/said",
+      "text": "Somos Shamshir, los Leones de Arabia. Os atacaremos donde más os duela."
+     },
+     {
+      "who": "gx-shamshir/qasim-batal",
+      "text": "Eh, grandullón. Pareces de cristal. ¿Ya vas a ponerte a llorar?"
+     },
+     {
+      "who": "gx-earth-eleven/buddy-fury",
+      "text": "Je, je... Calma, Buddy, calma... ¡¿CÓMO HAS DICHO?!"
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Buddy, no! ¡Así es justo como quieren que juegues!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/buddy-fury",
+      "text": "He aprendido a controlar mi rabia. Y mi Cabezazo catapulta ha hecho el resto."
+     },
+     {
+      "who": "gx-earth-eleven/victor-blade",
+      "text": "Superar su Gran tormenta de arena no era fácil. Remontar un 0-2, menos."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Tsk. Los que creíamos débiles han jugado como un equipo de verdad. Lo admito."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "Garras de Muay Thai",
+    "before": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Me sorprende que hayáis llegado tan lejos. Pero aquí acaba vuestro camino."
+     },
+     {
+      "who": "gx-mach-tiger/rashiri-saran",
+      "text": "Este partido decidirá el destino del equipo. No quiero errores."
+     },
+     {
+      "who": "gx-earth-eleven/trina-verdure",
+      "text": "Sus jugadores dan miedo... No me atrevo a meter el pie."
+     },
+     {
+      "who": "gx-earth-eleven/buddy-fury",
+      "text": "Trina, puedes hacerlo. Yo... creo en ti más que en nadie."
+     },
+     {
+      "who": "gx-earth-eleven/keenan-sharpe",
+      "text": "Zippy, olvida a tus padres en la grada. Tú y yo encontraremos la clave de la victoria."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/trina-verdure",
+      "text": "L-lo he conseguido... ¡Mi Bola de hojas! Los animales me enseñaron a no tener miedo."
+     },
+     {
+      "who": "gx-earth-eleven/zippy-lerner",
+      "text": "Mis cálculos y tus deducciones, Keenan... Admito que no hacemos mal equipo."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Y mi Viento celestial cerró el 3-2! ¡Estamos en la final!"
+     },
+     {
+      "text": "Napa cae de rodillas, incrédulo. Por un instante, sus ojos brillan con un azul imposible."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-resistance-japan",
+    "title": "La Resistencia",
+    "before": [
+     {
+      "text": "Antes de la final, un partido de práctica. El rival sorprende al trío del Raimon."
+     },
+     {
+      "who": "gx-resistance-japan/quentin-cinquedea",
+      "text": "Somos la Resistencia Japón. Los capitanes que el seleccionador dejó fuera."
+     },
+     {
+      "who": "gx-resistance-japan/bailong",
+      "text": "Yo, Bailong, el jugador perfecto, decidiré si merecéis esa camiseta. Y lo dudo mucho."
+     },
+     {
+      "who": "gx-resistance-japan/njord-snio",
+      "text": "Arion, no te lo tomes a mal. Pero no pensamos regalaros nada."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/frank-foreman",
+      "text": "La élite de Japón pega fuerte. Pero en el ring he encajado golpes peores."
+     },
+     {
+      "who": "gx-resistance-japan/quentin-cinquedea",
+      "text": "Bien. Ahora id y ganad la final por todos nosotros."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Lo haremos! ¡Gracias por la lección!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-storm-wolf",
+    "title": "El ojo del huracán",
+    "before": [
+     {
+      "text": "Final de Asia: Storm Wolf de Uzbekistán, el equipo más fuerte del torneo. Juegan sin mostrar emoción alguna."
+     },
+     {
+      "who": "gx-storm-wolf/maksim-alimatov",
+      "text": "...La fiebre del oro."
+     },
+     {
+      "who": "gx-earth-eleven/terry-archibald",
+      "text": "¡Gol a los dos minutos! ¡Pararé todo lo demás yo solo!"
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Terry, ese es el problema. Nadie gana solo. Ni siquiera un portero."
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Vuestra resistencia es inútil. Nuestra Defensa radial no tiene fisuras."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/terry-archibald",
+      "text": "¡Zarpazo poderoso! Cuando pedí ayuda, todo cambió. ¡5-4!"
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "¡Taconazo parkour para la victoria! ¡Campeones de Asia!"
+     },
+     {
+      "text": "De pronto, los jugadores de Storm Wolf se transforman en seres plateados... y una nave cubre el cielo."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Enhorabuena. Ya no sois Inazuma Japón. Sois Earth Eleven, representantes de la Tierra."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sandorius-eleven",
+    "title": "Arena y orgullo",
+    "before": [
+     {
+      "name": "Axel Blaze",
+      "text": "Es verdad. Ozrock hizo desaparecer la Luna. Si no jugáis el Grand Celesta Galaxy, la Tierra será la siguiente."
+     },
+     {
+      "name": "Astero Black",
+      "text": "Astero Black era solo una máscara. Soy Ray Dark. Os elegí porque solo vosotros podíais hacerlo. Nada más."
+     },
+     {
+      "who": "gx-earth-eleven/zack-avalon",
+      "text": "Zack Avalon, heredero de la familia Avalon de kabuki, a vuestro servicio. ¡Con el gran Zack en el campo, ganar es fácil!"
+     },
+     {
+      "who": "gx-earth-eleven/jean-pierre-lapin",
+      "text": "¡Sorpresa! Me colé en el Orion Express. ¡No pensaba quedarme en tierra!"
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Jugaremos limpio, Earth Eleven. Aunque el planeta que pierda sea destruido."
+     },
+     {
+      "who": "gx-faram-dite/ogar-circes",
+      "text": "¿Limpio? Qué ingenuo. Mi paciencia es un volcán a punto de estallar. Yo os enseñaré a ganar."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/trina-verdure",
+      "text": "Ha salido mi tótem: ¡un zorro! Con Espejismo del zorro les he quitado el balón."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Recuperamos nuestro orgullo a tiempo. Gracias por recordarnos lo que es el fútbol."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "Hemos ganado... pero su planeta... ¿De verdad este torneo tiene que ser así?"
+     },
+     {
+      "name": "Catora",
+      "text": "Arion... Busca las piedras de la esperanza. Son la clave para salvar la galaxia."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sazanaara-eleven",
+    "title": "Corazones a la vista",
+    "before": [
+     {
+      "text": "Naiadi, el planeta del agua. Sus habitantes pueden ver el «azur», el corazón de las personas."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¡Falco Flashman! Tu azur es oscuro y retorcido. A Plink le encanta romper azures así. ¡Qué divertido!"
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "Cállate. No sabes nada de lo que me pasó."
+     },
+     {
+      "who": "gx-faram-dite/rondula-flehl",
+      "text": "Leed sus mentes, pequeños. Que cada pase terrícola se marchite como una flor sin agua."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "Falco, lo bueno y lo malo que tienes es lo que te hace mi amigo. ¡No estás solo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/keenan-sharpe",
+      "text": "Si nos leen la mente, jugamos sin pensar. Elemental. Hasta mi gol en propia puerta formaba parte del plan."
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "Mi tótem, el halcón... ¡Planeo del halcón! Por fin he volado."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Tu azur... ahora brilla. Plink se equivocó contigo, Falco."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-gurdon-eleven",
+    "title": "Volcanes y máquinas",
+    "before": [
+     {
+      "text": "Magmavís, el planeta del fuego, dividido entre la facción promáquinas y la antimáquinas."
+     },
+     {
+      "who": "gx-earth-eleven/jean-pierre-lapin",
+      "text": "¡Riccardo y Terry han caído por un precipicio! ¡Me toca defender la portería!"
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Mi visor analiza cada uno de vuestros tiros. Los Mecanicistas somos la evolución definitiva. No fallamos."
+     },
+     {
+      "who": "gx-faram-dite/bala-gasgula",
+      "text": "Je, je... Y si fallan, mis bolas de magma terminarán el trabajo."
+     },
+     {
+      "who": "gx-earth-eleven/frank-foreman",
+      "text": "Calor, trampas... Da igual. Pelearé hasta el último asalto."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/frank-foreman",
+      "text": "Un búfalo... Me pega. Embiste de frente, como yo."
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Llegamos a tiempo. Mi pavo real chocó con su dragón... y ganamos 3-2."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Mi tótem nos salvó a todos de la trampa. Tomad la piedra roja. Os la habéis ganado."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ratoniik-eleven",
+    "title": "Un mes de vida",
+    "before": [
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Bienvenidos a Fertilia! Soy Banda. ¡Mañana jugamos, qué ganas tengo!"
+     },
+     {
+      "text": "Los habitantes de Fertilia solo viven alrededor de un mes. Para Banda, este será su primer y último partido."
+     },
+     {
+      "who": "gx-earth-eleven/buddy-fury",
+      "text": "Banda... ¿por qué sonríes tanto si sabes que...?"
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Porque quiero brillar! Aunque sea solo una vez. ¡No te contengas, Buddy!"
+     },
+     {
+      "who": "gx-faram-dite/ruger-baran",
+      "text": "Los hermanos Baran nos encargamos. Ya lo dice el refrán: ¡a quien madruga, la Tierra no le ayuda!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/keenan-sharpe",
+      "text": "«¡Hala! ¡Un ovni!». Tres veces picaron los Baran. Se fueron de pura vergüenza."
+     },
+     {
+      "who": "gx-earth-eleven/buddy-fury",
+      "text": "Mi oso pardo despertó por él... Este gol es para ti, Banda."
+     },
+     {
+      "text": "Earth Eleven deja flores en la tumba de Banda. Su espíritu sonríe por última vez a Buddy."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-faram-dite",
+    "title": "Un rival inesperado",
+    "before": [
+     {
+      "who": "gx-earth-eleven/maneuver-gibbs",
+      "text": "Lo siento, chicos. Trabajo para Ozrock. Me llevo a Ptumri y las piedras de la esperanza."
+     },
+     {
+      "who": "gx-faram-dite/ray-dark",
+      "text": "Mi trabajo con vosotros ha terminado. Desde hoy entreno a otro equipo. Veamos si sabéis ganar sin mí."
+     },
+     {
+      "who": "gx-earth-eleven/victor-blade",
+      "text": "Arion. Ahora soy el capitán de Falam Medius. No esperes que me contenga."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¿Victor? ¡No puede ser! ¿Por qué...?"
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Soy el guardián de Falam Orbius. Ningún terrícola marcará en mi portería."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/jean-pierre-lapin",
+      "text": "¡Cohete al espacio! ¡Lo he parado con mis manos! ¡Ni un tiranosaurio me habría movido de aquí!"
+     },
+     {
+      "who": "gx-earth-eleven/zack-avalon",
+      "text": "¡Soy todopoderoso! ¡Aplaudid, aplaudid! Os dije que con el gran Zack era fácil."
+     },
+     {
+      "who": "gx-faram-dite/ray-dark",
+      "text": "Hmpf. Os entrené para este momento. Ahora, superadme también a mí."
+     },
+     {
+      "who": "gx-earth-eleven/victor-blade",
+      "text": "Arion, el Victor que conoces nunca cambió. Tenía que proteger a alguien."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ixal-fleet",
+    "title": "La última patada al mañana",
+    "before": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "La energía vital de vuestra final ya llena mi cañón. ¡Ahora la galaxia será de Ixar!"
+     },
+     {
+      "who": "gx-ixal-fleet/meteo-garnet",
+      "text": "Doscientos años de sueño frío esperando la venganza contra Falam Orbius. Ha llegado la hora, Ozrock."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Marca del Berserker! ¡Que vuestros propios tótems se vuelvan contra vosotros!"
+     },
+     {
+      "text": "De repente, aparecen los capitanes de todos los planetas. ¡Forman el Galaxy Eleven para ayudar!"
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix-junior",
+      "text": "Soy el hijo de Banda. ¡Mi padre habría querido jugar a vuestro lado!"
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "Arion, no quiero al «capitán». Quiero al Arion de verdad. ¡Demuéstralo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Mi tótem ha evolucionado en Pegaso! ¡Tormenta, tornado, huracán!"
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Arion, Victor, conmigo. El último tiro: ¡La Tierra: Infinito!"
+     },
+     {
+      "text": "8-7. El cañón falla, pero Earth Eleven devuelve el disparo de una patada directo al agujero negro."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El agujero negro desaparece. La galaxia entera está a salvo."
+   },
+   {
+    "name": "Roleia Orbes",
+    "text": "¡Esta corona de flores es para vosotros! Habéis salvado a todos, incluso a los que os odiaban. ¡Gracias!"
+   },
+   {
+    "who": "gx-earth-eleven/victor-blade",
+    "text": "Y tú, Arion, sigues siendo el mismo cabezota de siempre."
+   },
+   {
+    "text": "Desde lejos, el antiguo entrenador observa la nave que vuelve a casa... y sonríe antes de desvanecerse."
+   },
+   {
+    "who": "gx-earth-eleven/terry-archibald",
+    "text": "Once desconocidos... y míranos ahora. Aunque el mejor portero sigo siendo yo."
+   },
+   {
+    "who": "gx-earth-eleven/arion-sherwind",
+    "text": "¡Lo hemos conseguido juntos! ¡El fútbol puede salvar hasta la galaxia!"
+   }
+  ]
+ },
+ "gx-fire-dragon-go": {
+  "title": "Fuego bajo la piel",
+  "summary": "Los alienígenas que se hicieron pasar por Corea quieren arder de verdad: buscarán el fuego más puro del fútbol, de la Tierra a Magmavís.",
+  "intro": [
+   {
+    "text": "Tras perder contra Inazuma Japón, los Dragones de Fuego dejaron atrás sus uniformes... y su disfraz."
+   },
+   {
+    "who": "gx-fire-dragon-go/jun-yeong-lee",
+    "text": "Fingíamos ser coreanos para espiar el fútbol de la Tierra. Pero al jugar, algo se encendió dentro de mí."
+   },
+   {
+    "who": "gx-fire-dragon-go/do-hyeon-nam",
+    "text": "Capitán, ¿y si dejamos de fingir? Juguemos como lo que somos."
+   },
+   {
+    "who": "gx-fire-dragon-go/jun-yeong-lee",
+    "text": "Buscaremos el fuego más intenso que exista. Y aprenderemos a arder con él."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-big-waves-go",
+    "title": "Impostores entre olas",
+    "before": [
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "¿Vosotros también os quitasteis la máscara? Nosotros seguimos siendo Big Waves."
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Entonces juguemos sin disfraces. Que se vea quién tiene más fuego."
+     },
+     {
+      "who": "gx-big-waves-go/octa",
+      "text": "Nuestra táctica Succión apagará esa llamita. Ya lo verás."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-fire-dragon-go/shinjae-choi",
+      "text": "¡Su remolino no pudo con nuestro calor! ¡El agua se ha evaporado!"
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Vale, vale... Arded todo lo que queráis. Pero id con cuidado ahí fuera."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "El rugido del tigre",
+    "before": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "¿Dragones contra tigres? En Tailandia, el tigre siempre gana."
+     },
+     {
+      "who": "gx-fire-dragon-go/yongjin-seo",
+      "text": "¡Sus codazos de Muay Thai dan miedo! ¡Cuidado con las piernas!"
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "La velocidad es fuego. Y yo soy el más rápido del equipo."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-mach-tiger/thanakorn-jaa",
+      "text": "Ni mi Tiro elefante os ha frenado... Tenéis garra, dragones."
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "¡Fuego rápido! Cada gol me acerca un poco más a lo que busco."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-fire-dragon",
+    "title": "Los dragones originales",
+    "before": [
+     {
+      "text": "En Corea esperan los auténticos Dragones de Fuego, los del anterior Fútbol Frontier Internacional."
+     },
+     {
+      "who": "ie3-fire-dragon/byron-love",
+      "text": "Así que vosotros sois los que usaron nuestro nombre. Interesante."
+     },
+     {
+      "who": "ie3-fire-dragon/claude-beacons",
+      "text": "¡Mi llama es la de verdad! ¡Os voy a enseñar qué es arder!"
+     },
+     {
+      "who": "ie3-fire-dragon/bryce-whitingale",
+      "text": "Fuego y hielo juntos... A ver si vuestro dragón aguanta el frío."
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Por eso hemos venido. Queremos aprender de los mejores."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-fire-dragon/byron-love",
+      "text": "Habéis ganado el derecho a llevar ese nombre. Usadlo con orgullo."
+     },
+     {
+      "who": "gx-fire-dragon-go/do-hyeon-nam",
+      "text": "Capitán... ¿lo notas? Nuestro fuego ya no es una imitación."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-gurdon-eleven",
+    "title": "El planeta de los volcanes",
+    "before": [
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Dicen que en Magmavís el suelo es lava. Ningún fuego arde más que allí."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "¿Venís a buscar fuego? Aquí el fuego se doma con máquinas. Os analizaré."
+     },
+     {
+      "who": "gx-gurdon-eleven/vesuvian",
+      "text": "Nuestro Lecho de lava os derretirá las botas."
+     },
+     {
+      "who": "gx-fire-dragon-go/ujin-shin",
+      "text": "¡Hace muchísimo calor! ¡Pero no pienso rendirme!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Vuestro fuego no salía en mis datos. Venía del corazón."
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Sí... ese fuego es el que buscaba. Pero aún queda un rival más."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-prominence",
+    "title": "La llama más antigua",
+    "before": [
+     {
+      "text": "De vuelta en la Tierra, un viejo equipo de la Academia Alius acepta el reto: Prominence."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "¿Unos alienígenas de verdad retando a Prominence? ¡Ja! Ninguna llama arde más que la mía."
+     },
+     {
+      "who": "ie2-prominence/ben-blowton",
+      "text": "Prominence es la llama más intensa de la Academia Alius. ¡Preparaos para el infierno!"
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Este es nuestro último partido. ¡Dragones, a arder como nunca!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "Tsk... Vale, lo admito. Ese fuego quema hasta a mí."
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "¡Lo hemos logrado! El fuego que imitábamos... ahora es nuestro."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Dragones de Fuego ya no necesitan disfraz para jugar en la Tierra."
+   },
+   {
+    "who": "gx-fire-dragon-go/do-hyeon-nam",
+    "text": "¿Y ahora qué, capitán? ¿Volvemos a casa?"
+   },
+   {
+    "who": "gx-fire-dragon-go/jun-yeong-lee",
+    "text": "Volveremos, sí. Y llevaremos este fuego a todos los rincones de la galaxia."
+   },
+   {
+    "who": "gx-fire-dragon-go/shinjae-choi",
+    "text": "¡Dragones de Fuego, el equipo que arde de verdad!"
+   }
+  ]
+ },
+ "gx-big-waves-go": {
+  "title": "Mareas de otro mundo",
+  "summary": "Los alienígenas disfrazados de Big Waves echan de menos los océanos de su hogar. Recorrerán los mares del fútbol hasta el planeta del agua.",
+  "intro": [
+   {
+    "who": "gx-big-waves-go/cole",
+    "text": "Fingir ser australianos no estuvo mal. El mar de la Tierra se parece mucho al de casa."
+   },
+   {
+    "who": "gx-big-waves-go/octa",
+    "text": "Pero perdimos contra Inazuma Japón. Y la Succión no bastó."
+   },
+   {
+    "who": "gx-big-waves-go/jude-gordon",
+    "text": "Si queremos volver a casa con la cabeza alta, hay que mejorar."
+   },
+   {
+    "who": "gx-big-waves-go/cole",
+    "text": "Pues a navegar. Desafiaremos a cada equipo que viva junto al mar. ¡Rumbo a la marea alta!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-umi-kamome-soccer-club",
+    "title": "Gaviotas en la orilla",
+    "before": [
+     {
+      "who": "vr-umi-kamome-soccer-club/asuna-sugami",
+      "text": "¿Un equipo de criaturas marinas? ¡Qué guay! ¡Vamos a jugar!"
+     },
+     {
+      "who": "gx-big-waves-go/whaly-walker",
+      "text": "Son muy pequeños... pero se mueven como gaviotas al viento."
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "No os confiéis. El mar castiga a quien lo subestima."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-umi-kamome-soccer-club/asuna-sugami",
+      "text": "¡Jo, qué fuertes! ¡Volved cuando queráis!"
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Buen calentamiento. Ahora, mar adentro."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-fire-dragon-go",
+    "title": "Agua contra fuego",
+    "before": [
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "¿Vosotros también os quedasteis en la Tierra? Venga, un partido entre impostores."
+     },
+     {
+      "who": "gx-big-waves-go/sunny-fishton",
+      "text": "¡Fuego contra agua! ¡Esto está decidido antes de empezar!"
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "No cantes victoria. Su capitán es rapidísimo."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-big-waves-go/oscar-squidows",
+      "text": "¡Apagados! Nada como una buena ola para un dragón."
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "La próxima vez traeré más fuego. Mucho más."
+     }
+    ]
+   },
+   {
+    "opponent": "go-kaiou-gakuen",
+    "title": "Piratas a babor",
+    "before": [
+     {
+      "who": "go-kaiou-gakuen/ishmael-ahab",
+      "text": "¡Ah del barco! La Academia Cala Pirata domina estos mares. ¡Por el honor de los Imperiales!"
+     },
+     {
+      "who": "go-kaiou-gakuen/octavus-kraken",
+      "text": "¡Al abordaje! ¡Que no quede ni un pez en pie!"
+     },
+     {
+      "who": "gx-big-waves-go/octa",
+      "text": "¿Un kraken? Je. Yo también tengo tentáculos... más o menos."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-kaiou-gakuen/ishmael-ahab",
+      "text": "Rayos y truenos... Nos han hundido la nave."
+     },
+     {
+      "who": "gx-big-waves-go/marsha-ark",
+      "text": "¡La Succión ha funcionado de maravilla! Ni sus piratas se escapan."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-big-waves",
+    "title": "Los auténticos Big Waves",
+    "before": [
+     {
+      "text": "Australia. Los Big Waves originales han oído hablar de sus dobles."
+     },
+     {
+      "who": "ie3-big-waves/gene-whalon",
+      "text": "Así que vosotros usasteis nuestro nombre. Demostrad que lo merecéis."
+     },
+     {
+      "who": "ie3-big-waves/hank-tennyson",
+      "text": "¡Aquí se surfea la ola o se acaba bajo ella, colegas!"
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Sois el equipo en el que nos inspiramos. Es un honor."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-big-waves/gene-whalon",
+      "text": "Tenéis el espíritu del océano. Podéis quedaros el nombre."
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Un último reto. Uno que nos llama desde las estrellas."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sazanaara-eleven",
+    "title": "El planeta del agua",
+    "before": [
+     {
+      "text": "Naiadi: un planeta cubierto de océanos, como el hogar que los Big Waves tanto echan de menos."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¡Uy, cuánta nostalgia en vuestro azur! Plink ya sabe lo que vais a hacer. ¡Qué aburrido!"
+     },
+     {
+      "who": "gx-big-waves-go/jude-gordon",
+      "text": "¿Nos leen el corazón? Entonces... ¡a jugar con todo el corazón!"
+     },
+     {
+      "who": "gx-sazanaara-eleven/van-tarel",
+      "text": "Nuestra Gran catarata os arrastrará hasta el fondo."
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Mi Megalodón ha nadado en muchos mares. ¡Este será el último y el mejor!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¡Anda! Vuestro azur ya no está triste, brilla como el mar al sol. Eso Plink no lo vio venir."
+     },
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Hemos encontrado un océano donde sentirnos en casa. ¡Gracias, chicos!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Big Waves surcan la galaxia de océano en océano, jugando en cada orilla."
+   },
+   {
+    "who": "gx-big-waves-go/octa",
+    "text": "¿Echaremos de menos la Tierra?"
+   },
+   {
+    "who": "gx-big-waves-go/cole",
+    "text": "Seguro. Pero el mar es el mismo en todas partes. Y el fútbol también."
+   },
+   {
+    "who": "gx-big-waves-go/jude-gordon",
+    "text": "¡Big Waves, la ola que no se detiene!"
+   }
+  ]
+ },
+ "gx-shamshir": {
+  "title": "El rugido de los Leones",
+  "summary": "Shamshir fue el único rival humano de Asia. Ahora los Leones de Arabia quieren demostrar que son los reyes de la arena, en la Tierra y fuera de ella.",
+  "intro": [
+   {
+    "who": "gx-shamshir/said",
+    "text": "Perdimos contra Inazuma Japón. Y después supimos la verdad: los demás equipos eran alienígenas."
+   },
+   {
+    "who": "gx-shamshir/sultan",
+    "text": "Fuimos los únicos humanos de las eliminatorias. Y aun así llegamos lejos."
+   },
+   {
+    "who": "gx-shamshir/qasim-batal",
+    "text": "Y sí, vale, nos pasamos con Buddy. Eso de los codazos... no estuvo bien."
+   },
+   {
+    "who": "gx-shamshir/said",
+    "text": "Entonces empezaremos de nuevo. Sin provocaciones. Solo fútbol de león. ¡Shamshir, en marcha!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-fire-dragon-go",
+    "title": "Revancha entre impostores",
+    "before": [
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "¿Unos humanos quieren desafiarnos? Qué valientes."
+     },
+     {
+      "who": "gx-shamshir/tamir",
+      "text": "¡Nos tratabais como figurantes! ¡Ahora veréis!"
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Nada de faltas. Ganaremos con la cabeza alta."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Vaya... Los humanos rugís fuerte."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "¡Balón de petróleo! Así se juega limpio y se gana igual."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-arab-no-hi-no-tori-gundan",
+    "title": "Alas sobre el desierto",
+    "before": [
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "El Ejército del Fénix Árabe vuela sobre las dunas. ¿Podréis seguirnos?"
+     },
+     {
+      "who": "gx-shamshir/khalil-haddaoui",
+      "text": "Ellos vuelan, nosotros corremos. En la arena, mandan las garras del león."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Que no se nos escapen por arriba. Presión constante."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Nos habéis cortado las alas... Bien jugado, leones."
+     },
+     {
+      "who": "gx-shamshir/sultan",
+      "text": "Ni un solo gol en contra. Mi Golpe abrasador está en forma."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "Tigres y leones",
+    "before": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "¿Los Leones de Arabia? En la selva, el tigre es el rey."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Y en el desierto, el león. Veamos quién ruge más fuerte."
+     },
+     {
+      "who": "gx-mach-tiger/bak",
+      "text": "¡Cuidado con nuestras patadas de Muay Thai!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Grrr... Hoy ruge el león. La próxima, el tigre."
+     },
+     {
+      "who": "gx-shamshir/nazim",
+      "text": "¡Ese partido que no pudimos jugar en Asia por fin es nuestro!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sandorius-eleven",
+    "title": "Tormenta contra tormenta",
+    "before": [
+     {
+      "text": "Por un error del Orion Express, Shamshir aterriza en Sílice, un planeta de desierto infinito."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Forasteros. Aquí la arena nos obedece. ¿Jugaréis limpio?"
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Limpio y con todo. Es la única forma que nos queda."
+     },
+     {
+      "who": "gx-shamshir/tamir",
+      "text": "¡Su gravedad es distinta! ¡Me pesan las piernas!"
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "¡Gran tormenta de arena! ¡A ver qué tormenta es más fuerte!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Vuestra arena y la nuestra son hermanas. Ha sido un honor."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Un desierto en otro planeta... y aun así nos sentimos en casa."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-desert-lion",
+    "title": "El verdadero rey del desierto",
+    "before": [
+     {
+      "text": "De vuelta en la Tierra, Qatar lanza un desafío: los Leones del Desierto, leyendas del anterior torneo mundial."
+     },
+     {
+      "who": "ie3-desert-lion/nasir-mustafa",
+      "text": "Solo puede haber un león en el desierto. Y ese somos nosotros."
+     },
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "Hemos entrenado años bajo el sol del desierto. Nuestra resistencia es infinita. Caeréis agotados."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Leones de Arabia contra Leones del Desierto. ¡Que ruja el mejor!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/nasir-mustafa",
+      "text": "El desierto tiene un nuevo rey... Hmpf. Cuidad bien de esa corona."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "¡Lo hemos conseguido! ¡Y sin una sola provocación!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Shamshir vuelve a casa entre aplausos. Ya nadie los recuerda por sus provocaciones."
+   },
+   {
+    "who": "gx-shamshir/qasim-batal",
+    "text": "Oye, Said... ¿y si le mandamos una carta de disculpa a Buddy?"
+   },
+   {
+    "who": "gx-shamshir/said",
+    "text": "Mejor aún: le retaremos a un partido. Uno limpio, de verdad."
+   },
+   {
+    "who": "gx-shamshir/sultan",
+    "text": "¡Los Leones de Arabia, los reyes de la arena!"
+   }
+  ]
+ },
+ "gx-mach-tiger": {
+  "title": "El tigre contra las fieras",
+  "summary": "Los Muay Tigers recorren el mundo para demostrar que el tigre es el rey de las fieras: selvas, guerreros, ninjas y lobos bajo la luna.",
+  "intro": [
+   {
+    "who": "gx-mach-tiger/napa",
+    "text": "Perdimos la semifinal. Y el destino del equipo dependía de ese partido."
+   },
+   {
+    "who": "gx-mach-tiger/rashiri-saran",
+    "text": "Os dije que no habría segundas oportunidades. Pero... aún podéis ganaros una."
+   },
+   {
+    "who": "gx-mach-tiger/napa",
+    "text": "Entonces lo demostraremos. ¡El tigre es el rey de todas las fieras!"
+   },
+   {
+    "who": "gx-mach-tiger/thanakorn-jaa",
+    "text": "¡Codos arriba, rodillas firmes! ¡Muay Tigers, al ataque!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "La ley de la selva",
+    "before": [
+     {
+      "who": "ie1-nose/leonard-o-shea",
+      "text": "¡Esta es nuestra selva! ¡Aquí manda el Instituto Wild!"
+     },
+     {
+      "who": "ie1-nose/bruce-monkey",
+      "text": "¡U-u-a-a! ¡A ver si nos pilláis por las lianas!"
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Una selva llena de fieras... Perfecto para empezar."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/leonard-o-shea",
+      "text": "Grrr... Hoy el rey de la selva es otro."
+     },
+     {
+      "who": "gx-mach-tiger/bak",
+      "text": "¡Muy ágiles, pero nuestras patadas llegan más lejos!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "Guerreros de arcilla",
+    "before": [
+     {
+      "text": "Un portal del tiempo los lleva a la antigua China, frente al Ejército de Terracota."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Mis guerreros no sienten dolor ni miedo. Servimos a nuestro señor hasta el final. ¿Y vosotros?"
+     },
+     {
+      "who": "gx-mach-tiger/kaolan",
+      "text": "¡Son duros como piedras! ¡Me duele el pie!"
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "El Muay Thai rompe hasta la piedra. ¡Parada de codo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¡Increíble! Han resquebrajado nuestra formación."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Una fiera de verdad no teme a nada. Ni siquiera a la arcilla."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Sombras ninja",
+    "before": [
+     {
+      "who": "ie1-sengoku-igajima/hank-sullivan",
+      "text": "Los ninjas del Instituto Shuriken atacamos desde las sombras."
+     },
+     {
+      "who": "gx-mach-tiger/mei",
+      "text": "¡Han desaparecido! ¿Dónde están?"
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "El tigre caza de oído. Calma, y escuchad sus pasos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-sengoku-igajima/hank-sullivan",
+      "text": "Nos olfatearon como felinos... Admirable."
+     },
+     {
+      "who": "gx-mach-tiger/thanakorn-jaa",
+      "text": "¡Mi Tiro elefante ha encontrado al ninja escondido en la portería!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-storm-wolf",
+    "title": "La manada blanca",
+    "before": [
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Storm Wolf. Nosotros cazamos en manada."
+     },
+     {
+      "who": "gx-mach-tiger/nawarat",
+      "text": "No muestran ninguna emoción... Dan escalofríos."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Un lobo solo no vence a un tigre. Por eso son once. ¡Pues nosotros también!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-storm-wolf/maksim-alimatov",
+      "text": "...La manada ha perdido. Interesante."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "¡Siega central! ¡Ni su Defensa radial pudo con ella!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "Aullidos bajo la luna",
+    "before": [
+     {
+      "text": "Bajo la luna llena, el clan más salvaje de todos los tiempos les espera: Aullido Lunar."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Ja! Nosotros somos los verdaderos depredadores. Vuestro rugido no es más que un maullido."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/lee-canthrup",
+      "text": "Auuuuh... ¡Qué olor a tigre asustado!"
+     },
+     {
+      "who": "gx-mach-tiger/rashiri-saran",
+      "text": "Esta es la prueba final, chicos. Demostradme quiénes sois."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "¡Muay Tigers! ¡Que se oiga el rugido del rey de las fieras!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Tenéis el instinto de una fiera de verdad. Os respeto."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "¡Lo hemos logrado! ¡El tigre es el rey!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "gx-mach-tiger/rashiri-saran",
+    "text": "Habéis ganado vuestra segunda oportunidad. El destino del equipo está a salvo."
+   },
+   {
+    "who": "gx-mach-tiger/napa",
+    "text": "No hacía falta destino. Solo garra y corazón."
+   },
+   {
+    "who": "gx-mach-tiger/bak",
+    "text": "Entonces... ¿lo celebramos con un buen plato picante?"
+   },
+   {
+    "who": "gx-mach-tiger/thanakorn-jaa",
+    "text": "¡Grrrr! ¡Muay Tigers, campeones de las fieras!"
+   }
+  ]
+ },
+ "gx-storm-wolf": {
+  "title": "El regreso de la manada",
+  "summary": "Los verdaderos Storm Wolf despiertan y descubren que unos alienígenas jugaron la final de Asia con sus caras. La manada sale a recuperar su nombre.",
+  "intro": [
+   {
+    "text": "Uzbekistán. Los jugadores de Storm Wolf despiertan de un largo sueño en un lugar desconocido."
+   },
+   {
+    "who": "gx-storm-wolf/dilshod",
+    "text": "¿La final de Asia? ¿Que perdimos 5-4? Nosotros no hemos jugado ningún partido."
+   },
+   {
+    "who": "gx-storm-wolf/maksim-alimatov",
+    "text": "Alguien llevaba nuestras caras. Unos tipos plateados, dicen."
+   },
+   {
+    "who": "gx-storm-wolf/dilshod",
+    "text": "El lobo no habla: muerde. Encontraremos a los impostores... y a quien los envió."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-northern-fang",
+    "title": "Colmillos en la nieve",
+    "before": [
+     {
+      "who": "go-northern-fang/brutus-nastion",
+      "text": "¿Lobos de las estepas? Los Colmillos del Norte también sabemos morder."
+     },
+     {
+      "who": "gx-storm-wolf/rustan",
+      "text": "Hace frío, pero en casa hace más. Nos sentimos como en nuestro terreno."
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Entrenemos los colmillos. La caza de verdad viene después."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-northern-fang/brutus-nastion",
+      "text": "Qué frialdad... Ni pestañean al marcar."
+     },
+     {
+      "who": "gx-storm-wolf/maksim-alimatov",
+      "text": "La fiebre del oro ha vuelto. Esta vez con mis propias piernas."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "Rastro de alienígenas",
+    "before": [
+     {
+      "who": "gx-storm-wolf/aleksei-karimov",
+      "text": "Los de Tailandia también eran alienígenas. Quizá sepan algo."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "¿Los Storm Wolf de verdad? Ganadnos y os diremos dónde están los plateados."
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Trato hecho."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Vale, vale... Se esconden en lo más hondo del bosque Karamarine. Se hacen llamar Inside Silver."
+     },
+     {
+      "who": "gx-storm-wolf/leonid-mirzayev",
+      "text": "Inside Silver... Los tenemos."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-inside-silver",
+    "title": "Los lobos de plata",
+    "before": [
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Así que los originales han venido a por nosotros. Qué incómodo."
+     },
+     {
+      "who": "gx-inside-silver/colin-gin",
+      "text": "Jugamos con vuestro estilo mejor que vosotros. Fuimos campeones... casi."
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Copiasteis nuestros movimientos. No nuestro corazón."
+     },
+     {
+      "who": "gx-storm-wolf/kenja-jo-rayev",
+      "text": "¡Defensa radial! ¡Esta es la de verdad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Tenías razón. Vuestro fútbol tiene algo que no podíamos imitar."
+     },
+     {
+      "who": "gx-inside-silver/silva-gin",
+      "text": "Nosotros solo obedecíamos a Ozrock. Él nos ordenó suplantaros."
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Ozrock. Ese será nuestro último objetivo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "Lobos contra lobos",
+    "before": [
+     {
+      "text": "Para llegar a Ozrock, un viaje en el tiempo los cruza con otra manada legendaria: Aullido Lunar."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Solo puede haber un líder de la manada. Demostrad que merecéis aullar."
+     },
+     {
+      "who": "gx-storm-wolf/zafar",
+      "text": "Son lobos de verdad... ¡Es imposible sentir más presión!"
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "La manada no se rompe. Jugamos juntos o caemos juntos."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Una manada unida bajo la tormenta... Aullad con orgullo."
+     },
+     {
+      "who": "gx-storm-wolf/maksim-alimatov",
+      "text": "Estamos listos. Vamos a por quien nos robó el nombre."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ixal-fleet",
+    "title": "El ojo de la tormenta",
+    "before": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¿Los terrícolas que mandé dormir? Debisteis quedaros soñando."
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Nos robaste el nombre. Hoy lo recuperamos."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Qué tozudos. ¡Marca del Berserker! Veamos si vuestra calma aguanta."
+     },
+     {
+      "who": "gx-storm-wolf/nikolai-gagarin",
+      "text": "Por algo nos llaman el ojo del huracán. En el centro de la tormenta, todo está en calma."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Imposible! ¿Unos humanos sin tótem han resistido mi rayo?"
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "No necesitamos tótems. Somos una manada."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "De vuelta en Uzbekistán, el estadio grita sus nombres. Los de verdad."
+   },
+   {
+    "who": "gx-storm-wolf/maksim-alimatov",
+    "text": "Capitán... estás sonriendo."
+   },
+   {
+    "who": "gx-storm-wolf/dilshod",
+    "text": "Será el viento. Pero sí... hoy los lobos aúllan de alegría."
+   },
+   {
+    "who": "gx-storm-wolf/aleksei-karimov",
+    "text": "¡Storm Wolf ha vuelto!"
+   }
+  ]
+ },
+ "gx-inside-silver": {
+  "title": "Plata sin disfraz",
+  "summary": "Los alienígenas plateados que suplantaron a Storm Wolf están hartos de llevar caras ajenas. Quieren ganar siendo ellos mismos.",
+  "intro": [
+   {
+    "who": "gx-inside-silver/ezra-gin",
+    "text": "Fuimos Storm Wolf. Los más fuertes de Asia. Pero nadie gritó nunca nuestro nombre."
+   },
+   {
+    "who": "gx-inside-silver/shari-gin",
+    "text": "Ozrock nos recogió y nos olvidó. Solo éramos un disfraz más."
+   },
+   {
+    "who": "gx-inside-silver/nathas-gin",
+    "text": "¿Y si jugamos sin disfraz? Plateados, tal como somos."
+   },
+   {
+    "who": "gx-inside-silver/ezra-gin",
+    "text": "Hagámoslo. Que el universo conozca a Inside Silver."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-fire-dragon-go",
+    "title": "La liga de los impostores",
+    "before": [
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "¿Los plateados que se hacían pasar por uzbekos? ¡Nosotros éramos coreanos!"
+     },
+     {
+      "who": "gx-inside-silver/colin-gin",
+      "text": "Pues que gane el que juegue mejor sin máscara."
+     },
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Primer partido como nosotros mismos. Nada de imitar a nadie."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Ese estilo... ya no es el de Storm Wolf. Es vuestro."
+     },
+     {
+      "who": "gx-inside-silver/zane-gin",
+      "text": "¡Me ha encantado! Jugar siendo yo es mucho más divertido."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-big-waves-go",
+    "title": "Reflejos en el agua",
+    "before": [
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Plata contra olas. Nuestra Succión no distingue disfraces."
+     },
+     {
+      "who": "gx-inside-silver/consy-gin",
+      "text": "Antes copiábamos. Ahora improvisamos. ¡Que nos lean si pueden!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-big-waves-go/cole",
+      "text": "Sois muy distintos de los lobos que vimos en Asia."
+     },
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Esa es la idea. Ya no somos lobos. Somos plata."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "Antiguos compañeros",
+    "before": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "En Asia os temíamos. Veamos si sin máscara seguís dando miedo."
+     },
+     {
+      "who": "gx-inside-silver/micah-gin",
+      "text": "No queremos dar miedo. Queremos que se acuerden de nosotros."
+     },
+     {
+      "who": "gx-inside-silver/argus-gin",
+      "text": "¡Cuidado con sus patadas! ¡Defensa en bloque!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Inside Silver... Vale, me acordaré de ese nombre."
+     },
+     {
+      "who": "gx-inside-silver/shari-gin",
+      "text": "¡Lo ha dicho! ¡Ha dicho nuestro nombre!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-osoroshii-kage",
+    "title": "Sombras sin rostro",
+    "before": [
+     {
+      "text": "En el bosque Karamarine, unas sombras sin nombre bloquean el camino."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-10",
+      "text": "...¿Rostro? ...¿Nombre? ...No los necesitamos."
+     },
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Nosotros también vivimos sin rostro propio. Y no se lo deseo a nadie."
+     },
+     {
+      "who": "gx-inside-silver/nathas-gin",
+      "text": "Si los vencemos, quizá ellos también quieran ser alguien."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-1",
+      "text": "...Inside... Silver. ...Lo recordaremos."
+     },
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Solo nos queda un partido. El que más miedo me da."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-storm-wolf",
+    "title": "Frente al espejo",
+    "before": [
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Vosotros sois los que llevasteis nuestras caras."
+     },
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Sí. Y venimos a pediros perdón... y a jugar contra vosotros siendo nosotros."
+     },
+     {
+      "who": "gx-storm-wolf/maksim-alimatov",
+      "text": "Entonces no os contengáis. Nosotros tampoco lo haremos."
+     },
+     {
+      "who": "gx-inside-silver/colin-gin",
+      "text": "¡Ningún movimiento copiado! ¡Hoy jugamos a lo plateado!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Habéis ganado con vuestro propio fútbol. Perdón aceptado."
+     },
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "¿Lo habéis oído? ¡Hemos ganado siendo Inside Silver!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Por primera vez, un estadio entero corea un nombre plateado."
+   },
+   {
+    "who": "gx-inside-silver/shari-gin",
+    "text": "«¡Inside Silver! ¡Inside Silver!» ¿Lo oís?"
+   },
+   {
+    "who": "gx-inside-silver/ezra-gin",
+    "text": "Ningún disfraz brilla tanto como uno mismo."
+   },
+   {
+    "who": "gx-inside-silver/zane-gin",
+    "text": "¡Y la plata, cuanto más se pule, más brilla!"
+   }
+  ]
+ },
+ "gx-resistance-japan": {
+  "title": "La Resistencia no se rinde",
+  "summary": "Los capitanes que se quedaron fuera de la selección se unen para demostrar que son los mejores de Japón. Su meta final: Earth Eleven.",
+  "intro": [
+   {
+    "who": "gx-resistance-japan/quentin-cinquedea",
+    "text": "Once jugadores desconocidos en la selección... y ni uno solo de nosotros."
+   },
+   {
+    "who": "gx-resistance-japan/cronus-fourseasons",
+    "text": "Capitanes de todo Japón, apartados sin una sola explicación. Con todo respeto, es inaceptable."
+   },
+   {
+    "who": "gx-resistance-japan/bailong",
+    "text": "Entonces formemos nuestro propio equipo. Yo, Bailong, el jugador perfecto, lo haré invencible."
+   },
+   {
+    "who": "gx-resistance-japan/njord-snio",
+    "text": "Lo llamaremos Resistencia Japón. ¡Y demostraremos lo que valemos!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-genei-gakuen",
+    "title": "Ilusiones rotas",
+    "before": [
+     {
+      "who": "go-genei-gakuen/abram-cadabra",
+      "text": "En el Instituto Espejismo nada es lo que parece. ¿Veréis el balón?"
+     },
+     {
+      "who": "gx-resistance-japan/harrold-houdini",
+      "text": "Conozco todos sus trucos. El fuerte manda y el débil se rinde. Hoy, los débiles serán ellos."
+     },
+     {
+      "who": "gx-resistance-japan/doug-mcarthur",
+      "text": "Mientras sea yo quien marque, me da igual la magia. Total, la estrella aquí soy yo."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-genei-gakuen/abram-cadabra",
+      "text": "Nos han descubierto el truco final..."
+     },
+     {
+      "who": "gx-resistance-japan/harrold-houdini",
+      "text": "El mejor truco es jugar en equipo. Ese no lo esperaban."
+     }
+    ]
+   },
+   {
+    "opponent": "go-tengawara",
+    "title": "Prueba de lealtad",
+    "before": [
+     {
+      "who": "gx-resistance-japan/jimmy-kyrk",
+      "text": "Ahora, mi antiguo colegio. Sé que no se dejarán ganar."
+     },
+     {
+      "who": "go-tengawara/lucas-skywalk",
+      "text": "Ooooi, capitán Kyrk... ¿Vienes a lucirte con tus amiguitos? Uy, qué miedo, ¿eh?"
+     },
+     {
+      "who": "gx-resistance-japan/quentin-cinquedea",
+      "text": "Bien. Que se vea de qué pasta está hecha la Resistencia."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-tengawara/lucas-skywalk",
+      "text": "Oi, oi... Este equipo es de otra galaxia, ¿eh?"
+     },
+     {
+      "who": "gx-resistance-japan/jimmy-kyrk",
+      "text": "Gracias, chicos. Os haré sentir orgullosos."
+     }
+    ]
+   },
+   {
+    "opponent": "go-henkaku-no-teikoku",
+    "title": "La humillación del 10-1",
+    "before": [
+     {
+      "who": "go-henkaku-no-teikoku/rex-remington",
+      "text": "¡Eh, vosotros! Le metimos diez goles a la nueva selección. ¡A ver qué sabéis hacer!"
+     },
+     {
+      "who": "gx-resistance-japan/davy-jones",
+      "text": "¡Ja! Esa selección no éramos nosotros. Un Imperial del Cala Pirata no se hunde. ¡Al abordaje!"
+     },
+     {
+      "who": "gx-resistance-japan/iggie-loo",
+      "text": "Defensa firme. Que no pase ni un pingüino."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-henkaku-no-teikoku/rex-remington",
+      "text": "Esto no es un equipo de reserva... es una élite."
+     },
+     {
+      "who": "gx-resistance-japan/bailong",
+      "text": "Ni el equipo que humilló a la selección puede con nosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "go-dragonlink",
+    "title": "El dragón de cinco cabezas",
+    "before": [
+     {
+      "who": "gx-resistance-japan/quentin-cinquedea",
+      "text": "Dragon Link. Mi equipo, el más fuerte del Sector Quinto. Si no los vencemos, nada de esto tiene sentido."
+     },
+     {
+      "who": "go-dragonlink/pentra-chek",
+      "text": "Capitán, si te vas con ellos, te ganaremos para que vuelvas."
+     },
+     {
+      "who": "gx-resistance-japan/aim-quintet",
+      "text": "Lo siento, compañeros. Hoy defiendo otra camiseta."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-dragonlink/pentra-chek",
+      "text": "Ve, capitán. Demuéstrales a todos quiénes somos."
+     },
+     {
+      "who": "gx-resistance-japan/quentin-cinquedea",
+      "text": "Lo haré. Por Dragon Link y por la Resistencia."
+     }
+    ]
+   },
+   {
+    "opponent": "go-seidouzan",
+    "title": "Los dioses del Olimpo",
+    "before": [
+     {
+      "who": "go-seidouzan/theo-divine",
+      "text": "El Colegio Monte Olimpo no cede ante nadie. Ni ante su propio capitán."
+     },
+     {
+      "who": "gx-resistance-japan/cronus-fourseasons",
+      "text": "Me alegra oírlo. Jugad con todo vuestro corazón, como os enseñé."
+     },
+     {
+      "who": "gx-resistance-japan/bay-laurel",
+      "text": "Tantos capitanes juntos... Si no peleamos entre nosotros, nadie podrá pararnos."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-seidouzan/theo-divine",
+      "text": "Ni los dioses pueden con esta Resistencia."
+     },
+     {
+      "who": "gx-resistance-japan/cronus-fourseasons",
+      "text": "Mente, cuerpo y técnica. Todo en su sitio."
+     },
+     {
+      "who": "gx-resistance-japan/bailong",
+      "text": "Solo queda un rival. El que nos quitó el sitio."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "Resistencia contra Tierra",
+    "before": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¿Bailong? ¿Quentin? ¿Sois vosotros nuestro rival?"
+     },
+     {
+      "who": "gx-resistance-japan/quentin-cinquedea",
+      "text": "Queremos saber si de verdad merecéis representar a Japón."
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Este equipo no es lo que parece. Os sorprenderá."
+     },
+     {
+      "who": "gx-resistance-japan/bailong",
+      "text": "Más os vale. No pienso contenerme."
+     },
+     {
+      "who": "gx-resistance-japan/njord-snio",
+      "text": "¡Arion, demuéstrame que esa camiseta es tuya!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Ha sido el partido más duro de mi vida! ¡Gracias, de verdad!"
+     },
+     {
+      "who": "gx-resistance-japan/quentin-cinquedea",
+      "text": "Habéis perdido... pero hemos aprendido algo. Ese equipo tiene corazón."
+     },
+     {
+      "who": "gx-resistance-japan/bailong",
+      "text": "Hmpf. Id y ganad. Si no, volveremos a por vuestras camisetas."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Resistencia Japón ha vencido a todos. Pero, al final, ha decidido apoyar a la selección."
+   },
+   {
+    "who": "gx-resistance-japan/njord-snio",
+    "text": "¿Seguro que no queremos esas camisetas?"
+   },
+   {
+    "who": "gx-resistance-japan/quentin-cinquedea",
+    "text": "Las camisetas no importan. Japón sabe ya quiénes somos."
+   },
+   {
+    "who": "gx-resistance-japan/doug-mcarthur",
+    "text": "Y si pierden, la Resistencia estará lista para salir al campo. Conmigo de goleador, claro."
+   },
+   {
+    "who": "gx-resistance-japan/bailong",
+    "text": "¡La Resistencia nunca se rinde!"
+   }
+  ]
+ },
+ "gx-osoroshii-kage": {
+  "title": "Las sombras del bosque",
+  "summary": "Once sombras sin nombre del bosque Karamarine salen a buscar la oscuridad más profunda del fútbol... y quizá algo de luz propia.",
+  "intro": [
+   {
+    "text": "En lo más profundo del bosque Karamarine, nadie sabe cuántas sombras hay. Solo que juegan al fútbol."
+   },
+   {
+    "who": "gx-osoroshii-kage/osoroshii-kage-1",
+    "text": "...Nadie entra aquí. ...Nadie nos recuerda."
+   },
+   {
+    "who": "gx-osoroshii-kage/osoroshii-kage-10",
+    "text": "...Afuera hay otros como nosotros. Oscuros. Fuertes."
+   },
+   {
+    "who": "gx-osoroshii-kage/osoroshii-kage-11",
+    "text": "...Iremos a buscarlos. ...Y nos haremos más grandes que la noche."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-ancient-dark",
+    "title": "La oscuridad ancestral",
+    "before": [
+     {
+      "who": "go-ancient-dark/tezcat",
+      "text": "La Oscuridad Ancestral es antigua como el tiempo. Vosotros sois críos."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-8",
+      "text": "...La sombra no tiene edad."
+     },
+     {
+      "who": "go-ancient-dark/nero-night",
+      "text": "Os engulliremos en nuestra negrura."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-ancient-dark/tezcat",
+      "text": "Imposible... Hay oscuridad más profunda que la nuestra."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-3",
+      "text": "...Más profunda. ...Pero no más grande. Aún."
+     }
+    ]
+   },
+   {
+    "opponent": "go-genei-gakuen",
+    "title": "Trucos de espejos",
+    "before": [
+     {
+      "who": "go-genei-gakuen/abram-cadabra",
+      "text": "¿Sombras que hablan? Eso sí que es un buen truco."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-6",
+      "text": "...No es truco. ...Somos así."
+     },
+     {
+      "who": "go-genei-gakuen/harrold-houdini",
+      "text": "Sus movimientos no se ven venir... Interesante."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-genei-gakuen/abram-cadabra",
+      "text": "¡Ni nuestra magia podía tocarles!"
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-10",
+      "text": "...Ilusión. ...Nada más que ilusión."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "Maldiciones en la penumbra",
+    "before": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "El Instituto Occult no teme a las sombras. ¡Nosotros las invocamos!"
+     },
+     {
+      "who": "ie1-occult/burt-wolf",
+      "text": "¡Grrr! ¡A medianoche soy aún más fuerte!"
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-7",
+      "text": "...Vuestras maldiciones nos hacen cosquillas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "No... Sus sombras se han tragado nuestra maldición."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-1",
+      "text": "...Seguimos. ...Hay algo más oscuro."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-vamptym",
+    "title": "Hijos de la noche",
+    "before": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "¿Quién osa caminar por mi noche sin permiso?"
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-9",
+      "text": "...La noche no es de nadie."
+     },
+     {
+      "who": "cs-vamptym/porphyria-filia",
+      "text": "Qué descaro. Son sombras, ni siquiera tienen sangre."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Ni mis colmillos alcanzan lo que no tiene forma..."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-11",
+      "text": "...Uno más. ...El último. El rey de la oscuridad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-makai-gundan-z",
+    "title": "El ejército del inframundo",
+    "before": [
+     {
+      "text": "Al final del camino espera el equipo más temible del abismo: el Dark Team."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "¿Unas sombras quieren reinar en la oscuridad? ¡Ja! Devoraré vuestras almas... si es que tenéis."
+     },
+     {
+      "who": "ie3-makai-gundan-z/astaroth",
+      "text": "Ningún tiro atraviesa mis manos. Ni siquiera el de una sombra."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-10",
+      "text": "...Desaparecer ya sabemos. ...Hoy queremos existir."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Imposible... ¡Unas simples sombras han vencido al Dark Team! ¡El Señor Oscuro no lo perdonará!"
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-1",
+      "text": "...Hemos ganado. ...Y algo extraño ha pasado. Brillamos un poco."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Las once sombras vuelven al bosque Karamarine. Pero ya no se esconden tanto."
+   },
+   {
+    "who": "gx-osoroshii-kage/osoroshii-kage-5",
+    "text": "...Ahora nos recuerdan. ...En todas partes."
+   },
+   {
+    "who": "gx-osoroshii-kage/osoroshii-kage-10",
+    "text": "...Toda sombra existe porque hay luz. ...Nosotros la hemos encontrado jugando."
+   },
+   {
+    "who": "gx-osoroshii-kage/osoroshii-kage-11",
+    "text": "...Sombras Terribles. ...Ese es nuestro nombre."
+   }
+  ]
+ },
+ "gx-sandorius-eleven": {
+  "title": "El honor de la arena",
+  "summary": "¿Y si Los Sílice rechazaran desde el principio la ayuda de Falam Orbius? K'aran guía a su planeta del desierto por el Gran Celesta Galaxy jugando limpio.",
+  "intro": [
+   {
+    "text": "Sílice, un planeta de desierto y gravedad aplastante. Si pierde en el Gran Celesta Galaxy, será destruido."
+   },
+   {
+    "who": "gx-faram-dite/ogar-circes",
+    "text": "Dejadme jugar con vosotros. Con mis métodos, arrasaremos como una tormenta de arena."
+   },
+   {
+    "who": "gx-sandorius-eleven/k-aran-uogu",
+    "text": "No. Ganaremos con nuestro propio fútbol o no ganaremos."
+   },
+   {
+    "who": "gx-sandorius-eleven/b-adaen",
+    "text": "El capitán tiene razón. Sin orgullo, ¿qué planeta estaríamos salvando?"
+   },
+   {
+    "who": "gx-sandorius-eleven/k-aran-uogu",
+    "text": "Sílice, en pie. ¡Que la arena juegue a nuestro favor!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-shamshir",
+    "title": "Hermanos de arena",
+    "before": [
+     {
+      "text": "Antes del torneo, Ozrock organiza un amistoso con un equipo terrícola del desierto: Shamshir."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Un planeta entero de arena... ¡Me siento como en casa!"
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Jugaremos limpio. Espero lo mismo de vosotros."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Lo prometo. Ya aprendimos la lección. ¡Gran tormenta de arena!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-shamshir/said",
+      "text": "Vuestra gravedad es brutal... pero ha sido un gran partido."
+     },
+     {
+      "who": "gx-sandorius-eleven/zundar-zand",
+      "text": "Buen comienzo, chicos. La arena está de nuestro lado."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sazanaara-eleven",
+    "title": "Agua en el desierto",
+    "before": [
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¡Qué azur tan limpito, K'aran! Plink os va a leer como un libro abierto."
+     },
+     {
+      "who": "gx-sandorius-eleven/a-tac",
+      "text": "¡Nos ven venir! ¡Cada pase lo cortan!"
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Que nos lean. Un corazón honesto no tiene trucos que esconder... ni miedo."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Plink sabía lo que haríais... ¡y aun así no pudo pararos! ¡Qué rabia!"
+     },
+     {
+      "who": "gx-sandorius-eleven/b-adaen",
+      "text": "¡Mi portería sigue firme como una duna!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "El juramento de K'aran",
+    "before": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "K'aran, jugaremos con todo. Aunque sepamos lo que está en juego."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Es lo que pido. Una victoria regalada no salvaría a nadie."
+     },
+     {
+      "who": "gx-earth-eleven/trina-verdure",
+      "text": "La gravedad aquí... ¡es como correr con mochila de piedras!"
+     },
+     {
+      "who": "gx-sandorius-eleven/s-harqiyah",
+      "text": "Para nosotros es lo normal. ¡Bienvenidos a Sílice!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "Habéis jugado limpio de principio a fin. Nunca lo olvidaré."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Y vosotros también. Ahora entiendo por qué la Tierra os eligió."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ratoniik-eleven",
+    "title": "La vida breve de Fertilia",
+    "before": [
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Hola! ¡Solo tengo un mes de vida, así que juguemos con todo!"
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Banda... Entonces cada minuto de este partido es un regalo."
+     },
+     {
+      "who": "gx-sandorius-eleven/g-ob",
+      "text": "¡Ese equipo de insectos se mueve rapidísimo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Qué divertido! ¡He brillado muchísimo! Gracias, Sílice."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Jugaste como nadie, Banda. Te recordaremos en cada tormenta."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-faram-dite",
+    "title": "La final de Falam Orbius",
+    "before": [
+     {
+      "who": "gx-faram-dite/ogar-circes",
+      "text": "Rechazasteis mi ayuda. Qué ironía: ahora caeré sobre vosotros como un tsunami."
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Ningún planeta pequeño derrotará a Falam Medius."
+     },
+     {
+      "who": "gx-sandorius-eleven/b-adaen",
+      "text": "Capitán... si perdemos, Sílice desaparece."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Entonces no perderemos. ¡Por cada grano de arena de nuestro hogar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-faram-dite/ogar-circes",
+      "text": "Imposible... ¿El honor era más fuerte que mis métodos? Esto es como un terremoto en mi pecho."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "¡Lo hemos conseguido! ¡Sílice vivirá!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Sílice ganan el Gran Celesta Galaxy sin una sola falta sucia."
+   },
+   {
+    "who": "gx-sandorius-eleven/k-aran-uogu",
+    "text": "Pediremos que ningún planeta sea destruido. Ese será nuestro premio."
+   },
+   {
+    "who": "gx-sandorius-eleven/zundar-zand",
+    "text": "Un capitán que convierte la victoria en un regalo para todos..."
+   },
+   {
+    "who": "gx-sandorius-eleven/b-adaen",
+    "text": "¡Sílice, el planeta del honor!"
+   }
+  ]
+ },
+ "gx-sazanaara-eleven": {
+  "title": "Corazones transparentes",
+  "summary": "Los Naiadi pueden ver el azur de los demás. Plink Powai buscará rivales con corazones oscuros, ocultos o imposibles de leer, y descubrirá el suyo propio.",
+  "intro": [
+   {
+    "text": "Naiadi, el planeta del agua. Sus habitantes leen el azur: el color del corazón de cada persona."
+   },
+   {
+    "who": "gx-sazanaara-eleven/plink-powai",
+    "text": "¡Leer corazones es lo más! Plink sabe lo que hará el rival antes que él. ¡Somos invencibles!"
+   },
+   {
+    "who": "gx-sazanaara-eleven/van-tarel",
+    "text": "Pero ¿y si un día encontramos un corazón que no podamos leer?"
+   },
+   {
+    "who": "gx-sazanaara-eleven/plink-powai",
+    "text": "¿Un corazón que no podamos leer? ¡Qué emoción! ¡Plink quiere encontrarlo ya!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-mikage-sennou-ares",
+    "title": "Mentes controladas",
+    "before": [
+     {
+      "who": "ares-mikage-sennou-ares/gideon-poe",
+      "text": "El Instituto Brain calcula cada movimiento. Vuestra intuición no sirve."
+     },
+     {
+      "who": "gx-sazanaara-eleven/squalcha",
+      "text": "Su azur es... gris. Como si alguien lo hubiera apagado."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Qué azur tan soso... ¡Plink se lo despertará a balonazos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-mikage-sennou-ares/gideon-poe",
+      "text": "Mis datos no contemplaban... esto. ¿Qué es esta sensación?"
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¡Su azur ha recuperado color! ¡Qué bonito!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-osoroshii-kage",
+    "title": "Sombras sin azur",
+    "before": [
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-1",
+      "text": "...Leed. ...Si podéis."
+     },
+     {
+      "who": "gx-sazanaara-eleven/tinkel-urmia",
+      "text": "¡No veo nada! ¡Es como mirar al fondo del océano de noche!"
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¿No hay azur que leer? Pues Plink se fiará del suyo propio. ¡A jugar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-10",
+      "text": "...Os habéis movido sin leernos. ...Interesante."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plip-batur",
+      "text": "Al final he visto una lucecita en su sombra. ¡Tenían azur!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sandorius-eleven",
+    "title": "Honestidad de arena",
+    "before": [
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Leed mi corazón si queréis. No tengo nada que ocultar."
+     },
+     {
+      "who": "gx-sazanaara-eleven/van-tarel",
+      "text": "Su azur es claro como el agua... ¡Pero muy fuerte!"
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Plink ya sabe lo que harán... ¡pero no sabe cómo pararlo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Una victoria merecida. Vuestro fútbol fluye como un río."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Tu azur es precioso, K'aran... Plink no se cansaría nunca de mirarlo."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "El azur de Falco",
+    "before": [
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Falco Flashman. Tu azur es oscuro y retorcido. Plink quiere saber por qué... ¡y romperlo un poquito!"
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "¿Otra vez con eso? Déjame en paz."
+     },
+     {
+      "who": "gx-earth-eleven/keenan-sharpe",
+      "text": "Si nos leen la mente, jugaremos sin pensar. ¡Improvisad todos!"
+     },
+     {
+      "who": "gx-sazanaara-eleven/sploosh-saroma",
+      "text": "¡No entiendo nada! ¡Sus corazones dan volteretas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "Me traicionaron de pequeño. Por eso no confiaba en nadie. Ahora... es distinto."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Plink ya lo sabe. Tu azur ha cambiado. Ya no hay oscuridad, solo cicatrices."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-faram-dite",
+    "title": "El corazón de Rondula",
+    "before": [
+     {
+      "who": "gx-faram-dite/rondula-flehl",
+      "text": "Las flores más bellas se cortan en cuanto se marchitan. Igual que vosotros, si dejáis de servirme."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Rondula... A Plink le dolió mucho tu pelo. Tu azur es negro como una tormenta."
+     },
+     {
+      "who": "gx-faram-dite/rondula-flehl",
+      "text": "¿Y qué? Falam Orbius debe florecer eternamente, cueste lo que cueste."
+     },
+     {
+      "who": "gx-sazanaara-eleven/porco-umir",
+      "text": "Esta vez no jugamos para nadie más. ¡Por Naiadi!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-faram-dite/rondula-flehl",
+      "text": "¿Por qué... os veo el azur? Yo no sé leer corazones..."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Porque esta vez hemos jugado con el corazón abierto. ¡Hasta tú lo has sentido! Plink lo sabe."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Plink Powai mira el reflejo del agua. Por primera vez, intenta leer su propio azur."
+   },
+   {
+    "who": "gx-sazanaara-eleven/plink-powai",
+    "text": "El azur de Plink... es azul, y tiembla un poco. ¡Hala! ¿Esto es estar viva?"
+   },
+   {
+    "who": "gx-sazanaara-eleven/van-tarel",
+    "text": "No hace falta leer corazones para saber que somos un equipo."
+   },
+   {
+    "who": "gx-sazanaara-eleven/plink-powai",
+    "text": "¡Los Naiadi, corazones transparentes como el agua!"
+   }
+  ]
+ },
+ "gx-gurdon-eleven": {
+  "title": "Máquinas y volcanes",
+  "summary": "Aoba Gyr renunció a sus alas por las máquinas. Para unir a su planeta dividido, Los Magmavís desafiarán a robots e inteligencias artificiales... y a su propio orgullo.",
+  "intro": [
+   {
+    "text": "Magmavís, el planeta del fuego, está dividido entre los mecanicistas y quienes rechazan las máquinas."
+   },
+   {
+    "who": "gx-gurdon-eleven/aoba-gyr",
+    "text": "Cambié mis alas por estas manos mecánicas. Los Mecanicistas somos la evolución definitiva. Con mi visor, nada se me escapa."
+   },
+   {
+    "who": "gx-gurdon-eleven/vesuvian",
+    "text": "Los del este dicen que hemos perdido el alma del planeta, capitán."
+   },
+   {
+    "who": "gx-gurdon-eleven/aoba-gyr",
+    "text": "Les demostraré que se equivocan. Venceremos a las mejores máquinas del universo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "Inteligencia artificial",
+    "before": [
+     {
+      "who": "vr-ai-gakuen/eugenio-provost",
+      "text": "La Academia IA ha calculado vuestra derrota con un 98 % de probabilidad."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Mi visor también calcula. Veamos qué máquina es mejor."
+     },
+     {
+      "who": "gx-gurdon-eleven/nyira",
+      "text": "¡Que hable el fuego! ¡Lecho de lava!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/eugenio-provost",
+      "text": "Error... Variable no prevista: pasión."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Interesante. Mi visor tampoco la había medido."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Futboloides",
+    "before": [
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "OBJETIVO: ELIMINAR EQUIPO RIVAL. INICIANDO PROTOCOLO."
+     },
+     {
+      "who": "gx-gurdon-eleven/cotopax",
+      "text": "¡Juegan como máquinas perfectas! ¡No fallan ni un pase!"
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Perfectos, sí. Pero no saben improvisar."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "SISTEMA... SOBRECALENTADO. DERROTA REGISTRADA."
+     },
+     {
+      "who": "gx-gurdon-eleven/etna",
+      "text": "¡El calor de nuestros volcanes les ha fundido los circuitos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "Guardias de acero",
+    "before": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "INTRUSOS DETECTADOS. LOS ROBOTS GUARDIAS NO PERMITEN EL PASO."
+     },
+     {
+      "who": "gx-gurdon-eleven/mayon",
+      "text": "Son enormes... y no se cansan nunca."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Mi visor dice que no podemos ganar. Y aun así... quiero hacerlo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "ERROR... ERROR... RIVAL SUPERIOR."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Hemos ganado aunque mis datos decían lo contrario. ¿Qué significa esto?"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "El tótem del dragón",
+    "before": [
+     {
+      "who": "gx-earth-eleven/frank-foreman",
+      "text": "Este calor es como un combate a quince asaltos. Aguantaré."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Earth Eleven. Mi visor ya ha analizado todos vuestros tiros. No necesitamos tótems para ganaros."
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Los datos describen el pasado. Nosotros jugamos el presente."
+     },
+     {
+      "who": "gx-faram-dite/bala-gasgula",
+      "text": "Je, je... Y si el visor falla, mis trampas de magma harán el resto."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "¡No! ¡Este partido es nuestro, Bala! ¡Sin trampas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Ha despertado mi tótem: ¡el dragón Gorius! No venía de ninguna máquina."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Tu Coletazo del dragón nos salvó de las bolas de magma! ¡Gracias!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-faram-dite",
+    "title": "Las alas recuperadas",
+    "before": [
+     {
+      "who": "gx-faram-dite/bala-gasgula",
+      "text": "Me echasteis del partido. Ahora os aplastaré con Falam Medius."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Mecanicistas y antimáquinas, juntos en la grada... Por ellos jugaremos."
+     },
+     {
+      "who": "gx-gurdon-eleven/caldera-dorne",
+      "text": "Máquinas y alma unidas. ¡Así es Magmavís!"
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Un planeta dividido no puede vencer a Falam Orbius."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-faram-dite/bala-gasgula",
+      "text": "¡Mis trampas no han servido de nada! Grrr..."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Hoy he volado sin alas. Con el corazón de todo mi planeta."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Por primera vez en siglos, el este y el oeste de Magmavís celebran juntos."
+   },
+   {
+    "who": "gx-gurdon-eleven/aoba-gyr",
+    "text": "Las máquinas nos hacen fuertes. Pero el alma nos hace invencibles."
+   },
+   {
+    "who": "gx-gurdon-eleven/vesuvian",
+    "text": "Capitán, los del este quieren jugar un partido con nosotros."
+   },
+   {
+    "who": "gx-gurdon-eleven/aoba-gyr",
+    "text": "Pues que vengan. ¡Los Magmavís arden en una sola llama!"
+   }
+  ]
+ },
+ "gx-ratoniik-eleven": {
+  "title": "Un mes para brillar",
+  "summary": "En Fertilia la vida dura apenas un mes. Banda quiere que su único partido sea inolvidable, y su hijo heredará ese sueño hasta el final del torneo.",
+  "intro": [
+   {
+    "text": "Fertilia, un planeta exuberante donde sus habitantes, parecidos a insectos, viven alrededor de un mes."
+   },
+   {
+    "who": "gx-ratoniik-eleven/banda-crix",
+    "text": "¡Un mes da para muchísimo! ¡Quiero jugar, reír y brillar como nadie!"
+   },
+   {
+    "who": "gx-ratoniik-eleven/lucan",
+    "text": "Banda, no te emociones. Los torneos son cosa seria."
+   },
+   {
+    "who": "gx-ratoniik-eleven/banda-crix",
+    "text": "¡Por eso! Cada partido podría ser el último. ¡Hay que disfrutarlo!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "La selva amiga",
+    "before": [
+     {
+      "who": "ie1-nose/leonard-o-shea",
+      "text": "¿Bichos que juegan al fútbol? ¡Bienvenidos a la selva!"
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Qué lugar tan bonito! ¡Se parece a casa!"
+     },
+     {
+      "who": "gx-ratoniik-eleven/vespa",
+      "text": "¡A zumbar! Mi Taconazo parkour pica más que un aguijón."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/bruce-monkey",
+      "text": "¡U-a-a! ¡Qué rápidos!"
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Ganar es genial! ¡Quiero hacerlo otra vez!"
+     }
+    ]
+   },
+   {
+    "opponent": "go-aoba-gakuen",
+    "title": "Jardín de enredaderas",
+    "before": [
+     {
+      "who": "go-aoba-gakuen/clem-attish",
+      "text": "El Colegio Ultramegahiedra os atrapará como una enredadera."
+     },
+     {
+      "who": "gx-ratoniik-eleven/theraphos-tranchla",
+      "text": "¿Telarañas contra hiedra? Me gusta. ¡Aguijón letal!"
+     },
+     {
+      "who": "gx-ratoniik-eleven/elater-clicka",
+      "text": "¡Vamos, Banda! ¡Que se vea de qué es capaz Fertilia!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-aoba-gakuen/clem-attish",
+      "text": "Nuestra hiedra se ha marchitado ante su energía..."
+     },
+     {
+      "text": "Tras el partido, Elater se apaga en silencio. Su mes ha llegado a su fin. El equipo guarda un minuto de silencio."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-gurdon-eleven",
+    "title": "Fuego y alas",
+    "before": [
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Fertilia, ¿eh? Mi visor dice que os quedan pocas fuerzas."
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Puede! ¡Pero las gastaré todas aquí!"
+     },
+     {
+      "who": "gx-ratoniik-eleven/lucan",
+      "text": "Por Elater. Jugaremos por él."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Vuestra voluntad no cabía en mis datos."
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "Mañana jugamos contra la Tierra. Creo que será mi último partido."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "El último partido de Banda",
+    "before": [
+     {
+      "who": "gx-earth-eleven/buddy-fury",
+      "text": "Banda... ¿por qué sonríes si sabes que...?"
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Porque estoy jugando al fútbol! ¡No te contengas, Buddy!"
+     },
+     {
+      "who": "gx-faram-dite/ruger-baran",
+      "text": "Los hermanos Baran nos encargamos de que ganéis. Tú, quieto, bicho. ¡Más vale pájaro en mano que mosca volando!"
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡No! ¡Este partido es mío! ¡Presa de zarcillo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "He brillado... ¿verdad? Gracias por jugar conmigo, Buddy..."
+     },
+     {
+      "who": "gx-earth-eleven/buddy-fury",
+      "text": "Banda... ¡Banda! Has sido el mejor rival que he tenido."
+     },
+     {
+      "text": "Banda se apaga con una sonrisa. Pero su hijo, Banda Crix Jr., ya ha nacido para continuar su sueño."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ixal-fleet",
+    "title": "El legado de Banda",
+    "before": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Un insecto recién nacido quiere desafiarme. Qué patético."
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix-junior",
+      "text": "Soy el hijo de Banda. Mi padre me dejó un sueño: ¡brillar en el campo!"
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Marca del Berserker! Que vuestro equipo se destruya solo."
+     },
+     {
+      "who": "gx-ratoniik-eleven/lucan",
+      "text": "¡Aguantad! ¡Por Banda, por Elater, por todos los que vinieron antes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¿Cómo...? ¿Unas vidas tan cortas tienen tanta fuerza?"
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix-junior",
+      "text": "¡Porque cada segundo cuenta! ¡Papá, lo hemos logrado!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "En Fertilia, una nueva generación sale a jugar cada mes. Todos conocen la historia de Banda."
+   },
+   {
+    "who": "gx-ratoniik-eleven/banda-crix-junior",
+    "text": "Mi padre solo tuvo un partido. Yo jugaré todos los que pueda por los dos."
+   },
+   {
+    "who": "gx-ratoniik-eleven/lucan",
+    "text": "Una vida corta puede brillar más que mil estrellas."
+   },
+   {
+    "who": "gx-ratoniik-eleven/banda-crix-junior",
+    "text": "¡Los Fertilia! ¡Un mes para brillar, toda la vida para recordar!"
+   }
+  ]
+ },
+ "gx-faram-dite": {
+  "title": "La corona de Falam Orbius",
+  "summary": "Un agujero negro amenaza Falam Orbius. Falam Medius y sus Cuatro Generales recorren el torneo para conquistar un nuevo hogar... hasta descubrir quién es su verdadero enemigo.",
+  "intro": [
+   {
+    "text": "Falam Orbius, el planeta más poderoso de la galaxia. Un agujero negro lo devorará muy pronto."
+   },
+   {
+    "name": "Roleia Orbes",
+    "text": "Mi pueblo necesita un nuevo hogar. ¡Quiero que todos vuelvan a sonreír! El Gran Celesta Galaxy nos lo dará."
+   },
+   {
+    "who": "gx-faram-dite/argon-bulgess",
+    "text": "Majestad, soy el guardián de Falam Medius. Ningún rival marcará en mi portería."
+   },
+   {
+    "who": "gx-faram-dite/ogar-circes",
+    "text": "Y los Cuatro Generales caeremos sobre los rivales como una avalancha. Ninguno quedará en pie."
+   },
+   {
+    "name": "Roleia Orbes",
+    "text": "Ganad. Pero... ¿de verdad es necesario destruir otros planetas?"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-sandorius-eleven",
+    "title": "Arena bajo la bota",
+    "before": [
+     {
+      "who": "gx-faram-dite/ogar-circes",
+      "text": "Sílice. Un planeta de arena. Os barreremos como un huracán barre las dunas."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Podéis tener más poder, pero no tendréis nuestro orgullo."
+     },
+     {
+      "who": "gx-faram-dite/radon-mons",
+      "text": "El orgullo no evita los goles."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Perdemos con honor. Recordadlo cuando ganéis."
+     },
+     {
+      "who": "gx-faram-dite/ogar-circes",
+      "text": "Hmpf. Palabras de perdedor... Entonces, ¿por qué me escuecen como un rayo en el pecho?"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sazanaara-eleven",
+    "title": "El azur de los conquistadores",
+    "before": [
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¡Uy! Vuestro azur tiembla de miedo. Plink lo ve clarito: teméis perder vuestro hogar."
+     },
+     {
+      "who": "gx-faram-dite/rondula-flehl",
+      "text": "No necesito lecciones de una renacuaja que juega a leer corazones. Mi belleza no se lee: se contempla."
+     },
+     {
+      "who": "gx-faram-dite/selenia",
+      "text": "Rondula, céntrate. Nos leen cada movimiento."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Miedo... y también mucho amor por vuestro planeta. Plink lo ha visto todo."
+     },
+     {
+      "who": "gx-faram-dite/rondula-flehl",
+      "text": "...Calla, niña. Y... gracias."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-gurdon-eleven",
+    "title": "Volcán dividido",
+    "before": [
+     {
+      "who": "gx-faram-dite/bala-gasgula",
+      "text": "Magmavís está dividido. Un planeta así cae solo."
+     },
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Hoy mecanicistas y antimáquinas jugamos juntos. No caeremos."
+     },
+     {
+      "who": "gx-faram-dite/brimstone",
+      "text": "¡Su calor es tremendo! ¡No dejéis que nos encierren!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Os habéis ganado la victoria. Pero no os ganaréis Magmavís."
+     },
+     {
+      "who": "gx-faram-dite/bala-gasgula",
+      "text": "Unidos... Nosotros nunca lo estuvimos tanto."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ratoniik-eleven",
+    "title": "Una vida tan corta",
+    "before": [
+     {
+      "who": "gx-faram-dite/ruger-baran",
+      "text": "Hermano, estos insectos solo viven un mes. Como dice el refrán: no hay mal que por un mes no dure."
+     },
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Por eso juego con todo! ¡Mi mes vale tanto como vuestros siglos!"
+     },
+     {
+      "who": "gx-faram-dite/gandares-baran",
+      "text": "Hermano, ¿por qué ese bicho sonríe tanto? Tú que eres listísimo lo sabrás."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-ratoniik-eleven/banda-crix",
+      "text": "¡Ha sido el mejor día de mi vida! ¡Gracias!"
+     },
+     {
+      "who": "gx-faram-dite/ruger-baran",
+      "text": "Hemos ganado... pero me siento como pez fuera del volcán."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "La gran final",
+    "before": [
+     {
+      "who": "gx-faram-dite/ray-dark",
+      "text": "Desde hoy entreno a Falam Medius. Quiero ver hasta dónde llega Earth Eleven. Nada más."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Ray Dark! ¿Por qué estás con ellos?"
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "La energía de este choque salvará mi planeta. ¡A por todas!"
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Pues no os lo pondremos fácil. ¡Earth Eleven, adelante!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "Habéis jugado con el corazón. Así, nadie tendría que perder su planeta."
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "¿Y si el torneo era una trampa? La energía... alguien la está robando."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Exacto. Gracias por llenar mi cañón. Ahora, Falam Orbius pagará."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ixal-fleet",
+    "title": "El verdadero enemigo",
+    "before": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Hace doscientos años destruisteis Ixar. Hoy os devolveré el favor."
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "¿Doscientos años...? Ninguno de nosotros había nacido."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Me da igual! ¡Marca del Berserker!"
+     },
+     {
+      "who": "gx-faram-dite/ogar-circes",
+      "text": "¡Generales, a defender el planeta! ¡Rugiremos como un terremoto, esta vez sin trampas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "No... ¿Falam Orbius jugando limpio? Esto no es lo que yo recordaba."
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "No podemos borrar el pasado. Pero podemos elegir otro futuro."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "Roleia Orbes",
+    "text": "¡Usaremos el Cañón de Plasma Cósmico para borrar el agujero negro, no para conquistar! Así todos sonreirán."
+   },
+   {
+    "who": "gx-faram-dite/argon-bulgess",
+    "text": "Y ningún planeta será destruido. Esa es la orden de nuestra reina."
+   },
+   {
+    "who": "gx-faram-dite/rondula-flehl",
+    "text": "Quién iba a decir que una rosa sin espinas brillaría todavía más."
+   },
+   {
+    "who": "gx-faram-dite/ray-dark",
+    "text": "Hmpf. Ahora sí. Habéis jugado como un equipo de verdad."
+   }
+  ]
+ },
+ "gx-ixal-fleet": {
+  "title": "Doscientos años de sueño",
+  "summary": "Los once supervivientes de Ixar despiertan con un solo deseo: vengarse de Falam Orbius. Pero el último rival les obligará a mirar más allá del rencor.",
+  "intro": [
+   {
+    "text": "Hace doscientos años, Falam Orbius arrasó el planeta Ixar. 184 supervivientes huyeron en un sueño frío."
+   },
+   {
+    "who": "gx-ixal-fleet/ozrock-boldar",
+    "text": "Solo once despertamos. Once... suficientes para un equipo de fútbol."
+   },
+   {
+    "who": "gx-ixal-fleet/meteo-garnet",
+    "text": "Hemos preparado el torneo, el cañón y los peones. Todo está listo, Ozrock."
+   },
+   {
+    "who": "gx-ixal-fleet/ozrock-boldar",
+    "text": "La Flota Ixar zarpa hacia la venganza. ¡Que tiemble la galaxia!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-inside-silver",
+    "title": "Peones de plata",
+    "before": [
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Nos usaste como disfraz y luego nos olvidaste, Ozrock."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Un peón no se queja. Un peón obedece."
+     },
+     {
+      "who": "gx-inside-silver/colin-gin",
+      "text": "¡Pues este peón se rebela!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-inside-silver/ezra-gin",
+      "text": "Algún día alguien te parará, Ozrock."
+     },
+     {
+      "who": "gx-ixal-fleet/despina",
+      "text": "Aún tienen agallas. Ozrock, ¿seguimos?"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sandorius-eleven",
+    "title": "Ensayo en la arena",
+    "before": [
+     {
+      "who": "gx-ixal-fleet/meteo-garnet",
+      "text": "Necesitamos energía vital para el cañón. Que los equipos choquen con fuerza."
+     },
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "¿Venís a jugar o a robar? Vuestros ojos dan miedo."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Las dos cosas. Mostradnos vuestra pasión."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sandorius-eleven/k-aran-uogu",
+      "text": "Jugáis con una rabia que no es fútbol..."
+     },
+     {
+      "who": "gx-ixal-fleet/tarvos-boson",
+      "text": "La energía sube. Todo va según el plan."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-gurdon-eleven",
+    "title": "Fuego del rencor",
+    "before": [
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "Mi visor detecta algo raro en vosotros. Una oscuridad enorme."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Se llama rencor. Doscientos años de rencor."
+     },
+     {
+      "who": "gx-ixal-fleet/loge-colles",
+      "text": "Que su lava no os distraiga. Seguid el plan."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-gurdon-eleven/aoba-gyr",
+      "text": "El rencor quema más que cualquier volcán... Tened cuidado."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Cuidado debería tener Falam Orbius."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "El estorbo terrícola",
+    "before": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Ozrock! ¡No vamos a dejar que uses el cañón para conquistar la galaxia!"
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Niños de la Tierra... Os traje hasta aquí y ahora me estorbáis."
+     },
+     {
+      "who": "gx-earth-eleven/falco-flashman",
+      "text": "Ya, bueno. No somos muy obedientes."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Ixaal, mi tótem! ¡Cañón Ixaal!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡La venganza no te devolverá Ixar, Ozrock!"
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Silencio! Solo me queda un paso. Falam Orbius."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-faram-dite",
+    "title": "Ajuste de cuentas",
+    "before": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Falam Medius. Por fin. Hoy pagaréis por lo que hicisteis."
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Lo que hicieron nuestros antepasados fue terrible. Pero nosotros no somos ellos."
+     },
+     {
+      "who": "gx-ixal-fleet/meteo-garnet",
+      "text": "¡No le escuches, Ozrock! ¡Hemos esperado demasiado!"
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Marca del Berserker! ¡Que os destruyáis entre vosotros!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Hemos perdido. Haz lo que quieras... pero deja en paz a mi pueblo."
+     },
+     {
+      "text": "Entonces, una luz morada aparece en el estadio. El espíritu del antiguo rey de Falam Orbius."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-supernova",
+    "title": "El rey del pasado",
+    "before": [
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Soy Arculus Orbes, rey de Falam Orbius. Si alguien debe pagar, que sea yo."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡El hijo de Ireid! ¡Por fin tengo delante a la sangre de quien destruyó mi hogar!"
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Mi padre fue cruel. Yo luché contra él. Juega contra mí y decide después."
+     },
+     {
+      "who": "gx-ixal-fleet/meteo-garnet",
+      "text": "Su equipo es descomunal... ¡Supernova es otro nivel!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Has ganado, Ozrock. ¿Y ahora? ¿Te sientes en paz?"
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "...No. No siento nada. Doscientos años... y la venganza está vacía."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "gx-supernova/arculus-orbes",
+    "text": "Ixar ya no existe. Pero sus once hijos pueden construir algo nuevo."
+   },
+   {
+    "name": "Roleia Orbes",
+    "text": "Falam Orbius os ofrece un hogar. No como súbditos, sino como vecinos."
+   },
+   {
+    "who": "gx-ixal-fleet/meteo-garnet",
+    "text": "Ozrock... ¿qué hacemos?"
+   },
+   {
+    "who": "gx-ixal-fleet/ozrock-boldar",
+    "text": "Por primera vez en doscientos años... descansar. Y quizá jugar sin odio."
+   }
+  ]
+ },
+ "gx-big-bang": {
+  "title": "El caballero legendario",
+  "summary": "Circulus, el caballero legendario de Nomor, reúne a sus antiguos compañeros en la Galaxia Perdida para cumplir la promesa que le hizo a la princesa Catora.",
+  "intro": [
+   {
+    "text": "Galaxia Perdida. Allí descansan los recuerdos de Nomor, el planeta que se tragó un agujero negro."
+   },
+   {
+    "who": "gx-big-bang/circulus",
+    "text": "Le prometí a la princesa Catora que volvería siempre que estuviera en peligro."
+   },
+   {
+    "name": "Catora",
+    "text": "Circulus... Nomor ya no está. Ya no tienes que protegerme."
+   },
+   {
+    "who": "gx-big-bang/circulus",
+    "text": "Entonces protegeré tu recuerdo. Y demostraré que el Caballero Legendario sigue en pie."
+   },
+   {
+    "who": "gx-big-bang/astro-justin",
+    "text": "¡Los caballeros de Nomor cabalgan otra vez! ¡Big Bang, al ataque!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "Los dueños del Big Bang",
+    "before": [
+     {
+      "text": "Un viaje por el tiempo lleva a Circulus hasta el Inazuma Japón del Fútbol Frontier Internacional."
+     },
+     {
+      "who": "ie3-inazuma-japan/xavier-foster",
+      "text": "¿Un equipo que se llama Big Bang? Qué curioso. Así se llama nuestra supertécnica."
+     },
+     {
+      "who": "ie3-inazuma-japan/shawn-froste",
+      "text": "La creamos entre Xavier, Jude y yo. Me hace ilusión ver cómo la usáis."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Entonces será un honor demostrar que la merecemos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Qué partidazo! ¡Esto es fútbol de verdad! ¡Volved cuando queráis, que jugamos otra!"
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Unos humanos con tanto corazón... Ahora entiendo por qué, siendo Picksie, me encariñé tanto con Arion."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-faram-dite",
+    "title": "El honor de Falam",
+    "before": [
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Caballeros de un planeta muerto. ¿Qué buscáis en Falam Orbius?"
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Un agujero negro destruyó Nomor. No dejaré que pase lo mismo aquí."
+     },
+     {
+      "who": "gx-big-bang/strem-goozer",
+      "text": "Nuestra portería es una muralla. ¡Que lo intenten!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Vuestra lealtad es más firme que nuestras armas..."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Cuidad de vuestro pueblo. Es lo único que importa."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ixal-fleet",
+    "title": "El secuestro de la princesa",
+    "before": [
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Ozrock. Tú te llevaste a la princesa Catora."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "La salvé de morir con su planeta. Deberías darme las gracias."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "La salvaste para usarla. ¡Corte Big Bang!"
+     },
+     {
+      "who": "gx-big-bang/cherio-pardon",
+      "text": "¡Por la princesa! ¡Caballeros, adelante!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "Tsk... Ese caballero no se rinde nunca."
+     },
+     {
+      "name": "Catora",
+      "text": "Circulus, ya basta. Ozrock también perdió su hogar. Sé amable con él."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-supernova",
+    "title": "El rival eterno",
+    "before": [
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Circulus. El Picksie blanco que siempre andaba junto a Arion."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Arculus. El Picksie negro que acompañaba a Victor. Siempre quise saber quién era mejor."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Entonces dejemos de ser bolitas peludas y juguemos de verdad."
+     },
+     {
+      "who": "gx-big-bang/bindal-hermit",
+      "text": "¡Supernova contra Big Bang! ¡Esto sí es un choque de estrellas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Hmpf. Hoy ganas tú. La próxima, no."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Je, je. Siempre diré que sí a una revancha."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-space-rankers",
+    "title": "La Dinastía Galáctica",
+    "before": [
+     {
+      "text": "En el estadio de la Galaxia Perdida espera el equipo definitivo: la Dinastía Galáctica."
+     },
+     {
+      "who": "gx-space-rankers/indra-vayu",
+      "text": "Los mejores de Nomor y de Falam Orbius en un solo equipo. Nadie nos ha vencido."
+     },
+     {
+      "who": "gx-space-rankers/ashvina-bharani",
+      "text": "Vuestro capitán también jugó con nosotros. Conocemos todos sus trucos."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Pero no conocéis lo que siento hoy. ¡Por Nomor, por Catora!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-space-rankers/indra-vayu",
+      "text": "La lealtad de un caballero... ese es el poder del Big Bang."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Princesa... ¿lo has visto? El Caballero Legendario ha cumplido su promesa."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "Catora",
+    "text": "Lo he visto todo, Circulus. Nunca dejaste de protegerme."
+   },
+   {
+    "who": "gx-big-bang/circulus",
+    "text": "Es mi deber... Bueno, y también porque... ejem. Da igual."
+   },
+   {
+    "who": "gx-big-bang/astro-justin",
+    "text": "¡El capitán se ha puesto rojo!"
+   },
+   {
+    "who": "gx-big-bang/circulus",
+    "text": "¡A entrenar todos! ¡El Big Bang no espera a nadie!"
+   }
+  ]
+ },
+ "gx-supernova": {
+  "title": "El rey de Falam Orbius",
+  "summary": "Arculus Orbes, el rey caído de Falam Orbius, regresa desde la Galaxia Perdida para enmendar el pasado de su familia y proteger a su hija Roleia.",
+  "intro": [
+   {
+    "text": "Galaxia Perdida. Allí despierta el espíritu de Arculus Orbes, el rey que murió lejos de su planeta."
+   },
+   {
+    "who": "gx-supernova/arculus-orbes",
+    "text": "Le prometí a Roleia que la cuidaría. Y no cumplí."
+   },
+   {
+    "who": "gx-supernova/ashvina-bharani",
+    "text": "Majestad, aún podéis hacerlo. Vuestro equipo os seguirá."
+   },
+   {
+    "who": "gx-supernova/arculus-orbes",
+    "text": "Entonces brillemos como una supernova. Aunque solo sea una última vez."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "La sombra junto a Victor",
+    "before": [
+     {
+      "who": "gx-earth-eleven/victor-blade",
+      "text": "Ese aura... Eres el Picksie negro que me seguía a todas partes."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Victor Blade. Cuidaste de mi hija Roleia cuando yo no podía. Te debo una."
+     },
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Pues juguemos! ¡Así se pagan las deudas en el fútbol!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/victor-blade",
+      "text": "Tu tiro es enorme... Como el de un rey."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Gracias, Victor. Ahora debo ver a mi hija."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-faram-dite",
+    "title": "Ante la reina",
+    "before": [
+     {
+      "name": "Roleia Orbes",
+      "text": "¿Papá...? ¿De verdad eres tú?"
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Lo soy, Roleia. Y quiero ver si Falam Medius está lista para proteger nuestro planeta."
+     },
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Majestad... Será un honor jugar contra vos."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-faram-dite/argon-bulgess",
+      "text": "Falam Orbius tenía un rey digno de ese nombre."
+     },
+     {
+      "name": "Roleia Orbes",
+      "text": "Siempre pensé que te habías olvidado de mí... Papá, prometiste pasar más tiempo conmigo."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Lo sé. Perdóname, Roleia. No te olvidé ni un solo día."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-ixal-fleet",
+    "title": "El pecado de Ireid",
+    "before": [
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡El hijo de Ireid Orbes! ¡Tu padre destruyó Ixar!"
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Lo sé. Y no hay nada que pueda decir para borrarlo."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "¡Entonces pagarás! ¡Marca del Berserker!"
+     },
+     {
+      "who": "gx-supernova/hastar-savitar",
+      "text": "¡Proteged al rey! ¡Que nadie pierda el control!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "No he venido a vencerte, Ozrock. He venido a pedirte perdón."
+     },
+     {
+      "who": "gx-ixal-fleet/ozrock-boldar",
+      "text": "...Doscientos años esperando venganza, y me ofreces perdón. Qué injusto."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "Duelo de supernovas",
+    "before": [
+     {
+      "text": "Un remolino del tiempo los lleva ante otro equipo que se hacía llamar alienígena: Génesis."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "¿Supernova? Qué curioso... Ese nombre nos pertenece. Mostradme si sois dignos de él."
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "Somos los más fuertes de la Academia Alius. Os haremos polvo de estrellas."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Una supernova solo pertenece a quien brilla más fuerte."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Vaya... Unos alienígenas de verdad. Quedaos el nombre."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Gracias. Lo llevaremos con orgullo."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-space-rankers",
+    "title": "Rey contra dinastía",
+    "before": [
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Arculus, ¿quieres ser rey? Pues demuéstralo contra la Dinastía Galáctica."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Circulus... ¿también tú estás en ese equipo?"
+     },
+     {
+      "who": "gx-space-rankers/bindal-hermit",
+      "text": "Somos lo mejor de dos planetas. Ni un rey puede contra nosotros."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Un rey no lucha por su corona. Lucha por su gente. ¡Supernova!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Je. Ahora sí pareces un rey de verdad."
+     },
+     {
+      "who": "gx-supernova/arculus-orbes",
+      "text": "Ya no necesito parecerlo. Sé quién soy."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "Roleia Orbes",
+    "text": "Papá, ¿esta vez te quedarás conmigo?"
+   },
+   {
+    "who": "gx-supernova/arculus-orbes",
+    "text": "Mi tiempo ya pasó, Roleia. Pero ahora sé que Falam Orbius está en buenas manos."
+   },
+   {
+    "text": "Una luz morada brilla sobre el planeta, como una estrella que estalla en silencio."
+   },
+   {
+    "who": "gx-supernova/ashvina-bharani",
+    "text": "Larga vida a Falam Orbius... y a su rey."
+   }
+  ]
+ },
+ "gx-space-rankers": {
+  "title": "La Dinastía Galáctica",
+  "summary": "Circulus y Arculus unen a los mejores de Nomor y Falam Orbius para buscar al equipo más fuerte de todas las épocas. El final del viaje: la leyenda que lo empezó todo.",
+  "intro": [
+   {
+    "text": "En el estadio de la Galaxia Perdida, dos antiguos rivales se dan la mano."
+   },
+   {
+    "who": "gx-space-rankers/circulus",
+    "text": "El caballero de Nomor y el rey de Falam en el mismo equipo. ¿Quién nos iba a decir?"
+   },
+   {
+    "who": "gx-space-rankers/arculus-orbes",
+    "text": "Solos fuimos fuertes. Juntos seremos invencibles."
+   },
+   {
+    "who": "gx-space-rankers/indra-vayu",
+    "text": "¿Y contra quién jugaremos?"
+   },
+   {
+    "who": "gx-space-rankers/circulus",
+    "text": "Contra los mejores de cualquier galaxia y de cualquier época. ¡Dinastía Galáctica, en marcha!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-earth-eleven",
+    "title": "Los salvadores de la galaxia",
+    "before": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¿Picksie? ¿Y el Picksie negro? ¡Qué alegría veros!"
+     },
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Arion, necesitamos medirnos con quien salvó la galaxia. ¡Sin piedad!"
+     },
+     {
+      "who": "gx-earth-eleven/riccardo-di-rigo",
+      "text": "Son dos equipos legendarios en uno. Atentos, chicos."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-earth-eleven/arion-sherwind",
+      "text": "¡Increíbles! ¡Pero la próxima vez ganaremos nosotros!"
+     },
+     {
+      "who": "gx-space-rankers/arculus-orbes",
+      "text": "No lo dudo. Por eso empezamos con vosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "Tormenta del tiempo",
+    "before": [
+     {
+      "text": "Un viaje en el tiempo los lleva ante el Chrono Storm, el equipo que salvó la historia del fútbol."
+     },
+     {
+      "who": "cs-chrono-storm/fei-rune",
+      "text": "¿Viajeros de la galaxia? Nosotros lo somos del tiempo. Buena combinación."
+     },
+     {
+      "who": "cs-chrono-storm/zanark-avalonic",
+      "text": "¡Je! ¡Por fin unos rivales que merecen la pena!"
+     },
+     {
+      "who": "gx-space-rankers/bindal-hermit",
+      "text": "Usan poderes de otras épocas. ¡Mantened la formación!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-chrono-storm/fei-rune",
+      "text": "Ni el tiempo puede con vosotros..."
+     },
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Siguiente parada: nuestros propios rivales."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-supernova",
+    "title": "Contra el rey",
+    "before": [
+     {
+      "who": "gx-supernova/rudra-ardo",
+      "text": "El rey jugaba con nosotros. Hoy juega contra nosotros. Qué extraño."
+     },
+     {
+      "who": "gx-space-rankers/arculus-orbes",
+      "text": "Os enseñé todo lo que sé. Ahora enseñadme algo nuevo."
+     },
+     {
+      "who": "gx-supernova/ashvina-bharani",
+      "text": "¡Por el honor de Supernova!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-supernova/ashvina-bharani",
+      "text": "Vuestra unión es más fuerte que cualquier estrella."
+     },
+     {
+      "who": "gx-space-rankers/arculus-orbes",
+      "text": "Bien jugado, mis caballeros. Siempre seréis mi equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-big-bang",
+    "title": "Contra el caballero",
+    "before": [
+     {
+      "who": "gx-big-bang/astro-justin",
+      "text": "¡Capitán! ¿Nos dejas por un rey?"
+     },
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Nunca os dejo. Solo quiero que me superéis. ¡Big Bang, venid con todo!"
+     },
+     {
+      "who": "gx-big-bang/strem-goozer",
+      "text": "¡Ni con dos capitanes pasaréis de mí!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-big-bang/strem-goozer",
+      "text": "Ufff... Dos leyendas juntas son demasiado."
+     },
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Estoy orgulloso de vosotros. Y ahora, a por las leyendas de la Tierra."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "Los falsos alienígenas",
+    "before": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Génesis, el equipo más fuerte de la Academia Alius. ¿Alienígenas de verdad? Qué ironía... Será un placer."
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "Nuestra Supernova atraviesa cualquier galaxia."
+     },
+     {
+      "who": "gx-space-rankers/ashvina-bharani",
+      "text": "Su velocidad es tremenda... ¡pero no soltaré el balón!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Esto sí que es fútbol de otro planeta."
+     },
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Solo queda uno. El equipo del que nacieron todas las leyendas."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "La leyenda original",
+    "before": [
+     {
+      "text": "Hace décadas, un equipo dio nombre a todo: el Inazuma Eleven original."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Hemos recorrido muchas épocas, pero nunca habíamos jugado contra una galaxia."
+     },
+     {
+      "who": "ie1-inazuma-eleven/edward-gladstone",
+      "text": "¡Bah, mocosos de las estrellas! ¡Os enseñaré cómo se jugaba en mis tiempos!"
+     },
+     {
+      "who": "gx-space-rankers/arculus-orbes",
+      "text": "Así que este es el origen de todo. Su espíritu se siente en cada rincón."
+     },
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "¡Dinastía Galáctica, el último partido! ¡Juguemos como si fuera el primero!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Ganáis vosotros... pero el espíritu del Inazuma Eleven ya vive en vuestros corazones."
+     },
+     {
+      "who": "gx-space-rankers/circulus",
+      "text": "Lo sentimos. Es el mismo que tiene Arion."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Dinastía Galáctica regresa a la Galaxia Perdida como el equipo más fuerte de todas las épocas."
+   },
+   {
+    "who": "gx-space-rankers/arculus-orbes",
+    "text": "Hemos ganado a todos. ¿Y ahora qué, Circulus?"
+   },
+   {
+    "who": "gx-space-rankers/circulus",
+    "text": "Ahora esperamos. Alguien vendrá algún día a desafiarnos."
+   },
+   {
+    "who": "gx-space-rankers/indra-vayu",
+    "text": "¡Y le estaremos esperando con el balón listo!"
+   }
+  ]
+ }
+}

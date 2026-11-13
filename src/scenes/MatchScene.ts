@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { STORY_REGISTRY, STORY_RESULT, type StoryMatch } from '../story/story';
 import { rewardMatch } from '../club/club';
 import { DISPLAY, FIELD_VIEW, FONT, GAME_SPEED, PORTRAIT, RES, RES_EVENT, GOAL_DEPTH, GOAL_W, HALF_GAME_MINUTES, HALF_REAL_SECONDS, PITCH, WORLD } from '../config';
 import { music, playFanfare } from '../audio/music';
@@ -341,7 +342,7 @@ export class MatchScene extends Phaser.Scene {
     this.hud.showPause({
       onResume: () => this.togglePause(),
       onRestart: () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
-      onQuit: () => this.scene.start('menu'),
+      onQuit: () => (this.registry.get(STORY_REGISTRY) ? this.toStory(false) : this.scene.start('menu')),
     });
   }
 
@@ -1539,11 +1540,22 @@ export class MatchScene extends Phaser.Scene {
     await this.hud.banner('¡Final!', '', '#ffffff', 1400);
     const [a, b] = this.score;
     const reward = rewardMatch(a, b, this.teams[0].id === 'club');
+    const story = this.registry.get(STORY_REGISTRY) as StoryMatch | undefined;
     this.hud.showResult(
       () => this.scene.restart({ home: this.lineups[0], away: this.lineups[1] }),
-      () => this.scene.start('menu'),
+      () => (story ? this.toStory(a > b) : this.scene.start('menu')),
       reward,
+      story ? (a > b ? ['Repetir', 'Continuar'] : ['Reintentar', 'Historia']) : undefined,
     );
+  }
+
+  /** Vuelve al modo historia con el resultado del partido. */
+  private toStory(won: boolean): void {
+    const story = this.registry.get(STORY_REGISTRY) as StoryMatch;
+    this.registry.set(STORY_RESULT, { ...story, won });
+    this.registry.remove(STORY_REGISTRY);
+    this.scene.stop('hud');
+    this.scene.start('story');
   }
 
   /** Cambia los once y la formación de un equipo; cada uno conserva la estamina y técnica que tenía. */

@@ -1,0 +1,5049 @@
+{
+ "vr-ai-gakuen": {
+  "title": "El algoritmo del corazón",
+  "summary": "La Academia IA quiere demostrar que la inteligencia artificial tiene sitio en el fútbol. Pero su capitán, Reubel, solo se fía de su instinto.",
+  "intro": [
+   {
+    "text": "Aichi. En la Academia IA cada entrenamiento lo diseña un algoritmo y cada jugada se calcula al milímetro."
+   },
+   {
+    "who": "vr-ai-gakuen/obert-deance",
+    "text": "Hoy la IA me ha elegido el desayuno, las botas y la estrategia. Eficiencia del noventa y nueve por ciento."
+   },
+   {
+    "who": "vr-ai-gakuen/reubel-kauntless",
+    "text": "¿Y el uno por ciento restante? ¡Ahí es donde se ganan los partidos!"
+   },
+   {
+    "who": "vr-ai-gakuen/zuzu-intel",
+    "text": "La IA ha preparado una gira contra los equipos más 'lógicos' del país. Si los vencemos, el mundo nos tomará en serio."
+   },
+   {
+    "who": "vr-ai-gakuen/cognus-sention",
+    "text": "Seguiré las órdenes de la máquina... pero ninguna máquina va a mandar en mi corazón."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Cerebros programados",
+    "before": [
+     {
+      "text": "Primer rival de la gira: el Instituto Brain, un viejo equipo que buscó la fuerza perfecta por el camino equivocado."
+     },
+     {
+      "who": "ie1-mikage-sennou/victor-kind",
+      "text": "Nuestros cerebros están optimizados. Vuestra IA no es más que un juguete."
+     },
+     {
+      "who": "vr-ai-gakuen/nettie-neuralyn",
+      "text": "Eliminemos lo que no sirve. Empezando por su arrogancia."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/annalisa-cubon",
+      "text": "Análisis completado... Uf, estoy agotada, y eso que ya ha acabado el partido."
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "¿Lo veis? Un cerebro manipulado no piensa. ¡Nosotros sí!"
+     }
+    ]
+   },
+   {
+    "opponent": "go-eito-gakuen",
+    "title": "Duelo de genios",
+    "before": [
+     {
+      "who": "go-eito-gakuen/ian-stein",
+      "text": "*Escribe en su libreta y la enseña, sin mirar a nadie* «El fútbol es una ecuación. Vuestra IA llegará tarde a la solución.»"
+     },
+     {
+      "who": "vr-ai-gakuen/zuzu-intel",
+      "text": "La IA dice que su fórmula tiene un error en la tercera línea. ¿Lo encontramos?"
+     },
+     {
+      "who": "vr-ai-gakuen/cleo-balbot",
+      "text": "Tranquila, Cleo... Pon cara de valiente. Cara de valiente."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-eito-gakuen/ian-stein",
+      "text": "*Garabatea con la mano temblando* «¡Imposible! Habéis improvisado... y eso no venía en ningún libro.»"
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "Ese es mi algoritmo: no tener ninguno."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "Androides del futuro",
+    "before": [
+     {
+      "text": "De pronto, un equipo llegado del futuro interrumpe un entrenamiento: el Protocolo Omega."
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Misión: eliminar cualquier forma de fútbol no autorizada. ¿Vuestra IA? Será borrada. No hay nada más que hablar."
+     },
+     {
+      "who": "vr-ai-gakuen/bren-techner",
+      "text": "¿Jugadores que se mueven como máquinas? ¡Quiero estudiarlos! ¡Bueno, después de ganarles!"
+     },
+     {
+      "who": "vr-ai-gakuen/eugenio-provost",
+      "text": "Portería en modo profesional. Activando protocolo defensivo."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Error. Variable desconocida... Misión no completada. Retirada."
+     },
+     {
+      "who": "vr-ai-gakuen/talim-muskel",
+      "text": "Hace un año era un enclenque. ¡Hoy he frenado a un androide!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Hombre contra máquina",
+    "before": [
+     {
+      "who": "cs-soccer-robots/fb-110x",
+      "text": "BIP. Futboloides en línea. Probabilidad de victoria humana: cero coma cero."
+     },
+     {
+      "who": "vr-ai-gakuen/manila-brickit",
+      "text": "¿Cero? ¡Pues a la vieja escuela! Aunque luego me caiga otra bronca por romper un ordenador."
+     },
+     {
+      "who": "vr-ai-gakuen/deacon-pewter",
+      "text": "...Orden recibida. Ejecutando."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-soccer-robots/fb-110x",
+      "text": "BIP... BIP... Recalculando... Sistema sobrecargado."
+     },
+     {
+      "who": "vr-ai-gakuen/synthian-volkel",
+      "text": "Tarareo una canción hecha por IA... ¡pero el gol lo he marcado yo!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-senjutsu-no-teikoku",
+    "title": "Revancha contra el imperio",
+    "before": [
+     {
+      "text": "En el Fútbol Frontier, Royal Academy eliminó a la Academia IA. Ahora llega la ocasión de la revancha."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+      "text": "Vuestra IA calcula. Alice imagina. Por eso os ganamos."
+     },
+     {
+      "who": "vr-ai-gakuen/randon-datta",
+      "text": "Capitán, ¡no te vayas por libre otra vez que vamos a contrarreloj!"
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "Tranquilo, Randon. Hoy la IA y yo vamos a jugar juntos. Más o menos."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+      "text": "Una táctica perfecta... rota por una locura. Alice estaría encantada."
+     },
+     {
+      "who": "vr-ai-gakuen/zuzu-intel",
+      "text": "La IA ha aprendido algo nuevo hoy: a confiar en Reubel."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "El genio incalculable",
+    "before": [
+     {
+      "text": "Último reto: el Instituto Raimon y Harper Evans, el jugador que ningún algoritmo consigue predecir."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "¿Una IA que me analiza? Qué aburrido... A no ser que vosotros me sorprendáis."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "He estudiado vuestros datos igual que vosotros los nuestros. Pero a Harper no lo predice nadie. Ni siquiera yo."
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "¡Por fin alguien que habla mi idioma! Equipo, datos en la cabeza y fuego en las botas."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Vale, lo admito: eso ha sido divertido."
+     },
+     {
+      "who": "vr-ai-gakuen/eugenio-provost",
+      "text": "Parada registrada. Corazón: acelerado. No figura en el manual."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La gira termina y la Academia IA vuelve a Aichi con algo que ninguna máquina pudo enseñarles."
+   },
+   {
+    "who": "vr-ai-gakuen/obert-deance",
+    "text": "Hoy he elegido yo la cena. Arroz con curry. ¡Y sin consultar a nadie!"
+   },
+   {
+    "who": "vr-ai-gakuen/bren-techner",
+    "text": "Mi jugador artificial perfecto tendrá datos... y un poco de la locura de Reubel."
+   },
+   {
+    "who": "vr-ai-gakuen/reubel-kauntless",
+    "text": "La IA nos hace listos. El fútbol nos hace humanos. ¡Juntos somos imparables!"
+   }
+  ]
+ },
+ "vr-batten-yokato": {
+  "title": "Los Siete Dioses de la Fortuna",
+  "summary": "Dos escuelas de Hakata fusionadas a la fuerza: macarras de Crosswind y alumnos de Fauxshore. Para ser un equipo, primero tendrán que dejar de pelearse.",
+  "intro": [
+   {
+    "text": "Hakata, Fukuoka. Crosswind y Fauxshore se han fusionado, y en el vestuario saltan chispas."
+   },
+   {
+    "who": "vr-batten-yokato/vinda-koral",
+    "text": "¿Ahora compartimos campo con los niños buenos del Fauxshore? Leo en sus caras que nos tienen miedo."
+   },
+   {
+    "who": "vr-batten-yokato/susen-faircourt",
+    "text": "¡Y con razón! Aquí nadie juega sucio mientras yo esté en el campo."
+   },
+   {
+    "who": "vr-batten-yokato/itor-sheerman",
+    "text": "Fui capitán del Fauxshore. Con Vashan desatábamos tormentas: me llamaban el Vendaval del Sur."
+   },
+   {
+    "who": "vr-batten-yokato/vashan-morell",
+    "text": "Y a mí el Ciempiés Escarlata. Si vamos a ser un equipo, que sea el más temido de Kyushu."
+   },
+   {
+    "who": "vr-batten-yokato/mayen-harmet",
+    "text": "¡O el más simpático! ¡Al final de la gira, fiestón con todos los rivales!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-rojiura-backkicks",
+    "title": "Pelea de callejón",
+    "before": [
+     {
+      "who": "vr-rojiura-backkicks/holden-monday",
+      "text": "¿Macarras de Hakata en Nagasaki? Aquí el callejón es nuestro."
+     },
+     {
+      "who": "vr-batten-yokato/jakob-serveraw",
+      "text": "¡Como en mi manga favorito! Duelo entre bandas... ¡pero con balón!"
+     },
+     {
+      "who": "vr-batten-yokato/susen-faircourt",
+      "text": "Con balón y sin patadas. ¡Os estoy mirando a todos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-rojiura-backkicks/bogdan-berglund",
+      "text": "Vale, vale, sois duros. Volved cuando queráis."
+     },
+     {
+      "who": "vr-batten-yokato/hathea-calmell",
+      "text": "No he metido la pata... ¡No he metido la pata! Nadie me ha echado la bronca."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nikogawa",
+    "title": "Fiesta en el pueblo",
+    "before": [
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "Los de Hakata os creéis muy de ciudad. ¡En Twinford se juega con músculo de mochi!"
+     },
+     {
+      "who": "vr-batten-yokato/budan-ashwell",
+      "text": "Soy nuevo en esto. Pero no me muevo de aquí."
+     },
+     {
+      "who": "vr-batten-yokato/ebiss-marlowe",
+      "text": "¡Qué presencia, Budan! ¡Lo apunto todo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nikogawa/ronan-strongwood",
+      "text": "¡Buen aguante! Casi como cargar el santuario en la fiesta mayor."
+     },
+     {
+      "who": "vr-batten-yokato/benton-zellner",
+      "text": "Me han pisado las botas tres veces. Y no he explotado. Esto es crecer."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nishinomiya",
+    "title": "Macarras contra empollones",
+    "before": [
+     {
+      "who": "vr-nishinomiya/laymark-starwyn",
+      "text": "¿Un equipo de delincuentes en nuestro campo? Os lo enseñaremos con matemáticas."
+     },
+     {
+      "who": "vr-batten-yokato/froclan-junn",
+      "text": "Yo antes era alumno modelo... hasta que me obligaron a mudarme. No me habléis de matemáticas."
+     },
+     {
+      "who": "vr-batten-yokato/itor-sheerman",
+      "text": "Froclan, canaliza esa amargura. ¡Hacia la portería!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nishinomiya/edgard-loathe",
+      "text": "Os juzgué por las apariencias. Ha sido un error de cálculo."
+     },
+     {
+      "who": "vr-batten-yokato/vinda-koral",
+      "text": "¿Habéis visto al público? Ya están de nuestra parte."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-hokuyou-gakuen",
+    "title": "Otra fusión",
+    "before": [
+     {
+      "text": "Northbright, otra escuela que va a fusionarse, acepta un amistoso. Su capitán sabe bien lo que se siente."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Snif! Vosotros también os fusionáis... ¡Os entiendo tanto! ¡Pero no os pienso dejar ganar!"
+     },
+     {
+      "who": "vr-batten-yokato/clementine-weston",
+      "text": "Antes no me atrevía a hablar. Hoy lo digo alto: ¡vamos a ganar juntos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "Dos escuelas, un solo equipo... Así se juega. ¡Snif!"
+     },
+     {
+      "who": "vr-batten-yokato/trevin-seabourne",
+      "text": "Pulmones de acero y tupé intacto. ¡El siguiente!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-toufuu-ikokukan",
+    "title": "La bahía de Hakata",
+    "before": [
+     {
+      "who": "vr-toufuu-ikokukan/toyo-yamanouchi",
+      "text": "En Fukuoka mandamos nosotros. Fuerza pura, sin tácticas."
+     },
+     {
+      "who": "vr-batten-yokato/jory-jinx",
+      "text": "Juego para desahogarme... ¡pero estos tíos son enormes! ¡A correr!"
+     },
+     {
+      "who": "vr-batten-yokato/orfreya-newcomb",
+      "text": "Si os rompen la camiseta, os la remiendo en el descanso. ¡Pero no os rindáis!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-toufuu-ikokukan/kai-yoshizaki",
+      "text": "¿Cómo pueden pararnos unos macarras? Increíble."
+     },
+     {
+      "who": "vr-batten-yokato/vashan-morell",
+      "text": "Macarras y empollones. Eso es lo que nos hace imparables."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-yokato",
+    "title": "La leyenda del Fauxshore",
+    "before": [
+     {
+      "text": "Para el partido homenaje del aniversario, aparece la leyenda de hace 25 años: el Instituto Fauxshore original, el equipo del antiguo director."
+     },
+     {
+      "who": "ie2-yokato/jonathan-luckyman",
+      "text": "¿Vosotros lleváis ahora nuestro nombre? Pues demostrad que la suerte también está de vuestra parte."
+     },
+     {
+      "who": "vr-batten-yokato/clementine-weston",
+      "text": "¡Fue viendo a este equipo cuando encontré mi fuego! No pienso quedarme callada."
+     },
+     {
+      "who": "vr-batten-yokato/itor-sheerman",
+      "text": "Siete dioses de la fortuna y un solo vendaval. ¡Crosswind-Fauxshore, a por ellos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-yokato/jonathan-luckyman",
+      "text": "El Fauxshore está en buenas manos, aunque sean manos de macarra. ¡Esto se celebra con un buen motsunabe!"
+     },
+     {
+      "who": "vr-batten-yokato/susen-faircourt",
+      "text": "Y ni una sola falta en todo el partido. ¡Estoy orgulloso de vosotros!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Al volver a Hakata, ya nadie habla de Crosswind ni de Fauxshore. Solo de un equipo."
+   },
+   {
+    "who": "vr-batten-yokato/mayen-harmet",
+    "text": "¡Y ahora, el fiestón prometido! ¡Están invitados todos los rivales!"
+   },
+   {
+    "who": "vr-batten-yokato/vinda-koral",
+    "text": "Bah... Los niños buenos no están tan mal."
+   },
+   {
+    "who": "vr-batten-yokato/itor-sheerman",
+    "text": "El Vendaval del Sur vuelve a soplar. Y esta vez lo hace con todos nosotros."
+   }
+  ]
+ },
+ "vr-destroyers": {
+  "title": "El último muro",
+  "summary": "Liberados del control de los Devoradores de Mentes, Keines y los Destructores recorren el tiempo para cazar a los últimos que quedan.",
+  "intro": [
+   {
+    "text": "Un futuro lejano. Los Destructores, que ganaban con una potencia aplastante, fueron poseídos por los Devoradores de Mentes."
+   },
+   {
+    "who": "vr-destroyers/keines-elvain",
+    "text": "Vic nos liberó. Pero aún quedan Devoradores escondidos en otras épocas, controlando equipos."
+   },
+   {
+    "who": "vr-destroyers/simen-thorne",
+    "text": "Lo veo venir: vamos a perder, nos van a poseer otra vez y será horrible... ¡Por eso defenderé el doble!"
+   },
+   {
+    "who": "vr-destroyers/grenadier-deton",
+    "text": "Calma. La lógica dice que si los cazamos uno a uno, podemos acabar con ellos."
+   },
+   {
+    "who": "vr-destroyers/keines-elvain",
+    "text": "Destructores, en marcha. Esta vez seremos el último muro... para ellos."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-zanark-domain",
+    "title": "Rastro en el tiempo",
+    "before": [
+     {
+      "text": "El primer rastro lleva a una época donde Zanark Domain siembra el caos."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¡Jajaja! ¿Unos mocosos del futuro buscando pelea? Me encanta. A Zanark nadie le dice cómo jugar."
+     },
+     {
+      "who": "vr-destroyers/vector-vernam",
+      "text": "Fuera de mi camino. Los focos son míos."
+     },
+     {
+      "who": "vr-destroyers/nebula-raime",
+      "text": "¡Y míos, Vector! ¡A ver quién marca primero!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "No había ningún Devorador aquí... pero me lo he pasado en grande."
+     },
+     {
+      "who": "vr-destroyers/declan-jaxor",
+      "text": "Mi visor no detecta rastros. Seguimos buscando."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-gatekeepers",
+    "title": "Agentes de la Oficina",
+    "before": [
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Oficina de Asuntos Temporales. Viajar en el tiempo sin permiso es delito. Quedáis detenidos."
+     },
+     {
+      "who": "vr-destroyers/arden-drax",
+      "text": "Detenidos, quizá. Pero con estilo. Soy el heraldo de la belleza."
+     },
+     {
+      "who": "vr-destroyers/prisca-grav",
+      "text": "Denowar, ¿les gastamos una broma a las agentes?"
+     },
+     {
+      "who": "vr-destroyers/denowar-krell",
+      "text": "Ya la tengo preparada. Ni se enterarán."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Si de verdad cazáis Devoradores... os dejaré seguir. Por esta vez."
+     },
+     {
+      "who": "vr-destroyers/xyron-madric",
+      "text": "Cara de Piedra dice: gracias, agente."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-platos",
+    "title": "Viejos rivales",
+    "before": [
+     {
+      "text": "En Pluke, Platos y Vic les esperan. Keines y Vic son amigos de la infancia... y rivales de siempre."
+     },
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "¡Keines! Me alegro de verte libre. Pero no te pienso perdonar una derrota."
+     },
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Ni yo a ti, Vic. Quiero comprobar si de verdad soy fuerte sin ellos."
+     },
+     {
+      "who": "vr-destroyers/rourik-bhatt",
+      "text": "¡Sacadme ya! ¡Tengo una jugada arriesgadísima preparada!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "Eres más fuerte que nunca, Keines. Y ahora es fuerza de verdad."
+     },
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Gracias, Vic. Ahora sé lo que tengo que hacer."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-zanark-strangers",
+    "title": "Los forasteros",
+    "before": [
+     {
+      "text": "Una presencia oscura rodea a los Zanark Outsiders, un equipo de villanos reunidos de todas las épocas."
+     },
+     {
+      "who": "vr-zanark-strangers/destra",
+      "text": "La venganza se sirve fría... y vuestras almas, de aperitivo. ¡Me las comeré todas!"
+     },
+     {
+      "who": "vr-zanark-strangers/caleb-stonewall",
+      "text": "Je. ¿Los del futuro venís a dar lecciones? Os voy a mover como marionetas y ni os enteraréis."
+     },
+     {
+      "who": "vr-destroyers/machina-dex",
+      "text": "¡Ha llegado el momento del arma secreta! ¡O sea, yo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Ningún Devorador nos controla. Somos malos por cuenta propia."
+     },
+     {
+      "who": "vr-destroyers/zyphar-doar",
+      "text": "Cuando seamos famosos, mi abuela podrá cortarme el flequillo en una peluquería de lujo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "La señal se intensifica",
+    "before": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Protocolo Omega 3.0. Interferís en la historia, así que os eliminaré... con la elegancia que me caracteriza."
+     },
+     {
+      "who": "vr-destroyers/crysis-murdok",
+      "text": "He estudiado microbios más rápidos que vosotros. Tengo la táctica perfecta."
+     },
+     {
+      "who": "vr-destroyers/garruk-vynce",
+      "text": "Mi peinado es como el de Jude Sharp. ¡Mi portería, también impenetrable!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "¿Yo, derrotado...? Imposible... La señal oscura venía de más allá. De la galaxia."
+     },
+     {
+      "who": "vr-destroyers/menox-kessler",
+      "text": "¡Por fin un poco de espectáculo! ¿Quién viene ahora?"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-big-bang",
+    "title": "El último Devorador",
+    "before": [
+     {
+      "text": "En el confín de la galaxia, el último Devorador de Mentes ha poseído a Big Bang, uno de los equipos más temibles del universo."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "Habéis escapado una vez. No habrá una segunda."
+     },
+     {
+      "who": "vr-destroyers/simen-thorne",
+      "text": "¡Lo sabía! ¡El peor escenario posible! ¡Perfecto, estoy preparadísimo!"
+     },
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Una vez fuimos el último muro de Vic. Hoy somos el vuestro. ¡Destructores, con todo!"
+     }
+    ],
+    "after": [
+     {
+      "text": "El poder aplastante de los Destructores rompe el control y el último Devorador se desvanece."
+     },
+     {
+      "who": "gx-big-bang/circulus",
+      "text": "¿Eh...? ¡Vuelvo a ser yo! ¡Gracias, chicos! Ahora sí: ¡a jugar solo por diversión!"
+     },
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Se acabó. Nadie volverá a jugar como un títere."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Destructores regresan a su época. Por primera vez, su fuerza es solo suya."
+   },
+   {
+    "who": "vr-destroyers/xyron-madric",
+    "text": "Ahora puedo estudiar para maestro de infantil tranquilo."
+   },
+   {
+    "who": "vr-destroyers/nebula-raime",
+    "text": "Vector, la próxima vez marco yo más goles."
+   },
+   {
+    "who": "vr-destroyers/keines-elvain",
+    "text": "Vic, ¿la revancha? Cuando quieras. Ahora sí, como amigos."
+   }
+  ]
+ },
+ "vr-gatekeepers": {
+  "title": "Orden de captura temporal",
+  "summary": "Las agentes de la Oficina de Asuntos Temporales persiguen a los mayores infractores de la historia del tiempo. Caso a caso, partido a partido.",
+  "intro": [
+   {
+    "text": "Oficina de Asuntos Temporales. Sobre la mesa de Lindalyn Berny se amontonan los expedientes de quienes alteraron la historia."
+   },
+   {
+    "who": "vr-gatekeepers/lindalyn-berny",
+    "text": "Equipo, tenemos órdenes de captura. Cada caso se cierra igual: con un partido."
+   },
+   {
+    "who": "vr-gatekeepers/amara-myles",
+    "text": "He analizado a todos los sospechosos. ...Esperad, que me pongo las gafas para hablar."
+   },
+   {
+    "who": "vr-gatekeepers/mira-lysander",
+    "text": "Si cerramos todos los casos, me ascienden. ¡Voy a por el puesto más alto de la Oficina!"
+   },
+   {
+    "who": "vr-gatekeepers/cecily-noire",
+    "text": "Yo me voy cuando acabe mi turno. Así que más vale que ganemos rápido."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-zanark-domain",
+    "title": "Expediente: el fugitivo",
+    "before": [
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Zanark Avalonic. Altera la historia por diversión. Primera detención."
+     },
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¿Policías del tiempo? ¡Jajaja! A Zanark no lo encierra nadie. ¡Atrapadme si podéis!"
+     },
+     {
+      "who": "vr-gatekeepers/arwena-lark",
+      "text": "Me despierta la macarra que llevo dentro. Esto va a ser divertido."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Vale, me habéis ganado. Pero ya me escaparé, ya."
+     },
+     {
+      "who": "vr-gatekeepers/jackie-mulligan",
+      "text": "Caso cerrado. Los desperfectos del campo... salen de mi sueldo, ¿verdad?"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "Expediente: El Dorado",
+    "before": [
+     {
+      "text": "El Protocolo Omega dice trabajar para El Dorado y cambiar la historia 'por el bien del futuro'."
+     },
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "¿Autorizada? Sí. ¿Vuestra interferencia? No. Procedemos a eliminarla."
+     },
+     {
+      "who": "vr-gatekeepers/zora-selwick",
+      "text": "¿Autorizada por quién? Enséñame el permiso o calla."
+     },
+     {
+      "who": "vr-gatekeepers/kendra-pierce",
+      "text": "¡Tranquilas, chicas! Yo os cubro. ¡Vamos a por ellos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega/alpha",
+      "text": "Misión no completada. Retirada."
+     },
+     {
+      "who": "vr-gatekeepers/julietta-belamy",
+      "text": "Su perfil era tan frío... Creo que me he enamorado otra vez de un expediente."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-2-0",
+    "title": "Expediente: la versión mejorada",
+    "before": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Holi, guapas! Versión 2.0, más fuertes y más listos... *(su cara cambia)* Y ahora os vamos a aplastar."
+     },
+     {
+      "who": "vr-gatekeepers/trixie-bren",
+      "text": "Me encanta cuando un sospechoso habla tanto. Siempre suelta algún secreto."
+     },
+     {
+      "who": "vr-gatekeepers/ivy-celeste",
+      "text": "Un solo error y no me lo perdonaré nunca. Concentración."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-2-0/beta",
+      "text": "¡Qué rabia! Como Gamma se entere de esto, no me deja en paz. ¡Ni una palabra!"
+     },
+     {
+      "who": "vr-gatekeepers/vivian-calder",
+      "text": "Snif... Estoy tan orgullosa de vosotras... Perdón, cosas de madre."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-zanark-strangers",
+    "title": "Expediente: banda organizada",
+    "before": [
+     {
+      "text": "Zanark ha vuelto a escapar y ha reclutado villanos de todas las épocas: los Zanark Outsiders."
+     },
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Os dije que me escaparía. Esta vez traigo amigos."
+     },
+     {
+      "who": "vr-zanark-strangers/grisley-bear",
+      "text": "¿Agentes? Mejor. Así tengo a quién hacer daño."
+     },
+     {
+      "who": "vr-gatekeepers/catalina-riven",
+      "text": "Combate cuerpo a cuerpo es mi especialidad. Aquí no pasa nadie."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-gatekeepers/cressida-octavia",
+      "text": "Me mandaron aquí para enmendarme. ¡Pues mirad lo enmendada que estoy!"
+     },
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Banda desarticulada. Solo nos queda la cabeza de todo esto."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "Expediente: Protocolo final",
+    "before": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "La última versión del Protocolo Omega, y la más elegante: la mía. La historia será como yo diga."
+     },
+     {
+      "who": "vr-gatekeepers/keira-donnell",
+      "text": "Aprendí fútbol por un chico y acabé siendo mejor que él. Contigo pasará lo mismo."
+     },
+     {
+      "who": "vr-gatekeepers/norah-queensby",
+      "text": "...Vamos a ganar. Lo digo con cara seria, pero lo digo con ilusión."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Elegantemente... derrotado."
+     },
+     {
+      "who": "vr-gatekeepers/amara-myles",
+      "text": "Queda un expediente. El más gordo de todos."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "Expediente: Chrono Storm",
+    "before": [
+     {
+      "text": "El último expediente es el más extraño: un equipo que viajó por toda la historia mezclando jugadores de distintas épocas."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¿Detenidos? ¡Pero si lo hicimos para salvar el fútbol! Bueno... ¡seguro que todo sale bien!"
+     },
+     {
+      "who": "cs-chrono-storm/fei-rune",
+      "text": "Lo admito, hemos infringido muchas normas. Lo arreglaremos en el campo."
+     },
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "La ley es la ley. Pero la ley también escucha. Demostradnos que teníais razón."
+     }
+    ],
+    "after": [
+     {
+      "text": "Tras el partido, Lindalyn cierra el expediente con una sonrisa."
+     },
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Infractores, sí. Pero también héroes. Caso archivado... con honores."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Gracias! ¡El fútbol os lo agradecerá!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Oficina de Asuntos Temporales recibe el informe más largo de su historia."
+   },
+   {
+    "who": "vr-gatekeepers/mira-lysander",
+    "text": "Todos los casos cerrados. ¡Ese ascenso es mío!"
+   },
+   {
+    "who": "vr-gatekeepers/catalina-riven",
+    "text": "Y ahora, a casa. Mi gato me espera."
+   },
+   {
+    "who": "vr-gatekeepers/lindalyn-berny",
+    "text": "Proteger el tiempo es proteger el fútbol. Buen trabajo, Guardianas."
+   }
+  ]
+ },
+ "vr-hakuren-victory-road": {
+  "title": "Tres generaciones de nieve",
+  "summary": "El Instituto Alpino de Hokkaido busca su lugar en la historia enfrentándose a los Alpinos del pasado y al Raimon que les cerró el paso.",
+  "intro": [
+   {
+    "text": "Hokkaido. El Instituto Alpino parece humilde, pero es un habitual del Fútbol Frontier, curtido en los partidos más duros."
+   },
+   {
+    "who": "vr-hakuren-victory-road/anastasia-mingler",
+    "text": "¡Hola a todos los fans! Este año no nos conformamos con participar. ¡Queremos la nieve en la cima!"
+   },
+   {
+    "who": "vr-hakuren-victory-road/bayard-boreas",
+    "text": "Huelo nevada para mañana. Y huelo goles."
+   },
+   {
+    "who": "vr-hakuren-victory-road/yetzy-klaus",
+    "text": "Dicen que en este campo entrenó una leyenda llamada Shawn Froste. ¡Y yo me lo creo, como lo del Pie Grande!"
+   },
+   {
+    "who": "vr-hakuren-victory-road/zain-blizzard",
+    "text": "Leyendas o no, cada entrenamiento es una misión. ¡En marcha!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-hakuren-go",
+    "title": "Los herederos",
+    "before": [
+     {
+      "text": "Un viejo vídeo del club muestra al Alpino de otra época. Los chicos deciden retarlo en un partido de exhibición."
+     },
+     {
+      "who": "go-hakuren-go/wolfe-whyte",
+      "text": "La nieve es nuestra aliada. Y en el Alpino solo importa una cosa: ganar. ¿Lo tenéis tan claro como yo?"
+     },
+     {
+      "who": "vr-hakuren-victory-road/fifi-frostkin",
+      "text": "¡Me encanta el frío! ¡Y no os dejaré olvidarlo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-hakuren-go/wolfe-whyte",
+      "text": "Hmph. Perder no entraba en mis planes... Pero el espíritu del Alpino sigue vivo en vosotros."
+     },
+     {
+      "who": "vr-hakuren-victory-road/mateo-potensio",
+      "text": "¿De verdad he jugado tan bien? No me lo creo..."
+     }
+    ]
+   },
+   {
+    "opponent": "go-northern-fang",
+    "title": "Colmillos en la ventisca",
+    "before": [
+     {
+      "who": "go-northern-fang/caesar-lionheart",
+      "text": "N-no me gusta pelear... Pero en cuanto pita el árbitro... ¡GRRR! ¡En el norte manda nuestro colmillo!"
+     },
+     {
+      "who": "vr-hakuren-victory-road/ivar-trialton",
+      "text": "Gané estos músculos fallando ejercicios en la nieve. ¡No me asusta un poco de viento!"
+     },
+     {
+      "who": "vr-hakuren-victory-road/berta-brunche",
+      "text": "¿Al final hay merienda? ¡Entonces voy a correr como un cohete!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-northern-fang/caesar-lionheart",
+      "text": "Uf... ya vuelvo a ser yo. Perdón por los rugidos. Tenéis colmillos de verdad."
+     },
+     {
+      "who": "vr-hakuren-victory-road/elon-entremet",
+      "text": "¡Caramelos para todos, rivales incluidos!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-houreikan",
+    "title": "Revancha en Odaiba",
+    "before": [
+     {
+      "text": "En el Fútbol Frontier, el Alpino eliminó a Lawcrest. Ahora Lawcrest pide la revancha."
+     },
+     {
+      "who": "vr-houreikan/eames-rapport",
+      "text": "Entiendo que ganasteis con merecimiento. Aun así, pedimos un nuevo juicio: queremos escuchar vuestra versión en el campo."
+     },
+     {
+      "who": "vr-hakuren-victory-road/arlo-galbrash",
+      "text": "¡Que venga! A mí no me da miedo decir lo que pienso ni a un juez."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-houreikan/dion-arbiter",
+      "text": "Veredicto confirmado. Habéis ganado con justicia."
+     },
+     {
+      "who": "vr-hakuren-victory-road/lev-langvil",
+      "text": "Lo vi clarísimo y... casi tropiezo con el aire. Pero gol."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-hakuren-ares",
+    "title": "Los hermanos Froste",
+    "before": [
+     {
+      "text": "La leyenda cobra vida: el Alpino de los hermanos Froste acepta el reto."
+     },
+     {
+      "who": "ares-hakuren-ares/aiden-froste",
+      "text": "¡Je! ¿Queréis ver cómo se juega en la nieve? Hermano, déjamelos a mí. ¡Los goles son todos míos!"
+     },
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "Aiden, no te emociones. Juntos somos más fuertes... ¿Nos enseñáis si vosotros también lo sois?"
+     },
+     {
+      "who": "vr-hakuren-victory-road/yetzy-klaus",
+      "text": "¡Existe! ¡Shawn Froste existe! ¡Sabía que las leyendas eran verdad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "Buen partido. Se nota cuánto queréis a este club. El Alpino tiene futuro."
+     },
+     {
+      "who": "vr-hakuren-victory-road/hail-homestead",
+      "text": "¡Quiero aprenderlo todo! ¿Cuándo es el siguiente?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-hakuren",
+    "title": "La ventisca eterna",
+    "before": [
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Este es el Alpino de cuando me enfrenté a la Academia Alius. Cuidado... cuando sopla el viento, llega la Ventisca eterna."
+     },
+     {
+      "who": "vr-hakuren-victory-road/gael-vehemaint",
+      "text": "..."
+     },
+     {
+      "who": "vr-hakuren-victory-road/anastasia-mingler",
+      "text": "Gael se ha quedado callado. Eso es que está concentrado. ¡Preparaos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-hakuren/shawn-froste",
+      "text": "Habéis superado la ventisca. Ya no sois mis herederos: sois mis rivales."
+     },
+     {
+      "who": "vr-hakuren-victory-road/wren-habilton",
+      "text": "¡Volví de la lesión para esto! ¿Me merezco un pastel? ¡Me merezco tres!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "Deshielo",
+    "before": [
+     {
+      "text": "Por último, el equipo que les eliminó en el Fútbol Frontier: el invicto Instituto Raimon."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Alpino. Os recuerdo bien: fuisteis un rival duro."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Jugáis en la nieve, ¿no? A ver si lo hacéis igual de bien en un campo normal."
+     },
+     {
+      "who": "vr-hakuren-victory-road/targan-snowbringer",
+      "text": "El balón siempre me encuentra. ¡Y hoy encontrará vuestra red!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Vale... Eso ha sido una ventisca de verdad."
+     },
+     {
+      "who": "vr-hakuren-victory-road/anastasia-mingler",
+      "text": "¡Lo hemos conseguido! ¡Ahora os toca a vosotros venir a nuestra piña!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Alpino regresa a Hokkaido con la nieve en la cima."
+   },
+   {
+    "who": "vr-hakuren-victory-road/fergat-silverpine",
+    "text": "...Ha sido un viaje increíble con... con... todos vosotros."
+   },
+   {
+    "who": "vr-hakuren-victory-road/anastasia-mingler",
+    "text": "¡Fergat, no te acuerdas de nuestros nombres! ¡Nos lo sabíamos!"
+   },
+   {
+    "who": "vr-hakuren-victory-road/bayard-boreas",
+    "text": "Mañana nevará. Y el año que viene, huelo a campeones."
+   }
+  ]
+ },
+ "vr-hokuyou-gakuen": {
+  "title": "Lágrimas de revancha",
+  "summary": "Humillados 6-0 por el Raimon de Harper Evans, Nikas y Northbright juran levantarse antes de que su escuela cierre para siempre.",
+  "intro": [
+   {
+    "text": "Northbright, la estrella ascendente de Kyushu, acaba de perder 6-0 contra el Raimon. Un recién llegado, Harper Evans, los ha arrollado."
+   },
+   {
+    "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+    "text": "¡Snif...! No pudimos hacer nada... ¡Pero no pienso quedarme llorando!"
+   },
+   {
+    "name": "Neil Turner",
+    "text": "Yo también conocí la derrota de joven, en el Instituto Brain. Se aprende más de ella que de cualquier victoria."
+   },
+   {
+    "who": "vr-hokuyou-gakuen/ivan-mercer",
+    "text": "Además, hay rumores de que la escuela va a cerrar. Si va a ser nuestra última temporada, que sea épica."
+   },
+   {
+    "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+    "text": "¡Pues decidido! ¡Recorreremos Kyushu y volveremos a por el Raimon!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "El pasado del entrenador",
+    "before": [
+     {
+      "text": "Neil Turner organiza un amistoso contra el equipo de su juventud, el Instituto Brain."
+     },
+     {
+      "name": "Neil Turner",
+      "text": "Allí aprendí lo que no hay que hacer nunca. Hoy os toca demostrar que el fútbol se juega con la cabeza... limpia."
+     },
+     {
+      "who": "ie1-mikage-sennou/victor-kind",
+      "text": "Turner... Has cambiado. Veamos si tus alumnos están a la altura."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/chase-winthrop",
+      "text": "Los deportes no se me dan bien, pero el trabajo duro sí. ¡Allá voy!"
+     }
+    ],
+    "after": [
+     {
+      "name": "Neil Turner",
+      "text": "Bien jugado. El fútbol debe ser vuestro, no de nadie más."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/bodhi-field",
+      "text": "Mente serena, piernas firmes. Las artes marciales y el balón son lo mismo."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-meiran-gakuin",
+    "title": "La reina de Kumamoto",
+    "before": [
+     {
+      "who": "vr-meiran-gakuin/elyse-reign",
+      "text": "Dicen que soy la Reina Despiadada. Vuestros sueños se romperán con elegancia."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/hawky-savard",
+      "text": "¿Elegancia? Seré de buena familia, pero en el campo juego sin corsé. ¡Allá voy, majestad!"
+     },
+     {
+      "who": "vr-hokuyou-gakuen/erdem-barath",
+      "text": "Tranquilos, chicos. Mantener la compostura es lo primero."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-meiran-gakuin/elyse-reign",
+      "text": "Hum... Habéis cambiado de táctica tres veces y no lo vi venir."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/hugh-pronghorn",
+      "text": "Lo predije todo desde el banquillo. Todo menos la sonrisa de Nikas."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-batten-yokato",
+    "title": "Duelo de fusiones",
+    "before": [
+     {
+      "who": "vr-batten-yokato/itor-sheerman",
+      "text": "Vosotros también vais a fusionaros, ¿no? Pues veamos qué equipo resiste mejor."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/milo-rankin",
+      "text": "Seré bruto, pero tengo mis principios. ¡Por aquí no pasa nadie!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-batten-yokato/vashan-morell",
+      "text": "Esas tácticas cambiantes... me han mareado."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Ataque en tres frentes! ¡Funciona! ¡Snif, qué emoción!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nishinomiya",
+    "title": "Rivales de Kyushu",
+    "before": [
+     {
+      "who": "vr-nishinomiya/laymark-starwyn",
+      "text": "Northbright... Sois los favoritos de la región. Por poco tiempo."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/sentry-scarborough",
+      "text": "Muro número uno, en posición."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/autry-rogers",
+      "text": "Muro número dos, también. ¡Nos llaman los Genios Amurallados!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nishinomiya/edgard-loathe",
+      "text": "Un equipo muy bien coordinado. Os felicito."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/conley-quiver",
+      "text": "Cuando todos dan su máximo, esto vuela."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-toufuu-ikokukan",
+    "title": "Músculo internacional",
+    "before": [
+     {
+      "who": "vr-toufuu-ikokukan/toyo-yamanouchi",
+      "text": "Tácticas, tácticas... Nosotros os pasamos por encima con pura fuerza."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/everett-shipman",
+      "text": "¿Fuerza bruta? ¡Eso también lo tengo yo!"
+     },
+     {
+      "who": "vr-hokuyou-gakuen/denzel-harvest",
+      "text": "Cañón listo. ¡Fuego!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-toufuu-ikokukan/martino-leone",
+      "text": "Buen equipo... pero yo sigo buscando a Harper Evans."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Tú y yo, Martino! Pero primero, me toca a mí."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "El amigo perdido",
+    "before": [
+     {
+      "text": "Antes del gran reto, Nikas se reencuentra con alguien a quien creía perdido para el fútbol: Destin Billows."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Nikas. Ya no juego... pero dirijo. He analizado todos tus partidos: hoy mi equipo va a ganarte."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Destin! ¡Sabía que nunca dejarías el fútbol! ¡Snif! ¡Hoy no pienso contenerme!"
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Menudo llorón. Pero juega bien, el tío."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Ve a por Harper, Nikas. Por los dos."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "Te lo prometo. ¡Lo prometo!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "Revancha contra el monstruo",
+    "before": [
+     {
+      "text": "El partido de la revancha. El Raimon que les metió seis goles vuelve a estar delante."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Ah, vosotros. El de la otra vez fue un poco rollo... ¿Hoy será distinto?"
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Hoy no lloro de pena! ¡Hoy lloraré de alegría!"
+     },
+     {
+      "name": "Neil Turner",
+      "text": "Cambiad de táctica antes de que se adapten. Que Harper no sepa nunca qué viene después."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Eh... me has hecho correr. Me ha gustado."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Lo hemos conseguido! ¡¡Snif, snif!! ¡¡Esta vez es de alegría!!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Northbright cierra sus puertas, pero su nombre queda grabado en la historia del fútbol de Kyushu."
+   },
+   {
+    "who": "vr-hokuyou-gakuen/ivan-mercer",
+    "text": "Una última temporada perfecta."
+   },
+   {
+    "name": "Neil Turner",
+    "text": "Allá donde vayáis, llevad este equipo con vosotros."
+   },
+   {
+    "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+    "text": "¡Nos vemos en South Cirrus, Destin! ¡Esta vez, en el mismo bando!"
+   }
+  ]
+ },
+ "vr-houreikan": {
+  "title": "Tribunal del fútbol",
+  "summary": "El Instituto Lawcrest de Shikoku juzga en el campo a los equipos que mancharon el fútbol con trampas. Pero ¿hay una tramposa en sus propias filas?",
+  "intro": [
+   {
+    "text": "Shikoku. En el Instituto Lawcrest, la escuela del derecho, el reglamento del fútbol se estudia como un código penal."
+   },
+   {
+    "name": "Helene Justitia",
+    "text": "La historia del fútbol está llena de trampas que nunca se juzgaron. Hoy abrimos la sesión."
+   },
+   {
+    "who": "vr-houreikan/eames-rapport",
+    "text": "Escucharemos a todos los acusados. Y luego dictaremos sentencia en el campo."
+   },
+   {
+    "who": "vr-houreikan/rufery-faire",
+    "text": "Y si alguien juega sucio, lo veré. Aunque sea uno de los nuestros."
+   },
+   {
+    "who": "vr-houreikan/cordelia-collison",
+    "text": "(Uf... El fútbol de manual me aburre. Mejor que nadie descubra mis truquitos.)"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Caso 1: el cerebro alterado",
+    "before": [
+     {
+      "who": "vr-houreikan/dion-arbiter",
+      "text": "Instituto Brain. Acusados de mejorar a sus jugadores de forma ilegal."
+     },
+     {
+      "who": "ie1-mikage-sennou/victor-kind",
+      "text": "¿Ilegal? Lo nuestro es ciencia. Vosotros sois los anticuados."
+     },
+     {
+      "who": "vr-houreikan/prudence-witt",
+      "text": "Cálculo mental terminado. Culpables en un noventa por ciento."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/victor-kind",
+      "text": "Hemos perdido... Quizá jugar sin trucos no esté tan mal."
+     },
+     {
+      "who": "vr-houreikan/eames-rapport",
+      "text": "Sentencia: jugar limpio el resto de sus días. Caso cerrado."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "Caso 2: la maldición",
+    "before": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Je, je, je... Nuestras maldiciones no aparecen en el reglamento. No hay nada que juzgar... salvo vuestro destino."
+     },
+     {
+      "who": "vr-houreikan/faust-fennrick",
+      "text": "Psicología inversa: os dejaremos maldecirnos... para que caigáis en vuestra propia trampa."
+     },
+     {
+      "who": "vr-houreikan/norwin-naeve",
+      "text": "¿Las maldiciones existen? Me lo creo todo, ¡no me hagáis eso!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Vuestra fe en las normas... es más fuerte que cualquier hechizo."
+     },
+     {
+      "who": "vr-houreikan/recco-rectenwald",
+      "text": "¿Lo he hecho bien? ¡Decidme que sí y corro otros noventa minutos!"
+     }
+    ]
+   },
+   {
+    "opponent": "go-zero",
+    "title": "Caso 3: resultados amañados",
+    "before": [
+     {
+      "text": "El Sector Quinto decidía los resultados antes de cada partido. Su equipo más temido, el Equipo Zero, comparece ante el tribunal."
+     },
+     {
+      "who": "go-zero/albion-lumina",
+      "text": "Controlar el fútbol era por el bien de todos. El orden es justicia."
+     },
+     {
+      "who": "vr-houreikan/dion-arbiter",
+      "text": "¡No! Sin libertad no hay justicia. ¡Protesto!"
+     },
+     {
+      "who": "vr-houreikan/gusto-reitonly",
+      "text": "¡Corro sin parar! ¡Lo que no sé es frenar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-zero/albion-lumina",
+      "text": "Un partido sin guion... Había olvidado lo que se siente."
+     },
+     {
+      "who": "vr-houreikan/willard-headdon",
+      "text": "Cara a cara, sin faroles. Así se gana."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-team-garshield",
+    "title": "Caso 4: la conspiración",
+    "before": [
+     {
+      "text": "Garshield usó su poder para sabotear el Fútbol Frontier Internacional. Su equipo, el Zoolan Team, se sienta en el banquillo de los acusados."
+     },
+     {
+      "who": "ie3-team-garshield/cyril-fox",
+      "text": "Pruebas, señoría. No tenéis ninguna."
+     },
+     {
+      "who": "vr-houreikan/rufery-faire",
+      "text": "¡Alto! Acabo de ver una falta... ¡Cordelia! ¿Eso ha sido tuyo?"
+     },
+     {
+      "who": "vr-houreikan/cordelia-collison",
+      "text": "¿Yo? Qué va... (Me han pillado.)"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-houreikan/eames-rapport",
+      "text": "Cordelia, nadie es perfecto. Pero en este equipo jugamos limpio. ¿Lo intentarás?"
+     },
+     {
+      "who": "vr-houreikan/cordelia-collison",
+      "text": "...Vale. Ganar limpio también tiene su emoción. Lo admito."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-zanark-strangers",
+    "title": "Caso 5: el fugitivo de CONTRA",
+    "before": [
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "¡Jajaja! Me fugué de la prisión CONTRA. ¿Y un tribunal de críos cree que va a pararme? ¡Qué divertido!"
+     },
+     {
+      "who": "vr-houreikan/normon-peeveton",
+      "text": "¡No pienso pasar desapercibido hoy! ¡Pero sin jugar duro! ¡Sin jugar duro!"
+     },
+     {
+      "who": "vr-houreikan/kieran-knavenly",
+      "text": "Formal por fuera... y por dentro, con ganas de pelea."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Tsk... Vale, me rindo. Pero solo por hoy. A Zanark no lo encierra ni un tribunal."
+     },
+     {
+      "who": "vr-houreikan/adamas-quarell",
+      "text": "¡Le dije de todo en el campo! ...Ahora me arrepiento un poco."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "Juicio final: el imperio de Ray Dark",
+    "before": [
+     {
+      "text": "El último caso es el más antiguo: la Royal Academy de hace 25 años, que ganó durante años bajo las trampas de Ray Dark."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Hmph. No negaré lo que hizo el comandante Ray Dark... pero nuestro talento era real. Os lo demostraré."
+     },
+     {
+      "who": "vr-houreikan/eames-rapport",
+      "text": "Entonces demostrádnoslo. Os escuchamos... en el campo."
+     },
+     {
+      "who": "vr-houreikan/brie-brillante",
+      "text": "¡Mucho ánimo a todos! ¡Este es el partido más importante del tribunal!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Un juicio justo... Quizá era justo lo que la Royal necesitaba desde hacía mucho."
+     },
+     {
+      "who": "vr-houreikan/eames-rapport",
+      "text": "Veredicto: el fútbol es inocente. Los culpables siempre fueron quienes lo usaron."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "Helene Justitia",
+    "text": "Se levanta la sesión. El tribunal del fútbol ha cumplido su función."
+   },
+   {
+    "who": "vr-houreikan/cordelia-collison",
+    "text": "Al final jugar limpio ha sido lo más emocionante de todo."
+   },
+   {
+    "who": "vr-houreikan/rufery-faire",
+    "text": "Ni una falta en el último partido. Ni una."
+   },
+   {
+    "who": "vr-houreikan/eames-rapport",
+    "text": "Las reglas no están para castigar, sino para que todos podamos jugar. Esa es nuestra sentencia."
+   }
+  ]
+ },
+ "vr-ijinmei-bundou": {
+  "title": "Los ilustres de la historia",
+  "summary": "Los alumnos del Instituto Visión Noble sueñan con escribir su nombre en la historia. Para lograrlo, se medirán con equipos que ya forman parte de ella.",
+  "intro": [
+   {
+    "text": "Chugoku. El Instituto Visión Noble lleva nombres de grandes personajes del pasado, y sus alumnos quieren estar a la altura."
+   },
+   {
+    "who": "vr-ijinmei-bundou/keepie-upshire",
+    "text": "Empecé a jugar en secundaria y ya soy capitán. ¡Y aún me riñen por dar toques en los pasillos!"
+   },
+   {
+    "who": "vr-ijinmei-bundou/histrion-etcher",
+    "text": "Quiero hacerme un hueco en la historia. He estudiado cada época... Ahora toca jugar contra ellas."
+   },
+   {
+    "who": "vr-ijinmei-bundou/marcelline-memoir",
+    "text": "¡Y yo lo apuntaré todo para mis memorias!"
+   },
+   {
+    "who": "vr-ijinmei-bundou/elric-spiech",
+    "text": "Compañeros, antes de empezar, un breve discurso sobre la compenetración del equipo, que dice así..."
+   },
+   {
+    "who": "vr-ijinmei-bundou/keepie-upshire",
+    "text": "¡Elric, luego! ¡Que nos vamos!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kuro-no-kishidan",
+    "title": "Caballeros de la Edad Media",
+    "before": [
+     {
+      "who": "go-kuro-no-kishidan/victor-blade",
+      "text": "Caballeros Templarios. No me hagáis perder el tiempo: el fútbol de aficionados como vosotros se acaba hoy."
+     },
+     {
+      "who": "vr-ijinmei-bundou/barney-snellman",
+      "text": "Soy lento de pies, pero rápido de mente. Ninguna espada corta un buen pase."
+     },
+     {
+      "who": "vr-ijinmei-bundou/staton-folhard",
+      "text": "¡Me encargo de la defensa, del centro del campo y de la delantera! ¡Bueno, de lo que haga falta!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-kuro-no-kishidan/victor-blade",
+      "text": "...Tsk. No me lo esperaba. Tenéis más agallas de lo que parecía."
+     },
+     {
+      "who": "vr-ijinmei-bundou/jorna-privinski",
+      "text": "Lección número uno, al diario secreto. No, no os lo pienso enseñar."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-shiroshika-gumi",
+    "title": "La era de los samuráis",
+    "before": [
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "¡La Banda del Ciervo Blanco no se rinde ante nadie! Y cuando ganemos, vuestras botas serán nuestro botín."
+     },
+     {
+      "who": "vr-ijinmei-bundou/nelvin-dustrie",
+      "text": "Un buen negocio y un buen partido se ganan igual: con cabeza fría."
+     },
+     {
+      "who": "vr-ijinmei-bundou/wilhelmina-goforth",
+      "text": "¡Y con fuego! ¡A por ellos sin miedo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "Grr... Habéis luchado como samuráis. Quedaos las botas... por esta vez."
+     },
+     {
+      "who": "vr-ijinmei-bundou/habib-liomont",
+      "text": "Antes jugaba de manual. ¡Hoy he dirigido el juego desde el centro!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "El ejército del emperador",
+    "before": [
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Por el honor de mi señor Liu Bei, el Ejército de Terracota marcha en formación perfecta. Mostradnos vuestro valor."
+     },
+     {
+      "who": "vr-ijinmei-bundou/aurelio-auditus",
+      "text": "Oigo cómo crujen sus pasos. Sé por dónde vendrán."
+     },
+     {
+      "who": "vr-ijinmei-bundou/horatio-tickner",
+      "text": "Son las cuatro en punto. Hora de atacar. Puntual, como siempre."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/zhang-fei",
+      "text": "¡Grrr! ¡Han roto la formación! ¡Qué guerreros! ¡Mi hermano Liu Bei tiene que conoceros!"
+     },
+     {
+      "who": "vr-ijinmei-bundou/marcelline-memoir",
+      "text": "Capítulo tres de mis memorias: 'Vencimos a un ejército milenario'."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "Los caballeros de la reina",
+    "before": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Inglaterra es la cuna del fútbol. Dudo que estéis a nuestra altura... pero os concederé el honor de intentarlo."
+     },
+     {
+      "who": "vr-ijinmei-bundou/basil-wanderbilt",
+      "text": "Crecí entre lujos y modales... En el campo no quiero tratos especiales. Jugad en serio."
+     },
+     {
+      "who": "vr-ijinmei-bundou/viki-devine",
+      "text": "Mirad qué cielo tan despejado. Hoy el destino juega con nosotros."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Os subestimé, y os pido disculpas. Habéis jugado como auténticos caballeros."
+     },
+     {
+      "who": "vr-ijinmei-bundou/odell-farley",
+      "text": "...Gracias por el pase. Creo que empiezo a conectar con vosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-zanark-strangers",
+    "title": "Los villanos de la historia",
+    "before": [
+     {
+      "text": "No todos los que pasaron a la historia fueron héroes. Zanark ha reunido a los villanos de todas las épocas."
+     },
+     {
+      "who": "vr-zanark-strangers/cao-cao",
+      "text": "Gobernaba Wei mientras vosotros ni existíais. La historia la escriben los vencedores."
+     },
+     {
+      "who": "vr-ijinmei-bundou/histrion-etcher",
+      "text": "¡Cao Cao en persona! Lo estudié en clase... ¡Y ahora voy a regatearle!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-zanark-strangers/cao-cao",
+      "text": "Impresionante. Quizá el futuro no esté tan perdido."
+     },
+     {
+      "who": "vr-ijinmei-bundou/chat-baltauk",
+      "text": "Cada pase habla por sí solo. Y el mío decía: gol."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-inazuma-legend-japan",
+    "title": "Las leyendas del fútbol",
+    "before": [
+     {
+      "text": "Para cerrar su viaje, se enfrentan a los nombres más grandes de la historia del fútbol japonés: el Inazuma Japón Legendario."
+     },
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¿Queréis entrar en la historia? ¡Pues venga, juguemos al fútbol!"
+     },
+     {
+      "who": "cs-inazuma-legend-japan/axel-blaze",
+      "text": "Mostradnos de qué estáis hechos."
+     },
+     {
+      "who": "vr-ijinmei-bundou/keepie-upshire",
+      "text": "¡Mark Evans! ¡Axel Blaze! Chicos, esto no es una clase de historia: ¡es la historia en persona!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-inazuma-legend-japan/mark-evans",
+      "text": "¡Qué partidazo! ¡Ya tenéis un hueco en la historia del fútbol!"
+     },
+     {
+      "who": "vr-ijinmei-bundou/keepie-upshire",
+      "text": "Nuestro nombre, al lado de las leyendas... ¡Que nadie me pellizque!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los alumnos del Instituto Visión Noble vuelven a clase con una página nueva en los libros de historia."
+   },
+   {
+    "who": "vr-ijinmei-bundou/marcelline-memoir",
+    "text": "¡Mis memorias ya tienen título: 'Los ilustres del balón'!"
+   },
+   {
+    "who": "vr-ijinmei-bundou/elric-spiech",
+    "text": "Y ahora sí, mi discurso sobre la compenetración del equipo..."
+   },
+   {
+    "who": "vr-ijinmei-bundou/keepie-upshire",
+    "text": "Vale, Elric, esta vez te lo has ganado. ¡Todos a escuchar!"
+   }
+  ]
+ },
+ "vr-keizen-arashiyama": {
+  "title": "Cuentos de keshin y fantasmas",
+  "summary": "En Kioto aún se conservan los keshin. Stormridge, entre fantasmas, zorros y cuentacuentos, viaja para reunir las historias de los espíritus del fútbol.",
+  "intro": [
+   {
+    "text": "Kioto. La Secundaria Stormridge es uno de los pocos equipos de su época que aún dominan los keshin."
+   },
+   {
+    "name": "Wythers Moonridge",
+    "text": "Los keshin son el espíritu del jugador hecho forma. Hay que conocer muchos espíritus para entender el vuestro."
+   },
+   {
+    "who": "vr-keizen-arashiyama/elijah-singleton",
+    "text": "Mi familia lleva generaciones contando historias. Esta será la mejor de todas."
+   },
+   {
+    "who": "vr-keizen-arashiyama/dawsey-geistfeld",
+    "text": "Zzz... Dicen que me posee el fantasma de una leyenda del fútbol... Zzz..."
+   },
+   {
+    "who": "vr-keizen-arashiyama/rael-abbeybogy",
+    "text": "Crecí en una casa encantada. Si hay fantasmas, yo me encargo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-genei-gakuen",
+    "title": "El primer truco",
+    "before": [
+     {
+      "who": "go-genei-gakuen/hocus-sesame",
+      "text": "¡Abracadabra! El Instituto Espejismo os hará desaparecer el balón."
+     },
+     {
+      "who": "vr-keizen-arashiyama/alistar-montero",
+      "text": "¡Ilusionistas! Esto lo grabo y se hace viral seguro."
+     },
+     {
+      "who": "vr-keizen-arashiyama/kiona-blackwell",
+      "text": "A ver qué dicen los dados... ¡Un seis! Hoy estoy de buen humor."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-genei-gakuen/pocus-sesame",
+      "text": "¿Cómo han visto el truco? ¡Nadie lo ve nunca!"
+     },
+     {
+      "who": "vr-keizen-arashiyama/kaz-bloomfield",
+      "text": "Un artista de ukiyo-e ve todos los detalles. Sus trucos tenían costuras."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "La noche de los fantasmas",
+    "before": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Je, je, je... Bienvenidos al Instituto Occult. Aquí el miedo es nuestra mejor supertécnica."
+     },
+     {
+      "who": "vr-keizen-arashiyama/rael-abbeybogy",
+      "text": "¿Miedo? Yo cené anoche con tres fantasmas. Nada me altera."
+     },
+     {
+      "who": "vr-keizen-arashiyama/govin-castlehoven",
+      "text": "Lo que me gusta es asustar yo a los demás. Con mi keshin."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "¿Nos han asustado ellos a nosotros? Esto no estaba en el libro de hechizos."
+     },
+     {
+      "who": "vr-keizen-arashiyama/dawsey-geistfeld",
+      "text": "Zzz... Gol... Zzz..."
+     }
+    ]
+   },
+   {
+    "opponent": "go-dragonlink",
+    "title": "El dragón de cinco cabezas",
+    "before": [
+     {
+      "who": "go-dragonlink/david-quintola",
+      "text": "Soy heredero de un linaje milenario. Dragon Link: cinco keshin, cinco colmillos. ¿Cuántos tenéis vosotros?"
+     },
+     {
+      "who": "vr-keizen-arashiyama/blaine-westbrook",
+      "text": "Los suficientes. Os cortaré en pedazos con precisión de bisturí."
+     },
+     {
+      "who": "vr-keizen-arashiyama/rohan-snatchett",
+      "text": "Uf, me tiemblan las piernas... ¡Pero interceptaré ese balón!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-dragonlink/david-quintola",
+      "text": "Vuestros keshin son distintos... como si contaran una historia."
+     },
+     {
+      "who": "vr-keizen-arashiyama/elijah-singleton",
+      "text": "Es que eso es lo que son. Cuentos con alma."
+     }
+    ]
+   },
+   {
+    "opponent": "go-seidouzan",
+    "title": "El monte de los dioses",
+    "before": [
+     {
+      "who": "go-seidouzan/coeus-heavens",
+      "text": "El Colegio Monte Olimpo invoca a los titanes. Vuestros fantasmitas no tienen nada que hacer."
+     },
+     {
+      "who": "vr-keizen-arashiyama/floramira-pagotta",
+      "text": "Que todo el público mire aquí. Esta escena es mía."
+     },
+     {
+      "who": "vr-keizen-arashiyama/volk-lorius",
+      "text": "..."
+     },
+     {
+      "who": "vr-keizen-arashiyama/marinus-courier",
+      "text": "¿Dónde está Volk? ¡Ah! Ya le ha robado el balón a alguien."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-seidouzan/coeus-heavens",
+      "text": "Un zorro enmascarado nos ha robado el Olimpo... Increíble."
+     },
+     {
+      "who": "vr-keizen-arashiyama/lennox-portsman",
+      "text": "Este gol va por mi novia. ¡Como todos!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "La luna llena",
+    "before": [
+     {
+      "text": "La leyenda del clan Aullido Lunar habla de un poder que despierta bajo la luna llena."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Bajo la luna, somos lobos. Y los lobos cazan."
+     },
+     {
+      "who": "vr-keizen-arashiyama/drexel-kixley",
+      "text": "¿Lobos? Yo me peleo con jabalíes después de entrenar. No me asustáis."
+     },
+     {
+      "who": "vr-keizen-arashiyama/umbren-lightwood",
+      "text": "Desde mi lesión no fuerzo: esquivo. Y a un lobo se le esquiva igual."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "El aullido se apaga... Sois un clan digno."
+     },
+     {
+      "who": "vr-keizen-arashiyama/zelane-whitlow",
+      "text": "¡Himno de la escuela, todos conmigo! ¡Ganemos o perdamos!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "El último cuento",
+    "before": [
+     {
+      "text": "La última historia es la de un equipo que viajó por el tiempo y llevó los keshin a su forma más poderosa: el Chrono Storm."
+     },
+     {
+      "who": "cs-chrono-storm/victor-blade",
+      "text": "Keshin, mixi max, armaduras... Lo hemos visto todo. Pero no subestimo a nadie. Enseñadnos lo vuestro."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Seguro que tienen algo! ¡Cada keshin es diferente! Tranquilo, Victor, ¡todo saldrá bien! ¡Juguemos!"
+     },
+     {
+      "who": "vr-keizen-arashiyama/elijah-singleton",
+      "text": "Stormridge, contemos la historia más grande de Kioto. ¡Todos los keshin, ahora!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Increíble! ¡Vuestros keshin tenían alma propia!"
+     },
+     {
+      "who": "vr-keizen-arashiyama/dawsey-geistfeld",
+      "text": "Uah... ¿Ya hemos ganado? Pues me he despertado justo a tiempo para el gol."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "En Kioto, bajo los arces de Arashiyama, la historia de Stormridge ya se cuenta de casa en casa."
+   },
+   {
+    "name": "Wythers Moonridge",
+    "text": "Habéis conocido muchos espíritus. Ahora el vuestro brilla con luz propia."
+   },
+   {
+    "who": "vr-keizen-arashiyama/kiona-blackwell",
+    "text": "Los dados dicen... ¡un seis! Está claro que seguiremos ganando."
+   },
+   {
+    "who": "vr-keizen-arashiyama/elijah-singleton",
+    "text": "Y colorín colorado, este keshin... no ha hecho más que empezar."
+   }
+  ]
+ },
+ "vr-meiran-gakuin": {
+  "title": "La gala de la Reina Despiadada",
+  "summary": "La Academia Orchid, colegio de señoritas de Kumamoto, organiza su gala invitacional. Elyse Reign quiere coronarse reina frente a los reyes del fútbol.",
+  "intro": [
+   {
+    "text": "Kumamoto. La Academia Orchid, colegio de señoritas de fama mundial, celebra su gala invitacional de fútbol."
+   },
+   {
+    "who": "vr-meiran-gakuin/elyse-reign",
+    "text": "Dicen que soy la Reina Despiadada. Esta gala servirá para demostrar que me lo merezco."
+   },
+   {
+    "who": "vr-meiran-gakuin/celina-lavelle",
+    "text": "Exijo perfección a todas. Y el doble a mí misma. Nada de fallos en la gala."
+   },
+   {
+    "who": "vr-meiran-gakuin/galia-flair",
+    "text": "¡Y mucho estilo! ¡Que el público pida más a gritos!"
+   },
+   {
+    "who": "vr-meiran-gakuin/lenora-graves",
+    "text": "He recitado un conjuro de buena suerte. O de mala suerte para los rivales. No me acuerdo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-umi-kamome-soccer-club",
+    "title": "El partido benéfico",
+    "before": [
+     {
+      "text": "La gala empieza con un partido benéfico contra las Gaviotas FC, un club de primaria."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/kean-aimes",
+      "text": "¿Chicas de colegio pijo? ¡Os vamos a ganar como en un videojuego!"
+     },
+     {
+      "who": "vr-meiran-gakuin/evelyn-hale",
+      "text": "Qué monos... Pero si alguien se hace daño, que venga a la enfermería de su hermana mayor."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-umi-kamome-soccer-club/asuna-sugami",
+      "text": "¡Qué elegantes! ¡De mayor quiero jugar así!"
+     },
+     {
+      "who": "vr-meiran-gakuin/liliane-alban",
+      "text": "Qué momento tan mono... Esto va directo a mi manga."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-batten-yokato",
+    "title": "Macarras en la gala",
+    "before": [
+     {
+      "who": "vr-batten-yokato/vinda-koral",
+      "text": "¿Una gala? Leo en vuestras caras que no esperabais a gente como nosotros. Tranquilas: solo venimos a reventarla... jugando."
+     },
+     {
+      "who": "vr-meiran-gakuin/kiyora-asakiri",
+      "text": "Me educaron samuráis. Os pido respeto en este campo."
+     },
+     {
+      "who": "vr-meiran-gakuin/eliza-florence",
+      "text": "Y si no hay respeto, hay músculo. Elijo yo."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-batten-yokato/benton-zellner",
+      "text": "Vale, vale... Retiro lo de reventar la gala. ¡Pero quien me ha pisado las botas que no se me acerque!"
+     },
+     {
+      "who": "vr-meiran-gakuin/amara-winslow",
+      "text": "Todas de acuerdo: ¡ha sido una victoria preciosa!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-gatekeepers",
+    "title": "Invitadas del futuro",
+    "before": [
+     {
+      "text": "De repente, un escuadrón de agentes del tiempo se cuela en la gala persiguiendo a un fugitivo... y acepta un partido."
+     },
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Ya que estamos aquí, ¿un partido? Nuestro escuadrón gana siempre, sea un caso o un partido."
+     },
+     {
+      "who": "vr-meiran-gakuin/adelina-gearhart",
+      "text": "He entrenado con robots que yo misma construí. ¡Contra el futuro estoy preparada!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-gatekeepers/mira-lysander",
+      "text": "Qué ambición la de esa reina... Me recuerda a mí."
+     },
+     {
+      "who": "vr-meiran-gakuin/selene-trance",
+      "text": "Autohipnosis desactivada... ¿Ya hemos ganado? Qué vergüenza..."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "Nobleza obliga",
+    "before": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Una reina invita a sus caballeros. Será un honor jugar en vuestra gala."
+     },
+     {
+      "who": "vr-meiran-gakuin/lilia-charmont",
+      "text": "¡Caballeros ingleses de verdad! ¡Firmadme la camiseta después, por favor!"
+     },
+     {
+      "who": "vr-meiran-gakuin/margie-frostveil",
+      "text": "A mis favoritas, todo mi cariño. A vosotros, hielo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Majestad, ha sido un placer perder ante usted."
+     },
+     {
+      "who": "vr-meiran-gakuin/elyse-reign",
+      "text": "El placer es mío. Aunque no te lo diré dos veces."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-osaka-gals-ccc",
+    "title": "Duelo de damas",
+    "before": [
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡Anda, las finas de Kumamoto! Pues las Triple C de Osaka también tenemos estilo, ¿eh? ¡Y más gracia!"
+     },
+     {
+      "who": "vr-meiran-gakuin/clarisse-luxe",
+      "text": "Quiero esa coleta tan mona... Bueno, en cuanto la tenga ya no la querré."
+     },
+     {
+      "who": "vr-meiran-gakuin/elara-silvane",
+      "text": "Yo voy sola. Las veo venir antes de que lleguen."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-osaka-gals-ccc/lily-willow",
+      "text": "¡Qué tías! ¡Os queremos en Osaka!"
+     },
+     {
+      "who": "vr-meiran-gakuin/talia-jester",
+      "text": "¿Sabéis qué le dijo un balón a otro? ¡Nos vemos en la red! ...¿Nadie se ríe?"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "La reina contra los reyes",
+    "before": [
+     {
+      "text": "El invitado de honor de la gala: el Instituto Raimon, los reyes del fútbol japonés."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Gracias por la invitación. He estudiado cada partido de vuestra gala, así que no vamos a regalaros nada."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Una gala... qué rollo. A no ser que el partido sea interesante."
+     },
+     {
+      "who": "vr-meiran-gakuin/elyse-reign",
+      "text": "Lo será. Los sueños de los reyes también se rompen. Con elegancia."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Vale, retiro lo de rollo. Ha sido muy divertido."
+     },
+     {
+      "who": "vr-meiran-gakuin/elyse-reign",
+      "text": "Hoy hay una sola corona en el campo. Y es mía."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La gala de la Academia Orchid termina con la reina en lo más alto del podio."
+   },
+   {
+    "who": "vr-meiran-gakuin/celina-lavelle",
+    "text": "Perfección absoluta. Bueno... casi. El año que viene, más."
+   },
+   {
+    "who": "vr-meiran-gakuin/liliane-alban",
+    "text": "¡Tengo material para tres tomos de manga!"
+   },
+   {
+    "who": "vr-meiran-gakuin/elyse-reign",
+    "text": "Despiadada en el campo, sí. Pero fuera de él... gracias, chicas. Por todo."
+   }
+  ]
+ },
+ "vr-nagumohara": {
+  "title": "El camino de la victoria",
+  "summary": "Destin no puede jugar, pero puede dirigir. Desde un club prohibido hasta la final del Fútbol Frontier contra el invicto Raimon de Harper Evans.",
+  "main": true,
+  "intro": [
+   {
+    "text": "Nagasaki, Kyushu. En la Secundaria South Cirrus el fútbol lleva cinco años prohibido por un incidente que nadie quiere recordar."
+   },
+   {
+    "who": "vr-nagumohara/destin-billows",
+    "text": "Me matriculé aquí precisamente por eso. Una cardiopatía me quitó el fútbol de niño... Prefiero olvidarlo."
+   },
+   {
+    "text": "Pero un chaval con fama de macarra y una patada brutal, Briar Bloomhurst, y un compañero pesadísimo, Cedric Freud, se cruzan en su camino."
+   },
+   {
+    "who": "vr-nagumohara/thierry-reyes",
+    "text": "¿Fútbol? Qué antiguo. Este patio es del Club de Béisbol... y de mis fans. Si queréis el campo, tendréis que ganárnoslo."
+   },
+   {
+    "who": "vr-nagumohara/destin-billows",
+    "text": "Yo ya no puedo jugar, pero puedo dirigir. Briar, enfréntate a tu destino: vamos a devolverle el fútbol a esta escuela."
+   },
+   {
+    "who": "vr-nagumohara/briar-bloomhurst",
+    "text": "Tsk... Deja de darme la lata. Vale, juego. Pero como me hagas perder el tiempo, te enteras."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-nagumohara-shopkeepers",
+    "title": "Pachanga en el callejón",
+    "before": [
+     {
+      "text": "Mientras Destin ensaya un duelo de baile para fichar a Raika, Briar y Cedric reciben una invitación inesperada."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+      "text": "¡Eh, chavales! Si queréis entrenar, los tenderos de South Cirrus os damos guerra. ¡Y luego, fideos para todos!"
+     },
+     {
+      "who": "vr-nagumohara/cedric-freud",
+      "text": "¡Briar, Briar, Briar! ¡Son los de la calle comercial! ¿Sabías que el carnicero embiste como un toro? ¡Venga, que te acompaño!"
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Deja de tirarme de la manga. Si hay balón, juego. Punto."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+      "text": "¡Buen partido! Con esas piernas, el fútbol de esta escuela tiene futuro."
+     },
+     {
+      "text": "Esa misma tarde, Destin gana el duelo de baile y Raika Shinohara se une al club."
+     },
+     {
+      "who": "vr-nagumohara/raika-shinohara",
+      "text": "¡Me lo he pasado genial! A mí lo que me gusta es el camino, no el resultado. ¡Contad conmigo!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-umi-kamome-soccer-club",
+    "title": "Lección en la cala",
+    "before": [
+     {
+      "text": "Para recuperar el campo, South Cirrus debe vencer al equipo del Club de Béisbol. Antes, necesita rodaje."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/kean-aimes",
+      "text": "¿Vosotros sois los de secundaria? ¡Pues las Gaviotas no se dejan ganar ni por los mayores!"
+     },
+     {
+      "who": "vr-nagumohara/alix-la-fontaine",
+      "text": "Normas del club, artículo uno: nadie marca en mi portería. Y yo no me salto ni una norma."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Son niños, pero juegan sin miedo. Analizad cómo ocupan los espacios. Quien no aprenda nada hoy, mañana entrena el doble."
+     }
+    ],
+    "after": [
+     {
+      "text": "Una parada de Alix La Fontaine decide el duelo en la arena de la cala."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/asuna-sugami",
+      "text": "¡Jo, qué parada! Cuando sea mayor, yo también jugaré en un equipo de verdad."
+     },
+     {
+      "text": "Días después, South Cirrus derrota al Club de Béisbol. Su capitán, Thierry Reyes, acaba uniéndose al club de fútbol."
+     },
+     {
+      "who": "vr-nagumohara/thierry-reyes",
+      "text": "He perdido, y yo no dejo deudas. Desde hoy juego con vosotros... y mis fans vendrán a verme. ¡Que empiece el show!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nikogawa",
+    "title": "El amistoso de Saga",
+    "before": [
+     {
+      "text": "Resuelto el misterio que pesaba sobre la escuela, South Cirrus se inscribe en el Fútbol Frontier. Su primer rival será la Academia West Manor."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Antes del torneo necesitamos un partido de verdad. El Instituto Twinford, de un pueblo de Saga, ha aceptado."
+     },
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "Los de ciudad siempre nos miráis por encima del hombro. ¡Este mochi de artemisa dice que hoy os ganamos!"
+     },
+     {
+      "who": "vr-nikogawa/asher-norwood",
+      "text": "Con todo el respeto del mundo... os vamos a dar una lección de campo."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "Uf... Jugáis mejor de lo que pensaba. ¡Ganad a West Manor por nosotros!"
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Primer partido de verdad, primera victoria. Esto empieza a gustarme."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nishinomiya",
+    "title": "La primera ronda",
+    "before": [
+     {
+      "text": "Primera ronda regional. West Manor, la gran rival académica de South Cirrus, llega más fuerte que nunca gracias a su gerente, Yasmin Tausend."
+     },
+     {
+      "name": "Yasmin Tausend",
+      "text": "Hemos traído refuerzos: Darian Moonward y Harper Evans, del Raimon. Este año no caeremos en primera ronda."
+     },
+     {
+      "who": "vr-nishinomiya/laymark-starwyn",
+      "text": "Sin puntos débiles. Cada movimiento de este equipo está calculado."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "¿Que juegue aquí un rato? Vale... A ver si al menos no es tan aburrido como siempre."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Hasta que encontremos el ritmo no podremos usar nuestras supertécnicas. Aguantad la primera parte."
+     }
+    ],
+    "after": [
+     {
+      "text": "Tras el 3-0 de la primera parte, West Manor retira a las dos estrellas del Raimon. South Cirrus remonta a golpe de supertécnica."
+     },
+     {
+      "who": "vr-nishinomiya/edgard-loathe",
+      "text": "Increíble... Os subestimamos. Como presidente del consejo, reconozco la derrota."
+     },
+     {
+      "who": "vr-nagumohara/raika-shinohara",
+      "text": "¡Tiro rotatorio a la red! ¡Venga, todos a emocionarse! ¡Seguimos en el torneo!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-hokuyou-gakuen",
+    "title": "El rival llorón",
+    "before": [
+     {
+      "text": "Segunda ronda: la Secundaria Northbright, la estrella ascendente de Kyushu, entrenada por Neil Turner."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Destin! Sabía que volverías a un campo de fútbol... ¡Snif! Perdona, es que me emociono."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Nikas Himmelstein. La última vez que jugamos fue el día en que mi corazón dijo basta."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "Raimon nos humilló 6-0. ¡No pienso perder también contra ti! Nuestras tácticas cambian a cada minuto."
+     },
+     {
+      "name": "Neil Turner",
+      "text": "El campo está empapado. Su arma secreta no les servirá de nada."
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Que esperen a la segunda parte. Cuando se seque, sonará el Trueno de primavera."
+     }
+    ],
+    "after": [
+     {
+      "text": "El césped se seca en la segunda parte y el Trueno de primavera de Briar decide el partido."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Snif...! Habéis ganado. Y traigo noticias: Northbright cierra. Todos nos trasladamos a South Cirrus."
+     },
+     {
+      "who": "vr-nagumohara/cedric-freud",
+      "text": "¿¡Cómo!? ¿Nuestro rival va a ser compañero? ¡Pues habrá que enseñarle la escuela! ¡Yo me encargo del tour!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-toufuu-ikokukan",
+    "title": "¡South Cirrus, sé uno!",
+    "before": [
+     {
+      "text": "La fusión parte el club en dos bandos: el equipo de Destin y el de Neil Turner. Y la final regional está a la vuelta de la esquina."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Internacional Eastwind: físicos de bachillerato y el triple de potencia que nosotros. Pero no usan tácticas."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/toyo-yamanouchi",
+      "text": "No necesitamos tácticas. Con nuestra fuerza basta para barrer a cualquiera."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/martino-leone",
+      "text": "No he venido a Japón por vosotros. Mi objetivo es Harper Evans. Sois solo un trámite."
+     },
+     {
+      "who": "vr-nagumohara/thierry-reyes",
+      "text": "Bandos o no, hoy somos un solo equipo. ¡Defensa total y todo para los últimos quince minutos!"
+     }
+    ],
+    "after": [
+     {
+      "text": "South Cirrus resiste y, en los últimos quince minutos, desata su ofensiva contra un Eastwind sin aliento."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/toyo-yamanouchi",
+      "text": "Nos ha ganado la estrategia... Guardaos esta victoria como un trofeo."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Campeones de Kyushu. Todo según lo previsto. Siguiente objetivo: Tokio y la fase nacional."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-rojiura-backkicks",
+    "title": "Viejos conocidos",
+    "before": [
+     {
+      "text": "En el campo de Odaiba aparecen caras conocidas: los matones del callejón con los que Briar se peleó."
+     },
+     {
+      "who": "vr-rojiura-backkicks/saburo-mizuki",
+      "text": "¡Eh, tranquilos! Venimos a felicitaros. Y a entrenar con vosotros, si os atrevéis."
+     },
+     {
+      "who": "vr-rojiura-backkicks/holden-monday",
+      "text": "Somos los Goleadores del Callejón. Nuestro entrenador es El Segundo... Sí, el perro. No te rías."
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "La última vez acabamos a golpes. Esta vez, que hable el balón."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-rojiura-backkicks/june-davidson",
+      "text": "Buenas piernas, chaval. Ahora id y reventad el torneo nacional."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Hasta los rivales de ayer nos empujan hacia delante. No podemos fallarles."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-keizen-arashiyama",
+    "title": "El keshin en la tormenta",
+    "before": [
+     {
+      "text": "Primera ronda nacional: la Secundaria Stormridge, de Kioto, uno de los pocos equipos de esta época que aún dominan los keshin."
+     },
+     {
+      "who": "vr-keizen-arashiyama/elijah-singleton",
+      "text": "Mi familia lleva generaciones contando historias. Hoy contaremos la de vuestra derrota."
+     },
+     {
+      "who": "vr-keizen-arashiyama/blaine-westbrook",
+      "text": "Mi keshin os abrirá en canal. Con precisión de bisturí."
+     },
+     {
+      "who": "vr-nagumohara/cedric-freud",
+      "text": "¿Keshin? ¡Nosotros no tenemos nada parecido!"
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Todavía no, Cedric. Pero dar espectáculo se te da mejor que a nadie."
+     }
+    ],
+    "after": [
+     {
+      "text": "Con Stormridge dominando, Cedric despierta su alma de showman y South Cirrus remonta en la segunda parte."
+     },
+     {
+      "who": "vr-keizen-arashiyama/elijah-singleton",
+      "text": "Qué final tan inesperado... Así son las mejores historias."
+     },
+     {
+      "who": "vr-nagumohara/cedric-freud",
+      "text": "¡Señoras y señores, el espectáculo acaba de empezar!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "Aprender del algoritmo",
+    "before": [
+     {
+      "text": "Royal Academy, el imperio de las supertácticas, espera en semifinales. Destin busca rivales con los que ensayar nuevas tácticas."
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "La IA dice que vamos a perder. Yo digo que la IA no sabe nada de corazón. ¡A jugar!"
+     },
+     {
+      "who": "vr-ai-gakuen/zuzu-intel",
+      "text": "Le he preguntado a la IA por vuestro punto débil. Dice que sois... impredecibles. Qué rabia."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Perfecto. Necesitamos aprender a romper un plan perfecto."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "¡Ja! Ni la máquina ni yo lo vimos venir. Ganadle a Royal por nosotros."
+     },
+     {
+      "who": "vr-nagumohara/tai-richter",
+      "text": "L-los huecos del campo... cada vez los veo más claros. ¡Esto funciona de verdad!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-houreikan",
+    "title": "Juego limpio",
+    "before": [
+     {
+      "who": "vr-houreikan/eames-rapport",
+      "text": "El Instituto Lawcrest acepta el amistoso. Que gane quien mejor respete las reglas."
+     },
+     {
+      "who": "vr-houreikan/rufery-faire",
+      "text": "Detecto el juego sucio a la legua. Ni lo intentéis."
+     },
+     {
+      "who": "vr-nagumohara/thierry-reyes",
+      "text": "¿Juego sucio? Por favor. Yo gano con clase y con mis fans mirando, no a patadas."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-houreikan/eames-rapport",
+      "text": "Veredicto: culpables de jugar mejor. Suerte contra Royal."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Las nuevas tácticas están listas. Royal Academy, allá vamos."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-senjutsu-no-teikoku",
+    "title": "El mundo de Alice",
+    "before": [
+     {
+      "text": "Semifinales. Royal Academy, dirigida por Alice Rendell, 'Alice en el País de las Futmaravillas', domina con supertácticas en ataque y en defensa."
+     },
+     {
+      "name": "Alice Rendell",
+      "text": "Bienvenidos a mi país de las maravillas. Aquí todo sigue mi guion."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+      "text": "Leo cada jugada de Alice al instante. No hay un solo hueco en nuestra estrategia."
+     },
+     {
+      "who": "vr-nagumohara/cade-shelby",
+      "text": "Uf... Demasiada gente, demasiada presión. Dejadme solo en mi caparazón..."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Aguanta la primera parte, Cade. En la segunda, tú serás nuestra sorpresa."
+     }
+    ],
+    "after": [
+     {
+      "text": "Tras resistir las supertácticas de Royal, Cade Shelby se transforma y lidera la remontada. ¡South Cirrus está en la final!"
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+      "text": "Alice... nuestra estrategia era perfecta. Les sobraba justo lo que no se puede calcular."
+     },
+     {
+      "who": "vr-nagumohara/cade-shelby",
+      "text": "...Lo he conseguido. He salido del caparazón. Pero luego dejadme un rato solo, ¿vale?"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "El sol tras las nubes",
+    "before": [
+     {
+      "text": "La final del Fútbol Frontier. Enfrente, el invicto Instituto Raimon, el gran campeón de Japón."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Habéis llegado lejos, South Cirrus. Pero el trono del Raimon no se regala."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Destin... Contigo el fútbol por fin parece divertido. Demuéstrame por qué."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Harper, el fútbol me lo quitó todo y me lo devolvió todo. Hoy dirijo desde el césped."
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Todo el camino nos ha traído hasta aquí. ¡A por ellos, South Cirrus!"
+     }
+    ],
+    "after": [
+     {
+      "text": "En un partido sin precedentes, South Cirrus derrota al Raimon y rompe su racha de victorias."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "He perdido... y me lo he pasado mejor que nunca. Gracias, Destin."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "El trono es vuestro. Defendedlo bien, porque volveremos."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "South Cirrus, el club que hace unos meses ni existía, es campeón del Fútbol Frontier."
+   },
+   {
+    "who": "vr-nagumohara/destin-billows",
+    "text": "No puedo correr como vosotros, pero hoy he vivido el mejor partido de mi vida."
+   },
+   {
+    "who": "vr-nagumohara/raika-shinohara",
+    "text": "¡Y lo mejor de todo ha sido el camino hasta aquí!"
+   },
+   {
+    "who": "vr-nagumohara/briar-bloomhurst",
+    "text": "Mis padres estaban en la grada. Destin... no te acostumbres, pero gracias por obligarme a enfrentarme a mi destino."
+   },
+   {
+    "text": "Entre las nubes del sur asoma el sol. El camino de la victoria no ha hecho más que empezar."
+   }
+  ]
+ },
+ "vr-nagumohara-shopkeepers": {
+  "title": "Salvemos la calle comercial",
+  "summary": "Una gran cadena quiere comprar la calle comercial de Nagasaki. Los tenderos de South Cirrus cuelgan el delantal y se calzan las botas para salvarla.",
+  "intro": [
+   {
+    "text": "Nagasaki. Una gran cadena de supermercados quiere derribar la calle comercial y construir un centro comercial."
+   },
+   {
+    "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+    "text": "¿Cerrar mi restaurante de fideos? ¡Ni hablar! Si hay que pelear, pelearemos... con un balón."
+   },
+   {
+    "name": "Joon Kim",
+    "text": "¡Escuchadme todos! El ayuntamiento organiza un torneo de barrios. ¡Si lo ganamos, la calle se salva! ¡Arriba esos corazones!"
+   },
+   {
+    "who": "vr-nagumohara-shopkeepers/lorcan-oxfield",
+    "text": "No os dejéis engañar por mi sonrisa de carnicero. ¡Voy a embestir como un toro!"
+   },
+   {
+    "who": "vr-nagumohara-shopkeepers/marlin-sharkey",
+    "text": "¿El pescadero y el carnicero en el mismo bando? Por una vez, vale... ¡Pero que no se te suba a la cabeza, Lorcan!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-ichibangai-sally-s",
+    "title": "Calle contra calle",
+    "before": [
+     {
+      "text": "Primer rival: los Sallys, un equipo de vecinos de la calle comercial de Inazuma, que viene de visita al torneo."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/suzanne-yuma",
+      "text": "¡Ay, otra calle comercial! Qué ilusión, hijos. ¡Que gane la mejor, y luego os llevo fruta fresquita!"
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/sheila-threadwell",
+      "text": "Somos Magic Moves y compañía. ¡Seguidme, que esto es un espectáculo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/suzanne-yuma",
+      "text": "¡Mucha suerte, cariños! Las calles comerciales tenemos que estar unidas."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/primavera-bluefield",
+      "text": "Para celebrarlo, champon gratis. ¡Lo he mejorado todavía más!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-umi-kamome-soccer-club",
+    "title": "Los clientes del futuro",
+    "before": [
+     {
+      "who": "vr-umi-kamome-soccer-club/kean-aimes",
+      "text": "¡Los de la heladería y la tienda de cartas! ¡Hoy no os compraremos nada, os ganaremos!"
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/cinnamon-dougherty",
+      "text": "Probemos algo nuevo: una táctica de G-Mart, recién salida del horno."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/he-liu",
+      "text": "Respirad. El taichi enseña que la fuerza tranquila siempre gana."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-umi-kamome-soccer-club/reamond-lockhard",
+      "text": "Vale, habéis ganado... ¿Me vendéis luego un sobre de cartas raras?"
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/newman-wiford",
+      "text": "Tengo registrado cada movimiento de los niños. ¡Qué rápidos son!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-rojiura-backkicks",
+    "title": "Los del callejón",
+    "before": [
+     {
+      "who": "vr-rojiura-backkicks/holden-monday",
+      "text": "La calle comercial y el callejón siempre han sido vecinos. Hoy, rivales."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/brandy-ryehart",
+      "text": "Levanto barriles todos los días. Unos chavales del callejón no me dan miedo."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/pattie-whitfield",
+      "text": "¡Y yo os quito el balón con mi barriga de hamburguesero!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-rojiura-backkicks/june-davidson",
+      "text": "Si cierran la calle, ¿dónde comeremos fideos? Os apoyamos."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/vera-presswell",
+      "text": "Ni una mancha en el uniforme. ¡Perfecto!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nikogawa",
+    "title": "Mercado contra pueblo",
+    "before": [
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "¿Los de la ciudad pidiendo ayuda? Nosotros también sabemos lo que es luchar por tu pueblo."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/alvaro-ventura",
+      "text": "Corro todas las mañanas para Kool Kit. ¡Nadie sabrá por dónde salgo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "Toma, un mochi de artemisa. Para la final."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/mirina-mackrell",
+      "text": "Yelena, lo estamos consiguiendo. Como cuando éramos niñas."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-hokuyou-gakuen",
+    "title": "La semifinal",
+    "before": [
+     {
+      "who": "vr-hokuyou-gakuen/ivan-mercer",
+      "text": "Admiro lo que hacéis. Pero en el campo no habrá descuento."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/gibson-forte",
+      "text": "Era guitarrista de rock. ¡Este chut va a sonar como el final de un concierto!"
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/terra-hillcroft",
+      "text": "Persigo a un gato malcriado por hectáreas de terreno. ¡Ningún balón se me escapa!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Snif! ¡Qué bonito luchar por tu barrio!"
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/love-stirling",
+      "text": "Un poco de descaro y un regate... y a la final."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "La final del barrio",
+    "before": [
+     {
+      "text": "La final del torneo: los chavales de la Secundaria South Cirrus, con los que los tenderos entrenaron una vez."
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Tsk. Os debemos una. Justo por eso no pienso dejaros ganar."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Si os regalamos el partido, la victoria no valdría nada. Dadlo todo."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+      "text": "¡Así me gusta! ¡Tenderos de South Cirrus, por nuestra calle!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara/cedric-freud",
+      "text": "¡Habéis ganado! ¡Ahora tenéis que invitarnos a fideos a todos!"
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+      "text": "¡Hecho! ¡Esta noche, fideos para todo el barrio!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La calle comercial de Nagasaki se salva. El centro comercial tendrá que buscar otro sitio."
+   },
+   {
+    "who": "vr-nagumohara-shopkeepers/lorcan-oxfield",
+    "text": "Mañana, oferta especial en la carnicería: ¡filete de campeón!"
+   },
+   {
+    "who": "vr-nagumohara-shopkeepers/marlin-sharkey",
+    "text": "Y en la pescadería, ¡atún de la victoria!"
+   },
+   {
+    "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+    "text": "Fútbol, fideos y vecinos. Eso es lo que hace grande a un barrio."
+   }
+  ]
+ },
+ "vr-nikogawa": {
+  "title": "El orgullo del pueblo",
+  "summary": "Los chicos del Instituto Twinford, de un pequeño pueblo de Saga, salen al mundo para demostrar que el fútbol de campo no tiene nada que envidiar al de la ciudad.",
+  "intro": [
+   {
+    "text": "Un pueblo de Saga, entre arrozales y montañas. El Instituto Twinford lo forman cazadores, pescadores y vecinos de toda la vida."
+   },
+   {
+    "who": "vr-nikogawa/vearn-dashwood",
+    "text": "Los de ciudad siempre nos miran por encima del hombro. ¡Este mochi de artemisa dice que eso se acaba!"
+   },
+   {
+    "who": "vr-nikogawa/asher-norwood",
+    "text": "Con todo respeto... estoy deseando ganar a gente de ciudad."
+   },
+   {
+    "who": "vr-nikogawa/rowland-brightwood",
+    "text": "He entrevistado a medio pueblo. Todos nos apoyan. ¡Y ya tengo los puntos débiles de los rivales!"
+   },
+   {
+    "who": "vr-nikogawa/hobie-chartwood",
+    "text": "He dibujado el mapa de la gira. Primera parada: un equipo que vive en plena naturaleza."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "Hermanos de la naturaleza",
+    "before": [
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "¡Uh, uh, ah! ¡El Instituto Wild vive en la selva! ¿Sois de campo? ¡Pues demostradlo, a ver quién ruge más fuerte!"
+     },
+     {
+      "who": "vr-nikogawa/orin-wildwood",
+      "text": "Mi familia es de cazadores. Afino la puntería intentando cazar jabalíes a balonazos."
+     },
+     {
+      "who": "vr-nikogawa/tristan-brookwood",
+      "text": "Y yo conozco más peces que personas. La paciencia es mi defensa."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "¡Uh, uh! ¡Sois salvajes de verdad! ¡Así me gusta!"
+     },
+     {
+      "who": "vr-nikogawa/lydia-trailwood",
+      "text": "¡Caramelos para todos! Los repartía a los turistas, ahora a los rivales."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-meiran-gakuin",
+    "title": "Las señoritas de la ciudad",
+    "before": [
+     {
+      "who": "vr-meiran-gakuin/elyse-reign",
+      "text": "¿Un equipo de pueblo en nuestra academia? Qué... pintoresco."
+     },
+     {
+      "who": "vr-nikogawa/nathaniel-whitewood",
+      "text": "Soy de cuna noble, pero de pueblo. Mis pases elegantes golpean como un martillo."
+     },
+     {
+      "who": "vr-nikogawa/lila-glosswood",
+      "text": "¡Qué peinados tan de ciudad! Algún día me haré una permanente así..."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-meiran-gakuin/elyse-reign",
+      "text": "Retiro lo de pintoresco. Jugáis con raíces."
+     },
+     {
+      "who": "vr-nikogawa/asher-norwood",
+      "text": "Gracias, muy amable. (Toma ya.)"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nishinomiya",
+    "title": "Los empollones de la ciudad",
+    "before": [
+     {
+      "who": "vr-nishinomiya/laymark-starwyn",
+      "text": "Nuestra estrategia supera a cualquier equipo de pueblo. Es pura matemática."
+     },
+     {
+      "who": "vr-nikogawa/calvin-sixwood",
+      "text": "Soy el mayor de seis hermanos. He domado más caos del que podéis calcular."
+     },
+     {
+      "who": "vr-nikogawa/emory-plainwood",
+      "text": "¡Y yo no tengo filtro! ¡Os vais a enterar! ...Ups, ¿me he pasado?"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nishinomiya/moby-tidbitt",
+      "text": "No tenía datos sobre vosotros en mi enciclopedia. Error mío."
+     },
+     {
+      "who": "vr-nikogawa/rowland-brightwood",
+      "text": "¡Exclusiva para el periódico del pueblo: Twinford derrota a la ciudad!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "Tecnología contra tradición",
+    "before": [
+     {
+      "who": "vr-ai-gakuen/obert-deance",
+      "text": "La IA calcula que un equipo rural tiene un tres por ciento de opciones."
+     },
+     {
+      "who": "vr-nikogawa/iris-nightwood",
+      "text": "En el pueblo contamos que hay un espíritu en el bosque que se come los ordenadores... ¡Uuuh!"
+     },
+     {
+      "who": "vr-nikogawa/maris-hollowwood",
+      "text": "Mi máscara de teatro noh os pondrá nerviosos. Sonreíd conmigo..."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "¡Ja! ¡La IA no contaba con un fantasma! ¡Me encantáis!"
+     },
+     {
+      "who": "vr-nikogawa/alden-songwood",
+      "text": "Sigo el balón de oído, como una canción del pueblo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-senbayama",
+    "title": "La cosecha",
+    "before": [
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "Bah, ¿unos chavales de pueblo? El Instituto Farm os va a arar el campo en un momento. Y luego, a comer encurtidos."
+     },
+     {
+      "who": "vr-nikogawa/ronan-strongwood",
+      "text": "Cargo el santuario portátil en la fiesta mayor. ¡El aguante me sobra!"
+     },
+     {
+      "who": "vr-nikogawa/lachlan-hartwood",
+      "text": "Protejo al pueblo con artes marciales. Hoy protejo nuestra portería."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "Vaya... os subestimé. Buena cosecha la vuestra. Volved cuando queráis, que os invito a encurtidos."
+     },
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "Solo queda uno. El equipo más de ciudad de todo Japón."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "La gran ciudad",
+    "before": [
+     {
+      "text": "Último destino: Tokio, frente al Instituto Raimon, el equipo más famoso del país."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "¿Venís de un pueblo? A ver si es verdad que en el campo se juega distinto."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Respetamos a todos los rivales. Por eso vamos a ir con todo."
+     },
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "¡Twinford, por los arrozales, por el santuario y por el mochi! ¡Al ataque!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Ha sido raro... y divertido. Me apetece visitar ese pueblo."
+     },
+     {
+      "who": "vr-nikogawa/asher-norwood",
+      "text": "Bienvenidos cuando queráis. De verdad. Ya no estoy resentido... casi."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El pueblo entero sale a recibir al autobús de Twinford con farolillos y tambores."
+   },
+   {
+    "who": "vr-nikogawa/rowland-brightwood",
+    "text": "¡Edición especial del periódico: los chicos de campo conquistan la ciudad!"
+   },
+   {
+    "who": "vr-nikogawa/lila-glosswood",
+    "text": "Y me he hecho la permanente en Tokio. ¡Por fin!"
+   },
+   {
+    "who": "vr-nikogawa/vearn-dashwood",
+    "text": "Ciudad o pueblo, da igual. Lo que importa es de dónde sacas la fuerza. ¡Mochi para todos!"
+   }
+  ]
+ },
+ "vr-nishinomiya": {
+  "title": "Romper la maldición de la primera ronda",
+  "summary": "La Academia West Manor lleva cinco años cayendo en primera ronda. Con su nueva gerente, el consejo estudiantil se propone por fin llegar a lo más alto.",
+  "intro": [
+   {
+    "text": "Kyushu. La Academia West Manor es una de las mejores escuelas de la región... y lleva cinco años cayendo en la primera ronda del Fútbol Frontier."
+   },
+   {
+    "name": "Yasmin Tausend",
+    "text": "Eso se acabó. Con mi plan, este año West Manor llegará más lejos que nunca."
+   },
+   {
+    "who": "vr-nishinomiya/edgard-loathe",
+    "text": "Como presidente del consejo estudiantil, lo apruebo por unanimidad."
+   },
+   {
+    "who": "vr-nishinomiya/laymark-starwyn",
+    "text": "Yo controlo el juego. Sin puntos débiles, sin errores."
+   },
+   {
+    "who": "vr-nishinomiya/edvan-trodden",
+    "text": "Mis padres no me dejaron ir al Raimon... Total, ¿qué más da dónde juegue? Ya veremos si aquí sirvo de algo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-eito-gakuen",
+    "title": "Examen de ingreso",
+    "before": [
+     {
+      "who": "go-eito-gakuen/ian-stein",
+      "text": "*Escribe deprisa en su libreta y la enseña* «¿Una academia de élite? El Colegio de Empollones os pondrá un examen sorpresa.»"
+     },
+     {
+      "who": "vr-nishinomiya/moby-tidbitt",
+      "text": "Me sé hasta las mascotas de los jugadores profesionales. ¡Este examen lo apruebo!"
+     },
+     {
+      "who": "vr-nishinomiya/looke-raundoff",
+      "text": "Soy lento, pero cuento monedas muy rápido. Y también goles."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-eito-gakuen/ian-stein",
+      "text": "*Escribe con letra temblorosa* «Matrícula de honor... Qué rabia.»"
+     },
+     {
+      "who": "vr-nishinomiya/berdy-caster",
+      "text": "Comentario del partido: ¡hashtag examen aprobado!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ijinmei-bundou",
+    "title": "Rivales académicos",
+    "before": [
+     {
+      "who": "vr-ijinmei-bundou/keepie-upshire",
+      "text": "¡Visión Noble también estudia mucho! Pero nosotros llevamos el nombre de los ilustres."
+     },
+     {
+      "who": "vr-nishinomiya/ernesta-beauregard",
+      "text": "Mantengo la calma... hasta que un rival pone esa cara de concentración. ¡Ay, no me miréis así, que me derrito!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ijinmei-bundou/elric-spiech",
+      "text": "Permitidme un discurso sobre vuestra victoria... ¿No? Vale."
+     },
+     {
+      "who": "vr-nishinomiya/chicory-bellflower",
+      "text": "Fuerte y dulce, como una flor del camino. ¡Lo he conseguido!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nikogawa",
+    "title": "El amistoso de Saga",
+    "before": [
+     {
+      "who": "vr-nikogawa/vearn-dashwood",
+      "text": "¿Los empollones de ciudad? ¡Os vais a manchar los zapatos en nuestro campo!"
+     },
+     {
+      "who": "vr-nishinomiya/rutheo-wheyston",
+      "text": "Batido de proteína casera, listo. ¡Que reine el músculo!"
+     },
+     {
+      "who": "vr-nishinomiya/flanko-midspringle",
+      "text": "¡Tengo muelles en los pies! Las notas, mejor ni preguntéis."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nikogawa/asher-norwood",
+      "text": "Para ser de ciudad, no jugáis mal."
+     },
+     {
+      "who": "vr-nishinomiya/frie-sorbet",
+      "text": "¡Helados de la heladería de mi familia para todos!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-hokuyou-gakuen",
+    "title": "La estrella de Kyushu",
+    "before": [
+     {
+      "text": "¡Primera ronda superada por primera vez en cinco años! Ahora espera Northbright, la estrella ascendente de Kyushu."
+     },
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Felicidades por pasar de ronda! ¡Snif! ¡Pero aquí se acaba!"
+     },
+     {
+      "who": "vr-nishinomiya/drever-olflaire",
+      "text": "En los entrenamientos me muevo genial, pero en los partidos... Me tiemblan las piernas."
+     },
+     {
+      "who": "vr-nishinomiya/edgard-loathe",
+      "text": "Drever, respira. El consejo confía en ti."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Habéis cambiado de táctica mejor que nosotros! ¡Snif!"
+     },
+     {
+      "who": "vr-nishinomiya/dax-prescott",
+      "text": "Club de investigación por la mañana, paradas por la tarde. Hoy he investigado mucho."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "El rival de siempre",
+    "before": [
+     {
+      "text": "Le toca el turno a la Secundaria South Cirrus, la rival académica de toda la vida, renacida en el fútbol."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "West Manor. Sois buenos, pero siempre jugáis a no perder."
+     },
+     {
+      "who": "vr-nishinomiya/laymark-starwyn",
+      "text": "Y vosotros, a lo loco. Hoy veremos qué es mejor."
+     },
+     {
+      "who": "vr-nishinomiya/breppo-terrey",
+      "text": "Rompí una reliquia familiar entrenando. ¡No descansaré hasta dominar el balón!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Tsk... Los empollones también saben dar patadas."
+     },
+     {
+      "who": "vr-nishinomiya/aysen-demacon",
+      "text": "Le digo a mi madre que soy más de béisbol... ¡pero hoy el fútbol me ha ganado!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "El sueño prohibido",
+    "before": [
+     {
+      "text": "El último rival es el que Edvan siempre soñó: el Instituto Raimon."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Os ayudamos una vez, ¿recordáis? Hoy jugamos en serio."
+     },
+     {
+      "who": "vr-nishinomiya/edvan-trodden",
+      "text": "Mis padres me prohibieron ir a vuestra escuela. Hoy os voy a demostrar lo que se perdieron."
+     },
+     {
+      "name": "Yasmin Tausend",
+      "text": "Este es el final del plan. ¡West Manor, a por todas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Ese defensa... jugaba como si se le fuera la vida."
+     },
+     {
+      "who": "vr-nishinomiya/edvan-trodden",
+      "text": "Lo he conseguido. Ya no necesito el Raimon: tengo mi equipo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La maldición de la primera ronda se ha roto para siempre."
+   },
+   {
+    "who": "vr-nishinomiya/eddi-losse",
+    "text": "Ya tengo la canción del himno: 'West Manor, más allá de la primera ronda'."
+   },
+   {
+    "who": "vr-nishinomiya/laymark-starwyn",
+    "text": "Mi estrategia era perfecta. Pero lo que nos hizo ganar fue el equipo."
+   },
+   {
+    "who": "vr-nishinomiya/edgard-loathe",
+    "text": "Sesión del consejo clausurada. Siguiente punto del orden del día: ¡celebrarlo!"
+   }
+  ]
+ },
+ "vr-ouja-raimon": {
+  "title": "El rey que se aburría",
+  "summary": "Harper Evans, hijo del legendario Mark Evans, lo gana todo y se aburre. Darian y el Raimon buscarán el rival que le devuelva la ilusión por el fútbol.",
+  "intro": [
+   {
+    "text": "Tokio. El Instituto Raimon es el campeón invicto del Fútbol Frontier. Su nuevo fichaje, Harper Evans, acaba de marcar en su debut."
+   },
+   {
+    "who": "vr-ouja-raimon/harper-evans",
+    "text": "Capitán... ¿el fútbol no es un poco rollo?"
+   },
+   {
+    "who": "vr-ouja-raimon/darian-moonward",
+    "text": "¿Rollo? Harper, tú lo que necesitas son rivales que te hagan sudar. Y amigos."
+   },
+   {
+    "who": "vr-ouja-raimon/eleanor-estrella",
+    "text": "¡Harper es un genio! ¡Pero tiene razón el capitán: hay que buscarle un reto!"
+   },
+   {
+    "who": "vr-ouja-raimon/zander-warmington",
+    "text": "¡Pues que se enteren todos! ¡Raimon, a buscar rivales!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-ijinmei-bundou",
+    "title": "Ilustres sin miedo",
+    "before": [
+     {
+      "who": "vr-ijinmei-bundou/keepie-upshire",
+      "text": "¡El Raimon! ¡Si os ganamos, entramos en los libros de historia!"
+     },
+     {
+      "who": "vr-ouja-raimon/talon-lewis",
+      "text": "Hum. No os confiéis. Ni nosotros tampoco."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ijinmei-bundou/wilhelmina-goforth",
+      "text": "¡Casi os pillamos! ¡La próxima vez, sí!"
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Bien... Pero no me han hecho correr de verdad."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-hakuren-victory-road",
+    "title": "Ventisca en Odaiba",
+    "before": [
+     {
+      "who": "vr-hakuren-victory-road/anastasia-mingler",
+      "text": "¡Hola, Raimon! ¿Me dejáis entrar en vuestra piña? ¿No? ¡Pues os ganamos!"
+     },
+     {
+      "who": "vr-ouja-raimon/clement-mariner",
+      "text": "¿Frío? ¡Yo juego descamisado igual!"
+     },
+     {
+      "who": "vr-ouja-raimon/viorain-maleby",
+      "text": "Vamos a perder. Seguro. ...Aunque se me ocurre una idea para su defensa."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-hakuren-victory-road/gael-vehemaint",
+      "text": "..."
+     },
+     {
+      "who": "vr-ouja-raimon/maddock-jackson",
+      "text": "¡Grrr! ¡Qué duros! ...Buen partido, de verdad."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-hokuyou-gakuen",
+    "title": "El rival que llora",
+    "before": [
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Harper Evans! ¡Nos metiste seis! ¡Hoy me toca a mí!"
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Ah... el del ataque en tres frentes. ¿Has traído algo nuevo?"
+     },
+     {
+      "who": "vr-ouja-raimon/colton-sharps",
+      "text": "C-cuidado, que cambian de táctica a cada minuto... ¡Ay! *tropieza* ¡Estoy bien, estoy bien!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Snif! ¡Esta vez casi! ¡Casi!"
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Ha sido... un poco mejor que la otra vez. Un poco."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-toufuu-ikokukan",
+    "title": "El hijo del rival",
+    "before": [
+     {
+      "text": "Desde Fukuoka llega un portero con una misión: Martino Leone, de la Secundaria Internacional Eastwind."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/martino-leone",
+      "text": "Mis padres fueron rivales del tuyo, Harper. Me enviaron a Japón para vencerte."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "¿Por mi padre? Qué aburrido... Juega por ti, no por él."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Pero fíjate, Harper: ese portero te ha estado estudiando. Esto se pone interesante."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-toufuu-ikokukan/martino-leone",
+      "text": "Tienes razón... Desde hoy, jugaré por mí."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Me ha parado un tiro. Uno. ...Vale, me ha gustado."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "Un amigo en el otro bando",
+    "before": [
+     {
+      "text": "Y entonces aparece el equipo que lo cambia todo: la Secundaria South Cirrus y su entrenador, Destin Billows."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Harper, he estudiado cada partido tuyo. Sé por qué te aburres."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "¿Ah, sí? Entonces haz que me divierta."
+     },
+     {
+      "who": "vr-nagumohara/raika-shinohara",
+      "text": "¡Lo importante es disfrutar del camino! ¡Ven a jugar con nosotros!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Destin... Por primera vez en mucho tiempo, he sonreído en un campo."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Ahí está. El Harper que buscábamos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "La leyenda de hace 25 años",
+    "before": [
+     {
+      "text": "En un partido de exhibición por el aniversario del club, el Raimon actual se enfrenta a la leyenda: el Raimon de Mark Evans."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Así que tú eres Harper! ¡Venga, juguemos al fútbol!"
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Papá... Bueno, el papá de hace 25 años. Siempre dijiste que el fútbol es diversión."
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Si quieres ganarnos, tendrás que disfrutarlo de verdad."
+     },
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Raimon de hoy contra Raimon de siempre. ¡Con todo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Qué partidazo! ¡El Raimon está en buenas manos!"
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Ahora lo entiendo. El fútbol no es rollo... cuando lo juegas con amigos."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Instituto Raimon sigue siendo el rey. Pero su estrella ha recuperado algo más valioso que cualquier trofeo."
+   },
+   {
+    "who": "vr-ouja-raimon/nino-gamberini",
+    "text": "¡Aunque sea de suplente, ver a Harper así ha merecido la pena!"
+   },
+   {
+    "who": "vr-ouja-raimon/darian-moonward",
+    "text": "Ya tienes amigos y rivales, Harper. ¿Qué más quieres?"
+   },
+   {
+    "who": "vr-ouja-raimon/harper-evans",
+    "text": "Más partidos. Muchos más. ¡Venga, juguemos al fútbol!"
+   }
+  ]
+ },
+ "vr-platos": {
+  "title": "En busca de los once más fuertes",
+  "summary": "Vic y el club Plathos de la ciudad de Pluke viajan por el tiempo en la Caravana Inazuma V para reunir a los once más fuertes contra los Devoradores de Mentes.",
+  "intro": [
+   {
+    "text": "Un futuro lejano. Los Devoradores de Mentes amenazan con acabar con la humanidad, y solo el keshin definitivo puede detenerlos."
+   },
+   {
+    "who": "vr-platos/victorio-cryptix",
+    "text": "Mi abuelo, el profesor Cryptix, lo dejó claro: hay que encontrar a los once más fuertes de la historia."
+   },
+   {
+    "name": "Fei Rune",
+    "text": "Os entrené desde cero para este momento. Plathos, la Caravana Inazuma V está lista."
+   },
+   {
+    "who": "vr-platos/dariusius-henletos",
+    "text": "¡Si ganas, no puedes perder!"
+   },
+   {
+    "who": "vr-platos/gilia-dandrel",
+    "text": "Eso no tiene ningún sentido lógico, Dariusius."
+   },
+   {
+    "who": "vr-platos/torin-sandels",
+    "text": "Dejadlo, que a él le funciona. ¡Todos a bordo!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-gatekeepers",
+    "title": "Perseguidos",
+    "before": [
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Violación de la Ley de Gestión Temporal. Plathos, deteneos."
+     },
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "¡No podemos parar! ¡El mundo depende de este viaje!"
+     },
+     {
+      "who": "vr-platos/ash-barnes",
+      "text": "¿Nos persiguen? ¡Pues que nos pillen en el campo, si pueden!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Esa determinación... Está bien. Os confío vuestra misión."
+     },
+     {
+      "name": "Fei Rune",
+      "text": "Ash, otra vez has picado en la provocación. Pero esta vez ha salido bien."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-destroyers",
+    "title": "El amigo de la infancia",
+    "before": [
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Vic... Los Devoradores me controlan, pero no del todo. Tienes que superarme."
+     },
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "¡Keines! ¡Te voy a liberar, aunque tenga que ganarte a lo grande!"
+     },
+     {
+      "who": "vr-platos/orpheus-clayridge",
+      "text": "Calma, Vic. El fútbol se juega con la cabeza fría."
+     }
+    ],
+    "after": [
+     {
+      "text": "Al perder, el control de los Devoradores sobre los Destructores se desvanece."
+     },
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Gracias, Vic. Ve. Yo te cubro las espaldas."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-zanark-strangers",
+    "title": "Forasteros del caos",
+    "before": [
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "¡Jajaja! ¿Buscáis a los once más fuertes? Pues aquí tenéis a los once más malos. ¡Esto se pone divertido!"
+     },
+     {
+      "who": "vr-platos/niana-cooke",
+      "text": "¡Pequeña pero imparable! ¡No os tengo miedo!"
+     },
+     {
+      "who": "vr-platos/miles-euclid",
+      "text": "Un par de amagos y no sabrán ni dónde está el balón."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Tsk. Tenéis agallas. Me caéis bien."
+     },
+     {
+      "who": "vr-platos/nikolaos-menandros",
+      "text": "¡Bebida energética casera para todos! ¡Recuperad fuerzas!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "Interferencia del futuro",
+    "before": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "La historia no se toca. Y yo, el gran Gamma, pondré fin a vuestro viaje... con elegancia."
+     },
+     {
+      "who": "vr-platos/hugo-severian",
+      "text": "Recuerdo cada uno de vuestros movimientos de partidos anteriores. Todos."
+     },
+     {
+      "who": "vr-platos/rhea-loriandrin",
+      "text": "¡Y yo los datos de todos vuestros jugadores! ¡Os tenemos calados!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Imposible... ¿Ese chico es un androide?"
+     },
+     {
+      "who": "vr-platos/hugo-severian",
+      "text": "No. Solo tengo buena memoria."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "El equipo de Fei",
+    "before": [
+     {
+      "text": "Una parada inesperada: la época del Chrono Storm, el equipo con el que el propio Fei viajó por el tiempo."
+     },
+     {
+      "who": "cs-chrono-storm/fei-rune",
+      "text": "¿Así que en el futuro seréis mis alumnos? ¡Qué ilusión! Venga, enseñadme lo que os voy a enseñar."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Qué buena pinta! ¡Juguemos, Fei del futuro!"
+     },
+     {
+      "who": "vr-platos/eon-mckeane",
+      "text": "Sonrío, sí. Pero os voy a dejar en evidencia."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-chrono-storm/fei-rune",
+      "text": "¡Lo habéis hecho genial! Volver a ver al Chrono Storm... y ganarle con vosotros. Gracias, chicos."
+     },
+     {
+      "who": "vr-platos/saros-algebra",
+      "text": "¡Qué hambre! ¿Hay comida en esta época? ¡Y quiero ser delantero!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "Los once originales",
+    "before": [
+     {
+      "text": "Al final del viaje esperan los primeros: el Inazuma Eleven, la leyenda que dio nombre a todo."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "¿Buscáis a los once más fuertes? Primero tendréis que ganar a los primeros."
+     },
+     {
+      "who": "vr-platos/pharos-radris",
+      "text": "(Tengo mil preguntas sobre la historia del fútbol... pero me da vergüenza hacerlas.)"
+     },
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "¡Esta es la prueba definitiva! ¡Plathos, con todo lo que tenemos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Ya no tenéis que buscar más. Los once más fuertes sois vosotros."
+     },
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "¿Nosotros...? ¡Entonces el keshin definitivo está aquí, en nuestro equipo!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Caravana Inazuma V regresa a Pluke con algo más poderoso que cualquier fichaje: un equipo unido."
+   },
+   {
+    "name": "Fei Rune",
+    "text": "Los once más fuertes no se encuentran. Se forjan."
+   },
+   {
+    "who": "vr-platos/dariusius-henletos",
+    "text": "¡Si ganas, no puedes perder! ¡Ahora sí tiene sentido!"
+   },
+   {
+    "who": "vr-platos/victorio-cryptix",
+    "text": "Devoradores de Mentes, ¡preparaos! ¡Plathos va a por vosotros!"
+   }
+  ]
+ },
+ "vr-rojiura-backkicks": {
+  "title": "Por el viejo entrenador",
+  "summary": "Una panda de chicos duros del callejón juega en honor a su difunto entrenador... y a su sucesor, un perro llamado El Segundo. Toca ganarse el respeto.",
+  "intro": [
+   {
+    "text": "Nagasaki. En un callejón detrás de la calle comercial entrena una panda de chicos duros: los Goleadores del Callejón."
+   },
+   {
+    "who": "vr-rojiura-backkicks/holden-monday",
+    "text": "Nuestro entrenador nos sacó de las peleas y nos dio un balón. Cuando murió, juramos seguir jugando por él."
+   },
+   {
+    "name": "El Segundo",
+    "text": "¡Guau!"
+   },
+   {
+    "who": "vr-rojiura-backkicks/bogdan-berglund",
+    "text": "Y ahora nos entrena su perro, El Segundo. ¡Y no veáis qué tácticas tiene!"
+   },
+   {
+    "who": "vr-rojiura-backkicks/saburo-mizuki",
+    "text": "En el barrio todos nos ven como matones. Hay que cambiar eso. A balonazos, pero legales."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-umi-kamome-soccer-club",
+    "title": "Los críos de la cala",
+    "before": [
+     {
+      "who": "vr-umi-kamome-soccer-club/kean-aimes",
+      "text": "¿Vosotros sois los del callejón? ¡Pues no nos dais miedo!"
+     },
+     {
+      "who": "vr-rojiura-backkicks/drako-bonner",
+      "text": "Soy padre primerizo. Juego limpio para dar ejemplo. ¡Y con niños, más!"
+     },
+     {
+      "who": "vr-rojiura-backkicks/caius-rushford",
+      "text": "Primero actúo, luego pienso. ¡Vamos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-umi-kamome-soccer-club/summers-laughlin",
+      "text": "¡Sois muy grandes pero muy majos!"
+     },
+     {
+      "who": "vr-rojiura-backkicks/june-davidson",
+      "text": "...Me han hecho gracia. No se lo digáis a nadie."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-batten-yokato",
+    "title": "Macarras contra macarras",
+    "before": [
+     {
+      "who": "vr-batten-yokato/vinda-koral",
+      "text": "Los macarras de Nagasaki... Leo en vuestras caras que no aguantaréis ni media parte."
+     },
+     {
+      "who": "vr-rojiura-backkicks/veril-golding",
+      "text": "Antes era promesa del béisbol. Ahora tengo rabia de sobra para el fútbol."
+     },
+     {
+      "who": "vr-rojiura-backkicks/jazzmine-skylark",
+      "text": "Uaaah... Estuve de fiesta anoche. Despertadme cuando haya que bailar con el balón."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-batten-yokato/susen-faircourt",
+      "text": "Ni una sola falta. Me habéis sorprendido."
+     },
+     {
+      "who": "vr-rojiura-backkicks/holden-monday",
+      "text": "El viejo estaría orgulloso. Seguimos."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara-shopkeepers",
+    "title": "Los vecinos",
+    "before": [
+     {
+      "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+      "text": "Siempre os veo merodeando por la calle comercial. ¿Queréis respeto? ¡Ganadlo en el campo!"
+     },
+     {
+      "who": "vr-rojiura-backkicks/anson-barker",
+      "text": "No me dan miedo los mayores... ¡Ay, que ahí está mi madre comprando!"
+     },
+     {
+      "who": "vr-rojiura-backkicks/frederick-brandt",
+      "text": "¡Más rápido que una moto! ¡Balón suelto, es mío!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara-shopkeepers/lorcan-oxfield",
+      "text": "Buen partido, chicos. Pasad por la carnicería, que invito."
+     },
+     {
+      "who": "vr-rojiura-backkicks/saburo-mizuki",
+      "text": "¡Nos han invitado! ¡En el barrio ya no somos matones!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-toufuu-ikokukan",
+    "title": "Músculos del mundo",
+    "before": [
+     {
+      "who": "vr-toufuu-ikokukan/gigy-maharaja",
+      "text": "En mi tribu luchamos contra fieras. Vosotros sois gatitos."
+     },
+     {
+      "who": "vr-rojiura-backkicks/cobb-hightail",
+      "text": "El Segundo me rescató en una pelea callejera. ¡No pienso dejar pasar ni un balón!"
+     },
+     {
+      "who": "vr-rojiura-backkicks/chancer-cosgrave",
+      "text": "Apuesto a que ganamos. ¡Todo al rojo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-toufuu-ikokukan/gigy-maharaja",
+      "text": "Los gatitos tenían garras..."
+     },
+     {
+      "who": "vr-rojiura-backkicks/deor-rummond",
+      "text": "Mi familia no cree en mí. Pero este equipo, sí."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "Cuentas pendientes",
+    "before": [
+     {
+      "text": "Último partido: la Secundaria South Cirrus. Allí juega Briar, con quien se pelearon... y Destin, que recibió un golpe por culpa de aquella pelea."
+     },
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Vosotros... La última vez Destin acabó en el suelo por vuestra culpa. Más os vale que esto vaya en serio."
+     },
+     {
+      "who": "vr-rojiura-backkicks/saburo-mizuki",
+      "text": "Lo sabemos... Por eso venimos a pedir perdón. A nuestra manera: jugando limpio."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Acepto. Pero en el campo no habrá piedad."
+     },
+     {
+      "name": "El Segundo",
+      "text": "¡Guau, guau!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "...Tsk. Vale, estamos en paz. Pero como volváis a meteros con él, os enteráis."
+     },
+     {
+      "who": "vr-rojiura-backkicks/holden-monday",
+      "text": "Lo hemos hecho, viejo. Ya no somos una panda. Somos un equipo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "En el callejón, los Goleadores levantan su primer trofeo frente a la foto de su viejo entrenador."
+   },
+   {
+    "who": "vr-rojiura-backkicks/jaxon-taggart",
+    "text": "Voy a pintar un mural enorme: el equipo y El Segundo en el centro."
+   },
+   {
+    "name": "El Segundo",
+    "text": "¡Guau!"
+   },
+   {
+    "who": "vr-rojiura-backkicks/holden-monday",
+    "text": "Dice que el próximo entrenamiento es a las siete. Y que nada de pelear. Solo fútbol."
+   }
+  ]
+ },
+ "vr-senjutsu-no-teikoku": {
+  "title": "Alice en el País de las Futmaravillas",
+  "summary": "Alice Rendell y la Royal Academy de las supertácticas quieren demostrar que su estrategia es perfecta. Su prueba final: el imperio de hace 25 años.",
+  "intro": [
+   {
+    "text": "Tokio. La Royal Academy domina el campo con un trabajo en equipo impecable y supertácticas para cada ocasión."
+   },
+   {
+    "name": "Alice Rendell",
+    "text": "Bienvenidos a mi país de las maravillas. Aquí cada jugada sigue mi guion."
+   },
+   {
+    "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+    "text": "Leo las ideas de Alice antes de que las diga. Así lideramos el campo."
+   },
+   {
+    "who": "vr-senjutsu-no-teikoku/kaien-spiradawn",
+    "text": "Mientras me dejéis marcar a mí todos los goles, la táctica me da igual."
+   },
+   {
+    "who": "vr-senjutsu-no-teikoku/ophelia-ennercourt",
+    "text": "Kaien, en este equipo se asiste. Fuera egos."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-henkaku-no-teikoku",
+    "title": "El imperio de otra época",
+    "before": [
+     {
+      "who": "go-henkaku-no-teikoku/colby-columbia",
+      "text": "Je, ¿vosotros sois la Royal de ahora? Qué monos. A ver si sois dignos de llevar ese nombre... aunque lo dudo."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/vex-frieden",
+      "text": "Me encanta sacar de quicio a los rivales. Y si son de mi escuela, más."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/theon-stillcliffe",
+      "text": "Calma. Sea cual sea el marcador, mente zen."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-henkaku-no-teikoku/baron-oxford",
+      "text": "Imposible... ¡Nuestra Royal es superior! ...Hmph. Por esta vez, el nombre queda en buenas manos."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/lenox-grinder",
+      "text": "¡Entreno cada día para esto! ¡Snif, el esfuerzo da sus frutos!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "Cálculo contra imaginación",
+    "before": [
+     {
+      "who": "vr-ai-gakuen/zuzu-intel",
+      "text": "La IA ha analizado todas vuestras supertácticas. Tenemos la respuesta."
+     },
+     {
+      "name": "Alice Rendell",
+      "text": "Entonces inventaré una nueva. Ninguna máquina sueña."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/ruelle-neurivieu",
+      "text": "Análisis franco: su IA es buena. Nosotros, mejores."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "¡Ja! Ni la IA vio venir esa táctica. ¡Qué pasada!"
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/hudson-headland",
+      "text": "Lógica y sincronización perfectas. Como siempre."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-hokuyou-gakuen",
+    "title": "Tácticas que cambian",
+    "before": [
+     {
+      "who": "vr-hokuyou-gakuen/ivan-mercer",
+      "text": "Nosotros también cambiamos de táctica a cada minuto. Veamos quién se adapta antes."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/ciel-natcherall",
+      "text": "Los rivales débiles no me interesan. Pero estos... sí."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/asten-royds",
+      "text": "Subo montañas para ver las estrellas. Este salto os va a dejar sin aire."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-hokuyou-gakuen/nikas-himmelstein",
+      "text": "¡Snif! ¡Nos habéis leído todas las tácticas!"
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+      "text": "Alice siempre va un paso por delante."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "La revancha de la semifinal",
+    "before": [
+     {
+      "text": "En el Fútbol Frontier, South Cirrus les eliminó en semifinales. Alice no ha dejado de pensar en ello."
+     },
+     {
+      "name": "Alice Rendell",
+      "text": "Destin Billows, me rompiste el guion. Esta vez he escrito un final distinto."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Tu estrategia es perfecta, Alice. Por eso sé exactamente cómo romperla otra vez."
+     },
+     {
+      "who": "vr-nagumohara/cade-shelby",
+      "text": "Ni caparazón ni nada. ¡Hoy salgo a por todas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Bien jugado. Esta vez el guion era tuyo."
+     },
+     {
+      "name": "Alice Rendell",
+      "text": "Gracias, Destin. Ahora vamos a por nuestro clásico rival."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "El clásico",
+    "before": [
+     {
+      "who": "vr-ouja-raimon/darian-moonward",
+      "text": "Royal contra Raimon. El clásico de siempre."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/kyo-seestar",
+      "text": "Mis compañeros son mi familia. ¡Si les tocáis, me tendréis delante!"
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/solan-brightmoor",
+      "text": "Con permiso... allá voy."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Tantas tácticas... Ha sido como jugar un puzle. Divertido."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/riggs-fornstrut",
+      "text": "Entreno con vigas de acero. ¡Hoy he sido un muro de verdad!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "El guion definitivo",
+    "before": [
+     {
+      "text": "Para su última prueba, Alice organiza un partido de exhibición contra la Royal Academy de hace 25 años, la de Jude Sharp."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Hmph. Así que esta es la Royal de hoy. Enseñadme vuestra estrategia... si es que merece la pena."
+     },
+     {
+      "name": "Alice Rendell",
+      "text": "La Royal de las leyendas contra la Royal de las maravillas. Este es mi mejor capítulo."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/ashlan-panoptos",
+      "text": "Lo veo todo desde mi portería. Ningún ángulo es imposible."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+      "text": "¡Royal Academy, supertácticas a plena potencia!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Una estrategia impecable... Reconozco la derrota. El imperio sigue en pie."
+     },
+     {
+      "who": "vr-senjutsu-no-teikoku/syd-faircrest",
+      "text": "Alice, lo has conseguido. Tu país de las maravillas es real."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Royal Academy cierra la temporada con su estrategia más brillante."
+   },
+   {
+    "who": "vr-senjutsu-no-teikoku/kaien-spiradawn",
+    "text": "Vale, vale, lo admito: asistir también mola."
+   },
+   {
+    "who": "vr-senjutsu-no-teikoku/leticia-legatus",
+    "text": "La disciplina y la táctica, juntas, son invencibles."
+   },
+   {
+    "name": "Alice Rendell",
+    "text": "Y colorín colorado... la siguiente historia ya la estoy escribiendo."
+   }
+  ]
+ },
+ "vr-tenshou-zeus": {
+  "title": "Dioses en discordia",
+  "summary": "La fusión de Solaria y Zeus enfrenta a los dioses de Oriente y Occidente en el mismo vestuario. Para ser uno, tendrán que medirse con el Olimpo original.",
+  "intro": [
+   {
+    "text": "La Secundaria Solaria, de tradición sintoísta, y el Instituto Zeus, heredero del Olimpo, se han fusionado. Y no se aguantan."
+   },
+   {
+    "who": "vr-tenshou-zeus/riza-nagivar",
+    "text": "¡El delantero número uno del equipo soy yo! ¡Que lo sepan los del Zeus!"
+   },
+   {
+    "who": "vr-tenshou-zeus/thaddeus-bellefax",
+    "text": "¡La divinidad de Byron Love nos guía! ¡Solo Zeus merece la gloria, y lo digo con una sonrisa!"
+   },
+   {
+    "who": "vr-tenshou-zeus/revea-ristair",
+    "text": "¡Chicos, parad! Por culpa de esto ni siquiera pudimos entrar en el Fútbol Frontier..."
+   },
+   {
+    "name": "Malik Keos",
+    "text": "Vuestra discordia es, en esencia, un problema dialéctico. La síntesis exige una praxis compartida: una gira de partidos. Juntos."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-seidouzan",
+    "title": "El Olimpo de otra era",
+    "before": [
+     {
+      "who": "go-seidouzan/coeus-heavens",
+      "text": "¿Os hacéis llamar dioses? El Colegio Monte Olimpo invoca a los titanes."
+     },
+     {
+      "who": "vr-tenshou-zeus/sampa-eonius",
+      "text": "Reglas, precisión y cálculo. Por algo me llaman 'profesor'."
+     },
+     {
+      "who": "vr-tenshou-zeus/atol-lasalle",
+      "text": "Yo juego con mis propias reglas. Nadie las conoce. Ni yo."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-seidouzan/coeus-heavens",
+      "text": "Los titanes caen ante los nuevos dioses..."
+     },
+     {
+      "who": "vr-tenshou-zeus/garci-stormdale",
+      "text": "Ni me he inmutado. Hasta un pájaro se me ha posado en el hombro."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-batten-yokato",
+    "title": "Otra fusión, otro caos",
+    "before": [
+     {
+      "who": "vr-batten-yokato/itor-sheerman",
+      "text": "¿Vosotros también os fusionasteis? Pues nosotros ya somos un equipo. ¿Y vosotros?"
+     },
+     {
+      "who": "vr-tenshou-zeus/harald-monet",
+      "text": "Leo el ambiente: estamos divididos. Hay que cambiarlo ya."
+     },
+     {
+      "who": "vr-tenshou-zeus/cate-heckel",
+      "text": "Soy tranquila... hasta que me hacen enfadar. ¡Y me estáis haciendo enfadar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-batten-yokato/vashan-morell",
+      "text": "Hum... Empezáis a jugar como uno solo."
+     },
+     {
+      "who": "vr-tenshou-zeus/orisa-namir",
+      "text": "Siempre aparezco en el momento justo. Costumbre de cubrir a mi hermano."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-zeus-ares",
+    "title": "Hermanos de Zeus",
+    "before": [
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Ah, la nueva Zeus. Veamos si el nombre os queda grande."
+     },
+     {
+      "who": "vr-tenshou-zeus/thaddeus-bellefax",
+      "text": "¡Es él! ¡Byron Love en persona! ¡Hoy no pierdo ni en sueños!"
+     },
+     {
+      "who": "vr-tenshou-zeus/patrie-ambrosia",
+      "text": "Mantengo las distancias, pero entreno más que nadie. Lo veréis."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Interesante. Divinos, pero aún no del todo unidos."
+     },
+     {
+      "who": "vr-tenshou-zeus/kenard-montemar",
+      "text": "Movimientos mínimos, exactos. Ni un paso de más."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "El amistoso",
+    "before": [
+     {
+      "text": "Gracias a sus contactos, South Cirrus pide un amistoso contra Solaria-Zeus en su estadio."
+     },
+     {
+      "who": "vr-nagumohara/destin-billows",
+      "text": "Sois un equipo con talento para ganar el torneo. Pero jugáis como dos."
+     },
+     {
+      "who": "vr-tenshou-zeus/ciro-zealon",
+      "text": "¡Por fin me deja salir el capitán! ¡Que empiece el caos!"
+     },
+     {
+      "who": "vr-tenshou-zeus/riza-nagivar",
+      "text": "¡Un solo equipo! ...Vale, lo diré: ¡un solo equipo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara/briar-bloomhurst",
+      "text": "Menudo equipazo cuando os ponéis de acuerdo."
+     },
+     {
+      "who": "vr-tenshou-zeus/burke-forzane",
+      "text": "Yo voy a mi ritmo. Pero hoy mi ritmo era el del equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-tenkuu-no-shito",
+    "title": "Mensajeros del cielo",
+    "before": [
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Los ángeles del cielo juzgan a quienes se hacen llamar dioses. Humanos insolentes... apartaos de mi camino."
+     },
+     {
+      "who": "vr-tenshou-zeus/iskandar-tarusian",
+      "text": "Tengo dos agujeros negros por manos. Ni la luz del cielo escapa."
+     },
+     {
+      "who": "vr-tenshou-zeus/kazimir-stormblade",
+      "text": "Me deslizo por los huecos como un relámpago. ¡Ni los ángeles me verán!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Una luz que viene de Oriente y Occidente a la vez... Admirable."
+     },
+     {
+      "who": "vr-tenshou-zeus/garrick-loventhal",
+      "text": "Marcaje férreo hasta el final. Nadie se me ha escapado."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "Los dioses originales",
+    "before": [
+     {
+      "text": "Último reto: el Instituto Zeus original, el de Byron Love, el equipo de los 'dioses' que llegó a la final hace 25 años."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Somos dioses. Los mortales que osan desafiarnos solo merecen el castigo divino. ¿Una fusión? Qué atrevimiento."
+     },
+     {
+      "who": "vr-tenshou-zeus/thaddeus-bellefax",
+      "text": "Byron... Te admiro. Pero hoy mi fe está en mi equipo."
+     },
+     {
+      "who": "vr-tenshou-zeus/revea-ristair",
+      "text": "¡Solaria y Zeus, un solo cielo! ¡Vamos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "¿Un dios... derrotado? ...Un cielo con dos soles. Quizá sí seáis dignos del nombre de Zeus."
+     },
+     {
+      "who": "vr-tenshou-zeus/thaddeus-bellefax",
+      "text": "¡Byron nos ha bendecido! ¡Y lo hemos hecho juntos!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "En el estadio Zeus, Oriente y Occidente celebran la victoria juntos."
+   },
+   {
+    "who": "vr-tenshou-zeus/riza-nagivar",
+    "text": "Vale, compartiré el título de mejor delantero. Por esta vez."
+   },
+   {
+    "who": "vr-tenshou-zeus/harald-monet",
+    "text": "El ambiente ahora es otro. Por fin somos uno."
+   },
+   {
+    "name": "Malik Keos",
+    "text": "El próximo ciclo competitivo: el Fútbol Frontier. Y lo afrontaréis como un panteón cohesionado e indivisible."
+   }
+  ]
+ },
+ "vr-toufuu-ikokukan": {
+  "title": "Sin tácticas, sin fronteras",
+  "summary": "Los estudiantes internacionales de Eastwind juegan sin tácticas, solo con talento. Cada uno se medirá con el fútbol de su tierra antes de ir a por Harper Evans.",
+  "intro": [
+   {
+    "text": "Fukuoka. La Secundaria Internacional Eastwind reúne a estudiantes de medio mundo con físicos de bachillerato."
+   },
+   {
+    "who": "vr-toufuu-ikokukan/toyo-yamanouchi",
+    "text": "No usamos tácticas. Cada uno decide en el campo. Eso nos hace imprevisibles."
+   },
+   {
+    "who": "vr-toufuu-ikokukan/martino-leone",
+    "text": "Yo vine a Japón con una misión: vencer a Harper Evans, el hijo del rival de mis padres."
+   },
+   {
+    "who": "vr-toufuu-ikokukan/kain-vijet",
+    "text": "Los héroes siempre llegan tarde. Yo, en la segunda parte."
+   },
+   {
+    "name": "Derrin Wilson",
+    "text": "¡Kain! ¡Tú juegas desde el minuto uno! ...Bueno, chicos, la gira por el mundo empieza ya."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-unicorn",
+    "title": "Ritmo americano",
+    "before": [
+     {
+      "who": "ie3-unicorn/dylan-keats",
+      "text": "¿Jugáis sin tácticas? Oh, yeah! ¡Nosotros también sabemos improvisar, you know!"
+     },
+     {
+      "who": "vr-toufuu-ikokukan/joey-beat",
+      "text": "El jazz corre por mis venas. Escuchad el tempo... uno, dos, ¡regate!"
+     },
+     {
+      "who": "vr-toufuu-ikokukan/olson-carchis",
+      "text": "Francotirador en posición. Precisión quirúrgica."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Qué ritmo tan raro... y tan bueno. Como dicen en América: ¡a quien madruga, el balón le ayuda!"
+     },
+     {
+      "who": "vr-toufuu-ikokukan/joey-beat",
+      "text": "Improvisación pura. Así suena el fútbol."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-empire",
+    "title": "Garra del sur",
+    "before": [
+     {
+      "who": "ie3-the-empire/leone-badigo",
+      "text": "¿Unos críos sin tácticas? Los Emperadores no pierden contra eso. Garra hasta el último minuto."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/robart-anderson",
+      "text": "Malabares con el balón. ¡Parece que lo llevo pegado al pie!"
+     },
+     {
+      "who": "vr-toufuu-ikokukan/judie-cassios",
+      "text": "Veo el partido como si fuera el futuro. Ya sé por dónde vendréis."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-empire/leone-badigo",
+      "text": "Sin tácticas... y aun así nos habéis ganado. Increíble."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/mengmeng-wang",
+      "text": "¡Mi perrito me ha hecho rapidísimo! ¡Se lo debo todo!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "El rugido del tigre",
+    "before": [
+     {
+      "who": "gx-mach-tiger/thanakorn-jaa",
+      "text": "Muay Tigers. Golpes de fuego y pies de acero."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/kaos-dao",
+      "text": "¡Muay thai contra muay thai! Mis puñetazos rompen hasta el balón."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/edmond-pias",
+      "text": "Y yo golpeo el balón como una katana. ¡Kendo y fútbol!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-mach-tiger/thanakorn-jaa",
+      "text": "Un portero con el espíritu del tigre. Respeto."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/kaos-dao",
+      "text": "¡Esta vez el balón ha sobrevivido!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-fire-dragon",
+    "title": "El dragón de Asia",
+    "before": [
+     {
+      "who": "ie3-fire-dragon/claude-beacons",
+      "text": "¡Ja! Los Dragones de Fuego queman todo a su paso. Y el más fuerte de todos soy yo, que os quede claro."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/ming-chow",
+      "text": "Medito bajo la cascada cada mañana. El fuego no me altera... ¡pero Sikuvot sí!"
+     },
+     {
+      "who": "vr-toufuu-ikokukan/kai-yoshizaki",
+      "text": "¡Dejad de discutir y pasádmela! ¡Allá va mi disparo de cañón!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-fire-dragon/bryce-whitingale",
+      "text": "Fuego contra fuego... y habéis ardido más fuerte. Hmph. No volverá a pasar."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/sikuvot-shivan",
+      "text": "Parkour sobre las llamas. ¡Como una hoja en el viento!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "Ritmo de samba",
+    "before": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Os Reis! El fútbol es alegría. ¡Bailad con nosotros!"
+     },
+     {
+      "who": "vr-toufuu-ikokukan/maribelle-flanmir",
+      "text": "Me llaman el ángel del cielo nocturno. Volaré por encima de vuestro baile."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/jenny-okutba",
+      "text": "Crecí junto al mar. Os perseguiré sin descanso, como una ola."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Qué partido más alegre! ¡Así se juega!"
+     },
+     {
+      "who": "vr-toufuu-ikokukan/gigy-maharaja",
+      "text": "Ahora sí. Que venga el más fuerte de Japón."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ouja-raimon",
+    "title": "La misión de Martino",
+    "before": [
+     {
+      "text": "La gira llega a su destino: el Instituto Raimon. Martino Leone por fin tiene delante a Harper Evans."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/martino-leone",
+      "text": "Harper Evans. Mis padres fueron rivales del tuyo. Hoy termino lo que ellos empezaron."
+     },
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "¿Por tus padres? Qué aburrido... Juega por ti y quizá me divierta."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/toyo-yamanouchi",
+      "text": "Sin tácticas, sin fronteras. ¡Eastwind, todos a una!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ouja-raimon/harper-evans",
+      "text": "Me has parado un tiro que nadie para. ¿Ves? Eso sí que es divertido."
+     },
+     {
+      "who": "vr-toufuu-ikokukan/martino-leone",
+      "text": "Tenías razón. Hoy no he jugado por mis padres. He jugado por mí."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El mundo entero cabe en un vestuario de Fukuoka. Y ahora, también un trofeo."
+   },
+   {
+    "who": "vr-toufuu-ikokukan/kain-vijet",
+    "text": "¿Veis? Los héroes llegan tarde... pero llegan."
+   },
+   {
+    "who": "vr-toufuu-ikokukan/martino-leone",
+    "text": "Harper y yo ya somos rivales de verdad. Rivales y amigos."
+   },
+   {
+    "who": "vr-toufuu-ikokukan/toyo-yamanouchi",
+    "text": "Veníamos de todas partes. Ahora somos de aquí. ¡Eastwind!"
+   }
+  ]
+ },
+ "vr-umi-kamome-soccer-club": {
+  "title": "Pequeñas gaviotas, grandes sueños",
+  "summary": "Las Gaviotas FC, un club de primaria de la playa, sueñan con jugar como los mayores. Su verano de partidos les llevará hasta sus ídolos de South Cirrus.",
+  "intro": [
+   {
+    "text": "Una cala de Nagasaki. Las Gaviotas FC, un club de niños de primaria, entrenan en la arena cada tarde."
+   },
+   {
+    "who": "vr-umi-kamome-soccer-club/kean-aimes",
+    "text": "¡Este verano vamos a jugar contra quien sea! ¡Contra niños, contra mayores y hasta contra abuelos!"
+   },
+   {
+    "who": "vr-umi-kamome-soccer-club/asuna-sugami",
+    "text": "¡Yo ya tengo una supertécnica! ¡Fui la primera del equipo!"
+   },
+   {
+    "who": "vr-umi-kamome-soccer-club/quip-netley",
+    "text": "Y yo he preparado diecisiete tácticas para el verano. ¿Os las explico todas?"
+   },
+   {
+    "who": "vr-umi-kamome-soccer-club/seon-gulliver",
+    "text": "...Las gaviotas dicen que va a ser un buen verano."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Niños contra niños",
+    "before": [
+     {
+      "who": "ie1-inazuma-kfc/hans-randall",
+      "text": "¡Inazuma Kids FC! ¡Nosotros también entrenamos con un equipo famoso!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/kean-aimes",
+      "text": "¡Reflejos de jugón activados! ¡Como en mi juego de disparos!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/garrison-hayfield",
+      "text": "¡Ni manga larga ni miedo! ¡Portería cerrada!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Jo, qué buenos! ¡Revancha el sábado!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/summers-laughlin",
+      "text": "¿Sabéis por qué la gaviota marcó? ¡Porque tenía buen pico! ...¿No?"
+     }
+    ]
+   },
+   {
+    "opponent": "go-akizora-challengers",
+    "title": "Los abuelos del parque",
+    "before": [
+     {
+      "who": "go-akizora-challengers/chuck-pumpkins",
+      "text": "¡Je, je! La Edad Dorada tendrá años, pero aún sabemos jugar."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/plume-hathaway",
+      "text": "Se me dan bien todos los deportes. ¡Hasta jugar contra abuelos!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/peridot-runehart",
+      "text": "He hecho mi ritual de la suerte con tres conchas. ¡Ganamos seguro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-akizora-challengers/chuck-pumpkins",
+      "text": "¡Qué energía! Así éramos nosotros de jóvenes."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/imogen-greenbourne",
+      "text": "¡Se me acaba de ocurrir un cuento: los abuelos que jugaban con las gaviotas!"
+     }
+    ]
+   },
+   {
+    "opponent": "go-inazuma-kfc-go",
+    "title": "Los herederos de Inazuma",
+    "before": [
+     {
+      "who": "go-inazuma-kfc-go/walt-riverside",
+      "text": "¡El Inazuma Kids FC de la nueva generación! ¡Somos más fuertes que los de antes!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/carlton-lawstrom",
+      "text": "El primero de mi clase no pierde contra nadie. Si no podéis seguirme el ritmo, mejor apartaos."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/jewel-tremaine",
+      "text": "¡Y con estilo! Mis padres lo van a subir todo a las redes."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-inazuma-kfc-go/elizabeth-buble",
+      "text": "¡Qué rabia! Pero ha sido divertidísimo... y mi horquilla de calavera sigue en su sitio."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/beryl-granger",
+      "text": "Caso analizado desde el banquillo: ganamos por trabajo en equipo."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara-shopkeepers",
+    "title": "Los mayores del barrio",
+    "before": [
+     {
+      "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+      "text": "¿Los niños de la cala nos retan? ¡Pues sin piedad, que luego hay fideos!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/reamond-lockhard",
+      "text": "¡Si ganamos, el de la tienda de cartas nos regala sobres raros!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/swae-talltree",
+      "text": "Soy la más alta... aunque parezca que estoy en otro mundo."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara-shopkeepers/lorcan-oxfield",
+      "text": "¡Estos críos embisten más que yo!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/chilton-churner",
+      "text": "¡Helado de máquina para celebrarlo! ¡Doble!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara",
+    "title": "Jugar con los ídolos",
+    "before": [
+     {
+      "text": "El último partido del verano es un sueño: la Secundaria South Cirrus, los mayores que una vez jugaron en su cala."
+     },
+     {
+      "who": "vr-nagumohara/alix-la-fontaine",
+      "text": "Os recuerdo: me hicisteis sudar en la arena. El reglamento no distingue edades, así que hoy no me contendré."
+     },
+     {
+      "who": "vr-nagumohara/raika-shinohara",
+      "text": "¡Qué ilusión! ¡Venga, Gaviotas, todos a emocionarse!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/kata-caballo",
+      "text": "Puños de karateka listos. ¡Por mucho que seáis mayores!"
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/asuna-sugami",
+      "text": "¡Voy a usar mi supertécnica contra el mejor portero de Kyushu!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara/alix-la-fontaine",
+      "text": "...Me has marcado. Tienes un futuro enorme, pequeña."
+     },
+     {
+      "who": "vr-umi-kamome-soccer-club/asuna-sugami",
+      "text": "¡Le he marcado a Alix La Fontaine! ¡¡Nadie se lo va a creer!!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El verano termina y las Gaviotas vuelven a la cala, con la arena llena de huellas de partidos."
+   },
+   {
+    "who": "vr-umi-kamome-soccer-club/quip-netley",
+    "text": "Al final solo usamos tres de mis diecisiete tácticas. ¡El año que viene, las otras catorce!"
+   },
+   {
+    "who": "vr-umi-kamome-soccer-club/seon-gulliver",
+    "text": "...Las gaviotas dicen que estamos orgullosas."
+   },
+   {
+    "who": "vr-umi-kamome-soccer-club/kean-aimes",
+    "text": "¡Cuando seamos mayores, jugaremos el Fútbol Frontier! ¡Gaviotas, a volar!"
+   }
+  ]
+ },
+ "vr-zanark-strangers": {
+  "title": "Los forasteros del caos",
+  "summary": "Zanark se fuga de la prisión CONTRA y reúne a los villanos más temibles de todas las épocas. Su objetivo: sembrar el caos por toda la línea del tiempo.",
+  "intro": [
+   {
+    "text": "Prisión CONTRA, en algún punto del futuro. Las alarmas suenan: Zanark Avalonic se ha fugado."
+   },
+   {
+    "who": "vr-zanark-strangers/zanark-avalonic",
+    "text": "¿Normas? Odio las normas. Ahora haré lo que me dé la gana... con un equipo a mi medida."
+   },
+   {
+    "who": "vr-zanark-strangers/destra",
+    "text": "El líder del Dark Team a tu servicio. Mi plato favorito es la venganza. Bien fría."
+   },
+   {
+    "who": "vr-zanark-strangers/caleb-stonewall",
+    "text": "Je. Un equipo de villanos... qué original. Bueno, mientras pueda manejar a los rivales como marionetas, me apunto."
+   },
+   {
+    "who": "vr-zanark-strangers/cao-cao",
+    "text": "Gobernaba Wei y ahora juego en un equipo de forasteros. La historia es extraña."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-zanark-domain",
+    "title": "Mi antiguo yo",
+    "before": [
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "¿Un equipo con mi nombre que no soy yo? ¿O sí soy yo? Qué lío."
+     },
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Solo hay un Zanark que manda. Y es el que ha mejorado."
+     },
+     {
+      "who": "vr-zanark-strangers/panca",
+      "text": "Je, je... ¿Qué miras? ¿Te da miedo mi máscara? Pues espera a ver lo que hay debajo."
+     },
+     {
+      "who": "vr-zanark-strangers/sapta",
+      "text": "Y yo me peino como Medusa. Una mirada mía y os quedaréis de piedra."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-zanark-domain/zanark-avalonic",
+      "text": "Tsk... Me ha ganado... yo mismo. Eso sí que es raro."
+     },
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Calentamiento terminado."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-gatekeepers",
+    "title": "La policía del tiempo",
+    "before": [
+     {
+      "who": "vr-gatekeepers/lindalyn-berny",
+      "text": "Zanark Avalonic, quedas detenido por fuga y alteración de la historia."
+     },
+     {
+      "who": "vr-zanark-strangers/baron-oxford",
+      "text": "Nuestro equipo es superior. Detenidos no nos va a llevar nadie."
+     },
+     {
+      "who": "vr-zanark-strangers/gail-baker",
+      "text": "Ni el más mínimo movimiento de las agentes se me escapa."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-gatekeepers/mira-lysander",
+      "text": "¡Se han escapado otra vez! ¡Mi ascenso!"
+     },
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Decidle a la Oficina que me busque. Me encanta que me persigan."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-destroyers",
+    "title": "Choque de potencias",
+    "before": [
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Los Destructores ganan con fuerza aplastante. ¿Y vosotros?"
+     },
+     {
+      "who": "vr-zanark-strangers/grisley-bear",
+      "text": "Fuerza aplastante, dice. Ja. Voy a enseñarte lo que es eso."
+     },
+     {
+      "who": "vr-zanark-strangers/bash-lancer",
+      "text": "Soldado del Equipo Ogro, listo. Os aplastaré... con una sonrisa."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-destroyers/keines-elvain",
+      "text": "Brutales... pero tienen algo más que fuerza."
+     },
+     {
+      "who": "vr-zanark-strangers/lars-luceaf-r",
+      "text": "Os dije que puedo parar cualquier disparo. Ninguno de vosotros me interesa lo más mínimo."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-platos",
+    "title": "El héroe del futuro",
+    "before": [
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "¡Zanark! ¡No dejaré que destroces la historia mientras buscamos el keshin definitivo!"
+     },
+     {
+      "who": "vr-zanark-strangers/arachne",
+      "text": "Ay, qué héroe tan monísimo... Humanos traviesos, mis técnicas arácnidas os atraparán en mi red."
+     },
+     {
+      "who": "vr-zanark-strangers/venom-braggard",
+      "text": "Zanark me dio un poder de otro mundo. Es hora de usarlo."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-platos/victorio-cryptix",
+      "text": "Eres un caos... pero juegas como nadie."
+     },
+     {
+      "who": "vr-zanark-strangers/ryoma-nishiki",
+      "text": "¡Ja, ja! Me fui a Italia de delantero y volví de centrocampista... ¡y hoy he marcado igual, amigo!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega-3-0",
+    "title": "Mi viejo equipo",
+    "before": [
+     {
+      "text": "Zanark se cruza con el Protocolo Omega 3.0, el equipo que una vez entrenó y con el que se fusionó con mixi max."
+     },
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "Zanark... Deberías estar en CONTRA. Yo, el gran Gamma, te llevaré de vuelta. Con elegancia, por supuesto."
+     },
+     {
+      "who": "vr-zanark-strangers/hurricane-zeta",
+      "text": "El huracán más grande jamás visto os va a barrer."
+     },
+     {
+      "who": "vr-zanark-strangers/dave-quagmire",
+      "text": "¿Un huracán? Bah. Esta es mi oportunidad de demostrar que soy el más fuerte. ¡Que tiemble el futuro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega-3-0/gamma",
+      "text": "¿Yo, derrotado por mi antiguo entrenador? Qué humillante... y qué poco elegante."
+     },
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Solo queda un rival digno. El de siempre."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-chrono-storm",
+    "title": "El rival de siempre",
+    "before": [
+     {
+      "text": "El último destino de Zanark es el equipo que siempre se le resistió: el Chrono Storm de Arion Sherwind."
+     },
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Zanark! ¿Otra vez liándola por el tiempo?"
+     },
+     {
+      "who": "cs-chrono-storm/zanark-avalonic",
+      "text": "¿Otro yo con pinta de villano? ¡Jajaja! Pues este Zanark ahora juega con Arion... y se lo pasa en grande."
+     },
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "Arion, odio las normas, pero tengo una: contigo siempre juego en serio."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-chrono-storm/arion-sherwind",
+      "text": "¡Qué partidazo! Zanark, el fútbol también es tuyo. ¡Juega más así!"
+     },
+     {
+      "who": "vr-zanark-strangers/zanark-avalonic",
+      "text": "...Tsk. Puede que tengas razón. Puede."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Zanark Outsiders desaparecen en una grieta temporal. Nadie sabe dónde aparecerán la próxima vez."
+   },
+   {
+    "who": "vr-zanark-strangers/destra",
+    "text": "La venganza ha estado buena. Pero el fútbol, mejor."
+   },
+   {
+    "who": "vr-zanark-strangers/caleb-stonewall",
+    "text": "Je. Que no se os suba a la cabeza, pero... no ha estado mal jugar con esta panda de chiflados."
+   },
+   {
+    "who": "vr-zanark-strangers/zanark-avalonic",
+    "text": "Caos, libertad y fútbol. Volveremos, línea del tiempo. Volveremos."
+   }
+  ]
+ }
+}

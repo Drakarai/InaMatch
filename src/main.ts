@@ -18,6 +18,7 @@ import { ClubScene } from './scenes/ClubScene';
 import { GachaScene } from './scenes/GachaScene';
 import { MenuScene } from './scenes/MenuScene';
 import { TitleScene } from './scenes/TitleScene';
+import { StoryScene } from './scenes/StoryScene';
 
 // los textos se rasterizan a la misma resolución que el lienzo (si no, se verían borrosos al ampliar)
 const setStyle = Phaser.GameObjects.TextStyle.prototype.setStyle;
@@ -80,7 +81,7 @@ function startGame(): void {
     render: { roundPixels: true, antialias: true },
     scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
     // el HUD va después del partido para dibujarse encima
-    scene: [BootScene, TitleScene, MenuScene, ClubScene, GachaScene, FormationScene, MatchScene, HudScene],
+    scene: [BootScene, TitleScene, StoryScene, MenuScene, ClubScene, GachaScene, FormationScene, MatchScene, HudScene],
   });
   watchResize(game);
 

@@ -1,0 +1,4672 @@
+{
+ "ie3-inazuma-japan": {
+  "title": "El desafío del mundo",
+  "summary": "El Fútbol Frontier Internacional: de las pruebas de selección y la fase asiática hasta la isla Liocott y la gran final contra Los Pequeños Gigantes.",
+  "main": true,
+  "intro": [
+   {
+    "text": "Llega el Fútbol Frontier Internacional: las mejores selecciones juveniles del planeta lucharán por ser las número uno del mundo."
+   },
+   {
+    "name": "Seymour Hillman",
+    "text": "He reunido a veintidós candidatos. Solo dieciséis formarán la selección de Japón. Os dividiré en dos equipos y jugaréis entre vosotros."
+   },
+   {
+    "who": "ie3-inazuma-japan/mark-evans",
+    "text": "¡Jugar contra mis amigos para entrar en la selección! ¡Qué ganas! ¡Vamos a darlo todo!"
+   },
+   {
+    "who": "ie3-inazuma-japan/axel-blaze",
+    "text": "El mundo nos espera, Mark. Pero primero hay que ganarse la camiseta."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-nippon-daihyou-kouho-b",
+    "title": "Las pruebas de selección",
+    "before": [
+     {
+      "text": "Equipo A, liderado por Mark, contra Equipo B, liderado por Jude. Cada jugada cuenta para ganarse un puesto."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "Mark, no esperes que me contenga. Aquí todos queremos lo mismo: la camiseta de Japón."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/caleb-stonewall",
+      "text": "Je. Qué bonito, todos amiguitos... Pues siento estropearos la fiesta: en el centro del campo mando yo."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Así me gusta! ¡Que gane el mejor fútbol!"
+     }
+    ],
+    "after": [
+     {
+      "name": "Seymour Hillman",
+      "text": "Buen partido. Ahora os presento a vuestro seleccionador: Percival Travis."
+     },
+     {
+      "name": "Percival Travis",
+      "text": "Estos son los dieciséis elegidos. Desde hoy sois el Inazuma Japón. Y conmigo no habrá favoritos."
+     },
+     {
+      "who": "ie3-inazuma-japan/austin-hobbes",
+      "text": "¡Estoy en la selección! ¡Voy a jugar junto a Axel Blaze!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-big-waves",
+    "title": "La ola de Australia",
+    "before": [
+     {
+      "text": "Primer partido de la fase asiática: Australia. Antes, Travis les prohibió entrenar durante dos días. Nadie entendía por qué."
+     },
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "¡Bienvenidos al océano! Nuestra Defensa en caja os atrapará como peces en una red."
+     },
+     {
+      "who": "ie3-big-waves/gene-whalon",
+      "text": "Y si alguno escapa, mi Gran barrera de coral hará el resto."
+     },
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "Esa táctica tiene un punto débil. Estad atentos: lo encontraremos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/hurley-kane",
+      "text": "¡Toma ya! ¡Mi Gran tifón ha surfeado la ola más grande de todas!"
+     },
+     {
+      "who": "ie3-inazuma-japan/axel-blaze",
+      "text": "Torbellino de fuego. Esto solo acaba de empezar."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Y he parado su Megalodón! El míster tenía razón: descansar nos hizo ver lo que nos faltaba."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-desert-lion",
+    "title": "El calor del desierto",
+    "before": [
+     {
+      "text": "Semifinal asiática contra Catar. El sol abrasa el estadio."
+     },
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "La primera parte es vuestra. La segunda será nuestra. El desierto nos ha enseñado a aguantar."
+     },
+     {
+      "who": "ie3-desert-lion/nasir-mustafa",
+      "text": "Cuando estéis agotados, ni vuestro mejor tiro atravesará mi Simún."
+     },
+     {
+      "who": "ie3-inazuma-japan/shawn-froste",
+      "text": "Qué calor tan horrible... Pero no pienso rendirme."
+     },
+     {
+      "who": "ie3-inazuma-japan/austin-hobbes",
+      "text": "Yo... no sé si debería tirar. No quiero quitarle protagonismo a nadie."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/axel-blaze",
+      "text": "Austin, en el campo no se pide permiso. Si tienes la ocasión, tira."
+     },
+     {
+      "who": "ie3-inazuma-japan/austin-hobbes",
+      "text": "¡Entendido! ¡A partir de ahora tiraré con todo lo que tengo!"
+     },
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "Nos habéis vencido con nuestro propio calor. Llegad lejos, Japón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-neo-japan",
+    "title": "Neo Japón",
+    "before": [
+     {
+      "text": "Antes de la final asiática surge un desafío: Neo Japón, un equipo de antiguos rivales que quiere quitarles el puesto."
+     },
+     {
+      "who": "ie3-neo-japan/dave-quagmire",
+      "text": "Ni siquiera nos convocaron a las pruebas. Si os ganamos, nosotros seremos la selección de Japón."
+     },
+     {
+      "who": "ie3-neo-japan/joseph-king",
+      "text": "Mark, he mejorado mucho desde la Royal. Hoy no me marcas ni un gol."
+     },
+     {
+      "name": "Aquilina Schiller",
+      "text": "Mis chicos también aman el fútbol. Si de verdad merecéis representar a Japón, demostradlo en el campo."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Aceptamos! ¡Jugar contra viejos rivales es lo mejor que hay!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-neo-japan/dave-quagmire",
+      "text": "Ahora lo entiendo... Llevad el nombre de Japón con orgullo. Si os debilitáis, volveremos a por vosotros."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Trato hecho! ¡Llevaremos vuestro fútbol con nosotros!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-fire-dragon",
+    "title": "La final asiática",
+    "before": [
+     {
+      "text": "Final asiática contra Corea del Sur. Y en los Dragones de Fuego juegan tres caras conocidas: Byron, Claude y Bryce."
+     },
+     {
+      "who": "ie3-fire-dragon/byron-love",
+      "text": "Cuánto tiempo, Mark. Hoy el fuego, el hielo y los dioses juegan en el mismo bando."
+     },
+     {
+      "who": "ie3-fire-dragon/changsu-choi",
+      "text": "No os fijéis solo en ellos. Mi Presión de zona perfecta os dejará sin aire, Jude."
+     },
+     {
+      "name": "Percival Travis",
+      "text": "Mark, hoy no juegas. Un capitán que no ve a su equipo no me sirve."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¿Qué...? Está bien. Lo veré desde el banquillo... y entenderé qué quiere decir."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "¡La Ruta del cielo ha roto su presión! Es nuestra primera supertáctica."
+     },
+     {
+      "who": "ie3-inazuma-japan/axel-blaze",
+      "text": "Mi padre estaba en la grada... Austin, esa Tormenta del tigre ha sido para él."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Puño de furia! Ya lo entiendo: un capitán tiene que ver a todo su equipo. ¡Rumbo a Liocott!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "Los caballeros de Inglaterra",
+    "before": [
+     {
+      "text": "La isla Liocott recibe a las diez selecciones. Primer partido del Grupo A: Inglaterra."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Un caballero no presume, Mark Evans: demuestra. Mi Excalibur es más fuerte cuanto más lejos se lanza."
+     },
+     {
+      "who": "ie3-inazuma-japan/jack-wallside",
+      "text": "¡Ese tiro da muchísimo miedo! Pero lo pararemos juntos, capitán."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "Mi abuelo tenía una técnica más en su cuaderno... ¡La terminaré aquí mismo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Mano ultradimensional! ¡La técnica de mi abuelo funciona!"
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Has jugado con honor. Te debo una disculpa... y una revancha."
+     },
+     {
+      "text": "Y en Liocott, Mark descubre algo increíble: su abuelo, David Evans, podría seguir con vida."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-team-k",
+    "title": "La sombra de Ray Dark",
+    "before": [
+     {
+      "text": "Un hombre de gafas oscuras, Mr. D, toma el mando del Orfeo, despide a sus jugadores y quiere sustituirlos por el Equipo D."
+     },
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "Ese hombre es Ray Dark, estoy seguro. No dejaré que vuelva a usar el fútbol así."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "¿Tú eres el «original»? Gracias a Mr. D, te he superado en todo."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Ocho de los nuestros se han lesionado... Mark, Jude, ¿jugaríais con nosotros?"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Claro que sí! ¡Por el fútbol de Italia!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/david-samford",
+      "text": "¡Pingüino emperador n.º 3! Lo hemos lanzado juntos, Jude."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "Solo quería ser elegido... Mr. D me prometió poder, pero me lo estaba quitando todo."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Gracias, amigos. El Orfeo vuelve a ser la selección de Italia."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-empire",
+    "title": "La muralla de Argentina",
+    "before": [
+     {
+      "text": "Por culpa de Mr. D, el partido contra Argentina se adelanta un día. Mark y Jude llegan tarde y el equipo empieza sin ellos."
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Nadie nos ha marcado un gol en todo el torneo. Mi Muro de hierro no se agrieta."
+     },
+     {
+      "who": "ie3-the-empire/leone-badigo",
+      "text": "Y cuando ataquemos, mi Llamarada infernal arrasará vuestra portería."
+     },
+     {
+      "who": "ie3-inazuma-japan/xavier-foster",
+      "text": "Sin Mark ni Jude nos toca sostener al equipo. ¡Calma, y a jugar juntos!"
+     },
+     {
+      "who": "ie3-inazuma-japan/darren-lachance",
+      "text": "¡Defenderé la portería por Mark! ¡Mano diabólica!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/darren-lachance",
+      "text": "¡La Mano diabólica me ha salido perfecta! ¡Ya no tengo que copiar a nadie!"
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Habéis salido de nuestra Trampa de los Andes... Sois rivales dignos, Japón."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Perdón por llegar tarde, chicos! ¡Habéis estado increíbles!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-unicorn",
+    "title": "El último partido de Erik",
+    "before": [
+     {
+      "text": "Estados Unidos: el Unicorn de Erik Eagle y Bobby Shearer, viejos amigos del Raimon."
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Mark, después del torneo me espera una operación... Pero hoy quiero jugar contra ti sin contenerme."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "Erik no es el único que viene a darlo todo. Trueno rodante, Gran lobo... ¡Así juega América!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "Si eso es lo que quieres, Erik, ¡yo tampoco me contendré! ¡Eso es la amistad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/nathan-swift",
+      "text": "¡El huracán! Shawn y yo lo hemos conseguido."
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Gracias, Mark. Ahora tengo una razón más para volver a jugar."
+     },
+     {
+      "who": "ie3-unicorn/bobby-shearer",
+      "text": "¡Llegad hasta el final! ¡Os animaremos desde la grada!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "El Catenaccio de Orfeo",
+    "before": [
+     {
+      "text": "Último partido del grupo: Italia. Ray Dark entrena al Orfeo, y Paolo ha decidido confiar en él."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Mr. D nos ha enseñado el Contraataque Catenaccio. Mark, hoy soy tu rival."
+     },
+     {
+      "who": "ie3-orpheus/hidetoshi-nakata",
+      "text": "El capitán ha vuelto. Ahora Italia está completa."
+     },
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "Ray Dark... te demostraré que mi fútbol ya no es el que tú me enseñaste."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "¡Hemos roto el Catenaccio! Ray Dark... por fin me has mirado como a un jugador."
+     },
+     {
+      "name": "Ray Dark",
+      "text": "Jude, has crecido. Tu fútbol es más fuerte que el mío."
+     },
+     {
+      "text": "Tras el partido, Ray Dark desaparece para siempre. Jude guarda sus últimas palabras en el corazón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-tenkuu-no-shito",
+    "title": "Las puertas del cielo",
+    "before": [
+     {
+      "text": "Una tormenta extraña sacude Liocott. Por culpa de una pulsera, el Sky Team se lleva a Sue al Jardín Celestial del Monte Magnitud."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "La muchacha se casará con el Rey Demonio para sellarlo otros mil años. Es su destino. Los humanos no tenéis nada que decir."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Nadie decide el destino de nuestros amigos! ¡Si hay que jugar por ella, jugaremos!"
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/gaiel",
+      "text": "Pobrecitos... Nadie vence a los ángeles en su propio cielo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Vuestra pasión es más fuerte de lo que creía. Llevaos a la muchacha."
+     },
+     {
+      "text": "Mientras tanto, el equipo de Jude ha derrotado al Dark Team en la Puerta Demoníaca y ha rescatado a Celia."
+     },
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "Celia está a salvo. Pero algo no va bien... El aire huele a oscuridad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-dark-angel",
+    "title": "Ángel Oscuro",
+    "before": [
+     {
+      "text": "Los demonios hipnotizan a Sanctus y a varios ángeles. Juntos forman Ángel Oscuro: el Rey Demonio en persona."
+     },
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "¡Ja, ja! ¡Me comeré vuestras almas una a una! Y si perdéis, os quedaréis aquí abajo mil años."
+     },
+     {
+      "who": "ie3-dark-angel/sanctus",
+      "text": "Mark... detenednos... por favor..."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Aguanta, Sanctus! ¡Os vamos a liberar a base de fútbol!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-dark-angel/sanctus",
+      "text": "La oscuridad se ha ido... Gracias, humanos. Ahora sellaré a los demonios para siempre."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Espera! No hace falta. Si algún día quieren pelear, que sea jugando al fútbol, ¿vale?"
+     },
+     {
+      "text": "Los demonios se retiran tras la puerta de piedra. La tormenta se disipa y vuelve a salir el sol."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "El fútbol de Os Reis",
+    "before": [
+     {
+      "text": "Semifinal contra Brasil. Pero su capitán, Mac Robingo, trae una petición terrible: que Japón se deje ganar."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "Si perdemos, Zoolan Rice dejará a nuestras familias sin nada. Por favor..."
+     },
+     {
+      "who": "ie3-inazuma-japan/thor-stoutberg",
+      "text": "¡Eso no es fútbol! Os ayudaremos, pero en el campo jugaremos en serio."
+     },
+     {
+      "text": "Mark, Thor, Xavier y Jude consiguen las pruebas del Programa RH, y el detective Smith detiene a Zoolan Rice."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Por fin podemos jugar nuestro fútbol, el que nos hace felices! ¡Golpe de samba!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Menudo partido! Gracias, Japón. Hoy he vuelto a disfrutar del fútbol."
+     },
+     {
+      "who": "ie3-inazuma-japan/xavier-foster",
+      "text": "Así es como debe jugarse: sin miedo y sin cadenas."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Estamos en la final!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-team-garshield",
+    "title": "La venganza de Zoolan",
+    "before": [
+     {
+      "text": "Zoolan Rice escapa y ataca la zona de Costail con su propio equipo, potenciado con el Programa RH."
+     },
+     {
+      "name": "Zoolan Rice",
+      "text": "¡Mis soldados os aplastarán! ¡Y después, el mundo entero será mío!"
+     },
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Somos el Zoolan Team. Nuestro poder no tiene límites."
+     },
+     {
+      "text": "Y entonces aparece alguien inesperado para dirigir a Japón: David Evans, el abuelo de Mark."
+     },
+     {
+      "name": "David Evans",
+      "text": "Mark, ya hablaremos después. ¡Ahora sal ahí y juega como tú sabes!"
+     }
+    ],
+    "after": [
+     {
+      "name": "David Evans",
+      "text": "No hace falta ningún programa para ser fuerte. Basta con entrenar y amar el fútbol."
+     },
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Ese fútbol... nos ha hecho sentir algo que el programa nunca nos dio."
+     },
+     {
+      "text": "Zoolan Rice es arrestado por fin. Solo queda un partido."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "La final del mundo",
+    "before": [
+     {
+      "text": "La gran final del FFI. Los Pequeños Gigantes de Costail arrollaron al Orfeo por 8-0. Su entrenador: David Evans."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Tu abuelo me enseñó la Mano celestial X. Mark, demuéstrame que tú también eres un gigante."
+     },
+     {
+      "who": "ie3-little-gigant/drago-hill",
+      "text": "Mis Mandíbulas dobles van a devorar vuestra portería."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Abuelo, voy a ganarte con todo lo que he aprendido! ¡Parada celestial!"
+     },
+     {
+      "who": "ie3-inazuma-japan/axel-blaze",
+      "text": "Austin, Xavier: es el momento. ¡Fuego total!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Lo hemos conseguido! ¡Somos campeones del mundo!"
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Hoy habéis sido mejores. Pero algún día os tomaremos la revancha."
+     },
+     {
+      "name": "David Evans",
+      "text": "Estoy orgulloso de ti, Mark. Ese fútbol... es solo tuyo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Inazuma Japón levanta el trofeo del Fútbol Frontier Internacional. Japón es el mejor equipo juvenil del mundo."
+   },
+   {
+    "who": "ie3-inazuma-japan/jude-sharp",
+    "text": "De Japón a Liocott... Cada rival nos ha hecho más fuertes."
+   },
+   {
+    "who": "ie3-inazuma-japan/axel-blaze",
+    "text": "Y lo mejor es que esto no se acaba aquí."
+   },
+   {
+    "who": "ie3-inazuma-japan/mark-evans",
+    "text": "¡Claro que no! ¡El fútbol siempre trae un nuevo desafío! ¡Seguiremos jugando, todos juntos!"
+   },
+   {
+    "text": "De vuelta en el Raimon llega la graduación... y un último partido entre amigos, como en los viejos tiempos."
+   }
+  ]
+ },
+ "ie3-big-waves": {
+  "title": "En busca de la ola perfecta",
+  "summary": "Tras caer ante Japón, el Big Waves surca los mares para perfeccionar su Defensa en caja y volver a por la revancha.",
+  "intro": [
+   {
+    "text": "Australia, tras la eliminación. Los jugadores del Big Waves miran el mar en silencio."
+   },
+   {
+    "who": "ie3-big-waves/dolph-hensen",
+    "text": "Japón rompió nuestra Defensa en caja. Si queremos volver, necesitamos una ola más grande."
+   },
+   {
+    "who": "ie3-big-waves/hank-tennyson",
+    "text": "La ola perfecta no espera en la orilla, tío. Hay que salir a buscarla."
+   },
+   {
+    "who": "ie3-big-waves/gene-whalon",
+    "text": "Pues al agua. Cada rival será un arrecife más que superar."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kaiou-gakuen",
+    "title": "¡Piratas a la vista!",
+    "before": [
+     {
+      "text": "Rumbo al norte, el equipo se cruza con un barco que ondea bandera pirata."
+     },
+     {
+      "who": "go-kaiou-gakuen/davy-jones",
+      "text": "Este mar pertenece al Kaiou. Quien lo cruce sin permiso se hundirá con su barco."
+     },
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "Pues prepárate, capitán. ¡Megalodón a babor!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-big-waves/gene-whalon",
+      "text": "Ni un pirata ha encontrado un hueco en mi barrera de coral."
+     },
+     {
+      "who": "go-kaiou-gakuen/davy-jones",
+      "text": "Tch... Unos surfistas manchando el honor del Kaiou. Esto no volverá a pasar."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-shining-satans",
+    "title": "Los otros australianos",
+    "before": [
+     {
+      "text": "En Sídney los espera un equipo que dice ser el verdadero orgullo de Australia: los Demonios Brillantes."
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "¡Kekeke! ¿Surfistas? Qué tiernos... Os voy a revolver tanto la cabeza que no sabréis ni dónde está la portería."
+     },
+     {
+      "who": "ie3-big-waves/holly-summers",
+      "text": "¡Eso habrá que verlo! En Australia mandan las olas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-big-waves/kjell-snapper",
+      "text": "Mis antepasados decían que el mar siempre gana. Hoy nosotros hemos sido el mar."
+     },
+     {
+      "who": "orion-shining-satans/beryl",
+      "text": "Kekeke... Qué divertido. La próxima vez jugaré con otra de mis caras. Esa no os gustará."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-sazanaara-eleven",
+    "title": "Los hijos del océano",
+    "before": [
+     {
+      "text": "Una nave extraña cae al océano. De ella salen jugadores de un planeta cubierto de agua: Los Naiadi."
+     },
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "¡Plink adora el agua! En su planeta todo es mar. ¡Nadie conoce las corrientes como Plink!"
+     },
+     {
+      "who": "ie3-big-waves/hamilton-reith",
+      "text": "¡Ni como yo! He buceado en cada rincón de la Gran Barrera de Coral."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-sazanaara-eleven/plink-powai",
+      "text": "Jo, Plink ha perdido... Pero vuestro océano es precioso. ¡Cuidadlo mucho, ¿vale?!"
+     },
+     {
+      "who": "ie3-big-waves/sonny-shore",
+      "text": "¡Eso siempre! Y la basura, ¡al contenedor!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-oumihara",
+    "title": "La escuela del mar",
+    "before": [
+     {
+      "text": "Para entender el Gran tifón que los derrotó, el equipo viaja a Okinawa, al Instituto Mary Times."
+     },
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Eh, australianos! ¿Queréis surfear la ola de un tifón? ¡Pues venid a por ella!"
+     },
+     {
+      "who": "ie3-big-waves/hank-tennyson",
+      "text": "¡Llevo toda la vida esperando una ola así!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-oumihara/hurley-kane",
+      "text": "¡Brutal! Habéis cogido el ritmo del mar, colegas."
+     },
+     {
+      "who": "ie3-big-waves/matt-fischer",
+      "text": "Paciencia, como en la meditación... y la ola llega sola."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "La revancha del océano",
+    "before": [
+     {
+      "text": "Por fin llega la revancha: el Big Waves contra el Inazuma Japón."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Australia! ¡Sabía que volveríais más fuertes!"
+     },
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "Esta vez nuestra Defensa en caja no tiene grietas. ¡Y el Megalodón muerde más fuerte!"
+     },
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "Han cambiado su táctica. Cuidado: no es el mismo equipo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "¡La ola perfecta! ¡Por fin la hemos cogido!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Qué partidazo! ¡Tenemos que volver a jugar pronto!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Big Waves regresa a casa. En la playa, el sol se pone sobre las olas."
+   },
+   {
+    "who": "ie3-big-waves/dolph-hensen",
+    "text": "Hemos aprendido de cada rival. El mar no se conquista: se respeta."
+   },
+   {
+    "who": "ie3-big-waves/hank-tennyson",
+    "text": "Y mañana saldremos a buscar una ola todavía más grande."
+   },
+   {
+    "who": "ie3-big-waves/gene-whalon",
+    "text": "¡Australia vuelve a estar en la cresta de la ola!"
+   }
+  ]
+ },
+ "ie3-brockenborg": {
+  "title": "Precisión alemana",
+  "summary": "Alemania no pasó de la fase de grupos. El Brocken Brigade pone a prueba su fútbol, pieza a pieza, contra las máquinas más perfectas.",
+  "intro": [
+   {
+    "text": "Alemania quedó cuarta en el Grupo B. Para el Brocken Brigade, eso es un error de cálculo inaceptable."
+   },
+   {
+    "who": "ie3-brockenborg/jonas-polk",
+    "text": "Un cohete que se desvía un milímetro nunca llega a Marte. Nuestro fútbol tampoco puede fallar."
+   },
+   {
+    "who": "ie3-brockenborg/jan-oster",
+    "text": "Revisaremos cada pieza del equipo como si fuera un motor de precisión."
+   },
+   {
+    "who": "ie3-brockenborg/theodor-ulrich",
+    "text": "Con voluntad de hierro. Como siempre."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "El cerebro controlado",
+    "before": [
+     {
+      "text": "Primer banco de pruebas: el Instituto Brain, cuyos jugadores juegan con la mente programada."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Nuestros cálculos son perfectos. Vuestro fútbol, predecible."
+     },
+     {
+      "who": "ie3-brockenborg/alexander-hausen",
+      "text": "La lógica sin corazón es solo un error bien ordenado."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Primer ajuste completado."
+     },
+     {
+      "who": "ie3-brockenborg/peter-naumann",
+      "text": "Heine escribiría un poema sobre esta victoria. Uno corto."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "Inteligencia artificial",
+    "before": [
+     {
+      "text": "La Academia IA ha calculado todas las jugadas del Brocken Brigade."
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "Probabilidad de victoria alemana: doce por ciento."
+     },
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Las probabilidades no tienen en cuenta la voluntad."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-brockenborg/jan-oster",
+      "text": "Su programa no esperaba un cambio de marchas manual."
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "Recalculando... Error. Los humanos son impredecibles."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Los Futboloides",
+    "before": [
+     {
+      "text": "Unos robots futbolistas aparecen en el campo de entrenamiento. Nadie sabe de dónde han salido."
+     },
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "OBJETIVO DETECTADO. ELIMINAR AL EQUIPO HUMANO."
+     },
+     {
+      "who": "ie3-brockenborg/kurt-zawel",
+      "text": "Sin mi chucrut no podría con ellos... ¡Menos mal que he desayunado!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-brockenborg/jan-oster",
+      "text": "Engranajes magníficos. Los estudiaré... después de celebrarlo."
+     },
+     {
+      "who": "ie3-brockenborg/lukas-schmidt",
+      "text": "Ni un tanque los habría parado mejor que nuestra defensa."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "La revancha de Brasil",
+    "before": [
+     {
+      "text": "Os Reis los venció 3-1 en la fase de grupos. Ahora, libres de Zoolan Rice, juegan aún mejor."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Alemanes! ¡Esta vez sin miedo, solo samba!"
+     },
+     {
+      "who": "ie3-brockenborg/niklas-kuster",
+      "text": "Que suene la samba. Nosotros pondremos el ritmo del motor."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Menuda máquina! Me habéis hecho sudar la camiseta."
+     },
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Error del Grupo B corregido."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-keibi-machines",
+    "title": "La máquina perfecta",
+    "before": [
+     {
+      "text": "La prueba final: los Robots Guardias del Servicio Secreto, la defensa mecánica más dura que existe."
+     },
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "SISTEMA DE DEFENSA ACTIVADO. NINGÚN BALÓN PASARÁ."
+     },
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Ingeniería contra ingeniería. Que gane la que lleve corazón. ¡Tiro galáctico!"
+     },
+     {
+      "who": "ie3-brockenborg/thorsten-welger",
+      "text": "Y yo me encargo de que su contraataque se estrelle contra mí."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-keibi-machines/robot-s",
+      "text": "FALLO... CRÍTICO... ¿QUÉ ES... LA PASIÓN?"
+     },
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "El motor está listo. Cuenta atrás iniciada."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Brocken Brigade ha superado a todas las máquinas. Ninguna pieza ha fallado."
+   },
+   {
+    "who": "ie3-brockenborg/jonas-polk",
+    "text": "El cohete está listo para despegar. Próxima parada: el próximo mundial... y algún día, Marte."
+   },
+   {
+    "who": "ie3-brockenborg/thorsten-welger",
+    "text": "Esto se celebra con un buen zumo de manzana."
+   },
+   {
+    "who": "ie3-brockenborg/erwin-v-lz",
+    "text": "Y reciclando las botellas, por favor."
+   }
+  ]
+ },
+ "ie3-dark-angel": {
+  "title": "El alma perfecta",
+  "summary": "Ángeles y demonios fusionados en Ángel Oscuro buscan las almas futbolísticas más poderosas para el Rey Demonio. Pero algo despierta en Sanctus.",
+  "intro": [
+   {
+    "text": "En lo más profundo del Monte Magnitud, ángeles y demonios se han fundido en un solo equipo: Ángel Oscuro."
+   },
+   {
+    "who": "ie3-dark-angel/destra",
+    "text": "El Rey Demonio necesita almas. Las más ardientes que existan."
+   },
+   {
+    "who": "ie3-dark-angel/malphas",
+    "text": "Dicen que en el mundo de los humanos hay equipos legendarios... Qué apetitoso."
+   },
+   {
+    "who": "ie3-dark-angel/sanctus",
+    "text": "(Alguien... tiene que detenernos...)"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "La noche de los lobos",
+    "before": [
+     {
+      "text": "Primera presa: una tribu que se transforma bajo la luna llena."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¿Demonios? La luna nos da fuerza. No os tenemos miedo."
+     },
+     {
+      "who": "ie3-dark-angel/thanatos",
+      "text": "Qué tierno. Aúllas como un cachorrito."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "Un alma salvaje. Nos servirá."
+     },
+     {
+      "who": "ie3-dark-angel/nenel",
+      "text": "(Cierro los ojos... y veo la verdad. Esto no está bien.)"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-shin-teikoku-gakuen",
+    "title": "La oscuridad de la Royal",
+    "before": [
+     {
+      "text": "La Royal Academy Redux, nacida de la ambición de Ray Dark, también guarda su propia oscuridad."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "¿Venís a por nuestras almas? Je. Aquí la oscuridad ya la ponemos nosotros."
+     },
+     {
+      "who": "ie3-dark-angel/bael",
+      "text": "Un humano con el corazón retorcido... Me gusta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Tch... Ganad lo que queráis. Mi alma no os la vendo."
+     },
+     {
+      "who": "ie3-dark-angel/behemoth",
+      "text": "¡Más! ¡Quiero más almas!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-dark-emperors",
+    "title": "Los Emperadores Oscuros",
+    "before": [
+     {
+      "text": "Ángel Oscuro desafía a un equipo que ya conoció el poder de las tinieblas: los Emperadores Oscuros."
+     },
+     {
+      "who": "ie2-dark-emperors/nathan-swift",
+      "text": "Usamos la piedra Alius para ser fuertes... y aprendimos que ese poder destruye."
+     },
+     {
+      "who": "ie3-dark-angel/gaiel",
+      "text": "Entonces ya sabéis lo que se siente. Rendíos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-dark-emperors/shadow-cimmerian",
+      "text": "La oscuridad no lo es todo... Algún día lo entenderéis."
+     },
+     {
+      "who": "ie3-dark-angel/wenel",
+      "text": "(Esas palabras... me han llegado muy dentro.)"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "El poder de Génesis",
+    "before": [
+     {
+      "text": "Siguiente presa: Génesis, la élite de la antigua Academia Alius."
+     },
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Somos Génesis, los elegidos de Padre. ¿De verdad creéis que unos demonios pueden con nosotros?"
+     },
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "¡Pues os la arrancaré con mi Lluvia oscura!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Hmph... Sois fuertes. Pero vuestro fútbol está vacío. Ni siquiera Génesis jugaba así."
+     },
+     {
+      "who": "ie3-dark-angel/sanctus",
+      "text": "(Tiene razón... Este poder no es el nuestro.)"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "La leyenda de los Once",
+    "before": [
+     {
+      "text": "La última presa: el Inazuma Eleven original, los veteranos de los que nació la leyenda del Raimon."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Ya no somos jóvenes, pero nuestras almas siguen ardiendo por el fútbol."
+     },
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "¡Esas almas me harán invencible!"
+     },
+     {
+      "who": "ie3-dark-angel/sanctus",
+      "text": "(Por favor... que su pasión nos alcance...)"
+     }
+    ],
+    "after": [
+     {
+      "text": "Ángel Oscuro gana... pero la pasión de esos veteranos ha llegado hasta Sanctus."
+     },
+     {
+      "who": "ie3-dark-angel/sanctus",
+      "text": "¡Esta luz es mía! Destra, se acabó. No robaremos ni un alma más."
+     },
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "¡¿Qué?! ¿Te has liberado del hechizo?"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie3-dark-angel/sanctus",
+    "text": "Hemos ganado todos los partidos, pero lo más fuerte que hemos encontrado no se puede robar."
+   },
+   {
+    "who": "ie3-dark-angel/destra",
+    "text": "Hmpf... Esa cosa que llamáis pasión... Admito que jugar ha sido divertido."
+   },
+   {
+    "who": "ie3-dark-angel/gaiel",
+    "text": "Entonces, ¿por qué no jugamos otra vez? Sin hechizos."
+   },
+   {
+    "text": "Por primera vez en mil años, ángeles y demonios comparten un mismo balón."
+   }
+  ]
+ },
+ "ie3-desert-lion": {
+  "title": "La tormenta de arena",
+  "summary": "Los Leones del Desierto recorren dunas, sabanas y océanos para que su resistencia legendaria sea, esta vez, imparable.",
+  "intro": [
+   {
+    "text": "Catar cayó ante Japón en la semifinal asiática. El calor no bastó."
+   },
+   {
+    "who": "ie3-desert-lion/bilal-kalil",
+    "text": "Nuestra resistencia es nuestra fuerza, pero necesitamos algo más. Saldremos a buscarlo."
+   },
+   {
+    "who": "ie3-desert-lion/sayid-armand",
+    "text": "Como nuestro país: no podemos depender de una sola cosa."
+   },
+   {
+    "who": "ie3-desert-lion/nasir-mustafa",
+    "text": "No volveré a casa hasta poder anunciar una victoria."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-shamshir",
+    "title": "Las cimitarras de las dunas",
+    "before": [
+     {
+      "text": "Los Cimitarras llegan desde un planeta de desiertos infinitos."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "En nuestras dunas el sol quema el doble. Aquí os sentiréis como en una nevera."
+     },
+     {
+      "who": "ie3-desert-lion/zack-abdulla",
+      "text": "¿Más calor que una tarde con los camellos de mi pueblo? Lo dudo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/majdi-ismail",
+      "text": "Ni un lagarto aguantaría tanto como nosotros."
+     },
+     {
+      "who": "gx-shamshir/said",
+      "text": "Tch... ¿Cómo podéis seguir corriendo? Hoy la arena os ha protegido. Solo hoy."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-arab-no-hi-no-tori-gundan",
+    "title": "El fénix árabe",
+    "before": [
+     {
+      "text": "El Ejército del Fénix Árabe desafía a Catar a un duelo en pleno desierto."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Somos las aves del desierto. Volamos sobre la arena que vosotros pisáis."
+     },
+     {
+      "who": "ie3-desert-lion/hasan-ahmed",
+      "text": "A mí me llaman el Halcón Catarí. Veremos quién vuela más alto."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/hasan-ahmed",
+      "text": "¡En picado y a por el balón! Así se vuela."
+     },
+     {
+      "who": "orion-arab-no-hi-no-tori-gundan/falcon",
+      "text": "Un buen vuelo, león. Nos volveremos a ver."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-big-waves",
+    "title": "Revancha asiática",
+    "before": [
+     {
+      "text": "El Big Waves también cayó ante Japón. Ahora, el desierto se enfrenta al mar."
+     },
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "El océano contra la arena, ¿eh? Prepárate para mojarte."
+     },
+     {
+      "who": "ie3-desert-lion/sulayk-sulaiman",
+      "text": "Si pudiera desalar vuestro océano, Catar tendría agua para siglos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "El agua se evapora con nuestro calor. Segunda parte, como siempre."
+     },
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "Sois incansables... ¿De qué estáis hechos?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-great-horn",
+    "title": "La carrera de la sabana",
+    "before": [
+     {
+      "text": "Los Caimanes del Cabo, de Sudáfrica, presumen de tener los pulmones más fuertes de África."
+     },
+     {
+      "who": "ie3-the-great-horn/jake-fana",
+      "text": "En la sabana sobrevive quien más corre. ¿Aguantaréis nuestro ritmo?"
+     },
+     {
+      "who": "ie3-desert-lion/musa-sylla",
+      "text": "Aguantaremos noventa minutos... y noventa más si hace falta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-great-horn/nathan-tswane",
+      "text": "Ni el avestruz con el que entreno corre tanto como vosotros."
+     },
+     {
+      "who": "ie3-desert-lion/mansur-jasim",
+      "text": "Una victoria así vale más que la perla más cara."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "La revancha del desierto",
+    "before": [
+     {
+      "text": "Japón ganó porque Austin se atrevió a tirar. Ahora Catar quiere su revancha."
+     },
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "Esta vez no os dejaremos respirar ni en la primera parte."
+     },
+     {
+      "who": "ie3-inazuma-japan/austin-hobbes",
+      "text": "¡Y esta vez yo tiraré desde el primer minuto!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Que venga el calor! ¡Nosotros también hemos entrenado!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/nasir-mustafa",
+      "text": "Mi Simún no ha cedido. Hoy sí puedo volver a casa."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Sois unos leones de verdad! ¡Qué resistencia!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Leones del Desierto vuelven a Catar como héroes."
+   },
+   {
+    "who": "ie3-desert-lion/bilal-kalil",
+    "text": "Hemos aprendido que la fuerza no está solo en aguantar, sino en no dejar de avanzar."
+   },
+   {
+    "who": "ie3-desert-lion/jamila-wali",
+    "text": "Y algún día, nuestro país tampoco dependerá solo del petróleo."
+   },
+   {
+    "who": "ie3-desert-lion/nasir-mustafa",
+    "text": "Anunciaré la victoria con orgullo. ¡Rugid, leones!"
+   }
+  ]
+ },
+ "ie3-fire-dragon": {
+  "title": "El vuelo del dragón",
+  "summary": "Byron, Claude y Bryce se enfrentan a su pasado en Prominence, Polvo de Diamantes, Caos y Zeus para que el dragón de Corea alce el vuelo.",
+  "intro": [
+   {
+    "text": "Corea del Sur perdió la final asiática. Pero Byron, Claude y Bryce aún tienen cuentas pendientes con su pasado."
+   },
+   {
+    "who": "ie3-fire-dragon/changsu-choi",
+    "text": "Perder la final es inaceptable. Si queremos ser los mejores, tendremos que aplastar incluso nuestro pasado."
+   },
+   {
+    "who": "ie3-fire-dragon/claude-beacons",
+    "text": "¡Me parece perfecto! ¡Que arda todo!"
+   },
+   {
+    "who": "ie3-fire-dragon/bryce-whitingale",
+    "text": "Mantén la cabeza fría, Claude. Por una vez."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "gx-fire-dragon-go",
+    "title": "El dragón del futuro",
+    "before": [
+     {
+      "text": "Aparece otro equipo con el emblema de los Dragones de Fuego... y la camiseta de otra época."
+     },
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Somos el futuro del fútbol coreano. Queremos ver de qué estaban hechos nuestros predecesores."
+     },
+     {
+      "who": "ie3-fire-dragon/changsu-choi",
+      "text": "Entonces mirad bien. Os daremos una lección de estrategia."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-fire-dragon-go/jun-yeong-lee",
+      "text": "Increíble... Ahora sé por qué nuestro emblema es un dragón."
+     },
+     {
+      "who": "ie3-fire-dragon/jeongsu-cho",
+      "text": "El fútbol coreano está en buenas manos."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-red-bison",
+    "title": "La embestida del bisonte",
+    "before": [
+     {
+      "text": "El Bisonte Rojo afirma ser el equipo más fuerte de Corea."
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Somos el Bisonte Rojo. Jugaremos limpio, pero no esperéis que frenemos la embestida."
+     },
+     {
+      "who": "ie3-fire-dragon/changsu-choi",
+      "text": "La fuerza bruta nunca gana a la estrategia. Presión de zona perfecta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-fire-dragon/eunyeong-kim",
+      "text": "¡Como en los videojuegos! Les hemos leído todas las jugadas."
+     },
+     {
+      "who": "orion-red-bison/seok-tel-bull",
+      "text": "Nos habéis cerrado todos los caminos... y sin una sola trampa. Así sí da gusto perder."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-prominence",
+    "title": "El fuego de Prominence",
+    "before": [
+     {
+      "text": "Prominence, el antiguo equipo de Claude en la Academia Alius, lo espera con las llamas encendidas."
+     },
+     {
+      "who": "ie2-prominence/grant-cook",
+      "text": "Nos dejaste para jugar con Corea. Veamos si aún recuerdas el fuego de Prominence."
+     },
+     {
+      "who": "ie3-fire-dragon/claude-beacons",
+      "text": "¡Nunca lo he olvidado! Solo que ahora arde mucho más."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-prominence/grant-cook",
+      "text": "Ese fuego ya no es de Alius... es tuyo."
+     },
+     {
+      "who": "ie3-fire-dragon/claude-beacons",
+      "text": "¡Ja! ¡Así me gusta!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-diamond-dust",
+    "title": "El hielo de Polvo de Diamantes",
+    "before": [
+     {
+      "text": "Después llega el turno de Bryce: Polvo de Diamantes, su antiguo equipo."
+     },
+     {
+      "who": "ie2-diamond-dust/claire-lesnow",
+      "text": "Bryce, ¿has olvidado el frío de nuestro hogar?"
+     },
+     {
+      "who": "ie3-fire-dragon/bryce-whitingale",
+      "text": "Nunca. Pero he aprendido a jugar junto al fuego."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-fire-dragon/bryce-whitingale",
+      "text": "El hielo no se derrite. Solo se hace más fuerte."
+     },
+     {
+      "who": "ie2-diamond-dust/claire-lesnow",
+      "text": "Has encontrado un buen equipo. Me alegro por ti."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-chaos",
+    "title": "Caos",
+    "before": [
+     {
+      "text": "Fuego y hielo unidos: Caos, el equipo que Claude y Bryce formaron en la Academia Alius."
+     },
+     {
+      "who": "ie2-chaos/grant-cook",
+      "text": "Vosotros dos creasteis Caos... y luego lo abandonasteis."
+     },
+     {
+      "who": "ie3-fire-dragon/claude-beacons",
+      "text": "¡Ja! Caos se nos quedó pequeño. Pero nuestro Remate caótico sigue siendo una bestia. ¡Mirad!"
+     },
+     {
+      "who": "ie3-fire-dragon/byron-love",
+      "text": "Fuego y hielo... Cuando dejan de pelearse, ni los dioses podrían pararlos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-chaos/grant-cook",
+      "text": "Juntos de verdad sois mucho más fuertes..."
+     },
+     {
+      "who": "ie3-fire-dragon/bryce-whitingale",
+      "text": "Porque ahora jugamos como un equipo. No como rivales."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "El juicio de Zeus",
+    "before": [
+     {
+      "text": "Último desafío: el Instituto Zeus, el equipo que una vez veneró a Byron como a un dios."
+     },
+     {
+      "who": "ie1-zeus/paul-siddon",
+      "text": "Byron, eras nuestro dios. ¿Y ahora juegas por otro país?"
+     },
+     {
+      "who": "ie3-fire-dragon/byron-love",
+      "text": "Ya no soy un dios, Paul. Solo un futbolista. Y eso es mucho mejor."
+     },
+     {
+      "who": "ie1-zeus/apollo-light",
+      "text": "Entonces demuéstranoslo sin néctar ni trucos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/paul-siddon",
+      "text": "Has encontrado algo más fuerte que el poder divino."
+     },
+     {
+      "who": "ie3-fire-dragon/byron-love",
+      "text": "Se llama trabajo en equipo. Y es precioso."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Dragones de Fuego han dejado atrás su pasado. Ahora solo miran hacia adelante."
+   },
+   {
+    "who": "ie3-fire-dragon/changsu-choi",
+    "text": "Jude, la próxima vez que nos veamos, el dragón no perderá."
+   },
+   {
+    "who": "ie3-fire-dragon/claude-beacons",
+    "text": "Fuego, hielo y un dios bonito. ¡Somos imparables!"
+   },
+   {
+    "who": "ie3-fire-dragon/byron-love",
+    "text": "El dragón ha despertado. Que el mundo lo escuche rugir."
+   }
+  ]
+ },
+ "ie3-knights-of-queen": {
+  "title": "El honor de Excalibur",
+  "summary": "Inglaterra, cuna del fútbol, cayó en la fase de grupos. Edgar y sus caballeros emprenden una gesta para recuperar su honor.",
+  "intro": [
+   {
+    "text": "Inglaterra, la cuna del fútbol, no pasó de la fase de grupos."
+   },
+   {
+    "who": "ie3-knights-of-queen/edgar-partinus",
+    "text": "Un caballero acepta la derrota con elegancia... y después entrena el triple."
+   },
+   {
+    "who": "ie3-knights-of-queen/servilius-jeeves",
+    "text": "El té de la victoria estará listo cuando la hayamos ganado, señor."
+   },
+   {
+    "who": "ie3-knights-of-queen/martin-squall",
+    "text": "¡A caballo, entonces! Nuestra gesta empieza hoy."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kuro-no-kishidan",
+    "title": "La orden negra",
+    "before": [
+     {
+      "text": "Una orden de caballeros de armadura oscura desafía a los Knights of Queen."
+     },
+     {
+      "who": "go-kuro-no-kishidan/victor-blade",
+      "text": "¿Caballeros de la reina? Qué ridículo. Aquí solo manda la fuerza. Os aplastaré."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Un caballero no huye de un duelo. En guardia."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/lance-rawton",
+      "text": "Como era de esperar de un equipo con sangre noble como la mía."
+     },
+     {
+      "who": "go-kuro-no-kishidan/victor-blade",
+      "text": "Tch... Vuestra espada es afilada. No volverá a pasar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-unicorn",
+    "title": "La deuda con América",
+    "before": [
+     {
+      "text": "El Unicorn los venció 1-0 en la fase de grupos. Es hora de saldar la deuda."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "¡Hola otra vez, Inglaterra! Aquel partido fue muy reñido. Hoy también daremos lo mejor por América."
+     },
+     {
+      "who": "ie3-knights-of-queen/eric-purpleton",
+      "text": "Casi juego en Wimbledon. Sé devolver todas las bolas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/phillip-owen",
+      "text": "Esta victoria sabe mejor que un buen rosbif."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "¡Buen partido, caballeros! Ahora estamos en paz. Ya tengo ganas del desempate."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-guardians-of-queen",
+    "title": "Los guardianes de otra reina",
+    "before": [
+     {
+      "text": "Otro equipo afirma proteger a una reina: los Guardianes de la Reina."
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Protejo a mi equipo como un guardián a su reina. No dejaré que nadie lo hiera... ni que lo derrote."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Entonces que el campo decida quién es digno."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Vuestro honor brilla más que nuestras armaduras."
+     },
+     {
+      "who": "ie3-knights-of-queen/gary-mane",
+      "text": "¿Alguien quiere pastitas para celebrarlo? Las he horneado yo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "La espada de Odín",
+    "before": [
+     {
+      "text": "Italia los venció 2-1. Paolo Bianchi y su Espada de Odín vuelven a cruzarse en su camino."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Excalibur contra la Espada de Odín. Será un duelo precioso, Edgar."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Esta vez mi espada no se quebrará."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Has afilado tu Excalibur. Ha sido un honor."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "El honor ha sido mío, Paolo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "El caballero y el portero",
+    "before": [
+     {
+      "text": "Por último, el rival que le enseñó a Edgar la verdadera humildad: Mark Evans."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Mark Evans, te prometí una revancha. Esta Excalibur viene desde el centro del campo."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Y yo te prometí pararla! ¡Mano ultradimensional!"
+     },
+     {
+      "who": "ie3-knights-of-queen/freddy-mcqueen",
+      "text": "Atentos todos: Caballeros perfectos. ¡Que no pase nadie!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Qué tiro! ¡Me arden las manos! ¡Ha sido genial, Edgar!"
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Ahora sí puedo mirar a Inglaterra a la cara."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Knights of Queen regresan a Londres con la cabeza bien alta."
+   },
+   {
+    "who": "ie3-knights-of-queen/edgar-partinus",
+    "text": "El fútbol nació en Inglaterra. Y hoy, en nuestro corazón, ha vuelto a nacer."
+   },
+   {
+    "who": "ie3-knights-of-queen/servilius-jeeves",
+    "text": "El té de la victoria está servido, caballeros."
+   },
+   {
+    "who": "ie3-knights-of-queen/peter-cole",
+    "text": "¡Y con la mejor música británica de fondo!"
+   }
+  ]
+ },
+ "ie3-little-gigant": {
+  "title": "Pequeños, pero gigantes",
+  "summary": "Desde la remota Costail, los alumnos de David Evans se abren paso por el FFI para demostrar que el país más pequeño puede ser el más grande.",
+  "intro": [
+   {
+    "text": "Costail, una isla remota. Nadie esperaba nada de su selección... hasta que derrotó a los Caimanes del Cabo en la final africana."
+   },
+   {
+    "name": "David Evans",
+    "text": "Las pesas de vuestro cinturón os han hecho fuertes. Ahora toca demostrarlo al mundo."
+   },
+   {
+    "who": "ie3-little-gigant/hector-helio",
+    "text": "¡Sí, entrenador! Por Costail, ¡seremos gigantes!"
+   },
+   {
+    "who": "ie3-little-gigant/gareth-flare",
+    "text": "Mi hermana nos verá por la tele. No pienso fallar."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-rose-griffon",
+    "title": "La elegancia francesa",
+    "before": [
+     {
+      "text": "Primer partido en Liocott: los Grifos de la Rosa de Francia."
+     },
+     {
+      "who": "ie3-rose-griffon/pierre-godin",
+      "text": "Jugaremos con estilo y elegancia, sea cual sea el rival. Incluso un equipo tan pequeño."
+     },
+     {
+      "who": "ie3-little-gigant/zephyr-vitesse",
+      "text": "¿Pequeño? Corro más rápido que el viento. Intenta seguirme."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-rose-griffon/pierre-godin",
+      "text": "Qué fuerza... Me he equivocado con vosotros."
+     },
+     {
+      "who": "ie3-little-gigant/keenan-difortune",
+      "text": "¡Hector, has estado increíble! Aunque hoy apenas te han tirado..."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-red-matador",
+    "title": "La embestida española",
+    "before": [
+     {
+      "text": "Los Rojos de España quieren pasar por encima de ellos como un toro bravo."
+     },
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "He crecido entre toros. Sé esquivar cualquier embestida."
+     },
+     {
+      "who": "ie3-little-gigant/walter-mountain",
+      "text": "Pues yo no esquivo. Soy una montaña. Y las montañas no se mueven."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "¡Olé! Sois mucho más de lo que parecéis."
+     },
+     {
+      "who": "ie3-little-gigant/ian-ferrum",
+      "text": "¡Pequeñito pero matón! ¡Que no se os olvide!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-brockenborg",
+    "title": "El motor alemán",
+    "before": [
+     {
+      "text": "El Brocken Brigade juega como una máquina perfecta."
+     },
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Hemos calculado vuestros puntos débiles. Esto será un trámite."
+     },
+     {
+      "who": "ie3-little-gigant/vic-vitrum",
+      "text": "Yo también lo sé todo de vosotros. Y vuestros cálculos tienen un fallo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Imposible... Nuestro motor se ha gripado."
+     },
+     {
+      "who": "ie3-little-gigant/drago-hill",
+      "text": "Ni Gareth habría marcado un gol mejor que el mío. ¿Verdad, Gareth?"
+     },
+     {
+      "who": "ie3-little-gigant/gareth-flare",
+      "text": "Sigue soñando, Drago."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "El meteoro blanco",
+    "before": [
+     {
+      "text": "Semifinal contra Italia, la gran favorita. El Orfeo de Paolo Bianchi y su Catenaccio."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Respetamos a cualquier rival. Pero el FFI lo ganará Italia."
+     },
+     {
+      "name": "David Evans",
+      "text": "Chicos, quitaos los cinturones. Es hora de mostrar vuestro verdadero poder."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "¡Por fin! ¡Mano celestial X!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Sin las pesas, Los Pequeños Gigantes arrasan. El estadio entero se queda sin palabras."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Ni la Espada de Odín ha servido de nada... ¿Qué clase de equipo sois?"
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Uno muy pequeño. Y muy gigante."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "Maestro contra nieto",
+    "before": [
+     {
+      "text": "La gran final: Inazuma Japón. Y David Evans, entrenador de Costail, frente a su nieto Mark."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Abuelo! ¡Voy a demostrarte todo lo que he aprendido con tu cuaderno!"
+     },
+     {
+      "name": "David Evans",
+      "text": "Eso espero, Mark. Pero mis chicos no os lo pondrán fácil."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Mark, los dos aprendimos la Mano celestial del mismo hombre. Veamos quién la ha hecho más suya."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "¡Lo hemos logrado! ¡Costail, campeona del mundo!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Qué partido, Hector! ¡Eres un portero increíble! ¡Quiero la revancha ya!"
+     },
+     {
+      "name": "David Evans",
+      "text": "Bien hecho, chicos. Y tú, Mark... has crecido muchísimo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Costail celebra la victoria más grande de su historia."
+   },
+   {
+    "who": "ie3-little-gigant/hector-helio",
+    "text": "Empezamos siendo los más pequeños. Hoy el mundo entero sabe nuestro nombre."
+   },
+   {
+    "who": "ie3-little-gigant/li-leung",
+    "text": "¡Fiesta en la playa! ¡Que nadie se quede sin bailar!"
+   },
+   {
+    "name": "David Evans",
+    "text": "Recordad: el tamaño no importa. Lo que importa es lo grande que sea vuestro corazón."
+   }
+  ]
+ },
+ "ie3-makai-gundan-z": {
+  "title": "La liberación del Rey Demonio",
+  "summary": "Los demonios del Dark Team escapan de la Puerta Demoníaca antes de tiempo y reúnen el poder de las tinieblas para su eterna guerra contra los ángeles.",
+  "intro": [
+   {
+    "text": "Bajo el Monte Magnitud, la Puerta Demoníaca tiembla. Faltan años para el milenio, pero el Dark Team no quiere esperar."
+   },
+   {
+    "who": "ie3-makai-gundan-z/destra",
+    "text": "Mil años encerrados. ¿Y aún nos quedan más? No. Hoy saldremos."
+   },
+   {
+    "who": "ie3-makai-gundan-z/glasya",
+    "text": "Para liberar al Rey Demonio necesitamos oscuridad. Mucha oscuridad."
+   },
+   {
+    "who": "ie3-makai-gundan-z/astaroth",
+    "text": "Y si alguien intenta impedirlo, no pasará ni un balón por mi portería. Ni uno solo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-ancient-dark",
+    "title": "Oscuridad ancestral",
+    "before": [
+     {
+      "text": "El primer rastro de tinieblas lleva al Dark Team hasta un equipo antiguo: Oscuridad Ancestral."
+     },
+     {
+      "who": "go-ancient-dark/tezcat",
+      "text": "Nuestra oscuridad existía antes que vuestro inframundo."
+     },
+     {
+      "who": "ie3-makai-gundan-z/thanatos",
+      "text": "¿Antes que yo? Imposible. Nada es tan grandioso como yo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Una oscuridad respetable. Ahora es nuestra."
+     },
+     {
+      "who": "go-ancient-dark/tezcat",
+      "text": "Las sombras... os obedecen..."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "La maldición de Occult",
+    "before": [
+     {
+      "text": "El Instituto Occult dice dominar las maldiciones. Al Dark Team le hace mucha gracia."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Los espíritus me susurran que vais a perder."
+     },
+     {
+      "who": "ie3-makai-gundan-z/malphas",
+      "text": "Qué casualidad. A mí me susurran lo contrario. Y yo nunca miento... casi."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Esto... ha sido mucho más terrorífico que cualquier maldición."
+     },
+     {
+      "who": "ie3-makai-gundan-z/arachne",
+      "text": "Ji, ji... Qué humanos tan traviesos. Y qué monos cuando caen en mi telaraña."
+     }
+    ]
+   },
+   {
+    "opponent": "go-demon-s-horn",
+    "title": "El Cuerno Demoníaco",
+    "before": [
+     {
+      "text": "Un equipo humano se hace llamar Cuerno Demoníaco. Al Dark Team no le gusta la imitación."
+     },
+     {
+      "who": "go-demon-s-horn/damien-blackloch",
+      "text": "¿Demonios de verdad? Nosotros somos el terror del fútbol."
+     },
+     {
+      "who": "ie3-makai-gundan-z/bael",
+      "text": "Unos cuernos de plástico no os convierten en demonios."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-makai-gundan-z/bael",
+      "text": "La próxima vez, elegid un nombre más modesto."
+     },
+     {
+      "who": "ie3-makai-gundan-z/jezebeth",
+      "text": "Hasta los cuervos del estadio se reían de ellos."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-vamptym",
+    "title": "La noche de los vampiros",
+    "before": [
+     {
+      "text": "Los Nosfanáticos, vampiros futbolistas, reclaman la noche como suya."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "La oscuridad pertenece a los vampiros. Volved a vuestro agujero."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "¿Vampiros? Ja. Vosotros chupáis sangre; nosotros devoramos almas. ¡Apartaos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Tanta oscuridad... me da escalofríos hasta a mí."
+     },
+     {
+      "who": "ie3-makai-gundan-z/belial",
+      "text": "Percibo su lado oscuro. Ya forma parte de nosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-tenkuu-no-shito",
+    "title": "Cielo contra infierno",
+    "before": [
+     {
+      "text": "La Puerta Demoníaca está a punto de abrirse. Pero el Sky Team baja del Jardín Celestial para impedirlo."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Destra. Te sellamos una vez y volveremos a hacerlo."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Sanctus... llevo mil años esperando este momento. ¡Carga negativa!"
+     },
+     {
+      "who": "ie3-makai-gundan-z/behemoth",
+      "text": "¡Aplastemos a esos pajaritos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Vuestro poder... ha crecido demasiado."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Por fin. Los demonios hemos vencido a los ángeles."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Puerta Demoníaca se abre. Pero, tras ella, el Dark Team no encuentra al Rey Demonio, sino un campo de fútbol vacío."
+   },
+   {
+    "who": "ie3-makai-gundan-z/destra",
+    "text": "¿Y ahora qué? Si no hay rival, la victoria no sabe a nada..."
+   },
+   {
+    "who": "ie3-makai-gundan-z/glasya",
+    "text": "Quizá lo que queríamos no era el poder... sino seguir jugando."
+   },
+   {
+    "who": "ie3-makai-gundan-z/destra",
+    "text": "Hmpf. Que vuelvan los ángeles. Esta vez, solo por la revancha."
+   }
+  ]
+ },
+ "ie3-neo-japan": {
+  "title": "El regreso de los descartados",
+  "summary": "Neo Japón, formado por antiguos rivales del Raimon, recorre los institutos de sus jugadores para reconciliarse con su pasado y volver a por el Inazuma Japón.",
+  "intro": [
+   {
+    "text": "Neo Japón perdió contra el Inazuma Japón. Pero Dave Quagmire no ha olvidado su promesa."
+   },
+   {
+    "who": "ie3-neo-japan/dave-quagmire",
+    "text": "Si se debilitan, volveremos. Y para eso tenemos que ser mucho más fuertes."
+   },
+   {
+    "who": "ie3-neo-japan/joseph-king",
+    "text": "Cada uno de nosotros viene de un equipo distinto. Empecemos por ahí."
+   },
+   {
+    "name": "Aquilina Schiller",
+    "text": "Un equipo hecho de pedazos puede ser el más fuerte de todos. Volved a vuestros orígenes."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "La mente de Brain",
+    "before": [
+     {
+      "text": "Primera parada: el Instituto Brain, donde lavaron el cerebro a Neil Turner."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Neil, vuelve con nosotros. Aquí lo tenías todo calculado."
+     },
+     {
+      "who": "ie3-neo-japan/neil-turner",
+      "text": "Ya no necesito que nadie piense por mí. ¡Ahora juego con mi propia cabeza!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-neo-japan/neil-turner",
+      "text": "Me siento... libre. Y un poco agresivo, no os voy a engañar."
+     },
+     {
+      "who": "ie3-neo-japan/dave-quagmire",
+      "text": "Primer paso completado."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "Los espíritus de Occult",
+    "before": [
+     {
+      "text": "Johan Tassman vuelve al Instituto Occult, entre velas y susurros."
+     },
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Johan, los espíritus dicen que nos has abandonado."
+     },
+     {
+      "who": "ie3-neo-japan/johan-tassman",
+      "text": "Los espíritus me dicen otra cosa: que hoy ganará Neo Japón."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-neo-japan/johan-tassman",
+      "text": "Los espíritus nunca fallan."
+     },
+     {
+      "who": "ie3-neo-japan/henry-house",
+      "text": "Bah, ha sido gracias a mí. No a ningún fantasma."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "Los hermanos Murdock",
+    "before": [
+     {
+      "text": "En el Instituto Kirkwood espera la familia de Tyler Murdock: sus dos hermanos mayores."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "Tyler, ¿de verdad crees que puedes ganarnos?"
+     },
+     {
+      "who": "ie3-neo-japan/tyler-murdock",
+      "text": "¡Llevo toda la vida entrenando para ser como vosotros! ¡Hoy os lo demuestro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kidokawa-seishuu/thomas-murdock",
+      "text": "Nuestro hermanito ha crecido mucho..."
+     },
+     {
+      "who": "ie3-neo-japan/tyler-murdock",
+      "text": "¡Lo he conseguido! ¡He jugado a vuestro nivel!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "El dojo ninja",
+    "before": [
+     {
+      "text": "Sail Bluesea regresa al Instituto Shuriken, su escuela ninja."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sam-samurai",
+      "text": "Un ninja no abandona su clan, Sail."
+     },
+     {
+      "who": "ie3-neo-japan/sail-bluesea",
+      "text": "Un ninja busca ser más fuerte. ¡Y nada de usar las manos esta vez!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-neo-japan/sail-bluesea",
+      "text": "¡Victoria! Y sin una sola falta. Bueno... casi."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sam-samurai",
+      "text": "Has encontrado tu camino, Sail."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-senbayama",
+    "title": "La granja",
+    "before": [
+     {
+      "text": "En el Instituto Farm, Mark Hillvalley vuelve a casa, entre vacas y tractores."
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Mark, aquí el trabajo empieza al amanecer. ¿Aún aguantas el ritmo, o la ciudad te ha ablandado?"
+     },
+     {
+      "who": "ie3-neo-japan/mark-hillvalley",
+      "text": "¡Me sigo levantando antes que el gallo! ¡Vamos allá!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-neo-japan/mark-hillvalley",
+      "text": "Nada como el olor del campo después de una victoria."
+     },
+     {
+      "who": "ie3-neo-japan/argie-bargie",
+      "text": "¡Ja! ¡A empujones, como a mí me gusta!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "La promesa de Neo Japón",
+    "before": [
+     {
+      "text": "Neo Japón ha vuelto. Y esta vez trae algo más que técnicas mejoradas: un equipo de verdad."
+     },
+     {
+      "who": "ie3-neo-japan/dave-quagmire",
+      "text": "Mark Evans, cumplimos nuestra promesa. ¡Lanza de Odín!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Sabía que volveríais! ¡Que empiece el partido!"
+     },
+     {
+      "who": "ie3-neo-japan/joseph-king",
+      "text": "Esta vez la portería de Neo Japón es un muro."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-neo-japan/dave-quagmire",
+      "text": "Hemos ganado... y aun así, lo mejor ha sido jugar contra vosotros."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Ha sido increíble! ¡Japón tiene dos grandes equipos!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Neo Japón ya no es un equipo de descartados. Es un equipo de verdad."
+   },
+   {
+    "who": "ie3-neo-japan/dave-quagmire",
+    "text": "Ya no necesitamos quitarle el puesto a nadie. Hemos encontrado nuestro sitio."
+   },
+   {
+    "who": "ie3-neo-japan/jonas-demetrius",
+    "text": "Y aún nos quedan muchos campos por conquistar."
+   },
+   {
+    "name": "Aquilina Schiller",
+    "text": "Estoy orgullosa de vosotros. Todos y cada uno."
+   }
+  ]
+ },
+ "ie3-nippon-daihyou-kouho-a": {
+  "title": "El camino del Equipo A",
+  "summary": "Antes del gran partido de selección, Seymour Hillman pone a prueba al Equipo A de Mark contra los antiguos equipos de sus jugadores.",
+  "intro": [
+   {
+    "text": "Faltan pocos días para el partido que decidirá la selección de Japón."
+   },
+   {
+    "name": "Seymour Hillman",
+    "text": "Equipo A: antes de enfrentaros al Equipo B, jugaréis contra los equipos de los que venís."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-a/mark-evans",
+    "text": "¡Genial! ¡Así nos conoceremos mejor todos!"
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-a/marvin-murdock",
+    "text": "Yo solo quiero salir guapo en la foto de la selección. ¡Y ganar, claro! Las estrellas siempre ganan."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Los pequeños del Inazuma Kids",
+    "before": [
+     {
+      "text": "Calentamiento: los niños del Inazuma Kids FC, a los que Mark entrenó una vez."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Mark! ¡No te vamos a dejar ganar solo porque seas nuestro ídolo!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/mark-evans",
+      "text": "¡Así me gusta! ¡A jugar con todas las ganas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "Algún día jugaremos contigo en la selección, ¡ya verás!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/paul-peabody",
+      "text": "Qué monos... Me recuerdan a mí cuando era pequeño. Bueno, aún lo soy."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "El orgullo de Kirkwood",
+    "before": [
+     {
+      "text": "Marvin Murdock se enfrenta a su propio instituto: Kirkwood."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/thomas-murdock",
+      "text": "Hermano, ¿de verdad vas a jugar contra nosotros?"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/marvin-murdock",
+      "text": "Lo siento, hermano. La estrella de la familia soy yo. Y las estrellas no pierden ni en casa."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kidokawa-seishuu/thomas-murdock",
+      "text": "Enhorabuena, hermano. Llévate la camiseta de Japón."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/marvin-murdock",
+      "text": "Eso pienso hacer. ¡Y saldré genial en la foto! Gra... gracias, hermano."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-hakuren",
+    "title": "La nieve del Alpino",
+    "before": [
+     {
+      "text": "En el norte, el Instituto Alpino espera a Shawn Froste."
+     },
+     {
+      "who": "ie2-hakuren/milton-bindings",
+      "text": "Shawn, aquí no hay nadie que te conozca mejor que nosotros."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/shawn-froste",
+      "text": "Por eso quiero ganaros. Para que sepáis que todo lo que aprendí aquí vale."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/shawn-froste",
+      "text": "Gracias, amigos. Llevaré la nieve del norte hasta el mundial."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/kevin-dragonfly",
+      "text": "¡Eh, que yo también he marcado! ¡Que no se os olvide!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-oumihara",
+    "title": "La ola de Mary Times",
+    "before": [
+     {
+      "text": "Okinawa: el Instituto Mary Times, de donde viene Hurley Kane."
+     },
+     {
+      "who": "ie2-oumihara/rocky-black",
+      "text": "¡Hurley! ¡Vuelve a casa a surfear con nosotros!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/hurley-kane",
+      "text": "¡Primero el mundial, colegas! ¡Pero hoy os gano en la playa!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/hurley-kane",
+      "text": "¡Esto ha sido como pillar una ola de diez metros!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/archer-hawkins",
+      "text": "Tch... Mis patadas aún no van donde quiero. Pero mejorarán. Ya lo veréis."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-nippon-daihyou-kouho-b",
+    "title": "El partido de selección",
+    "before": [
+     {
+      "text": "Llega el gran día: Equipo A contra Equipo B. Solo dieciséis jugadores irán al mundial."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "Mark, hoy somos rivales. No esperes que tenga piedad."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/mark-evans",
+      "text": "¡Jamás lo esperaría! ¡Vamos a darlo todo!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/xavier-foster",
+      "text": "Que gane el equipo con más ganas de jugar."
+     }
+    ],
+    "after": [
+     {
+      "name": "Seymour Hillman",
+      "text": "Excelente. Ahora el seleccionador decidirá. Pero habéis demostrado mucho."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/mark-evans",
+      "text": "¡Da igual quién entre! ¡Hoy todos hemos ganado!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Equipo A ha superado todas las pruebas de Seymour Hillman."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-a/mark-evans",
+    "text": "Cada uno de nosotros viene de un sitio distinto, pero todos queremos lo mismo."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-a/thor-stoutberg",
+    "text": "¡Y si alguno se queda fuera, lo animaremos desde la grada!"
+   },
+   {
+    "name": "Seymour Hillman",
+    "text": "Japón tiene futuro. Mucho futuro."
+   }
+  ]
+ },
+ "ie3-nippon-daihyou-kouho-b": {
+  "title": "Los rebeldes de Jude",
+  "summary": "Jude Sharp tiene que convertir a un grupo de rebeldes, antiguos rivales y jugadores sin experiencia en un equipo capaz de vencer al Equipo A de Mark.",
+  "intro": [
+   {
+    "text": "El Equipo B es una mezcla extraña: rebeldes, antiguos enemigos y jugadores casi desconocidos."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+    "text": "Si queremos ganar al Equipo A, necesitamos jugar como un equipo. Y aún no lo somos."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-b/caleb-stonewall",
+    "text": "Je. A mí nadie me dice cómo jugar, genio."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-b/jordan-greenway",
+    "text": "Como dice el refrán: la unión hace la fuerza... aunque cueste."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-kasamino",
+    "title": "Bajo el paraguas",
+    "before": [
+     {
+      "text": "Primer partido de práctica contra el Instituto Umbrella."
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "¿Un equipo de selección contra nosotros? ¡Qué honor!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "No os confiéis. Necesitamos este partido para conocernos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "Bien. Pero aún jugamos cada uno por nuestra cuenta."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/caleb-stonewall",
+      "text": "¿Y qué? Hemos ganado, ¿no?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "El equipo de los datos",
+    "before": [
+     {
+      "text": "El Instituto Otaku analiza cada jugada como en un videojuego."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "Hemos estudiado todos vuestros vídeos. Sois predecibles."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/isaac-glass",
+      "text": "Mi hermano también estudia mucho... ¡Pero yo juego al fútbol mejor que él!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/isaac-glass",
+      "text": "¡He marcado! ¡Tengo que contárselo a mi hermano!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "Hoy hemos sido un poco menos predecibles. Vamos mejorando."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-nose",
+    "title": "La ley de la selva",
+    "before": [
+     {
+      "text": "El Instituto Wild los reta a jugar en plena naturaleza."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡En la selva manda el más fuerte!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/shadow-cimmerian",
+      "text": "Yo nací de la oscuridad. La selva no me asusta."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/tod-ironside",
+      "text": "¡A mí tampoco! ¡Pequeño pero matón!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/shadow-cimmerian",
+      "text": "Hoy... he sentido que formaba parte de algo."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jordan-greenway",
+      "text": "Quien siembra amistad, recoge victorias."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-yokato",
+    "title": "La suerte de Fauxshore",
+    "before": [
+     {
+      "text": "Darren LaChance vuelve a su antiguo instituto: Fauxshore, el equipo de la suerte."
+     },
+     {
+      "who": "ie2-yokato/dany-destiny",
+      "text": "Darren, ¿te acuerdas de nuestro lema? ¡La suerte siempre está de nuestro lado!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/darren-lachance",
+      "text": "Ahora sé que la suerte se entrena. ¡Igual que Mark!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/darren-lachance",
+      "text": "¡Lo he parado todo! ¡Mark estaría orgulloso!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/caleb-stonewall",
+      "text": "No ha estado mal, portero. Y tu pase, Jude... tampoco."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "¿Eso ha sido un cumplido, Caleb?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-nippon-daihyou-kouho-a",
+    "title": "El partido de selección",
+    "before": [
+     {
+      "text": "Llega el gran día: Equipo B contra el Equipo A de Mark Evans."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/mark-evans",
+      "text": "¡Jude! ¡Tengo muchas ganas de jugar contra ti!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "Y yo, Mark. Hoy verás lo que puede hacer un equipo de rebeldes."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/axel-blaze",
+      "text": "Austin, ponte a mi lado. Vamos a marcar."
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/austin-hobbes",
+      "text": "¡Sí, Axel! ¡Es un sueño jugar contigo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-nippon-daihyou-kouho-a/mark-evans",
+      "text": "¡Qué partidazo! ¡Vuestro equipo es increíble!"
+     },
+     {
+      "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+      "text": "Al final lo hemos conseguido: once rebeldes, un solo equipo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Equipo B ha demostrado que un grupo de rebeldes también puede ser una familia."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-b/jude-sharp",
+    "text": "No importa quién entre en la selección. Hoy he aprendido a liderar."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-b/caleb-stonewall",
+    "text": "Que no se te suba a la cabeza, genio. Pero... buen trabajo."
+   },
+   {
+    "who": "ie3-nippon-daihyou-kouho-b/nathan-swift",
+    "text": "¡Corramos juntos hasta el mundial!"
+   }
+  ]
+ },
+ "ie3-ogre": {
+  "title": "Operación Thunder Break",
+  "summary": "El Equipo Ogro viaja desde el futuro para borrar a Mark Evans del fútbol. Si fallan en el FFI, retrocederán aún más en el tiempo.",
+  "intro": [
+   {
+    "text": "Ochenta años en el futuro. En la Academia Ogro, el fútbol se considera la causa de la debilidad del país."
+   },
+   {
+    "who": "ie3-ogre/bash-lancer",
+    "text": "El culpable tiene nombre: Mark Evans. Si lo borramos del fútbol, el futuro será nuestro."
+   },
+   {
+    "who": "ie3-ogre/oni-triumvir",
+    "text": "Operación Thunder Break en marcha. Coordenadas temporales fijadas."
+   },
+   {
+    "who": "ie3-ogre/escavan-malice",
+    "text": "¡Por fin! ¡Estoy deseando machacar a alguien!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Golpe a los pequeños",
+    "before": [
+     {
+      "text": "Primer objetivo: los niños del Inazuma Kids FC, a los que Mark entrena. Sin ellos, perderá la ilusión."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¿Quiénes sois? ¡Mark nos ha enseñado a no rendirnos nunca!"
+     },
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "Pues hoy aprenderéis lo que es una derrota."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "No... no pienso dejar el fútbol. ¡Mark me enseñó a seguir!"
+     },
+     {
+      "who": "ie3-ogre/mystral-callous",
+      "text": "Esos críos aún sonríen... Qué irritante."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-protocol-omega",
+    "title": "Viajeros del tiempo",
+    "before": [
+     {
+      "text": "En el túnel del tiempo se cruzan con otra organización que también manipula la historia del fútbol."
+     },
+     {
+      "who": "cs-protocol-omega/beta",
+      "text": "¡Hola, hola! ¿Otro equipo del futuro? Qué monos... ¡Pero el tiempo es NUESTRO! ¡Fuera de mi camino!"
+     },
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "El Equipo Ogro no comparte su misión con nadie. ¡Apartaos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-protocol-omega/beta",
+      "text": "Ay, qué rabia... ¡Vale, quedaos con vuestra época! Pero como toquéis la nuestra, os aplasto."
+     },
+     {
+      "who": "ie3-ogre/drachen-gunther",
+      "text": "Siguiente objetivo: el Fútbol Frontier Internacional."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "El Cerro Arcano",
+    "before": [
+     {
+      "text": "Durante el FFI, el Equipo Ogro desafía al Inazuma Japón en el Cerro Arcano."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¿Venís a quitarme el fútbol? ¡Eso no lo conseguirá nadie!"
+     },
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "Ya lo veremos, Mark Evans. ¡Remate letal!"
+     },
+     {
+      "who": "ie3-ogre/lars-luceaf-r",
+      "text": "Ningún balón de este siglo cruzará mi portería."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "Ha sido un partido durísimo... ¡pero ha sido divertido! ¿Verdad que sí?"
+     },
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "¿Divertido? Silencio. Si no puedo con este Mark, iré a por el Mark del pasado."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "El emperador del pasado",
+    "before": [
+     {
+      "text": "Saltan al pasado, a la época del Fútbol Frontier. Para llegar al Raimon, antes deben vencer a la Royal Academy."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "¿Uniformes como los nuestros, pero más oscuros? Qué osadía. Nadie pisa la Royal sin pagarlo."
+     },
+     {
+      "who": "ie3-ogre/ichabod-stark",
+      "text": "Vuestro reflejo en el futuro. Más fuertes. Más crueles."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Hmph. Jugáis con odio. Así no llegaréis lejos... ni siquiera contra el Raimon."
+     },
+     {
+      "who": "ie3-ogre/radd-ischer",
+      "text": "El camino al Raimon está despejado."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "El origen de la leyenda",
+    "before": [
+     {
+      "text": "El último objetivo: el Instituto Raimon de Mark Evans, en pleno Fútbol Frontier."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "No sé de dónde venís, pero ¡aquí se juega al fútbol con el corazón!"
+     },
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "Por eso tengo que derrotarte. ¡Por el futuro!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Mark, no estás solo. Ninguno de nosotros va a dejar el fútbol."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "Hemos ganado... ¿Por qué no siento nada? ¿Y por qué él sigue sonriendo?"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "Porque ese sentimiento de ahora... es el fútbol. ¿A que tienes ganas de jugar otra vez?"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Equipo Ogro regresa a su época con la misión cumplida... o eso creen."
+   },
+   {
+    "who": "ie3-ogre/bash-lancer",
+    "text": "He ganado todos los partidos, pero ese chico jamás dejará el fútbol. Y yo... tampoco quiero que lo deje."
+   },
+   {
+    "who": "ie3-ogre/oni-triumvir",
+    "text": "Capitán, ¿cancelamos la operación?"
+   },
+   {
+    "who": "ie3-ogre/bash-lancer",
+    "text": "No. La cambiamos. Quizá el fútbol no sea tan malo, después de todo."
+   }
+  ]
+ },
+ "ie3-orpheus": {
+  "title": "La redención de Orfeo",
+  "summary": "Tras la caída de Mr. D y la humillación ante Costail, el Orfeo de Paolo Bianchi y Hidetoshi Nakata busca recuperar el orgullo de Italia.",
+  "intro": [
+   {
+    "text": "Italia era la gran favorita del FFI... hasta que Los Pequeños Gigantes la arrollaron por 8-0."
+   },
+   {
+    "who": "ie3-orpheus/paolo-bianchi",
+    "text": "Ni la Espada de Odín sirvió de nada. Pero no vamos a quedarnos lamentándonos."
+   },
+   {
+    "who": "ie3-orpheus/hidetoshi-nakata",
+    "text": "El Orfeo nunca se rinde. Volvamos a empezar, desde el principio."
+   },
+   {
+    "who": "ie3-orpheus/gigi-blasi",
+    "text": "Contad conmigo. El ángel de la guarda de Italia sigue aquí."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-team-k",
+    "title": "Las joyas falsas",
+    "before": [
+     {
+      "text": "Primero, una cuenta pendiente: el Equipo D, que intentó quitarles la selección por orden de Mr. D."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "Mr. D ya no está. Ahora jugaremos por nosotros mismos. ¡Y ganaremos!"
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Me alegra oírlo. Así podremos jugar de verdad, sin trampas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "Sin el programa... seguís siendo mejores. Pero no me rendiré."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Eso es. Juega con tus ojos y con tu corazón, Giulio."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-empire",
+    "title": "El muro argentino",
+    "before": [
+     {
+      "text": "Los Emperadores de Argentina tienen la defensa más dura del FFI."
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Paolo, mi Muro de hierro no se ha agrietado nunca. Hoy tampoco lo hará, ni contra Italia."
+     },
+     {
+      "who": "ie3-orpheus/hidetoshi-nakata",
+      "text": "Pues prepárate. Contraataque Catenaccio."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Vuestro contraataque es un arte..."
+     },
+     {
+      "who": "ie3-orpheus/giuseppe-cannavaro",
+      "text": "Como las ruinas de Pompeya: bello y eterno."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-guardians-of-queen",
+    "title": "La otra Italia",
+    "before": [
+     {
+      "text": "Aparece otro equipo italiano: los Guardianes de la Reina. Dicen que ellos son el futuro de Italia."
+     },
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Lo siento, Orfeo. Tengo órdenes: desde hoy, Italia somos nosotros."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "La historia de Italia aún no ha terminado de escribirse."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-guardians-of-queen/orlando",
+      "text": "Vuestro fútbol... sigue vivo. Me equivoqué."
+     },
+     {
+      "who": "ie3-orpheus/enrico-oliviero",
+      "text": "Y nuestro uniforme sigue siendo el más elegante. Lo diseñé yo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "Espada contra espada",
+    "before": [
+     {
+      "text": "Los Knights of Queen quieren revancha. Excalibur contra la Espada de Odín."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Paolo, la última vez nos ganasteis por las órdenes de Mr. D. Hoy, sin trucos."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Sin trucos, Edgar. Solo fútbol."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Has ganado limpiamente. Un honor, Meteoro Blanco."
+     },
+     {
+      "who": "ie3-orpheus/gianluca-zanardi",
+      "text": "Remar en Venecia me ha dado un equilibrio de campeón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "La revancha del 8-0",
+    "before": [
+     {
+      "text": "El momento de la verdad: Los Pequeños Gigantes, el equipo que los humilló."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "¡Paolo! ¿Otra vez? ¡Genial! Pero te aviso: mi Mano celestial X no se cansa nunca."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Nos destrozasteis porque teníamos miedo. Hoy ya no lo tenemos."
+     },
+     {
+      "who": "ie3-orpheus/hidetoshi-nakata",
+      "text": "Todos juntos. ¡Por Italia!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Increíble... Habéis vuelto a ser gigantes."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "¡Espada de Odín! ¡Por fin ha atravesado la Mano celestial X!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Orfeo ha recuperado el orgullo de Italia."
+   },
+   {
+    "who": "ie3-orpheus/paolo-bianchi",
+    "text": "Mr. D nos enseñó el Catenaccio. Nosotros le hemos enseñado al mundo lo que significa."
+   },
+   {
+    "who": "ie3-orpheus/hidetoshi-nakata",
+    "text": "Una leyenda no se mide por las victorias, sino por cómo se levanta tras caer."
+   },
+   {
+    "who": "ie3-orpheus/marco-maserati",
+    "text": "¡Pasta para todos! ¡Conozco cien recetas para celebrarlo!"
+   }
+  ]
+ },
+ "ie3-red-matador": {
+  "title": "¡Olé, Los Rojos!",
+  "summary": "La selección española se lanza al ruedo del fútbol mundial para demostrar que su pasión puede con cualquier rival.",
+  "intro": [
+   {
+    "text": "España terminó el FFI sin brillar. Pero en Los Rojos no se rinde nadie."
+   },
+   {
+    "who": "ie3-red-matador/queraldo-naval",
+    "text": "Me he criado entre toros. Sé que la clave no es la fuerza, sino el arte."
+   },
+   {
+    "who": "ie3-red-matador/davi-peroqu",
+    "text": "¡España ganará el mundial! ¡Lo diré a los cuatro vientos!"
+   },
+   {
+    "who": "ie3-red-matador/samuel-mayo",
+    "text": "¡Y correremos como en los encierros de San Fermín!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-unicorn",
+    "title": "La revancha americana",
+    "before": [
+     {
+      "text": "El Unicorn los venció 3-0 antes del torneo. Es el primer toro de la tarde."
+     },
+     {
+      "who": "ie3-unicorn/dylan-keats",
+      "text": "Hey, you! ¿Os acordáis de mí? ¡Aquel día os metí un montón de goles, yeah!"
+     },
+     {
+      "who": "ie3-red-matador/ferm-n-s-nchez",
+      "text": "Pues hoy embisto yo. ¡Ningún balón pasará!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-unicorn/dylan-keats",
+      "text": "Wow... ¡Este portero es un toro de verdad! Me ha encantado, you know?"
+     },
+     {
+      "who": "ie3-red-matador/jos-l-pez",
+      "text": "¡Esto se celebra bailando sevillanas!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-muteki-no-giant",
+    "title": "Gigantes de España",
+    "before": [
+     {
+      "text": "Otro equipo dice representar a España: los Gigantes Invencibles."
+     },
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Invencibles, como dice nuestro nombre. Ni Los Rojos nos harán sombra."
+     },
+     {
+      "who": "ie3-red-matador/laudelino-castor",
+      "text": "¡Gigantes! Como los de Don Quijote. ¡A por ellos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-muteki-no-giant/sergi-hern-ndez",
+      "text": "Vaya... resulta que no somos tan invencibles."
+     },
+     {
+      "who": "ie3-red-matador/laudelino-castor",
+      "text": "¡Eran molinos, al final! ¡Ja!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-barcelona-orb",
+    "title": "El orbe de Barcelona",
+    "before": [
+     {
+      "text": "En Barcelona, a la sombra de la Sagrada Familia, los espera el Barcelona Orb."
+     },
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "En nuestra ciudad, el fútbol es arte. ¿Estáis a la altura?"
+     },
+     {
+      "who": "ie3-red-matador/carlos-arroyo",
+      "text": "¡Algún día diseñaré un edificio como la Sagrada Familia! Hoy, una jugada."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Una obra maestra. Lo reconozco."
+     },
+     {
+      "who": "ie3-red-matador/igor-ferreira",
+      "text": "Y ahora, una paella. Con el arroz en su punto."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "Los pequeños campeones",
+    "before": [
+     {
+      "text": "Contra Los Pequeños Gigantes empataron en la fase de grupos. Hoy quieren desempatar."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Españoles, la última vez quedamos empatados. Hoy no habrá tablas."
+     },
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "Entonces que gane el que tenga más arte."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Sois como toros bravos. No os rendís nunca."
+     },
+     {
+      "who": "ie3-red-matador/juan-nadal",
+      "text": "¡Necesito mi quinta comida del día después de esto!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "La samba contra el flamenco",
+    "before": [
+     {
+      "text": "Os Reis los venció en la fase de grupos. Samba contra flamenco."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Españoles! ¡A bailar samba!"
+     },
+     {
+      "who": "ie3-red-matador/juan-espindola",
+      "text": "Con mi guitarra, el ritmo lo ponemos nosotros."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Qué ritmo! ¡Me ha encantado jugar contra vosotros!"
+     },
+     {
+      "who": "ie3-red-matador/pedro-moreno",
+      "text": "Esto merece un buen plato de jamón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "El último toro",
+    "before": [
+     {
+      "text": "Como en aquel partido amistoso del FFI, Los Rojos se miden al Inazuma Japón, el campeón."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡España! ¡Aquel partido de práctica fue genial! ¡Juguemos otra vez!"
+     },
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "Esta vez no es práctica, Mark. Esta vez es la faena final."
+     },
+     {
+      "who": "ie3-red-matador/miguel-pereira",
+      "text": "¡Al abordaje, como la Armada Invencible!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "¡Olé! ¡Hemos ganado al campeón del mundo!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Qué pasión! ¡Sois increíbles!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Rojos vuelven a España entre aplausos y pañuelos blancos."
+   },
+   {
+    "who": "ie3-red-matador/queraldo-naval",
+    "text": "No hemos herido a ningún toro. Solo hemos demostrado que el fútbol también es un arte."
+   },
+   {
+    "who": "ie3-red-matador/davi-peroqu",
+    "text": "¿Lo veis? ¡Os dije que España ganaría!"
+   },
+   {
+    "who": "ie3-red-matador/antonio-gallego",
+    "text": "Pintaré este partido. Será más famoso que un Picasso."
+   }
+  ]
+ },
+ "ie3-rose-griffon": {
+  "title": "La rosa y el grifo",
+  "summary": "Los Grifos de la Rosa recorren el mundo jugando con estilo y elegancia para vengar la derrota ante Os Reis.",
+  "intro": [
+   {
+    "text": "Francia cayó en la fase de grupos. Os Reis los derrotó por 3-0."
+   },
+   {
+    "who": "ie3-rose-griffon/pierre-godin",
+    "text": "Perder no es una deshonra. Perder sin estilo, sí. Y nosotros aún tenemos mucho estilo."
+   },
+   {
+    "who": "ie3-rose-griffon/julien-rousseau",
+    "text": "¡Qué drama! ¡Una rosa herida que florecerá de nuevo!"
+   },
+   {
+    "who": "ie3-rose-griffon/kevin-pinot",
+    "text": "Aplicaremos las estrategias de Napoleón. Una batalla tras otra."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "orion-eternal-dancers",
+    "title": "El baile eterno",
+    "before": [
+     {
+      "text": "Los Bailarines Eternos juegan como si el campo fuera una pista de baile."
+     },
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "¿Elegancia francesa? Veamos si sabéis seguir el ritmo."
+     },
+     {
+      "who": "ie3-rose-griffon/st-phane-hinault",
+      "text": "Yo compongo canciones que son éxito en Francia. El ritmo es mío."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-eternal-dancers/samba-sokolov",
+      "text": "¡¿Cómo?! ¡Árbitro, eso ha sido...! Bah. Bailáis el fútbol como nadie, lo admito."
+     },
+     {
+      "who": "ie3-rose-griffon/romuald-huysmans",
+      "text": "Esta foto va directa a la portada de una revista."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-red-matador",
+    "title": "El duelo latino",
+    "before": [
+     {
+      "text": "Los Rojos les ganaron 2-1 en el grupo. Toca revancha."
+     },
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "Franceses, la última vez os toreamos con arte."
+     },
+     {
+      "who": "ie3-rose-griffon/pierre-godin",
+      "text": "Hoy el arte lo pondremos nosotros. Con elegancia."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "Touché, como decís vosotros."
+     },
+     {
+      "who": "ie3-rose-griffon/micha-l-aron",
+      "text": "Esta noche cocino yo. Algo francés, por supuesto."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-osaka-gals-ccc",
+    "title": "Moda en Osaka",
+    "before": [
+     {
+      "text": "En Osaka, las chicas del Triple C los retan con un estilo muy distinto."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/rose-pinkpetal",
+      "text": "¡Ay, qué chicos tan monos! Pero en el campo no tendremos piedad."
+     },
+     {
+      "who": "ie3-rose-griffon/jean-gutain",
+      "text": "Moda contra moda. Esto va a ser interesante."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-osaka-gals-ccc/rose-pinkpetal",
+      "text": "¡Uf! ¡Qué estilo! Os lo perdonamos todo."
+     },
+     {
+      "who": "ie3-rose-griffon/jean-gutain",
+      "text": "La elegancia nunca pasa de moda."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-brockenborg",
+    "title": "El grifo y el águila",
+    "before": [
+     {
+      "text": "Contra Alemania ganaron 3-2 en el grupo. Ahora el Brocken Brigade quiere revancha."
+     },
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Vuestro estilo no tiene lógica. Esta vez lo hemos calculado todo."
+     },
+     {
+      "who": "ie3-rose-griffon/andr-pinson",
+      "text": "Como decía un filósofo del siglo XIX... bah, no me entenderíais."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-brockenborg/jonas-polk",
+      "text": "Imposible de calcular. Vuestro fútbol es pura improvisación."
+     },
+     {
+      "who": "ie3-rose-griffon/alain-favreau",
+      "text": "¡Hemos pedaleado como en el Tour de Francia!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "La revancha del 3-0",
+    "before": [
+     {
+      "text": "Por fin, el rival que los humilló: Os Reis de Brasil."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Franceses! ¡Ahora jugamos sin miedo! ¡Va a ser una fiesta!"
+     },
+     {
+      "who": "ie3-rose-griffon/pierre-godin",
+      "text": "Entonces será una fiesta elegante. ¡Grifos, al ataque!"
+     },
+     {
+      "who": "ie3-rose-griffon/roger-pialat",
+      "text": "Pintaré la escena de esta victoria. Ya tengo el lienzo preparado."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Qué clase! ¡Sois unos artistas!"
+     },
+     {
+      "who": "ie3-rose-griffon/pierre-godin",
+      "text": "Hemos vencido con estilo. Como siempre debió ser."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Grifos de la Rosa regresan a París. La torre Eiffel brilla por ellos."
+   },
+   {
+    "who": "ie3-rose-griffon/pierre-godin",
+    "text": "Estilo y elegancia, sea cual sea el rival. Hoy el mundo lo ha comprendido."
+   },
+   {
+    "who": "ie3-rose-griffon/julien-rousseau",
+    "text": "¡Una rosa para cada aficionado!"
+   },
+   {
+    "who": "ie3-rose-griffon/j-r-me-hervaud",
+    "text": "Crearé un perfume con el aroma de esta victoria."
+   }
+  ]
+ },
+ "ie3-team-garshield": {
+  "title": "Fugitivos del Programa RH",
+  "summary": "Tras rebelarse contra Zoolan Rice, sus jugadores deambulan sin rumbo y descubren qué es jugar al fútbol sin cadenas.",
+  "intro": [
+   {
+    "text": "Zoolan Rice ha caído. Su equipo, el Zoolan Team, se rebeló contra él y desapareció por un camino sin rumbo."
+   },
+   {
+    "who": "ie3-team-garshield/damien-crawford",
+    "text": "Zoolan nos prometió ayudar a nuestro país arrasado por la guerra. Nos mintió."
+   },
+   {
+    "who": "ie3-team-garshield/phil-a-minion",
+    "text": "Sin el Programa RH, ¿qué nos queda?"
+   },
+   {
+    "who": "ie3-team-garshield/cecil-crowley",
+    "text": "Lo que siempre tuvimos: nosotros mismos. Prometimos volver a jugar contra Japón."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "Supervivencia salvaje",
+    "before": [
+     {
+      "text": "Su camino los lleva a una selva, donde un equipo vive en plena naturaleza: el Instituto Wild."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¿Os llamáis como animales? ¡Aquí los animales somos nosotros!"
+     },
+     {
+      "who": "ie3-team-garshield/cyril-fox",
+      "text": "Un zorro siempre encuentra la salida. Incluso sin programa."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-team-garshield/seth-hedges",
+      "text": "Sin el programa me duele todo... pero me siento vivo."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Sois fieras de verdad!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "El rugido del tigre",
+    "before": [
+     {
+      "text": "En el sudeste asiático se cruzan con los Muay Tigers, maestros del combate y del fútbol."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Jugáis con miedo. Un tigre huele el miedo."
+     },
+     {
+      "who": "ie3-team-garshield/avinash-chowdhury",
+      "text": "Perdí la confianza una vez. No volveré a perderla."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-team-garshield/avinash-chowdhury",
+      "text": "Esta confianza... ¡es mía, no de Zoolan!"
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Ahora sí sois tigres."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "Perdón en Costail",
+    "before": [
+     {
+      "text": "Vuelven a la zona de Costail, que atacaron por orden de Zoolan. Los Pequeños Gigantes los esperan."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Atacasteis nuestra casa. ¿Qué hacéis aquí?"
+     },
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Venimos a pedir perdón. Y a jugar un partido limpio."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Disculpas aceptadas. Ese partido ha sido limpio de verdad."
+     },
+     {
+      "who": "ie3-team-garshield/sedgley-scofield",
+      "text": "Ya no necesito picar como un escorpión para ganar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-kingdom",
+    "title": "Las otras víctimas",
+    "before": [
+     {
+      "text": "Os Reis también sufrió a Zoolan Rice. Ellos saben lo que es jugar con miedo."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "Zoolan amenazó a nuestras familias. Vosotros erais sus soldados."
+     },
+     {
+      "who": "ie3-team-garshield/phil-a-minion",
+      "text": "Y ahora somos solo futbolistas. Como vosotros."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "Ya entiendo... Vosotros también fuisteis víctimas. ¡Ahora a disfrutar!"
+     },
+     {
+      "who": "ie3-team-garshield/grizzler-bruin",
+      "text": "Sin el programa, mis paradas son mías. Y eso me encanta."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "La promesa cumplida",
+    "before": [
+     {
+      "text": "Prometieron volver a jugar contra el Inazuma Japón. Y han cumplido."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Habéis vuelto! ¡Y esta vez sin ningún programa raro!"
+     },
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Esta vez jugamos con lo que de verdad somos. Prepárate, Mark Evans."
+     },
+     {
+      "who": "ie3-inazuma-japan/jude-sharp",
+      "text": "Juegan distinto. Más libres. Será un partido difícil."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Hemos ganado... sin trampas. Nunca había sentido algo así."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Así se juega al fútbol! ¡Bienvenidos!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los antiguos soldados de Zoolan Rice han encontrado algo más fuerte que cualquier programa."
+   },
+   {
+    "who": "ie3-team-garshield/damien-crawford",
+    "text": "Volveremos a nuestro país. No con poder, sino con fútbol."
+   },
+   {
+    "who": "ie3-team-garshield/chris-ellis",
+    "text": "Y esta resistencia es toda nuestra."
+   },
+   {
+    "who": "ie3-team-garshield/cecil-crowley",
+    "text": "Ahora veo con claridad: el fútbol puede ayudar más que la guerra."
+   }
+  ]
+ },
+ "ie3-team-k": {
+  "title": "Brillar sin el programa",
+  "summary": "Sin Mr. D ni el Programa RH, las joyas del Equipo D intentan ganarse la camiseta de Italia con su propio talento.",
+  "intro": [
+   {
+    "text": "Mr. D ha desaparecido. El Programa RH se ha acabado. El Equipo D se ha quedado solo."
+   },
+   {
+    "who": "ie3-team-k/giulio-acuto",
+    "text": "El programa me quitaba la vista a cambio de poder. No quiero volver a eso."
+   },
+   {
+    "who": "ie3-team-k/indigo-lazuli",
+    "text": "Siempre supe que eso no estaba bien. Ahora haremos las cosas bien."
+   },
+   {
+    "who": "ie3-team-k/amaranto-rubino",
+    "text": "Se reían de mí cuando decía que sería futbolista. Hoy empieza la verdad."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Mentes prestadas",
+    "before": [
+     {
+      "text": "El Instituto Brain también usaba un poder prestado: el control mental."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Sin el programa sois débiles. Nosotros seguimos siendo perfectos."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "Lo perfecto no existe. Lo que existe es lo que entrenas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-team-k/rosso-granato",
+      "text": "Podría quedarme en mi palacio, pero esto... esto me encanta."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "Primera victoria sin el programa. Se siente distinto."
+     }
+    ]
+   },
+   {
+    "opponent": "go-genei-gakuen",
+    "title": "Ilusiones",
+    "before": [
+     {
+      "text": "El Instituto Espejismo juega con trucos e ilusiones, igual que Mr. D jugaba con ellos."
+     },
+     {
+      "who": "go-genei-gakuen/harrold-houdini",
+      "text": "¿Qué es real y qué es ilusión? Da igual. Los débiles siempre caen en el truco."
+     },
+     {
+      "who": "ie3-team-k/violetto-ametista",
+      "text": "Yo sí lo sé. La ilusión era el programa. Esto es real."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-genei-gakuen/harrold-houdini",
+      "text": "...Habéis visto a través de todas mis ilusiones. Interesante."
+     },
+     {
+      "who": "ie3-team-k/bianco-perla",
+      "text": "Una victoria con cuerpo y aroma. Como un buen... zumo de uva."
+     }
+    ]
+   },
+   {
+    "opponent": "go-henkaku-no-teikoku",
+    "title": "El emperador reformado",
+    "before": [
+     {
+      "text": "Una versión renovada de la Royal Academy, el legado de Ray Dark en otra época."
+     },
+     {
+      "who": "go-henkaku-no-teikoku/rex-remington",
+      "text": "¡Eh, vosotros! ¿Os atrevéis a usar las técnicas de la Royal? ¡A ver qué sabéis hacer!"
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "¡Pingüino emperador X! Esta vez, sin ningún programa."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-henkaku-no-teikoku/rex-remington",
+      "text": "Tch... Esa técnica... la habéis hecho vuestra de verdad."
+     },
+     {
+      "who": "ie3-team-k/azzurro-zaffiro",
+      "text": "Ojalá salvar Venecia fuera tan fácil como esto."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "La camiseta de Italia",
+    "before": [
+     {
+      "text": "Ahora, el desafío más importante: el Orfeo, la selección a la que quisieron reemplazar."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Giulio, ¿esta vez juegas por ti?"
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "Por mí y por todos los que nunca fueron elegidos. Juguemos, Paolo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Ahora sí sois rivales de verdad. Italia tiene suerte."
+     },
+     {
+      "who": "ie3-team-k/roseo-diamante",
+      "text": "Desde mi barrio hasta aquí... ¡Mamá, lo he conseguido!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "Más allá del original",
+    "before": [
+     {
+      "text": "El último reto: la Royal Academy original, con Jude Sharp, el jugador al que Giulio fue creado para superar."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Así que tú eres mi «copia». Demuéstrame quién eres de verdad."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "No soy tu copia. Soy Giulio Acuto. ¡Y hoy lo sabrá todo el mundo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "No juegas como yo. Juegas como tú. Y eso es mucho mejor."
+     },
+     {
+      "who": "ie3-team-k/giulio-acuto",
+      "text": "Gracias, Jude. Por fin brillo con mi propia luz."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Las joyas del Equipo D brillan, por fin, con su propia luz."
+   },
+   {
+    "who": "ie3-team-k/giulio-acuto",
+    "text": "Mr. D nos ofreció poder. El fútbol nos ha dado algo mejor: orgullo."
+   },
+   {
+    "who": "ie3-team-k/giallo-topazio",
+    "text": "Ahora diseñaré nuestro nuevo uniforme. ¡De verdad esta vez!"
+   },
+   {
+    "who": "ie3-team-k/grigio-quarzo",
+    "text": "Y yo invitaré a alguien a cenar en Roma. Con esta victoria, seguro que dice que sí."
+   }
+  ]
+ },
+ "ie3-tenkuu-no-shito": {
+  "title": "El sello celestial",
+  "summary": "El sello que mantiene encerrado al Rey Demonio se debilita. El Sky Team baja del Jardín Celestial para reunir la luz necesaria y renovarlo.",
+  "intro": [
+   {
+    "text": "En el Jardín Celestial del Monte Magnitud, el sello que encierra al Rey Demonio empieza a resquebrajarse."
+   },
+   {
+    "who": "ie3-tenkuu-no-shito/sanctus",
+    "text": "La luz del sello se apaga. Aunque me cueste admitirlo, necesitamos la pasión más pura de los humanos."
+   },
+   {
+    "who": "ie3-tenkuu-no-shito/ekadel",
+    "text": "Bajaremos a la Tierra y la buscaremos jugando, como manda la tradición."
+   },
+   {
+    "who": "ie3-tenkuu-no-shito/ientel",
+    "text": "¡Qué emoción! ¡Hace siglos que no juego contra humanos!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-unlimited-shining",
+    "title": "Luz Eterna",
+    "before": [
+     {
+      "text": "El primer brillo los lleva hasta un equipo que se hace llamar Luz Eterna."
+     },
+     {
+      "who": "go-unlimited-shining/bailong",
+      "text": "Somos jugadores perfectos. Nuestra luz no necesita a nadie más."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "La luz que no se comparte acaba apagándose."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-unlimited-shining/bailong",
+      "text": "Vuestra luz... es más cálida que la nuestra."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sachinel",
+      "text": "¡Ja! Les he hecho un truco y ni se han dado cuenta."
+     }
+    ]
+   },
+   {
+    "opponent": "go-seidouzan",
+    "title": "El monte de los dioses",
+    "before": [
+     {
+      "text": "En el Colegio Monte Olimpo juegan como si fueran dioses antiguos."
+     },
+     {
+      "who": "go-seidouzan/cronus-fourseasons",
+      "text": "Bienvenidos al Monte Olimpo. Fuera del campo soy amable... pero en el campo no tendré piedad."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/gaiel",
+      "text": "Ay, no me hagáis enfadar... que doy miedo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-tenkuu-no-shito/gaiel",
+      "text": "Uy, perdón. Me he enfadado un poquito."
+     },
+     {
+      "who": "go-seidouzan/cronus-fourseasons",
+      "text": "Ese ángel... da más miedo que cualquier dios."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-manyuuji",
+    "title": "El claustro sagrado",
+    "before": [
+     {
+      "text": "Los monjes del Instituto Claustro Sagrado entrenan su espíritu en silencio."
+     },
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Un espíritu sereno vale más que mil alas."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/nenel",
+      "text": "Cierro los ojos y veo la verdad: vuestro espíritu es puro. Será un buen partido."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-manyuuji/crane-kik",
+      "text": "Vuestra serenidad es admirable."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/anorel",
+      "text": "La energía de este lugar ha dado fuerza al sello."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-makai-gundan-z",
+    "title": "La Puerta Demoníaca",
+    "before": [
+     {
+      "text": "Los demonios han notado la debilidad del sello y salen a impedir que se renueve."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Sanctus. Mil años esperando. Hoy el sello se rompe."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Mientras quede un ángel en pie, la puerta seguirá cerrada. ¡Remate celestial!"
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/genel",
+      "text": "¡Que nadie se acerque a nuestra portería!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "Grr... Esto no ha terminado."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/wenel",
+      "text": "Nunca termina. Por eso seguimos aquí."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "La pasión de los dioses",
+    "before": [
+     {
+      "text": "La última luz que necesitan está en el Instituto Zeus, el equipo que una vez quiso ser divino."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "¿Ángeles? Qué adecuado. Solo un dios puede jugar contra el cielo. Mostradme vuestra luz."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Tu orgullo brilla, pero no basta. Buscamos la luz de quien ama el fútbol. Juguemos con todo el corazón."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Mi poder divino, superado... Quizá exista algo más fuerte que ser un dios."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "La luz es suficiente. El sello brillará otros mil años."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El sello resplandece de nuevo. La Puerta Demoníaca queda cerrada."
+   },
+   {
+    "who": "ie3-tenkuu-no-shito/sanctus",
+    "text": "Hemos aprendido que la luz más fuerte no viene del cielo, sino del corazón de los que juegan."
+   },
+   {
+    "who": "ie3-tenkuu-no-shito/nuel",
+    "text": "Echaré de menos a los humanos. Y ellos a mí, seguro."
+   },
+   {
+    "who": "ie3-tenkuu-no-shito/ientel",
+    "text": "¡Volvamos a bajar pronto! ¡Por favor!"
+   }
+  ]
+ },
+ "ie3-the-empire": {
+  "title": "La muralla de los Andes",
+  "summary": "Thiago Torres y Los Emperadores quieren demostrar que la mejor defensa del mundo puede detener a los ataques más temibles.",
+  "intro": [
+   {
+    "text": "Argentina fue el único equipo que venció al Inazuma Japón en el FFI... y aun así no pasó de la fase de grupos."
+   },
+   {
+    "who": "ie3-the-empire/thiago-torres",
+    "text": "Ganar no basta. Quiero que el mundo entero sepa que nuestra defensa es la mejor."
+   },
+   {
+    "who": "ie3-the-empire/leone-badigo",
+    "text": "Y que cuando el Cóndor ataca, no hay escapatoria."
+   },
+   {
+    "who": "ie3-the-empire/esteban-carlos",
+    "text": "He entrenado en lo más alto de los Andes. Que vengan."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie3-unicorn",
+    "title": "El trueno americano",
+    "before": [
+     {
+      "text": "Primero, el Unicorn, cuyo Trueno rodante es una de las tácticas más ofensivas del FFI."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "La última vez nos ganasteis por un gol. Hoy daremos lo mejor de nosotros por América."
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Inténtalo. ¡Muro de hierro!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "Ni el Gran lobo ha podido con ese muro..."
+     },
+     {
+      "who": "ie3-the-empire/julio-acosta",
+      "text": "Esto se celebra con un buen mate."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-ol-de-samba",
+    "title": "La samba vecina",
+    "before": [
+     {
+      "text": "Olé de Samba, de Brasil, presume del ataque más alegre de Sudamérica."
+     },
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡Argentinos! ¡Nuestra samba no se para con un muro!"
+     },
+     {
+      "who": "ie3-the-empire/grande-d-az",
+      "text": "Pues esta muralla no sabe bailar. Solo sabe parar."
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡Qué aburrido es chocar contra vosotros! Pero qué bien jugáis."
+     },
+     {
+      "who": "ie3-the-empire/herman-samuel",
+      "text": "¡Bistec a la parrilla para todos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "La espada inglesa",
+    "before": [
+     {
+      "text": "Los Knights of Queen los vencieron 1-0. Excalibur contra el Muro de hierro."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Mi Excalibur atravesó vuestra defensa una vez. Lo hará de nuevo."
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Esta vez la muralla tiene una trampa: los Andes os esperan."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Una defensa digna de un castillo inglés."
+     },
+     {
+      "who": "ie3-the-empire/jorge-ortega",
+      "text": "¡Ni una espada legendaria ha podido conmigo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "El meteoro blanco",
+    "before": [
+     {
+      "text": "Italia los venció 2-1. Paolo Bianchi y Thiago Torres se deben un duelo."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Thiago, nunca llegamos a enfrentarnos de verdad, ¿recuerdas?"
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Lo recuerdo. Hoy tu Espada de Odín chocará contra mi muro."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Ni el Catenaccio es tan sólido como tu defensa."
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Por fin. Ese duelo me debía una victoria."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "La revancha de Mark",
+    "before": [
+     {
+      "text": "El Inazuma Japón quiere revancha. Esta vez, con Mark y Jude en el campo desde el primer minuto."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Thiago! ¡Aquella vez no pude jugar! ¡Hoy sí!"
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Me alegro, Mark. Quería ganarte contigo en la portería."
+     },
+     {
+      "who": "ie3-the-empire/leone-badigo",
+      "text": "¡Llamarada infernal! ¡Que el Cóndor alce el vuelo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Vaya defensa! ¡Ha sido un partidazo, Thiago!"
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Ahora sí podemos decirlo: hemos vencido al campeón con Mark Evans en el campo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Emperadores regresan a Buenos Aires como la defensa más temida del mundo."
+   },
+   {
+    "who": "ie3-the-empire/thiago-torres",
+    "text": "Un muro no es solo una defensa. Es un equipo que se sostiene unido."
+   },
+   {
+    "who": "ie3-the-empire/hern-n-t-vez",
+    "text": "¡Y lo contaré en la radio de mi barrio con todo detalle!"
+   },
+   {
+    "who": "ie3-the-empire/roberto-torres",
+    "text": "Y después, ¡a buscar El Dorado!"
+   }
+  ]
+ },
+ "ie3-the-great-horn": {
+  "title": "La gran migración",
+  "summary": "Eliminados por Costail en la final africana, los Caimanes del Cabo emprenden una migración por el mundo para volver más fuertes que nunca.",
+  "intro": [
+   {
+    "text": "Sudáfrica perdió la final africana contra Los Pequeños Gigantes por 4-1. El FFI se les escapó."
+   },
+   {
+    "who": "ie3-the-great-horn/jake-fana",
+    "text": "Como las manadas de la sabana, migraremos hasta encontrar la fuerza que nos falta."
+   },
+   {
+    "who": "ie3-the-great-horn/herschel-de-villiers",
+    "text": "Yo una vez cabalgué a lomos de un león. ¡Esto no será más difícil!"
+   },
+   {
+    "who": "ie3-the-great-horn/adam-marunga",
+    "text": "Y por el camino demostraremos que el fútbol une a todo el mundo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-southern-claw",
+    "title": "Garras del sur",
+    "before": [
+     {
+      "text": "Primera parada: un equipo que juega con garra, las Garras del Sur."
+     },
+     {
+      "who": "go-southern-claw/cirrus-whisp",
+      "text": "¿Los Caimanes? ¡Nuestras garras son más afiladas que vuestros dientes!"
+     },
+     {
+      "who": "ie3-the-great-horn/anton-nortje",
+      "text": "¡Pues probad mi carga salvaje! La perfeccioné jugando al rugby."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-southern-claw/cirrus-whisp",
+      "text": "Uf... Menuda embestida."
+     },
+     {
+      "who": "ie3-the-great-horn/melisizwe-zamani",
+      "text": "¡Esto se celebra con un buen asado de carnero!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-big-waves",
+    "title": "El hemisferio sur",
+    "before": [
+     {
+      "text": "Australia, al otro lado del océano Índico, también vive con la fuerza de la naturaleza."
+     },
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "Bienvenidos, amigos. Jugaremos limpio... pero nuestras olas no tendrán piedad."
+     },
+     {
+      "who": "ie3-the-great-horn/siyabonga-mahlangu",
+      "text": "¡Sueño con dar la vuelta al mundo en velero! ¡Las olas no me asustan!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-big-waves/dolph-hensen",
+      "text": "Fuertes como búfalos... Respeto."
+     },
+     {
+      "who": "ie3-the-great-horn/moeneeb-booysen",
+      "text": "Plantaré un árbol por cada victoria. ¡Ya van dos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-senbayama",
+    "title": "La fuerza de la granja",
+    "before": [
+     {
+      "text": "En el Instituto Farm, chicos criados en el campo presumen de tener la mejor resistencia."
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Aquí trabajamos desde el amanecer. ¡No nos cansamos nunca!"
+     },
+     {
+      "who": "ie3-the-great-horn/nathan-tswane",
+      "text": "Yo entreno huyendo de un avestruz. ¡A ver quién corre más!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "¡Ni nuestras vacas aguantan tanto!"
+     },
+     {
+      "who": "ie3-the-great-horn/dakarai-furman",
+      "text": "Dejo que mi instinto me guíe. Y hoy me ha guiado bien."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-desert-lion",
+    "title": "El desierto y la sabana",
+    "before": [
+     {
+      "text": "Los Leones del Desierto de Catar son famosos por su resistencia infinita."
+     },
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "En la segunda parte, el que aguanta gana. Y nosotros siempre aguantamos."
+     },
+     {
+      "who": "ie3-the-great-horn/jake-fana",
+      "text": "En la sabana, el que no aguanta no sobrevive. Veamos quién puede más."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "Increíble... Vuestra energía no se acaba nunca."
+     },
+     {
+      "who": "ie3-the-great-horn/cassius-tobler",
+      "text": "Instinto y ciencia, juntos. ¡Funciona!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "La revancha de África",
+    "before": [
+     {
+      "text": "Al fin, la revancha de la final africana: Los Pequeños Gigantes de Costail."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "¡Hola otra vez! Aquella final fue 4-1... ¡Pero seguro que habéis vuelto más fuertes! ¡Qué ganas!"
+     },
+     {
+      "who": "ie3-the-great-horn/jake-fana",
+      "text": "Venimos a por lo que nos quitasteis. ¡Caimanes, al ataque!"
+     },
+     {
+      "who": "ie3-the-great-horn/zolani-baloi",
+      "text": "¡Grabadlo todo! ¡Este partido saldrá en mi documental!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Habéis vuelto como una manada imparable."
+     },
+     {
+      "who": "ie3-the-great-horn/jake-fana",
+      "text": "La migración ha terminado. Hemos llegado a casa como campeones."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Los Caimanes del Cabo regresan a Sudáfrica. La sabana entera parece celebrarlo."
+   },
+   {
+    "who": "ie3-the-great-horn/jake-fana",
+    "text": "Ahora el mundo sabe que África también tiene gigantes."
+   },
+   {
+    "who": "ie3-the-great-horn/adam-marunga",
+    "text": "Y que el fútbol es de todos, vengas de donde vengas."
+   },
+   {
+    "who": "ie3-the-great-horn/zolani-baloi",
+    "text": "¡Y mi documental va a ser un éxito!"
+   }
+  ]
+ },
+ "ie3-the-kingdom": {
+  "title": "El fútbol que nos gusta",
+  "summary": "Libres de Zoolan Rice, Mac Robingo y Os Reis vuelven a jugar el fútbol alegre de las calles de Brasil.",
+  "intro": [
+   {
+    "text": "Zoolan Rice ha sido arrestado. Por primera vez en mucho tiempo, Os Reis puede jugar sin miedo."
+   },
+   {
+    "who": "ie3-the-kingdom/mac-robingo",
+    "text": "Antes jugábamos en las calles solo por diversión. Quiero volver a sentir eso."
+   },
+   {
+    "who": "ie3-the-kingdom/gato-carvalho",
+    "text": "¡Pues que suene la pandereta! ¡Esto es carnaval!"
+   },
+   {
+    "who": "ie3-the-kingdom/leonardo-almeida",
+    "text": "Mi bisabuelo jugó por Brasil. Esta vez jugaré como él: con alegría."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "vr-rojiura-backkicks",
+    "title": "Fútbol de callejón",
+    "before": [
+     {
+      "text": "Para recordar sus orígenes, Os Reis busca un partido callejero con los Goleadores del Callejón."
+     },
+     {
+      "who": "vr-rojiura-backkicks/holden-monday",
+      "text": "¿La selección de Brasil en nuestro callejón? ¡Esto hay que verlo!"
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Aquí empezó todo! ¡Juguemos como cuando éramos pequeños!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-rojiura-backkicks/holden-monday",
+      "text": "¡Qué regates! ¡Sois los reyes de la calle!"
+     },
+     {
+      "who": "ie3-the-kingdom/grillo-santos",
+      "text": "¡Esta noche cocino yo para todos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-team-garshield",
+    "title": "Fantasmas de Zoolan",
+    "before": [
+     {
+      "text": "Los antiguos soldados de Zoolan Rice aparecen. Os Reis tiene que enfrentarse a su pasado."
+     },
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Zoolan cayó, pero nosotros seguimos aquí. Queremos un partido."
+     },
+     {
+      "who": "ie3-the-kingdom/carlos-lagarto",
+      "text": "Esta vez no hay programa ni silbato. Solo samba."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-team-garshield/damien-crawford",
+      "text": "Vuestro fútbol... nunca lo habríamos entendido con el programa."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "Ya no tenemos miedo. Ni de Zoolan, ni de nadie."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-ol-de-samba",
+    "title": "Duelo de sambas",
+    "before": [
+     {
+      "text": "Olé de Samba, otro equipo brasileño, dice tener la samba más auténtica."
+     },
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡La samba de verdad es la nuestra!"
+     },
+     {
+      "who": "ie3-the-kingdom/tigre-mendes",
+      "text": "¡Cuanto más grite la afición, más fuerte bailo yo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-ol-de-samba/alegre",
+      "text": "¡Vale, vale! ¡Vosotros sois los reyes!"
+     },
+     {
+      "who": "ie3-the-kingdom/xavier-ribeiro",
+      "text": "Este partido merece un disfraz de carnaval nuevo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-little-gigant",
+    "title": "El empate pendiente",
+    "before": [
+     {
+      "text": "Con Los Pequeños Gigantes empataron en la fase de grupos. Es hora de desempatar."
+     },
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Mac, aquella vez jugabais con miedo. Quiero veros de verdad."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Pues prepárate! ¡Golpe de samba!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-little-gigant/hector-helio",
+      "text": "Así que este era vuestro verdadero fútbol... Increíble."
+     },
+     {
+      "who": "ie3-the-kingdom/falc-o-da-silva",
+      "text": "Mis reflejos de la selva han parado todo. ¡Parada de capoeira!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "La semifinal soñada",
+    "before": [
+     {
+      "text": "Por último, el rival que los ayudó a liberarse: el Inazuma Japón."
+     },
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "Mark, Thor... gracias a vosotros podemos jugar así. Por eso hoy os daré todo."
+     },
+     {
+      "who": "ie3-inazuma-japan/thor-stoutberg",
+      "text": "¡Así me gusta! ¡Juega por tu familia y por ti!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Que empiece la fiesta!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-kingdom/mac-robingo",
+      "text": "¡Lo hemos logrado! ¡Y he disfrutado cada segundo!"
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Ese es el fútbol de Brasil! ¡Qué maravilla!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Os Reis vuelve a Brasil, y las calles se llenan de samba y balones."
+   },
+   {
+    "who": "ie3-the-kingdom/mac-robingo",
+    "text": "Nuestras familias están a salvo, y nosotros volvemos a jugar el fútbol que nos gusta."
+   },
+   {
+    "who": "ie3-the-kingdom/antonio-bagre",
+    "text": "Ahora, a proteger la selva amazónica. ¡Con el mismo empeño!"
+   },
+   {
+    "who": "ie3-the-kingdom/gato-carvalho",
+    "text": "¡Que no pare el carnaval!"
+   }
+  ]
+ },
+ "ie3-unicorn": {
+  "title": "Por Erik",
+  "summary": "El Unicorn juega cada partido por su compañero Erik Eagle, que se enfrenta a una operación, y para cumplir el sueño americano de ser los mejores.",
+  "intro": [
+   {
+    "text": "Estados Unidos no pasó a las semifinales del FFI. Y a Erik Eagle le espera una operación muy pronto."
+   },
+   {
+    "who": "ie3-unicorn/erik-eagle",
+    "text": "Antes de entrar en el quirófano, quiero jugar unos partidos más con vosotros."
+   },
+   {
+    "who": "ie3-unicorn/mark-krueger",
+    "text": "Entonces jugaremos cada partido por ti, Erik. Te lo prometo."
+   },
+   {
+    "who": "ie3-unicorn/bobby-shearer",
+    "text": "¡Y con victorias! ¡Así volverás antes, ya verás!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "orion-navy-invader",
+    "title": "Los invasores",
+    "before": [
+     {
+      "text": "Un equipo de aspecto militar, el Navy Invader, quiere quitarle al Unicorn el puesto de selección americana."
+     },
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "El Unicorn está acabado. Ahora América es nuestra."
+     },
+     {
+      "who": "ie3-unicorn/dylan-keats",
+      "text": "¿Acabados? No way! ¡Os voy a meter goles a toda velocidad, you know!"
+     }
+    ],
+    "after": [
+     {
+      "who": "orion-navy-invader/yoga",
+      "text": "Retirada... Retirada..."
+     },
+     {
+      "who": "ie3-unicorn/billy-dash",
+      "text": "Como en las pelis del Oeste: ¡el sheriff siempre gana!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-the-empire",
+    "title": "La muralla argentina",
+    "before": [
+     {
+      "text": "Los Emperadores los eliminaron del FFI. Es hora de derribar ese muro."
+     },
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Mi Muro de hierro os dejó fuera del torneo. ¿Queréis repetir?"
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "Esta vez vamos a por todas. ¡Trueno rodante!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-the-empire/thiago-torres",
+      "text": "Habéis encontrado una grieta... Bien jugado."
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "¡Remate Pegaso! Como dice el refrán: no hay bien que por mal no venga... ¿O era al revés?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-red-matador",
+    "title": "El ruedo español",
+    "before": [
+     {
+      "text": "Los Rojos de España quieren vengar el 3-0 de antes del torneo."
+     },
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "La última vez fuimos novillos. Hoy somos toros bravos."
+     },
+     {
+      "who": "ie3-unicorn/gabriel-jax",
+      "text": "¡Mis padres son estrellas de Hollywood! ¡Hoy la estrella seré yo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-red-matador/queraldo-naval",
+      "text": "Sois rápidos como mustangs."
+     },
+     {
+      "who": "ie3-unicorn/steve-woodmark",
+      "text": "Algún día seré presidente. Y declararé hoy fiesta nacional."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-knights-of-queen",
+    "title": "Caballeros y vaqueros",
+    "before": [
+     {
+      "text": "Contra los Knights of Queen ganaron 1-0. Edgar no lo ha olvidado."
+     },
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Mark Krueger, aquella derrota me quitó el sueño. Hoy la remediaré."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "Te entiendo, Edgar. Pero hoy jugamos por Erik y no vamos a ceder. ¡Gran lobo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-knights-of-queen/edgar-partinus",
+      "text": "Una vez más... Sois un gran equipo."
+     },
+     {
+      "who": "ie3-unicorn/dylan-keats",
+      "text": "¡Two-zero contra Inglaterra, man! ¡Esto es genial!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-orpheus",
+    "title": "El meteoro blanco",
+    "before": [
+     {
+      "text": "Italia los venció en el FFI. Paolo Bianchi y su Espada de Odín vuelven a cruzarse con ellos."
+     },
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Erik, me alegra verte jugar. Pero no voy a contenerme."
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Ni se te ocurra, Paolo. ¡Quiero el mejor partido de mi vida!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-orpheus/paolo-bianchi",
+      "text": "Has jugado como un mago. Recupérate pronto."
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Lo haré. Ahora tengo muchos motivos para volver."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-inazuma-japan",
+    "title": "Amigos de verdad",
+    "before": [
+     {
+      "text": "El último partido antes de la operación de Erik: el Inazuma Japón de Mark Evans."
+     },
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Erik! ¡Bobby! ¡No pienso contenerme, porque somos amigos!"
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Eso es exactamente lo que quería oír, Mark."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "Unicorn, ¡todo por Erik!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-inazuma-japan/mark-evans",
+      "text": "¡Qué partidazo! ¡Erik, vuelve pronto, que quiero la revancha!"
+     },
+     {
+      "who": "ie3-unicorn/erik-eagle",
+      "text": "Te lo prometo. Volveré... y volveremos a jugar."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "Erik entra en el quirófano con una sonrisa. Sus compañeros esperan fuera, con el trofeo de su promesa cumplida."
+   },
+   {
+    "who": "ie3-unicorn/mark-krueger",
+    "text": "Lo hemos conseguido, Erik. Cada victoria ha sido para ti."
+   },
+   {
+    "who": "ie3-unicorn/bobby-shearer",
+    "text": "Y cuando vuelvas, ¡te tendremos preparado el sitio en el centro del campo!"
+   },
+   {
+    "who": "ie3-unicorn/erik-eagle",
+    "text": "Gracias, amigos. El mago del campo volverá más fuerte que nunca."
+   }
+  ]
+ }
+}

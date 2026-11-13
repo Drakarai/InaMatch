@@ -1,0 +1,2958 @@
+{
+ "ares-inakuni-raimon": {
+  "title": "¡Rumbo a la cima!",
+  "summary": "Los chicos de la Isla Remota se convierten en el nuevo Raimon para ganar el Fútbol Frontier, salvar el club de su isla y plantar cara al programa Ares.",
+  "main": true,
+  "intro": [
+   {
+    "text": "En la Isla Remota, el club de fútbol del instituto se ha quedado sin patrocinador y ha tenido que disolverse."
+   },
+   {
+    "who": "ares-inakuni-raimon/sonny-wright",
+    "text": "¡No pienso rendirme! Si ganamos el Fútbol Frontier, nuestro club volverá a existir. ¡Vamos a por todas!"
+   },
+   {
+    "who": "ares-inakuni-raimon/maxime-dassier",
+    "text": "Nos han ofrecido jugar como el nuevo Raimon de Tokio... Es una responsabilidad enorme. ¿Estaremos a la altura?"
+   },
+   {
+    "text": "Su debut fue durísimo: la Academia Polaris de Elliot Ember les arrolló por 1-10. Nadie daba un duro por ellos."
+   },
+   {
+    "who": "ares-inakuni-raimon/regina-mulgrave",
+    "text": "Si deshonráis el nombre del Raimon, cerraré el club de fútbol. Así de sencillo."
+   },
+   {
+    "who": "ares-inakuni-raimon/mister-yi",
+    "text": "Je, je. Soy vuestro nuevo entrenador. Primero, una partidita a la consola... Digo, ¡a entrenar!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-minodouzan",
+    "title": "Asalto a la fortaleza",
+    "before": [
+     {
+      "who": "ares-inakuni-raimon/dean-rush",
+      "text": "El Instituto Bastión es «la fortaleza inexpugnable». Nadie consigue acercarse a su portería."
+     },
+     {
+      "who": "ares-inakuni-raimon/basile-hardy",
+      "text": "¿Una semana entera practicando solo defensa? Tch... ¿Este entrenador sabe siquiera lo que hace?"
+     },
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "Nuestro muro no tiene grietas. Podéis atacar todo lo que queráis: no pasaréis."
+     },
+     {
+      "who": "ares-minodouzan/jack-wallside",
+      "text": "¡N-no se me escapará ni un balón! ...Creo. ¡Somos un muro! ¡Un muro de verdad!"
+     },
+     {
+      "who": "ares-inakuni-raimon/mister-yi",
+      "text": "Paciencia. Quien ataca sin pensar, se agota. Quien espera, encuentra la puerta abierta."
+     }
+    ],
+    "after": [
+     {
+      "text": "Cuando el Bastión se lanzó al ataque, El muro de Cliff lo frenó en seco y Basile marcó con su Tornado de fuego."
+     },
+     {
+      "who": "ares-inakuni-raimon/valentin-eisner",
+      "text": "Mi Flecha de hielo ha atravesado su Muro colectivo... Por fin entiendo para qué me hacía regar todo el instituto."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡2-0! ¡Nuestra primera victoria en el Fútbol Frontier!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-mikage-sennou-ares",
+    "title": "Un día sin entrenador",
+    "before": [
+     {
+      "text": "Mister Yi desaparece justo antes del partido contra el Instituto Brain. El equipo tendrá que apañárselas solo."
+     },
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "Sin el entrenador... ¿Y si me equivoco con la táctica? ¿Y si perdemos por mi culpa?"
+     },
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Ya no nos lavan el cerebro, pero nuestros datos son perfectos. Lo sabemos todo de vosotros."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/gideon-poe",
+      "text": "Vuestro Tornado de fuego tiene un 92 % de probabilidades de ser detenido. Calculado."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Pues hagamos algo que no esté en sus datos!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Kiko estrenó el Torbellino interceptor, Sandra paró el Remate misil con su Mano oceánica y Sonny regateó con la Entrada Relámpago."
+     },
+     {
+      "who": "ares-inakuni-raimon/sandra-fischer",
+      "text": "¡Lo he parado! ¡Ha sido como bucear contra una corriente enorme! ¡Mamá estaría orgullosa!"
+     },
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "4-0... Escuchad: vuestro próximo rival es la Royal Academy. Ray Dark ha vuelto. Tened cuidado."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-teikoku-gakuen-ares",
+    "title": "El extraño plan de Ray Dark",
+    "before": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "La Royal perdió su corona, pero hoy empieza nuestra reconquista."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/caleb-stonewall",
+      "text": "¿Estos son los de la isla? Va a ser un paseo."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ray-dark",
+      "text": "Unas botas especiales para mis jugadores... Ya veréis lo que ocurre cuando las libere."
+     },
+     {
+      "who": "ares-inakuni-raimon/kiko-calavento",
+      "text": "Un momento... La Royal corre como si llevara plomo en los pies. ¿Eso es un plan o qué?"
+     },
+     {
+      "text": "Las botas frenaban a la Royal. El Raimon se adelantó 2-0, pero gastó demasiadas fuerzas en la primera parte."
+     }
+    ],
+    "after": [
+     {
+      "text": "Con las botas liberadas, la Royal remontó 3-2. Pero el Raimon recordó su entrenamiento y acabó ganando 4-3."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡El Oso polar n.º 2 contra el Pingüino emperador! ¡Qué choque más brutal!"
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Habéis ganado limpiamente. Ahora entiendo por qué el entrenador os temía."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-seishou-gakuen",
+    "title": "La revancha contra el demonio del campo",
+    "before": [
+     {
+      "text": "Los rivales de Polaris y Raimon se retiran del torneo. El último partido de la fase será la revancha que todos esperaban."
+     },
+     {
+      "who": "ares-inakuni-raimon/aurelia-dingle",
+      "text": "Si perdemos, estamos eliminados. Polaris ya está clasificada... y quiere aplastarnos."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Eso de «el fútbol es diversión» me pone enfermo. Te voy a borrar del campo, Sonny."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Elliot, el fútbol también se juega con los compañeros. Algún día lo entenderás."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "Mi madre me dejó una carta... Mi padre está vivo. ¡Hoy juego por los dos!"
+     },
+     {
+      "name": "Percival Travis",
+      "text": "Elliot, tienes libertad total. Pero no olvides que somos once en el campo."
+     }
+    ],
+    "after": [
+     {
+      "text": "Perdían 0-3 al descanso, pero con la supertáctica El Titiritero el Raimon remontó un partido de infarto: ¡5-4!"
+     },
+     {
+      "who": "ares-inakuni-raimon/trevor-cook",
+      "text": "¡Soy líbero! ¡Viento centelleante y vaselina por encima del portero! ¡Ni yo me lo creo!"
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Tch... Nos vemos en la fase nacional. Esto no ha acabado."
+     },
+     {
+      "who": "ares-inakuni-raimon/regina-mulgrave",
+      "text": "Bien... Supongo que el club de fútbol puede seguir. Por ahora."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-zeus-ares",
+    "title": "Alas sobre el campo",
+    "before": [
+     {
+      "text": "Empieza la fase nacional. Primer rival: el Instituto Zeus, campeón del año pasado, que parece volar sobre el campo."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Ya no necesitamos atajos. Este año demostraremos nuestra fuerza verdadera."
+     },
+     {
+      "who": "ares-zeus-ares/percy-hurst",
+      "text": "¡Mi Sierra celestial es más rápida que cualquier portera!"
+     },
+     {
+      "who": "ares-zeus-ares/deirdre-staples",
+      "text": "Jugad con el corazón tranquilo, niños. El cielo es vuestro."
+     },
+     {
+      "who": "ares-inakuni-raimon/sandra-fischer",
+      "text": "¡Que vuelen lo que quieran! Buceo en mar abierto con mi madre: ¡no me asusta nada!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Zeus se puso 2-0, pero Adriano recortó con un cabezazo ensayado y el Raimon empató. En el descuento, Sonny y Basile encadenaron sus tiros..."
+     },
+     {
+      "who": "ares-inakuni-raimon/basile-hardy",
+      "text": "Tormenta de fuego. ...Je. No ha estado mal, ¿eh? Así es como remata un delantero de verdad."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "3-2... Hoy habéis volado más alto que nosotros. Seguid así."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-hakuren-ares",
+    "title": "La gran estrategia de la princesa de las nieves",
+    "before": [
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "Por fin vuelvo a jugar junto a mi hermano Aiden. Me alegra mucho enfrentarme a vosotros, Raimon."
+     },
+     {
+      "who": "ares-hakuren-ares/aiden-froste",
+      "text": "¡Nuestro frío os va a helar hasta los huesos! ¡Yo marco y tú celebras, hermano! ¡Remate cazaosos!"
+     },
+     {
+      "who": "ares-hakuren-ares/kevin-dragonfly",
+      "text": "¡Hmph! Que nadie me llame solo «el bruto que chuta». ¡Ahora el Alpino juega a mi ritmo!"
+     },
+     {
+      "who": "ares-hakuren-ares/robert-cottontail",
+      "text": "¡Y nuestra arma secreta es mi querida hija Bunny! ¡Ánimo, cariño!"
+     },
+     {
+      "who": "ares-inakuni-raimon/valentin-eisner",
+      "text": "Fijaos en cómo se buscan los dos Froste. Si cortamos ese hilo, su hielo se resquebraja."
+     }
+    ],
+    "after": [
+     {
+      "text": "Bunny Cottontail, torpe en apariencia, marcó dos goles por sorpresa. Fue un intercambio de golpes hasta el final: ¡5-4 para el Raimon!"
+     },
+     {
+      "who": "ares-hakuren-ares/bunny-cottontail",
+      "text": "¡Ay, hemos perdido! Pero la princesa del Alpino se lo ha pasado genial. ¡Quiero seguir jugando!"
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Nueve goles en un partido! ¡Qué locura!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-eisei-gakuen",
+    "title": "El sueño del Sun Garden",
+    "before": [
+     {
+      "who": "ares-eisei-gakuen/xavier-foster",
+      "text": "Somos los chicos del Sun Garden. Ganar este torneo es el sueño que compartimos desde pequeños."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-schiller",
+      "text": "No necesito a nadie. Marcaré los goles yo solo, como siempre."
+     },
+     {
+      "who": "ares-eisei-gakuen/aquilina-schiller",
+      "text": "Xavier... Si no juegas con tu equipo, no llegarás a ninguna parte."
+     },
+     {
+      "who": "ares-eisei-gakuen/claude-beacons",
+      "text": "¡Os voy a reducir a cenizas! ¡Aunque el niño rico no nos pase ni un balón, el más fuerte soy yo!"
+     },
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "Son el equipo más goleador del torneo. Defensa, ¡no dejéis ni un hueco!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Xavier Schiller por fin pasó el balón y dejó atrás su pasado. Aun así, el Raimon ganó un partidazo por 6-5."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-schiller",
+      "text": "Jugar con ellos... no ha estado tan mal. Lo admito."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-foster",
+      "text": "Gracias, Raimon. Habéis devuelto la sonrisa al Sun Garden."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-tonegawa-tousen",
+    "title": "El capitán legendario",
+    "before": [
+     {
+      "text": "En semifinales, un equipo recién nacido: el Instituto Ribera de Mark Evans, que no ha encajado ni un gol en todo el torneo."
+     },
+     {
+      "text": "Mister Yi no aparece. Sin entrenador, el Raimon empieza a resquebrajarse."
+     },
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡Vosotros sois el nuevo Raimon! ¡Me muero de ganas de jugar contra vosotros!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/billy-miller",
+      "text": "Fundé este club de la nada. ¡Mark nos ha enseñado que con tesón se llega a cualquier sitio!"
+     },
+     {
+      "name": "Seymour Hillman",
+      "text": "Ribera, jugad como un solo equipo. Así nació el Raimon."
+     },
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "Tengo que mantener unido al equipo... ¡Soy el capitán!"
+     }
+    ],
+    "after": [
+     {
+      "text": "El Ribera marcó primero con su Ímpetu de dragón, pero el Raimon perforó por fin la portería de Mark y ganó 2-1."
+     },
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡Qué tiro! ¡Me habéis marcado de verdad! Ganad la final, ¿eh?"
+     },
+     {
+      "text": "Al final del partido, Maxime cae lesionado. No podrá jugar la final."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-outei-tsukinomiya",
+    "title": "La balanza de Ares",
+    "before": [
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "Sonny, a partir de ahora tú eres el capitán. Confío en ti."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Me paso al Raimon para la final. No lo hago por vosotros: quiero destruir el programa Ares."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "La Academia Plenilunio es el fruto del programa Ares. ¿Fútbol con sentimientos? Interesante... pero inútil. Ya está todo calculado."
+     },
+     {
+      "name": "Curt Gale",
+      "text": "Aplastadlos. Vorágine Omega desde el primer minuto."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡El fútbol no es ninguna balanza! ¡Es lo que nos une! ¡Vamos, Raimon!"
+     }
+    ],
+    "after": [
+     {
+      "text": "El Raimon resistió la Vorágine Omega gracias a su entrenamiento. Elliot y Heath chocaron sin descanso: 2-2... ¡y al final, 3-2!"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Habéis ganado. Y ahora que todos han visto la verdad del programa Ares... por fin soy libre."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "No te creas que somos amigos, Sonny. Pero... buen partido."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "¡El Raimon Isla Remota es el campeón del Fútbol Frontier!"
+   },
+   {
+    "text": "Heath Moore revela su enfermedad y la verdad del programa Ares. La victoria del Raimon ha cambiado el fútbol japonés."
+   },
+   {
+    "who": "ares-inakuni-raimon/maxime-dassier",
+    "text": "Lo hemos conseguido, chicos. El club de la isla volverá a existir."
+   },
+   {
+    "who": "ares-inakuni-raimon/sonny-wright",
+    "text": "¡Y esto no acaba aquí! ¡Quiero jugar contra el mundo entero!"
+   },
+   {
+    "who": "ares-inakuni-raimon/mister-yi",
+    "text": "Je, je. Como en los videojuegos: cuando te pasas el juego, empieza el modo difícil."
+   }
+  ]
+ },
+ "ares-seishou-gakuen": {
+  "title": "La estrella del norte",
+  "summary": "Elliot Ember y Jude Sharp guían a la Academia Polaris en busca de revancha contra el programa Ares, que destrozó la vida de la amiga de Elliot.",
+  "intro": [
+   {
+    "text": "La Academia Polaris es la gran favorita: barrió a la Royal 10-0 y su delantera da miedo."
+   },
+   {
+    "who": "ares-seishou-gakuen/elliot-ember",
+    "text": "Me da igual el torneo. Solo quiero una cosa: aplastar a la Academia Plenilunio y al programa Ares."
+   },
+   {
+    "who": "ares-seishou-gakuen/jude-sharp",
+    "text": "Para eso necesitas a tus compañeros, Elliot. La venganza sola no gana partidos."
+   },
+   {
+    "who": "ares-seishou-gakuen/acker-reese",
+    "text": "Como capitán, os pido disciplina. Sí, Elliot, tú también. Somos una constelación: cada estrella en su sitio."
+   },
+   {
+    "name": "Percival Travis",
+    "text": "Elliot, juega libre. Jude, controla el campo. Los demás, seguid el plan."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-midorigaoka",
+    "title": "El partido que nunca se jugó",
+    "before": [
+     {
+      "text": "El Colina Verde tuvo que retirarse del torneo por una gripe. Ya recuperados, piden jugar el partido pendiente."
+     },
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Atchís! Digo... ¡ESTAMOS EN PLENA FORMA! ¡Colina Verde, a volar como insectos!"
+     },
+     {
+      "who": "ares-midorigaoka/aveline-morrin",
+      "text": "Revolotearé a vuestro alrededor como una mariposa. Ni me veréis venir."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Bichos. Pues los aplastaré uno a uno."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-seishou-gakuen/oliver-golightly",
+      "text": "...Demasiado lentos."
+     },
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Volveremos más fuertes! ¡Y vacunados!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-zeus-ares",
+    "title": "Bajo el cielo de los dioses",
+    "before": [
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "El año pasado ganamos a la Royal 10-0. Este año ese récord es vuestro. Vamos a recuperarlo."
+     },
+     {
+      "who": "ares-zeus-ares/percy-hurst",
+      "text": "¡A ver si vuestra estrellita alcanza mi Sierra celestial!"
+     },
+     {
+      "who": "ares-seishou-gakuen/mickey-way",
+      "text": "¡Que tiren desde el cielo si quieren! ¡Mi Cráterclismo no deja pasar nada! ¡Palabra de portero!"
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Juegan por el aire. Cerrad las líneas de pase y bajaremos a los dioses a la tierra."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "¿Dioses? ¡Ja, ja, ja! Mi Pingüino perfecto vuela más alto que todos ellos."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Una fuerza feroz... pero sin alegría. Búscala, Elliot."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-kidokawa-seishuu-ares",
+    "title": "Duelo de triángulos",
+    "before": [
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "El año pasado jugábamos cada uno a lo suyo. Ahora somos un equipo de verdad."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "Jude, hace tiempo que no nos enfrentamos. Esta vez no me contendré."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Axel... Tu Tornado de fuego siempre ha sido una pesadilla. Me alegro de verte."
+     },
+     {
+      "who": "ares-seishou-gakuen/eddy-o-ryan",
+      "text": "Ellos tienen el Triángulo Z. Nosotros, el Triángulo letal. ¡A ver qué triángulo gana!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Como en el Fútbol Frontier, el partido se decidió en el último segundo con el Triángulo letal de Elliot, Eddy y Oscar."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/tyler-murdock",
+      "text": "Hermanos... la próxima vez ganaremos los tres. ¡Los cuatro, con Axel!"
+     },
+     {
+      "who": "ares-seishou-gakuen/oscar-pio",
+      "text": "Uf, ha estado cerca. Pero hoy la estrella brillaba de nuestro lado."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-teikoku-gakuen-ares",
+    "title": "El imperio herido",
+    "before": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Nos humillasteis 10-0. Hemos entrenado día y noche para este momento."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/caleb-stonewall",
+      "text": "Y tú, Jude, ¿qué se siente al jugar contra tu antigua casa?"
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "La Royal fue mi hogar. Por eso mismo voy a jugar con todo lo que tengo."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ray-dark",
+      "text": "Jude... Veamos si tu nueva estrella brilla tanto como el Pingüino emperador."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Habéis mejorado muchísimo, David. Esta vez no ha sido un 10-0."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "La próxima vez ganaremos nosotros. Lo juro por la Royal."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Ese Ray Dark también usaba a chicos como piezas... Igual que el programa Ares."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-outei-tsukinomiya",
+    "title": "La venganza del demonio del campo",
+    "before": [
+     {
+      "text": "Por fin, la Academia Plenilunio. En el Fútbol Frontier, su Vorágine Omega obligó a Polaris a retirarse."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Elliot Ember. Tu rabia es predecible. El programa Ares ya ha calculado tu derrota."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Tú y tu programa le destrozasteis la vida a mi amiga. ¡Hoy lo pagáis todo!"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/duske-grayling",
+      "text": "Mi Escudo lunar ya detuvo tu Pingüino Aéreo. Volverá a hacerlo."
+     },
+     {
+      "name": "Curt Gale",
+      "text": "Apuntad a sus piernas. Y cuando se tambaleen, Vorágine Omega."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Esta vez lo he previsto todo. ¡Zona Crítica! ¡No soltéis el balón!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Con la Zona Crítica, Polaris resistió la Vorágine Omega, y Elliot rompió el Escudo lunar con su Pingüino perfecto."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Ese tiro... no estaba en ningún cálculo. Interesante."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "No ha sido solo mío. Ha sido... de todos. Tch, qué cursi suena."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-seishou-gakuen/acker-reese",
+    "text": "La constelación de Polaris brilla más que nunca. Hasta tú, Elliot, te has quedado en tu sitio. Casi."
+   },
+   {
+    "who": "ares-seishou-gakuen/jude-sharp",
+    "text": "¿Lo ves, Elliot? Has ganado cuando has confiado en los demás."
+   },
+   {
+    "who": "ares-seishou-gakuen/elliot-ember",
+    "text": "Sí, sí... No os acostumbréis. Ahora me voy al hospital: tengo que contarle a mi amiga que hemos ganado."
+   },
+   {
+    "name": "Percival Travis",
+    "text": "Buen trabajo. La estrella del norte siempre señala el camino."
+   }
+  ]
+ },
+ "ares-eisei-gakuen": {
+  "title": "Fantasmas de Alius",
+  "summary": "Los chicos del Sun Garden se enfrentan a los ecos de la Academia Alius, el pasado que una vez los convirtió en alienígenas del fútbol.",
+  "intro": [
+   {
+    "text": "Tras caer 6-5 ante el Raimon, la Academia Alia vuelve al Sun Garden con un sabor amargo."
+   },
+   {
+    "who": "ares-eisei-gakuen/xavier-schiller",
+    "text": "Si hubiera jugado solo desde el principio, habríamos ganado. Exijo la revancha."
+   },
+   {
+    "who": "ares-eisei-gakuen/xavier-foster",
+    "text": "No, Xavier. Todavía no lo entiendes. Juntos somos más fuertes."
+   },
+   {
+    "who": "ares-eisei-gakuen/aquilina-schiller",
+    "text": "Hay algo más. En el viejo campo del Grupo Kira se ha reactivado un simulador... con los datos de la Academia Alius."
+   },
+   {
+    "who": "ares-eisei-gakuen/jordan-greenway",
+    "text": "¿Los equipos que fuimos? ¿Tormenta de Géminis, Épsilon, Génesis...? Creía que ese pasado estaba enterrado."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "Revancha bajo el sol",
+    "before": [
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¿Una revancha? ¡Claro que sí! ¡Me encanta jugar contra vosotros!"
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-schiller",
+      "text": "Esta vez no hay excusas. Ni para vosotros ni para mí."
+     },
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "Ahora se pasan el balón. Esto va a ser mucho más difícil que la otra vez."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-eisei-gakuen/xavier-schiller",
+      "text": "Hemos ganado... y he dado tres pases. ¿Así es como se siente?"
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Qué partidazo! ¡Seguid así y nadie os parará!"
+     },
+     {
+      "who": "ares-eisei-gakuen/aquilina-schiller",
+      "text": "Bien. Ahora estáis preparados para el simulador. Vamos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-prominence",
+    "title": "Llamas del pasado",
+    "before": [
+     {
+      "text": "El simulador proyecta al Prominence, el equipo de fuego que Claude Beacons capitaneó en otro tiempo."
+     },
+     {
+      "who": "ie2-prominence/claude-beacons",
+      "text": "Soy Torch, capitán del Prominence. ¡Mi llama es la más fuerte de Alius! ¡Os reduciré a cenizas, terrícolas!"
+     },
+     {
+      "who": "ares-eisei-gakuen/claude-beacons",
+      "text": "Qué pinta más ridícula llevaba... ¡Pero mi fuego sigue siendo el mismo!"
+     },
+     {
+      "who": "ares-eisei-gakuen/bonnie-sparks",
+      "text": "¡A por ellos, Claude! ¡El fuego de verdad es el de ahora!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-eisei-gakuen/claude-beacons",
+      "text": "He vencido a mi propio pasado. Ahora juego por el Sun Garden, no por ningún meteorito."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-foster",
+      "text": "Uno menos. Pero lo más duro está por llegar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-diamond-dust",
+    "title": "La ventisca de diamantes",
+    "before": [
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Soy Gazelle, capitán del Polvo de Diamantes. Vuestro calor no sirve de nada aquí. Congelaré vuestros corazones."
+     },
+     {
+      "who": "ares-eisei-gakuen/bryce-whitingale",
+      "text": "Mi yo de entonces... Frío, pero vacío por dentro. Veamos quién congela a quién ahora."
+     },
+     {
+      "who": "ares-eisei-gakuen/claire-lesnow",
+      "text": "Qué miedo... Aunque ese defensa de ahí juega fatal, por cierto."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-eisei-gakuen/bryce-whitingale",
+      "text": "Mi Balón iceberg ha roto la ventisca. Me quedo con mi yo de ahora."
+     },
+     {
+      "who": "ares-eisei-gakuen/grant-icewater",
+      "text": "¿Habéis visto cómo juego? De joven era guapísimo, ¿sabéis?"
+     },
+     {
+      "who": "ares-eisei-gakuen/claire-lesnow",
+      "text": "Nadie te cree, Grant."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "Tormenta de Géminis",
+    "before": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Tormenta de Géminis no conoce rival. Como dice el refrán: no hay peor ciego que el que no quiere ver. ¡Rendíos, terrícolas!"
+     },
+     {
+      "who": "ares-eisei-gakuen/jordan-greenway",
+      "text": "Antes me creía superior a todos. Ya lo dice el refrán: rectificar es de sabios. ¡Hoy toca rectificar!"
+     },
+     {
+      "who": "ares-eisei-gakuen/isabelle-trick",
+      "text": "Concentración. Su ritmo es rápido, pero predecible."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-eisei-gakuen/jordan-greenway",
+      "text": "Ese era yo... Bien está lo que bien acaba. Me alegro de haber cambiado."
+     },
+     {
+      "who": "ares-eisei-gakuen/isabelle-trick",
+      "text": "Dos más. Seguid así."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-epsilon",
+    "title": "La amenaza de Épsilon",
+    "before": [
+     {
+      "who": "ie2-epsilon/dave-quagmire",
+      "text": "Épsilon no tolera la derrota. Seréis eliminados."
+     },
+     {
+      "who": "ares-eisei-gakuen/dave-quagmire",
+      "text": "¡No sale nada como lo había planeado! Ni siquiera mi propio pasado me hace caso..."
+     },
+     {
+      "who": "ares-eisei-gakuen/zeke-valanche",
+      "text": "¡Si perdemos, será culpa de los defensas!"
+     },
+     {
+      "who": "ares-eisei-gakuen/ronny-metcalf",
+      "text": "Agobiémoslos hasta que fallen. Como en los viejos tiempos, pero sin maldad."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-eisei-gakuen/dave-quagmire",
+      "text": "Uf... Al final ha salido bien. ¡Lo tenía todo planeado! Más o menos."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-foster",
+      "text": "Solo queda uno: Génesis. El equipo que yo mismo capitaneé."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-the-genesis",
+    "title": "Génesis",
+    "before": [
+     {
+      "who": "ie2-the-genesis/xavier-foster",
+      "text": "Bienvenidos. Soy Xene, capitán de Génesis. Será divertido ver cuánto aguantáis... aunque no espero mucho."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-foster",
+      "text": "Entonces jugaba para complacer a un padre. Ahora juego por mi familia del Sun Garden."
+     },
+     {
+      "who": "ie2-the-genesis/isabelle-trick",
+      "text": "Ningún equipo humano ha resistido nunca a Génesis."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-schiller",
+      "text": "Foster, esta vez no estás solo. ¡Toma, el balón es tuyo!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Un último ataque combinado de los dos Xavier atravesó la proyección de Génesis, que se desvaneció en mil luces."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-foster",
+      "text": "Adiós, yo del pasado. Gracias por traerme hasta aquí."
+     },
+     {
+      "who": "ares-eisei-gakuen/xavier-schiller",
+      "text": "Supongo que esto es lo que llamáis... equipo."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-eisei-gakuen/aquilina-schiller",
+    "text": "El simulador se ha apagado para siempre. El pasado ya no puede atraparos."
+   },
+   {
+    "who": "ares-eisei-gakuen/xavier-foster",
+    "text": "El Sun Garden es nuestra casa, y la Academia Alia, nuestro sueño."
+   },
+   {
+    "who": "ares-eisei-gakuen/claude-beacons",
+    "text": "¡El año que viene ganamos el Fútbol Frontier! ¡Y con el niño rico pasando el balón!"
+   },
+   {
+    "who": "ares-eisei-gakuen/xavier-schiller",
+    "text": "No me llames así. ...Pero vale."
+   }
+  ]
+ },
+ "ares-hakuren-ares": {
+  "title": "La ventisca de los hermanos",
+  "summary": "Shawn y Aiden Froste, junto a Bunny y Kevin, recorren la Copa de Invierno para demostrar que el Alpino es el verdadero rey del hielo.",
+  "intro": [
+   {
+    "text": "En Hokkaido, la nieve cubre el campo del Instituto Alpino. Shawn y Aiden Froste vuelven a entrenar juntos."
+   },
+   {
+    "who": "ares-hakuren-ares/aiden-froste",
+    "text": "¡Hermano, esta vez nadie nos para! Tú defiendes, yo marco. ¡Como cuando éramos pequeños!"
+   },
+   {
+    "who": "ares-hakuren-ares/shawn-froste",
+    "text": "Aiden, a veces olvidas que tenemos compañeros. El Alpino no son solo los Froste."
+   },
+   {
+    "who": "ares-hakuren-ares/robert-cottontail",
+    "text": "¡Delicias Alpinas patrocina la Copa de Invierno! Equipos de todo el norte... ¡y del mundo!"
+   },
+   {
+    "who": "ares-hakuren-ares/bunny-cottontail",
+    "text": "¡Yo también juego! ¡La princesa del Alpino será la delantera estrella! ¿Verdad, papá?"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-northern-fang",
+    "title": "Colmillos en la nieve",
+    "before": [
+     {
+      "who": "go-northern-fang/bracknell-forge",
+      "text": "Somos los Colmillos del Norte, los lobos de esta tierra helada. Rendíos, Alpino."
+     },
+     {
+      "who": "ares-hakuren-ares/quentin-rackner",
+      "text": "...Cada invierno vuelvo. Y cada invierno, alguien se cree el amo de la nieve."
+     },
+     {
+      "who": "ares-hakuren-ares/mila-simmering",
+      "text": "¡Tomaos la sopa de jengibre antes de salir! ¡Nada de resfriados!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-hakuren-ares/sean-snowfield",
+      "text": "¡Achís! Perdón... Treinta libretas sobre copos de nieve, y aún me sorprende lo bien que jugamos sobre ellos."
+     },
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "Buen comienzo. Pero esto solo acaba de empezar."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-kidokawa-seishuu-ares",
+    "title": "Reencuentro de delanteros",
+    "before": [
+     {
+      "who": "ares-hakuren-ares/kevin-dragonfly",
+      "text": "¡Axel! Hace un año jugábamos juntos en el Raimon. ¡Hoy te demostraré que ya no soy el mismo, quieras o no!"
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "Kevin. Ya no eres solo un ariete: te he visto organizar el juego. Enséñamelo."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "¡Que los hermanos también estamos aquí! ¡Triángulo Z!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-hakuren-ares/kevin-dragonfly",
+      "text": "¡Ja! ¿Has visto mi Remate guiverno? ¡A ver quién es ahora el delantero estrella!"
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "Lo he visto. Me alegro por ti, Kevin."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "La revancha del 5-4",
+    "before": [
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡El Alpino! ¡Nuestro partido fue de locos! ¿Otra vez cinco goles cada uno?"
+     },
+     {
+      "who": "ares-hakuren-ares/bunny-cottontail",
+      "text": "¡Esta vez la princesa no se tropezará! Bueno... solo un poquito, para despistar."
+     },
+     {
+      "who": "ares-inakuni-raimon/valentin-eisner",
+      "text": "Hielo contra hielo. Mi Flecha de hielo contra vuestro Frente frío."
+     }
+    ],
+    "after": [
+     {
+      "text": "Bunny volvió a sorprender a todos con su Liebre blanca, y el Alpino se cobró la revancha."
+     },
+     {
+      "who": "ares-hakuren-ares/robert-cottontail",
+      "text": "¡Esa es mi niña! ¡Delicias Alpinas os invita a todos a merendar!"
+     }
+    ]
+   },
+   {
+    "opponent": "gx-storm-wolf",
+    "title": "Lobos de la estepa",
+    "before": [
+     {
+      "text": "Desde Rusia llegan los Storm Wolves, un equipo curtido en ventiscas todavía más feroces."
+     },
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "En nuestra tierra el invierno dura casi todo el año. Vuestra nieve es de juguete."
+     },
+     {
+      "who": "ares-hakuren-ares/aiden-froste",
+      "text": "¿De juguete? ¡Ja! ¡Prueba mi Remate cazaosos y luego me lo cuentas, listillo!"
+     },
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "Calma, Aiden. Juguemos juntos. El frío más fuerte es el que se comparte."
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-storm-wolf/dilshod",
+      "text": "Los hermanos del hielo... Os habéis ganado el respeto de los lobos."
+     },
+     {
+      "who": "ares-hakuren-ares/spike-gleeson",
+      "text": "Hoy me he puesto las gafas de sol de gala. Se notaba, ¿verdad?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-diamond-dust",
+    "title": "El trono de hielo",
+    "before": [
+     {
+      "text": "En la final de la Copa de Invierno espera un rival de leyenda: el Polvo de Diamantes, que se proclama rey del hielo."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Nuestro frío es absoluto. Vuestro hielo se derretirá ante el Polvo de Diamantes."
+     },
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "El hielo no tiene por qué ser frío por dentro. Aiden, ¿listo?"
+     },
+     {
+      "who": "ares-hakuren-ares/aiden-froste",
+      "text": "¡Siempre, hermano! ¡Frente frío!"
+     },
+     {
+      "who": "ares-hakuren-ares/bunny-cottontail",
+      "text": "¡Y la princesa se apunta! ¡Ventisca triple, allá vamos! ¡El gol es mío, Aiden!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Bunny, Shawn y Aiden combinaron su Ventisca triple y derritieron, por fin, el trono de hielo."
+     },
+     {
+      "who": "ie2-diamond-dust/bryce-whitingale",
+      "text": "Un hielo... cálido. No lo entiendo, pero es fuerte."
+     },
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "Lo hemos conseguido juntos. Todos."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-hakuren-ares/robert-cottontail",
+    "text": "¡El Alpino, campeón de la Copa de Invierno! ¡Bunny, eres mi orgullo!"
+   },
+   {
+    "who": "ares-hakuren-ares/aiden-froste",
+    "text": "Hermano... gracias por pasarme el balón en la final. ¡Pero el próximo gol es mío, que conste!"
+   },
+   {
+    "who": "ares-hakuren-ares/shawn-froste",
+    "text": "Gracias a ti por estar aquí, Aiden. Jugar contigo es lo mejor del mundo."
+   },
+   {
+    "who": "ares-hakuren-ares/kevin-dragonfly",
+    "text": "¡Hmph! ¡Y el año que viene, a por el Fútbol Frontier! ¡Y esta vez marco yo más que nadie!"
+   }
+  ]
+ },
+ "ares-kidokawa-seishuu-ares": {
+  "title": "Hermanos de fuego",
+  "summary": "Los hermanos Murdock y Axel Blaze quieren demostrar que el Kirkwood ya no es un equipo de solistas, sino una familia que juega unida.",
+  "intro": [
+   {
+    "text": "Perder 3-4 en el último segundo contra Polaris dejó al Instituto Kirkwood fuera del Fútbol Frontier."
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+    "text": "Antes nos guardábamos el balón. Este año aprendimos a pasarlo... y aun así no bastó."
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/thomas-murdock",
+    "text": "Cálmate, hermano, por favor. Aún tenemos algo que nadie más tiene: somos tres hermanos."
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/tyler-murdock",
+    "text": "¡Y Axel está con nosotros! ¡Entrenaré el doble para estar a vuestra altura, hermanos!"
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/seth-nichols",
+    "text": "Seminarios Z nos ha conseguido una serie de amistosos. Confío en vosotros, chavales."
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+    "text": "Solo soy un refuerzo. Pero mientras esté aquí, el Kirkwood arderá."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-midorigaoka",
+    "title": "Los insectos de la colina",
+    "before": [
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Kirkwood! ¡Os damos la bienvenida a gritos! ¡COLINA VERDE!"
+     },
+     {
+      "who": "ares-midorigaoka/griffit-valiance",
+      "text": "¡Achís! Perdón... alergia al polen. Pero mi Ventisca eterna no estornuda."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/lynn-tambelle",
+      "text": "¡Tin, tin! ¡Que suene la pandereta, Kirkwood!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "¡Triángulo Z y para dentro! Así se empieza."
+     },
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Qué potencia! ¡Ni un saltamontes salta así!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-minodouzan",
+    "title": "La fortaleza",
+    "before": [
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "Atacáis sin parar en todos vuestros partidos. Aquí se acaba eso."
+     },
+     {
+      "who": "ares-minodouzan/jack-wallside",
+      "text": "¡N-nuestro muro aguanta hasta un Tornado de fuego! ...¿Verdad que sí, capitán?"
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "¿Ah, sí? Probemos."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/thomas-murdock",
+      "text": "Si me permitís una sugerencia: no hace falta romper el muro de frente. Pasémonos el balón hasta que se abra."
+     }
+    ],
+    "after": [
+     {
+      "text": "Con pases rápidos entre los tres hermanos, el Kirkwood abrió una grieta en el muro y Axel la aprovechó."
+     },
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "Atacáis como si fuerais una sola persona... Interesante."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-seishou-gakuen",
+    "title": "La revancha del último segundo",
+    "before": [
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "¿Los hermanos otra vez? Ya os gané en el último segundo. Lo haré de nuevo."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Axel, sabía que nos volveríamos a ver."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "Jude, esta vez no habrá Triángulo letal en el descuento."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "¡Nadie nos va a robar otra vez la victoria al final! ¡Tornado inverso!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Esta vez fue el Kirkwood quien marcó en el último segundo. Marvin cayó de rodillas, emocionado."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "¡Lo hemos hecho, hermanos! ¡Revancha cumplida! ¡Rápido, una foto de la victoria!"
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Tch. Disfrutadlo mientras dure."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-teikoku-gakuen-ares",
+    "title": "Contra el imperio",
+    "before": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "El Kirkwood con Axel Blaze... Un buen rival para nuestra reconquista."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/caleb-stonewall",
+      "text": "Tres hermanos y un tipo serio. ¿Esto es un equipo o una reunión familiar?"
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/tyler-murdock",
+      "text": "¡Pues una familia que te va a ganar!"
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ray-dark",
+      "text": "Axel Blaze... Su fuego siempre ha sido una molestia."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-kidokawa-seishuu-ares/tyler-murdock",
+      "text": "¡He marcado! ¡He marcado como mis hermanos!"
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/thomas-murdock",
+      "text": "Siempre has sido uno de nosotros, Tyler. Es un placer jugar a tu lado."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-outei-tsukinomiya",
+    "title": "Contra el equipo perfecto",
+    "before": [
+     {
+      "text": "El último rival es la Academia Plenilunio, el equipo creado por el programa Ares. No conocen la derrota."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Tres jugadores casi idénticos y una estrella. Vuestro juego está calculado al milímetro."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "Podrás calcular nuestros pases, pero no lo que sentimos al jugar juntos."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/raven-vale",
+      "text": "Las emociones son una debilidad. Os lo demostraremos."
+     },
+     {
+      "name": "Curt Gale",
+      "text": "Cerrad a Axel Blaze. Sin él, los hermanos no son nada."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "Os equivocáis. Ellos son el corazón de este equipo."
+     }
+    ],
+    "after": [
+     {
+      "text": "Con Axel bien marcado, los hermanos dieron un paso al frente y su Triángulo Z rompió el Escudo lunar."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Tres corazones latiendo a la vez... Eso no aparece en ningún dato."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-kidokawa-seishuu-ares/seth-nichols",
+    "text": "Lo habéis conseguido. Habéis ganado como un equipo de verdad."
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+    "text": "Quería ganarlo todo yo solo... y resulta que lo mejor es ganar juntos."
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+    "text": "El Kirkwood es un gran equipo. Ha sido un honor jugar aquí."
+   },
+   {
+    "who": "ares-kidokawa-seishuu-ares/lynn-tambelle",
+    "text": "¡Tin, tin, tin! ¡Fiesta en el instituto! ¡Invitan los hermanos!"
+   }
+  ]
+ },
+ "ares-midorigaoka": {
+  "title": "La revancha de la gripe",
+  "summary": "Una gripe dejó al Colina Verde sin Fútbol Frontier. Ya recuperados, estos chicos con nombres de insecto quieren demostrar que también saben picar.",
+  "intro": [
+   {
+    "text": "El Instituto Colina Verde tuvo que retirarse del Fútbol Frontier: todo el equipo cogió la gripe justo antes de jugar contra Polaris."
+   },
+   {
+    "who": "ares-midorigaoka/garvin-cliffmarch",
+    "text": "¡Ni un solo partido! ¡Toda la temporada entrenando para pasarla en la cama con fiebre!"
+   },
+   {
+    "who": "ares-midorigaoka/aveline-morrin",
+    "text": "Ya estamos recuperados. Es hora de abrir las alas como mariposas."
+   },
+   {
+    "who": "ares-midorigaoka/griffit-valiance",
+    "text": "¡Achís! Esto no es gripe, ¿eh? Es el polen. Que conste."
+   },
+   {
+    "who": "ares-midorigaoka/garvin-cliffmarch",
+    "text": "¡Escuchad, insectos! ¡Vamos a enseñarle a todo el mundo lo que se perdió!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "En plena naturaleza",
+    "before": [
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡El Instituto Wild vive en la selva! ¡Aquí manda la naturaleza!"
+     },
+     {
+      "who": "ares-midorigaoka/corwin-lumen",
+      "text": "Soy el más pequeño, pero no me hace falta fuerza. ¡Me basta con escurrirme entre vuestras piernas!"
+     },
+     {
+      "who": "ares-midorigaoka/tarvon-runnel",
+      "text": "He aguantado entrenamientos peores que la gripe. ¡Vamos allá!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡NUESTRA PRIMERA VICTORIA! ¡QUE SE ENTERE TODA LA COLINA!"
+     },
+     {
+      "who": "ares-midorigaoka/aurel-ashdown",
+      "text": "Tranquilos, tranquilos... que esto acaba de empezar."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-minodouzan",
+    "title": "Insectos contra murallas",
+    "before": [
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "¿El Colina Verde? Ni siquiera llegasteis a jugar. Nuestro muro os parará."
+     },
+     {
+      "who": "ares-midorigaoka/queintas-quillmere",
+      "text": "Yo me cuelo por cualquier rendija... como una hormiga."
+     },
+     {
+      "who": "ares-midorigaoka/merrick-seawell",
+      "text": "¡Miradme todos! ¡Cuanto más me miran, mejor juego!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-midorigaoka/queintas-quillmere",
+      "text": "Ya os dije que me colaría..."
+     },
+     {
+      "who": "ares-minodouzan/jack-wallside",
+      "text": "¿P-por dónde ha pasado ese chico? ¡Si el muro estaba cerrado! ¡Qué miedo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-mikage-sennou-ares",
+    "title": "Sin datos",
+    "before": [
+     {
+      "who": "ares-mikage-sennou-ares/jethro-mackin",
+      "text": "No hay ningún dato del Colina Verde en el Fútbol Frontier. Imposible calcularos."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Entonces los obtendremos durante el partido. Escáner activado."
+     },
+     {
+      "who": "ares-midorigaoka/alaric-durnham",
+      "text": "¡Grrr! ¡Odio que me escaneen! ...Respira hondo, Alaric, respira hondo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-midorigaoka/corin-cainver",
+      "text": "Sin datos no sois nada. ¡Gol, y a por el siguiente!"
+     },
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Un equipo imprevisible... Habrá que actualizar la base de datos."
+     }
+    ]
+   },
+   {
+    "opponent": "go-aoba-gakuen",
+    "title": "Los otros ausentes",
+    "before": [
+     {
+      "text": "El Colegio Ultramegahiedra también se retiró del Fútbol Frontier. Dos equipos olvidados, frente a frente."
+     },
+     {
+      "who": "go-aoba-gakuen/francis-tuffnot",
+      "text": "Nosotros tampoco jugamos aquel partido. Y que nadie se fíe de mi cara: hoy sabremos quién merecía estar allí."
+     },
+     {
+      "who": "ares-midorigaoka/wryn-twincrest",
+      "text": "¡Griffit, hoy paro yo más tiros de los que tú marcas! ¡Que vengan!"
+     },
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Duelo de olvidados! ¡El que gane, que no se olvide nunca!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-aoba-gakuen/francis-tuffnot",
+      "text": "Bien jugado. Id a por Polaris por los dos."
+     },
+     {
+      "who": "ares-midorigaoka/aveline-morrin",
+      "text": "Lo haremos. Volaremos también por vosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-seishou-gakuen",
+    "title": "El partido pendiente",
+    "before": [
+     {
+      "text": "Por fin, el partido que la gripe les robó: el Colina Verde contra la gran favorita, la Academia Polaris."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "¿Los enfermos? Volved a la cama. No tengo tiempo para bichos."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "No los subestimes, Elliot. Un equipo con hambre de jugar es peligroso."
+     },
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Llevamos meses esperando esto! ¡COLINA VERDE, A PICAR!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-midorigaoka/griffit-valiance",
+      "text": "¡Ventisca eterna! ¡Y sin estornudar! ¡Es un milagro!"
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Teníais razón. Os merecíais estar en el torneo."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "Los campeones",
+    "before": [
+     {
+      "text": "La noticia corre: el Colina Verde ha tumbado a Polaris. El campeón, el Raimon Isla Remota, acepta el desafío."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Sois los de la gripe! ¡Me alegro de que estéis bien! ¡Juguemos con todo!"
+     },
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "Ojo, son muy rápidos. Parecen un enjambre."
+     },
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Raimon! ¡Este es el partido que soñábamos desde la cama! ¡Allá vamos!"
+     }
+    ],
+    "after": [
+     {
+      "text": "En un partido vibrante, el enjambre del Colina Verde picó una y otra vez hasta derrotar a los campeones."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Qué partidazo! ¡El año que viene os quiero ver en el Fútbol Frontier!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-midorigaoka/garvin-cliffmarch",
+    "text": "¡Lo hemos conseguido! ¡Hemos ganado a los campeones!"
+   },
+   {
+    "who": "ares-midorigaoka/aveline-morrin",
+    "text": "Una mariposa tarda en salir del capullo... pero cuando sale, vuela alto."
+   },
+   {
+    "who": "ares-midorigaoka/plumian-whitlock",
+    "text": "Y ahora, a estudiar también. ¡Primeros en el campo y primeros en clase!"
+   },
+   {
+    "who": "ares-midorigaoka/griffit-valiance",
+    "text": "Y el año que viene, todos vacunados. ¡Achís! ...Es el polen, en serio."
+   }
+  ]
+ },
+ "ares-mikage-sennou-ares": {
+  "title": "Datos limpios",
+  "summary": "Sin lavados de cerebro, el Instituto Brain quiere demostrar que su fútbol de datos puede vencer a su pasado, a las máquinas y al programa Ares.",
+  "intro": [
+   {
+    "text": "Hace un año, el Instituto Brain era famoso por lavar el cerebro a sus jugadores. Eso se acabó."
+   },
+   {
+    "who": "ares-mikage-sennou-ares/neil-turner",
+    "text": "Antes era tranquilo. Luego me volví agresivo... Ahora quiero saber quién soy de verdad en el campo."
+   },
+   {
+    "who": "ares-mikage-sennou-ares/des-pott",
+    "text": "Seguiremos usando datos y la Pulsera Eleven. Pero las decisiones, a partir de ahora, serán vuestras."
+   },
+   {
+    "who": "ares-mikage-sennou-ares/jethro-mackin",
+    "text": "Mi casco de IA tiene todos los datos memorizados. Datos y corazón: así seremos imbatibles."
+   },
+   {
+    "who": "ares-mikage-sennou-ares/gideon-poe",
+    "text": "Propongo una gira de partidos. Un recopilador de información necesita información nueva."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "El Brain de antes",
+    "before": [
+     {
+      "text": "Primer rival: un equipo de entrenamiento que juega exactamente como el antiguo Brain, el de los lavados de cerebro."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Obedecer. Ejecutar. Ganar. No hay nada más."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Así hablábamos nosotros... Da escalofríos."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/harry-leading",
+      "text": "¡Y yo me apunté al fútbol para hacerme famoso! Qué vergüenza."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Hemos vencido a lo que fuimos. Y lo hemos hecho pensando por nosotros mismos."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/terry-stronger",
+      "text": "¡Por fin noto mis propias piernas! Aunque me las he raspado las dos... Menos mal que llevo mis vendas especiales."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "La inteligencia artificial",
+    "before": [
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "La Academia IA calcula cada jugada con algoritmos perfectos. Vuestros datos están obsoletos."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/electra-faraday",
+      "text": "¿Obsoletos? ¡Me conozco cada aparato del mercado! ¡A mí no me hables de obsoleto!"
+     },
+     {
+      "who": "ares-mikage-sennou-ares/jethro-mackin",
+      "text": "Su IA es buena, pero no sabe improvisar. Nosotros sí."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-mikage-sennou-ares/electra-faraday",
+      "text": "¡Toma ya! ¡Hasta los algoritmos necesitan actualizarse!"
+     },
+     {
+      "who": "ares-mikage-sennou-ares/jethro-mackin",
+      "text": "Datos más intuición. La fórmula funciona."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Contra las máquinas",
+    "before": [
+     {
+      "text": "Unos extraños robots futbolistas, los Futboloides, aparecen retando a cualquier equipo que use tecnología."
+     },
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "OBJETIVO: INSTITUTO BRAIN. PROBABILIDAD DE VICTORIA: 99,8 %."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/francis-tell",
+      "text": "¿Robots de verdad? ¿No será una broma? ...Bueno, si lo decís vosotros, me lo creo."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/victor-kind",
+      "text": "Nuestros datos dicen que nuestro fútbol es el mejor. ¡Y ahora quiero comprobarlo de verdad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "ERROR. ERROR. VARIABLE DESCONOCIDA: ESPÍRITU DE EQUIPO."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/darren-gouger",
+      "text": "¡Esto es lo que dan las verduras frescas!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-teikoku-gakuen-ares",
+    "title": "La sombra de Ray Dark",
+    "before": [
+     {
+      "text": "Hace un año, el Brain seguía las órdenes de Ray Dark. Ahora vuelve a encontrárselo, como entrenador de la Royal."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ray-dark",
+      "text": "Mis antiguas marionetas... ¿Os habéis cortado los hilos vosotros solos? Qué osadía."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "No mezcles a la Royal en tus viejos asuntos. Este partido lo jugamos nosotros."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Ray Dark... Ya no mandas en nosotros. ¡Remate misil!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Ya está. Ya no le tengo miedo."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Habéis cambiado mucho. Os felicito."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-outei-tsukinomiya",
+    "title": "El programa Ares",
+    "before": [
+     {
+      "text": "El último reto: la Academia Plenilunio, fruto del programa Ares. Mejorar a las personas con datos... ¿hasta dónde?"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "El Brain usaba datos para controlar mentes. El programa Ares los usa para perfeccionar cuerpos. Somos vuestra evolución."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/des-pott",
+      "text": "No. Los datos deben servir a las personas, no al revés. Eso es lo que hemos aprendido."
+     },
+     {
+      "name": "Curt Gale",
+      "text": "Ejecutad el patrón. Aplastadlos."
+     },
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "¡Patrones! ¡Ya sé lo que es jugar sin libertad! ¡No pienso volver a hacerlo!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Mezclando datos con decisiones propias, el Brain sorprendió a la Plenilunio con jugadas que ningún programa preveía."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Datos al servicio del corazón... Quizá ese sea el camino correcto."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-mikage-sennou-ares/neil-turner",
+    "text": "Hemos ganado como queríamos: con la cabeza... y siendo nosotros mismos."
+   },
+   {
+    "who": "ares-mikage-sennou-ares/des-pott",
+    "text": "Estoy orgulloso de cada uno de vosotros. Los datos no mienten: sois un gran equipo."
+   },
+   {
+    "who": "ares-mikage-sennou-ares/jethro-mackin",
+    "text": "Nueva entrada en la base de datos: Instituto Brain, mentes libres."
+   },
+   {
+    "who": "ares-mikage-sennou-ares/gideon-poe",
+    "text": "Datos registrados. Felicidad del equipo: 100 %."
+   }
+  ]
+ },
+ "ares-minodouzan": {
+  "title": "La fortaleza contraataca",
+  "summary": "La fortaleza inexpugnable no lanzó ni un tiro contra el Raimon. Ahora, el Bastión quiere aprender a atacar sin dejar de ser un muro.",
+  "intro": [
+   {
+    "text": "Contra el Raimon, el Instituto Bastión no llegó a tirar a puerta ni una sola vez. Perdió 2-0."
+   },
+   {
+    "who": "ares-minodouzan/sebastian-fortwright",
+    "text": "Nuestra defensa es perfecta. Pero un muro que nunca avanza... no gana partidos."
+   },
+   {
+    "who": "ares-minodouzan/jack-wallside",
+    "text": "¡Yo quiero marcar un gol! Aunque solo de pensarlo me tiemblan las piernas..."
+   },
+   {
+    "who": "ares-minodouzan/bj-rn-brocken",
+    "text": "¡ESCUCHADME! ¡Si damos un paso adelante, dejaremos huecos atrás! ¿ESTÁIS DISPUESTOS?"
+   },
+   {
+    "who": "ares-minodouzan/knox-loxley",
+    "text": "Tranquilos. Aunque atraviesen la defensa, yo estaré ahí."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-kuro-no-kishidan",
+    "title": "Asalto al castillo",
+    "before": [
+     {
+      "who": "go-kuro-no-kishidan/victor-blade",
+      "text": "¿Una fortaleza? Los caballeros sabemos cómo asaltar castillos."
+     },
+     {
+      "who": "ares-minodouzan/lunk-ironbrow",
+      "text": "Frankendefensa. Nadie cruza este puente levadizo. ...¿Por qué todo el mundo se aparta al verme?"
+     },
+     {
+      "who": "ares-minodouzan/iggy-motte",
+      "text": "¡Y yo me escabullo por las bandas! ¡Bleh!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-minodouzan/iggy-motte",
+      "text": "¡Gol! ¡Gol mío! ¡El Bastión ataca!"
+     },
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "Un buen primer paso. Muro y lanza a la vez."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "La Gran Muralla",
+    "before": [
+     {
+      "text": "Se cuenta que un ejército de guerreros de terracota custodia una muralla mucho más antigua que la suya."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/terracotta-warrior-1",
+      "text": "Siglos guardando la muralla. Ningún muro moderno puede compararse."
+     },
+     {
+      "who": "ares-minodouzan/hefton-bulk",
+      "text": "¡Ja, ja! ¡Pues mira mi Cabezazo Rapa Nui! ¡Las estatuas también pegan fuerte!"
+     },
+     {
+      "who": "ares-minodouzan/dane-upchurch",
+      "text": "Mi máscara de hueso asusta a cualquiera... ¿también a los de barro?"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Una muralla que también sabe avanzar... Tenéis mis respetos."
+     },
+     {
+      "who": "ares-minodouzan/rick-wall",
+      "text": "Fortaleza de cuerpo y mente. Hoy lo hemos demostrado."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-kidokawa-seishuu-ares",
+    "title": "Bajo el fuego",
+    "before": [
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "¿Un muro que ataca? ¡Pues a ver cómo aguanta el Triángulo Z!"
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "Vuestra defensa es dura. Pero el fuego siempre encuentra una rendija."
+     },
+     {
+      "who": "ares-minodouzan/barry-cade",
+      "text": "Muro colectivo... ¡ahora!"
+     }
+    ],
+    "after": [
+     {
+      "text": "El Muro colectivo resistió el Tornado de fuego y, al contraataque, Waldo Gibbons marcó con puro instinto animal."
+     },
+     {
+      "who": "ares-minodouzan/waldo-gibbons",
+      "text": "¡Uh, uh! ¡Romper defensas es lo mío!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-teikoku-gakuen-ares",
+    "title": "Los maestros del asedio",
+    "before": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "La Royal sabe asaltar fortalezas. Llevamos cuarenta años haciéndolo."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/caleb-stonewall",
+      "text": "Montañas de músculo... Ya veremos cuánto aguantáis cuando estéis cansados."
+     },
+     {
+      "who": "ares-minodouzan/helena-harwood",
+      "text": "El cansancio no me afecta. Muralla infinita."
+     },
+     {
+      "who": "ares-minodouzan/corbin-brickham",
+      "text": "Ya estoy analizando los errores del partido... ¡y eso que aún no ha empezado!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-minodouzan/corbin-brickham",
+      "text": "Hemos ganado, sí... pero he cometido tres errores. Esta noche los repaso uno por uno."
+     },
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "Un paso más. Solo queda uno."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "La revancha del muro",
+    "before": [
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "Raimon Isla Remota. Fuisteis los primeros en derribar nuestro muro. Hoy veréis uno nuevo."
+     },
+     {
+      "who": "ares-inakuni-raimon/cliff-parker",
+      "text": "Yo también soy un muro. ¡A ver cuál de los dos aguanta más!"
+     },
+     {
+      "who": "ares-inakuni-raimon/valentin-eisner",
+      "text": "Mi Flecha de hielo ya atravesó vuestro Muro colectivo una vez."
+     },
+     {
+      "who": "ares-minodouzan/jack-wallside",
+      "text": "¡E-esta vez no pasaréis! ¡Y además... voy a intentar marcar! ¡Lo prometo!"
+     }
+    ],
+    "after": [
+     {
+      "text": "En el descuento, Jack Wallside subió a rematar un córner y marcó de cabeza. El Bastión había aprendido a atacar."
+     },
+     {
+      "who": "ares-minodouzan/jack-wallside",
+      "text": "¡HE MARCADO! ¡Mamá, he marcado!"
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Qué golazo! ¡Así da gusto hasta perder!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-minodouzan/sebastian-fortwright",
+    "text": "Una fortaleza no es solo un muro. Es el lugar desde el que se sale a conquistar."
+   },
+   {
+    "who": "ares-minodouzan/knox-loxley",
+    "text": "Y mientras salgáis, yo guardaré la puerta."
+   },
+   {
+    "who": "ares-minodouzan/bj-rn-brocken",
+    "text": "¡INSTITUTO BASTIÓN, A LA OFENSIVA! ¡Suena de maravilla!"
+   },
+   {
+    "who": "ares-minodouzan/jack-wallside",
+    "text": "¡Y la próxima vez, dos goles!"
+   }
+  ]
+ },
+ "ares-outei-tsukinomiya": {
+  "title": "Luna libre",
+  "summary": "Heath Moore aprovecha la gira de exhibición del programa Ares para reunir pruebas contra Othman Laspic... y su equipo descubre lo que es jugar por gusto.",
+  "intro": [
+   {
+    "text": "La Academia Plenilunio nunca ha encajado un gol. Su fútbol es fruto del programa Ares, la «Balanza de Ares»."
+   },
+   {
+    "name": "Othman Laspic",
+    "text": "Una gira de exhibición. El mundo verá que el programa Ares crea a los futbolistas perfectos."
+   },
+   {
+    "who": "ares-outei-tsukinomiya/heath-moore",
+    "text": "(Perfecto. Cada partido será una prueba más contra él. Y no me queda mucho tiempo...)"
+   },
+   {
+    "who": "ares-outei-tsukinomiya/duske-grayling",
+    "text": "Heath, iré contigo a donde sea. Siempre."
+   },
+   {
+    "who": "ares-outei-tsukinomiya/lucian-skye",
+    "text": "Nos prohíben hasta tener aficiones. ¿Esto es fútbol o una cárcel?"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-zeus-ares",
+    "title": "El néctar y la balanza",
+    "before": [
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "El año pasado nosotros también usamos atajos para ser más fuertes. Os lo advierto: no merece la pena."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Lo sé, Byron. Mejor de lo que crees. Por eso mismo estoy aquí."
+     },
+     {
+      "who": "ares-zeus-ares/deirdre-staples",
+      "text": "Pobres niños... Juegan sin sonreír."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-outei-tsukinomiya/willow-proude",
+      "text": "Les he leído la mente... y solo había compasión. ¿Por qué nos tienen lástima?"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Porque ven lo que nosotros aún no vemos."
+     }
+    ]
+   },
+   {
+    "opponent": "orion-shadow-of-orion",
+    "title": "Sombras de otra fundación",
+    "before": [
+     {
+      "text": "Aparece un rival misterioso: el Eclipse de Orión, otro equipo creado por adultos que usan el fútbol para sus planes."
+     },
+     {
+      "who": "orion-shadow-of-orion/jade-beor",
+      "text": "La Plenilunio... Nos parecemos. Herramientas en manos de otros."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/leif-bolt",
+      "text": "¡No somos herramientas! ¡Tengo mi propio sentido de la justicia!"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Ganaremos. Y luego pensaremos en quién nos ha puesto aquí."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-outei-tsukinomiya/leif-bolt",
+      "text": "En cada partido pulo mis habilidades. Y en cada partido me hago más preguntas."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Bien, Leif. Sigue preguntando."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-hakuren-ares",
+    "title": "Nieve y luna",
+    "before": [
+     {
+      "who": "ares-hakuren-ares/shawn-froste",
+      "text": "Jugáis sin alegría. Me recordáis a mí, cuando cargaba con todo yo solo."
+     },
+     {
+      "who": "ares-hakuren-ares/aiden-froste",
+      "text": "¡Pues ya les enseñaremos a pasarlo bien! ¡A balonazos!"
+     },
+     {
+      "who": "ares-hakuren-ares/bunny-cottontail",
+      "text": "¡Hola! ¿Os gustan las zanahorias? ¡Después del partido merendamos todos!"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/raven-vale",
+      "text": "...¿Merendar? Nunca hemos merendado con un rival."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-outei-tsukinomiya/raven-vale",
+      "text": "He... sonreído. ¿Eso está permitido?"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Hoy sí, Raven."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-seishou-gakuen",
+    "title": "Cara a cara con el demonio",
+    "before": [
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Heath Moore. No he olvidado lo que vuestro programa le hizo a mi amiga."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Lo sé. Por eso necesito tu ayuda, Elliot. Quiero acabar con el programa Ares."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "¿Una alianza? Primero, un partido. Veamos qué quieres de verdad."
+     },
+     {
+      "name": "Curt Gale",
+      "text": "¡Vorágine Omega! ¡Ahora!"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "No. Hoy jugamos limpio. Nada de tácticas prohibidas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Has jugado limpio... Vale. Te escucho."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Gracias. Con esto, las pruebas están completas."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "Libres bajo la luna",
+    "before": [
+     {
+      "text": "Othman Laspic ha sido descubierto. Sin el programa, la Plenilunio pide algo inédito: un partido por pura diversión."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Raimon, perdimos la final. Ahora quiero saber cómo juega la Plenilunio cuando nadie nos da órdenes."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Pues a disfrutar! ¡Eso es lo que hace grande al fútbol!"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/lucian-skye",
+      "text": "He vuelto al equipo. Esta vez, porque yo quiero."
+     },
+     {
+      "who": "ares-outei-tsukinomiya/duske-grayling",
+      "text": "Escudo lunar preparado. Hoy lo uso por mí mismo."
+     }
+    ],
+    "after": [
+     {
+      "text": "Fue un partido limpio, rápido y precioso. La Plenilunio ganó... y, por primera vez, lo celebró a gritos."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Eso, eso! ¡Así se celebra un gol!"
+     },
+     {
+      "who": "ares-outei-tsukinomiya/heath-moore",
+      "text": "Así que esto era el fútbol. Ha merecido la pena esperar."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-outei-tsukinomiya/heath-moore",
+    "text": "El programa Ares se ha acabado. Ahora debo ocuparme de mi salud... pero volveré."
+   },
+   {
+    "who": "ares-outei-tsukinomiya/duske-grayling",
+    "text": "Te esperaremos, Heath. Todo el equipo."
+   },
+   {
+    "who": "ares-outei-tsukinomiya/lucian-skye",
+    "text": "Y mientras, jugaremos porque nos gusta. ¡Y pienso tener aficiones! ¡Muchas!"
+   },
+   {
+    "text": "Bajo la luna llena, la Academia Plenilunio entrena por primera vez entre risas."
+   }
+  ]
+ },
+ "ares-barcelona-orb": {
+  "title": "El Coloso de Cataluña",
+  "summary": "Los campeones juveniles de España recorren Japón para medir su fútbol, hasta enfrentarse de nuevo al Raimon de leyenda al que una vez golearon 13-0.",
+  "intro": [
+   {
+    "text": "El Barcelona Orb, campeón de la liga juvenil española, vuelve a Japón."
+   },
+   {
+    "who": "ares-barcelona-orb/sergi-hern-ndez",
+    "text": "Hace un año ganamos al Raimon 13-0. Pero no subestimo a nadie: Japón habrá mejorado. Quiero comprobarlo."
+   },
+   {
+    "who": "ares-barcelona-orb/salvador-castell",
+    "text": "Bah, aquel Tornado de fuego lo paré con un dedo. Ojalá alguien me haga sudar un poco este año."
+   },
+   {
+    "who": "ares-barcelona-orb/alessio-ganonti",
+    "text": "El calendario está listo, todo en orden... ¡Ay, no! ¡Son muchísimos partidos! ¡Los hoteles, los autobuses, los horarios...!"
+   },
+   {
+    "who": "ares-barcelona-orb/leo-segarra",
+    "text": "¿Mejorado? Lo dudo. Aunque, si hay alguien a mi altura, me encantará verlo."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-midorigaoka",
+    "title": "Calentamiento",
+    "before": [
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡EL BARCELONA ORB! ¡NOS FIRMARÉIS AUTÓGRAFOS DESPUÉS, ¿VERDAD?!"
+     },
+     {
+      "who": "ares-barcelona-orb/xavi-casals",
+      "text": "Si me traéis un llavero de algún personaje, firmo lo que queráis."
+     },
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Jugaremos al cien por cien. Es la mejor forma de respetar a un rival."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-barcelona-orb/augusto-gomez",
+      "text": "¡Gracias por venir, afición! ¡Sois mi familia!"
+     },
+     {
+      "who": "ares-midorigaoka/garvin-cliffmarch",
+      "text": "¡Casi no hemos tocado el balón... pero ha sido un honor!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-kidokawa-seishuu-ares",
+    "title": "El fuego de Axel Blaze",
+    "before": [
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "Barcelona Orb. Aquel día me paraste con un dedo. No lo he olvidado."
+     },
+     {
+      "who": "ares-barcelona-orb/salvador-castell",
+      "text": "Ya me acuerdo de ti. A ver si este año necesito dos dedos."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/marvin-murdock",
+      "text": "¡Somos cuatro delanteros con hambre! ¡Triángulo Z!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-barcelona-orb/salvador-castell",
+      "text": "Dos dedos... y casi la mano entera. Has mejorado, Blaze."
+     },
+     {
+      "who": "ares-kidokawa-seishuu-ares/axel-blaze",
+      "text": "La próxima vez no te bastará ni la Mano Omega."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-seishou-gakuen",
+    "title": "La estrella de Japón",
+    "before": [
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Barcelona Orb... He analizado vuestro partido contra el Raimon cien veces."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Me da igual quiénes seáis. Yo marco, y punto."
+     },
+     {
+      "who": "ares-barcelona-orb/joan-asensi",
+      "text": "¡Me encanta! ¡Un delantero con fuego! ¡A ver quién marca más!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-barcelona-orb/leo-segarra",
+      "text": "Ese tal Elliot casi llega a mi nivel. Casi. Japón tiene más talento del que pensaba."
+     },
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Por eso seguimos entrenando. Siempre."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "El nuevo Raimon",
+    "before": [
+     {
+      "text": "Un nuevo equipo ha heredado el nombre del Raimon: los chicos de la Isla Remota, campeones del Fútbol Frontier."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡El Barcelona Orb! ¡Os he visto por la tele! ¡Qué ganas de jugar contra vosotros!"
+     },
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Llevas el escudo que goleamos 13-0. ¿No tienes miedo?"
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¿Miedo? ¡Lo que tengo son unas ganas enormes de divertirme!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Este Raimon sonríe incluso perdiendo. Eso sí que da miedo."
+     },
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "La próxima vez lo daremos todo. ¡Gracias por el partido!"
+     }
+    ]
+   },
+   {
+    "opponent": "orion-inazuma-japan-orion",
+    "title": "La selección japonesa",
+    "before": [
+     {
+      "text": "Japón responde con su selección: Inazuma Japón, que reúne a las estrellas de todo el país."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡Barcelona Orb! ¡Esta vez somos un equipo de todo Japón! ¡Venga, a jugar!"
+     },
+     {
+      "who": "orion-inazuma-japan-orion/heath-moore",
+      "text": "He estudiado vuestro sistema. Sois casi perfectos. Casi."
+     },
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Por fin un rival de verdad. Barcelona Orb, ¡a por todas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Mi Rayo de diamantes... y aun así habéis aguantado hasta el final. Japón ha crecido."
+     },
+     {
+      "who": "orion-inazuma-japan-orion/mark-evans",
+      "text": "¡La próxima vez os ganaremos! ¡Te lo juro!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "La revancha del 13-0",
+    "before": [
+     {
+      "text": "Antes de volver a España, un último desafío: el Raimon que fue goleado 13-0 se reúne una vez más."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Volvemos a ser el Raimon de siempre! ¡Aquel 13-0 nos dolió, pero nos hizo más fuertes!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Hoy no habrá dedo que pare mi tiro."
+     },
+     {
+      "who": "ie1-raimon/jude-sharp",
+      "text": "Hemos estudiado cada una de vuestras jugadas. Esta vez, el partido será muy diferente."
+     },
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "El Raimon de leyenda... Este es el rival que estaba esperando."
+     }
+    ],
+    "after": [
+     {
+      "text": "Fue un duelo épico, de igual a igual. Al final, el Barcelona Orb se impuso por un solo gol."
+     },
+     {
+      "who": "ares-barcelona-orb/sergi-hern-ndez",
+      "text": "Nada de 13-0. Habéis sido el rival más duro de mi vida, Mark Evans."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Y aún no has visto nada! ¡Nos vemos en el mundial!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-barcelona-orb/sergi-hern-ndez",
+    "text": "A Japón ya no se le puede subestimar. Volveremos."
+   },
+   {
+    "who": "ares-barcelona-orb/alessio-ganonti",
+    "text": "¡Qué gira! ¡Cuántas emociones! ¡Los partidos, los goles, los viajes...! ¡Ay, que necesito sentarme!"
+   },
+   {
+    "who": "ares-barcelona-orb/geraldo-enrique",
+    "text": "Voy a pintar este viaje. Será mi mejor obra de arte."
+   },
+   {
+    "who": "ares-barcelona-orb/leo-segarra",
+    "text": "Cataluña nos espera. Y el mundo, también."
+   }
+  ]
+ },
+ "ares-tonegawa-tousen": {
+  "title": "Un club nacido de la nada",
+  "summary": "Mark Evans revive su gran aventura: con un club recién fundado, el Ribera se mide a los rivales que forjaron la leyenda del Raimon.",
+  "intro": [
+   {
+    "text": "Hace muy poco, el Instituto Ribera ni siquiera tenía club de fútbol. Billy Miller lo fundó prácticamente solo."
+   },
+   {
+    "who": "ares-tonegawa-tousen/billy-miller",
+    "text": "Entonces llegó Mark Evans... ¡y todo cambió! Entrena con nosotros como con el Raimon de antes."
+   },
+   {
+    "who": "ares-tonegawa-tousen/mark-evans",
+    "text": "¡El fútbol se juega con el corazón! ¡Vamos a por todos los rivales que hagan falta!"
+   },
+   {
+    "name": "Seymour Hillman",
+    "text": "Mark, ¿por qué no repites tu propio camino? Los rivales que te hicieron fuerte también harán fuertes a estos chicos."
+   },
+   {
+    "who": "ares-tonegawa-tousen/kia-tanner",
+    "text": "(Kia sonríe en silencio y da un par de saltitos de emoción.)"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "Los cerebritos del balón",
+    "before": [
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "¡Instituto Otaku! ¡Hemos visto en vídeo todos los partidos de Mark Evans! ¡Hasta me he hecho su disfraz!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/dan-bowsun",
+      "text": "¡Primero cargar, luego pensar! ¡Allá voy!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡Ja, ja! ¡Cuántos recuerdos! ¡Ánimo, Ribera!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-tonegawa-tousen/neville-merchant",
+      "text": "Billy me convenció para apuntarme... y ahora gano partidos. ¡Qué locura!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/billy-miller",
+      "text": "¡Primer paso, chicos! ¡Esto acaba de empezar!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-nose",
+    "title": "La ley de la selva",
+    "before": [
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡El Wild os enseñará la fuerza de la naturaleza!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/frey-fielding",
+      "text": "¿Naturaleza? ¡Yo cuido los huertos del instituto! ¡Sé mucho de raíces!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/tobin-harveston",
+      "text": "Treinta cuencos de arroz para desayunar. ¡Hoy tengo energía para dos partidos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-tonegawa-tousen/eamond-everwing",
+      "text": "¡He saltado como una ardilla voladora! ¡Entrenar en los árboles funciona!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡Así se juega! ¡Sois increíbles!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "La maldición",
+    "before": [
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Bienvenidos al Occult... Aquí las maldiciones son reales. Je, je, je..."
+     },
+     {
+      "who": "ares-tonegawa-tousen/meriwether-beaumont",
+      "text": "¿Maldiciones? ¡Ja! ¡Yo les gasto bromas a los fantasmas!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/luke-blank",
+      "text": "...No me dan miedo."
+     },
+     {
+      "who": "ares-tonegawa-tousen/kia-tanner",
+      "text": "(Kia no dice nada. Solo mira a los del Occult con una sonrisita misteriosa.)"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-tonegawa-tousen/luke-blank",
+      "text": "...Me ha gustado mucho este partido."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Nuestra maldición no ha funcionado... ¿Quién es esa chica tan misteriosa?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Ninjas en la sombra",
+    "before": [
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Los ninjas del Shuriken atacamos desde las sombras. ¡No nos veréis llegar!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/jack-sawyer",
+      "text": "Lealtad hasta el final. Un buen cocinero no abandona su fogón, y yo no abandono la portería de Mark."
+     },
+     {
+      "who": "ares-tonegawa-tousen/giles-farmer",
+      "text": "¡Los entrenamientos brutales me han preparado para esto!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-tonegawa-tousen/pacey-hawker",
+      "text": "¡Ímpetu de dragón con Neville! ¡Ni los ninjas lo esquivan!"
+     },
+     {
+      "name": "Seymour Hillman",
+      "text": "Estáis listos. Ahora, rivales de verdad."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "Los herederos del nombre",
+    "before": [
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Mark Evans! ¡El legendario capitán del Raimon! ¡Juguemos otra vez!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡Sonny! ¡Me marcasteis los primeros goles del torneo! ¡Esta vez no pasará!"
+     },
+     {
+      "who": "ares-inakuni-raimon/maxime-dassier",
+      "text": "Ese portero es un muro... pero ya sabemos cómo superarlo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡Mano mágica, Megamanos mágicas! ¡Esta vez lo he parado todo!"
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Qué paradón! ¡Eres increíble, Mark!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "La leyenda del Inazuma Eleven",
+    "before": [
+     {
+      "text": "Hillman tiene una sorpresa: sus antiguos compañeros del legendario Inazuma Eleven, el equipo del abuelo de Mark."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Mark, este es el equipo en el que jugué con tu abuelo. Hoy jugaremos contra vosotros."
+     },
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡El Inazuma Eleven! ¡El equipo del abuelo! ¡Esto es un sueño hecho realidad!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/billy-miller",
+      "text": "¡¿Contra los fundadores de la leyenda?! ¡Mark, nos van a arrollar!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/mark-evans",
+      "text": "¡Por eso mismo! ¡Hay que jugar con todas nuestras fuerzas!"
+     },
+     {
+      "who": "ares-tonegawa-tousen/kia-tanner",
+      "text": "(Kia aprieta los puños y asiente, con los ojos brillando de emoción.)"
+     }
+    ],
+    "after": [
+     {
+      "text": "Con la Mano celestial de Mark y un último Ímpetu de dragón, el Ribera derrotó a la leyenda."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Tu abuelo estaría orgulloso, Mark. Y de vosotros también, chicos del Ribera."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-tonegawa-tousen/billy-miller",
+    "text": "Un club nacido de la nada... ¡ha vencido a la leyenda!"
+   },
+   {
+    "who": "ares-tonegawa-tousen/mark-evans",
+    "text": "¡Esto es lo mejor del fútbol! ¡Se empieza desde cero y se llega a la cima!"
+   },
+   {
+    "who": "ares-tonegawa-tousen/kia-tanner",
+    "text": "(Kia se despide con la mano, sonriendo, sin decir una sola palabra.)"
+   },
+   {
+    "text": "Kia desaparece. Junto a la peluda mascota del club solo queda una pulsera idéntica a la suya..."
+   }
+  ]
+ },
+ "ares-zeus-ares": {
+  "title": "Alas sin néctar",
+  "summary": "Tras el escándalo del año pasado, el Instituto Zeus asciende del Olimpo hasta el cielo para demostrar que su fuerza ya es solo suya.",
+  "intro": [
+   {
+    "text": "El año pasado, el Instituto Zeus ganó gracias a una bebida prohibida. Todo el mundo lo recuerda por eso."
+   },
+   {
+    "who": "ares-zeus-ares/byron-love",
+    "text": "Llevo un año cargando con esa vergüenza. Quiero que el mundo vea nuestra fuerza de verdad."
+   },
+   {
+    "who": "ares-zeus-ares/deirdre-staples",
+    "text": "Byron, cariño, la fuerza verdadera nace de un corazón en paz. Subamos poco a poco."
+   },
+   {
+    "who": "ares-zeus-ares/percy-hurst",
+    "text": "¡Pues yo quiero subir muy alto! ¡Hasta el cielo!"
+   },
+   {
+    "who": "ares-zeus-ares/ross-siddon",
+    "text": "Mi hermano Poseidón ya está en el bachillerato. Ahora soy yo quien guarda la portería."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-seidouzan",
+    "title": "El Monte Olimpo",
+    "before": [
+     {
+      "who": "go-seidouzan/cronus-fourseasons",
+      "text": "¿Los falsos dioses del Zeus? El Colegio Monte Olimpo os enseñará lo que es el Olimpo de verdad."
+     },
+     {
+      "who": "ares-zeus-ares/wesley-knox",
+      "text": "Llevan nombres de titanes. Interesante. Mi estrategia será digna de una mente divina."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "No somos dioses. Solo futbolistas. Y con eso nos basta."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-zeus-ares/arion-matlock",
+      "text": "¿Titanes? Yo prefiero los crucigramas. Bromas aparte: nunca infravaloro a un rival. Por eso hemos ganado."
+     },
+     {
+      "who": "go-seidouzan/cronus-fourseasons",
+      "text": "Habéis bajado del Olimpo... y sois más fuertes así."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-teikoku-gakuen-ares",
+    "title": "Sin atajos",
+    "before": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "El año pasado nos ganasteis 10-0 con trampas. Hoy, sin vuestra bebida, ya veremos."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Tienes motivos para estar enfadado, David. Hoy jugaremos limpio. Te lo prometo."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ray-dark",
+      "text": "Je. Los tramposos arrepentidos... Qué conmovedor."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Esta vez ha sido limpio. Lo reconozco: habéis ganado de verdad."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Gracias, David. Necesitaba oír eso."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-tenshou-zeus",
+    "title": "Dos soles",
+    "before": [
+     {
+      "text": "Un equipo que también lleva el nombre de Zeus les desafía: la Secundaria Solaria-Zeus."
+     },
+     {
+      "who": "vr-tenshou-zeus/thaddeus-bellefax",
+      "text": "¡Byron Love en persona! ¡Mi dios! ...Pero en el campo no hay devoción que valga. Solo un Zeus brilla como el sol."
+     },
+     {
+      "who": "ares-zeus-ares/apollo-light",
+      "text": "¿Como el sol? ¡Yo soy un solete! ...Y el sol también quema, ¿sabéis? Je, je."
+     },
+     {
+      "who": "ares-zeus-ares/percy-hurst",
+      "text": "¡Sierra celestial! ¡A ver quién vuela más rápido!"
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-tenshou-zeus/thaddeus-bellefax",
+      "text": "He perdido contra Byron Love... ¡Qué honor! Vuestro nombre está en buenas manos."
+     },
+     {
+      "who": "ares-zeus-ares/deirdre-staples",
+      "text": "Muy bien, niños. Cada vez voláis más alto."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-dark-angel",
+    "title": "Alas negras",
+    "before": [
+     {
+      "text": "Entre las nubes les espera el Ángel Oscuro, un equipo de demonios que se alimenta de la oscuridad del corazón."
+     },
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "Byron Love... Hueles a culpa. Tu oscuridad nos pertenece."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Mi culpa ya no me domina. La he convertido en fuerza."
+     },
+     {
+      "who": "ares-zeus-ares/lane-war",
+      "text": "Puede que parezca tímido... ¡pero os voy a dar mucha guerra!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "Imposible... No queda ni una sombra en su corazón."
+     },
+     {
+      "who": "ares-zeus-ares/deirdre-staples",
+      "text": "¿Lo veis? Un corazón tranquilo es el escudo más fuerte."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-tenkuu-no-shito",
+    "title": "El juicio del cielo",
+    "before": [
+     {
+      "text": "En la cima, los ángeles del Sky Team juzgan a quienes se atreven a llegar hasta el cielo."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Mortales que una vez se creyeron dioses... ¿Venís a pedir perdón al cielo?"
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "No. Venimos a jugar. Y a demostrar que ya no necesitamos fingir que somos dioses."
+     },
+     {
+      "who": "ares-zeus-ares/ross-siddon",
+      "text": "¡Muralla tsunami! ¡Ningún ángel cruza mi portería!"
+     },
+     {
+      "who": "ares-zeus-ares/percy-hurst",
+      "text": "¡Vamos, capitán! ¡Hasta el cielo y más allá!"
+     }
+    ],
+    "after": [
+     {
+      "text": "La Omnisabiduría divina de Byron atravesó las nubes. Por primera vez, era una fuerza solo suya."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Sois dignos del cielo. No como dioses... sino como personas."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-zeus-ares/byron-love",
+    "text": "Ya no necesito ningún néctar. Esta victoria es nuestra, de verdad."
+   },
+   {
+    "who": "ares-zeus-ares/deirdre-staples",
+    "text": "Lo sabía, Byron. Siempre lo supe."
+   },
+   {
+    "who": "ares-zeus-ares/wesley-knox",
+    "text": "Ahora, el Fútbol Frontier. Con jugadas limpias y mentes divinas."
+   },
+   {
+    "who": "ares-zeus-ares/percy-hurst",
+    "text": "¡Y el primer gol lo marco yo!"
+   }
+  ]
+ },
+ "ares-teikoku-gakuen-ares": {
+  "title": "La reconquista del imperio",
+  "summary": "Humillada 10-0 por Polaris, la Royal Academy de David Samford lucha por recuperar su orgullo... sin depender de los oscuros planes de Ray Dark.",
+  "intro": [
+   {
+    "text": "Cuarenta años de reinado terminaron con dos derrotas, contra el Raimon y contra el Zeus. Y después llegó un 0-10 contra Polaris."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/david-samford",
+    "text": "Jude se fue a Polaris. Ahora el capitán soy yo. Recuperaré la corona de la Royal."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/caleb-stonewall",
+    "text": "Con un fenómeno como yo en el equipo, eso está chupado."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/nathan-swift",
+    "text": "He venido como refuerzo. Quiero ayudaros a volver a ser fuertes... de forma limpia."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/ray-dark",
+    "text": "He vuelto, David. Y tengo planes para vosotros."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/david-samford",
+    "text": "(Esta vez no dejaré que sus trampas manchen nuestras victorias.)"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ares-minodouzan",
+    "title": "Derribar la muralla",
+    "before": [
+     {
+      "who": "ares-minodouzan/sebastian-fortwright",
+      "text": "La Royal... Vuestros ataques son famosos. Nuestra muralla también."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/daniel-hatch",
+      "text": "¡Mis piernas largas lanzan tiros que derriban paredes!"
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Pingüino emperador n.º 2. Ese será nuestro ariete."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-teikoku-gakuen-ares/daniel-hatch",
+      "text": "¡Bum! ¡Derribada!"
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/joseph-king",
+      "text": "Ni un tiro a puerta. ¡Ante el rey de los porteros no hay ángulos muertos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ares-mikage-sennou-ares",
+    "title": "Los antiguos peones",
+    "before": [
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Ray Dark... Hace un año nos utilizaste. No lo hemos olvidado."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ray-dark",
+      "text": "Peones útiles, nada más."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "No le hagáis caso. Este partido es entre jugadores."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-mikage-sennou-ares/neil-turner",
+      "text": "Habéis jugado limpio. Respeto a la Royal, no a ese hombre."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Me basta con eso."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-zeus-ares",
+    "title": "La deuda con los dioses",
+    "before": [
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "David. Aquel 10-0 del año pasado no fue justo. Hoy jugaremos de verdad."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "No me pidas perdón. Demuéstralo en el campo."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ben-simmons",
+      "text": "Grrr... En cuanto pille el balón, no lo suelto. Ni a mordiscos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Ahora sí. Esta victoria vale el doble."
+     },
+     {
+      "who": "ares-zeus-ares/byron-love",
+      "text": "Bien jugado. Sois los reyes de siempre."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-seishou-gakuen",
+    "title": "La venganza del 10-0",
+    "before": [
+     {
+      "text": "La revancha más esperada: la Academia Polaris, que les arrebató el número uno con un 10-0."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "David. Me alegro de verte con el brazalete de capitán."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Te fuiste, Jude... pero no te guardo rencor. Hoy solo quiero ganarte."
+     },
+     {
+      "who": "ares-seishou-gakuen/elliot-ember",
+      "text": "Qué emotivo. ¿Empezamos ya o qué?"
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/ray-dark",
+      "text": "Poneos las botas especiales... ¿Cómo? ¿Te niegas, David?"
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Sí. Nada de trucos. Ganaremos por nosotros mismos."
+     }
+    ],
+    "after": [
+     {
+      "text": "Sin botas trucadas ni planes oscuros, la Royal derrotó a Polaris con su Pingüino emperador."
+     },
+     {
+      "who": "ares-seishou-gakuen/jude-sharp",
+      "text": "Ese es el David que conozco. La Royal ha vuelto."
+     }
+    ]
+   },
+   {
+    "opponent": "ares-inakuni-raimon",
+    "title": "La corona",
+    "before": [
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡La Royal! ¡Nuestro partido acabó 4-3! ¡Qué ganas de repetirlo!"
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "Raimon Isla Remota, los últimos que nos derrotaron. Hoy recuperamos la corona."
+     },
+     {
+      "who": "ares-teikoku-gakuen-ares/caleb-stonewall",
+      "text": "Esta vez no hay botas que nos frenen, chicos de la isla."
+     },
+     {
+      "who": "ares-inakuni-raimon/valentin-eisner",
+      "text": "Oso polar contra Pingüino emperador... Segundo asalto."
+     }
+    ],
+    "after": [
+     {
+      "who": "ares-teikoku-gakuen-ares/david-samford",
+      "text": "La Royal Academy ha vuelto. Y lo hemos logrado sin trampas."
+     },
+     {
+      "who": "ares-inakuni-raimon/sonny-wright",
+      "text": "¡Qué fuertes sois! ¡La próxima vez os gano yo!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ares-teikoku-gakuen-ares/david-samford",
+    "text": "La corona se gana en el campo, no con trampas en los despachos."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/nathan-swift",
+    "text": "Ha merecido la pena venir. Esta Royal es diferente."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/caleb-stonewall",
+    "text": "Bah... Reconozco que no ha estado mal ganar así."
+   },
+   {
+    "who": "ares-teikoku-gakuen-ares/ray-dark",
+    "text": "Interesante, David... Quizá ya no me necesitéis."
+   }
+  ]
+ }
+}

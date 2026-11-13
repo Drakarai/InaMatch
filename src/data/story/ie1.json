@@ -1,0 +1,3277 @@
+{
+ "ie1-raimon": {
+  "title": "El camino al Fútbol Frontier",
+  "summary": "Mark Evans y su modesto club del Raimon desafían a la todopoderosa Royal Academy y luchan partido a partido hasta la gran final del Fútbol Frontier contra el Instituto Zeus.",
+  "main": true,
+  "intro": [
+   {
+    "text": "Instituto Raimon. El club de fútbol apenas tiene siete miembros y nadie se lo toma en serio... salvo su portero y capitán."
+   },
+   {
+    "who": "ie1-raimon/mark-evans",
+    "text": "¡Algún día jugaremos el Fútbol Frontier! Mi abuelo lo dejó todo escrito en su cuaderno de supertécnicas."
+   },
+   {
+    "name": "Nelly Raimon",
+    "text": "La Royal Academy ha pedido un partido de práctica. Si perdéis, el club de fútbol quedará disuelto."
+   },
+   {
+    "who": "ie1-raimon/kevin-dragonfly",
+    "text": "¿Contra la Royal? ¡Llevan cuarenta años sin perder! Pero no pienso salir corriendo."
+   },
+   {
+    "who": "ie1-raimon/axel-blaze",
+    "text": "...Yo ya no juego al fútbol. No me pidas eso, Mark."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "El desafío de la Royal",
+    "before": [
+     {
+      "text": "Los autobuses de la Royal Academy entran en el patio. Sus jugadores bajan en formación, como un ejército."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Así que este es el famoso Raimon... Qué decepción. Os enseñaremos lo que es el fútbol de la Royal Academy."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Da igual quiénes seáis! ¡Mientras quede uno en pie, el Raimon no se rinde!"
+     },
+     {
+      "who": "ie1-raimon/william-glass",
+      "text": "Esto... yo creo que me duele un poco la tripa. Muchísimo, de hecho."
+     }
+    ],
+    "after": [
+     {
+      "text": "Cuando todo parecía perdido, Axel se puso la camiseta de William y entró al campo. ¡Su Tornado de fuego marcó el gol de la honra!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡La Mano celestial! ¡La técnica del abuelo! ¡Por fin me ha salido!"
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ya hemos visto lo que queríamos. Nos retiramos del partido."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "El bloqueo espectral",
+    "before": [
+     {
+      "text": "Tras \"ganar\" a la Royal, llueven los desafíos. Si el Raimon vence, podrá inscribirse en el Fútbol Frontier."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Ju, ju, ju... Los espíritus me susurran que hoy conoceréis el infierno."
+     },
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Mi Espiral de distorsión se tragará vuestros tiros. Ni lo intentéis."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Basta de maldiciones! ¡Aquí venimos a pasarlo bien! ¡Venga, juguemos al fútbol!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Su bloqueo no era magia! ¡Era un truco para que nos quedáramos quietos! ¡Despeje de fuego!"
+     },
+     {
+      "who": "ie1-raimon/kevin-dragonfly",
+      "text": "¡Y el Tornado dragón con Axel ha sido brutal! ¡Estamos dentro del Fútbol Frontier!"
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Nuestra maldición... no ha podido con vuestra pasión."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-nose",
+    "title": "El rugido de la selva",
+    "before": [
+     {
+      "text": "Primera ronda de la fase regional. El rival: el Instituto Wild, un equipo con la fuerza de los animales salvajes."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Cocoricóoo! ¡Nadie salta más alto que yo! ¡La victoria es nuestra!"
+     },
+     {
+      "who": "ie1-raimon/bobby-shearer",
+      "text": "Soy Bobby Shearer, acabo de llegar al equipo. ¡Dejadme la defensa a mí!"
+     },
+     {
+      "who": "ie1-raimon/jack-wallside",
+      "text": "¿Tengo que saltar tan alto para el Trampolín relámpago? ¡Me dan miedo las alturas!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/jack-wallside",
+      "text": "¡Lo he hecho! ¡No he mirado abajo y Axel ha podido rematar desde mi espalda!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Trampolín relámpago. Buen trabajo, Jack. 1-0."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "Tengo las manos ardiendo de tanto parar... ¡pero merecía la pena!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Mentes controladas",
+    "before": [
+     {
+      "text": "El Instituto Brain no ha encajado ni un gol desde que llegó su portero. Sus jugadores llevan extraños cascos con cables."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Análisis completado. Probabilidad de victoria del Brain: 99%. Ejecutando orden: ganar."
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Juegan como máquinas. Alguien les está dando órdenes desde fuera."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Uno no sabe quién va a ganar hasta el final! ¡Ahora veréis!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Nos ordenan lesionaros... No. Esto no es fútbol. ¡Fuera los transmisores!"
+     },
+     {
+      "who": "ie1-raimon/kevin-dragonfly",
+      "text": "¡El Súper relámpago ha atravesado su Campo de fuerza defensivo!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Por fin jugáis de verdad! ¿A que así es mucho más divertido?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-ichibangai-sally-s",
+    "title": "Barrio de tiendas",
+    "before": [
+     {
+      "text": "El próximo rival es el Otaku. Investigando en el barrio de tiendas, el Raimon descubre que su cafetería de doncellas va a cerrar."
+     },
+     {
+      "text": "Para que siga abierta hay que convencer a los Sallys, el equipo de la asociación de comerciantes."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "¿Venís a quejaros de la cafetería? La cerré porque los padres se quejaban. Si queréis que cambie de idea, ganadme en el campo."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/kippy-jones",
+      "text": "Si nos ganáis, la asociación lo pensará. Si no... ¡a barrer la calle!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "Tenéis agallas, chavales. Cumplo mi palabra: la cafetería seguirá abierta. Y cuando seáis mayores, pasad por mi local."
+     },
+     {
+      "who": "ie1-raimon/nathan-swift",
+      "text": "Jugar contra adultos ha sido raro... ¡pero corren más de lo que parece!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "Juego sucio en la cafetería",
+    "before": [
+     {
+      "text": "El entrenador del Otaku invita al Raimon a su cafetería... y al día siguiente casi todo el equipo amanece con dolor de tripa."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "¡Je, je! Aquí no hay público. Nadie sabrá lo que ha pasado."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/sam-idol",
+      "text": "Tengo ojo para las estrellas del mañana... y en vuestro equipo no veo ninguna."
+     },
+     {
+      "who": "ie1-raimon/william-glass",
+      "text": "¡Esto es indignante! ¡Hoy William Glass os demostrará lo que vale!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/william-glass",
+      "text": "¡Remate gafas! ¡Lo he inventado yo! ¿Habéis visto qué gol?"
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "Trucos, hackeos, resultados falsos... Tenías razón. Así no se juega."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "Ante todo, juego limpio. ¡Ese es el fútbol que nos gusta!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "La final regional",
+    "before": [
+     {
+      "text": "Final de la fase regional. La Royal Academy, invicta desde hace cuarenta años, espera en su estadio."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ray Dark... ¿qué estás tramando esta vez? No quiero ganar así."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Me llaman el rey de los porteros. Mi Escudo de fuerza total no tiene grietas."
+     },
+     {
+      "text": "Nada más pitar el inicio, unas vigas de acero caen sobre el campo del Raimon. ¡Una trampa!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Nadie ha salido herido! ¡Vamos a jugar este partido limpio, Jude!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "¡Supertrampolín relámpago! El Escudo de fuerza total se ha roto."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Primera derrota en cuarenta años... Y, aun así, me siento libre."
+     },
+     {
+      "name": "Celia Hills",
+      "text": "Mi hermano está sonriendo... Hacía mucho que no lo veía así."
+     },
+     {
+      "text": "Ray Dark es detenido por la policía. ¡El Raimon es campeón regional y va a la fase nacional!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "La leyenda de hace cuarenta años",
+    "before": [
+     {
+      "text": "Antes de la fase nacional aparece un rival inesperado: los veteranos del Inazuma Eleven, el equipo legendario del abuelo de Mark."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Los viejos aún tenemos algo que enseñaros. No esperéis que os lo pongamos fácil."
+     },
+     {
+      "who": "ie1-inazuma-eleven/constant-builder",
+      "text": "¡Ja! ¿Creéis que unos pipiolos como vosotros pueden con los veteranos del Inazuma Eleven?"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Jugar contra el equipo del abuelo! ¡Esto es lo mejor que me ha pasado nunca! ¡Vamos allá!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Hacía cuarenta años que no sentía el balón así. David estaría orgulloso de ti, Mark."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "A partir de hoy, seré vuestro entrenador. ¡A por el título nacional!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡¿El entrenador Hillman?! ¡Sííí! ¡Con usted, nadie nos para!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Velocidad ninja",
+    "before": [
+     {
+      "text": "Estadio del Fútbol Frontier. Primer partido de la fase nacional contra el Instituto Shuriken, entrenado como un clan ninja."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Je, ¿ese es el famoso Nathan? Para jugar al fútbol no basta con correr. ¡Os enseñaré las técnicas ninja!"
+     },
+     {
+      "who": "ie1-raimon/nathan-swift",
+      "text": "Últimamente dudo si sigo valiendo para esto... Pero no voy a perder una carrera contra ti."
+     },
+     {
+      "who": "ie1-sengoku-igajima/phil-wingate",
+      "text": "Formación de ala de grulla. Que no vean de dónde viene el ataque."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/nathan-swift",
+      "text": "¡Pájaro de fuego! Mi velocidad y el fuego de Axel, juntos. ¡Ya no tengo dudas!"
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Me ganaste en mi propio terreno... Eres un ninja del balón, Nathan."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡2-1! ¡Siguiente ronda!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-senbayama",
+    "title": "La muralla infinita",
+    "before": [
+     {
+      "text": "La Royal ha caído 10-0 ante un equipo desconocido: el Zeus. Jude, con el orgullo herido, se une al Raimon para buscar la revancha."
+     },
+     {
+      "who": "ie1-raimon/jude-sharp",
+      "text": "Desde hoy juego con vosotros. Pienso vengar a mis compañeros."
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Los de ciudad sois unos ingenuos. ¡Nadie nos ha marcado en todo el torneo! ¡Os vais a estrellar contra la Muralla infinita!"
+     },
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "Bah, delanteros de ciudad. Mi portería es como un huerto bien vallado: aquí no entra nada."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/jude-sharp",
+      "text": "Ruptura relámpago. Mark, Axel y yo... ¡La muralla se ha venido abajo!"
+     },
+     {
+      "who": "ie1-raimon/kevin-dragonfly",
+      "text": "¡Y el Remate dragón para rematarles! ¡2-1, a semifinales!"
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Nuestra muralla... ¡Bah! ¡La próxima vez la haremos más alta!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "El antiguo equipo de Axel",
+    "before": [
+     {
+      "text": "Semifinal contra el Kirkwood, el antiguo instituto de Axel. Por sorpresa, Erik Eagle vuelve de Estados Unidos y se une al Raimon."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "Axel, nos dejaste tirados en la final del año pasado. ¡Hoy te lo vamos a hacer pagar!"
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/tyler-murdock",
+      "text": "¡Triángulo Z! ¡Los tres hermanos Murdock juntos somos imparables!"
+     },
+     {
+      "who": "ie1-raimon/erik-eagle",
+      "text": "¡Mark, Bobby, como en los viejos tiempos! Como dicen en América: ¡a quien madruga, el balón le ayuda!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡La Defensa triple ha parado su Triángulo Z!"
+     },
+     {
+      "who": "ie1-raimon/erik-eagle",
+      "text": "Y nuestro Fénix ha volado hasta la red. ¡3-2!"
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "Ahora lo entiendo, Axel... Tu sitio está en el Raimon. ¡Gana la final!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "La final contra los dioses",
+    "before": [
+     {
+      "text": "Gran final del Fútbol Frontier. El Instituto Zeus aparece en un estadio flotante. Detrás de ellos... vuelve Ray Dark."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Nosotros somos dioses. Los simples mortales no pueden ganarnos."
+     },
+     {
+      "who": "ie1-zeus/paul-siddon",
+      "text": "Mi Muralla tsunami se tragará cualquier disparo, igual que el mar."
+     },
+     {
+      "who": "ie1-raimon/jude-sharp",
+      "text": "Beben un Néctar Divino que les da una fuerza sobrehumana. Así destrozaron a la Royal."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Me da igual! ¡Nuestro fútbol lo hemos construido con sudor! ¡A por ellos!"
+     }
+    ],
+    "after": [
+     {
+      "text": "Tras un 0-3 en la primera parte, Mark detuvo la Sabiduría divina con la Mano mágica. ¡Y el Raimon remontó!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Tornado de fuego, Remate combinado, Fénix... 4-3. Lo hemos conseguido, Mark."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "¿Por qué no os rendís...? Tu fútbol... es más fuerte que cualquier néctar."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Ven a jugar con nosotros cuando quieras, pero sin trucos!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Instituto Raimon, el club de siete miembros al que nadie tomaba en serio, se proclama campeón del Fútbol Frontier."
+   },
+   {
+    "who": "ie1-raimon/mark-evans",
+    "text": "¡Abuelo, lo hemos conseguido! ¡Lo dejaste todo en tu cuaderno y lo hemos hecho realidad!"
+   },
+   {
+    "who": "ie1-raimon/axel-blaze",
+    "text": "Julia, este título también es tuyo. Volví a jugar... y no me arrepiento."
+   },
+   {
+    "name": "Seymour Hillman",
+    "text": "Habéis jugado como el Inazuma Eleven de verdad. Estoy orgulloso de vosotros."
+   },
+   {
+    "text": "Pero la celebración dura poco: en el cielo de Inazuma aparece una extraña luz. La Academia Alius está a punto de llegar..."
+   }
+  ]
+ },
+ "ie1-ichibangai-sally-s": {
+  "title": "¡Que viva el barrio!",
+  "summary": "Un enorme centro comercial amenaza con vaciar el barrio de tiendas. Los Sallys, los comerciantes de toda la vida, se calzan las botas para salvar sus negocios a base de fútbol.",
+  "intro": [
+   {
+    "text": "Barrio de tiendas de Inazuma. Verdulerías, librerías, la taberna... y un cartel nuevo: \"Próximamente, megacentro comercial\"."
+   },
+   {
+    "who": "ie1-ichibangai-sally-s/kippy-jones",
+    "text": "¡Hasta he dejado a medias mi partida de ajedrez! Si esto sigue así, nos quedamos sin clientes. ¡Reunión urgente!"
+   },
+   {
+    "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+    "text": "La constructora ha propuesto un torneo benéfico. Si ganamos, el barrio se queda como está."
+   },
+   {
+    "who": "ie1-ichibangai-sally-s/pip-daltry",
+    "text": "¿El fuera de juego es cuando el balón se sale? Bueno, da igual... ¡Mi tienda de toda la vida no la cierra nadie!"
+   },
+   {
+    "who": "ie1-ichibangai-sally-s/suzanne-yuma",
+    "text": "¡Yo vigilo la portería como vigilo mis tomates! ¡Aquí no se toca nada!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Entrenamiento en familia",
+    "before": [
+     {
+      "text": "Para ponerse en forma, los Sallys piden un partidillo a los niños del Inazuma KFC en la ribera del río."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Mamá! ¿De verdad vas a jugar contra nosotros? ¡No pienso dejarte ganar!"
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "Ni yo a ti, Millie. ¡Y luego a casa a hacer los deberes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/alf-holmes",
+      "text": "¡Uf! Estos críos corren como liebres. Hay que entrenar más... Y no le digáis a mi familia que esto me gusta más que la cena."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Lo habéis hecho genial! ¡Ánimo con el torneo, mamá!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kasamino",
+    "title": "Los repartidores",
+    "before": [
+     {
+      "text": "Primera ronda del torneo. El rival: el Instituto Umbrella, cuyo capitán reparte comida del bar de sus padres por todo el barrio."
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "¿Tenderos jugando al fútbol? ¡Ja! Mis padres también tienen negocio, pero en el campo no hago descuentos."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/f-riversong",
+      "text": "¡Os voy a tocar una canción para animaros! Luego, eso sí, os metemos un gol."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "Cuando acabe el torneo, ¡os llevo una ración gratis a cada tienda!"
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/kippy-jones",
+      "text": "¡Primer partido ganado! Ya sabía yo que no daba palo al agua... digo, ¡que lo daríamos todo!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "Vecinos con trucos",
+    "before": [
+     {
+      "text": "Los del Instituto Otaku tienen su cafetería de doncellas en el barrio... pero quieren el premio del torneo para un viaje a América."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "Je, je... ¿Unos tenderos contra nosotros? Ya hemos estudiado vuestros puntos débiles en internet."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/t-fielding",
+      "text": "Tengo ojos en la nuca, chaval. A mí no se me escapa ningún mangui."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/t-fielding",
+      "text": "¡Te pillé intentando hacer trampas con el marcador! Fuera de mi barrio."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "Vale, vale... La próxima vez, juego limpio. Y os compraré revistas, señora."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-nagumohara-shopkeepers",
+    "title": "Comerciantes contra comerciantes",
+    "before": [
+     {
+      "text": "En cuartos de final aparecen otros como ellos: los Vendedores de South Cirrus, comerciantes de una ciudad lejana que también luchan por su calle."
+     },
+     {
+      "who": "vr-nagumohara-shopkeepers/yelena-poplawska",
+      "text": "¡Nuestros fideos y nuestra defensa son igual de duros! No venimos a perder."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "¡Ni nosotros! Cuando acabemos, os invito a la taberna. ¡Pero primero el partido!"
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/mitch-sandstone",
+      "text": "Yo me encargo del centro del campo... ¡y luego de la ronda en la taberna! Si no me la bebo antes, claro."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-nagumohara-shopkeepers/marlin-sharkey",
+      "text": "¡Qué reflejos tenéis! Parecéis pescaderos en plena subasta."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "Somos iguales: gente de barrio que no se rinde. ¡Suerte con lo vuestro!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-osaka-gals-ccc",
+    "title": "El terremoto de Osaka",
+    "before": [
+     {
+      "text": "Semifinal. Las chicas del Triple C de Osaka han venido desde lejos, y tienen muchísimo carácter."
+     },
+     {
+      "who": "ie2-osaka-gals-ccc/daisy-fields",
+      "text": "¡Soy campeona nacional de sumo! ¡Sniff! ¡No me vais a mover de la portería!"
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/louis-hillside",
+      "text": "Si alguien se lesiona, tengo unos masajes... muy terapéuticos. Je, je."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/doug-baughan",
+      "text": "¡He fabricado botas con muelles! Esta vez sí que funcionan. Creo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/doug-baughan",
+      "text": "¡Funcionaron! Bueno, salté hasta la grada, pero el gol subió al marcador."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/kippy-jones",
+      "text": "¡Estamos en la final! ¡Que alguien avise a todo el barrio!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-inazuma-eleven",
+    "title": "Los veteranos de la barriada",
+    "before": [
+     {
+      "text": "La final enfrenta a los Sallys con los veteranos del Inazuma Eleven: la peluquería, el asadero, el bar de fideos... ¡también son del barrio!"
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Hemos jugado para ver si el barrio tenía agallas. Ahora, demostradlo contra la leyenda."
+     },
+     {
+      "who": "ie1-inazuma-eleven/bill-steakspear",
+      "text": "¡Mis filetes dan energía para todo el día! Hoy he desayunado tres."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "¡Todos a una! ¡Por cada tienda, por cada vecino y por cada niño del barrio!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Hmm. Nos habéis ganado limpiamente. Este barrio tiene un corazón enorme."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/suzanne-yuma",
+      "text": "¡Ni la Mano celestial le gana a mi portería! Bueno, hoy no."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La constructora cumple su palabra: el barrio de tiendas seguirá como siempre, con sus voces, sus olores y sus vecinos."
+   },
+   {
+    "who": "ie1-ichibangai-sally-s/kippy-jones",
+    "text": "¡Declaro la fiesta del barrio abierta! ¡Y esta vez organizo yo! Bueno... me ayudáis vosotros."
+   },
+   {
+    "who": "ie1-ichibangai-sally-s/fred-crumb",
+    "text": "He hecho un pan con forma de balón para celebrarlo. A mi mujer no le digáis nada."
+   },
+   {
+    "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+    "text": "El fútbol no es solo de chavales. ¡Es de todo el que tenga algo que defender!"
+   }
+  ]
+ },
+ "ie1-inazuma-eleven": {
+  "title": "El partido que nunca jugamos",
+  "summary": "Cuarenta años después del accidente que les robó la final, los veteranos del Inazuma Eleven vuelven al césped para jugar el partido que dejaron pendiente... y enfrentarse a su propio pasado.",
+  "intro": [
+   {
+    "text": "Hace cuarenta años, el Inazuma Eleven iba a jugar la final contra la Royal Academy. Un accidente de autobús lo truncó todo."
+   },
+   {
+    "who": "ie1-inazuma-eleven/seymour-hillman",
+    "text": "Y David, nuestro entrenador, desapareció. Desde entonces ninguno ha vuelto a jugar en serio."
+   },
+   {
+    "who": "ie1-inazuma-eleven/arthur-sweet",
+    "text": "Yo entreno a los niños del Inazuma KFC. Ellos me han recordado lo que es correr detrás de un balón."
+   },
+   {
+    "who": "ie1-inazuma-eleven/peter-mildred",
+    "text": "La señorita Nelly me ha dado el día libre. Señores, ¿y si volvemos a vestir la camiseta?"
+   },
+   {
+    "who": "ie1-inazuma-eleven/seymour-hillman",
+    "text": "Está bien. ¡El Inazuma Eleven vuelve a la carga!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Desentumecer las piernas",
+    "before": [
+     {
+      "text": "Primer entrenamiento en la ribera del río. Los rivales: los alumnos de Arthur Sweet."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Entrenador! ¿Usted y sus amigos contra nosotros? ¡Les vamos a dejar sin aliento!"
+     },
+     {
+      "who": "ie1-inazuma-eleven/arthur-sweet",
+      "text": "Ja, ja. Jugad sin piedad, chicos. Lo vamos a necesitar."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/constant-builder",
+      "text": "¡Mi cuerpo es el de un veinteañero! Aunque mañana tendré agujetas de anciano."
+     },
+     {
+      "who": "ie1-inazuma-kfc/hans-randall",
+      "text": "¡Qué nivel! ¿De verdad estos señores eran leyendas? ¡Ya lo creo que sí!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-ichibangai-sally-s",
+    "title": "La revancha del barrio",
+    "before": [
+     {
+      "text": "Los comerciantes del barrio se enteran del regreso y piden un partido. ¡Nadie quiere perderse el espectáculo!"
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "¡Señor Hillman! El barrio entero quiere ver si siguen en forma."
+     },
+     {
+      "who": "ie1-inazuma-eleven/edward-gladstone",
+      "text": "¡Habráse visto! ¿Que si seguimos en forma? ¡Mirad y aprended!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/slot-machines",
+      "text": "Aposté todo a nuestra victoria. ¡Y he vuelto a ganar!"
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "No está mal... pero aún no estamos listos para el partido de verdad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "La final pendiente",
+    "before": [
+     {
+      "text": "La Royal Academy acepta jugar, cuarenta años tarde, la final que nunca se disputó. Esta vez, sin Ray Dark en el banquillo."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Mis respetos, señores. La Royal no se va a contener: es el mejor homenaje que podemos daros."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Por mucho que esto no sea un partido oficial, no nos vamos a andar con chiquitas."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "¡Así me gusta! David, esta va por ti."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Cuarenta años esperando este pitido final... y por fin ha llegado."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ahora entiendo por qué Ray Dark os temía tanto."
+     },
+     {
+      "who": "ie1-inazuma-eleven/ted-poe",
+      "text": "La entropía del balón ha favorecido nuestro vector ofensivo. Es decir: ¡hemos ganado!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "El nieto de David",
+    "before": [
+     {
+      "text": "El Instituto Raimon, con Mark Evans en la portería, quiere medirse con el equipo legendario de su abuelo."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Entrenador Hillman! ¡Quiero saber cómo jugaba el equipo del abuelo! ¡No se contengan!"
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Tu Mano celestial es igualita que la de David. Veamos si tu corazón también lo es."
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Son adultos, pero juegan con la ilusión de unos niños. Será un partido duro."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Increíble! ¡Así que este era el fútbol del Inazuma Eleven!"
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "El relevo está en buenas manos, Mark. Pero hoy, la leyenda sigue siendo nuestra."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "Contra los falsos dioses",
+    "before": [
+     {
+      "text": "Llega un aviso: el Instituto Zeus, el nuevo equipo de Ray Dark, quiere demostrar que su néctar supera a cualquier leyenda."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Unos ancianos contra dioses. Qué tierno. Os daremos una lección de humildad."
+     },
+     {
+      "who": "ie1-inazuma-eleven/ian-suffolk",
+      "text": "Antes de ser tutor fui un pandillero de mucho cuidado, niño. A mí no me impresionas."
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "Ray Dark nos quitó la final. No dejaré que os quite también el fútbol a vosotros."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "¿Cómo...? Sin néctar, sin trucos... ¿de dónde sacáis esa fuerza?"
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "De cuarenta años de echarlo de menos, chaval. Tira ese néctar y juega de verdad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-young-inazuma",
+    "title": "Frente a nuestro pasado",
+    "before": [
+     {
+      "text": "Esa noche, en el viejo campo de la ribera, aparece un equipo envuelto en niebla. Son... ellos mismos, con quince años."
+     },
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Seymour, ¿cuánto tiempo, verdad? ¿Seguís siendo el Inazuma Eleven?"
+     },
+     {
+      "who": "ie1-inazuma-eleven/seymour-hillman",
+      "text": "¡¿David?! ...Sí, lo seguimos siendo. ¡Y vamos a demostrártelo!"
+     },
+     {
+      "who": "ie2-young-inazuma/seymour-hillman",
+      "text": "¡A ver si el viejo que seré sabe parar lo mismo que yo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-young-inazuma/david-evans",
+      "text": "Ja, ja, ja. Habéis crecido, pero no habéis cambiado. ¡Eso es el fútbol!"
+     },
+     {
+      "text": "La niebla se disipa. En el campo solo queda un viejo cuaderno lleno de supertécnicas."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie1-inazuma-eleven/seymour-hillman",
+    "text": "No sé si fue un sueño. Pero por fin hemos jugado todos los partidos que nos debíamos."
+   },
+   {
+    "who": "ie1-inazuma-eleven/arthur-sweet",
+    "text": "Mañana, de vuelta al entrenamiento con los niños. Les tengo mucho que contar."
+   },
+   {
+    "who": "ie1-inazuma-eleven/joseph-yosemite",
+    "text": "Esta noche, en mi bar, ¡canción para el Inazuma Eleven! Invito yo."
+   },
+   {
+    "text": "Y en las paredes del bar de fideos de Hillman, una foto nueva: once veteranos sonriendo como chavales."
+   }
+  ]
+ },
+ "ie1-inazuma-kfc": {
+  "title": "Los pequeños de la ribera",
+  "summary": "Los niños del Inazuma KFC se cansan de que los traten como críos. Liderados por Millie Moonlight, salen a demostrar que la ribera del río también cría campeones.",
+  "intro": [
+   {
+    "text": "Ribera del río de Inazuma. Aquí entrena cada tarde el Inazuma KFC, el equipo alevín del barrio."
+   },
+   {
+    "who": "ie1-inazuma-kfc/millie-moonlight",
+    "text": "¡Estoy harta de que todos digan que somos unos críos! ¡Vamos a demostrar lo que valemos!"
+   },
+   {
+    "who": "ie1-inazuma-kfc/herman-muller",
+    "text": "Me sé todo el reglamento. Lo aprendí jugando a videojuegos de fútbol."
+   },
+   {
+    "name": "Arthur Sweet",
+    "text": "Muy bien, chicos. Si queréis jugar contra los mayores, tendréis que entrenar el doble."
+   },
+   {
+    "who": "ie1-inazuma-kfc/hans-randall",
+    "text": "¡Yo ya debuté en el campeonato de cadetes! ¡Esto está chupado!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-ichibangai-sally-s",
+    "title": "Contra los mayores del barrio",
+    "before": [
+     {
+      "text": "El primer reto: los Sallys, los comerciantes del barrio. Entre ellos, la madre de Millie."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "¿Así que mi hija quiere jugar contra los mayores? ¡Pues sin ventajas!"
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡No vamos a perder contra vosotros, mamá!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/jamie-cool",
+      "text": "¡Les hemos ganado en velocidad! ¡En la carrera del día del deporte voy a arrasar!"
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "Bien jugado, Millie. Esta noche, tu plato favorito en la taberna."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kasamino",
+    "title": "Los abusones del Umbrella",
+    "before": [
+     {
+      "text": "Unos chicos del Instituto Umbrella han echado al KFC de su campo para entrenar ellos."
+     },
+     {
+      "who": "ie1-kasamino/bruce-chaney",
+      "text": "¡Largo de aquí, enanos! Este campo ahora es nuestro."
+     },
+     {
+      "who": "ie1-inazuma-kfc/keth-claus",
+      "text": "Yo también era un granuja... Pero el fútbol me enseñó a respetar. ¡Os lo vamos a enseñar a vosotros!"
+     },
+     {
+      "who": "ie1-inazuma-kfc/sothern-newman",
+      "text": "¡Muralla gigante! Ni con todos vuestros músculos pasaréis."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "Nos hemos pasado... Perdonad. El campo es vuestro."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Y la próxima vez, pedid permiso! Podemos compartirlo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "Partida en la cafetería",
+    "before": [
+     {
+      "text": "En el barrio de tiendas, los del Otaku retan al KFC: si ganan, les dejarán probar todos sus videojuegos."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/gus-gamer",
+      "text": "¿Niños contra nosotros? Esto es nivel fácil. Pulsad START cuando queráis."
+     },
+     {
+      "who": "ie1-inazuma-kfc/herman-muller",
+      "text": "¡He jugado a todos tus juegos! Me sé tus trucos de memoria."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/herman-muller",
+      "text": "¡Fin de la partida! ¡Pantalla superada!"
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/gus-gamer",
+      "text": "Me han ganado unos niños... Bueno, ¡un trato es un trato! ¡Os dejo la consola!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-nose",
+    "title": "Excursión a la montaña",
+    "before": [
+     {
+      "text": "De excursión, el KFC se cruza con el Instituto Wild entrenando en el monte entre árboles y animales."
+     },
+     {
+      "who": "ie1-nose/adrian-speed",
+      "text": "¡Corro los cien metros en diez segundos! ¿Alguien quiere una carrera?"
+     },
+     {
+      "who": "ie1-inazuma-kfc/jamie-cool",
+      "text": "¡Yo! ¡Mi velocidad no tiene nada que envidiar a la tuya!"
+     },
+     {
+      "who": "ie1-inazuma-kfc/irwin-hall",
+      "text": "Bebo un montón de leche para crecer... ¡Hoy saltaré más que esos de ahí!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Cocoricó! Estos pequeñajos tienen alma salvaje."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Estamos más fuertes que nunca! Solo queda un reto..."
+     }
+    ]
+   },
+   {
+    "opponent": "go-inazuma-kfc-go",
+    "title": "El KFC del futuro",
+    "before": [
+     {
+      "text": "Una tarde, unos niños con el mismo escudo aparecen en la ribera. Dicen ser el Inazuma KFC... de dentro de diez años."
+     },
+     {
+      "who": "go-inazuma-kfc-go/felix-higgins",
+      "text": "¿Vosotros sois los primeros del club? ¡Nos han hablado de vosotros!"
+     },
+     {
+      "who": "ie1-inazuma-kfc/taylor-higgins",
+      "text": "Ese chico se apellida como yo... ¿Será de mi familia? ¡Mamá, ven a verlo, que no me concentro!"
+     },
+     {
+      "who": "go-inazuma-kfc-go/sean-muller",
+      "text": "Con mi bufanda soy invencible. ¡Veamos si lo sois vosotros!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-inazuma-kfc-go/felix-higgins",
+      "text": "El club seguirá vivo gracias a vosotros. ¡Gracias! Se lo contaré a mis dieciséis gatos."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Pues claro que sí! Cuidad bien nuestro campo, ¿eh?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "Contra nuestros héroes",
+    "before": [
+     {
+      "text": "El reto final: el Instituto Raimon. Mark Evans entrenaba con ellos en la ribera cuando nadie más quería jugar."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Pues claro que jugamos! Y no penséis que os lo pondré fácil por ser pequeños. ¡Chutad con todo!"
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¡Eso queríamos oír! ¡Equipo, a por la Mano celestial!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "No los subestiméis. Han crecido mucho."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Ja, ja, ja! ¡Me habéis metido un gol que ni la Royal! ¡Sois increíbles!"
+     },
+     {
+      "who": "ie1-inazuma-kfc/hans-randall",
+      "text": "Le hemos ganado al campeón... ¡Algún día seré el delantero estrella del Raimon, ya veréis!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "Arthur Sweet",
+    "text": "Ya nadie os podrá llamar críos. Sois futbolistas, y de los buenos."
+   },
+   {
+    "who": "ie1-inazuma-kfc/millie-moonlight",
+    "text": "¡Esto es solo el principio! ¡Algún día jugaremos el Fútbol Frontier!"
+   },
+   {
+    "who": "ie1-inazuma-kfc/ken-cake",
+    "text": "Para celebrarlo... ¡pasteles para todos! Bueno, para mí primero."
+   },
+   {
+    "text": "Esa tarde, en la ribera del río, el balón siguió rodando hasta que se hizo de noche."
+   }
+  ]
+ },
+ "ie1-kasamino": {
+  "title": "Después de la tormenta",
+  "summary": "El Umbrella, que fue rival del Kirkwood antes de un accidente, decide dejar atrás su fama de abusón y reconstruirse partido a partido... hasta que la Academia Alius amenaza su instituto.",
+  "intro": [
+   {
+    "text": "Instituto Umbrella. Hace poco, su equipo estaba al nivel del Kirkwood. Pero un accidente se llevó a sus titulares."
+   },
+   {
+    "who": "ie1-kasamino/lou-edmonds",
+    "text": "Los nuevos no éramos muy buenos... y nos dedicamos a abusar de los pequeños. Hasta que el Raimon nos dio una lección."
+   },
+   {
+    "who": "ie1-kasamino/peter-banker",
+    "text": "He investigado tácticas revolucionarias. Con ellas, volveremos a estar arriba."
+   },
+   {
+    "who": "ie1-kasamino/joe-ingram",
+    "text": "¡Y si no, al menos nos echaremos unas risas! Ji, ji."
+   },
+   {
+    "who": "ie1-kasamino/lou-edmonds",
+    "text": "Esta vez lo haremos bien. Primero, a pedir perdón."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-inazuma-kfc",
+    "title": "Pedir perdón",
+    "before": [
+     {
+      "text": "El Umbrella vuelve a la ribera del río, donde echaban a los niños del Inazuma KFC."
+     },
+     {
+      "who": "ie1-inazuma-kfc/millie-moonlight",
+      "text": "¿Otra vez vosotros? ¡Este campo es nuestro!"
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "Venimos a disculparnos... y a pediros un partido limpio. Si ganáis, os dejamos nuestros balones."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-inazuma-kfc/keth-claus",
+      "text": "Vale, sois mejores de lo que parecíais. Y más majos."
+     },
+     {
+      "who": "ie1-kasamino/norman-porter",
+      "text": "¿Os ayudo a llevar las bolsas de balones a casa? Pesan un montón."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-ichibangai-sally-s",
+    "title": "Reparto a domicilio",
+    "before": [
+     {
+      "text": "Lou reparte comida por el barrio de tiendas. Los Sallys le retan: si gana, el bar de sus padres tendrá más clientes."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/kippy-jones",
+      "text": "¡Un partido contra los comerciantes! Si ganáis, os anunciamos en toda la calle."
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "¡Hecho! Y si perdemos, reparto gratis una semana."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/samantha-moonlight",
+      "text": "¡Qué cambio, chavales! El barrio estará encantado de animaros."
+     },
+     {
+      "who": "ie1-kasamino/maxwell-claus",
+      "text": "Me comí mi chuleta de la suerte y no pisé ni una raya del campo. ¡Ya os dije que funcionaba!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Tácticas contra datos",
+    "before": [
+     {
+      "text": "Las tácticas de Peter llegan a oídos del Instituto Brain, que quiere analizarlas con sus máquinas."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Vuestras probabilidades de victoria son del 3%. No merece la pena ni jugar."
+     },
+     {
+      "who": "ie1-kasamino/peter-banker",
+      "text": "¡Mis tácticas no salen en ningún dato! ¡Son revolucionarias!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Imposible... Ese 3% ha sido suficiente."
+     },
+     {
+      "who": "ie1-kasamino/mildford-scott",
+      "text": "He leído tanto de fútbol que sé que los números no lo son todo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-nose",
+    "title": "Prueba de resistencia",
+    "before": [
+     {
+      "text": "Para recuperar el físico, el Umbrella sube al monte a jugar contra el Instituto Wild."
+     },
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "¡OOOH! ¡En la selva solo sobrevive el más fuerte!"
+     },
+     {
+      "who": "ie1-kasamino/jason-strike",
+      "text": "¡Convertí mi casa en un gimnasio! ¡Estoy preparado para esto!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kasamino/leroy-rhymes",
+      "text": "Mi equilibrio de monociclo ha aguantado sus embestidas. ¡Ya casi estamos!"
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "Solo nos falta un rival para saber si hemos vuelto de verdad..."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "Rivales de nuevo",
+    "before": [
+     {
+      "text": "El Kirkwood, su antiguo gran rival, acepta un partido amistoso. Los hermanos Murdock no se lo pondrán fácil."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¿El Umbrella? Creía que habíais desaparecido. ¡Demostrad que no!"
+     },
+     {
+      "who": "ie1-kasamino/cameron-morefield",
+      "text": "Dejé el tenis por un dolor de muñeca. ¡Pero mis piernas funcionan perfectamente!"
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "¡Hoy volvemos a ser el Umbrella de verdad!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "Vale, lo reconozco. Habéis vuelto. ¡El próximo Fútbol Frontier, nos vemos!"
+     },
+     {
+      "who": "ie1-kasamino/joe-ingram",
+      "text": "¿Lo habéis oído? ¡Hemos ganado al Kirkwood! ¡Esto no es ninguna broma!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-gemini-storm",
+    "title": "El Umbrella no se rinde",
+    "before": [
+     {
+      "text": "Un balón negro cae del cielo sobre el campo. La Tormenta de Géminis, de la Academia Alius, ha elegido el Instituto Umbrella."
+     },
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "Terrícolas, retiraros no os salvará. Perded y vuestro instituto será destruido. Así lo ha decidido la Academia Alius."
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "La última vez nos habríamos rendido... ¡Pero ya no somos los mismos!"
+     },
+     {
+      "who": "ie1-kasamino/saul-tunk",
+      "text": "Siempre me peleo con todos... pero hoy estamos más unidos que nunca."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-gemini-storm/jordan-greenway",
+      "text": "¿Unos terrícolas cualquiera...? Esto no estaba en los planes. No creáis que ha terminado."
+     },
+     {
+      "text": "La Tormenta de Géminis desaparece en un destello de luz. El Instituto Umbrella sigue en pie."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie1-kasamino/lou-edmonds",
+    "text": "Pasamos de abusones a salvar nuestro instituto. Quién lo iba a decir."
+   },
+   {
+    "who": "ie1-kasamino/alan-most",
+    "text": "Todo me salía mal... pero con mi equipo me sale bien."
+   },
+   {
+    "who": "ie1-kasamino/paul-caperock",
+    "text": "¡Al año que viene, a por el Fútbol Frontier! ¡No pienso en otra cosa!"
+   },
+   {
+    "text": "Desde entonces, cada vez que llueve en Inazuma, el Umbrella sigue entrenando. Bajo la lluvia, como su nombre."
+   }
+  ]
+ },
+ "ie1-kidokawa-seishuu": {
+  "title": "Si Axel se hubiera quedado",
+  "summary": "¿Y si Axel Blaze no se hubiera ido al Raimon? Junto a los hermanos Murdock, el Kirkwood desata sus tornados para ganar el Fútbol Frontier que perdieron el año pasado.",
+  "intro": [
+   {
+    "text": "El año pasado, Axel Blaze no llegó a jugar la final del Fútbol Frontier: su hermana Julia tuvo un accidente. El Kirkwood perdió."
+   },
+   {
+    "who": "ie1-kidokawa-seishuu/axel-blaze",
+    "text": "Pensé en dejar el fútbol. Pero Julia me ha hecho prometer que volveré a jugar... y que ganaré."
+   },
+   {
+    "who": "ie1-kidokawa-seishuu/marvin-murdock",
+    "text": "¡Así me gusta! Los hermanos Murdock y tú, juntos. ¡Esta vez el título es nuestro!"
+   },
+   {
+    "who": "ie1-kidokawa-seishuu/thomas-murdock",
+    "text": "En el Kirkwood todos tiramos con un tornado. Es nuestra seña de identidad."
+   },
+   {
+    "who": "ie1-kidokawa-seishuu/tyler-murdock",
+    "text": "¡Yo me entreno para ser como mis hermanos... y como tú, Axel!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-kasamino",
+    "title": "El viejo rival",
+    "before": [
+     {
+      "text": "El Umbrella fue durante años el rival del Kirkwood. Tras un accidente, ha vuelto con jugadores nuevos."
+     },
+     {
+      "who": "ie1-kasamino/lou-edmonds",
+      "text": "¡El Kirkwood con Axel! Que gane el mejor."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¡Calentamiento perfecto! ¡Triángulo Z, hermanos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kidokawa-seishuu/axel-blaze",
+      "text": "Han mejorado mucho. Volverán a estar arriba."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/john-neville",
+      "text": "No he parado mucho... pero cuando miro el balón, me transformo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-nose",
+    "title": "Tornados en la selva",
+    "before": [
+     {
+      "text": "Primera ronda del Fútbol Frontier. El Wild salta como los animales del monte."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Cocoricó! ¡Nadie salta tan alto como yo! Tu Tornado de fuego no me pasará."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/axel-blaze",
+      "text": "Entonces saltaré más alto que tú."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kidokawa-seishuu/toby-damian",
+      "text": "¡Soy pequeñajo, pero salto más que un gallo! ¡Ja!"
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/axel-blaze",
+      "text": "Siguiente."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Ninjas contra tornados",
+    "before": [
+     {
+      "text": "Los ninjas del Shuriken usan formaciones ilusorias para confundir a los delanteros."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "¿Tres hermanos iguales? ¡Nosotros podemos ser diez!"
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/thomas-murdock",
+      "text": "Los hermanos nos movemos como uno solo. Ninguna ilusión nos separará."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¡Triángulo Z directo a la red! ¡A eso lo llamo yo un tornado!"
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Increíble... Ni con niebla os perdéis."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "La sombra de Ray Dark",
+    "before": [
+     {
+      "text": "Un amistoso de lujo contra la Royal Academy de Jude Sharp. Ray Dark observa desde el palco."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Axel Blaze. Se dice que eres el mejor delantero del país. Demuéstralo."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/david-samford",
+      "text": "Nuestro Pingüino emperador n.º 2 no falla. Preparaos."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/axel-blaze",
+      "text": "No he vuelto para perder. Se lo prometí a Julia."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Hemos perdido... Pero ha sido un partido limpio. Gracias."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/brody-gloom",
+      "text": "Llevo años pensando en derrotas pasadas. Hoy por fin tengo una victoria en la que pensar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "El portero que me buscaba",
+    "before": [
+     {
+      "text": "En las semifinales nacionales espera el Raimon. Su capitán, Mark Evans, lleva meses intentando que Axel juegue con ellos."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Axel! ¡Me alegro de que hayas vuelto al fútbol, aunque sea con otro equipo! ¡Tírame tu mejor tiro!"
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/axel-blaze",
+      "text": "Mark... Tu Mano celestial contra mi Tornado de fuego. Llevo tiempo esperándolo."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/malcolm-night",
+      "text": "Bobby, ¡cuánto tiempo! Hoy te toca perder, viejo amigo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Qué tiro! ¡Me arden las manos! ¡Gana la final por nosotros, Axel!"
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/axel-blaze",
+      "text": "Lo haré. Y luego jugaremos otra vez, Mark."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "La final de los tornados",
+    "before": [
+     {
+      "text": "Gran final del Fútbol Frontier. El Instituto Zeus ha destrozado a todos sus rivales gracias a su Néctar Divino."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Unos tornados mortales contra los dioses. Qué valientes... y qué ingenuos."
+     },
+     {
+      "who": "ie1-zeus/paul-siddon",
+      "text": "Mi Muralla tsunami apaga cualquier fuego."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¡Esta final es la que perdimos el año pasado! ¡No se nos escapa otra vez!"
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/axel-blaze",
+      "text": "Juntos. Tornado de fuego y Triángulo Z. ¡Vamos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Cuatro tornados a la vez... Ni un dios puede con eso."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/tyler-murdock",
+      "text": "¡Somos campeones! ¡Hermanos, Axel, lo hemos hecho!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Kirkwood levanta el trofeo del Fútbol Frontier. Esa misma tarde, Axel va al hospital con la medalla."
+   },
+   {
+    "who": "ie1-kidokawa-seishuu/axel-blaze",
+    "text": "Julia, te lo prometí. Esta es tuya."
+   },
+   {
+    "who": "ie1-kidokawa-seishuu/marvin-murdock",
+    "text": "¡El año que viene, a por el bicampeonato! Pero antes, una foto mía con el trofeo. ¡Sonrisa de campeón!"
+   },
+   {
+    "who": "ie1-kidokawa-seishuu/thomas-murdock",
+    "text": "Y el Raimon querrá la revancha. Ese Mark Evans no se rinde nunca."
+   }
+  ]
+ },
+ "ie1-mikage-sennou": {
+  "title": "Mentes libres",
+  "summary": "Tras arrancarse los transmisores, el Instituto Brain decide enfrentarse a todo aquel que use el fútbol para controlar mentes, desde hackers hasta robots... y al propio legado de Ray Dark.",
+  "intro": [
+   {
+    "text": "Instituto Brain. Después de perder contra el Raimon, sus jugadores se quitaron los cascos y los transmisores."
+   },
+   {
+    "who": "ie1-mikage-sennou/thomas-feldt",
+    "text": "Por primera vez sonreímos en un partido. No pienso volver a dejar que nadie piense por nosotros."
+   },
+   {
+    "who": "ie1-mikage-sennou/reg-underwood",
+    "text": "Pero hay más equipos que juegan como nosotros antes: con datos, máquinas y órdenes."
+   },
+   {
+    "who": "ie1-mikage-sennou/francis-tell",
+    "text": "Me he pasado la vida creyéndome todo lo que me decían. Ahora quiero decidir yo."
+   },
+   {
+    "who": "ie1-mikage-sennou/thomas-feldt",
+    "text": "Entonces está claro. Liberaremos el fútbol de todos los que lo controlan."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "Los hackers",
+    "before": [
+     {
+      "text": "Corre el rumor de que el Instituto Otaku hackea los resultados del torneo. El Brain conoce bien ese tipo de trampas."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/ollie-webb",
+      "text": "¿Unos ex cerebritos lavados? Hemos visto vuestros datos. Sois predecibles."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Esos datos son de cuando nos controlaban. Ya no somos así."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "Nuestros cálculos fallaban... ¿Es que habéis cambiado de verdad?"
+     },
+     {
+      "who": "ie1-mikage-sennou/victor-kind",
+      "text": "Me hicieron creer que nuestro juego no tenía rival. Ahora sé que puedo mejorar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "Sugestión hipnótica",
+    "before": [
+     {
+      "text": "El Instituto Occult usa la sugestión para que sus rivales se queden paralizados. Una forma de control como otra cualquiera."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Ju, ju... Vuestras mentes están vacías. Serán fáciles de dominar."
+     },
+     {
+      "who": "ie1-mikage-sennou/patrick-stiller",
+      "text": "Ya nos vaciaron la mente una vez. ¡No volverá a pasar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Vuestra maldición no nos afecta. Nuestras mentes ahora son nuestras."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Los espíritus no me avisaron de esto..."
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "La Academia IA",
+    "before": [
+     {
+      "text": "En la Academia IA, una inteligencia artificial decide cada jugada. Aunque su capitán dice que confía en su instinto."
+     },
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "La IA dice que ganaremos. Yo prefiero comprobarlo con mis propias piernas."
+     },
+     {
+      "who": "ie1-mikage-sennou/reg-underwood",
+      "text": "Un capitán que piensa por sí mismo... Respeto eso. Pero no perderemos."
+     }
+    ],
+    "after": [
+     {
+      "who": "vr-ai-gakuen/reubel-kauntless",
+      "text": "¿Lo veis? Ni la IA ni las órdenes. Al final decide el corazón."
+     },
+     {
+      "who": "ie1-mikage-sennou/charles-oughtry",
+      "text": "Mi hermano pequeño estaría orgulloso. Esto es el fútbol que le encanta."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Los Futboloides",
+    "before": [
+     {
+      "text": "En el Museo del Fútbol aparecen los Futboloides: robots que juegan siguiendo un programa perfecto."
+     },
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "OBJETIVO: ANALIZAR. PROBABILIDAD DE VICTORIA HUMANA: 0,001%."
+     },
+     {
+      "who": "ie1-mikage-sennou/neil-turner",
+      "text": "Antes yo también era así de frío... ¡Ahora tengo ganas de ganar!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "ERROR... ERROR... DATOS INSUFICIENTES SOBRE... LA VOLUNTAD."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Así se siente ganar sin que nadie te lo ordene."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "El comandante",
+    "before": [
+     {
+      "text": "La Royal Academy siempre fue el equipo preferido de Ray Dark, \"el comandante\" que dio las órdenes al Brain."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Nosotros también nos liberamos de él. Ahora juguemos como iguales."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "La Royal no es nuestro enemigo. Pero queremos saber si estamos a vuestra altura."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Siempre se dijo que el Brain estaba a nuestro nivel. Comprobémoslo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Estáis a nuestro nivel... no: lo habéis superado."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Gracias, Jude. Solo queda un lugar donde siguen sus órdenes."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "Néctar y cables",
+    "before": [
+     {
+      "text": "El Instituto Zeus usa el Néctar Divino, el último invento de Ray Dark para dar fuerza artificial a sus jugadores."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "¿Los títeres de Ray Dark contra sus dioses? Qué ironía."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Fuimos sus títeres. Por eso sabemos que tu fuerza no es tuya, Byron."
+     },
+     {
+      "who": "ie1-mikage-sennou/jonathan-seller",
+      "text": "Ya no necesito ganar a toda costa. Pero hoy quiero ganar... por todos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Sin cascos, sin cables... ¿y nos habéis ganado? Puede que tengáis razón."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Deja el néctar. Juega con tu propia mente. Te sentirás libre."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Instituto Brain ya no es un experimento. Es un equipo de fútbol, sin más."
+   },
+   {
+    "who": "ie1-mikage-sennou/thomas-feldt",
+    "text": "Antes calculaba las probabilidades de ganar. Ahora solo calculo cuánto nos divertimos."
+   },
+   {
+    "who": "ie1-mikage-sennou/tyron-rock",
+    "text": "He recuperado mis sentimientos. Y lo primero que siento es... hambre."
+   },
+   {
+    "who": "ie1-mikage-sennou/harry-leading",
+    "text": "Quería ser famoso. Ahora prefiero que me recuerden por jugar limpio."
+   }
+  ]
+ },
+ "ie1-nose": {
+  "title": "La ley de la selva",
+  "summary": "Una constructora quiere talar el monte donde entrena el Instituto Wild. Para salvarlo, la manada baja a la ciudad y se enfrenta a la tecnología... y a los rivales más salvajes del mundo.",
+  "intro": [
+   {
+    "text": "En lo alto del monte, entre árboles y animales, entrena el Instituto Wild. No saben ni lo que es una limusina."
+   },
+   {
+    "who": "ie1-nose/hugo-tallgeese",
+    "text": "¡Cocoricóoo! ¡Malas noticias! ¡Quieren talar nuestro bosque para hacer una carretera!"
+   },
+   {
+    "who": "ie1-nose/leonard-o-shea",
+    "text": "¡Nadie toca mi territorio! ¡Lo defenderé con zarpa férrea!"
+   },
+   {
+    "who": "ie1-nose/steve-eagle",
+    "text": "Desde el árbol más alto he visto las máquinas. Llegan dentro de poco."
+   },
+   {
+    "who": "ie1-nose/hugo-tallgeese",
+    "text": "La constructora patrocina un torneo. ¡Si lo ganamos, el monte se queda como está!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Bosque contra cables",
+    "before": [
+     {
+      "text": "Primer rival: el Instituto Brain, un equipo lleno de cascos, cables y datos."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Analizando... Vuestro juego no sigue ninguna lógica. Probabilidad de victoria: desconocida."
+     },
+     {
+      "who": "ie1-nose/harry-snake",
+      "text": "Sssí... Los animales no siguen lógica. Siguen instinto."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/cham-lion",
+      "text": "Me camuflé y no me vieron ni sus escáneres. Je, je."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "El instinto... Interesante. Debería apuntarlo. O mejor, sentirlo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-shuuyou-meito-gakuen",
+    "title": "El extraño mundo de los ordenadores",
+    "before": [
+     {
+      "text": "El Instituto Otaku vive entre pantallas. Los del Wild nunca habían visto tantas."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/gaby-farmer",
+      "text": "¡Tengo diez ordenadores en casa! ¿Vosotros cuántos tenéis?"
+     },
+     {
+      "who": "ie1-nose/bruce-monkey",
+      "text": "¿Ordena... qué? Yo tengo diez árboles. Y trepo a todos."
+     },
+     {
+      "who": "ie1-nose/matt-mouseman",
+      "text": "¿Esa caja que brilla se come? Huele a queso..."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-nose/adrian-speed",
+      "text": "¡Ni con vuestros mandos podéis seguirme! ¡Cien metros en diez segundos!"
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/gus-gamer",
+      "text": "Nos han pasado por encima como en un juego de carreras..."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-mach-tiger",
+    "title": "El rugido del tigre",
+    "before": [
+     {
+      "text": "Del otro lado del mar llegan los Muay Tigers, luchadores con la fiereza de los tigres."
+     },
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "¡UOOOOH! ¡Nuestro grito asusta hasta a la jungla!"
+     },
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "¡¡OOOHAHOHAAAAA!! ¡¿Así de fuerte?!"
+     }
+    ],
+    "after": [
+     {
+      "who": "gx-mach-tiger/napa",
+      "text": "Vuestro grito es más fuerte... ¡Respeto, hermanos salvajes!"
+     },
+     {
+      "who": "ie1-nose/chad-bullford",
+      "text": "Ganar da mucha hambre. ¿Alguien tiene comida? ¡Me pongo hecho una furia!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-senbayama",
+    "title": "Los hijos de la tierra",
+    "before": [
+     {
+      "text": "El Instituto Farm también vive en el campo. Entienden lo que es proteger la tierra."
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Nosotros cultivamos el campo y vosotros vivís en el monte. ¡Será un buen partido!"
+     },
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "Pero nuestra Muralla infinita no deja pasar ni a un jabalí."
+     },
+     {
+      "who": "ie1-nose/charlie-boardfield",
+      "text": "¿Un jabalí? ¡El jabalí soy yo! ¡Garra salvaje!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Si necesitáis ayuda para salvar el monte, ¡el Farm estará con vosotros!"
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡Gracias, amigos! ¡Ya casi lo tenemos!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-desert-lion",
+    "title": "El rey león",
+    "before": [
+     {
+      "text": "Semifinal contra los Leones del Desierto, un equipo incansable que no conoce el cansancio."
+     },
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "En el desierto solo sobrevive quien no se rinde nunca. ¿Y en vuestro bosque?"
+     },
+     {
+      "who": "ie1-nose/leonard-o-shea",
+      "text": "¿Leones? ¡El león de este equipo soy yo! ¡Nadie me lleva la contraria!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-desert-lion/bilal-kalil",
+      "text": "Vuestra energía es como la de una manada entera. Habéis ganado."
+     },
+     {
+      "who": "ie1-nose/leonard-o-shea",
+      "text": "¡GRRR! ¡Esta zona es mía, ya os lo dije!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-jukai-team",
+    "title": "El Mar de Árboles",
+    "before": [
+     {
+      "text": "La final enfrenta al Wild con el Mar de Árboles, un misterioso equipo nacido en lo más profundo de un bosque inmenso."
+     },
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "Somos maestros de la supervivencia. El bosque nos ha hecho invencibles."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡El bosque también es nuestra casa! ¡Por nuestro monte, manada!"
+     },
+     {
+      "who": "ie1-nose/steve-eagle",
+      "text": "Mis ojos de águila ya han visto el hueco. ¡Ataque cóndor!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-jukai-team/cam-mando",
+      "text": "Habéis sobrevivido a lo imposible. El bosque os pertenece."
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "¡COCORICÓÓÓÓ! ¡Hemos ganado! ¡El monte está a salvo!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La constructora retira sus máquinas. El monte del Instituto Wild seguirá siendo un lugar salvaje."
+   },
+   {
+    "who": "ie1-nose/hugo-tallgeese",
+    "text": "¡Hemos aprendido muchas cosas de la ciudad! Pero no hay nada como nuestros árboles."
+   },
+   {
+    "who": "ie1-nose/alan-coe",
+    "text": "Yo vuelvo a mi árbol. Aquí arriba se está mejor que en el suelo."
+   },
+   {
+    "who": "ie1-nose/peter-johnson",
+    "text": "¡Y yo a mi cuarto lleno de ranas de peluche! ¡Croac!"
+   }
+  ]
+ },
+ "ie1-occult": {
+  "title": "La maldición de Occult",
+  "summary": "Johan Tassman despierta sin querer una maldición ancestral. Para romperla, el Instituto Occult deberá vencer a vampiros, hombres lobo y demonios en una noche que nunca termina.",
+  "intro": [
+   {
+    "text": "Medianoche. En el campo del Instituto Occult, Johan Tassman intenta contactar con espíritus de futbolistas legendarios."
+   },
+   {
+    "who": "ie1-occult/johan-tassman",
+    "text": "Ju, ju, ju... Espíritus del balón, venid a mí... ¿Eh? ¿Por qué no amanece?"
+   },
+   {
+    "who": "ie1-occult/alexander-brave",
+    "text": "Has abierto una puerta que no debías, Johan. Es una maldición antigua. Hasta yo lo noto."
+   },
+   {
+    "who": "ie1-occult/troy-moon",
+    "text": "La luna... no se va del cielo... Me está entrando un hambre... ¡AUUU!"
+   },
+   {
+    "who": "ie1-occult/jason-jones",
+    "text": "¡Esto es cosa de fantasmas, seguro! Lo dice el libro: solo se rompe ganando a las criaturas de la oscuridad."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-ancient-dark",
+    "title": "La oscuridad ancestral",
+    "before": [
+     {
+      "text": "De la niebla surge un equipo de una isla de leyenda: la Oscuridad Ancestral."
+     },
+     {
+      "who": "go-ancient-dark/tezcat",
+      "text": "Sois vosotros los que nos habéis despertado. Ahora jugaréis con nosotros."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Ju, ju... Lo siento mucho. Pero nuestro Tiro fantasma también da miedo."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-ancient-dark/tezcat",
+      "text": "Primera puerta cerrada. Pero las sombras siguen ahí fuera..."
+     },
+     {
+      "who": "ie1-occult/nathan-jones",
+      "text": "Mi guadaña ha segado su ataque. Siguiente."
+     }
+    ]
+   },
+   {
+    "opponent": "go-demon-s-horn",
+    "title": "El cuerno del demonio",
+    "before": [
+     {
+      "text": "Un cuerno resuena en la noche. Llega el Cuerno Demoníaco, un equipo que viaja sin decir nunca por qué."
+     },
+     {
+      "who": "go-demon-s-horn/damien-blackloch",
+      "text": "La maldición nos llama. Y nosotros siempre respondemos."
+     },
+     {
+      "who": "ie1-occult/phil-noir",
+      "text": "¿Una maldición? Yo también sé maldecir. ¡Triángulo letal!"
+     }
+    ],
+    "after": [
+     {
+      "who": "go-demon-s-horn/damien-blackloch",
+      "text": "Vuestra magia negra es... sorprendentemente buena."
+     },
+     {
+      "who": "ie1-occult/mick-askley",
+      "text": "Dicen que no soy humano. Hoy me lo creo hasta yo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-vamptym",
+    "title": "La hora de los vampiros",
+    "before": [
+     {
+      "text": "En un castillo que antes no estaba ahí, los Nosfanáticos esperan. Sus colmillos brillan bajo la luna."
+     },
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Qué jugadores tan pálidos. Casi parecéis de los nuestros... aunque ninguno tan elegante como yo."
+     },
+     {
+      "who": "ie1-occult/burt-wolf",
+      "text": "De noche juego como nadie. Y tengo zumo de tomate de sobra."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-vamptym/desmodus-drakul",
+      "text": "Un empate de palidez... y una derrota de orgullo. Marchaos antes del alba."
+     },
+     {
+      "who": "ie1-occult/robert-mayer",
+      "text": "Las vendas me han protegido de sus mordiscos. ¡Bien!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-tsukigami-no-ichizoku",
+    "title": "Noche de luna llena",
+    "before": [
+     {
+      "text": "Aullidos en el bosque. El clan Aullido Lunar sale a cazar bajo la luna llena, y Troy está a punto de perder el juicio."
+     },
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "¡Grrr! Huelo a lobo entre vosotros. ¡Tú, el de los colmillos! ¡Únete a la manada o apártate!"
+     },
+     {
+      "who": "ie1-occult/troy-moon",
+      "text": "¡AUUU...! No... ¡Mi manada es el Occult! ¡Juego con ellos!"
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Aguanta, Troy. Si ganamos, la luna se esconderá."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-tsukigami-no-ichizoku/wolfram-vulpeen",
+      "text": "Has resistido la llamada de la luna. Eres un lobo de verdad."
+     },
+     {
+      "who": "ie1-occult/troy-moon",
+      "text": "Uf... Ya vuelvo a ser yo. Más o menos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-makai-gundan-z",
+    "title": "El rey del inframundo",
+    "before": [
+     {
+      "text": "El cielo se tiñe de rojo. Del suelo emerge el Dark Team, el ejército del inframundo que alimenta la maldición."
+     },
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "¡Je, je, je! Habéis abierto la puerta del inframundo... ¡Ahora me comeré vuestras almas!"
+     },
+     {
+      "who": "ie1-occult/alexander-brave",
+      "text": "Enfadarme es buscarse la ruina. Y tú me has enfadado mucho."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Esta maldición la empecé yo. ¡Y la voy a terminar yo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-makai-gundan-z/destra",
+      "text": "¡No...! ¡Unos simples aficionados a lo oculto...!"
+     },
+     {
+      "text": "La puerta del inframundo se cierra con un estruendo. Por el horizonte, por fin, asoma el sol."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "who": "ie1-occult/johan-tassman",
+    "text": "Ha amanecido... Creo que dejaré el espiritismo una temporada. Solo una."
+   },
+   {
+    "who": "ie1-occult/jerry-fulton",
+    "text": "¡Hemos vencido a la muerte! Bueno, yo ya sabía que era inmortal."
+   },
+   {
+    "who": "ie1-occult/chuck-dollman",
+    "text": "Mis circuitos registran... ¿alegría? Qué raro para un androide."
+   },
+   {
+    "text": "Desde aquella noche, el Instituto Occult tiene una nueva leyenda que contar. Y esta vez es de verdad."
+   }
+  ]
+ },
+ "ie1-senbayama": {
+  "title": "La muralla infinita",
+  "summary": "El Instituto Farm, el equipo que nunca encajaba goles, quiere demostrar que su Muralla infinita puede parar los tiros más famosos del país... y vengarse de la Ruptura relámpago.",
+  "intro": [
+   {
+    "text": "Instituto Farm, en pleno campo. Sus jugadores se levantan al alba para cuidar el ganado y luego entrenan hasta el anochecer."
+   },
+   {
+    "who": "ie1-senbayama/tom-walters",
+    "text": "Hasta el Raimon no nos marcó nadie. ¡Pero su Ruptura relámpago rompió la Muralla infinita!"
+   },
+   {
+    "who": "ie1-senbayama/albert-green",
+    "text": "Pues la levantaremos más alta. Como una buena valla después de la tormenta."
+   },
+   {
+    "who": "ie1-senbayama/mark-hillvalley",
+    "text": "¡Probaremos la muralla contra los mejores tiros del país, uno detrás de otro!"
+   },
+   {
+    "who": "ie1-senbayama/herb-sherman",
+    "text": "En mi casa no hay móvil, pero mi abuelo dice que con trabajo todo se consigue."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "El ataque de la manada",
+    "before": [
+     {
+      "text": "Primer rival: el Instituto Wild, cuyos delanteros atacan como animales salvajes."
+     },
+     {
+      "who": "ie1-nose/gary-lancaster",
+      "text": "¡Remate tarzán! ¡Ninguna muralla aguanta a un gorila!"
+     },
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "He visto jabalíes más fuertes en el huerto. ¡Muralla infinita!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-senbayama/daniel-dawson",
+      "text": "Descalzo noto cada rincón del campo. ¡Así es más fácil defender!"
+     },
+     {
+      "who": "ie1-nose/hugo-tallgeese",
+      "text": "Cocoricó... Ni un gol. Qué duros sois."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-occult",
+    "title": "Tiros fantasma",
+    "before": [
+     {
+      "text": "El Instituto Occult lanza tiros que atraviesan las defensas como fantasmas."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Ju, ju... Mi Tiro fantasma no se ve. ¿Cómo vais a pararlo?"
+     },
+     {
+      "who": "ie1-senbayama/orville-newman",
+      "text": "Cada mañana me planto bajo una cascada. Tengo la mente clara. Lo veré."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-senbayama/orville-newman",
+      "text": "Los fantasmas no asustan a quien se levanta a las cinco de la mañana."
+     },
+     {
+      "who": "ie1-occult/johan-tassman",
+      "text": "Los espíritus... no han podido entrar."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "Tornados en el campo",
+    "before": [
+     {
+      "text": "En el Kirkwood todos tiran con tornados. Y los hermanos Murdock tienen su Triángulo Z."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¡Tres hermanos contra tu muralla de tres! ¡A ver quién gana!"
+     },
+     {
+      "who": "ie1-senbayama/mark-hillvalley",
+      "text": "Un tornado se lleva el tejado, pero no la tierra. ¡Aquí no se mueve nada!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¡¿Nuestro Triángulo Z, parado?! ¡Esto no se quedará así!"
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "¡Cada vez más alta! ¡Siguiente!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-sengoku-igajima",
+    "title": "Ninjas en la valla",
+    "before": [
+     {
+      "text": "Los ninjas del Shuriken buscan colarse por cualquier rendija con sus ilusiones."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Una muralla siempre tiene un hueco. Y un ninja siempre lo encuentra."
+     },
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "En mi valla no hay huecos. Los repaso yo cada mañana."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Ni con mil clones he pasado... Impresionante."
+     },
+     {
+      "who": "ie1-senbayama/stuart-racoonfur",
+      "text": "¡Y arriba, Tiro cegador! ¡Defender y marcar, como en el huerto: sembrar y recoger!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "El pingüino emperador",
+    "before": [
+     {
+      "text": "La Royal Academy, la que fue campeona durante cuarenta años, tiene tiros legendarios."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/david-samford",
+      "text": "El Pingüino emperador n.º 2 ha derribado murallas mayores que la vuestra."
+     },
+     {
+      "who": "ie1-senbayama/herb-sherman",
+      "text": "¿Pingüinos? Mi abuela cría gallinas. Sabemos tratar con aves."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/david-samford",
+      "text": "Increíble. No había visto una defensa así desde... nunca."
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "Solo queda un tiro que ya rompió nuestra muralla..."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "Revancha contra el rayo",
+    "before": [
+     {
+      "text": "El último examen: el Raimon y su Ruptura relámpago, el tiro que acabó con su racha."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Mucha suerte y que gane el mejor! ¡Pero la Ruptura relámpago va a volver a entrar!"
+     },
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "La otra vez nos pillasteis despistados, chicos de ciudad. Hoy no tenéis nada que hacer."
+     },
+     {
+      "who": "ie1-raimon/jude-sharp",
+      "text": "Ojo, han reforzado la muralla. Esta vez no será tan fácil."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "¡La muralla ha aguantado la Ruptura relámpago! ¡La hemos parado!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Qué defensa! ¡La próxima vez la rompemos, ya veréis!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Muralla infinita vuelve a ser la defensa más temida del país."
+   },
+   {
+    "who": "ie1-senbayama/albert-green",
+    "text": "¿Lo veis? Ningún delantero de ciudad puede con nosotros. Bueno... casi ninguno."
+   },
+   {
+    "who": "ie1-senbayama/joe-small",
+    "text": "La leche de mi cabra nunca falla. ¡Mañana, a entrenar otra vez!"
+   },
+   {
+    "who": "ie1-senbayama/tom-walters",
+    "text": "Una muralla no se construye en un día. Pero la nuestra ya es infinita."
+   }
+  ]
+ },
+ "ie1-sengoku-igajima": {
+  "title": "La senda del ninja",
+  "summary": "El entrenador Sammy Igajima envía al Instituto Shuriken a una prueba ninja definitiva: viajar entre sombras, guerreros del pasado y espías para dominar la verdadera senda del balón.",
+  "intro": [
+   {
+    "text": "Instituto Shuriken. Sus jugadores entrenan como ninjas: velocidad, sigilo y formaciones imposibles."
+   },
+   {
+    "name": "Sammy Igajima",
+    "text": "Habéis perdido contra el Raimon. Un ninja que pierde debe volver a recorrer la senda."
+   },
+   {
+    "who": "ie1-sengoku-igajima/sail-bluesea",
+    "text": "¡Estoy listo, maestro! Esta vez no usaré las manos... casi nunca."
+   },
+   {
+    "who": "ie1-sengoku-igajima/phil-wingate",
+    "text": "Daré las órdenes en clave. Que el rival no sepa nunca qué haremos."
+   },
+   {
+    "name": "Sammy Igajima",
+    "text": "La senda es larga y difícil. Al final de ella os espera el que os derrotó."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-nose",
+    "title": "Prueba de velocidad",
+    "before": [
+     {
+      "text": "Primera prueba: correr más que los animales del monte. El Instituto Wild acepta el reto."
+     },
+     {
+      "who": "ie1-nose/adrian-speed",
+      "text": "¡Cien metros en diez segundos! ¿Un ninja puede con eso?"
+     },
+     {
+      "who": "ie1-sengoku-igajima/jupiter-jumper",
+      "text": "¡Yo trepo más rápido que cualquier mono! ¡A ver quién llega antes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Rápidos como el viento. Primera prueba superada."
+     },
+     {
+      "who": "ie1-nose/bruce-monkey",
+      "text": "¡Ese chico trepa mejor que yo! ¡No es justo!"
+     }
+    ]
+   },
+   {
+    "opponent": "cs-shiroshika-gumi",
+    "title": "Bandidos de la era Sengoku",
+    "before": [
+     {
+      "text": "Una extraña niebla transporta al equipo a la época Sengoku, la era de los ninjas. Allí les espera la Banda del Ciervo Blanco."
+     },
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "¿Ninjas con ropa rara? Me da igual que seáis críos: no tendré piedad. Os robaremos hasta el balón."
+     },
+     {
+      "who": "ie1-sengoku-igajima/finn-stoned",
+      "text": "¿Robar? Aquí el experto soy yo. Y solo robo a los malos."
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-shiroshika-gumi/taian-inaba",
+      "text": "Grr... Estos ninjas del futuro son mejores que los de aquí."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sam-samurai",
+      "text": "Mi parche contiene la fuerza ninja. Hoy la he dejado salir un poco."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-karakuri-bingmayong",
+    "title": "El ejército de barro",
+    "before": [
+     {
+      "text": "La niebla los lleva aún más lejos: ante el Ejército de Terracota, guerreros de un antiguo imperio."
+     },
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Soy Guan Yu. Lucharé con honor y con toda mi fuerza. Ningún truco os salvará."
+     },
+     {
+      "who": "ie1-sengoku-igajima/jez-shell",
+      "text": "Ninguno no... ¡pero mil ilusiones sí! ¡Doppelgänger!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-karakuri-bingmayong/guan-yu",
+      "text": "Mis soldados atacaban a sombras... Bien jugado."
+     },
+     {
+      "who": "ie1-sengoku-igajima/hank-sullivan",
+      "text": "Juntos somos mucho mejores que solos. Eso no lo enseña ningún pergamino."
+     }
+    ]
+   },
+   {
+    "opponent": "gx-osoroshii-kage",
+    "title": "Sombras sin rostro",
+    "before": [
+     {
+      "text": "De vuelta al presente, unas siluetas sin rostro les cortan el paso: las Sombras Terribles."
+     },
+     {
+      "who": "gx-osoroshii-kage/osoroshii-kage-1",
+      "text": "..."
+     },
+     {
+      "who": "ie1-sengoku-igajima/morgan-sanders",
+      "text": "Juegan en silencio... Como yo, que nunca enseño la cara. Esto va a ser interesante."
+     },
+     {
+      "who": "ie1-sengoku-igajima/winston-falls",
+      "text": "Soy espía. Sé moverme en la oscuridad mejor que ellos."
+     }
+    ],
+    "after": [
+     {
+      "text": "Las Sombras Terribles se desvanecen sin hacer ruido. En el suelo, un pergamino con una sola palabra: \"Royal\"."
+     },
+     {
+      "who": "ie1-sengoku-igajima/phil-wingate",
+      "text": "Nos están guiando hacia alguien. Seguiremos la pista."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "Misión de espionaje",
+    "before": [
+     {
+      "text": "La pista lleva a la Royal Academy. Dicen que Ray Dark espiaba a todos los equipos. Los ninjas quieren devolverle el favor."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ray Dark ya no está. Pero si queréis jugar, aquí no hay sombras: solo fútbol."
+     },
+     {
+      "who": "ie1-sengoku-igajima/newton-flust",
+      "text": "Le doy a un blanco a cien metros. Tu portería es mucho más grande."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Más grande, sí. Pero la defiende el rey de los porteros."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Rápidos y listos. Si queréis una revancha de verdad, ya sabéis dónde ir."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "Raimon... Ha llegado la hora."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "El final de la senda",
+    "before": [
+     {
+      "text": "El final de la senda: el Instituto Raimon y Nathan Swift, el único que le ganó una carrera a Sail Bluesea."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "¡Nathan! ¡He vuelto para la revancha! ¡Esta vez no me ganarás corriendo!"
+     },
+     {
+      "who": "ie1-raimon/nathan-swift",
+      "text": "¡Volved a mostrarnos vuestras técnicas ninja! ¡Pero no pienso dejar que me adelantes!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Los ninjas otra vez! ¡Qué ganas tenía! ¡Vamos a jugar un partidazo!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/nathan-swift",
+      "text": "Has mejorado muchísimo... Hoy el más rápido has sido tú."
+     },
+     {
+      "who": "ie1-sengoku-igajima/sail-bluesea",
+      "text": "¡Lo he conseguido! Y sin usar las manos ni una vez. Bueno, casi."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "name": "Sammy Igajima",
+    "text": "Habéis recorrido la senda entera. Ahora sois ninjas del balón de verdad."
+   },
+   {
+    "who": "ie1-sengoku-igajima/sail-bluesea",
+    "text": "La senda ninja es larga y difícil... ¡Pero vale la pena cada paso!"
+   },
+   {
+    "who": "ie1-sengoku-igajima/galen-thunderbird",
+    "text": "Y si alguien se ha hecho daño, ¡tengo aceite de sapo! Es mano de santo."
+   },
+   {
+    "who": "ie1-sengoku-igajima/john-reynolds",
+    "text": "Antes era un camorrista. Ahora soy un ninja. Y me gusta mucho más."
+   }
+  ]
+ },
+ "ie1-shuuyou-meito-gakuen": {
+  "title": "Partida limpia",
+  "summary": "Arrepentidos de sus trampas, los chicos del Otaku quieren conseguir la figura de sus sueños en Estados Unidos... esta vez sin hackeos, solo con fútbol limpio.",
+  "intro": [
+   {
+    "text": "Cafetería de doncellas del barrio de tiendas. El Instituto Otaku ha sido descubierto: hackeaban resultados para ganar."
+   },
+   {
+    "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+    "text": "Lo reconozco: hicimos trampas. Queríamos el dinero del premio para la figura de edición limitada de América."
+   },
+   {
+    "who": "ie1-shuuyou-meito-gakuen/sam-idol",
+    "text": "El Raimon nos enseñó que así no se juega. Pero... ¡seguimos queriendo esa figura!"
+   },
+   {
+    "who": "ie1-shuuyou-meito-gakuen/mark-gambling",
+    "text": "Pues hagámoslo bien. Hay un torneo con viaje a Estados Unidos. Sin trucos."
+   },
+   {
+    "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+    "text": "¡Misión aceptada! ¡Modo juego limpio activado!"
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-ichibangai-sally-s",
+    "title": "Fase tutorial",
+    "before": [
+     {
+      "text": "Primero, recuperar la confianza del barrio. Los Sallys no se fían de ellos."
+     },
+     {
+      "who": "ie1-ichibangai-sally-s/t-fielding",
+      "text": "Os tengo vigilados, granujas. Al primer truco, a la calle."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/light-nobel",
+      "text": "Señora, le prometo que esta historia tendrá un final honrado. Como en mis novelas."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-ichibangai-sally-s/t-fielding",
+      "text": "Hum... Ni una trampa. Os daré una oportunidad."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/gus-gamer",
+      "text": "¡Tutorial completado! Ahora empieza la partida de verdad."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Duelo de datos",
+    "before": [
+     {
+      "text": "El Instituto Brain también usaba datos y control. Ambos equipos quieren demostrar que han cambiado."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "¿Os fiáis de nosotros sin hackearnos? Nosotros tampoco usaremos transmisores."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/ham-signalman",
+      "text": "Trato hecho. Hoy mis radios se quedan en casa."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Jugar sin datos da miedo. Pero es divertido, ¿verdad?"
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/josh-spear",
+      "text": "¡Más que una partida en red a las tres de la madrugada!"
+     }
+    ]
+   },
+   {
+    "opponent": "vr-ai-gakuen",
+    "title": "Inteligencia artificial",
+    "before": [
+     {
+      "text": "Siguiente rival: la Academia IA, donde las jugadas las decide una inteligencia artificial."
+     },
+     {
+      "who": "vr-ai-gakuen/eugenio-provost",
+      "text": "Nuestra IA ha simulado este partido un millón de veces. No podéis ganar."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/gaby-farmer",
+      "text": "Yo me monto mis ordenadores. Sé que una máquina no lo sabe todo."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "¡Un millón de simulaciones, y ninguna con nuestra fuerza de voluntad!"
+     },
+     {
+      "who": "vr-ai-gakuen/eugenio-provost",
+      "text": "Habrá que actualizar el programa..."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-unicorn",
+    "title": "Pantalla América",
+    "before": [
+     {
+      "text": "¡Lo han conseguido! El viaje a Estados Unidos es suyo. Allí les reta el Unicorn, el equipo estrella del país."
+     },
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "¿Habéis venido desde Japón por una figura? ¡Me encanta! Pero aquí os toca sudar."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/grant-eldorado",
+      "text": "Siempre juego con los personajes que nadie elige. ¡Y gano con ellos!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-unicorn/mark-krueger",
+      "text": "¡Qué equipo tan raro... y tan divertido! Id a por vuestra figura."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/a-woodbridge",
+      "text": "¡América! ¡La tierra de los robots gigantes! Bueno, eso creo."
+     }
+    ]
+   },
+   {
+    "opponent": "cs-soccer-robots",
+    "title": "Robots de verdad",
+    "before": [
+     {
+      "text": "En la convención de la figura, unos robots futbolistas cobran vida: los Futboloides. ¡Quieren llevarse la figura!"
+     },
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "OBJETO DE COLECCIÓN DETECTADO. PROCEDIENDO A SU CAPTURA."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/a-woodbridge",
+      "text": "¡Robots de verdad! ¡Mi sueño! ...¡Pero esa figura es nuestra!"
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/walter-valiant",
+      "text": "¡Esto es trabajo para un superhéroe! ¡Al ataque!"
+     }
+    ],
+    "after": [
+     {
+      "who": "cs-soccer-robots/fb-101x",
+      "text": "SISTEMAS... DERROTADOS. FIGURA... DEVUELTA."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "¡La figura de edición limitada! ¡Ganada limpiamente!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "Jefe final: Raimon",
+    "before": [
+     {
+      "text": "De vuelta en Japón, queda una cuenta pendiente: un partido limpio contra el Raimon, el equipo que les abrió los ojos."
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/sam-idol",
+      "text": "Mi ojo de cazatalentos no falla: hoy veo estrellas en los dos equipos. ¡Que gane el mejor, sin trucos!"
+     },
+     {
+      "who": "ie1-raimon/william-glass",
+      "text": "¡Ja! ¡William Glass y su Remate gafas os esperan!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Así me gusta! ¡Juego limpio y que gane el mejor!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Qué partidazo! ¿Veis? ¡Sin trucos el fútbol es mucho mejor!"
+     },
+     {
+      "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+      "text": "¡Hemos derrotado al jefe final! ¡Créditos, por favor!"
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La figura de edición limitada preside ahora la cafetería de doncellas. Debajo, un cartel: \"Ganada con juego limpio\"."
+   },
+   {
+    "who": "ie1-shuuyou-meito-gakuen/spencer-gates",
+    "text": "Me haré un disfraz del Raimon para celebrarlo. ¡Con capa y todo!"
+   },
+   {
+    "who": "ie1-shuuyou-meito-gakuen/mike-vox",
+    "text": "Y yo pondré la voz del narrador: \"Y así, los otakus encontraron la verdadera victoria...\""
+   },
+   {
+    "who": "ie1-shuuyou-meito-gakuen/theodore-master",
+    "text": "Ni el mejor premio de la máquina se compara a esto."
+   }
+  ]
+ },
+ "ie1-teikoku-gakuen": {
+  "title": "El orgullo de la Royal",
+  "summary": "Humillada 10-0 por el Zeus, la Royal Academy decide reconstruirse sin Ray Dark. Jude Sharp se queda con sus compañeros para buscar la revancha con su propio fútbol.",
+  "intro": [
+   {
+    "text": "Hospital de Inazuma. Los jugadores de la Royal Academy se recuperan tras caer 10-0 ante el Instituto Zeus."
+   },
+   {
+    "who": "ie1-teikoku-gakuen/jude-sharp",
+    "text": "Durante cuarenta años ganamos con los trucos de Ray Dark. Ahora sabemos lo que es perder."
+   },
+   {
+    "who": "ie1-teikoku-gakuen/joseph-king",
+    "text": "Entonces empecemos de cero, Jude. Sin él. Con nuestro fútbol."
+   },
+   {
+    "who": "ie1-teikoku-gakuen/david-samford",
+    "text": "No te vayas a otro equipo, capitán. Hagamos juntos la revancha."
+   },
+   {
+    "who": "ie1-teikoku-gakuen/jude-sharp",
+    "text": "No me iré. La Royal Academy volverá a lo más alto. Pero esta vez, limpiamente."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "ie1-mikage-sennou",
+    "title": "Los otros títeres",
+    "before": [
+     {
+      "text": "El Instituto Brain también recibía órdenes de Ray Dark. Ambos equipos quieren saber quiénes son sin él."
+     },
+     {
+      "who": "ie1-mikage-sennou/thomas-feldt",
+      "text": "Royal Academy... Nos decían que estábamos a vuestro nivel. ¿Era otra mentira?"
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Averigüémoslo. Sin órdenes, sin transmisores."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Juegan mejor sin cables. Igual que nosotros sin Ray Dark."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/alan-master",
+      "text": "Con mis cascos marco el ritmo. ¡Y hoy el ritmo era el nuestro!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-kidokawa-seishuu",
+    "title": "Los hermanos",
+    "before": [
+     {
+      "text": "El Kirkwood y sus hermanos Murdock desafían a la nueva Royal."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "¡Dicen que la Royal ya no es lo que era! ¡Vamos a comprobarlo!"
+     },
+     {
+      "who": "ie1-teikoku-gakuen/herman-waldon",
+      "text": "Tengo a mi equipo en alta estima. A los demás... no tanto."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/daniel-hatch",
+      "text": "¡Triángulo letal! Nuestras técnicas siguen siendo nuestras."
+     },
+     {
+      "who": "ie1-kidokawa-seishuu/marvin-murdock",
+      "text": "Vale, la Royal sigue siendo la Royal. ¡Qué rabia!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-senbayama",
+    "title": "Romper la muralla",
+    "before": [
+     {
+      "text": "El Instituto Farm no encajaba goles. Romper su Muralla infinita es una prueba perfecta."
+     },
+     {
+      "who": "ie1-senbayama/tom-walters",
+      "text": "¿Los señoritos de la Royal? ¡Ni en limusina pasaréis la Muralla infinita!"
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Toda muralla tiene un punto débil. Solo hay que leer el juego."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/david-samford",
+      "text": "¡Pingüino emperador n.º 2! ¡La muralla ha caído!"
+     },
+     {
+      "who": "ie1-senbayama/albert-green",
+      "text": "Qué pingüinos más bravos. Sin rencor, ¿eh?"
+     }
+    ]
+   },
+   {
+    "opponent": "ie2-shin-teikoku-gakuen",
+    "title": "La Royal oscura",
+    "before": [
+     {
+      "text": "Aparece un equipo que lleva su nombre: la Royal Academy Redux. Lo dirige Caleb Stonewall, que quiere el legado de Ray Dark."
+     },
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Je. Los niños buenos de la Royal le dieron la espalda a Ray Dark. Qué conmovedor. Yo me quedo con su fútbol."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ese fútbol hace daño a los demás. No te dejaré ensuciar el nombre de la Royal."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Escudo de fuerza total. Aquí no entra nada oscuro."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie2-shin-teikoku-gakuen/caleb-stonewall",
+      "text": "Tsk... Ganar limpio. Qué aburrido. Ya nos veremos, Sharp."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "La verdadera Royal somos nosotros."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "El rival que nos cambió",
+    "before": [
+     {
+      "text": "Antes del Zeus, la Royal quiere medirse con el Raimon: el equipo que les dio su primera derrota en cuarenta años."
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Jude! ¡Para nosotros todo empezó con la Royal Academy! ¡No vamos a perder esta vez!"
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Mark. Gracias a vosotros abrí los ojos. Hoy te enseñaré lo que hemos aprendido."
+     },
+     {
+      "name": "Celia Hills",
+      "text": "Mi hermano capitaneando la Royal... ¡Esto no va a ser nada fácil, Mark!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Qué partido! ¡Jugáis de maravilla sin trampas!"
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ahora sí estamos listos para el Zeus."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-zeus",
+    "title": "La revancha del 10-0",
+    "before": [
+     {
+      "text": "La revancha. El Zeus vuelve a beber su Néctar Divino, convencido de que la Royal caerá otra vez."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Otra vez vosotros. ¿No os bastó con el hospital?"
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Aquel día nos ganaste con el néctar de Ray Dark. Hoy juegas contra nuestro corazón."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/peter-drent",
+      "text": "¡Uooooh! ¡La Royal es más fuerte que antes!"
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "¿Cómo...? Si sois los mismos a los que aplastamos..."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "No somos los mismos. Ahora jugamos para nosotros."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "La Royal Academy recupera su orgullo. No con el miedo de antes, sino con el respeto de todos."
+   },
+   {
+    "who": "ie1-teikoku-gakuen/jude-sharp",
+    "text": "Ray Dark nos enseñó a ganar. Nosotros hemos aprendido a jugar."
+   },
+   {
+    "who": "ie1-teikoku-gakuen/joseph-king",
+    "text": "El rey de los porteros vuelve a su trono. Y esta vez, me lo he ganado."
+   },
+   {
+    "who": "ie1-teikoku-gakuen/david-samford",
+    "text": "¿Y ahora qué, capitán? ¿Otra vez a por el Fútbol Frontier?"
+   },
+   {
+    "who": "ie1-teikoku-gakuen/jude-sharp",
+    "text": "Por supuesto. Y el Raimon nos estará esperando."
+   }
+  ]
+ },
+ "ie1-zeus": {
+  "title": "El Olimpo sin néctar",
+  "summary": "Tras perder la final y descubrirse lo del Néctar Divino, el Instituto Zeus renuncia a la fuerza artificial y emprende un viaje para demostrar que pueden ser dioses del fútbol por méritos propios.",
+  "intro": [
+   {
+    "text": "Después de la final, todo el país sabe la verdad: el Instituto Zeus bebía el Néctar Divino de Ray Dark."
+   },
+   {
+    "who": "ie1-zeus/byron-love",
+    "text": "Yo acepté el néctar y convencí a todos. Por mi culpa, nos llaman farsantes."
+   },
+   {
+    "who": "ie1-zeus/paul-siddon",
+    "text": "¡Ja, ja, ja! ¡Pues demostremos que no nos hace falta ningún néctar para ser dignos!"
+   },
+   {
+    "who": "ie1-zeus/wesley-knox",
+    "text": "Entrenaremos de verdad. Desde cero. Como simples mortales."
+   },
+   {
+    "who": "ie1-zeus/byron-love",
+    "text": "Está bien. Empecemos un nuevo camino. Sin trucos."
+   }
+  ],
+  "stages": [
+   {
+    "opponent": "go-seidouzan",
+    "title": "El otro Olimpo",
+    "before": [
+     {
+      "text": "El Colegio Monte Olimpo adora al dios del fútbol. Para ellos, el Zeus es un sacrilegio."
+     },
+     {
+      "who": "go-seidouzan/cronus-fourseasons",
+      "text": "Usasteis el nombre de los dioses con trampas. Hoy os juzgaremos."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Tenéis razón en estar enfadados. Por eso jugaremos sin néctar."
+     }
+    ],
+    "after": [
+     {
+      "who": "go-seidouzan/cronus-fourseasons",
+      "text": "Vuestro fútbol... es sincero. El dios del fútbol os perdona."
+     },
+     {
+      "who": "ie1-zeus/artie-mishman",
+      "text": "Mis pases siguen siendo precisos como un reloj. ¡Sin ayuda!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-ogre",
+    "title": "Los soldados del futuro",
+    "before": [
+     {
+      "text": "Un equipo llegado del futuro les corta el paso: el Equipo Ogro. En otro tiempo, los aplastaron 36-0."
+     },
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "Objetivo: Instituto Zeus. Ya os derrotamos 36-0. Repetiremos el resultado."
+     },
+     {
+      "who": "ie1-zeus/harry-closs",
+      "text": "¡Pues esta vez el saco devuelve los golpes!"
+     },
+     {
+      "who": "ie1-zeus/arion-matlock",
+      "text": "He analizado vuestro juego. Sin preparación no entro en ningún partido."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-ogre/bash-lancer",
+      "text": "Imposible... No hay datos del futuro que expliquen esto."
+     },
+     {
+      "who": "ie1-zeus/paul-siddon",
+      "text": "¡Muralla tsunami! ¡Nadie mueve las redes en mi mar!"
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-dark-angel",
+    "title": "Ángeles caídos",
+    "before": [
+     {
+      "text": "En un estadio entre nubes negras aparece Ángel Oscuro. Les ofrecen un poder más fuerte que el néctar."
+     },
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "Je, je... Unid vuestra fuerza a la del Rey Demonio y volveréis a ser dioses. A cambio, solo quiero vuestras almas."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Ya probé un poder prestado una vez. No vuelvo a caer."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-dark-angel/destra",
+      "text": "¡Rechazar nuestro poder y aun así vencernos...!"
+     },
+     {
+      "who": "ie1-zeus/jonas-demetrius",
+      "text": "Aprovecho cada irregularidad del campo. Hasta las de un estadio en las nubes."
+     }
+    ]
+   },
+   {
+    "opponent": "ie3-tenkuu-no-shito",
+    "title": "El juicio celestial",
+    "before": [
+     {
+      "text": "Las nubes se abren y el Sky Team desciende. Quieren ver si el Zeus merece de verdad el título de divino."
+     },
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "¿Humanos que se hacen llamar dioses? Qué osadía. Apartaos... o demostrad que sois dignos del cielo."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "No somos dioses. Solo queremos jugar al fútbol con todo lo que tenemos."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie3-tenkuu-no-shito/sanctus",
+      "text": "Esa respuesta es la más divina de todas. Seguid adelante."
+     },
+     {
+      "who": "ie1-zeus/andy-chronic",
+      "text": "Minuto noventa y dos. Siempre sé exactamente cuándo ganamos."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-teikoku-gakuen",
+    "title": "Pedir perdón",
+    "before": [
+     {
+      "text": "Hay una deuda pendiente: la Royal Academy, a la que mandaron al hospital con un 10-0."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Byron Love. ¿Vienes a mandarnos al hospital otra vez?"
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Vengo a pedir perdón. Y a jugar el partido que debimos jugar aquel día."
+     },
+     {
+      "who": "ie1-teikoku-gakuen/joseph-king",
+      "text": "Disculpas aceptadas. Pero el balón no perdona."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-teikoku-gakuen/jude-sharp",
+      "text": "Ahora sí, un partido de verdad. Gracias, Byron."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Gracias a ti. Solo queda una persona a la que tengo que demostrarle algo."
+     }
+    ]
+   },
+   {
+    "opponent": "ie1-raimon",
+    "title": "La revancha del Olimpo",
+    "before": [
+     {
+      "text": "La revancha de la final del Fútbol Frontier. Esta vez, el Zeus juega solo con su propia fuerza."
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "El Instituto Zeus es más fuerte que nunca. ¡Dejad que os lo demostremos!"
+     },
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Genial, así sí! ¡Nosotros también hemos mejorado! ¡Vamos a jugar con todo!"
+     },
+     {
+      "who": "ie1-raimon/axel-blaze",
+      "text": "Sin néctar... Ahora sí que me apetece este partido."
+     }
+    ],
+    "after": [
+     {
+      "who": "ie1-raimon/mark-evans",
+      "text": "¡Increíble! ¡Así es como juega el Zeus de verdad!"
+     },
+     {
+      "who": "ie1-zeus/byron-love",
+      "text": "Esta victoria es nuestra, sin una gota de néctar. Ya no somos falsos dioses."
+     }
+    ]
+   }
+  ],
+  "ending": [
+   {
+    "text": "El Instituto Zeus recupera su honor. Ya nadie los llama farsantes."
+   },
+   {
+    "who": "ie1-zeus/byron-love",
+    "text": "Al final, la fuerza de un dios no está en un néctar. Está en no rendirse nunca."
+   },
+   {
+    "who": "ie1-zeus/paul-siddon",
+    "text": "¡Ja, ja, ja! ¡Y el mar sigue siendo mío!"
+   },
+   {
+    "who": "ie1-zeus/wesley-knox",
+    "text": "Seguiremos entrenando. Los dioses también sudan."
+   }
+  ]
+ }
+}

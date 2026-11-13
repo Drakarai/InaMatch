@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { STORY_REGISTRY, type StoryMatch } from '../story/story';
 import { music } from '../audio/music';
 import { COLORS, GAME_H, GAME_W, PORTRAIT, hex } from '../config';
 import { getTeam, movesOf } from '../data';
@@ -108,7 +109,7 @@ export class FormationScene extends Phaser.Scene {
       title: this.halftime ? 'Descanso' : 'Formación',
       subtitle: team.name,
       icon: texKey.emblem(team.id),
-      back: this.halftime ? undefined : { label: 'Menú', onClick: () => this.scene.start('menu') },
+      back: this.halftime ? undefined : { label: this.backLabel(), onClick: () => this.leave() },
       accent: hex(team.colors.accent),
     });
     if (this.halftime) {
@@ -145,7 +146,7 @@ export class FormationScene extends Phaser.Scene {
     label(this, BAR.x + 185, fy + 32, 'pulsa el nombre para ver todas', 10, THEME.muted, { fontStyle: 'italic' }).setOrigin(0.5);
     new Button(this, BAR.x + 460, fy + 8, 'Mejor once', () => this.autoLineup(), { w: 150, h: 38, variant: 'accent', size: 15, icon: '✦' });
     this.summary = this.add.container(BAR.x + 18, BAR.y + 100);
-    this.input.keyboard?.on('keydown-ESC', () => (this.formationList ? this.closeFormationList() : !this.halftime && this.scene.start('menu')));
+    this.input.keyboard?.on('keydown-ESC', () => (this.formationList ? this.closeFormationList() : !this.halftime && this.leave()));
     this.input.keyboard?.on('keydown-ENTER', () => this.play());
     new Button(this, BAR.x + BAR.w - 100, BAR.y + BAR.h / 2, this.halftime ? '¡2ª parte!' : '¡A jugar!', () => this.play(), { w: 170, h: 60, variant: 'primary', size: 24, hint: '⏎' });
 
@@ -569,7 +570,7 @@ export class FormationScene extends Phaser.Scene {
       title: this.halftime ? 'Descanso' : 'Formación',
       subtitle: team.name,
       icon: texKey.emblem(team.id),
-      back: this.halftime ? undefined : { label: 'Menú', onClick: () => this.scene.start('menu') },
+      back: this.halftime ? undefined : { label: this.backLabel(), onClick: () => this.leave() },
       accent,
     });
     if (this.halftime) {
@@ -610,7 +611,7 @@ export class FormationScene extends Phaser.Scene {
     new Button(this, bar.x + 106, by, 'Mejor once', () => this.autoLineup(), { w: 196, h: 66, variant: 'accent', size: 19, icon: '✦' });
     new Button(this, bar.x + bar.w - 152, by, this.halftime ? '¡2ª parte!' : '¡A jugar!', () => this.play(), { w: 290, h: 72, variant: 'primary', size: 28 });
 
-    this.input.keyboard?.on('keydown-ESC', () => (this.sheet ? this.closeSheet() : this.formationList ? this.closeFormationList() : !this.halftime && this.scene.start('menu')));
+    this.input.keyboard?.on('keydown-ESC', () => (this.sheet ? this.closeSheet() : this.formationList ? this.closeFormationList() : !this.halftime && this.leave()));
     this.input.keyboard?.on('keydown-ENTER', () => this.play());
     this.layoutTokens();
   }
@@ -874,6 +875,19 @@ export class FormationScene extends Phaser.Scene {
     }
     this.scene.start('match', { home: this.home, away: this.away });
   }
+
+  /** Fuera de la formación: al menú de equipos o, en un partido de la historia, a su ruta. */
+  private leave(): void {
+    const story = this.registry.get(STORY_REGISTRY) as StoryMatch | undefined;
+    if (story) {
+      this.registry.remove(STORY_REGISTRY);
+      this.scene.start('story', { team: story.team });
+    } else this.scene.start('menu');
+  }
+
+  private backLabel(): string {
+    return this.registry.get(STORY_REGISTRY) ? 'Historia' : 'Menú';
+  }
 }
 
 /** Brazalete de capitán: una "C" en un círculo amarillo. */
@@ -882,4 +896,5 @@ function captainBadge(scene: Phaser.Scene, x: number, y: number, r: number): Pha
   const g = scene.add.graphics().fillStyle(THEME.yellow).fillCircle(0, 0, r).lineStyle(Math.max(1.5, r / 6), 0x000000, 0.6).strokeCircle(0, 0, r);
   b.add([g, text(scene, 0, 0, 'C', Math.round(r * 1.25), THEME.ink, { fontStyle: 'bold', strokeThickness: 0 }).setOrigin(0.5)]);
   return b;
+
 }

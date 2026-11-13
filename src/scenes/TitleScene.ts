@@ -39,6 +39,7 @@ export class TitleScene extends Phaser.Scene {
   private items: { box: Phaser.GameObjects.Container; draw: (on: boolean) => void }[] = [];
   private prompt?: Phaser.GameObjects.Container;
   private curtain!: Phaser.GameObjects.Rectangle;
+  private bgLayer!: Phaser.GameObjects.Container;
 
   constructor() {
     super('title');
@@ -51,10 +52,14 @@ export class TitleScene extends Phaser.Scene {
     this.items = [];
     this.sel = 0;
     music.play('menu');
+    // lo que no se mueve (cielo, gradas con el público, torres de focos, césped) se dibuja una vez en una sola imagen:
+    // como miles de formas sueltas se redibujaban en cada fotograma y la pantalla iba a trompicones
+    this.bgLayer = this.make.container({ x: 0, y: 0 }, false);
     this.sky();
     this.stands();
     this.floodlights();
     this.pitch();
+    this.bake();
     this.heroes();
     this.logo();
     this.footer();
@@ -75,20 +80,38 @@ export class TitleScene extends Phaser.Scene {
 
   // ------------------------------------------------------------------ fondo
 
+  /** Un gráfico del fondo fijo (va a la imagen de bake). */
+  private bgGraphics(): Phaser.GameObjects.Graphics {
+    const g = this.make.graphics({}, false);
+    this.bgLayer.add(g);
+    return g;
+  }
+
+  /** Pasa el fondo fijo a una imagen, a la resolución real de la pantalla (la cámara amplía el juego RES veces). */
+  private bake(): void {
+    const res = this.cameras.main.zoom || 1;
+    const rt = this.add.renderTexture(0, 0, Math.ceil(GAME_W * res), Math.ceil(GAME_H * res)).setOrigin(0).setScale(1 / res).setDepth(-10);
+    this.bgLayer.setScale(res);
+    rt.draw(this.bgLayer, 0, 0);
+    this.bgLayer.destroy(true);
+  }
+
   private get horizon(): number {
     return PORTRAIT ? GAME_H * 0.6 : GAME_H * 0.56;
   }
 
   private sky(): void {
-    const g = this.add.graphics();
+    const g = this.bgGraphics();
     g.fillGradientStyle(0x050b18, 0x050b18, 0x0d2244, 0x0d2244, 1).fillRect(0, 0, GAME_W, this.horizon);
     glow(g, GAME_W / 2, this.horizon - 40, GAME_W * 0.55, 0x2f7bff, 0.12);
+    // halo dorado detrás del logo
+    glow(g, GAME_W / 2, PORTRAIT ? 190 : 112, PORTRAIT ? 250 : 360, THEME.yellow, 0.1);
   }
 
   /** Gradas: bandas oscuras con siluetas de público y flashes de cámaras que se encienden al azar. */
   private stands(): void {
     const top = this.horizon - (PORTRAIT ? 230 : 190);
-    const g = this.add.graphics();
+    const g = this.bgGraphics();
     for (let i = 0; i < 4; i++) {
       const y = top + i * ((this.horizon - top) / 4);
       g.fillStyle(i % 2 ? 0x0a1426 : 0x0c1830, 1).fillRect(0, y, GAME_W, (this.horizon - top) / 4 + 1);
@@ -105,7 +128,7 @@ export class TitleScene extends Phaser.Scene {
     const ad = this.horizon - 16;
     g.fillGradientStyle(0x1a3a7a, 0x7a1a3a, 0x1a3a7a, 0x7a1a3a, 1).fillRect(0, ad, GAME_W, 16);
     g.lineStyle(2, 0xffd23f, 0.8).lineBetween(0, ad, GAME_W, ad);
-    for (let x = 30; x < GAME_W; x += 220) label(this, x, ad + 8, 'INAMATCH  ⚡  INAZUMA ELEVEN', 10, '#ffffff', { fontStyle: 'bold' }).setOrigin(0, 0.5).setAlpha(0.6);
+    for (let x = 30; x < GAME_W; x += 220) this.bgLayer.add(label(this, x, ad + 8, 'INAMATCH  ⚡  INAZUMA ELEVEN', 10, '#ffffff', { fontStyle: 'bold' }).setOrigin(0, 0.5).setAlpha(0.6));
     // flashes
     for (let i = 0; i < (PORTRAIT ? 18 : 30); i++) {
       const f = this.add.circle(0, 0, 2.5, 0xffffff, 0).setBlendMode(Phaser.BlendModes.ADD);
@@ -122,7 +145,7 @@ export class TitleScene extends Phaser.Scene {
     const towers = PORTRAIT ? [60, GAME_W - 60] : [130, GAME_W - 130];
     const y = this.horizon - (PORTRAIT ? 250 : 215);
     towers.forEach((x, i) => {
-      const g = this.add.graphics();
+      const g = this.bgGraphics();
       glow(g, x, y, 160, 0xfff4cf, 0.22);
       g.fillStyle(0x0a1020, 1).fillRect(x - 36, y - 16, 72, 26);
       for (let k = 0; k < 4; k++) g.fillStyle(0xfffbe8, 1).fillCircle(x - 27 + k * 18, y - 3, 6);
@@ -136,7 +159,7 @@ export class TitleScene extends Phaser.Scene {
 
   /** Césped en perspectiva, con franjas y las líneas del centro del campo. */
   private pitch(): void {
-    const g = this.add.graphics();
+    const g = this.bgGraphics();
     const top = this.horizon;
     const bottom = GAME_H;
     const cx = GAME_W / 2;
@@ -201,9 +224,6 @@ export class TitleScene extends Phaser.Scene {
     const y = PORTRAIT ? 190 : 112;
     const size = PORTRAIT ? 96 : 132;
     const c = this.add.container(GAME_W / 2, y).setDepth(20);
-    const halo = this.add.graphics();
-    glow(halo, 0, 0, PORTRAIT ? 250 : 360, THEME.yellow, 0.1);
-    c.add(halo);
     const style = { fontFamily: DISPLAY, fontSize: `${size}px`, color: '#ffd23f' };
     // sombra profunda, contorno oscuro y relleno dorado en degradado
     const shadow = this.add.text(5, 9, 'INAMATCH', { ...style, color: '#000000' }).setOrigin(0.5).setAlpha(0.55).setLetterSpacing(4);
@@ -216,13 +236,24 @@ export class TitleScene extends Phaser.Scene {
     grad.addColorStop(1, '#c9780c');
     title.setFill(grad);
     c.add([shadow, outline, title]);
-    // destello que recorre las letras: va fuera del contenedor, recortado con una copia del rótulo en su sitio del mundo
-    // (la máscara de un objeto dentro de un contenedor no sigue la posición del contenedor)
-    const maskText = this.make.text({ x: GAME_W / 2, y, text: 'INAMATCH', style: { ...style, stroke: '#ffffff', strokeThickness: Math.round(size / 26) }, add: false }).setOrigin(0.5).setLetterSpacing(4);
-    const shine = this.add.graphics({ x: GAME_W / 2 - title.width, y }).setBlendMode(Phaser.BlendModes.ADD).setDepth(21);
-    shine.fillStyle(0xffffff, 0.55).fillPoints([pt(-18, -size), pt(18, -size), pt(-22, size), pt(-58, size)], true);
-    shine.setMask(maskText.createBitmapMask());
-    this.tweens.add({ targets: shine, x: GAME_W / 2 + title.width, duration: 900, delay: 1400, repeat: -1, repeatDelay: 3200, ease: 'Sine.InOut' });
+    // destellos que saltan en las letras de vez en cuando (sin máscaras: son caras de dibujar en cada fotograma)
+    const star = this.add.graphics().setBlendMode(Phaser.BlendModes.ADD);
+    const r = size * 0.22;
+    star.fillStyle(0xffffff, 1).fillPoints([pt(0, -r), pt(r * 0.16, -r * 0.16), pt(r, 0), pt(r * 0.16, r * 0.16), pt(0, r), pt(-r * 0.16, r * 0.16), pt(-r, 0), pt(-r * 0.16, -r * 0.16)], true);
+    star.setScale(0).setAlpha(0.9);
+    c.add(star);
+    const spots = [
+      [title.width * 0.42, -size * 0.3],
+      [-title.width * 0.2, -size * 0.32],
+      [title.width * 0.12, size * 0.28],
+    ];
+    let k = 0;
+    const twinkle = () => {
+      const [sx, sy] = spots[k++ % spots.length];
+      star.setPosition(sx, sy).setScale(0).setAngle(0);
+      this.tweens.add({ targets: star, scale: 1, angle: 90, duration: 260, yoyo: true, ease: 'Sine.Out', onComplete: () => this.time.delayedCall(1600, twinkle) });
+    };
+    this.time.delayedCall(1300, twinkle);
     // el rayo, a la izquierda
     const bolt = this.add.graphics();
     const bs = size / 44;
@@ -230,7 +261,6 @@ export class TitleScene extends Phaser.Scene {
     c.add(bolt);
     c.setScale(1.6).setAlpha(0);
     this.tweens.add({ targets: c, scale: 1, alpha: 1, duration: 650, ease: 'Cubic.Out', delay: 150 });
-    this.tweens.add({ targets: halo, alpha: 0.4, duration: 1800, yoyo: true, repeat: -1, ease: 'Sine.InOut' });
   }
 
   private footer(): void {
